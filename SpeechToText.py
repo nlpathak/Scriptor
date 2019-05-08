@@ -1,15 +1,22 @@
 ##
 # Remember to set "GOOGLE_APPLICATION_CREDENTIALS" in current session. 
 # <export GOOGLE_APPLICATION_CREDENTIALS="/home/nikhilpathak/CSE110/*.json">
+# <export GOOGLE_APPLICATION_CREDENTIALS="/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/*.json">
 # This code is heavily based on https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9 and Google Tutorials
+# Requires sox audio converter
 ##
 
 
+# Change environment variables depending on whoever is using the API on their local machine
 
-AUDIOFILENAME = "DeepLearning.wav"
-PATHTOAUDIOFILE = "/home/nikhilpathak/CSE110/Scriptor/PodcastAudios/" 
-BUCKETNAME = "audiofilesscriptor"
+#AUDIOFILENAME = "DeepLearning.wav"
+#PATHTOAUDIOFILE = "/home/nikhilpathak/CSE110/Scriptor/PodcastAudios/" 
+#BUCKETNAME = "audiofilesscriptor"
 
+AUDIOFILENAME = "speech.mp3"
+AUDIOFILEOUTPUT = "speech.flac"
+PATHTOAUDIOFILE = "/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/resources/" 
+BUCKETNAME = "scriptor"
 
 
 # Import libraries
@@ -22,6 +29,7 @@ from google.cloud.speech import types
 import wave
 from google.cloud import storage
 
+######### currently not using these three functions ###########
 def mp3_to_wav(audio_file_name):
     if audio_file_name.split('.')[1] == 'mp3':    
         sound = AudioSegment.from_mp3(audio_file_name)
@@ -38,6 +46,8 @@ def frame_rate_channel(audio_file_name):
         frame_rate = wave_file.getframerate()
         channels = wave_file.getnchannels()
         return frame_rate,channels
+
+###############################################################
 
 def upload_blob(bucket_name, source_file_name, destination_blob_name):
     """Uploads a file to the bucket."""
@@ -56,32 +66,29 @@ def delete_blob(bucket_name, blob_name):
     blob.delete()
 
 audio_file_name = AUDIOFILENAME
+audio_file_output = AUDIOFILEOUTPUT
 
-file_name = PATHTOAUDIOFILE + audio_file_name
-mp3_to_wav(file_name)
+file_name = PATHTOAUDIOFILE + audio_file_output
 
-# The name of the audio file to transcribe
-    
-frame_rate, channels = frame_rate_channel(file_name)
-    
-if channels > 1:
-    stereo_to_mono(file_name)
     
 bucket_name = BUCKETNAME
 source_file_name = PATHTOAUDIOFILE + audio_file_name
-destination_blob_name = audio_file_name
+output_file_name = PATHTOAUDIOFILE + audio_file_output
+destination_blob_name = audio_file_output
+
+os.system("sox " + source_file_name + " --rate 16k --bits 16 --channels 1 " + output_file_name)
     
-upload_blob(bucket_name, source_file_name, destination_blob_name)
+upload_blob(bucket_name, output_file_name, destination_blob_name)
    
-gcs_uri = 'gs://' + bucket_name + '/' + audio_file_name
+gcs_uri = 'gs://' + bucket_name + '/' + audio_file_output
 transcript = ''
     
 client = speech.SpeechClient()
 audio = types.RecognitionAudio(uri=gcs_uri)
 
 config = types.RecognitionConfig(
-encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-sample_rate_hertz=frame_rate,
+encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
+sample_rate_hertz=16000,
 language_code='en-US',
 enable_word_time_offsets=True)
 
