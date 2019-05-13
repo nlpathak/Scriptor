@@ -3,8 +3,10 @@ body {
     font-family: Heiti SC, sans-serif;
 }
   
+/*** Navbar ***/
+
 .navbar {
-    position:fixed;
+    top: 0;
     width: 100%;
     overflow: hidden;
     background-color: rgba(72,136,163,.93);
@@ -19,18 +21,18 @@ body {
     cursor: default;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
   
-li {
+.navbar li {
     float: right;
 }
   
-li a {
+.navbar li a {
     display: block;
     padding: 16px 22px;
     text-decoration: none;
@@ -39,8 +41,37 @@ li a {
     text-align: center;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: none;
     background-color: rgba(255,255,255,1);
     color: rgba(72,136,163,.93);
+}
+
+/*** Search Form ***/
+
+.searchbar {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    width: 1000px;
+    max-width: 50%;
+    text-align: center;
+    outline: none;
+}
+
+.title {
+    font-size: 80px;
+    color: rgba(72,136,163,.93);
+    margin-bottom: 30px;
+}
+
+
+/*** Buttons ***/
+
+.button_fat {
+    background-color: rgba(72,136,163,.93);
+    color: rgba(255,255,255,1);
+    border: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-top: 20px;
 }

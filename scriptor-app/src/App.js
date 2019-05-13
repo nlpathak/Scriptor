@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
 import Navbar from './components/Navbar.js';
+import Search from './components/Search.js'
+import './App.css';
 
 function App() {
   return (
     <div>
-        <Navbar/>
+      <Navbar />
+      <div className="parent">
+        <Search />
+      </div>
     </div>
   );
 }
