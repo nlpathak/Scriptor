@@ -1,1 +1,9 @@
 Scriptor
+
+
+SpeechToText.py:
+Remember to set "GOOGLE_APPLICATION_CREDENTIALS" in current session. 
+    - <export GOOGLE_APPLICATION_CREDENTIALS="/PATH/TO/JSON/CREDENTIALS>
+Requires sox installation
+    - <sudo apt-get install sox>
+    - <sudo apt-get install libsox-fmt-all>
