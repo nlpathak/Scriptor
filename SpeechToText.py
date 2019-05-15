@@ -1,22 +1,24 @@
 ##
 # Remember to set "GOOGLE_APPLICATION_CREDENTIALS" in current session. 
-# <export GOOGLE_APPLICATION_CREDENTIALS="/home/nikhilpathak/CSE110/*.json">
+# <export GOOGLE_APPLICATION_CREDENTIALS="/home/nikhilpathak/CSE110/Scriptor-c224a4acbb7a.json">
 # <export GOOGLE_APPLICATION_CREDENTIALS="/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/*.json">
-# This code is heavily based on https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9 and Google Tutorials
-# Requires sox audio converter
+# Requires sox ("sudo apt-get install sox" + "sudo apt-get install libsox-fmt-all")
+#
+# Citation: This code is heavily reliant upon https://towardsdatascience.com/how-to-use-google-speech-to-text-api-to-transcribe-long-audio-files-1c886f4eb3e9 and Google Tutorials
 ##
 
 
 # Change environment variables depending on whoever is using the API on their local machine
+AUDIOFILENAME = "WhatisQ.mp3"
+AUDIOFILEOUTPUT = "WhatisQ.flac"
+PATHTOAUDIOFILE = "/home/nikhilpathak/CSE110/Scriptor/PodcastAudios/" 
+BUCKETNAME = "audiofilesscriptor"
+NUMBEROFWORDSPERBLURB = 70
 
-#AUDIOFILENAME = "DeepLearning.wav"
-#PATHTOAUDIOFILE = "/home/nikhilpathak/CSE110/Scriptor/PodcastAudios/" 
-#BUCKETNAME = "audiofilesscriptor"
-
-AUDIOFILENAME = "speech.mp3"
-AUDIOFILEOUTPUT = "speech.flac"
-PATHTOAUDIOFILE = "/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/resources/" 
-BUCKETNAME = "scriptor"
+#AUDIOFILENAME = "speech.mp3"
+#AUDIOFILEOUTPUT = "speech.flac"
+#PATHTOAUDIOFILE = "/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/resources/" 
+#BUCKETNAME = "scriptor"
 
 
 # Import libraries
@@ -28,26 +30,6 @@ from google.cloud.speech import enums
 from google.cloud.speech import types
 import wave
 from google.cloud import storage
-
-######### currently not using these three functions ###########
-def mp3_to_wav(audio_file_name):
-    if audio_file_name.split('.')[1] == 'mp3':    
-        sound = AudioSegment.from_mp3(audio_file_name)
-        audio_file_name = audio_file_name.split('.')[0] + '.wav'
-        sound.export(audio_file_name, format="wav")
-
-def stereo_to_mono(audio_file_name):
-    sound = AudioSegment.from_wav(audio_file_name)
-    sound = sound.set_channels(1)
-    sound.export(audio_file_name, format="wav")
-
-def frame_rate_channel(audio_file_name):
-    with wave.open(audio_file_name, "rb") as wave_file:
-        frame_rate = wave_file.getframerate()
-        channels = wave_file.getnchannels()
-        return frame_rate,channels
-
-###############################################################
 
 def upload_blob(bucket_name, source_file_name, destination_blob_name):
     """Uploads a file to the bucket."""
@@ -87,35 +69,56 @@ client = speech.SpeechClient()
 audio = types.RecognitionAudio(uri=gcs_uri)
 
 config = types.RecognitionConfig(
-encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
-sample_rate_hertz=16000,
-language_code='en-US',
-enable_word_time_offsets=True)
+        encoding=enums.RecognitionConfig.AudioEncoding.FLAC,
+        sample_rate_hertz=16000,
+        language_code='en-US',
+        enable_word_time_offsets=True, 
+        enable_automatic_punctuation=True)
 
 operation = client.long_running_recognize(config, audio)
 response = operation.result(timeout=10000)
 
 blurbMap = dict()
-print("Start of Transcription")
 fullTranscript = ''
+currBlurb = ''
+currStartTime = None
+currEndTime = None
+numWordsInCurrBlurb = 0
 for result in response.results:
     alternative = result.alternatives[0]
     textBlurb = alternative.transcript
-    textBlurbConfidence = alternative.confidence
 
-    fullTranscript += textBlurb
-    print(u'TextBlurb:', textBlurb)
+    fullTranscript += textBlurb + " "
 
-    blurb_info = alternative.words[0]
-    start_time = blurb_info.start_time
-    print("Start Time:", start_time)
+    for wordInfo in alternative.words:
+        word = wordInfo.word
 
-    blurbMap[textBlurb] = start_time
-    print()
-    
-print(blurbMap)
-print()
-print(fullTranscript)
+        if numWordsInCurrBlurb == 0:
+             currStartTime = wordInfo.start_time.seconds + wordInfo.start_time.nanos * 1e-9
+             if currStartTime is None: #first word of video
+                  currStartTime = 0.0
+        
+        currBlurb += word + " "
+        numWordsInCurrBlurb += 1
 
+        currEndTime = wordInfo.end_time.seconds + wordInfo.end_time.nanos * 1e-9
+        if numWordsInCurrBlurb == NUMBEROFWORDSPERBLURB:
+             blurbMap[currBlurb] = (currStartTime, currEndTime)
+        #      print("Blurb:", currBlurb)
+        #      print("Start Time:", currStartTime)
+        #      print("End Time:", currEndTime)
+
+             currBlurb = ''
+             numWordsInCurrBlurb = 0
+
+if numWordsInCurrBlurb != 0:
+     blurbMap[currBlurb] = (currStartTime, currEndTime)
+#      print("Blurb:", currBlurb)
+#      print("Start Time:", currStartTime)
+#      print("End Time:", currEndTime)
+             
+
+#HERE WE HAVE ACCESS TO FULL TRANSCRIPT (fullTranscript) AND DICT (blurbMap) FOR BLURBS OF 70 WORDS TO TUPLE OF (STARTTIME, ENDTIME)
+#EXPORT JSON HERE
 
 delete_blob(bucket_name, destination_blob_name)
