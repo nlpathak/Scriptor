@@ -2,17 +2,20 @@ body {
     margin: 0;
     font-family: Heiti SC, sans-serif;
 }
+
+button:focus {
+    outline: none;
+}
   
 /*** Navbar ***/
 
 .navbar {
     top: 0;
     width: 100%;
-    overflow: hidden;
     background-color: rgba(72,136,163,.93);
 }
   
-.logo {
+.navbar .logo {
     float: left;
     color:rgba(255,255,255,1);
     text-align: center;
@@ -32,46 +35,170 @@ body {
     float: right;
 }
   
-.navbar li a {
+.navbar li button {
     display: block;
     padding: 16px 22px;
     text-decoration: none;
     color: rgba(255,255,255,1);
     font-size: 20px;
     text-align: center;
+    background: none;
+    border: none;
 }
 
-.navbar a:hover {
+.navbar li button:hover {
     text-decoration: none;
     background-color: rgba(255,255,255,1);
     color: rgba(72,136,163,.93);
 }
 
-/*** Search Form ***/
-
-.searchbar {
-    border: 0;
-    border-bottom: 1px solid rgba(0,0,0,.65);
-    width: 1000px;
-    max-width: 50%;
-    text-align: center;
-    outline: none;
+.navbar .outer .close1 {
+    margin-top: -570px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
-.title {
+.navbar .outer .close2 {
+    margin-top: -690px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.navbar .outer .dropdown button {
+    display: block;
+    padding: 16px 22px;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+    text-align: center;
+    background: rgba(72,136,163,.93);
+    border: none;
+    width: 100%;
+}
+
+.navbar .outer .dropdown button:hover {
+    text-decoration: none;
+    background-color: rgba(255,255,255,1);
+    color: rgba(72,136,163,.93);
+}
+
+
+/*** Search ***/
+
+.searchform {
+    max-width: 50%;
+}
+
+.active {
+    margin-top: 10vh;
+}
+
+.searchform .searchbar {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    text-align: center;
+    width: 100%;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.searchform .title {
     font-size: 80px;
     color: rgba(72,136,163,.93);
     margin-bottom: 30px;
 }
 
-
-/*** Buttons ***/
-
-.button_fat {
+.searchform button {
     background-color: rgba(72,136,163,.93);
     color: rgba(255,255,255,1);
     border: none;
     font-size: 24px;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.searchform .filterbar {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.searchform .filters {
+    display: inline;
+    overflow: auto;
+}
+
+.searchform .filters .filterinputs {
+    width: 30%;
+     float: right;
+    margin-right: 10%;
+}
+
+/*** Login | Signup ***/
+
+.navpop {
+    padding: 20px;
+    display: block;
+}
+
+.navpop .header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.navpop h1 {
+    float: left;
+    color:rgba(72,136,163,.93);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    font-size: 40px;
+    cursor: default;
+}
+
+.navpop h2 {
+    float: left;
+    color:rgba(72,136,163,.93);
+    font-size: 20px;
+    cursor: default;
+    margin-bottom: 50px;
+}
+
+.navform .field {
+    width: 100%;
+    overflow: hidden;
+}
+
+.navpop p {
+    float: left;
+}
+
+.navpop .searchbar {
+    float: left;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    width: 100%;
+    text-align: left;
+    color: rgba(72,136,163,.93);
+    outline: none;
+    margin-bottom: 75px;
+}
+
+.navpop button {
+    background-color: rgba(72,136,163,.93);
+    color: rgba(255,255,255,1);
+    border: none;
+    font-size: 24px;
+    width: 100%;
+    padding: 15px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.navpop a {
+    color: rgba(72,136,163,.93);
+    text-decoration: underline;
 }
