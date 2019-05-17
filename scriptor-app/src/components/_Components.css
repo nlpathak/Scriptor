@@ -21,7 +21,9 @@ button:focus {
     text-align: center;
     padding: 10px 16px;
     font-size: 36px;
-    cursor: default;
+    cursor: pointer;
+    background: none;
+    border: none;
 }
 
 .navbar ul {
@@ -107,6 +109,7 @@ button:focus {
     font-size: 80px;
     color: rgba(72,136,163,.93);
     margin-bottom: 30px;
+    cursor: default;
 }
 
 .searchform button {

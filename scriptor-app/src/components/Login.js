@@ -47,7 +47,7 @@ class Login extends Component {
                         onChange={e => this.change(e)} />
                     </div>
 
-                    <button className='center' onClick={e => this.onSubmit(e)}>SIGN UP</button>
+                    <button className='center' onClick={e => this.onSubmit(e)}>LOG IN</button>
                 </form> 
                 <a href='/forgotpass'>Forgot your password?</a>
             </div>

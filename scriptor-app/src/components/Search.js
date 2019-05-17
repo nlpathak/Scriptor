@@ -23,7 +23,8 @@ class Search extends Component {
         }
     }
 
-    onSubmit() {
+    onSubmit(e) {
+        e.preventDefault();
         console.log(this.state);
     }
     
@@ -81,7 +82,7 @@ class Search extends Component {
                     onChange={e => this.change(e)} />
                     <br></br>
                     {filters}
-                    <button className='center' onClick={() => this.onSubmit()}>Submit</button>
+                    <button className='center' onClick={e => this.onSubmit(e)}>Submit</button>
                     
                 </form> 
             </div>
