@@ -9,22 +9,24 @@
 
 
 # Change environment variables depending on whoever is using the API on their local machine
-AUDIOFILENAME = "WhatisQ.mp3"
-AUDIOFILEOUTPUT = "WhatisQ.flac"
-PATHTOAUDIOFILE = "/home/nikhilpathak/CSE110/Scriptor/PodcastAudios/" 
-BUCKETNAME = "audiofilesscriptor"
+#AUDIOFILENAME = "WhatisQ.mp3"
+#AUDIOFILEOUTPUT = "WhatisQ.flac"
+#PATHTOAUDIOFILE = "/home/nikhilpathak/CSE110/Scriptor/PodcastAudios/" 
+#BUCKETNAME = "audiofilesscriptor"
+
 NUMBEROFWORDSPERBLURB = 70
 
-#AUDIOFILENAME = "speech.mp3"
-#AUDIOFILEOUTPUT = "speech.flac"
-#PATHTOAUDIOFILE = "/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/resources/" 
-#BUCKETNAME = "scriptor"
+AUDIOFILENAME = "cse101_c00-05162019-0930.mp3"
+AUDIOFILEOUTPUT = "cse101_c00-05162019-0930.flac"
+PATHTOAUDIOFILE = "/Users/Pranav/CSE110/Scriptor/GoogleSpeechAPI/Scriptor/resources/" 
+BUCKETNAME = "scriptor"
 
 
 # Import libraries
 from pydub import AudioSegment
 import io
 import os
+import json
 from google.cloud import speech
 from google.cloud.speech import enums
 from google.cloud.speech import types
@@ -58,10 +60,13 @@ source_file_name = PATHTOAUDIOFILE + audio_file_name
 output_file_name = PATHTOAUDIOFILE + audio_file_output
 destination_blob_name = audio_file_output
 
+print("Turning MP3 file into FLAC file...")
 os.system("sox " + source_file_name + " --rate 16k --bits 16 --channels 1 " + output_file_name)
     
+print("Uploading to Google Cloud Storage bucket...")
 upload_blob(bucket_name, output_file_name, destination_blob_name)
-   
+
+print("Running Google Speech-To-Text API...")
 gcs_uri = 'gs://' + bucket_name + '/' + audio_file_output
 transcript = ''
     
@@ -120,5 +125,38 @@ if numWordsInCurrBlurb != 0:
 
 #HERE WE HAVE ACCESS TO FULL TRANSCRIPT (fullTranscript) AND DICT (blurbMap) FOR BLURBS OF 70 WORDS TO TUPLE OF (STARTTIME, ENDTIME)
 #EXPORT JSON HERE
+print("Exporting to JSON file...")
+json_out = {}
 
+# Creating json file name
+file_prefix = audio_file_output.split(".")
+json_file = file_prefix[0] + ".json"
+
+# Parsing mp3 file name for metadata
+metadata = audio_file_output.split("_")
+
+class_name = metadata[0]
+section_date_time = metadata[1].split("-")
+
+section = section_date_time[0]
+date = section_date_time[1]
+time_raw = section_date_time[2].split(".")
+time = time_raw[0]
+
+# Create Python Dictionary
+json_out["Class Name"] = class_name
+json_out["Section"] = section
+json_out["Date"] = date
+json_out["Time"] = time
+json_out["Full Transcript"] = fullTranscript
+json_out["Blurbs"] = blurbMap
+
+# Convert from Python Dict to JSON object
+json_data = json.dumps(json_out, indent=4, sort_keys=True)
+
+# Write to .json file
+with open(json_file, 'w') as f:
+	f.write(json_data)
+
+print("Deleting from Google Storage Bucket...")
 delete_blob(bucket_name, destination_blob_name)
