@@ -5,6 +5,7 @@ import Home from './Home.js';
 import About from './About.js';
 import User from './User.js';
 import './App.css';
+import Forgotpass from './Forgotpass.js'
 
 class App extends Component {
     render() {
@@ -15,6 +16,7 @@ class App extends Component {
                     <Route exact path="/" component={Home}/>
                     <Route path="/about" component={About}/>
                     <Route path="/user" component={User}/>
+                    <Route path="/forgotpass" component={Forgotpass}/>
                 </div>
             </Router>
         );

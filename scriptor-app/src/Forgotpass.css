@@ -1,0 +1,54 @@
+.forgotpass {
+    padding: 20px;
+    display: block;
+}
+
+.forgotpass .header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.forgotpass h1 {
+    float: left;
+    color:rgba(72,136,163,.93);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    cursor: default;
+}
+
+.forgotpass .field {
+    width: 100%;
+    overflow: hidden;
+}
+
+.forgotpass p {
+    float: center;
+}
+
+.forgotpass .searchbar {
+    float: center;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    width: 30%;
+    text-align: center;
+    color: rgba(72,136,163,.93);
+    outline: none;
+    margin-bottom: 75px;
+}
+
+.forgotpass button {
+    background-color: rgba(72,136,163,.93);
+    color: rgba(255,255,255,1);
+    border: none;
+    font-size: 24px;
+    width: 30%;
+    padding: 15px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.forgotpass a {
+    color: rgba(72,136,163,.93);
+    text-decoration: underline;
+}

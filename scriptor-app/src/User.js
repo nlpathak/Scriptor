@@ -1,5 +1,6 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import Changepass from './components/Changepass.js'
 import "react-tabs/style/react-tabs.css";
 import './User.css';
 
@@ -18,15 +19,15 @@ function User() {
           </div>
 
           <TabPanel>
-              History not implemented.
+            History not implemented.
           </TabPanel>
           <TabPanel>
             Favorites not implemented.
           </TabPanel>
           <TabPanel>
-            Change password not implemented.
+            <Changepass />
           </TabPanel>
-          </Tabs>
+        </Tabs>
       </div>
     );
   } else {
