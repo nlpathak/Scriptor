@@ -10,15 +10,18 @@ import Forgotpass from './Forgotpass.js'
 class App extends Component {
     render() {
         return (
-            <Router>
-                <Navbar />
-                <div>
-                    <Route exact path="/" component={Home}/>
-                    <Route path="/about" component={About}/>
-                    <Route path="/user" component={User}/>
-                    <Route path="/forgotpass" component={Forgotpass}/>
-                </div>
-            </Router>
+            <div>
+                <link href="https://github.com/jewelzqiu/ChromeFonts/blob/master/css/2yahei.css" rel="stylesheet" type="text/css"/>
+                <Router>
+                    <Navbar/>
+                    <div>
+                        <Route exact path="/" component={Home}/>
+                        <Route path="/about" component={About}/>
+                        <Route path="/user" component={User}/>
+                        <Route path="/forgotpass" component={Forgotpass}/>
+                    </div>
+                </Router>
+            </div>
         );
     }
 }
