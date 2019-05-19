@@ -44,6 +44,7 @@ class Navbar extends Component {
         } else {
             return(
                 <div className='navbar'>
+                    <button className='logo' onClick={e => this.redirect(e, '/')}>SCRIPTOR</button>
                     <div className='logo'>SCRIPTOR</div>
                     <ul className='outer'>
                         <Popup trigger={<li><button>MY ACCOUNT</button></li>} position="bottom center" on="hover" closeOnDocumentClick mouseLeaveDelay={0} mouseEnterDelay={0}
