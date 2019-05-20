@@ -1,0 +1,327 @@
+{
+  "Blurbs": {
+    "+ 1 how did it get to be K plus one is when you Union to rank a vertices and if both of those have at least two to the K and when you Union them, the result has at least to the K plus one. Okay. So this actually gives us a bound on how high the tree can be. Thanks. This is kind of the last thing we'll ": [
+      2817.4,
+      2844.3
+    ],
+    "D and the result is a use find G. The result is e there different leaders. So that means they're in different sets. And now I have to update all of one sets leaders to the other set. So let's just say there all day. c a a a f And so on. Okay questions. You got to update them so that they're all the same leader because the the ": [
+      1960.1,
+      2008.9
+    ],
+    "Haydee b g and then maybe the next one you do is this one BC so then you put B and C together. thanks for this gives you a good idea of how to how to transfer transfer the the figuring out if something creates a cycle into keeping track of vertices by which set there in okay. So this is a this is sort of like a mid-level code. ": [
+      986.8,
+      1018.7
+    ],
+    "Listen to a podcast. Okay, so up to Wednesday's lecture No last Wednesday, yeah. No. What's the cheat sheet? And I'll write it on the think now it's working. at Sturgis Oh, man. All right, I think I'll be okay. Figure out a better way to do this. Okay, let's see, I guess before we begin. Let's talk about the cheat sheet. You are allowed. 1 cited sheet of handwritten ": [
+      1.9,
+      109.9
+    ],
+    "So this down here is it's sort of a it's not a very tight upper bound, right so we can make it a little bit tighter by being a little bit more careful about what our structures are going to be. Okay. So actually you're starting with a very with an empty graph and you're starting to add weights at edges as you go, right and this graph will never ": [
+      761.7,
+      789.0
+    ],
+    "Stop the first one you put that one vertex. Let's give these names. Once you put that one vertex are there will you say that A and B are both connected? Okay. Well, yeah, we'll talk about that in a minute and the other ideas are comments. So you could run browser. Okay, good. You guys are already did this right in your homework, right? You can if I give ": [
+      594.0,
+      634.0
+    ],
+    "This is actually very close to how it looks like in your book so you can use that as a reference. Okay, so we're going to make make the set of each vertex by itself. That's this one. make a set vertex by itself and then we're going to initialize this except this is going to be our output. It's just going to be at the end. It's going to ": [
+      1018.7,
+      1050.6
+    ],
+    "We're going to do it in two different ways. Okay. So what can it do is basically it can manage a a set of objects into disjoint subsets. And so what can it do is basically For each object you can ask what the name of it set is that it belongs to and you can Union two sets. stop Let's think about how would we go about using disjoint ": [
+      850.4,
+      885.0
+    ],
+    "We're going to look at today. It's fast and both things. Right, but it's log fast. It's not constant fast. So that's sort of the idea that any other questions. Okay, let's take a look. So making a set for each vertex. That's just going to take constant time for pervert X, right? Let's just assigning the vertex to its its own leader. Peso 01 pervert X. How long does ": [
+      1661.3,
+      1698.1
+    ],
+    "X is equal to the number of vertices minus one that's going to help us with the runtime analysis also. Okay, so This makes a Vortec this makes it makes sense of makes a Vertex into a set for each vertex. So this is v x how long it takes to do make set. Okay. This thing sorts all the edges. right now how many times am I going to ": [
+      1162.3,
+      1206.4
+    ],
+    "a representative from the set and that represented is the is the name it's the leader. Got a random. Yeah, it's random, but it needs to be the same for everybody in the set. Yeah, I mean maybe you could say that the leader is the first letter in the alphabet in the set. or something Yes. What the leader? The position is it rain next. Yeah. Yeah, so the ": [
+      1542.9,
+      1606.0
+    ],
+    "actor equal then it doesn't really matter. Okay. Thank you for that. Okay, so fine depends on the height of the tree containing X, right and you Union is just basically the same run time as fine. She's just running fine twice and then when you when you point one to the other that just takes constant time. Okay, so let's build some trees here. Okay, so we first start ": [
+      2446.0,
+      2480.7
+    ],
+    "again. I guess I'll just keep as the root. these ones are cerasum Are there any questions about that move? And then you guys can finish off the rest. It's just a kind of give you an idea of how it works. Oh, I should feel this in right now. Okay. Yeah, and then Okay, so just have a few more minutes here. I just want to do a few ": [
+      2626.1,
+      2691.5
+    ],
+    "and homework one, right that's going to take a big O of M. time so you actually need to test it for every Edge. right, cuz every time you put an edge and you have to run the scrap search, so this is on the order of Big O of M squared time where and his number of edges gangster to like a naive way to do it. It's it ": [
+      656.9,
+      695.9
+    ],
+    "are basically you start from whatever vertex you are at and you follow the parents up to the root. okay, so maybe maybe we'll maybe we'll do one more thing here. Sorry. So let's plug in the values here. Make set is going to be now Big O of 1. Find and Union are both log of V. And sorting is elog V. So that means our run time we ": [
+      2875.2,
+      2918.6
+    ],
+    "be a a collection of edges. They sort the edges and increasing order then for every Edge going in the order. You just keep on putting it in until all the edges are in the same set. And the idea here is you're going to use these routines which are find. Remember what fine does it tells you the name of the set that it belongs to so if the ": [
+      1050.6,
+      1076.4
+    ],
+    "by way. If you sort of by weight from smallest to largest, then you can just go into the list and keep on pulling them off right and then for each one test it and then that will take M squared time there any questions about that implementation? It's not the best but it does it does the job. Okay. What is this one that I put? Oh, right. Okay. ": [
+      720.9,
+      761.7
+    ],
+    "call find? Take a few minutes to see if you can figure out what is in the worst-case. How many times am I going to call find you? Talk it over with your neighbor? Oh, oh, oh, yeah, Rich. Okay, what you guys come up with? 2 * right at the very worst, you're going to have to call this line e x and then you have to call fine ": [
+      1206.4,
+      1311.6
+    ],
+    "convenient name. Okay, so we're going to look at them as trees. But how does the computer hold the information? It just actually holds it in two different arrays the parent array and the rank array. Now the rank doesn't actually tell you anything about the structure of the tree. It just gives you a an idea of how long the tree is that's hanging from that vertex and that's ": [
+      2124.9,
+      2150.7
+    ],
+    "d e f and g okay, so they also this is the leader of Ray. They all start off as their own leader. And then you go through the edges in order. So ad is equal to one. So you Union a d so that means in the in this iteration you said both of these leaders to a I could have chosen D2. It doesn't really matter. You just ": [
+      1885.3,
+      1919.4
+    ],
+    "do it. So Suppose there and vertices right I a route of rank login. Has at least and vertices and it's tree a root of any higher rank has at least more than an right. So login is the highest you can possibly have if you have an vertices in your tree with this down. That means all of those operations will only take login time because all those operations ": [
+      2844.3,
+      2875.2
+    ],
+    "each one of these disjoint sets is a tree and an each tree has a route, right and the route is going to be the leader of the set now. Okay. So how does that help us out? How does that make it any better? The idea here is that we're going to keep these tree short so that in order to find the leader. You just have to go ": [
+      2068.1,
+      2092.4
+    ],
+    "exactly. That's just because find is the is there twice? It's just big o a t e x find. Okay good. So just like we did with dijkstra's now we kind of have like a scaffolding of where we can kind of hang different subroutines and we know how fast is going to run based on how fast those subroutines are. Okay, so that's just what we had. Okay, so ": [
+      1407.3,
+      1443.0
+    ],
+    "few things that you can say about trees is that every time you remove an edge from a tree you'll get a disconnected graph. Right? Also, every tree on N vertices always has and -1 edges that's going to be helpful to because we know exactly how how big that's that output set will be And then three in a tree there's always only one path between two nodes and ": [
+      1103.7,
+      1134.6
+    ],
+    "find a liter of C is also a so they both have the same leader. So you just take away that edge and you don't you don't put it in exit out. Okay, how about be? So the leader of B is a the leader of Eazy-E. They both have the same rank. So then you point one to the other in increment. Let's just let's just draw it out ": [
+      2600.1,
+      2626.1
+    ],
+    "for each one. Any questions about that? 2 x e x find well, the very best actually will be v x Because this algorithm. Once you've gotten your tree, so could be like the first V edges would would make your whole tree. Okay, you're so good. How many times are you going to run Union? What is it be minus one? questions about that cuz remember you're only Union ": [
+      1311.6,
+      1369.0
+    ],
+    "get bigger than a tree and a tree has at most and -1 edges. So really every time you run Graph Search on that graph. It really only takes big O of n time write the number of the number of vertices because the graph is going to be very sparse all the time. So that that gives us a tighter bound of n + n * m which is ": [
+      789.0,
+      816.2
+    ],
+    "get is Big O of elog V. Okay, so that's that's better than what is that better than what we had before it's sort of like the same trade-off with how sparse or dense the graph is right is B squared better than elog be kind of depends on Wednesday will look at how to make this a little bit faster under a certain circumstance and then we'll go on ": [
+      2918.6,
+      2945.5
+    ],
+    "gets the job done. You don't really even have to think too hard about how to implement it right and you just take whatever you did from homework 1 and just do it every time you put in a new Edge. Oh, did we go over this? Oh, yeah. Sorry. Okay. We have the answer to both of these questions. To the first question is answered by sorting the edges ": [
+      695.9,
+      720.9
+    ],
+    "going to be important in order to keep the heights of the trees short as you are COC. Okay, so here's kind of an idea of maybe how it would look so here is a bunch of vertices. I put their ranks next to them. And if you notice that their ranks actually correspond to The height of the tree that's below bat for a text. And this is what ": [
+      2150.7,
+      2179.4
+    ],
+    "going to do it? You want to do it in such a way that minimizes the height of the tree? so let's say that I have the root of x here. And the root of why here? And why is a taller tree? What's going to be the best direction that I go? Should I make sure I point the root of x to y or should I point the ": [
+      2263.1,
+      2298.3
+    ],
+    "has ranked 08 has ranked 1 so there's no there's no choice here. You just let a be the parent of be. Okay, that's good. Alright AC is too so same thing. AC sorry wrong one see today like that. Okay, and then BC. So what happens when you do BC when you look at that edge is you you find the the leader of B, which is a you ": [
+      2556.3,
+      2600.1
+    ],
+    "have Union and its little bit more complicated. But let's just go through it really fast. So the first thing you do is you find the root of x you find the root of Y. And then what you what you want to do is point the root of x to the root of Y or the root of Y to the root of x and which way are you ": [
+      2244.5,
+      2263.1
+    ],
+    "have a choice, you can you can choose either one but the height of the tree is going to increase by only one Edge The Edge that connects the two fruits. Talk to Savon run time. We must keep the heights of the trees short. Intro to do this you look at the ranks. That's why we're keeping track of that value is so that we can we can know ": [
+      2329.7,
+      2354.8
+    ],
+    "have in a tree of rank? K k so I claimed that any node of rank K has at least two the caver to season it and it was just do it by induction again a root of rank 0 has one vertex. So that's good. So now let's suppose any root of rank has at least two of the cave vertices. consider a route with Kate of rank k ": [
+      2793.2,
+      2817.4
+    ],
+    "heavy on the union think that's really going to think the thing is going to take the most time. And where it's it's good you're going to see that it's like a lot like what we did for. The Pinery Heat versus the array like one of them is really like fast to look up but then it takes a long time to update. Whereas the other day to structure. ": [
+      1629.4,
+      1661.3
+    ],
+    "here are the subroutines again and I just kind of summarize what we found so makes it basically creates a set with one element find you out put the name of the set that you belongs to and Union merges the sets containing u and v and then this is the run time. Okay good. So the first Disjoint set data structure. That's what this stands for disjoint. Set data ": [
+      1443.0,
+      1477.6
+    ],
+    "how do you one way to get that path is to just run DFS on the tree? Okay, so did I make that I make this same thing again? Oh, yeah. So now instead of saying do this over and over again until the the set of connected really, all we have to do is put a bow non, how big acts can get? Okay. So just do this until ": [
+      1134.6,
+      1162.3
+    ],
+    "implement crystals. Okay at this level I just want you to describe what the data structure will do not actually how to do it. But what are the sort of things that are necessary to look for? Okay. Ready go. And just the kind of help you along the way these are sort of the questions. I want you to think about. How do we know which Edge has the ": [
+      431.3,
+      458.2
+    ],
+    "in the worst case you have Half of your vertices are of one and half of them around of another leader. So when you Union them you have to update half of the half of the vertices to make them all the same thing. Yeah, and so V / 2 is Big O of B, right? So no, that's not it. That's not a dumb question. How do you know ": [
+      1793.0,
+      1827.7
+    ],
+    "in things when you're putting an edge into your output and Since your output is a tree you only have to put Envy -1 edges. was that b - 1 so that comes from this. Is that we're going to run this Loop? Until ex has the size V minus one because when when that going to happens when that happens, you know that your graph is a tree. Yeah, ": [
+      1369.0,
+      1407.3
+    ],
+    "increase Okay. So what are the run times here will make set is big old one / / vertex and find really it depends on the height of the tree right question. That's a typo. Yeah, I think. shoes Toriko rank X is bigger than rank why you want to make The parent of Ry RX so that one's right. Otherwise, this one's wrong. otherwise RX should be r y ": [
+      2374.8,
+      2438.9
+    ],
+    "is is holding a lot of anticipation for the correctness proof of prims algorithm. We're not going to get to it today. But just wait and we'll we'll do it on what's today. Maybe we might not do it on Wednesday, but we'll start talking about it. The reason that we haven't done it yet is because I want to present to you a Amor sort of structural structured way ": [
+      175.3,
+      207.3
+    ],
+    "it take to do find? Well, like individually for a particular vertex. How long does it take to Cognac it takes two. Ask for what is it leaders just constant time right? Cuz this is just an erase. This is constant. This is good. How long does it take to Union? Right. So in the worst case is Big O of Big Love V in the worst-case, right? Okay, so ": [
+      1698.1,
+      1745.5
+    ],
+    "let's look at another algorithm prims algorithm is actually a greedy algorithm and we'll talk about what that means today in more detail, but we're going to do I'm much more direct greedy Choice. Okay, so we're trying to find the minimum spanning tree. So let's just pick the first greedy Choice with the first choice of an edge to make this the minimum spanning tree queso. The first edge ": [
+      232.5,
+      258.5
+    ],
+    "lightest Edge for one? And for two, how do we know that that particular Edge does not create a cycle? You want this chair? This is for my jacket. Has anybody have any ideas they like to share? We have a priority queue for the lightest Edge. Okay, that's fine. disconnected map Okay, there's going to be a problem there though. What happens if you have a graph like this? ": [
+      458.2,
+      584.9
+    ],
+    "my cycle Okay, so let's go kind of a little bit lower. Well, this is sort of the same thing. Giving your graph with positive Edge weight start with only the vertices repeat until the graph is connected. Add to lightest Ash is not critical. So what I want you guys to do now is talk about what kind of things will we need in a day to structure to ": [
+      406.4,
+      431.3
+    ],
+    "name of the set of V is the same as the name of set of you than they're connected if they're not then add the edge 2X and Union the two sets. Okay, so backed up some facts about the trees that might help us later on. Okay. So what is a tree we're talking about undirected graphs? It's a it's a undirected connected graph with no Cycles. So a ": [
+      1076.4,
+      1103.7
+    ],
+    "needs to be the same. And all these guys stay the same. The next one is eg? That's one. Basically, what we're going to do is say Find E-Z find G is G there different. So Union them. So then we have a b c a e f e e. Okay, so then let's say we do this one next. Weconnect D&G. So the first thing we ask is find ": [
+      1919.4,
+      1960.1
+    ],
+    "notes for the quiz the quiz coverage quiz one will cover. What was the lecture on Wednesday? That was the one two three four, five six, seven eight. No cuz we had at holiday 7. one through seven lectures any questions Yeah, just a sheet of paper. Okay. So let's continue along this thing with the minimum spanning trees. We saw prim's algorithm last time and I know that everybody ": [
+      112.4,
+      175.3
+    ],
+    "now if I have a vertex of rank Kate plus one, the only way that it could have been Kate plus one is if it were K before and then you Union did it with another tree of hike k And so when that happens you get the hype K plus one extra Edge. Straw little picture about that. I think they'll be helpful. Okay, so if I have this ": [
+      2718.5,
+      2757.0
+    ],
+    "of going to pick is the lightest Thanks, so that's one. Okay, so I'm first going to pick one. All right. So in a greedy algorithm you just keep on picking the quote-unquote greedy choice. So I'm going to pick the next lightest Ash which is going to be well, I have a choice here. So let's just pick both of them. Okay. okay, so then we keep on going ": [
+      258.5,
+      293.2
+    ],
+    "one of these would take? Okay. Let me know if you have questions if you have questions on how it works, but just think about it as like at the beginning every vertex is its own leader. And then as you start Union in things you have to update their array values to be the actual name of the set ready go. Yeah, so every set every disjoint set has ": [
+      1508.3,
+      1542.9
+    ],
+    "proofs on properties of these ranks. Okay. So first of all, the ranks actually correspond to the heights of the trees, let's just proved it real fast. Okay. So the base case a Vertex by itself has rank 0 the height of his tree has zero. So that's fine. So, let's suppose that every vertex of rank K has a tree of height ke rang hanging from it. Okay. So ": [
+      2691.5,
+      2718.5
+    ],
+    "root of y 2x? Which one should be the parent? Why right because if if the Y tree is actually bigger than if I point x2y like that. I really haven't made the tree any any taller. You just added one extra Edge. What the only way that the tree can actually get taller? Right. If you add two trees of the same size then you know, you don't really ": [
+      2298.3,
+      2329.7
+    ],
+    "sets when we were when we doing this algorithm. I can't wait. Let me just look at this real fast. I think that's a good place to do the example. Okay. Cars Land Okay, so let's look at what this looks like just using sets right? We're kind of abstracting it and then we'll go down to how do you how do you implement it? Okay. So the first thing ": [
+      885.0,
+      928.1
+    ],
+    "smallest weight Edge. with the restriction that it does not create a cycle. Okay good. So that means that edges out. So I'll pick a 4 but not this for I'll pick this for here. And I'm done. Actually, that's all I need. When do you know you're done? Well, we'll talk about that two more kind of rules about trees. Okay, so we pick those all okay. so I ": [
+      324.8,
+      372.1
+    ],
+    "so we tried it for better. Why continue what we want to optimize it for other uses as well. So and I think that it's kind of fun to kind of keep on trying to get better and better. Okay. So version 2 is Union by rank or you may have seen it as Union find I think you guys did it in 1/100 in the idea here is that ": [
+      2047.1,
+      2068.1
+    ],
+    "still not great. But at least you know, you get a better sense. You got two more tighter. Worst case scenario. Okay. All right. So let's talk about the disjoint sets data structure. So this is is another way to implement it and just like priority queue. We're going to think about the disjoint set data structure as a concept and think about a few different ways to implement it. ": [
+      816.2,
+      850.4
+    ],
+    "structure. The reason why I'm going to call the leader, okay, and this is how it works. For each vertex. You keep an array called leader. And the leader is one of the One representative from the set guy. So each set has a representative and that's the name of the set. Okay, so I want you guys to think about how would you implement this and how long each ": [
+      1477.6,
+      1508.3
+    ],
+    "the computer will store it'll just or two arrays. One of them is going to be the rank array and the others apparent array. So all those kind of things will be constant time if you want to update the information. Okay, so These are these are just right out of the book make the set. All you do is set the parent to be itself and set the rank ": [
+      2179.4,
+      2206.6
+    ],
+    "the height of the tree very quickly you can you can ask for that income. What's the time? So if one is bigger than the other you point it to the parent if the ranks are equal than than actually increments the rank of the new route by one and it points the smaller to the bigger does the only way that rent can increase only way that we can ": [
+      2354.8,
+      2374.8
+    ],
+    "the leader. That's the first letter in the alphabet of the set or anything like that. Either way. It's going to take time to update whichever way you you choose. Okay, so this is good. This is Big O V squared. I want to just kind of give you a sense of of how it's going to work for just a few iterations. Okay, so we have a b c ": [
+      1854.9,
+      1885.3
+    ],
+    "the next light is Edge is this three-year right But there's also this three. Would it be wise for me to pick that one? No, because it creates a cycle. So now we have to kind of tweaked or definition of what are greedy choice is don't just keep on picking the lightest Edge without looking right pick only the lightest Edge if it doesn't make a cycle hit the ": [
+      293.2,
+      324.8
+    ],
+    "the strength of this is that I can call up the leader value and constant time. So now if you ask me are Are D&G connected I can just say OK Dee's leaders egg and cheese leaders are yes, they're connected cuz it's the same. So for that reason you want to update them all. Okay, let's move on to another data structure. This is just what we did. Okay, ": [
+      2008.9,
+      2047.1
+    ],
+    "then the total time of of the leader will be well, let's just pull up this something here. We have v x big of 1 + 2 x e x Big Love 1 + V - 1 x v Plus elog e okay, so the thing that kind of Dominates here is the Big O of V squared. Craigslist better than what we had before, right? questions about that so ": [
+      1745.5,
+      1793.0
+    ],
+    "to be zero case. It'll just take constant time per for Texas. That's good. I find this basically just means you follow your parents up to the root and you know, you're at the route because the parent of the route is it sell fish. Let's just say that follow parents. until you get to route. output Because the route is the name of the set. Okay, and then we ": [
+      2206.6,
+      2244.5
+    ],
+    "to how to prove these correct. Can you see San Diego podcast? ": [
+      2945.5,
+      2962.0
+    ],
+    "to prove greedy algorithms. And with that you can prove almost any greedy algorithm using this sort of step by step process to all of you guys who are kind of struggling through how to prove these algorithms that you're doing on homework. The crews are going to the proofs are now going to be more structured because we're going to be building algorithms that have similar structures. Okay. So ": [
+      207.3,
+      232.5
+    ],
+    "to the other. I guess it does if you're following the pseudocode, but it doesn't really make too much of a difference is let's say that let's say a is the route now Okay, good. Alright, the next one is eg. So let's take off. These are my screen. EG would be I guess he like this. Mg0, okay. Next one is a b or take that one now be ": [
+      2518.8,
+      2556.3
+    ],
+    "tree of heike And this tree is also a hike k. When I point this over there, then I have the height of that Edge Plus the whole K. So now this vertex has height. k + 1 so there you have it. That's it. That's just Okay, so that's good. Let's do one more little proof here that has to do with how many vertices can you expect to ": [
+      2757.0,
+      2793.2
+    ],
+    "up the tree until you find the route and if the trees are short enough then that operation will be quick. So let's look at how it works. So the vertices on the trees are the elements of the set in each vertex to its parent that eventually points to the root the root points to itself. So that's how you know, it's the leader and the route is the ": [
+      2092.4,
+      2124.9
+    ],
+    "vertices are always just let's just say they're ordered in alphabetical order. So like yeah, there's like a fixed order of the vertices. So if I want like what's the leader of vertex W then I just go down to like the 20th. Thing and I can pull it up. So you're going to see that find you actually takes constant time. Yeah. This one is going to be like ": [
+      1606.0,
+      1629.4
+    ],
+    "want you guys to think about what is how we're going to implement this algorithm? Okay, so maybe we'll do this example in a minute. So you're sort of a very high level. description start with a graph with only the vertices repeatedly add the next light is as it does not form recycle and then I guess This kind of enough right? Because once you're done any Edgewood for ": [
+      372.1,
+      406.4
+    ],
+    "we have a set a g. And we do it again with A&D so we don't have a by itself anymore. We have a d. And so on. So maybe the next Edge that we see is this too and that sense. What we're going to do next is Union the set that she belongs to end the set that she belongs to and then you get this big set. ": [
+      958.1,
+      985.7
+    ],
+    "which leader to choose and sort of doesn't really matter. I guess if you want you can always if you have Union UV Maybe you take that as I can as like the order matters and so you say okay. I'm going to set all of use vertices to the leader of be when you can just always do it that way. Or you could always say make everybody have ": [
+      1827.7,
+      1854.9
+    ],
+    "with all just all the vertices by themselves. And let's just put their ranks right here. Okay, so let's start this off. Well, remember that we have all of the edges in increasing order. So just go by that so the first one we're going to start with a D that's equal to 1. A & D both have the same rank. So it doesn't matter which one you point ": [
+      2480.7,
+      2518.8
+    ],
+    "you a graph and an edge, you can tell me if it's in a cycle, right? Okay, good. Let's let's think about that first and then we'll try to move our way into more and more efficient ways to do it. Okay. So how do we tell if adding an edge will create a cycle? Well, you can just the naive way to do is just do what you did ": [
+      634.0,
+      656.9
+    ],
+    "you do is you put everybody in a set by itself. And so on right then and you and you order the weights or the or the edges by weight or the first Edge we're going to put in is let's say we put in EG. Okay, we put in that edge. We Union the set that he belongs to to the set that she belongs to okay. So now ": [
+      928.1,
+      958.1
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01282019",
+  "Full Transcript": "Listen to a podcast.  Okay, so  up to Wednesday's lecture  No last Wednesday, yeah.  No.  What's the cheat sheet?  And I'll write it on the think now it's working.  at Sturgis  Oh, man.  All right, I think I'll be okay.  Figure out a better way to do this.  Okay, let's see, I guess before we begin. Let's talk about the cheat sheet.  You are allowed.  1  cited  sheet  of handwritten  notes  for the quiz  the quiz coverage quiz one will cover. What was the lecture on Wednesday? That was the one two three four, five six, seven eight. No cuz we had at holiday 7.  one through seven  lectures  any questions  Yeah, just a sheet of paper.  Okay. So let's continue along this thing with the minimum spanning trees. We saw prim's algorithm last time and I know that everybody is is holding a lot of anticipation for the correctness proof of prims algorithm. We're not going to get to it today. But just wait and we'll we'll do it on what's today.  Maybe we might not do it on Wednesday, but we'll start talking about it. The reason that we haven't done it yet is because I want to present to you a Amor sort of structural structured way to prove greedy algorithms. And with that you can prove almost any greedy algorithm using this sort of step by step process to all of you guys who are kind of struggling through how to prove these algorithms that you're doing on homework. The crews are going to the proofs are now going to be more structured because we're going to be building algorithms that have similar structures.  Okay.  So let's look at another algorithm prims algorithm is actually a greedy algorithm and we'll talk about what that means today in more detail, but we're going to do I'm much more direct greedy Choice. Okay, so we're trying to find the minimum spanning tree. So let's just pick the first greedy Choice with the first choice of an edge to make this the minimum spanning tree queso. The first edge of going to pick is the lightest  Thanks, so that's one. Okay, so I'm first going to pick one.  All right. So in a greedy algorithm you just keep on picking the quote-unquote greedy choice. So I'm going to pick the next lightest Ash which is going to be well, I have a choice here.  So let's just pick both of them.  Okay.  okay, so then we keep on going the next light is Edge is  this three-year  right  But there's also this three.  Would it be wise for me to pick that one?  No, because it creates a cycle. So now we have to kind of tweaked or definition of what are greedy choice is don't just keep on picking the lightest Edge without looking right pick only the lightest Edge if it doesn't make a cycle hit the smallest weight Edge.  with  the restriction  that  it does not create a cycle. Okay good. So that means that edges out. So I'll pick a 4 but not this for I'll pick this for here. And I'm done. Actually, that's all I need.  When do you know you're done? Well, we'll talk about that two more kind of rules about trees. Okay, so we pick those all okay.  so I want you guys to  think about  what is how we're going to implement this algorithm? Okay, so maybe we'll do this example in a minute. So you're sort of a very high level.  description start with a graph with only the vertices repeatedly add the next light is as it does not form recycle and then I guess  This kind of enough right? Because once you're done any Edgewood for my cycle  Okay, so let's go kind of a little bit lower.  Well, this is sort of the same thing.  Giving your graph with positive Edge weight start with only the vertices repeat until the graph is connected.  Add to lightest Ash is not critical. So what I want you guys to do now is talk about what kind of things will we need in a day to structure to implement crystals.  Okay at this level I just want you to describe what the data structure will do not actually how to do it. But what are the sort of things that are necessary to look for? Okay. Ready go.  And just the kind of help you along the way these are sort of the questions. I want you to think about. How do we know which Edge has the lightest Edge for one? And for two, how do we know that that particular Edge does not create a cycle?  You want this chair? This is for my jacket.  Has anybody have any ideas they like to share?  We have a priority queue for the lightest Edge. Okay, that's fine.  disconnected  map  Okay, there's going to be a problem there though.  What happens if you have a graph like this?  Stop the first one you put that one vertex. Let's give these names.  Once you put that one vertex are there will you say that A and B are both connected?  Okay. Well, yeah, we'll talk about that in a minute and the other  ideas are comments.  So you could run browser.  Okay, good. You guys are already did this right in your homework, right? You can if I give you a graph and an edge, you can tell me if it's in a cycle, right?  Okay, good. Let's let's think about that first and then we'll try to move our way into more and more efficient ways to do it.  Okay. So how do we tell if adding an edge will create a cycle? Well, you can just the naive way to do is just do what you did and homework one, right that's going to take a big O of M.  time  so you actually need to test it for every Edge.  right, cuz every time you put an edge and you have to run the scrap search, so this is on the order of  Big O of M squared time where  and his number  of edges  gangster to like a naive way to do it. It's it gets the job done. You don't really even have to think too hard about how to implement it right and you just take whatever you did from homework 1 and just do it every time you put in a new Edge.  Oh, did we go over this? Oh, yeah. Sorry. Okay. We have the answer to both of these questions.  To the first question is answered by sorting the edges by way. If you sort of by weight from smallest to largest, then you can just go into the list and keep on pulling them off right and then for each one test it and then that will take M squared time there any questions about that implementation?  It's not the best but it does it does the job.  Okay.  What is this one that I put?  Oh, right. Okay. So this down here is it's sort of a it's not a very tight upper bound, right so we can make it a little bit tighter by being a little bit more careful about what our structures are going to be. Okay. So actually you're starting with a very with an empty graph and you're starting to add weights at edges as you go, right and this graph will never get bigger than a tree and a tree has at most and -1 edges. So really every time you run Graph Search on that graph.  It really only takes big O of n time write the number of the number of vertices because the graph is going to be very sparse all the time.  So that that gives us a tighter bound of n + n * m which is still not great. But at least you know, you get a better sense.  You got two more tighter. Worst case scenario.  Okay.  All right. So let's talk about the disjoint sets data structure. So this is is another way to implement it and just like priority queue. We're going to think about the disjoint set data structure as a concept and think about a few different ways to implement it. We're going to do it in two different ways. Okay. So what can it do is basically it can manage a a set of objects into disjoint subsets. And so what can it do is basically  For each object you can ask what the name of it set is that it belongs to and you can Union two sets.  stop  Let's think about how would we go about using disjoint sets when we were when we doing this algorithm.  I can't wait. Let me just look at this real fast.  I think that's a good place to do the example.  Okay.  Cars Land  Okay, so let's look at what this looks like just using sets right? We're kind of abstracting it and then we'll go down to how do you how do you implement it?  Okay. So the first thing you do is you put everybody in a set by itself.  And so on right then and you and you order the weights or the or the edges by weight or the first Edge we're going to put in is let's say we put in EG.  Okay, we put in that edge. We Union the set that he belongs to to the set that she belongs to okay. So now we have a set a g.  And we do it again with A&D so we don't have a by itself anymore. We have a d.  And so on.  So maybe the next Edge that we see is this too and that sense. What we're going to do next is Union the set that she belongs to end the set that she belongs to and then you get this big set.  Haydee  b g and then maybe the next one you do is this one BC so then you put B and C together.  thanks for this gives you a good idea of how to how to transfer transfer the the figuring out if something creates a cycle into keeping track of vertices by which set there in  okay.  So this is a this is sort of like a mid-level code. This is actually very close to how it looks like in your book so you can use that as a reference.  Okay, so we're going to make make the set of each vertex by itself. That's this one.  make  a set  vertex by itself  and then we're going to initialize this except this is going to be our output. It's just going to be at the end. It's going to be a a collection of edges. They sort the edges and increasing order then for every Edge going in the order.  You just keep on putting it in until all the edges are in the same set. And the idea here is you're going to use these routines which are find.  Remember what fine does it tells you the name of the set that it belongs to so if the name of the set of V is the same as the name of set of you than they're connected if they're not then add the edge 2X and Union the two sets.  Okay, so backed up some facts about the trees that might help us later on.  Okay. So what is a tree we're talking about undirected graphs? It's a it's a undirected connected graph with no Cycles. So a few things that you can say about trees is that every time you remove an edge from a tree you'll get a disconnected graph. Right? Also, every tree on N vertices always has and -1 edges that's going to be helpful to because we know exactly how how big that's that output set will be  And then three in a tree there's always only one path between two nodes and how do you one way to get that path is to just run DFS on the tree?  Okay, so did I make that I make this same thing again?  Oh, yeah. So now instead of saying do this over and over again until the the set of connected really, all we have to do is put a bow non, how big acts can get? Okay. So just do this until X is equal to the number of vertices minus one that's going to help us with the runtime analysis also.  Okay, so  This makes a Vortec this makes it makes sense of makes a Vertex into a set for each vertex. So this is v x how long it takes to do make set.  Okay.  This thing sorts all the edges.  right  now  how many times am I going to call find?  Take a few minutes to see if you can figure out what is in the worst-case. How many times am I going to call find you? Talk it over with your neighbor?  Oh, oh, oh, yeah, Rich.  Okay, what you guys come up with?  2 * right  at the very worst, you're going to have to call this line e x  and then you have to call fine for each one.  Any questions about that?  2 x e x find  well, the very best actually will be v x  Because this algorithm. Once you've gotten your tree, so could be like the first V edges would would make your whole tree.  Okay, you're so good. How many times are you going to run Union?  What is it be minus one?  questions about that  cuz remember you're only Union in things when you're putting an edge into your output and  Since your output is a tree you only have to put Envy -1 edges.  was that  b - 1  so that comes from this.  Is that we're going to run this Loop?  Until ex has the size V minus one because when when that going to happens when that happens, you know that your graph is a tree.  Yeah, exactly.  That's just because find is the is there twice?  It's just big o a t e x find.  Okay good. So just like we did with dijkstra's now we kind of have like a scaffolding of where we can kind of hang different subroutines and we know how fast is going to run based on how fast those subroutines are. Okay, so that's just what we had.  Okay, so here are the subroutines again and I just kind of summarize what we found so makes it basically creates a set with one element find you out put the name of the set that you belongs to and Union merges the sets containing u and v and then this is the run time.  Okay good. So the first  Disjoint set data structure. That's what this stands for disjoint.  Set data structure.  The reason why I'm going to call the leader, okay, and this is how it works.  For each vertex. You keep an array called leader. And the leader is one of the  One representative from the set guy. So each set has a representative and that's the name of the set. Okay, so I want you guys to think about how would you implement this and how long each one of these would take? Okay. Let me know if you have questions if you have questions on how it works, but just think about it as like at the beginning every vertex is its own leader. And then as you start Union in things you have to update their array values to be the actual name of the set ready go.  Yeah, so every set every disjoint set has a representative from the set and that represented is the is the name it's the leader.  Got a random. Yeah, it's random, but it needs to be the same for everybody in the set.  Yeah, I mean maybe you could say that the leader is the first letter in the alphabet in the set.  or something  Yes.  What the leader?  The position is it rain next.  Yeah.  Yeah, so the vertices are always just let's just say they're ordered in alphabetical order. So like yeah, there's like a fixed order of the vertices. So if I want like what's the leader of vertex W then I just go down to like the 20th.  Thing and I can pull it up. So you're going to see that find you actually takes constant time. Yeah.  This one is going to be like heavy on the union think that's really going to think the thing is going to take the most time.  And where it's it's good you're going to see that it's like a lot like what we did for.  The Pinery Heat versus the array like one of them is really like fast to look up but then it takes a long time to update. Whereas the other day to structure. We're going to look at today. It's fast and both things.  Right, but it's log fast. It's not constant fast. So that's sort of the idea that any other questions.  Okay, let's take a look. So making a set for each vertex. That's just going to take constant time for pervert X, right?  Let's just assigning the vertex to its its own leader. Peso 01 pervert X.  How long does it take to do find?  Well, like individually for a particular vertex. How long does it take to  Cognac it takes two.  Ask for what is it leaders just constant time right? Cuz this is just an erase. This is constant. This is good. How long does it take to Union?  Right. So in the worst case is Big O of  Big Love  V  in the worst-case, right?  Okay, so then the total time of of the leader will be well, let's just pull up this something here. We have v x big of 1 + 2 x e x Big Love 1 + V - 1  x v  Plus  elog e  okay, so the thing that kind of  Dominates here is the Big O of V squared.  Craigslist better than what we had before, right?  questions about that  so in the worst case you have  Half of your vertices are of one and half of them around of another leader. So when you Union them you have to update half of the  half of the vertices  to make them all the same thing. Yeah, and so  V / 2 is Big O of B, right?  So no, that's not it. That's not a dumb question. How do you know which leader to choose and sort of doesn't really matter. I guess if you want you can always if you have Union UV  Maybe you take that as I can as like the order matters and so you say okay. I'm going to set all of use vertices to the leader of be when you can just always do it that way.  Or you could always say make everybody have the leader. That's the first letter in the alphabet of the set or anything like that. Either way. It's going to take time to update whichever way you you choose.  Okay, so this is good. This is Big O V squared.  I want to just kind of give you a sense of of how it's going to work for just a few iterations.  Okay, so we have a b c d e f and g  okay, so they also this is the leader of Ray.  They all start off as their own leader.  And then you go through the edges in order. So ad is equal to one.  So you Union a d  so that means in the in this iteration you said both of these leaders to a  I could have chosen D2. It doesn't really matter. You just needs to be the same.  And all these guys stay the same.  The next one is eg? That's one.  Basically, what we're going to do is say Find E-Z find G is G there different. So Union them.  So then we have a b c a e f e e.  Okay, so then let's say we do this one next.  Weconnect D&G. So the first thing we ask is find D and the result is a use find G. The result is e there different leaders. So that means they're in different sets. And now I have to update all of one sets leaders to the other set.  So let's just say there all day.  c a a a f  And so on.  Okay questions.  You got to update them so that they're all the same leader because the the the strength of this is that I can call up the leader value and constant time. So now if you ask me are  Are D&G connected I can just say OK Dee's leaders egg and cheese leaders are yes, they're connected cuz it's the same. So for that reason you want to update them all.  Okay, let's move on to another data structure.  This is just what we did. Okay, so we tried it for better. Why continue what we want to optimize it for other uses as well. So and I think that it's kind of fun to kind of keep on trying to get better and better. Okay. So version 2 is Union by rank or you may have seen it as Union find I think you guys did it in 1/100 in the idea here is that each one of these disjoint sets is a tree and an each tree has a route, right and the route is going to be the leader of the set now. Okay. So how does that help us out? How does that make it any better?  The idea here is that we're going to keep these tree short so that in order to find the leader. You just have to go up the tree until you find the route and if the trees are short enough then that operation will be quick.  So let's look at how it works.  So the vertices on the trees are the elements of the set in each vertex to its parent that eventually points to the root the root points to itself. So that's how you know, it's the leader and the route is the convenient name.  Okay, so we're going to look at them as trees. But how does the computer hold the information? It just actually holds it in two different arrays the parent array and the rank array. Now the rank doesn't actually tell you anything about the structure of the tree. It just gives you a an idea of how long the tree is that's hanging from that vertex and that's going to be important in order to keep the heights of the trees short as you are COC.  Okay, so here's kind of an idea of maybe how it would look so here is a bunch of vertices. I put their ranks next to them. And if you notice that their ranks actually correspond to  The height of the tree that's below bat for a text.  And this is what the computer will store it'll just or two arrays. One of them is going to be the rank array and the others apparent array. So all those kind of things will be constant time if you want to update the information.  Okay, so  These are these are just right out of the book make the set. All you do is set the parent to be itself and set the rank to be zero case. It'll just take constant time per for Texas. That's good. I find this basically just means you follow your parents up to the root and you know, you're at the route because the parent of the route is it sell fish. Let's just say that follow parents.  until  you get to route.  output  Because the route is the name of the set. Okay, and then we have Union and its little bit more complicated. But let's just go through it really fast. So the first thing you do is you find the root of x you find the root of Y. And then what you what you want to do is point the root of x to the root of Y or the root of Y to the root of x and which way are you going to do it? You want to do it in such a way that minimizes the height of the tree?  so let's say  that I have the root of x here.  And the root of why here?  And why is a taller tree?  What's going to be the best direction that I go? Should I make sure I point the root of x to y or should I point the root of y 2x?  Which one should be the parent?  Why right because if if the Y tree is actually bigger than if I point x2y like that. I really haven't made the tree any any taller.  You just added one extra Edge.  What the only way that the tree can actually get taller?  Right. If you add two trees of the same size then you know, you don't really have a choice, you can you can choose either one but the height of the tree is going to increase by only one Edge The Edge that connects the two fruits.  Talk to Savon run time. We must keep the heights of the trees short.  Intro to do this you look at the ranks. That's why we're keeping track of that value is so that we can we can know the height of the tree very quickly you can you can ask for that income. What's the time?  So if one is bigger than the other you point it to the parent if the ranks are equal than than actually increments the rank of the new route by one and it points the smaller to the bigger does the only way that rent can increase only way that we can increase  Okay. So what are the run times here will make set is big old one / / vertex and find really it depends on the height of the tree right question.  That's a typo.  Yeah, I think.  shoes  Toriko rank X is bigger than rank why you want to make  The parent of Ry RX so that one's right. Otherwise, this one's wrong.  otherwise  RX should be r y  actor equal then it doesn't really matter.  Okay. Thank you for that.  Okay, so fine depends on the height of the tree containing X, right and you Union is just basically the same run time as fine. She's just running fine twice and then when you when you point one to the other that just takes constant time.  Okay, so let's build some trees here.  Okay, so we first start with all just all the vertices by themselves.  And let's just put their ranks right here.  Okay, so let's start this off. Well, remember that we have all of the edges in increasing order. So just go by that so the first one we're going to start with a D that's equal to 1.  A & D both have the same rank. So it doesn't matter which one you point to the other. I guess it does if you're following the pseudocode, but it doesn't really make too much of a difference is let's say that let's say a is the  route now  Okay, good. Alright, the next one is eg. So let's take off. These are my screen.  EG would be I guess he like this.  Mg0, okay. Next one is a b or take that one now be has ranked 08 has ranked 1 so there's no there's no choice here. You just let a be the parent of be.  Okay, that's good. Alright AC is too so same thing.  AC sorry wrong one  see  today like that.  Okay, and then BC.  So what happens when you do BC when you look at that edge is you you find the the leader of B, which is a you find a liter of C is also a so they both have the same leader. So you just take away that edge and you don't you don't put it in exit out.  Okay, how about be?  So the leader of B is a the leader of Eazy-E. They both have the same rank. So then you point one to the other in increment. Let's just let's just draw it out again. I guess I'll just keep as the root.  these ones are  cerasum  Are there any questions about that move?  And then you guys can finish off the rest.  It's just a kind of give you an idea of how it works.  Oh, I should feel this in right now.  Okay. Yeah, and then  Okay, so just have a few more minutes here. I just want to do a few proofs on properties of these ranks. Okay. So first of all, the ranks actually correspond to the heights of the trees, let's just proved it real fast. Okay. So the base case a Vertex by itself has rank 0 the height of his tree has zero. So that's fine. So, let's suppose that every vertex of rank K has a tree of height ke rang hanging from it. Okay. So now if I have a vertex of rank Kate plus one, the only way that it could have been Kate plus one is if it were K before and then you Union did it with another tree of hike k  And so when that happens you get the hype K plus one extra Edge.  Straw little picture about that. I think they'll be helpful.  Okay, so if I have this tree of heike  And this tree is also a hike k.  When I point this over there, then I have the height of that Edge Plus the whole K. So now this vertex has height.  k + 1  so there you have it. That's it. That's just  Okay, so that's good. Let's do one more little proof here that has to do with how many vertices can you expect to have in a tree of rank? K k so I claimed that any node of rank K has at least two the caver to season it and it was just do it by induction again a root of rank 0 has one vertex. So that's good. So now let's suppose any root of rank has at least two of the cave vertices.  consider a route with Kate of rank k + 1 how did it get to be K plus one is when you Union to rank a vertices and if both of those have at least two to the K and when you Union them, the result has at least  to the K plus one.  Okay.  So this actually gives us a bound on how high the tree can be.  Thanks. This is kind of the last thing we'll do it. So Suppose there and vertices right I a route of rank login.  Has at least and vertices and it's tree a root of any higher rank has at least more than an right. So login is the highest you can possibly have if you have an vertices in your tree with this down. That means all of those operations will only take login time because all those operations are basically you start from whatever vertex you are at and you follow the parents up to the root.  okay, so maybe  maybe we'll  maybe we'll do one more thing here. Sorry. So let's plug in the values here.  Make set is going to be now Big O of 1.  Find and Union are both log of V.  And sorting is elog V. So that means our run time we get is Big O of elog V.  Okay, so that's that's better than what is that better than what we had before it's sort of like the same trade-off with how sparse or dense the graph is right is B squared better than elog be kind of depends on Wednesday will look at how to make this a little bit faster under a certain circumstance and then we'll go on to how to prove these correct.  Can you see San Diego podcast? ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01282019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01282019-1500.mp3"
+}

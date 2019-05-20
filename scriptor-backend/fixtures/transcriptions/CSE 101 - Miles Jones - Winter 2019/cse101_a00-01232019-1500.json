@@ -1,0 +1,318 @@
+{
+  "Blurbs": {
+    "D you so that means if there's a path that goes from s to you that's different than this black path. There's this other path. okay with I guess we'll length. a p is equal to D of you I hit better than my I guess the length of this black path would be I guess those call it be prime. This is going to be actually distance of you, ": [
+      1226.9,
+      1267.8
+    ],
+    "H and then it has a smaller key. Then you swap them and then you look at all the children here are bigger. So you just leave it there. Now. The result is a is a Min Heap again, and you can use it again. Okay questions about that. Okay good. So at most At most you're going to trickle down the whole length of the tree, but the tree ": [
+      2557.5,
+      2587.8
+    ],
+    "I claimed that if you do this than every vertex will only enter into a half at most one time or more importantly, it'll only enter into X at most one time. Okay, so let's prove this because this is going to be what we hinge the whole runtime on. case of the claim so if TV is the actual shortest path then I claim that whenever you put a ": [
+      1031.9,
+      1062.3
+    ],
+    "Is that better? Yeah, okay. Okay, so I'll be I'll probably make it do that weekend on a Saturday or Sunday or something. Which means You don't have a lot of time after the Quiz 2 to work on it. So you're going to have to be working on it next week anyway, but at least you can kind of put it together after that. So on that homework, we're ": [
+      183.7,
+      211.3
+    ],
+    "It would still work if you picked it at random. The thing that it changes is the efficiency and we'll talk about the efficiency a little later on today. But for now, let's just let's just pick the vertex with the lowest value and see what happens case of the vertex with the lowest value is Denver so activate Denver and now look at all of its vertices Neighbors. So ": [
+      510.8,
+      535.5
+    ],
+    "Listen to a podcast. Okay. Good afternoon, everyone. Let's get started. So. Oh. All right. sir today We're going to talk about dijkstra's algorithm for the most part. But before we get into it, I wanted to make a few announcements one is that there's a quiz coming out next Friday. And so just to give you guys a And idea of what's going to be on it. It's basically ": [
+      1.9,
+      89.9
+    ],
+    "Okay, and so this is how we're going to look at it as how we're going to think about it, but actually in the computer you can implement it like this where you just read them off like by Rose. Did you guys do this in 100? Maybe I'm doing a differently because I'm starting at 1 and you probably start at zero but the same kind of thing. So ": [
+      2438.1,
+      2460.8
+    ],
+    "Put that in Acts. Annex Lower State, Atlanta So update Washington Dulles you get a much better rate. Throw that in there. Activate Dulles. There's nothing there's no outgoing edges activate, Boston. And you can't improve on delos. So just leave it alone and then put it like that. Okay. So those are all of the lowest prices any questions. Okay, good. Let's do the correctness. That's just like before ": [
+      606.3,
+      651.6
+    ],
+    "The runtime is going to be different because of these make he will not make it but delete man and and decrease key are going to have different run times if you run a heap. But the proof is proof that the arena the overall proof of correctness. Give me multiple instances. Oh, I see. Okay. We're going to do it in a way where? We're going to do it ": [
+      2330.8,
+      2373.9
+    ],
+    "We're not going to talk about it, but just wanted to kind of put it out there but out of these two, which one's better a ray or a binary Heap. Which one is better? Is it better in all cases know right? So binary he usually wins out except for if the graph is really dead. if he Is Big Theta of the squared if you have like on ": [
+      2740.9,
+      2779.3
+    ],
+    "Z, you would have discovered W and updated it to that value. Okay, so there's that contradiction. And then on the other hand, what if the actual distance to W was better to not go through z? Then that means that there's a better path to W, which means there's a better path to V and we're assuming that this is the best path to be. the same kind of ": [
+      949.4,
+      976.0
+    ],
+    "about a maximum priority queue, which it's sort of opposite. So when when you guys think of priorityqueue, you're probably thinking of a binary Heap. No. Did you guys do that in 100? Yeah, so what I wanted to say today is that the binary Heap is not the only way to implement a priority queue. Okay. So let's try to separate priority queue is the kind of the high-level ": [
+      1775.9,
+      1806.0
+    ],
+    "again. Okay, so to do that you take the last element. And you throw it up in the top? And then you put it in the beginning. And then you let it trickle down. Okay, so you you look at you find it smallest child. Which is 8 and if it's smaller have a smaller key then you swap them. And then you look for the smallest child, which is ": [
+      2527.8,
+      2557.5
+    ],
+    "an array in constant time. Maybe I don't know. Yeah, the elements needs to be set to something. So it's going to be constant time to populate it. You're going to set the first element or the the starting element to 0 and all the other elements to Infinity to take at least that much time. Okay, so good. So let's figure out what this all means. Okay. So this ": [
+      2211.0,
+      2240.4
+    ],
+    "any of the neighbors get updated then you have to decrease their key. And so these are the parts that I'm using. I'm actually not using the insert mechanism because I'm just creating though the binary heat know the priority queue all at once. Okay. So how long does this algorithm take in terms of these operations? Okay. Well I have to make the queue so that's going to take ": [
+      1866.8,
+      1893.9
+    ],
+    "be based on the types of problems that we saw in the first 2 weeks kind of like face moron like DFS type stuff. Okay, so I'll update the the calendar to reflect the the new homework deadline. Okay, so let's get started. question the quiz going to be 40 minutes. Okay. So this is the problem. We're trying to solve a single Source shortest path. You want to know ": [
+      238.4,
+      284.5
+    ],
+    "data structure. Where is binary Heap is one way to implement it. We're going to see another way to implement it today. Stop before we do that. Let's put in all of these these routines into the algorithm. Okay, so what do I do? I set all of the disc values and the previous value. Then I make a cube out of all those things. Pretty easy, right? You just ": [
+      1806.0,
+      1837.2
+    ],
+    "delete man and decrease are both Big O log of e and so when we plug everything in Right. We have make you we have V log V and then we have elog V and so the whole time take big o f e plus be fog fee. So we have these two things that we've seen. There's this thing called a Fibonacci Heap which is actually the best implementation. ": [
+      2707.7,
+      2740.9
+    ],
+    "delete man. You multiply that by the number of vertices. How many times are you actually updating? Right at most you're going to update for every every time you discover something else and you're discovering things by looking down edges, right? So at most you're going to have to update a number of times. So you have however many times you decrease key * 8 got questions about that. So ": [
+      1924.5,
+      1966.9
+    ],
+    "distance to you, if the if the distance to the neighbor of the vertex you're discovering if it's already been set to a good value then leave it but if it's better to go through that vertex you're discovering then update it. Okay, so let's look at this example. So these are the the airport some airports in this country. And let's say that these numbers represent the cost of ": [
+      369.5,
+      398.9
+    ],
+    "distances have been set correctly. Okay. So the inductive step is after you've done this let you be the next vertex to go in there and show that it's distance has been set correctly. questions no sew the previous proof was the correctness of the algorithm. This one is saying that if I if I put this if I choose the valid the vertices carefully, I'm only ever going to ": [
+      1124.7,
+      1164.3
+    ],
+    "each flight. Okay. And so I want to know how what's the cheapest sequence of flights I can use to get to any destination. Okay. So, let's see. How dykstra's Works in this sense. I mean Okay. So we're still using these sets accent act. So this is X. and this is f Okay, so you start off with San Diego it it's the first vertex. I'm starting so I ": [
+      398.9,
+      442.9
+    ],
+    "edges are non- wait. Okay. So where do we use the fact of nonnegativity it was Right here. Okay, we claim that the length of P had to be greater than the length of 2y, right? And that's because there's still more edges to go and if the edges are negative weights than they could make it smaller, but we're going to assume that there's no Negative Edge ways. We're ": [
+      1603.8,
+      1638.2
+    ],
+    "going to be all the stuff that we've done in. the first what's today? Yeah, the first 3 weeks queso. all material from first 3 weeks Okay, so it's basically going to be the first question. Will be 5 true-false questions short answer. in the second question will be a design question. Okay, and the design question is going to be on the material that you've seen in the first ": [
+      89.9,
+      142.5
+    ],
+    "going to be doing things that involve shortest path stuff kind of the stuff that were talking about today. So that material will be tested on in like the true-false part. I might ask you about dijkstra's algorithm the runtime of dijkstra's algorithm. What what is a priority queue? What is BFS those types of things might come up on the true-false part? But the design question is going to ": [
+      211.3,
+      238.4
+    ],
+    "going to be important in a minute. Okay, let's look at a heap a binary Heap is just a complete binary tree. This is a Min Heap. So every vertex. Has the property that each key value of an object is less than the key value of its. children when I put parent hichki value of an object is less than the key value of its children. Sorry about that. ": [
+      2403.0,
+      2433.7
+    ],
+    "going to deal with the Negative Edge weight problems a little bit later, but for now all the edges are non- Okay, so everything works out everything is fine. So that's good. So now let's try to build dijkstra's algorithm with this in mind using data structures. Okay. So the first thing we're going to do is look at what kinds of data structures do we need while we need ": [
+      1638.2,
+      1664.4
+    ],
+    "has height Atmos login. And so it takes at most Big O of log and time to do this whole operation of delete men. Okay, since there's at most V vertices delete men takes big O of log of e k questions about that. Okay, let's do the decrease key. Okay. So suppose I wanted to change big'o change. Oh I've 26200 of 8. Okay. Now this is not a ": [
+      2587.8,
+      2624.7
+    ],
+    "high-level then mid-level and now the low-level version write the kind of the the pseudocode version is going to include which types of implementations of priority queues were going to use The different implementations will actually have different trade-offs between cost of operations and they might not work the best for all inputs and we're going to look at one of those trade-offs when we talked about a few different ": [
+      1995.0,
+      2022.7
+    ],
+    "however much time. It takes to make the Q. And then how many times am I calling? Delete men? Remember delete men is when you you take a Vertex from F and you put it in two acts and what do we show how many times does that happen for a vertex? At most once right so that's where we're getting the bound. Okay, so however long it takes to ": [
+      1893.9,
+      1924.5
+    ],
+    "idea Okay, so good. This is good. The runtime it I mean the the correctness is fine noticed that we didn't do anything with the order that we picked the vertex prompt and actually works depending no matter what order but if you pick a random order then you're going to run into a problem just like we did for the max bandwidth path to remember what happened there. We ": [
+      976.0,
+      1004.2
+    ],
+    "implementations. So the first implementation we're going to look at is the end implementation as an array. Okay. So the idea here is you have an indent you have a array indusind expired vertices. Okay, and inside that array, it's just the discs values. You could just think of the distal array as a priority queue. So this is basically the dist array So how long did it take to ": [
+      2022.7,
+      2067.2
+    ],
+    "in a way where you make the Heap. With everything in it first and then you just update things and as you update them they kind of move around. So then and then and then you take them out and the heat gets smaller. But let's look at that next. Okay more questions about this one. Notice that this doesn't have any dependency on the number of edges. Okay, that's ": [
+      2373.9,
+      2403.0
+    ],
+    "is actually the contradiction. Sorry, why do I know that this is true? Thanks, for sorry about that. Let's start with this one and then we'll get to the one that you guys are talking about and it will show that that's the contradiction. Right because we said that you was the next one to go into ex right? And how did we pick? The vertex in F was by ": [
+      1413.4,
+      1456.5
+    ],
+    "is updated. OK Google Do. Any questions about that? Yeah, so that the empty pack. Okay. Now here's the more interesting part after dijkstra's is done dissed V is actually set to all the shortest path values with the shortest distance values. Okay, let's do this the same way we did the other ones. Okay suppose that for some vertex V. There is a path that has a is a ": [
+      794.4,
+      855.2
+    ],
+    "is what we have here. And remember this was our total run time in terms of the beal properties make you text Big O A V that we have v x v and then we have etimes one, right? And so basically you have big O of V + V squared + B. and you're never going to have more than V squared edges anyway, so this just turns out ": [
+      2240.4,
+      2276.1
+    ],
+    "it looks like so let's cord is Chicago. So going through Denver to Chicago is better than going straight from San Diego to Chicago. So that's when you update it to 200. Okay. And then I'm going through Denver to Dallas. It's better to just go straight from San Diego. So you don't update it. You just leave it and then that's it. You put Ustick Denver in X. And ": [
+      535.5,
+      568.2
+    ],
+    "iteration you pick the in F and then you say let you be a neighbor. V right And then you either leave the distance of you alone in which case it by the inductive hypothesis. There's already that path or you update YouTube to go through V then then there's that You guys can kind of fill in the blank space one dist. You is unchanged. Thanks to dissed you ": [
+      749.5,
+      794.4
+    ],
+    "just say if it hasn't been discovered then discover it you update that this value if it's if it if you can get there through a better path. It's a lot like how we saw the max band with modification problem where we kept on updating the bandwidth as we moved along and we saw how that went. Okay. So this is sort of the thing if the if the ": [
+      343.8,
+      369.5
+    ],
+    "kept on putting vertices into F and then back into X and then back into a half and then back into acts and you kept on having to explore than multiple times. So that's that adds more time complexity. Okay, so if we pick up very carefully pick v&f a very carefully we can avoid this kind so instead pick the V and ask that has the lowest distance value. ": [
+      1004.2,
+      1031.9
+    ],
+    "kind of want to summarize what we did before we go. I doing this by kind of working with these these more abstract concepts of priority queues then we can Implement them in different ways and get certain advantages and disadvantages based on the ways. We put them in. Okay. So this might be something to think about when you're creating algorithms when you're thinking about how to build something ": [
+      2817.4,
+      2846.0
+    ],
+    "let's do the same kind of thing. Let's do both kind of directions. In this case. The first Direction I want to show is that all of these discs values that I'm assigning actually correspond to Pat's, right? Okay, so this is like an induction proof so bass case. Dist of s is zero, that's the trivial path. And dist of the is infinity and that's the empty path. I ": [
+      651.6,
+      693.9
+    ],
+    "let's say that. The length of p is strictly greater than that. We're going to say that maybe the all the edges are positive weight. Okay, so that implies that D of you. Is strictly greater than distance of you which can't happen. questions so actually dijkstra's algorithm. It works. Right? We we kind of showed that it worked no matter what but it only really works efficiently if the ": [
+      1545.5,
+      1603.8
+    ],
+    "like the kind of a trick of dykstra's I would say because it doesn't really take into account how you pick the the vertex of v&f. Let me just go through it real fast. You initialize all of the vertices to be have distance Infinity initialize the first protects as to have Justin zero and then you just run a graph search instead of instead of graph search where you ": [
+      314.0,
+      343.8
+    ],
+    "make this array? to initialize it And how many elements are there? Be right. You just basically. populate the array with the constant time for each index Are you guys following or good or? I'm just not getting a lot of feedback. How long does it take to delete the men? o r v y Right because you because you have to find it. And how long does it take ": [
+      2067.2,
+      2155.1
+    ],
+    "mini deep anymore. And so what you do is you kind of make it bubble up right you say if it's less than its parent you switch them. It's less than its parent than you switch them. And then it's bigger than his parents. Are you leaving? if that's how decrease key goes and Oh, I have this okay fine. There's one complication with this. It's how do you know ": [
+      2624.7,
+      2656.5
+    ],
+    "now we can look at different priority Q's plug in these these things these run times they're going to differ between which types of ways to implement them. Cancel this is kind of the summary of what we've done. We reduce the problem of creating a low-level efficient version of dijkstra's algorithm to that of finding a good implementation of a priority queue. It's kind of like we start to ": [
+      1966.9,
+      1995.0
+    ],
+    "now which one is less Dallas, right? So you keep on going. So Dallas you look at its neighbors. So to Atlantic 210, it hasn't even been discovered yet. So just put it in there and Dallas is 420. And then the next lowest is the put it in their next lowest is Chicago. So update its update Boston. Dallas doesn't get updated. So it's Washington Dulles doesn't get updated. ": [
+      568.2,
+      605.4
+    ],
+    "of the binary Heap the minimum is always the top element. It's always the first element in the list. So to delete man, you just take off the first element. Okay. Now is there any problem with this? It's not a Min Heap anymore. Right? So you have to kind of restructure it so that it results in a Min Heap so that you can use it over and over ": [
+      2495.2,
+      2527.8
+    ],
+    "of you. Why do I know that that is true? Texas exes at least minimum most one of them. well That's actually going to come into play a little bit. Later. But there's another kind of assumption that we made that that directly implies this. He was less than the Black Ops 4 tiers S&P Prime. Why is Oh. You know, this is the reason that you guys are. This ": [
+      1353.4,
+      1413.4
+    ],
+    "packed out here and you was outside of X and you was an extra text to be moved in. So that means that there's some path that that corresponds to its disc value. And furthermore it's just value is the smallest among everything else. Okay. So we want to show that dissed of you is equal to D. You suppose by contradiction that it's not that it's actually bigger than ": [
+      1197.3,
+      1226.9
+    ],
+    "put the the first vertex at the top because it's the zero. That's going to be the minimum one and then all the rest of them are going to be Infinity. Okay? so then now my priority qh, this is sort of acting as my set app. So you take off the minimum value and then you update all of its neighbors just like I had before okay, and if ": [
+      1837.2,
+      1866.8
+    ],
+    "put the vertices into X at most once so you're not going to go back and forth from X to app. Remember that was a problem that we had when we did the max bandwidth path problem. Okay, so Let's let's show this inductive step. So we're going to do the inductive step by contradiction. Okay suppose that you as the next vertex to move into X case. We have ": [
+      1164.3,
+      1197.3
+    ],
+    "right? So then the other one is D of you and we're going to say that they're strictly different. Okay, so I noticed something about this path is that it starts inside X and then and then it ends outside XO at some point. It has to cross over the barrier back. So let's say that that edge is XY. Maybe I shouldn't have used the same. The same letter ": [
+      1267.8,
+      1299.2
+    ],
+    "said it to be zero, so That is the true distance. So you move it to exit has a street distance done. Let's look at the inductive hypothesis. Notice that this out this algorithm kind of puts these vertices in X every iteration, right you explore the vertex and when you're done exploring you put into acts. So after you put K vertices into X. Assume that all of their ": [
+      1094.6,
+      1124.7
+    ],
+    "said it's distance to 250, right? Then I'm done looking at Saint so I put sand Back in X. Okay now now f is just these three and as this algorithm goes it just picks any vertex at random. But what the the strength of dykstra's is that it picks the vertex with the lowest dist Value First and although that's not going to change the correctness of the algorithm. ": [
+      476.1,
+      510.8
+    ],
+    "see and let W be the first bird text such that this is that okay. So then we just break up into cases. You can go back and look at the BFS proof. It's it's almost exactly the same. Showcase one is that DW the actual shortest path to W goes through Z. If that's the case then when you updated when you when you searched Z when you explored ": [
+      923.0,
+      949.4
+    ],
+    "set the distance to be zero. Okay, everything else has distanced at 2 Affinity. So the first thing you do is look at each neighbor of your starting vertex and update their they're just value start with San Diego's activated. So now we look at Denver and we set its distance to a hundred. We look at DFW you said it's distance 220 and you look at ORD and you ": [
+      442.9,
+      476.1
+    ],
+    "shall be before you began. All of the values have been correspond to a path. Okay, then you say. assume after let's say t iterations. all disc values correspond to some path Then you say what happens in the next iteration. Will you pick some you or sorry what I say pixie? I don't have to go all the way back like this. Pick some vnf. So in the next ": [
+      693.9,
+      749.5
+    ],
+    "shorter path than disc V supposed supposed to algorithm didn't work right on V. So that means the length of p is less than this to be. Okay. So let's do the same thing we did before we have some I claim that this path P. Let's see I'm saying that DVD is the actual length of the shortest paths RDV is the length of P. Thanks Pete is equal ": [
+      855.2,
+      889.5
+    ],
+    "something for the graph. We have an adjacency list, that's fine. adjacency list X how does it change where do we access it? You can use an array of blends? F how does it change where do we access it? Okay, so when you're in a safe, that's when all the things take place, right? That's when you update your your values. That's when you choose right. So we need ": [
+      1664.4,
+      1699.6
+    ],
+    "the district value, right? So we're assuming that you has the lowest disc value among all the vertices outside of X. Okay good. okay, so then we have that d u that's equal to the length of P. Right and the length of P has to be greater than or equal to. the distance of X plus the length of XY right because that's only a part of pee. and ": [
+      1456.5,
+      1497.1
+    ],
+    "the idea is that the children of air a2i and a2i and a2i plus one and the parent of AI is the floor of a Iowa to of the floor a pirate doing. Okay, so you can do all the things you need just using this structure. So that's how you actually implement it into the code. Okay, so let's look at delete men, right? So because of the structure ": [
+      2460.8,
+      2495.2
+    ],
+    "the order of B squared vertices, then the time for an array? Is just Big O of B squared which is fine and the binary Heap would be what they go of V squared log queso. They have each one controller has its advantage and disadvantage. So in that case. You know, they're both good but they just have their strengths. Okay, so the advantage of the flexibility here, it's ": [
+      2779.3,
+      2817.4
+    ],
+    "there's a easy way around it, but you could kind of run into problems if you don't do that. Okay, so just like before this decrease key or bubbling up and the worst case you're bubbling up the entire length of the tree. The tree has height at most. There's also takes big O of log B. Hey, so in this case. Making the queue takes big o v time. ": [
+      2676.4,
+      2706.9
+    ],
+    "this has to be greater than or equal to distance of Y right because either the best path is through X or it somewhere else, but either way the distance why would have been set to something at least as good as this x + L Y and then we have that distance. Why is Greater than or equal to distance. of You by that other statement actually Let's get ": [
+      1497.1,
+      1545.5
+    ],
+    "this sort of top-down approach has a lot of advantages. Okay. See you guys all on Friday. San Diego ": [
+      2846.0,
+      2859.4
+    ],
+    "those key values can be changed. It can support the following operations. You can insert a new object value into the Q. You can delete the minimum key-value element. You can decrease the key right you can update those keys and you can just make a q out of a set of objects and keys. And this is going to be like a minimum priority queue. You could also talk ": [
+      1745.9,
+      1775.9
+    ],
+    "to TV. and along this path There's going to be some point where the dist value of the vertex changes from it being the actual shortest path to it being greater than the shortest path. So just let's say that that happened that workers here between Z and W. Okay. What do I mean by that? Let Z be the last vertex touch that DC is equal to diss to ": [
+      889.5,
+      923.0
+    ],
+    "to be Big O of the square got questions about that. Well, I noticed that you have to decrease Keys every once in awhile. So you're going to have to restart it every time if you wanted to do that and and just just searching through and finding the minimum that's faster than sorting the whole array. No, we're going to do we're going to look at the Heat next. ": [
+      2276.1,
+      2319.9
+    ],
+    "to decrease the key? What is it? Know what time? Bring cuz all you're doing is you're taking an array value in you're changing it. So you just call up the array value and you reset it just takes some time. well because I'm making it and I'm initializing it with with values. No. You just making an array. So I guess some. Some sort of architectures you can make ": [
+      2155.1,
+      2211.0
+    ],
+    "to we need to be able to update. dist values and choose the smallest and so how do we do this? The best thing to do is to create this new data structure called a priority queue. So let's talk about that. Okay. So a priority queue is a data structure of a set of objects along with values will call them keys. For each object and it can all ": [
+      1699.6,
+      1745.9
+    ],
+    "two homeworks, okay. Okay, so then that brings me to homework 3 originally I have it so that it's due next Tuesday, but I kind of think that that's not enough time because you guys are going to be working on your homework. That's due tomorrow do tomorrow due tomorrow and then you're going to be studying for the quiz. So maybe we can make it do after the quiz. ": [
+      142.5,
+      183.7
+    ],
+    "vertex in two x is distance value is set its supposed to be set to the actual shortest distance. Okay, so this claim implies that once a Vertex moves into acts it'll never move out and that's what we want. So let's prove this we're going to prove this by induction. so the base case is that the first protects to move into ex is the starting vertex and you ": [
+      1062.3,
+      1094.6
+    ],
+    "what is the shortest path from a single source to all other vertices and we saw that BFS solve this problem if there are no Edge weights, right if all the edge weights are equivalent. So if the edge weight are different then we're going to use dijkstra's algorithm and here is kind of a high-level version of dijkstra's algorithm. Actually. This is sort of higher level than dijkstra's been ": [
+      284.5,
+      314.0
+    ],
+    "where to find a vertex in the Heap in a really easy way to do this is to keep sort of an address book right so I can I can look up o in the address book and it tells me where it is in the Heat and all you have to do is just make sure you update your address book every time you update your heat. Hey, so ": [
+      2656.5,
+      2676.4
+    ],
+    "xnx. I was kind of foolish. song Pecos from s to you there's an edge that crosses the boundary. Let's call that edge XY. Okay. So what are we know here? We know that dissed. A little X is actually equal to D of X. Why do we know that for a fact? Okay, good-bye. The inductive hypothesis. Okay good. List of Y is less than or equal to dist ": [
+      1299.2,
+      1353.4
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01232019",
+  "Full Transcript": "Listen to a podcast.  Okay. Good afternoon, everyone.  Let's get started. So.  Oh.  All right.  sir today  We're going to talk about dijkstra's algorithm for the most part. But before we get into it, I wanted to make a few announcements one is that there's a quiz coming out next Friday. And so just to give you guys a  And idea of what's going to be on it.  It's basically going to be all the stuff that we've done in.  the first  what's today? Yeah, the first 3 weeks queso.  all material  from  first 3 weeks  Okay, so it's basically going to be the first question.  Will be 5 true-false questions short answer.  in the second question  will be a design question.  Okay, and the design question is going to be on the material that you've seen in the first two homeworks, okay.  Okay, so then that brings me to homework 3 originally I have it so that it's due next Tuesday, but I kind of think that that's not enough time because you guys are going to be working on your homework. That's due tomorrow do tomorrow due tomorrow and then you're going to be studying for the quiz. So maybe we can make it do after the quiz. Is that better? Yeah, okay.  Okay, so I'll be I'll probably make it do that weekend on a Saturday or Sunday or something. Which means  You don't have a lot of time after the Quiz 2 to work on it. So you're going to have to be working on it next week anyway, but at least you can kind of put it together after that.  So on that homework, we're going to be doing things that involve shortest path stuff kind of the stuff that were talking about today. So that material will be tested on in like the true-false part. I might ask you about dijkstra's algorithm the runtime of dijkstra's algorithm. What what is a priority queue?  What is BFS those types of things might come up on the true-false part? But the design question is going to be based on the types of problems that we saw in the first 2 weeks kind of like face moron like DFS type stuff.  Okay, so I'll update the the calendar to reflect the the new homework deadline.  Okay, so let's get started.  question  the quiz going to be 40 minutes.  Okay. So this is the problem. We're trying to solve a single Source shortest path. You want to know what is the shortest path from a single source to all other vertices and we saw that BFS solve this problem if there are no Edge weights, right if all the edge weights are equivalent.  So if the edge weight are different then we're going to use dijkstra's algorithm and here is kind of a high-level version of dijkstra's algorithm. Actually. This is sort of higher level than dijkstra's been like the kind of a trick of dykstra's I would say because it doesn't really take into account how you pick the the vertex of v&f.  Let me just go through it real fast. You initialize all of the vertices to be have distance Infinity initialize the first protects as to have Justin zero and then you just run a graph search instead of instead of graph search where you just say if it hasn't been discovered then discover it you update that this value if it's if it if you can get there through a better path.  It's a lot like how we saw the max band with modification problem where we kept on updating the bandwidth as we moved along and we saw how that went.  Okay. So this is sort of the thing if the if the distance to you, if the if the distance to the neighbor of the vertex you're discovering if it's already been set to a good value then leave it but if it's better to go through that vertex you're discovering then update it.  Okay, so let's look at this example. So these are the the airport some airports in this country. And let's say that these numbers represent the cost of each flight. Okay. And so I want to know how what's the cheapest sequence of flights I can use to get to any destination.  Okay. So, let's see. How dykstra's Works in this sense. I mean  Okay.  So we're still using these sets accent act. So this is X.  and this is f  Okay, so you start off with San Diego it it's the first vertex. I'm starting so I set the distance to be zero. Okay, everything else has distanced at 2 Affinity. So the first thing you do is look at each neighbor of your starting vertex and update their they're just value start with San Diego's activated. So now we look at Denver and we set its distance to a hundred.  We look at DFW you said it's distance 220 and you look at ORD and you said it's distance to 250, right?  Then I'm done looking at Saint so I put sand Back in X. Okay now now f is just these three and  as this algorithm goes it just picks any vertex at random. But what the the strength of dykstra's is that it picks the vertex with the lowest dist Value First and although that's not going to change the correctness of the algorithm. It would still work if you picked it at random. The thing that it changes is the efficiency and we'll talk about the efficiency a little later on today. But for now, let's just let's just pick the vertex with the lowest value and see what happens case of the vertex with the lowest value is Denver so activate Denver and now look at all of its vertices Neighbors.  So it looks like so let's cord is Chicago. So going through Denver to Chicago is better than going straight from San Diego to Chicago. So that's when you update it to 200.  Okay.  And then I'm going through Denver to Dallas. It's better to just go straight from San Diego. So you don't update it. You just leave it and then that's it. You put Ustick Denver in X. And now which one is less Dallas, right? So you keep on going. So Dallas you look at its neighbors. So to Atlantic 210, it hasn't even been discovered yet. So just put it in there and Dallas is 420.  And then the next lowest is the put it in their next lowest is Chicago. So update its update Boston.  Dallas doesn't get updated. So it's Washington Dulles doesn't get updated.  Put that in Acts.  Annex Lower State, Atlanta  So update Washington Dulles you get a much better rate.  Throw that in there.  Activate Dulles. There's nothing there's no outgoing edges activate, Boston.  And you can't improve on delos. So just leave it alone and then put it like that. Okay. So those are all of the lowest prices any questions.  Okay, good. Let's do the correctness.  That's just like before let's do the same kind of thing. Let's do both kind of directions. In this case. The first Direction I want to show is that all of these discs values that I'm assigning actually correspond to Pat's, right?  Okay, so this is like an induction proof so bass case.  Dist of s is zero, that's the trivial path.  And dist of the is infinity and that's the empty path.  I shall be before you began. All of the values have been correspond to a path.  Okay, then you say.  assume  after let's say t iterations.  all disc values  correspond  to some path  Then you say what happens in the next iteration. Will you pick some you or sorry what I say pixie?  I don't have to go all the way back like this.  Pick some vnf.  So in the next iteration you pick the in F and then you say let you be a neighbor.  V  right  And then you either leave the distance of you alone in which case it by the inductive hypothesis. There's already that path or you update YouTube to go through V then then there's that  You guys can kind of fill in the blank space one dist.  You is unchanged.  Thanks to  dissed you is updated.  OK Google  Do. Any questions about that?  Yeah, so that the empty pack.  Okay. Now here's the more interesting part after dijkstra's is done dissed V is actually set to all the shortest path values with the shortest distance values.  Okay, let's do this the same way we did the other ones. Okay suppose that for some vertex V. There is a path that has a is a shorter path than disc V supposed supposed to algorithm didn't work right on V.  So that means the length of p is less than this to be. Okay. So let's do the same thing we did before we have some I claim that this path P. Let's see I'm saying that DVD is the actual length of the shortest paths RDV is the length of P.  Thanks Pete is equal to TV.  and  along this path  There's going to be some point where the dist value of the vertex changes from it being the actual shortest path to it being greater than the shortest path. So just let's say that that happened that workers here between Z and W. Okay. What do I mean by that? Let Z be the last vertex touch that DC is equal to diss to see and let W be the first bird text such that this is that okay. So then we just break up into cases. You can go back and look at the BFS proof. It's it's almost exactly the same.  Showcase one is that DW the actual shortest path to W goes through Z. If that's the case then when you updated when you when you searched Z when you explored Z, you would have discovered W and updated it to that value. Okay, so there's that contradiction.  And then on the other hand, what if the actual distance to W was better to not go through z?  Then that means that there's a better path to W, which means there's a better path to V and we're assuming that this is the best path to be.  the same kind of idea  Okay, so good. This is good.  The runtime it I mean the the correctness is fine noticed that we didn't do anything with the order that we picked the vertex prompt and actually works depending no matter what order but if you pick a random order then you're going to run into a problem just like we did for the max bandwidth path to remember what happened there. We kept on putting vertices into F and then back into X and then back into a half and then back into acts and you kept on having to explore than multiple times. So that's that adds more time complexity.  Okay, so if we pick up very carefully pick v&f a very carefully we can avoid this kind so instead pick the V and ask that has the lowest distance value. I claimed that if you do this than every vertex will only enter into a half at most one time or more importantly, it'll only enter into X at most one time.  Okay, so let's prove this because this is going to be what we hinge the whole runtime on.  case of the claim  so if TV is the actual shortest path then I claim that whenever you put a vertex in two x is distance value is set its supposed to be set to the actual shortest distance.  Okay, so this claim implies that once a Vertex moves into acts it'll never move out and that's what we want.  So let's prove this we're going to prove this by induction.  so the base case is that the first protects to move into ex is the starting vertex and you said it to be zero, so  That is the true distance. So you move it to exit has a street distance done. Let's look at the inductive hypothesis.  Notice that this out this algorithm kind of puts these vertices in X every iteration, right you explore the vertex and when you're done exploring you put into acts. So after you put K vertices into X.  Assume that all of their distances have been set correctly. Okay.  So the inductive step is after you've done this let you be the next vertex to go in there and show that it's distance has been set correctly.  questions  no sew the previous proof was the correctness of the algorithm.  This one is saying that if I if I put this if I choose the valid the vertices carefully, I'm only ever going to put the vertices into X at most once so you're not going to go back and forth from X to app.  Remember that was a problem that we had when we did the max bandwidth path problem.  Okay, so  Let's let's show this inductive step. So we're going to do the inductive step by contradiction. Okay suppose that you as the next vertex to move into X case. We have packed out here and you was outside of X and you was an extra text to be moved in. So that means that there's some path that that corresponds to its disc value.  And furthermore it's just value is the smallest among everything else. Okay.  So we want to show that dissed of you is equal to D. You suppose by contradiction that it's not that it's actually bigger than D you so that means if there's a path that goes from s to you that's different than this black path.  There's this other path.  okay with  I guess we'll length.  a p is equal to D of you I hit better than my I guess the length of this black path would be  I guess those call it be prime. This is going to be actually distance of you, right?  So then the other one is D of you and we're going to say that they're strictly different.  Okay, so I noticed something about this path is that it starts inside X and then and then it ends outside XO at some point. It has to cross over the barrier back. So let's say that that edge is XY.  Maybe I shouldn't have used the same.  The same letter xnx.  I was kind of foolish.  song  Pecos from s to you there's an edge that crosses the boundary. Let's call that edge XY.  Okay. So what are we know here? We know that dissed.  A little X is actually equal to D of X. Why do we know that for a fact?  Okay, good-bye. The inductive hypothesis.  Okay good.  List of Y is less than or equal to dist of you. Why do I know that that is true?  Texas exes at least minimum most one of them.  well  That's actually going to come into play a little bit. Later.  But there's another kind of assumption that we made that that directly implies this.  He was less than the Black Ops 4 tiers S&P Prime. Why is  Oh.  You know, this is the reason that you guys are.  This is actually the contradiction.  Sorry, why do I know that this is true?  Thanks, for sorry about that. Let's start with this one and then we'll get to the one that you guys are talking about and it will show that that's the contradiction.  Right because we said that you was the next one to go into ex right? And how did we pick?  The vertex in F was by the district value, right? So we're assuming that you has the lowest disc value among all the vertices outside of X. Okay good.  okay, so then we have that d u  that's equal to the length of P.  Right and the length of P has to be greater than or equal to.  the distance  of X plus the length of XY  right because that's only a part of pee.  and this has to be  greater than or equal to  distance of Y right because either the best path is through X or it somewhere else, but either way the distance why would have been set to something at least as good as this x + L Y  and then we have that distance. Why is  Greater than or equal to distance.  of You by that other statement  actually  Let's get let's say that.  The length of p is strictly greater than that. We're going to say that maybe the all the edges are positive weight.  Okay, so that implies that D of you.  Is strictly greater than distance of you which can't happen.  questions  so  actually dijkstra's algorithm. It works. Right? We we kind of showed that it worked no matter what but it only really works efficiently if the edges are non- wait. Okay. So where do we use the fact of nonnegativity it was  Right here. Okay, we claim that the length of P had to be greater than the length of 2y, right?  And that's because there's still more edges to go and if the edges are negative weights than they could make it smaller, but we're going to assume that there's no Negative Edge ways. We're going to deal with the Negative Edge weight problems a little bit later, but for now all the edges are non-  Okay, so everything works out everything is fine.  So that's good. So now let's try to build dijkstra's algorithm with this in mind using data structures. Okay. So the first thing we're going to do is look at what kinds of data structures do we need while we need something for the graph. We have an adjacency list, that's fine.  adjacency list  X how does it change where do we access it? You can use an array of blends?  F how does it change where do we access it? Okay, so when you're in a safe, that's when all the things take place, right? That's when you update your your values. That's when you choose right. So we need to  we need to be able to update.  dist values  and choose  the smallest  and so how do we do this? The best thing to do is to create this new data structure called a priority queue. So let's talk about that. Okay. So a priority queue is a data structure of a set of objects along with values will call them keys.  For each object and it can all those key values can be changed. It can support the following operations. You can insert a new object value into the Q.  You can delete the minimum key-value element. You can decrease the key right you can update those keys and you can just make a q out of a set of objects and keys.  And this is going to be like a minimum priority queue. You could also talk about a maximum priority queue, which it's sort of opposite.  So when when you guys think of priorityqueue, you're probably thinking of a binary Heap. No.  Did you guys do that in 100?  Yeah, so what I wanted to say today is that the binary Heap is not the only way to implement a priority queue. Okay. So let's try to separate priority queue is the kind of the high-level data structure. Where is binary Heap is one way to implement it. We're going to see another way to implement it today.  Stop before we do that. Let's put in all of these these routines into the algorithm. Okay, so what do I do?  I set all of the disc values and the previous value.  Then I make a cube out of all those things.  Pretty easy, right? You just put the the first vertex at the top because it's the zero.  That's going to be the minimum one and then all the rest of them are going to be Infinity. Okay?  so then  now my priority qh, this is sort of acting as my set app. So you take off the minimum value and then you update all of its neighbors just like I had before okay, and if any of the neighbors get updated then you have to decrease their key.  And so these are the parts that I'm using. I'm actually not using the insert mechanism because I'm just creating though the binary heat know the priority queue all at once.  Okay. So how long does this algorithm take in terms of these operations?  Okay. Well I have to make the queue so that's going to take however much time. It takes to make the Q.  And then how many times am I calling? Delete men?  Remember delete men is when you you take a Vertex from F and you put it in two acts and what do we show how many times does that happen for a vertex?  At most once right so that's where we're getting the bound. Okay, so however long it takes to delete man. You multiply that by the number of vertices.  How many times are you actually updating?  Right at most you're going to update for every every time you discover something else and you're discovering things by looking down edges, right? So at most you're going to have to update a number of times.  So you have however many times you decrease key * 8  got questions about that.  So now we can look at different priority Q's plug in these these things these run times they're going to differ between which types of ways to implement them.  Cancel this is kind of the summary of what we've done. We reduce the problem of creating a low-level efficient version of dijkstra's algorithm to that of finding a good implementation of a priority queue. It's kind of like we start to high-level then mid-level and now the low-level version write the kind of the the pseudocode version is going to include which types of implementations of priority queues were going to use  The different implementations will actually have different trade-offs between cost of operations and they might not work the best for all inputs and we're going to look at one of those trade-offs when we talked about a few different implementations.  So the first implementation we're going to look at is the end implementation as an array.  Okay. So the idea here is you have an indent you have a array indusind expired vertices.  Okay, and inside that array, it's just the discs values. You could just think of the distal array as a priority queue.  So this is  basically  the dist  array  So how long did it take to make this array?  to initialize it  And how many elements are there?  Be right.  You just basically.  populate the array  with the constant time for each  index  Are you guys following or good or?  I'm just not getting a lot of feedback. How long does it take to delete the men?  o r v y  Right because you because you have to find it.  And how long does it take to decrease the key?  What is it?  Know what time?  Bring cuz all you're doing is you're taking an array value in you're changing it. So you just call up the array value and you reset it just takes some time.  well  because I'm making it and I'm initializing it with with values.  No.  You just making an array.  So I guess some.  Some sort of architectures you can make an array in constant time. Maybe I don't know.  Yeah, the elements needs to be set to something. So it's going to be constant time to populate it. You're going to set the first element or the the starting element to 0 and all the other elements to Infinity to take at least that much time.  Okay, so good. So let's figure out what this all means.  Okay. So this is what we have here. And remember this was our total run time in terms of the  beal properties make you text Big O A V that we have v x v and then we have etimes one, right?  And so basically you have big O of V + V squared + B.  and you're never going to have more than V squared edges anyway, so this just turns out to be  Big O of the square  got questions about that.  Well, I noticed that you have to decrease Keys every once in awhile. So you're going to have to restart it every time if you wanted to do that and and just just searching through and finding the minimum that's faster than sorting the whole array.  No, we're going to do we're going to look at the Heat next.  The runtime is going to be different because of these make he will not make it but delete man and and decrease key are going to have different run times if you run a heap.  But the proof is proof that the arena the overall proof of correctness.  Give me multiple instances.  Oh, I see. Okay. We're going to do it in a way where?  We're going to do it in a way where you make the Heap.  With everything in it first and then you just update things and as you update them they kind of move around.  So then and then and then you take them out and the heat gets smaller.  But let's look at that next.  Okay more questions about this one.  Notice that this doesn't have any dependency on the number of edges. Okay, that's going to be important in a minute.  Okay, let's look at a heap a binary Heap is just a complete binary tree.  This is a Min Heap. So every vertex.  Has the property that each key value of an object is less than the key value of its.  children when I put parent  hichki value of an object is less than the key value of its children. Sorry about that.  Okay, and so this is how we're going to look at it as how we're going to think about it, but actually in the computer you can implement it like this where you just read them off like by Rose.  Did you guys do this in 100?  Maybe I'm doing a differently because I'm starting at 1 and you probably start at zero but the same kind of thing. So the idea is that  the children of air  a2i and a2i and a2i plus one and the parent of AI is the floor of a Iowa to of the floor a pirate doing. Okay, so you can do all the things you need just using this structure. So that's how you actually implement it into the code.  Okay, so let's look at delete men, right? So because of the structure of the binary Heap the minimum is always the top element. It's always the first element in the list. So to delete man, you just take off the first element.  Okay. Now is there any problem with this?  It's not a Min Heap anymore. Right? So you have to kind of restructure it so that it results in a Min Heap so that you can use it over and over again. Okay, so to do that you take the last element.  And you throw it up in the top?  And then you put it in the beginning.  And then you let it trickle down. Okay, so you you look at you find it smallest child.  Which is 8 and if it's smaller have a smaller key then you swap them.  And then you look for the smallest child, which is H and then it has a smaller key. Then you swap them and then you look at all the children here are bigger. So you just leave it there. Now. The result is a is a Min Heap again, and you can use it again. Okay questions about that.  Okay good. So at most  At most you're going to trickle down the whole length of the tree, but the tree has height Atmos login. And so it takes at most Big O of log and time to do this whole operation of delete men. Okay, since there's at most V vertices delete men takes big O of log of e k questions about that.  Okay, let's do the decrease key.  Okay.  So suppose I wanted to change big'o change. Oh I've 26200 of 8. Okay. Now this is not a mini deep anymore.  And so what you do is you kind of make it bubble up right you say if it's less than its parent you switch them.  It's less than its parent than you switch them.  And then it's bigger than his parents. Are you leaving?  if that's how decrease key goes and  Oh, I have this okay fine. There's one complication with this. It's how do you know where to find a vertex in the Heap in a really easy way to do this is to keep sort of an address book right so I can I can look up o in the address book and it tells me where it is in the Heat and all you have to do is just make sure you update your address book every time you update your heat. Hey, so there's a easy way around it, but you could kind of run into problems if you don't do that.  Okay, so just like before this decrease key or bubbling up and the worst case you're bubbling up the entire length of the tree. The tree has height at most. There's also takes big O of log B.  Hey, so in this case.  Making the queue takes big o v time.  delete man and decrease are both Big O log of e and so when we plug everything in  Right. We have make you we have V log V and then we have elog V and so the whole time take big o f e plus be fog fee.  So  we have these two things that we've seen.  There's this thing called a Fibonacci Heap which is actually the best implementation. We're not going to talk about it, but just wanted to kind of put it out there but out of these two, which one's better a ray or a binary Heap.  Which one is better? Is it better in all cases know right? So binary he usually wins out except for if the graph is really dead.  if he  Is Big Theta of the squared if you have like on the order of B squared vertices, then the time for an array?  Is just Big O of B squared which is fine and the binary Heap would be what they go of V squared log queso.  They have each one controller has its advantage and disadvantage. So in that case.  You know, they're both good but they just have their strengths.  Okay, so the advantage of the flexibility here, it's kind of want to summarize what we did before we go.  I doing this by kind of working with these these more abstract concepts of priority queues then we can Implement them in different ways and get certain advantages and disadvantages based on the ways. We put them in. Okay. So this might be something to think about when you're creating algorithms when you're thinking about how to build something this sort of top-down approach has a lot of advantages.  Okay. See you guys all on Friday.  San Diego ",
+  "Section": "a00",
+  "Time": "1500",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01232019-1500.mp3"
+}

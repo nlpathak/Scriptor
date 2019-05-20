@@ -1,0 +1,363 @@
+{
+  "Blurbs": {
+    "/ 2. Okay, so why is the median important what's a certain things you can use it for? So why don't you just use the average? Well, sometimes it's better to get a sense of. How the data what's it? What's a better representation of the data? So if you have your going to a company with 20 employees, let's say co-ceo makes a million and all the other workers ": [
+      1133.8,
+      1164.9
+    ],
+    "10-1. So suppose that for some an greater than or equal to one merge sort eighth one 4K output the elements a and sorted order on all inputs of size K wear. Kaiser between 1 and 10 now we need to show that it works on size and plus one guy stop. Inductive step so since and is greater than or equal to 1 this thing. Returns the merge of ": [
+      980.6,
+      1009.7
+    ],
+    "And it's supposed to Output whatever element I want then selection of this big list, seven is the same as selection of the smaller list, just finding the second element in there. So that's your recursive call. Basically, that's it. So let's just go through this real fast. It's pretty much just what we did. You have your base case. If there's only one element, there's only one element you ": [
+      1676.7,
+      1707.3
+    ],
+    "D is one. So a is still less than b to the D. So you still get pick oven. So this is good. That means the expected run time is linear and it turns out in practice that this is a really efficient algorithm. The most part most of the time if you have a really big list, then it's going to be even more kind of likely that you're ": [
+      2257.0,
+      2282.1
+    ],
+    "K and that will give you the median. Okay, this is always something I don't know why it really kind of messes with me and I don't know which way to go. Does Kate smallest mean like the I'd like you count up to K from the smaller elements or from the from the end. What is the first smallest element the smallest so the case smallest is like? from ": [
+      1383.1,
+      1412.2
+    ],
+    "Listen to a podcast. Why does it do that? Play me some music. Are you intelligent? Hi. Okay, so let's get started. Are there any questions before we begin? Okay. Good. In that case, let's begin. Okay, let's quickly talk a little bit about. sorting how long should it take to sort things? You guys know all these algorithms. How long does it take to bubble sort? insertion score sort ": [
+      1.9,
+      124.3
+    ],
+    "Okay, so quicksort divide and conquer is now instead of just breaking the list up into two. We're sort of breaking the list up into two by partitioning it partitioning it. Then you sort each side recursively and then you just stick them back together without doing anything just to come back because you know, everything on one side is bigger than everything on the other side. So I like ": [
+      2347.4,
+      2376.1
+    ],
+    "Omega of NY login. Hey, there's a few ways to do that. My favorite way to do it is to use calculus. So if you look at these. these yellow boxes that I drew that's the summation of Log, 1 + log 2 + log 3 + log for log 1 + log 2 + 3 + 4 the area is equal to that right? Because each one of those ": [
+      505.8,
+      536.9
+    ],
+    "Returns the elements in sorted order any questions about that. Okay, good. I so let's move on to the next topic which is sort of related to sorting but instead it's just trying to find the median of a list median. The median of a list of the numbers is the middle number in the list and other words half of the numbers are bigger than it half of the ": [
+      1044.1,
+      1076.4
+    ],
+    "SB. It cannot be in SB either therefore. It must be in sr.sol the 7th biggest element in the original now, I'm using biggest. Okay, so the seventh smallest element. In the original list is what number element in Sr. The second right? Well, how'd you get that while you know that all of these elements are smaller than all of these elements which are smaller than everything and Sr. ": [
+      1608.6,
+      1650.1
+    ],
+    "So you are another way to say it's the seventh smallest element is to say there are six elements smaller than it so, you know that these five elements are all smaller than it then you need one more element to be smaller than its what's got to be the second element in a spar. Okay good. So if my algorithm is called selection and this is how it looks. ": [
+      1650.1,
+      1675.3
+    ],
+    "T of n time to run then we have bass cases big old one. How long does it take to pick a random thing just big old one? We're thinking about random being a quick thing and that sort of the the strength of these random algorithms is that randomizing things as fast or picking random things is fast. Now we get into the whole thing. Is it random or ": [
+      1768.9,
+      1794.5
+    ],
+    "We need to show that login factorial is Big Omega van login. question The cleaning clogged up at night. We're going to show that you mean between like asymptotically know we're going to show we will show. That log and factorial is actually Theta of n log in. Okay, and that that will show that it's also a lower bound. Okay. So this is another way to think about showing ": [
+      426.4,
+      471.6
+    ],
+    "a bunch of elements that are greater than the pivot. So what happens if we sort both of those lists? I think we sort both of those lists. And then if we put them together then you have when you have a whole sordid list because we know everything on this side is less than everything on that side. If both sides are sorted then the whole thing is sorted. ": [
+      2326.4,
+      2344.2
+    ],
+    "about which means that it's top-heavy which means that most of the calculations you do is at the last stage. Pretty crazy, huh? Okay, so Is basically just what I said now, we have a linear time selection algorithm. So I don't really have time to go into it. But maybe maybe we can talk about it next week. Where did this Seven Ten over ten come from. Maybe you ": [
+      2950.3,
+      2983.5
+    ],
+    "an example. So I'm I get this big list of numbers and I'm trying to find the seventh smallest number. Okay, so you pick a random pivot say 31 now divide the list into three groups SLS B&S are so I took those names from the book. SL is all the elements smaller. It's going to be to the wall. I think about it to the left of the element ": [
+      1491.9,
+      1520.2
+    ],
+    "and look at every element. We know that are pivot is 31. So it only takes linear time to compare each element. We compare the first 140 it's bigger. So we dumped it into sr31 is equal you dump it into SV6 is smaller into a cell and so on and what I want you to notice here is that these elements these list here are not necessarily so we're ": [
+      1545.3,
+      1573.6
+    ],
+    "and so for those there's all it always branches into 2/3 of this binary tree. They basically in the worst case you have to go down the whole thing. How many leaves does this tree have if I'm trying to sort n elements? n factorial because you want this sorting algorithm to work on every single input, right? How many possible different ways did you have to arrange them? It's ": [
+      279.1,
+      322.4
+    ],
+    "are only three actual comparisons that we could possibly do, right? Cuz 3 choose 2 is equal to 3. Or you can just do it by the tree. So 4 is when you know this number starts getting less than four choose to so sorting four elements. There's a way to do it in five comparisons. Dinosaur kind of we're getting better than the four choose to which is 6 ": [
+      733.8,
+      764.3
+    ],
+    "at the the algorithm very simple bass case you get some random element would be you partition it into these list just like we did before then you recursively sort them and stick them all together. How long is this going to take? Well, we have Big O of one this part takes big old and time to do and this part is going to take I guess if this ": [
+      2408.8,
+      2450.3
+    ],
+    "binary decisions these comparisons Pastor run in big Omega of log of n factorial time. You can't make it run any faster because you have to at least be able to make a path to every one of those permutations. Okay, is there a simpler expression than that? I can use rather than login factorial? Okay, so log of n factorial is less than log of N2 the end which ": [
+      356.2,
+      399.2
+    ],
+    "binary tree. so Oh. Here's an exercise that you guys can do when you get bored. divisor algorithm that sorts for elements using at most 5 comparisons Okay, so the divide-and-conquer sort, let's quickly go through merge sort just for completeness. It's in the book too. And you guys probably seen it in many classes, but the ideas put the list up and then sort each side and then you ": [
+      790.4,
+      826.9
+    ],
+    "bound of 3 n / 4. Frank so that's what this thing comes from. David outside the Indigo interval my upper bound turns to end so that's this, right. Is it inside? outside translate a lot easier and you just do a little bit of algebra. and it turns into this. recursion and if you do the master theorem on this you get a has 1 B is 4/3 and ": [
+      2220.1,
+      2257.0
+    ],
+    "break up the random choices into what pivot did you pick? Okay, so that's what this summation. Is it something over all the possible pivots from I suppose one up to end. Okay, then you take the expected runtime of the maximum of I and N -1 remember those were the sizes of the sets plus big old and which is the non-recourse apartment. Okay, then you. A / an ": [
+      2123.2,
+      2155.1
+    ],
+    "bricks that has a with the one and it's clear that the total area of those bricks has got to be bigger than the area under the Curve. Frank stop This is the area of the bricks the area under the curve is what integral from 1 to n of log X DX. So we know that this sum is got to be bigger than that integral. And this isn't ": [
+      536.9,
+      577.1
+    ],
+    "can search so it's got to be that element. Pick a random integer be in the list split it up into these things. This is the thing that's going to take big event time. If K is smaller than the size of the left list, then you know, it's in there and you got to return selection SLK. If it's if it fails that and it's less than or equal ": [
+      1707.3,
+      1734.0
+    ],
+    "claim is that. Maximum of SL and Sr has got to be less than or equal to 7/10 7 + / 10. So that means that my run time here is T of n is equal to T of n / 5 + T of 7 n / 10 + bigo. I know you can't plug this into the master theorem, but it turns out that the solution to this ": [
+      2881.6,
+      2922.4
+    ],
+    "comparisons. That's just let's compare every single pair of elements. And of course with that information, you can put them in order for sure of skipping one of those comparisons. Now the whole choose to comparisons that's like your bubble sort insertion sort and selection store. They use all of those because n choose to is Big O of N squared. Okay, so we're gaining some Advantage by using this ": [
+      764.3,
+      790.4
+    ],
+    "could also check if a list is sorted in linear time. Oh, I see what you're saying. Yeah. Exactly. Yeah, keep on checking all of them. Yeah. Yeah. Yeah good point. Right so it's got to be bigger and that's what we're going to look at. Today is an algorithm. achieves this Run time there is a kind of a caveat is that the algorithm is a random algorithm. So ": [
+      1292.5,
+      1327.5
+    ],
+    "do is think about what is the expected run time the random variable here is going to be there going to be a sequence of random choices for each input. Right and the random variable is going to be the runtime of that particular outcome that particular sequence of choices. Okay. So this is kind of a way to think about how to calculate the expected run time. You can ": [
+      2092.5,
+      2123.2
+    ],
+    "does anybody know what BOGO sort is? Where what's the bounded variant? Okay. Yeah, but don't you need to take? time to check Yeah, right. Where can you do that? as you go maybe Maybe you could do it as you go and you can save that time, but yeah bigger than factorial. I'm more efficient Bubba Stewart, right selection sort. And squared quicksort. Does anybody know? Login is the ": [
+      126.5,
+      193.1
+    ],
+    "dude. Yeah, you can just kind of take it out. Okay correctness. We're just going to skip through it because I did the hand thing. I think that's good enough, right? Okay example, we're going to skip the example to cuz I wanted to show you guys the deterministic selection. Okay. Sometimes that algorithm that selection algorithm we talked about it sometimes called quick select because generally has a very ": [
+      2595.4,
+      2627.6
+    ],
+    "each baked 50,000 then when they hire you they say the average salary is 97500 USA. Wow, I that might be something that I would like to have. So I'll take the job but they didn't tell you that the median salary was 50,000. So kind of you can use these numbers to sort of fool people and trick people but it's nice to know both of them. And if ": [
+      1164.9,
+      1191.7
+    ],
+    "efficiently, then you wouldn't need this algorithm because doing that would mean that you could just pick the beauty and every time all you can think about this is sort of what happened in general you kind of split it up in half or roughly half if you're picking these things at random. So what's the worst case? You pick the biggest element or the smallest element, right? And then ": [
+      1927.5,
+      1951.5
+    ],
+    "element you're trying to find? Okay. So instead what we're going to do is we're going to Pivot. With a random element of our list and then split the list into all integers greater than that pivot and all that are less than that pivot. Okay, then we can use that. Pivot to figure out which side is our element going to be in. Okay, so let's just look at ": [
+      1462.4,
+      1491.9
+    ],
+    "expected run time, right? And then merge sort Big O of n log in. And so I guess quick source. The only one well unless you do BOGO sort as a random think the only one that is a random algorithm randomized algorithm, which means that you may get different run times on the same input because you're using a random choice or it will see some more of that ": [
+      193.1,
+      224.2
+    ],
+    "five. Then you find the medians of all of those lists. How do you do that? Well, you can just kind of you can sort them in find it right the The important part here is that it's a list of size 5 so finding the median it takes constant time for each one. Okay, then you take all those medians and you find the median of all of those ": [
+      2693.4,
+      2728.1
+    ],
+    "going to get this efficient run time. Okay good. Okay, so this song. This type of thing with the pivot and separating things to lower and bigger. This is sort of the the the whole mechanism behind Quick store. What what have we noticed about partitioning the petitioning part of selection. Is that once you partition it? You have a bunch of elements that are less than the pivot and ": [
+      2282.1,
+      2326.4
+    ],
+    "guys can think about it as an exercise. Okay. See you on Friday for the quiz. Can you see San Diego podcast for more visits. EDU? ": [
+      2983.5,
+      3013.4
+    ],
+    "have faith your algorithm will work on smaller inputs and then show that that means it works on the big input. That's basically it. Okay bass case is that if n equals 1 then wear shorts returns just the first element to really sorted inductive hypothesis. We're going to have to use a strong inductive hypothesis because the size of the recursive call is generally much less than just a ": [
+      952.5,
+      980.6
+    ],
+    "here because remember the expected value is sort of like an average. So you kind of have to divide over all the possible cases and we're saying it's equally likely to pick any of those elements. Every time this thing is a nightmare to do so, we're going to sort of estimated with another method Instead we're going to look at did my Pivot fall in within this middle range ": [
+      2155.1,
+      2184.0
+    ],
+    "in linear time. They use the divide-and-conquer strategy did what they did was. They used divide and conquer to find not the median element, but an element that's kind of close to the median close enough that if you partition there the subsets that you get are balanced enough. Okay. So how did they do it? Well, first thing they do is to split the list in two sets of ": [
+      2658.5,
+      2693.4
+    ],
+    "is equal to and login. So that shows that log of n factorial is Big O of n log n And that's that's helpful if you if you find like a a run time. Of something is Big O of n log n factorial that means a big old and login, but if you're trying to go the other way, we're trying to find like a lower bound of sorting. ": [
+      399.2,
+      426.4
+    ],
+    "it only achieves this run time most of the time so we'll talk about that and then at the end of the class, hopefully we'll have enough time for this. I'll show you a deterministic algorithm that achieves this time and it's like one of the most crazy. algorithms out there that I that Yeah for this or for anything that will see in this class. Okay, so let's get ": [
+      1327.5,
+      1354.1
+    ],
+    "just going to have it be the lower of those to the median is clearly 8, right? And the median of this list. Well, you can sort of think about there being two medians write 10 and 17 like an upper median in a lower median, but we're going to default to tend to the lower one. Okay, and that way we can just say it's the ceiling of n ": [
+      1108.1,
+      1133.8
+    ],
+    "just kind of dumping everything in their we're saving time by just by not supporting them. Okay, so now Since K is equal to 7. That's the 7th element that I'm looking for and it's bigger than the size of a cell then. We know that it's not in there, right? It's got to be bigger than our pivot. Okay, so since it's bigger than XL plus the size of ": [
+      1573.6,
+      1608.6
+    ],
+    "keep on doing that and build the whole list. Independence dependent on the tool is being sorted themselves. And so Okay, so the runtime of merge sort, well, we can just plug it into the master theorem. There are two recursive calls each. One of them is Andover to size and over to the non recursive part takes big O of n time. Tea event over to tea event over ": [
+      862.7,
+      892.6
+    ],
+    "kind of do like a bucket sort and just kind of throw all the elements in there, but those don't really depend on comparisons like we're doing here and we're just talking about sorting in general if you know nothing about your list. Okay, so we can actually use this this concept of that binary tree with n factorial leaves to get a bound on the number of comparisons needed ": [
+      670.6,
+      702.5
+    ],
+    "kind of verge them together. Thank you sort of a and idea you merge sort the visit that left side and merge sort the left side. You merge sort the right side and then you merge them together. This is dependent on this subroutine. merge that should run in big'o of end time and you basically just pluck the first element of each list, whichever one smaller and you just ": [
+      826.9,
+      862.7
+    ],
+    "less than or equal to. the maximum of T of I guess let's do it the other way. T of the max of SL, Sr plus big event now let's think about a few scenarios. What if you always were able to split the list exactly in half? Then SL and Sr will always be an over to and so the maximum will be in over two and you get ": [
+      1851.1,
+      1896.4
+    ],
+    "mediums. How do you do that recursively and how big was that list while you had a median from each one? So the size of that list is an over 5. Okay, then you take whatever you got from that the median of medians and you use that to partition the list just like we did before. And then you request on whichever sublist just like we did before. Cake ": [
+      2728.1,
+      2760.0
+    ],
+    "merge sort and all these other ones you always get the same exact same number of computations of calculations of comparisons. Every time you run it on the same exact input. Maybe it'll take longer time or shorter time depending on your computer cuz there's more things going on. But the number of comparisons is always the same. Okay. So how long should it take to sort things? Well, let's ": [
+      224.2,
+      252.8
+    ],
+    "ml in Mr. Or ml is the merge sort of that and m r is the merge sort of that and these two things by inductive hypothesis are sorted. Right because the size is less than in. Okay, then the conclusion since this is less than in the inductive hypothesis ensures that these things are sorted and merge were also depending on how merge actually works. Birds combines them and ": [
+      1009.7,
+      1044.1
+    ],
+    "numbers are smaller than it. Okay, I'm going to go by the books. rule that if it's okay, so if the list has an odd number of values the median is clear, right if it has an even number of values than we just say that it's the The lower of the two middle elements often times you'll just you'll have the median be the average of those two. We're ": [
+      1076.4,
+      1108.1
+    ],
+    "of bee sound outrageous, but just bear with me here. Okay, so Let's say that this takes tea event. I'm right. Where are my recursive calls? I have this. Oh, I forgot to change this to Emma then. I have this I have this this is T of n / 5. This is t i v e s l. And this is T of s r. Okay. Now what I ": [
+      2841.7,
+      2881.6
+    ],
+    "of the sets SL and Sr. Based on what element you picked as the pivot. So if I picked the ice element as the pivot, I draw a vertical line and wherever it intersects this line will be the size of SL and wherever intersects this line will be the size of a sar. And now remember what we're doing is Picking the maximum about of those too, cuz we're ": [
+      2023.4,
+      2060.5
+    ],
+    "or maybe another way to say is is there anything that? Prohibits us from getting any lower than n log in. I know it's hard. It's not an easy question to answer. But certainly we can we can all agree that all media and algorithms have got to be big Omega of n right. You can just count. How many are bigger and how many are smaller? right But you ": [
+      1250.5,
+      1292.5
+    ],
+    "or outside this middle range of 8/4 to 3 / 4 3 / 4. So, what's the probability of choosing a value in this interval? 1/2 right so it's either in this interval or it's outside. Okay, now we can we can split this up. So now I have a 1/2 likelihood that it's inside the interval and if it's inside the interval then I have a maximum an upper ": [
+      2184.0,
+      2220.1
+    ],
+    "practical linear expected run time. It's also used in practice a lot. For theoretical computer scientist. It's kind of not good enough because you want to have something that you know will always be linear time. No matter what even if it's not going to be practical. So these guys here have developed a deterministic approach. I think in the 70s to finding the median or any case biggest element ": [
+      2627.6,
+      2658.5
+    ],
+    "pseudo-random or all that stuff? But another way you could think about doing this algorithm is instead of picking a random element. You can just pick the first element in the list. If it's sufficiently shuffled then it would kind of be random. okay, this takes big off and and then we have one or the other of these recursive calls. So this is going to be T of the ": [
+      1794.5,
+      1821.5
+    ],
+    "recurrence is T of n is equal to take all then and maybe one kind of quick reasoning is that the sizes of these two sub list, if you add them together you get 9 and over 10 Which is less than n so you can think about the record the recursion tree you're doing fewer and fewer computations as you go down sort of like a away to think ": [
+      2922.4,
+      2950.3
+    ],
+    "simplification is that you can change this to 2 / n i equals 1 to n ETA of eye right because this these things are kind of the same thing. It's just that one is counting up and the other one is counting down. So it's basically like you're just counting them together if you sort them around. Do that plus the go then? and now Yeah, right, and now ": [
+      2491.6,
+      2534.7
+    ],
+    "size of a cell. or t of the size of s r and which one you take kind of depends, right? But it also depends on how big the sizes are is dependent on P. Okay, so in general we always like the worst case scenario. So the worst case if it picks the bigger one of those lists. So we have t of n is I guess let's say ": [
+      1821.5,
+      1851.1
+    ],
+    "smaller SV is all the elements that are equal and S are all the elements that are greater. So we get this thing. Okay. So how we going to do we want to be able to do this efficiently, right? It shouldn't take more than end time cuz it's sort of our Target of the runtime. So in order to do this You just kind of iterate through the list ": [
+      1520.2,
+      1545.3
+    ],
+    "song If you have 10 or fewer elements does the base case just sort it and figure it out that way right? It's a lot easier otherwise partition it into five elements each for each one of those elements find the median right so recurse on I guess this is a I think I did something weird here. Well, you just find median. Okay, then you said M to be ": [
+      2760.0,
+      2806.3
+    ],
+    "sort of considered to be the best asymptotic runtime that you can achieve. There are some sorting algorithms that run faster asymptotically but they depend on knowing something about the input. Maybe the list is like almost sorted. Then there are algorithms that run faster than this that can finish the Sorting or maybe you know that the elements in the list come from a small set. Then you can ": [
+      642.8,
+      670.6
+    ],
+    "sort of the template of all divide-and-conquer proofs. The the the nice thing about these ones is the proofs are really a lot easier than the proof that we've seen before for like graph algorithms and greedy algorithms and the proof technique the way you do it is always going to be induction so you don't ever have to think about which one to do and so you basically just ": [
+      920.5,
+      951.3
+    ],
+    "started. So sorting the list it's in login. All selection algorithms are big when I get out of an okay. So instead of finding the median we're going to we're going to build an algorithm that finds the cave. smallest integer in the list okay, if we could get algorithm to do that, then we could just instead of Yeah, you can just put an over to in place of ": [
+      1354.1,
+      1383.1
+    ],
+    "sub list determine how to split the list again. This is kind of the idea for divide and conquer Okay. So how would you split the list if you just split the list down the middle, it doesn't really help so much because now each one of those sub-lists has their own median or have their own case smallest element and how do you know how that relates to the ": [
+      1442.3,
+      1462.4
+    ],
+    "takes T of n this takes T of SL. Plus T of Sr. Cuz you have to do both this time with the sort. Both of them do to recursive calls. Okay, so you get this this mess of a recurrence We're not going to go through the whole derivation of how to simplify. But this is the expected runtime of quicksort. I will kind of share with you one ": [
+      2450.3,
+      2491.6
+    ],
+    "talk about sorting things by comparing right? So now we're going to try to get like a lower bound on sorting. So if we must sort things based on comparisons, we must travel down a path in a certain decision tree. It's a binary tree right because that every decision you have two possibilities either a one is bigger than a two or a two is bigger than a one ": [
+      252.8,
+      279.1
+    ],
+    "talking about the worst case. So when is the maximum the least? Is when I is equal to n over to right? Because then the maximum of these two lines is just this one anything else you have to kind of go up one of those arms. The worst case is going to be at and or 1 and -1 or 0 or whatever. Okay. So what we're going to ": [
+      2060.5,
+      2092.5
+    ],
+    "that it's Big O of M login is that login factorial? Because the log rules is just adding up all the logs, right and you're adding up a bunch of things and times each one of those things is less than login. She get in login, okay. So now we can rewrite log in factorial in this way. And now I want to show that log in factorial is Big ": [
+      471.6,
+      505.8
+    ],
+    "that means your list only decreases by one and you get this recurrence. Does anybody know? What this would be. and square you basically get like a 1 + 2 + 3 + 4 + 5 all the way up to an but that's extremely unlikely. Okay good. so so N squared is actually worse than just sorting it and picking it. So is it worth it to even do ": [
+      1951.5,
+      1987.5
+    ],
+    "the median of of this sub list. And then so that was that first part and then this part in the box is just identical to what we did before you just use like a very particular value. It's not randomly chosen anymore. It's chosen for particular reason. Okay. So let's look at the runtime here. And this is this I'm going to do this quickly and it might kind ": [
+      2806.3,
+      2841.7
+    ],
+    "the median? Does anybody have like a quick and easy way that if I asked you to find the median right now, what would be an algorithm that you could think of? Sword. It's right sort it. And take middle, right? How long would this take? And login. Thank you. Okay, so now can you think of any lower bounds on the runtime of a median algorithm? Is there any ": [
+      1214.8,
+      1250.5
+    ],
+    "the number of different Arrangements of an element. So there's got to be a n factorial many leaves in the best-case. So what is the height of this tree? Well, it's a binary tree with n factorial leaves. That means it's going to be Big O of log of n factorial. Okay, so any so this is what we can conclude from this any sorting algorithm. That's based on these ": [
+      322.4,
+      356.2
+    ],
+    "the start Good. Because you could also think about like it's the case biggest now that does that makes it sort of makes. I don't know. We're going to stick with Kate smallest and that's what that means. It's the cave smallest from the start if the case element. So here's the idea split the list into two sub list solve each problem recursively recursively select from one of the ": [
+      1412.2,
+      1442.3
+    ],
+    "thing and login minus and plus one you've shown that log and factorial is greater than this thing. And so you get this lower down also, questions about that Okay. Okay good. So now we know that all sorting algorithms based on comparisons have to take at at least and login time. And so then that means that merge sort which takes a big Theta event log in time. That's ": [
+      602.9,
+      642.8
+    ],
+    "this is going to be in the right direction, right? Because we're going to try to show log and factorial is bigger than something that has to do with M login. Okay, so does everybody does anybody know how to do this integral you guys remember integration by parts? Don't worry. This is not on the test. You do integration by parts and you get that the integral is this ": [
+      577.1,
+      602.9
+    ],
+    "this nice recurrence here. By the master theorem we have a is 1 B is 2D is one. So we have a is less than b to the D and so T of n is equal to Big O of n to the D, which is just bigger than which is good. It's kind of unlikely that you'll do that right? Cuz if you could if you could do that ": [
+      1896.4,
+      1927.5
+    ],
+    "this? If we can just know for sure that we have an algorithm that works in N log in time every time or should we try this out try our luck and maybe get unlucky and it takes and square time. What are the odds right? What are you expected to do? What's the expected run time? Okay, so this is a picture. That is supposed to represent the sizes ": [
+      1987.5,
+      2023.4
+    ],
+    "to and you get this recursion which is going to become very familiar to you. So whenever you see this you can say oh, oh I know what that is by using the master theorem, or you can just say tea event is equal to Big O of M login. Okay. song there we go. All right. Now, let's just quickly go through the correctness. This is going to be ": [
+      892.6,
+      920.5
+    ],
+    "to sort a certain number of elements and then we can kind of think about what are the consequences? Okay. So sorting one element takes the ceiling of log of 1 factorial time. Which is 0 comparisons makes sense, right? Sorting two elements should take one comparison. You just compare them and sort them. Turning three elements should take three comparisons. And that's actually easy to think about because there ": [
+      702.5,
+      733.8
+    ],
+    "to the size of the list and everything the same then you know, it's got to be the same element. So you just returned fee. Otherwise, this is sort of the example that we saw previously. You return selection srk - SL - has to be in that kind of tree figures it. Okay any questions? Okay, so that's that the run time well. Let's say that this thing takes ": [
+      1734.0,
+      1768.9
+    ],
+    "to think of quicksort and merge sort as opposites merge sort you start like this. You've split the list up. Then you sort each side and when you put them back together, you kind of have to like zip them up right quick sort is you kind of split it up by unzipping it then you sort each side and then you stick them together, make sense. so let's look ": [
+      2376.1,
+      2408.8
+    ],
+    "you can solve that I'm not going to do it but you guys can do it as an exercise. the methods that I think artwork the best AR induction or he's your with Calculus basically induction. And the result is that ET of n is Big O of n log in. Okay, good questions about that. Yeah. Well, then you / and then you / in ya kind of like ": [
+      2534.7,
+      2595.4
+    ],
+    "you know, you guys know all this right from the scores the looking at the test scores and homework scores, right if the median is much bigger than the average or vice versa that kind of tells you something about how the data is distributed. So it's nice to know what the median is. Okay, so let's think about algorithm. How can you think of an efficient way to find ": [
+      1191.7,
+      1214.8
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "02132019",
+  "Full Transcript": "Listen to a podcast.  Why does it do that?  Play me some music.  Are you intelligent?  Hi.  Okay, so let's get started. Are there any questions before we begin?  Okay.  Good.  In that case, let's begin.  Okay, let's quickly talk a little bit about.  sorting  how long should it take to sort things?  You guys know all these algorithms.  How long does it take to bubble sort?  insertion score sort  does anybody know what BOGO sort is?  Where what's the bounded variant?  Okay.  Yeah, but don't you need to take?  time to check  Yeah, right.  Where can you do that?  as you go maybe  Maybe you could do it as you go and you can save that time, but yeah bigger than factorial.  I'm more efficient Bubba Stewart, right selection sort.  And squared quicksort. Does anybody know?  Login is the expected run time, right?  And then merge sort Big O of n log in.  And so I guess quick source. The only one well unless you do BOGO sort as a random think the only one that is a random algorithm randomized algorithm, which means that you may get different run times on the same input because you're using a random choice or it will see some more of that merge sort and all these other ones you always get the same exact same number of computations of calculations of comparisons.  Every time you run it on the same exact input. Maybe it'll take longer time or shorter time depending on your computer cuz there's more things going on. But the number of comparisons is always the same.  Okay. So how long should it take to sort things? Well, let's talk about sorting things by comparing right? So now we're going to try to get like a lower bound on sorting. So if we must sort things based on comparisons, we must travel down a path in a certain decision tree. It's a binary tree right because that every decision you have two possibilities either a one is bigger than a two or a two is bigger than a one and so for those there's all it always branches into 2/3 of this binary tree. They basically in the worst case you have to go down the whole thing.  How many leaves does this tree have if I'm trying to sort n elements?  n factorial  because you want this sorting algorithm to work on every single input, right? How many possible different ways did you have to arrange them? It's the number of different Arrangements of an element. So there's got to be a n factorial many leaves in the best-case.  So what is the height of this tree? Well, it's a binary tree with n factorial leaves. That means it's going to be Big O of log of n factorial.  Okay, so any so this is what we can conclude from this any sorting algorithm. That's based on these binary decisions these comparisons Pastor run in big Omega of log of n factorial time. You can't make it run any faster because you have to at least be able to make a path to every one of those permutations.  Okay, is there a simpler expression than that? I can use rather than login factorial?  Okay, so  log of n factorial  is less than log of N2 the end which is equal to and login. So that shows that log of n factorial is Big O of n log n  And that's that's helpful if you if you find like a a run time.  Of something is Big O of n log n factorial that means a big old and login, but if you're trying to go the other way, we're trying to find like a lower bound of sorting. We need to show that login factorial is Big Omega van login.  question  The cleaning clogged up at night.  We're going to show that you mean between like asymptotically know we're going to show we will show.  That log and factorial is actually Theta of n log in.  Okay, and that that will show that it's also a lower bound.  Okay. So this is another way to think about showing that it's Big O of M login is that login factorial? Because the log rules is just adding up all the logs, right and you're adding up a bunch of things and times each one of those things is less than login. She get in login, okay.  So now we can rewrite log in factorial in this way. And now I want to show  that  log in factorial is Big Omega of NY login.  Hey, there's a few ways to do that. My favorite way to do it is to use calculus. So if you look at these.  these yellow boxes that I drew that's the summation of  Log, 1 + log 2 + log 3 + log for log 1 + log 2 + 3 + 4 the area is equal to that right? Because each one of those bricks that has a with the one and it's clear that the total area of those bricks has got to be bigger than the area under the Curve.  Frank  stop  This is the area of the bricks the area under the curve is what integral from 1 to n of log X DX.  So we know that this sum is got to be bigger than that integral.  And this isn't this is going to be in the right direction, right? Because we're going to try to show log and factorial is bigger than something that has to do with M login.  Okay, so does everybody does anybody know how to do this integral you guys remember integration by parts?  Don't worry. This is not on the test. You do integration by parts and you get that the integral is this thing and login minus and plus one you've shown that log and factorial is greater than this thing. And so you get this lower down also,  questions about that  Okay. Okay good. So now we know that all sorting algorithms based on comparisons have to take at at least and login time. And so then that means that merge sort which takes a big Theta event log in time. That's sort of considered to be the best asymptotic runtime that you can achieve.  There are some sorting algorithms that run faster asymptotically but they depend on knowing something about the input. Maybe the list is like almost sorted. Then there are algorithms that run faster than this that can finish the Sorting or maybe you know that the elements in the list come from a small set. Then you can kind of do like a bucket sort and just kind of throw all the elements in there, but those don't really depend on comparisons like we're doing here and we're just talking about sorting in general if you know nothing about your list.  Okay, so we can actually use this this concept of that binary tree with n factorial leaves to get a bound on the number of comparisons needed to sort a certain number of elements and then we can kind of think about what are the consequences? Okay. So sorting one element takes the ceiling of log of 1 factorial time.  Which is 0 comparisons makes sense, right?  Sorting two elements should take one comparison. You just compare them and sort them.  Turning three elements should take three comparisons.  And that's actually easy to think about because there are only three actual comparisons that we could possibly do, right? Cuz 3 choose 2 is equal to 3.  Or you can just do it by the tree.  So 4 is when you know this number starts getting less than four choose to so sorting four elements. There's a way to do it in five comparisons.  Dinosaur kind of we're getting better than the four choose to which is 6 comparisons. That's just let's compare every single pair of elements. And of course with that information, you can put them in order for sure of skipping one of those comparisons. Now the whole choose to comparisons that's like your bubble sort insertion sort and selection store. They use all of those because n choose to is Big O of N squared. Okay, so we're gaining some Advantage by using this binary tree.  so  Oh.  Here's an exercise that you guys can do when you get bored.  divisor algorithm that sorts for elements using at most 5 comparisons  Okay, so the divide-and-conquer sort, let's quickly go through merge sort just for completeness. It's in the book too. And you guys probably seen it in many classes, but the ideas put the list up and then sort each side and then you kind of verge them together.  Thank you sort of a and idea you merge sort the visit that left side and merge sort the left side. You merge sort the right side and then you merge them together. This is dependent on this subroutine.  merge  that should run in big'o of end time and you basically just pluck the first element of each list, whichever one smaller and you just keep on doing that and build the whole list.  Independence dependent on the tool is being sorted themselves. And so  Okay, so the runtime of merge sort, well, we can just plug it into the master theorem. There are two recursive calls each. One of them is Andover to size and over to the non recursive part takes big O of n time.  Tea event over to tea event over to and you get this recursion which is going to become very familiar to you. So whenever you see this you can say oh, oh I know what that is by using the master theorem, or you can just say tea event is equal to Big O of M login.  Okay.  song  there we go.  All right. Now, let's just quickly go through the correctness. This is going to be sort of the template of all divide-and-conquer proofs. The the the nice thing about these ones is the proofs are really a lot easier than the proof that we've seen before for like graph algorithms and  greedy algorithms and  the proof technique the way you do it is always going to be induction so you don't ever have to think about which one to do and so you basically just  have faith your algorithm will work on smaller inputs and then show that that means it works on the big input. That's basically it.  Okay bass case is that if n equals 1 then wear shorts returns just the first element to really sorted inductive hypothesis.  We're going to have to use a strong inductive hypothesis because the size of the recursive call is generally much less than just a 10-1. So suppose that for some an greater than or equal to one merge sort eighth one 4K output the elements a and sorted order on all inputs of size K wear.  Kaiser between 1 and 10 now we need to show that it works on size and plus one guy stop.  Inductive step so since and is greater than or equal to 1 this thing.  Returns the merge of ml in Mr. Or ml is the merge sort of that and m r is the merge sort of that and these two things by inductive hypothesis are sorted.  Right because the size is less than in.  Okay, then the conclusion since this is less than in the inductive hypothesis ensures that these things are sorted and merge were also depending on how merge actually works.  Birds combines them and Returns the elements in sorted order any questions about that.  Okay, good. I so let's move on to the next topic which is sort of related to sorting but instead it's just trying to find the median of a list median. The median of a list of the numbers is the middle number in the list and other words half of the numbers are bigger than it half of the numbers are smaller than it.  Okay, I'm going to go by the books.  rule that  if it's okay, so if the list has an odd number of values the median is clear, right if it has an even number of values than we just say that it's the  The lower of the two middle elements often times you'll just you'll have the median be the average of those two. We're just going to have it be the lower of those to the median is clearly 8, right?  And the median of this list. Well, you can sort of think about there being two medians write 10 and 17 like an upper median in a lower median, but we're going to default to tend to the lower one.  Okay, and that way we can just say it's the ceiling of n / 2.  Okay, so  why is the median important what's a certain things you can use it for? So why don't you just use the average? Well, sometimes it's better to get a sense of.  How the data what's it? What's a better representation of the data? So if you have your going to a company with 20 employees, let's say co-ceo makes a million and all the other workers each baked 50,000 then when they hire you they say the average salary is 97500 USA. Wow, I that might be something that I would like to have. So I'll take the job but they didn't tell you that the median salary was 50,000. So kind of  you can use these numbers to sort of fool people and trick people but it's nice to know both of them. And if you know, you guys know all this right from the scores the looking at the test scores and homework scores, right if the median is much bigger than the average or vice versa that kind of tells you something about how the data is distributed. So it's nice to know what the median is.  Okay, so let's think about algorithm. How can you think of an efficient way to find the median? Does anybody have like a quick and easy way that if I asked you to find the median right now, what would be an algorithm that you could think of?  Sword. It's right sort it.  And  take middle, right? How long would this take?  And login. Thank you.  Okay, so now can you think of any lower bounds on the runtime of a median algorithm?  Is there any or maybe another way to say is is there anything that?  Prohibits us from getting any lower than n log in.  I know it's hard. It's not an easy question to answer.  But certainly we can we can all agree that all media and algorithms have got to be big Omega of n right.  You can just count. How many are bigger and how many are smaller?  right  But you could also check if a list is sorted in linear time.  Oh, I see what you're saying. Yeah.  Exactly. Yeah, keep on checking all of them. Yeah. Yeah. Yeah good point. Right so it's got to be bigger and that's what we're going to look at. Today is an algorithm.  achieves this  Run time there is a kind of a caveat is that the algorithm is a random algorithm. So it only achieves this run time most of the time so we'll talk about that and then at the end of the class, hopefully we'll have enough time for this. I'll show you a deterministic algorithm that achieves this time and it's like one of the most crazy.  algorithms out there that I that  Yeah for this or for anything that will see in this class. Okay, so let's get started.  So sorting the list it's in login. All selection algorithms are big when I get out of an okay. So instead of finding the median we're going to we're going to build an algorithm that finds the cave.  smallest integer in the list  okay, if we could get algorithm to do that, then we could just instead of  Yeah, you can just put an over to in place of K and that will give you the median.  Okay, this is always something I don't know why it really kind of messes with me and I don't know which way to go. Does Kate smallest mean like the  I'd like you count up to K from the smaller elements or from the from the end.  What is the first smallest element the smallest so the case smallest is like?  from the start  Good.  Because you could also think about like it's the case biggest now that does that makes it sort of makes. I don't know. We're going to stick with Kate smallest and that's what that means. It's the cave smallest from the start if the case element.  So here's the idea split the list into two sub list solve each problem recursively recursively select from one of the sub list determine how to split the list again. This is kind of the idea for divide and conquer  Okay. So how would you split the list if you just split the list down the middle, it doesn't really help so much because now each one of those sub-lists has their own median or have their own case smallest element and how do you know how that relates to the element you're trying to find?  Okay. So instead what we're going to do is we're going to Pivot.  With a random element of our list and then split the list into all integers greater than that pivot and all that are less than that pivot.  Okay, then we can use that.  Pivot to figure out which side is our element going to be in.  Okay, so let's just look at an example. So I'm I get this big list of numbers and I'm trying to find the seventh smallest number.  Okay, so you pick a random pivot say 31 now divide the list into three groups SLS B&S are so I took those names from the book.  SL is all the elements smaller. It's going to be to the wall.  I think about it to the left of the element smaller SV is all the elements that are equal and S are all the elements that are greater. So we get this thing.  Okay. So how we going to do we want to be able to do this efficiently, right? It shouldn't take more than end time cuz it's sort of our Target of the runtime.  So in order to do this  You just kind of iterate through the list and look at every element. We know that are pivot is 31. So it only takes linear time to compare each element. We compare the first 140 it's bigger. So we dumped it into sr31 is equal you dump it into SV6 is smaller into a cell and so on and what I want you to notice here is that these elements these list here are not necessarily so we're just kind of dumping everything in their we're saving time by just by not supporting them.  Okay, so  now  Since K is equal to 7. That's the 7th element that I'm looking for and it's bigger than the size of a cell then. We know that it's not in there, right?  It's got to be bigger than our pivot.  Okay, so since it's bigger than XL plus the size of SB. It cannot be in SB either therefore. It must be in sr.sol the 7th biggest element in the original now, I'm using biggest.  Okay, so the seventh smallest element.  In the original list is what number element in Sr.  The second right?  Well, how'd you get that while you know that all of these elements are smaller than all of these elements which are smaller than everything and Sr. So you are another way to say it's the seventh smallest element is to say there are six elements smaller than it so, you know that these five elements are all smaller than it then you need one more element to be smaller than its what's got to be the second element in a spar.  Okay good. So if my algorithm is called selection and this is how it looks.  And it's supposed to Output whatever element I want then selection of this big list, seven is the same as selection of the smaller list, just finding the second element in there. So that's your recursive call.  Basically, that's it.  So let's just go through this real fast. It's pretty much just what we did. You have your base case.  If there's only one element, there's only one element you can search so it's got to be that element.  Pick a random integer be in the list split it up into these things. This is the thing that's going to take big event time.  If K is smaller than the size of the left list, then you know, it's in there and you got to return selection SLK.  If it's if it fails that and it's less than or equal to the size of the list and everything the same then you know, it's got to be the same element. So you just returned fee.  Otherwise, this is sort of the example that we saw previously.  You return selection srk - SL - has to be in that kind of tree figures it.  Okay any questions?  Okay, so that's that the run time well.  Let's say that this thing takes T of n time to run then we have bass cases big old one.  How long does it take to pick a random thing just big old one? We're thinking about random being a quick thing and that sort of the the strength of these random algorithms is that randomizing things as fast or picking random things is fast. Now we get into the whole thing. Is it random or pseudo-random or all that stuff? But another way you could think about doing this algorithm is instead of picking a random element. You can just pick the first element in the list.  If it's sufficiently shuffled then it would kind of be random.  okay, this takes big off and and then we have  one or the other of these recursive calls.  So this is going to be T of the size of a cell.  or t of the size of s r  and which one you take kind of depends, right?  But it also depends on how big the sizes are is dependent on P.  Okay, so in general we always like the worst case scenario. So the worst case if it picks the bigger one of those lists. So we have t of n is I guess let's say less than or equal to.  the maximum of T of  I guess let's do it the other way.  T of the max of SL, Sr  plus big event  now  let's think about a few scenarios. What if you always were able to split the list exactly in half?  Then SL and Sr will always be an over to and so the maximum will be in over two and you get this nice recurrence here.  By the master theorem we have a is 1 B is 2D is one. So we have a is less than b to the D and so T of n is equal to Big O of n to the D, which is just bigger than which is good.  It's kind of unlikely that you'll do that right? Cuz if you could if you could do that efficiently, then you wouldn't need this algorithm because doing that would mean that you could just pick the beauty and every time  all you can think about this is sort of what happened in general you kind of split it up in half or roughly half if you're picking these things at random.  So what's the worst case?  You pick the biggest element or the smallest element, right? And then that means your list only decreases by one and you get this recurrence. Does anybody know?  What this would be.  and square  you basically get like a 1 + 2 + 3 + 4 + 5 all the way up to an  but that's extremely unlikely.  Okay good.  so  so N squared is actually worse than just sorting it and picking it. So is it worth it to even do this? If we can just know for sure that we have an algorithm that works in N log in time every time or should we try this out try our luck and maybe get unlucky and it takes and square time.  What are the odds right? What are you expected to do? What's the expected run time?  Okay, so  this is a picture.  That is supposed to represent the sizes of the sets SL and Sr. Based on what element you picked as the pivot. So if I picked the ice element as the pivot, I draw a vertical line and wherever it intersects this line will be the size of  SL  and wherever intersects this line will be the size of a sar.  And now remember what we're doing is  Picking the maximum about of those too, cuz we're talking about the worst case.  So when is the maximum the least?  Is when I is equal to n over to right?  Because then the maximum of these two lines is just this one anything else you have to kind of go up one of those arms. The worst case is going to be at and or 1 and -1 or 0 or whatever.  Okay. So what we're going to do is think about what is the expected run time the random variable here is going to be there going to be a sequence of random choices for each input. Right and the random variable is going to be the runtime of that particular outcome that particular sequence of choices. Okay. So this is kind of a way to think about how to calculate the expected run time.  You can break up the random choices into what pivot did you pick? Okay, so that's what this summation. Is it something over all the possible pivots from I suppose one up to end. Okay, then you take the expected runtime of the maximum of I and N -1 remember those were the sizes of the sets plus big old and which is the non-recourse apartment.  Okay, then you.  A / an here because remember the expected value is sort of like an average. So you kind of have to divide over all the possible cases and we're saying it's equally likely to pick any of those elements. Every time this thing is a nightmare to do so, we're going to sort of estimated with another method  Instead we're going to look at did my Pivot fall in within this middle range or outside this middle range of 8/4 to 3 / 4 3 / 4. So, what's the probability of choosing a value in this interval?  1/2 right  so it's either in this interval or it's outside.  Okay, now we can we can split this up.  So now I have a 1/2 likelihood that it's inside the interval and if it's inside the interval then I have a maximum an upper bound of 3 n / 4.  Frank so that's what this thing comes from.  David outside the Indigo interval my upper bound turns to end so that's this, right.  Is it inside?  outside  translate a lot easier and you just do a little bit of algebra.  and  it turns into this.  recursion  and if you do the master theorem on this you get a has 1 B is 4/3 and D is one. So a is still less than b to the D. So you still get pick oven. So this is good. That means the expected run time is linear and it turns out in practice that this is a really efficient algorithm.  The most part most of the time if you have a really big list, then it's going to be even more kind of likely that you're going to get this efficient run time.  Okay good.  Okay, so this song.  This type of thing with the pivot and separating things to lower and bigger. This is sort of the the the whole mechanism behind Quick store. What what have we noticed about partitioning the petitioning part of selection. Is that once you partition it?  You have a bunch of elements that are less than the pivot and a bunch of elements that are greater than the pivot. So what happens if we sort both of those lists?  I think we sort both of those lists. And then if we put them together then you have when you have a whole sordid list because we know everything on this side is less than everything on that side. If both sides are sorted then the whole thing is sorted.  Okay, so quicksort divide and conquer is now instead of just breaking the list up into two. We're sort of breaking the list up into two by partitioning it partitioning it.  Then you sort each side recursively and then you just stick them back together without doing anything just to come back because you know, everything on one side is bigger than everything on the other side. So I like to think of quicksort and merge sort as opposites merge sort you start like this. You've split the list up.  Then you sort each side and when you put them back together, you kind of have to like zip them up right quick sort is you kind of split it up by unzipping it then you sort each side and then you stick them together, make sense.  so let's look at the  the algorithm  very simple  bass case  you get some random element would be you partition it into these list just like we did before then you recursively sort them and stick them all together.  How long is this going to take? Well, we have Big O of one this part takes big old and time to do and this part is going to take I guess if this takes T of n  this takes T of SL.  Plus T of Sr.  Cuz you have to do both this time with the sort. Both of them do to recursive calls.  Okay, so you get this this mess of a  recurrence  We're not going to go through the whole derivation of how to simplify.  But this is the expected runtime of quicksort.  I will kind of share with you one simplification is that you can  change this to  2 / n i equals 1 to n  ETA of eye  right because this these things are kind of the same thing. It's just that one is counting up and the other one is counting down. So it's basically like you're just counting them together if you sort them around.  Do that plus the go then?  and now  Yeah, right, and now you can solve that I'm not going to do it but you guys can do it as an exercise.  the methods that I think artwork the best AR  induction  or  he's your with Calculus basically induction. And the result is that ET of n is Big O of n log in.  Okay, good questions about that.  Yeah.  Well, then you / and then you / in ya kind of like dude. Yeah, you can just kind of take it out.  Okay correctness. We're just going to skip through it because I did the hand thing. I think that's good enough, right?  Okay example, we're going to skip the example to cuz I wanted to show you guys the deterministic selection.  Okay.  Sometimes that algorithm that selection algorithm we talked about it sometimes called quick select because generally has a very practical linear expected run time. It's also used in practice a lot.  For theoretical computer scientist. It's kind of not good enough because you want to have something that you know will always be linear time. No matter what even if it's not going to be practical.  So these guys here have developed a deterministic approach. I think in the 70s to finding the median or any case biggest element in linear time. They use the divide-and-conquer strategy did what they did was.  They used divide and conquer to find not the median element, but an element that's kind of close to the median close enough that if you partition there the subsets that you get are balanced enough.  Okay. So how did they do it?  Well, first thing they do is to split the list in two sets of five.  Then you find the medians of all of those lists. How do you do that? Well, you can just kind of you can sort them in find it right the  The important part here is that it's a list of size 5 so finding the median it takes constant time for each one.  Okay, then you take all those medians and you find the median of all of those mediums.  How do you do that recursively and how big was that list while you had a median from each one? So the size of that list is an over 5.  Okay, then you take whatever you got from that the median of medians and you use that to partition the list just like we did before.  And then you request on whichever sublist just like we did before.  Cake song  If you have 10 or fewer elements does the base case just sort it and figure it out that way right? It's a lot easier otherwise partition it into five elements each for each one of those elements find the median right so recurse  on  I guess this is a  I think  I did something weird here.  Well, you just find median.  Okay, then you said M to be the median of of this sub list.  And then so that was that first part and then this part in the box is just identical to what we did before you just use like a very particular value. It's not randomly chosen anymore. It's chosen for particular reason.  Okay.  So let's look at the runtime here. And this is this I'm going to do this quickly and it might kind of bee sound outrageous, but just bear with me here.  Okay, so  Let's say that this takes tea event. I'm right. Where are my recursive calls?  I have this. Oh, I forgot to change this to Emma then.  I have this I have this this is T of n / 5.  This is t i v e s l.  And this is T of s r.  Okay. Now what I claim is that.  Maximum of SL and Sr has got to be less than or equal to 7/10 7 + / 10.  So that means that my run time here is T of n is equal to T of n / 5 + T of 7 n / 10 + bigo.  I know you can't plug this into the master theorem, but it turns out that the solution to this recurrence is T of n is equal to take all then and maybe one kind of quick reasoning is that the sizes of these two sub list, if you add them together you get 9 and over 10 Which is less than n so you can think about the record the recursion tree you're doing fewer and fewer computations as you go down sort of like a away to think about which means that it's top-heavy which means that most of the calculations you do is at the last stage.  Pretty crazy, huh?  Okay, so  Is basically just what I said now, we have a linear time selection algorithm. So I don't really have time to go into it. But maybe maybe we can talk about it next week. Where did this Seven Ten over ten come from. Maybe you guys can think about it as an exercise.  Okay. See you on Friday for the quiz.  Can you see San Diego podcast for more visits. EDU? ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02132019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02132019-1500.mp3"
+}

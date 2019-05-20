@@ -1,0 +1,338 @@
+{
+  "Blurbs": {
+    "And so the total we get is this one and plus I'm login is bigger than and login. So just use that one. And that is the best we can do I think. I don't think that you can actually do this. You can actually make it algorithm for this problem that runs in linear time. Be the version that we're going to see you in a few weeks where ": [
+      2907.7,
+      2943.0
+    ],
+    "And then your answer should just be yes or no? Questions about that it's going to come up again when we start talking about pee and then pee in the at the end of the class, but what kind of see it here and there. Okay, so say I'm is equal to 7, right and we wanted to decide whether there is a band with seven or better path from ": [
+      2309.0,
+      2333.1
+    ],
+    "I can update D2 b54 Diaz already an asteroid just stays there. Okay, and then he can also be updated to 3. So let's just go through this kind of quickly and I want to highlight a certain point they so be goes into X. Okay, now we're going to look at sea. C will update E250 update H25. And then H will be included. And then she gets included ": [
+      661.5,
+      695.1
+    ],
+    "I feel like starting the edges is really I don't know if it's necessary, but I think it is. But this is using binary search. Yeah. right You got it. UC San Diego podcast ": [
+      2974.0,
+      3009.7
+    ],
+    "I'm solving the decision problem correctness runtime analysis everything. Therefore we can use that as a reduction to solve. The other problem was kind of like a two-step process. Okay, so now now let's get to what you were saying. If we can test whether the best is at least and we can find the best value by starting at the largest possible 1 and going lower and lower until ": [
+      2671.5,
+      2698.8
+    ],
+    "Listen to a podcast. Yeah, who's coming to 4 p.m. Okay. And okay. Great. Thanks. Okay, let's get started. Good afternoon. So I looked over a lot of your algorithms, you know somewhere more detailed than others. But mainly most of them had the right idea where you kind of go through and I were talking about this problem here. Some of them used modification some of them use reduction. ": [
+      1.9,
+      69.3
+    ],
+    "No, this is wrong. I did this wrong. I got to change this. Case one is that m is greater than or equal to be of you. Okay, in that case in the algorithm be of you will change to Em Right. Then be of you is reset. 2 m and that means that there's a path through V to get to you and you can actually achieve that band ": [
+      1131.4,
+      1177.8
+    ],
+    "Okay, let's go the other way if there's not a path then returned false. So let's turn it around in the contrapositive and say if my algorithm does return true then that means that they did exist app at the same kind of thing if my algorithm return true, that means that there's a path in GM, right? If there's a path in GM, that means that all of the ": [
+      2467.8,
+      2496.0
+    ],
+    "Queso W is greater than or equal to be. bamsi is greater than or equal to be remember what the algorithm does it sets this variable m To be the minimum of B of Z. and the weight of the edge Cy Okay, both of those things in there are both bigger than little B. That means that M has to be greater than or equal to little bee. So, ": [
+      1869.0,
+      1904.4
+    ],
+    "Right? So these are two very different kinds of problems and it's hard to reduce 1 to the other because they're sort of of different forms. So a way to get around this is to is the turn the optimization problem into a decision form a decision version of the optimization problem. Okay, you can do this for any optimization problem the way to do it is to introduce one ": [
+      2245.9,
+      2274.9
+    ],
+    "S. And I have the right. Now, I know that s the bandwidth or the B of s is bigger than be right. I know that bfv is less than b. Because be a veces just Infinity so course it's bigger than b. Okay, so that means that at some point along the path. I'm going to change from these beat these bantha B of s these B RV values. ": [
+      1665.3,
+      1710.1
+    ],
+    "Search does without any modification. With with the graph search remember graph search is you take a graph and a vertex and it will output all of the vertices that are reachable. for undirected graphs you can use a disjoint set but the for directing when you can't what do you mean you can use a disjoint set? Oh, you mean to do like a minimum spanning tree Yeah, but ": [
+      2128.6,
+      2188.4
+    ],
+    "So right so you keep track of these pairs where B is the current bandwidth? end when you explore right when you kind of look at all the neighbors you compare the current bandwidth to the band with coming in and if it improves it, then you update the array and you push the vertex back into the stack or back into our Frontier f So I made another animation ": [
+      366.4,
+      402.6
+    ],
+    "So this is kind of where it changes and now you can see that this is a lot like the way we prove Graph Search. Some pizzas is the first time the zya edge of the first time you go over that thing. Okay. So the rest of the proof is kind of just going through the motions to get the contradiction what we're going to show is that baby ": [
+      1760.5,
+      1785.8
+    ],
+    "So what I want to do today, it's highlight kind of the main idea of a modification algorithm and a main idea of a reduction algorithm go through the proofs. What I want you to think about is which proof would you rather do would you rather do the modification one or the reduction one? I'll give you a hint reduction one is a lot easier and you're going to ": [
+      69.3,
+      92.6
+    ],
+    "They're going to start out bigger than be and then they're going to change to be smaller than be. Okay, so Let's say that this vertex. Let's call it why this is the first vertex. Such that. B of Y is less than b so come on. Let's call this onesie. So this is the last vertex such that b of Z is greater than or equal to be. Okay. ": [
+      1710.1,
+      1760.5
+    ],
+    "Well, I was just plug it in. Okay, good. That's all and then you know, you put a parandi and then after you get what six right and put it around there. Okay, so that's sort of the first iteration. And now we're done with a so we move a in 2x, right? Is it the same as what we saw before? You get rid of this little. Okay, now ": [
+      591.1,
+      629.9
+    ],
+    "a greedy cut kind of algorithm where you always take kind of the the heaviest Edge as a choice and it's funny because the in this particular example it actually does work, right if you start from a Where's my? What happened to my pain? Just leave work. And this will work. Okay, if you start with a right you take the heaviest Edge coming out you get you get ": [
+      166.3,
+      211.5
+    ],
+    "actually has to be bigger than b. And the way to do that is to go through the algorithm and see what it would do. Okay, so what would it do? Well, we have this let's call this Edge W the weight of this Edge. Now what do we know about W is W bigger than little b or smaller than little B. It's bigger or it's bigger than or ": [
+      1785.8,
+      1816.1
+    ],
+    "add in a bunch of zero edges. That correspond to non edges and then it's kind of like edges that you can't push anything through. Okay case 2. m is less than I guess this should be actually strictly greater. Yeah, and this is m is less than or equal to be of you right then be of you. Doesn't change. And by the inductive hypothesis, the loop invariants remains ": [
+      1332.3,
+      1373.3
+    ],
+    "anything yet. Okay, so that's the initialization. Okay, everything else is is the same as what we did before. And this part okay. So then you look at each neighbor and I'm going to set this this variable M to be the minimum of the bandwidth to be BMV and the weight of the edge right the idea is that I know that I can get a B A V ": [
+      455.8,
+      488.2
+    ],
+    "ath. The answer we knows is false because we already figured out that the maximum bandwidth is 6 but if we were to remove all of the edges smaller than 7 we could ask a more direct question, which is is is there a path from a to H when we remove all the edges less than 7 rank. So if we remove all these edges I mean after that ": [
+      2333.1,
+      2362.6
+    ],
+    "bandwidth from s2v, right then. I have an edge coming out of V. so I guess if the bandwidth is bigger than the edge right then you can only push through as much as the weight of the edge and if the edge is bigger than the band with you can only push through as much as the band with your kind of see how it goes when we go ": [
+      488.2,
+      513.0
+    ],
+    "base case before the first iteration be a veces infinity and be a v is 0 for all the rest because you just looking at the empty path right from s2v. Get any questions about the bass case. Okay. so what happened here? Sorry about that. Okay, so what's the inductive hypothesis? the above the loop invariant is true. after every iteration Okay now the inductive step. Okay, so you ": [
+      980.5,
+      1038.6
+    ],
+    "be gets put back into f So remember what I said about Graph Search the nice thing in the reason that it's efficient is that each vertex only goes into F at most one time now, we don't know how many times these are going to go in right? It kind of depends on the graph. So that's going to cause problems with runtime analysis. In fact, it just makes ": [
+      757.4,
+      782.6
+    ],
+    "big picture you keep on removing the smallest weight. Until you break the you break the graph so that S&T are not connected anymore. Once you once you remove that smallest weight that breaks it, you know, that that has to be the minimum bandwidth because without that edge there is no path. Queso similar ways to you just fine. Whatever random path between S&T right and then you remove ": [
+      2070.2,
+      2101.6
+    ],
+    "correct algorithm, it's a good exercise for you to figure out which examples does it not work on. Alright, so here's another example that actually does work. So in this this one was something like use a stack right just basically use Graph Search, but we're going to modify the algorithm by keeping track of another piece of information. Keep track of the best bandwidth up to that point. Okay? ": [
+      331.2,
+      365.3
+    ],
+    "edge weights had to be of weight and or bigger. Which means that there's a path in G with all the edge weights of weight a more bigger, which is what we want to show. Any questions about this? You can prove be as is. I just think that it's harder to prove kind of like these negative statements because if it's not if there's not a path then I ": [
+      2496.0,
+      2532.7
+    ],
+    "edge, but that's fine. Okay, and then how about time to run Graph Search? Well We've only made the grass simpler, right? So we haven't made the graph any bigger there for the time to run Graph Search on the original graph is big O of n + m time. So the time to run Graph Search on the new graph can't be any any worse than that. Stop total ": [
+      2601.0,
+      2630.6
+    ],
+    "equal to. How do we know that for? Sure. It's not the reason that's not the reason I'm looking for. Definition of Hobart. Okay good. We said here that. The band with the p is equal to be that means that the the minimum Edge wait on the path p is be right. So that means every Edge on that path have to be greater than or equal to be. ": [
+      1816.1,
+      1867.8
+    ],
+    "example. What if you had a graph like this? What would happen here? Write the band was here is one, right? Yeah. Res if you took the other route that you have a band with them 9. Okay, so that's something to think about is to come up with these edge cases these sort of counter examples for when it doesn't work. so just looking into the future when you ": [
+      235.2,
+      278.9
+    ],
+    "good run time. So, let's see if we can improve it. Is there a better way that we could search for the optimal value? What is it? And do like a binary search right start with the value in the half. If you if you have achieved it, right then that means that you know, you can get a better band. We may be able to get a better bandwidth ": [
+      2790.3,
+      2820.4
+    ],
+    "guess this one you could probably do pretty well. Any other questions? Looking good. Okay, so let's look at the the runtime analysis, which is going to be a lot easier time to create G of mg. So then How We Do It So it's kind of like a four from between Max Max of the max weight to zero. You know test dad kept every case and tell him ": [
+      2532.7,
+      2574.8
+    ],
+    "hand in a homework assignment homework problem, or if you do something on the exam, that's incorrect. And I tell you, you know, this doesn't run for all cases. You know, I get two different reactions one reaction is, you know, shut up. It's actually does work. Look at it that you look at it closer and sometimes I'm wrong of course and it does work on all cases. And ": [
+      278.9,
+      307.1
+    ],
+    "here. This one took me a lot last time because I was kind of more I knew sort of what to do, and I was a lot more organized. Okay, so I made this pseudocode that's supposed to do with this says okay. Let me just go through it real fast, and then we'll look at the animation Okay, so So this b a r a right? It's an array ": [
+      402.6,
+      427.2
+    ],
+    "if we do that we can really bound the runtime. There's something a lot more reasonable. But I'm going to kind of revisit this same problem when we start talking about priority queues. So just keep that in mind. Okay, let's go to the reduction and so a few of you guys. Talked about a type of modifying the or modification. We're used to rejection your sort of like the ": [
+      2036.0,
+      2070.2
+    ],
+    "in to ask. Okay now we look at Dee so Dee can't update F because f is already bigger so you leave it alone. And Saudi is done putting into X. Okay. Now, let's look at you can't improve anybody else, right? So you put into acts. Okay, that's good. And now F will update G. And then put g into F. And then you're done with after so put ": [
+      695.1,
+      727.1
+    ],
+    "into the future is that we can we can do the same algorithm and use a priority queue like in dijkstra's algorithm. How is that going to change the the way it goes is that instead of arbitrarily picking some v&f like we did before we're going to choose very carefully and pick the v&f that has the greatest array value the greatest band with up to that point. And ": [
+      2008.4,
+      2036.0
+    ],
+    "is a path with bandwidth equal to be a v I guess I should say if there is a path from s to be then. there is a path with bandwidth equal to be a V and 0-0 and B A V is 0 otherwise. Yes. I'd say it again. Yeah. Yeah, Jack Lee. but either way that that won't really Change the loop invariant. Okay, so let's move on ": [
+      1433.8,
+      1506.8
+    ],
+    "is because at the end of the algorithm we want to know that all of those be values that we've set. Our actually like actually can be attainable. Are achievable there is actually a pack that corresponds to that bandwidth. B&B there's a cop from Escondido. Bend the the B value will just be zero. Right because of the initial condition the initial initialization. Trump asked to be okay. Yeah, ": [
+      1234.6,
+      1289.7
+    ],
+    "is going to be for all vertices BMV is actually the maximum bandwidth when the algorithm finishes. If I can show both of these than the algorithm is, correct. Okay. So, let me just do something. Okay, let's do that. Okay. So let's do this one first the way I'm going to prove this one is with a loop invariant. Look at the statement of the problem, you're basically trying ": [
+      908.6,
+      953.6
+    ],
+    "is greater than b of you I did it the I'm sorry. I messed this all out. This is case this refers to case to you on the other side in case one on the other side. Okay. So therefore the loop invariant is true after every duration including the last so after the algorithm is completed every for every bird text. If there is a path right then. There ": [
+      1407.5,
+      1433.8
+    ],
+    "it into acts. Okay. So as of now all we really done is like the same thing we've done in the regular Graph Search, but here's where the thing it kind of difference and this is sort of the problem of this algorithm. Is that when we explored G what's going to happen? What is it going to update? Be right. and so be gets updated to 6 and then ": [
+      727.1,
+      757.4
+    ],
+    "it is to do it by contradiction and say suppose there's some other path out there that gives you a better bandwidth and if I can show there's a contradiction then I've shown that that this is actually the best value you can have queso suppose there Is a v such that? There is a path P from s2v. Such that the bandwidth of this path p is strictly greater ": [
+      1572.8,
+      1622.1
+    ],
+    "kind of see why what what what makes it easier. But it doesn't mean that modification is wrong. It's just takes a little bit more work. So let's familiarize ourselves with the problem again. So remember the problem statement? And the band width of a pass all the stuff. We already looked at this. So the brainstorming ideas, right? There's two kind of different ones that we were talking about ": [
+      92.6,
+      131.9
+    ],
+    "look at the minimum between Infiniti and 5, which is 5 V is bigger than 0 so the bandwidth at B will increase right it'll improve it'll go up to five. I kind of make sense. Text now since it change. I'll put it into app. Now that's do the same thing for d. Write Waddle Dee change to 3 Oh, no. Okay, it's just that my battery is running. ": [
+      548.2,
+      591.1
+    ],
+    "minimum of BV and weight of the, you. And this is just basically the amount of whatever information water whatever that you can push through the to you. Okay, so let's think about two different cases depending on whether or not be is bigger than the edge. queso case one B A V is greater than or equal to the weight of the EU. Wait, did I do this, right? ": [
+      1079.6,
+      1128.2
+    ],
+    "modifying or reduction using in using an existing algorithm. Okay, so modifying algorithms. So one idea that I saw this one's not really going to work out well in general and might work out. Well in certain cases is to use DFS but instead of searching vertices in the order of their index you order them by the weight of the edges coming into them. This is sort of like ": [
+      131.9,
+      166.3
+    ],
+    "more value and ask does is there a solution that exists? That achieved this value or better. Okay, then you can answer yes or no salt for this particular example. for the original bandwidth problem. We only needed these three things. But now I'm going to include one more value M. And I'm going to ask is there a path from s to t a band with a more better? ": [
+      2274.9,
+      2309.0
+    ],
+    "need Doctor step. I'm going to show you what happens in the next Loop. So what is the first thing that happens in the loop is you pick some vnf queso pick? V in F Okay, then then you do something to the neighbors of be. Okay. So let you be some arbitrary neighbor of the top of be okay. And then we set this m value to be the ": [
+      1038.6,
+      1079.6
+    ],
+    "of one problem two instances of another by changing the input and how we changing the input here. We're removing some of the edges of the graph. Okay, so here's sort of a away to think about. Transferring from one to the other Graph Search is a decision is a decision problem, which means that it will tell you true or false where as bandwidth is a Optum optimization problem. ": [
+      2216.8,
+      2245.9
+    ],
+    "or else return false. Okay, so let's go both directions. So if there is a pack then I want my algorithm to return true. Okay. So Suppose there is a path. I've been with at least Em Right. That means every Edge in that path has weight and or bigger. That means that that path exists in GM there for my algorithm will find it. kind of questions about that ": [
+      2436.0,
+      2463.8
+    ],
+    "proof of correctness. So when these kind of graph algorithms usually have to go to directions. Okay. So the One Direction in this particular example is part A which basically says that every time I set that b value there is a corresponding path that it can achieve that bandwidth right? I'm never it's it's never going to be something greater than you can achieve. And then the beach direction ": [
+      875.7,
+      908.6
+    ],
+    "ripped. Yeah. Is there a path of bandwidth 9 know if they're passive band with eight? No right to keep on going like that. Okay. So this is what we have here. Okay. This is what I had. Right, which is basically just Big O of M squared if we're talking about a graph that some. Has at least amount of edges as it does vertices. That's really not a ": [
+      2764.9,
+      2790.3
+    ],
+    "runtime analysis really hard to do. I guess if you if you knew your grandpa's a certain way, you could probably found it by something. But if you're just talking about an arbitrary graph It may be more inefficient than just Graph Search any questions about that. Okay, so let me just finish up right eye keeps on going. See you guys back in. Eagles back in And I'll put ": [
+      782.6,
+      822.3
+    ],
+    "so go up and if it's too much then you can't do it and so go down. Okay. So this is sort of like a binary search approach and How many DFS runs will we need in this version in the worst case? How many? Well, how many times do we have to just run Graph Search? login, right Or let's say Big O of log in which is equal ": [
+      2820.4,
+      2857.8
+    ],
+    "than b a v I was just saying there's some pop out there that I can get a better value than what my algorithm gave me. Okay, so Just for the sake of this proof. Let be that little BB actually equal to the value BW of P. Okay, so little bee is like this. This band with that's better than what my algorithm gave me. Okay, so I have ": [
+      1622.1,
+      1665.3
+    ],
+    "that's to see if the yeah, this is a directed graph. Okay, so reducing to Graph Search. So these approaches use reductions is what we talked about when you were using a known algorithm for related problem to create new algorithm for new problem. So here are the known problem is Graph Search and the known problem is in the note algorithms are DFS and BFS. So we back instances ": [
+      2188.4,
+      2216.8
+    ],
+    "the swap the smallest wait in that pack and see if another path exists for the same thing or You start with an empty graph and you start adding the heaviest Edge at each point until you form a pact between S&T right but now you can kind of see with all of these. All you doing is asking is there a path between S&T and that's exactly what Graph ": [
+      2101.6,
+      2128.6
+    ],
+    "then return true else return false. Any questions about this? Okay, so let's do the proof of correctness for this one. Telling you it's a lot easier than the one before. We're going to go through it quickly. Okay, but remember whenever you're doing these types of decision problems, you have to do both directions. If there's a path that has a band with at least and then return true ": [
+      2402.5,
+      2436.0
+    ],
+    "then the other reaction is okay. I really want to know why it doesn't work. Can you show me why it's it's actually a really good skill to have to be able to come up with these counter-examples. It's not it's not easy all the time and Those of you who you know do the algorithms incorrectly. Even if you do them incorrectly the first time by hand in the ": [
+      307.1,
+      331.2
+    ],
+    "this on the website. So you guys can play around with it. And then everybody's in there and you're done. So even though it's not as efficient as we would like it is it is correct. It actually works and so to prove its correctness. Hey, let me I'm going to skip over that one. We're going to just skip to the proof of correct. Okay, so and I wanted ": [
+      822.3,
+      847.9
+    ],
+    "through it. Okay. So then if the bandwidth of you the neighbor if it actually improves then change it and push it into a half. So let's look at how it works. So the first thing is to Start with AA is my starting vertex and look at the neighbors. Okay. So the first thing I'm going to do is look at be right. So what do I compare? I ": [
+      513.0,
+      548.2
+    ],
+    "time big event for Sam. This is great. linear time question because you have to go through I'm thinking about it as an adjacency list. So you have to look you're basically looking at every vertex and then looking at all of its neighbors. We haven't gotten there yet. This is just a decision problem. And this is what I'm trying to do is do it in steps. So I'm ": [
+      2630.6,
+      2671.5
+    ],
+    "to Big O of log in. And so what's the total time of the algorithm? Well, remember we've the first thing we have to do is actually sort the The Edge values right so short Edge values Big O of M Lok m Then run binary search. type algorithm Which is Big O of well, you have to run and plus am you have to do DFS log and times. ": [
+      2857.8,
+      2903.2
+    ],
+    "to Part B. Let me get myself a little bit of room to right here. Riverside and Before we move on to this one. I just want you to notice that the parte we just did is a lot like the direction we did for Graph Search, right? It was some Loop invariant and it had to do with this connectivity. Whereas this one is a lot like grass certain ": [
+      1506.8,
+      1543.2
+    ],
+    "to f u take the heaviest Edge coming out you get to G you take the heaviest said you get to be the heaviest Edge to see the heaviest dad goes to eat and then the heaviest gauge goes to H & R actually gives you the best bandwidth right and but there are tight. There's are types of grass where this won't work. Just let me give you an ": [
+      211.5,
+      235.2
+    ],
+    "to present this to you because it's it's not that it's really hard. It's just your sort of doing the same proof of correctness that you've already done for Graph Search over again, but like kind of tweet to to model this to do this particular modification. Whereas when you do reduction, we don't have to we don't have to prove it over again. Okay, so let's go to the ": [
+      847.9,
+      875.7
+    ],
+    "to say that something remains true throughout the whole algorithm. That's a good way to that's a good kind of glue to use a loop invariant right because you're going to say it's going to be true after this number of iterations and then it remains true after the next iteration. Okay after every iteration all the The B values correspond to a path that has that bandwidth. So the ": [
+      953.6,
+      980.5
+    ],
+    "true because it was true before the the Adoration and then it didn't change those two actor. kid questions about that So I wrote it here, but I mess this up so I'll just change this here. Showcase one should actually be where the value doesn't change. That means that m is. Less than or equal to be of you and then when it does change that means that m ": [
+      1373.3,
+      1407.5
+    ],
+    "up again here kind of in more. This is the same thing that I said before. Just to kind of give you a reference if you want to look back on it. Hey, this is like a really standard way to prove things about pads about these kind of algorithms. So it's good to kind of see it a few times. So you saw it once with Graph Search again ": [
+      1957.4,
+      1979.6
+    ],
+    "we get a yes answer. So how long would this take? in the worst-case write the number of edges in the worst-case. You have to try every single different Edge weight. So this would take m x or Big O of M * m + n the number of edges number of vertices Why would I have that? Okay. Yeah, so this is the idea. I have all this already ": [
+      2698.8,
+      2764.9
+    ],
+    "we have to do the other direction. Okay. So he says that for all vertices B A V is actually the maximum bandwidth among all pads Okay, so This is sort of proving the that this is actually attaining the optimal value right is attaining the optimization value that you want. Okay. So in order to prove optimization one way to do it is to one good way to do ": [
+      1543.2,
+      1572.8
+    ],
+    "we should say after every iteration for all the Cuz it's going to be some vertices that cannot reach if there is no path. From s2v, then B of V is 0 right? and otherwise there is a path from s to v such that b w a p is equal to be a v. If you like another way you can get around it is to say that just ": [
+      1289.7,
+      1332.3
+    ],
+    "we use dijkstra's algorithm. It will also achieve the same run time. Okay, so let me know if you guys have any questions and have a nice weekend. Look at the homework is due on next Thursday. So I don't know if it actually is maybe there's something out there that can be better. But this is the minimum you can get if you have to sort the edges and ": [
+      2943.0,
+      2974.0
+    ],
+    "we'll explore be okay. Now, I'm the first one. I'm going to look at issy. So I compare 5 and 8 right and 5 is less. So I label C with What kind of makes sense? Put C into F. And now I can update d right because now D is three, but I actually have a b is 5 and there's a there's a bad way to 5 so ": [
+      629.9,
+      661.5
+    ],
+    "we'll just cycle through the edges, right? Yeah. So cycle through all the edges if the edge weight is less than and then throw it away or delete it from the adjacency list and if the edge way is greater than keep it right and that's going to take and you know plenty of time because it's you know, you have to go you have to look at every single ": [
+      2574.8,
+      2601.0
+    ],
+    "we've already kind of isolated a anyway, right? So the answer is no. Algorithmically, what we do is just delete all those edges create this new grass and then input that graph into Graph Search. Okay. So here's my algorithm. This is for the decision version. Of course, so construct Gees of Em by removing all edges less than m. Run Graph Search on GMS if T is ever visited ": [
+      2362.6,
+      2402.5
+    ],
+    "what does that mean? That means that you have to improve the array value at y? Right because that's less than b m is bigger than be so you have to update it. Suppose for contradiction. Yes. Yes. Exactly. Yes. This is exactly this is the thing that we're going to show doesn't actually exist and this is the reason it doesn't exist. Any other questions? Thanks, I wrote it ": [
+      1904.4,
+      1957.4
+    ],
+    "where it's indexed by vertices and basically what it is is a the band width of the best path from S2. Vertex up until the point. Okay. So in order to start your first vertex has a bandwidth of infinity to itself, right you can pass infinity amount of stuff to itself through the trivial path and then all the other vertices should start with zero because we haven't explored ": [
+      427.2,
+      455.8
+    ],
+    "with so the path from s2v then to you achieve as a bandwidth Got any questions about that? Why do I why do I call what the loop invariant? It's just so invariant just means something that doesn't change. So it's something that doesn't change after every iteration of the loop. So I want something that's always going to remain true. And the reason that we're doing it this way ": [
+      1177.8,
+      1234.6
+    ],
+    "with this. Okay. so so I told you about how this algorithm works. We just showed we just prove the correctness, but I also told you that the efficiency is kind of hard to do now. There's one way around that. And it's by bodifying dijkstra's algorithm and we're not going to get the dijkstra's algorithm until about week 3 probably but I just want to give you a look ": [
+      1979.6,
+      2008.4
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01112019",
+  "Full Transcript": "Listen to a podcast.  Yeah, who's coming to 4 p.m.  Okay.  And okay.  Great.  Thanks.  Okay, let's get started.  Good afternoon.  So I looked over a lot of your algorithms, you know somewhere more detailed than others. But mainly most of them had the right idea where you kind of go through and I were talking about this problem here.  Some of them used modification some of them use reduction. So what I want to do today, it's highlight kind of the main idea of a modification algorithm and a main idea of a reduction algorithm go through the proofs. What I want you to think about is which proof would you rather do would you rather do the modification one or the reduction one? I'll give you a hint reduction one is a lot easier and you're going to kind of see why what what what makes it easier.  But it doesn't mean that modification is wrong. It's just takes a little bit more work. So let's familiarize ourselves with the problem again.  So remember the problem statement?  And the band width of a pass all the stuff. We already looked at this. So the brainstorming ideas, right? There's two kind of different ones that we were talking about modifying or reduction using in using an existing algorithm.  Okay, so  modifying algorithms. So one idea that I saw this one's not really going to work out well in general and might work out. Well in certain cases is to use DFS but instead of searching vertices in the order of their index you order them by the weight of the edges coming into them. This is sort of like a greedy cut kind of algorithm where you always take kind of the the heaviest Edge as a choice and it's funny because the in this particular example  it actually does work, right if you start from a  Where's my?  What happened to my pain?  Just leave work.  And this will work. Okay, if you start with a right you take the heaviest Edge coming out you get you get to f u take the heaviest Edge coming out you get to G you take the heaviest said you get to be the heaviest Edge to see the heaviest dad goes to eat and then the heaviest gauge goes to H & R actually gives you the best bandwidth right and but there are tight. There's are types of grass where this won't work. Just let me give you an example.  What if you had a graph like this?  What would happen here?  Write the band was here is one, right? Yeah.  Res if you took the other route that you have a band with them 9.  Okay, so that's something to think about is to come up with these edge cases these sort of counter examples for when it doesn't work.  so  just looking into the future when you hand in a homework assignment homework problem, or if you do something on the exam, that's incorrect. And I tell you, you know, this doesn't run for all cases.  You know, I get two different reactions one reaction is, you know, shut up. It's actually does work.  Look at it that you look at it closer and sometimes I'm wrong of course and it does work on all cases. And then the other reaction is okay. I really want to know why it doesn't work. Can you show me why it's it's actually a really good skill to have to be able to come up with these counter-examples. It's not it's not easy all the time and  Those of you who you know do the algorithms incorrectly. Even if you do them incorrectly the first time by hand in the correct algorithm, it's a good exercise for you to figure out which examples does it not work on.  Alright, so here's another example that actually does work. So  in this this one was something like use a stack right just basically use Graph Search, but we're going to modify the algorithm by keeping track of another piece of information. Keep track of the best bandwidth up to that point. Okay?  So right so you keep track of these pairs where B is the current bandwidth?  end  when you explore right when you kind of look at all the neighbors you compare the current bandwidth to the band with coming in and if it improves it, then you update the array and you push the vertex back into the stack or back into our Frontier f  So I made another animation here.  This one took me a lot last time because I was kind of more I knew sort of what to do, and I was a lot more organized.  Okay, so I made this pseudocode that's supposed to do with this says okay. Let me just go through it real fast, and then we'll look at the animation Okay, so  So this b a r a right? It's an array where it's indexed by vertices and basically what it is is a the band width of the best path from S2. Vertex up until the point. Okay. So in order to start your first vertex has a bandwidth of infinity to itself, right you can pass infinity amount of stuff to itself through the trivial path and then all the other vertices should start with zero because we haven't explored anything yet. Okay, so that's the initialization.  Okay, everything else is is the same as what we did before.  And this part okay. So then you look at each neighbor and I'm going to set this this variable M to be the minimum of the bandwidth to be  BMV and the weight of the edge right the idea is that I know that I can get a B A V bandwidth from s2v, right then. I have an edge coming out of V.  so  I guess if the bandwidth is bigger than the edge right then you can only push through as much as the weight of the edge and if the edge is bigger than the band with you can only push through as much as the band with your kind of see how it goes when we go through it.  Okay. So then if the bandwidth of you the neighbor if it actually improves then change it and push it into a half.  So let's look at how it works. So the first thing is to  Start with AA is my starting vertex and look at the neighbors. Okay. So the first thing I'm going to do is look at be right.  So what do I compare? I look at the minimum between Infiniti and 5, which is 5 V is bigger than 0 so the bandwidth at B will increase right it'll improve it'll go up to five.  I kind of make sense.  Text now since it change. I'll put it into app.  Now that's do the same thing for d.  Write Waddle Dee change to  3  Oh, no.  Okay, it's just that my battery is running. Well, I was just plug it in.  Okay, good. That's all and then you know, you put a parandi and then after you get what six right and put it around there. Okay, so that's sort of the first iteration.  And now we're done with a so we move a in 2x, right?  Is it the same as what we saw before?  You get rid of this little.  Okay, now we'll explore be okay.  Now, I'm the first one. I'm going to look at issy. So I compare 5 and 8 right and 5 is less. So I label C with  What kind of makes sense?  Put C into F. And now I can update d right because now D is three, but I actually have a b is 5 and there's a there's a bad way to 5 so I can update D2 b54 Diaz already an asteroid just stays there.  Okay, and then he can also be updated to 3. So let's just go through this kind of quickly and I want to highlight a certain point they so be goes into X.  Okay, now we're going to look at sea.  C will update E250 update H25.  And then H will be included.  And then she gets included in to ask. Okay now we look at Dee so Dee can't update F because f is already bigger so you leave it alone.  And Saudi is done putting into X. Okay. Now, let's look at  you can't improve anybody else, right? So you put into acts. Okay, that's good. And now F will update G.  And then put g into F. And then you're done with after so put it into acts. Okay. So as of now all we really done is like the same thing we've done in the regular Graph Search, but here's where the thing it kind of difference and this is sort of the problem of this algorithm.  Is that when we explored G what's going to happen?  What is it going to update?  Be right.  and so be gets updated to 6 and then be gets put back into f  So remember what I said about Graph Search the nice thing in the reason that it's efficient is that each vertex only goes into F at most one time now, we don't know how many times these are going to go in right? It kind of depends on the graph. So that's going to cause problems with runtime analysis. In fact, it just makes runtime analysis really hard to do. I guess if you if you knew your grandpa's a certain way, you could probably found it by something. But if you're just talking about an arbitrary graph  It may be more inefficient than just Graph Search any questions about that.  Okay, so let me just finish up right eye keeps on going. See you guys back in.  Eagles back in  And I'll put this on the website. So you guys can play around with it. And then everybody's in there and you're done. So even though it's not as efficient as we would like it is it is correct. It actually works and so to prove its correctness.  Hey, let me I'm going to skip over that one. We're going to just skip to the proof of correct. Okay, so and I wanted to present this to you because it's it's not that it's really hard. It's just your sort of doing the same proof of correctness that you've already done for Graph Search over again, but like kind of tweet to to model this to do this particular modification.  Whereas when you do reduction, we don't have to we don't have to prove it over again.  Okay, so let's go to the proof of correctness. So when these kind of graph algorithms usually have to go to directions. Okay. So the One Direction in this particular example is part A which basically says that every time I set that b value there is a corresponding path that it can achieve that bandwidth right? I'm never it's it's never going to be something greater than you can achieve.  And then the beach direction is going to be for all vertices BMV is actually the maximum bandwidth when the algorithm finishes.  If I can show both of these than the algorithm is, correct.  Okay.  So, let me just do something.  Okay, let's do that.  Okay. So let's do this one first the way I'm going to prove this one is with a loop invariant.  Look at the statement of the problem, you're basically trying to say that something remains true throughout the whole algorithm. That's a good way to that's a good kind of glue to use a loop invariant right because you're going to say it's going to be true after this number of iterations and then it remains true after the next iteration. Okay after every iteration all the  The B values correspond to a path that has that bandwidth. So the base case before the first iteration be a veces infinity and be a v is 0 for all the rest because you just looking at the empty path right from s2v. Get any questions about the bass case.  Okay.  so  what happened here?  Sorry about that.  Okay, so what's the inductive hypothesis?  the above  the loop invariant is true.  after  every iteration  Okay now the inductive step.  Okay, so you need Doctor step. I'm going to show you what happens in the next Loop. So what is the first thing that happens in the loop is you pick some vnf queso pick?  V in F  Okay, then then you do something to the neighbors of be. Okay. So let you be some arbitrary neighbor of the  top of be okay.  And then we set this m value to be the minimum of BV and weight of the, you.  And this is just basically the amount of whatever information water whatever that you can push through the to you.  Okay, so let's think about two different cases depending on whether or not be is bigger than the edge.  queso case one  B A V is greater than or equal to the weight of the EU.  Wait, did I do this, right?  No, this is wrong.  I did this wrong. I got to change this.  Case one is that m is greater than or equal to be of you.  Okay, in that case in the algorithm be of you will change to Em Right.  Then be of you is reset.  2 m  and that means that there's a path through V to get to you and you can actually achieve that band with so  the path  from s2v then to you achieve  as a bandwidth  Got any questions about that?  Why do I why do I call what the loop invariant?  It's just so invariant just means something that doesn't change.  So it's something that doesn't change after every iteration of the loop.  So I want something that's always going to remain true. And the reason that we're doing it this way is because at the end of the algorithm we want to know that all of those be values that we've set. Our actually like actually can be attainable.  Are achievable there is actually a pack that corresponds to that bandwidth.  B&B there's a cop from Escondido.  Bend the the B value will just be zero.  Right because of the initial condition the initial initialization.  Trump asked to be okay. Yeah, we should say after every iteration for all the  Cuz it's going to be some vertices that cannot reach if there is no path.  From s2v, then B of V is 0 right?  and otherwise  there is a path from s to v such that b w a p is equal to be a v.  If you like another way you can get around it is to say that just add in a bunch of zero edges.  That correspond to non edges and then it's kind of like edges that you can't push anything through.  Okay case 2.  m is less than  I guess this should be actually strictly greater. Yeah, and this is m is less than or equal to be of you right then be of you.  Doesn't change.  And by the inductive hypothesis, the loop invariants remains true because it was true before the the Adoration and then it didn't change those two actor.  kid questions about that  So I wrote it here, but I mess this up so I'll just change this here.  Showcase one should actually be where the value doesn't change. That means that m is.  Less than or equal to be of you and then when it does change that means that m is greater than b of you I did it the I'm sorry. I messed this all out. This is case this refers to case to you on the other side in case one on the other side.  Okay. So therefore the loop invariant is true after every duration including the last so after the algorithm is completed every for every bird text.  If there is a path right then.  There is a path with bandwidth equal to be a v I guess I should say if there is a path from s to be then.  there is  a path  with  bandwidth equal to be a V and 0-0 and B A V is 0 otherwise.  Yes.  I'd say it again.  Yeah. Yeah, Jack Lee.  but either way that that won't really  Change the loop invariant.  Okay, so let's move on to Part B. Let me get myself a little bit of room to right here.  Riverside  and  Before we move on to this one. I just want you to notice that the parte we just did is a lot like the direction we did for Graph Search, right? It was some Loop invariant and it had to do with this connectivity. Whereas this one is a lot like grass certain we have to do the other direction. Okay. So he says that for all vertices B A V is actually the maximum bandwidth among all pads Okay, so  This is sort of proving the that this is actually attaining the optimal value right is attaining the optimization value that you want. Okay. So in order to prove optimization one way to do it is to one good way to do it is to do it by contradiction and say suppose there's some other path out there that gives you a better bandwidth and if I can show there's a contradiction then I've shown that that this is actually the best value you can have  queso  suppose  there  Is a v such that?  There is a path P from s2v.  Such that the bandwidth of this path p is strictly greater than b a v I was just saying there's some pop out there that I can get a better value than what my algorithm gave me.  Okay, so  Just for the sake of this proof. Let be that little BB actually equal to  the value BW of P.  Okay, so little bee is like this.  This band with that's better than what my algorithm gave me.  Okay, so I have S.  And I have the right.  Now, I know that s the bandwidth or the B of s is bigger than be right.  I know that bfv is less than b.  Because be a veces just Infinity so course it's bigger than b.  Okay, so that means that at some point along the path.  I'm going to change from these beat these bantha B of s these B RV values. They're going to start out bigger than be and then they're going to change to be smaller than be. Okay, so  Let's say that this vertex.  Let's call it why this is the first vertex.  Such that.  B of Y is less than b  so  come on.  Let's call this onesie. So this is the last vertex such that b of Z is greater than or equal to be. Okay. So this is kind of where it changes and now you can see that this is a lot like the way we prove Graph Search.  Some pizzas is the first time the zya edge of the first time you go over that thing.  Okay. So the rest of the proof is kind of just going through the motions to get the contradiction what we're going to show is that baby actually has to be bigger than b.  And the way to do that is to go through the algorithm and see what it would do. Okay, so what would it do?  Well, we have this let's call this Edge W the weight of this Edge.  Now what do we know about W is W bigger than little b or smaller than little B.  It's bigger or it's bigger than or equal to. How do we know that for? Sure.  It's not the reason that's not the reason I'm looking for.  Definition of Hobart. Okay good. We said here that.  The band with the p is equal to be that means that the the minimum Edge wait on the path p is be right.  So that means every Edge on that path have to be greater than or equal to be.  Queso W is greater than or equal to be.  bamsi is greater than or equal to be remember what the algorithm does it sets this variable m  To be the minimum of B of Z.  and the weight of the edge Cy  Okay, both of those things in there are both bigger than little B. That means that M has to be greater than or equal to little bee.  So, what does that mean? That means that you have to improve the array value at y?  Right because that's less than b m is bigger than be so you have to update it.  Suppose for contradiction. Yes. Yes. Exactly. Yes. This is exactly this is the thing that we're going to show doesn't actually exist and this is the reason it doesn't exist.  Any other questions?  Thanks, I wrote it up again here kind of in more. This is the same thing that I said before.  Just to kind of give you a reference if you want to look back on it.  Hey, this is like a really standard way to prove things about pads about these kind of algorithms. So it's good to kind of see it a few times. So you saw it once with Graph Search again with this.  Okay.  so  so I told you about how this algorithm works. We just showed we just prove the correctness, but I also told you that the efficiency is kind of hard to do now. There's one way around that.  And it's by bodifying dijkstra's algorithm and we're not going to get the dijkstra's algorithm until about week 3 probably but I just want to give you a look into the future is that we can we can do the same algorithm and use a priority queue like in dijkstra's algorithm. How is that going to change the the way it goes is that instead of arbitrarily picking some v&f like we did before we're going to choose very carefully and pick the v&f that has the greatest array value the greatest band with up to that point. And if we do that we can really bound the runtime.  There's something a lot more reasonable.  But I'm going to kind of revisit this same problem when we start talking about priority queues. So just keep that in mind.  Okay, let's go to the reduction and so a few of you guys.  Talked about a type of modifying the or modification. We're used to rejection your sort of like the big picture you keep on removing the smallest weight.  Until you break the you break the graph so that S&T are not connected anymore.  Once you once you remove that smallest weight that breaks it, you know, that that has to be the minimum bandwidth because without that edge there is no path.  Queso similar ways to you just fine. Whatever random path between S&T right and then you remove the swap the smallest wait in that pack and see if another path exists for the same thing or  You start with an empty graph and you start adding the heaviest Edge at each point until you form a pact between S&T right but now you can kind of see with all of these. All you doing is asking is there a path between S&T and that's exactly what Graph Search does without any modification.  With with the graph search remember graph search is you take a graph and a vertex and it will output all of the vertices that are reachable.  for undirected graphs you can use a disjoint set but the for directing when you can't  what do you mean you can use a disjoint set?  Oh, you mean to do like a minimum spanning tree  Yeah, but that's to see if the yeah, this is a directed graph.  Okay, so reducing to Graph Search. So these approaches use reductions is what we talked about when you were using a known algorithm for related problem to create new algorithm for new problem. So here are the known problem is Graph Search and the known problem is in the note algorithms are DFS and BFS. So we back instances of one problem two instances of another by changing the input and how we changing the input here. We're removing some of the edges of the graph.  Okay, so here's sort of a away to think about.  Transferring from one to the other Graph Search is a decision is a decision problem, which means that it will tell you true or false where as bandwidth is a Optum optimization problem. Right? So these are two very different kinds of problems and it's hard to reduce 1 to the other because they're sort of of different forms.  So a way to get around this is to is the turn the optimization problem into a decision form a decision version of the optimization problem. Okay, you can do this for any optimization problem the way to do it is to introduce one more value and ask does is there a solution that exists?  That achieved this value or better.  Okay, then you can answer yes or no salt for this particular example.  for the original  bandwidth problem. We only needed these three things. But now I'm going to include one more value M. And I'm going to ask is there a path from s to t a band with a more better? And then your answer should just be yes or no?  Questions about that it's going to come up again when we start talking about pee and then pee in the at the end of the class, but what kind of see it here and there.  Okay, so say I'm is equal to 7, right and we wanted to decide whether there is a band with seven or better path from ath. The answer we knows is false because we already figured out that the maximum bandwidth is 6 but if we were to remove all of the edges smaller than 7 we could ask a more direct question, which is is is there a path from a to H when we remove all the edges less than 7 rank. So if we remove all these edges  I mean after that we've already kind of  isolated a anyway, right? So the answer is no.  Algorithmically, what we do is just delete all those edges create this new grass and then input that graph into Graph Search. Okay. So here's my algorithm.  This is for the decision version. Of course, so construct Gees of Em by removing all edges less than m.  Run Graph Search on GMS if T is ever visited then return true else return false.  Any questions about this?  Okay, so let's do the proof of correctness for this one.  Telling you it's a lot easier than the one before.  We're going to go through it quickly.  Okay, but remember whenever you're doing these types of decision problems, you have to do both directions.  If there's a path that has a band with at least and then return true or else return false. Okay, so let's go both directions.  So if there is a pack then I want my algorithm to return true. Okay. So Suppose there is a path.  I've been with at least Em Right. That means every Edge in that path has weight and or bigger.  That means that that path exists in GM there for my algorithm will find it.  kind of  questions about that  Okay, let's go the other way if there's not a path then returned false. So let's turn it around in the contrapositive and say if my algorithm does return true then that means that they did exist app at the same kind of thing if my algorithm return true, that means that there's a path in GM, right?  If there's a path in GM, that means that all of the edge weights had to be of weight and or bigger.  Which means that there's a path in G with all the edge weights of weight a more bigger, which is what we want to show.  Any questions about this?  You can prove be as is. I just think that it's harder to prove kind of like these negative statements because if it's not if there's not a path then  I guess this one you could probably do pretty well.  Any other questions?  Looking good.  Okay, so let's look at the the runtime analysis, which is going to be a lot easier time to create G of mg. So then  How We Do It  So it's kind of like a four from between Max Max of the max weight to zero.  You know test dad kept every case and tell him we'll just cycle through the edges, right? Yeah.  So cycle through all the edges if the edge weight is less than and then throw it away or delete it from the adjacency list and if the edge way is greater than keep it right and that's going to take and you know plenty of time because it's you know, you have to go you have to look at every single edge, but that's fine.  Okay, and then how about time to run Graph Search? Well  We've only made the grass simpler, right? So we haven't made the graph any bigger there for the time to run Graph Search on the original graph is big O of n + m time. So the time to run Graph Search on the new graph can't be any any worse than that.  Stop total time big event for Sam. This is great.  linear time question  because you have to go through I'm thinking about it as an adjacency list.  So you have to look you're basically looking at every vertex and then looking at all of its neighbors.  We haven't gotten there yet. This is just a decision problem.  And this is what I'm trying to do is do it in steps. So I'm I'm solving the decision problem correctness runtime analysis everything. Therefore we can use that as a reduction to solve. The other problem was kind of like a two-step process.  Okay, so now now let's get to what you were saying.  If we can test whether the best is at least and we can find the best value by starting at the largest possible 1 and going lower and lower until we get a yes answer.  So how long would this take?  in the worst-case  write the number of edges in the worst-case. You have to try every single different Edge weight. So this would take m x or Big O of M * m + n  the number of edges  number of vertices  Why would I have that?  Okay. Yeah, so this is the idea. I have all this already ripped. Yeah. Is there a path of bandwidth 9 know if they're passive band with eight? No right to keep on going like that. Okay. So this is what we have here. Okay. This is what I had.  Right, which is basically just Big O of M squared if we're talking about a graph that some.  Has at least amount of edges as it does vertices.  That's really not a good run time. So, let's see if we can improve it.  Is there a better way that we could search for the optimal value?  What is it?  And do like a binary search right start with the value in the half. If you if you have achieved it, right then that means that you know, you can get a better band. We may be able to get a better bandwidth so go up and if it's too much then you can't do it and so go down. Okay. So this is sort of like a binary search approach and  How many DFS runs will we need in this version in the worst case?  How many?  Well, how many times do we have to just run Graph Search?  login, right  Or let's say Big O of log in which is equal to Big O of log in.  And so what's the total time of the algorithm? Well, remember we've the first thing we have to do is actually sort the The Edge values right so short  Edge values  Big O of M Lok m  Then run binary search.  type  algorithm  Which is Big O of well, you have to run and plus am you have to do DFS log and times.  And so the total we get is this one and plus I'm login is bigger than and login. So just use that one.  And that is the best we can do I think.  I don't think that you can actually do this. You can actually make it algorithm for this problem that runs in linear time.  Be the version that we're going to see you in a few weeks where we use dijkstra's algorithm. It will also achieve the same run time.  Okay, so let me know if you guys have any questions and have a nice weekend. Look at the homework is due on next Thursday.  So I don't know if it actually is maybe there's something out there that can be better. But this is the minimum you can get if you have to sort the edges and I feel like starting the edges is really  I don't know if it's necessary, but I think it is.  But this is using binary search. Yeah.  right  You got it.  UC San Diego podcast ",
+  "Section": "a00",
+  "Time": "1500",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01112019-1500.mp3"
+}

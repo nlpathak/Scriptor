@@ -1,0 +1,307 @@
+{
+  "Blurbs": {
+    "+ 16 + + 17 + + 18 Play and then you're done because well actually the the algorithm is not done. It's going to go through every other vertex and it's going to say okay has D been explored. Yes has even visited yet is F G H. I have all been visited. So now this Loop This Loop here ends. And then the algorithm is done any questions ": [
+      1561.3,
+      1590.4
+    ],
+    "14 comparison of all the pre and post numbers. Okay good. okay, a baggage is sort of the opposite right back at you V if you put V first then you put you then you take you off then you take the So notice let's look at this back Edge. BJJ rank Notice that we put a on first. And then you put the can you take beat off and ": [
+      2581.3,
+      2629.1
+    ],
+    "2. And we have which one do we start at? G rank Okay, so we have seven and then G is a dead-end, right? So 8 okay, so start cc equal to 3. The next one we look at is f but f is already been visited. So then the next one you look at is e Wright. He's so we have nine. and he's connected to H connected to ": [
+      2160.6,
+      2204.1
+    ],
+    "Any questions or comments? If you wanted to find back edges in the DFS tree, you just cycle through all the edges and check these things. If both of these things are unequal then you know, what's a back at you? things to best way if you want to just if you want to just find the existence of a cycle No, actually there's a better way. I guess it ": [
+      1104.1,
+      1150.9
+    ],
+    "As another way to show if a graph has Cycles, okay and undirected connected graph has a cycle. If and only if it's DFS output tree has a package you can think about how would you prove this? Maybe as an exercise. Okay, so let's get into more of the terminology. I hope you guys have seen these these definitions already but a connected graph and undirected graph is connected. ": [
+      1264.9,
+      1296.9
+    ],
+    "DFS output tree and then on Wednesday, we're going to see how to maybe get around that by. By figuring out a really like special order that will always do what you wanted to do. Okay, I'm going to start. Doing this along with you. Okay, so We start from h. and we go to f I want to do read here. h we go to f o I should ": [
+      2085.7,
+      2129.1
+    ],
+    "Edge. B-2a. We have this edgy today. We have C to F. We have app 2D. v h to f and we have e2h. We're going to classify these edges in a minute, but I want to give you guys an exercise. I want you guys to run DFS on the same exact graph except for now assume that everything is backwards. Everything is in the opposite alphabetical order. Okay, ": [
+      1794.4,
+      1840.3
+    ],
+    "G is connected to F. Those are all visited. So it has to go to a 10 okay, and then we'll go to see. 11 I wrote it in the wrong thing. C11 And then see goes to Africa Stewie goes to be. 12 and we have 13 14 15 16. Something like that. Okay, so noticed that the first one the first way we did it. We had one ": [
+      2204.1,
+      2252.5
+    ],
+    "I'm going to have a visited array and a previous array. So then what on the on both endpoints each notice is visited. Okay, you need one more piece of information because for example A and J are both visited but the the edge AJ is a package, so What what information can we draw from to tell if something is a package? Proposed order of what? That's that's actually ": [
+      1008.4,
+      1065.1
+    ],
+    "If for every pair of vertices, there's a there's a path from vtu Explorer as we seen only reaches one of the connected components if I want to look at the whole entire graph and figure out the whole structure of the graph. I need to run Explorer a bunch of times from each different connected component. Okay, so that's what the book the algorithms book. This is what they ": [
+      1296.9,
+      1326.4
+    ],
+    "Listen to a podcast. Okay. Kyrie 1 Good afternoon. Set alarm. Let's get started today. So what we did the first week for me. I wanted to give you sort of introduction into a few different ways to kind of think about problems that you can bring to the next problems. The next week's the following weeks today. What we're going to do is kind of start following the book ": [
+      1.9,
+      51.2
+    ],
+    "Okay, so so then if you would just wanted to know how many connected components are in your graph you can just use this in an output CC at the end. alright, let's move on to a under records. Give me a directed graph. Okay. So now we have directions on our edges and let's see what happens when we run DFS on this graph. Okay, so I'm going to ": [
+      1628.1,
+      1661.7
+    ],
+    "Right because it has n -1 edges when it's a tree. but if you actually wanted to find it a particular cycle or if you wanted to know if I have a cycle and find one of the cycle edges then you can look for the package. So a property of cycle edges is that when you remove a cycle Edge the graph does not disconnect, right? It doesn't disconnect ": [
+      1200.9,
+      1235.6
+    ],
+    "So this is basically exactly out of the book and they call the procedure explore. And so I know that some of you might call this DFS but in the book it cause Explorer and it calls something slightly different DFS that we're going to talk about in a minute. Okay, so all Explorer does walk. The the main thing that explore does is that you give it a graph ": [
+      176.3,
+      201.2
+    ],
+    "a notch after three a little bit more closely. Okay. So what we do from now the next few weeks you can find the same material in your books will be a good place for you to if you want you can read ahead chapters 3.3 and 3.4 basically the whole of chapter 3, and so read chapter 3 and you can read ahead. But then also go back and ": [
+      51.2,
+      86.2
+    ],
+    "a path from H2O the vertex. What what I want you to learn from this is that you when you run DFS on a directed graph, it doesn't give you any information like it does from the from undirected graph, right? It's different. It depends on the order that you do the vertices. We start with h. Yes. start with h Factor the adjacency list is ordered reverse alphabetical and ": [
+      1926.8,
+      1964.4
+    ],
+    "about that? The run time is still going to be Big O of n + m. And it's the same the same reason as it is for a connected graph cuz it's basically every time you go to a new vertex. Every time you explore new vertex, you look at all of its neighbors. Yeah, because the sum of all the degrees is equal to 2 m if it's undirected. ": [
+      1590.4,
+      1623.2
+    ],
+    "already visited and then it looks at e sorry visited then it looks that Jay hasn't been visited yet. So put it in there and now put I here. KJ looks at a and I and it's a dead-end. So you pop it off of the stack and you give it the post number of 8. Popeye off the static He gets popped off the stack. Begets popped off the ": [
+      731.2,
+      759.9
+    ],
+    "also each neighbor list is also reverse alphabetical. feel like you have to do like that thing where you're like okay to say the alphabet backwards, you know z y x w anybody else have any questions? The directions are still the same. Yeah the same graph. It's just that like I like I was saying what I want you to get out of this is that the ordering that ": [
+      1964.4,
+      2057.1
+    ],
+    "and a starting vertex and it will output or it will basically fill in a Boolean array that's going to be true for each vertex. That is reachable from s so if you want you could kind of refigure my My mid-level description into kind of more of a pseudocode and Implement a stack yourself just by doing this but I'm going to just warn you that these two things ": [
+      201.2,
+      242.8
+    ],
+    "and look at the first thing it does. It says that the visited of s is true and then for each ass for each Edge asked you if that if the neighbor is not visited, then you run Explorer from that one for this recursive thing. Okay, so what we've seen so far we've only been interested in connectivity. Is there a path right a true-or-false question, but it might ": [
+      300.4,
+      337.1
+    ],
+    "and then see goes to B right And then he looks at a and it has already been visited. So then it goes to D. Right now D is a dead end. B is a dead end and now she goes to E. he looked over at a it's already been visited and then he goes to f Netflix already been visited f is a dead end. And so then ": [
+      1698.0,
+      1742.0
+    ],
+    "are slightly different and we're going to be focusing on this one and the real difference is kind of like the ordering that you pop things off of the stack. And if you have any questions about that, then you can come see me but the book version is what we're going to be using. Okay, so let's just go through what we expect Explorer to do. It takes a ": [
+      242.8,
+      270.1
+    ],
+    "array is ordered alphabetically and within each one of those lists. The the vertices are ordered alphabetically. And so if we make this assumption then every time we do it we should get the same answer right? It's not that it's wrong. If you do it the other way, it's just I want to keep everybody consistent. Okay. So now we have an animation. And I guess what I should ": [
+      556.9,
+      588.5
+    ],
+    "array. UC San Diego podcast for more visit podcast. Ucf.edu ": [
+      2872.9,
+      2881.5
+    ],
+    "be Might be nice to know if there is a path then what is the path? Okay, so there's one small minor. Alteration that we can do to the algorithm to keep track of the past. So you'll see this in a minute basically what you do. What if we want to know what these pants are, I guess maybe I'll ask you guys. Does anybody have any ideas on ": [
+      337.1,
+      366.1
+    ],
+    "be then do something but be has been visited so then I will go to see. So she has not visited. So we increment CC so cc is now equal to 2. And the post the free number of C is going to be 13. He's so just keep on Counting. And then she goes to I didn't draw that one in sorry. 1314 and then to G 15 + ": [
+      1524.2,
+      1561.3
+    ],
+    "c2e? back Edge Okay, how about C to F? cross Edge, right Okay. ETF is also across Edge. EtG is a cross Edge. G2h is a cross Edge and e2h is also a crosshatch. So this one also only has two back edges. You that's a coincidence? Actually could be I think. Okay. So this one is where we come and we figure out how do we figure out what ": [
+      2433.6,
+      2490.2
+    ],
+    "called DFS. It's basically running Explorer over and over and over again until you reached every single connected component. And as you're doing it. It keeps track of this thing called CC which is the number of connected components. Okay, when does the increment CC? It's basically right before it explores. Okay, we're going to do an example. So you'll see kind of what I mean and the clock for ": [
+      1326.4,
+      1366.9
+    ],
+    "connect to component the second way. We did it. We had three connected components. So what does that tell you? Connected components is not a good term to use for directed graphs. We're going to we're going to learn a new term called strongly connected components. We're going to start looking at those on Wednesday. But what I wanted to instill in you starting now is never refer to a ": [
+      2252.5,
+      2283.2
+    ],
+    "depends on what you want to do. You want to actually find the cycle or do you want to just like know if the graph has a cycle? so there's a there's a we're going to talk about this when we start talking about minimum spanning trees, but and undirected connected graph has a cycle. if and only if it has and or more edges or an is number overseas ": [
+      1150.9,
+      1198.9
+    ],
+    "directed graph with the term connected component. It doesn't really make sense. And this is sort of proof. So connected component is reserved for undirected graphs. Strongly connected component is reserved for directed graphs. Okay, so directed graphs also have back edges like we saw let's go back here for a minute. But we're going to be more descriptive and give each a different name depending on which direction is ": [
+      2283.2,
+      2319.6
+    ],
+    "do is say this is going to be a Explorer. G of a Okay. And one thing that I should keep track of all so here is the previous array. Okay, so the previous already here. is going to have a value for each one of these things a b c d e f g h i j k l k so as we go through we're going to start ": [
+      588.5,
+      626.9
+    ],
+    "going to help us a lot when you directed graphs, but with undirected graphs, you know, there's no Direction. So it's hard to tell if the what the post orders going to do for us. Let's check the previous array. So. and Edge UV Is a back Edge? if and only if what previous of you is not equal to V and previous of V. Is not equal to you. ": [
+      1065.1,
+      1102.8
+    ],
+    "going. Okay, so If it's going from a descendant to an ancestor, as was going up in the tree is called a back at you. Okay? So this DFS output tree only has two back edges. questions about that Okay, so those are back edges. And the other ones go they have a few different names. The ones that go down in the tree that basically go from a ancestor ": [
+      2319.6,
+      2371.0
+    ],
+    "graph and a starting vertex and the output it doesn't actually return anything. If you see doesn't return anything it just kind of populates this array or it feels in this array and notice. Another thing that's missing is that it doesn't initialize the array you have to initialize it before you run Explorer case, you initialize it to be everybody's false. And then you start at the the vertex ": [
+      270.1,
+      300.4
+    ],
+    "graph anybody give any if a if a DFS apple tree has a back Edge. Does that say anything about the nature of the graph? Okay, good. There's a cycle. There's a cycle. And how do I know if an edge is a package? was that how do you how would you let's say I ran this and I have the computer run this the information on the computer is ": [
+      965.3,
+      1008.4
+    ],
+    "has a parent. Okay, and then you can just kind of put it in there as it is. but wait, this is the how it doesn't yeah, I think this is wrong. I think this needs to be up here. Bank, cuz you don't want to keep on resetting it all I'll make that change. Okay, so there's some other things that we're going to keep track of and for ": [
+      403.3,
+      455.0
+    ],
+    "hasn't directed cycle. If and only if its output tree has a bath Edge and I'll post these slides you can go through the proof. It's basically because a back Edge will connect a descendant to an ancestor and there's already from the ancestor to The Descendant so that's the cycle. let's go through this and It's a big proof here cuz you have to do both directions, but I ": [
+      2759.4,
+      2794.3
+    ],
+    "he goes to G. G goes to h at has been visited H has a dead end. G is a dead end easy, it looks at age again. He is a dead end Sia. She is a dead end and a is dead end. Okay. Any questions about that? Okay, so let's let's up feeling some of the other edges that weren't in there already. Okay. So we have this ": [
+      1742.0,
+      1794.4
+    ],
+    "in the tree? Yes, which ones? J-day, and I to B & K to El Wright. Okay, so notice that DFS Only looks at 1 connected component. We're going to talk about what that means a connected component, but it is basically a part of the graph that you can travel in between any pair of vertices. So if a certain Edge is not part of the output tree, but ": [
+      883.4,
+      927.8
+    ],
+    "into any more connected components. That's also the nature of a package right? It's clear because a back Edge is just not part of the tree. So if you remove the back Edge, then the tree will stay connected. And so that's kind of one way to sort of think about why the back edges are always going to be cycle edges. Okay, and then we can use this theorem. ": [
+      1235.6,
+      1262.5
+    ],
+    "it is part of the connected component is called a back Edge. the packages Okay, so this DFS apple tree has to Bacchus. Okay, so a back hatch an undirected graph that has been explored or edges and G that are not in the DFS tree. I should say an undirected connected graph. Are not in the DFS tree of G. What do back at? Just tell you about the ": [
+      927.8,
+      965.3
+    ],
+    "just wanted to get to this slide here. Because directed acyclic graphs. This is what we're going to start with on Wednesday. And we're going to figure out how to tell if a directed graph is a Jag and we use this corollary that says a directed graph is a dad. If and only if its output tree does not have any packages. Okay. So this is one way that ": [
+      2794.3,
+      2824.0
+    ],
+    "let's let's keep track of the CC. So cc is equal to one and let's keep track of the pre and post number. So we have one too. GoDaddy which is 3 and then D is a dead-end. So 4562 so you can already see that it's going to be it's going to look a lot different than the one we did before. Okay increments cc to be equal to ": [
+      2129.1,
+      2160.6
+    ],
+    "now, you don't need to know exactly why but just know what they are. Okay. So these are going to be the pre and post numbers basically keeping track of when a Vertex enters the stack and one of her text leaves the stack. Okay, so popping and What do you call it? When you push right pushing and popping think about each one of those actions is is a ": [
+      455.0,
+      483.4
+    ],
+    "of Explorer and Explorer doesn't have any incrementation of Assisi. It's only when you kind of break out of Explorer and go back in through. Okay, so then be goes to f Echoes 2 I Ki the dead end. So have we pop it off as a dead end so 600 KB is a dead-end so 7 and then a goes to DS 08 And then D is a dead-end ": [
+      1443.2,
+      1484.9
+    ],
+    "one step in time. They so for each one of those actions time increases and each vertex has a unique pre number and post number. These are going to come in handy when we start talking about directed graphs, but I thought I'd introduce them now just so we can get acquainted with them. Okay, so let's do an example. I just want to give you this little note here ": [
+      483.4,
+      515.4
+    ],
+    "positive vs false then for each vertex. Just going to run through them all. Okay, if it's not visited it then increment CC. Okay, so now cc is equal to 1. And I have my vertex a his visited then I look at be. Oh, I should put the pre and post numbers. Okay. Now I don't increment see seed when I went to encounter be because now I'm inside ": [
+      1409.5,
+      1443.2
+    ],
+    "putting things in here. Okay. Okay. So let's start with a okay. So the first thing that's that happens is a gets put on the stack. Okay. So eggettes this pre number of one right and now you explore a which means you look at all of its neighbors. Okay. So what's the first neighbor? We're going to look at you go to be And now you explore be what's ": [
+      626.9,
+      657.6
+    ],
+    "ready go. Remember that DFS if you run out of vertices DFS will start at the next one which will be the next vertex in Reverse alphabetical order. Easier in what way? DFS has that the that you know that that search Explorer. Yeah, I guess we have a certain way of thinking what is because there's actually a path from a to every other vertex, right? But there's not ": [
+      1840.3,
+      1926.8
+    ],
+    "review after we've gone through it in class. Okay. So when we talked about Graph Search last week, we had kind of this more mid-level way of talking about it where the the frontier set we can replace that with a data structure like a computer data structure whether that be a stack or queue or priority queue. So if it's a stack then the last the last vertex that ": [
+      86.2,
+      121.5
+    ],
+    "right? Because it's alphabetical order then it looks a f then it looks at h. I saw put G here. and then H looks at g h is a dead-end g is a dead end. At the dead end and a is dead end and then you're done. Okay any questions? noticed that all of this this thing right here is called the DFS output tree. I noticed that all ": [
+      799.6,
+      853.2
+    ],
+    "so 9 and then a goes to h. We have 10 and then 11 and then 12. Okay, so that's like what happens when you explore a then what happens in in DFS right at Loops to every vertex. So what's the next vertex is going to look at? Be right because we're doing an alphabetical order going to look at be and it's going to say if not visited ": [
+      1484.9,
+      1524.2
+    ],
+    "solve it then you can use it to do dijkstra's algorithm or prims algorithm both algorithm will see you later on when we start talking about priority. Queues. Okay, so here's sort of the general Graph Search where I don't specify what data structures I'm using in the book that use a stack but they come to use this implicit stack by calling the function as a recursive function. Okay. ": [
+      145.9,
+      176.3
+    ],
+    "stack and now you're at a and you look at that. Exit now. Set the previous of after ba and then looks at a and then it looks like G. So put out here. And then she looked at. And then it goes to D. She and then she looks at Dee Dee is a dead end. So pop it off the stack. Oh, yeah, she looked at D first ": [
+      759.9,
+      799.6
+    ],
+    "start having meaning. Well, that's why I put tree and forward Edge as Ike the same thing. So a tree ideas in the output tree, but the triage will always have the same relationship between pre and post numbers just because that's what's going on. Right you put it on and then you take it off before you take the other one off. Okay. Pink eye. Okay, so that's what ": [
+      2683.3,
+      2722.4
+    ],
+    "stop by to do. DFS on this graph and remember DFS. The only input is a graph. It doesn't have a starting vertex for you, right you start on whatever vertex is is the first one in your adjacency list. How are you doing? DFS on this graph. So the first thing we're going to look at is a and we get a free number of 1 Eggos to see ": [
+      1661.7,
+      1695.7
+    ],
+    "tell you if it's a package across Edge or a tree Edge just by looking at its post numbers. Okay, one more thing before before we move on that. I want to tell you is that these different types of edges They only make any sense. If you've already done the output tree, they're not actually properties of the graph. You have to do the output tree first, then they ": [
+      2655.1,
+      2683.3
+    ],
+    "the first name? You're going to look at and be Hey, right, but a is already visited then you look at all. I should I should be feeling this in accident you feel that in you get to see. let's be Now she looks at B, and it's already visited. And so you're done and you're done with CeCe is a dead-end. Okay, so see you take see off of ": [
+      657.6,
+      689.6
+    ],
+    "the information of the tree is held in this previous array and so you can reclaim you can rebuild pads. Don't really worry about the numbers yet because they're not very useful for an undirected graph. But we do a directed graph that become very useful and we can tell a lot by what they are. Okay, so Are there any edges that are in the grass if they're not ": [
+      853.2,
+      883.4
+    ],
+    "the pre and post numbers. It will just keep on going as you as you go. and I think I should just take this thing out of there. Sorry about that. Okay, let's look an example is look at this example. I'm just going to draw it out. cancel it start at a so CeCe starts at 0 right and then it goes initialize is each vertex to be false ": [
+      1366.9,
+      1409.5
+    ],
+    "the stack and when you do that you give it a number for as it's post number. Right. We're going to look at that one e and give it to the pre number of 5. And we fill in the array with a B. Chi-Chi looks at B. And then it looks at I Okay, so I get to eat. Okay, and then I looks at. Bee first right? It's ": [
+      689.6,
+      731.2
+    ],
+    "the vertices you do will result in different DFS output trees. Right. I mean the main thing that you can see here is that there's a path from a to everything else. If you start at a you're going to get this nice tree and if H is not connected. There's not a path roommates everything else. So you're going to have like this disconnected. graph when you do your ": [
+      2057.1,
+      2085.7
+    ],
+    "these things are. We can't just look at the previous pointer anymore. Right? Because if if an edge is not within one of those previous pointers, then it could be one of three things. Right? It could be a tree edge of back Edge or it could be back at the Ford Edge or across at the tree edges are the edges that are described by the previous pointers. I ": [
+      2490.2,
+      2520.6
+    ],
+    "they take a off so it it's different. And those are like the main differences. Okay. So then the last one across Edge that one's just like you put one of them on then you take it off then you put the other one on and you take it off so they kind of have like disconnected things. Okay, so inconstant time if you give me an edge, I can ": [
+      2629.1,
+      2655.1
+    ],
+    "to a descendant those are called. forward ideas and the ones that go that are not back edges or Ford edges. Those are called cross edges. So let's go to your drawing and draw in all of the back edges Ford edges and cross edges. Okay, so be to a that's going to be a package, right? package Okay, how about B to D? cross Edge Right. Okay. How about ": [
+      2371.0,
+      2433.6
+    ],
+    "want you to know that back at that term has different meanings and directed graphs and undirected graphs are similar, but just try to separate direct the grass and undirected grass at two different objects. Okay. So how do we figure this out? We look at the pre and post numbers, right? So FansEdge UB is a Ford Edge or a tree Edge. That means that you put you put ": [
+      2520.6,
+      2553.1
+    ],
+    "we already did. All right. Okay. We just have a few more minutes. Let's get through this. just see you guys. this thing with directed graphs So everybody knows what a directed cycle is right? It's the same thing. You just kind of start from one vertex you end up the other and maybe yeah, let's let's just Say this first just to give you a sense a directed graph ": [
+      2722.4,
+      2759.4
+    ],
+    "what we could keep track of? Okay, good soap for each node back to the know that that it got discovered that vertex, right? Okay good. Okay, so we're going to call this preview of you. Okay, and this is the same thing that the book uses and we'll have that preview of ass is empty or null or you know, it doesn't exist. And then every vertex has a ": [
+      366.1,
+      403.3
+    ],
+    "when we do graphic samples in class B idea like the one we're doing it up on the lecture slides. I'm going to present to you a picture of a graph but in reality. For your computer the computer doesn't get a picture right either gets an adjacency Matrix or an adjacency list. So we're going to assume that the adjacency list. is ordered alphabetically Okay, so it's the actual ": [
+      515.4,
+      556.9
+    ],
+    "you can tell if something is attacking. Okay, so whilst will start with this Dad stuff on Wednesday, it might be good to read already the the section about dads and then we're going to start talking about strongly connected components. Wednesday Wednesday at 12 I all updated I'll update it today best best like, you know that previous array. That's the output tree. It's just in coded into an ": [
+      2824.0,
+      2872.9
+    ],
+    "you on the stack first, right? Then you put V then you took the day off and then you took you off. Okay, so it's pretty of you pre of the less than post. You posed to be post you. Let's go back for just a second. I just want to make a Let's look at the Ford Edge e to H. Notice that seven comes before 11 comes before ": [
+      2553.1,
+      2581.3
+    ],
+    "you put in is going to be the first one explored right? That's what we're going to look at today. If it's a Q then we get something called BFS and if it's a priority queue than that, you can use that to solve many different kinds of problems. I already kind of Hinted that you can use it to solve the Mac Band with path problem efficiently. You can ": [
+      121.5,
+      145.9
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01142019",
+  "Full Transcript": "Listen to a podcast.  Okay.  Kyrie 1  Good afternoon.  Set alarm.  Let's get started today. So what we did the first week for me. I wanted to give you sort of introduction into a few different ways to kind of think about problems that you can bring to the next problems. The next week's the following weeks today. What we're going to do is kind of start following the book a notch after three a little bit more closely. Okay. So what we do from now the next few weeks you can find the same material in your books will be a good place for you to if you want you can read ahead chapters 3.3 and 3.4 basically the whole of chapter 3, and so  read chapter 3  and you can read ahead. But then also go back and review after we've gone through it in class.  Okay. So when we talked about Graph Search last week, we had kind of this more mid-level way of talking about it where the the frontier set we can replace that with a data structure like a computer data structure whether that be a stack or queue or priority queue. So if it's a stack then the last the last vertex that you put in is going to be the first one explored right? That's what we're going to look at today.  If it's a Q then we get something called BFS and if it's a priority queue than that, you can use that to solve many different kinds of problems. I already kind of  Hinted that you can use it to solve the Mac Band with path problem efficiently. You can solve it then you can use it to do dijkstra's algorithm or prims algorithm both algorithm will see you later on when we start talking about priority. Queues.  Okay, so here's sort of the general Graph Search where I don't specify what data structures I'm using in the book that use a stack but they come to use this implicit stack by calling the function as a recursive function. Okay. So this is basically exactly out of the book and they call the procedure explore. And so I know that some of you might call this DFS but in the book it cause Explorer and it calls something slightly different DFS that we're going to talk about in a minute.  Okay, so all Explorer does walk. The the main thing that explore does is that you give it a graph and a starting vertex and it will output or it will basically fill in a Boolean array that's going to be true for each vertex. That is reachable from s  so if you want you could kind of refigure my  My mid-level description into kind of more of a pseudocode and Implement a stack yourself just by doing this but I'm going to just warn you that these two things are slightly different and we're going to be focusing on this one and the real difference is kind of like the ordering that you pop things off of the stack. And if you have any questions about that, then you can come see me but  the book version is what we're going to be using.  Okay, so let's just go through what we expect Explorer to do.  It takes a graph and a starting vertex and the output it doesn't actually return anything. If you see doesn't return anything it just kind of populates this array or it feels in this array and notice. Another thing that's missing is that it doesn't initialize the array you have to initialize it before you run Explorer case, you initialize it to be everybody's false.  And then you start at the the vertex and look at the first thing it does.  It says that the visited of s is true and then for each ass for each Edge asked you if that if the neighbor is not visited, then you run Explorer from that one for this recursive thing.  Okay, so  what we've seen so far we've only been interested in connectivity. Is there a path right a true-or-false question, but it might be  Might be nice to know if there is a path then what is the path? Okay, so there's one small minor.  Alteration that we can do to the algorithm to keep track of the past. So you'll see this in a minute basically what you do.  What if we want to know what these pants are, I guess maybe I'll ask you guys. Does anybody have any ideas on what we could keep track of?  Okay, good soap for each node back to the know that that it got discovered that vertex, right? Okay good.  Okay, so we're going to call this preview of you.  Okay, and this is the same thing that the book uses and we'll have that preview of ass is empty or null or you know, it doesn't exist. And then every vertex has a has a parent.  Okay, and then you can just kind of put it in there as it is.  but wait, this is  the how it doesn't  yeah, I think this is wrong.  I think this needs to be up here.  Bank, cuz you don't want to keep on resetting it all I'll make that change.  Okay, so  there's some other things that we're going to keep track of and for now, you don't need to know exactly why but just know what they are. Okay. So these are going to be the pre and post numbers basically keeping track of when a Vertex enters the stack and one of her text leaves the stack. Okay, so popping and  What do you call it? When you push right pushing and popping think about each one of those actions is is a one step in time. They so for each one of those actions time increases and each vertex has a unique pre number and post number.  These are going to come in handy when we start talking about directed graphs, but I thought I'd introduce them now just so we can get acquainted with them.  Okay, so let's do an example.  I just want to give you this little note here when we do graphic samples in class B idea like the one we're doing it up on the lecture slides. I'm going to present to you a picture of a graph but in reality.  For your computer the computer doesn't get a picture right either gets an adjacency Matrix or an adjacency list. So we're going to assume that the adjacency list.  is ordered  alphabetically  Okay, so it's the actual array is ordered alphabetically and within each one of those lists. The the vertices are ordered alphabetically. And so if we make this assumption then every time we do it we should get the same answer right? It's not that it's wrong. If you do it the other way, it's just I want to keep everybody consistent.  Okay. So now we have an animation.  And I guess what I should do is say this is going to be a Explorer.  G of a  Okay.  And one thing that I should keep track of all so here is the previous array. Okay, so the previous already here.  is going to have a value for each one of these things a b c d e f g h i  j k l k  so as we go through we're going to start putting things in here.  Okay. Okay. So let's start with a  okay. So the first thing that's that happens is a gets put on the stack. Okay. So eggettes this pre number of one right and now you explore a which means you look at all of its neighbors. Okay. So what's the first neighbor? We're going to look at you go to be  And now you explore be what's the first name? You're going to look at and be  Hey, right, but a is already visited then you look at all. I should I should be feeling this in accident you feel that in you get to see.  let's be  Now she looks at B, and it's already visited. And so you're done and you're done with CeCe is a dead-end. Okay, so see you take see off of the stack and when you do that you give it a number for as it's post number.  Right. We're going to look at that one e and give it to the pre number of 5.  And we fill in the array with a B.  Chi-Chi looks at B. And then it looks at I  Okay, so I get to eat.  Okay, and then I looks at.  Bee first right?  It's already visited and then it looks at e sorry visited then it looks that Jay hasn't been visited yet. So put it in there and now put I here.  KJ looks at a and I and it's a dead-end. So you pop it off of the stack and you give it the post number of 8.  Popeye off the static  He gets popped off the stack.  Begets popped off the stack and now you're at a and you look at that.  Exit now.  Set the previous of after ba and then looks at a and then it looks like G.  So put out here.  And then she looked at.  And then it goes to D.  She  and then she looks at Dee Dee is a dead end. So pop it off the stack.  Oh, yeah, she looked at D first right? Because it's alphabetical order then it looks a f  then it looks at h.  I saw put G here.  and then  H looks at g h is a dead-end g is a dead end.  At the dead end and a is dead end and then you're done. Okay any questions?  noticed that  all of this this thing right here is called the DFS output tree.  I noticed that all the information of the tree is held in this previous array and so you can reclaim you can rebuild pads.  Don't really worry about the numbers yet because they're not very useful for an undirected graph. But we do a directed graph that become very useful and we can tell a lot by what they are.  Okay, so  Are there any edges that are in the grass if they're not in the tree?  Yes, which ones?  J-day, and I to B & K to El Wright.  Okay, so  notice that DFS  Only looks at 1 connected component. We're going to talk about what that means a connected component, but it is basically a part of the graph that you can travel in between any pair of vertices.  So if a certain Edge is not part of the output tree, but it is part of the connected component is called a back Edge.  the packages  Okay, so this DFS apple tree has to Bacchus.  Okay, so a back hatch an undirected graph that has been explored or edges and G that are not in the DFS tree. I should say an undirected connected graph.  Are not in the DFS tree of G. What do back at? Just tell you about the graph anybody give any if a if a DFS apple tree has a back Edge. Does that say anything about the nature of the graph?  Okay, good. There's a cycle.  There's a cycle.  And how do I know if an edge is a package?  was that  how do you how would you let's say I ran this and I have the computer run this the information on the computer is I'm going to have a visited array and a previous array.  So then what on the on both endpoints each notice is visited.  Okay, you need one more piece of information because for example  A and J are both visited but the the edge AJ is a package, so  What what information can we draw from to tell if something is a package?  Proposed order of what?  That's that's actually going to help us a lot when you directed graphs, but with undirected graphs, you know, there's no Direction. So it's hard to tell if the what the post orders going to do for us.  Let's check the previous array. So.  and Edge  UV  Is a back Edge?  if and only if what  previous of you is not equal to V and previous of V.  Is not equal to you.  Any questions or comments?  If you wanted to find back edges in the DFS tree, you just cycle through all the edges and check these things.  If both of these things are unequal then you know, what's a back at you?  things to best way if you want to just if you want to just find the existence of a cycle  No, actually there's a better way.  I guess it depends on what you want to do. You want to actually find the cycle or do you want to just like know if the graph has a cycle?  so there's a there's a we're going to talk about this when we start talking about minimum spanning trees, but  and undirected  connected  graph  has a cycle.  if and only if  it has  and or more edges  or an is number  overseas  Right because it has n -1 edges when it's a tree.  but if you actually wanted to  find it a particular cycle or if you wanted to know if I have a cycle and find one of the cycle edges then you can look for the package.  So a property of cycle edges is that when you remove a cycle Edge the graph does not disconnect, right? It doesn't disconnect into any more connected components. That's also the nature of a package right? It's clear because a back Edge is just not part of the tree. So if you remove the back Edge, then the tree will stay connected. And so that's kind of one way to sort of think about why the back edges are always going to be cycle edges.  Okay, and then we can use this theorem.  As another way to show if a graph has Cycles, okay and undirected connected graph has a cycle. If and only if it's DFS output tree has a package you can think about how would you prove this?  Maybe as an exercise.  Okay, so let's get into more of the terminology. I hope you guys have seen these these definitions already but a connected graph and undirected graph is connected. If for every pair of vertices, there's a there's a path from vtu Explorer as we seen only reaches one of the connected components if I want to look at the whole entire graph and figure out the whole structure of the graph. I need to run Explorer a bunch of times from each different connected component.  Okay, so that's what the book the algorithms book. This is what they called DFS. It's basically running Explorer over and over and over again until you reached every single connected component.  And as you're doing it.  It keeps track of this thing called CC which is the number of connected components.  Okay, when does the increment CC?  It's basically right before it explores.  Okay, we're going to do an example. So you'll see kind of what I mean and the clock for the pre and post numbers. It will just keep on going as you as you go.  and  I think I should just take this thing out of there.  Sorry about that.  Okay, let's look an example is look at this example. I'm just going to draw it out.  cancel it start at a  so CeCe starts at 0 right and then it goes initialize is each vertex to be false positive vs false then for each vertex.  Just going to run through them all. Okay, if it's not visited it then increment CC. Okay, so now cc is equal to 1.  And I have my vertex a his visited then I look at be.  Oh, I should put the pre and post numbers.  Okay. Now I don't increment see seed when I went to encounter be because now I'm inside of Explorer and Explorer doesn't have any incrementation of Assisi.  It's only when you kind of break out of Explorer and go back in through.  Okay, so then be goes to f  Echoes 2 I  Ki the dead end. So have we pop it off as a dead end so 600 KB is a dead-end so 7 and then a goes to DS 08  And then D is a dead-end so 9 and then a goes to h.  We have 10 and then 11 and then 12.  Okay, so that's like what happens when you explore a  then what happens in in DFS right at Loops to every vertex. So what's the next vertex is going to look at?  Be right because we're doing an alphabetical order going to look at be and it's going to say if not visited be then do something but be has been visited so then I will go to see.  So she has not visited. So we increment CC so cc is now equal to 2.  And the post the free number of C is going to be 13. He's so just keep on Counting.  And then she goes to I didn't draw that one in sorry.  1314  and then to G  15 + + 16 + + 17 + + 18  Play and then you're done because well actually the the algorithm is not done. It's going to go through every other vertex and it's going to say okay has D been explored. Yes has even visited yet is F G H. I have all been visited. So now this Loop  This Loop here ends. And then the algorithm is done any questions about that?  The run time is still going to be Big O of n + m.  And it's the same the same reason as it is for a connected graph cuz it's basically every time you go to a new vertex.  Every time you explore new vertex, you look at all of its neighbors.  Yeah, because the sum of all the degrees is equal to 2 m if it's undirected.  Okay, so so then if you would just wanted to know how many connected components are in your graph you can just use this in an output CC at the end.  alright, let's move on to a  under records. Give me a directed graph.  Okay. So now we have directions on our edges and let's see what happens when we run DFS on this graph.  Okay, so I'm going to stop by to do.  DFS on this graph and remember DFS. The only input is a graph. It doesn't have a starting vertex for you, right you start on whatever vertex is is the first one in your adjacency list.  How are you doing?  DFS on this graph. So the first thing we're going to look at is a  and we get a  free number of 1  Eggos to see  and then see goes to  B  right  And then he looks at a and it has already been visited. So then it goes to D.  Right now D is a dead end.  B is a dead end  and now she goes to E.  he looked over at a  it's already been visited and then he goes to f  Netflix already been visited f is a dead end.  And so then he goes to G.  G goes to h  at has been visited H has a dead end.  G is a dead end  easy, it looks at age again.  He is a dead end Sia.  She is a dead end and a is dead end.  Okay. Any questions about that?  Okay, so let's let's up feeling some of the other edges that weren't in there already. Okay.  So we have this Edge. B-2a.  We have this edgy today.  We have C to F.  We have app 2D.  v h to f  and we have e2h.  We're going to classify these edges in a minute, but I want to give you guys an exercise. I want you guys to  run DFS on the same exact graph except for now assume that everything is backwards. Everything is in the opposite alphabetical order.  Okay, ready go.  Remember that DFS if you run out of vertices DFS will start at the next one which will be the next vertex in Reverse alphabetical order.  Easier in what way?  DFS has that the that you know that that search Explorer. Yeah, I guess we have a certain way of thinking what is because there's actually a path from a to every other vertex, right? But there's not a path from H2O the vertex.  What what I want you to learn from this is that you when you run DFS on a directed graph, it doesn't give you any information like it does from the from undirected graph, right? It's different. It depends on the order that you do the vertices.  We start with h. Yes.  start with h  Factor the adjacency list is ordered reverse alphabetical and also each neighbor list is also reverse alphabetical.  feel like you have to do like that thing where you're like okay to say the alphabet backwards, you know z y  x w  anybody else have any questions?  The directions are still the same. Yeah the same graph. It's just that like I like I was saying what I want you to get out of this is that the ordering that the vertices you do will result in different DFS output trees.  Right. I mean the main thing that you can see here is that there's a path from a to everything else. If you start at a you're going to get this nice tree and if H is not connected. There's not a path roommates everything else. So you're going to have like this disconnected.  graph when you do your DFS output tree  and then on Wednesday, we're going to see how to maybe get around that by.  By figuring out a really like special order that will always do what you wanted to do.  Okay, I'm going to start.  Doing this along with you. Okay, so  We start from h.  and we go to f  I want to do read here.  h  we go to f o I should let's let's keep track of the CC. So cc is equal to one and let's keep track of the pre and post number. So we have one too.  GoDaddy  which is 3 and then D is a dead-end. So 4562 so you can already see that it's going to be it's going to look a lot different than the one we did before.  Okay increments cc to be equal to 2.  And we have which one do we start at?  G rank  Okay, so we have seven and then G is a dead-end, right? So 8 okay, so start cc equal to 3.  The next one we look at is f but f is already been visited. So then the next one you look at is e Wright.  He's so we have nine.  and  he's connected to H connected to G is connected to F. Those are all visited. So it has to go to a  10  okay, and then we'll go to see.  11 I wrote it in the wrong thing.  C11  And then see goes to Africa Stewie goes to be.  12 and we have 13 14 15 16.  Something like that.  Okay, so noticed that the first one the first way we did it. We had one connect to component the second way. We did it. We had three connected components. So what does that tell you?  Connected components is not a good term to use for directed graphs. We're going to we're going to learn a new term called strongly connected components. We're going to start looking at those on Wednesday. But what I wanted to instill in you starting now is  never refer to a directed graph with the term connected component. It doesn't really make sense. And this is sort of proof. So connected component is reserved for undirected graphs.  Strongly connected component is reserved for directed graphs.  Okay, so  directed graphs also have back edges like we saw let's go back here for a minute.  But we're going to be more descriptive and give each a different name depending on which direction is going. Okay, so  If it's going from a descendant to an ancestor, as was going up in the tree is called a back at you. Okay? So this DFS output tree only has two back edges.  questions about that  Okay, so those are back edges.  And the other ones go they have a few different names.  The ones that go down in the tree that basically go from a ancestor to a descendant those are called.  forward ideas  and the ones that go that are not back edges or Ford edges. Those are called cross edges.  So let's go to your drawing and draw in all of the back edges Ford edges and cross edges.  Okay, so be to a that's going to be a package, right?  package  Okay, how about B to D?  cross Edge  Right. Okay. How about c2e?  back Edge  Okay, how about C to F?  cross Edge, right  Okay.  ETF is also across Edge.  EtG is a cross Edge.  G2h is a cross Edge and e2h is also a crosshatch.  So this one also only has two back edges.  You that's a coincidence?  Actually could be I think.  Okay. So this one is where we come and we figure out how do we figure out what these things are. We can't just look at the previous pointer anymore. Right? Because if if an edge is not within one of those previous pointers, then it could be one of three things. Right? It could be a tree edge of back Edge or it could be back at the Ford Edge or across at the tree edges are the edges that are described by the previous pointers.  I want you to know that back at that term has different meanings and directed graphs and undirected graphs are similar, but just  try to separate direct the grass and undirected grass at two different objects.  Okay. So how do we figure this out? We look at the pre and post numbers, right?  So  FansEdge UB is a Ford Edge or a tree Edge. That means that you put you put you on the stack first, right? Then you put V then you took the day off and then you took you off. Okay, so it's pretty of you pre of the less than post. You posed to be post you. Let's go back for just a second. I just want to make a  Let's look at the Ford Edge e to H.  Notice that seven comes before 11 comes before 14 comparison of all the pre and post numbers.  Okay good.  okay, a baggage is sort of the opposite right back at you V if you put V first then you put you then you take you off then you take the  So notice let's look at this back Edge.  BJJ rank  Notice that we put a on first.  And then you put the can you take beat off and they take a off so it it's different.  And those are like the main differences. Okay. So then the last one across Edge that one's just like you put one of them on then you take it off then you put the other one on and you take it off so they kind of have like disconnected things.  Okay, so inconstant time if you give me an edge, I can tell you if it's a package across Edge or a tree Edge just by looking at its post numbers.  Okay, one more thing before before we move on that. I want to tell you is that  these different types of edges  They only make any sense. If you've already done the output tree, they're not actually properties of the graph. You have to do the output tree first, then they start having meaning.  Well, that's why I put tree and forward Edge as Ike the same thing. So a tree ideas in the output tree, but the triage will always have the same relationship between pre and post numbers just because that's what's going on. Right you put it on and then you take it off before you take the other one off.  Okay.  Pink eye.  Okay, so that's what we already did. All right. Okay. We just have a few more minutes. Let's get through this.  just  see you guys.  this thing with directed graphs  So everybody knows what a directed cycle is right? It's the same thing. You just kind of start from one vertex you end up the other and maybe yeah, let's let's just  Say this first just to give you a sense a directed graph hasn't directed cycle. If and only if its output tree has a bath Edge and I'll post these slides you can go through the proof. It's basically because a back Edge will connect a descendant to an ancestor and there's already from the ancestor to The Descendant so that's the cycle.  let's go through this and  It's a big proof here cuz you have to do both directions, but I just wanted to get to this slide here.  Because directed acyclic graphs. This is what we're going to start with on Wednesday.  And we're going to figure out how to tell if a directed graph is a Jag and we use this corollary that says a directed graph is a dad. If and only if its output tree does not have any packages. Okay. So this is one way that you can tell if something is attacking.  Okay, so whilst will start with this Dad stuff on Wednesday, it might be good to read already the the section about dads and then we're going to start talking about strongly connected components.  Wednesday  Wednesday at 12  I all updated I'll update it today best best like, you know that previous array. That's the output tree. It's just in coded into an array.  UC San Diego podcast for more visit podcast. Ucf.edu ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01142019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01142019-1500.mp3"
+}

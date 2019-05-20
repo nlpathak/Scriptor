@@ -1,0 +1,299 @@
+{
+  "Blurbs": {
+    "15 and then a 16. Case of this is a linearized order of the deck. any questions That's not necessarily going to be there's not always going to be the case. Is it? Yeah, maybe it will huh. No, not necessarily right because what if I started at sea? Then it would end there and then you have to start over. So yeah. at first and then sleep Oh, I ": [
+      1376.8,
+      1442.7
+    ],
+    "And so you can start from any vertex and you can do any ordering you want if you want to find like the longest path. Then I would I guess I would do this first find linear ordering and then you know that the longest path has to probably start from a source, right? And so that's a good way to maybe try it out. Not necessarily. It depends on ": [
+      1528.2,
+      1561.5
+    ],
+    "DFS on this graph and I claim that you can do in any order after you're done if you write the vertices of a decreasing post number you have a linearization. Okay. So which Burrtec should I start with? You want to start with d? Okay, Saudi. And then where do you want to go? Well, I have to go to a Vertex that's connected now cuz I'm running DFS. ": [
+      1221.0,
+      1258.3
+    ],
+    "Edge from this guy to this guy Under The Edge over here. What if there were an edge down there? What would happen? They would all become a strongly connected component right a bigger one. So every single directed graph can be decomposed into a dag of it strongly connected components. Every directed graph is a dag of a strongly connected components some strongly connected components are sinks summer sources, ": [
+      1898.2,
+      1929.6
+    ],
+    "Hell is a dead end. So papel em is a dead-end k is a dead-end j is a dead end. Now you're Poppin them all a signing these post numbers. These are what we want to remember that goes to i a h. And then we got all these are dead ends now and we're done. Okay, so it's just running DFS and any arbitrary order, but now we have ": [
+      2736.0,
+      2770.7
+    ],
+    "How do you do that? You can just look at the The Ordering of their pre and post numbers. We went over that on on Monday. If you if you ever find this ordering then it's not going to be a dag because this Is the ordering of a back Edge? Any questions about that? so now let's talk about linearization of dags. Now. There's a lot of different ways ": [
+      624.4,
+      666.6
+    ],
+    "I change this to Bab. Suppose a b is a package. No, I said be a just let's just delete this slide here. Okay supposed to be as a package. What I want to do is show the existence of a cycle in the graph. so by definition of a package that be is a bad guys. That means that a has to be a ancestor of be in the ": [
+      496.8,
+      537.9
+    ],
+    "If what? What do you mean if they're disjoint? you mean like if you had like two vertices like that You can still put them in linearization order, right because there is no edges so you can just all the edges are going. In One Direction kind of vacuously but it still works it still okay. no don't have to be a tree cuz you can have a graph like ": [
+      705.0,
+      749.2
+    ],
+    "It's impossible because it's a dag. We've already established that. So it can only be a forward Edge tree Edge or across Edge. All of these edges have the property that the post number of the is less than the post number of you. Okay, let's go back to this. These awesome. These orderings of post and pre numbers caso4 a tree or Ford Edge. If UV is a tree ": [
+      954.9,
+      990.6
+    ],
+    "Let's do like a quick example to show why. So in this in this example, I'm going to do it in alphabetical order. So I have a 1 I go to be. 2 I go to G. 3 I go to f 4 and then I pop off F so five. six seven and now I go to C8 benign NT 10 11 12 13 14. Okay, so as you ": [
+      2159.9,
+      2225.7
+    ],
+    "Listen to a podcast. Okay, let's get started. So I have a announcement to make about the homework and just homework in general. I put it on Piazza so you can look at that too. But I just wanted to make a statement about algorithm design problems. So I ever asked you to come up with an algorithm to do something like I did with my question for on the ": [
+      1.9,
+      74.3
+    ],
+    "Okay. So here's the graph with all the edges reversed. And how do you reverse edges just do that thing? I had you proven the homework. Okay, so that shouldn't be a problem. run DFS on this graph and in this stage, you can running an any arbitrary order. It doesn't matter. The only thing that matters is that I remember what are the post numbers? So let's do it ": [
+      2652.5,
+      2687.6
+    ],
+    "Should I go to a or to eat? I'm just trying to prove that you could do it in any arbitrary order until work. Hey, okay. To okay now I have to go to be. 3 let's go to f 4 f is a If it's a dead end, right, so pop it so 5 and now I'm going to Output it is going to be the last one in ": [
+      1258.3,
+      1297.0
+    ],
+    "So in order to do that, we're going to stay two more general property that if I have to strongly connected components C&C Prime. And there's an edge from C to c-prime. Then I claim that the highest post number of C will be bigger than the highest post number of C Prime, but I can show this then that means that if I have a source SCC, there is ": [
+      2265.3,
+      2293.1
+    ],
+    "VK. They're all in there somewhere. But what do you know about the edge VK to v-0, but it exists so that means it's a package. But the graph has a cycle than its output tree must have a baggage any questions about that. That's kind of what I say here. So that is a package right the HBK v02 now, let's suppose that you have a package. I think ": [
+      442.3,
+      496.8
+    ],
+    "a different ordering. Any other questions? It showed that it was a what? What's a sink? Oh, yeah, kind of. It just depends on the order in that you gave your vertices. Play the song all of it. Like it we started app. It's okay. If we have to start over again for what we wanted to do, right? All we're trying to do is fine linear ordering that works. ": [
+      1463.0,
+      1528.2
+    ],
+    "about doing this. Okay. So the first question If you run Explorer. on a vertex Then it will only visit the vertices that you can reach from that for a text, right? So what's a good idea if I want a single out a single out an SCC? What vertices will be visited when Explorer is performed on a Vertex you if you is in a sink sec. Explorer Tavern, ": [
+      1959.3,
+      2013.0
+    ],
+    "after you pop all other BJ's right to be the first one in and then basically you explore v-0 and all those other vertices have not yet been explored, right? The end of the f s output tree you have the zero. And then you have some subtree hanging from v-0 and within that subtree you can find all those other vertices B1 B2 B3 all the way up to ": [
+      404.8,
+      442.3
+    ],
+    "all of the species that we found remember in the earlier in the class now. What's nice about doing it? This way is now they're already ordered in a nice way right member the dag that we had it just kind of in reverse linearize order. Right because a can go to. We just do this. And it goes to b&f so it goes here. Eagles to H Annie goes ": [
+      2924.2,
+      2965.5
+    ],
+    "an ordering of the edges of of the vertices that we want. Okay. So the next thing to do is write down the ordering of the edges in Reverse post number reverse highest Post Number. Okay. So we have f i a h c d g j kmle because I have that here. Okay. Now I I claim that if I run DFS on the original graph. In this ordering ": [
+      2770.7,
+      2815.9
+    ],
+    "any questions. Okay, so this is nice because this gives us a way to order the strongly connected components, right? Queso, the strongly connected components can be linearized by arranging them in decreasing order of their highest post numbers. Okay. So how we going to find a sink SCC? We know how to find a source. How do you find a sink any ideas? Okay, good reverse the graph if ": [
+      2474.5,
+      2519.9
+    ],
+    "at least one sink because you just look at the first and last for text in the linearization. Okay, so this gives you a good way to find sources and sinks. So the the vertex with the highest post number is always a what? source and the vertex with the lowest post number is always a sink. Okay good. Okay, let's look at this example. Now I'm going to run ": [
+      1192.0,
+      1221.0
+    ],
+    "because using just the high-level description to calculate run time. Sometimes is not easy to do right you need to actually know how it's doing things in order to count the number of steps. So implementation level and pseudocode optional okay questions about that. example of description So like an implementation level would kind of say in words. What a pseudocode would would say. so you say maybe like Loop ": [
+      119.8,
+      187.1
+    ],
+    "can I come out of that? That's okay good only elements within that. SCC If it's not a sink, then it'll it'll it'll be able to kind of Escape that SCC right because there's an outgoing itch so this is the idea is to start Explorer from a sink SCC. And then you get all the vertices that are within its own SEC. Then you throw away that SEC and ": [
+      2013.0,
+      2044.5
+    ],
+    "can see this decomposes into these two scc's but notice that F has the lowest post number. But it's in a source. They self lowest post number doesn't really tell you any information but highest post number does so that's kind of the idea. questions about that Okay, good. So how we going to prove that the highest Post Number vertex is always going to be in a source. Okay. ": [
+      2225.7,
+      2265.3
+    ],
+    "corollary from that theorem is that a graph is a dag if and only if it's DFS output tree has no back edges. So that's a good way to maybe find out if a graph is a dag. How do you spot a dag Step 1 perform DFS on the graph step to cycle through all the edges and check to see if any of them are back at you. ": [
+      591.5,
+      621.9
+    ],
+    "done and the next one we explore is d So do we have d? and we have G that's a dead end. So we're done. And the next one we explore is Jay. and then we have l and we have m and we have k that's done. So the next one we explore is he that's done. And the next one we explore his pay and overtime. Those are ": [
+      2878.2,
+      2924.2
+    ],
+    "for example if I ordered it like BAC that's not okay, right because one of the edges goes in the opposite direction. Chop to linearize means that when you put the vertices in that order, all the edges are going from left to right from a left protect to a reference. Yeah, good, but this is this is going to be true for every single day. And then that's exactly ": [
+      849.7,
+      897.6
+    ],
+    "get there and be able to get back. These are the only ones. That makes sense. Okay. So a whole graph is called strongly connected if every pair of vertices is strongly connected is this graph strongly connected? I know right? How do you show that it's not strongly connected. You could say something like well, there's no path from for example from K to eat. For example, I mean, ": [
+      1701.9,
+      1743.5
+    ],
+    "highest post number that hasn't been discovered. It's for it's a sec and you'll see that it you get all of them. Okay. So here's the idea construct gr. Run DFS and then run DFS in a very particular order. That's what I was saying before remember on. Monday when we did DFS in just kind of like a arbitrary order. The decomposed into these weird things maybe it was ": [
+      2584.4,
+      2615.5
+    ],
+    "homework. it's it's required that you give a high-level description. It's required for all algorithm design problems. If you want to give a pseudocode that might be a good idea or an implementation level description. Those might be a good idea. If you think that it's necessary to help understand how the algorithms actually doing what it's doing and those are good. If you need to calculate the run time ": [
+      74.3,
+      119.8
+    ],
+    "how the graph is connected. Right if there's just one path from one source to another sink. Then yeah, there's only one ordering, right? Yeah, I just depends depends on the graph. Indica versus JCC NFL You have at least four, right because you could also change around. TNA oh because in fact G can come after a Frank you can have like daj Eh BCF, that's another ordering Frank ": [
+      1561.5,
+      1626.6
+    ],
+    "idea of an algorithm. reverse all the edges run DFS on the reverse graph the highest post number that you get is going to be a source in gr. Which means it's a sink in G. Once I have a sink in G, then I can then I can find it SCC. Salt start with that vertex and explore G. It'll only Sports SCC and then start from the next ": [
+      2547.6,
+      2584.4
+    ],
+    "ideally we would like to find a vertex in this thing. Unfortunately, there's not a direct way to do this. There is a way to do it, but there's not a direct way to do it. But fortunately for us there is a way to find source scc's okay. So the vertex with the highest post number after you do DFS will always be found in a source SCC. Okay, ": [
+      2099.1,
+      2129.1
+    ],
+    "in alphabetical order. start with a A is a dead-end, right? So pop a okay good. Now we got B. He goes to f f goes to see. C goes to D. He goes to G. She goes to buy the tardy visited. She goes to Jay Jay goes to K. Okay goes to E. He is a Dancer poppy, right? He goes to M and goes to a l. ": [
+      2687.6,
+      2731.9
+    ],
+    "it's going to decompose into the strongly connected components and I think we have enough time to watch this animation go. Okay, and this now we can keep track of the CC number? and at this point it's not so important to keep track of the pre and post numbers. They kind of did their job already? Okay, so he goes to see see goes to f f f goes ": [
+      2815.9,
+      2847.0
+    ],
+    "knows but the idea is that vieguts on the stack you encounter a bunch of stuff, but eventually you take the offer the stack. And then DFS later on we'll find c. right later will find I don't know. What's call this you. So V. is pushed and propped before you is discovered. And in this case again post number of you will be bigger than post number of P ": [
+      2420.2,
+      2474.5
+    ],
+    "like a graph of a graph where each strongly connected component is a meta node. So look something like this. Now can anybody tell me what this meta graph? Does it have any any type of quality that we talked about before? a cyclic right Why is it a cyclic? I got ya. So if there if there were a cycle right like let's say so there's a there's a ": [
+      1844.4,
+      1898.2
+    ],
+    "like this tag can be put in linearized order, right ABC. Let's do it like this a b c and now all the edges are going in One Direction, right? from left to right that is not a deck. Guy with more than one dose. Say it again. In a single die. She have two different vertices and they only have outgoing arrows like this. like that You can still ": [
+      752.6,
+      806.6
+    ],
+    "linearize that. You got a b c and now all the edges still going One Direction? from left to right breath knocked my mirror this Well, let me ride just means I'm putting the vertices in a certain order and I drew this graph so that the order is it sort of ambiguous. Now this one I'm ordering it by ABC if you order it that way that's linearized. play ": [
+      806.6,
+      849.7
+    ],
+    "might be some mixtures of these thing. I'm just saying you I want always want a high-level description every time and if you want a lower level description, that's up to you. And sometimes it might be necessary to use a lower level description to do a runtime analysis. But as as for like the algorithm description Okay. So let some let's go back and talk about these back edges ": [
+      227.5,
+      262.9
+    ],
+    "more terms that we've seen before. So since all dads can be linearize that means that the first vertex in the ordering does not have any incoming edges and the last one does not have any outgoing it. So the first one is a source and the last one is a sink. So here's another conclusion that we can say is that all dogs have at least one source, and ": [
+      1167.6,
+      1192.0
+    ],
+    "no incoming SCC. Therefore. It must have the highest. Okay, so let's do let's kind of go quickly through this proof. We're going to split it up into two cases. Case one is that when I run DFS I encounter see before I encounter see Prime. so DFS comes in and it encounters some node in C, right? Once it's there it will start exploring all of C, but it ": [
+      2293.1,
+      2331.9
+    ],
+    "of the vertices in decreasing order of their post numbers. That's a linearization. Okay. So how long will it take to do this algorithm? Right. What we're doing is we're running DFS were assigning a value of post number to each vertex and then were ordering the vertices in a specific order. Do we need to take time to sort it? Okay good. So you can actually sort it as ": [
+      1079.3,
+      1116.6
+    ],
+    "on it and you run it in any arbitrary order of the vertices you just run DFS on it and you keep track of the post number. I claim that every Edge is going to go from a high post number to a low Posner. Okay. So, how do I prove this? Well suppose that UV is an edge in a dag. We know that UV can't be a package. ": [
+      930.5,
+      954.9
+    ],
+    "one connected component. Maybe it was three connected components, right? It was arbitrary. But now if we do it in this ordering it's going to be a very nice decomposition. Okay, so we have a nice animation. So let's go through it. So the first thing is you start with this graph, right? What is the first thing that I do to the graph in this algorithm? reversed edges, right ": [
+      2615.5,
+      2647.1
+    ],
+    "or a Ford Edge, that means that you put you on first then you put V on then you took me off and you took you off right? And so that means that V post a v is less than post of you. Let's look at a cross Edge you put V on first then you take me off then you put you on then you take you off. So ": [
+      990.6,
+      1014.2
+    ],
+    "output tree. Frank so we have the Hey. I suppose this was a back Edge in the output tree. But that means that there's some path. From A to B. Because are the ancestor Abby and then there's your cycle. Any questions about that? Okay, good, the back Edge dispatch complete the cycle. These are graphs that don't have any Cycles directed graphs without Cycles directed acyclic graphs. Okay, so ": [
+      537.9,
+      591.5
+    ],
+    "over and over again until it finds every vertex. So at some point it's going to encounter. One of these vertices in this cycle. Okay. So let's say without loss of generality that it encounters v-0 first. stop Let's say you be zero the first one to encounter. To be discovered. So what does that mean about v-0? In terms of its post as pre number. It's going to be ": [
+      323.0,
+      358.5
+    ],
+    "post a v is less than post of you in that case to Okay, the back Edge is the only case where post of you is less than post of be. Any questions about that? Yeah, the triage is in the forward. I just kind of follow the same. The same ordering of their the only way that you can differentiate is by looking at the tree or looking at ": [
+      1014.2,
+      1048.5
+    ],
+    "prove it in a minute. This was this was a lot like when we did the dag write the vertex with the highest post number was was a source and now in directed graph the vertex with the highest post number is now the other the other quality doesn't transfer nicely. It is not the case. The vertex with the least post number in is not necessarily in a sink. ": [
+      2129.1,
+      2158.0
+    ],
+    "right so you can kind of think about the graph of the the dag of the scc's Okay, good. So There exists a linear time algorithm that will decompose a graph into its dag of SEC. That's what we're going to be doing for the rest of today and maybe we'll do a little bit on Friday to so let's try to figure out what the best way to go ": [
+      1929.6,
+      1959.3
+    ],
+    "song. meters plug in my Get any of the questions. Okay, let's get let's move on to the next topic. Okay. So the next topic is this? The concept of strongly connected vertices two vertices are strongly connected if you can get from from one to the other and back. With the pack. Okay. So which vertices are strongly connected to J? k l and is that it? You should ": [
+      1626.6,
+      1701.9
+    ],
+    "the algorithms going right you don't actually need to do another sorting outside. You just say every time you pop out a Vertex put it into this queue right and just keep on adding it. Okay, so as you run DFS Create a list. in the order that upop vertices Okay good. So that's good. We'll look at an example in a minute. So just to kind of a few ": [
+      1116.6,
+      1167.6
+    ],
+    "the is greater his greatest among all vertices and see and see Prime. So that means that the highest post number in sea is bigger than the highest bus number in seafront. Okay case 2 is supposed that DFS encounter c-prime first. Okay, so DFS comes in and encounters c-prime first. And maybe it does something like that who knows maybe even goes into another SCC over here, right? Who ": [
+      2374.9,
+      2420.2
+    ],
+    "the list right? It's the first one to be popped. It's it's basically the vertex with the lowest post number. Okay be now can go to see. 6 C is a dead-end so 7 so pop it. Okay now be is a dead-end for 7/8. Okay is a dead-end so 9. An Audi will go to. So 10. I can't go to B or C. So I have to go ": [
+      1297.0,
+      1341.4
+    ],
+    "the lowest among all of those other vertices, right? It's going to be like the first one put in the stack. right before all other the let's say VJs. And then what about it? That's what that's a pretty number. So it's free number is going to be less than all those. How about a post number? Compared to all those other vertices in the cycle. So you pop P0 ": [
+      358.5,
+      404.8
+    ],
+    "the previous pointers. Okay good. So this actually gives us a nice way to linearize a dag. Run DFS and then arrange them in decreasing order of their post numbers because we know that every Edge will go from a high post number to a low post number therefore if they're ordered that way all the edges will be going in One Direction. Okay, so run DFS return the list ": [
+      1048.5,
+      1079.3
+    ],
+    "the strongly connected components of this graph? We've already found one. Anybody find any others? D&G what else? so she can go to be right and ask and I Okay, good. All right, is that all of them? How about just a a? Just eat and just H. Are these strongly connected components? Yes, right. Okay, so by doing this I can make on meta graph which is kind of ": [
+      1791.0,
+      1844.4
+    ],
+    "there's many different examples. Are vertices considered strongly connected to themselves? Yes. It's right that. vertices are strongly connected to themselves Right, cuz remember every vertex has a pack to itself of length of 0. Okay. So what's a strongly connected component? Well strongly connected is a equivalence relation. And so that means it partitions the graph into equivalence classes. These equivalence classes are called strongly connected components. What are ": [
+      1743.5,
+      1791.0
+    ],
+    "through every Edge and every time you see encounter a Vertex then you do this in that so you're kind of saying what the pseudo code is doing. in words I just got control structures and it went that pseudocode. And you know that it's not like a well-defined. Thing you can sort of have like a pseudocode and implementation kind of mixed right there going to be some they ": [
+      187.1,
+      227.5
+    ],
+    "to H. 11 stages of dead ends at 12 so I popped it. So put it here. He is a dead end. So 13. And D is a dead-end so 14th. Remember we're running DFS here. So remember it like it starts exploring all the vertices if they're not visited. So at some point you're going to Loop through all the vertices and finally get to G. And get a ": [
+      1341.4,
+      1376.8
+    ],
+    "to K. this goes to TG she goes to see Okay, so I guess we're out of time, but you guys have any questions. We did it we got to it. It looks good. ": [
+      2965.5,
+      3003.3
+    ],
+    "to be so that's done see goes to ai ai is a dead-end. So we're done. So that's one of the species that we found so that's good. Ok. So here we kind of crossed these out as we get them. So BF and I and C. So H is the next one on the list. So that's the next one. You explore age is a dead end. so we're ": [
+      2847.0,
+      2878.2
+    ],
+    "was just trying to make a point that it doesn't matter the order that you do it. Yeah, I'd say like with our convention we would do it in alphabetical order and start at a right. I just wanted to show that it doesn't matter the order that you do it if you start at 8 and went alphabetical order that might be a good exercise and you'll probably get ": [
+      1442.7,
+      1463.0
+    ],
+    "we can do it. Let's see if we can do it using the structures that are given to us by the okay. So is it possible to order the vertices such that all edges go in only one direction for what types of dogs is this possible? Is it always possible to do this for any dad or there's some dads out there where it's not possible to do it? ": [
+      666.6,
+      697.8
+    ],
+    "we're going to prove that a DFS output tree has a backache. If and only if the graph has a cycle case, we're going to do both directions. Okay, so the forward Direction suppose G has a cycle. What I want to conclude is that the DFS output tree has a package. Okay, so supposed to have some cycle. Now when I run DFS remember, it just keeps on running ": [
+      293.9,
+      323.0
+    ],
+    "what we're going to use to linearize it is that they're not going to be any back edges. Okay. So what is possible and he Dag? How do we find such an ordering? Let's look at this property this theorem. I claim that every Edge in a dag. Goes from a higher post number to a lower post number. Okay. So imagine you have a dag you run DF that's ": [
+      897.6,
+      930.5
+    ],
+    "will also explore all of c-prime, right? Maybe it looks something like that. But notice what's happening was called his word text V. Biggest put on the stack first, then it explores all this other stuff and you put it on the stack and throw it off of the stack. And then when you're done with all of it, then you take V off the stack. so post number of ": [
+      2331.9,
+      2374.9
+    ],
+    "with Cycles in directed graph just recall that a back Edge in an undirected graph is something just a little bit different. So now we're in directed graphs. What does what do back edges in Cycles have in common with each other? Okay. So as you remember I cycle is just in a directed graph. It's just a fact that starts and ends at the same vertex, okay? now now ": [
+      262.9,
+      293.9
+    ],
+    "you reverse the graph than all the sources becomes sinks and all the things become sources. That's why I wanted you guys to prove that reverse graph thing so that we can use it here without proof. so given a graph G. Let grb the reverse then the sources of G end up being the sinks of the sources of gr. Are the same so G. Okay, so here's an ": [
+      2519.9,
+      2547.6
+    ],
+    "you start over again and that way you can systematically find each SCC in a certain order. Sound pretty good. Okay. So this is the this is my idea of how to do it start Explorer on a cinesync sec remove that and repeat until the graph is empty. Okay good. so There's one problem here. question That's the problem. How do you find a sink SCC? Stop on for ": [
+      2044.5,
+      2099.1
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01162019",
+  "Full Transcript": "Listen to a podcast.  Okay, let's get started.  So I have a announcement to make about the homework and just homework in general. I put it on Piazza so you can look at that too. But I just wanted to make a statement about algorithm design problems.  So I ever asked you to come up with an algorithm to do something like I did with my question for on the homework.  it's  it's required that you give a high-level description.  It's required for all algorithm design problems. If you want to give a pseudocode that might be a good idea or an implementation level description. Those might be a good idea. If you think that it's necessary to help understand how the algorithms actually doing what it's doing and those are good. If you need to calculate the run time because using just the high-level description to calculate run time. Sometimes is not easy to do right you need to actually know how it's doing things in order to count the number of steps. So  implementation level  and pseudocode  optional  okay questions about that.  example of description  So like an implementation level would kind of say in words. What a pseudocode would would say.  so you say maybe like Loop through every  Edge and every time you see encounter a Vertex then you do this in that so you're kind of saying what the pseudo code is doing.  in words  I just got control structures and it went that pseudocode.  And you know that it's not like a well-defined.  Thing you can sort of have like a pseudocode and implementation kind of mixed right there going to be some they might be some mixtures of these thing. I'm just saying you I want always want a high-level description every time and if you want a lower level description, that's up to you.  And sometimes it might be necessary to use a lower level description to do a runtime analysis. But as as for like the algorithm description  Okay. So let some let's go back and talk about these back edges with Cycles in directed graph just recall that a back Edge in an undirected graph is something just a little bit different. So now we're in directed graphs.  What does what do back edges in Cycles have in common with each other? Okay.  So as you remember I cycle is just in a directed graph. It's just a fact that starts and ends at the same vertex, okay?  now  now we're going to prove that a DFS output tree has a backache. If and only if the graph has a cycle case, we're going to do both directions.  Okay, so the forward Direction suppose G has a cycle. What I want to conclude is that the DFS output tree has a package. Okay, so supposed to have some cycle.  Now when I run DFS remember, it just keeps on running over and over again until it finds every vertex. So at some point it's going to encounter.  One of these vertices in this cycle. Okay. So let's say without loss of generality that it encounters v-0 first.  stop  Let's say you be zero the first one to encounter.  To be discovered. So what does that mean about v-0?  In terms of its post as pre number.  It's going to be the lowest among all of those other vertices, right? It's going to be like the first one put in the stack.  right  before  all other the let's say VJs.  And then what about it? That's what that's a pretty number. So it's free number is going to be less than all those. How about a post number?  Compared to all those other vertices in the cycle.  So you pop  P0 after you pop all other BJ's  right to be the first one in and then basically you explore v-0 and all those other vertices have not yet been explored, right?  The end of the f s output tree you have the zero.  And then you have some subtree hanging from v-0 and within that subtree you can find all those other vertices B1 B2 B3 all the way up to VK. They're all in there somewhere.  But what do you know about the edge VK to v-0, but it exists so that means it's a package.  But the graph has a cycle than its output tree must have a baggage any questions about that.  That's kind of what I say here. So that is a package right the HBK v02 now, let's suppose that you have a package.  I think I change this to Bab.  Suppose a b is a package.  No, I said be a  just let's just delete this slide here.  Okay supposed to be as a package. What I want to do is show the existence of a cycle in the graph.  so by definition of a package  that be is a bad guys. That means that a has to be a ancestor of be in the output tree.  Frank so we have the  Hey.  I suppose this was a back Edge in the output tree.  But that means that there's some path.  From A to B.  Because are the ancestor Abby and then there's your cycle.  Any questions about that?  Okay, good, the back Edge dispatch complete the cycle. These are graphs that don't have any Cycles directed graphs without Cycles directed acyclic graphs.  Okay, so corollary from that theorem is that a graph is a dag if and only if it's DFS output tree has no back edges.  So that's a good way to maybe find out if a graph is a dag.  How do you spot a dag Step 1 perform DFS on the graph step to cycle through all the edges and check to see if any of them are back at you.  How do you do that?  You can just look at the The Ordering of their pre and post numbers. We went over that on on Monday.  If you if you ever find this ordering then it's not going to be a dag because this  Is the ordering of a back Edge?  Any questions about that?  so  now let's talk about linearization of dags. Now. There's a lot of different ways we can do it. Let's see if we can do it using the structures that are given to us by the okay. So is it possible to order the vertices such that all edges go in only one direction for what types of dogs is this possible?  Is it always possible to do this for any dad or there's some dads out there where it's not possible to do it?  If what?  What do you mean if they're disjoint?  you mean like if you had like  two vertices like that  You can still put them in linearization order, right because there is no edges so you can just all the edges are going.  In One Direction kind of vacuously but it still works it still okay.  no don't have to be a tree cuz you can have a graph like  like this tag can be put in linearized order, right ABC.  Let's do it like this a b c and now all the edges are going in One Direction, right?  from left to right  that is not a deck.  Guy with more than one dose.  Say it again.  In a single die.  She have two different vertices and they only have outgoing arrows like this.  like that  You can still linearize that.  You got a b c and now all the edges still going One Direction?  from left to right  breath knocked my mirror this  Well, let me ride just means I'm putting the vertices in a certain order and I drew this graph so that the order is it sort of ambiguous. Now this one I'm ordering it by ABC if you order it that way that's linearized.  play for example if I ordered it like  BAC that's not okay, right because one of the edges goes in the opposite direction.  Chop to linearize means that when you put the vertices in that order, all the edges are going from left to right from a left protect to a reference.  Yeah, good, but this is this is going to be true for every single day.  And then that's exactly what we're going to use to linearize it is that they're not going to be any back edges. Okay. So what is possible and he Dag?  How do we find such an ordering?  Let's look at this property this theorem.  I claim that every Edge in a dag.  Goes from a higher post number to a lower post number.  Okay. So imagine you have a dag you run DF that's on it and you run it in any arbitrary order of the vertices you just run DFS on it and you keep track of the post number. I claim that every Edge is going to go from a high post number to a low Posner.  Okay. So, how do I prove this?  Well suppose that UV is an edge in a dag. We know that UV can't be a package. It's impossible because it's a dag. We've already established that.  So it can only be a forward Edge tree Edge or across Edge.  All of these edges have the property that the post number of the is less than the post number of you.  Okay, let's go back to this.  These awesome.  These orderings of post and pre numbers caso4 a tree or Ford Edge.  If UV is a tree or a Ford Edge, that means that you put you on first then you put V on then you took me off and you took you off right? And so that means that V post a v is less than post of you.  Let's look at a cross Edge you put V on first then you take me off then you put you on then you take you off. So post a v is less than post of you in that case to  Okay, the back Edge is the only case where post of you is less than post of be.  Any questions about that?  Yeah, the triage is in the forward. I just kind of follow the same.  The same ordering of their the only way that you can differentiate is by looking at the tree or looking at the previous pointers.  Okay good. So this actually gives us a nice way to linearize a dag.  Run DFS and then arrange them in decreasing order of their post numbers because we know that every Edge will go from a high post number to a low post number therefore if they're ordered that way all the edges will be going in One Direction.  Okay, so run DFS return the list of the vertices in decreasing order of their post numbers. That's a linearization.  Okay. So how long will it take to do this algorithm? Right. What we're doing is we're running DFS were assigning a value of post number to each vertex and then were ordering the vertices in a specific order.  Do we need to take time to sort it?  Okay good. So you can actually sort it as the algorithms going right you don't actually need to do another sorting outside. You just say every time you pop out a Vertex put it into this queue right and just keep on adding it.  Okay, so  as you  run DFS  Create a list.  in the order that  upop vertices  Okay good.  So that's good. We'll look at an example in a minute. So just to kind of a few more terms that we've seen before.  So since all dads can be linearize that means that the first vertex in the ordering does not have any incoming edges and the last one does not have any outgoing it. So the first one is a source and the last one is a sink. So here's another conclusion that we can say is that all dogs have at least one source, and at least one sink because you just look at the first and last for text in the linearization.  Okay, so this gives you a good way to find sources and sinks. So the the vertex with the highest post number is always a what?  source  and the vertex with the lowest post number is always a sink. Okay good.  Okay, let's look at this example.  Now I'm going to run DFS on this graph and I claim that you can do in any order after you're done if you write the vertices of a decreasing post number you have a linearization. Okay. So which Burrtec should I start with?  You want to start with d?  Okay, Saudi.  And then where do you want to go?  Well, I have to go to a Vertex that's connected now cuz I'm running DFS. Should I go to a or to eat? I'm just trying to prove that you could do it in any arbitrary order until work.  Hey, okay.  To okay now I have to go to be.  3  let's go to f  4  f is a  If it's a dead end, right, so pop it so 5 and now I'm going to Output it is going to be the last one in the list right? It's the first one to be popped. It's it's basically the vertex with the lowest post number.  Okay be now can go to see.  6 C is a dead-end so 7 so pop it.  Okay now be is a dead-end for 7/8.  Okay is a dead-end so 9.  An Audi will go to.  So 10.  I can't go to B or C. So I have to go to H.  11 stages of dead ends at 12 so I popped it. So put it here.  He is a dead end. So 13.  And D is a dead-end so 14th.  Remember we're running DFS here. So remember it like it starts exploring all the vertices if they're not visited. So at some point you're going to Loop through all the vertices and finally get to G.  And get a 15 and then a 16.  Case of this is a linearized order of the deck.  any questions  That's not necessarily going to be there's not always going to be the case.  Is it?  Yeah, maybe it will huh.  No, not necessarily right because what if I started at sea?  Then it would end there and then you have to start over. So yeah.  at first and then sleep  Oh, I was just trying to make a point that it doesn't matter the order that you do it. Yeah, I'd say like with our convention we would do it in alphabetical order and start at a  right. I just wanted to show that it doesn't matter the order that you do it if you start at 8 and went alphabetical order that might be a good exercise and you'll probably get a different ordering.  Any other questions?  It showed that it was a what?  What's a sink?  Oh, yeah, kind of.  It just depends on the order in that you gave your vertices.  Play the song all of it.  Like it we started app.  It's okay. If we have to start over again for what we wanted to do, right? All we're trying to do is fine linear ordering that works. And so you can start from any vertex and you can do any ordering you want if you want to find like the longest path.  Then I would I guess I would do this first find linear ordering and then you know that the longest path has to probably start from a source, right? And so that's a good way to maybe try it out.  Not necessarily. It depends on how the graph is connected.  Right if there's just one path from one source to another sink.  Then yeah, there's only one ordering, right?  Yeah, I just depends depends on the graph.  Indica versus JCC NFL  You have at least four, right because you could also change around.  TNA  oh because in fact G can come after a  Frank  you can have like  daj  Eh BCF, that's another ordering Frank song.  meters plug in my  Get any of the questions.  Okay, let's get let's move on to the next topic.  Okay. So the next topic is this?  The concept of strongly connected vertices two vertices are strongly connected if you can get from from one to the other and back.  With the pack. Okay. So which vertices are strongly connected to J?  k  l  and  is that it?  You should get there and be able to get back.  These are the only ones.  That makes sense.  Okay. So a whole graph is called strongly connected if every pair of vertices is strongly connected is this graph strongly connected?  I know right? How do you show that it's not strongly connected. You could say something like well, there's no path from for example from K to eat.  For example, I mean, there's many different examples.  Are vertices considered strongly connected to themselves? Yes.  It's right that.  vertices  are strongly  connected  to themselves  Right, cuz remember every vertex has a pack to itself of length of 0.  Okay. So what's a strongly connected component? Well strongly connected is a equivalence relation. And so that means it partitions the graph into equivalence classes. These equivalence classes are called strongly connected components. What are the strongly connected components of this graph? We've already found one.  Anybody find any others?  D&G  what else?  so she can go to be right and ask and I  Okay, good. All right, is that all of them?  How about just a a?  Just eat and just H. Are these strongly connected components? Yes, right.  Okay, so by doing this I can make on meta graph which is kind of like a graph of a graph where each strongly connected component is a meta node.  So look something like this.  Now can anybody tell me what this meta graph? Does it have any any type of quality that we talked about before?  a cyclic  right  Why is it a cyclic?  I got ya. So if there if there were a cycle right like let's say so there's a there's a Edge from this guy to this guy Under The Edge over here. What if there were an edge down there? What would happen?  They would all become a strongly connected component right a bigger one. So every single directed graph can be decomposed into a dag of it strongly connected components.  Every directed graph is a dag of a strongly connected components some strongly connected components are sinks summer sources, right so you can kind of think about the graph of the the dag of the scc's  Okay, good. So  There exists a linear time algorithm that will decompose a graph into its dag of SEC. That's what we're going to be doing for the rest of today and maybe we'll do a little bit on Friday to so let's try to figure out what the best way to go about doing this. Okay. So the first question  If you run Explorer.  on a vertex  Then it will only visit the vertices that you can reach from that for a text, right? So what's a good idea if I want a single out a single out an SCC?  What vertices will be visited when Explorer is performed on a Vertex you if you is in a sink sec.  Explorer Tavern, can I come out of that? That's okay good only elements within that.  SCC  If it's not a sink, then it'll it'll it'll be able to kind of Escape that SCC right because there's an outgoing itch so this is the idea is to start Explorer from a sink SCC. And then you get all the vertices that are within its own SEC. Then you throw away that SEC and you start over again and that way you can systematically find each SCC in a certain order.  Sound pretty good.  Okay. So this is the this is my idea of how to do it start Explorer on a cinesync sec remove that and repeat until the graph is empty.  Okay good.  so  There's one problem here.  question  That's the problem. How do you find a sink SCC?  Stop on for ideally we would like to find a vertex in this thing. Unfortunately, there's not a direct way to do this. There is a way to do it, but there's not a direct way to do it.  But fortunately for us there is a way to find source scc's okay.  So the vertex with the highest post number after you do DFS will always be found in a source SCC. Okay, prove it in a minute.  This was this was a lot like when we did the dag write the vertex with the highest post number was was a source and now in directed graph the vertex with the highest post number is now the other the other quality doesn't transfer nicely. It is not the case.  The vertex with the least post number in is not necessarily in a sink.  Let's do like a quick example to show why.  So in this in this example, I'm going to do it in alphabetical order. So I have a 1  I go to be.  2  I go to G.  3  I go to f  4  and then I pop off F so five.  six seven and now I go to  C8  benign  NT 10 11 12 13 14. Okay, so as you can see  this decomposes into these two scc's  but notice that F has the lowest post number.  But it's in a source. They self lowest post number doesn't really tell you any information but highest post number does so that's kind of the idea.  questions about that  Okay, good. So how we going to prove that the highest Post Number vertex is always going to be in a source.  Okay. So in order to do that, we're going to stay two more general property that if I have to strongly connected components C&C Prime.  And there's an edge from C to c-prime.  Then I claim that the highest post number of C will be bigger than the highest post number of C Prime, but I can show this then that means that if I have a source SCC, there is no incoming SCC. Therefore. It must have the highest.  Okay, so let's do let's kind of go quickly through this proof. We're going to split it up into two cases.  Case one is that when I run DFS I encounter see before I encounter see Prime.  so DFS comes in  and it encounters some node in C, right?  Once it's there it will start exploring all of C, but it will also explore all of c-prime, right?  Maybe it looks something like that. But notice what's happening was called his word text V.  Biggest put on the stack first, then it explores all this other stuff and you put it on the stack and throw it off of the stack. And then when you're done with all of it, then you take V off the stack.  so  post number of the is greater  his greatest  among all vertices  and see and see Prime.  So that means that the highest post number in sea is bigger than the highest bus number in seafront. Okay case 2 is supposed that DFS encounter c-prime first.  Okay, so DFS comes in and encounters c-prime first.  And maybe it does something like that who knows maybe even goes into another SCC over here, right? Who knows but the idea is that  vieguts on the stack you encounter a bunch of stuff, but eventually you take the offer the stack.  And then DFS later on we'll find c.  right  later  will find I don't know. What's call this you.  So V.  is pushed  and propped  before you is discovered.  And in this case again post number of you will be bigger than post number of P any questions.  Okay, so this is nice because this gives us a way to order the strongly connected components, right?  Queso, the strongly connected components can be linearized by arranging them in decreasing order of their highest post numbers.  Okay. So how we going to find a sink SCC? We know how to find a source. How do you find a sink any ideas?  Okay, good reverse the graph if you reverse the graph than all the sources becomes sinks and all the things become sources. That's why I wanted you guys to prove that reverse graph thing so that we can use it here without proof.  so  given a graph G. Let grb the reverse then the sources of G end up being the sinks of the sources of gr. Are the same so G.  Okay, so here's an idea of an algorithm.  reverse all the edges run DFS on the reverse graph  the highest post number that you get is going to be a source in gr. Which means it's a sink in G.  Once I have a sink in G, then I can then I can find it SCC.  Salt start with that vertex and explore G. It'll only Sports SCC and then start from the next highest post number that hasn't been discovered. It's for it's a sec and you'll see that it you get all of them.  Okay. So here's the idea construct gr. Run DFS and then run DFS in a very particular order. That's what I was saying before remember on.  Monday when we did DFS in just kind of like a arbitrary order.  The decomposed into these weird things maybe it was one connected component. Maybe it was three connected components, right? It was arbitrary. But now if we do it in this ordering it's going to be a very nice decomposition.  Okay, so we have a nice animation. So let's go through it.  So the first thing is you start with this graph, right? What is the first thing that I do to the graph in this algorithm?  reversed edges, right  Okay. So here's the graph with all the edges reversed. And how do you reverse edges just do that thing? I had you proven the homework. Okay, so that shouldn't be a problem.  run DFS on this graph  and in this stage, you can running an any arbitrary order. It doesn't matter. The only thing that matters is that I remember what are the post numbers?  So let's do it in alphabetical order.  start with a  A is a dead-end, right? So pop a okay good.  Now we got B.  He goes to f f goes to see.  C goes to D. He goes to G. She goes to buy the tardy visited. She goes to Jay Jay goes to K.  Okay goes to E.  He is a Dancer poppy, right?  He goes to M and goes to a l.  Hell is a dead end. So papel em is a dead-end k is a dead-end j is a dead end.  Now you're Poppin them all a signing these post numbers. These are what we want to remember that goes to i a h.  And then we got all these are dead ends now and we're done.  Okay, so it's just running DFS and any arbitrary order, but now we have an ordering of the edges of of the vertices that we want.  Okay. So the next thing to do is write down the ordering of the edges in Reverse post number reverse highest Post Number. Okay. So we have f i a h c d g j  kmle  because I have that here.  Okay. Now I I claim that if I run DFS on the original graph.  In this ordering it's going to decompose into the strongly connected components and I think we have enough time to watch this animation go.  Okay, and this now we can keep track of the CC number?  and  at this point it's not so important to keep track of the pre and post numbers. They kind of did their job already? Okay, so he goes to see see goes to f f f goes to be so that's done see goes to ai ai is a dead-end. So we're done.  So that's one of the species that we found so that's good. Ok. So here we kind of crossed these out as we get them. So BF and I and C. So H is the next one on the list. So that's the next one. You explore age is a dead end.  so we're done and the next one we explore is d  So do we have d?  and we have G  that's a dead end. So we're done.  And the next one we explore is Jay.  and then we have l  and we have m  and we have k  that's done.  So the next one we explore is he that's done.  And the next one we explore his pay and overtime. Those are all of the species that we found remember in the earlier in the class now.  What's nice about doing it? This way is now they're already ordered in a nice way right member the dag that we had it just kind of in reverse linearize order.  Right because a can go to.  We just do this.  And it goes to b&f so it goes here.  Eagles to H  Annie goes to K.  this goes to  TG she goes to see  Okay, so I guess we're out of time, but you guys have any questions.  We did it we got to it.  It looks good. ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01162019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01162019-1500.mp3"
+}

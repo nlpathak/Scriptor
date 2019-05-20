@@ -1,0 +1,299 @@
+{
+  "Blurbs": {
+    "2. So, you know that the recursion will keep on decreasing. Okay, then you set a x to be equal to this value for all x in x. That's the combined step. This is the whole thing. And the recruit the recurrence well now we know that x square the size of x squared is actually the size of x / 2. + so really you can think about the ": [
+      2597.8,
+      2624.1
+    ],
+    "Anybody have any questions about this? So that the combined steps, so if I can get those a of o and a r e then this will just take a constant amount of time. Right? Just put them together on time for each x value. Okay, so that's basically the algorithm basically the recursion there is one more cool trick that you might Overlook if if you're not careful. Okay, ": [
+      2309.2,
+      2348.1
+    ],
+    "D is one and so we still get bottom-heavy with a greater than 3 to the beat of the D. Until we get T of n is equal to Big O of n to the log base 3 of 5. Okay, and that's that's bigger of N2 the 1.43. So we have improved. And then like you said we can keep on going and keep on improving more and more ": [
+      939.2,
+      973.3
+    ],
+    "How about to add two polynomials in coefficient space? also Big O of n all you have to do is add the the coefficients and then you get the Okay, how about multiplying two polynomials in coefficient space? Right kind of like the grade school method that we've seen is N squared. Okay now sample space how long does it take to evaluate in sample space? Well, if it's one ": [
+      1647.6,
+      1682.3
+    ],
+    "I could I could just * this Matrix you guys can just skip over this if you want. This is basically just to kind of show you what the naive way is going to take Big O of N squared time. Okay, and back from samples to coefficients also big oven Square time. I just want to show you that the fast Fourier transform and it's worth it to do ": [
+      1969.9,
+      1997.8
+    ],
+    "Listen to a podcast. Is that better? Yes. Wow. That'll wake you up on. Okay, so let's get started. Anybody have any questions before we begin? I posted the solutions for the homework or was that for so I might be a good idea to take a look at those see how those proofs go. I also gave you some practice problems for the next Quiz. So I'll probably put ": [
+      1.9,
+      82.9
+    ],
+    "Okay, so polynomial we all know what that is. It's basically this this is sort of the best way to describe it. Right. It's just a summation over powers of X is a polynomial in one variable and each power of X has a different coefficient. Okay. So another way to write it is like this. Now what information am I really dealing with is just the coefficients so you ": [
+      1441.5,
+      1476.7
+    ],
+    "So basically the runtime recurrence for this thing is going to be well. Let's base it on and and the size of x. Well, I do to recursive calls, right? T of n / 2 x Plus Big O of n + x The combine part right? The non recursive part is just linear in in the number of coefficients plus the number of points you need to do. the ": [
+      2379.3,
+      2423.8
+    ],
+    "So why is a to the log base B of n? Why is that equal to end to the log base B of A. Does anybody know? log into a fraction Okay. I guess so. You mean just using log rules? so one thing to notice is Right if you want. Oh, I see what you're saying. So if you wanted to decompose log base B Of an is actually ": [
+      396.6,
+      472.7
+    ],
+    "We have a to the log base B of n right and we have one over B to the log base B of n raised to the D. So as you can see through a little bit of rearranging you get B to the log base B of n that's just n to the D. So these things cancel. And all you're left with is a log base B event. ": [
+      359.6,
+      396.6
+    ],
+    "Yeah, I guess you could base it on I mean when we did the graph algorithms we based on two parameters the number of edges in the number of vertices. This I don't think so. This is more just like a theoretical bound because there is kind of an open question is is there algorithm that exist that can do multiplication in linear time. Nobody knows. We can get close ": [
+      1340.1,
+      1378.3
+    ],
+    "Yes. Will that actually help the runtime? Okay, we get close to that. Let's see. Let's see how that works. Let's think about splitting into 3 and see if we get any better. Okay, we split into thirds and now instead of multiplying binomials. We're multiplying trinomials, right? So how many multiplications are needed to multiply these two things? 9 right you do that and you get 9 9 multiplications ": [
+      744.0,
+      796.3
+    ],
+    "all the possible combinations. So if you just do it naively then you just get this you get this back and you're not really saving anything. But if you use the trick and there is a way to do it for nek to reduce K squared multiplications down to 2 K - 1 multiplications. There's always a way to do it. It just gets increasingly more complicated like I said ": [
+      1116.3,
+      1144.5
+    ],
+    "all we're doing is we right and that's why I can't say that multiplying. integers can take n log in time because there is that position thing, but we're just going to kind of theoretically assume that we can have Unlimited Precision just to kind of get through the the the main point. Good point. Okay, so let's move on. So if I want to go from coefficient to samples ": [
+      1930.8,
+      1969.9
+    ],
+    "and so on because really what we want to do is look at these as polynomials in themselves. Rehearse on them to solve them and then put them back together. Okay. Does anybody have a way to do this to combine them? Okay. But then that first one would be a 3X to the 3 / 2. How about if you just * X and then plug in x squared? ": [
+      2237.1,
+      2305.5
+    ],
+    "as close to 1 as you want. So basically for any Epsilon greater than zero you can design a multiplication algorithm that runs in Big O of n to the one point plus Epsilon time. Pretty cool, huh? I mean most of them are pretty impractical because of that linear term is a little bit too heavy. got any questions Well, we're thinking about the division thing as the algorithm ": [
+      1253.6,
+      1294.7
+    ],
+    "basically this big O of n to the D is the non recursive part. It's basically the part of like how to combine all your recursive calls to get to your final solution. So it's sort of the part. Hear these lines that's kind of like how long it takes to do that. So this is going to be Big O of n to the D, right. And then each ": [
+      151.3,
+      178.5
+    ],
+    "because if you try to try to do it and I usually it's it's not as fast. Okay. So how we going to do this? We're going to split up the polynomial. Okay, we're given coefficients like this. and a set of points X and we want to compute Y is equal a of X for all x in x this is basically getting getting coordinates XY so how we ": [
+      1997.8,
+      2036.3
+    ],
+    "before but it's still a constant time x a linear time operation. and so we get this as our run time and if you plug that into the master theorem you get a is equal to 2 K - 1B is equal to K & D is equal to one so you still get this bottom-heavy thing. If you plug it in. you get this run time so Does anybody ": [
+      1144.5,
+      1186.1
+    ],
+    "but we can't get it exactly. But the next thing we're going to do. I'm going to give you sort of a brief overview of the fast Fourier transform, which is also a multiplicative. Multiplication algorithm it's more focused on multiplying polynomials instead of integers. But if you think about what is a integer in base 10 or base 2, it's just a polynomial where the the variable is replaced ": [
+      1378.3,
+      1418.8
+    ],
+    "by the base, right? So you can you can use that and it gets a little complicated to get the exact run time because then you have to figure out okay. Am I getting enough Precision on these numbers and all that kind of stuff? I'm not going to go into that. Just trying to give you more of an overview because it's a beautiful divide and conquer algorithm also. ": [
+      1418.8,
+      1440.5
+    ],
+    "can just give you And -1 coordinates and you can draw polynomial through them questions about that. What do you mean by? Yeah, certainly the X be different and the Y coordinates have to be different. But I guess if you do get just a straight line then all of the coefficients will be zero up to that point. Okay, so these two representations have different benefits. They're easier to ": [
+      1544.4,
+      1602.5
+    ],
+    "can just think about the polynomial as a vector or a in order to bowl or something like that that holds enough information to describe the entire polynomial. okay, so there's another representation that I like to talk about that I'll call the sample representation and it's basically basically works like this. How many points do you need to know in order to draw a line? To how many points ": [
+      1476.7,
+      1508.6
+    ],
+    "could it? You could use l'hopital's Rule and get limit as K goes to Infinity of 2/2 K - 1 / 1 / K which is limit as K goes to Infinity of. 2 k / 2 K - 1 was just wanted. Okay, but this is a limit right? It doesn't mean that you can actually get down to one. It just means that you can get to one ": [
+      1223.9,
+      1253.6
+    ],
+    "deal with a matrix. You have a square right and buy in square. It's you're going to have to do at least and squared. Okay. So here's the here's the thing. The fast Fourier transform what it does is it takes coefficients to samples and back it's this transform where you can go back and forth and the power of it is because the reason that it's fat we call ": [
+      1803.4,
+      1830.9
+    ],
+    "decrease it by? Would anybody have any gas gases? You can go from 4 down to three nine can go down to. 5 Wi-Fi seems like a good number. 12 V is right, and it actually has to do with the amount of terms you have right? There are five terms. Right and the way that you do it it's kind of complicated and the best way to describe it ": [
+      871.3,
+      910.1
+    ],
+    "did not use the keiretsu by the kind of the naive way of using all four multiplications, then we plug in the values we get a is for B is 2 and D has one right in this recursion. And so you look at a is greater than b to the D. So you get the bottom heavy, which is what we thought. And so you just plug it into ": [
+      661.3,
+      685.4
+    ],
+    "do certain things. So let's take a look. So here are the three things that I would want to do with a with polynomials, okay? Sometimes I would want to evaluate a point. Okay, how long will it take to evaluate a point with the coefficient space? Oh then right basically you just plug it in and you have to add up a bunch of stuff. Yak to go then ": [
+      1602.5,
+      1646.3
+    ],
+    "do you need to know in order to draw a parabola? Three three points will describe a unique Parabola Four Points will describe a unique cubic five points for a cortech six points and so on. So basically if I give you What is it and points? Then you can tell me a unique and -1 degree polynomial. Okay, so instead of giving you the coefficients and -1 coefficients I ": [
+      1508.6,
+      1544.4
+    ],
+    "equal to 3 now. It's still bottom-heavy. But now we get into the log base 2 of 3 and to the 1.58. We got a lot better now. can we do better than N2 the 1.58 or is this in the is this the best that you can do to multiply two integers? Can you just keep? So I can come in instead of splitting into two split into more. ": [
+      713.0,
+      744.0
+    ],
+    "equal to log base a of n / log base a of B, right? Okay, so then this thing becomes. Hey to the log base a of n / log base a b that becomes into the log base a of. sorry to the 1 / log base a of B and that's equal to end to the log base B of A. Never thought those log rules would come ": [
+      472.7,
+      524.6
+    ],
+    "get into the D X log base B event because that's how many times you're adding this up. And then if you have a is greater than b then you have a base that's bigger than one and so the a geometric series with a base bigger than one behaves like an exponential function. And it behaves exponential in terms of whatever the the last. indexes of the sun when ": [
+      279.3,
+      313.6
+    ],
+    "going to split it up? So what we could do one way to do it is to use the karatsuba multiplication and split it up into the left and right. We already know how fast that's going to be this going to be one into the 1.58. And that's perfectly fine. But the fast Fourier transform what it does is it splits it up into evens and odds? kind of ": [
+      2036.3,
+      2063.6
+    ],
+    "had to add like a few subtractions and like one edition. Right? So we had to add like four more kind of addition steps. So I would say this is like around and then we had to add the two things together. So maybe it's like on the order of like maybe 10in or something 10 10 editions when you divide by Three then now it's on the order of ": [
+      1010.2,
+      1044.8
+    ],
+    "have to do. This combined step a to the k x right basically where it all comes from then we some this so this is just rearranging and we sum it up and we get the total runtime from k equals 0 up to log B, then cuz that's how many levels there are. And so then you just look at the three different cases. It's all dependent on this ": [
+      218.0,
+      250.9
+    ],
+    "in handy again. But again now we're done. We've already proved it so we don't have to do this anymore. Okay, so Now we have our Master theorem and let's think about these these three different scenarios as different states. So we saw that we saw on what was that Friday the karatsuba multiplication and the grade school multiplication was bottom-heavy meaning that every level you go down you increase ": [
+      524.6,
+      559.2
+    ],
+    "input as a size of an plus size of X and this this will have every time and you can plug it into the the master theorem and get this this is equal to What is it Big O of? + + x log And plus tax. And really what we want how many how many things do we want in that set? We really want to and element so ": [
+      2624.1,
+      2664.4
+    ],
+    "is using a bunch of Matrix algebra, and I'm not going to go into it. But if you're interested we can kind of work it out. So There's a way to reduce from 9 multiplications down to just five now. The recursion becomes T of n is 5 * 2 of 8/3 + bigo event to buy the master theorem. Now we have a is 5 b is 3 and ": [
+      910.1,
+      939.2
+    ],
+    "it fast is because it takes big O of n log in time. So if I want to multiply two polynomials in coefficient space I can transform them into sample space right multiply then and then transform them back. Answer this is kind of the idea. Let's call it a multiplication idea. SO2 coefficient polynomials Thank you transform. in two sample That takes big O of M login. Right, then ": [
+      1830.9,
+      1888.7
+    ],
+    "it is packaged through the circle there is no there's no way to know that that's a parabola. or any other function the only every polynomial will have a value at every point on for every point along that Circle. so Are like that? are imaginary so what kind of go into some complex analysis kind of stuff? Oh, well, I guess I sorta just did it backwards. I guess ": [
+      2737.4,
+      2785.6
+    ],
+    "know what this limit is? Let me guess. I'll give you guys like a few minutes to see if you can figure out what is this limit go to? You guys could probably guess right. All right. We saw when K was equal to 2. It was 1.58 right when K was equal to 3 it was 1.43. It keeps I'm kind of going down. Anybody have a guess? What ": [
+      1186.1,
+      1223.9
+    ],
+    "like 80 editions. Okay, and so the the number of additions that you additional additions that you have to do. I think it grows exponentially. So it's it's kind of like this balance of Depending on how big your input is, is it really worth it to divide it up into more things because the constant time operation takes a long time. But that being said theoretically we are improving ": [
+      1044.8,
+      1081.0
+    ],
+    "like on unzips it okay, so You start off with this guy here. I'm so ASAP. Rocky is going to be the even coordinate. So it's still this vector. Right, and that's going to be a polynomial. inex Right, so just notice here that we have a 2 * x a 4 * x squared and so on right and similarly the odd correlations are going to give you a ": [
+      2063.6,
+      2104.7
+    ],
+    "logs are grow a constant multiple from each other. Okay, then the steady-state one. We're going to see that one when we when we look at mergesort. Basically you're going to do the the same number of operations in each level. And so you're basically adding up all of those a log and amount of time because that's how many levels you have. And then you have the top-heavy one ": [
+      603.4,
+      632.8
+    ],
+    "means 9 recursive calls. Each multiplication is one-third the size of the original right and so you get this recurrence. It's still going to take linear time to put them together. So you have a is equal to 9 B is equal to 3 G is equal to one so you still have a bottom-heavy with a is greater than b to the D. And so are we get T ": [
+      796.3,
+      828.1
+    ],
+    "of n is equal to Big O of n to the log base 3 of 9 which is what? pic of N squared That's just kind of what I have here. Okay, so that didn't help but there is a way just like in the karatsuba was able to decrease for multiplications down to three. You're you're able to decrease these 9 multiplications. Does anybody know how many you can ": [
+      828.1,
+      871.3
+    ],
+    "of the samples and it takes constant time, but in general you, have to convert it into the coefficient space in order to evaluate something right and so You can do it with matrices in basically Big O of N squared time. But the point here is that it's not efficient, right? It's not fast. Adding is fine. You just add all of the you add all of the sample ": [
+      1682.3,
+      1715.6
+    ],
+    "one of these is going to be Big O of an over 2 to the Dee Wright. And so on. So at every step you have to do that a times a squared times x to the fourth times and saw a cube X and so on and we talked about this already. I'm just going to skip over this part. Okay, so that means that at level K. You ": [
+      178.5,
+      218.0
+    ],
+    "points, right? This is assuming that the two polynomials are sampled at the same points, then you can just add those points together. Now, how about multiplying? Let's suppose that we had as many points as we wanted right then you can just multiply all those samples together and that would take in time also. Got any questions about that? Okay. So one of them is good at 1 and ": [
+      1715.6,
+      1751.2
+    ],
+    "problem here is that this thing here is not going to reduce. It's not going to be / to actually I should put it like this the size of x squared right because of ex has let's say k-elements than x squared is also have to have k-elements right because you're basically squaring all the things. So X. Let's just do like a little example. Let's say x is equal ": [
+      2423.8,
+      2458.8
+    ],
+    "so Basically, here's the thing if I can compute a e and a o of alpha for all Alpha in x squared right where x squared is going to be the set of all x squared such that X has an X. Then you can combine them together, right? Because I need to know the x squared values in order to put them together to get the X values. Okay. ": [
+      2348.1,
+      2379.3
+    ],
+    "that recursion to go down. This is called a collapsing set. so Ex has one and every time x has one element or everytime you square X the number of elements decreases by a factor of 2. Okay. There's real one great example of the set and it's the I think we already did it, right? Okay, what's the relationship between -1 and 1 + 1 is that these are ": [
+      2505.2,
+      2542.0
+    ],
+    "the asymptotic runtime. So let's let's push it to as far as we can go. if we divided into case of problems each of size and over k How many multiplications are there now? We have to multiply each one of them right so there should be K squared. Right cuz you have to do a k - 1 b k - 1 AK mine, right you have to do ": [
+      1081.0,
+      1116.3
+    ],
+    "the master theorem. It should be Big O of n to the log base B of A. Now back to your comment. This be is actually really important to leave in there. Okay, so you get into the log base 2 of 4 which is bigger than squared. Not any Improvement to the grade school method but then if we change it to the karatsuba, then we get a is ": [
+      685.4,
+      713.0
+    ],
+    "the more you divided up. There's one kind of. Thing that we need to keep in mind is that this could bind step sure it's Big O of an which means it's a constant times and but that constant is going to get bigger and bigger and bigger the more you divide. So just to give you an idea. the width if you divide by to write. And remember we ": [
+      973.3,
+      1010.2
+    ],
+    "the number of operations you have to do and so most of the work is going to be done in the bottom level. And so it'll be bottom-heavy? Oh good point. So. Log base B of n is Big O of log base. a of n for neamb bigger than one I think. Yeah, so usually we just say login and it sort of just means all logs. Because all ": [
+      559.2,
+      603.4
+    ],
+    "the square roots of this right? Should we keep on taking square roots over and over again? You get the you get i- I won and negative one you going to the complex numbers and really what we want to do is have xB. all of the roots of unity I all the complex numbers, but all the nth roots of 1. And that way the set will collapse down ": [
+      2542.0,
+      2571.4
+    ],
+    "they just first set X to be 2 in and then And then do it like that. I guess that's very confusing. Okay any other questions? Okay. Well, thanks for sticking with me through that. I knows sort of vague. I didn't go through all the details but I do think that it's an important divide and conquer algorithm that you should at least know kind of sort of what ": [
+      2785.6,
+      2822.6
+    ],
+    "those Solutions up tomorrow just try them out first so that you can kind of see where you are before looking at the solutions. any questions All right. All right. Last time we kind of went fast through the master theorem. So I just wanted to kind of finish it up and then we'll look at some more examples. All right, so this is the master theorem. You guys can ": [
+      82.9,
+      114.4
+    ],
+    "to 1 2 3. Then x squared is got to be equal to what 149 right and they have the same number of elements. Is there any way that you can have? x squared have fewer elements than x Okay good. So if x is equal to -1 + 1 then x squared now is equal to just one. Thanks for this is the this is the key to get ": [
+      2458.8,
+      2505.2
+    ],
+    "to be at the end. So you split it up into the even coefficients in the are coefficients, but those things are going to be these vectors, right? So they're going to describe polynomials in themselves. And the way that they described it is is like this. Right where the first coefficient is. The constant term II coefficient is going to be the linear term the third with the quadratic ": [
+      2201.1,
+      2237.1
+    ],
+    "to one. Okay, so you get the coefficients and then you get all the roots of unity and what you want to do. If you want to compute the value of the polynomial at all of those roots of unity the way you do it split it up like this compute a e and Ayo for all Alpha and x squared and you know that this set has decreased by ": [
+      2571.4,
+      2597.8
+    ],
+    "use this as much as you want. without proof cuz we're going to prove it in class, but you can This would work. This is a great thing because most divide-and-conquer algorithms for going to have this recursion. So you can just plug in all the numbers and get get whatever you want out. So where does it come from? What kind of talked about this the other day, but ": [
+      114.4,
+      151.3
+    ],
+    "value here because we saw that A geometric series. It behaves differently depending on if its base is bigger than or equal to or less than 1. So it's less than one then you get this whole some as a constant and you just get big old into the D. So that's good. If it's equal than each one of these is equal to one and you get You just ": [
+      250.9,
+      279.3
+    ],
+    "wanted to go to the other question. Flying or Matrix operations also in urine and gets covered up. evaluation in Malibu Yeah. Is M squared? Yeah. Yeah. I mean there's another there's other ways to do it, but you really you can't really get much better than 10 squared if you just trying to do it directly from the samples. I'm not sure about the Matrix. Right, but anytime you ": [
+      1751.2,
+      1803.4
+    ],
+    "we can multiply two things together. so set ask to be equal to 2 N and this becomes Big O of n login. any questions Yeah, only live within a circle restaurant. Wouldn't there be some functions that can't like what is important in that Circle View? Not necessarily be able to represent. Everything is your only quit inflection points exactly Circle at one point There's only one point where ": [
+      2664.4,
+      2737.4
+    ],
+    "we designed. So we're going to fix it. We're going to fix K and then let and go off to infinity and see how that how that works. I mean of course and it's got to be bigger than K right for it to work. I mean you could maybe you could like make one up. It would make sense to me. all like a big old depending on to ": [
+      1294.7,
+      1333.5
+    ],
+    "what's going on and we're going to some more familiar stuff on Wednesday. UC San Diego podcast ": [
+      2822.6,
+      2835.2
+    ],
+    "will see that to that just means that as the tree goes down. You're doing fewer and fewer calculations. So really the bulk of the calculations happens in the top level and that's why You have this is equal to just the the time it takes to come by just give you a sense of the three different cases. So let's let's up plug these things in so when we ": [
+      632.8,
+      661.3
+    ],
+    "you get this And I told you guys that you would maybe do this as exercise, but maybe let's do it now. Okay. Okay, so why is N2 the D? A over B to the D log base B of NY is that equal to this thing? Okay, so let's do some rearranging. How does it go again Okay. So let's let's write it out. We have into the D. ": [
+      313.6,
+      359.6
+    ],
+    "you multiply. Which takes big ol then then you transform back. And that takes big oven again. To all in all it takes big oven login time to do this multiplication. Okay. Now let's see how it works. Because I swear doing this transformation back and forth really if you want to cuz I see that you're not think we need unlimited lines, but it won't come out. So really ": [
+      1888.7,
+      1930.8
+    ],
+    "zero or eggs which are the odd coefficient of the polynomial and also noticed that the the subscripts don't match the exponent anymore. Okay. So what I want you guys to do is to get into groups and figure out how would you if I knew these this information here. How would I use that to combine to get a of x k ready go? Well, that's what you wanted ": [
+      2104.7,
+      2201.1
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "02112019",
+  "Full Transcript": "Listen to a podcast.  Is that better? Yes. Wow.  That'll wake you up on.  Okay, so let's get started. Anybody have any questions before we begin?  I posted the solutions for the homework or was that for so I might be a good idea to take a look at those see how those proofs go. I also gave you some practice problems for the next Quiz. So I'll probably put those Solutions up tomorrow just try them out first so that you can kind of see where you are before looking at the solutions.  any questions  All right.  All right. Last time we kind of went fast through the master theorem. So I just wanted to kind of finish it up and then we'll look at some more examples. All right, so this is the master theorem. You guys can use this as much as you want.  without proof cuz we're going to prove it in class, but you can  This would work.  This is a great thing because most divide-and-conquer algorithms for going to have this recursion. So you can just plug in all the numbers and get get whatever you want out. So where does it come from? What kind of talked about this the other day, but basically this big O of n to the D is the non recursive part. It's basically the part of like how to combine all your recursive calls to get to your final solution. So it's sort of the part.  Hear these lines that's kind of like how long it takes to do that. So this is going to be Big O of n to the D, right.  And then each one of these is going to be Big O of an over 2 to the Dee Wright.  And so on.  So at every step you have to do that a times a squared times x to the fourth times and saw a cube X and so on and we talked about this already. I'm just going to skip over this part.  Okay, so that means that at level K.  You have to do.  This combined step a to the k x right basically where it all comes from then we some this so this is just rearranging and we sum it up and we get the total runtime from k equals 0 up to log B, then cuz that's how many levels there are.  And so then you just look at the three different cases. It's all dependent on this value here because we saw that  A geometric series. It behaves differently depending on if its base is bigger than or equal to or less than 1.  So it's less than one then you get this whole some as a constant and you just get big old into the D. So that's good.  If it's equal than each one of these is equal to one and you get  You just get into the D X log base B event because that's how many times you're adding this up.  And then if you have a is greater than b then you have a base that's bigger than one and so the a geometric series with a base bigger than one behaves like an exponential function.  And it behaves exponential in terms of whatever the the last.  indexes of the sun when you get this  And I told you guys that you would maybe do this as exercise, but maybe let's do it now. Okay.  Okay, so why is N2 the D?  A over B to the D log base B of NY is that equal to this thing?  Okay, so  let's do some rearranging.  How does it go again  Okay. So let's let's write it out. We have into the D. We have a to the log base B of n  right and we have one over B to the log base B of n raised to the D.  So as you can see through a little bit of rearranging you get B to the log base B of n that's just n to the D. So these things cancel.  And all you're left with is a log base B event. So why is a to the log base B of n?  Why is that equal to end to the log base B of A. Does anybody know?  log into a fraction  Okay.  I guess so.  You mean just using log rules?  so one thing to notice is  Right if you want. Oh, I see what you're saying. So if you wanted to decompose  log base B  Of an is actually equal to log base a of n / log base a of B, right?  Okay, so then this thing becomes.  Hey to the log base a of n / log base a b that becomes into the log base a of.  sorry to the  1 / log base a of B and that's equal to end to the log base B of A.  Never thought those log rules would come in handy again. But again now we're done. We've already proved it so we don't have to do this anymore.  Okay, so  Now we have our Master theorem and let's think about these these three different scenarios as different states. So we saw that we saw on what was that Friday the karatsuba multiplication and the grade school multiplication was bottom-heavy meaning that every level you go down you increase the number of operations you have to do and so most of the work is going to be done in the bottom level.  And so it'll be bottom-heavy?  Oh good point. So.  Log base B of n is Big O of log base.  a of n for neamb bigger than  one I think.  Yeah, so usually we just say login and it sort of just means all logs.  Because all logs are grow a constant multiple from each other.  Okay, then the steady-state one. We're going to see that one when we when we look at mergesort. Basically you're going to do the the same number of operations in each level. And so you're basically adding up all of those a log and amount of time because that's how many levels you have. And then you have the top-heavy one will see that to that just means that as the tree goes down. You're doing fewer and fewer calculations. So really the bulk of the calculations happens in the top level and that's why  You have this is equal to just the the time it takes to come by just give you a sense of the three different cases.  So  let's let's up plug these things in so when we did not use the keiretsu by the kind of the naive way of using all four multiplications, then we plug in the values we get a is for B is 2 and D has one right in this recursion. And so you look at a is greater than b to the D. So you get the bottom heavy, which is what we thought.  And so you just plug it into the master theorem. It should be Big O of n to the log base B of A.  Now back to your comment. This be is actually really important to leave in there.  Okay, so you get into the log base 2 of 4 which is bigger than squared.  Not any Improvement to the grade school method but then if we change it to the karatsuba, then we get a is equal to 3 now. It's still bottom-heavy. But now we get into the log base 2 of 3 and to the 1.58. We got a lot better now.  can we do better than N2 the 1.58 or is this in the  is this the best that you can do to multiply two integers?  Can you just keep?  So I can come in instead of splitting into two split into more. Yes. Will that actually help the runtime?  Okay, we get close to that. Let's see. Let's see how that works. Let's think about splitting into 3 and see if we get any better. Okay, we split into thirds and now instead of multiplying binomials. We're multiplying trinomials, right? So how many multiplications are needed to multiply these two things?  9 right  you do that and you get 9 9 multiplications means 9 recursive calls. Each multiplication is one-third the size of the original right and so you get this recurrence.  It's still going to take linear time to put them together.  So you have a is equal to 9 B is equal to 3 G is equal to one so you still have a bottom-heavy with a is greater than b to the D. And so are we get T of n is equal to Big O of n to the log base 3 of 9 which is what?  pic of N squared  That's just kind of what I have here.  Okay, so that didn't help but there is a way just like in the karatsuba was able to decrease for multiplications down to three.  You're you're able to decrease these 9 multiplications. Does anybody know how many you can decrease it by?  Would anybody have any gas gases?  You can go from 4 down to three nine can go down to.  5 Wi-Fi  seems like a good number.  12 V is right, and it actually has to do with the amount of terms you have right? There are five terms.  Right and the way that you do it it's kind of complicated and the best way to describe it is using a bunch of Matrix algebra, and I'm not going to go into it. But if you're interested we can kind of work it out. So  There's a way to reduce from 9 multiplications down to just five now. The recursion becomes T of n is 5 * 2 of 8/3 + bigo event to buy the master theorem. Now we have a is 5 b is 3 and D is one and so we still get bottom-heavy with a greater than 3 to the beat of the D.  Until we get T of n is equal to Big O of n to the log base 3 of 5.  Okay, and that's that's bigger of N2 the 1.43. So we have improved.  And then like you said we can keep on going and keep on improving more and more the more you divided up. There's one kind of.  Thing that we need to keep in mind is that this could bind step sure it's Big O of an which means it's a constant times and but that constant is going to get bigger and bigger and bigger the more you divide. So just to give you an idea.  the width  if you divide by to write.  And remember we had to add like a few subtractions and like one edition. Right? So we had to add like four more kind of addition steps. So I would say this is like around  and then we had to add the two things together. So maybe it's like on the order of like maybe  10in or something 10 10 editions when you divide by  Three then now it's on the order of like 80 editions. Okay, and so the the number of additions that you additional additions that you have to do. I think it grows exponentially. So it's it's kind of like this balance of  Depending on how big your input is, is it really worth it to divide it up into more things because the constant time operation takes a long time.  But that being said theoretically we are improving the asymptotic runtime. So let's let's push it to as far as we can go.  if we divided into case of problems each of size and over k  How many multiplications are there now?  We have to multiply each one of them right so there should be K squared.  Right cuz you have to do a k - 1 b k - 1 AK mine, right you have to do all the possible combinations. So if you just do it naively then you just get this you get this back and you're not really saving anything. But if you use the trick and there is a way to do it for nek to reduce K squared multiplications down to 2 K - 1 multiplications. There's always a way to do it. It just gets increasingly more complicated like I said before but it's still a constant time x a linear time operation.  and so we get this as our  run time and if you plug that into the master theorem you get a is equal to 2 K - 1B is equal to K & D is equal to one so you still get this bottom-heavy thing.  If you plug it in.  you get  this run time  so  Does anybody know what this limit is? Let me guess. I'll give you guys like a few minutes to see if you can figure out what is this limit go to?  You guys could probably guess right.  All right. We saw when K was equal to 2. It was 1.58 right when K was equal to 3 it was 1.43. It keeps I'm kind of going down.  Anybody have a guess?  What could it?  You could use l'hopital's Rule and get limit as K goes to Infinity of 2/2 K - 1 / 1 / K which is limit as K goes to Infinity of.  2 k / 2 K - 1 was just wanted.  Okay, but this is a limit right? It doesn't mean that you can actually get down to one. It just means that you can get to one as close to 1 as you want. So basically for any Epsilon greater than zero you can design a multiplication algorithm that runs in Big O of n to the one point plus Epsilon time.  Pretty cool, huh?  I mean most of them are pretty impractical because of that linear term is a little bit too heavy.  got any questions  Well, we're thinking about the division thing as the algorithm we designed. So we're going to fix it. We're going to fix K and then let and go off to infinity and see how that how that works.  I mean of course and it's got to be bigger than K right for it to work.  I mean you could maybe you could like make one up.  It would make sense to me.  all like a big old depending on to  Yeah, I guess you could base it on I mean when we did the graph algorithms we based on two parameters the number of edges in the number of vertices.  This I don't think so. This is more just like a theoretical bound because there is kind of an open question is is there algorithm that exist that can do multiplication in linear time. Nobody knows.  We can get close but we can't get it exactly.  But the next thing we're going to do.  I'm going to give you sort of a brief overview of the fast Fourier transform, which is also a multiplicative.  Multiplication algorithm it's more focused on multiplying polynomials instead of integers. But if you think about what is a integer in base 10 or base 2, it's just a polynomial where the the variable is replaced by the base, right? So you can you can use that and it gets a little complicated to get the exact run time because then you have to figure out okay. Am I getting enough Precision on these numbers and all that kind of stuff? I'm not going to go into that. Just trying to give you more of an overview because it's a beautiful divide and conquer algorithm also.  Okay, so  polynomial we all know what that is. It's basically this this is sort of the best way to describe it. Right. It's just a summation over powers of X is a polynomial in one variable and each power of X has a different coefficient.  Okay. So another way to write it is like this.  Now what information am I really dealing with is just the coefficients so you can just think about the polynomial as a vector or a in order to bowl or something like that that holds enough information to describe the entire polynomial.  okay, so there's another representation that I like to talk about that I'll call the sample representation and it's basically  basically works like this.  How many points do you need to know in order to draw a line?  To how many points do you need to know in order to draw a parabola?  Three three points will describe a unique Parabola Four Points will describe a unique cubic five points for a cortech six points and so on. So basically if I give you  What is it and points?  Then you can tell me a unique and -1 degree polynomial. Okay, so instead of giving you the coefficients and -1 coefficients I can just give you  And -1 coordinates and you can draw polynomial through them questions about that.  What do you mean by? Yeah, certainly the X be different and the Y coordinates have to be different.  But I guess if you do get just a straight line then all of the coefficients will be zero up to that point.  Okay, so these two representations have different benefits. They're easier to do certain things. So let's take a look.  So here are the three things that I would want to do with a with polynomials, okay?  Sometimes I would want to evaluate a point. Okay, how long will it take to evaluate a point with the coefficient space?  Oh then right basically you just plug it in and you have to add up a bunch of stuff.  Yak to go then  How about to add two polynomials in coefficient space?  also Big O of n all you have to do is add the the coefficients and then you get the  Okay, how about multiplying two polynomials in coefficient space?  Right kind of like the grade school method that we've seen is N squared.  Okay now sample space how long does it take to evaluate in sample space? Well, if it's one of the samples and it takes constant time, but in general you, have to convert it into the coefficient space in order to evaluate something right and so  You can do it with matrices in basically Big O of N squared time.  But the point here is that it's not efficient, right? It's not fast.  Adding is fine. You just add all of the you add all of the sample points, right? This is assuming that the two polynomials are sampled at the same points, then you can just add those points together.  Now, how about multiplying?  Let's suppose that we had as many points as we wanted right then you can just multiply all those samples together and that would take in time also.  Got any questions about that?  Okay. So one of them is good at 1 and wanted to go to the other question.  Flying or Matrix operations also in urine and gets covered up.  evaluation in Malibu  Yeah.  Is M squared? Yeah. Yeah. I mean there's another there's other ways to do it, but you really  you can't really get much better than 10 squared if you just trying to do it directly from the samples.  I'm not sure about the Matrix.  Right, but anytime you deal with a matrix. You have a square right and buy in square. It's you're going to have to do at least and squared.  Okay. So here's the here's the thing.  The fast Fourier transform what it does is it takes coefficients to samples and back it's this transform where you can go back and forth and the power of it is because the reason that it's fat we call it fast is because it takes big O of n log in time.  So if I want to multiply two polynomials in coefficient space I can transform them into sample space right multiply then and then transform them back.  Answer this is kind of the idea.  Let's call it a multiplication idea.  SO2 coefficient  polynomials  Thank you transform.  in two sample  That takes big O of M login.  Right, then you multiply.  Which takes big ol then then you transform back.  And that takes big oven again.  To all in all it takes big oven login time to do this multiplication.  Okay. Now let's see how it works.  Because I swear doing this transformation back and forth really if you want to cuz I see that you're not think we need unlimited lines, but it won't come out.  So really all we're doing is we  right  and  that's why I can't say that multiplying.  integers can take n log in time because there is that position thing, but we're just going to kind of theoretically assume that we can have  Unlimited Precision just to kind of get through the the the main point.  Good point. Okay, so let's move on. So if I want to go from coefficient to samples I could I could just * this Matrix you guys can just skip over this if you want. This is basically just to kind of  show you what the naive way is going to take Big O of N squared time.  Okay, and back from samples to coefficients also big oven Square time. I just want to show you that the fast Fourier transform and it's worth it to do because if you try to try to do it and I usually it's it's not as fast.  Okay. So how we going to do this? We're going to split up the polynomial. Okay, we're given coefficients like this.  and a set of points X and we want to compute Y is equal a of X for all x in x this is basically getting  getting coordinates  XY  so how we going to split it up?  So what we could do one way to do it is to use the karatsuba multiplication and split it up into the left and right. We already know how fast that's going to be this going to be one into the 1.58.  And that's perfectly fine. But the fast Fourier transform what it does is it splits it up into evens and odds?  kind of like on unzips it  okay, so  You start off with this guy here.  I'm so ASAP. Rocky is going to be the even coordinate. So it's still this vector.  Right, and that's going to be a polynomial.  inex  Right, so just notice here that we have a 2 * x a 4 * x squared and so on right and similarly the odd correlations are going to give you a zero or eggs which are the odd coefficient of the polynomial and also noticed that the the subscripts don't match the exponent anymore.  Okay. So what I want you guys to do is to get into groups and figure out how would you if I knew these this information here. How would I use that to combine to get a of x k ready go?  Well, that's what you wanted to be at the end.  So you split it up into the even coefficients in the are coefficients, but those things are going to be these vectors, right? So they're going to describe polynomials in themselves. And the way that they described it is is like this.  Right where the first coefficient is. The constant term II coefficient is going to be the linear term the third with the quadratic and so on because really what we want to do is look at these as polynomials in themselves.  Rehearse on them to solve them and then put them back together.  Okay. Does anybody have a way to do this to combine them?  Okay.  But then that first one would be a 3X to the 3 / 2.  How about if you just * X and then plug in x squared?  Anybody have any questions about this?  So that the combined steps, so if I can get those a of o and a r e then this will just take a constant amount of time. Right? Just put them together on time for each x value.  Okay, so that's basically the algorithm basically the recursion there is one more cool trick that you might Overlook if if you're not careful.  Okay, so  Basically, here's the thing if I can compute a e and a o of alpha for all Alpha in x squared right where x squared is going to be the set of all x squared such that X has an X. Then you can combine them together, right? Because I need to know the x squared values in order to put them together to get the X values.  Okay. So basically the runtime recurrence for this thing is going to be well.  Let's base it on and and the size of x.  Well, I do to recursive calls, right?  T of n / 2  x  Plus Big O of n + x  The combine part right? The non recursive part is just linear in in the number of coefficients plus the number of points you need to do.  the problem here  is that  this thing here is not going to reduce. It's not going to be / to actually I should put it like this the size of x squared right because of ex has let's say k-elements than x squared is also have to have k-elements right because you're basically squaring all the things.  So X.  Let's just do like a little example. Let's say x is equal to 1 2 3.  Then x squared is got to be equal to what 149 right and they have the same number of elements.  Is there any way that you can have?  x squared have fewer elements than x  Okay good. So if x is equal to -1 + 1 then x squared now is equal to just one.  Thanks for this is the this is the key to get that recursion to go down.  This is called a collapsing set.  so  Ex has one and every time x has one element or everytime you square X the number of elements decreases by a factor of 2. Okay. There's real one great example of the set and it's the  I think we already did it, right? Okay, what's the relationship between -1 and 1 + 1 is that these are the square roots of this right? Should we keep on taking square roots over and over again? You get the you get i- I won and negative one you going to the complex numbers and really what we want to do is have xB.  all of the roots of unity  I all the complex numbers, but all the nth roots of 1.  And that way the set will collapse down to one.  Okay, so you get the coefficients and then you get all the roots of unity and what you want to do. If you want to compute the value of the polynomial at all of those roots of unity the way you do it split it up like this compute a e and Ayo for all Alpha and x squared and you know that this set has decreased by 2. So, you know that the recursion will keep on decreasing. Okay, then you set a x to be equal to this value for all x in x. That's the combined step. This is the whole thing.  And the recruit the recurrence well now we know that x square the size of x squared is actually the size of x / 2. + so really you can think about the input as a size of an plus size of X and this this will have every time and you can plug it into the  the master theorem and get this this is equal to  What is it Big O of?  + + x  log  And plus tax.  And really what we want how many how many things do we want in that set? We really want to and element so we can multiply two things together.  so set  ask to be equal to 2 N and this becomes Big O of n login.  any questions  Yeah, only live within a circle restaurant.  Wouldn't there be some functions that can't like what is important in that Circle View?  Not necessarily be able to represent. Everything is your only  quit inflection points  exactly  Circle at one point  There's only one point where it is packaged through the circle there is no there's no way to know that that's a parabola.  or any other function the only  every polynomial will have a value at every point on for every point along that Circle.  so  Are like that?  are imaginary  so what kind of go into some complex analysis kind of stuff?  Oh, well, I guess I sorta just did it backwards. I guess they just first set X to be 2 in and then  And then do it like that.  I guess that's very confusing.  Okay any other questions?  Okay. Well, thanks for sticking with me through that. I knows sort of vague. I didn't go through all the details but I do think that it's an important divide and conquer algorithm that you should at least know kind of sort of what what's going on and we're going to some more familiar stuff on Wednesday.  UC San Diego podcast ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02112019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02112019-1500.mp3"
+}

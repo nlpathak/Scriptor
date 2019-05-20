@@ -1,0 +1,247 @@
+{
+  "Blurbs": {
+    "20. But you can keep on changing them, right? and now let's just assume that the radius is r It's double this I know this is not to scale. But let's just assume that the radius is twice the size. So now the right thing is going to go around one revolution while this one goes around 4. So this is essentially how a clock works and how it converts ": [
+      1265.5,
+      1294.5
+    ],
+    "Any other questions? okay, here's kind of like a list of things that that we're going that we went over all throughout the whole class. I just kind of wanted to make sure everybody has. Knows what to expect right? Graph staff greased off divide-and-conquer dynamic programming. These are kind of like the basics of what I want you to know. I mean, of course more details of each thing, ": [
+      740.2,
+      770.8
+    ],
+    "Circle to move at one step each swing, okay. That that circle is being powered Whatever by our motor by weight by a spring so it's it wants to spin right but the escapement is not letting it spin in a continuous motion. It's spinning at a regular interval. I kind of make sense. Know the part that your winding is the power. So you're winding up the spring to ": [
+      1003.9,
+      1044.5
+    ],
+    "Have you guys heard of that? Anyhow annealing does anybody know what that means? It's like some ancient way that people used to like make steel or something. And the idea is that they heat up the steel super hot and then they bang it with a hammer. And the idea is that while it's hot that the molecules can like move freely really easily and as it cools, they ": [
+      2035.7,
+      2069.5
+    ],
+    "Listen to a podcast. Okay. So we're here at the last class. We're not going to learn a lot of things that was going to help you on the final but we're going to maybe just do a little bit of review, but I feel like We've done a lot already. So what we're going to do is start out with the np-hard discussion again, if you guys want to ": [
+      1.9,
+      43.2
+    ],
+    "NP complete problem and how I was able to get a solution in a reasonable amount of time that I was that was sufficient for what I needed it to do. Maybe just to it so that you guys know not to lose hope. Okay. Alright, so let's get started with just two kind of review NP complete and np-hard cuz I know there was some questions about that. This ": [
+      77.2,
+      132.6
+    ],
+    "Play something like multiply that speed by a factor of 87 at the slow it down by a factor of 87. How do you slow down a gear? You attach it to a bigger gear, right? I check this out. That's for the little gear went around two times and the big gear went around once write this code if this is going 40 Revolutions a minute. This one's going ": [
+      1236.4,
+      1265.5
+    ],
+    "Then all NP problems or NP complete which means all NP problems will be NP hard, right, which means that all problems can be solved with a polynomial time algorithm, which means that all problems reduced to all other problems in and pee. right Sure. Yeah, yeah. Yeah, they're kind of just like unwieldy, but they're really kind of hard to deal with the hard to solve in the hard ": [
+      434.5,
+      472.4
+    ],
+    "You guys wanted to do more review, huh? Okay, so here are the loopholes. In the statement of NP complete problem and there are like I said before I'm going to try to I want to share with you my solution to solving NP complete problem. Okay, so what I did was I use an approximation algorithm that basically used bike random random stuff and it got a pretty good ": [
+      250.9,
+      288.3
+    ],
+    "about that? Oh, all the cassettes are sequenced in a particular order. So I ordered them before I did the algorithm. And if you think about it, it doesn't matter in which order you you place the the cassettes. It'll come out to the same thing cuz you're just multiplying them. So so that first pair is from the first cassette second. From the second cassette and so on. Okay, ": [
+      1880.4,
+      1928.1
+    ],
+    "all of those ratios. I can't reuse them. I have like this this box of junk gears. Some of them are repeats of each other. They could be repeats actually. I got like a few that were the same but in general the problem is, you know, given this junk set of cassettes. How can I hear them up to get that exactly that ratio? I probably won't get it ": [
+      1501.1,
+      1532.9
+    ],
+    "and the Pendulum is allowing it to to spend at one tooth per swing. Thank you kind of get the idea. Okay, so that escapement rotates once every 41 seconds. Okay. How did I get that number? We just put it together and timed it so it wasn't it wasn't like we planned for that. But I need to get a minute hand. How many revolutions does a minute hand ": [
+      1146.1,
+      1177.9
+    ],
+    "be on there. Any other questions? Okay, so let's move on to the next part of the class. My clock so my buddy and I are building a clock. Pendulum clock in my friend's garage. So the clock is going to be powered by a weight like a hanging weight and the steady motion of the clock is going to be kept by a pendulum. Okay. So first off I ": [
+      922.5,
+      960.9
+    ],
+    "but this kind of thing any questions about this stuff. Anybody have any? kind of gaping questions about review stuff I'm not going to answer that. I will I will tell you this though, the dynamic programming will have all of those parts separated out I'll tell you what I want. I mean it's better. It's both better for you and better for me. I think so we can kind ": [
+      770.8,
+      824.0
+    ],
+    "cassettes that I had. Okay, the fitness level is how close are you to the ratio? And so that's something easy that you can just compute. I'll get you the crossover and the reproduction a little bit in a little bit. I just kind of want to give you a sense of how this algorithm works. It's very simple. Okay. So the idea is they're supposed to like mimic natural ": [
+      1680.7,
+      1707.7
+    ],
+    "didn't get any better. And I could get within a fraction of a percent of my target, which was good to me. In fact. I was able to get close enough to lose only a few seconds every day and you know. Watches these days are much better than that, but you got to you got to think I'm building this thing out of raw bike parts and using parts ": [
+      1793.6,
+      1823.3
+    ],
+    "do per second? or how many revolutions does a minute hand do per hour? one, right Okay. 1 hour, okay now. My escapement does one revolution for 41 seconds. The minute hand needs to do one revolution per hour. How do I how do I change the speed of revolution? To get from 41. This is one revolution / 3600 seconds. So this is a difference of around like 87. ": [
+      1177.9,
+      1230.8
+    ],
+    "exactly. But how can I get as close as possible? Okay, everybody understand the problem. Okay good. So let's go to basically we don't have to read this whole thing. I just kind of wanted to give you a sense of why this problem will be kind of like the np-complete problem is because it's a lot like knapsack knapsack. You have a bunch of items all have values and ": [
+      1532.9,
+      1559.0
+    ],
+    "going to rotate one time while the right ones going to rotate. it's going to speed it up or going to speed it up. Yes. It's going to rotate 3.88 times in the same amount of time get any questions about that the basic problem. I don't know if you can see where I'm going with this but how I built this problem specification for you. Okay. So the problem ": [
+      1382.9,
+      1414.2
+    ],
+    "hoping to be finished and maybe a few months. It's it should be pretty cool. I was thinking about that having the final time by the clock. I mean it's going to be huge just this is monstrosity and it's heavy as hell so it'll be kind of funny to Lug it around. Yeah went when the minute hands like strike something. But it's I was super proud of myself ": [
+      2174.9,
+      2210.7
+    ],
+    "if it exists. What's that? No, I mean we're not going to go to into it. I just want to show it tell you of something that people may think is in and pee intermediate is something called. integer factoring Stop integer factoring. They can't prove that is NP complete. They also can't prove that. It's p. And so they made they think that it may be an MP in ": [
+      653.9,
+      691.0
+    ],
+    "implement, right? We didn't we honestly really didn't do anything to get us anywhere towards the final answer except for just kind of let nature run its course and it's just a very powerful I think so has anybody done any genetic algorithms before? You don't do that in any classes? Oh, yeah. Gases lighter, okay. Okay, so I'll keep you guys informed of what happens with my clock. I'm ": [
+      2132.2,
+      2174.9
+    ],
+    "is that what you asked you winding up the spring to give it more power to spin that wheel? Okay. now okay, so I want to just first tell you that. This clock is not finished yet. Okay, so no judgment. Okay, so all that's here is basically a working escapement. So this thing here is powering it. Okay, and this is the escapement working here? What's that? So that's ": [
+      1044.5,
+      1116.8
+    ],
+    "is the definition we're using for NP complete. Noticed that there's kind of two parts a problem is NP complete if one it's in and pee and two if all problems in and pee reduced to it any questions about that. I don't know if you guys got a chance to look at all the reductions from the book Okay. Yeah, if if a is NP complete. and a reduces ": [
+      132.6,
+      185.6
+    ],
+    "it is empty hard then Define NP complete in terms of that. Okay. So if this is the definition than NP complete can be defined as NP intersect, np-hard Frank maybe that's that might be a better way to kind of think about them. Okay, so he is equal to NP. Nobody knows right? Okay. Now does anybody want to talk about these pictures? If p is equal to NP. ": [
+      388.5,
+      433.1
+    ],
+    "it seemed to work so related to the genetic learning Revolutionary War Yeah. Okay, so np-hard. What is the difference between np-hard and NP complete? Well, you're not guaranteed to be in and pee. so Np-complete is a subset of n p and p card is not a subset of NP. And after we talked about this the other day, I thought maybe it would be better. to start with ": [
+      314.1,
+      360.6
+    ],
+    "it's here. and I guess this is the problem that states you given a graph and a and the solution for Matt will be a path through every single vertex. I guess you're given a graph and a value and you're supposed to tell true or false. Is that value the the length of the shortest path or not? What part of the left one? What part of the which ": [
+      533.0,
+      585.1
+    ],
+    "just like a bunch of gears. And so this would be kind of like the input to the problem that I'll tell you about queso. The smallest gear has 13 teeth. The biggest year has 28. Okay, and so now you can you can chain up one get one. One Cog to another in this sequence, right and the amount that you're changing the speed depends on the ratios of ": [
+      1325.9,
+      1357.8
+    ],
+    "kind of want to give you a little bit of background of how the Clock Works so the escapement. How do I get this thing to work? Not going to work like that. Okay. Here's a YouTube video of a beautiful escapement. Okay. So this line here is the pendulum you can see it that right so you can see that the The motion of the pendulum allows for that ": [
+      960.9,
+      1003.9
+    ],
+    "mean to be a better creature than another one? Can you define some sort of crossover or reproduction? And you said a mutation rate and you basically just keep on reproducing until you get a solution that you're satisfied with. I don't understand it so much and I don't know the right numbers to plug in but I'll just share with you what I did and I had a lot ": [
+      1627.1,
+      1653.4
+    ],
+    "means. It's just that 10 or 15% of the time. You don't go with either parent. You just go with some random thing. Another thing that's very easy to implement, right? I use the constant mutation, which means it just mutates at that constant rate all the time. There's another kind of way to think about mutation is called simulated annealing and it I don't know if anybody has ever. ": [
+      2009.0,
+      2035.7
+    ],
+    "np-hard Right, if if I were to teach this class again, maybe I would start with np-hard and say, okay, I'll probably Mages np-hard if all problems in NP can be reduced to H, right and just have that and now I'm not talking about any particular problems in in a constraint to a certain set. I'm saying if any problem out there. If I bought MP problems reduced to ": [
+      360.6,
+      388.5
+    ],
+    "of fall understand where we are and then I guess we didn't get the homework 6 back yet, right. Still working on it. Okay. So I just wanted I'll give you some point values on these things, but it would be good for you to know sort of what I consider to be more important than other things in the dynamic programming. Basically, this recursion part is the most important ": [
+      824.0,
+      855.8
+    ],
+    "of fun with it. So I imagine that there might be some problems that that you encounter that are NP complete and genetic algorithms are a way to kind of deal with that. Okay, so my creatures their chromosomes are just going to be these sequences of pairs. So this is one random creature. Okay, and of course those pears have to come from those cassettes that could sequence of ": [
+      1653.4,
+      1680.7
+    ],
+    "off in quotes. Okay, then you repopulate the the the the population Again by using this thing called crossover or reproduction and I just did it pairwise. I don't know if there's a better way maybe just do it randomly. I don't know. And then you just repeat however many times you think is good. I think 24 this 20 was good because after I did it more it just ": [
+      1764.5,
+      1793.6
+    ],
+    "on this Global Optimum a little bit better and then you make the mutations kind of decrease as you go down. Got any questions about that? so I encourage you to try this on a problem that maybe if you if you find some problem that is hard to do with like a standard algorithm as you can see all the steps that I showed. You are super simple to ": [
+      2099.3,
+      2132.2
+    ],
+    "one type of Revolution to another everybody okay with that. Okay, so part of our project is that we want to stick with only using bike parts and if we can we want to use Salvage bike parts. So I went to this Warehouse where this bike shop was throwing away a bunch of stuff and I and I got a bunch of these things. These cassettes and so it's ": [
+      1294.5,
+      1325.9
+    ],
+    "one? That whole egg is NP in both cases. The whole egg is NP. The whole yellow thing is NP. Okay, so everybody's here. I kind of thought that if we have an audience, I'm like so out of practice so You're going to have to bear with me. Okay. Any other questions? about this I'm glad you asked. This here is called. NP intermediate and it actually nobody knows ": [
+      585.1,
+      653.9
+    ],
+    "selection like in nature how animals kind of evolve and survival of the fittest in this kind of thing. And the way you accomplished that is you just keep on going through a bunch of generations and each generation is supposed to get better. How do you do it? Well, how did I do it I started off with a random population of 10,000. I don't know. I just came ": [
+      1707.7,
+      1734.4
+    ],
+    "so question. No problem. No, because I'm inputting my set of cogs. And each input is a sequence of my set of cassette input is a is a sequence of sizes. Okay, putting the whole bucket, and then this tells me how to gear up each one. Okay, so the last thing is mutations. Then you could do it this way. But the problem about doing this way is that ": [
+      1928.1,
+      1979.1
+    ],
+    "solution. But here's some other things that you can do change the problem restrict the instances all this kind of stuff search uristix average case analysis genetic or evolutionary algorithm. This is what I use to solve my problem. So I'm going to share my my thought process. I don't really know a lot about genetic algorithms, but I just kind of made one up as like a experiment and ": [
+      288.3,
+      314.1
+    ],
+    "specification is I got a bunch of these junk cassettes right there all weird random numbers of teeth on each of the Cog in so each one of them is like this Vector of teeth, right? Basically telling you how big each Cog is in each cassette. What I want to do is figure out how to sequence them in order to get a in order to get as close ": [
+      1414.2,
+      1441.7
+    ],
+    "start being able to move less and less unless and until it gets to be no room temperature and they're basically stuck at where they are, but they sort of found their lowest energy places, which makes the steel harder or something. So very big at the start so that things kind of you can your Your offspring are kind of everywhere and that way you can maybe hone in ": [
+      2069.5,
+      2099.3
+    ],
+    "talk about that a little bit more and then I'll take some general questions about I don't know review stuff things that we've done in class if there's still a few gaps that that you want to talk about. and then if we have time, I wanted to share with you a project that I'm working on because it it was kind of like my journey through dealing with an ": [
+      43.2,
+      77.2
+    ],
+    "that I didn't plan on using my I just found them in a junkyard, basically. I got so pretty cool. Right? Let's just take a look at what my reproduction is. How do they reproduce? so I didn't know what the best way to do. This was so I just thought well. If you're just given to parents just pick randomly, which parent you get each gene from and then ": [
+      1823.3,
+      1854.4
+    ],
+    "that's it. So if this is the father and the mother Then I just there's a 50-50 chance that I picked the 28th or the 22. So I picked the 28. Okay 50/50 chance for the 15th and 13th pick 2:15, and so on you just flip a coin for every G and get it that way. Write something very simple that you could do with a computer. Any questions ": [
+      1854.4,
+      1880.4
+    ],
+    "the two cards that you put the gears on. I put this one on the outer gear this one on the inner gear or if the second interview are so that's 28 / 15. And if you can think about it as this thing then you and then you get these other ones you multiply them all together and you get 3 .88. So this one to the left is ": [
+      1357.8,
+      1382.9
+    ],
+    "to be that means that b is NP complete. Oh and be a sorry and and B is in and pee that's important. Yeah. Okay, so good question. Hays assumed to be NP complete which means that every NP problem will reduce to it. It's actually saying that a is NP complete is already assuming that b reduces today in the definition. Why are there so many people here today? ": [
+      185.6,
+      247.6
+    ],
+    "to how to drive the cassette and the bee one tells you what? Which Cog it uses to drive the next one, right? You see that for each one of these cassettes. I need two numbers, right? Okay, so the constraint is that these all must be here. No part of that cuz that CI and the objective is to minimize this thing here. The ratio minus the product of ": [
+      1468.3,
+      1501.1
+    ],
+    "to the ratio as I want. Okay. So the input is a bunch of cassettes eat with a bunch of cogs and a ratio are in this case. My ratio are is 87. I need a bigger out how to get as close to 87 by sequencing these cassettes. Okay. So the solution format is a bunch of ordered pairs, right that tells you like the A1 tells you how ": [
+      1441.7,
+      1468.3
+    ],
+    "to to use algorithms to like actually get it to working. So that's why I'm super excited about it. So let me know if you guys have any other questions. Okay. So what was who was the one who wanted the accordion? you were and what was the song? Okay. See if I could do this. I'm super out of practice though. UC San Diego podcast ": [
+      2210.7,
+      2258.2
+    ],
+    "to verify. Outside of NP that means that you can't verify the solution in polynomial time. Salt like for it hears like kind of a typical example of something that we know is in that purple area. the halting problem Trident in Black write this can't be verified in polynomial time and all NP problems can reduce to it. So-so tsp. I don't like this tsp optimal. Is here? And ": [
+      472.4,
+      533.0
+    ],
+    "two way down the pendulum saying it's not finished yet, but we need to put some weight in the pendulum to give it a little bit more momentum. Okay, let's just say it one more time. Can I can I zoom in on it? Okay. Well I wanted to zoom in so you can see the escapement working. But anyhow notice you can kind of see the escapement spinning. Right ": [
+      1116.8,
+      1146.1
+    ],
+    "up with that number. I thought it was kind of like a big enough number that you could get some. Variety, but small enough that you could do calculations on. Then I sorted them by Fitness and I killed off 99% of them. I know that sounds pretty brutal, but just remember these are just like These are just sequences. They're not actual real organisms. That's why I put kill ": [
+      1734.4,
+      1764.5
+    ],
+    "weights and you need to figure out what's the maximum value. Can you put in your capacity? This is multiplying things together. But you can just turn multiplication into Edition by using logs. Right and then how do I get the maximum in there? You can just think of each item's weight is the same as its value to just trying to maximize basically get as close to you as ": [
+      1559.0,
+      1585.7
+    ],
+    "you describing it that's more important than the pseudocode for me. So that's going to have like have more points a dedicated to it. So when you do the exam just make sure you look at the points and you can kind of see what what is way more heavily. Yeah. I think so. I'm going to say no comment. Sorry. I haven't decided yet. Play the point values will ": [
+      855.8,
+      922.5
+    ],
+    "you might run into local minimum or local maximum. Okay. So if there's no mutation, then this process process can get stuck at local Optima mutations allow for you to kind of like make some random weird decisions that might put you closer to a global Optimum. So I used it. I forgot exactly what I did but it was like around 10 to 15% of a mutation. Whatever that ": [
+      1979.1,
+      2009.0
+    ],
+    "you possibly can to that capacity are okay, so genetic algorithm I used the genetic algorithm to solve this problem. How does it work? Well in general? You basically Define what is a creature or a individual? And it's defined by its genetics its chromosome and you can think about the chromosome as like a possible solution. Can you define a fitness metric? What does it beat? What does it ": [
+      1585.7,
+      1627.1
+    ],
+    "your intermediate if p is equal to NP, but if he is equal to NP, then it's it's just in their summer. Everything's the same. asking about life and it's actually different of Varsity classes for normal computers and quantum computers and it's in it's called me cute. But it's outside of p v q p. Okay. Okay, but it's still NP. Yes, but it's not known to be p. ": [
+      691.0,
+      733.5
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "03152019",
+  "Full Transcript": "Listen to a podcast.  Okay.  So we're here at the last class. We're not going to learn a lot of things that was going to help you on the final but we're going to maybe just do a little bit of review, but I feel like  We've done a lot already. So what we're going to do is start out with the np-hard discussion again, if you guys want to talk about that a little bit more and then I'll take some general questions about I don't know review stuff things that we've done in class if there's still a few gaps that  that you want to talk about.  and then  if we have time, I wanted to share with you a project that I'm working on because it  it was kind of like my journey through dealing with an NP complete problem and how I was able to get a solution in a reasonable amount of time that I was  that was sufficient for what I needed it to do.  Maybe just to it so that you guys know not to lose hope.  Okay.  Alright, so let's get started with just two kind of review NP complete and np-hard cuz I know there was some questions about that. This is the definition we're using for NP complete.  Noticed that there's kind of two parts a problem is NP complete if one it's in and pee and two if all problems in and pee reduced to it any questions about that.  I don't know if you guys got a chance to look at all the  reductions from the book  Okay.  Yeah, if if a is NP complete.  and  a reduces to be that means that b is NP complete.  Oh and be a sorry and  and B is in and pee that's important.  Yeah.  Okay, so good question.  Hays assumed to be NP complete which means that every NP problem will reduce to it.  It's actually saying that a is NP complete is already assuming that b reduces today in the definition.  Why are there so many people here today?  You guys wanted to do more review, huh?  Okay, so here are the loopholes.  In the statement of NP complete problem and there are like I said before I'm going to try to I want to share with you my solution to solving NP complete problem.  Okay, so  what I did was I use an approximation algorithm that  basically used bike random random stuff and it got a pretty good solution. But here's some other things that you can do change the problem restrict the instances all this kind of stuff search uristix average case analysis genetic or evolutionary algorithm. This is what I use to solve my problem. So I'm going to share my my thought process. I don't really know a lot about genetic algorithms, but I just kind of made one up as like a experiment and it seemed to work so  related to the genetic learning Revolutionary War  Yeah.  Okay, so np-hard. What is the difference between np-hard and NP complete?  Well, you're not guaranteed to be in and pee.  so  Np-complete is a subset of n p and p card is not a subset of NP. And after we talked about this the other day, I thought maybe it would be better.  to start with np-hard  Right, if if I were to teach this class again, maybe I would start with np-hard and say, okay, I'll probably Mages np-hard if all problems in NP can be reduced to H, right and just have that and now I'm not talking about any particular problems in in a constraint to a certain set. I'm saying if any problem out there.  If I bought MP problems reduced to it is empty hard then Define NP complete in terms of that. Okay. So if this is the definition than NP complete  can be defined as  NP intersect, np-hard  Frank maybe that's that might be a better way to kind of think about them.  Okay, so he is equal to NP. Nobody knows right?  Okay. Now does anybody want to talk about these pictures?  If p is equal to NP.  Then all NP problems or NP complete which means all NP problems will be NP hard, right, which means that all problems can be solved with a polynomial time algorithm, which means that all problems reduced to all other problems in and pee.  right  Sure. Yeah, yeah.  Yeah, they're kind of just like unwieldy, but they're really kind of hard to deal with the hard to solve in the hard to verify.  Outside of NP that means that you can't verify the solution in polynomial time.  Salt like for it hears like kind of a typical example of something that we know is in that purple area.  the halting problem  Trident in Black  write this can't be verified in polynomial time and all NP problems can reduce to it.  So-so tsp.  I don't like this tsp optimal.  Is here?  And it's here.  and I guess this is the problem that states you given a graph and a  and the solution for Matt will be a path through every single vertex.  I guess you're given a graph and a value and you're supposed to tell true or false. Is that value the the length of the shortest path or not?  What part of the left one?  What part of the which one?  That whole egg is NP in both cases. The whole egg is NP. The whole yellow thing is NP.  Okay, so  everybody's here.  I kind of thought that if we have an audience, I'm like so out of practice so  You're going to have to bear with me.  Okay.  Any other questions?  about this  I'm glad you asked.  This here is called.  NP intermediate  and it actually nobody knows if it exists.  What's that?  No, I mean we're not going to go to into it. I just want to show it tell you of something that people may think is in and pee intermediate is something called.  integer  factoring  Stop integer factoring. They can't prove that is NP complete. They also can't prove that. It's p.  And so they made they think that it may be an MP in your intermediate if p is equal to NP, but if he is equal to NP, then it's it's just in their summer. Everything's the same.  asking about life  and it's actually different of Varsity classes for normal computers and quantum computers and it's in it's called me cute.  But it's outside of p v q p.  Okay.  Okay, but it's still NP. Yes, but it's not known to be p.  Any other questions?  okay, here's kind of like a list of things that  that we're going that we went over all throughout the whole class. I just kind of wanted to make sure everybody has.  Knows what to expect right?  Graph staff greased off divide-and-conquer dynamic programming. These are kind of like the basics of what I want you to know. I mean, of course more details of each thing, but this kind of thing any questions about this stuff.  Anybody have any?  kind of gaping  questions about  review stuff  I'm not going to answer that.  I will I will tell you this though, the dynamic programming will have  all of those parts separated out  I'll tell you what I want. I mean it's better. It's both better for you and better for me. I think so we can kind of fall understand where we are and then  I guess we didn't get the homework 6 back yet, right.  Still working on it. Okay. So I just wanted I'll give you some point values on these things, but it would be good for you to know sort of what I consider to be more important than other things in the dynamic programming.  Basically, this recursion part is the most important you describing it that's more important than the pseudocode for me. So that's going to have like have more points a dedicated to it. So when you do the exam just make sure you look at the points and you can kind of see what what is way more heavily.  Yeah.  I think so.  I'm going to say no comment.  Sorry.  I haven't decided yet.  Play the point values will be on there.  Any other questions?  Okay, so let's move on to the next part of the class.  My clock so my buddy and I are building a clock.  Pendulum clock in my friend's garage. So the clock is going to be powered by a weight like a hanging weight and the steady motion of the clock is going to be kept by a pendulum.  Okay.  So first off I kind of want to give you a little bit of background of how the Clock Works so the escapement. How do I get this thing to work?  Not going to work like that.  Okay.  Here's a YouTube video of a beautiful escapement.  Okay. So this line here is the pendulum you can see it that right so you can see that the  The motion of the pendulum allows for that Circle to move at one step each swing, okay.  That that circle is being powered Whatever by our motor by weight by a spring so it's it wants to spin right but the escapement is not letting it spin in a continuous motion. It's spinning at a regular interval.  I kind of make sense.  Know the part that your winding is the power. So you're winding up the spring to is that what you asked you winding up the spring to give it more power to spin that wheel?  Okay.  now  okay, so I want to just  first tell you that.  This clock is not finished yet. Okay, so no judgment.  Okay, so all that's here is basically a working escapement.  So this thing here is powering it.  Okay, and this is the escapement working here?  What's that?  So that's two way down the pendulum saying it's not finished yet, but we need to put some weight in the pendulum to give it a little bit more momentum.  Okay, let's just say it one more time. Can I can I zoom in on it?  Okay. Well I wanted to zoom in so you can see the escapement working. But anyhow notice you can kind of see the escapement spinning. Right and the Pendulum is allowing it to to spend at one tooth per swing. Thank you kind of get the idea.  Okay, so that escapement rotates once every 41 seconds. Okay. How did I get that number? We just put it together and timed it so it wasn't it wasn't like we planned for that.  But I need to get a minute hand. How many revolutions does a minute hand do per second?  or  how many revolutions does a minute hand do per hour?  one, right  Okay.  1 hour, okay now.  My escapement does one revolution for 41 seconds. The minute hand needs to do one revolution per hour. How do I how do I change the speed of revolution?  To get from 41. This is one revolution / 3600 seconds.  So this is a difference of around like 87.  Play something like multiply that speed by a factor of 87 at the slow it down by a factor of 87. How do you slow down a gear?  You attach it to a bigger gear, right?  I check this out.  That's for the little gear went around two times and the big gear went around once write this code if this is going 40 Revolutions a minute. This one's going 20.  But you can keep on changing them, right?  and now let's just assume that the radius is r  It's double this I know this is not to scale. But let's just assume that the radius is twice the size. So now the right thing is going to go around one revolution while this one goes around 4. So this is essentially how a clock works and how it converts one type of Revolution to another everybody okay with that.  Okay, so part of our project is that we want to stick with only using bike parts and if we can we want to use Salvage bike parts. So I went to this Warehouse where this bike shop was throwing away a bunch of stuff and I and I got a bunch of these things.  These cassettes and so it's just like a bunch of gears. And so this would be kind of like the input to the problem that I'll tell you about queso. The smallest gear has 13 teeth. The biggest year has 28. Okay, and so now you can you can chain up one get one.  One Cog to another in this sequence, right and the amount that you're changing the speed depends on the ratios of the two cards that you put the gears on.  I put this one on the outer gear this one on the inner gear or if the second interview are so that's 28 / 15.  And if you can think about it as this thing then you and then you get these other ones you multiply them all together and you get 3 .88. So this one to the left is going to rotate one time while the right ones going to rotate.  it's going to speed it up or  going to speed it up. Yes. It's going to rotate 3.88 times in the same amount of time get any questions about that the basic problem.  I don't know if you can see where I'm going with this but  how I built this problem specification for you.  Okay. So the problem specification is I got a bunch of these junk cassettes right there all weird random numbers of teeth on each of the Cog in so each one of them is like this Vector of teeth, right? Basically telling you how big each Cog is in each cassette.  What I want to do is figure out how to sequence them in order to get a in order to get as close to the ratio as I want.  Okay. So the input is a bunch of cassettes eat with a bunch of cogs and a ratio are in this case. My ratio are is 87. I need a bigger out how to get as close to 87 by sequencing these cassettes.  Okay. So the solution format is a bunch of ordered pairs, right that tells you like the A1 tells you how to how to drive the cassette and the bee one tells you what?  Which Cog it uses to drive the next one, right? You see that for each one of these cassettes. I need two numbers, right?  Okay, so the constraint is that these all must be here. No part of that cuz that CI and the objective is to minimize this thing here.  The ratio minus the product of all of those ratios.  I can't reuse them. I have like this this box of junk gears. Some of them are repeats of each other.  They could be repeats actually. I got like a few that were the same but in general the problem is, you know, given this junk set of cassettes. How can I hear them up to get that exactly that ratio? I probably won't get it exactly. But how can I get as close as possible?  Okay, everybody understand the problem. Okay good. So let's go to basically we don't have to read this whole thing. I just kind of wanted to give you a sense of why this problem will be kind of like the np-complete problem is because it's a lot like knapsack knapsack. You have a bunch of items all have values and weights and you need to figure out what's the maximum value. Can you put in your capacity?  This is multiplying things together. But you can just turn multiplication into Edition by using logs. Right and then how do I get the maximum in there? You can just think of each item's weight is the same as its value to just trying to maximize basically get as close to you as you possibly can to that capacity are  okay, so  genetic algorithm  I used the genetic algorithm to solve this problem. How does it work? Well in general?  You basically Define what is a creature or a individual?  And it's defined by its genetics its chromosome and you can think about the chromosome as like a possible solution.  Can you define a fitness metric? What does it beat? What does it mean to be a better creature than another one?  Can you define some sort of crossover or reproduction?  And you said a mutation rate and you basically just keep on reproducing until you get a solution that you're satisfied with. I don't understand it so much and I don't know the right numbers to plug in but I'll just share with you what I did and I had a lot of fun with it. So I imagine that there might be some problems that that you encounter that are NP complete and genetic algorithms are a way to kind of deal with that.  Okay, so my creatures their chromosomes are just going to be these sequences of pairs. So this is one random creature.  Okay, and of course those pears have to come from those cassettes that could sequence of cassettes that I had.  Okay, the fitness level is how close are you to the ratio? And so that's something easy that you can just compute.  I'll get you the crossover and the reproduction a little bit in a little bit. I just kind of want to give you a sense of how this algorithm works. It's very simple.  Okay. So the idea is they're supposed to like mimic natural selection like in nature how animals kind of evolve and survival of the fittest in this kind of thing.  And the way you accomplished that is you just keep on going through a bunch of generations and each generation is supposed to get better.  How do you do it? Well, how did I do it I started off with a random population of 10,000.  I don't know. I just came up with that number. I thought it was kind of like a big enough number that you could get some.  Variety, but small enough that you could do calculations on.  Then I sorted them by Fitness and I killed off 99% of them.  I know that sounds pretty brutal, but just remember these are just like  These are just sequences. They're not actual real organisms.  That's why I put kill off in quotes.  Okay, then you repopulate the the the the population Again by using this thing called crossover or reproduction and I just did it pairwise. I don't know if there's a better way maybe just do it randomly. I don't know.  And then you just repeat however many times you think is good. I think 24 this 20 was good because after I did it more it just didn't get any better.  And I could get within a fraction of a percent of my target, which was good to me. In fact.  I was able to get close enough to lose only a few seconds every day and you know.  Watches these days are much better than that, but you got to you got to think I'm building this thing out of raw bike parts and using parts that I didn't plan on using my I just found them in a junkyard, basically.  I got so pretty cool. Right? Let's just take a look at what my reproduction is. How do they reproduce?  so  I didn't know what the best way to do. This was so I just thought well.  If you're just given to parents just pick randomly, which parent you get each gene from and then that's it.  So if this is the father and the mother  Then I just there's a 50-50 chance that I picked the 28th or the 22. So I picked the 28. Okay 50/50 chance for the 15th and 13th pick 2:15, and so on you just flip a coin for every G and get it that way.  Write something very simple that you could do with a computer.  Any questions about that?  Oh, all the cassettes are sequenced in a particular order. So I ordered them before I did the algorithm.  And if you think about it, it doesn't matter in which order you you place the the cassettes. It'll come out to the same thing cuz you're just multiplying them.  So so that first pair is from the first cassette second. From the second cassette and so on.  Okay, so question.  No problem.  No, because I'm inputting my set of cogs.  And each input is a sequence of my set of cassette input is a is a sequence of sizes.  Okay, putting the whole bucket, and then this tells me how to gear up each one.  Okay, so the last thing is mutations.  Then you could do it this way. But the problem about doing this way is that you might run into local minimum or local maximum. Okay. So if there's no mutation, then this process process can get stuck at local Optima mutations allow for you to kind of like make some random weird decisions that might put you closer to a global Optimum.  So I used it. I forgot exactly what I did but it was like around 10 to 15% of a mutation. Whatever that means. It's just that 10 or 15% of the time. You don't go with either parent. You just go with some random thing.  Another thing that's very easy to implement, right?  I use the constant mutation, which means it just mutates at that constant rate all the time. There's another kind of way to think about mutation is called simulated annealing and it  I don't know if anybody has ever. Have you guys heard of that?  Anyhow annealing does anybody know what that means?  It's like some ancient way that people used to like make steel or something. And the idea is that they heat up the steel super hot and then they bang it with a hammer.  And the idea is that while it's hot that the molecules can like move freely really easily and as it cools, they start being able to move less and less unless and until it gets to be no room temperature and they're basically stuck at where they are, but they sort of found their lowest energy places, which makes the steel harder or something. So very big at the start so that things kind of you can your  Your offspring are kind of everywhere and that way you can maybe hone in on this Global Optimum a little bit better and then you make the mutations kind of decrease as you go down.  Got any questions about that?  so I encourage you to try this on a problem that maybe if you if you find some problem that  is hard to do with like a standard algorithm as you can see all the steps that I showed. You are super simple to implement, right? We didn't we honestly really didn't do anything to get us anywhere towards the final answer except for just kind of let nature run its course and it's just a very powerful I think so has anybody done any genetic algorithms before?  You don't do that in any classes?  Oh, yeah.  Gases lighter, okay.  Okay, so I'll keep you guys informed of what happens with my clock.  I'm hoping to be finished and maybe a few months.  It's  it should be pretty cool.  I was thinking about that having the final time by the clock. I mean it's going to be huge just this is monstrosity and it's heavy as hell so it'll be kind of funny to Lug it around.  Yeah went when the minute hands like strike something.  But it's I was super proud of myself to to use algorithms to like actually get it to working. So that's why I'm super excited about it. So let me know if you guys have any other questions.  Okay.  So what was who was the one who wanted the accordion?  you were  and what was the song?  Okay.  See if I could do this.  I'm super out of practice though.  UC San Diego podcast ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-03152019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-03152019-1500.mp3"
+}
