@@ -28,6 +28,12 @@ class Search extends Component {
         console.log(this.state);
     }
     
+    handleEnter = (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+         }
+    }
+    
     render() {                   
         let filters;
         if(this.state.showFilters) {
@@ -39,25 +45,29 @@ class Search extends Component {
                             className ='filterbar' 
                             name = 'department'
                             value = {this.state.department} 
-                            onChange={e => this.change(e)} />
+                            onChange={e => this.change(e)} 
+                            onKeyDown={e => this.handleEnter(e)}/>
                         <input 
                             type = 'text'
                             className ='filterbar' 
                             name = 'course'
                             value = {this.state.course} 
-                            onChange={e => this.change(e)} />
+                            onChange={e => this.change(e)} 
+                            onKeyDown={e => this.handleEnter(e)} />
                         <input 
                             type = 'text'
                             className ='filterbar' 
                             name = 'professor'
                             value = {this.state.professor} 
-                            onChange={e => this.change(e)} />
+                            onChange={e => this.change(e)} 
+                            onKeyDown={e => this.handleEnter(e)} />
                         <input 
                             type = 'text'
                             className ='filterbar' 
                             name = 'quarter'
                             value = {this.state.quarter} 
-                            onChange={e => this.change(e)} />
+                            onChange={e => this.change(e)} 
+                            onKeyDown={e => this.handleEnter(e)} />
                     </div>
                     <p style={{marginTop: '5px'}}>Department</p>
                     <p>Course</p>
@@ -82,7 +92,7 @@ class Search extends Component {
                     onChange={e => this.change(e)} />
                     <br></br>
                     {filters}
-                    <button className='center' onClick={e => this.onSubmit(e)}>Submit</button>
+                    <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
                     
                 </form> 
             </div>

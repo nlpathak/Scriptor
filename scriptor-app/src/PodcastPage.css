@@ -1,0 +1,57 @@
+.podpage {
+    margin: 20px;
+}
+
+.podpage .title {
+    color:rgba(72,136,163,.93);
+    margin-bottom: 10px;
+}
+
+.podpage .link {
+    color:rgba(72,136,163,.93);
+}
+
+.podpage .toplayer {
+    display: flex;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.podpage .toplayer .vid {
+    width: 65%;
+    height: 40%;
+}
+
+.podpage .toplayer .text {
+    float: right;
+    text-align: center;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.podpage .pagewide {
+    width: 100%;
+    outline: none;
+ }
+
+
+.podpage .fullgroup {
+    margin-bottom: 1%;
+ }
+
+ .podpage button {
+    background-color: rgba(72,136,163,.93);
+    color: rgba(255,255,255,1);
+    border: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.podpage button:hover {
+    background-color: rgba(255,255,255,1);
+    color: rgba(72,136,163,.93);
+    border: 1px solid rgba(72,136,163,.93);
+}
