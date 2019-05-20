@@ -17,6 +17,7 @@ tqdm = "*"
 dask = {extras = ["complete"],version = "*"}
 python-slugify = "*"
 bcrypt = "*"
+furl = "*"
 
 [requires]
 python_version = "3.7"
