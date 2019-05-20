@@ -6,12 +6,11 @@ import About from './About.js';
 import User from './User.js';
 import './App.css';
 import Forgotpass from './Forgotpass.js'
+import temp_podcall from './temp_podcall.js'
 
 class App extends Component {
     render() {
         return (
-            <div>
-                <link href="https://github.com/jewelzqiu/ChromeFonts/blob/master/css/2yahei.css" rel="stylesheet" type="text/css"/>
                 <Router>
                     <Navbar/>
                     <div>
@@ -19,9 +18,10 @@ class App extends Component {
                         <Route path="/about" component={About}/>
                         <Route path="/user" component={User}/>
                         <Route path="/forgotpass" component={Forgotpass}/>
+                        
+                        <Route path="/podcastpage" component={temp_podcall}/>
                     </div>
                 </Router>
-            </div>
         );
     }
 }
