@@ -1,0 +1,28 @@
+# Scripts quickstart
+
+## download_podcast_data.py
+This interactive script downloads the audio files & metadata of the podcasts for any given course.
+
+1. `cd scriptor-backend`
+2. `PYTHONPATH=. python scripts/download_podcast_data.py`
+
+Now, to select the course to download podcasts for:
+1. Go to <a href="https://podcast.ucsd.edu/" target="_blank">https://podcast.ucsd.edu</a>
+2. Search/filter for the course you want
+3. Click on the course podcast website link
+4. Copy the URL on the browser and use it as input when the script prompts for the `course podcast website URL: `
+
+Since the course name, section id, department, and course number formatting vary across different courses, the script will prompt you to enter these details.
+Once you've entered this info, the script will compile the metadata for the podcasts and download all of the podcast audio files to the `fixtures/podcasts/<the selected course goes here>/audios/` folder.
+The script will also generate a `metadata.json` file at `fixtures/podcasts/<the selected course goes here>/metadata.json` to save the various metadata associated with each podcast recording.
+
+After the files have been downloaded, the script will re-prompt you for any additional courses that you'd like to also download audio files for.
+
+Once done, press `Ctrl+C` to exit.
+
+Next, you can run SpeechToText.py on the downloaded files (doing any necessary audio conversions, etc.), and include the analyzed file name (e.g. `lecture_1.mp3`) in the resulting transcription JSON files.
+Make sure to save the resulting transcription files to the `fixtures/podcasts/<the selected course goes here>/transcripts` folder.
+
+After the transcription files have been generated, delete the `fixtures/podcasts/<the selected course goes here>/audios/` directory, but do NOT delete the `fixtures/podcasts/<the selected course goes here>/transcripts` directory & the `fixtures/podcasts/<the selected course goes here>/metadata.json` file.
+
+Finally, add & commit to GitHub! 🎉
