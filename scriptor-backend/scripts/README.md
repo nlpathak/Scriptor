@@ -1,6 +1,12 @@
 # Scripts quickstart
 
 ## download_podcast_data.py
+
+### Pre-requisites
+1. `pip install pipenv` (to install pipenv)
+2. `cd scriptor-backend && pipenv install`
+3. `pipenv shell` (to enter the virtualenv for the backend)
+
 This interactive script downloads the audio files & metadata of the podcasts for any given course.
 
 1. `cd scriptor-backend`

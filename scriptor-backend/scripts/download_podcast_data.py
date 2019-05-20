@@ -21,6 +21,7 @@ class NoPodcastAudioError(Exception):
 
 
 def extract_podcast_data(podcast_num, course_podcast_url):
+
     result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_AUDIO_VERSION})
     content = result.content
 
@@ -34,13 +35,16 @@ def extract_podcast_data(podcast_num, course_podcast_url):
 
     lecture_header = soup.find("div", id="LectureHeader").h2.text.strip()
 
-    lecture_num = int(lecture_header[len("Lecture "):lecture_header.index(",")].strip())
+    lecture_num = podcast_num  # int(lecture_header[len("Lecture "):lecture_header.index(",")].strip())
     date = lecture_header[lecture_header.index(",") + 1:].strip()
 
     date = datetime.datetime.strptime(date, '%m/%d/%Y')
 
-    audio_url = soup.noscript.div.audio.get("src")
-    if not audio_url:
+    try:
+        audio_url = soup.noscript.div.audio.get("src")
+        if not audio_url:
+            raise NoPodcastAudioError()
+    except:
         raise NoPodcastAudioError()
 
     # Extract the video URL
@@ -48,7 +52,11 @@ def extract_podcast_data(podcast_num, course_podcast_url):
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
 
-    video_url = soup.noscript.div.video.get("src") or ""
+    try:
+        video_url = soup.noscript.div.video.get("src") or ""
+    except:
+        video_url = ""
+
     return {
         "lecture_num": lecture_num,
         "date": date.strftime('%m/%d/%Y'),
