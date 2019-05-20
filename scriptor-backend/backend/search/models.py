@@ -14,10 +14,12 @@ class PodcastTranscriptionBlob(Document):
     transcription_blob = Text()
     starting_timestamp_second = Integer()  # The starting timestamp for this blob (in seconds since the start of the podcast's video)
     ending_timestamp_second = Integer()
+    blob_index = Integer()
+    lecture_num = Integer()
 
     # Filters that the user can search against
     department = Text()
-    course_number = Text()
+    course_num = Integer()
     quarter = Text()
     professor = Text()
     section_id = Text()

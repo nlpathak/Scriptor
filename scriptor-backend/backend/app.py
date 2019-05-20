@@ -2,6 +2,14 @@ from flask import Flask, request, g, jsonify
 
 app = Flask(__name__)
 
+# Create the indices/mappings for all the models
+from backend.users.models import User
+from backend.search.models import PodcastTranscriptionBlob
+from backend.podcasts.models import Podcast
+
+User.init()
+PodcastTranscriptionBlob.init()
+Podcast.init()
 
 # Middleware to run before each request
 @app.before_request
@@ -19,16 +27,6 @@ def before_each_request():
 @app.route("/")
 def index():
     return jsonify(success=True)
-
-
-# Create the indices/mappings for all the models
-from backend.users.models import User
-from backend.search.models import PodcastTranscriptionBlob
-from backend.podcasts.models import Podcast
-
-User.init()
-PodcastTranscriptionBlob.init()
-Podcast.init()
 
 # Import all blueprints
 from backend.users import users_blueprint

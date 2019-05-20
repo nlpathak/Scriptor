@@ -1,0 +1,397 @@
+{
+  "Blurbs": {
+    "All the shortest path from VI to Vijay that go through this set. Do it like this. case one in case 2 Okay, what what's the kind of like a simple way that we could divide the Divide all those those pads from vi2 VJ. How can we divide them into two? Sort of subsets dependent on like a very simple rule. if water connected by an edge Okay, I'll ": [
+      814.9,
+      882.2,
+      19
+    ],
+    "It's more for me to just They introduced it to you so that if you see it in the future, you kind of know what it is. And I know how to recognize when you can use a linear linear Programming type algorithm to solve it. Then we're going to look at one linear programming algorithm in particular that has to do with network flows, which can solve a whole ": [
+      148.8,
+      174.2,
+      3
+    ],
+    "Listen to a podcast. Okay, so good afternoon. Everyone have a few announcements before we start. if you haven't seen already then I posted some practice problems. For you guys to study the for the final and we're going to have a review session that goes basically over those practice problems and anything else you guys want to talk about that's going to be on Thursday. Let me just take ": [
+      1.9,
+      61.3,
+      0
+    ],
+    "Okay, what you're given is a graph with non Negative Edge weights or directed graph. And there's those are called the capacity of the edges. Then you're given two vertices a source and a sink and what you want to do is figure out how to assign values to each Edge that creates a flow and I'll tell you what a flow is in a minute solution format is an ": [
+      2340.3,
+      2370.2,
+      58
+    ],
+    "San Diego podcast ": [
+      2929.1,
+      2930.1,
+      76
+    ],
+    "Then in this case w i g a t is going to be equal to what? 2 - 1 write f w of i j t minus one. If you don't if it's better to not use it, then you just you just go down to the smaller set of the vertices one through T. -1 as your intermediate for a text. Okay case one. BTW is part. of the ": [
+      982.7,
+      1020.2,
+      22
+    ],
+    "a flow in the original graph. So, let's see how that works. Let's pick another pack. Okay. So let's pick this bottom path. The smallest Edge is one. So that's going to be the flow of that path. And now let's create the residual graph by reversing all of those. Okay, you can kind of see that we're eliminating some of the path Pathways right as we go. Okay. Does ": [
+      2741.5,
+      2768.9,
+      71
+    ],
+    "a linear function in two Dimensions? It's a plane. So where will you find the maximum in that? closed sub region on the edges actually at the corners right remember that No. It's right here. Okay, so well if you don't remember if you remember it, this is this is what linear programming is based on is that you're going to find the optimum at the corners and there's no ": [
+      2112.5,
+      2154.6,
+      51
+    ],
+    "and make a new Edge to send it back. So this whole thing is going to be a 2 coming back. This one is going to split the four into two going forward to going back. And this one's going to split the 301 going forward to going back. So basically the inside here is we can represent the Improvement by this residual flow. Okay, and this is this is ": [
+      2635.9,
+      2681.8,
+      68
+    ],
+    "anybody see any other paths? Maybe going up that way. It still works. Okay. Let's get rid of those. Are there any pads left? Yes, right, maybe this one. Now update that okay. Now are there any pads left know right was one indicator is that she doesn't have any incoming edges? Okay. So at this point we stopped and all of those residual. Flo's all of those clothes that ": [
+      2768.9,
+      2815.6,
+      72
+    ],
+    "are these ones on the left side eye. tea and T minus one read because this. T minus one means that I'm only considering the vertices 130 - 1 as intermediate vertices. I don't want to consider VT as an intermediate vertex cuz that means I I would have had to gone through a cycle to get to VT. Right we'll have to gone through it all ready to get ": [
+      1240.6,
+      1275.5,
+      27
+    ],
+    "assignment of non negative values to the E-Check. So the constraints are that in every vertex. The amount of flow going in has to equal the amount of flow going out except for the source in the sink. Basically have infinite. Infinity ins and outs Okay, and the other constraint is at the flow along an edge cannot exceed its capacity. The objective is to maximize the total flow from ": [
+      2370.2,
+      2403.7,
+      59
+    ],
+    "back to it. And we're trying to avoid these negative Cycles. Okay. How about the other one? the right one t j T minus one remember the we're looking we're looking for how to find the shortest path using only these vertices as intermediate vertices, right? So I know that I can't use BT at the intermediate vertex. So the only other intermediate vertices that are available to me are ": [
+      1275.5,
+      1320.8,
+      28
+    ],
+    "basically what I told you how to change the graph into a residual graph. Okay, so this is that and then this is our residual graph. Now what I claim, which is kind of like the insight into why this algorithm works is any flow from your original graph plus a flow from the residual graph will be a better flow for your original graph basil. You can only improve ": [
+      2681.8,
+      2708.7,
+      69
+    ],
+    "be part of the subset or is it supposed to not be right? I know they don't all work like that. But this one it's a nice way to do it. Okay, let me give myself a little bit more room here. Sorry. Okay, let's some let's figure out what these cases mean. So let's do case to First. VT is not part. of shortest path from VI to VGA ": [
+      930.9,
+      981.7,
+      21
+    ],
+    "because it you it also works in the presence of negative edges. Okay, so this is this is our goal. So at the very least we have to we have to use + sqrt amount of time because that's the amount of information that we're trying to fill up the certainly this has to be big Omega event squared. Now you could run bellman-ford and if you remember Bellman Ford ": [
+      325.3,
+      359.9,
+      9
+    ],
+    "better than exponential. Yeah, exactly. So this is kind of my last. Spiel about linear programming and then we'll go into a specific example and you'll kind of see a little bit more Hands-On on how this kind of thing works. So just like you said, how do you find those corners? And how do you deal with those Corners as you do a bunch of Matrix manipulations fairly simple ": [
+      2225.2,
+      2257.4,
+      54
+    ],
+    "bunch of problems. So that's another reason. I wanted to introduce it to you. So after the dynamic programming, there's no more design type Concepts that I'm expecting you to learn. It's more just we're going to briefly go through a few Concepts from chapter 7 and then Next week. We'll talk about P vs. NP. What are the consequences how to kind of show a certain problem is NP ": [
+      174.2,
+      211.0,
+      4
+    ],
+    "by this other question? Is there any flow in a residual Network? So I'll show you what a residual network is. K2 the first thing we need to do is start with a flower doesn't have to be the maximum flow. It has to be a flow. How can I get like a flow really easily? What's one kind of quick way that we can get at least one non-trivial ": [
+      2550.0,
+      2571.9,
+      65
+    ],
+    "complete Define all those things and those types of questions will come up on the exam in like the true-false short answer type things. Okay. Okay, so let's get started. We're going to start off with the Floyd warshall algorithm. Okay, so if you recall last time we did the Bellman Ford algorithm. And what was nice about Bellman Ford was it gave us a efficient way to find the ": [
+      211.0,
+      246.1,
+      5
+    ],
+    "diameter has a different rate? Okay, so this is actually a maximum flow. I'm up. We'll kind of Explorer how to get to there. But if you can see I'm going to send two units along the two edged and only three along the 8th. It's fine because it is going to be like this big huge pipe, but I'm only sending three down it right once I get to ": [
+      2433.3,
+      2461.9,
+      61
+    ],
+    "doesn't give you negative Cycles doesn't show you where they are. No, but bellman-ford is you have to give it a starting place. This one gives you all shortest paths from all pairs. So that's kind of the the advantage. I guess you could use bellman-ford from a starting place and see if you find a a negative cycle or you might be even able to detect one out to ": [
+      1775.1,
+      1807.3,
+      41
+    ],
+    "doesn't take much time. And I mean I wanted to introduce this to you is if you ever get a problem that can use when your programming then you can find some Simplex method and you can solve it relatively efficiently. If you use some other some other person's algorithm that they've already made. Okay. Now the next example is an example of a problem that you could solve with ": [
+      2285.1,
+      2314.7,
+      56
+    ],
+    "doing all the Matrix stuff. So if you have a linear Programming type problem, it might be able to reduce it to network flow. Okay good. So we're going to look at the Ford Fulkerson method. It's basically a hill climbing solution because we're going to start with some random solution and try to improve it along the way. Stop will be able to represent. Can we make it better ": [
+      2524.2,
+      2550.0,
+      64
+    ],
+    "every pair. Yeah, it's just kind of like just fill up that cross section until you move on to the next one and it doesn't really matter what order you do it in because all of those are just based off the cross section from before. Okay. So how much time does it take? Well, it's basically a triple for Loop each of size end. Right? So it's going to ": [
+      1653.8,
+      1689.9,
+      38
+    ],
+    "extremely annoying and tedious for for me and you to do but for a computer it's very simple. And so there's this Simplex algorithm, which is basically the one I'm talking about where you kind of go through the corners and find where that maximum is and It's it's a little complicated to implement but people implement it and it it's not very hard for the computer to do it ": [
+      2257.4,
+      2285.1,
+      55
+    ],
+    "flow. Okay, just take any path, right? From source to sink. What about this one? Now what Flo am I going to put on there? The minimum of all of the edges, right? So 2K, we're going to start with that path and keep on improving it little by little until we can improve it anymore. And then once we're done that's going to be the maximum flow. Okay, better ": [
+      2571.9,
+      2612.0,
+      66
+    ],
+    "give you a hint it has something to do with this. Okay, good showcase one VT is included. in the shortest path VT is not included. You guys beginning to see sort of like a theme for these cases often times. It's kind of like the the last object in your in your list. And you started just ask the question. Is it is it in is it supposed to ": [
+      882.2,
+      930.9,
+      20
+    ],
+    "good idea because you usually have you know, your your country's currency that you start with and you might have a bank account with some of that. So that's a good place to start. But if you're just trying to figure out what is the best currency exchange from any point a to any point B, then you can use the Floyd warshall algorithm. You could also think about other ": [
+      278.8,
+      301.8,
+      7
+    ],
+    "have these three these three parameters, right and you can kind of think about them as represented by these three different vertices k v i v J & V T. So what is a question that we can ask these? What are the cases that we can split up? All of these shorts pads? We can split them up into several different cases. What are going to be those cases? ": [
+      786.1,
+      811.7,
+      18
+    ],
+    "have to kind of pick a ordering and stick with it. So you're basically feeling in that whole cross-section before you move on to the next one. So you see why that's important kind of The Ordering of the eyes and Jay's doesn't really matter so much but the ordering of the teas is what really matters the most. So whenever you're ordering the sub problems, you just have to ": [
+      1563.7,
+      1584.2,
+      35
+    ],
+    "important you can think about some applications traffic Network routing piping all these kind of things. There's a concept called Min cut, which will talk about in a minute and That's also useful to know. Another thing is that a lot of problems reduced to it, which will see you example of one of them and it's a special case of linear programming with a much more efficient solution than ": [
+      2493.8,
+      2524.2,
+      63
+    ],
+    "is equal to 0 we're saying that the the allowable intermediate vertices are is the empty set. No, yasso intermediate means that that vertex is found somewhere along the path from VI to Vijay. What's the temperature like today? Viagra is anybody have any bass cases? No, you can have a pack. You can have a path with no with no intermediate vertices. What is that called? No. So like, ": [
+      542.8,
+      691.4,
+      15
+    ],
+    "it's it's not always going to give you the optimum because there might be local Optimum right and bigger Optimum, right? So It's useful for approximation algorithms. And sometimes they're not guaranteed to give you the best answer but they are guaranteed to give you kind of a local maximum or Optimum. Okay, so what's kind of think about what is the consequence of these local Optimum? You can so ": [
+      1925.2,
+      1964.5,
+      46
+    ],
+    "kind of get a feel for how we're going to proceed. Okay, so the array values it's going to be a three dimensional array. So we're going to have three parameters I J & T. And this is going to hold this array values going to hold the up this sorry. This is wrong. This should be the length. The shortest path from VI to VGA right? That's kind of ": [
+      449.3,
+      480.5,
+      13
+    ],
+    "like I said, you can set you can kind of think about it as this two-dimensional. Sharpest but really in in most problems are going to be like a very multi-dimensional surface that we can't imagine but it's still kind of follows the same local Optimum local max local men ideas. Okay, so balglobal optimum's are always Optima. The reverse is not always true. Okay, so that's kind of just ": [
+      1964.5,
+      1997.2,
+      47
+    ],
+    "local Optimum anymore because it's a linear function remember linear functions don't have local Optimum. Optimum kind of happens at the boundary of your space in in in more detail actually happens at the corners queso linear programming is really cool. What it does is it picks a corner at random and then it looks at all of the neighbors of the corners whichever one increases the objective function it ": [
+      2154.6,
+      2187.2,
+      52
+    ],
+    "make sure that your outer loop is the teas. How can I make sense? Okay, so here's a Yours algorithm make sure that okay so first. make all your bass cases, I guess you could say f i j 0 is infinity if VI IV Jay Is not an edge. And then start with T. Right cuz that's just going to go from cross-section to cross-section and then fill up ": [
+      1584.2,
+      1630.0,
+      36
+    ],
+    "notes right on here so you can have access to it. Okay, so Thursday March 15 shoes me 14 I'm in Center 101 from 8 p.m. Tonight 9:50 p.m. And will podcast it so I know not everybody can come so it will have it podcast it for you. I know that is very very close to the final exam date, but you know, this is what we have to ": [
+      61.3,
+      102.5,
+      1
+    ],
+    "of all the edges that is in that cut right that's going to be your maximum flow. So for example, I can actually reach all of these vertices from s right and these are all the vertices I can't reach s from s so the cut here is 5 because it's the sum of all the edges and that's going to be the network flow. Okay, so I'm kind of ": [
+      2852.6,
+      2889.1,
+      74
+    ],
+    "okay. So what is this in general vij zero? That's the length of the shortest path from VI to Vijay using nothing as intermediate vertices the WhatsApp app with no intermediate vertices. is 1 well, that's certainly true. I guess we could say that FW of I I would be. Trivial, but let's think about if I was not equal to J. They're connected by an edge. Right? And so ": [
+      691.4,
+      734.1,
+      16
+    ],
+    "one through T minus one kind of the Okay, so that's it. FW of ijt is FW of i t t - 1 + f w of TJ T -1 and since I don't know which case is smaller. You just take the minimum of those two. Cancel this what this is. Does going through VT improve the length that's kind of the idea. Okay question. 32j because that's the ": [
+      1320.8,
+      1379.0,
+      29
+    ],
+    "path. I guess. Let's go back to the definition of FW. Ijt it's the length of the shortest path from vertex. I to vertex J using only the vertices V12 VT and so I put this T minus one here because I know that VT is not going to be in the in the shortest path from VT to Vijay Yeah, cuz if it were then that means that there ": [
+      1379.0,
+      1412.9,
+      30
+    ],
+    "reasons why you would want to use this right? Maybe this would give you the shortest path from any pair of cities and so you can build like a Like a matrix like, you know the Matrix in the bottom corner of your Atlas, that's like all the shortest path to all the cities. That's essentially kind of what this is doing all though. This is a Little Bit Stronger ": [
+      301.8,
+      325.3,
+      8
+    ],
+    "right I need to fill in that entire cross-section until I move on to the next cross-section, right? And the reason I know that is because this this T value is dependent on T -1 values. All right. So if that's tea than T minus one is right here say T minus 1 and this would be Tea and The Ordering of the vertices. Does it really matter? You just ": [
+      1530.7,
+      1563.7,
+      34
+    ],
+    "right We get some multi-dimensional polyhedron. But think about this the objective function is also linear. Do you guys remember from calculus how to find the optimum value of a linear function? in a in a polygon mother of a linear function is 0 or is Right, but what about you in two Dimensions if you have some polygons and there's a linear function on. Kind of Define inside. What's ": [
+      2068.1,
+      2112.5,
+      50
+    ],
+    "running out of time here, but I guess maybe on Monday. I'll show you one application of this and then we'll jump into PNP and kind of finish it up from there. And on Friday next Friday will probably just do like a quick overview and summary of the whole class and take it from there. Okay. Have a nice weekend. linear programming where you pick the perfect edges UC ": [
+      2889.1,
+      2929.1,
+      75
+    ],
+    "s to T. Let's look at an example. Okay, so think about this as like a network of tunnels or pipes for water or something and you want to know how much water you can send from s-2t where these are the capacities of those pipes. Maybe those I could be like the diameter of the pipes and you want to know at what rate? Can you send for each ": [
+      2403.7,
+      2433.3,
+      60
+    ],
+    "same sort of idea that we used in Bellman Ford and have some sort of restraint On The Edge on the path and Bellman Ford. We use like a budget of the number of edges with this we're going to think about the the past that go through certain edges the past that goes through certain vertices. Okay. Kind of weird. But once we defined it in this way, you'll ": [
+      421.6,
+      449.3,
+      12
+    ],
+    "see. Those three kind of split up to two and one and you can kind of see that for each one of these intermediate vertices the flow in is going to equal to flow out. And so I'm sending out a total of 5 from s and I'm receiving a total of 5 from T. Any questions about the set up with a problem. Okay. Why is Network closed so ": [
+      2461.9,
+      2493.8,
+      62
+    ],
+    "shortest path I take from I to the I to BJ. Okay. So now this is where you kind of have to figure out how to use the other sub problems to your advantage. Okay. So if it is part that means that there's a path. From vbi to VT and there's a path. from VT to Vijay and the only intermediate vertices that I'm using in here. Right are ": [
+      1020.2,
+      1067.4,
+      23
+    ],
+    "shortest path from one vertex to all the other vertices even in the presence of negative edges and on top of that it was able to detect negative Cycles. And we saw that maybe it was a good tool if you wanted to do like a currency Arbitrage, but in order to use it, you have to pick a currency to start with and that's probably cuz usually probably a ": [
+      246.1,
+      278.8,
+      6
+    ],
+    "so in order to optimize it you kind of just look around to the local neighbors and go towards the neighbor that increase is the boy that gets a better solution, right either increases it or decreases it depending on if you're trying to find the maximum or minimum. And then you just kind of follow this path. You can think about it as like your Solutions are some my ": [
+      1873.8,
+      1898.3,
+      44
+    ],
+    "take Big O of n cubed time. How about space? How much space is this going to take up? Also in queued right you're feeling up this big and buy an Cube. Is there a does anybody see a way to reduce the amount of space? Right, you can just kind of over right across section and only only keep two cross sections at a time filling your base case ": [
+      1689.9,
+      1726.5,
+      39
+    ],
+    "takes. I'm in Ford takes big O of NM time right? So you could run bellman-ford from every single vertex and get an X & M which is Big O of NM and square. That's perfectly fine. But the Floyd warshall algorithm accomplishes this in Big O of n cubed time. So if you have a very dense algorithm, this will cut back some of that run time. I noticed ": [
+      359.9,
+      388.7,
+      10
+    ],
+    "terrain right in two dimensions. And you are trying to find the maximum. So you're really trying to kind of climbing Hill. Okay, and so what you do, how do you climb a hill? You just keep on going up and then once you get to a point where there's no up anymore, you've gotten to the top of the hill, right? So this is this is really useful and ": [
+      1898.3,
+      1925.2,
+      45
+    ],
+    "than zero any path of non zero edges how much better but we can send the minimum capacity along that path. Okay. So here's the path. Here's the flow that corresponds to that top hat. Okay. So the next thing we're going to do is make a residual graph the way you do that is however much flow you're sending you View flip that flow around and send it back ": [
+      2612.0,
+      2635.9,
+      67
+    ],
+    "that this doesn't depend on the number of edges now. It just depends on the number of vertices. Okay, so let's set this up together as a dynamic programming problem. Okay. So what are the types of subproblems going to be now? It's kind of easy to to think about the some problems have something to do with the shortest path between two vertices, but we're going to use this ": [
+      388.7,
+      421.6,
+      11
+    ],
+    "the Simplex method because it falls into all the categories where has linear constraints linear objective, but we're going to solve it in a more direct way that that doesn't use matrices are all so don't worry about that. And then we're going to see that this particular problem is useful for other problems a lot of other problems reduced to it. Okay. So this is the problem Network flow. ": [
+      2314.7,
+      2340.3,
+      57
+    ],
+    "the basics of hill climbing linear programming is a special case of hill climbing and So the way that it works is your problem needs to have a very particular form. The form needs to be that all the constraints and the objective functions all have to be linear. And so think about your solution space as some multidimensional space. Linear constraints basically mean that you're kind of cutting off ": [
+      1997.2,
+      2034.3,
+      48
+    ],
+    "the eyes of Jason and any order you want you may as well just fill them up in like this this very orderly fashion, but it doesn't really matter put in your thing. And then the output is just going to be FW of ijn for all inj right? This is kind of like that last cross-section cuz I wanted to I wanted to know every the shortest path between ": [
+      1630.0,
+      1653.8,
+      37
+    ],
+    "the shortest path would have to just be the length of the edge, right? That kind of makes sense. The Edge is a path with no intermediate vertices. shooting Okay, so let's stay. So that's those are going to be all of our base cases. The next thing we need to do is figure out how to build a recursion. Okay. So what kind of information do we have? We ": [
+      734.1,
+      786.1,
+      17
+    ],
+    "the vertices from 1 to T minus one? And the intermediate vertices I'm using here are the vertices from 1 to T minus one also and really if you think about it. if this is the shortest path from VI to Vijay, then that would those two sub past would have to be the shortest path from VI to VT and from VT to BJ, right and you add them ": [
+      1067.4,
+      1093.8,
+      24
+    ],
+    "think about that. You might be able to trip to. To change the surround and Protect One. Maybe doing one more cross section. I don't know. I'll think about it. Okay, let's move on to kind of the next topic. Next chapter chapter 7 we're going to we're going to Breeze through it. I'm not going to spend a lot of time and on the details. I just kind of ": [
+      1807.3,
+      1835.2,
+      42
+    ],
+    "together, so What is the length of this path in terms of my array? FW of Maybe I want to give you guys a few minutes to talk it through fill in the three indices here and fill in the three indices here. Okay, ready go. Right. So remember I guess I didn't write the whole. Figure but remember we're trying to find the shortest path from VI to Vijay ": [
+      1093.8,
+      1188.6,
+      25
+    ],
+    "use that to fill in the next cross section and then overwrite your base case cross-section and didn't keep on going like this and then you only have to use up to and squared amount of space. reuse cross-sections 42 N squared space any questions No, it would it would find I should have said that it finds all shortest simple pads all shortest simple pads. No, it doesn't it ": [
+      1726.5,
+      1775.1,
+      40
+    ],
+    "using only the vertices one through TV1 through VT. Now you just got to order them in one way and stick to that order. but then think about if vi2 VT I'm only considering the vertices 140 - 1 in that right? Yeah. Yeah, yes. They're trying to like avoid those negative cycles and the way to avoid that right is how you call the sub problem? Okay. So what ": [
+      1188.6,
+      1240.6,
+      26
+    ],
+    "want to give you a sense of what that chapter is about and a few of the key Concepts. Okay idea of hill climbing and this is more of a general algorithmic strategy. You also can hear about it as gradient descent or gradient descent interior Point method it basically the idea is you pick some random solution that follows the constraints. And you're trying to optimize it right? And ": [
+      1835.2,
+      1873.8,
+      43
+    ],
+    "was the sum f w of i t t - 1 + f w of T J T minus one. Okay. Now let's talk about ordering of the sub problems. Okay, this is just a ray is going to be like a three dimensional array. It's going to be like this big cube, right or big like rectangle rectangular prism and we're going to be filling in I guess it ": [
+      1456.7,
+      1493.6,
+      32
+    ],
+    "we had before you just add them all up. Why do we get stuck we end when there's no path? That means that if we let s be the set of all vertices reachable, then T is not an S and Basically, you can you can talk about all of the vertices that are unreachable from s right and kind of separate those two sets of vertices and the sum ": [
+      2815.6,
+      2852.6,
+      73
+    ],
+    "what we expected it to be but we're going to use this other parameter to help us to help us order the problems and get this dynamic programming algorithm to to work. So using only the vertices be one through VT as intermediate vertices. Okay. So what I want you guys to do is take a few minutes come up with the bass cases. Ready go. And remember when tea ": [
+      480.5,
+      542.8,
+      14
+    ],
+    "will be a cute because it's going to be in by and by and write your end of the number of vertices. It's working to be feeling it right now. Let's let's kind of think about a cross-section of that Cube. Okay, and let's suppose that t is going to be going in this direction carry like from zero up to end. Okay, so then a cross-section of this Cube? ": [
+      1493.6,
+      1526.1,
+      33
+    ],
+    "will go to that one and you'll always be able to get to an Optimum because the optimum corner is the only The only maximum there's no local maximum anymore. There's a there's a few kind of weird edge cases where maybe you're like on a ridge. So the optimum is the maximum is on like a an edge but in most cases this will work. particularly pipe it is ": [
+      2187.2,
+      2225.2,
+      53
+    ],
+    "work with. anything else any other questions about the exam or homework or anything? okay, so today basically what I want to do today is to do one more dynamic programming example and then we're going to start talking about linear programming and we're not going to go super deep into this concept. It's not going to be something that I expect you to know how to design linear programs. ": [
+      102.5,
+      148.8,
+      2
+    ],
+    "would be a cycle and we're trying to find shortest paths avoiding Cycles shortest simplepass. I guess I should say that. Okay. So, let me just do one more site here. Okay, so we have let me just rewrite it at w of i j t is equal to the minimum of the two cases. The first case was FW of i j t minus one. And the other case ": [
+      1412.9,
+      1456.7,
+      31
+    ],
+    "your flow. So the idea is find a path make the residual graph Now find another path make the residual graph and keep on updating the graph to this residual graph until there's no more pads left. Okay, so this is kind of the key observation the additive Ade. If f is a flow in the original a prime is a flow in the residual graph, then their sum is ": [
+      2708.7,
+      2741.5,
+      70
+    ],
+    "your solution space into some smaller Subspace and since they're linear you can think about it as it's like the the form of that Subspace is like a polygon or a polyhedron, right? It's it's basically like a some sort of three dimensional object or multi dimensional object where the faces are flat right through their planes or hyperplanes or something like that. Okay, so that's all well and good. ": [
+      2034.3,
+      2067.0,
+      49
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "03082019",
+  "Full Transcript": "Listen to a podcast.  Okay, so good afternoon. Everyone have a few announcements before we start.  if you haven't seen already then  I posted some practice problems.  For you guys to study the for the final and we're going to have a review session that goes basically over those practice problems and anything else you guys want to talk about that's going to be on Thursday.  Let me just take notes right on here so you can have access to it.  Okay, so Thursday  March  15 shoes me 14  I'm in Center 101 from 8 p.m.  Tonight 9:50 p.m.  And will podcast it so I know not everybody can come so it will have it podcast it for you. I know that is very  very close to the  final exam date, but you know, this is what we have to work with.  anything else  any other questions about the exam or homework or anything?  okay, so today basically what I want to do today is to  do one more  dynamic programming example  and then we're going to start talking about linear programming and we're not going to go super deep into this concept. It's not going to be something that I expect you to know how to design linear programs. It's more for me to just  They introduced it to you so that if you see it in the future, you kind of know what it is. And I know how to recognize when you can use a linear linear Programming type algorithm to solve it. Then we're going to look at one linear programming algorithm in particular that has to do with network flows, which can solve a whole bunch of problems. So that's another reason. I wanted to introduce it to you.  So after the dynamic programming, there's no more design type Concepts that I'm expecting you to learn. It's more just we're going to briefly go through a few Concepts from chapter 7 and then  Next week. We'll talk about P vs. NP. What are the consequences how to kind of show a certain problem is NP complete Define all those things and those types of questions will come up on the exam in like the true-false short answer type things. Okay.  Okay, so let's get started.  We're going to start off with the Floyd warshall algorithm. Okay, so if you recall last time we did the Bellman Ford algorithm. And what was nice about Bellman Ford was it gave us a efficient way to find the shortest path from one vertex to all the other vertices even in the presence of negative edges and on top of that it was able to detect negative Cycles.  And we saw that maybe it was a good tool if you wanted to do like a currency Arbitrage, but in order to use it, you have to pick a currency to start with and that's probably cuz usually probably a good idea because you usually have you know, your your country's currency that you start with and you might have a bank account with some of that. So that's a good place to start. But if you're just trying to figure out what is the best currency exchange from any point a to any point B, then you can use the Floyd warshall algorithm. You could also think about other reasons why you would want to use this right? Maybe this would give you the shortest path from any pair of cities and so you can build like a  Like a matrix like, you know the Matrix in the bottom corner of your Atlas, that's like all the shortest path to all the cities. That's essentially kind of what this is doing all though.  This is a Little Bit Stronger because it you it also works in the presence of negative edges.  Okay, so this is this is our goal.  So at the very least we have to we have to use + sqrt amount of time because that's the amount of information that we're trying to fill up the certainly this has to be big Omega event squared.  Now you could run bellman-ford and if you remember Bellman Ford takes.  I'm in Ford takes big O of NM time right? So you could run bellman-ford from every single vertex and get an X & M which is Big O of NM and square.  That's perfectly fine. But the Floyd warshall algorithm accomplishes this in Big O of n cubed time. So if you have a very dense algorithm, this will cut back some of that run time.  I noticed that this doesn't depend on the number of edges now. It just depends on the number of vertices.  Okay, so let's set this up together as a dynamic programming problem. Okay. So what are the types of subproblems going to be now?  It's kind of  easy to to think about the some problems have something to do with the shortest path between two vertices, but we're going to use this same sort of idea that we used in Bellman Ford and have some sort of restraint On The Edge on the path and Bellman Ford. We use like a budget of the number of edges with this we're going to think about the the past that go through certain edges the past that goes through certain vertices.  Okay. Kind of weird. But once we defined it in this way, you'll kind of get a feel for how we're going to proceed.  Okay, so the array values it's going to be a three dimensional array.  So we're going to have three parameters I J & T.  And this is going to hold this array values going to hold the up this sorry. This is wrong. This should be the length.  The shortest path from VI to VGA right? That's kind of what we expected it to be but we're going to use this other parameter to help us to help us order the problems and get this dynamic programming algorithm to to work.  So using only  the vertices be one through VT as intermediate vertices.  Okay. So what I want you guys to do is take a few minutes come up with the bass cases.  Ready go.  And remember when tea is equal to 0 we're saying that the the allowable intermediate vertices are is the empty set.  No, yasso intermediate means that that vertex is found somewhere along the path from VI to Vijay.  What's the temperature like today?  Viagra  is anybody have any bass cases?  No, you can have a pack. You can have a path with no with no intermediate vertices. What is that called?  No.  So like, okay. So what is this in general vij zero? That's the length of the shortest path from VI to Vijay using nothing as intermediate vertices the WhatsApp app with no intermediate vertices.  is 1  well, that's certainly true. I guess we could say that FW of I I would be.  Trivial, but let's think about if I was not equal to J.  They're connected by an edge. Right? And so the shortest path would have to just be the length of the edge, right?  That kind of makes sense.  The Edge is a path with no intermediate vertices.  shooting  Okay, so let's stay. So that's those are going to be all of our base cases. The next thing we need to do is figure out how to build a recursion.  Okay.  So what kind of information do we have? We have these three these three parameters, right and you can kind of think about them as represented by these three different vertices k v i v J & V T. So what is a question that we can ask these? What are the cases that we can split up? All of these shorts pads? We can split them up into several different cases. What are going to be those cases?  All the shortest path from VI to Vijay that go through this set.  Do it like this.  case one  in case 2  Okay, what what's the kind of like a simple way that we could divide the Divide all those those pads from vi2 VJ. How can we divide them into two?  Sort of subsets dependent on like a very simple rule.  if water connected by an edge  Okay, I'll give you a hint it has something to do with this.  Okay, good showcase one VT is included.  in the shortest path  VT is not included.  You guys beginning to see sort of like a theme for these cases often times. It's kind of like the the last object in your in your list. And you started just ask the question. Is it is it in is it supposed to be part of the subset or is it supposed to not be right? I know they don't all work like that. But this one it's a nice way to do it.  Okay, let me give myself a little bit more room here. Sorry.  Okay, let's some let's figure out what these cases mean. So let's do case to First.  VT is not part.  of shortest path  from VI to VGA  Then in this case w i g a t is going to be equal to what?  2 - 1 write f w of i j t minus one.  If you don't if it's better to not use it, then you just you just go down to the smaller set of the vertices one through T. -1 as your intermediate for a text.  Okay case one.  BTW is part.  of the shortest path  I take from I to the I to BJ.  Okay. So now this is where you kind of have to figure out how to use the other sub problems to your advantage. Okay. So if it is part that means that there's a path.  From vbi to VT and there's a path.  from VT to Vijay  and  the only intermediate vertices that I'm using in here.  Right are the vertices from 1 to T minus one?  And the intermediate vertices I'm using here are the vertices from 1 to T minus one also and really if you think about it.  if this is the shortest path from VI to Vijay, then that would those two sub past would have to be the shortest path from VI to VT and from VT to BJ, right and you add them together, so  What is the length of this path in terms of my array?  FW of  Maybe I want to give you guys a few minutes to talk it through fill in the three indices here and fill in the three indices here. Okay, ready go.  Right. So remember I guess I didn't write the whole.  Figure but remember we're trying to find the shortest path from VI to Vijay using only the vertices one through TV1 through VT.  Now you just got to order them in one way and stick to that order.  but then think about if  vi2 VT  I'm only considering the vertices 140 - 1 in that right?  Yeah.  Yeah, yes. They're trying to like avoid those negative cycles and the way to avoid that right is  how you call the sub problem?  Okay. So what are these ones on the left side eye.  tea and  T minus one  read because this. T minus one means that I'm only considering the vertices 130 - 1 as intermediate vertices.  I don't want to consider VT as an intermediate vertex cuz that means I I would have had to gone through a cycle to get to VT. Right we'll have to gone through it all ready to get back to it. And we're trying to avoid these negative Cycles. Okay. How about the other one?  the right one  t j  T minus one  remember the  we're looking we're looking for how to find the shortest path using only these vertices as intermediate vertices, right? So I know that I can't use BT at the intermediate vertex. So the only other intermediate vertices that are available to me are one through T minus one kind of the  Okay, so that's it.  FW of ijt is FW of i t t - 1 + f w of TJ T -1 and since I don't know which case is smaller. You just take the minimum of those two.  Cancel this what this is.  Does going through VT improve the length that's kind of the idea.  Okay question.  32j because that's the path. I guess. Let's go back to the definition of FW. Ijt it's the length of the shortest path from vertex. I to vertex J using only the vertices V12 VT and so  I put this T minus one here because I know that VT is not going to be in the  in the shortest path from VT to Vijay  Yeah, cuz if it were then that means that there would be a cycle and we're trying to find shortest paths avoiding Cycles shortest simplepass. I guess I should say that.  Okay.  So, let me just do one more site here.  Okay, so we have let me just rewrite it at w of i j t is equal to the minimum of the two cases. The first case was FW of i j t minus one.  And the other case was the sum f w of i t t - 1 + f w of T J T minus one.  Okay. Now let's talk about ordering of the sub problems.  Okay, this is just a ray is going to be like a three dimensional array. It's going to be like this big cube, right or big like rectangle rectangular prism and we're going to be filling in I guess it will be a cute because it's going to be in by and by and write your end of the number of vertices.  It's working to be feeling it right now. Let's let's kind of think about a cross-section of that Cube.  Okay, and let's suppose that t is going to be going in this direction carry like from zero up to end.  Okay, so then a cross-section of this Cube?  right  I need to fill in that entire cross-section until I move on to the next cross-section, right? And the reason I know that is because  this this T value is dependent on T -1 values.  All right. So if that's tea than T minus one is right here say  T minus 1 and this would be  Tea and The Ordering of the vertices. Does it really matter? You just have to kind of pick a ordering and stick with it. So you're basically feeling in that whole cross-section before you move on to the next one. So you see why that's important kind of The Ordering of the eyes and Jay's doesn't really matter so much but the ordering of the teas is what really matters the most. So whenever you're ordering the sub problems, you just have to make sure that your outer loop is the teas.  How can I make sense?  Okay, so here's a  Yours algorithm make sure that okay so first.  make all your  bass cases, I guess you could say f i j 0 is infinity if  VI IV Jay  Is not an edge.  And then start with T. Right cuz that's just going to go from cross-section to cross-section and then fill up the eyes of Jason and any order you want you may as well just fill them up in like this this very orderly fashion, but it doesn't really matter put in your thing. And then the output is just going to be  FW of ijn for all inj right? This is kind of like that last cross-section cuz I wanted to I wanted to know every the shortest path between every pair.  Yeah, it's just kind of like just fill up that cross section until you move on to the next one and it doesn't really matter what order you do it in because all of those are just based off the cross section from before.  Okay. So how much time does it take? Well, it's basically a triple for Loop each of size end. Right? So it's going to take Big O of n cubed time.  How about space?  How much space is this going to take up?  Also in queued right you're feeling up this big and buy an Cube.  Is there a does anybody see a way to reduce the amount of space?  Right, you can just kind of over right across section and only only keep two cross sections at a time filling your base case use that to fill in the next cross section and then overwrite your base case cross-section and didn't keep on going like this and then you only have to use up to and squared amount of space.  reuse cross-sections  42 N squared space  any questions  No, it would it would find I should have said that it finds all shortest simple pads all shortest simple pads.  No, it doesn't it doesn't give you negative Cycles doesn't show you where they are.  No, but bellman-ford is you have to give it a starting place. This one gives you all shortest paths from all pairs. So that's kind of the the advantage.  I guess you could use bellman-ford from a starting place and see if you find a a negative cycle or you might be even able to detect one out to think about that. You might be able to trip to.  To change the surround and Protect One.  Maybe doing one more cross section.  I don't know. I'll think about it.  Okay, let's move on to kind of the next topic.  Next chapter chapter 7 we're going to we're going to Breeze through it. I'm not going to spend a lot of time and on the details. I just kind of want to give you a sense of what that chapter is about and a few of the key Concepts. Okay idea of hill climbing and this is more of a general algorithmic strategy.  You also can hear about it as gradient descent or gradient descent interior Point method it basically the idea is you pick some random solution that follows the constraints.  And you're trying to optimize it right? And so in order to optimize it you kind of just look around to the local neighbors and go towards the neighbor that increase is the boy that gets a better solution, right either increases it or decreases it depending on if you're trying to find the maximum or minimum.  And then you just kind of follow this path. You can think about it as like your Solutions are some my terrain right in two dimensions.  And you are trying to find the maximum. So you're really trying to kind of climbing Hill. Okay, and so what you do, how do you climb a hill? You just keep on going up and then once you get to a point where there's no up anymore, you've gotten to the top of the hill, right? So this is this is really useful and it's it's not always going to give you the optimum because there might be local Optimum right and bigger Optimum, right? So  It's useful for approximation algorithms. And sometimes they're not guaranteed to give you the best answer but they are guaranteed to give you kind of a local maximum or Optimum.  Okay, so  what's kind of think about what is the consequence of these local Optimum?  You can so like I said, you can set you can kind of think about it as this two-dimensional.  Sharpest but really in in most problems are going to be like a very multi-dimensional surface that we can't imagine but it's still kind of follows the same local Optimum local max local men ideas.  Okay, so  balglobal optimum's are always Optima. The reverse is not always true.  Okay, so that's kind of just the basics of hill climbing linear programming is a special case of hill climbing and  So the way that it works is your problem needs to have a very particular form. The form needs to be that all the constraints and the objective functions all have to be linear. And so think about your solution space as some multidimensional space.  Linear constraints basically mean that you're kind of cutting off your solution space into some smaller Subspace and since they're linear you can think about it as it's like the the form of that Subspace is like a polygon or a polyhedron, right? It's it's basically like a some sort of three dimensional object or multi dimensional object where the faces are flat right through their planes or hyperplanes or something like that.  Okay, so  that's all well and good.  right  We get some multi-dimensional polyhedron.  But think about this the objective function is also linear.  Do you guys remember from calculus how to find the optimum value of a linear function?  in a in a polygon  mother of a linear function is 0 or is  Right, but what about you in two Dimensions if you have some polygons and there's a linear function on.  Kind of Define inside. What's a linear function in two Dimensions? It's a plane.  So where will you find the maximum in that?  closed sub  region  on the edges actually at the corners right remember that  No.  It's right here.  Okay, so well if you don't remember if you remember it, this is this is what linear programming is based on is that you're going to find the optimum at the corners and there's no local Optimum anymore because it's a linear function remember linear functions don't have local Optimum.  Optimum kind of happens at the boundary of your space in in in more detail actually happens at the corners queso linear programming is really cool. What it does is it picks a corner at random and then it looks at all of the neighbors of the corners whichever one increases the objective function it will go to that one and you'll always be able to get to an Optimum because the optimum corner is the only  The only maximum there's no local maximum anymore. There's a there's a few kind of weird edge cases where maybe you're like on a ridge. So the optimum is the maximum is on like a an edge but in most cases this will work.  particularly  pipe it is better than exponential.  Yeah, exactly. So  this is kind of my last.  Spiel about linear programming and then we'll go into a specific example and you'll kind of see a little bit more Hands-On on how this kind of thing works. So just like you said, how do you find those corners? And how do you deal with those Corners as you do a bunch of Matrix manipulations fairly simple extremely annoying and tedious for for me and you to do but for a computer it's very simple. And so there's this Simplex algorithm, which is basically the one I'm talking about where you kind of go through the corners and find where that maximum is and  It's it's a little complicated to implement but people implement it and it it's not very hard for the computer to do it doesn't take much time.  And I mean I wanted to introduce this to you is if you ever get a problem that can use when your programming then you can find some Simplex method and you can solve it relatively efficiently. If you use some other some other person's algorithm that they've already made.  Okay.  Now the next example is an example of a problem that you could solve with the Simplex method because it falls into all the categories where has linear constraints linear objective, but we're going to solve it in a more direct way that  that doesn't use matrices are all so don't worry about that. And then we're going to see that this particular problem is useful for other problems a lot of other problems reduced to it.  Okay. So this is the problem Network flow. Okay, what you're given is a graph with non Negative Edge weights or directed graph.  And there's those are called the capacity of the edges. Then you're given two vertices a source and a sink and what you want to do is figure out how to assign values to each Edge that creates a flow and I'll tell you what a flow is in a minute solution format is an assignment of non negative values to the E-Check.  So the constraints are that in every vertex. The amount of flow going in has to equal the amount of flow going out except for the source in the sink.  Basically have infinite.  Infinity ins and outs  Okay, and the other constraint is at the flow along an edge cannot exceed its capacity.  The objective is to maximize the total flow from s to T.  Let's look at an example.  Okay, so think about this as like a network of tunnels or pipes for water or something and you want to know how much water you can send from s-2t where these are the capacities of those pipes. Maybe those I could be like the diameter of the pipes and you want to know at what rate? Can you send for each diameter has a different rate?  Okay, so  this is actually a maximum flow.  I'm up. We'll kind of Explorer how to get to there. But if you can see I'm going to send two units along the two edged and only three along the 8th. It's fine because it is going to be like this big huge pipe, but I'm only sending three down it right once I get to see.  Those three kind of split up to two and one and you can kind of see that for each one of these intermediate vertices the flow in is going to equal to flow out.  And so I'm sending out a total of 5 from s and I'm receiving a total of 5 from T. Any questions about the  set up with a problem.  Okay.  Why is Network closed so important you can think about some applications traffic Network routing piping all these kind of things. There's a concept called Min cut, which will talk about in a minute and  That's also useful to know.  Another thing is that a lot of problems reduced to it, which will see you example of one of them and it's a special case of linear programming with a much more efficient solution than doing all the Matrix stuff. So if you have a linear Programming type problem, it might be able to reduce it to network flow.  Okay good.  So we're going to look at the Ford Fulkerson method. It's basically a hill climbing solution because we're going to start with some random solution and try to improve it along the way.  Stop will be able to represent. Can we make it better by this other question? Is there any flow in a residual Network? So I'll show you what a residual network is.  K2 the first thing we need to do is start with a flower doesn't have to be the maximum flow. It has to be a flow. How can I get like a flow really easily? What's one kind of quick way that we can get at least one non-trivial flow.  Okay, just take any path, right?  From source to sink. What about this one?  Now what Flo am I going to put on there?  The minimum of all of the edges, right? So 2K, we're going to start with that path and keep on improving it little by little until we can improve it anymore. And then once we're done that's going to be the maximum flow.  Okay, better than zero any path of non zero edges how much better but we can send the minimum capacity along that path. Okay. So here's the path. Here's the flow that corresponds to that top hat.  Okay. So the next thing we're going to do is make a residual graph the way you do that is however much flow you're sending you View flip that flow around and send it back and make a new Edge to send it back. So this whole thing is going to be a 2 coming back. This one is going to split the four into two going forward to going back.  And this one's going to split the 301 going forward to going back.  So basically the inside here is we can represent the Improvement by this residual flow.  Okay, and this is this is basically what I told you how to change the graph into a residual graph.  Okay, so this is that and then this is our residual graph.  Now what I claim, which is kind of like the insight into why this algorithm works is any flow from your original graph plus a flow from the residual graph will be a better flow for your original graph basil. You can only improve your flow. So the idea is  find a path make the residual graph Now find another path make the residual graph and keep on updating the graph to this residual graph until there's no more pads left.  Okay, so this is kind of the key observation the additive Ade.  If f is a flow in the original a prime is a flow in the residual graph, then their sum is a flow in the original graph.  So, let's see how that works. Let's pick another pack. Okay. So let's pick this bottom path. The smallest Edge is one. So that's going to be the flow of that path. And now let's create the residual graph by reversing all of those. Okay, you can kind of see that we're eliminating some of the path Pathways right as we go. Okay. Does anybody see any other paths?  Maybe going up that way.  It still works. Okay.  Let's get rid of those. Are there any pads left?  Yes, right, maybe this one.  Now update that  okay. Now are there any pads left know right was one indicator is that she doesn't have any incoming edges? Okay. So at this point we stopped and all of those residual.  Flo's all of those clothes that we had before you just add them all up.  Why do we get stuck we end when there's no path? That means that if we let s be the set of all vertices reachable, then T is not an S and  Basically, you can you can talk about all of the vertices that are unreachable from s right and kind of separate those two sets of vertices and the sum of all the edges that is in that cut right that's going to be your maximum flow. So for example,  I can actually reach all of these vertices from s right and these are all the vertices I can't reach s from s so the cut here is 5 because it's the sum of all the edges and that's going to be the network flow.  Okay, so I'm kind of running out of time here, but  I guess maybe on Monday. I'll show you one application of this and then we'll jump into PNP and kind of finish it up from there. And on Friday next Friday will probably just do like a quick overview and summary of the whole class and take it from there.  Okay. Have a nice weekend.  linear programming where you pick the perfect edges  UC San Diego podcast ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-03082019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-03082019-1500.mp3",
+  "File Name": "lecture_25.flac"
+}

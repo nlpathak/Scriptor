@@ -3,4 +3,6 @@ from elasticsearch_dsl.connections import connections
 
 import settings
 
-connections.create_connection(hosts=settings.ELASTICSEARCH['hosts'])
+
+def connect_to_es():
+    connections.create_connection(hosts=settings.ELASTICSEARCH['hosts'])

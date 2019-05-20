@@ -1,12 +1,23 @@
 # Scripts quickstart
 
-## download_podcast_data.py
-
-### Pre-requisites
+## Pre-requisites
 1. `pip install pipenv` (to install pipenv)
 2. `cd scriptor-backend && pipenv install`
 3. `pipenv shell` (to enter the virtualenv for the backend)
 
+
+### import_data_into_elasticsearch.py
+Run this script when running the backend for the very first time. It will import the transcription data for the podcast transcription files generated in the `fixtures` folder.
+1. `cd scriptor-backend`
+2. `docker-compose up`
+3. `pipenv shell`
+4. `PYTHONPATH=. python scripts/import_data_into_elasticsearch.py`
+5. `python app.py`
+
+And when you're done, run `docker-compose down` if you want to save the database data. 
+If you want to clear the saved database, run `docker-compose down -v` instead.
+
+### download_podcast_data.py
 This interactive script downloads the audio files & metadata of the podcasts for any given course.
 
 1. `cd scriptor-backend`

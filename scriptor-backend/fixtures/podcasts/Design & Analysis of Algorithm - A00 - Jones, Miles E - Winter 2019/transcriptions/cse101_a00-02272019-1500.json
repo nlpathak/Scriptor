@@ -1,0 +1,352 @@
+{
+  "Blurbs": {
+    "- 1 with the value of k + a - 1 right? I guess for this we should split it up into cases. I just get myself a little bit more room. I meant to do that. cake case one ik is part. of the max schedule then IJ through i k - 1 all conflict weather i k i mean this is this is basically the choice of aij. ": [
+      1429.6,
+      1502.8,
+      30
+    ],
+    "0. Right. That's our base case. Can I forget if I need the other base case? Right, if you just get down to zero, then you're fine. Right? Okay, the Swiss not included. Okay, so then you say four. I is equal to 1... Up to end. This is the this is the ordering that we chose. So you set what how did I do this? Well, let's find the ": [
+      1022.8,
+      1080.5,
+      23
+    ],
+    "How do you put in the spaces? Okay, so here's an example. You can maybe figure it out just by looking at it, but it might be more complicated than that. Okay, so the greedy approach would be to find the first real word remove it from the string and repeat it on the remaining string and if it doesn't work try a different way. So for example, my first ": [
+      1914.4,
+      1945.6,
+      41
+    ],
+    "I guess if you do the backtracking way, you don't have to worry about order it. All right? But you didn't sell. Brittany other questions or comments Okay, let's look at another example. Suppose you're given some string of letters and you want to and there's no spaces in between and you want to be able to like put spaces in between so that it makes a meaningful sentence with ": [
+      1851.0,
+      1887.8,
+      39
+    ],
+    "I mean if you just plug in 02 this we have I won through a 0 and I kind of that means that we talked about the empty set is the empty set of events the maximum value you can get from the empty set of events is 0 Do you like you can put a one is equal to 2 V to the value of one, right? I don't ": [
+      438.6,
+      469.4,
+      7
+    ],
+    "II then increment J. right No, baby, make this a while loop, right? Wow, the end time of IgA is less than the start time of II increment i j so you just try to get it until it goes past right? And then if it goes past that means it can flicks and all the other things Beyond it will conflict. Okay, then. Here we go. set an set ": [
+      1150.6,
+      1206.4,
+      25
+    ],
+    "Is that all the things in between J - 1 + K - 1 they all conflicts with ik so AK should be equal to the value of i k + K of Jay -1 because a of Jay -1 by the inductive hypothesis will give you the value of the maximum schedule from it. I want to change my next one. k-stew Ik is not part of the max ": [
+      1502.8,
+      1542.8,
+      31
+    ],
+    "Jay value takes up to an up to big event times in Reading in time. and for each iteration Big O of n operations Okay, so we get that the run time is Big O of N squared. Okay. Does anybody have any sugar question or comment? Oh, yeah, does anybody have a way that we can improve this algorithm? I'll go back to the algorithm. That's going to be ": [
+      1606.1,
+      1666.1,
+      33
+    ],
+    "Jay. Okay, so you say maybe Set Jay to be equal to 1. and then or should we start it from K - I mean which we started from i - 1 how do I do this? Okay, let's just do it like this start J equal to 1. if the start time of the end time of J. RN time of IJ is less than the start time of ": [
+      1080.5,
+      1150.6,
+      24
+    ],
+    "Listen to a podcast. All right. So let's get started. I think I'll start off with. Maybe giving a clear. Idea of what's going to be on the quiz that we talked about it before but maybe I just didn't write it all down so Quiz 3. The topic is going to be divide and conquer. Okay, so it's going to be sort of the same format. There's going to ": [
+      1.9,
+      146.9,
+      0
+    ],
+    "Okay, so What do I want my dynamic programming algorithm to Output? What are going to be my array values? So here I'm not trying to find the maximum of something or the minimum of something instead. All I really want to know is can I make a string of words up to this point and so my array values are going to be true and false has Okay, so ": [
+      1988.0,
+      2016.7,
+      43
+    ],
+    "You wouldn't be eating a steak. Wasn't he? Was any vegetarian? Maybe it's like Abraham in the Bible. I don't know if that's a word you who wants to be a word? Okay, who you guys were who doesn't want it to be a word? It's not a word. Okay, but not get it. So this is false. Sorry guys, you can see how this algorithm is dependent on the ": [
+      2647.4,
+      2688.2,
+      58
+    ],
+    "a of I to be equal to the max of a of Pi minus one, value of I want II plus a of J - 1 threatening the very end you say return. a an any questions I put Jay -1 there because if you do this while loop and you'll kind of like overshoot it by one, right? Cuz you're just kind of incrementing it up until it it ": [
+      1206.4,
+      1263.7,
+      26
+    ],
+    "about what it should be. Okay. So what a real value should the final output be here. That is the number of a good but sometimes it's I might be different than this. You might have to take the maximum over the whole array values something like that. Okay, so that's basically it that that kind of concludes the design portion of the dynamic programming algorithm. The next step is ": [
+      900.5,
+      948.5,
+      20
+    ],
+    "algorithms. But for this class for this lesson, I always want you two to do the bottom up for all the algorithms because do it, you know changing from one to the other is is just trivial right there bear if you can do one you can do the other so I'm going to make it a rule that we only do it this way. I guess but I know ": [
+      1827.0,
+      1851.0,
+      38
+    ],
+    "and false, otherwise questions about that This is good because it's just like our problem specification now that we've kind of shape change it out and you might be wondering. Well, that's all well and good at the end. I'm going to get either true or false. How do I know where to put the spaces and I'll show you how to keep track of that. Okay, so defined the ": [
+      2147.5,
+      2174.9,
+      46
+    ],
+    "and greater than 0 right. We want to do a strong inductive hypothesis because we're going to go back by more than one. Yeah, because then you want to show up for an so then the inductive step. Is that well. a n maybe I shouldn't use an here. Let's use. Shoot I use cat. Let's use ink. I hi, okay. AK is equal to the max of a k ": [
+      1375.9,
+      1429.6,
+      29
+    ],
+    "are you building your word like this? From the a back or you building it from one up. So if we're thinking about back then a is a word, right? And 5 is true. So we're going to put five there. Also be three, but that depends on how you implement it and whatever you get from this this algorithm that these previous pointers. It's not going to be a ": [
+      2529.6,
+      2566.3,
+      55
+    ],
+    "array values we already did that. What is the base case? COS of 0 is counts an empty string of words is a valid string of words. Yeah. Maybe I should be silent for the rest of the class. Okay. Now it was let's talk about your expression recursively. Okay, so this might be hard to fit in here, but what do I call it? Okay, whatever doesn't matter we ": [
+      2174.9,
+      2247.3,
+      47
+    ],
+    "basically saying that every time you go through the loop you have correctly assigned the right value for that a real element. So clean a k his the weight of the max schedule for events I won through i k k bass case. Hey of 0 is 0. That checks out inductive hypothesis assume a of K. is correctly set for all K in between 0 and N for some ": [
+      1319.6,
+      1375.9,
+      28
+    ],
+    "be 5. true false short answer questions And they're going to be about like the run times of algorithms Racine in class standard kind of divide and conquer type Concepts Master theorem type things and then there will be one design question. And it'll be about trees. about trees any questions Yeah, I'm going to give you a problem. That has to do with trees and I want you to ": [
+      146.9,
+      204.4,
+      1
+    ],
+    "called it a Tsar. Okay, so I want to basically Express Sr of K in terms of the the lower values, right? So When will SK be true? I lusting for you in case that's it is SRX of RVs true and then Springfield. Write this like what you were saying, right? Yeah, so this is true. if there exists I think I saw I put it as J in ": [
+      2247.3,
+      2301.5,
+      48
+    ],
+    "come up with a divide-and-conquer algorithm to solve the problem. I don't I still don't know. What what do you prefer? Oh. I might not tell you until I might not tell you beforehand. allowed avocado I think he meant like the balance between the true and false versus the design. Whereas like on the first. Yeah. I was like 10 and 10 on the first quiz, and then it ": [
+      204.4,
+      258.3,
+      2
+    ],
+    "crosses over. I guess this should be less than or equal to is that right? pending on Okay, any questions about that? pretty simple or pretty crazy All right. So let's do a quick correctness proof. The correctness proves are always going to be by induction and it's just basically showing that your recursion is correct, right? so claim basically this correctness proof is like a loop invariant. You're just ": [
+      1263.7,
+      1319.6,
+      27
+    ],
+    "dictionary that you give it, right? The dictionary is also like this thing. It has to look up words. okay, let's finish this off T Wright true from from 8 we have font-weight her F either true from 7, right we have ether and true from 7. And then I think false false true from 11 and true from 11 practice activities are the rule. These are the rules. I ": [
+      2688.2,
+      2729.4,
+      59
+    ],
+    "do it on this slide. He basically just like put a thing in here that says or until E30 iterations or whatever the biggest word sizes I'll leave the implementation to you guys. Okay, so see you guys on Friday for the quiz. And then on Monday, we'll do some more dynamic programming problems. some yeah, we'll do some more. UC San Diego podcast for more visit podcast. Ucf.edu ": [
+      2962.6,
+      3011.9,
+      67
+    ],
+    "don't know if you guys figured out the the code yet. I kind of kind of spoiled it for you. Okay. So then you say of course it's going to be a space here. And then I look at 11. So I go back to the 11th put a space here. Look at the eighth. Go back to the eighth put a space there get the 5-4 space there. And ": [
+      2729.4,
+      2751.6,
+      60
+    ],
+    "events from I one up to a certain point that's like right before I K begins. That's going to be VK plus a of one through let's call it J. where i j is the last event to end before i k begins Hey, so that's what this one. That's what this one. Okay, any questions about that? Oh, sorry. You're right. It should just be a j. Can AJ ": [
+      656.0,
+      716.9,
+      13
+    ],
+    "finding that Jay value, but it should be pretty easy. Okay, so let's just put it together. How did I do this? I have some notes Here. Okay, so Let's call it Max subset. Okay, I got I won up to in and let's say that these are sorted. by and times stop initialize an array a that goes from 01 up to end. Set a of 0 equal to ": [
+      972.1,
+      1022.8,
+      22
+    ],
+    "first word you're going to find is he right? But remember I had that and statement AJ plus one through a k has to be a word and ask a has to be true to bsj has to be true. But you see that ass one is false. So that doesn't help we have to kind of keep on going back. Can you keep on going back and you find ": [
+      2466.7,
+      2492.3,
+      53
+    ],
+    "for this to kind of figure out the later. Thanks. Okay, if I K is part of the max schedule then I definitely need the value. Of that event, right? And then I can't take any events that will conflict with it. But we've ordered it by end times. So those events are ordered very nicely where you can kind of think about. Okay? Why don't I take all the ": [
+      625.6,
+      656.0,
+      12
+    ],
+    "freedom with a different variable. Okay. So for example, this problem says I want to know the The maximum schedule using events. I won through in so inside my each array value I'm going to say let's say that my array value is a of K. Is it going to be equal to the max? value schedule using events I won through i k Okay, so just Parts always like ": [
+      342.5,
+      394.0,
+      5
+    ],
+    "had some sort of probabilistic thing and you can kind of do it that way and I use sort of patterns in the English language and stuff like that and you might be able to get it but it wouldn't be Why wouldn't there be like some sort of likelihood that it wouldn't do it correctly or something? Any other questions about this? Oh the change the algorithm that I ": [
+      2929.3,
+      2962.6,
+      66
+    ],
+    "hard to use binary search for. Oh, I didn't think about doing it that way. That's a good idea. Just do some work in the beginning that will only take linear time to do right and you find for each each interval you find the last interval that ends right before it and then you can get it in constant time. I was thinking more about along the lines of ": [
+      1666.1,
+      1700.6,
+      34
+    ],
+    "have a co-pay all I need are the the values below it. So working my way up would be a good order to do. Thanks for the bottom up order would be start from zero and Go up to end. So usually that's going to be what it is once we get into. What did I write in my notes Here? They may be like order from 04 order sub ": [
+      801.1,
+      848.0,
+      17
+    ],
+    "in War I want you to say it in words. This is going to be a good like a roadmap for how to read your algorithm in what I what your algorithm is supposed to be putting in those array values. Okay, and I'll just put a note down here that. I won through i k are ordered. Buy an X. now bass cases What is a of 0? 0 ": [
+      394.0,
+      438.6,
+      6
+    ],
+    "instead of searching for Jay from from one up to k u search from K - 1 back and then you're only You're only deleting the intervals in between. you can get this down to linear Time by doing by being a little bit more careful, but that is not the did the idea is there and that's what I really want you guys to have is the idea. This ": [
+      1700.6,
+      1732.2,
+      35
+    ],
+    "is this is the most important thing. Is getting this part here, right? And even if you just kind of say what this is without implementing it efficiently. That's what's most important. Okay. Okay. Any questions about this one go on to the next example? ovulating early Yes. volume Yes. Yes, potentially you don't have to fill up the array so that is called memoization and it's it's a way ": [
+      1732.2,
+      1799.7,
+      36
+    ],
+    "is write the interval at the event? I want to buy Jay all the things there. Okay good. So this is sort of like the hard the hardest part the most psych part that requires the most amount of cleverness. This is the kind of the most creative part of the algorithm everything else. Now we can just kind of plug it in and figure it out the only kind ": [
+      716.9,
+      744.2,
+      14
+    ],
+    "it's going to be. Is equal to the max of these two things? Okay, I K is part of the max. schedule if i k Is not part. of the max schedule if i k is let's do the bottom one first. If i k is not part of the max schedule then AK is going to be equal to what Was just a k - 1 right? Yeah. So ": [
+      534.6,
+      595.9,
+      10
+    ],
+    "kind of where the backtracking part comes answer the question. We already did this in backtracking. The question was is in part of the set or not. Right? And so what I'm going to say is is Ike a part of the set or not. Okay. So AK. Is going to be equal to two things. The top thing is if I K is part. Actually, sorry not equal 2 ": [
+      502.3,
+      534.6,
+      9
+    ],
+    "let's let's simplify the question 2. Is it possible to make a string of words out of the string? to make Hey string. of words from the string S1 up to SN. So then I'm going to make my what did I call this? What you guys want to call this one for the array the name of the array? Sr4, string reconstruction. Okay. What is Sr of K? In ": [
+      2016.7,
+      2085.8,
+      44
+    ],
+    "let's say the biggest word is 30 letters long. Can you only have to go back 30 30 letters per time so you can cut this this part down to constant 30 is a constant so you can cut this down to constant and you get a linear algorithm. I don't know. I don't think you can get better than linear to do this kind of thing. Maybe if you ": [
+      2895.3,
+      2929.3,
+      65
+    ],
+    "like we have here. It just need to find a order where every time I go to the next step I have enough information to compute it right now if we look at our our recursion you see that? K here is bigger than Jay and it's bigger than K - 1 so that means that if I start from zero and work my way up, right every time I ": [
+      770.0,
+      801.1,
+      16
+    ],
+    "meaningful words. so if we're actually trying to get like a meaningful sentence in meaningful words, we have to put in a bunch of grammar stuff. So I'm just going to say a meaningful sentence is any string of English words? Okay, so it doesn't have to make sense that just a string of English words. Maybe it came from some document or whatever and it's supposed to make sense. ": [
+      1887.8,
+      1914.4,
+      40
+    ],
+    "my pseudocode. There is a CJ such that. Srj. is true and ask Jay plus one up to SK is a word. right less than k Yes. Okay now and then and let's say Sr of K is false. Otherwise Okay order the sub problems from 0 to n no problem output is going to BSR of N and I remember the outputs just going to be a true false ": [
+      2301.5,
+      2365.2,
+      49
+    ],
+    "of other tricky part of this particular problem is how do I implement this? How do I make that Jay? How do I come up with what that Jay is but it's not too tricky right? You can just have this while loop that keeps on going back until you find it. Okay, so in step for this part is going to be pretty trivial for these 1 dimensional arrays ": [
+      744.2,
+      770.0,
+      15
+    ],
+    "or like a Q then do you think it's really necessary to go all the way back through the entire script to go back to the beginning of the of the text to show that the last let the last letter is not part of any word. Get the max length. I got to go to go to the dictionary find the biggest word possible like super super super Anyhow, ": [
+      2860.6,
+      2895.3,
+      64
+    ],
+    "out how to implement this thing. How do you implement of their existing you just going to make me have to look through them and and try each one of them out? Okay, let's look at actually how this gets filled. This might be helpful for you to think about now along with the array value is I'm also going to keep a previous value preev. And that's going to ": [
+      2403.9,
+      2430.3,
+      51
+    ],
+    "problems from 0 to n. Once we get into the two-dimensional arrays, then it's going to be a little bit. Let's take a little bit more care because you know, you can't just linearly go through a two-dimensional array. You kind of have to tell me in what order the computer is going to go through all those cells. But I still like for you to do it just so ": [
+      848.0,
+      873.2,
+      18
+    ],
+    "real word is the my last real word is C. and then There are no other real words, right? So then maybe I don't pixie and I picked seer. And then either and so you can see that you can maybe get into like these these pads on your search tree that could leave you down to dead ends. Right? So let's try a different approach a dynamic programming approach. ": [
+      1945.6,
+      1987.0,
+      42
+    ],
+    "schedule. then the max schedule I want to i k is equal to the max schedule. I want to i k - 1. and a k is equal to 18 - 1 so you have those two cases and you just take the maximum of the two. Okay last part runtime analysis. Well, we can go back to the algorithm. But basically you're iterating. end times And the finding that ": [
+      1542.8,
+      1606.1,
+      32
+    ],
+    "so we have and iterations. trip Big O of N squared Okay, can anybody think of an improvement for this? Think about if you had the whole the whole Bible in front of you, how many pages is The Bible like 500 or something? And you had no spaces you're at the very last line in there was a typo and there was a x at the end. There's something ": [
+      2825.1,
+      2860.6,
+      63
+    ],
+    "tell you where for each true. It's going to tell you where that true came from and then you at the end you can kind of Trace back the trews and that'll give you the spaces. Okay. so acid one true or false False, right? How about as of 2? false True right now if you're if you're starting from p and looking back until you find a word the ": [
+      2430.3,
+      2466.7,
+      52
+    ],
+    "that you get into the Habit. It's a very easy thing to do. And in fact, whatever you put here this is going to be what your for Loop the range of your for Loop. Also, this part is usually pretty simple and pretty trivial but I also like you to write it just because sometimes it's not what you expected to be and you have to kind of think ": [
+      873.2,
+      900.5,
+      19
+    ],
+    "the so this is a word and S of zero is true. So you get you put a t here. I'm sorry T hear and you put 0 there for your previous cuz that's where it came from. Okay, how about 4 False rank 5 true also from 0 right? okay, how about 6 true Right, I guess there's like an ambiguity here. It kind of depends on are you ": [
+      2492.3,
+      2529.6,
+      54
+    ],
+    "the synaptic a good and now it's go through my my 7678 whatever however many steps it takes. To do this. Okay, step one to find a sub problems in the corresponding array. So we did this last time just want to reiterate the kind of the strategy for this part 9 times out of 10, you just restate the problem specification, but you change one of the degrees of ": [
+      308.5,
+      342.5,
+      4
+    ],
+    "the the word the valid word Okay. So how long is it going to take to find that valid word, right we start from K and we keep on going back right so it could go all the way back to the beginning if you want to figure out if any of those things are words. So this is going to take up to Big O of end-time, right? And ": [
+      2790.5,
+      2825.1,
+      62
+    ],
+    "then 0 means I go back to the beginning and so those are where the space is go. And so you could see how putting in those previous is it's pretty be a pretty easy thing to do in your implementation and you can get a loan. Okay, so let's look at the runtime. So basically this part is just going. through previous pointers Pinterest and this is like finding ": [
+      2751.6,
+      2788.1,
+      61
+    ],
+    "think it's really necessary in this one. Okay. Now let's do the recursion for the sub problems. So here's what we want to do is show how a k relates to a of smaller values often times. This part will be a Will have kind of a two different values and it sort of dependent on the same sort of questions that we were asking in backtracking. So this is ": [
+      469.4,
+      502.3,
+      8
+    ],
+    "to implement dynamic programming algorithms and it's exactly what you say. You just basically do the backtracking structure, but But whenever you do another recursive call you check to see if you've already computed that value. You keep it in some sort of like dictionary or hash value of a hash table or something like that. So that's a good that's a good way to implement a lot of these ": [
+      1799.7,
+      1827.0,
+      37
+    ],
+    "to put it to implement at how are you going to put it into like some sort of pseudocode? You just basically want to feel that a r a step-by-step and the way that you feel it is using the recursion. And so we've had we have all the ingredients we put in steps 1 through 5. The only thing that we're kind of missing is how do you implement ": [
+      948.5,
+      972.1,
+      21
+    ],
+    "unique solution. There could be more than one solution. And so all this really does is give you a solution if there if there exists one or tell you for certain that no solution exists. Let's keep on going. How about 7? True, right because you have ear but asses false, but you have Seer and he's true. So this came from 3. okay, how about 8 also true because ": [
+      2566.3,
+      2606.8,
+      56
+    ],
+    "value, that's fine I'll show you how to think about building up the solution building up where those spaces should go after you've done your logrhythm. I got any questions about that. Okay here I have a This is just what I put. I put ass instead of a Tsar. Oh well. So again, like this is the whole algorithm pretty much the only tricky part is to maybe figure ": [
+      2365.2,
+      2403.9,
+      50
+    ],
+    "was like 10 and 20 on the second Quest. But I think I will try to break it up into parts so that you know. but still Any other questions? Yes. Okay, let's uh continue where we left off. We talked about dynamic programming. Examples and then we're going to try to apply it to this wait, wait event scheduling problem. Okay, so we already did that. Write this in ": [
+      258.3,
+      308.5,
+      3
+    ],
+    "words, what is it supposed to represent? Chad Okay, you're getting a little ahead of me cuz that's going to be our. Recursion but what what do you expect in words to be too for this thing to be? It will be true, right? Okay. Yes good. So this is going to be equal to true. If it is possible. to make a string of words From S1 through SK. ": [
+      2085.8,
+      2146.3,
+      45
+    ],
+    "yeah, we want to put it in terms of the that array. and if you're having trouble with this just translate what a k - 1 should mean right go back to your Define definition AK - 1 is the max value schedule using only of the events. I want to i k - 1. Hopefully you can kind of go back and forth and use use what you wrote ": [
+      595.9,
+      625.6,
+      11
+    ],
+    "you have our and 5 is true. You got to get to the get the hang of it. What about 9 false, right? 10 Looks like we have t h e t h r t h e r f e r s. cirith Cirith is that like how Adam cook the steak when he was cooking for Eve Adam cyr at the stake for all of the animals in Eden? ": [
+      2606.8,
+      2647.4,
+      57
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "02272019",
+  "Full Transcript": "Listen to a podcast. All right.  So let's get started. I think I'll start off with.  Maybe giving a clear.  Idea of what's going to be on the quiz that we talked about it before but maybe I just didn't write it all down so Quiz 3.  The topic is going to be divide and conquer.  Okay, so it's going to be sort of the same format. There's going to be 5.  true false short answer  questions  And they're going to be about like the run times of algorithms Racine in class standard kind of divide and conquer type Concepts Master theorem type things and then there will be one design question.  And it'll be about trees.  about trees  any questions  Yeah, I'm going to give you a problem.  That has to do with trees and I want you to come up with a divide-and-conquer algorithm to solve the problem.  I don't I still don't know. What what do you prefer?  Oh.  I might not tell you until I might not tell you beforehand.  allowed  avocado  I think he meant like the balance between the true and false versus the design. Whereas like on the first. Yeah. I was like 10 and 10 on the first quiz, and then it was like 10 and 20 on the second Quest.  But I think I will try to break it up into parts so that you know.  but still  Any other questions?  Yes.  Okay, let's uh continue where we left off. We talked about dynamic programming.  Examples and then we're going to try to apply it to this wait, wait event scheduling problem. Okay, so we already did that.  Write this in the synaptic a good and now it's go through my my 7678 whatever however many steps it takes.  To do this. Okay, step one to find a sub problems in the corresponding array. So we did this last time just want to reiterate the kind of the strategy for this part 9 times out of 10, you just restate the problem specification, but you change one of the degrees of freedom with a different variable. Okay. So for example, this problem says I want to know the  The maximum schedule using events. I won through in so inside my each array value I'm going to say let's say that my array value is a of K.  Is it going to be equal to the max?  value schedule  using  events  I won through i k  Okay, so just Parts always like in War I want you to say it in words. This is going to be a good like a roadmap for how to read your algorithm in what I what your algorithm is supposed to be putting in those array values.  Okay, and I'll just put a note down here that.  I won through i k are ordered.  Buy an X.  now bass cases  What is a of 0?  0 I mean if you just plug in 02 this we have I won through a 0 and I kind of that means that we talked about the empty set is the empty set of events the maximum value you can get from the empty set of events is 0  Do you like you can put a one is equal to 2 V to the value of one, right?  I don't think it's really necessary in this one.  Okay. Now let's do the recursion for the sub problems.  So here's what we want to do is show how a k relates to a of smaller values often times. This part will be a  Will have kind of a two different values and it sort of dependent on the same sort of questions that we were asking in backtracking. So this is kind of where the backtracking part comes answer the question. We already did this in backtracking. The question was is in part of the set or not. Right? And so what I'm going to say is is Ike a part of the set or not. Okay. So AK.  Is going to be equal to two things. The top thing is if I K is part.  Actually, sorry not equal 2 it's going to be.  Is equal to the max of these two things? Okay, I K is part of the max.  schedule  if i k  Is not part.  of the max schedule  if i k is let's do the bottom one first. If i k is not part of the max schedule then AK is going to be equal to what  Was just a k - 1 right? Yeah. So yeah, we want to put it in terms of the that array.  and if you're having trouble with this just translate what a k - 1 should mean right go back to your  Define definition AK - 1 is the max value schedule using only of the events. I want to i k - 1.  Hopefully you can kind of go back and forth and use use what you wrote for this to kind of figure out the later. Thanks.  Okay, if I K is part of the max schedule then I definitely need the value.  Of that event, right?  And then I can't take any events that will conflict with it. But we've ordered it by end times. So those events are ordered very nicely where you can kind of think about. Okay? Why don't I take all the events from I one up to a certain point that's like right before I K begins.  That's going to be VK plus a of one through let's call it J.  where i j  is the last  event  to end  before i k begins  Hey, so that's what this one.  That's what this one.  Okay, any questions about that?  Oh, sorry. You're right. It should just be a j.  Can AJ is write the interval at the event? I want to buy Jay all the things there.  Okay good. So this is sort of like the hard the hardest part the most psych part that requires the most amount of cleverness. This is the kind of the most creative part of the algorithm everything else. Now we can just kind of plug it in and figure it out the only kind of other tricky part of this particular problem is how do I implement this? How do I make that Jay? How do I come up with what that Jay is but it's not too tricky right? You can just have this while loop that keeps on going back until you find it.  Okay, so in step for this part is going to be pretty trivial for these 1 dimensional arrays like we have here. It just need to find a order where every time I go to the next step I have enough information to compute it right now if we look at our our recursion you see that?  K here is bigger than Jay and it's bigger than K - 1 so that means that if I start from zero and work my way up, right every time I have a co-pay all I need are the the values below it. So working my way up would be a good order to do. Thanks for the bottom up order would be start from zero and  Go up to end.  So usually that's going to be what it is once we get into.  What did I write in my notes Here?  They may be like order from 04 order sub problems from 0 to n. Once we get into the two-dimensional arrays, then it's going to be a little bit.  Let's take a little bit more care because you know, you can't just linearly go through a two-dimensional array. You kind of have to tell me in what order the computer is going to go through all those cells.  But I still like for you to do it just so that you get into the Habit. It's a very easy thing to do. And in fact, whatever you put here this is going to be what your for Loop the range of your for Loop.  Also, this part is usually pretty simple and pretty trivial but I also like you to write it just because sometimes it's not what you expected to be and you have to kind of think about what it should be. Okay. So what a real value should the final output be here.  That is the number of a good but sometimes it's I might be different than this. You might have to take the maximum over the whole array values something like that.  Okay, so that's basically it that that kind of concludes the design portion of the dynamic programming algorithm. The next step is to put it to implement at how are you going to put it into like some sort of pseudocode?  You just basically want to feel that a r a step-by-step and the way that you feel it is using the recursion. And so we've had we have all the ingredients we put in steps 1 through 5. The only thing that we're kind of missing is how do you implement finding that Jay value, but it should be pretty easy.  Okay, so let's just put it together.  How did I do this? I have some notes Here.  Okay, so  Let's call it Max subset.  Okay, I got I won up to in and let's say that these are sorted.  by and times  stop initialize  an array  a that goes from 01 up to end.  Set a of 0 equal to 0.  Right. That's our base case.  Can I forget if I need the other base case?  Right, if you just get down to zero, then you're fine. Right? Okay, the Swiss not included.  Okay, so then you say four.  I is equal to 1... Up to end.  This is the this is the ordering that we chose.  So you set what how did I do this?  Well, let's find the Jay. Okay, so you say maybe  Set Jay to be equal to 1.  and then  or should we start it from K - I mean which we started from i - 1  how do I do this?  Okay, let's just do it like this start J equal to 1.  if  the start time of the end time of J.  RN time of IJ  is less than  the start time of II  then increment J.  right  No, baby, make this a while loop, right?  Wow, the end time of IgA is less than the start time of II increment i j so you just try to get it until it goes past right? And then if it goes past that means it can flicks and all the other things Beyond it will conflict.  Okay, then.  Here we go.  set an set a of  I to be equal to the max of a of Pi minus one,  value of I want II  plus a of J - 1  threatening the very end you say return.  a an  any questions  I put Jay -1 there because if you do this while loop and you'll kind of like overshoot it by one, right? Cuz you're just kind of incrementing it up until it it crosses over.  I guess this should be less than or equal to is that right?  pending on  Okay, any questions about that?  pretty simple or pretty crazy  All right. So let's do a quick correctness proof. The correctness proves are always going to be by induction and it's just basically showing that your recursion is correct, right?  so  claim basically this correctness proof is like a loop invariant. You're just basically saying that every time you go through the loop you have correctly assigned the right value for that a real element. So clean a k  his  the weight  of the max schedule  for events  I won through i k k bass case.  Hey of 0 is 0.  That checks out inductive hypothesis assume a of K.  is correctly  set  for all K in between 0 and N for some and greater than 0 right. We want to do a strong inductive hypothesis because we're going to go back by more than one.  Yeah, because then you want to show up for an so then the inductive step. Is that well.  a n  maybe I shouldn't use an here. Let's use.  Shoot I use cat. Let's use ink.  I  hi, okay.  AK  is equal to the max of  a k - 1  with the value of k + a - 1 right?  I guess for this we should split it up into cases. I just get myself a little bit more room.  I meant to do that.  cake case one  ik is part.  of the max  schedule  then  IJ through i k - 1 all conflict  weather i k i mean this is this is basically the choice of aij. Is that all the things in between J - 1 + K - 1 they all conflicts with ik  so  AK should be equal to the value of i k + K of Jay -1 because a of Jay -1 by the inductive hypothesis will give you the value of the maximum schedule from it. I want to change my next one.  k-stew  Ik is not part of the max schedule.  then the max schedule  I want to i k is equal to the max schedule. I want to i k - 1.  and a k  is equal to 18 - 1  so you have those two cases and you just take the maximum of the two.  Okay last part runtime analysis.  Well, we can go back to the algorithm. But basically you're iterating.  end times  And the finding that Jay value takes up to an up to big event times in Reading in time.  and for each  iteration  Big O of n  operations  Okay, so we get that the run time is Big O of N squared.  Okay. Does anybody have any sugar question or comment?  Oh, yeah, does anybody have a way that we can improve this algorithm?  I'll go back to the algorithm.  That's going to be hard to use binary search for.  Oh, I didn't think about doing it that way. That's a good idea. Just do some work in the beginning that will only take linear time to do right and you find for each each interval you find the last interval that ends right before it and then you can get it in constant time.  I was thinking more about along the lines of instead of searching for Jay from from one up to k u search from K - 1 back and then you're only  You're only deleting the intervals in between.  you can get this down to linear Time by doing by being a little bit more careful, but that is not the  did the idea is there and that's what I really want you guys to have is the idea. This is this is the most important thing.  Is getting this part here, right? And even if you just kind of say what this is without implementing it efficiently. That's what's most important.  Okay.  Okay. Any questions about this one go on to the next example?  ovulating early  Yes.  volume  Yes.  Yes, potentially you don't have to fill up the array so that is called memoization and it's it's a way to implement dynamic programming algorithms and it's exactly what you say. You just basically do the backtracking structure, but  But whenever you do another recursive call you check to see if you've already computed that value. You keep it in some sort of like dictionary or hash value of a hash table or something like that.  So that's a good that's a good way to implement a lot of these algorithms. But for this class for this lesson, I always want you two to do the bottom up for all the algorithms because do it, you know changing from one to the other is is just trivial right there bear if you can do one you can do the other so I'm going to make it a rule that we only do it this way.  I guess but I know I guess if you do the backtracking way, you don't have to worry about order it. All right?  But you didn't sell.  Brittany other questions or comments  Okay, let's look at another example.  Suppose you're given some string of letters and you want to and there's no spaces in between and you want to be able to like put spaces in between so that it makes a meaningful sentence with meaningful words.  so  if we're actually trying to get like a meaningful sentence in meaningful words, we have to put in a bunch of grammar stuff. So I'm just going to say a meaningful sentence is any string of English words? Okay, so it doesn't have to make sense that just a string of English words. Maybe it came from some document or whatever and it's supposed to make sense. How do you put in the spaces?  Okay, so here's an example.  You can maybe figure it out just by looking at it, but it might be more complicated than that.  Okay, so the greedy approach would be to find the first real word remove it from the string and repeat it on the remaining string and if it doesn't work try a different way. So for example, my first real word is the  my last real word is C.  and then  There are no other real words, right? So then maybe I don't pixie and I picked seer.  And then either and so you can see that you can maybe get into like these these pads on your search tree that could leave you down to dead ends. Right? So let's try a different approach a dynamic programming approach.  Okay, so  What do I want my dynamic programming algorithm to Output? What are going to be my array values? So here I'm not trying to find the maximum of something or the minimum of something instead. All I really want to know is can I make a string of words up to this point and so my array values are going to be true and false has  Okay, so let's let's simplify the question 2. Is it possible to make a string of words out of the string?  to make  Hey string.  of words  from the string S1 up to SN.  So then I'm going to make my what did I call this?  What you guys want to call this one for the array the name of the array?  Sr4, string reconstruction.  Okay. What is Sr of K?  In words, what is it supposed to represent?  Chad  Okay, you're getting a little ahead of me cuz that's going to be our.  Recursion but what what do you expect in words to be too for this thing to be?  It will be true, right? Okay. Yes good. So this is going to be equal to true.  If it is possible.  to make  a string  of words  From S1 through SK.  and false, otherwise  questions about that  This is good because it's just like our problem specification now that we've kind of shape change it out and you might be wondering. Well, that's all well and good at the end. I'm going to get either true or false. How do I know where to put the spaces and I'll show you how to keep track of that. Okay, so defined the array values we already did that.  What is the base case?  COS of 0 is  counts  an empty string of words is a valid string of words.  Yeah.  Maybe I should be silent for the rest of the class.  Okay. Now it was let's talk about your expression recursively.  Okay, so  this might be  hard to fit in here, but  what do I call it? Okay, whatever doesn't matter we called it a Tsar.  Okay, so I want to basically Express Sr of K in terms of the the lower values, right? So  When will SK be true?  I lusting for you in case that's it is SRX of RVs true and then Springfield.  Write this like what you were saying, right? Yeah, so this is true.  if there exists  I think I saw I put it as J in my pseudocode.  There is a CJ such that.  Srj.  is true  and ask Jay plus one up to SK is a word.  right  less than k  Yes.  Okay now and then and let's say Sr of K is false. Otherwise  Okay order the sub problems from 0 to n no problem output is going to BSR of N and I remember the outputs just going to be a true false value, that's fine  I'll show you how to think about building up the solution building up where those spaces should go after you've done your logrhythm.  I got any questions about that.  Okay here I have a  This is just what I put.  I put ass instead of a Tsar.  Oh well.  So again, like this is the whole algorithm pretty much the only tricky part is to maybe figure out how to implement this thing. How do you implement of their existing you just going to make me have to look through them and and try each one of them out?  Okay, let's look at actually how this gets filled.  This might be helpful for you to think about now along with the array value is I'm also going to keep a previous value preev. And that's going to tell you where for each true. It's going to tell you where that true came from and then you at the end you can kind of Trace back the trews and that'll give you the spaces.  Okay.  so  acid one true or false  False, right? How about as of 2?  false  True right now if you're if you're starting from p and looking back until you find a word the first word you're going to find is he right?  But remember I had that and statement AJ plus one through a k has to be a word and ask a has to be true to bsj has to be true. But you see that ass one is false. So that doesn't help we have to kind of keep on going back.  Can you keep on going back and you find the so this is a word and S of zero is true. So you get you put a t here. I'm sorry T hear and you put 0 there for your previous cuz that's where it came from.  Okay, how about 4  False rank 5 true also from 0 right?  okay, how about 6  true  Right, I guess there's like an ambiguity here. It kind of depends on are you are you building your word like this?  From the a back or you building it from one up. So if we're thinking about back then a is a word, right?  And 5 is true. So we're going to put five there.  Also be three, but that depends on how you implement it and whatever you get from this this algorithm that these previous pointers. It's not going to be a unique solution. There could be more than one solution. And so all this really does is give you a solution if there if there exists one or tell you for certain that no solution exists.  Let's keep on going.  How about 7?  True, right because you have ear but asses false, but you have Seer and he's true. So this came from 3.  okay, how about 8  also true because you have our and 5 is true.  You got to get to the get the hang of it. What about 9 false, right?  10  Looks like we have t h e t h r t h e r f e r s.  cirith  Cirith is that like how Adam cook the steak when he was cooking for Eve Adam cyr at the stake for all of the animals in Eden? You wouldn't be eating a steak.  Wasn't he?  Was any vegetarian?  Maybe it's like Abraham in the Bible.  I don't know if that's a word you who wants to be a word?  Okay, who you guys were who doesn't want it to be a word?  It's not a word. Okay, but not get it. So this is false.  Sorry guys, you can see how this algorithm is dependent on the dictionary that you give it, right? The dictionary is also like this thing. It has to look up words.  okay, let's finish this off T Wright true from  from 8 we have  font-weight her F either true from 7, right we have ether and true from 7.  And then I think false false true from 11 and true from 11 practice activities are the rule. These are the rules. I don't know if you guys figured out the the code yet. I kind of kind of spoiled it for you. Okay. So then you say of course it's going to be a space here. And then I look at 11. So I go back to the 11th put a space here. Look at the eighth. Go back to the eighth put a space there get the 5-4 space there.  And then 0 means I go back to the beginning and so those are where the space is go. And so you could see how putting in those previous is it's pretty be a pretty easy thing to do in your implementation and you can get a loan.  Okay, so let's look at the runtime.  So basically this part is just going.  through  previous pointers  Pinterest  and this is like finding  the  the word the valid word  Okay. So how long is it going to take to find that valid word, right we start from K and we keep on going back right so it could go all the way back to the beginning if you want to figure out if any of those things are words.  So this is going to take up to Big O of end-time, right? And so we have and iterations.  trip Big O of N squared  Okay, can anybody think of an improvement for this?  Think about if you had the whole the whole Bible in front of you, how many pages is The Bible like 500 or something? And you had no spaces you're at the very last line in there was a typo and there was a x at the end. There's something or like a Q then do you think it's really necessary to go all the way back through the entire script to go back to the beginning of the of the text to show that the last let the last letter is not part of any word.  Get the max length.  I got to go to go to the dictionary find the biggest word possible like  super super super  Anyhow, let's say the biggest word is 30 letters long. Can you only have to go back 30 30 letters per time so you can cut this this part down to constant 30 is a constant so you can cut this down to constant and you get a linear algorithm.  I don't know. I don't think you can get better than linear to do this kind of thing.  Maybe if you had some sort of probabilistic thing and you can kind of  do it that way and I use sort of patterns in the English language and stuff like that and you might be able to get it but it wouldn't be  Why wouldn't there be like some sort of likelihood that it wouldn't do it correctly or something?  Any other questions about this?  Oh the change the algorithm that I do it on this slide.  He basically just like put a thing in here that says or until  E30 iterations  or whatever the biggest word sizes  I'll leave the implementation to you guys.  Okay, so see you guys on Friday for the quiz.  And then on Monday, we'll do some more dynamic programming problems.  some  yeah, we'll do some more.  UC San Diego podcast for more visit podcast. Ucf.edu ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02272019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02272019-1500.mp3",
+  "File Name": "lecture_21.flac"
+}

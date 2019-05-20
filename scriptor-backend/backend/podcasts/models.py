@@ -1,6 +1,5 @@
 from elasticsearch_dsl import Document, Text, Date, Integer
 
-
 class Podcast(Document):
     """
     This defines a Podcast model
@@ -15,8 +14,8 @@ class Podcast(Document):
     full_transcript = Text()
 
     # Some course metadata
-    course_num = Text()
     department = Text()
+    course_num = Integer()
     quarter = Text()
     professor = Text()
     section_id = Text()

@@ -1,51 +1,78 @@
+import datetime
 import json
 import os
+
+from tqdm import tqdm
 
 from backend.podcasts.models import Podcast
 from backend.search.models import PodcastTranscriptionBlob
 
 podcast_fixtures_folder = "./fixtures/podcasts"
-transcriptions_folder = "./fixtures/transcriptions"
 
 
-def import_podcast_transcription(course_name, course_number, quarter, section_id, department, professor,
-                                 json_filepath):
-    with open(json_filepath) as f:
-        transcription_data = json.load(f)
-        full_transcript = transcription_data['Full Transcript']
-        blurbs = transcription_data['Blurbs']
+def extract_lecture_num(filename):
+    return int(filename.split(".")[0].replace("lecture_", ""))
 
-        podcast_video_url = transcription_data.get("Video URL")
-        podcast_audio_url = transcription_data.get("Audio URL")
 
-    podcast = Podcast(title=course_name, department=department, course_num=course_number, quarter=quarter,
-                      podcast_video_url=podcast_video_url, podcast_audio_url=podcast_audio_url,
-                      professor=professor, section_id=section_id, full_transcript=full_transcript)
+def extract_podcast_metadata_by_lecture_num(metadata, lecture_num):
+    for course_podcast_metadata in metadata["course_podcasts"]:
+        if course_podcast_metadata["lecture_num"] == lecture_num:
+            return course_podcast_metadata
+    raise ValueError(f"Could not extract podcast metadata for lecture #{lecture_num}.")
 
+
+def import_podcast_transcription_file(podcast_metadata, transcription_data):
+    full_transcript = transcription_data['Full Transcript']
+    lecture_num = extract_lecture_num(transcription_data['File Name'])
+    blurbs = transcription_data['Blurbs']
+
+    podcast_video_url = podcast_metadata.get("video_url")
+    podcast_audio_url = podcast_metadata.get("audio_url")
+    date = datetime.datetime.strptime(podcast_metadata.get("date"), '%m/%d/%Y')
+
+    podcast = Podcast(title=podcast_metadata['course_name'], lecture_num=lecture_num, date=date,
+                      department=podcast_metadata['department'],
+                      course_num=podcast_metadata['course_num'],
+                      quarter=podcast_metadata['quarter'],
+                      ucsd_podcast_video_url=podcast_video_url, ucsd_podcast_audio_url=podcast_audio_url,
+                      professor=podcast_metadata['professor'], section_id=podcast_metadata['section_id'],
+                      full_transcript=full_transcript)
     podcast.save()
 
-    for blurb, (start_time, end_time) in blurbs.items():
+    for blurb, (start_time, end_time, blurb_index) in blurbs.items():
         start_time = int(start_time)
         end_time = int(end_time)
 
         podcast_transcription_blob = PodcastTranscriptionBlob(podcast_id=podcast.meta.id, transcription_blob=blurb,
                                                               starting_timestamp_second=start_time,
-                                                              ending_timestamp_second=end_time, department=department,
-                                                              course_number=course_number, quarter=quarter,
-                                                              professor=professor, section_id=section_id)
-
+                                                              ending_timestamp_second=end_time, blob_index=blurb_index,
+                                                              lecture_num=lecture_num,
+                                                              department=podcast_metadata['department'],
+                                                              course_num=podcast_metadata['course_num'],
+                                                              quarter=podcast_metadata['quarter'],
+                                                              professor=podcast_metadata['professor'],
+                                                              section_id=podcast_metadata['section_id'], date=date)
         podcast_transcription_blob.save()
 
 
 if __name__ == "__main__":
 
-    # Import Miles Jones - CSE 101 - Winter 2019
-    print("Importing CSE 101 - Miles Jones - Winter 2019...")
+    print("Clearing all existing podcast data...")
+    Podcast.search().query("match_all").delete()
+    PodcastTranscriptionBlob.search().query("match_all").delete()
+    print("Done.\n")
 
-    for cse101_filepath in os.listdir(os.path.join(transcriptions_folder, "CSE 101 - Miles Jones - Winter 2019")):
-        cse101_filepath = os.path.join(transcriptions_folder, "CSE 101 - Miles Jones - Winter 2019", cse101_filepath)
-        import_podcast_transcription(course_name="Design & Analysis of Algorithm", course_number=101,
-                                     quarter="Winter 2019", section_id="A00", department="CSE",
-                                     professor="Jones, Miles E", json_filepath=cse101_filepath)
+    for course_podcast_folder in os.listdir(podcast_fixtures_folder):
+        print(f"Importing podcasts for {course_podcast_folder}...")
+        metadata = json.load(open(os.path.join(podcast_fixtures_folder, course_podcast_folder, "metadata.json")))
 
-    print("Done.")
+        for transcription_file in tqdm(
+                sorted(os.listdir(os.path.join(podcast_fixtures_folder, course_podcast_folder, "transcriptions")))):
+            transcription_data = json.load(open(
+                os.path.join(podcast_fixtures_folder, course_podcast_folder, "transcriptions", transcription_file)))
+            lecture_num = extract_lecture_num(transcription_data["File Name"])
+            podcast_metadata = extract_podcast_metadata_by_lecture_num(metadata=metadata, lecture_num=lecture_num)
+
+            import_podcast_transcription_file(podcast_metadata=podcast_metadata, transcription_data=transcription_data)
+
+        print("Done.\n")

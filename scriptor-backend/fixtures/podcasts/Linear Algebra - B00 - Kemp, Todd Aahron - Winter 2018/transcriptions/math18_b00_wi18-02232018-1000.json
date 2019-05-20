@@ -1,0 +1,582 @@
+{
+  "Blurbs": {
+    "+ C. There's a relationship between these three parallelogram. Is anybody see it's anybody know what the relationship is that? I'm that I'm expecting you to see. Subtle, so the answer might be no, but if you read ahead in the section, you might know the answer. I've heard some mumbling. So what time I'd like to volunteer and answer. Yes. the areas of the first to something Yes, but ": [
+      729.8,
+      762.3,
+      31
+    ],
+    "06 5 - 0 is 5 + 5 - + 2 - 7 is -5 Okay. So before we do any more work just to look at that and tell me. Is the null space of this Matrix trivial or not? Does the the system this Matrix * x equal 0 does it have non-trivial Solutions or is it only have the zero solution? Non-trivial why? Write the two columns ": [
+      2192.7,
+      2229.5,
+      85
+    ],
+    "3 Okay. So let us now proceed to review what we saw last time about determinate during the last two letters about determinants. So what is it? What are determinants well? We saw that at the beginning or try to row reduce a generic 2 by 2 Matrix. ABCD then there's just one of the 80 - b c which comes up as a constraint, right? If you want that ": [
+      191.0,
+      219.5,
+      8
+    ],
+    "3 or on Tuesday from 9:30 to 12:30 to talk about them or anything else if you like and next week in Wednesday's lecture the day of the exam, I will as last time work through some of the questions on those practice exams. The exams will the exam will be held not in this room. It'll be in three rooms two of them are in Peterson Hall. One of ": [
+      101.8,
+      125.1,
+      4
+    ],
+    "8 * 1 + f * 1 and finally The third row i x the column and I get in there. G * 1 + 8 * 1 + Pi * 1 But I have these constraints down here that tell me that all three of those numbers are 1. So what I see is that this Matrix hear this a here, it has the property that a x the ": [
+      1865.2,
+      1894.8,
+      74
+    ],
+    "B, and we know if we have two vectors they form a parallelogram are the two legs of a parallelogram that we form by taking an extending one vector from the tip of the first for the tale of the first talked to the tip of the second. That's how we visualized adding up vectors diagonals that parallelogram vectors A and B. They form a parallelogram and here's your seat ": [
+      680.2,
+      705.7,
+      29
+    ],
+    "Do I listen to a podcast? Let's get started. Happy Friday everyone. See, you're all wearing a nice warm clothes. Those you who braved the cold weather to come out this morning. Thank you for joining me. We are going to proceed to with the first 10 minutes of class today to finish our discussion of determinants and then move on to chapter five eigenvalues, which is something you've already ": [
+      2.0,
+      28.9,
+      0
+    ],
+    "Factor. So delicious transformation, it probably doesn't do that to every Vector. If it does then that linear transformation is just a scalar multiple of the identity function, but there may be some of that actors that only get scales by linear transformation and it turns out those ones when they exist are important to the understanding of the geometry of what the linear transformation actually does. So here's another ": [
+      1711.1,
+      1734.1,
+      68
+    ],
+    "Same deal as last time starts at 8 p.m. Keeps going basically till you're done at least until 10:30, but that's not a hard cut-off time. It's the same length exam as last time exactly the same length. It's meant to be sending you should be able to finish in an hour, but I don't want you to feel time pressure, which is why I give you lots of extra ": [
+      57.7,
+      76.3,
+      2
+    ],
+    "They've actually called these things proper vectors and proper values think so. I'm not sure if I have any better explanation for why proper is the right word here that was chosen. But what I did want to mention is the reason that it will using eigenvector. The reason that you're using a German word is that once upon a time in Germany was the center of mathematics in the ": [
+      1369.8,
+      1389.4,
+      55
+    ],
+    "Those of you who have seen in complex numbers before my recognized here. Well, actually this is number over here this number. Here that could equal 0 if Lambda is allowed to be the \u221a -1 + \u221a -1 is not a real number but it is a perfectly good imaginary number actually rotation this rotation Matrix has the number square root of -1 as an eigenvalue. If you're working ": [
+      2869.3,
+      2898.9,
+      109
+    ],
+    "V is in the null-space of t- Landa eye. And this is a Subspace. Write the null-space of a matrix is a Subspace of RN. So this highlights an important point we can't really talk about V eigenvector. I'm a matrix with a certain talking about you after all if I have an a vector for which a v equals 3 V. right, so Keeping this in mind here. if ": [
+      2411.3,
+      2447.0,
+      92
+    ],
+    "X Y which is land of x 0 which is 0 so we also have X is equal to 0. That wasn't supposed to happen. What we just saw is that the only way I could have a vector x y and any number Lambda for which this Matrix X ex-wife was lying to * XY the only way that's possible is if x y is the zero, of course ": [
+      2823.1,
+      2847.9,
+      107
+    ],
+    "a little bit and turns what we do in the rest of this lecture, but it's still quite mysterious. It's at magical property. But it does mean that Computing determinants can be very easy. If you have structure around like if you're asked to compute the determinant of high-power of the Matrix at the hundredth power of a matrix, which is the sort of thing that Google is doing all ": [
+      402.3,
+      420.8,
+      17
+    ],
+    "a vector satisfies a v equals are like the last example 7v then a * 2 V. Is equal to 2 * AV? Is equal to 2 * 7 V. Which is equal to 7 * 2 V. SO2 V is also an eigenvector which I'm going to read a to z vector. Okay, so if I ever find an eigenvector than any scalar multiple of any nonzero scalar multiple, ": [
+      2447.0,
+      2482.3,
+      93
+    ],
+    "accuracy You want but the key takeaway here. Is that the answer that you give to most problems in this class row reduction that doesn't work for eigenvalues. You can't compute eigenvalues by row reduction. Do you have to sell some non-linear equations and we'll continue talking about how to do that. ": [
+      2998.8,
+      3014.6,
+      114
+    ],
+    "allowed 0 to be a thing we can call an eigenvector then we would have the following property every Matrix has zero as an eigenvector and every real number is an eigenvalue, which means that those terms lose all meaning. So this is why we don't want that to happen so I can vectors must buy definition be nonzero vectors that's important to understand here. Okay, so let's look at ": [
+      2014.1,
+      2038.1,
+      79
+    ],
+    "also becomes antisymmetric. It becomes a function which one I swap two columns or two rows gives a minus sign and that means it's the determinant. Okay, that's something that specifies what a determinant is now, that's all we can talk about in this room. This is really a whole course here on Multi linear algebra that I'm trying to condense into two days. So you're going to have to ": [
+      1199.0,
+      1220.4,
+      48
+    ],
+    "an eigenvalue of potential eigenvalue. So I have a matrix here and I tell you he was a matrix check if the number 7 is an eigenvalue for that Matrix. That's an easy problem. It's one that you know how to do using the tools were developed in this course. It's just a matter of figuring out what the null-space of a -7 * I is if it's the zero ": [
+      2925.2,
+      2946.2,
+      111
+    ],
+    "an eigenvector with eigenvalue 7, what you're looking for is to see if the null-space of a -7 * a identity Matrix. Has nonzero vectors in it. Are there non-trivial Solutions of the homogeneous equation? For the Matrix a - 7 x identity. So let's check that out. That's right. What is a -7 times the identity Matrix? It's 1652 - 7007. which is 1 - 7 is -6.6 - ": [
+      2159.4,
+      2192.7,
+      84
+    ],
+    "and I Define the following function. I take those two columns. I form the parallelogram that they're the legs of and I take the area of it. So that assigns to a two-by-two matrix. A number which is I'm going to call Dee here. Now. Let's translate what we just wrote in terms of D. What this formula of here says, is that D of a bee? funny right in ": [
+      901.3,
+      925.7,
+      37
+    ],
+    "and I can look at the parallelogram whose legs are A and C instead. It's a different parallelogram. And then also if I were to take the diagonal of that first one, okay, or rather if I were to take be an added to see then I get the vector that's written over there b + C and I could look at the parallelogram whose legs are A + B ": [
+      705.7,
+      729.8,
+      30
+    ],
+    "and buy on Matrix the cofactor expansion which allows you to expand along any row or column keeping track of some signs and express an end. My indeterminate as a combination of N - 1 by N - 1 sub determinants, which means that you can go down the chain eventually compute the determinant. Although well, that's a perfectly good definition. It is not a good effective way to compute ": [
+      239.8,
+      264.7,
+      10
+    ],
+    "and real number line. For which that equation holds so we know how to solve equations in this class. Let's see if we can solve the equations on the left side here. We get - Y X on the right. We got Lambda X and Y equations. So where have the equations are - y equals Lambda x + x equals Lambda y two equations in three unknowns But here's ": [
+      2678.3,
+      2707.9,
+      101
+    ],
+    "and you'll find it. All three of those rows are pivotal and what that tells you is that the range you're that tells you that the the column space if you like which is the matrices are columns is 6 dimensional Melody is so stochastic matrices form a 6 dimensional Subspace of the nine dimensional space of all 3 by 3 matrices. but anyway, if you pick any one of ": [
+      1816.3,
+      1840.4,
+      72
+    ],
+    "another example. So I give you a matrix knots on the last slide before the previous one. I said here's a matrix will show that seven is an eigenvalue and that when you when you're asked to do that, that's just a matter of doing row reduction. You look a - 7 x identity and you wrote us until you find a non-trivial solution of the homogeneous equation with that ": [
+      2571.8,
+      2593.1,
+      97
+    ],
+    "another example. So here's a matrix a and I claimed that 7 is an eigenvalue of a what that means is there is some Vector some nonzero vector v so that a x v is equal to 7 times a week. That's the definition to say that 7 is an eigenvector eigenvalue means that there's an eigenvector for that Matrix with eigenvalue 7 means that there's some nonzero vector v ": [
+      2038.1,
+      2064.3,
+      80
+    ],
+    "any column so rows and columns are treated equivalent play by the definition of the determinant it so if you go through the process of the of the cofactor expansion and use the rose to calculate the determinant of a and use the columns to calculate the determinant of a transpose you'll just get the same calculations each time. Okay, so it's actually easy to see from the cofactor expansion ": [
+      564.5,
+      591.0,
+      24
+    ],
+    "are A + B + C? Now let me rewrite this one more time. So I've got this thing area of pee of two vectors V and W. This is some function Chokehold e a V and W and actually even better. Let me think of it as a function of the Matrix whose columns are V and W. So I take a square Matrix a 2 by 2 Matrix ": [
+      867.7,
+      901.3,
+      36
+    ],
+    "are collinear or parallel their linearly dependent those two vectors. Okay, that's actually pretty easy to understand that if you're looking at just that Vector because of linearity if you look at any Vector along that line the line through the vector 2 1 then the action of tea that line. The action of t on that Vector is to just scale it up by a factor of to write ": [
+      1659.1,
+      1682.0,
+      66
+    ],
+    "are going to come up all the time. And if you already took it, you're very curious why you have no idea why the terminals came up and if you haven't taken it now, you'll understand when you get there determinants are coming up when you're doing integration because integration is all about finding areas and volumes and that's what determinants do they measure areas and volumes. So that is ": [
+      1303.5,
+      1324.6,
+      52
+    ],
+    "are parallel. That means that they are linearly dependent. That means that there are not both pivotal. So we have a non pivotal column. We have a free variable in the system. That means that they'll be non-trivial solution to the homogeneous system. So now we see right now. Yes, 7 is an eigenvalue there will be an eigenvector. There will be some nonzero Vector in that null space and ": [
+      2229.5,
+      2253.4,
+      86
+    ],
+    "be on here, but using the notation from the last slide D of the Matrix AV. Is the determinant? That's what the determinant measures. It measures the area of the parallelogram spanned by the columns. No, that's not quite true because the determinant can be a negative number. So what does it mean to have negative area doesn't really mean you have negative area. There's more geometry here that I ": [
+      1008.8,
+      1038.0,
+      41
+    ],
+    "been exploring computational lay on your Matlab homework and as a quick reminder, your Matlab homework number for is due tonight by 11:59 p.m. Make sure to upload it in time and other quick administrivia your MyMathLab homework number six. The one about determinants is due next Tuesday by 11:59 p.m. Okay, I know course as I'm sure you are all very aware. You have a midterm exam next Wednesday. ": [
+      28.9,
+      56.8,
+      1
+    ],
+    "certain number is an eigenvalue to say that seven is an eigenvalue of a is to say that a minus 7 times the identity has a non-trivial null-space and that's something we know how to do by row reduction and figuring out what vectors are in the null space me as we find eigenvectors for that number seven for that. I can value of 7 for the Matrix. So that's ": [
+      2356.4,
+      2379.1,
+      90
+    ],
+    "definition that the determinant is unchanged when you take the transpose of a matrix, but that actually is a very mysterious property with respect to what I'm going to tell you next which is okay. All of these things. We've shown hold for the determinant we know how to compute it. It has a useful property and probably for us anyway the most important thing on this slide in this ": [
+      591.0,
+      612.1,
+      25
+    ],
+    "determinants. So we then saw that but you have to know how to do it that way, but we saw that really if you want to compute the amount of time you notice that they behave nicely under row operations row operations change the determinant in a predictable way and tracking that through we saw the determine. It is actually just equal to the product of the pivots when you ": [
+      264.7,
+      286.4,
+      11
+    ],
+    "don't have the time or technology to go through in this room. But what I will say is that if I would hold up a sheet of paper with some writing on it don't have right now, but if I would hold up a sheet of paper with some writing on it and show it to you guys. Okay, and then if you would all come around and stand behind ": [
+      1038.0,
+      1059.8,
+      42
+    ],
+    "equations it involve multiplying the variables as well. That's not allowed in linear algebra. So this is not a linear algebra problem. In this special case we can still solve the system we can we can we can figure out what the solution is. We're going to go back like we didn't the very first day of this class and do it by ad hoc methods. Okay. We're just going ": [
+      2729.4,
+      2749.4,
+      103
+    ],
+    "example something that you saw on your Matlab homework that you working on right now. So I still castic Matrix, I believe that use that term if it didn't I just tell you what it is is a matrix will do a three-by-three case. Let's take a generic a b c d e f g h i So that's that Matrix as a generic Matrix is called stochastic if the ": [
+      1734.1,
+      1760.2,
+      69
+    ],
+    "flat right? It's squished into the plane spanned by those three vectors because they're linearly dependent the volume of a squished parallelepiped is 0 Why things don't have any volume? Geometrically, that's what it means when a matrix is linear. Matrix is not invertible. It means it's columns or throws are linearly dependent geometrically what that means is that if you pluck those columns that region that they spend this ": [
+      1247.3,
+      1275.7,
+      50
+    ],
+    "from there. We saw that the determinant of an environment rips has that same property that we introduced it in the 282 Case by but the determinant of a matrix is 0 precisely when the Matrix is not invertible precisely when the Matrix is not full rank. Okay precisely when The Columns of the Matrix are not all linearly independent precisely when the rose do not expand the columns do ": [
+      311.0,
+      333.8,
+      13
+    ],
+    "get a sense of what happens to them. So the first pictures to one which is here. I heard someone say I would like the Divine Light just occurred to them and I hope that's right because this is super cool what happens here? Just I think so the vector that it gets map to is 4 to which is there what do you notice about those two vectors? They ": [
+      1630.0,
+      1659.1,
+      65
+    ],
+    "get zero vector every Matrix has zero as an eigenvector. If you allow that to me the definition and worse yet. What would be the eigenvalue? Well a Time 04 you looking a linear transformation T of zero is equal to 0 which is also equal to 3 * 0 which is also equal to 17 times their which is also equal to Pi * 0 Etc. So if we're ": [
+      1987.0,
+      2014.1,
+      78
+    ],
+    "goes to 3 * 2 - 2 * 300 is the first coordinate and the second one is just too. So let's plot that we're here to the vector 2 3 which is here. The image of that is the vector 02 is here. Maybe I should draw those with thicker lines so you can see them a little better. So what you got? Is that the action of the ": [
+      1561.8,
+      1599.6,
+      63
+    ],
+    "if x y 0 Vector like we pointed out this is going to work no matter what Matrix and Landon we put there any Matrix * 0 equals 0 equals Lambda times. But that's not an eigenvector. If we want a nonzero Vector here. It's just not possible. So that verifies are geometric intuition. You can't rotate a vector 90 degrees and have it stay parallel to where it started. ": [
+      2847.9,
+      2868.3,
+      108
+    ],
+    "it is also an eigenvector with the same value so we can talk about the eigenvector to talk about the set of eigenvectors and its a Subspace. So Associated to each real number Lambda. There is a Subspace of them of RN just called the eigenspace for that eigenvalue and all it is is a new name for the null-space of T minus land at MC identity for that Matrix ": [
+      2482.3,
+      2507.8,
+      94
+    ],
+    "it that way from now on because it's super of Peppa Lloyd. It's actually a parallelepiped which is an even funnier pronunciation. Right this this word here when I eat when I mentioned this this thing to my daughter to my seven-year-old daughter that I Was preparing this lecture. She said oh that sounds like an animal that has pi legs up iPad. That's the way I remember the word ": [
+      1116.4,
+      1141.6,
+      45
+    ],
+    "it to the right I get the bigger parallelogram. So that's always going to happen. If I take these three parallelograms by take the one to the parallelogram. P whose legs are A and B and I take its area. And I take the parallelogram whose legs are. AMC and I take its area. Turn the sum of those two. Is equal to the area of the parallelogram whose legs ": [
+      830.9,
+      867.7,
+      35
+    ],
+    "it's possible and it's not we can prove that cuz what is it? What is it? We're looking for 4, so we're looking for. a real number Lambda and a nonzero Vector x y such that. That Matrix 0 - 110 * X Y is equal to land a x x y we want we want to show that that's just not possible. We can't find nonzero Vector x y ": [
+      2646.7,
+      2678.3,
+      100
+    ],
+    "just those two one stacked on top of the other. No, it doesn't give you the same shape. But what I want you to notice, is that the Triangular region over here. Okay, that is inside those is exactly the same as congruent to the Triangular region over here. So if I take that stack of two parallelograms and then cut off the Triangular region on the left and move ": [
+      804.6,
+      830.9,
+      34
+    ],
+    "just trust me that this is how it works, but that's what determinants measure they measure volumes of parallelograms and their high-dimensional generalizations. One nice thing about that is it now really makes perfect sense that it determines whether the Matrix is invertible or not? Because if I had three vectors in space my usual example of my head at least to the parallelepiped spanned by those three legs. It's ": [
+      1220.4,
+      1247.3,
+      49
+    ],
+    "last thing the midterm covers everything up to and including what we'll do in the next 10 minutes and includes everything about the Terminus that we've done. It will not include the stuff from chapter 5 that will start after that. Alright, so it covers everything from what we did in the last midterm. So that is everything that we did in Chapter 2 in chapter 4 and in chapter ": [
+      171.0,
+      191.0,
+      7
+    ],
+    "linear function of the second column. It's also a linear function of the First Column a similar argument will show that okay. So what we see is that d is multilinear it's a multi linear function of the Matrix just like the determinant. Well, there's a reason for that it turns out that being a multi linear function of the rows or Columns of a matrix is a very special ": [
+      956.5,
+      984.4,
+      39
+    ],
+    "linear transformation on that particular Vector? Will it rotates it and shrinks it a bit. Okay, so it moves around and maybe some complicated ways of 2 + 1. Let's calculate what that is. So that's goes to 3 * 2 - 2 * 1 so that 6-2 Spore and the x-coordinate is to Set map selector to 1 to the doctor for 2. So that's what those can I ": [
+      1599.6,
+      1630.0,
+      64
+    ],
+    "no space if it's trivial than 07 is not an eigenvalue if it is a non-trivial no space any S7 is an eigenvalue. So you now have an algorithm for figuring out whether a particular number seven is an eigenvalue The Matrix, but if we want to find what the eigenvalues are, I give you a matrix and say what number is Lambda are eigenvalues for it. That's a hard ": [
+      2946.2,
+      2970.2,
+      112
+    ],
+    "not span RN precisely when the roads are not linearly independent precisely when there are fewer than n pivots in the reduced row Echelon form. There were seven different characterizations of the same thing just to remind you of all of these interconnected. Matrix properties that we have discussed. Okay, and we also saw the determinant has some pretty funky properties when thought I was a function not have a ": [
+      333.8,
+      356.9,
+      14
+    ],
+    "not the kind of equation that we've been solved that we've been solving equations like ax equals a certain Vector. Now, we have an x on both sides of that equation. That doesn't look like what we've been doing in this class, but we can make it look like what would enjoy him this class because I can subtract From the other side so I can subtract. And say this ": [
+      2098.1,
+      2119.3,
+      82
+    ],
+    "now. So this is a parallelepiped. It's a three-dimensional version of a parallelogram. So you take any three vectors in space. And you look at the this wonky rectangular if prism thing that they are the legs of okay. So that is a well-defined geometric object and it has a volume and the volume. of this thing. Is equal to the determinant of the 3 by 3 Matrix whose columns? ": [
+      1141.6,
+      1174.8,
+      46
+    ],
+    "of the determinant and that's something that you actually showing on your homework. He one of your homework problems that's due on Tuesday to explain in several steps why that's true. And then one other property of the determinant I wanted to highlight here. There's one other operations on matrices that we've used to simple one to understand which is the rotate actually reflect across them and I can transpose ": [
+      489.3,
+      514.8,
+      21
+    ],
+    "of them didn't escape and in any case the math departments were destroyed Academia in general and in Germany was destroyed and those people who are not Jewish resigned in protest as well. So not died in Germany completely and from that moment on from 1942 on the center of mathematics around the time that Einstein move to the institute for advanced study in Princeton the center of mathematics moved ": [
+      1438.2,
+      1461.8,
+      58
+    ],
+    "okay, or equivalently spaces RN if I have an N by n Matrix. This is only going to apply to square matrices. It only makes sense for square matrices. Then a nonzero vector v is called an eigenvector for that Matrix. If t a v is a scalar multiple of the examples so that vector v if it's if all the happens to it when you applied linear transformation is ": [
+      1923.8,
+      1953.7,
+      76
+    ],
+    "one. What is an eigenvector? with eigenvalue and if you want we can double-check that let me just do it over here if I take a x the vector 1 1 Okay, that's equal to 1652 x 1 1. that gives me 1 + 6 which is 7 + 5 + 2 which is 7 which is indeed 7 x 1 1 check so that's how we check if a ": [
+      2315.9,
+      2356.4,
+      89
+    ],
+    "original one and then take the power of that number. This is a very useful property and I wanted to mention two more properties of the determinant. So the determinant is multiplicative. The detriment of our product is a product of the determinants if follows from there, actually that the determinant of the inverse of a matrix GIF animations is invertible, then they determine whether the inverse is the reciprocal ": [
+      464.9,
+      489.3,
+      20
+    ],
+    "over the if you're working over the complex numbers rotations do have eigenvalues and eigenvectors. Hey, but this is not a course in complex linear algebra. This is a question real linear algebra. But anyway this out an important point that we're going to finish with here, which is I think I have written on the next slide will do that next time. But but here's the point given a ": [
+      2898.9,
+      2925.2,
+      110
+    ],
+    "parallelepiped is the degenerate it's squashed. It's flat. It's a lower dimensional which means it's volume or area or whatever is 0 Cancel that geometrically is why the determinant has those properties and that's what determinants are they measure oriented volume and if you guys go on or have already taken math 20e. This is going to play a huge role in the whole education theory that you do terminals ": [
+      1275.7,
+      1303.5,
+      51
+    ],
+    "problem as we saw the last slide it could be but figuring that out required solving some non linear equations. Okay, so that's that's the that's the takeaway here that I want to leave you with which is finding eigenvalues fundamentally requires solving non-linear equations. Now, we're going to look at of simplifying way of doing that next time call the characteristic polynomial which is usually solvable to within whatever ": [
+      2970.2,
+      2998.8,
+      113
+    ],
+    "property. It's hard to find a function that does that and in fact, if you add a couple of more algebraic constraints, which of this thing can also be made to satisfy appropriately. It means that there's only one function that does it and that's the determinant. So that's the theorem here so If I give you two vectors the area of the parallelogram, they determine which I called AAA ": [
+      984.4,
+      1008.8,
+      40
+    ],
+    "question. What the hell is it? What is the determinant? It's this number that I compute from a matrix for what does it mean? And the answer to that is actually quite pretty quite beautiful. What is a determinant? So when I think about the two by two case again to start here it has a lot to do with the geometry of vectors of the geometry of shapes and ": [
+      631.6,
+      656.4,
+      27
+    ],
+    "r a b and c and we could run through a similar than welcome or complicated geometric decomposition of this object to show why that function volume of the Matrix that has those three columns is a multi linear function of the columns. And then if you throw in this orientation business so that if you ever swap two of The Columns and name that reverses the orientation and it ": [
+      1175.9,
+      1199.0,
+      47
+    ],
+    "row reduced Matrix to be the identity Matrix. The only way that's going to happen is if a D minus b c is not 0 cuz you have to divide by that number. That's the determinant of a two-by-two matrix. It determines whether the Matrix is invertible or not. We saw this kind of crazy recursive generalization of that to this thing we call the determinant of as any square ": [
+      219.5,
+      239.8,
+      9
+    ],
+    "row sums to one. meaning that A + B + C equals 1 D + e + f equals 1 + G + H + I equals 1 That's called a stochastic Matrix one where the row songs are all one. I think you may have seen on your homework the transpose property that the columns homes or what but they're those will behave similarly and by the way the ": [
+      1760.2,
+      1790.2,
+      70
+    ],
+    "says a x minus 7x equals 0. and now let me rewrite that as a - 7 * the identity Matrix * X looks like it's not the Matrix a it's the Matrix a -7 times the identity. Okay. So what we see here is We want to find. A nonzero Vector X in the null-space of the Matrix a minus 7 times the identity is if you're looking for ": [
+      2119.3,
+      2159.4,
+      83
+    ],
+    "set of all three matrices that is a 9 dimensional Vector space is 9 variables there and what we're doing here as we're putting three constraints on it. So the set of stochastic matrices is the solution of three linear equations in 9 unknowns so you can check how many of those constraints are actually independent from each other. You could row reduce this big 3 by 9 the system ": [
+      1790.2,
+      1816.3,
+      71
+    ],
+    "shifted Matrix. But if I say, here's a matrix find eigenvalues find whatever numbers Lambda there are for which a minus sign of times they has a non-trivial vector in the null space. That is a harder problem. Cancel SCCY. So here's an example we can do by hand. Here's a matrix 01 - 105 Simmons Matrix before when we introduced linear transformation. This is a rotation Matrix. This is ": [
+      2593.1,
+      2621.7,
+      98
+    ],
+    "short and so that if you're running over the exam and you need to look up that information on your phone Triton head will display it to you. Otherwise, it will run off the edge of your phone tried and it is really not well built for mobile internet. So we're trying to compensate for that as best we can Okay, so that's the deal with the midterm and one ": [
+      152.0,
+      171.0,
+      6
+    ],
+    "space ab&c. I've written I present them with the c Vector shifted over like think of the origin as the bottom left corner in all three of these cases here. So if I take the two letters A and B in those are standard basis vectors actually not quite cuz they're different likes but you know at right angles to each other so there is Vector a in the vector ": [
+      656.4,
+      680.2,
+      28
+    ],
+    "squared is a is a non-negative number. So this number here this is not zero. It's at least one in size. So if I have a nonzero number x y equals 0 I can divide the true when I get that. Why must equal zero? Okay, so I know the value of y in this equation it must be zero, but hey look here. therefore X is equal to Lambda ": [
+      2801.8,
+      2823.1,
+      106
+    ],
+    "squared x y and that simplified thing I got rid of the ex. So if I add why to both sides and simplify that says Lambda squared + 1 times y equals 0 so whatever x y and land I want to find that satisfy those equations. I am must have that they also satisfy this thing Lambda squared + 1 * y equals 0 But Lando squared + 112 ": [
+      2775.5,
+      2801.8,
+      105
+    ],
+    "t Okay, that's a Subspace. It's called the eigenspace. But so that's that makes sense for every real number Lambda. So this is defined. for any Lambda a real number but It is usually. trivial most of the time will see actually be able to prove this next day most of the time for almost every number Lambda no matter what Matrix T is T minus Lambda. I will have ": [
+      2507.8,
+      2542.0,
+      95
+    ],
+    "terms of the Matrix D of the Matrix a b + D of the Matrix AC is equal to D of the Matrix a b + C. What does that say about this function D using language that we introduced last time and was on the last slide. Is it a linear function of the Matrix? No, but it is a linear function of the second row. It's also a ": [
+      925.7,
+      956.5,
+      38
+    ],
+    "that it's gets killed by some scaling Factor. Then we call that Vector an eigenvector for the linear transformation. The scaling factor is called the eigenvalue. For that I can vector. Now it's a very important here that VB a non-zero vector. Why is that? What if I allowed this definition to apply to the zero Factor what happens if I take any Matrix and X the zero vector? you ": [
+      1953.7,
+      1987.0,
+      77
+    ],
+    "that will actually give you a leg up and understanding what we're doing. Is we go here. What is an eigenvector and what is an eigenvalue of the first thing I wanted to mention. It's just a kind of brief history lesson is a German word means proper. And in fact, if you look at very old linear algebra textbooks in the early 20th century or even late 19th century. ": [
+      1350.1,
+      1369.8,
+      54
+    ],
+    "the 20th century was done in Germany. Germany was the center of mathematics which is why we have a lot of German words throughout mathematics course, what happened is that in the lead up to World War II the Nazis banned all Jews from practicing their professions turned out a lot of math professors were Jews. And they were removed from their positions. Some of them escaped to America. Some ": [
+      1410.9,
+      1438.2,
+      57
+    ],
+    "the determinant measures is oriented area of parallelograms, but if you ignore the sign that it just measures area, that's what determines are they measure area at least that's what to buy to determine. So what about three by three determinants? What do they measure? volume of Can you say that word again. Pepper Lloyd? I love that. That's that's not how you pronounce it. But I'm going to pronounce ": [
+      1091.5,
+      1116.4,
+      44
+    ],
+    "the is the ugly catch. Those are not linear equations. Linear equations land is a variable here. We want to find Lambda if I told you what Lambda is. It's just a number like 7, then you can figure out if there's a solution to the linear system or not. But if it is a variable to call Matt Z, if you don't like calling it Lambda, those are non-linear ": [
+      2707.9,
+      2729.4,
+      102
+    ],
+    "the paper with me, what would you notice about the writing on the paper? It would look backwards. Because if she a paper has a front and a back it has an orientation. so the sign of the determinant record that orientation It records whether the parallelogram you're looking at determined by the order of the legs that you choose is facing front or facing back. Okay, so really what ": [
+      1059.8,
+      1091.5,
+      43
+    ],
+    "the rotation counterclockwise 90\u00b0. That's what it does to any Vector. It rotates it. I claim that this Matrix has no eigenvectors and no eigenvalues and that geometrically makes a lot of sense I'm saying if I give you any Vector here, I want to find a vector so that when I rotate it 90 degrees it's back parallel to where it was before. Is that possible? Doesn't seem like ": [
+      2621.7,
+      2646.7,
+      99
+    ],
+    "the sum total of what I wanted to say about determinants in this class. And that is everything you were responsible for on the midterm. So no, I want to shift gears and proceeded to talk about section 5.1 eigenvalues and eigenvectors. You've already been introduced to these words because you've been working on the Matlab homework where your computer you. How to make Matlab compute them. So I hope ": [
+      1324.6,
+      1350.1,
+      53
+    ],
+    "the theorem for any real number Lambda. The set of vectors V for which Lambda is an eigenvalue. Is a Subspace of v and what's Subspace is it so that this is what we went through on the last slide. So this thing here Tia V equals Lambda V that happens if and only if t- land of times the identity applied to V is 0 which half means that ": [
+      2379.1,
+      2411.3,
+      91
+    ],
+    "the time Google pagerank algorithm like every web search algorithm. It's it's a tweaking of the basic idea. Where are you take this Matrix that represents which web pages are connected to each other once and you need to figure out something about what happens that Matrix when you apply it when you multiply over and over again need to figure out what it looks like when you take it ": [
+      420.8,
+      443.2,
+      18
+    ],
+    "them is in a Galbraith same as last time with the Galbraith Hall your room and seat assignment have been posted in your Triton it so take a look now and there's instructions on how to interpret what's written there on the course webpage. They're written in Trident in a shortened form example g242 at and 21 means you're in Galbraith hall room 242 in seat and 21 and they're ": [
+      125.1,
+      152.0,
+      5
+    ],
+    "there's a word you almost got it. There's a word missing. You said the areas of the first two equal the third. Well, there's two numbers on the left and one on the right. So what do you mean the area is equal to 1/3. The some of them if I take the area of the first one plus the area of the second I get the area of the ": [
+      762.3,
+      778.3,
+      32
+    ],
+    "these properties together with Elementary matrices. We prove that the determinant is a multiplicative function. That is if I take too much scrimmages and multiply them. The determinant of the product is the product of the determinants. And which is actually really remarkable. Why why on Earth would that happen? Well, if I don't have a good explanation of that for you, it just does okay. We can understand it ": [
+      379.9,
+      402.3,
+      16
+    ],
+    "third and that's actually that's actually fun to see why that happens. Let's let's do that. Geometric lake is what I'm going to do. I'm going to take the first one here. And I'm going to move it over superimpose it. And I'm going to take the second one here, and I'm going to stack it on top. Okay, now, looks like a three-dimensional relief picture but it's not it's ": [
+      778.3,
+      804.6,
+      33
+    ],
+    "this Vector here is two times the original Vector to one that's a lot easier to understand than the more complicated thing that he does to the vector. two three That's what an eigenvector is an eigenvector is a vector a particular nonzero Vector to an eigenvector for a particular linear transformation is a vector which that linear Transformations applied to it. All it does is scaling buy some scaling ": [
+      1682.0,
+      1711.1,
+      67
+    ],
+    "those guys any stochastic Matrix, look what happens if I X the vector 1 1 1 Let's just remind ourselves how to do this matrix multiplication. I multiply the first row by that column and add up the term. So that's 8 * 1 + 3 * 1 + 3 * 1. then I multiply through the second row by that same column and I get D * 1 + ": [
+      1840.4,
+      1865.2,
+      73
+    ],
+    "thought of as linear Transformations and Matrix induces a linear transformation by multiplication. So here is a linear transformation on R2 from R22 itself. I beat in the tracks why I spit out the vector 3x - 2y + x + if I want to write that in terms of a matrix. I can just pick off the coefficients right from their 3 - 210 Okay, so there's a matrix ": [
+      1489.8,
+      1518.3,
+      60
+    ],
+    "time. There are practice exams now posted cuz you might be interested in what I have to say. So it's my turn. All right. There are two practice exams posted on the course webpage together with detailed instructions about the exam as usual. Okay, take a look at those practice exams post about them on Piazza. If you have questions come to my office hours this afternoon from 1 to ": [
+      76.3,
+      101.8,
+      3
+    ],
+    "to a very high power. Okay. Now that Matrix for Google's web search is about 5 billion by 5 billion. There's no way you can actually Implement that globally so Google has some pretty funky algorithms to do it quickly on a local scale. But if you want to understand some properties of that Matrix, like it's determinant of this high-power. You can just check out the determiner of the ": [
+      443.2,
+      464.9,
+      19
+    ],
+    "to draw the graph of such a thing. So we can't really draw the graph but we can look at you know, what it does to some particular vectors to get a sense of how things move around and the point is it typically things will move around a lot. So here's an example to the vector. 23 what happens to it? Let's just compute that real quick. So that ": [
+      1541.4,
+      1561.8,
+      62
+    ],
+    "to start fiddling around. So let's see here. So this equation here. This says that x equals Lambda X Y but this equation or actual let's let's look at the first one. The first equation here says y minus y equals Lambda x x but the second equation I'm going to substitute says X is equal to Lambda x y so what we get is that minus y equals Lambda ": [
+      2749.4,
+      2775.5,
+      104
+    ],
+    "to the US and it has stayed here ever since with until recently the support of the US Government testing to see how things shifts in the coming decades. But anyway, that's the reason why I getting is used here and why you'll see other German words all over the place. All right. So what is an eigenvector? Well, I understand that lets go back. Remember matrices matrices can be ": [
+      1461.8,
+      1489.8,
+      59
+    ],
+    "transformation. There's a linear transformation. What does it do if you would draw the graph but the graph means you have to have an access for the demand access for the wrench and hear the input in the output of both two-dimensional. So you would have to have two dimensions for the demand in two dimensions for the range and that's really hard to draw. You need a four dimensions ": [
+      1518.3,
+      1541.4,
+      61
+    ],
+    "trivial null space in which case land is not an eigenvalue. The eigenspace is trivial. That means there are no nonzero vectors in there. So we call Lambda an eigenvalue. only when this thing the null-space of a minus Lambda I is not trivial if it has nonzero vectors in it. In which case we call those vectors the eigenvectors for that I can buy. Okay, so let's look at ": [
+      2542.0,
+      2571.8,
+      96
+    ],
+    "vector 111 is equal to the vector 111 not only does it just scale that back to its scales it by 1. Vector doesn't move when I apply a to it that Vector is an eigenvector for this Matrix a stochastic Matrix. The vector 111 is a is an eigenvector. So let's format for cement these definitions. So if I have a linear transformation from a vector space to itself, ": [
+      1894.8,
+      1923.8,
+      75
+    ],
+    "vectors of the form x 1 x to wear. Well, x 2 as a free variable and X1. The first equation says X1 - X2 equals 0 so X1 equals x 2 Okay, in other words if I factor out that X2, I got this Vector one one and this is this says that the null space is the span. of the vector 1 1 so this thing here one ": [
+      2285.6,
+      2315.9,
+      88
+    ],
+    "we can find it by join row reduction. Right for your row reduction on this thing. Now, what I'll do is I'll probably I'll probably pivot the first row. And then I'll subtract 5 times the first row from the second. And that is actually the reduced row Echelon form of a -7 times the identity Matrix. So what that tells us here. Is that the null space? Consists of ": [
+      2253.4,
+      2285.6,
+      87
+    ],
+    "what order I must by the numbers being C. And that same property persists through the whole algorithm. In fact, the determinant of a transpose of a matrix is the same thing as the determinant of the original Matrix. Now one can prove that if anyone's going through an induction argument on the cofactor expansion the point is that in the cofactor expansion, you can expand along any row or ": [
+      541.5,
+      564.5,
+      23
+    ],
+    "where you turn rows into columns. So what's the determinant of the transpose of a matrix? Well, if we just do the two by two case Hits of the determinant of this is a D minus PC not by take the transpose of that Matrix. That means swapping VNC. And the determinant of that is a D minus CB, but of course those are equal to each other doesn't matter ": [
+      514.8,
+      541.5,
+      22
+    ],
+    "which when I X a just to get Scaled by that number seven. I claim that's true. And actually, you know how to find that Vector how we going to find it. Row reduction. So why is that? Well we want to do is we want to find actually let me call it. There's no X in the word find find X. Non-zero such that. ax equals 7X now that's ": [
+      2064.3,
+      2098.1,
+      81
+    ],
+    "whole Matrix but of each row or each column of the Matrix with the others held fixed. It is linear in each one of those okay, meaning that it's multilinear in the whole Matrix. So if I hold all calls except for one fixed, then it's a linear function of that one, or one row and we also saw last at the at the end of the lecture that using ": [
+      356.9,
+      379.9,
+      15
+    ],
+    "whole section is this one here, the determinant is something we use computationally to measure invertibility. It's one of many tools that we can use for that but we'll see when we get into the next chapter that it's really the most important one in many cases. Okay, so it's something that we can use to see whether a matrix is invertible or not. But that doesn't really answer the ": [
+      612.1,
+      631.6,
+      26
+    ],
+    "world. In fact from the late 16th century until World War II until just before World War II. All of mathematics for most of a modern mathematics was being done in Germany all the mathematics that you learn in calculus your algebra differential equations. And even if you go on to most of our upper division math classes, if you're a math major almost all of that mathematics done before ": [
+      1389.4,
+      1410.9,
+      56
+    ],
+    "wrote it to the respect to the to the to the reduced row Echelon form. But you have some pivots they have to divide by the determinant is the product of those pivots maybe with a minus sign in front of everything because you also have to put them on his time every time you take a row Swap and they were so that's how to compute the determinant. And ": [
+      286.4,
+      311.0,
+      12
+    ]
+  },
+  "Full Transcript": "Do I listen to a podcast? Let's get started. Happy Friday everyone.  See, you're all wearing a nice warm clothes. Those you who braved the cold weather to come out this morning. Thank you for joining me.  We are going to proceed to with the first 10 minutes of class today to finish our discussion of determinants and then move on to chapter five eigenvalues, which is something you've already been exploring computational lay on your Matlab homework and as a quick reminder, your Matlab homework number for is due tonight by 11:59 p.m. Make sure to upload it in time and other quick administrivia your MyMathLab homework number six. The one about determinants is due next Tuesday by 11:59 p.m. Okay, I know course as I'm sure you are all very aware. You have a midterm exam next Wednesday.  Same deal as last time starts at 8 p.m. Keeps going basically till you're done at least until 10:30, but that's not a hard cut-off time. It's the same length exam as last time exactly the same length. It's meant to be sending you should be able to finish in an hour, but I don't want you to feel time pressure, which is why I give you lots of extra time. There are  practice exams now posted  cuz you might be interested in what I have to say. So it's my turn. All right.  There are two practice exams posted on the course webpage together with detailed instructions about the exam as usual. Okay, take a look at those practice exams post about them on Piazza. If you have questions come to my office hours this afternoon from 1 to 3 or on Tuesday from 9:30 to 12:30 to talk about them or anything else if you like and next week in Wednesday's lecture the day of the exam, I will as last time work through some of the questions on those practice exams.  The exams will the exam will be held not in this room. It'll be in three rooms two of them are in Peterson Hall. One of them is in a Galbraith same as last time with the Galbraith Hall your room and seat assignment have been posted in your Triton it so take a look now and there's instructions on how to interpret what's written there on the course webpage. They're written in Trident in a shortened form example g242 at and 21 means you're in Galbraith hall room 242 in seat and 21 and they're short and so that if you're running over the exam and you need to look up that information on your phone Triton head will display it to you. Otherwise, it will run off the edge of your phone tried and it is really not well built for mobile internet. So we're trying to compensate for that as best we can  Okay, so that's the deal with the midterm and one last thing the midterm covers everything up to and including what we'll do in the next 10 minutes and includes everything about the Terminus that we've done. It will not include the stuff from chapter 5 that will start after that.  Alright, so it covers everything from what we did in the last midterm. So that is everything that we did in Chapter 2 in chapter 4 and in chapter 3  Okay. So let us now proceed to review what we saw last time about determinate during the last two letters about determinants. So what is it? What are determinants well?  We saw that at the beginning or try to row reduce a generic 2 by 2 Matrix.  ABCD then there's just one of the 80 - b c which comes up as a constraint, right? If you want that row reduced Matrix to be the identity Matrix. The only way that's going to happen is if a D minus b c is not 0 cuz you have to divide by that number. That's the determinant of a two-by-two matrix. It determines whether the Matrix is invertible or not. We saw this kind of crazy recursive generalization of that to this thing we call the determinant of as any square and buy on Matrix the cofactor expansion which allows you to expand along any row or column keeping track of some signs and express an end. My indeterminate as a combination of N - 1 by N - 1 sub determinants, which means that you can go down the chain eventually compute the determinant.  Although well, that's a perfectly good definition. It is not a good effective way to compute determinants. So we then saw that but you have to know how to do it that way, but we saw that really if you want to compute the amount of time you notice that they behave nicely under row operations row operations change the determinant in a predictable way and tracking that through we saw the determine. It is actually just equal to the product of the pivots when you wrote it to the respect to the to the to the reduced row Echelon form.  But you have some pivots they have to divide by the determinant is the product of those pivots maybe with a minus sign in front of everything because you also have to put them on his time every time you take a row Swap and they were so that's how to compute the determinant. And from there. We saw that the determinant of an environment rips has that same property that we introduced it in the 282 Case by but the determinant of a matrix is 0 precisely when the Matrix is not invertible precisely when the Matrix is not full rank. Okay precisely when The Columns of the Matrix are not all linearly independent precisely when the rose do not expand the columns do not span RN precisely when the roads are not linearly independent precisely when there are fewer than n pivots in the reduced row Echelon form. There were seven different characterizations of the same thing just to remind you of all of these interconnected.  Matrix properties that we have discussed. Okay, and we also saw the determinant has some pretty funky properties when thought I was a function not have a whole Matrix but of each row or each column of the Matrix with the others held fixed. It is linear in each one of those okay, meaning that it's multilinear in the whole Matrix. So if I hold all calls except for one fixed, then it's a linear function of that one, or one row and  we also saw last at the at the end of the lecture that using these properties together with Elementary matrices. We prove that the determinant is a multiplicative function.  That is if I take too much scrimmages and multiply them. The determinant of the product is the product of the determinants.  And which is actually really remarkable. Why why on Earth would that happen? Well, if I don't have a good explanation of that for you, it just does okay. We can understand it a little bit and turns what we do in the rest of this lecture, but it's still quite mysterious. It's at magical property. But it does mean that Computing determinants can be very easy. If you have structure around like if you're asked to compute the determinant of high-power of the Matrix at the hundredth power of a matrix, which is the sort of thing that Google is doing all the time Google pagerank algorithm like every web search algorithm. It's it's a tweaking of the basic idea. Where are you take this Matrix that represents which web pages are connected to each other once and you need to figure out something about what happens that Matrix when you apply it when you multiply over and over again need to figure out what it looks like when you take it to a very high power.  Okay. Now that Matrix for Google's web search is about 5 billion by 5 billion.  There's no way you can actually Implement that globally so Google has some pretty funky algorithms to do it quickly on a local scale. But if you want to understand some properties of that Matrix, like it's determinant of this high-power. You can just check out the determiner of the original one and then take the power of that number.  This is a very useful property and I wanted to mention two more properties of the determinant.  So the determinant is multiplicative. The detriment of our product is a product of the determinants if follows from there, actually that the determinant of the inverse of a matrix GIF animations is invertible, then they determine whether the inverse is the reciprocal of the determinant and that's something that you actually showing on your homework. He one of your homework problems that's due on Tuesday to explain in several steps why that's true.  And then one other property of the determinant I wanted to highlight here. There's one other operations on matrices that we've used to simple one to understand which is the rotate actually reflect across them and I can transpose where you turn rows into columns. So what's the determinant of the transpose of a matrix? Well, if we just do the two by two case  Hits of the determinant of this is a D minus PC not by take the transpose of that Matrix. That means swapping VNC.  And the determinant of that is a D minus CB, but of course those are equal to each other doesn't matter what order I must by the numbers being C.  And that same property persists through the whole algorithm. In fact, the determinant of a transpose of a matrix is the same thing as the determinant of the original Matrix. Now one can prove that if anyone's going through an induction argument on the cofactor expansion the point is that in the cofactor expansion, you can expand along any row or any column so rows and columns are treated equivalent play by the definition of the determinant it so if you go through the process of the of the cofactor expansion and use the rose to calculate the determinant of a and use the columns to calculate the determinant of a transpose you'll just get the same calculations each time.  Okay, so it's actually easy to see from the cofactor expansion definition that the determinant is unchanged when you take the transpose of a matrix, but that actually is a very mysterious property with respect to what I'm going to tell you next which is okay. All of these things. We've shown hold for the determinant we know how to compute it. It has a useful property and probably for us anyway the most important thing on this slide in this whole section is this one here, the determinant is something we use computationally to measure invertibility. It's one of many tools that we can use for that but we'll see when we get into the next chapter that it's really the most important one in many cases.  Okay, so it's something that we can use to see whether a matrix is invertible or not.  But that doesn't really answer the question. What the hell is it? What is the determinant? It's this number that I compute from a matrix for what does it mean?  And the answer to that is actually quite pretty quite beautiful. What is a determinant? So when I think about the two by two case again to start here  it has a lot to do with the geometry of vectors of the geometry of shapes and space ab&c. I've written I present them with the c Vector shifted over like think of the origin as the bottom left corner in all three of these cases here. So if I take the two letters A and B in those are standard basis vectors actually not quite cuz they're different likes but you know at right angles to each other so there is Vector a in the vector B, and we know if we have two vectors they form a parallelogram are the two legs of a parallelogram that we form by taking an extending one vector from the tip of the first for the tale of the first talked to the tip of the second. That's how we visualized adding up vectors diagonals that parallelogram vectors A and B. They form a parallelogram and here's your seat and I can look at the parallelogram whose legs are A and C instead. It's a different parallelogram.  And then also if I were to take the diagonal of that first one, okay, or rather if I were to take be an added to see then I get the vector that's written over there b + C and I could look at the parallelogram whose legs are A + B + C. There's a relationship between these three parallelogram.  Is anybody see it's anybody know what the relationship is that? I'm that I'm expecting you to see.  Subtle, so the answer might be no, but if you read ahead in the section, you might know the answer.  I've heard some mumbling. So what time I'd like to volunteer and answer.  Yes.  the areas of the first to something  Yes, but there's a word you almost got it. There's a word missing. You said the areas of the first two equal the third. Well, there's two numbers on the left and one on the right. So what do you mean the area is equal to 1/3.  The some of them if I take the area of the first one plus the area of the second I get the area of the third and that's actually that's actually fun to see why that happens. Let's let's do that. Geometric lake is what I'm going to do.  I'm going to take the first one here.  And I'm going to move it over superimpose it.  And I'm going to take the second one here, and I'm going to stack it on top.  Okay, now, looks like a three-dimensional relief picture but it's not it's just those two one stacked on top of the other. No, it doesn't give you the same shape. But what I want you to notice, is that the Triangular region over here.  Okay, that is inside those is exactly the same as congruent to the Triangular region over here. So if I take that stack of two parallelograms and then cut off the Triangular region on the left and move it to the right I get the bigger parallelogram.  So that's always going to happen. If I take these three parallelograms by take the one to the parallelogram.  P whose legs are A and B  and I take its area.  And I take the parallelogram whose legs are.  AMC  and I take its area.  Turn the sum of those two.  Is equal to the area of the parallelogram whose legs are A + B + C?  Now let me rewrite this one more time. So I've got this thing area of pee of two vectors V and W. This is some function Chokehold e a V and W and actually even better. Let me think of it as a function of the Matrix whose columns are V and W.  So I take a square Matrix a 2 by 2 Matrix and I Define the following function. I take those two columns. I form the parallelogram that they're the legs of and I take the area of it. So that assigns to a two-by-two matrix.  A number which is I'm going to call Dee here. Now. Let's translate what we just wrote in terms of D. What this formula of here says, is that D of a bee?  funny right in terms of the Matrix D of the Matrix a b  + D of the Matrix AC  is equal to D of the Matrix a b + C.  What does that say about this function D using language that we introduced last time and was on the last slide.  Is it a linear function of the Matrix?  No, but it is a linear function of the second row.  It's also a linear function of the second column. It's also a linear function of the First Column a similar argument will show that okay. So what we see is that d  is multilinear  it's a multi linear function of the Matrix just like the determinant.  Well, there's a reason for that it turns out that being a multi linear function of the rows or Columns of a matrix is a very special property. It's hard to find a function that does that and in fact, if you add a couple of more algebraic constraints, which of this thing can also be made to satisfy appropriately. It means that there's only one function that does it and that's the determinant. So that's the theorem here so  If I give you two vectors the area of the parallelogram, they determine which I called AAA be on here, but using the notation from the last slide D of the Matrix AV.  Is the determinant?  That's what the determinant measures. It measures the area of the parallelogram spanned by the columns.  No, that's not quite true because the determinant can be a negative number. So what does it mean to have negative area doesn't really mean you have negative area. There's more geometry here that I don't have the time or technology to go through in this room. But what I will say is that if I would hold up a sheet of paper with some writing on it don't have right now, but if I would hold up a sheet of paper with some writing on it and show it to you guys. Okay, and then if you would all come around and stand behind the paper with me, what would you notice about the writing on the paper?  It would look backwards.  Because if she a paper has a front and a back it has an orientation.  so the sign of the determinant record that orientation  It records whether the parallelogram you're looking at determined by the order of the legs that you choose is facing front or facing back. Okay, so really what the determinant measures is oriented area of parallelograms, but if you ignore the sign that it just measures area, that's what determines are they measure area at least that's what to buy to determine.  So what about three by three determinants? What do they measure?  volume of  Can you say that word again. Pepper Lloyd? I love that. That's that's not how you pronounce it. But I'm going to pronounce it that way from now on because it's super of Peppa Lloyd.  It's actually a parallelepiped which is an even funnier pronunciation. Right this this word here when I eat when I mentioned this this thing to my daughter to my seven-year-old daughter that I Was preparing this lecture.  She said oh that sounds like an animal that has pi legs up iPad. That's the way I remember the word now. So this is a parallelepiped. It's a three-dimensional version of a parallelogram. So you take any three vectors in space.  And you look at the this wonky rectangular if prism thing that they are the legs of okay.  So that is a well-defined geometric object and it has a volume and the volume.  of this thing.  Is equal to the determinant of the 3 by 3 Matrix whose columns?  r a b and c  and we could run through a similar than welcome or complicated geometric decomposition of this object to show why that function volume of the Matrix that has those three columns is a multi linear function of the columns. And then if you throw in this orientation business so that if you ever swap two of The Columns and name that reverses the orientation and it also becomes antisymmetric. It becomes a function which one I swap two columns or two rows gives a minus sign and that means it's the determinant. Okay, that's something that specifies what a determinant is now, that's all we can talk about in this room. This is really a whole course here on Multi linear algebra that I'm trying to condense into two days. So you're going to have to just trust me that this is how it works, but that's what determinants measure they measure volumes of parallelograms and their high-dimensional generalizations.  One nice thing about that is it now really makes perfect sense that it determines whether the Matrix is invertible or not? Because if I had three vectors in space my usual example of my head at least to the parallelepiped spanned by those three legs. It's flat right? It's squished into the plane spanned by those three vectors because they're linearly dependent the volume of a squished parallelepiped is 0  Why things don't have any volume?  Geometrically, that's what it means when a matrix is linear. Matrix is not invertible. It means it's columns or throws are linearly dependent geometrically what that means is that if you pluck those columns that region that they spend this parallelepiped is the degenerate it's squashed. It's flat. It's a lower dimensional which means it's volume or area or whatever is 0  Cancel that geometrically is why the determinant has those properties and that's what determinants are they measure oriented volume and if you guys go on or have already taken math 20e.  This is going to play a huge role in the whole education theory that you do terminals are going to come up all the time. And if you already took it, you're very curious why you have no idea why the terminals came up and if you haven't taken it now, you'll understand when you get there determinants are coming up when you're doing integration because integration is all about finding areas and volumes and that's what determinants do they measure areas and volumes. So that is the sum total of what I wanted to say about determinants in this class. And that is everything you were responsible for on the midterm. So no, I want to shift gears and proceeded to talk about section 5.1 eigenvalues and eigenvectors.  You've already been introduced to these words because you've been working on the Matlab homework where your computer you. How to make Matlab compute them. So I hope that will actually give you a leg up and understanding what we're doing. Is we go here.  What is an eigenvector and what is an eigenvalue of the first thing I wanted to mention. It's just a kind of brief history lesson is a German word means proper. And in fact, if you look at very old linear algebra textbooks in the early 20th century or even late 19th century. They've actually called these things proper vectors and proper values think so. I'm not sure if I have any better explanation for why proper is the right word here that was chosen. But what I did want to mention is the reason that it will using eigenvector. The reason that you're using a German word is that once upon a time in Germany was the center of mathematics in the world. In fact from the late 16th century until World War II until just before World War II.  All of mathematics for most of a modern mathematics was being done in Germany all the mathematics that you learn in calculus your algebra differential equations. And even if you go on to most of our upper division math classes, if you're a math major almost all of that mathematics done before the 20th century was done in Germany. Germany was the center of mathematics which is why we have a lot of German words throughout mathematics course, what happened is that in the lead up to World War II the Nazis banned all Jews from practicing their professions turned out a lot of math professors were Jews.  And they were removed from their positions. Some of them escaped to America. Some of them didn't escape and in any case the math departments were destroyed Academia in general and in Germany was destroyed and those people who are not Jewish resigned in protest as well. So not died in Germany completely and from that moment on from 1942 on the center of mathematics around the time that Einstein move to the institute for advanced study in Princeton the center of mathematics moved to the US and it has stayed here ever since with until recently the support of the US Government testing to see how things shifts in the coming decades.  But anyway, that's the reason why I getting is used here and why you'll see other German words all over the place.  All right. So what is an eigenvector? Well, I understand that lets go back.  Remember matrices matrices can be thought of as linear Transformations and Matrix induces a linear transformation by multiplication. So here is a linear transformation on R2 from R22 itself. I beat in the tracks why I spit out the vector 3x - 2y + x + if I want to write that in terms of a matrix. I can just pick off the coefficients right from their 3 - 210  Okay, so there's a matrix transformation. There's a linear transformation. What does it do if you would draw the graph but the graph means you have to have an access for the demand access for the wrench and hear the input in the output of both two-dimensional. So you would have to have two dimensions for the demand in two dimensions for the range and that's really hard to draw. You need a four dimensions to draw the graph of such a thing. So we can't really draw the graph but we can look at you know, what it does to some particular vectors to get a sense of how things move around and the point is it typically things will move around a lot. So here's an example to the vector.  23 what happens to it? Let's just compute that real quick. So that goes to 3 * 2 - 2 * 300 is the first coordinate and the second one is just too.  So let's plot that we're here to the vector 2 3 which is here.  The image of that is the vector 02 is here.  Maybe I should draw those with thicker lines so you can see them a little better.  So what you got?  Is that the action of the linear transformation on that particular Vector? Will it rotates it and shrinks it a bit.  Okay, so it moves around and maybe some complicated ways of 2 + 1.  Let's calculate what that is.  So that's goes to 3 * 2 - 2 * 1 so that 6-2 Spore and the x-coordinate is to  Set map selector to 1 to the doctor for 2. So that's what those can I get a sense of what happens to them. So the first pictures to one which is here.  I heard someone say I would like the Divine Light just occurred to them and I hope that's right because this is super cool what happens here? Just I think so the vector that it gets map to is 4 to which is  there  what do you notice about those two vectors?  They are collinear or parallel their linearly dependent those two vectors.  Okay, that's actually pretty easy to understand that if you're looking at just that Vector because of linearity if you look at any Vector along that line the line through the vector 2 1 then the action of tea that line. The action of t on that Vector is to just scale it up by a factor of to write this Vector here is two times the original Vector to one that's a lot easier to understand than the more complicated thing that he does to the vector.  two three  That's what an eigenvector is an eigenvector is a vector a particular nonzero Vector to an eigenvector for a particular linear transformation is a vector which that linear Transformations applied to it. All it does is scaling buy some scaling Factor.  So delicious transformation, it probably doesn't do that to every Vector. If it does then that linear transformation is just a scalar multiple of the identity function, but there may be some of that actors that only get scales by linear transformation and it turns out those ones when they exist are important to the understanding of the geometry of what the linear transformation actually does. So here's another example something that you saw on your Matlab homework that you working on right now. So I still castic Matrix, I believe that use that term if it didn't I just tell you what it is is a matrix will do a three-by-three case. Let's take a generic a b c d e f g h i  So that's that Matrix as a generic Matrix is called stochastic if the row sums to one.  meaning that A + B + C equals 1 D + e + f equals 1 + G + H + I equals 1  That's called a stochastic Matrix one where the row songs are all one.  I think you may have seen on your homework the transpose property that the columns homes or what but they're those will behave similarly and by the way the set of all three matrices that is a 9 dimensional Vector space is 9 variables there and what we're doing here as we're putting three constraints on it. So the set of stochastic matrices is the solution of three linear equations in 9 unknowns so you can check how many of those constraints are actually independent from each other. You could row reduce this big 3 by 9 the system and you'll find it. All three of those rows are pivotal and what that tells you is that the range you're that tells you that the the column space if you like which is the matrices are columns is 6 dimensional Melody is so stochastic matrices form a 6 dimensional Subspace of the nine dimensional space of all 3 by 3 matrices.  but anyway, if you pick any one of those guys any stochastic Matrix, look what happens if I X the vector 1 1 1  Let's just remind ourselves how to do this matrix multiplication. I multiply the first row by that column and add up the term. So that's 8 * 1 + 3 * 1 + 3 * 1.  then I multiply through the second row by that same column and I get D * 1 + 8 * 1 + f * 1 and finally  The third row i x the column and I get in there.  G * 1 + 8 * 1 + Pi * 1  But I have these constraints down here that tell me that all three of those numbers are 1.  So what I see is that this Matrix hear this a here, it has the property that a x the vector 111 is equal to the vector 111 not only does it just scale that back to its scales it by 1. Vector doesn't move when I apply a to it that Vector is an eigenvector for this Matrix a stochastic Matrix. The vector 111 is a is an eigenvector.  So let's format for cement these definitions. So if I have a linear transformation from a vector space to itself, okay, or equivalently spaces RN if I have an N by n Matrix. This is only going to apply to square matrices. It only makes sense for square matrices.  Then a nonzero vector v is called an eigenvector for that Matrix. If t a v is a scalar multiple of the examples so that vector v if it's if all the happens to it when you applied linear transformation is that it's gets killed by some scaling Factor. Then we call that Vector an eigenvector for the linear transformation.  The scaling factor is called the eigenvalue.  For that I can vector.  Now it's a very important here that VB a non-zero vector.  Why is that?  What if I allowed this definition to apply to the zero Factor what happens if I take any Matrix and X the zero vector?  you get  zero vector  every Matrix has zero as an eigenvector. If you allow that to me the definition and worse yet. What would be the eigenvalue? Well a Time 04 you looking a linear transformation T of zero is equal to 0 which is also equal to 3 * 0 which is also equal to 17 times their which is also equal to Pi * 0 Etc. So if we're allowed 0 to be a thing we can call an eigenvector then we would have the following property every Matrix has zero as an eigenvector and every real number is an eigenvalue, which means that those terms lose all meaning. So this is why we don't want that to happen so I can vectors must buy definition be nonzero vectors that's important to understand here.  Okay, so let's look at another example. So here's a matrix a and I claimed that 7 is an eigenvalue of a  what that means is there is some Vector some nonzero vector v so that a x v is equal to 7 times a week. That's the definition to say that 7 is an eigenvector eigenvalue means that there's an eigenvector for that Matrix with eigenvalue 7 means that there's some nonzero vector v which when I X a just to get Scaled by that number seven.  I claim that's true. And actually, you know how to find that Vector how we going to find it.  Row reduction. So why is that? Well we want to do is we want to find actually let me call it. There's no X in the word find find X.  Non-zero such that.  ax equals 7X  now that's not the kind of equation that we've been solved that we've been solving equations like ax equals a certain Vector. Now, we have an x on both sides of that equation. That doesn't look like what we've been doing in this class, but we can make it look like what would enjoy him this class because I can subtract  From the other side so I can subtract.  And say this says a x minus 7x equals 0.  and now let me rewrite that as  a - 7 * the identity Matrix * X looks like it's not the Matrix a it's the Matrix a -7 times the identity. Okay. So what we see here is  We want to find.  A nonzero Vector X in the null-space of the Matrix a minus 7 times the identity is if you're looking for an eigenvector with eigenvalue 7, what you're looking for is to see if the null-space of a -7 * a identity Matrix.  Has nonzero vectors in it. Are there non-trivial Solutions of the homogeneous equation?  For the Matrix a - 7 x identity. So let's check that out. That's right. What is a -7 times the identity Matrix?  It's 1652 - 7007.  which is 1 - 7 is -6.6 - 06  5 - 0 is 5 + 5 - + 2 - 7 is -5  Okay. So before we do any more work just to look at that and tell me.  Is the null space of this Matrix trivial or not?  Does the the system this Matrix * x equal 0 does it have non-trivial Solutions or is it only have the zero solution?  Non-trivial why?  Write the two columns are parallel. That means that they are linearly dependent.  That means that there are not both pivotal. So we have a non pivotal column. We have a free variable in the system. That means that they'll be non-trivial solution to the homogeneous system. So now we see right now. Yes, 7 is an eigenvalue there will be an eigenvector. There will be some nonzero Vector in that null space and we can find it by join row reduction.  Right for your row reduction on this thing. Now, what I'll do is I'll probably I'll probably  pivot the first row.  And then I'll subtract 5 times the first row from the second.  And that is actually the reduced row Echelon form of a -7 times the identity Matrix. So what that tells us here. Is that the null space?  Consists of vectors of the form x 1 x to wear. Well, x 2 as a free variable and X1. The first equation says X1 - X2 equals 0 so X1 equals x 2  Okay, in other words if I factor out that X2, I got this Vector one one and this is this says that the null space is the span.  of the vector 1 1  so this thing here one one.  What is an eigenvector?  with eigenvalue  and if you want we can double-check that let me just do it over here if I take a x the vector 1 1  Okay, that's equal to 1652 x 1 1.  that gives me 1 + 6 which is 7 + 5 + 2 which is 7 which is indeed 7 x 1 1  check so  that's how we check if a certain number is an eigenvalue to say that seven is an eigenvalue of a is to say that a minus 7 times the identity has a non-trivial null-space and that's something we know how to do by row reduction and figuring out what vectors are in the null space me as we find eigenvectors for that number seven for that. I can value of 7 for the Matrix. So that's the theorem for any real number Lambda.  The set of vectors V for which Lambda is an eigenvalue.  Is a Subspace of v and what's Subspace is it so that this is what we went through on the last slide. So this thing here  Tia V equals Lambda V that happens if and only if t- land of times the identity applied to V is 0  which half means that V is in the null-space of t- Landa eye.  And this is a Subspace.  Write the null-space of a matrix is a Subspace of RN.  So this highlights an important point we can't really talk about V eigenvector.  I'm a matrix with a certain talking about you after all if I have an a vector for which a v equals 3 V.  right, so  Keeping this in mind here.  if a vector satisfies a v equals are like the last example 7v  then a * 2 V.  Is equal to 2 * AV?  Is equal to 2 * 7 V.  Which is equal to 7 * 2 V.  SO2 V is also an eigenvector which I'm going to read a to z vector.  Okay, so if I ever find an eigenvector than any scalar multiple of any nonzero scalar multiple, it is also an eigenvector with the same value so we can talk about the eigenvector to talk about the set of eigenvectors and its a Subspace. So Associated to each real number Lambda. There is a Subspace of them of RN just called the eigenspace for that eigenvalue and all it is is a new name for the null-space of T minus land at MC identity for that Matrix t  Okay, that's a Subspace. It's called the eigenspace. But so that's that makes sense for every real number Lambda. So  this is defined.  for any Lambda  a real number but  It is usually.  trivial  most of the time will see actually be able to prove this next day most of the time for almost every number Lambda no matter what Matrix T is T minus Lambda. I will have trivial null space in which case land is not an eigenvalue. The eigenspace is trivial. That means there are no nonzero vectors in there. So we call Lambda an eigenvalue.  only  when this thing the null-space of a minus Lambda I is not trivial if it has nonzero vectors in it. In which case we call those vectors the eigenvectors for that I can buy.  Okay, so let's look at another example.  So I give you a matrix knots on the last slide before the previous one. I said here's a matrix will show that seven is an eigenvalue and that when you when you're asked to do that, that's just a matter of doing row reduction. You look a - 7 x identity and you wrote us until you find a non-trivial solution of the homogeneous equation with that shifted Matrix. But if I say, here's a matrix find eigenvalues find whatever numbers Lambda there are for which a minus sign of times they has a non-trivial vector in the null space. That is a harder problem.  Cancel SCCY. So here's an example we can do by hand. Here's a matrix 01 - 105 Simmons Matrix before when we introduced linear transformation. This is a rotation Matrix. This is the rotation counterclockwise 90\u00b0. That's what it does to any Vector. It rotates it.  I claim that this Matrix has no eigenvectors and no eigenvalues and that geometrically makes a lot of sense I'm saying if I give you any Vector here, I want to find a vector so that when I rotate it 90 degrees it's back parallel to where it was before. Is that possible?  Doesn't seem like it's possible and it's not we can prove that cuz what is it? What is it? We're looking for 4, so we're looking for.  a real number Lambda  and  a nonzero Vector x y  such that.  That Matrix 0 - 110 * X Y is equal to land a x x y we want we want to show that that's just not possible. We can't find nonzero Vector x y and real number line. For which that equation holds so we know how to solve equations in this class. Let's see if we can solve the equations on the left side here. We get - Y X on the right. We got Lambda X and Y equations. So where have the equations are - y equals Lambda x + x equals Lambda y  two equations in three unknowns  But here's the is the ugly catch. Those are not linear equations.  Linear equations land is a variable here. We want to find Lambda if I told you what Lambda is. It's just a number like 7, then you can figure out if there's a solution to the linear system or not. But if it is a variable to call Matt Z, if you don't like calling it Lambda, those are non-linear equations it involve multiplying the variables as well. That's not allowed in linear algebra. So this is not a linear algebra problem.  In this special case we can still solve the system we can we can we can figure out what the solution is. We're going to go back like we didn't the very first day of this class and do it by ad hoc methods. Okay. We're just going to start fiddling around. So let's see here. So this equation here. This says that  x equals Lambda X Y but this equation or actual let's let's look at the first one. The first equation here says y minus y equals Lambda x x but the second equation I'm going to substitute says X is equal to Lambda x y  so what we get is that minus y equals Lambda squared x y  and that simplified thing I got rid of the ex. So if I add why to both sides and simplify that says Lambda squared + 1 times y equals 0 so whatever x y and land I want to find that satisfy those equations. I am must have that they also satisfy this thing Lambda squared + 1 * y equals 0  But Lando squared + 112 squared is a is a non-negative number. So this number here this is not zero. It's at least one in size. So if I have a nonzero number x y equals 0 I can divide the true when I get that. Why must equal zero?  Okay, so I know the value of y in this equation it must be zero, but hey look here.  therefore X is equal to Lambda X Y which is land of x 0 which is 0  so we also have X is equal to 0.  That wasn't supposed to happen.  What we just saw is that the only way I could have a vector x y and any number Lambda for which this Matrix X ex-wife was lying to * XY the only way that's possible is if x y is the zero, of course if x y 0 Vector like we pointed out this is going to work no matter what Matrix and Landon we put there any Matrix * 0 equals 0 equals Lambda times.  But that's not an eigenvector. If we want a nonzero Vector here. It's just not possible. So that verifies are geometric intuition. You can't rotate a vector 90 degrees and have it stay parallel to where it started.  Those of you who have seen in complex numbers before my recognized here. Well, actually this is number over here this number.  Here that could equal 0 if Lambda is allowed to be the \u221a -1 + \u221a -1 is not a real number but it is a perfectly good imaginary number actually rotation this rotation Matrix has the number square root of -1 as an eigenvalue. If you're working over the if you're working over the complex numbers rotations do have eigenvalues and eigenvectors. Hey, but this is not a course in complex linear algebra. This is a question real linear algebra. But anyway this out an important point that we're going to finish with here, which is I think I have written on the next slide will do that next time. But but here's the point given a an eigenvalue of potential eigenvalue. So I have a matrix here and I tell you he was a matrix check if the number 7 is an eigenvalue for that Matrix. That's an easy problem. It's one that you know how to do using the tools were developed in this course.  It's just a matter of figuring out what the null-space of a -7 * I is if it's the zero no space if it's trivial than 07 is not an eigenvalue if it is a non-trivial no space any S7 is an eigenvalue. So you now have an algorithm for figuring out whether a particular number seven is an eigenvalue The Matrix, but if we want to find what the eigenvalues are, I give you a matrix and say what number is Lambda are eigenvalues for it. That's a hard problem as we saw the last slide it could be but figuring that out required solving some non linear equations. Okay, so that's that's the that's the takeaway here that I want to leave you with which is finding eigenvalues fundamentally requires solving non-linear equations. Now, we're going to look at of simplifying way of doing that next time call the characteristic polynomial which is usually solvable to within whatever accuracy  You want but the key takeaway here. Is that the answer that you give to most problems in this class row reduction that doesn't work for eigenvalues. You can't compute eigenvalues by row reduction. Do you have to sell some non-linear equations and we'll continue talking about how to do that. ",
+  "Name": "math18_b00_wi18-02232018-1000",
+  "File Name": "lecture_19.flac"
+}

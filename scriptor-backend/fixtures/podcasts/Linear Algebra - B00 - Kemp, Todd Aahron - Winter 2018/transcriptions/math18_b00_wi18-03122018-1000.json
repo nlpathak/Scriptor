@@ -1,0 +1,572 @@
+{
+  "Blurbs": {
+    "+ 1 squared + 1 squared which is 6 And then the two remaining numbers we need are the. Products so X daughter with you one. well X is the vector 1 2 3 so I'll just write this then so that's 1 * 2 + 2 * 5 + 3 * -1 + 2 + 10 - 3 which is 9 Annex. It with you two is 1 * ": [
+      448.5,
+      481.9,
+      17
+    ],
+    "-2 + 2 * 1 + 3 * 1 which is three so we put all those things together and we just get that this Vector why this orthogonal projection is? 9/30 time is the vector u12 5 - 1 + 3 / 6 * the vector last two one. couple comments first If you're doing it this way where you haven't normalize the vectors, it's important that you use ": [
+      481.9,
+      517.9,
+      18
+    ],
+    "/ the length of you 1 squared as you want no notice that I'm using you one there. Okay, which is the same thing as everyone but it's important we use the you there specially when we get to the next let's go to the next steps was there were three vectors. We need to find a new you three. So we'd like to just use V3 if we could ": [
+      1442.0,
+      1461.6,
+      54
+    ],
+    "0 on the second equation says that x 2 - x 3 + x 4 equals 0 and as usual I write this as x 3 times a vector which in this case is -1 - 110 plus x 4 times a vector which is -2 1 0 1 Okay, and that's my basis. There are my basis vectors. Let me call them V1 and V2. And we know that ": [
+      801.5,
+      834.9,
+      30
+    ],
+    "1 squared which is 3 Time is the vector U1, which is the vector v ones that's -1 - 110. Okay, and what the heck was actually compute that thing? So it's - 2 + 1/3 is -5/3 and then 1 + 1/3 which is 4/3 0 - 1/3 which is -1 3rd and Alaska Partners just 1-0. And now we have an orthogonal basis you wanted you to so ": [
+      1248.6,
+      1278.5,
+      46
+    ],
+    "Do I listen to a podcast by Monday everyone? Yeah, but it's going to be fun in here, right? Did someone say no, but thank you for your honesty. I'm going to have fun. All right last week. This is the last week of classes. We are going to be moving on to section 6 point for today. And then finally section 7.1 on Wednesday, that will be the end ": [
+      2.0,
+      33.6,
+      0
+    ],
+    "I can't do that in a vacuum. It's like saying here's the reduced row Echelon form of a matrix find the original Matrix. You can't cuz lots of original matrices that Rob reduced to that one registration form. But what I mean is if we backtrack through the calculations, we just made I want to express the V's in terms of the use the calculations. We just made we were ": [
+      2380.6,
+      2399.5,
+      88
+    ],
+    "I guess I'll do what do you do for a send you one second. So it's important that we use you too and not V2 here. Yes. It should indeed. Thank you very much. I'm glad that I don't pay you guys for finding my errors because I would be broken now, but thank you for finding my errors for free. Savitri daughter with you to is 009 dotted with ": [
+      2164.9,
+      2191.6,
+      80
+    ],
+    "I said, let me get myself a little more space here. You straight down here. Okay, so that was a normalized the vector that we get. Another that we got was V3 - the orthogonal projection of V 3 onto you one hat. Minus the orthogonal projection of V 3 onto you too hot. And now we can solve that for V3 just by multiplying 3 by the length of ": [
+      2477.4,
+      2505.7,
+      92
+    ],
+    "I'll decide which one is first, but let's just take the one that's labeled first. I'm just going to keep it. To the first Vector in the basis is the one that Vector -1 - 110. I'll keep that one. I know what I need to do. In the second step is to choose a second Vector here that is going to have two properties. One of them is it ": [
+      951.4,
+      976.0,
+      35
+    ],
+    "Its a Subspace of all four of those vectors X for which one you multiply 8 * X you get 0 to x 8 x x x has to have number of components equal to the number of columns. So this is a Subspace of R4. How do we find out? How do we find a basis for the Subspace? Oh, wow, come on, guys. It's been 9 weeks already. ": [
+      680.4,
+      704.8,
+      26
+    ],
+    "Matrix and that Matrix over there will be offered triangular. That's what gram Schmidt actually does for you. So here is the theorem which we just proved which is it if you take an M by n Matrix, which is full rank. Okay, he'll be tall and skinny if it's not Square because it has to have all the orthodontist has to have all linearly independent columns. So you take ": [
+      2706.7,
+      2734.6,
+      100
+    ],
+    "Matrix. The first two are visually linearly independent and then the third one is not hard to check is also linearly independent. So if we did Robert option, we would see that calms one two and four are the pivotal columns. So that's the basis that I'm going to start with. That's B1 B2. I'll called V3 even though it's the fourth Factor. So we started with a basis. So ": [
+      1936.3,
+      1965.1,
+      72
+    ],
+    "Subspace V of RN and everything in the section we're doing is an RN everything is concrete column vectors. If you have a Subspace and you have an orthonormal basis for okay, so a basis for that Subspace where all the vectors in the bases are orthogonal to each other and of unit length. Then you can use them to calculate the orthogonal projection into that Subspace. That is it ": [
+      136.1,
+      160.8,
+      5
+    ],
+    "The only thing that's important. I'll tell you what those numbers are as I will write them in a moment. I think I want you to note is that just like when we did this procedure forward we got the you use three was in the span of V1 V2 and V3 and it didn't involve any of the further vs. Similarly V3 depends only on Hue one that you ": [
+      2597.3,
+      2619.4,
+      96
+    ],
+    "Vector why the projection so for example, here's an example. So here is I'm giving you an orthogonal basis for a Subspace. Okay. So I'm the Subspace is the span of those two vectors who wanted you to and I'm telling you this is an orthogonal basis and that's actually easy to verify 2 * -2 - 4 + 5 - 1 is indeed 0 I'd like to compute the ": [
+      311.2,
+      339.4,
+      12
+    ],
+    "We've been training. Let's do it again. How do we find the basis for the Subspace? Right, you better know that by now for the final exam. So we're going to do row reduction on that Matrix. Okay. So first I'll subtract the first row from the second. I got 0 - 2 - 2 - 2. And then I'm going to Pivot the last row. And I'm going to ": [
+      704.8,
+      738.7,
+      27
+    ],
+    "a matrix with linearly independent columns. Are you do ground Schmidt on that Matrix what grandma Schmidt actually does for you is it factorize has the Matrix in the form Q X are amusing to hear instead of you up until we use the letter U and your textbook uses the letter q and so do men so does Matlab so I'm going to call a q but that's the ": [
+      2734.6,
+      2755.8,
+      101
+    ],
+    "an orthodontist basis whose columns are written right there in this Matrix q and the coefficients that we used along the way to find those in the gram Schmidt process. They were three. 2 root 2 + 3 / root 2 those worthy the length squared of the vectors and then to express you too. As a linear comp as a to express you to is linear combination of V1 ": [
+      2808.2,
+      2834.5,
+      104
+    ],
+    "and V2 traditionally had this coefficient here 9 quarters and to express you three as linear combination of V1 and V3. You had two and one of the coefficients. So here is my Matrix are so kieu is ortha normal columns. an R is upper triangular. That's the QR factorization of a matrix. This is something you need to know for this course in for the final exam how to ": [
+      2834.5,
+      2868.4,
+      105
+    ],
+    "and all the way down the line. Depart of VP with u p - 1 divided by the length of u p -1 squared How do you pee? Okay, so we do this interactively we produce are you one just like before we just choose the first doctor in our list you to we get it by taking the second Vector in the original list and subtracting from it the ": [
+      1603.2,
+      1630.3,
+      60
+    ],
+    "and the new basis vectors will call him you you once were you pee the same number because every basis of a given space has the same number of elements. I'm going to produce it with the following properties first. It's going to be an orthogonal basis of nonzero vectors there for a second. We're going to arrange it so that will either 8 as we go so that okay ": [
+      1343.0,
+      1364.9,
+      50
+    ],
+    "are equivalent in the level of difficulty and level of competition and complexity. I always do the former. I'll always forget the lengths as I go and just compute an orthogonal basis and then normal exit at the end. So that's what I recommend you do but it's actually fine to do either way. So that is how we find an orthogonal basis. So let's do an example. So here ": [
+      1870.5,
+      1891.7,
+      69
+    ],
+    "as we go let me write down with that would look like so then we would say well the first step is to take you one hat is equal to V1 divided by its length. and then you two hat is equal to V2 - Okay. Well if we've already normalized then the projection is slightly easier to computer. It's a V2 daughter with you one hat X you want ": [
+      1813.8,
+      1841.7,
+      67
+    ],
+    "at this point if this were course in arithmetic, I would want you to go through all the calculations to get there. Let me just give you the answer. If you want to run the calculation yourself later that all adds up to -2 - 1/2. And then finally, we would need to compute the length of that to normalize. So the length of you three squared is the sum ": [
+      2252.5,
+      2276.4,
+      83
+    ],
+    "basis. So I'll just write it one more time that if we're going to to do this. Let me write it as You want is V1? U2 is V2 - the projection so that is V2 dotted you 1 / length of you 1 squared times you want. U3 is V3. Minus V3 dotted with you on / length of you on squared x u 1 - V3 daughter with ": [
+      1731.3,
+      1766.2,
+      65
+    ],
+    "be orthogonal. We don't have to guess though. There's going to be a procedure. I'm going to show you right now or we can do exactly that. We're going to take linear combinations of these given basis vectors in order to produce a new basis of the same Subspace that is orthogonal and the procedure works like this. So what we're going to do is so we start with the ": [
+      902.2,
+      926.1,
+      33
+    ],
+    "because you haven't defined you pee yet. So that wouldn't be iterative. That would be in recursive. Thanks good. Guess what each stage of this procedure? We use the stuff. We already did in the last step to produce. The next step should be no surprise to you that we got everything in this course when we are doing no reduction The Next Step depends on the previous step that ": [
+      1680.3,
+      1703.5,
+      63
+    ],
+    "better as well. So it doesn't mean it's also important for a different reason. I just see why I want to answer this question, right? So we started with a basis V ones for VP. How do we produce a new orthodontist basis you one's for you? Pee can I go backwards? Hey, so what if I had the use and I want to get back to the VIS? Well, ": [
+      2357.9,
+      2380.6,
+      87
+    ],
+    "by the end of the day. Okay, so same drill as though with the midterms. You have one more MyMathLab assignment. It's due this Thursday at 11:59 p.m. That you should be working on it now. After today's lecture you will be able to do everything on it except for the last few questions already. And your Matlab quiz is scheduled for tomorrow Tuesday of this week in the usual ": [
+      54.7,
+      81.4,
+      2
+    ],
+    "by the length of you once we're north of you to squirt. Okay. Okay, so let's just quickly run through those calculations. We need to calculate four numbers. I need to calculate the length of you 1 squared. Okay. Well you want is the Spectre to 5-1 so that's 2 squared + 5 squared + 1 squared which is 30. And the length of you 2 squared. is 2 squared ": [
+      416.0,
+      448.5,
+      16
+    ],
+    "column space of a row reduction, right we need to do row reduction to see which of these columns will will choose as the basis vectors. So I'm going to cheat a little bit until you okay. I already did the reduction or I can just witness that the third column is the sum of the first two columns. So that column is certainly not a pivotal column in this ": [
+      1914.2,
+      1936.3,
+      71
+    ],
+    "each stage. We got exactly what I wrote here. We get this. Okay, that first one you want is in the span of V1 the second one you too. It's in the span of V1 and V2. The third one you three is in the span of V1 V2 and V3. Yes question. Because I made a mistake. Thank you. Yeah, I wouldn't make sense to have it X you ": [
+      1652.8,
+      1680.3,
+      62
+    ],
+    "expressing the new you was in terms of these but in the ground short procedure, I want to express the V's in terms of the use. So let's go back. That's right again one more time. So you one was equal to its U1 normalized. So it is V1. Remember V1 was you want / the length of you one, which is the same as the length of V12? Let's ": [
+      2399.5,
+      2424.2,
+      89
+    ],
+    "find the QR factorization of a matrix, but it's exactly the same thing as doing gram Schmidt orthogonalization. Okay, so that's the QR decomposition of a matrix. So on your homework you going to be doing if you haven't already a bunch of examples of this and you just need to get used to how to put those quotations into the upper triangular matrix. It's just what this one tells ": [
+      2868.4,
+      2893.6,
+      106
+    ],
+    "for this two-dimensional Subspace. So all I need to do is find some linear combination of V1 and V2. That is orthogonal to be 1 / you And then I'll have an orthogonal basis now. I could set that up as a linear equation now, but actually here's exactly how we're going to do it. This is the end result and it uses orthogonal projections. In fact, let's think about ": [
+      997.2,
+      1019.8,
+      37
+    ],
+    "further we could simplify that 9/30 is 3/10 and the second factor is 1/2 and then I can multiply through a single Vector. I'm not going to do that because this is not a course in arithmetic. In fact, if you were on the final exam and this was a question you were asked if you want to go ahead and leave it in that form. That's fine. And not ": [
+      536.5,
+      558.0,
+      20
+    ],
+    "get by projecting it straight down any other point over here the line between those two tip is longer than the one that straight down. So that's geometrically what you are solving a projection really means and why it's important the most important reason for using it is that characterization it's for approximation the best approximation of the vector ex if you're constrained to be in the Subspace, is that ": [
+      288.3,
+      311.2,
+      11
+    ],
+    "given basis so you have to start with a basis. I'm going to produce a new basis you want you to? That is orthogonal. What is make a toggle for now? We can normalize later. So, how do we do this? Well, there's a million ways to do this. But the procedure I'm going to show you the first step is to say, you know what that first vector and ": [
+      926.1,
+      951.4,
+      34
+    ],
+    "going to find a new bassist where each new basis Vector is a linear combination of only the previous ones. We don't have to reach further on in the bases and we'll see in a few minutes that that's going to give us some nice properties for these bases Beyond just being orthogonal. So let me reiterate what we did on the last slide. So we do the same thing ": [
+      1389.3,
+      1408.8,
+      52
+    ],
+    "has to be linearly independent from the first well, in fact, we want to be orthogonal to the first so it'll be linearly independent but it also needs to together with the first one form a basis. Will it will do that as long as it's orthogonal here and in the Subspace to be because if it's orthogonal and in the Subspace nonzero, then I'll get two linearly dependent vectors ": [
+      976.0,
+      997.2,
+      36
+    ],
+    "hat if we've already normalized it but that doctor isn't normalized. So we still have to take that thing and normalize it just a little cumbersome to write down here. And so on like that, so if you want you could normalize as you go. Or you can just do the procedure that's written at the top and get an orthogonal basis and then normalize at the end those two ": [
+      1841.7,
+      1870.5,
+      68
+    ],
+    "have to do? I can just use the formulas up there right? I take the vector X. Dot product it with Y X a butt with what you want and multiply that scale at times you want and take the vector ex and duck product with you to go fly by you to write. Is that right? Is it wrong because you can tell by my tone of voice by ": [
+      368.7,
+      393.7,
+      14
+    ],
+    "hear. What we're doing is projecting into the orthogonal complement if you want it, that's the same thing as subtracting the projection onto you one. So that's what I wrote there. So now for V3 maybe what I'll actually do here is right. What we want to do is take the orthogonal projection into the ortho complement of V1 and you to affect you want any U2. V3 that's what ": [
+      1486.2,
+      1520.1,
+      56
+    ],
+    "here. We start this procedure just by selecting the first basis Vector V1. And then the second one. We would like to just take V2. But beaches probably not orthogonal to view one. So we have to do is make it orthogonal to be won by projecting it into the orthogonal complement of the one. Okay, and as we saw the formula for that is V2 - V2. You want ": [
+      1408.8,
+      1442.0,
+      53
+    ],
+    "hey. Hey, I know what's going on here that are Matrix is upper triangular on the eigenvalues of an upper triangular Matrix are right on the diagonal. But caution the QR factorization. The are doesn't have the same eigenvalues as the original Matrix. If it did you would be easy to compute eigenvalues and it's not what not live does instead and I'll just finish with this is to say ": [
+      2967.6,
+      2989.9,
+      110
+    ],
+    "is 18 / the length of you wants word, which is 9 times the vector you one which is 1-2 2 And the second one is the top part of III with you to which we calculated is also 18 / the length of you two squared, which is 8. Time's the vector you too. Can you do that? We already computed above which is 0 to 2. And again ": [
+      2224.8,
+      2252.5,
+      82
+    ],
+    "is a matrix. Okay, and I would like to find an orthogonal basis or an orthodontist basis. In fact, I'm asked for here for the column space of this Matrix. Okay. So the first thing we need to do is produce a basis and then we'll use the gram Schmidt orthogonalization process to turn that basis into a new orthonormal basis. So how do we find a basis for the ": [
+      1891.7,
+      1914.2,
+      70
+    ],
+    "is in the Subspace V. It's been designed to be orthogonal to you one and therefore you want and you too will be an orthogonal set of two vectors in a two-dimensional space and therefore will be a basis. That's how we do this. So in this specific example, we just have to compute that you two is equal to okay. It's over here to line up. So V2. Is ": [
+      1194.5,
+      1220.1,
+      44
+    ],
+    "is just gotten by projecting onto each basis vectors separately and adding up. It's okay. I already have two orthogonal vectors you wanted you to I can compute that projection like this. Okay, and to belabor that point I'll write it as it's V3 - V3 dotted with you one over the length of you 1 squared x u 1 - V3 daughter with you, too. over you to Mike ": [
+      1549.9,
+      1576.7,
+      58
+    ],
+    "it in order to do this orthogonal projection? So for example here is a Subspace one of the kind that we've studied a million times. Now this null-space just sanity check here. What size of vectors are in this? No space. This is a Subspace of what rnrn for what end? I hear a bunch of people saying to is that correct? Can you tell by the fact that I'm ": [
+      622.1,
+      658.3,
+      24
+    ],
+    "it to your I am going exactly back on my word telling you that I was normal as at the end in here on normalizing now, that's fine. So there's our first orthodontist Vector then if we're going to find the second Vector you too. Sorry that my to sometimes have like three he's okay. So that's we take the vector V2 in our list and we subtract from it ": [
+      1989.6,
+      2014.7,
+      74
+    ],
+    "know like it's the no spaces. So Matrix, we know how to find a basis is the column space of a matrix. We know how to find a basis you found some basis that basis is probably not an orthogonal basis. Okay, but you got start with some basis. What we're going to do is we're going to produce a new basis. So we call the original basis vectors V ": [
+      1325.6,
+      1343.0,
+      49
+    ],
+    "leave it like that to let me solve for V one there. That's easy enough V1 is equal to the length of you one time is it you want hat? Okay. Now what about you two hats in the procedure that was equal to 1 over the length of the vector that we find you two times that Vector you to which we produced as a V2 - the orthogonal ": [
+      2424.2,
+      2448.0,
+      90
+    ],
+    "list of the eigenvalues it will do it in two seconds on a not very fast computer now 4000 4000 Matrix the characteristic polynomial of that is a 4000 degree polynomial factoring such a polynomial even approximately is very difficult. That's not how Matlab does it what MetLife does instead is this Matlab computes the QR factorization of your Matrix, which is a very simple algorithm. Now, you might say ": [
+      2938.3,
+      2967.6,
+      109
+    ],
+    "not live quits. Okay, so just communicate with your ta All right, and that's basically all the administer B. I wanted to go through so I'm going to get started now with today's course material. Let's begin by reviewing what we talked about last time. So we're now deep into orthogon ality orphan or Melody orthonormal basis and last time we talked about orthogonal projections. So if we have a ": [
+      105.3,
+      136.1,
+      4
+    ],
+    "now we follow gram Schmidt. So you want is just going to equal V1? Which is 1 - 2 2. Well, we're going to need it. Anyway, so I'll go ahead and compute the length of that. Now the length of that squared is 1 squared + 2 squared + 2 squared which is 9 so the length of you one is three. So if I want I could normalize ": [
+      1965.1,
+      1989.6,
+      73
+    ],
+    "now we've known each other for a whole quarter that no, I'm trying to pull you. So what did I do wrong? Right what I did wrong was to not normalize the vector. So that's an orthogonal basis, but it's not a North enorma basis so we can either normalize does vectors and then use the normal vectors, but that's the same thing as dividing through each of those terms ": [
+      393.7,
+      416.0,
+      15
+    ],
+    "of Pythagoras Theorem what that means is that this Vector why they're having a projection of the vector in the Subspace V that is closest to the vector acts that you started with. Okay, so if I have a vector in space represented by my pencil over here Okay, then the vector in the table cuz tip is closest to the tip of this one. That's the one that you ": [
+      258.1,
+      288.3,
+      10
+    ],
+    "of V 2 into V1 purple time. Remember I'm calling V1 you one now. That's how I do this. Okay now hold on a sec. Hold on a sec can hold on you're talking in circles, man, because the whole point of what we're trying to do here. Is figure out how to find an orthogonal basis so that we can compute orthogonal projections. But now I'm telling you in ": [
+      1050.6,
+      1076.5,
+      39
+    ],
+    "of implicit because it involves the length of the vector that we produced. So let me make it less plus it and give it some new names to those things this number here. Let me call that R11. And these numbers down here. Let me call them R22 and r21. And these numbers here. Let me call them r33 r31 and R32. So when we do that what we have ": [
+      2534.3,
+      2560.9,
+      94
+    ],
+    "of new material. Friday will be review lecture. Your final exam is on Saturday this coming Saturday at 11:30 a.m. In three rooms many of what you've already had midterms and all but you already had been turned in that's posted on the course web page. I wrote her that your seating assignment is already on Triton and it has an accident made visible to get that it will be ": [
+      33.6,
+      54.7,
+      1
+    ],
+    "of the squares of those numbers, which if you work it out comes out tonight house. And so therefore the normalized u3, is that Vector user? I just computed divided by the square root of 9/2. So the length of you three is equal to 3 / root 2, so I have to multiply buy root 2/3 the vector -2 - 1/2 1/2 Okay, and I won't simplified any more ": [
+      2276.4,
+      2307.1,
+      84
+    ],
+    "only is it fine, but it's probably preferable because the greater will be able to recognize that better than the actual answer to pay especially if you made a numerical answer the error in your answer if you made an America Lehrer and all you end up writing down as the final Vector your grade is not going to have any idea where you went wrong. Whereas if you write ": [
+      558.0,
+      578.3,
+      21
+    ],
+    "order to find an orthogonal basis. We're going to use an orthogonal projection. How am I supposed to do that? Well valid point but there are some orthogonal projections. We know how to compute already. We know how to compute one-dimensional orthogonal projections. And moreover remember the definition of orthogonal projection the definition of orthogonal projection. Which is written right here. Is that if you want to project into V, ": [
+      1076.5,
+      1107.2,
+      40
+    ],
+    "orthogonal projection except. Part of the story in the introduction of the story at the top. I said given an orthogonal basis or given an orthonormal basis you can do all this. So if I give you an Arsenal basis, you know what to do. But what if I don't give you an Arsenal basis-in-fact how do you even know that a given Subspace has an orthodontist basis you need ": [
+      596.4,
+      622.1,
+      23
+    ],
+    "orthogonal projection. Here's a vector why I should call that acts to be consistent with what we're using above. So here's a vector EX. And I would like to find the point. Why in this Subspace V that is closest to that dr. Axe. In other words. I just want to find the closest point y y is equal to the orthogonal projection. eye vac Center V Now what I ": [
+      339.4,
+      368.7,
+      13
+    ],
+    "produced as we see the VK case 1 2 3 and so on I've now written it as some number rkk times UK hat. + r. K k - 1 x UK - 1 Hat + r. K k - 2 U K - 2 hot and so on Down the Line. That might look pretty take what's going on there in the thing that I want you to know. ": [
+      2560.9,
+      2597.3,
+      95
+    ],
+    "projection of V 2 onto you want which I'll now right in terms of the normalized factor you want so I can solve that. 4 V 2. Okay, that's a simple linear equation. And that is SSV to is equal to the length of you two times you two hats plus the dot product of E2 with you one at times you want hat. Unless I look at U Street. ": [
+      2448.0,
+      2475.9,
+      91
+    ],
+    "projection of that Vector onto the first one that we already produced in the next step. We take the third one in the list of e3 and we subtract from it the projections of that Vector V3 onto each of the vectors you wanting you to that we already produced and we keep going and this procedure is guaranteed to produce an orthogonal set of vectors, but more importantly in ": [
+      1630.3,
+      1652.8,
+      61
+    ],
+    "quite tedious. Okay, but it's tedious for you. It's not 2DS for a computer. Computationally very easy for a computer. So that's the gram Schmidt process now in the last 12 minutes here. I'd like to tell you beyond the final piece of the puzzle for how this tell us how to compute orthogonal projections how to find orthonormal basis in general. I want to tell you it does something ": [
+      2332.2,
+      2357.9,
+      86
+    ],
+    "same Matrix you we've been talking about. It's the Matrix was columns are the orthodontist vectors the are the ARs that thing we just produced and what it works out to is it's just all the coefficients that you computed during the gram Schmidt process organized in the right way. So if you backtrack to slides to this calculation here, it's all of these coefficients. that one that one those ": [
+      2755.8,
+      2784.5,
+      102
+    ],
+    "second vector and if I want to normalize it. I just calculated slang squared is 0 squared + 2 squared + 2 squared + 4 So therefore the length. Is the square root of 4, which is two? That's right for + 2 squared + 2 squared is not for its equal to 2 * 4 or 8 which means that the length is to Route 2. And so I ": [
+      2080.0,
+      2106.7,
+      77
+    ],
+    "see next time. It has the same eigenvalues as a and then you can repeat keep doing QR factorization and reversing and we'll discuss next day. Why doing that will get you quickly close to a matrix is eigenvalues are easy to compute. See you on Wednesday. San Diego forecast ": [
+      3013.8,
+      3286.5,
+      112
+    ],
+    "space so we only have to do one more Vector you three which is V 3 - the projection of V 3 onto you one. minus the projection of V 3 onto YouTube sohvi 3009 Canada calculate two more. Products here V3 dotted with you two Is equal to okay. Well, these are easy cuz they're mostly zeros in V3. So it but it's important that I use you to ": [
+      2126.3,
+      2164.9,
+      79
+    ],
+    "squared X YouTube and then we keep going just like that. So when we get down to the last one you pee Well, we start with VP. We subtract from it the top part of the VP with you one, but it buy you one like squared times you want. The top part of the VP with you, too. Divided by the length of you two squared times you too ": [
+      1576.7,
+      1603.2,
+      59
+    ],
+    "start the same way as before you want is V1 and then you to the second orthogonal basis Vector is going to be a linear combination of V1 and V2. And then you three it's going to be a linear combination of V1 V2 and V3. And you for the going to be a linear combination of V1 V2 V3 and V4. Okay, as we go through this procedure, we're ": [
+      1364.9,
+      1389.3,
+      51
+    ],
+    "stroking my beard that it's not correct? The column space of this Matrix is a Subspace of R2 cuz the columns are in our to the null space which is if you want to think about it look like we did last week the orthogonal complement of the roast base. Is going to have the same number of entries has been as the elements in the Rose as the rose. ": [
+      658.3,
+      679.5,
+      25
+    ],
+    "subtract the second row from the first. And I'm going to be in reduced row Echelon form when I do that. So I'm subtracting. Did I make a mistake on that last one? Yes, thank you. Which means that this is -1 there now and I'm subtracting two Matrix in reduced row Echelon form. And so to find a basis, I would just the way I always do it is ": [
+      738.7,
+      775.2,
+      28
+    ],
+    "take any Vector X in RN. It may not be in the Subspace but there is an orthogonal projection straight down to a vector in the Subspace and there is a simple Formula Ford as we computed. You just take the duck part of X with each of the basis vectors and take that's Killer X the basis vector and then add those up. In other words that is just ": [
+      160.8,
+      184.2,
+      6
+    ],
+    "than that. So there's the vector in question. So those three factors that I just computed. You want hot? you two hats and you three had those three vectors form an orthodontic orthonormal basis for the column space of a that's how you do it. That's how this procedure works. It's a little tedious if you get in I'll be honest if if there were a force Vector it gets ": [
+      2307.1,
+      2332.2,
+      85
+    ],
+    "that Vector - 2101 minus V2. U18. What's a V2. You one? Will you want his V ones with the duck part of those two vectors, which we computed is equal to 1. Can we computed that? Right here. / the length of you once we're discussing how we compute that length squared that Victor is -1 - 110 so it's length squared is 1 squared + 1 squared + ": [
+      1220.1,
+      1248.6,
+      45
+    ],
+    "that and that down there and you know, what if there was if I got eight instead of 6 by accident for the length of you to swear you a greater will know where you went wrong and be able to dock you a small number of points accordingly. And so that's my recommendation to you if you see a problem with that. Okay, so that's basically the story on ": [
+      578.3,
+      596.4,
+      22
+    ],
+    "that is the one that Regional Vector -1 - 110 and this new Vector here. And if you want you can go ahead and verify that those two are orthogonal we designed them to be orthogonal. That's how we find the orthogonal basis for a two-dimensional Subspace. What if we have more vectors, what do we do if we have more than two vectors? Well, we can just enter 8 ": [
+      1278.5,
+      1301.9,
+      47
+    ],
+    "that procedure. So here is the process that is it rating exactly what we just did and it has a name is called the gram Schmidt orthogonalization procedure which takes longer to write than actually doing the procedure. Okay. So if you'd like, so here's how it works. You have a Subspace TV and you already found a basis for finding the following one of the other things. We already ": [
+      1301.9,
+      1325.6,
+      48
+    ],
+    "the V1 V2. Is a basis. For this no space of that Matrix. The Matrix a okay, so I found a basis is it an orthogonal basis? Let's see, what's the dot product of those two vectors of computed the one dotted with V2 is equal to -1 * -2 + -1 * 1 + 1 * 0 0 * 1 which is 2 - 1 which is what? not ": [
+      834.9,
+      873.8,
+      31
+    ],
+    "the original basis Vector, but that's probably not going to work V3 is probably not orthogonal to V1 or V2. It's probably not orthogonal to V1 or you to either okay, but what we'll do is we'll make it orthogonal to them. By taking and subtracting from it. I'm sorry, but I work here was not quite right. It's the -2004 directions to V1 going back to the previous slide ": [
+      1461.6,
+      1486.2,
+      55
+    ],
+    "the projection onto you want to. And with you 1 / the length of you 1 squared times you want. So that's equal to. 104 -4 the dot product of V2 and u1f to compute that in order to do this. Dividing a box over here. V2. Of you one Right. Well that's equal to. 1 * 1 + 0 * -2 + 4 * 2 + 1 + 8 ": [
+      2014.7,
+      2053.0,
+      75
+    ],
+    "the sum of the one-dimensional projections you project onto each basis vector and add up those one-dimensional projections. That's the orthogonal projection for that formula to be true. It's important that these be normalized directors if they're not normalized. If you just have an orthogonal basis, then you additionally have to divide each of those terms by the length of the vector u 1 squared because there's a length of ": [
+      184.2,
+      207.4,
+      7
+    ],
+    "the vector you wanted you to they're not the normalized what I've already taken account of the length of you won in both places. So you're going to use that after you want to hear you wouldn't additionally divide that doctor by its length cuz you have already divided by sine squared in the formula. And then the other comment here is I'm not going to take this calculation any ": [
+      517.9,
+      536.5,
+      19
+    ],
+    "thing there is a one-dimensional projection. We know how to compute those. So this is just V2 - V2 dotted with you 1 / you 1 squared times you want okay, that gives us a linear combination of V1 and V2. So this thing is in the span of V1 and V2, which is equal to the Subspace to be so there we go. We'll get an Uber after that ": [
+      1162.7,
+      1194.5,
+      43
+    ],
+    "this what I want. I want to take a vector. in the Subspace spanned by V1 and V2 It is perpendicular to V1, which I'm not calling you one. What is the set of vectors perpendicular to a V1 called? Just to remind you. There's a symbol that we use for it that upside down T. It's V1 Purp. So all I need to do is take The orthogonal projection ": [
+      1019.8,
+      1050.6,
+      38
+    ],
+    "through VP as the columns. Hey, those are the pictures you started within the basis you produce that new bassist. You want hat you too hot you pee hot which is a north and Arville basis. What this procedure with a garnishment procedure actually says is that in doing that you're writing the original Matrix The Matrix with the original basis as its columns as the new one with the ": [
+      2643.3,
+      2667.1,
+      98
+    ],
+    "time. When you have your section on Thursday a few people have posted on Piazza that you signed up for the makeup exam or that the conflict quiz time, which is today there were several times today, but then now you don't have a conflict anymore and you can do it on your regular time. If that happens just email your ta your ta for your section is proctoring. You're ": [
+      81.4,
+      105.3,
+      3
+    ],
+    "to go right from the definition say okay. This is the set of all x 1 x 2 x 3 x 4 where I use the reduced equations that the registration form gives me. I note that these two columns are free variables. So I'm going to put X3 and X4. at the free variables in the first equation says x 1 - x 3 - 2 x 4 equal ": [
+      775.2,
+      801.5,
+      29
+    ],
+    "two That one and that one kid. Those are the ARs that come in they just need to keep track of which one goes where? So in that example, I'm just going to copy those numbers over what we got there. And those that case here are the three factors that we produced. Hey, we started with that basis for the column space. So that makes you say we produced ": [
+      2784.5,
+      2808.2,
+      103
+    ],
+    "two had a new 3 hat. It doesn't depend on you for you five. And so we get the same triangular structure. So let me write that and the Triangular structure. It really is a parent when you write things like this. If I take the same collection of vector equation is here and write it as an equation for the Matrix. So here's the Matrix with those vectors V1 ": [
+      2619.4,
+      2643.3,
+      97
+    ],
+    "use as its columns times this Matrix here. with all zeros What you're doing is your writing the Vees? In terms of the use when you do that, you are factorising the Matrix you start with a matrix with columns form a basis for your Subspace. Doing the gram Schmidt process. What it actually does is factorize that Matrix as a matrix here whose columns are orthonormal time is another ": [
+      2667.1,
+      2706.7,
+      99
+    ],
+    "we did. Okay. It's a procedure. It's very fast for a computer to implement that sits again. It's like doing the reverse phase of a reduction its order and a squared number of flops if you have an eviction order P-Square here. That's the gram Schmidt orthogonalization procedure. Now, we wanted to produce a North enormo basis. But again, we can do that quite easily once we have an orthogonal ": [
+      1703.5,
+      1731.3,
+      64
+    ],
+    "we take a and factorise it is QR and then it takes a new Matrix, which it'll call A2 and writes those two in the other order. In the QR factorization if you start with a square Matrix both q and R will be square. So you can write them in the other order remember matrix multiplication nearly never commutes. This is going to be a new Matrix, but we'll ": [
+      2989.9,
+      3013.8,
+      111
+    ],
+    "we want. We want the new Vector to be orthogonal to both of the previous ones so that all three of those vectors are now orthogonal but like before we can write that simply as we take V3 and we subtract from it the projection onto you one. And subtraction that the projection up to you, too. Hey, remember the orthogonal projection onto an orthonormal basis or an orthogonal basis ": [
+      1520.1,
+      1549.9,
+      57
+    ],
+    "wherever orthogonally projecting into the OR thought into the orthogonal complement of a vector by definition we can just get this By taking the vector v to and subtract subtracting from it the projection into the original Subspace. Okay, so that's just what I said on that last flight the sum of these two things the sum of this thing and this thing is V2 by definition. But that second ": [
+      1129.2,
+      1162.7,
+      42
+    ],
+    "which is 9 So I got - 1/9 are sorry - 9 / the length of you one square, which is also 9. time does the vector you want the unnormalized vector you want 1-2 2 9 over 9 as one so this becomes easy. So this is 1 - 1 which is 0 0 - -2 which is 2 and 4 minus 2, which is too so there's my ": [
+      2053.0,
+      2080.0,
+      76
+    ],
+    "wipe I want I could compute now, but normalize Vector you two had I divide that vector by two or two and I get one one of our route to one of her route to in these kind of problems with your normalizing your often going to see things like that where you have radicals in the denominator really hard to avoid. Okay, and then finally this is three dimensional ": [
+      2106.7,
+      2126.3,
+      78
+    ],
+    "would we care about that? Well in the last one minute I will just say what is it good for it's good for finding eigenvalues when Matlab compute eigenvalues when you put in a matrix a square Matrix in Matlab Are you asking to compute the eigenvalues and it immediately spits out a list if you put in a 4000 by 4,000 Matrix and ask it to spin out a ": [
+      2912.1,
+      2938.3,
+      108
+    ],
+    "you is exactly riding. The things on the left as linear combinations of the things on the right wear for the first column on the left. You only need to use the first column on the on the right for the second one. You only need to use the first two columns on the right in the third one involves all three think that's the idea here. Okay. Now why ": [
+      2893.6,
+      2912.1,
+      107
+    ],
+    "you one inside the department of like the view one for the vector outside the door parts as well. And we saw last day that you can also consider that as a linear transformation. It has a matrix on that Matrix is you you transpose where you is the Matrix probably a tall skinny Matrix has usually more rows and columns columns are the orthodontist basis vectors you wants for ": [
+      207.4,
+      231.0,
+      8
+    ],
+    "you pee Okay. Now this orthogonal projection as I said, this is the straight down projection. So you take the vector ex and this why this projection why which were calling project sub V of X. It is the unique Vector in the Subspace V4, which that straight down the line y - x is perpendicular to the that's the definition of projection. And geometric Lee what that means because ": [
+      231.0,
+      258.1,
+      9
+    ],
+    "you to / length of you two squared times you two, so that's the case if we have three vectors. So that'll give me an orthogonal basis and then from there. I producing orthodontist basis. You want hot you two hats and you Three Hats just by normalizing them you 1/2 life. YouTube / it's length and so on. Okay, so if we wanted to we could do the normalization ": [
+      1766.2,
+      1813.8,
+      66
+    ],
+    "you to the one we just produced is 0 to 2. 10009 dotted with 0220 + 0 + 18 that's one of the numbers we need. The other one is V3 dotted with you one. which is 009 dotted with you one the same as V 1 1-2 2 so I just get again 18 and so here I guess the first one is V3. It with you one, which ": [
+      2191.6,
+      2224.8,
+      81
+    ],
+    "you too and adding to the other side we get that V 3 is equal to the length of you three times you three hat + V3 dotted with you one at times. You want hot + V3 daughter with you too hot X you too hot? So what I'm doing here is I'm solving for the V's in terms of the use that we already produced. No, it's kind ": [
+      2505.7,
+      2534.3,
+      93
+    ],
+    "you're finding a vector y so that y - original Vector is perpendicular to V. So if you're projecting into V perp, you need to find a vector y so that y - x is in the original Subspace. In other words orthogonal projection is all about breaking down a vector as a sum of two things one in the Subspace in one perpendicular the Subspace. That means that if ": [
+      1107.2,
+      1129.2,
+      41
+    ],
+    "zero So this is not an orthogonal basis. Oh well. Now what? So I have no other procedure for finding a basis, right? I mean I could mess around with this thing is I know that if I take any two linearly independent vectors in there, they will form a basis so I can start taking linear combinations of those two vectors and try to guess a basis that will ": [
+      873.8,
+      902.2,
+      32
+    ]
+  },
+  "Full Transcript": "Do I listen to a podcast by Monday everyone?  Yeah, but it's going to be fun in here, right?  Did someone say no, but thank you for your honesty. I'm going to have fun. All right last week. This is the last week of classes.  We are going to be moving on to section 6 point for today.  And then finally section 7.1 on Wednesday, that will be the end of new material. Friday will be review lecture. Your final exam is on Saturday this coming Saturday at 11:30 a.m. In three rooms many of what you've already had midterms and all but you already had been turned in that's posted on the course web page. I wrote her that your seating assignment is already on Triton and it has an accident made visible to get that it will be by the end of the day. Okay, so same drill as though with the midterms.  You have one more MyMathLab assignment. It's due this Thursday at 11:59 p.m. That you should be working on it now.  After today's lecture you will be able to do everything on it except for the last few questions already.  And your Matlab quiz is scheduled for tomorrow Tuesday of this week in the usual time. When you have your section on Thursday a few people have posted on Piazza that you signed up for the makeup exam or that the conflict quiz time, which is today there were several times today, but then now you don't have a conflict anymore and you can do it on your regular time. If that happens just email your ta your ta for your section is proctoring. You're not live quits. Okay, so just communicate with your ta  All right, and that's basically all the administer B. I wanted to go through so I'm going to get started now with today's course material. Let's begin by reviewing what we talked about last time. So we're now deep into orthogon ality orphan or Melody orthonormal basis and last time we talked about orthogonal projections.  So if we have a Subspace V of RN and everything in the section we're doing is an RN everything is concrete column vectors.  If you have a Subspace and you have an orthonormal basis for okay, so a basis for that Subspace where all the vectors in the bases are orthogonal to each other and of unit length.  Then you can use them to calculate the orthogonal projection into that Subspace. That is it take any Vector X in RN. It may not be in the Subspace but there is an orthogonal projection straight down to a vector in the Subspace and there is a simple Formula Ford as we computed.  You just take the duck part of X with each of the basis vectors and take that's Killer X the basis vector and then add those up.  In other words that is just the sum of the one-dimensional projections you project onto each basis vector and add up those one-dimensional projections. That's the orthogonal projection for that formula to be true. It's important that these be normalized directors if they're not normalized. If you just have an orthogonal basis, then you additionally have to divide each of those terms by the length of the vector u 1 squared because there's a length of you one inside the department of like the view one for the vector outside the door parts as well.  And we saw last day that you can also consider that as a linear transformation. It has a matrix on that Matrix is you you transpose where you is the Matrix probably a tall skinny Matrix has usually more rows and columns columns are the orthodontist basis vectors you wants for you pee  Okay. Now this orthogonal projection as I said, this is the straight down projection. So you take the vector ex and this why this projection why which were calling project sub V of X. It is the unique Vector in the Subspace V4, which that straight down the line y - x is perpendicular to the that's the definition of projection.  And geometric Lee what that means because of Pythagoras Theorem what that means is that this Vector why they're having a projection of the vector in the Subspace V that is closest to the vector acts that you started with. Okay, so if I have a vector in space represented by my pencil over here  Okay, then the vector in the table cuz tip is closest to the tip of this one. That's the one that you get by projecting it straight down any other point over here the line between those two tip is longer than the one that straight down.  So that's geometrically what you are solving a projection really means and why it's important the most important reason for using it is that characterization it's for approximation the best approximation of the vector ex if you're constrained to be in the Subspace, is that Vector why the projection so for example, here's an example. So here is I'm giving you an orthogonal basis for a Subspace. Okay. So I'm the Subspace is the span of those two vectors who wanted you to  and I'm telling you this is an orthogonal basis and that's actually easy to verify 2 * -2 - 4 + 5 - 1 is indeed 0 I'd like to compute the orthogonal projection. Here's a vector why I should call that acts to be consistent with what we're using above. So here's a vector EX.  And I would like to find the point. Why in this Subspace V that is closest to that dr. Axe. In other words. I just want to find the closest point y y is equal to the orthogonal projection.  eye vac Center V  Now what I have to do?  I can just use the formulas up there right? I take the vector X.  Dot product it with Y X a butt with what you want and multiply that scale at times you want and take the vector ex and duck product with you to go fly by you to write.  Is that right?  Is it wrong because you can tell by my tone of voice by now we've known each other for a whole quarter that no, I'm trying to pull you. So what did I do wrong?  Right what I did wrong was to not normalize the vector. So that's an orthogonal basis, but it's not a North enorma basis so we can either  normalize does vectors and then use the normal vectors, but that's the same thing as dividing through each of those terms by the length of you once we're north of you to squirt.  Okay.  Okay, so let's just quickly run through those calculations. We need to calculate four numbers. I need to calculate the length of you 1 squared.  Okay. Well you want is the Spectre to 5-1 so that's 2 squared + 5 squared + 1 squared which is 30.  And the length of you 2 squared.  is 2 squared + 1 squared + 1 squared which is 6  And then the two remaining numbers we need are the. Products so X daughter with you one.  well X is the vector 1 2 3 so I'll just write this then so that's 1 * 2 + 2 * 5 + 3 * -1 + 2 + 10 - 3 which is 9  Annex. It with you two  is 1 * -2  + 2 * 1 + 3 * 1 which is three so we put all those things together and we just get that this Vector why this orthogonal projection is?  9/30 time is the vector u12 5 - 1 + 3 / 6 * the vector last two one.  couple comments first  If you're doing it this way where you haven't normalize the vectors, it's important that you use the vector you wanted you to they're not the normalized what I've already taken account of the length of you won in both places. So you're going to use that after you want to hear you wouldn't additionally divide that doctor by its length cuz you have already divided by sine squared in the formula.  And then the other comment here is I'm not going to take this calculation any further we could simplify that 9/30 is 3/10 and the second factor is 1/2 and then I can multiply through a single Vector. I'm not going to do that because this is not a course in arithmetic.  In fact, if you were on the final exam and this was a question you were asked if you want to go ahead and leave it in that form. That's fine. And not only is it fine, but it's probably preferable because the greater will be able to recognize that better than the actual answer to pay especially if you made a numerical answer the error in your answer if you made an America Lehrer and all you end up writing down as the final Vector your grade is not going to have any idea where you went wrong. Whereas if you write that and that down there and you know, what if there was if I got eight instead of 6 by accident for the length of you to swear you a greater will know where you went wrong and be able to dock you a small number of points accordingly.  And so that's my recommendation to you if you see a problem with that.  Okay, so that's basically the story on orthogonal projection except.  Part of the story in the introduction of the story at the top.  I said given an orthogonal basis or given an orthonormal basis you can do all this.  So if I give you an Arsenal basis, you know what to do.  But what if I don't give you an Arsenal basis-in-fact how do you even know that a given Subspace has an orthodontist basis you need it in order to do this orthogonal projection?  So for example here is a Subspace one of the kind that we've studied a million times. Now this null-space just sanity check here. What size of vectors are in this? No space.  This is a Subspace of what rnrn for what end?  I hear a bunch of people saying to  is that correct?  Can you tell by the fact that I'm stroking my beard that it's not correct?  The column space of this Matrix is a Subspace of R2 cuz the columns are in our to the null space which is if you want to think about it look like we did last week the orthogonal complement of the roast base.  Is going to have the same number of entries has been as the elements in the Rose as the rose.  Its a Subspace of all four of those vectors X for which one you multiply 8 * X you get 0 to x 8 x x x has to have number of components equal to the number of columns.  So this is a Subspace of R4. How do we find out? How do we find a basis for the Subspace?  Oh, wow, come on, guys. It's been 9 weeks already. We've been training. Let's do it again. How do we find the basis for the Subspace?  Right, you better know that by now for the final exam. So we're going to do row reduction on that Matrix. Okay. So first I'll subtract the first row from the second.  I got 0 - 2 - 2 - 2.  And then I'm going to Pivot the last row.  And I'm going to subtract the second row from the first.  And I'm going to be in reduced row Echelon form when I do that. So I'm subtracting. Did I make a mistake on that last one?  Yes, thank you. Which means that this is -1 there now and I'm subtracting two Matrix in reduced row Echelon form.  And so to find a basis, I would just the way I always do it is to go right from the definition say okay. This is the set of all x 1 x 2 x 3 x 4  where I use the reduced equations that the registration form gives me.  I note that these two columns are free variables.  So I'm going to put X3 and X4.  at the free variables in the first equation says x 1 - x 3 - 2 x 4 equal 0 on the second equation says that x 2 - x 3 + x 4 equals 0 and as usual I write this as x 3 times a vector which in this case is -1 - 110  plus x 4 times a vector which is -2 1 0 1  Okay, and that's my basis. There are my basis vectors. Let me call them V1 and V2.  And we know that the V1 V2.  Is a basis.  For this no space of that Matrix.  The Matrix a okay, so I found a basis is it an orthogonal basis? Let's see, what's the dot product of those two vectors of computed  the one dotted with V2 is equal to -1 * -2 + -1 * 1 + 1 * 0  0 * 1  which is 2 - 1 which is what?  not zero  So this is not an orthogonal basis. Oh well.  Now what?  So I have no other procedure for finding a basis, right? I mean I could mess around with this thing is I know that if I take any two linearly independent vectors in there, they will form a basis so I can start taking linear combinations of those two vectors and try to guess a basis that will be orthogonal.  We don't have to guess though. There's going to be a procedure. I'm going to show you right now or we can do exactly that. We're going to take linear combinations of these given basis vectors in order to produce a new basis of the same Subspace that is orthogonal and the procedure works like this. So what we're going to do is so we start  with the given basis so you have to start with a basis.  I'm going to produce a new basis you want you to?  That is orthogonal.  What is make a toggle for now? We can normalize later.  So, how do we do this? Well, there's a million ways to do this. But the procedure I'm going to show you the first step is to say, you know what that first vector and I'll decide which one is first, but let's just take the one that's labeled first.  I'm just going to keep it.  To the first Vector in the basis is the one that Vector -1 - 110. I'll keep that one.  I know what I need to do.  In the second step is to choose a second Vector here that is going to have two properties. One of them is it has to be linearly independent from the first well, in fact, we want to be orthogonal to the first so it'll be linearly independent but it also needs to together with the first one form a basis. Will it will do that as long as it's orthogonal here and in the Subspace to be because if it's orthogonal and in the Subspace nonzero, then I'll get two linearly dependent vectors for this two-dimensional Subspace. So all I need to do is find some linear combination of V1 and V2. That is orthogonal to be 1 / you  And then I'll have an orthogonal basis now. I could set that up as a linear equation now, but actually here's exactly how we're going to do it.  This is the end result and it uses orthogonal projections. In fact, let's think about this what I want. I want to take a vector.  in the Subspace spanned by V1 and V2  It is perpendicular to V1, which I'm not calling you one. What is the set of vectors perpendicular to a V1 called?  Just to remind you. There's a symbol that we use for it that upside down T. It's V1 Purp.  So all I need to do is take  The orthogonal projection of V 2 into V1 purple time. Remember I'm calling V1 you one now. That's how I do this.  Okay now hold on a sec. Hold on a sec can hold on you're talking in circles, man, because the whole point of what we're trying to do here.  Is figure out how to find an orthogonal basis so that we can compute orthogonal projections. But now I'm telling you in order to find an orthogonal basis. We're going to use an orthogonal projection. How am I supposed to do that? Well valid point but there are some orthogonal projections. We know how to compute already. We know how to compute one-dimensional orthogonal projections.  And moreover remember the definition of orthogonal projection the definition of orthogonal projection.  Which is written right here.  Is that if you want to project into V, you're finding a vector y so that y - original Vector is perpendicular to V.  So if you're projecting into V perp, you need to find a vector y so that y - x is in the original Subspace. In other words orthogonal projection is all about breaking down a vector as a sum of two things one in the Subspace in one perpendicular the Subspace. That means that if wherever orthogonally projecting into the OR thought into the orthogonal complement of a vector by definition we can just get this  By taking the vector v to and subtract subtracting from it the projection into the original Subspace.  Okay, so that's just what I said on that last flight the sum of these two things the sum of this thing and this thing is V2 by definition.  But that second thing there is a one-dimensional projection. We know how to compute those. So this is just  V2 -  V2 dotted with you 1 / you 1 squared times you want  okay, that gives us  a linear combination of V1 and V2. So this thing is in the span of V1 and V2, which is equal to the Subspace to be so there we go. We'll get an Uber after that is in the Subspace V. It's been designed to be orthogonal to you one and therefore you want and you too will be an orthogonal set of two vectors in a two-dimensional space and therefore will be a basis.  That's how we do this. So in this specific example, we just have to compute that you two is equal to okay. It's over here to line up. So V2. Is that Vector - 2101  minus V2. U18. What's a V2. You one? Will you want his V ones with the duck part of those two vectors, which we computed is equal to 1.  Can we computed that?  Right here.  /  the length of you once we're discussing how we compute that length squared that Victor is -1 - 110 so it's length squared is 1 squared + 1 squared + 1 squared which is 3  Time is the vector U1, which is the vector v ones that's -1 - 110.  Okay, and what the heck was actually compute that thing? So it's - 2 + 1/3 is -5/3 and then 1 + 1/3 which is 4/3 0 - 1/3 which is -1 3rd and Alaska Partners just 1-0.  And now we have an orthogonal basis you wanted you to so that is the one that Regional Vector -1 - 110 and this new Vector here. And if you want you can go ahead and verify that those two are orthogonal we designed them to be orthogonal.  That's how we find the orthogonal basis for a two-dimensional Subspace. What if we have more vectors, what do we do if we have more than two vectors? Well, we can just enter 8 that procedure. So here is the process that is it rating exactly what we just did and it has a name is called the gram Schmidt orthogonalization procedure which takes longer to write than actually doing the procedure. Okay. So if you'd like, so here's how it works. You have a Subspace TV and you already found a basis for finding the following one of the other things. We already know like it's the no spaces. So Matrix, we know how to find a basis is the column space of a matrix. We know how to find a basis you found some basis that basis is probably not an orthogonal basis.  Okay, but you got start with some basis. What we're going to do is we're going to produce a new basis. So we call the original basis vectors V and the new basis vectors will call him you you once were you pee the same number because every basis of a given space has the same number of elements.  I'm going to produce it with the following properties first. It's going to be an orthogonal basis of nonzero vectors there for a second. We're going to arrange it so that will either 8 as we go so that okay start the same way as before you want is V1 and then you to the second orthogonal basis Vector is going to be a linear combination of V1 and V2.  And then you three it's going to be a linear combination of V1 V2 and V3. And you for the going to be a linear combination of V1 V2 V3 and V4. Okay, as we go through this procedure, we're going to find a new bassist where each new basis Vector is a linear combination of only the previous ones.  We don't have to reach further on in the bases and we'll see in a few minutes that that's going to give us some nice properties for these bases Beyond just being orthogonal. So let me reiterate what we did on the last slide. So we do the same thing here. We start this procedure just by selecting the first basis Vector V1.  And then the second one.  We would like to just take V2.  But beaches probably not orthogonal to view one. So we have to do is make it orthogonal to be won by projecting it into the orthogonal complement of the one.  Okay, and as we saw the formula for that is V2 - V2. You want / the length of you 1 squared as you want no notice that I'm using you one there. Okay, which is the same thing as everyone but it's important we use the you there specially when we get to the next let's go to the next steps was there were three vectors. We need to find a new you three. So we'd like to just use V3 if we could the original basis Vector, but that's probably not going to work V3 is probably not orthogonal to V1 or V2. It's probably not orthogonal to V1 or you to either okay, but what we'll do is we'll make it orthogonal to them.  By taking and subtracting from it.  I'm sorry, but I work here was not quite right. It's the -2004 directions to V1 going back to the previous slide hear. What we're doing is projecting into the orthogonal complement if you want it, that's the same thing as subtracting the projection onto you one. So that's what I wrote there. So now for V3 maybe what I'll actually do here is right. What we want to do is take the orthogonal projection into the ortho complement of V1 and you to affect you want any U2.  V3 that's what we want. We want the new Vector to be orthogonal to both of the previous ones so that all three of those vectors are now orthogonal but like before we can write that simply as we take V3 and we subtract from it the projection onto you one.  And subtraction that the projection up to you, too.  Hey, remember the orthogonal projection onto an orthonormal basis or an orthogonal basis is just gotten by projecting onto each basis vectors separately and adding up.  It's okay. I already have two orthogonal vectors you wanted you to I can compute that projection like this.  Okay, and to belabor that point I'll write it as it's V3 - V3 dotted with you one over the length of you 1 squared x u 1 - V3 daughter with you, too.  over you to Mike squared X YouTube  and then we keep going just like that. So when we get down to the last one you pee  Well, we start with VP.  We subtract from it the top part of the VP with you one, but it buy you one like squared times you want.  The top part of the VP with you, too.  Divided by the length of you two squared times you too and all the way down the line.  Depart of VP with u p - 1  divided by the length of u p -1 squared  How do you pee?  Okay, so we do this interactively we produce are you one just like before we just choose the first doctor in our list you to we get it by taking the second Vector in the original list and subtracting from it the projection of that Vector onto the first one that we already produced in the next step. We take the third one in the list of e3 and we subtract from it the projections of that Vector V3 onto each of the vectors you wanting you to that we already produced and we keep going and this procedure is guaranteed to produce an orthogonal set of vectors, but more importantly in each stage.  We got exactly what I wrote here. We get this. Okay, that first one you want is in the span of V1 the second one you too. It's in the span of V1 and V2. The third one you three is in the span of V1 V2 and V3. Yes question.  Because I made a mistake. Thank you. Yeah, I wouldn't make sense to have it X you because you haven't defined you pee yet. So that wouldn't be iterative. That would be in recursive. Thanks good.  Guess what each stage of this procedure? We use the stuff. We already did in the last step to produce. The next step should be no surprise to you that we got everything in this course when we are doing no reduction The Next Step depends on the previous step that we did. Okay. It's a procedure.  It's very fast for a computer to implement that sits again. It's like doing the reverse phase of a reduction its order and a squared number of flops if you have an eviction order P-Square here.  That's the gram Schmidt orthogonalization procedure. Now, we wanted to produce a North enormo basis. But again, we can do that quite easily once we have an orthogonal basis. So I'll just write it one more time that if we're going to  to do this. Let me write it as  You want is V1?  U2 is V2 - the projection so that is V2 dotted you 1 / length of you 1 squared times you want.  U3 is V3.  Minus V3 dotted with you on / length of you on squared x u 1 - V3 daughter with you to / length of you two squared times you two, so that's the case if we have three vectors.  So that'll give me an orthogonal basis and then from there.  I producing orthodontist basis.  You want hot you two hats and you Three Hats just by normalizing them you 1/2 life.  YouTube / it's length  and so on.  Okay, so if we wanted to we could do the normalization as we go let me write down with that would look like so then we would say well the first step is to take you one hat is equal to V1 divided by its length.  and then you two hat is equal to  V2 - Okay. Well if we've already normalized then the projection is slightly easier to computer. It's a V2 daughter with you one hat X you want hat if we've already normalized it but that doctor isn't normalized. So we still have to take that thing and normalize it just a little cumbersome to write down here.  And so on like that, so if you want you could normalize as you go.  Or you can just do the procedure that's written at the top and get an orthogonal basis and then normalize at the end those two are equivalent in the level of difficulty and level of competition and complexity. I always do the former. I'll always forget the lengths as I go and just compute an orthogonal basis and then normal exit at the end. So that's what I recommend you do but it's actually fine to do either way.  So that is how we find an orthogonal basis. So let's do an example. So here is a matrix. Okay, and I would like to find an orthogonal basis or an orthodontist basis. In fact, I'm asked for here for the column space of this Matrix.  Okay. So the first thing we need to do is produce a basis and then we'll use the gram Schmidt orthogonalization process to turn that basis into a new orthonormal basis. So how do we find a basis for the column space of a  row reduction, right we need to do row reduction to see which of these columns will will choose as the basis vectors. So I'm going to cheat a little bit until you okay. I already did the reduction or I can just witness that the third column is the sum of the first two columns. So that column is certainly not a pivotal column in this Matrix. The first two are visually linearly independent and then the third one is not hard to check is also linearly independent. So if we did Robert option, we would see that calms one two and four are the pivotal columns. So that's the basis that I'm going to start with. That's B1 B2.  I'll called V3 even though it's the fourth Factor.  So we started with a basis. So now we follow gram Schmidt. So you want is just going to equal V1?  Which is 1 - 2 2.  Well, we're going to need it. Anyway, so I'll go ahead and compute the length of that. Now the length of that squared is 1 squared + 2 squared + 2 squared which is 9 so the length of you one is three.  So if I want I could normalize it to your I am going exactly back on my word telling you that I was normal as at the end in here on normalizing now, that's fine.  So there's our first orthodontist Vector then if we're going to find the second Vector you too.  Sorry that my to sometimes have like three he's okay. So that's we take the vector V2 in our list and we subtract from it the projection onto you want to. And with you 1 / the length of you 1 squared times you want.  So that's equal to.  104  -4 the dot product of V2 and u1f to compute that in order to do this.  Dividing a box over here.  V2. Of you one  Right. Well that's equal to.  1 * 1 + 0 * -2 + 4 * 2 + 1 + 8 which is 9  So I got - 1/9 are sorry - 9 / the length of you one square, which is also 9.  time does the vector you want the unnormalized vector you want 1-2 2  9 over 9 as one so this becomes easy. So this is 1 - 1 which is 0 0 - -2 which is 2 and 4 minus 2, which is too so there's my second vector and if I want to normalize it.  I just calculated slang squared is 0 squared + 2 squared + 2 squared + 4  So therefore the length.  Is the square root of 4, which is two?  That's right for + 2 squared + 2 squared is not for its equal to 2 * 4 or 8 which means that the length is to Route 2.  And so I wipe I want I could compute now, but normalize Vector you two had I divide that vector by two or two and I get one one of our route to one of her route to in these kind of problems with your normalizing your often going to see things like that where you have radicals in the denominator really hard to avoid.  Okay, and then finally this is three dimensional space so we only have to do one more Vector you three which is V 3 - the projection of V 3 onto you one.  minus the projection of V 3 onto YouTube  sohvi 3009  Canada calculate two more. Products here  V3 dotted with you two  Is equal to okay. Well, these are easy cuz they're mostly zeros in V3. So it but it's important that I use you to I guess I'll do what do you do for a send you one second. So it's important that we use you too and not V2 here. Yes.  It should indeed. Thank you very much.  I'm glad that I don't pay you guys for finding my errors because I would be broken now, but thank you for finding my errors for free.  Savitri daughter with you to is 009 dotted with you to the one we just produced is 0 to 2.  10009 dotted with 0220 + 0 + 18 that's one of the numbers we need. The other one is V3 dotted with you one.  which is 009 dotted with you one the same as V 1 1-2 2 so I just get again 18 and so here I guess the first one is V3. It with you one, which is 18 / the length of you wants word, which is 9 times the vector you one which is 1-2 2  And the second one is the top part of III with you to which we calculated is also 18 / the length of you two squared, which is 8.  Time's the vector you too. Can you do that? We already computed above which is 0 to 2.  And again at this point if this were course in arithmetic, I would want you to go through all the calculations to get there. Let me just give you the answer. If you want to run the calculation yourself later that all adds up to -2 - 1/2.  And then finally, we would need to compute the length of that to normalize. So the length of you three squared is the sum of the squares of those numbers, which if you work it out comes out tonight house. And so therefore the normalized u3, is that Vector user? I just computed divided by the square root of 9/2. So the length of you three is equal to 3 / root 2, so I have to multiply  buy root 2/3 the vector -2 - 1/2 1/2  Okay, and I won't simplified any more than that. So there's the vector in question. So those three factors that I just computed.  You want hot?  you two hats and you three had those three vectors form an orthodontic orthonormal basis for the column space of a  that's how you do it. That's how this procedure works.  It's a little tedious if you get in I'll be honest if if there were a force Vector it gets quite tedious. Okay, but it's tedious for you. It's not 2DS for a computer.  Computationally very easy for a computer. So that's the gram Schmidt process now in the last 12 minutes here. I'd like to tell you beyond the final piece of the puzzle for how this tell us how to compute orthogonal projections how to find orthonormal basis in general. I want to tell you it does something better as well. So it doesn't mean it's also important for a different reason. I just see why I want to answer this question, right? So we started with a basis V ones for VP.  How do we produce a new orthodontist basis you one's for you? Pee can I go backwards?  Hey, so what if I had the use and I want to get back to the VIS? Well, I can't do that in a vacuum. It's like saying here's the reduced row Echelon form of a matrix find the original Matrix. You can't cuz lots of original matrices that Rob reduced to that one registration form. But what I mean is if we backtrack through the calculations, we just made I want to express the V's in terms of the use the calculations. We just made we were expressing the new you was in terms of these but in the ground short procedure, I want to express the V's in terms of the use. So let's go back. That's right again one more time. So you one was equal to its U1 normalized.  So it is V1. Remember V1 was you want / the length of you one, which is the same as the length of V12? Let's leave it like that to let me solve for V one there. That's easy enough V1 is equal to  the length of you one  time is it you want hat? Okay.  Now what about you two hats in the procedure that was equal to 1 over the length of the vector that we find you two times that Vector you to which we produced as a V2 - the orthogonal projection of V 2 onto you want which I'll now right in terms of the normalized factor you want so I can solve that.  4 V 2. Okay, that's a simple linear equation. And that is SSV to is equal to the length of you two times you two hats plus the dot product of E2 with you one at times you want hat.  Unless I look at U Street.  I said, let me get myself a little more space here.  You straight down here. Okay, so that was a normalized the vector that we get. Another that we got was V3 - the orthogonal projection of V 3 onto you one hat.  Minus the orthogonal projection of V 3 onto you too hot.  And now we can solve that for V3 just by multiplying 3 by the length of you too and adding to the other side we get that V 3 is equal to the length of you three times you three hat + V3 dotted with you one at times.  You want hot + V3 daughter with you too hot X you too hot?  So what I'm doing here is I'm solving for the V's in terms of the use that we already produced. No, it's kind of implicit because it involves the length of the vector that we produced. So let me make it less plus it and give it some new names to those things this number here. Let me call that R11.  And these numbers down here. Let me call them R22 and r21.  And these numbers here. Let me call them r33 r31 and R32.  So when we do that what we have produced as we see the VK case 1 2 3 and so on I've now written it as some number rkk times UK hat.  + r. K k - 1 x UK - 1 Hat  + r. K k - 2 U K - 2 hot and so on Down the Line.  That might look pretty take what's going on there in the thing that I want you to know. The only thing that's important. I'll tell you what those numbers are as I will write them in a moment. I think I want you to note is that just like when we did this procedure forward we got the you use three was in the span of V1 V2 and V3 and it didn't involve any of the further vs. Similarly V3 depends only on Hue one that you two had a new 3 hat. It doesn't depend on you for you five. And so we get the same triangular structure.  So let me write that and the Triangular structure. It really is a parent when you write things like this. If I take the same collection of vector equation is here and write it as an equation for the Matrix. So here's the Matrix with those vectors V1 through VP as the columns. Hey, those are the pictures you started within the basis you produce that new bassist. You want hat you too hot you pee hot which is a north and Arville basis.  What this procedure with a garnishment procedure actually says is that in doing that you're writing the original Matrix The Matrix with the original basis as its columns as the new one with the use as its columns times this Matrix here.  with all zeros  What you're doing is your writing the Vees?  In terms of the use when you do that, you are factorising the Matrix you start with a matrix with columns form a basis for your Subspace.  Doing the gram Schmidt process. What it actually does is factorize that Matrix as a matrix here whose columns are orthonormal time is another Matrix and that Matrix over there will be offered triangular.  That's what gram Schmidt actually does for you.  So here is the theorem which we just proved which is it if you take an M by n Matrix, which is full rank. Okay, he'll be tall and skinny if it's not Square because it has to have all the orthodontist has to have all linearly independent columns. So you take a matrix with linearly independent columns.  Are you do ground Schmidt on that Matrix what grandma Schmidt actually does for you is it factorize has the Matrix in the form Q X are amusing to hear instead of you up until we use the letter U and your textbook uses the letter q and so do men so does Matlab so I'm going to call a q but that's the same Matrix you we've been talking about. It's the Matrix was columns are the orthodontist vectors the are the ARs that thing we just produced and what it works out to is it's just all the coefficients that you computed during the gram Schmidt process organized in the right way. So if you backtrack to slides to this calculation here, it's all of these coefficients.  that one  that one  those two  That one and that one kid. Those are the ARs that come in they just need to keep track of which one goes where?  So in that example, I'm just going to copy those numbers over what we got there. And those that case here are the three factors that we produced.  Hey, we started with that basis for the column space. So that makes you say we produced an orthodontist basis whose columns are written right there in this Matrix q and the coefficients that we used along the way to find those in the gram Schmidt process. They were three.  2 root 2 + 3 / root 2 those worthy the length squared of the vectors and then to express you too. As a linear comp as a to express you to is linear combination of V1 and V2 traditionally had this coefficient here 9 quarters and to express you three as linear combination of V1 and V3. You had two and one of the coefficients. So here is my Matrix are so kieu is ortha normal columns.  an R  is upper triangular.  That's the QR factorization of a matrix. This is something you need to know for this course in for the final exam how to find the QR factorization of a matrix, but it's exactly the same thing as doing gram Schmidt orthogonalization. Okay, so that's the QR decomposition of a matrix.  So on your homework you going to be doing if you haven't already a bunch of examples of this and you just need to get used to how to put those quotations into the upper triangular matrix. It's just what this one tells you is exactly riding. The things on the left as linear combinations of the things on the right wear for the first column on the left. You only need to use the first column on the on the right for the second one. You only need to use the first two columns on the right in the third one involves all three think that's the idea here.  Okay. Now why would we care about that? Well in the last one minute I will just say what is it good for it's good for  finding  eigenvalues  when Matlab compute eigenvalues when you put in a matrix a square Matrix in Matlab  Are you asking to compute the eigenvalues and it immediately spits out a list if you put in a 4000 by 4,000 Matrix and ask it to spin out a list of the eigenvalues it will do it in two seconds on a not very fast computer now 4000 4000 Matrix the characteristic polynomial of that is a 4000 degree polynomial factoring such a polynomial even approximately is very difficult. That's not how Matlab does it what MetLife does instead is this Matlab computes the QR factorization of your Matrix, which is a very simple algorithm. Now, you might say hey. Hey, I know what's going on here that are Matrix is upper triangular on the eigenvalues of an upper triangular Matrix are right on the diagonal.  But caution the QR factorization. The are doesn't have the same eigenvalues as the original Matrix. If it did you would be easy to compute eigenvalues and it's not  what not live does instead and I'll just finish with this is to say we take a and factorise it is QR and then it takes a new Matrix, which it'll call A2 and writes those two in the other order.  In the QR factorization if you start with a square Matrix both q and R will be square. So you can write them in the other order remember matrix multiplication nearly never commutes. This is going to be a new Matrix, but we'll see next time. It has the same eigenvalues as a and then you can repeat keep doing QR factorization and reversing and we'll discuss next day. Why doing that will get you quickly close to a matrix is eigenvalues are easy to compute. See you on Wednesday.  San Diego forecast ",
+  "Name": "math18_b00_wi18-03122018-1000",
+  "File Name": "lecture_26.flac"
+}

@@ -1,0 +1,562 @@
+{
+  "Blurbs": {
+    "1 which is -1. So there's are you too. And then the last thing we need to do is normalize it so we just compute the length of U2 squared is -2/3 squared + 2/3 squared + -1/3 squared So that is 4/9 + 4/9 + 1/9. Which is 9/9 or 1 miraculously this Vector was already normalized that typically won't happen that you probably will have to normalize it ": [
+      674.2,
+      709.7,
+      26
+    ],
+    "1.8 times as many seats as we need but it's going to be roomier than the midterms have been so I hope that will make it a more pleasant experience. Also, I'm happy to tell you that the final is worth 50 points. Okay. So it is 1 2/3 times as long as the midterms were one and two thirds times as long as a designed 1 hour exam was ": [
+      127.8,
+      147.3,
+      5
+    ],
+    "5 minutes and fill that out would really appreciate it. You have one final MyMathLab homework set it to do tomorrow night at 11:59 p.m. All the previous ones. There's been a one-week Grace. Afterward during which you can still do problems for 50% credit this time. I've said that Grace. To be slightly less. It's until next Wednesday. I'm guessing you guys are going to be busy anyway, but ": [
+      60.9,
+      86.5,
+      2
+    ],
+    "7th doesn't need all the other future viso you get a triangular to pattern there and that triangular pattern is reflected in the fact that this can be systematized and put together to say that you have a certain Matrix factorization Matrix decomposition you start with your Matrix with the vectors v as its columns. Let's call that Matrix a Now a is well, these are vectors in our end. ": [
+      335.8,
+      361.2,
+      14
+    ],
+    "9 or 3. And so we have our first Vector our first Vector you one hat. Is V 1/3 so that's 2/3. 1/3 + - 2/3 Okay. Now we need to produce the second Vector in our list. So we following gram Schmidt with II Vector is V2. That's where the second new Vector is you too and would like that to just be V2 and then we be done ": [
+      546.0,
+      578.4,
+      22
+    ],
+    "Columns of q r or thin or Mille So that means remember that if I take any Matrix. I can encode the. Products between its columns in this Square Matrix Q transpose Q if those columns are orthonormal as we saw two lectures ago that precisely means that you transpose Q is the identity Matrix. Now, how does that help us here? We'll just look at the equation a does ": [
+      810.8,
+      848.3,
+      31
+    ],
+    "D. As usual is the diagonal matrix with the eigenvalues. Okay, so that's a nice little observation here. So if a matrix is orthogonal diagonalizable, it must be symmetric if it is symmetric, and if we already know that it can be diagonalized at all. Then it can be diagonalized orthogonally, but that still doesn't answer the question. We wants to know can I just inspect the Matrix and see ": [
+      2237.1,
+      2263.3,
+      82
+    ],
+    "Do I listen to a podcast by day everyone? Welcome to the last new lecture of math 18 will be finished with all the course material today. Next lecture on Friday is review for the final exam. So today we are going to Can finish our discussion from last time of the gram Schmidt orthogonalization procedure and the QR factorization of matrices? And then we will move on to discuss ": [
+      2.0,
+      34.1,
+      0
+    ],
+    "Heisenberg. He called it Matrix mechanics because the model and you've never seen this before unless you've taken higher-level quantum mechanics classes, but the model of quantum mechanics, all right here that he formulated which is really still how it works. Is that here's how the physical system is modeled the hydrogen atoms that have the the state of the physical system inside that glass tube is modeled as a ": [
+      2744.4,
+      2771.5,
+      101
+    ],
+    "I will see the two blowing and if I take light from that tube, I pass it through a prism to separate it into a different frequencies. I find something remarkable something scientist discovered in the late 19th century that had to had no explanation for the time which is that you get lots of colors out if a full spectrum of colors out with a few Exceptions, there are ": [
+      2664.7,
+      2687.7,
+      98
+    ],
+    "If you have any Matrix and it has two distinct eigenvalues and eigenvectors for those eigenvalues will be linearly independent even better. If your Matrix is symmetric, you have to eigenvalues with distinct with two eigenvectors with distinct eigenvalues. They are orthogonal. Fits together with this thing. We're asking about up here, right because we're asking can I orthogonally diagonalize can I find a basis of eigenvectors? That is actually ": [
+      2094.3,
+      2119.6,
+      77
+    ],
+    "Matrix that represents the energy of hydrogen atom. And this is why one of many reasons why the spectral theorem is the most important theorem in mathematics. In fact, it's the most important serum in all of science. Because it's the basis of quantum mechanics and quantum mechanics is the basis of all of physical science in particular chemistry this picture here up there the periodic table it was written ": [
+      2925.5,
+      2947.6,
+      108
+    ],
+    "Ortho Malaysian procedure does for you. You're given a collection of vectors linearly independent vectors. The gram Schmidt process produces from those a new list of vectors that span the same space spend the same. Subspace that the original vectors did but they are orthonormal vectors and the way you construct them is you just take the first one in the list and you can choose which is the first ": [
+      195.5,
+      220.9,
+      8
+    ],
+    "So there's and Rose and RP columns here. And of course it is going to be linearly independent. Then p is less than or equal to a service is typically a tall skinny Matrix what the gram Schmidt orthogonalization procedure does for you? It's produce these orthodana vectors here call that Matrix Q. And what this triangular relationship between the use in the Via says is that that Matrix a ": [
+      361.2,
+      387.8,
+      15
+    ],
+    "a and we replace it with a matrix with the same column space q that has orthogonal columns and we saw that that is useful for comparing eigenvalue. So on this theme of eigenvalues and orthogonal or orthodontist vectors, let's think back we started talking about eigenvalues two weeks ago or two and a half weeks ago. What sucks about diagonalize ability? This is an important topic for the final ": [
+      1493.4,
+      1518.7,
+      56
+    ],
+    "a in Matlab for a matrix a what it does is it erase the QR factorization and reverses it like this over and over and picks off the diagonal entries. It does some small tweaks to this algorithm to make it even faster, but that's the basic idea. So that is how you compute eigenvalues and that's the reason that you are factorization is actually really important. It's used everywhere ": [
+      1441.0,
+      1464.4,
+      54
+    ],
+    "after a hundred steps that Matrix will be upper triangular their entries below. The Min diagonal will be 0 to 60 decimal places. So Matt level not even recognize if they're not there anymore. Hey, there aren't actually sterile, but they're very close. Now an upper triangular Matrix, you can pick off its eigenvalues its eigenvalues are on the diagonal. That is how Matlab compute eigenvalues when you put in ": [
+      1417.5,
+      1441.0,
+      53
+    ],
+    "again. And there is RR Matrix. And if you want you can verify that Q x r is equal to a year, but there is the QR decomposition and that's really how you would find it. If you were asked on an exam on a homework set to find the QR factorization of the Matrix. You would do gram Schmidt to find the queue and then to find the are ": [
+      985.5,
+      1005.9,
+      36
+    ],
+    "again. But in this case it worked out it was already a normalize vector. So therefore you two hat is the same as you to it was already normalized. So it's not going to rewrite it. It's this picture right here. So we have found out or thinner will basis it consists of this one and this one to be clear. That's a North anural basis of the column space ": [
+      709.7,
+      730.8,
+      27
+    ],
+    "always orthogonally diagonalize any such symmetric Matrix? So to move in that direction to see if that's true. Let's look at the following calculation. So suppose I take two eigenvalues. So I have it supposed to have a symmetric Matrix a and suppose that I've got two eigenvectors for it you envy two eigenvectors with two distinct eigenvalues suppose. I'm in that situation. Sound are eigenvectors, you know, we already ": [
+      1868.7,
+      1904.9,
+      70
+    ],
+    "an orthonormal basis. Well what this says if I have distinct eigenvalues, yes. Okay, so if I have all distinct real eigenvalues for my symmetric Matrix, then yes, it will have an orthonormal basis of eigenvectors by that calculation. No better yet. If they're not all distinct The Matrix might still be diagonalizable. So if I have a symmetric Matrix and it happens to be diagonalizable, then what this calculation ": [
+      2119.6,
+      2147.9,
+      78
+    ],
+    "and I multiply that by the way, I can be projected into the z-axis and I multiply that by the Z eigenvector and I Hey, it's the easiest possible way to understand geometrically what a matrix does and it works for every symmetric Matrix. So that's the spectral theorem. That's the spectral decomposition and you do need to know these things for the final exam and you were being tested ": [
+      2584.3,
+      2610.9,
+      95
+    ],
+    "are the same as as I can tell you. So if you're trying to find a zygon value you can try to compute a ones I can dies instead now. Is it easier to compute a ones I can tell you is not necessarily but what if we do it again? So now let's take a 1. And we can do its QR decomposition. Now this is going to be ": [
+      1278.8,
+      1300.5,
+      48
+    ],
+    "as Lambda times you. V - you. Movie. and the reason that I'm reading it that way is that Lambda you is a ewe and lamb and UV is a v so I can equivalently write this as a you dotted with v - you doubted with a v How does that help us? Well? that let's just remember the definition of the. Product here X. Y is just equal ": [
+      1982.9,
+      2026.2,
+      74
+    ],
+    "at Start with a square Matrix Ai, and you are going to do the QR factorization of it now for this to work exactly as stated they had better be invertible. Okay. So let's just take that as a no you have to make some tweaks. But if a is an invertible Matrix, meaning that you have a basis to start with for the columns you do the QR factorization ": [
+      1149.6,
+      1171.1,
+      43
+    ],
+    "basis using the gram Schmidt process to the first thing we do is we take the first vector and we call it you want instead. That's our first Vector V1 there and we need to normalize it so we compute the length of you 1 squared is 2 squared + 1 squared + -2 squared which is 9 that's what that says. Set the length of you one is \u221a ": [
+      512.9,
+      546.0,
+      21
+    ],
+    "because it's geometrically now easy to understand what that metrics does. Okay. It says I want to know what happens to a vector here if it's eigenvectors are the standard basis vectors in this room. All I do is I first projected onto the XY plane and then projected onto the x-axis and I scale it by the X eigenvector then I projected into the onto the y-axis over there ": [
+      2561.7,
+      2584.3,
+      94
+    ],
+    "but in general we have to take the projection TV two on two Hue one. Or you want hat if we want just a matter of whether we want to normalize before or after I'm just going to do this. That means we need to calculate that. Product their V2 dotted with you one. Will you want is the same as V1? So that's just the top product of the ": [
+      578.4,
+      603.4,
+      23
+    ],
+    "but looks like to be silly. I'm going to X by this nonzero number land on his feet is a nonzero number cuz I'm done you are distinct eigenvalues. I'm going to compute this product X this. Product. I'm going to do it in this really funny backwards sort away. So first, I'll write that as Lambda times you. V - Mew X you. Be? I'm going to write that ": [
+      1957.8,
+      1982.9,
+      73
+    ],
+    "call A1 different Matrix from before because it's our times cute that you can reverse them. In this case cuz both of those matrices Cuban are there End by Ant and the square Matrix. They're the same size. So everyone will raise our times Q. It's typically not equal to a matrix multiplication doesn't commute. So, why would we do this? Here's why are x q. Well R is equal ": [
+      1189.9,
+      1214.3,
+      45
+    ],
+    "call room 2722. Those are all nice big rooms. Okay, you're going to be able to spread out. I mean you're going to have seating assignment the seating assignments. Have you spread out most of you will have no one sitting on either side of you that I'm forcing not quite possible for that to happen for everyone. There is an twice as many seats as we need but about ": [
+      109.7,
+      127.8,
+      4
+    ],
+    "can make them orthogonal doing the gram Schmidt orthogonalization procedure inside the eigenspace. That is we start with a basis of eigenvectors. They'll already be orthogonal between the different eigenspaces for different eigenvalues. And then if we do gram Schmidt on that because the eigenspace Azhar Ali are already orthogonal that's only going to modify the vectors with any jogging space and a linear combination of eigenvectors for a fixed ": [
+      2171.2,
+      2195.2,
+      80
+    ],
+    "condition of being symmetric is easy to check visually do I have the same interest above the dragon was below just to look and see so those that's a that's a necessary condition for having an orthogonal basis of eigenvectors. Okay, but that doesn't mean necessarily that every such Matrix that every symmetric Matrix is orthogonal diagonalizable. Well, let's see. So that's the question here. That's the converse. Can we ": [
+      1841.9,
+      1868.7,
+      69
+    ],
+    "decomposes Q x r therefore If I multiply both sides of that equation by Q transpose what you transpose Q is the identity Matrix this we just said right here. So that's just the same thing as the identity Matrix times are which is just our that's what our is. You don't need to remember how to put those triangular coefficients into the army tricks. Once you find the Q ": [
+      848.3,
+      876.7,
+      32
+    ],
+    "did a calculation like this for lectures to go for a general Matrix. If I have a situation like this where I have a matrix that has two distinct eigenvalues remember that we prove that the eigenvectors are there for Made of cheese what what's true about eigenvectors of eigenvectors of distinct eigenvalues? I heard an answer, but please say it louder. You weren't confident about your answer. Okay, could ": [
+      1904.9,
+      1932.8,
+      71
+    ],
+    "different than the Q and they are we got last time. Okay. We have a Q on an R1 would you gram Schmidt on The Columns of a one with your different from The Columns of a so we have a new QR decomposition? I know from there. We forming a 2 which is our 1 Q 1 mm in we just saw before our one is equal to 2 ": [
+      1300.5,
+      1324.4,
+      49
+    ],
+    "down 80 years before the turn of the 20th century people understood that chemical elements came in these periodic bands with with behavior that reflected each other but had no idea why it was all explained by these pictures. It was all explained by the eigenvector analysis of this Matrix. So among other things I told you that at the beginning of his class that linear algebra is all and ": [
+      2947.6,
+      2972.1,
+      109
+    ],
+    "eigenvalue is still an eigenvector. So the conclusion if a is diagonalizable And symmetric then yes, there is an orthodontist basis of eigenvectors. So that is to say that's in this case. Then we can find you one hat U2 hat you and hat and we string them together. Animatrix q and we will get that a is Q DQ inverse, which is the same as qdq transpose where this ": [
+      2195.2,
+      2237.1,
+      81
+    ],
+    "energy operators all the physical operators in quantum mechanics are symmetric matrices, which means they are orthogonally diagonalizable which means that there is a basis of the wave functions consisting of eigenvectors and eigenvalues. These are the eigenvalues is the eigenvalues of the energy operator for the hydrogen atom. Those are the only things you can measure that's what quantum mechanics says system when you can take a measurement of ": [
+      2820.7,
+      2849.0,
+      104
+    ],
+    "equals the answers below the main diagonal then you know without doing any work, but the Matrix can be orthogonally diagonalize it has an orthogonal basis of eigenvectors. Okay, I am not going to prove this there. We don't have the tools to prove this then we would need either so they call the fundamental theorem of linear algebra, because we really have to deal with complex roots of polynomials ": [
+      2291.3,
+      2313.6,
+      84
+    ],
+    "everything that computer can do at the end of the day linear algebra is all in everything that the Universe can do and that's why I think this is the most important class that you've taken and will finish their See you I'll see you all on Friday for review for the final exam. San Diego podcast for more visit podcast. ": [
+      2972.1,
+      2999.6,
+      110
+    ],
+    "exam. So I'll give you a square Matrix a and I can ask you is it diagonalizable? Remember what that means? I diagonalizable Matrix is one that is similar to a diagonal matrix. That's what is PDP inverse where p is an invertible Matrix and Diaz diagonal but that's equivalent of the right geometric way to understand. Thanks. It's diagonalizable. If there is a basis of RN that is composed ": [
+      1518.7,
+      1543.0,
+      57
+    ],
+    "finals next week and we need to get your grades process. So I hope you'll finish it by tomorrow night. But if you're doing it late you have only six days instead of 5 this time to do the late editions. And once again your final exam is this Saturday for days from today in the three rooms listed their Galbraith hall room 242 Peterson hall room 108 and your ": [
+      86.5,
+      109.7,
+      3
+    ],
+    "four or five lines missing. the spectral lines of hydrogen and as time went on. Physicist discovered that there are actually many more lines outside the visible spectrum that are missing infinitely many lines that are missing these form of the emission spectrum of hydrogen. Wendy's were first discovered. Nobody had any idea what that could possibly mean. Okay, but some physicists in the first part the first twenty years ": [
+      2687.7,
+      2716.1,
+      99
+    ],
+    "from its symmetry that it is diagonalizable and therefore orthogonally diagonalizable. And the answer is yes, we can so that is the theorem. It's called the spectral theorem. And the ceremony is yes every symmetric Matrix is diagonalizable and therefore orthogonally diagonalizable if your Matrix is symmetric if it's equal to its own transpose, if you can just look at it and see that the entries above the main diagonal ": [
+      2263.3,
+      2291.3,
+      83
+    ],
+    "get the original Matrix back. So that's Q x d transpose x q transpose D transpose. What kind of Matrix is d? It's diagonal what that means is that it's got entries on the diagonal and zeros above and below. Now, if you transpose that Matrix and swap the above and below triangular parts, that doesn't do anything tricks. Is it down transpose? so look, if a is orthogonally diagonalizable ": [
+      1749.7,
+      1780.2,
+      66
+    ],
+    "given a Subspace and you find a basis for it, we not have many ways to find Bayseas. They all boil down to the same thing more or less but in different situations, we have different descriptions and algorithms for how to find a basis. You're given a basis for a Subspace. How do you find an orthonormal basis for that Subspace? Okay. That's what the gram Schmidt orthogonalization or ": [
+      174.7,
+      195.5,
+      7
+    ],
+    "how to do the QR decomposition of a matrix or look from your homework or you already did that do the QR decomposition of a matrix and then ask Matt love to do the QR factorization and do the QR process or do it manually yourself. If you want to write a little script and calculate these matrices. They wanted to 83844 some input Matrix and you will see that ": [
+      1396.4,
+      1417.5,
+      52
+    ],
+    "if you want to shuffle them around and take the first one and then the second one you take it and subtract from it. It's orthogonal projection onto the first and then you take the third one and you subtract from it. It's orthogonal projection onto the first and the second okay and proceed that way and that will automatically produce for you a list of orthogonal vectors know if ": [
+      220.9,
+      242.9,
+      9
+    ],
+    "in science anywhere you need eigenvalues QR factorization is how you actually in America computer. Okay, so you need to understand the QR factorization? All right, so that's what I want to say about you are now I want to finish the course with Section 7.1. So let's continue on this theme Here. So we just had the QR factorization with start with a basis with there was a matrix ": [
+      1464.4,
+      1493.4,
+      55
+    ],
+    "in the first place how the diagonal ization a rose we noted that if I take the product of q and d if I take a matron interns at the columns should be hats here if I take a matrix in terms of its columns and I X diagonal matrix on the right what that does and this reflects the fact that those are eigenvalues what that does is it ": [
+      2414.2,
+      2433.3,
+      89
+    ],
+    "in the special case we're and was able to pee if I started with a basis of our at not necessarily orthogonal and I used the groundsman process to produce a North enormo basis than that new Matrix Q. That's a square orthogonal Matrix orthogonal Matrix. So it is invertible. So how does that help us here? Well, let's take a look here how that helps us is it turns ": [
+      1101.2,
+      1128.0,
+      41
+    ],
+    "is equal to Q X this Matrix here, which I'll call r i p by P for cute. I meant to write and by P and R is p by P. So we have a p by P Matrix there and it's just populated by the numbers that come up. Okay that the numbers are one of the length of you one and V2. You 1 / the length of ": [
+      387.8,
+      411.2,
+      16
+    ],
+    "is just to transpose just turn the Matrix on its side. Okay. So when that happens that's what happened. That's that's what we'll get. But when will it happen? So here's the observation I want to make which is If I have such a matrix, that's orthogonally diagonalizable that has an orthogonal basis of eigenvectors. Let's look at its transpose a transpose is equal to what we just said that ": [
+      1694.6,
+      1721.3,
+      64
+    ],
+    "it appears here, it comes from pictures like this. What you've seen if you've taken even in high school, but certainly in University if you've seen in physics and chemistry classes it what is a spectrum if I take a glass tube is filled with only hydrogen gas and I have two electrodes at the end of my run a strong current through the gas turn off the lights then ": [
+      2638.6,
+      2664.7,
+      97
+    ],
+    "it true that there is an orthogonal basis of eigenvectors or the normal basis of those be the same cuz you can always scale and I can Vector so let's see if we can suss out which kind of matrices might have that property. So what I'm saying is supposed that I have a matrix a and its diagonalizable. Where the P Matrix remember that's the eigenvector matrix. It's it's ": [
+      1592.7,
+      1617.5,
+      60
+    ],
+    "it's orthogonal projection into the spaceman by you on YouTube is itself. And so that third term used to be there would be zero. So if you start with vectors that are linearly independent the gram Schmidt process will produce sum of 0 vectors for you. That's okay. You just have to throw them away if that happens. Okay, but it's better probably to just start with a basis of ": [
+      266.2,
+      288.8,
+      11
+    ],
+    "it. It can only be in an eigenvector State. That's when you give her this crazy phrase collapsing the wave function before in popular literature what that literally means is you have a system that is a linear combination of the eigenvectors because they form a basis. It's in some random state. But when you take a measurement of the energy what happens if you end up applying the projection ": [
+      2849.0,
+      2872.5,
+      105
+    ],
+    "just scales those vectors by the diagonal entries? I know here we've got a matrix and I'm giving you with columns Columns of those Lambda scaling the original use and I multiply that by matrix written in terms of its Rose. But the nice thing there is remember how matrix multiplication works the entries of the matrix product are given by row times column. Okay. So if you work that ": [
+      2433.3,
+      2472.2,
+      90
+    ],
+    "just showed us is that the distinct eigenspaces orthogonal to each other is if I take two eigenvectors one from the eigenspace if I can buy you three and the other from the eigenspace the eigenvalue 7, then those two eigenvectors will be orthogonal. The only question is what if I take two eigenvectors from the three-dimensional eigenspace of the eigenvalue 7-Day. Well, those might not be orthogonal but we ": [
+      2147.9,
+      2171.2,
+      79
+    ],
+    "last slide in this case means that you transpose is Q inverse. So this says we can write this as qdq inverse but Q inverse is the same as Q transpose. That's what we're looking for. We're looking for when the eigenvector Matrix is an orthogonal Matrix in which case the diagonalization is not just chewed each Universe. It can also be written as qdq transpose. And what's great about ": [
+      1648.0,
+      1674.8,
+      62
+    ],
+    "matrix tall skinny, Matrix still got two columns there. They are manifestly linearly independent. so I'm going to do gram Schmidt orthogonalization and produce an orthonormal basis for the same vectors for the column space of a so, we're going to find a an orthonormal basis for the column space of a so let's call these two vectors V1 and V2. So we're going to find that other than normal ": [
+      478.8,
+      512.9,
+      20
+    ],
+    "multiplication takes some flops, but in the size of the examples you guys are doing it's easier to do that matrix multiplication than to try to remember exactly which coefficient goes where you will find the QR factorization of a matrix. But why would you want to find the QR factorization of a matrix? Well, let me make a comment first. So the, don't to make first is remember in ": [
+      1028.4,
+      1055.5,
+      38
+    ],
+    "of a is not an orthonormal basis of R3 where those vectors live. There's only two of them. It can't be a basis of our three. It's an orthonormal basis of a Subspace the Subspace spanned by the original vectors V1 and V2, which is the column space of a so, there is our orthodontist know the QR decomposition. The QR decomposition says, okay, we know we now know that ": [
+      730.8,
+      755.1,
+      28
+    ],
+    "of eigenvectors of a Okay, great. So you get a basis of RN and you've done lots of examples where you find the eigenspaces and you see that there are enough eigenvectors to form a basis of all time. No, most of the time when you have done that the basis that you get is not an orthogonal basis eigenvectors are typically not orthogonal that you could do gram Schmidt ": [
+      1543.0,
+      1566.0,
+      58
+    ],
+    "of one of them then I can choose that one. Now. Is this one going to be any easier not necessarily but I can produce a whole string of these a1823. a 100 and here is the theorem. as n goes to Infinity a n in the sequence rapidly converges to an upper triangular Matrix and that's something you can check on that lock. It couldn't read up Google it ": [
+      1351.7,
+      1396.4,
+      51
+    ],
+    "of possibility to prove it for us. It was just take more time than I want to and I'm not interested in the proof. I'm interested in the statement. Okay. So the spectral theorem says there's one class of matrices is the best kind of symmetric matrices, which you can just tell by looking they are diagonalizable. And in fact, they are orthogonally diagonalizable now, let me point out one ": [
+      2332.0,
+      2352.4,
+      86
+    ],
+    "of the twentieth century figured out that our whole model for physics was wrong. Because of these experiments and I figured out that what's going on. Is that the kind of Light energy that can be emitted and absorbed by hydrogen it only comes in discrete quantized amounts. This was the beginning of what is now called quantum mechanics. But it wasn't called quantum mechanics when it was invented by ": [
+      2716.1,
+      2744.4,
+      100
+    ],
+    "on the diagonal? And then to inverse but the beauty is that when it's orthogonally diagonalizable 2 inverses the same as cute transpose so I can write that as you one transpose you to transpose. And sew on The Columns of a get turned in enough to get turned into the rose of you transpose. Okay. Well now how does this work? Well from the diagonalization when we did this ": [
+      2381.9,
+      2414.2,
+      88
+    ],
+    "on them on your homework. And the last in the last 7 Minutes of class. I would like to answer the question. Why is it called spectral? It should probably be called the projection decomposition or something like that. Why spectral this is a really fancy sounding word that means different things in different contexts. Some old word dating from at least the 18th century, but in the context where ": [
+      2610.9,
+      2638.6,
+      96
+    ],
+    "on them to produce an orthogonal basis, but then that new orthogonal basis will not be composed of eigenvectors. There's rigidity here. Okay, you can't just change the vectors take linear combinations of them and still have them be eigenvectors. You can't do that typically. So the question is when does it just happen? Since orthogonal basis of the best kind of basis for what kinds of matrices a is ": [
+      1566.0,
+      1592.7,
+      59
+    ],
+    "one we just computer that that's three divided by the length of you 1 squared which is 9 Time does the vector you want not you won't have to Vector you want which is to 1 - 2. Okay, so that is 0 1 - 1 - 2/3 1/3 and -2/3 So that gives us - 2/3. 1 - 1/3 is + 2/3 + -1 - -2/3 is 2/3 - ": [
+      637.7,
+      674.2,
+      25
+    ],
+    "onto one of those vectors, that's what it means to take a measurement you project onto the eigenspace and then what you measure is the corresponding eigenvalue. That's what quantum mechanics says from beginning to end quantum mechanics is all linear algebra. And by the way, I just told you what the eigenvalues of hydrogen are a there's no spectral lines. What are the eigenvectors I said. This is a ": [
+      2872.5,
+      2899.8,
+      106
+    ],
+    "out here, what you find is that this is just equal to Lambda 1 times you won you won transpose. Plus Lambda two times you to you to transpose. Plus down the line to Lambda n u n u n transpose. So that's called the spectral decomposition because think about it one more step. Well because will come of the next slide but one more step here to identify these ": [
+      2472.2,
+      2502.2,
+      91
+    ],
+    "out this can be used to very quickly and very efficiently approximate eigenvalues. I'm not going to actually show you how this works in an example of it would be fun for you to try out Matlab to see how it doesn't but here's how it works. This is what's called the QR algorithm and this is how Matt Love Actually compute eigenvalues. So you start with a square Matrix ": [
+      1128.0,
+      1149.6,
+      42
+    ],
+    "pain in the butt to try to remember but it's okay. You don't need to okay. There's a I'm not going to make you do it cuz this is going to be on the final but there's a shortcut to a long cut but there's an easier way to do it. Even if it's less efficient and let's see how that works in the following example. So here is a ": [
+      458.5,
+      478.8,
+      19
+    ],
+    "real it's columns are the eigenvectors. So if the eigenvectors are orthonormal, so if They are worth a normal. Then what we get is that? Py let's rewrite it is Q cuz we've been riding Q as an orthogonal Matrix. Where Q transpose x q is the identity that's what we're saying suppose that the basis of eigenvectors is an orthogonal basis. These are square matrices. So like on the ": [
+      1617.5,
+      1648.0,
+      61
+    ],
+    "row and we multiply that by the original Matrix a And let's just work out with this 2 by 2 Matrix is the first entry is 4/3 + 1/3 - 4/3, which is 1/3. The entry below that is -4/3 + 2/3 + 2/3 is indeed 0 As We Knew It was supposed to be because this is supposed to be enough for the two one entry or the one ": [
+      905.9,
+      945.6,
+      34
+    ],
+    "sum of projection matrices. It's a linear combination of projection matrices. So you have this nice basis of eigenvectors. And if you take the orthogonal projections on to those one-dimensional subspaces, then your original Matrix is the linear combination of those matrices that those projection matrices. Where the linear coefficient are the eigenvalues that's called the spectral decomposition of a matrix. It only works for symmetric matrices, but it's beautiful ": [
+      2532.9,
+      2561.7,
+      93
+    ],
+    "that act on those pictures and those linear Transformations. They encode all of the physical operations and measurements that we can make in particular. There's an energy operator, which is called the hamiltonian because of nineteenth-century physics reasons, but there's an energy Matrix, which if you want to measure the energy of that system, you multiply that vector by that Matrix. Now that Matrix is a symmetric Matrix all the ": [
+      2795.4,
+      2820.7,
+      103
+    ],
+    "that cute you that you transpose Q is the identity that does not mean that cute you transpose is the identity. There is no inverse Fork you typically and we saw already that that think you could transpose what it represents that bigger Square Matrix that end by on Square Matrix that represents the Matrix of the linear transformation, which is orthogonal projection onto the column space of it. But ": [
+      1077.8,
+      1101.2,
+      40
+    ],
+    "that is that it's a whole lot easier to find the transpose of a matrix than the inverse of a matrix. So if you knew already that your Matrix was orthogonally diagonalizable, which is a lot of syllables but just means that it has an orthogonal basis of eigenvectors. Then you just have to find the Q in the D. You don't need to find the inverse because the inverse ": [
+      1674.8,
+      1694.6,
+      63
+    ],
+    "the QR factorization of the Matrix a so if you were a computer then you would once you've done the grant process you could immediately write down 2 and r You're probably not a computer. So you can write down the Q because that's what gram Schmidt does. That's the the you hats that you produced but figuring out which coefficient to put we're in the army tricks. That's a ": [
+      434.7,
+      458.5,
+      18
+    ],
+    "the general case where we have that the a is tall and skinny where it has more rows and columns those columns. Do not form a basis of RN where they live takes. The queue is also and by piece tall and skinny, they do not form a basis of our end that Matrix Q is typically not invertible. It's not Square Tempe invertible while we do have the equation ": [
+      1055.5,
+      1077.8,
+      39
+    ],
+    "the spectral theorem the most important theorem in mathematics. Quick administrative reminders folks. Please do fill out your cakes. I checked the response rate last night and it's hovering around 30% at the moment. So 2/3 of you haven't filled them out you have until this Friday evening to fill them out. I definitely and my department and the university would appreciate your feedback. So if you can please take ": [
+      34.1,
+      60.9,
+      1
+    ],
+    "the sub inspectors. You get linearly independent vectors because they're orthogonal and nonzero and then to Ortho normalize them. You have to normalize them. There are orthogonal then you just divide them by their life and you have orthonormal vectors. So that's the one more example of applying it in a moment. But the observation we made at the end of last lecture was that if you put this all ": [
+      288.8,
+      314.1,
+      12
+    ],
+    "the ventures you started with warrant linearly independent, for example suppose V3 was in the span of V1 and V2 then look at that third line there. We're taking V3 and subtracting from its orthogonal projection onto you one and it's orthogonal projection onto you too. But if V3 is in the span of V1 and V2, it's therefore in the span of you wanted you to In which case ": [
+      242.9,
+      266.2,
+      10
+    ],
+    "then it's transpose is itself text we call as I mentioned before we call such matrices symmetric. Okay, so that's the conclusion care of a is orthogonally diagonalizable then a is symmetric. Those are the only kind of matrices we could possibly expect to have a North Enola basis of eigenvectors. Okay, great. So I give you and I give you a matrix. That is symmetric. That's an easy condition ": [
+      1780.2,
+      1818.2,
+      67
+    ],
+    "they be parallel to each other? No, so what are they? Are linearly independent. So for any Matrix, if you have eigenvectors with distinct eigenvalues are linearly independent. Well, if you have a symmetric Matrix, you get the best kind of linear Independence. Here's a fun little calculation. So what I'm going to do is I'm going to take those two eigenvectors and take their. Product and to be silly ": [
+      1932.8,
+      1957.8,
+      72
+    ],
+    "thing an alternate formulation of what that means. Text which is called the spectral decomposition of such matrices because what this says is that if I take my Matrix a my symmetric Matrix, then I can decompose it as qdq transpose. That's right out what that is. Again. That's you one hat you two had you and hat is RQ. And the D is this diagonal matrix with the eigenvalues ": [
+      2352.4,
+      2381.9,
+      87
+    ],
+    "things. So you won you to you and these are in an orthodontic basis of our at consisting of eigenvectors. What is this you won you won transpose? That's the Matrix of the orthogonal projection onto you want. So I can write this one more way which is say Lambda One X the projection onto you one. Plus Lambda two times the projection onto YouTube. It is Matrix is a ": [
+      2502.2,
+      2532.9,
+      92
+    ],
+    "to 1 transpose a 1. So this is equal to q1 inverse a one cute one, which is similar to a one which is similar to a so this new Matrix A2 is also similar to the original Matrix. It also has the same eigenvalues. It's probably a totally different Matrix, but now I've got three different matrices. They all have the same eigenvalues. If it's easier to compute eigenvalues ": [
+      1324.4,
+      1351.7,
+      50
+    ],
+    "to Q transpose times a day. So this is Q transpose a q. but in the special case that Q is swear. Q transpose Q is the identity means that Q transpose is the inverse of Q. This is Q inverse a q. If I have a matrix and I take an invertible Matrix on the left X the inverse that Denver Matrix on the right. What is that due ": [
+      1214.3,
+      1245.2,
+      46
+    ],
+    "to X transpose X Y, so that is equal to hey you transpose x v - you transpose x a v I know I'm just going to do one more step here, which is looking here a you transpose. We already did this on the last Slide. The transpose of a product is the product of the transposes in the other order. So this is equal to you transpose a ": [
+      2026.2,
+      2054.9,
+      75
+    ],
+    "to check remember if you find a matrix in general you are asked is it diagonalizable? That's just hard to check you can't tell by looking at it. Usually you just have to go through all the math to see if there are enough real eigenvalues and if the algebraic multiplicity and geometric multiplicity of each other's eigenvalues match the pain in the butt most of time. Where has this ": [
+      1818.2,
+      1841.9,
+      68
+    ],
+    "to enter. I mean is 0 + 1/3 + 2/3, which is one. And The Last Story. The first century is 4/3. + 1/3 + 4/3 thank you. Okay, 4/3 + 1/3 + 4/3, which is 9/3, which is 3 thank you. I think I got the other two right though. And then the last entry is -2/3 * 200 + 2/3 + 1/3, so it should just be one ": [
+      945.6,
+      985.5,
+      35
+    ],
+    "to have that something be to buy to so our is going to be a two-by-two matrix and the numbers that appear in it are up here already modulus of normalization there the length of you won the length of you too and that. Product / the length of you want so they're already there, but you don't have to remember that because we can make the following observation. The ": [
+      783.5,
+      810.8,
+      30
+    ],
+    "to show that actually at the end of the day they are real or we would need some calculus. There's a beautiful Vector calculus proof of this there. I'm so those of you who taken math 20c n e I could show you a proof If you really want not right now but in office hours or something that is a beautiful proof of it. It's not outside the realm ": [
+      2313.6,
+      2332.0,
+      85
+    ],
+    "to the Matrix? Remember what that transformation is called does matrices are called. But remember this similar, this is the similarity transformation. So the Matrix A1 is similar to The Matrix. Now what does similar mean while it means exactly this but in particular it implies that a one and a they have the same eigenvalues. So even though this new Matrix a one is different from a its eigenvalues ": [
+      1245.2,
+      1278.8,
+      47
+    ],
+    "together noticed that there's a triangular pattern up there. Right? So you want it only depends on V1 and you to it only depends on you wanted me to which is the same as depending on V1 and V2 and use three depends on you one U2 and V3 is the same as depending on V1 V2 and V3. So you 7 is in the span of V1 through the ": [
+      314.1,
+      335.8,
+      13
+    ],
+    "transpose V - you transpose a matrix a but if we're in the setting where a is? Symmetric then those two things are equal. so if a equals a transpose then this is zero. So when I get is that this nonzero number you landed - New Times you. V is 0 and there for you. Vyas. So therefore you is orthogonal to be that's the conclusion here in general. ": [
+      2054.9,
+      2094.3,
+      76
+    ],
+    "two columns of a 2 1-2 dotted with 0 1 1. and that gives us 0 + 1 - 2 is written down one wrong 0 + 1 + 2 which is 3.0. So those two vectors are orthogonal Schmitz to find an orthogonal basis. So let's just write down what all this says now V2. That's 0 1 - 1 minus the top part of the V2 and you ": [
+      603.4,
+      637.7,
+      24
+    ],
+    "vector in some big Vector space What Vector space was kind of like the one we've been confused about the most in this room the vector space p of polynomials. It's a space of functions that are called wavefunction, but you don't need to worry about that at some big Vector space. And there are operators there are matrices Infinity by Infinity matrices that act on those vectors linear Transformations ": [
+      2771.5,
+      2795.4,
+      102
+    ],
+    "vector space of functions cancel. These are going to be these eigenvectors are functions in three variables functions in space. What do those functions look like? What do the eigenvectors look like? You've seen them before because you took chemistry in high school. They look like this. That's what these pictures these orbital pictures of electron cloud. That's what they are. That's all they are there the eigenvectors of the ": [
+      2899.8,
+      2925.5,
+      107
+    ],
+    "was just me to do brownish mitt and find that q and then find the are the r is equal to Q transpose times as we just saw so we saw that this means that are as it will take you transpose time say Now here's what might level do next will say. Okay, I found the key when they are now. I'm going to write a new Matrix down ": [
+      1171.1,
+      1189.9,
+      44
+    ],
+    "we can factorise 8 as qdq transpose. That's qdq transpose transpose. This is good practice for how transposes work. Remember that a transpose of a product is the product of the transpose is but in the other order This is Hugh transpose transpose x d transpose x q transpose. Now transpose it just reflects the Matrix across a diagonal. So if you do it again, it reflects it back you ": [
+      1721.3,
+      1749.7,
+      65
+    ],
+    "we can write. Hey in the form Q x r where Q is the Matrix formed by the two vectors you want hat and you too hot. That's cute. An RR is going to be let's see. What size. Is it going to be a is 3 by 2. Accu is 3 by 2. So to multiply 3 by to buy something and get a 3 by 2 you have ": [
+      755.1,
+      783.5,
+      29
+    ],
+    "you have 3 hours to do it. I hope that time pressure will not play any role. Okay, you just need to show that you've learned and understood what we've done so far. All together and you're sitting room assignment have been posted and should be visible to you on TriNet. All right. So let's review what we did last time. So we're talking about orthogonalisation. So if you are ": [
+      147.3,
+      174.7,
+      6
+    ],
+    "you just take to transpose times the original Matrix a and you'll get your are so let's write that down in this case. Our is Hugh transpose times a week you transpose we take the Matrix that has those columns. You want Hatton you to have turned on their side. So to transpose is 2/3 1/3 - 2/3 is the first row - 2/3 2/3 - 1/3 as the second ": [
+      876.7,
+      905.9,
+      33
+    ],
+    "you one and length of you too and so on in that list. And so if you were a computer and can remember exactly how to take those numbers normalized appropriately and put them into this Matrix there. Then immediately gives you this decomposition. And the point is that the Triangular structure out there gives you an operator and get our Matrix for the are there. So this is called ": [
+      411.2,
+      434.7,
+      17
+    ],
+    "you would just multiply cute transpose times original Matrix at this is less efficient than just figuring out which coefficients appeared in the process and putting them in the Matrix if a computer is doing it and it knows where to look for those numbers to put in the Triangular Matrix that requires no flops. Item requires no competition and all the competition is already done. Where is this matrix ": [
+      1005.9,
+      1028.4,
+      37
+    ]
+  },
+  "Full Transcript": "Do I listen to a podcast by day everyone?  Welcome to the last new lecture of math 18 will be finished with all the course material today. Next lecture on Friday is review for the final exam.  So today we are going to  Can finish our discussion from last time of the gram Schmidt orthogonalization procedure and the QR factorization of matrices?  And then we will move on to discuss the spectral theorem the most important theorem in mathematics.  Quick administrative reminders folks. Please do fill out your cakes. I checked the response rate last night and it's hovering around 30% at the moment. So 2/3 of you haven't filled them out you have until this Friday evening to fill them out. I definitely and my department and the university would appreciate your feedback. So if you can please take 5 minutes and fill that out would really appreciate it.  You have one final MyMathLab homework set it to do tomorrow night at 11:59 p.m. All the previous ones. There's been a one-week Grace. Afterward during which you can still do problems for 50% credit this time. I've said that Grace. To be slightly less. It's until next Wednesday. I'm guessing you guys are going to be busy anyway, but finals next week and we need to get your grades process. So I hope you'll finish it by tomorrow night. But if you're doing it late you have only six days instead of 5 this time to do the late editions. And once again your final exam is this Saturday for days from today in the three rooms listed their Galbraith hall room 242 Peterson hall room 108 and your call room 2722. Those are all nice big rooms.  Okay, you're going to be able to spread out. I mean you're going to have seating assignment the seating assignments. Have you spread out most of you will have no one sitting on either side of you that I'm forcing not quite possible for that to happen for everyone. There is an twice as many seats as we need but about 1.8 times as many seats as we need but it's going to be roomier than the midterms have been so I hope that will make it a more pleasant experience. Also, I'm happy to tell you that the final is worth 50 points. Okay. So it is 1 2/3 times as long as the midterms were one and two thirds times as long as a designed 1 hour exam was you have 3 hours to do it. I hope that time pressure will not play any role. Okay, you just need to show that you've learned and understood what we've done so far.  All together and you're sitting room assignment have been posted and should be visible to you on TriNet.  All right. So let's review what we did last time.  So we're talking about orthogonalisation. So if you are given a Subspace and you find a basis for it, we not have many ways to find Bayseas. They all boil down to the same thing more or less but in different situations, we have different descriptions and algorithms for how to find a basis. You're given a basis for a Subspace. How do you find an orthonormal basis for that Subspace? Okay. That's what the gram Schmidt orthogonalization or Ortho Malaysian procedure does for you. You're given a collection of vectors linearly independent vectors.  The gram Schmidt process produces from those a new list of vectors that span the same space spend the same.  Subspace that the original vectors did but they are orthonormal vectors and the way you construct them is you just take the first one in the list and you can choose which is the first if you want to shuffle them around and take the first one and then the second one you take it and subtract from it. It's orthogonal projection onto the first and then you take the third one and you subtract from it. It's orthogonal projection onto the first and the second okay and proceed that way and that will automatically produce for you a list of orthogonal vectors know if the ventures you started with warrant linearly independent, for example suppose V3 was in the span of V1 and V2 then look at that third line there. We're taking V3 and subtracting from its orthogonal projection onto you one and it's orthogonal projection onto you too. But if V3 is in the span of V1 and V2, it's therefore in the span of you wanted you to  In which case it's orthogonal projection into the spaceman by you on YouTube is itself. And so that third term used to be there would be zero. So if you start with vectors that are linearly independent the gram Schmidt process will produce sum of 0 vectors for you. That's okay. You just have to throw them away if that happens. Okay, but it's better probably to just start with a basis of the sub inspectors. You get linearly independent vectors because they're orthogonal and nonzero and then to Ortho normalize them. You have to normalize them. There are orthogonal then you just divide them by their life and you have orthonormal vectors. So that's the one more example of applying it in a moment.  But the observation we made at the end of last lecture was that if you put this all together noticed that there's a triangular pattern up there. Right? So you want it only depends on V1 and you to it only depends on you wanted me to which is the same as depending on V1 and V2 and use three depends on you one U2 and V3 is the same as depending on V1 V2 and V3. So you 7 is in the span of V1 through the 7th doesn't need all the other future viso you get a triangular to pattern there and that triangular pattern is reflected in the fact that this can be systematized and put together to say that you have a certain Matrix factorization Matrix decomposition you start with your Matrix with the vectors v as its columns. Let's call that Matrix a  Now a is well, these are vectors in our end. So there's and Rose and RP columns here. And of course it is going to be linearly independent. Then p is less than or equal to a service is typically a tall skinny Matrix what the gram Schmidt orthogonalization procedure does for you? It's produce these orthodana vectors here call that Matrix Q.  And what this triangular relationship between the use in the Via says is that that Matrix a is equal to Q X this Matrix here, which I'll call r i p by P for cute. I meant to write and by P and R is p by P.  So we have a p by P Matrix there and it's just populated by the numbers that come up. Okay that the numbers are one of the length of you one and V2. You 1 / the length of you one and length of you too and so on in that list. And so if you were a computer and can remember exactly how to take those numbers normalized appropriately and put them into this Matrix there. Then immediately gives you this decomposition. And the point is that the Triangular structure out there gives you an operator and get our Matrix for the are there. So this is called the QR factorization of the Matrix a  so if you were a computer then you would once you've done the grant process you could immediately write down 2 and r  You're probably not a computer. So you can write down the Q because that's what gram Schmidt does. That's the the you hats that you produced but figuring out which coefficient to put we're in the army tricks. That's a pain in the butt to try to remember but it's okay. You don't need to okay. There's a I'm not going to make you do it cuz this is going to be on the final but there's a shortcut to a long cut but there's an easier way to do it. Even if it's less efficient and let's see how that works in the following example. So here is a matrix tall skinny, Matrix still got two columns there. They are manifestly linearly independent.  so I'm going to do gram Schmidt orthogonalization and produce an orthonormal basis for the same vectors for the column space of a so, we're going to find  a an orthonormal basis  for the column space of a so let's call these two vectors V1 and V2. So we're going to find that other than normal basis using the gram Schmidt process to the first thing we do is we take the first vector and we call it you want instead. That's our first Vector V1 there and we need to normalize it so we compute the length of you 1 squared is 2 squared + 1 squared + -2 squared  which is 9  that's what that says.  Set the length of you one is \u221a 9 or 3. And so we have our first Vector our first Vector you one hat.  Is V 1/3 so that's 2/3.  1/3 + - 2/3  Okay. Now we need to produce the second Vector in our list. So we following gram Schmidt with II Vector is V2.  That's where the second new Vector is you too and would like that to just be V2 and then we be done but in general we have to take the projection TV two on two Hue one.  Or you want hat if we want just a matter of whether we want to normalize before or after I'm just going to do this.  That means we need to calculate that. Product their V2 dotted with you one. Will you want is the same as V1? So that's just the top product of the two columns of a 2 1-2 dotted with 0 1 1.  and that gives us 0 + 1 - 2 is  written down one wrong 0 + 1 + 2 which is 3.0. So those two vectors are orthogonal Schmitz to find an orthogonal basis. So let's just write down what all this says now V2. That's 0 1 - 1  minus the top part of the V2 and you one we just computer that that's three divided by the length of you 1 squared which is 9  Time does the vector you want not you won't have to Vector you want which is to 1 - 2.  Okay, so that is  0 1 - 1 -  2/3 1/3 and -2/3  So that gives us - 2/3.  1 - 1/3 is + 2/3 + -1 - -2/3 is 2/3 - 1 which is -1.  So there's are you too. And then the last thing we need to do is normalize it so we just compute the length of U2 squared is -2/3 squared + 2/3 squared + -1/3 squared  So that is 4/9 + 4/9 + 1/9.  Which is 9/9 or 1 miraculously this Vector was already normalized that typically won't happen that you probably will have to normalize it again. But in this case it worked out it was already a normalize vector.  So therefore you two hat is the same as you to it was already normalized. So it's not going to rewrite it. It's this picture right here.  So we have found out or thinner will basis it consists of this one and this one to be clear. That's a North anural basis of the column space of a is not an orthonormal basis of R3 where those vectors live. There's only two of them. It can't be a basis of our three. It's an orthonormal basis of a Subspace the Subspace spanned by the original vectors V1 and V2, which is the column space of a so, there is our orthodontist know the QR decomposition. The QR decomposition says, okay, we know we now know that we can write.  Hey in the form Q x r where Q is the Matrix formed by the two vectors you want hat and you too hot. That's cute.  An RR is going to be let's see. What size. Is it going to be a is 3 by 2.  Accu is 3 by 2. So to multiply 3 by to buy something and get a 3 by 2 you have to have that something be to buy to so our is going to be a two-by-two matrix and the numbers that appear in it are up here already modulus of normalization there the length of you won the length of you too and that. Product / the length of you want so they're already there, but you don't have to remember that because we can make the following observation.  The Columns of q r or thin or Mille  So that means remember that if I take any Matrix.  I can encode the. Products between its columns in this Square Matrix Q transpose Q if those columns are orthonormal as we saw two lectures ago that precisely means that you transpose Q is the identity Matrix.  Now, how does that help us here? We'll just look at the equation a does decomposes Q x r  therefore If I multiply both sides of that equation by Q transpose  what you transpose Q is the identity Matrix this we just said right here.  So that's just the same thing as the identity Matrix times are which is just our that's what our is.  You don't need to remember how to put those triangular coefficients into the army tricks. Once you find the Q you just take to transpose times the original Matrix a and you'll get your are so let's write that down in this case. Our is Hugh transpose times a week you transpose we take the Matrix that has those columns. You want Hatton you to have turned on their side. So to transpose is 2/3 1/3 - 2/3 is the first row - 2/3 2/3 - 1/3 as the second row and we multiply that by the original Matrix a  And let's just work out with this 2 by 2 Matrix is the first entry is 4/3 + 1/3 - 4/3, which is 1/3.  The entry below that is -4/3 + 2/3 + 2/3 is indeed 0 As We Knew It was supposed to be because this is supposed to be enough for the two one entry or the one to enter. I mean is 0 + 1/3 + 2/3, which is one.  And The Last Story.  The first century is 4/3.  + 1/3  + 4/3 thank you. Okay, 4/3 + 1/3 + 4/3, which is 9/3, which is 3  thank you. I think I got the other two right though.  And then the last entry is -2/3 * 200 + 2/3 + 1/3, so it should just be one again.  And there is RR Matrix.  And if you want you can verify that Q x r is equal to a year, but there is the QR decomposition and that's really how you would find it. If you were asked on an exam on a homework set to find the QR factorization of the Matrix. You would do gram Schmidt to find the queue and then to find the are you would just multiply cute transpose times original Matrix at this is less efficient than just figuring out which coefficients appeared in the process and putting them in the Matrix if a computer is doing it and it knows where to look for those numbers to put in the Triangular Matrix that requires no flops.  Item requires no competition and all the competition is already done. Where is this matrix multiplication takes some flops, but in the size of the examples you guys are doing it's easier to do that matrix multiplication than to try to remember exactly which coefficient goes where you will find the QR factorization of a matrix.  But why would you want to find the QR factorization of a matrix? Well, let me make a comment first.  So the, don't to make first is remember in the general case where we have that the a is tall and skinny where it has more rows and columns those columns. Do not form a basis of RN where they live takes. The queue is also and by piece tall and skinny, they do not form a basis of our end that Matrix Q is typically not invertible. It's not Square Tempe invertible while we do have the equation that cute you that you transpose Q is the identity that does not mean that cute you transpose is the identity. There is no inverse Fork you typically and we saw already that that think you could transpose what it represents that bigger Square Matrix that end by on Square Matrix that represents the Matrix of the linear transformation, which is orthogonal projection onto the column space of it.  But in the special case we're and was able to pee if I started with a basis of our at not necessarily orthogonal and I used the groundsman process to produce a North enormo basis than that new Matrix Q. That's a square orthogonal Matrix orthogonal Matrix. So it is invertible.  So how does that help us here? Well, let's take a look here how that helps us is it turns out this can be used to very quickly and very efficiently approximate eigenvalues. I'm not going to actually show you how this works in an example of it would be fun for you to try out Matlab to see how it doesn't but here's how it works. This is what's called the QR algorithm and this is how Matt Love Actually compute eigenvalues. So you start with a square Matrix at  Start with a square Matrix Ai, and you are going to do the QR factorization of it now for this to work exactly as stated they had better be invertible. Okay. So let's just take that as a no you have to make some tweaks. But if a is an invertible Matrix, meaning that you have a basis to start with for the columns you do the QR factorization was just me to do brownish mitt and find that q and then find the are the r is equal to Q transpose times as we just saw so we saw that this means that are as it will take you transpose time say  Now here's what might level do next will say. Okay, I found the key when they are now. I'm going to write a new Matrix down call A1 different Matrix from before because it's our times cute that you can reverse them. In this case cuz both of those matrices Cuban are there End by Ant and the square Matrix. They're the same size. So everyone will raise our times Q. It's typically not equal to a matrix multiplication doesn't commute.  So, why would we do this? Here's why are x q. Well R is equal to Q transpose times a day. So this is Q transpose a q.  but  in the special case that Q is swear.  Q transpose Q is the identity means that Q transpose is the inverse of Q.  This is Q inverse a q.  If I have a matrix and I take an invertible Matrix on the left X the inverse that Denver Matrix on the right.  What is that due to the Matrix? Remember what that transformation is called does matrices are called.  But remember this similar, this is the similarity transformation. So the Matrix A1 is similar to The Matrix.  Now what does similar mean while it means exactly this but in particular it implies that a one and a they have the same eigenvalues. So even though this new Matrix a one is different from a its eigenvalues are the same as as I can tell you. So if you're trying to find a zygon value you can try to compute a ones I can dies instead now. Is it easier to compute a ones I can tell you is not necessarily but what if we do it again?  So now let's take a 1.  And we can do its QR decomposition.  Now this is going to be different than the Q and they are we got last time. Okay. We have a Q on an R1 would you gram Schmidt on The Columns of a one with your different from The Columns of a so we have a new QR decomposition?  I know from there. We forming a 2 which is our 1 Q 1 mm in we just saw before our one is equal to 2 to 1 transpose a 1.  So this is equal to q1 inverse a one cute one, which is similar to a one which is similar to a so this new Matrix A2 is also similar to the original Matrix. It also has the same eigenvalues. It's probably a totally different Matrix, but now I've got three different matrices. They all have the same eigenvalues. If it's easier to compute eigenvalues of one of them then I can choose that one. Now. Is this one going to be any easier not necessarily but  I can produce a whole string of these a1823.  a 100  and here is the theorem.  as n goes to Infinity  a n in the sequence rapidly converges  to an upper triangular Matrix  and that's something you can check on that lock. It couldn't read up Google it how to do the QR decomposition of a matrix or look from your homework or you already did that do the QR decomposition of a matrix and then ask Matt love to do the QR factorization and do the QR process or do it manually yourself. If you want to write a little script and calculate these matrices. They wanted to 83844 some input Matrix and you will see that after a hundred steps that Matrix will be upper triangular their entries below. The Min diagonal will be 0 to 60 decimal places. So Matt level not even recognize if they're not there anymore. Hey, there aren't actually sterile, but they're very close.  Now an upper triangular Matrix, you can pick off its eigenvalues its eigenvalues are on the diagonal.  That is how Matlab compute eigenvalues when you put in a in Matlab for a matrix a what it does is it erase the QR factorization and reverses it like this over and over and picks off the diagonal entries. It does some small tweaks to this algorithm to make it even faster, but that's the basic idea.  So that is how you compute eigenvalues and that's the reason that you are factorization is actually really important. It's used everywhere in science anywhere you need eigenvalues QR factorization is how you actually in America computer.  Okay, so you need to understand the QR factorization?  All right, so that's what I want to say about you are now I want to finish the course with Section 7.1.  So let's continue on this theme Here.  So we just had  the QR factorization with start with a basis with there was a matrix a and we replace it with a matrix with the same column space q that has orthogonal columns and we saw that that is useful for comparing eigenvalue. So on this theme of eigenvalues and orthogonal or orthodontist vectors, let's think back we started talking about eigenvalues two weeks ago or two and a half weeks ago.  What sucks about diagonalize ability? This is an important topic for the final exam. So I'll give you a square Matrix a and I can ask you is it diagonalizable? Remember what that means? I diagonalizable Matrix is one that is similar to a diagonal matrix. That's what is PDP inverse where p is an invertible Matrix and Diaz diagonal but that's equivalent of the right geometric way to understand. Thanks. It's diagonalizable. If there is a basis of RN that is composed of eigenvectors of a  Okay, great. So you get a basis of RN and you've done lots of examples where you find the eigenspaces and you see that there are enough eigenvectors to form a basis of all time.  No, most of the time when you have done that the basis that you get is not an orthogonal basis eigenvectors are typically not orthogonal that you could do gram Schmidt on them to produce an orthogonal basis, but then that new orthogonal basis will not be composed of eigenvectors. There's rigidity here.  Okay, you can't just change the vectors take linear combinations of them and still have them be eigenvectors. You can't do that typically.  So the question is when does it just happen?  Since orthogonal basis of the best kind of basis for what kinds of matrices a is it true that there is an orthogonal basis of eigenvectors or the normal basis of those be the same cuz you can always scale and I can Vector so let's see if we can suss out which kind of matrices might have that property. So what I'm saying is supposed that I have a matrix a and its diagonalizable.  Where the P Matrix remember that's the eigenvector matrix. It's it's real it's columns are the eigenvectors. So if the eigenvectors are orthonormal, so if  They are worth a normal.  Then what we get is that?  Py let's rewrite it is Q cuz we've been riding Q as an orthogonal Matrix.  Where Q transpose x q is the identity that's what we're saying suppose that the basis of eigenvectors is an orthogonal basis. These are square matrices. So like on the last slide in this case means that you transpose is Q inverse.  So this says we can write this as qdq inverse but Q inverse is the same as Q transpose.  That's what we're looking for. We're looking for when the eigenvector Matrix is an orthogonal Matrix in which case the diagonalization is not just chewed each Universe. It can also be written as qdq transpose. And what's great about that is that it's a whole lot easier to find the transpose of a matrix than the inverse of a matrix. So if you knew already that your Matrix was orthogonally diagonalizable, which is a lot of syllables but just means that it has an orthogonal basis of eigenvectors. Then you just have to find the Q in the D. You don't need to find the inverse because the inverse is just to transpose just turn the Matrix on its side. Okay. So when that happens that's what happened. That's that's what we'll get. But when will it happen? So here's the observation I want to make which is  If I have such a matrix, that's orthogonally diagonalizable that has an orthogonal basis of eigenvectors. Let's look at its transpose a transpose is equal to what we just said that we can factorise 8 as qdq transpose. That's qdq transpose transpose. This is good practice for how transposes work. Remember that a transpose of a product is the product of the transpose is but in the other order  This is Hugh transpose transpose x d transpose x q transpose.  Now transpose it just reflects the Matrix across a diagonal. So if you do it again, it reflects it back you get the original Matrix back. So that's Q x d transpose x q transpose D transpose.  What kind of Matrix is d?  It's diagonal what that means is that it's got entries on the diagonal and zeros above and below. Now, if you transpose that Matrix and swap the above and below triangular parts, that doesn't do anything tricks. Is it down transpose?  so look, if a is orthogonally diagonalizable then it's transpose is  itself  text we call as I mentioned before we call such matrices symmetric.  Okay, so that's the conclusion care of a is orthogonally diagonalizable then a is symmetric.  Those are the only kind of matrices we could possibly expect to have a North Enola basis of eigenvectors.  Okay, great. So I give you and I give you a matrix. That is symmetric. That's an easy condition to check remember if you find a matrix in general you are asked is it diagonalizable? That's just hard to check you can't tell by looking at it. Usually you just have to go through all the math to see if there are enough real eigenvalues and if the algebraic multiplicity and geometric multiplicity of each other's eigenvalues match the pain in the butt most of time.  Where has this condition of being symmetric is easy to check visually do I have the same interest above the dragon was below just to look and see so those that's a that's a necessary condition for having an orthogonal basis of eigenvectors. Okay, but that doesn't mean necessarily that every such Matrix that every symmetric Matrix is orthogonal diagonalizable. Well, let's see. So that's the question here. That's the converse. Can we always orthogonally diagonalize any such symmetric Matrix? So to move in that direction to see if that's true. Let's look at the following calculation. So suppose I take two eigenvalues. So I have it supposed to have a symmetric Matrix a  and suppose that I've got two eigenvectors for it you  envy  two eigenvectors with two distinct eigenvalues suppose. I'm in that situation.  Sound are eigenvectors, you know, we already did a calculation like this for lectures to go for a general Matrix. If I have a situation like this where I have a matrix that has two distinct eigenvalues remember that we prove that the eigenvectors are there for  Made of cheese what what's true about eigenvectors of eigenvectors of distinct eigenvalues?  I heard an answer, but please say it louder.  You weren't confident about your answer. Okay, could they be parallel to each other? No, so what are they?  Are linearly independent. So for any Matrix, if you have eigenvectors with distinct eigenvalues are linearly independent. Well, if you have a symmetric Matrix, you get the best kind of linear Independence. Here's a fun little calculation. So what I'm going to do is I'm going to take those two eigenvectors and take their. Product and to be silly but looks like to be silly. I'm going to X by this nonzero number land on his feet is a nonzero number cuz I'm done you are distinct eigenvalues.  I'm going to compute this product X this. Product. I'm going to do it in this really funny backwards sort away. So first, I'll write that as Lambda times you. V - Mew X you. Be?  I'm going to write that as Lambda times you. V - you. Movie.  and the reason that I'm reading it that way is that  Lambda you is a ewe and lamb and UV is a v so I can equivalently write this as  a you dotted with v - you doubted with a v  How does that help us? Well?  that  let's just remember the definition of the. Product here X. Y is just equal to X transpose X Y, so that is equal to  hey you transpose x v - you transpose x a v  I know I'm just going to do one more step here, which is looking here a you transpose. We already did this on the last Slide. The transpose of a product is the product of the transposes in the other order.  So this is equal to you transpose a transpose V - you transpose a matrix a but if we're in the setting where a is?  Symmetric then those two things are equal.  so if a equals a transpose  then this is zero.  So when I get is that this nonzero number you landed - New Times you. V is 0 and there for you. Vyas.  So therefore you is orthogonal to be that's the conclusion here in general. If you have any Matrix and it has two distinct eigenvalues and eigenvectors for those eigenvalues will be linearly independent even better. If your Matrix is symmetric, you have to eigenvalues with distinct with two eigenvectors with distinct eigenvalues. They are orthogonal.  Fits together with this thing. We're asking about up here, right because we're asking can I orthogonally diagonalize can I find a basis of eigenvectors? That is actually an orthonormal basis. Well what this says if I have distinct eigenvalues, yes.  Okay, so  if I have all distinct real eigenvalues for my symmetric Matrix, then yes, it will have an orthonormal basis of eigenvectors by that calculation. No better yet.  If they're not all distinct The Matrix might still be diagonalizable. So if I have a symmetric Matrix and it happens to be diagonalizable, then what this calculation just showed us is that the distinct eigenspaces orthogonal to each other is if I take two eigenvectors one from the eigenspace if I can buy you three and the other from the eigenspace the eigenvalue 7, then those two eigenvectors will be orthogonal. The only question is what if I take two eigenvectors from the three-dimensional eigenspace of the eigenvalue 7-Day. Well, those might not be orthogonal but we can make them orthogonal doing the gram Schmidt orthogonalization procedure inside the eigenspace. That is we start with a basis of eigenvectors. They'll already be orthogonal between the different eigenspaces for different eigenvalues. And then if we do gram Schmidt on that because the eigenspace Azhar Ali are already orthogonal that's only going to modify the vectors with any jogging space and a linear combination of eigenvectors for a fixed eigenvalue is still an eigenvector. So the conclusion  if  a is diagonalizable  And symmetric then yes, there is an orthodontist basis of eigenvectors.  So  that is to say that's in this case. Then we can find you one hat U2 hat you and hat and we string them together.  Animatrix q and we will get that a is Q DQ inverse, which is the same as qdq transpose where this D. As usual is the diagonal matrix with the eigenvalues.  Okay, so that's a nice little observation here. So if a matrix is orthogonal diagonalizable, it must be symmetric if it is symmetric, and if we already know that it can be diagonalized at all. Then it can be diagonalized orthogonally, but that still doesn't answer the question. We wants to know can I just inspect the Matrix and see from its symmetry that it is diagonalizable and therefore orthogonally diagonalizable.  And the answer is yes, we can so that is the theorem. It's called the spectral theorem. And the ceremony is yes every symmetric Matrix is diagonalizable and therefore orthogonally diagonalizable if your Matrix is symmetric if it's equal to its own transpose, if you can just look at it and see that the entries above the main diagonal equals the answers below the main diagonal then you know without doing any work, but the Matrix can be orthogonally diagonalize it has an orthogonal basis of eigenvectors.  Okay, I am not going to prove this there.  We don't have the tools to prove this then we would need either so they call the fundamental theorem of linear algebra, because we really have to deal with complex roots of polynomials to show that actually at the end of the day they are real or we would need some calculus. There's a beautiful Vector calculus proof of this there. I'm so those of you who taken math 20c n e I could show you a proof If you really want not right now but in office hours or something that is a beautiful proof of it. It's not outside the realm of possibility to prove it for us. It was just take more time than I want to and I'm not interested in the proof. I'm interested in the statement. Okay. So the spectral theorem says there's one class of matrices is the best kind of symmetric matrices, which you can just tell by looking they are diagonalizable. And in fact, they are orthogonally diagonalizable now, let me point out one thing an alternate formulation of what that means.  Text which is called the spectral decomposition of such matrices because what this says is that if I take my Matrix a my symmetric Matrix, then I can decompose it as qdq transpose. That's right out what that is. Again. That's you one hat you two had you and hat is RQ.  And the D is this diagonal matrix with the eigenvalues on the diagonal?  And then to inverse but the beauty is that when it's orthogonally diagonalizable 2 inverses the same as cute transpose so I can write that as you one transpose you to transpose.  And sew on The Columns of a get turned in enough to get turned into the rose of you transpose.  Okay. Well now how does this work?  Well from the diagonalization when we did this in the first place how the diagonal ization a rose we noted that if I take the product of q and d if I take a matron interns at the columns should be hats here if I take a matrix in terms of its columns and I X diagonal matrix on the right what that does and this reflects the fact that those are eigenvalues what that does is it just scales those vectors by the diagonal entries?  I know here we've got a matrix and I'm giving you with columns Columns of those Lambda scaling the original use and I multiply that by matrix written in terms of its Rose. But the nice thing there is remember how matrix multiplication works the entries of the matrix product are given by row times column. Okay. So if you work that out here, what you find is that this is just equal to Lambda 1 times you won you won transpose.  Plus Lambda two times you to you to transpose.  Plus down the line to Lambda n u n u n transpose.  So that's called the spectral decomposition because think about it one more step. Well because will come of the next slide but one more step here to identify these things. So you won you to you and these are in an orthodontic basis of our at consisting of eigenvectors.  What is this you won you won transpose? That's the Matrix of the orthogonal projection onto you want.  So I can write this one more way which is say Lambda One X the projection onto you one.  Plus Lambda two times the projection onto YouTube.  It is Matrix is a sum of projection matrices. It's a linear combination of projection matrices. So you have this nice basis of eigenvectors. And if you take the orthogonal projections on to those one-dimensional subspaces, then your original Matrix is the linear combination of those matrices that those projection matrices.  Where the linear coefficient are the eigenvalues that's called the spectral decomposition of a matrix. It only works for symmetric matrices, but it's beautiful because it's geometrically now easy to understand what that metrics does. Okay. It says I want to know what happens to a vector here if it's eigenvectors are the standard basis vectors in this room. All I do is I first projected onto the XY plane and then projected onto the x-axis and I scale it by the X eigenvector then I projected into the onto the y-axis over there and I multiply that by the way, I can be projected into the z-axis and I multiply that by the Z eigenvector and I  Hey, it's the easiest possible way to understand geometrically what a matrix does and it works for every symmetric Matrix. So that's the spectral theorem. That's the spectral decomposition and you do need to know these things for the final exam and you were being tested on them on your homework. And the last in the last 7 Minutes of class. I would like to answer the question. Why is it called spectral? It should probably be called the projection decomposition or something like that. Why spectral this is a really fancy sounding word that means different things in different contexts. Some old word dating from at least the 18th century, but in the context where it appears here, it comes from pictures like this.  What you've seen if you've taken even in high school, but certainly in University if you've seen in physics and chemistry classes it what is a spectrum if I take a glass tube is filled with only hydrogen gas and I have two electrodes at the end of my run a strong current through the gas turn off the lights then I will see the two blowing and if I take light from that tube, I pass it through a prism to separate it into a different frequencies. I find something remarkable something scientist discovered in the late 19th century that had to had no explanation for the time which is that you get lots of colors out if a full spectrum of colors out with a few Exceptions, there are four or five lines missing.  the spectral lines of hydrogen  and as time went on.  Physicist discovered that there are actually many more lines outside the visible spectrum that are missing infinitely many lines that are missing these form of the emission spectrum of hydrogen.  Wendy's were first discovered. Nobody had any idea what that could possibly mean. Okay, but some physicists in the first part the first twenty years of the twentieth century figured out that our whole model for physics was wrong.  Because of these experiments and I figured out that what's going on. Is that the kind of  Light energy that can be emitted and absorbed by hydrogen it only comes in discrete quantized amounts.  This was the beginning of what is now called quantum mechanics.  But it wasn't called quantum mechanics when it was invented by Heisenberg. He called it Matrix mechanics because the model and you've never seen this before unless you've taken higher-level quantum mechanics classes, but the model of quantum mechanics, all right here that he formulated which is really still how it works.  Is that here's how the physical system is modeled the hydrogen atoms that have the the state of the physical system inside that glass tube is modeled as a vector in some big Vector space What Vector space was kind of like the one we've been confused about the most in this room the vector space p of polynomials. It's a space of functions that are called wavefunction, but you don't need to worry about that at some big Vector space.  And there are operators there are matrices Infinity by Infinity matrices that act on those vectors linear Transformations that act on those pictures and those linear Transformations. They encode all of the physical operations and measurements that we can make in particular. There's an energy operator, which is called the hamiltonian because of nineteenth-century physics reasons, but there's an energy Matrix, which if you want to measure the energy of that system, you multiply that vector by that Matrix.  Now that Matrix is a symmetric Matrix all the energy operators all the physical operators in quantum mechanics are symmetric matrices, which means they are orthogonally diagonalizable which means that there is a basis of the wave functions consisting of eigenvectors and eigenvalues.  These are the eigenvalues is the eigenvalues of the energy operator for the hydrogen atom. Those are the only things you can measure that's what quantum mechanics says system when you can take a measurement of it. It can only be in an eigenvector State. That's when you give her this crazy phrase collapsing the wave function before in popular literature what that literally means is you have a system that is a linear combination of the eigenvectors because they form a basis. It's in some random state. But when you take a measurement of the energy what happens if you end up applying the projection onto one of those vectors, that's what it means to take a measurement you project onto the eigenspace and then what you measure is the corresponding eigenvalue.  That's what quantum mechanics says from beginning to end quantum mechanics is all linear algebra. And by the way, I just told you what the eigenvalues of hydrogen are a there's no spectral lines. What are the eigenvectors I said. This is a vector space of functions cancel. These are going to be these eigenvectors are functions in three variables functions in space. What do those functions look like? What do the eigenvectors look like? You've seen them before because you took chemistry in high school. They look like this.  That's what these pictures these orbital pictures of electron cloud. That's what they are. That's all they are there the eigenvectors of the Matrix that represents the energy of hydrogen atom. And this is why one of many reasons why the spectral theorem is the most important theorem in mathematics. In fact, it's the most important serum in all of science.  Because it's the basis of quantum mechanics and quantum mechanics is the basis of all of physical science in particular chemistry this picture here up there the periodic table it was written down 80 years before the turn of the 20th century people understood that chemical elements came in these periodic bands with with behavior that reflected each other but had no idea why it was all explained by these pictures. It was all explained by the eigenvector analysis of this Matrix. So among other things I told you that at the beginning of his class that linear algebra is all and everything that computer can do at the end of the day linear algebra is all in everything that the Universe can do and that's why I think this is the most important class that you've taken and will finish their  See you I'll see you all on Friday for review for the final exam.  San Diego podcast for more visit podcast. ",
+  "Name": "math18_b00_wi18-03142018-1000",
+  "File Name": "lecture_27.flac"
+}

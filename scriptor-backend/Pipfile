@@ -18,6 +18,8 @@ dask = {extras = ["complete"],version = "*"}
 python-slugify = "*"
 bcrypt = "*"
 furl = "*"
+google-cloud-speech = "*"
+google-cloud-storage = "*"
 
 [requires]
 python_version = "3.7"

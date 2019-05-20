@@ -21,8 +21,7 @@ class NoPodcastAudioError(Exception):
 
 
 def extract_podcast_data(podcast_num, course_podcast_url):
-
-    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_AUDIO_VERSION})
+    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_AUDIO_VERSION}, verify=False)
     content = result.content
 
     soup = BeautifulSoup(content, features="html.parser")
@@ -48,7 +47,7 @@ def extract_podcast_data(podcast_num, course_podcast_url):
         raise NoPodcastAudioError()
 
     # Extract the video URL
-    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_VIDEO_VERSION})
+    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_VIDEO_VERSION}, verify=False)
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
 
