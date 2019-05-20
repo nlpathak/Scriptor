@@ -124,6 +124,7 @@ def exportToJSON(audio_file_output, blurbMap, fullTranscript):
     json_out["Time"] = time
     json_out["Full Transcript"] = fullTranscript
     json_out["Blurbs"] = blurbMap
+    json_out["File Name"] = audio_file_output
 
     # Convert from Python Dict to JSON object
     json_data = json.dumps(json_out, indent=4, sort_keys=True)
