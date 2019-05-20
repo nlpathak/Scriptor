@@ -58,7 +58,8 @@ class PodcastTranscriptionBlob(Document):
 
         # TODO: Should we automatically sort the results by the date & starting_timestamp_second fields?
         # Because the professor might first introduce a topic in 1 lecture, and then refer to it in subsequent lectures.
-        podcast_transcription_query = PodcastTranscriptionBlob.search().query(search_query)
+        podcast_transcription_query = PodcastTranscriptionBlob.search().highlight("transcription_blob").query(
+            search_query)
 
         # Slice the search query for the requested page & count
         podcast_transcription_query = podcast_transcription_query[(page - 1) * count: ((page - 1) * count) + count]

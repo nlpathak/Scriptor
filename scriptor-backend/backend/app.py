@@ -31,6 +31,8 @@ def index():
 # Import all blueprints
 from backend.users import users_blueprint
 from backend.search import search_blueprint
+from backend.podcasts import podcasts_blueprint
 
 app.register_blueprint(users_blueprint)  # This handles all user profile-related API calls
 app.register_blueprint(search_blueprint)  # This handles all search-based API calls
+app.register_blueprint(podcasts_blueprint)  # This handles all podcast-based API calls

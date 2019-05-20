@@ -1,22 +1,26 @@
 from flask import Blueprint, request, jsonify, g
 
 from backend.search.models import PodcastTranscriptionBlob
+from backend.users.models import HistoryItem
 
 search_blueprint = Blueprint('search', __name__, url_prefix="/api/search")
 
 
 @search_blueprint.route("/departments/", methods=['GET'])
 def search_departments():
+    # TODO:
     pass
 
 
 @search_blueprint.route("/courses/", methods=['GET'])
 def search_courses():
+    # TODO:
     pass
 
 
 @search_blueprint.route("/professor/", methods=['GET'])
 def search_professors():
+    # TODO:
     pass
 
 
@@ -28,6 +32,8 @@ def search_podcasts():
 
     if not text_query:
         return jsonify(success=False, error="Please provide a search query."), 400
+
+    text_query = text_query.strip()
 
     # Extract any filters that were supplied
     department = request.args.get("dept")
@@ -42,10 +48,24 @@ def search_podcasts():
                                                                             professor=professor, quarter=quarter,
                                                                             section_id=section_id, page=page,
                                                                             count=num_results)
-
     if g.current_user:
-        # TODO: Add this search query to the user's history if there's a user currently logged in
-        pass
+        # Add this search query to the user's history
+        search_filters = {}
+
+        if department:
+            search_filters["dept"] = department
+        if course_number:
+            search_filters["course_num"] = course_number
+        if professor:
+            search_filters["professor"] = professor
+        if quarter:
+            search_filters["quarter"] = quarter
+        if section_id:
+            search_filters["section_id"] = section_id
+
+        history_item = HistoryItem(type=HistoryItem.TYPE_SEARCH_QUERY, search_filters=search_filters,
+                                   search_query=text_query)
+        g.current_user.add_history_item(history_item)
 
     relevant_transcription_blobs = [blob.to_dict() for blob in relevant_transcription_blobs]
     return jsonify(success=True, results=relevant_transcription_blobs)

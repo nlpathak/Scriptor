@@ -227,7 +227,26 @@ def user_get_history():
             ...
         ]
     }
-    :return:
     """
-    # TODO:
-    pass
+    page = int(request.args.get("page", 1))
+    count = int(request.args.get("count", 10))
+    history_items = g.current_user.history[(page - 1) * count: ((page - 1) * count) + count]
+    history_items = [item.to_dict() for item in history_items]
+    return jsonify(success=True, history=history_items)
+
+
+@users_blueprint.route("/user/history/clear/", methods=["DELETE"])
+@login_required
+def user_clear_history():
+    """
+    This will clear the user's history.
+
+    Sample responses:
+
+    success (HTTP status 200):
+    {
+        "success" : true
+    }
+    """
+    g.current_user.clear_history()
+    return jsonify(success=True)

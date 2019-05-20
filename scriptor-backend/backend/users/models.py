@@ -1,21 +1,47 @@
 import jwt
-from elasticsearch_dsl import Document, Text, Nested, InnerDoc, Q, Keyword
+from elasticsearch_dsl import Document, Text, Nested, InnerDoc, Q, Keyword, Object
+from flask import url_for
 from passlib.hash import bcrypt
 
 from backend.db import *
 from backend.podcasts.models import Podcast
+from backend.search.models import PodcastTranscriptionBlob
 from backend.users.validation import is_password_valid
 
 
 class HistoryItem(InnerDoc):
     """
     This defines a HistoryItem model, which will be the items in a user's history.
-    TODO: The structure of this needs to be decided on.
 
     Note that this is an inner, nested doc (it will be used inside a user's history field),
     so a separate index won't be created for this model.
     """
-    type = Keyword()  # either a search query or a podcast page
+    TYPE_SEARCH_QUERY = "SEARCH_QUERY"
+    TYPE_PODCAST_PAGE = "PODCAST_PAGE"
+
+    type = Keyword(required=True)  # either a search query or a podcast page
+    search_query = Text(required=False)  # Only applies if this HistoryItem is of the type "search_query"
+    search_filters = Object(dynamic=True, required=False)  # Any search filters that the user had used.
+    podcast_page_transcription_blob_id = Text(
+        required=False)  # Only applies if this HistoryItem is of the type "podcast_page"
+
+    @property
+    def url(self):
+        if self.type == HistoryItem.TYPE_SEARCH_QUERY:
+            return url_for("search.search_podcasts", **self.search_filters.to_dict())
+        else:
+            return url_for("podcasts.get_podcast_transcription_blob",
+                           transcription_blob_id=self.podcast_page_transcription_blob_id)
+
+    @property
+    def title(self):
+        if self.type == HistoryItem.TYPE_SEARCH_QUERY:
+            return self.search_query
+        else:
+            return PodcastTranscriptionBlob.get(id=self.podcast_page_transcription_blob_id).podcast.title
+
+    def to_dict(self, skip_empty=True):
+        return {"type": self.type, "url": self.url, "title": self.title}
 
 
 class User(Document):
@@ -162,4 +188,8 @@ class User(Document):
         :param history_item:    The HistoryItem object to add
         """
         self.history.append(history_item)
+        self.save()
+
+    def clear_history(self):
+        self.history = []
         self.save()
