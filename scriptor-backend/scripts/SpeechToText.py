@@ -22,8 +22,8 @@ from google.cloud.speech import types
 
 # Change BUCKETNAME to fit Google Cloud Platform bucketname
 PATHTOAUDIOFILE = sys.argv[1]
-BUCKETNAME = "audiofilesscriptor"
-# BUCKETNAME = "scriptor"
+# BUCKETNAME = "audiofilesscriptor"
+BUCKETNAME = "scriptor"
 
 NUMBEROFWORDSPERBLURB = 70
 
@@ -69,6 +69,7 @@ def processGoogleResponse(response):
     currStartTime = None
     currEndTime = None
     numWordsInCurrBlurb = 0
+    blurbIndex = 0
 
     for result in response.results:
          alternative = result.alternatives[0]
@@ -88,13 +89,14 @@ def processGoogleResponse(response):
 
               currEndTime = wordInfo.end_time.seconds + wordInfo.end_time.nanos * 1e-9
               if numWordsInCurrBlurb == NUMBEROFWORDSPERBLURB:
-                   blurbMap[currBlurb] = (currStartTime, currEndTime)
+                   blurbMap[currBlurb] = (currStartTime, currEndTime, blurbIndex)
 
                    currBlurb = ''
                    numWordsInCurrBlurb = 0
+	 	   blurbIndex += 1
 
     if numWordsInCurrBlurb != 0:
-         blurbMap[currBlurb] = (currStartTime, currEndTime)
+         blurbMap[currBlurb] = (currStartTime, currEndTime, blurbIndex)
 
     return blurbMap, fullTranscript
       
@@ -106,22 +108,6 @@ def exportToJSON(audio_file_output, blurbMap, fullTranscript):
     file_prefix = audio_file_output.split(".")
     json_file = file_prefix[0] + ".json"
 
-    # Parsing mp3 file name for metadata
-    metadata = audio_file_output.split("_")
-
-    class_name = metadata[0]
-    section_date_time = metadata[1].split("-")
-
-    section = section_date_time[0]
-    date = section_date_time[1]
-    time_raw = section_date_time[2].split(".")
-    time = time_raw[0]
-
-    # Create Python Dictionary
-    json_out["Class Name"] = class_name
-    json_out["Section"] = section
-    json_out["Date"] = date
-    json_out["Time"] = time
     json_out["Full Transcript"] = fullTranscript
     json_out["Blurbs"] = blurbMap
     json_out["File Name"] = audio_file_output
