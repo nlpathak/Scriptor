@@ -1,0 +1,436 @@
+{
+    "Blurbs": {
+        "1 and 10 is 25. And so C1 is the value of the denomination of a coin and N is a positive integer. So when we talk about change of 125, what were meaning is how would we make change using the greedy change making algorithm using only one cent coins? That's the one and we're making a value of $0.25. So if we say that in English, we can ": [
+            2308.4,
+            2347.1,
+            68
+        ],
+        "5:10, but they meant 10-5-1. So there is a choice that we make both as when we're writing the mathematical notation and when we're coating as to how much we want to infer about intentions and how much we wanted to actually think about the differences in the properties when people write things differently and there's there's utility in the ordering and exploring what happened. Otherwise Already, so in this ": [
+            2683.5,
+            2713.2,
+            78
+        ],
+        "All right. So the moral of this example what you should get out of this is that when we are presented with some pseudocode we can interpret it. Even though it's not in the syntax of java. You got the comparison to Java on your hand out so that you can look at the differences and similarities, but it can still abstract away the important elements of the algorithm so ": [
+            1083.7,
+            1106.7,
+            34
+        ],
+        "And now we ask ourselves is the current value of n still greater than 1 and yes, she was greater than 1 so we go right back into the body. Do it again in the loop body. We update our to be three. We update n to be 1/2 divided by 2 is equal to one and now we ask ourselves whether n is greater than 1 and what's the ": [
+            888.9,
+            913.5,
+            27
+        ],
+        "D1 being. 25 Any questions about this setup? Okay, so let's walk through this one then. What problem are we solving in this example? Cool, living off these parameters the value of money that we're trying to represent is $0.25 and the coin values that we have AR-15 in 10 so we can talk about 151 cents in $0.05 and $0.10 coins is pennies nickels and dimes but if we're ": [
+            2480.5,
+            2536.3,
+            73
+        ],
+        "Here is that we could communicate how to accomplish these tasks using a finite sequence of precise instructions example that is a similar to the more mathematical of those would be to calculate some the output of some function. So that sound somewhat similar to finding that poker hand where we know that there is some else put that we want to compute and then we're following some instructions to ": [
+            410.7,
+            437.6,
+            12
+        ],
+        "Listen to a podcast morning everyone surprised. It's me images of having to come and talk just for this class as you get to interact with both of us and then we got to fill in for each other. When we have to go elsewhere a couple of reminders. There are three things at least you should be thinking about at this point for CSE 20. You should be registering ": [
+            1.9,
+            29.8,
+            0
+        ],
+        "So if you could just look at the person next to you. Thank you, and I will take more next time. Thank you. All right, take another minute to think of examples of algorithms you have used or implemented. Alright, let's come together and let's hear some examples. So from this side of the room example of an algorithm reviews are implemented. So calculate the best poker hand given a ": [
+            269.6,
+            329.3,
+            9
+        ],
+        "So if you think back to the handout you got on Monday GIF is one of the key words that's on the back of that that big list of definitions. So it's useful to have that as a dictionary next to you and we're working with this notation and end if 2 is what we say is the quotient when we divide 10 by 2 using integer Division. And so ": [
+            819.2,
+            839.7,
+            24
+        ],
+        "That we know when we can and can't perform this task. So in the textbook you looked at a greedy algorithm for change my presence of a collection of coins that tell us which coins are allowed and with the assumption that we will be able to make any amount of change using these coins. So the greedy algorithm for solving an optimization problem tries to make the most progress ": [
+            1941.2,
+            1977.2,
+            59
+        ],
+        "There's a form for this class that you want to use for. This class was on 283 responses so far awesome. It's part of your acai. I went to that is due on Friday evening. So we want to make sure you complete that as well. You can get on track and that assignment introduction the notation assignment. You submit through gradescope. We've had 115 submission So Far So before ": [
+            50.2,
+            75.8,
+            2
+        ],
+        "a problem where we need to find a solution that solves the problem in a way that minimizes maximize the value of some parameter that we picked. So some optimization problems is like the poker hand question where if you got a bunch of cards and you want to choose the poker hand that maximizes your probability of having the best hand out of everyone on the table. So the ": [
+            1670.4,
+            1700.7,
+            51
+        ],
+        "a really hippie place. It's it's it's kind of funny. It's called 10 square miles surrounded by reality. So you really feel like you're in the middle of nowhere. It's lovely and they have their own currency. They don't have those people who are the hours instead of dollars and cents and everything. They don't suppose we were in a place like I think I would its own currency and ": [
+            1872.4,
+            1901.4,
+            57
+        ],
+        "actually work with a few really concrete examples so that we can start poking at them and seeing their properties. And so that means we need to start by thinking about what is an algorithm and a joke algorithm that you may have seen on The Big Bang Theory is about how Sheldon goes about it makes a friend and he describes this process is a flowchart a sequence of ": [
+            160.8,
+            183.5,
+            6
+        ],
+        "among several options. And in that case if there's maybe a couple of Bible answers we might have a way to decide which one is best. So this is kind of an optimization problem. So the algorithms will be thinking about for the rest of today are optimization problems and on the back of your hand out you have the definition of an optimization problem. So an optimization problem is ": [
+            1640.4,
+            1670.4,
+            50
+        ],
+        "an algorithm that Netflix can follow So take a minute. Please. Consider these algorithms for how Netflix should determine whether to recommend a movie to a person to take a minute and then please. Last votes, please. 3 2 and one I want people to talk to one another and practice also justifying not just staying what your answer is, but also explaining why you think your answer is true ": [
+            1164.7,
+            1229.8,
+            37
+        ],
+        "an answer the tells us how to make with the particular Quonset but more points that we need and this is as compared to change making Waze just one coin siwan equals 1 which does get solved by the greedy algorithm. So then one thing that you could play around with and think about is which collections of coins give us instances of the change-making problem where the greedy algorithm ": [
+            2873.5,
+            2915.5,
+            83
+        ],
+        "and 2 cubed is 8 so that's pretty cool and that then can tell us how to answer the question in the clicker question D&D were were some popular choices in this clicker question, which meant the people were able to cross out a BNC pretty quickly probably by noticing that aren't then have a chance to go as high as 8 or 7 or 4 and then some. Of ": [
+            995.1,
+            1025.1,
+            31
+        ],
+        "and one and pennies for $0.25 and then we could follow the instructions in our algorithm. So when we are talking about arguments to functions and when we're talking about running algorithms, we have to have this consistency between the definition of the application. questions about this one That's a great question. So you were saying if we're implementing something like this in Java and the user gave us these ": [
+            2611.8,
+            2651.2,
+            76
+        ],
+        "answer? No, cuz greater than here is strict greater that and one is not strictly greater than 1 so the answer is no which means we stop and at this point our holds the result of the operation according to this comment. So this is another pseudocode convention that were using where the curly braces in a body of pseudocode is indicating a comment. So it's it's something that we ": [
+            913.5,
+            939.8,
+            28
+        ],
+        "anticipate that the answer will be if we want to make $0.25 with just $0.01 coins that will need 25 of those coins. That's the only way to get 25 cents using $0.01 coins. What's interesting is to see how the algorithm actually performs this task and what the algorithm would do is. We've got these this for Loop. The Steady As She Goes from one to our we're going ": [
+            2347.1,
+            2380.8,
+            69
+        ],
+        "are the allowed denominations, but we've got more coins. then optimal so we have an example here of change making. with these four coins is not salt. By the greedy approach because we've seen a counterexample wear a following this algorithm, even though it will give us an answer will not give us the best answer. So the greedy algorithm for change making with these coins will always give us ": [
+            2825.3,
+            2873.5,
+            82
+        ],
+        "ate. So we've got this consistency in the naming and here is the name that we're giving to the input value and it starts off at 8 in this particular example. So then we traced through the pseudocode and we use the coal and equal symbol to denote assignment. So in the very first part after the signature bless you we've got this time in our guests at to the ": [
+            707.1,
+            736.3,
+            20
+        ],
+        "car and so best poker hands from five cars. Cool for this part of the room examples of algorithms you've used to implemented. Oh time shoes Okay, so very physical algorithm. Cool, the middle of the room is more people. So I'm going to ask for another example from middle of the room go fart. Cool cooking instructions to following a recipe baking a cake making a roast things like ": [
+            329.3,
+            367.9,
+            10
+        ],
+        "compute it and when we think about how to describe those instructions, we could write them out in English. We could write down some mathematical expressions and we can also use pseudocode. So as part of the pre-class reading for today, you looked at some pseudocode in the textbook bless you and an appendix three of the textbook. Can Rosen who's the author of the book? Collected together the conventions ": [
+            437.6,
+            465.9,
+            13
+        ],
+        "during or are they getting started getting going those of you who have done the assignment you had that experience of getting the immediate feedback on gradescope? So you got to submit on gradescope and then get a sense of whether you got the correct answers and then you can resubmit up to the deadline. So for this introduction to notation with the idea is that we're setting the stage ": [
+            75.8,
+            98.5,
+            3
+        ],
+        "for the definitions. We agree on the basic concepts and then we can dive deeper. Hard to hear rumbling. Maybe there's questions any questions so far. Any more handouts cuz I would have a spare piece hand out in front of them. All right, then we share the person next to us. We will often print some number, but we expect at assembly for annotating on tablets as well as ": [
+            98.5,
+            124.5,
+            4
+        ],
+        "freshly to talk to about Netflix recommendations and movies in exploring how Netflix might make his recommendations. We talked about comparing the ratings that people have of movies to one another so we had this notion of D1 and D2 and you explore that more with at EA's and discussion section yesterday. And so now I want to think about how do we put those pieces together with actually articulating ": [
+            1135.9,
+            1164.7,
+            36
+        ],
+        "from there. And then you could lead to a PDF. So you can go to the score schedule and on today's topic. There's a link to it. any questions questions if we find out how would we know what the answer to your question is? We're still figuring out the output for each of these four and if you look over here at the pseudocode, thank you. So when we ": [
+            2120.0,
+            2152.2,
+            64
+        ],
+        "goal. So is greedy change at each step. We pick the coin with the highest value that still less than the amount of money that we needed to represent. So when we think I'm greedy algorithms for change making we can write it down in English. So given these coin value C1 through CR the represents the coins that we have available to us to pick the next coin to ": [
+            2004.1,
+            2033.7,
+            61
+        ],
+        "having this test. of weather and is greater than 1 so when we're executing this algorithm for a particular input value 8, what we need to do is think about how the instructions get carried out for the particular values of N and R that we're working with at the moment. So when we say that we're running log of 8, that means that we start off with n being ": [
+            678.4,
+            707.1,
+            19
+        ],
+        "how could be cross out the without having trace the algorithm fully? Awesome, the wild termination condition is that Ed will be less than or equal to one and so we won't end our algorithm when and is too so we know that any clothes to isn't going to be the the the value when we haven't finished running our when we finished running our procedure. Any questions about this? ": [
+            1051.1,
+            1082.2,
+            33
+        ],
+        "is a good one and for which collections of coins is the greedy approach not going to be good. So there's one nice of a situation where the greedy approach works very well and real-world example is the set of points that we actually use so pennies nickels dimes quarters. The greedy approach works really well there. I'm so that you can come up with other collections account or examples ": [
+            2915.5,
+            2943.2,
+            84
+        ],
+        "it comes to these algorithms we can write them down for cisely, but then we can also ask the question know which algorithm should we choose? What are the implications of those algorithms that we choose? And so one of the tools that we have to answer this question is a very deep analysis of the implications of our algorithms so that then we could have the ethical conversation about ": [
+            1563.6,
+            1591.5,
+            47
+        ],
+        "it. So the fact that we're making that distinction allows us to see this property if we just said he'd throw us some coins then we went there to say this is diction. All right. So what happens in the bottom last year? What does a greedy algorithm do when our coins are 16 cents $0.10 fives and ones and we're making change for $0.25. How many $0.16 coins will ": [
+            2754.4,
+            2793.6,
+            80
+        ],
+        "least a little bit to each of us. I just didn't make sense What I'm hearing are a lot of really interesting insights about the properties of what these algorithms will have and what are some pros and cons of using them. So for example, this idea of treating people as the average person and I'll customizing that might make sense if Netflix is trying to deal with a brand ": [
+            1416.9,
+            1444.3,
+            42
+        ],
+        "minute with the people around you and apply the pseudocode algorithm. So this greedy coin toss a coin change making algorithm in each of these four scenarios and myself a walk-around happy to help you all as you work through these four examples. I was just wondering. Any questions that you got started? Do not have a copy of it. So if you go to the class website, it's linked ": [
+            2059.0,
+            2120.0,
+            63
+        ],
+        "most like you and so a lot of people said that that made a lot of sense see a bunch of people said no way I would argue this season portents if we want to help people break out of echo Chambers and silos. So he might not be the best algorithm for Netflix necessarily, but if you think about Facebook's recommendation system and how Facebook serves at posts in ": [
+            1469.4,
+            1494.9,
+            44
+        ],
+        "new user For Whom the system doesn't have any history to win. Someone first logged into the system. Netflix doesn't know how to compare them to other people and still wants to make some recommendations. So in that case Netflix about the most popular movies, A lot of people were saying hey you want to go with people's life similar preferences you want to do ratings to people who are ": [
+            1444.3,
+            1469.4,
+            43
+        ],
+        "not inconsistent input so that the function here was not well-defined. How would we handle that? So in the sample code that we gave you for this algorithm we chose to throw an exception. So there's a way to indicate to the outside world if there's a problem good point other questions good question. So could you say something like hey, I know what the user meant. They wrote One ": [
+            2651.2,
+            2683.5,
+            77
+        ],
+        "of and that's currently store the 4/4 still greater than 1 so the answer is yes, and we go back to line for to do the leaf body one more one. Duluth body tells us to update our to have the value to us to update and to have the value for div 2 which is too cuz 4/2 is too with no remainder no fractional part no decimal part. ": [
+            863.3,
+            888.9,
+            26
+        ],
+        "of powers of to use powers of 2 to help us sort out the world. And so typically when you say log what will mean log base 2 ISO the idea here is that we are riding down a procedure, but at the end of it gives us information about the log base 2 of 8 Salon base 2 of 8 is the exponent sexual attitude about exponent equals 8 ": [
+            967.6,
+            995.1,
+            30
+        ],
+        "of the wild Loop and that tells us to update the value of our so we increment are by 1 so are now has the value one because it was Zero before and then we also have to execute the second line in the Wiley notice it in this pseudocode were indicating the scope using indentation. So the body of the wild Loop is lines four and five because both ": [
+            757.5,
+            783.4,
+            22
+        ],
+        "of those are indented relative to the wild keyboard. So lines five is still part of the body of a while loop and it tells us to update the value of an ABN div 2. / yes, but it's a particular kind of divided that we have to remember. louder yoga practice cool. So it's like the vision without the decimal. It's just the integer part of the division. Okay. ": [
+            783.4,
+            819.2,
+            23
+        ],
+        "or recommend as well. Yeah, so they don't question about how these corporations maybe ought to behave and then just a question of how they do behave that's a really important difference. There was a yeah, that's that's a really good point. It says it's an urgent social issue and political issue about how these algorithms impact our overall discourse and how our lives are carried out. And so when ": [
+            1517.6,
+            1563.6,
+            46
+        ],
+        "our news feeds, we may want Facebook to occasionally show us the post the people we disagree with so we're not just hearing our own opinions Amplified over and over again. So there might be situations where we want to explore things are outside our comfort zone or exactly what we've experienced. And in that case we might want to know what people who are very different from us like ": [
+            1494.9,
+            1517.6,
+            45
+        ],
+        "parameter here is a probability of success. Another optimization problem would be safe Facebook question of how to display your newsfeed what algorithm to use to display your newsfeed and then you've got to think about what they're trying to maximize and it may be that they're trying to maximize company profits. And so their optimization objective function might be different from what we would want it to be if ": [
+            1700.7,
+            1729.4,
+            52
+        ],
+        "particular example, we have to reformulate the problem. What about in the bottom-left? What's going on? Yeah. Yeah. my first impression was that those two two extra argument 5 and 10 will have Google good so you are pointing out that if we allow coins to start in with small values and go out then we'll never use the later ones which is why in the algorithm. We don't allow ": [
+            2713.2,
+            2754.4,
+            79
+        ],
+        "quarter by quarter? Yeah, so it exists there is a quarter coin it fits it perfectly and we don't need to have like a really heavy wallet. We just need one coin. So it feels like implicitly you're bringing up a lot of the qualities that we want. So in order to make change we need to use coins that exist. So that are available. And we wants to minimize ": [
+            1798.3,
+            1835.2,
+            55
+        ],
+        "running log of 8 and I'd like you to 1st mile work through it on your hand out and answer the question what values are in the variables r&n when we finish So take a minute just individually first try out yourself, and then answer the question and weren't ba. Let's take another 10 seconds. So if you're not done yet, then either just go with your gut instinct or ": [
+            515.1,
+            605.1,
+            16
+        ],
+        "said see didn't make sense to you until then. You had to choose between NBA NBC and more likely to you cool. Play all the above because I felt that that you got like for one hour of them. You could use characteristics for 1. All those choices determine whether or not For example, if you're not to recommend a movie, it's like a lot of people that were close ": [
+            1309.3,
+            1352.4,
+            39
+        ],
+        "should choose if the algorithm is solving a problem like tying your shoelace or like picking a poker hand. There's a clear answer to what the objective is. So what we want the behavior of our algorithm to be at the end and so if we have a clear goal in mind, then we should choose an algorithm that actually gets us to that goal. Sometimes we have to choose ": [
+            1615.0,
+            1640.4,
+            49
+        ],
+        "steps team performs questions. He asks and then he knows what's his next move will be based on the response to that question. And so my question to you all is now moving away from TV shows and thinking about your experiences. If an algorithm is something we Define as a finite sequence of precise instructions for solving a problem. I'd like you to think about what are some algorithms ": [
+            183.5,
+            214.0,
+            7
+        ],
+        "take a guess. I want to record your answer. So you've made some steak. + 3 2 and one alright, so what I think is useful here unless you is to think about how one might come about answering this question. And when we think of running some Code Orange performing an algorithm, what we want to do is to follow that finite set of instructions and explore what happens ": [
+            605.1,
+            643.8,
+            17
+        ],
+        "that he follows in pseudocode. So in this class we will stick to those conventions. If you have an alternate pseudocode style that you prefer cool. Just make sure that when you use it, you are clear about what conventions you are following so that the people you are communicating with weathered be the other people in this class. The Tudors are the chase were great in your work, they ": [
+            465.9,
+            491.8,
+            14
+        ],
+        "that implemented. morning routine Sort of numbers least to greatest cool. So there's some that are taking us longer like the morning routines get up brush teeth at cetera. And then there's also some of the basic tasks we do and sometimes don't even think about them like sorting numbers. Cool. So there's a whole array of different a task that we might accomplish using algorithms. And the unifying theme ": [
+            367.9,
+            410.7,
+            11
+        ],
+        "that means it's the integer part of that division. So if we divide 8 by 2. Divided evenly, it's nice we could discuss for there's no decimal part. There's no fractional part. There's no remainder. And now we've completed the first time of doing the blue body we go up and we check the loop condition. We ask ourselves is an greater than one at this point with a value ": [
+            839.7,
+            863.3,
+            25
+        ],
+        "that you have used or implemented. Okay, so that the top of your hand out. There's this question. What are some algorithms you have used or implemented and I'd like you to take a few minutes to talk to the person next to you introduce yourself. If you didn't meet on Monday say hello and then just brainstorm together some examples of algorithms. I think we're out at the moment. ": [
+            214.0,
+            269.6,
+            8
+        ],
+        "the current amount of money that we still need to account for and DIY is counting how many coins of type c I refused. So in this particular example when I is 1 then C one is just $0.01 and we are going to keep adding $0.01 coins while decreasing the amount of money. We need to represent by one each time and we'll stop exactly when we get to ": [
+            2451.3,
+            2480.5,
+            72
+        ],
+        "the number of coins. And don't seem like reasonable expectations of an algorithm that will make change for certain amount of money. So I suppose we lived in a country actually in a city. So do you know some people have its work ornelas if I went to grad school? So that's why I'm thinking of it at the moment. So in Ithaca, we have our own currency is because ": [
+            1835.2,
+            1872.4,
+            56
+        ],
+        "their objective with something different. So when were thinking about these optimization problems we have to think about what what the kind of answer that we're producing looks like and then how we're choosing which answer to present. So in the pre-class reading you looked at a very specific question of change making this is much less politically charged is very concrete we can look at specific examples. And in ": [
+            1729.4,
+            1757.1,
+            53
+        ],
+        "there. Big questions here as you're getting started. Alright, let's come together. Can I put up here the pseudocode for greedy change making it a PDF is link from the class website if any of you don't have the paper coffee and want to follow along here? And when we look at something like the word change open parentheses 1 semicolon, 25 close parentheses care. What are we doing? So ": [
+            2177.2,
+            2265.7,
+            66
+        ],
+        "thinking about the particular problem definition, we have a hand in the pseudocode we can observe that we have a requirement that see one is greater than C to is greater than c 3 is greater than another. So that we're listing are coins in decreasing order of value. So when we say something like hey figure out the output of change one 5:10. This is not well defined. Even ": [
+            2536.3,
+            2569.8,
+            74
+        ],
+        "this for Loop the tells us how many $0.01 coins were going to use and so in this Loop, where are checking while And is greater than or equal to CI. incrementing the number of coins of index I were using and then decreasing the value that we still need to represent by the value of the coin that we just used. So and we can think of a storing ": [
+            2412.9,
+            2451.3,
+            71
+        ],
+        "this question, we've got some amount of money that we want to produce music. And we got to figure out which coins to put together in order to produce this amount of money example of $0.25. We want to make $0.25 worth of change. So we wants to choose which coins to pick to produce 25 sets. What you do? For this one for $0.25. What should I do a ": [
+            1757.1,
+            1798.3,
+            54
+        ],
+        "though it looks like pennies nickels and dimes because we haven't listed. the arguments in the correct order So the order of the arguments doesn't match the constraints of the definition of the algorithm. So if we wanted to talk about making $0.25 coins using pennies nickels and dimes which is feels like that's what we're saying here. Then we would need to talk about change and two dimes nickels ": [
+            2569.8,
+            2611.8,
+            75
+        ],
+        "time which is totally okay. There wasn't a lot of time to work through this and if you had enough time most people were going for none of the above, which is the correct answer cuz we have an guess the value one and our guest value 3. Now there is something that we could do without doing the whole calculation that could tell us why D is wrong. So ": [
+            1025.1,
+            1051.1,
+            32
+        ],
+        "to build this value GI for each eye and d-ii stores the number of coins that we use of value CI. So in this particular instance of the problem are is one because our counts the number of different coin types we have and when we only have the one cent coin, we only have one different point of one coin type. So are here is one. So we're doing ": [
+            2380.8,
+            2412.9,
+            70
+        ],
+        "to take him to talk to people around you and compare your responses. Alright, let's come back together. Let's hear from this part of the room. Which answer did you pick and why? Okay. Cool, so you went for D because multiple of the options made sense to you. Awesome in the middle of the room. Which answer. Did you pick and why? Okay, so you discounted see because you ": [
+            1229.8,
+            1309.3,
+            38
+        ],
+        "to tease liked it and that would be like, I'm positive that numbers and it did a lot of good ones. Didn't like it or liked it then tell you like a negative. I think you even went for adoption after their you were thinking of a more complex algorithm that took pieces from the previous one and try to do something more sophisticated cool. When should you pick and ": [
+            1352.4,
+            1377.9,
+            40
+        ],
+        "to the variables that were using along the way there's something that I find useful is to trace the values of variables and we're not going to do a memory diagram here. So for those of you who did CSU overtime and we can do that rather informally by just noticing that we are labeling to have some role here. We're labeling are to have some role here and we're ": [
+            643.8,
+            678.4,
+            18
+        ],
+        "towards its goal at each step in the algorithm. So with change-making what that might look like is I want to pick a coin that will capture as much value of the amount. I'm trying to make a change in one step. So that's like the suggestion in the back if we've got a quarter and we want to make $0.25 use the quarter cuz then we've gone to our ": [
+            1977.2,
+            2004.1,
+            60
+        ],
+        "understand your conventions. So if you don't give us a style guide will assume you're being consistent with a taxable conventions, and that's what we'll be using as well. So in order to practice with that, let's think about this particular pseudocode that is defining a procedure log and it's on the handout that you have in front of you and I just want to Dive Right In and Trace ": [
+            491.8,
+            515.1,
+            15
+        ],
+        "use. We use the largest coin value possible at each step. But we can also write it in pseudocode and the pseudocode I don't have here on the on the slide where you all have in front of you in the handout. So what I'd like you to do is practice with a Sudoku thinking about what that would look like in each of these four circumstances. So take a ": [
+            2033.7,
+            2059.0,
+            62
+        ],
+        "use? 1 cool. How many dimes will we use? Nice, how many nickels will we use? And how many pennies? All right. So in this algorithm we are using 6 coins. Set a good use of coins. No, so we have an example here where the greedy algorithm gave us an answer that represents the value that we want. We got $0.25 in terms of the coins were the coins ": [
+            2793.6,
+            2825.3,
+            81
+        ],
+        "volume zero and so we can record that in our table of values and then we're checking because we're doing this while loop whose condition is weather and is greater than 1 so we're asking ourselves. The question is the value of n currently greater than 1 and since and is currently a to the answer is yes. And so that means that we go in we implement the body ": [
+            736.3,
+            757.5,
+            21
+        ],
+        "want to remember point out to ourselves a property that we want to be true. This is how we're denoting. And in this particular procedure, we're hoping that at the end of this Trace are will hold the result of the log operation. What does log stand for? Logarithm and in computer science, the logarithm base 2 will be really important will be representing lots of different objects in terms ": [
+            939.8,
+            967.6,
+            29
+        ],
+        "we can trace through what the instructions tell us to do on particular impulse. So when it comes to describing algorithms, sometimes pseudocode is a convenient form of communication. Sometimes English is of convenient form of communication. Sometimes code is an all depends on the context and we need to be able to translate between them. So I want to think about another algorithm is well in Monday's class with ": [
+            1106.7,
+            1135.9,
+            35
+        ],
+        "we only have $0.02 coins and dollars How do we make $0.25 worth of change? $0.02 coins and dollars are all we have. We can't we can't because the two sensor with a dollar we can only do like even amount of sense, right so we won't be able to make $0.25. So if we're asking for an algorithm to solve this problem change making we need to make sure. ": [
+            1901.4,
+            1936.9,
+            58
+        ],
+        "well as the handouts are available online. You can get them on the class website, and we'll print more for next time. So, thank you. Not for this one. So you still need to fill in this form. Thank you other questions go fart. Everything is like from the website. Absolutely cool already set a goal for today is to get comfortable expressing algorithms in multiple ways and then to ": [
+            124.5,
+            160.8,
+            5
+        ],
+        "when we talked about this quantity, we're talking about the function application of the function change with the inputs 125 and then we can trace back to the definition. The definition here is your let me make this a bit smaller. the definition cancel let me bring this over here. The definition says that one and 25 correspond to the arguments of change. So here we have that C1. Is ": [
+            2265.7,
+            2308.4,
+            67
+        ],
+        "which implications were willing to live with so in the math class that were in right now, we won't necessarily always have the ethical conversations about which implications were willing to live with but what we will do is be empowered to understand those implications. So it's important to keep connecting them to How they play out in the real world. So when was thinking about the algorithms that we ": [
+            1591.5,
+            1615.0,
+            48
+        ],
+        "why? Okay, cool, so, let me just make sure everyone heard what he said you said that a treats everyone is sort of like an average person it doesn't customize to a person because if we think of just looking at the majority of Netflix users who have interacted with a movie that doesn't customize the recommendation to each user and our experience with Netflix is that it customizes at ": [
+            1377.9,
+            1416.9,
+            41
+        ],
+        "with a great approach fails. So this is where we'll wrap off today remember for next time to read the website carefully. There's some pre-class reading to do for Friday, and I'll be back on Friday. UC San Diego podcast ": [
+            2943.2,
+            2958.5,
+            85
+        ],
+        "write change and then have some input here, the first set of parameters are the values of the denominations of Bitcoin. And then after the semicolon is the integer that we're trying to represent at the end. So at the end here we've got the eye. So we're out of the paper once but on your iPad you can if you navigate to the course website, we have the PDF ": [
+            2152.2,
+            2177.2,
+            65
+        ],
+        "your iclickers for class so we can record your participation and give you credit for it a hundred and forty people have done so far is awesome. We're about halfway there in the class is a hole you want to make sure you're using the form for this quarter for this class. It's not enough to register on Triton Ed. It's not enough that you register in the previous quarter. ": [
+            29.8,
+            50.2,
+            1
+        ]
+    },
+    "File Name": "lecture_2.flac",
+    "Full Transcript": "Listen to a podcast morning everyone surprised. It's me images of having to come and talk just for this class as you get to interact with both of us and then we got to fill in for each other. When we have to go elsewhere a couple of reminders. There are three things at least you should be thinking about at this point for CSE 20. You should be registering your iclickers for class so we can record your participation and give you credit for it a hundred and forty people have done so far is awesome. We're about halfway there in the class is a hole you want to make sure you're using the form for this quarter for this class. It's not enough to register on Triton Ed. It's not enough that you register in the previous quarter. There's a form for this class that you want to use for. This class was on 283 responses so far awesome. It's part of your acai. I went to that is due on Friday evening. So we want to make sure you complete that as well. You can get on track and that assignment introduction the notation assignment. You submit through gradescope. We've had 115 submission So Far So before during or are they getting started getting going those of you who have done the assignment you had that experience of getting the immediate feedback on gradescope? So you got to submit on gradescope and then get a sense of whether you got the correct answers and then you can resubmit up to the deadline. So for this introduction to notation with the idea is that we're setting the stage for the definitions. We agree on the basic concepts and then we can dive deeper. Hard to hear rumbling. Maybe there's questions any questions so far.  Any more handouts cuz I would have a spare piece hand out in front of them.  All right, then we share the person next to us. We will often print some number, but we expect at assembly for annotating on tablets as well as well as the handouts are available online. You can get them on the class website, and we'll print more for next time. So, thank you.  Not for this one. So you still need to fill in this form. Thank you other questions go fart.  Everything is like from the website. Absolutely cool already set a goal for today is to get comfortable expressing algorithms in multiple ways and then to actually work with a few really concrete examples so that we can start poking at them and seeing their properties. And so that means we need to start by thinking about what is an algorithm and a joke algorithm that you may have seen on The Big Bang Theory is about how Sheldon goes about it makes a friend and he describes this process is a flowchart a sequence of steps team performs questions. He asks and then he knows what's his next move will be based on the response to that question.  And so my question to you all is now moving away from TV shows and thinking about your experiences. If an algorithm is something we Define as a finite sequence of precise instructions for solving a problem. I'd like you to think about what are some algorithms that you have used or implemented. Okay, so that the top of your hand out. There's this question. What are some algorithms you have used or implemented and I'd like you to take a few minutes to talk to the person next to you introduce yourself. If you didn't meet on Monday say hello and then just brainstorm together some examples of algorithms.  I think we're out at the moment. So if you could just look at the person next to you. Thank you, and I will take more next time. Thank you.  All right, take another minute to think of examples of algorithms you have used or implemented.  Alright, let's come together and let's hear some examples. So from this side of the room example of an algorithm reviews are implemented.  So calculate the best poker hand given a car and so best poker hands from five cars.  Cool for this part of the room examples of algorithms you've used to implemented.  Oh time shoes Okay, so very physical algorithm.  Cool, the middle of the room is more people. So I'm going to ask for another example from middle of the room go fart.  Cool cooking instructions to following a recipe baking a cake making a roast things like that implemented.  morning routine  Sort of numbers least to greatest cool. So there's some that are taking us longer like the morning routines get up brush teeth at cetera.  And then there's also some of the basic tasks we do and sometimes don't even think about them like sorting numbers.  Cool. So there's a whole array of different a task that we might accomplish using algorithms. And the unifying theme Here is that we could communicate how to accomplish these tasks using a finite sequence of precise instructions example that is a similar to the more mathematical of those would be to calculate some the output of some function. So that sound somewhat similar to finding that poker hand where we know that there is some else put that we want to compute and then we're following some instructions to compute it and when we think about how to describe those instructions, we could write them out in English. We could write down some mathematical expressions and we can also use pseudocode. So as part of the pre-class reading for today, you looked at some pseudocode in the textbook bless you and an appendix three of the textbook. Can Rosen who's the author of the book?  Collected together the conventions that he follows in pseudocode. So in this class we will stick to those conventions.  If you have an alternate pseudocode style that you prefer cool. Just make sure that when you use it, you are clear about what conventions you are following so that the people you are communicating with weathered be the other people in this class. The Tudors are the chase were great in your work, they understand your conventions. So if you don't give us a style guide will assume you're being consistent with a taxable conventions, and that's what we'll be using as well. So in order to practice with that, let's think about this particular pseudocode that is defining a procedure log and it's on the handout that you have in front of you and I just want to Dive Right In and Trace running log of 8 and I'd like you to 1st mile work through it on your hand out and answer the question what values are in the variables r&n when we finish  So take a minute just individually first try out yourself, and then answer the question and weren't ba.  Let's take another 10 seconds.  So if you're not done yet, then either just go with your gut instinct or take a guess.  I want to record your answer. So you've made some steak.  + 3  2  and one  alright, so what I think is useful here unless you is to think about how one might come about answering this question. And when we think of running some Code Orange performing an algorithm, what we want to do is to follow that finite set of instructions and explore what happens to the variables that were using along the way there's something that I find useful is to trace the values of variables and we're not going to do a memory diagram here. So for those of you who did CSU overtime and we can do that rather informally by just noticing that we are labeling to have some role here. We're labeling are to have some role here and we're having this test.  of weather and is greater than 1  so when we're executing this algorithm for a particular input value 8, what we need to do is think about how the instructions get carried out for the particular values of N and R that we're working with at the moment.  So when we say that we're running log of 8, that means that we start off with n being ate. So we've got this consistency in the naming and here is the name that we're giving to the input value and it starts off at 8 in this particular example.  So then we traced through the pseudocode and we use the coal and equal symbol to denote assignment. So in the very first part after the signature bless you we've got this time in our guests at to the volume zero and so we can record that in our table of values and then we're checking because we're doing this while loop whose condition is weather and is greater than 1 so we're asking ourselves. The question is the value of n currently greater than 1 and since and is currently a to the answer is yes.  And so that means that we go in we implement the body of the wild Loop and that tells us to update the value of our so we increment are by 1 so are now has the value one because it was Zero before and then we also have to execute the second line in the Wiley notice it in this pseudocode were indicating the scope using indentation. So the body of the wild Loop is lines four and five because both of those are indented relative to the wild keyboard.  So lines five is still part of the body of a while loop and it tells us to update the value of an ABN div 2.  / yes, but it's a particular kind of divided that we have to remember.  louder  yoga practice  cool. So it's like the vision without the decimal. It's just the integer part of the division. Okay. So if you think back to the handout you got on Monday GIF is one of the key words that's on the back of that that big list of definitions. So it's useful to have that as a dictionary next to you and we're working with this notation and end if 2 is what we say is the quotient when we divide 10 by 2 using integer Division. And so that means it's the integer part of that division. So if we divide 8 by 2. Divided evenly, it's nice we could discuss for there's no decimal part. There's no fractional part. There's no remainder. And now we've completed the first time of doing the blue body we go up and we check the loop condition. We ask ourselves is an greater than one at this point with a value of and that's currently store the 4/4 still greater than 1 so the answer is yes, and we go back to line for to do the leaf body one more one.  Duluth body tells us to update our to have the value to us to update and to have the value for div 2 which is too cuz 4/2 is too with no remainder no fractional part no decimal part. And now we ask ourselves is the current value of n still greater than 1 and yes, she was greater than 1 so we go right back into the body. Do it again in the loop body. We update our to be three. We update n to be 1/2 divided by 2 is equal to one and now we ask ourselves whether n is greater than 1 and what's the answer?  No, cuz greater than here is strict greater that and one is not strictly greater than 1 so the answer is no which means we stop and at this point our holds the result of the operation according to this comment. So this is another pseudocode convention that were using where the curly braces in a body of pseudocode is indicating a comment. So it's it's something that we want to remember point out to ourselves a property that we want to be true. This is how we're denoting.  And in this particular procedure, we're hoping that at the end of this Trace are will hold the result of the log operation. What does log stand for?  Logarithm and in computer science, the logarithm base 2 will be really important will be representing lots of different objects in terms of powers of to use powers of 2 to help us sort out the world. And so typically when you say log what will mean log base 2 ISO the idea here is that we are riding down a procedure, but at the end of it gives us information about the log base 2 of 8  Salon base 2 of 8 is the exponent sexual attitude about exponent equals 8 and 2 cubed is 8 so that's pretty cool and that then can tell us how to answer the question in the clicker question D&D were were some popular choices in this clicker question, which meant the people were able to cross out a BNC pretty quickly probably by noticing that aren't then have a chance to go as high as 8 or 7 or 4 and then some. Of time which is totally okay. There wasn't a lot of time to work through this and if you had enough time most people were going for none of the above, which is the correct answer cuz we have an guess the value one and our guest value 3.  Now there is something that we could do without doing the whole calculation that could tell us why D is wrong.  So how could be cross out the without having trace the algorithm fully?  Awesome, the wild termination condition is that Ed will be less than or equal to one and so we won't end our algorithm when and is too so we know that any clothes to isn't going to be the the the value when we haven't finished running our when we finished running our procedure.  Any questions about this?  All right. So the moral of this example what you should get out of this is that when we are presented with some pseudocode we can interpret it. Even though it's not in the syntax of java. You got the comparison to Java on your hand out so that you can look at the differences and similarities, but it can still abstract away the important elements of the algorithm so we can trace through what the instructions tell us to do on particular impulse.  So when it comes to describing algorithms, sometimes pseudocode is a convenient form of communication. Sometimes English is of convenient form of communication. Sometimes code is an all depends on the context and we need to be able to translate between them.  So I want to think about another algorithm is well in Monday's class with freshly to talk to about Netflix recommendations and movies in exploring how Netflix might make his recommendations. We talked about comparing the ratings that people have of movies to one another so we had this notion of D1 and D2 and you explore that more with at EA's and discussion section yesterday. And so now I want to think about how do we put those pieces together with actually articulating an algorithm that Netflix can follow  So take a minute. Please. Consider these algorithms for how Netflix should determine whether to recommend a movie to a person to take a minute and then please.  Last votes, please.  3  2  and one  I want people to talk to one another and practice also justifying not just staying what your answer is, but also explaining why you think your answer is true to take him to talk to people around you and compare your responses.  Alright, let's come back together.  Let's hear from this part of the room. Which answer did you pick and why?  Okay.  Cool, so you went for D because multiple of the options made sense to you. Awesome in the middle of the room. Which answer. Did you pick and why?  Okay, so you discounted see because you said see didn't make sense to you until then. You had to choose between NBA NBC and more likely to you cool.  Play all the above because I felt that that you got like for one hour of them. You could use characteristics for 1. All those choices determine whether or not  For example, if you're not to recommend a movie, it's like a lot of people that were close to tease liked it and that would be like, I'm positive that numbers and it did a lot of good ones.  Didn't like it or liked it then tell you like a negative. I think you even went for adoption after their you were thinking of a more complex algorithm that took pieces from the previous one and try to do something more sophisticated cool.  When should you pick and why?  Okay, cool, so, let me just make sure everyone heard what he said you said that a treats everyone is sort of like an average person it doesn't customize to a person because if we think of just looking at the majority of Netflix users who have interacted with a movie that doesn't customize the recommendation to each user and our experience with Netflix is that it customizes at least a little bit to each of us. I just didn't make sense  What I'm hearing are a lot of really interesting insights about the properties of what these algorithms will have and what are some pros and cons of using them. So for example, this idea of treating people as the average person and I'll customizing that might make sense if Netflix is trying to deal with a brand new user For Whom the system doesn't have any history to win. Someone first logged into the system. Netflix doesn't know how to compare them to other people and still wants to make some recommendations. So in that case Netflix about the most popular movies,  A lot of people were saying hey you want to go with people's life similar preferences you want to do ratings to people who are most like you and so a lot of people said that that made a lot of sense see a bunch of people said no way I would argue this season portents if we want to help people break out of echo Chambers and silos. So he might not be the best algorithm for Netflix necessarily, but if you think about Facebook's recommendation system and how Facebook serves at posts in our news feeds, we may want Facebook to occasionally show us the post the people we disagree with so we're not just hearing our own opinions Amplified over and over again. So there might be situations where we want to explore things are outside our comfort zone or exactly what we've experienced. And in that case we might want to know what people who are very different from us like or recommend as well.  Yeah, so they don't question about how these corporations maybe ought to behave and then just a question of how they do behave that's a really important difference. There was a  yeah, that's that's a really good point. It says it's an urgent social issue and political issue about how these algorithms impact our overall discourse and how our lives are carried out. And so when it comes to these algorithms we can write them down for cisely, but then we can also ask the question know which algorithm should we choose? What are the implications of those algorithms that we choose? And so one of the tools that we have to answer this question is a very deep analysis of the implications of our algorithms so that then we could have the ethical conversation about which implications were willing to live with so in the math class that were in right now, we won't necessarily always have the ethical conversations about which implications were willing to live with but what we will do is be empowered to understand those implications. So it's important to keep connecting them to  How they play out in the real world. So when was thinking about the algorithms that we should choose if the algorithm is solving a problem like tying your shoelace or like picking a poker hand. There's a clear answer to what the objective is. So what we want the behavior of our algorithm to be at the end and so if we have a clear goal in mind, then we should choose an algorithm that actually gets us to that goal.  Sometimes we have to choose among several options. And in that case if there's maybe a couple of Bible answers we might have a way to decide which one is best. So this is kind of an optimization problem. So the algorithms will be thinking about for the rest of today are optimization problems and on the back of your hand out you have the definition of an optimization problem.  So an optimization problem is a problem where we need to find a solution that solves the problem in a way that minimizes maximize the value of some parameter that we picked. So some optimization problems is like the poker hand question where if you got a bunch of cards and you want to choose the poker hand that maximizes your probability of having the best hand out of everyone on the table. So the parameter here is a probability of success.  Another optimization problem would be safe Facebook question of how to display your newsfeed what algorithm to use to display your newsfeed and then you've got to think about what they're trying to maximize and it may be that they're trying to maximize company profits. And so their optimization objective function might be different from what we would want it to be if their objective with something different. So when were thinking about these optimization problems we have to think about what what the kind of answer that we're producing looks like and then how we're choosing which answer to present. So in the pre-class reading you looked at a very specific question of change making this is much less politically charged is very concrete we can look at specific examples. And in this question, we've got some amount of money that we want to produce music.  And we got to figure out which coins to put together in order to produce this amount of money example of $0.25. We want to make $0.25 worth of change. So we wants to choose which coins to pick to produce 25 sets.  What you do?  For this one for $0.25. What should I do a quarter by quarter?  Yeah, so it exists there is a quarter coin it fits it perfectly and we don't need to have like a really heavy wallet. We just need one coin. So it feels like implicitly you're bringing up a lot of the qualities that we want. So in order to make change we need to use coins that exist.  So that are available.  And we wants to minimize the number of coins.  And don't seem like reasonable expectations of an algorithm that will make change for certain amount of money.  So I suppose we lived in a country actually in a city. So do you know some people have its work ornelas if I went to grad school? So that's why I'm thinking of it at the moment. So in Ithaca, we have our own currency is because a really hippie place. It's it's it's kind of funny. It's called 10 square miles surrounded by reality. So you really feel like you're in the middle of nowhere. It's lovely and they have their own currency. They don't have those people who are the hours instead of dollars and cents and everything. They don't suppose we were in a place like I think I would its own currency and we only have  $0.02 coins  and dollars  How do we make $0.25 worth of change?  $0.02 coins and dollars are all we have.  We can't we can't because the two sensor with a dollar we can only do like even amount of sense, right so we won't be able to make $0.25. So if we're asking for an algorithm to solve this problem change making we need to make sure.  That we know when we can and can't perform this task. So in the textbook you looked at a greedy algorithm for change my presence of a collection of coins that tell us which coins are allowed and with the assumption that we will be able to make any amount of change using these coins.  So the greedy algorithm for solving an optimization problem tries to make the most progress towards its goal at each step in the algorithm.  So with change-making what that might look like is I want to pick a coin that will capture as much value of the amount. I'm trying to make a change in one step. So that's like the suggestion in the back if we've got a quarter and we want to make $0.25 use the quarter cuz then we've gone to our goal. So is greedy change at each step. We pick the coin with the highest value that still less than the amount of money that we needed to represent.  So when we think I'm greedy algorithms for change making we can write it down in English. So given these coin value C1 through CR the represents the coins that we have available to us to pick the next coin to use. We use the largest coin value possible at each step.  But we can also write it in pseudocode and the pseudocode I don't have here on the on the slide where you all have in front of you in the handout. So what I'd like you to do is practice with a Sudoku thinking about what that would look like in each of these four circumstances. So take a minute with the people around you and apply the pseudocode algorithm. So this greedy coin toss a coin change making algorithm in each of these four scenarios and myself a walk-around happy to help you all as you work through these four examples.  I was just wondering.  Any questions that you got started?  Do not have a copy of it. So if you go to the class website, it's linked from there. And then you could lead to a PDF.  So you can go to the score schedule and on today's topic. There's a link to it.  any questions questions  if we find out how would we know what the answer to your question is?  We're still figuring out the output for each of these four and if you look over here at the pseudocode, thank you. So when we write change and then have some input here, the first set of parameters are the values of the denominations of Bitcoin. And then after the semicolon is the integer that we're trying to represent at the end.  So at the end here we've got the eye.  So we're out of the paper once but on your iPad you can if you navigate to the course website, we have the PDF there.  Big questions here as you're getting started.  Alright, let's come together.  Can I put up here the pseudocode for greedy change making it a PDF is link from the class website if any of you don't have the paper coffee and want to follow along here?  And when we look at something like the word change open parentheses 1 semicolon, 25 close parentheses care. What are we doing?  So when we talked about this quantity, we're talking about the function application of the function change with the inputs 125 and then we can trace back to the definition. The definition here is your let me make this a bit smaller.  the definition  cancel  let me bring this over here. The definition says that one and 25 correspond to the arguments of change. So here we have that C1.  Is 1 and 10 is 25.  And so C1 is the value of the denomination of a coin and N is a positive integer. So when we talk about change of 125, what were meaning is how would we make change using the greedy change making algorithm using only one cent coins? That's the one and we're making a value of $0.25.  So if we say that in English, we can anticipate that the answer will be if we want to make $0.25 with just $0.01 coins that will need 25 of those coins. That's the only way to get 25 cents using $0.01 coins.  What's interesting is to see how the algorithm actually performs this task and what the algorithm would do is.  We've got these this for Loop.  The Steady As She Goes from one to our we're going to build this value GI for each eye and d-ii stores the number of coins that we use of value CI.  So in this particular instance of the problem are is one because our counts the number of different coin types we have and when we only have the one cent coin, we only have one different point of one coin type. So are here is one. So we're doing this for Loop the tells us how many $0.01 coins were going to use and so in this Loop, where are checking while  And is greater than or equal to CI.  incrementing  the number of coins of index I were using and then decreasing the value that we still need to represent by the value of the coin that we just used. So and we can think of a storing the current amount of money that we still need to account for and DIY is counting how many coins of type c I refused.  So in this particular example when I is 1 then C one is just $0.01 and we are going to keep adding $0.01 coins while decreasing the amount of money. We need to represent by one each time and we'll stop exactly when we get to D1 being.  25  Any questions about this setup?  Okay, so  let's walk through this one then.  What problem are we solving in this example?  Cool, living off these parameters the value of money that we're trying to represent is $0.25 and the coin values that we have AR-15 in 10 so we can talk about 151 cents in $0.05 and $0.10 coins is pennies nickels and dimes but if we're thinking about the particular problem definition, we have a hand in the pseudocode we can observe that we have a requirement that see one is greater than C to is greater than c 3 is greater than another. So that we're listing are coins in decreasing order of value.  So when we say something like hey figure out the output of change one 5:10. This is not well defined.  Even though it looks like pennies nickels and dimes because we haven't listed.  the arguments in the correct order  So the order of the arguments doesn't match the constraints of the definition of the algorithm.  So if we wanted to talk about making $0.25 coins using pennies nickels and dimes which is feels like that's what we're saying here. Then we would need to talk about  change  and two dimes nickels and one and pennies for $0.25 and then we could follow the instructions in our algorithm.  So when we are talking about arguments to functions and when we're talking about running algorithms, we have to have this consistency between the definition of the application.  questions about this one  That's a great question. So you were saying if we're implementing something like this in Java and the user gave us these not inconsistent input so that the function here was not well-defined. How would we handle that? So in the sample code that we gave you for this algorithm we chose to throw an exception. So there's a way to indicate to the outside world if there's a problem  good point other questions  good question. So could you say something like hey, I know what the user meant. They wrote One 5:10, but they meant 10-5-1. So there is a choice that we make both as when we're writing the mathematical notation and when we're coating as to how much we want to infer about intentions and how much we wanted to actually think about the differences in the properties when people write things differently and there's there's utility in the ordering and exploring what happened. Otherwise  Already, so in this particular example, we have to reformulate the problem. What about in the bottom-left? What's going on?  Yeah.  Yeah.  my first impression was that those two two extra argument 5 and 10 will have  Google good so you are pointing out that if we allow coins to start in with small values and go out then we'll never use the later ones which is why in the algorithm. We don't allow it. So the fact that we're making that distinction allows us to see this property if we just said he'd throw us some coins then we went there to say this is diction.  All right. So what happens in the bottom last year?  What does a greedy algorithm do when our coins are 16 cents $0.10 fives and ones and we're making change for $0.25.  How many $0.16 coins will use?  1 cool. How many dimes will we use?  Nice, how many nickels will we use?  And how many pennies?  All right. So in this algorithm we are using 6 coins.  Set a good use of coins. No, so we have an example here where the greedy algorithm gave us an answer that represents the value that we want. We got $0.25 in terms of the coins were the coins are the allowed denominations, but we've got more coins.  then optimal  so we have an example here of change making.  with these four coins  is not salt.  By the greedy approach because we've seen a counterexample wear a following this algorithm, even though it will give us an answer will not give us the best answer.  So the greedy algorithm for change making with these coins will always give us an answer the tells us how to make with the particular Quonset but more points that we need and this is as compared to change making  Waze just one coin siwan equals 1 which does get solved by the greedy algorithm.  So then one thing that you could play around with and think about is which collections of coins give us instances of the change-making problem where the greedy algorithm is a good one and for which collections of coins is the greedy approach not going to be good. So there's one nice of a situation where the greedy approach works very well and real-world example is the set of points that we actually use so pennies nickels dimes quarters. The greedy approach works really well there.  I'm so that you can come up with other collections account or examples with a great approach fails.  So this is where we'll wrap off today remember for next time to read the website carefully. There's some pre-class reading to do for Friday, and I'll be back on Friday.  UC San Diego podcast "
+}
