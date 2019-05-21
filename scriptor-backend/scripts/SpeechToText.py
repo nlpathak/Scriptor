@@ -12,8 +12,8 @@
 
 import json
 import os
-# Import libraries
 import sys
+from os.path import dirname, abspath
 
 from google.cloud import speech
 from google.cloud import storage
@@ -22,8 +22,9 @@ from google.cloud.speech import types
 
 # Change BUCKETNAME to fit Google Cloud Platform bucketname
 PATHTOAUDIOFILE = sys.argv[1]
-# BUCKETNAME = "audiofilesscriptor"
-BUCKETNAME = "scriptor"
+GENERALPATH = PATHTOAUDIOFILE.split("audios")[0] 
+BUCKETNAME = "audiofilesscriptor"
+#BUCKETNAME = "scriptor"
 
 NUMBEROFWORDSPERBLURB = 70
 
@@ -93,7 +94,7 @@ def processGoogleResponse(response):
 
                    currBlurb = ''
                    numWordsInCurrBlurb = 0
-	 	   blurbIndex += 1
+                   blurbIndex += 1
 
     if numWordsInCurrBlurb != 0:
          blurbMap[currBlurb] = (currStartTime, currEndTime, blurbIndex)
@@ -101,11 +102,11 @@ def processGoogleResponse(response):
     return blurbMap, fullTranscript
       
 
-def exportToJSON(audio_file_output, blurbMap, fullTranscript):
+def exportToJSON(original_file_name, audio_file_output, blurbMap, fullTranscript):
     json_out = {}
 
     # Creating json file name
-    file_prefix = audio_file_output.split(".")
+    file_prefix = original_file_name.split(".")
     json_file = file_prefix[0] + ".json"
 
     json_out["Full Transcript"] = fullTranscript
@@ -116,15 +117,15 @@ def exportToJSON(audio_file_output, blurbMap, fullTranscript):
     json_data = json.dumps(json_out, indent=4, sort_keys=True)
 
     # Write to .json file
-    with open(PATHTOAUDIOFILE + "JSONS/" + json_file, 'w') as f:
+    with open(GENERALPATH + "transcripts/" + json_file, 'w') as f:
         f.write(json_data)
 
 
 
 bucket_name = BUCKETNAME
 
-if not os.path.isdir(PATHTOAUDIOFILE + "JSONS"):
-     os.mkdir(PATHTOAUDIOFILE + "JSONS")
+if not os.path.isdir(GENERALPATH + "transcripts"):
+     os.mkdir(GENERALPATH + "transcripts")
 
 for fileName in os.listdir(PATHTOAUDIOFILE):
      if not fileName.endswith(".mp3"):
@@ -132,18 +133,23 @@ for fileName in os.listdir(PATHTOAUDIOFILE):
      
      print()
 
+     fullDir = dirname(abspath(PATHTOAUDIOFILE))
+     className = fullDir.split("/")[-1]
+
      print("Working on " + fileName + "...")
      audio_file_name = fileName
-     audio_file_output = fileName.split(".mp3")[0] + ".flac"
+     audio_file_output = className + "-" + fileName.split(".mp3")[0] + ".flac"
 
      file_name = PATHTOAUDIOFILE + audio_file_output
 
      source_file_name = PATHTOAUDIOFILE + audio_file_name
      output_file_name = PATHTOAUDIOFILE + audio_file_output
+
+
      destination_blob_name = audio_file_output
 
      print("Turning MP3 file into FLAC file...")
-     os.system("sox " + source_file_name + " --rate 16k --bits 16 --channels 1 " + output_file_name)
+     os.system("sox " + "\"" + source_file_name + "\"" + " --rate 16k --bits 16 --channels 1 " + "\"" + output_file_name + "\"")
     
      print("Uploading to Google Cloud Storage bucket...")
      upload_blob(bucket_name, output_file_name, destination_blob_name)
@@ -155,7 +161,7 @@ for fileName in os.listdir(PATHTOAUDIOFILE):
      blurbMap, fullTranscript = processGoogleResponse(response)
 
      print("Exporting to JSON file...")
-     exportToJSON(audio_file_output, blurbMap, fullTranscript)
+     exportToJSON(fileName, audio_file_output, blurbMap, fullTranscript)
      
      print("Deleting from Google Storage Bucket...")
      delete_blob(bucket_name, destination_blob_name)
