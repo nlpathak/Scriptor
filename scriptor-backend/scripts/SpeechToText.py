@@ -23,8 +23,8 @@ from google.cloud.speech import types
 # Change BUCKETNAME to fit Google Cloud Platform bucketname
 PATHTOAUDIOFILE = sys.argv[1]
 GENERALPATH = PATHTOAUDIOFILE.split("audios")[0] 
-BUCKETNAME = "audiofilesscriptor"
-#BUCKETNAME = "scriptor"
+#BUCKETNAME = "audiofilesscriptor"
+BUCKETNAME = "scriptor"
 
 NUMBEROFWORDSPERBLURB = 70
 
