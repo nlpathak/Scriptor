@@ -1,0 +1,506 @@
+{
+    "Blurbs": {
+        "20 30 40 50 60 70 and then what's log base 2 of 2? 1 plus one so we have 71. This is like all these like around 2 to the 71. I guess I shouldn't put all these things. I should think maybe make all of these 10 1 + 10 + 10. You guys never saw that before? Is it the fast way to get a get a ": [
+            1570.9,
+            1616.6,
+            40
+        ],
+        "36578 have a summing trip? And what is it? well I guess so. So you want to you want the algorithm to Output indices, right? And so the indices here are 1 2 3 4 5 again. Sorry that I start at 1 I know everybody hates that but This is the way it is, I guess so 3 + 5 is equal to 8. Okay, good. Now what I ": [
+            1997.0,
+            2049.3,
+            50
+        ],
+        "Alright, let's look at the runtime. So what can we do for the runtime? Lyrics we should look at an example first then that would be helpful. Okay, let's get some numbers here a the A-list is going to be three 920-2540 and the b-list is going to be wet to 8. 22 20 3 + 25 how about that? Okay, so How we do this? Let's just keep track ": [
+            3927.9,
+            3989.3,
+            88
+        ],
+        "Do you guys remember? And square bigger than squared. And then some triples 3 we already said is Big O of N squared login? Okay, so now how long does it take in total? Hey, let's do it quicker question here. Who says Big O of And squared be Big O of N squared login. See to go into the 4th D pick of N2 4th login. Big O of ": [
+            2900.6,
+            2954.9,
+            67
+        ],
+        "Here are the the numbers and Cubed + 10 in squared based on the input size. So as you can see sometimes and squared is bigger sometimes sometimes 10 in squared is bigger sometimes and Cubed is bigger. So really you can't say that one goes faster than the other right, but we can say is that the tenants squared 1 scales? Differently than the ink used one. And so ": [
+            1112.8,
+            1143.1,
+            29
+        ],
+        "It may work at different times because of you know, all of the outside factors, but we can't control our these two and so this is really what we want to base. Our runtime on is the how does your how does the number of steps increase with the size of the input? Kate and so in order to do that, we want to estimate time as a function of ": [
+            1002.5,
+            1028.4,
+            26
+        ],
+        "Listen to a podcast. Tested okay at Largo. Started let me turn off the lights. Like that? Yes, that's better. Okay, so Let's get started. The the next homework the group homework is up. And so that'll be due. on Saturday and still have a little bit to do with today's lecture mostly going to be on like sorting and loop invariants and stuff. But today we're going to try ": [
+            1.9,
+            66.8,
+            0
+        ],
+        "N -1. I hope that we've all seen this by now. this is equal to N * n - 1 / 2 this is one way to think about it. You can just add if you say exes that some you can add X to itself but in the opposite direction and then if you add up the columns, you just get in added to itself a bunch of times ": [
+            568.6,
+            598.1,
+            15
+        ],
+        "No the whole algorithm. Okay, good. So most mostly we're saying and Cubed which is kind of. You know, it does it doesn't seem like we really made a dent but let's just take a look at the the runtime as we did it before where we look from the inside out. So we have constant time. Then we have in the worst-case and times constant time right now. This ": [
+            2579.3,
+            2637.5,
+            59
+        ],
+        "Okay, we can we can look at that. What was the other one? Okay. Yes. We just kind of changing the problem around. Okay, good. Well, we're going to get to something like that. But the first thing I want to do is eliminate the redundancy right like we talked about so instead. I'm going to start Jay from I Now, what's the order of the runtime of this algorithm? ": [
+            2538.3,
+            2577.1,
+            58
+        ],
+        "So that kind of means that the most you can actually do is if you go to the end of each list. And we saw that in this example, right? We almost went to the end of the list and we got nine iteration or nine comparisons. And so if we were to go to the end of each list, we would have gotten 10 question. Sure. Well, this is ": [
+            4263.7,
+            4299.8,
+            96
+        ],
+        "So we were able to get it down to end Square login using any faster sorting algorithm wouldn't really help but we got it down to end Square login the fastest known algorithm for this problem is N squared. So you guys can do this as an exercise. Okay, so we basically mainly been talking about Big O, right, which is an upper bound. But it's it's also nice to ": [
+            3042.9,
+            3075.2,
+            70
+        ],
+        "So whenever you have a for Loop, whatever is kind of inside the for Loop is called the body of the for Loop. So the body of the for Loop here is in this blue square. Okay, so when the body of the in the body of the outer loop when I is equal to one how many times do we compare pairs of elements? You guys remember this this ": [
+            351.0,
+            386.9,
+            9
+        ],
+        "That's like the type found which means all of these are lower bounds. All of these functions are lower bounds of n cubed. That makes sense. Okay good so we can we can approach the problem a lot like we did for Big O. Where we can go from the inside out, right? This is going to take big Omega of one. Does it going to take big Omega up ": [
+            3215.0,
+            3249.3,
+            75
+        ],
+        "The 10 in square one is multiplied by what? 4 and the enqueued one is multiplied by what? X 8 so I know we've done a little bit on this already, but I just wanted to kind of put it into perspective of an algorithm in the speed. So every time you double the size that 10 in squared one isn't going to It's not going to grow as much ": [
+            1175.5,
+            1206.3,
+            31
+        ],
+        "a loop invariants for iterative algorithm and we're going to see when we do recursive algorithms. There's a sort of a different way to approach the proofs. I believe to me for for instance. I believe that The recursive algorithm proof of correctness is a lot easier, but you guys can be the judge of that. Okay, so then the last thing about the algorithm description or the algorithm analysis ": [
+            128.7,
+            158.6,
+            3
+        ],
+        "already talked about this but you basically compare elements one by one to the Target until you reach the end. and we talked about how when we're doing linear search if it's the first element then it's going to take Big O of one ranked last element Big O of n if it's equal to a element somewhere in the middle. It's Big O of I guess I should do ": [
+            1796.6,
+            1827.2,
+            45
+        ],
+        "always Less than Jay Wright. So how do you count the number of ordered pairs i j out of n such that is less than J. number of ordered pears i j such that I is less than J I guess from the set of n elements is one way to think about it. Okay. Let's move on. So what do we have? Here? We have that. Okay, so What ": [
+            742.9,
+            798.3,
+            19
+        ],
+        "and it's it's because it's it. It happens when the worst case of that inner loop. It only happens very few times where has the best case is very small and can happen more than that Trey. So just be careful when you're doing this to keep to keep an eye out for it. any questions And how are we doing on time? Think we're a little bit ahead of ": [
+            4346.7,
+            4378.5,
+            98
+        ],
+        "and on an input of size n and has to do n cubed operations and I will program be on an input of size and has to do 10 times and squared many operations. Which one is faster. And it was just take a look. Okay, so we're saying depends or be mainly so let's try to unpack what this what the what the consequences are of this thought experiment. ": [
+            1056.9,
+            1110.4,
+            28
+        ],
+        "and we have big Omega events Square here. big Omega of n cubed Okay. Let's go on to the next some triple some triples to. What is the lower bound order of the worst-case runtime of this algorithm? Okay, good. Yeah, it's going to be all of the above again. But all of those bound are not very useful the one that's the most useful to us is Big Omega ": [
+            3249.3,
+            3299.8,
+            76
+        ],
+        "answers up here? Also be right. This is also correct. But the end squared one is more is shorter and smaller. And so that's sort of the one that we want to use. That's what I was trying for you guys to do in the homework is to get like the the simplest form big Theta bound and that would be it. Okay, let's go back to linear search. We ": [
+            1767.2,
+            1796.6,
+            44
+        ],
+        "as the end cute one. All right questions about that. Okay, so this is a very outdated slide. For this is about a year-and-a-half ago, October 17th 2017. I read in this article that there was a Chinese supercomputer, which is the world's fastest at 33860 trillion calculations per second in this is the fastest computer then I looked today and now there's a computer that can do now nine ": [
+            1206.3,
+            1244.9,
+            32
+        ],
+        "at specification. How do you describe the problem pretty straightforward? Number two is algorithm description. We talked a little bit about that you could you could do it with just a step-by-step just an English. How do you go about doing the algorithm or it could be kind of mid-level or low-level? We're actually writing code or or pseudocode something like that why the correctness proofs this had to do ": [
+            97.2,
+            128.7,
+            2
+        ],
+        "basically anything that takes constant time something that's constant time means that it's going to work the same amount of time no matter how big your input is a sort of the idea. Okay, but some some single steps take longer than others. What kind of things could affect how long a single step could take? Well, that's the thing that we want it to be independent of a single ": [
+            834.0,
+            869.5,
+            21
+        ],
+        "basically going through the list three times, right? So another way to think about it. And this is just sort of a general rule that you can do in order to get an upper bound is to work from the inside out. Right? So I suppose I have a while loop or a for Loop and inside the body of the loop. It might contain other loops and let's say ": [
+            2330.7,
+            2354.0,
+            53
+        ],
+        "basically going to depend on the input size the number of steps the algorithm requires and the time for each one of those steps. This is going to give you the actual, you know, amount of seconds or minutes it takes okay. So this is something that we cannot control. right I mean if you make an algorithm that you want, you know everybody to use on their home computer. ": [
+            976.0,
+            1002.5,
+            25
+        ],
+        "be a tight upper bound will will look about we'll look at that a little bit later. Okay. What is the property that allows me to eliminate the redundancy? What are the property called? Commutative property of addition going back to the algebra. So because addition is commutative. It doesn't matter. If you add AI + AJ is the same as adding ajplus AI. Okay, good. All right. So let's ": [
+            2663.9,
+            2701.1,
+            61
+        ],
+        "big Omega of N squared so all together. We get big Omega up and Cubed. So now we know that this algorithm takes big Theta of and cute. Right, I guess like big big of and Cubed and big Omega of n cubed implied big state of and cute. Okay. So how we doing on time? Okay good. All right. So remember what I said before you do this sort ": [
+            3424.3,
+            3470.8,
+            80
+        ],
+        "by factor of two right you divide that by two and so when we get down to log base 2 of a floor of log base 2 of n + 1 What is the actual order notation of this? Okay good. but let's go with a although B&D are both correct also, but it just turns out that a is kind of like the simplest way to say it. Okay ": [
+            1869.5,
+            1920.9,
+            47
+        ],
+        "can have a big Omega Alvarez a big Omega class and and big Omega and the Big O classes are the same then you know that you've reached your type found because the Big Oak classes upper bound big Omega classes lower bound if they're the same thing. You got the pipe down. Okay, so Let's go back to the summit triples one. This one is kind of like the ": [
+            3100.1,
+            3127.4,
+            72
+        ],
+        "compare two elements? Let me see something real fast here. Okay, let's see what you guys say here. Where's my? Okay, most you guys are saying none of the above. No, I'm sorry and square. But why was it none of the above and squared? Okay, most you guys are saying in square. Okay. Let's do kind of a more detailed analysis of this algorithm. Okay, so I go here. ": [
+            278.2,
+            348.3,
+            8
+        ],
+        "compare. Is equal to the number of pairs of elements there are in the sack. Right and you can keep track of of that by the values of I and J Wright. What do you know about inj? I & J range or I guess. I guess I'll do it this way I ranges. from 1 to n -1 J ranges from basically 2 to n right but I is ": [
+            698.6,
+            742.9,
+            18
+        ],
+        "count them a little bit more carefully, right? Every time this is executed except for the last time and each iteration. I is incremented if I ever reaches nplusone the program terminates, so Basically, this is going to execute to end times because either I was going to increment or Jay is going to increment and if you get to any of the end of the list, then you're done. ": [
+            4236.6,
+            4263.7,
+            95
+        ],
+        "do you guys say? Okay, so Here we go. This thing does how many calculations per second? 33860 and how many zeros is a trillion? That's a thousand. million billion Trillian, that's how many calculations were talking about per second. But how many seconds are in a day? Well, you have 60 an hour. I mean a minute 60 minutes in an hour 24 hours in a day. What is ": [
+            1376.9,
+            1428.6,
+            36
+        ],
+        "faster search than linear Services where I was going. How long would this algorithm take? Okay. So what I'm doing is basically getting a candidate some AI plus AJ and I'm plugging it into a binary search on the whole list. Like because I actually have to go all the way to end if we know some other number like JFK and get the answer. Yabba and Jacob be the ": [
+            2748.1,
+            2792.7,
+            63
+        ],
+        "first few things. But let's just say worst-case runtime. Which one do we have here? Okay good. I like this because everybody is correct. Any questions about that? He said 100 you have a question. Cuz remember that big Omega is a lower bound. So it turns out and you guys could probably see where this is going this algorithm runs in big Theta of ends and Cubed time, right? ": [
+            3155.9,
+            3215.0,
+            74
+        ],
+        "goes from 2 to n. We get an plus one any questions about that. Okay, so let's keep that going. How many comparisons happens when eye is equal to 2? And -2, what about when I is equal to 3? And -3 it's basically like when I'm ordering my DVD collection once I put the first DVD in the front place, then I'll have to worry about is the is ": [
+            458.1,
+            496.4,
+            12
+        ],
+        "going to go Big O of n right. So in the worst-case this whole algorithm is going to be Big O of N squared. That kind of makes sense. But does anybody have any problem with that? Does it seem like it's too high of a bound? Were you going to say? Yeah, so the problem is that the while loop if it it's not going to do that worst-case ": [
+            4156.0,
+            4207.5,
+            93
+        ],
+        "going to take Big O of login. In the worst-case right because of binary search. And then we have this one is going to iterate end times. Bigger than x and then this one is also big of end times. So we get big'o up and squared login. Okay, good. Now does this algorithm actually work? Right. So if it's not started it won't work. Okay, so would it be ": [
+            2824.6,
+            2866.9,
+            65
+        ],
+        "happens if you initialize M to be equal to one, right and then you compare A1 to A2 A2 A3 A3 to A4. No. No, that's not how it goes. You can just compare them to a.m. But I guess it's easier way to see this is that this Loop here goes from I plus one up to end which means that when if I is equal to one it ": [
+            428.0,
+            458.1,
+            11
+        ],
+        "here. Then we go into this while loop. So BJ is greater than a I so that means we increment I go into 2. Okay. Now I is a is bigger than b so we get out of this Loop and we increment J. 8 equals 3 So we're here. And you seem sort of how it goes right now when we go into the wild Loop we increment I ": [
+            4023.0,
+            4058.9,
+            90
+        ],
+        "how many times exactly and minus one? So then you have two axes equal to n * N - 1 And what's another name for this? n choose 2 Okay, so let's go back to this question. How many times do we compare pairs of elements here? Okay, good. Now we're all on the same page here and choose to. Why is it n choose to do can anybody give ": [
+            598.1,
+            646.7,
+            16
+        ],
+        "how the time grows as my algorithm gets the input gets bigger. Okay, so happy about that when I say time. I'm not really talking about like stopwatch time. We're really going to be turning that into number of operations and we'll go over kind of what I mean by that but you can kind of think about it as like things that algorithm does like compared to list elements ": [
+            190.6,
+            217.1,
+            5
+        ],
+        "hundred thousand trillion calculations. So anyhow, what stick would this one for now though? Because I don't know. I didn't want to change all the slides and get a new picture. But now it's kind of put this into perspective here. Let's say that you have access to this supercomputer for one whole day 24 hours. Okay, you have a algorithm that runs to to the end calculations for input ": [
+            1244.9,
+            1279.8,
+            33
+        ],
+        "if I double the input size the enqueued one is going to get much much bigger in the end squared one is going to get also bigger but not as much bigger. Let's take us just take an example from this data. Okay. So let's say I start off with the input of size 2. Okay. What happens when I double the input size when I get up to 4? ": [
+            1143.1,
+            1173.5,
+            30
+        ],
+        "in our best interest to sort it and then use this algorithm? Would that make a run time go up or down or the same? What does it depend? Crystal this one's this one's called some triples 3 and so now some triples for is going to Min sort all of these guys. And then it's going to do some triples 3, how long does it take to men's sort. ": [
+            2866.9,
+            2900.6,
+            66
+        ],
+        "inside the loop. It takes a run time of Big O of T2 and in the worst-case the outer loop runs T1 times. So every time the outer loop runs at worst, you're going to run to you too. So at in the very worst case you're going to run Big O of T1 X T2 Okay, so let's take that and apply it to the algorithm. Okay. So this ": [
+            2354.0,
+            2383.2,
+            54
+        ],
+        "is the part of selection sort where you're finding the minimum value. the just to kind of recall you set an to be equal to I Basically initializing the minimum to be that element. When you go through and you update M whenever you find a smaller thing. Okay. So how many times do we compare the list of elements? OKC good and minus 1. That's correct. Good. Because what ": [
+            386.9,
+            428.0,
+            10
+        ],
+        "is the runtime performance. How long do you expect the algorithm to take a little bit more? It's not exactly that. We're if I do my stopwatch. I'm going to predict how long it's going to take in time. It's more. How long does my algorithm scale when I make my input larger and that's why we want to talk about these Big O classes cuz we want to know ": [
+            158.6,
+            190.6,
+            4
+        ],
+        "is the the size? All right. Well sort of some. unsure Nobody thinks it's a cute. Maybe. We'll take a day. Most people think it's around. Let's see. What is Dee again 1000 to 10000. So that means I mean, I guess that's not like a huge dataset right? I mean, it's pretty big butt. I think the best way to answer this is to actually do the calculation. What ": [
+            1316.1,
+            1376.9,
+            35
+        ],
+        "is the very inside inner body. How long does it take to say if a + J equals a k then return true? How long does that take? Good big old one. This is considered just a single step or a collection of fine a constant collection of steps. Okay. In the worst-case. How long does this take to how many how many times does this Loop run in the ": [
+            2383.2,
+            2413.4,
+            55
+        ],
+        "know Jay is not going to be bigger. But Jay is going to go through more than and over to operations. That's what I wanted to say. So, let me write it out. I'll have it here for the 1st and over to iterations of I we do at least and over to decorations of j h. so that means for both of these we do at least. over 2 ": [
+            3334.3,
+            3371.0,
+            78
+        ],
+        "know that your upper bound is tight. What does that mean? To know he's actually made improvements. I need to make sure our original analysis was not overly pessimistic do we overshoot? So tight down for a run time is a function G event so that the run time is in big Theta of G event the Big O class for our algorithm is upper bound. So now if you ": [
+            3075.2,
+            3100.1,
+            71
+        ],
+        "me a do you have a question? Is Big O of N squared time? But if we're actually counting the actual number of comparisons, it's in choose to. song question or comment? Yeah, why is it and choose to where's that come from? The lift is you're always going to be going. process Okay, good. You're basically in this algorithm. You're comparing every single or the number of times you ": [
+            646.7,
+            698.6,
+            17
+        ],
+        "n cubed Okay, how does it work here? Good. We're going to be Big O of N squared login. Why is that the case because you're doing them in sequence right first to do N squared and then you do end Square login. So you don't multiply them together. You just add them together. Could you do a one after the other? questions about that Okay good. So, let's go ": [
+            2954.9,
+            2996.8,
+            68
+        ],
+        "need. Log base 2 of it. Okay. Does anybody know any tricks to take log base 2 of a big number? Put it into Wolfram Alpha. right Now I'm going to show you something. That's very very fast. Okay. So what's 2 to the 10? Does anybody know? I 1024 roughly a thousand. So basically every thousand is 10 to the 10th day. So we have to to the 10. ": [
+            1522.2,
+            1569.8,
+            39
+        ],
+        "of I in Jay, okay. I equals 1 J equals one. So that means we're at 3 and 2 right now. We say while BJ is greater than a i well that doesn't this while loop we don't even go into it, right because BJ is smaller than a I right. So what that means is that you increment the loop and Jay gets increased to 2. Hey now, you're ": [
+            3989.3,
+            4023.0,
+            89
+        ],
+        "of inside out to get the upper bound. You might be overly pessimistic. There might be you might be over counting which is fine and some sense if you just want the Big O bound and if you're trying to meet some sort of in an upper bound threshold and you meet it, then you don't have to look at it anymore. But if you really want to type down, ": [
+            3470.8,
+            3493.3,
+            81
+        ],
+        "of n cubed if I could show you that one then along with the Big O of n cubed. I've shown you that it's a tight bound and we've already established the Big O of n cubed. Okay, so simple argument for this. for the first and over to operations or this evening iterations of I Jay is going to be bigger than when I is 1 J is one ": [
+            3299.8,
+            3334.3,
+            77
+        ],
+        "of size N. I guess I didn't put that. input Hub size Okay, how big can your input be how big of an input? Can you can you input in there so that the the supercomputer will complete your calculation within 24 hours is a long time to run a computer to you know, those things are expensive to get time on so just think about what would you say ": [
+            1279.8,
+            1316.1,
+            34
+        ],
+        "off. And then in general start the search for BJ where the search for BJ - 1 left off. So this is maybe how you could implement it. You start I equal to 1. I is going to kind of be the pointer on the A-list. Okay, and Jay is going to loop from 1 to n. So now BJ is greater than a I keep on going. You keep ": [
+            3856.7,
+            3890.0,
+            86
+        ],
+        "on increasing a butt for the A's index. Until the AI is bigger than or equal to the BJ right in that case. You didn't commit Jay so it's kind of like this pointer thing. If I exceed Zen, right that means you've gone through the whole Bee list, so you haven't found anything then return false and if you ever find something then return true. Any questions about that? ": [
+            3890.0,
+            3922.8,
+            87
+        ],
+        "one doesn't always take n steps, but in the worst-case it takes and steps so end times to go then. And this one definitely takes in steps. So this would be 10 times bigger than squared. Which is bigger of and Cubed now remember what I said here is this is a this is a really good method for getting an upper bound. I never said that is going to ": [
+            2637.5,
+            2663.9,
+            60
+        ],
+        "one. That's the one I wanted to look at. Here's the high-level description. Use the linear search to see if be one is anywhere in the first list using like a early abort. So like if you find that there is a element bigger than be one. Then you stopped right is B2 is bigger than be one start the search for be to wear the search of B1 left ": [
+            3829.5,
+            3856.7,
+            85
+        ],
+        "or add two small numbers or look up in a ray or Change an array value something like that. So for example, we talked about the runtime of men's sort selection sort. We're going to ask how many times do we have to compare the values of some pair of list elements? Okay, so let's get our clickers out. So recall selection sort and now I've given you the full ": [
+            217.1,
+            247.4,
+            6
+        ],
+        "outside factors. And so that's why we don't want to use actual time like in seconds or minutes to talk about efficiency of a algorithm instead. What we want to do is say how many steps have we taken and more importantly? How does the the time complexity? How does it scale as the input grows? Okay. So our algorithm basically is going to depend the time it takes is ": [
+            944.2,
+            976.0,
+            24
+        ],
+        "people I + 1 y okay. Okay. right I don't know if you want to start k at J. Right because there's some might be earlier in the list who we can do that if the list was sorted right, but if it's just random. Okay. Isn't that what we're doing here? But this time of year. so you and then you search for the K value in the list. ": [
+            2450.9,
+            2538.3,
+            57
+        ],
+        "pseudocode because it turns out that the high level or mid-level descriptions. It's better to use a lower level if you're talking about run time, because then you can figure out exactly how much time certain things take depending on what kind of data structures you're using. Okay. So, how many times does this highlighted if statement? How long how many times does that execute how many times do we ": [
+            247.4,
+            278.2,
+            7
+        ],
+        "questions about that. cricket Okay, good. So So just to kind of compare them in the best-case. It's in the best case. This should be big data of one, right? the best case that both Big Data of one in the worst-case one is big date of and the other ones big Theta of login and in the average case, we have big Theta of an and I guess we ": [
+            1920.9,
+            1965.4,
+            48
+        ],
+        "range. Yeah, right. Cuz you're really only doubling it what? About what's 3? + what's 33 + 2 900? 30 so you're doing maybe about 5 doubling, so maybe you could do input of length 76. I'm trying to give you a sense of how inefficient it is to do an exponential time algorithm. Here's a few really fast growing functions exponential is this one grows? I think around 4 ": [
+            1649.3,
+            1698.6,
+            42
+        ],
+        "right when I is equal to one you have in mind as one comparison Cycles 2 and - 2 all the way down to one when I is equal to n -1 which UC is the limit of eye. Can you only have one comparison you're basically comparing the last element with the second to last element? So the total number of comparisons is 1 + 2 + up 2 ": [
+            546.7,
+            568.6,
+            14
+        ],
+        "same value and an end. What if everyone was equal to 0 then you have a 1 + a 1 is equal to a 1 so your algorithm output 111. We're going to get to that. Okay. So how long does it take? Okay. Good. See we're saying see why we saying see will basically this whole thing is going to take this work from the inside out. This is ": [
+            2792.7,
+            2824.6,
+            64
+        ],
+        "sense of how big it is? Okay, which which which bucket was 71 in? B lights off. I mean 71 is not that big of an input but still need to take take 24 hours to do that calculation on this thing. Crazy, huh? So what if I what if I had access to the new supercomputer that can do 900 trillion calculations, but I still be in the B ": [
+            1616.6,
+            1649.3,
+            41
+        ],
+        "sometimes you have to kind of get into the algorithm and count it more carefully. Okay, so What when does it fail is when? So I guess let's say that. the screaming the while loop runs Big O of t-11 iterations T1 iterations Oh, and that doesn't work anymore. Give me a sec. I'll come back to this while I'm doing that while I'm getting this thing back together. Let's ": [
+            3493.3,
+            3543.4,
+            82
+        ],
+        "squared iterations right So that's a lower bound. So I'm bound to get below by big Omega of N squared. so I want to go to this next thing. Hey, so this thing is does greater than or equal to and square and over 2 squared up iteration. This one is Big Omega of one and then we have here we have big Omega of n. Right in this is ": [
+            3371.0,
+            3424.3,
+            79
+        ],
+        "step should should be independent of the size of the array like comparing two values doesn't depend on how big the array is right because you're just comparing two values. But what kind of outside factors may affect the actual time would like the number of seconds? Okay good. So the speed of the computer the speed of the processor write anything else? the time in Type of data that ": [
+            869.5,
+            900.8,
+            22
+        ],
+        "talk about anybody have any more improvements that they want to make. Well, what we can do is do exactly what you set up. Their right is for each candidate some AI + AJ eliminating the redundancies do a linear search in the list for a cat. 4 AI + AJ short of what we were doing all along. Okay, we know binary search is faster. So we have a ": [
+            2701.1,
+            2748.1,
+            62
+        ],
+        "talk about this algorithm. Okay, you're given two sorted lists a 1 through a n and b12 and you want to determine if there are indices inj such that AI is equal to BJ. Okay, so I'm going to give you guys a few minutes to talk it over design algorithm to do this. Hey, does anybody have any ideas they want to share? Okay, good. So something like for ": [
+            3543.4,
+            3761.8,
+            83
+        ],
+        "that one doesn't work for. I equals 1 up to n write binary search. AI In the list be one through bien. So how long would that take? analog in right big toe then login Good. nobody else have any comments or and then if someone is greater than Okay. That makes sense to you guys. How long is that going to take? forever We'll take a look at that ": [
+            3761.8,
+            3829.5,
+            84
+        ],
+        "that? I don't think my calculator has that many zeros to put in. Is there like a way around that? You just ignore the zeros then add them back in later. Okay, that sounds good. And what do we have 33? 860 * 60 * 60 * I don't have enough. I'm just going to do the The 33 let's just do 3334. What do you guys say? Because this ": [
+            1428.6,
+            1478.6,
+            37
+        ],
+        "the first one we looked at where we don't take care of redundancies or anyting. What is the lower bound order of the worst-case runtime of this algorithm? and the worst when I say worst case, it's sort of a weird thing to say because it's always going to run the same amount of time because you have this return so it might be able to find it within the ": [
+            3128.7,
+            3155.9,
+            73
+        ],
+        "the other class. Anyway, so let's just call it a day. Hi. exercise I know there's dry score. What happened to Android phone? Cuz they're qualatex. UC San Diego podcast. EDU ": [
+            4378.5,
+            4435.7,
+            99
+        ],
+        "the remaining in minus one? Why was it anywhere? Dad said to you guys said it wasn't squared. Right. Yes, you're right. This one was this one? This previous question was not. Actually, correct. That's why I wanted to do a more detailed analysis. I was going to come back to it and have you did guys do it again. But that's fine. So this is exactly what you're saying, ": [
+            496.4,
+            546.7,
+            13
+        ],
+        "the size of the input or estimate the number of steps as a as a function of the size of the input. Okay, so just like this kind of graph that we saw before we're going to be using big O big Theta big Omega notation because we want to know how fast does it grow rather than exactly how long it takes. Okay suppose I have a program a ": [
+            1028.4,
+            1056.9,
+            27
+        ],
+        "then if that's pretty fast to n factorial and to the n and I don't know once you get down to 5540 at 16 zeros and Let's move on any questions or comments. Okay. Let's go back to selection sort. What do we have here rewrite the expression using Big O notation? Okay, good. You guys are right on it good in squared. That's good. Is there any other correct ": [
+            1698.6,
+            1767.2,
+            43
+        ],
+        "theta. will be big Sada of and also, right Because there's going to be an over to probes and so and over to is Big O of n or big Theta oven. What if it doesn't equal anything. It's all so big. This is something that we talked about before. Okay. Let's look at binary search. okay, remember how that how that works every iteration the input size decreases by ": [
+            1827.2,
+            1869.5,
+            46
+        ],
+        "this is also event. well, this is all too and actually using using this argument right that either eyes going after every time you ask this question is BJ bigger than a I either I M permits or Jay increments and so you can really only ask it a maximum of 2 and X. Stop the product rule is not always tight. so this is actually big Theta of n ": [
+            4299.8,
+            4343.6,
+            97
+        ],
+        "time more than once right maybe a few times but it's not going to be able to execute n on the order of n many iterations for end times not to be able to keep it up. Okay, so this is actually so but this is not wrong is not wrong. It's just not tight. So how do we get the tight the type found what we can kind of ": [
+            4207.5,
+            4236.6,
+            94
+        ],
+        "to estimate how long it takes for different algorithms to run and we're going to be using our big O big Theta notation to do it because that's going to be kind of a The best way that we can classify which algorithms are more efficient or less efficient. It's based on the big O big Theta class. Okay. So what are we done so far with algorithms? We looked ": [
+            66.8,
+            97.2,
+            1
+        ],
+        "to the next thing here. So the sum is the maximum right? Cuz you're adding. Okay. Does anybody think that we can get better than N squared login? Yes. Me too. Okay, good. So So and Cubed was kind of like the Brute Force algorithm that one that kind of does it the most directly right? We didn't take into consideration redundancies or anything like that. We got an cubed. ": [
+            2996.8,
+            3042.0,
+            69
+        ],
+        "under the for Loop. right Right because the wild Lupine going to break if they're equal anyway. Okay, so let's go through. Yeah, we did kind of these things. So now let's go through the the runtime. Okay, we have some big O of 1. Things here right this while loop in the worst case is going to take Big O of end-time, right? And in the worst-case this is ": [
+            4117.6,
+            4156.0,
+            92
+        ],
+        "up to 3. And then we increment I up to 4. And then we break from the loop and you increment J. And then you don't even go in the loop and you increment J again. There you go. How many steps did I take? 9 about 9 steps was that oh, you're right. Those should be actually. No, they should be under the for Loop. Yeah, they should be ": [
+            4058.9,
+            4117.6,
+            91
+        ],
+        "want you guys to do is to get into groups and design an algorithm to do this ready go. What's up? If you wanted to sort it. Got to take that into consideration you could. Right. Yeah. They can be all the same. Anybody do that? Is it work? You know how to prove that it works. Does it? Why does it only sort of work? What if a one ": [
+            2049.3,
+            2277.0,
+            51
+        ],
+        "was Zero? Yeah, because then you're you're I'll bring it out put one one one because a 1 + 81 is equal to a 1. But it would work either way it works it works fine. Now is it efficient? That's what we're going to talk about next so What's the order of the runtime of this algorithm? Okay, so good. Good and ncube. How did you get that? You're ": [
+            2277.0,
+            2330.7,
+            52
+        ],
+        "we're trying to do is count. The number of comparisons us going to help us get the runtime County number of times a list elements are compared gives us a sense of how long it's going to take. So what kind of things can we talk about as steps like counting comparisons accessing a position in an array or a list arithmetic operations? This is for small integers. integers Etc ": [
+            798.3,
+            834.0,
+            20
+        ],
+        "will leave that one off until we start talking about probability and expected run time stuff like that. Okay. Let's go to a new a new problem summing triples. This is the the problem specification is that you're giving a list of real numbers. And you want to look for 3 indices i j and k such that AI + AJ is equal to a k so does this list ": [
+            1965.4,
+            1997.0,
+            49
+        ],
+        "worst case? and right now we're at Big O of n Okay, how long does this one take? I guess I should say in X big'o of one right now. This is an X Big O of n so that sin squared. And this one? End times Big O of N squared, which is Big O of n cubed. Okay good. So what kind of improvements can we make here? ": [
+            2413.4,
+            2447.0,
+            56
+        ],
+        "would be better 34 * 60 * 60 * 24. All right. I got to point. 2.9 2937 Okeechobee to 937 600 Okay, and now I have to add and how many zeros 1 2 3 4 5 sets 1/2. free 4 5 okay, that's how many calculations you can do in a day. Hey, so how am I going to convert that into the size of the input I ": [
+            1478.6,
+            1522.2,
+            38
+        ],
+        "you use good, so some data might be more complexed and it might take a little bit longer to compare them anybody else. What is it? The RAM available exactly. Maybe you're running so many things that has to take some time to do it, right? Anybody else? Okay, so the point is come on now. the point is that a single step takes is variable depending on all these ": [
+            900.8,
+            944.2,
+            23
+        ]
+    },
+    "File Name": "Mathematics for Algorithms and Systems - B00 - Jones, Miles E - Winter 2019-lecture_8.flac",
+    "Full Transcript": "Listen to a podcast.  Tested okay at Largo.  Started let me turn off the lights.  Like that? Yes, that's better.  Okay, so  Let's get started. The the next homework the group homework is up. And so that'll be due.  on Saturday  and still have a little bit to do with today's lecture mostly going to be on like sorting and loop invariants and stuff. But today we're going to try to estimate how long it takes for different algorithms to run and we're going to be using our big O big Theta notation to do it because that's going to be kind of a  The best way that we can classify which algorithms are more efficient or less efficient. It's based on the big O big Theta class.  Okay. So what are we done so far with algorithms? We looked at specification. How do you describe the problem pretty straightforward?  Number two is algorithm description. We talked a little bit about that you could you could do it with just a step-by-step just an English. How do you go about doing the algorithm or it could be kind of mid-level or low-level? We're actually writing code or or pseudocode something like that why the correctness proofs this had to do a loop invariants for iterative algorithm and we're going to see when we do recursive algorithms. There's a sort of a different way to approach the proofs. I believe to me for for instance. I believe that  The recursive algorithm proof of correctness is a lot easier, but you guys can be the judge of that.  Okay, so then the last thing about the algorithm description or the algorithm analysis is the runtime performance. How long do you expect the algorithm to take a little bit more?  It's not exactly that. We're if I do my stopwatch.  I'm going to predict how long it's going to take in time. It's more. How long does my algorithm scale when I make my input larger and that's why we want to talk about these Big O classes cuz we want to know how the time grows as my algorithm gets the input gets bigger. Okay, so happy about that when I say time. I'm not really talking about like stopwatch time. We're really going to be turning that into number of operations and we'll go over kind of what I mean by that but you can kind of think about it as like things that algorithm does like compared to list elements or add two small numbers or look up in a ray or  Change an array value something like that.  So for example, we talked about the runtime of men's sort selection sort. We're going to ask how many times do we have to compare the values of some pair of list elements?  Okay, so  let's get our clickers out. So recall selection sort and now I've given you the full pseudocode because it turns out that the high level or mid-level descriptions.  It's better to use a lower level if you're talking about run time, because then you can figure out exactly how much time certain things take depending on what kind of data structures you're using. Okay. So, how many times does this highlighted if statement? How long how many times does that execute how many times do we compare two elements?  Let me see something real fast here.  Okay, let's see what you guys say here.  Where's my?  Okay, most you guys are saying none of the above.  No, I'm sorry and square.  But why was it none of the above and squared? Okay, most you guys are saying in square.  Okay.  Let's do kind of a more detailed analysis of this algorithm.  Okay, so  I go here.  So whenever you have a for Loop, whatever is kind of inside the for Loop is called the body of the for Loop. So the body of the for Loop here is in this blue square. Okay, so when the body of the in the body of the outer loop when I is equal to one how many times do we compare pairs of elements?  You guys remember this this is the part of selection sort where you're finding the minimum value.  the  just to kind of recall you set an to be equal to I  Basically initializing the minimum to be that element.  When you go through and you update M whenever you find a smaller thing.  Okay. So how many times do we compare the list of elements?  OKC good and minus 1. That's correct. Good.  Because what happens if you initialize M to be equal to one, right and then you compare A1 to A2 A2 A3 A3 to A4. No. No, that's not how it goes.  You can just compare them to a.m.  But I guess it's easier way to see this is that this Loop here goes from I plus one up to end which means that when if I is equal to one it goes from 2 to n.  We get an plus one any questions about that.  Okay, so let's keep that going.  How many comparisons happens when eye is equal to 2?  And -2, what about when I is equal to 3?  And -3 it's basically like when I'm ordering my DVD collection once I put the first DVD in the front place, then I'll have to worry about is the is the remaining in minus one?  Why was it anywhere?  Dad said to you guys said it wasn't squared.  Right. Yes, you're right. This one was this one?  This previous question was not.  Actually, correct.  That's why I wanted to do a more detailed analysis. I was going to come back to it and have you did guys do it again.  But that's fine.  So this is exactly what you're saying, right when I is equal to one you have in mind as one comparison Cycles 2 and - 2 all the way down to one when I is equal to n -1 which UC is the limit of eye.  Can you only have one comparison you're basically comparing the last element with the second to last element? So the total number of comparisons is 1 + 2 + up 2 N -1. I hope that we've all seen this by now.  this is equal to  N * n - 1 / 2 this is one way to think about it.  You can just add if you say exes that some you can add X to itself but in the opposite direction and then if you add up the columns, you just get in added to itself a bunch of times how many times exactly and minus one? So then you have two axes equal to n * N - 1  And what's another name for this?  n choose 2  Okay, so let's go back to this question.  How many times do we compare pairs of elements here?  Okay, good. Now we're all on the same page here and choose to.  Why is it n choose to do can anybody give me a do you have a question?  Is Big O of N squared time? But if we're actually counting the actual number of comparisons, it's in choose to.  song  question or comment?  Yeah, why is it and choose to where's that come from?  The lift is you're always going to be going.  process  Okay, good. You're basically in this algorithm. You're comparing every single or the number of times you compare.  Is equal to the number of pairs of elements there are in the sack.  Right and you can keep track of of that by the values of I and J Wright. What do you know about inj?  I & J range  or I guess.  I guess I'll do it this way I ranges.  from 1 to n -1 J ranges  from basically 2 to n right but I is always  Less than Jay Wright.  So how do you count the number of ordered pairs i j out of n such that is less than J.  number of ordered  pears  i j such that  I is less than J I guess from the set of n elements is one way to think about it.  Okay.  Let's move on.  So what do we have? Here? We have that. Okay, so  What we're trying to do is count. The number of comparisons us going to help us get the runtime County number of times a list elements are compared gives us a sense of how long it's going to take.  So what kind of things can we talk about as steps like counting comparisons accessing a position in an array or a list arithmetic operations? This is for small integers.  integers  Etc basically anything that takes constant time something that's constant time means that it's going to work the same amount of time no matter how big your input is a sort of the idea.  Okay, but some some single steps take longer than others.  What kind of things could affect how long a single step could take?  Well, that's the thing that we want it to be independent of a single step should should be independent of the size of the array like comparing two values doesn't depend on how big the array is right because you're just comparing two values. But what kind of outside factors may affect the actual time would like the number of seconds?  Okay good. So the speed of the computer the speed of the processor write anything else?  the time in  Type of data that you use good, so some data might be more complexed and it might take a little bit longer to compare them anybody else.  What is it?  The RAM available exactly. Maybe you're running so many things that has to take some time to do it, right?  Anybody else?  Okay, so  the point is  come on now.  the point is that  a single step takes is variable depending on all these outside factors. And so that's why we don't want to use actual time like in seconds or minutes to talk about efficiency of a algorithm instead. What we want to do is say how many steps have we taken and more importantly? How does the the time complexity? How does it scale as the input grows?  Okay. So our algorithm basically is going to depend the time it takes is basically going to depend on the input size the number of steps the algorithm requires and the time for each one of those steps. This is going to give you the actual, you know, amount of seconds or minutes it takes okay.  So this is something that we cannot control.  right  I mean if you make an algorithm that you want, you know everybody to use on their home computer. It may work at different times because of you know, all of the outside factors, but we can't control our these two and so this is really what we want to base. Our runtime on is the how does your how does the number of steps increase with the size of the input?  Kate and so in order to do that, we want to estimate time as a function of the size of the input or estimate the number of steps as a as a function of the size of the input.  Okay, so just like this kind of graph that we saw before we're going to be using big O big Theta big Omega notation because we want to know how fast does it grow rather than exactly how long it takes.  Okay suppose I have a program a and on an input of size n and has to do n cubed operations and I will program be on an input of size and has to do 10 times and squared many operations. Which one is faster.  And it was just take a look.  Okay, so we're saying depends or be mainly so let's try to unpack what this what the what the consequences are of this thought experiment.  Here are the the numbers and Cubed + 10 in squared based on the input size.  So as you can see sometimes and squared is bigger sometimes sometimes 10 in squared is bigger sometimes and Cubed is bigger. So really you can't say that one goes faster than the other right, but we can say is that the tenants squared 1 scales?  Differently than the ink used one. And so if I double the input size the enqueued one is going to get much much bigger in the end squared one is going to get also bigger but not as much bigger. Let's take us just take an example from this data.  Okay.  So let's say I start off with the input of size 2.  Okay.  What happens when I double the input size when I get up to 4?  The 10 in square one is multiplied by what?  4 and the enqueued one is multiplied by what?  X 8 so I know we've done a little bit on this already, but I just wanted to kind of put it into perspective of an algorithm in the speed. So every time you double the size that 10 in squared one isn't going to  It's not going to grow as much as the end cute one.  All right questions about that.  Okay, so this is a very outdated slide.  For this is about a year-and-a-half ago, October 17th 2017. I read in this article that there was a Chinese supercomputer, which is the world's fastest at 33860 trillion calculations per second in this is the fastest computer then I looked today and now there's a computer that can do now nine hundred thousand trillion calculations.  So anyhow, what stick would this one for now though? Because  I don't know. I didn't want to change all the slides and get a new picture.  But now it's kind of put this into perspective here.  Let's say that you have access to this supercomputer for one whole day 24 hours. Okay, you have a algorithm that runs to to the end calculations for input of size N. I guess I didn't put that.  input  Hub size  Okay, how big can your input be how big of an input? Can you can you input in there so that the the supercomputer will complete your calculation within 24 hours is a long time to run a computer to you know, those things are expensive to get time on so just think about what would you say is the the size?  All right. Well sort of some.  unsure  Nobody thinks it's a cute. Maybe. We'll take a day. Most people think it's around. Let's see. What is Dee again 1000 to 10000. So that means I mean, I guess that's not like a huge dataset right? I mean, it's pretty big butt.  I think the best way to answer this is to actually do the calculation. What do you guys say?  Okay, so  Here we go.  This thing does how many calculations per second?  33860 and how many zeros is a trillion?  That's a thousand.  million  billion  Trillian, that's how many calculations were talking about per second. But how many seconds are in a day?  Well, you have 60 an hour. I mean a minute 60 minutes in an hour 24 hours in a day.  What is that?  I don't think my calculator has that many zeros to put in. Is there like a way around that?  You just ignore the zeros then add them back in later.  Okay, that sounds good.  And what do we have 33?  860 *  60 * 60 * I don't have enough. I'm just going to do the  The 33 let's just do 3334.  What do you guys say?  Because this would be better 34 * 60 * 60 * 24.  All right. I got to point.  2.9  2937 Okeechobee to 937 600  Okay, and now I have to add and how many zeros 1 2 3 4 5 sets 1/2.  free  4  5  okay, that's how many calculations you can do in a day.  Hey, so how am I going to convert that into the size of the input I need.  Log base 2 of it. Okay. Does anybody know any tricks to take log base 2 of a big number?  Put it into Wolfram Alpha.  right  Now I'm going to show you something. That's very very fast. Okay. So what's 2 to the 10? Does anybody know?  I 1024 roughly a thousand. So basically every thousand is 10 to the 10th day. So we have to to the 10.  20  30  40  50  60  70  and then what's log base 2 of 2?  1  plus one so we have 71.  This is like all these like around 2 to the 71.  I guess I shouldn't put all these things. I should think maybe make all of these 10 1 + 10 + 10.  You guys never saw that before?  Is it the fast way to get a get a sense of how big it is?  Okay, which which which bucket was 71 in?  B  lights off. I mean 71 is not that big of an input but still need to take take 24 hours to do that calculation on this thing.  Crazy, huh?  So what if I what if I had access to the new supercomputer that can do 900 trillion calculations, but I still be in the B range.  Yeah, right.  Cuz you're really only doubling it what?  About what's 3? + what's 33 + 2 900?  30 so you're doing maybe about 5 doubling, so maybe you could do input of length 76.  I'm trying to give you a sense of how inefficient it is to do an exponential time algorithm.  Here's a few really fast growing functions exponential is this one grows? I think around 4 then if that's pretty fast to n factorial and to the n and I don't know once you get down to 5540 at 16 zeros and  Let's move on any questions or comments.  Okay.  Let's go back to selection sort.  What do we have here rewrite the expression using Big O notation?  Okay, good. You guys are right on it good in squared.  That's good. Is there any other correct answers up here?  Also be right.  This is also correct. But the end squared one is more is shorter and smaller. And so that's sort of the one that we want to use. That's what I was trying for you guys to do in the homework is to get like the the simplest form big Theta bound and that would be it.  Okay, let's go back to linear search. We already talked about this but you basically compare elements one by one to the Target until you reach the end.  and we talked about how when we're doing linear search if it's the first element then it's going to take  Big O of one ranked last element Big O of n if it's equal to a element somewhere in the middle. It's Big O of I guess I should do theta.  will be big Sada of  and also, right  Because there's going to be an over to probes and so and over to is Big O of n or big Theta oven. What if it doesn't equal anything. It's all so big.  This is something that we talked about before.  Okay.  Let's look at binary search.  okay, remember how that how that works every iteration the input size decreases by by factor of two right you divide that by two and so  when we get down to log base 2 of a floor of log base 2 of n + 1  What is the actual order notation of this?  Okay good.  but let's go with  a although  B&D are both correct also, but it just turns out that a is kind of like the simplest way to say it.  Okay questions about that.  cricket  Okay, good. So  So just to kind of compare them in the best-case.  It's in the best case. This should be big data of one, right?  the best case that both Big Data of one in the worst-case one is big date of and the other ones big Theta of login and in the average case, we have big Theta of an and  I guess we will leave that one off until we start talking about probability and expected run time stuff like that. Okay.  Let's go to a new a new problem summing triples. This is the the problem specification is that you're giving a list of real numbers.  And you want to look for 3 indices i j and k such that AI + AJ is equal to a k so does this list 36578 have a summing trip?  And what is it?  well  I guess so.  So you want to you want the algorithm to Output indices, right? And so the indices here are 1 2 3 4 5 again. Sorry that I start at 1 I know everybody hates that but  This is the way it is, I guess so 3 + 5 is equal to 8.  Okay, good. Now what I want you guys to do is to get into groups and design an algorithm to do this ready go.  What's up?  If you wanted to sort it.  Got to take that into consideration you could.  Right. Yeah.  They can be all the same.  Anybody do that?  Is it work?  You know how to prove that it works. Does it? Why does it only sort of work?  What if a one was Zero?  Yeah, because then you're you're I'll bring it out put one one one because a 1 + 81 is equal to a 1.  But it would work either way it works it works fine.  Now is it efficient? That's what we're going to talk about next so  What's the order of the runtime of this algorithm?  Okay, so good.  Good and ncube. How did you get that?  You're basically going through the list three times, right? So another way to think about it. And this is just sort of a general rule that you can do in order to get an upper bound is to work from the inside out. Right? So I suppose I have a while loop or a for Loop and inside the body of the loop. It might contain other loops and let's say inside the loop. It takes a run time of Big O of T2  and in the worst-case the outer loop runs T1 times. So every time the outer loop runs at worst, you're going to run to you too. So at in the very worst case you're going to run Big O of T1 X T2  Okay, so let's take that and apply it to the algorithm.  Okay. So this is the very inside inner body. How long does it take to say if a + J equals a k then return true? How long does that take?  Good big old one. This is considered just a single step or a collection of fine a constant collection of steps.  Okay.  In the worst-case. How long does this take to how many how many times does this Loop run in the worst case?  and right now we're at Big O of n  Okay, how long does this one take?  I guess I should say in X big'o of one right now. This is an X Big O of n so that sin squared.  And this one?  End times Big O of N squared, which is Big O of n cubed.  Okay good. So what kind of improvements can we make here?  people I + 1 y  okay.  Okay.  right  I don't know if you want to start k at J. Right because there's some might be earlier in the list who we can do that if the list was sorted right, but if it's just random.  Okay.  Isn't that what we're doing here?  But this time of year.  so you  and then you search for the K value in the list. Okay, we can we can look at that.  What was the other one?  Okay. Yes. We just kind of changing the problem around.  Okay, good. Well, we're going to get to something like that. But the first thing I want to do is eliminate the redundancy right like we talked about so instead.  I'm going to start Jay from I Now, what's the order of the runtime of this algorithm?  No the whole algorithm.  Okay, good. So most mostly we're saying and Cubed which is kind of.  You know, it does it doesn't seem like we really made a dent but let's just take a look at the the runtime as we did it before where we look from the inside out.  So we have constant time.  Then we have in the worst-case and times constant time right now. This one doesn't always take n steps, but in the worst-case it takes and steps so end times to go then.  And this one definitely takes in steps. So this would be 10 times bigger than squared.  Which is bigger of and Cubed now remember what I said here is this is a this is a really good method for getting an upper bound. I never said that is going to be a tight upper bound will will look about we'll look at that a little bit later. Okay. What is the property that allows me to eliminate the redundancy? What are the property called?  Commutative property of addition going back to the algebra. So because addition is commutative. It doesn't matter. If you add AI + AJ is the same as adding ajplus AI.  Okay, good. All right. So let's talk about anybody have any more improvements that they want to make.  Well, what we can do is do exactly what you set up. Their right is for each candidate some AI + AJ eliminating the redundancies do a linear search in the list for a cat.  4 AI + AJ  short of what we were doing all along.  Okay, we know binary search is faster.  So we have a faster search than linear Services where I was going.  How long would this algorithm take?  Okay. So what I'm doing is basically getting a candidate some AI plus AJ and I'm plugging it into a binary search on the whole list.  Like because I actually have to go all the way to end if we know some other number like JFK and get the answer.  Yabba and Jacob be the same value and an end. What if everyone was equal to 0 then you have a 1 + a 1 is equal to a 1 so your algorithm output 111.  We're going to get to that. Okay. So how long does it take?  Okay. Good. See we're saying see why we saying see will basically this whole thing is going to take this work from the inside out. This is going to take Big O of login.  In the worst-case right because of binary search.  And then we have this one is going to iterate end times.  Bigger than x and then this one is also big of end times.  So we get big'o up and squared login.  Okay, good. Now does this algorithm actually work?  Right. So if it's not started it won't work. Okay, so would it be in our best interest to sort it and then use this algorithm?  Would that make a run time go up or down or the same?  What does it depend?  Crystal this one's this one's called some triples 3 and so now some triples for is going to Min sort all of these guys. And then it's going to do some triples 3, how long does it take to men's sort. Do you guys remember?  And square bigger than squared.  And then some triples 3 we already said is Big O of N squared login?  Okay, so now how long does it take in total?  Hey, let's do it quicker question here.  Who says Big O of  And squared be Big O of N squared login.  See to go into the 4th D pick of N2 4th login.  Big O of n cubed  Okay, how does it work here?  Good.  We're going to be Big O of N squared login. Why is that the case because you're doing them in sequence right first to do N squared and then you do end Square login. So you don't multiply them together. You just add them together. Could you do a one after the other?  questions about that  Okay good. So, let's go to the next thing here. So the sum is the maximum right? Cuz you're adding.  Okay.  Does anybody think that we can get better than N squared login?  Yes.  Me too.  Okay, good. So  So and Cubed was kind of like the Brute Force algorithm that one that kind of does it the most directly right? We didn't take into consideration redundancies or anything like that. We got an cubed.  So we were able to get it down to end Square login using any faster sorting algorithm wouldn't really help but we got it down to end Square login the fastest known algorithm for this problem is N squared. So you guys can do this as an exercise.  Okay, so we basically mainly been talking about Big O, right, which is an upper bound. But it's it's also nice to know that your upper bound is tight. What does that mean?  To know he's actually made improvements.  I need to make sure our original analysis was not overly pessimistic do we overshoot?  So tight down for a run time is a function G event so that the run time is in big Theta of G event the Big O class for our algorithm is upper bound. So now if you can have a big Omega Alvarez a big Omega class and and big Omega and the Big O classes are the same then you know that you've reached your type found because the Big Oak classes upper bound big Omega classes lower bound if they're the same thing. You got the pipe down.  Okay, so  Let's go back to the summit triples one. This one is kind of like the  the first one we looked at where we don't take care of redundancies or anyting. What is the lower bound order of the worst-case runtime of this algorithm?  and the worst when I say worst case, it's sort of a  weird thing to say because  it's always going to run the same amount of time because you have this return so it might be able to find it within the first few things. But let's just say worst-case runtime. Which one do we have here?  Okay good.  I like this because everybody is correct.  Any questions about that?  He said 100 you have a question.  Cuz remember that big Omega is a lower bound.  So it turns out and you guys could probably see where this is going this algorithm runs in big Theta of ends and Cubed time, right? That's like the type found which means all of these are lower bounds. All of these functions are lower bounds of n cubed.  That makes sense.  Okay good so we can we can approach the problem a lot like we did for Big O.  Where we can go from the inside out, right? This is going to take big Omega of one. Does it going to take big Omega up and we have big Omega events Square here.  big Omega of n cubed  Okay.  Let's go on to the next some triple some triples to.  What is the lower bound order of the worst-case runtime of this algorithm?  Okay, good. Yeah, it's going to be all of the above again.  But all of those bound are not very useful the one that's the most useful to us is Big Omega of n cubed if I could show you that one then along with the Big O of n cubed. I've shown you that it's a tight bound and we've already established the Big O of n cubed. Okay, so simple argument for this.  for the first and over to operations or this evening iterations of I  Jay is going to be bigger than  when I is 1 J is  one know Jay is not going to be bigger. But Jay is going to go through more than and over to operations. That's what I wanted to say.  So, let me write it out.  I'll have it here for the 1st and over to iterations of I we do at least and over to decorations of j h.  so that means  for both of these  we do at least.  over 2 squared iterations  right  So that's a lower bound. So I'm bound to get below by big Omega of N squared.  so  I want to go to this next thing.  Hey, so this thing is does greater than or equal to and square and over 2 squared up iteration.  This one is Big Omega of one and then we have here we have big Omega of n.  Right in this is big Omega of N squared so all together.  We get big Omega up and Cubed.  So now we know that this algorithm takes big Theta of and cute.  Right, I guess like big big of and Cubed and big Omega of n cubed implied big state of and cute.  Okay. So how we doing on time? Okay good.  All right. So remember what I said before you do this sort of inside out to get the upper bound. You might be overly pessimistic. There might be you might be over counting which is fine and some sense if you just want the Big O bound and if you're trying to meet some sort of  in an upper bound threshold and you meet it, then you don't have to look at it anymore. But if you really want to type down, sometimes you have to kind of get into the algorithm and count it more carefully.  Okay, so  What when does it fail is when?  So I guess let's say that.  the screaming the while loop runs  Big O of t-11 iterations T1 iterations  Oh, and that doesn't work anymore.  Give me a sec.  I'll come back to this while I'm doing that while I'm getting this thing back together. Let's talk about this algorithm. Okay, you're given two sorted lists a 1 through a n and b12 and you want to determine if there are indices inj such that AI is equal to BJ. Okay, so I'm going to give you guys a few minutes to talk it over design algorithm to do this.  Hey, does anybody have any ideas they want to share?  Okay, good. So  something like  for that one doesn't work for.  I equals 1 up to n write binary search.  AI  In the list be one through bien.  So how long would that take?  analog in right big toe then login  Good.  nobody else have any comments or  and then if someone is greater than  Okay.  That makes sense to you guys.  How long is that going to take?  forever  We'll take a look at that one.  That's the one I wanted to look at.  Here's the high-level description.  Use the linear search to see if be one is anywhere in the first list using like a early abort. So like if you find that there is a element bigger than be one. Then you stopped right is B2 is bigger than be one start the search for be to wear the search of B1 left off.  And then in general start the search for BJ where the search for BJ - 1 left off. So this is maybe how you could implement it.  You start I equal to 1.  I is going to kind of be the pointer on the A-list. Okay, and Jay is going to loop from 1 to n.  So now BJ is greater than a I keep on going.  You keep on increasing a butt for the A's index.  Until the AI is bigger than or equal to the BJ right in that case. You didn't commit Jay so it's kind of like this pointer thing.  If I exceed Zen, right that means you've gone through the whole Bee list, so you haven't found anything then return false and if you ever find something then return true.  Any questions about that?  Alright, let's look at the runtime.  So what can we do for the runtime?  Lyrics we should look at an example first then that would be helpful.  Okay, let's get some numbers here a the A-list is going to be three 920-2540 and the b-list is going to be wet to 8.  22  20  3 + 25 how about that?  Okay, so  How we do this?  Let's just keep track of I in Jay, okay.  I equals 1 J equals one. So that means we're at 3 and 2 right now. We say while BJ is greater than a i well that doesn't this while loop we don't even go into it, right because BJ is smaller than a I right. So what that means is that you increment the loop and Jay gets increased to 2.  Hey now, you're here.  Then we go into this while loop.  So BJ is greater than a I so that means we increment I go into 2.  Okay. Now I is a is bigger than b so we get out of this Loop and we increment J.  8 equals 3  So we're here.  And you seem sort of how it goes right now when we go into the wild Loop we increment I up to 3.  And then we increment I up to 4.  And then we break from the loop and you increment J.  And then you don't even go in the loop and you increment J again.  There you go. How many steps did I take?  9 about 9 steps  was that  oh, you're right. Those should be actually.  No, they should be under the for Loop.  Yeah, they should be under the for Loop.  right  Right because the wild Lupine going to break if they're equal anyway.  Okay, so let's go through. Yeah, we did kind of these things. So now let's go through the the runtime.  Okay, we have some big O of 1.  Things here right this while loop in the worst case is going to take Big O of end-time, right?  And in the worst-case this is going to go Big O of n right.  So in the worst-case this whole algorithm is going to be Big O of N squared.  That kind of makes sense.  But does anybody have any problem with that? Does it seem like it's too high of a bound?  Were you going to say?  Yeah, so the problem is that the while loop if it it's not going to do that worst-case time more than once right maybe a few times but it's not going to be able to execute n on the order of n many iterations for end times not to be able to keep it up.  Okay, so this is actually so but this is not wrong is not wrong. It's just not tight. So how do we get the tight the type found what we can kind of count them a little bit more carefully, right? Every time this is executed except for the last time and each iteration. I is incremented if I ever reaches nplusone the program terminates, so  Basically, this is going to execute to end times because either I was going to increment or Jay is going to increment and if you get to any of the end of the list, then you're done. So that kind of means that the most you can actually do is if you go to the end of each list.  And we saw that in this example, right? We almost went to the end of the list and we got nine iteration or nine comparisons. And so if we were to go to the end of each list, we would have gotten 10 question.  Sure.  Well, this is this is also event.  well, this is all too and actually  using using this argument right that either eyes going after every time you ask this question is BJ bigger than a I either I M permits or Jay increments and so you can really only ask it a maximum of 2 and X.  Stop the product rule is not always tight.  so this is actually big Theta of n  and it's it's because it's it. It happens when the worst case of that inner loop.  It only happens very few times where has the best case is very small and can happen more than that Trey. So just be careful when you're doing this to keep to keep an eye out for it.  any questions  And how are we doing on time?  Think we're a little bit ahead of the other class. Anyway, so let's just call it a day.  Hi.  exercise  I know there's dry score.  What happened to Android phone?  Cuz they're qualatex.  UC San Diego podcast. EDU "
+}

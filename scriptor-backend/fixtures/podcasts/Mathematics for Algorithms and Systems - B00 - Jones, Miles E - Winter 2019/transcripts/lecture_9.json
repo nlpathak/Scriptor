@@ -1,0 +1,501 @@
+{
+    "Blurbs": {
+        "Each of the groups. Well, we're just going to organize them recursively. Okay, so merge sort is a type of algorithm called a divide-and-conquer algorithm. Generally the idea is that you divide your input you recursively call on each. sub input and then you put them together in some way. So in the case of divide and conquer you divide the list into two sub list sort each sub list, ": [
+            2652.6,
+            2687.9,
+            62
+        ],
+        "I do the recursive calls, I don't want you to say it will split the list up again. I want you to say it will output a sorted list. I want you to say that it will do what it's supposed to do at the very end or else if you don't then you get kind of caught up with how when do you stop? When does it stop breaking ": [
+            3406.3,
+            3425.7,
+            77
+        ],
+        "I'll give you kind of a A tip when you're building these things. It's really helpful for you to name your algorithm because you're going to have to call it. Right so name it something. What did I name it? R merge AK B1 And then say what it's supposed to I'll put in that should help. Think about your base cases, right? What? What can you sort of? figure ": [
+            1875.6,
+            1964.8,
+            45
+        ],
+        "Is less than everything. So if you take a sorted list of everything and put a smaller element in front, the whole list is sorted. Okay. conclusion it works for all inputs of size n basically by the if statement so basically case one case too and you'll see that that was the same thing that we did for the other algorithm. Okay. How long does it take to get ": [
+            2399.5,
+            2444.1,
+            56
+        ],
+        "Listen to a podcast. Okay. Should we get started? Okay, let's get started. So today. We're going to start talking about recursive algorithms. How do you analyze them? What are we seen so far? We've seen iterative algorithms. We know how to okay, we know how to Prove their correctness and we know how to analyze their run time. Okay, so What is a recursive algorithm what we seen recurrence ": [
+            1.9,
+            67.3,
+            0
+        ],
+        "Okay, good. So what do we get from this we basically get a very quick way to find the first element of the list so want you to use this idea and build a recursive algorithm to solve this problem. Okay. Ready go? yeah, you could make a little bit of algorithm to write but I want you to think about how would you build a a recursive algorithm and ": [
+            1822.2,
+            1875.6,
+            44
+        ],
+        "Right? Do I have faith that merge sort worst will sort my list. Sure. Well, then sort these smaller lists and then put them together and if I have faith that it will work. kind of Magic Magical in my opinion you can if you like you can kind of think about what happens. As you break it up, then it gets broken up again and broken up again and ": [
+            3348.4,
+            3377.1,
+            75
+        ],
+        "Similarly if n is one in the output as a single bit and it doesn't have any occurrences of 00. So you output 0, what do you return zero? So that's good to questions about that. Okay. Let's go into the inductive hypothesis. Inductive hypothesis is always going to look the same. It's going to be something like suppose that for any input of length k or a length and ": [
+            956.9,
+            989.3,
+            24
+        ],
+        "So instead what we're going to do is do kind of what we do when we were counting with recursions and just call it something let's say that the algorithm takes tea event operations. on any input of size n Then how many operations does it do on an input of size and -1? given - 1 Okay, now you can sort of see where this is going. Okay, let's ": [
+            1400.9,
+            1446.7,
+            36
+        ],
+        "There any questions so far? Okay. Let's break it up into cases. Case one you start with 0 0 now just kind of follow what would happen in that case we need is a very simple algorithm. The only the only thing that's going to happen is that you return OnePlus this recursive call. This is this case here. Okay. So this the original input from B12 BK outputs OnePlus ": [
+            1020.0,
+            1065.2,
+            26
+        ],
+        "These are good. Now let's go to the induction step suppose and is greater than one assumed as a strong induction hypothesis that merge sort will correctly sort all lists with K elements for nek in between 0 and less than in worth from 02 n -1. Our goal is to prove that merge sort a 1/2 an returns a sort of list containing all the anyone. It's okay. so ": [
+            3028.0,
+            3061.2,
+            69
+        ],
+        "Theta of in right questions about that. Because like because I was there at like Kmart. That's part of the reason. I mean, that's one way to think about it is that there'll be an - 1 recursive calls and each recursive call takes constant time to do. So there's and -1 constant time things. kinds of pens you can you can Define some of those sorting algorithms that we ": [
+            2540.2,
+            2595.4,
+            59
+        ],
+        "a relates to be to the D. You have one of three options. Okay, so I kind of think we might be moving a little bit faster than the other class. So this might be a good time to stop. So on Monday unpack this for you and give you a reason for it. But what I would like for you to do is see what happens when you plug ": [
+            4294.3,
+            4321.9,
+            97
+        ],
+        "about rhythms. Did anybody come up with a recursive algorithm to do it? That's what we're going to look at next. Think of one. Okay, let's look at one together. Okay, recursive algorithms are algorithms that call themselves. Okay, so you usually need some sort of base case because what's going to happen is you call the algorithm on a certain input and then the recursive call is on a ": [
+            307.1,
+            340.5,
+            5
+        ],
+        "about that? Don't say that white P1. B1 oh, okay. Yeah, so this is a good This is what distinguishes proving recursion algorithms verses proving iterative algorithm recursive algorithms on the size of the input. So if my input is only one character. Then I return 0. Whereas in the iterative algorithm you kind of had to start from the iterations and build your way up to end. This one ": [
+            1177.3,
+            1233.2,
+            30
+        ],
+        "and go to the right, right? So I'm going to iterate from one up 2 N -1 and every iteration I'll check to see if there are two zeros in a row and if there are you in Kermit the count and if not, then you just continue. Yeah, that's two occurrences. And that will that will count it as two. Okay, so but we're not going to do it ": [
+            264.9,
+            307.1,
+            4
+        ],
+        "and recursion are almost the same thing induction is a proof strategy where you start with a base case and you show how to prove the statement is true about nplusone. If you know, it's true for n whereas recursion you solve a problem where you give the base case and you show how to solve the problem of size n plus one. Assuming you can sell it for a ": [
+            654.3,
+            674.4,
+            14
+        ],
+        "and then merge them together merged assorted sub list together. Okay, let's take a look at. and implementation of merge sort and I guess you're not going to like this. So I'll put these guys on it. I guess this is fine. Okay, so merge sort. You take a list. If it has 0 elements then returned the empty list, right? If there's one element return just the first element ": [
+            2687.9,
+            2742.3,
+            63
+        ],
+        "and this is more just like approximating but we know that merge will grow at the same rate as some constant times and that's what it means to be big fat of it. Okay. So now we have a new. recurrence relation Let's try to unravel this thing. so we have t of n Is equal to 2 T of n / 2 + C * n? and I guess ": [
+            3496.6,
+            3534.2,
+            80
+        ],
+        "anybody have an iterative algorithm to do it? Do it look anything like this. Does anybody have a want to share like a different iterative algorithm? How did what is this doing? You you have some variable count that you're going to update its going to increment every time you find a 0-0 and how are you going to search for them? He's just going to start from the left ": [
+            228.1,
+            264.9,
+            3
+        ],
+        "assume and -1 prove n and that's fine for the ones we saw before but this one. The recursive calls are calling on list of size and mine with me and over to write and over too many elements. That's much less than + -1 normally. Yeah, you could always use strong induction if you like. I think that it just I guess I would use weak induction or regular ": [
+            2945.2,
+            2987.2,
+            67
+        ],
+        "broken up again and broken up again, right and keep on going down to the base cases. And that's why it's important to know that that's what it does and that's what the computer is doing. But for this class the most important thing for us is to just go back one level. Just like this. Meaning I'm going to break up my list. Do the recursive calls and when ": [
+            3377.1,
+            3406.3,
+            76
+        ],
+        "can cat made it to the front you get assorted list of everything. Any questions about that? Okay good. So then case to we have a 1 is greater than be one. It's basically the same thing, right? This input has and -1 elements. So by the induction hypothesis, you can assume the algorithm works. Then we also know since a one is greater than be one that be one. ": [
+            2359.4,
+            2397.7,
+            55
+        ],
+        "case suppose and is 0 right then. Both lists are empty. So you returned the empty list and everybody's happy. Cuz the empty list is technically a sorted list. Okay induction step. Let's suppose that for some n greater than or equal to one. Are merge will successfully return a sorted list whenever k + L is equal to n minus 1. What do we want to prove? What's going ": [
+            2161.9,
+            2204.2,
+            50
+        ],
+        "combining that you're doing within each recursive call. That's like all packed into the T of n over be right that kind of includes all of that stuff that you're doing within each recursive call. But then once you've done all of that stuff, then you can start kind of putting them together. Okay. So I think we should just end on the master theorem. Okay. so this is really ": [
+            4208.3,
+            4248.6,
+            95
+        ],
+        "correct on all inputs of size and -1 now we want to show the algorithm is correct for all inputs of size in the name thing. Okay, so Suppose induction hypothesis, we want to show that it returns a sorted list whenever k + L is equal to end. So let's split up into two cases was empty in case to another of the list is empty. Okay. Now let's ": [
+            2262.0,
+            2300.0,
+            52
+        ],
+        "d So now we have a recurrence relation that we know how to solve. So this is going to be a recurrence relation remember for a recurrence relations. We need a base case and a recurrence. So we have everything. So why don't you guys take a few minutes solve this recurrence ready? Go? So what are you guys got anybody have an answer? No. Doesn't have to work that ": [
+            1472.8,
+            1590.6,
+            38
+        ],
+        "did recursively and you see that those those algorithms are going to take N squared time. Kind of depends on what you're what you're doing inside of the recursive called. But for these ones you like if you're only doing a constant thing inside of each. The album only does constant stuff and a recursive call then. Yes going to be linear. I guess you could think about that as ": [
+            2595.4,
+            2625.4,
+            60
+        ],
+        "do all the recursive calls right get all that information then you combine them all together? Like for example for merge sort you do the 2 recursive calls, right? You get your information then you do one combining thing. You called merge only once That makes sense. As2 former store and B is also too. And Giovanna is and or Beethoven. That kind of makes sense now. They call those ": [
+            4138.1,
+            4208.3,
+            94
+        ],
+        "do case one. At least one of the list is empty for the base case. If one of the list is empty then you can put the other list it's sorted so everybody's happy, right? pretty easy place to is when it gets a little tricky and we might have to break that up at the cases itself Caso case to hey, neither of the laser empty and A1 is ": [
+            2300.0,
+            2326.0,
+            53
+        ],
+        "do to prove these things you need to make a claim claim what you what you expect the algorithm to do. So I expect the algorithm to return a sorted list containing all the elements from from my device. So let's do the proof by induction on the 10, which is the total input size. Okay, so we're going to have and be equal to k + Al. Okay bass ": [
+            2137.6,
+            2161.9,
+            49
+        ],
+        "down as let's say this is the first the first level second level third level what if we go down to like the cave level? She event is going to be equal to 2 to the k. T of n over to the k+ kcn so how big does pee have to be in order for me to reach my bass case log base 2 event Okay, so then. I ": [
+            3665.3,
+            3706.2,
+            84
+        ],
+        "equal to merge sort. A1 sewer 7 a.m. Plus one through a n similarly L2 is a sordid. best of am plus one up to a n then our merge L1 L2 is a sordid. West all elements Okay this part here. What kind of piggybacking on the the correctness of armors we've already proved its correctness. So now we can use it for free as a subroutine in any ": [
+            3242.9,
+            3300.3,
+            73
+        ],
+        "guess that's kind of bring some over here. So we go down to the log base 2 of n level and we get T of n is equal to 2 to the log base 2 of n T of n over to the log base 2 of end + log base 2 of n x c x n to the log base 2 of and is just n Sorry, I ": [
+            3706.2,
+            3741.2,
+            85
+        ],
+        "if B1 and B2 are both. nonzero Wright or how do I say that? I just say B1. B2 is not equal to zero zero. Let's say it like that, right? Then you know for sure that there is no occurrence starting at be one, right? So all the occurrence have occurrences have to start from B to onward basically exactly what you expect this thing. output Got any questions ": [
+            1133.4,
+            1177.3,
+            29
+        ],
+        "in the case for recursive algorithms, it's if your input decreases Buy more than one. in the recursive call then we're going to see an example when we need to use strong induction. Okay, so the overall structure of the proof is going to be prove that the album is correct on inputs of size and by the induction on the size of the input notice how that different than ": [
+            709.9,
+            749.0,
+            16
+        ],
+        "in the values for merge sort. What do you get from here? Okay. See you guys on Monday. UC San Diego podcast. EDU ": [
+            4321.9,
+            4347.6,
+            98
+        ],
+        "induction when it's appropriate, but it wouldn't be wrong to you all the time. Okay, so what's up? Let's prove this by strong induction base case supposed to end in 0. Suppose I miss one. And is zero then we returned the empty list, which is trivially sorted if n is one then we returned just the first element or just the only element which is also truly sorted. Okay. ": [
+            2987.2,
+            3026.9,
+            68
+        ],
+        "into how it works. And sometimes lead to more efficient algorithms. Also, this is the part. I like the most the correctness proofs are a lot easier for recursive algorithms because you don't have to come up with a loop invariant anymore. There is no Loop. You basically just run an induction on what the algorithm is supposed to do. And you'll see that in a minute. In fact induction ": [
+            626.1,
+            654.3,
+            13
+        ],
+        "is equal to T of N - 1 + C Prime for some constant this look familiar at all. To say it's almost exactly the same right? So what is the solution to this recurrence work a recurrence equation? Should have put all of the above here, right? Okay, that's the right answer all of the above. Really? The best thing to say, is that t of n is Big ": [
+            2470.2,
+            2540.2,
+            58
+        ],
+        "is that they are constants. Okay. Let's look at another problem merging sorted lists. If I'm if I give you two sorted lists. A1 through AK and B1 for BL We're going to try to do is produce a sorted list of length K plus a cell that contains all of their Elements, which of the following could be the first element of the output. Or another Words, which of ": [
+            1723.8,
+            1760.0,
+            42
+        ],
+        "is we're starting from 0 and 1 and building your input size. Yeah. Well, I guess we have to be a little bit careful here. We are assuming that it does what it's supposed to do for all inputs of size k And then we show that it does what it's supposed to do on an input of size k + 1. I am so then that that's the link ": [
+            1233.2,
+            1266.7,
+            31
+        ],
+        "it and 5 want to call it to squared. And this is going to be + CN. Okay, let's clean that up a bit and we get two squared T of M over 2 squared + 10 + 10 Text of this is kind of like the first level II level. What's the third level? Tia van is 2 squared. Replace T of n over 2 squared with two t ": [
+            3573.4,
+            3616.8,
+            82
+        ],
+        "it start with zero here we're going to do the same thing except for we're going to say does it start with 0 0 or not? Okay. so let's think about what are the what are the cases? Okay, if it starts with 0 0 Turn 1 + the recursive call starting at 2 up to end this should also be like that. Okay, so that one is because of ": [
+            473.5,
+            510.9,
+            9
+        ],
+        "it up into the case of my string starts with 0 0 and it doesn't start with 0 0 and for each one of those you convert the recursive call into what you expected the output. So in this case, we're going to convert the recursive call into the actual number of occurrences of 00. And then and then you just kind of work through it. Okay. So let's prove ": [
+            857.0,
+            885.7,
+            21
+        ],
+        "it, if you don't have it shrinking every time then your algorithm will go on forever. Yeah, and so now I fixed it. Is it okay? Okay, so often times. Just like when we did recursive counting, we want to sort a split the set into two different things right remember when we tried to count these things we split it up into does it start with one or does ": [
+            436.4,
+            473.5,
+            8
+        ],
+        "just as we did before. Kind of go through the algorithm and at every recursive call replace it with what you expect the algorithm to do. What do we expect algorithm to do is to return a sorted list? Okay, so then see if that helps. okay, so since an is greater than 1 I was going to do this one. wait, this is a hold on a second. Aren't ": [
+            3062.3,
+            3134.8,
+            70
+        ],
+        "kind of where where it goes down is that Mainly all I say almost all divide and conquer algorithms will have a run time that follows this exact form where you can change out a B&G now the master theorem. says that if you have a a a and a b and the time it takes to combined is Big O of n to the D. then depending on how ": [
+            4248.6,
+            4294.3,
+            96
+        ],
+        "less than or equal to be one. Okay, so that means we go into this first. Conditional and we returned A1 concatenated with our merge of the rest, but the size of this input. and -1 elements so we can be sure that it will output a sorted list. What else do we know we know that a one is less than everything in that sorted list. So if we ": [
+            2326.0,
+            2359.4,
+            54
+        ],
+        "like a rule. Okay, let's move on to merge sort. How does this work? We split into two groups organized each of the groups then get back together and figure out how to enter leave the groups in order. Now. We know how to enter leave. That's this our merge thing that we just talked about. So I think the only kind of mystery here is how do you organize? ": [
+            2625.4,
+            2650.6,
+            61
+        ],
+        "many occurrences are in V2 through bien and similarly for if they're not 00. Okay, so as we've seen right here. This this particular problem can be solved with an iterative algorithm or recursive algorithm. And honestly, they're not really that much different and what they're doing. They're both kind of going through the list and finding these things as you go but describing sometimes can give us new insights ": [
+            587.4,
+            626.1,
+            12
+        ],
+        "n Okay, Space Case. The bass cases are usually just the base cases of the recursion themselves and you just have to give a short argument of why the bass cases satisfy the the problem specification. Okay, and you say something like the algorithm is correct on all inputs of size K or size up 2K if using strong induction and then you say show that the algorithm is correct ": [
+            772.8,
+            804.0,
+            18
+        ],
+        "of an over to cubed. Plus C and over 2 squared. + CN + CN Same thing you got a two squared times of seeing over to square that just gives you a CN and you clean this up and you get to cubed T of n / 2 cubed. plus Cien por ciento Sienna's + 3 CN Right, so you guys see the pattern happening? What if we go ": [
+            3616.8,
+            3665.3,
+            83
+        ],
+        "of jumped the gun here before and that's big Theta of and login and that's where that comes from. turns out that This is the fastest sorting algorithm. asymptotically that we have I guess there's a few caveats that I should say. This is the fastest sorting algorithm most efficient sorting algorithm. If you know nothing about your input, right if it if there's nothing no kind of clues about ": [
+            3782.8,
+            3821.8,
+            87
+        ],
+        "on any input of size K plus one. That's the inductive step and And then after that you're done, you don't have to do any conclusion anymore. You basically just proving the correctness of the algorithm directly using induction. Okay. so inside of the inductive step What do you want to do? You basically want to keep in mind what you expect the algorithm to do. Okay, so Express with ": [
+            804.0,
+            833.8,
+            19
+        ],
+        "on the input like the algorithm is correct for all inputs of any length. Okay, so I don't know maybe you guys what are you guys like better Loop invariants or this? Neither. Yeah. Oh well. Okay, let's talk about run time. How long is this algorithm take? So remember what we did with the loop invariant once or the I mean Scooby the iterative wants through and Justified like ": [
+            1297.7,
+            1330.7,
+            33
+        ],
+        "one time, right? then this part well, it takes however long it takes to do that the the algorithm however long it takes to do the algorithm you see what the problem is here. However long it takes to do the algorithm is based on however long it takes to do the algorithm. Stop, that's kind of. A problem that you can't just do it like we did it before. ": [
+            1358.8,
+            1399.1,
+            35
+        ],
+        "or just the only element otherwise set em to be the floor vent over to right that's going to be kind of the place that you cut in half. Merge sort each half the first half and the second half right the left. half and the right half then when you call merge sort on these things, they should be sorted right so L1 and L2 R2 sorted list, so ": [
+            2742.3,
+            2775.6,
+            64
+        ],
+        "or whatever variable you want to use. Your algorithm on that size of an input works. And what do I mean by works will just replace it with whatever you expect it to do an ISO count double rack B12. BK will output the number of places the substring 00 occurs. Now inductive step. We want to show that on some input of length K plus one. It works also. ": [
+            989.3,
+            1018.9,
+            25
+        ],
+        "other Alro. any questions All right and greater than one. Thank you. Okay. So what I want you to get out of this the whole point of these kind of recursive algorithms when you're building them when you're proving them it all comes down to Faith. Do you have faith your algorithm will work in the end? Cuz if you do then you can use it inside of your algorithm. ": [
+            3300.3,
+            3348.4,
+            74
+        ],
+        "out from that Okay. Is anybody have a Algorithm they like to share. the remainder of the remaining elements Good. Yeah, right and then if a is a smaller you concatenate it with the recursive call of the remaining elements. Sure. Yeah. Right because it's already sorted maybe something like this. Right. If the first list is empty then returned be one through b l a second list is empty ": [
+            1964.8,
+            2067.5,
+            46
+        ],
+        "over with your neighbor. Okay, I guess we're getting somewhere. Is that what you guys thought? K questions about strong induction the only reason to ever use strong induction is when you're a recursive call or you're right, I guess for the recursive algorithm says when you recursive call the input size is less than -1, which means that you can't just go one step up right remember regular induction ": [
+            2850.5,
+            2945.2,
+            66
+        ],
+        "problem into a sub problems each of size and Overby. I recursively salt eats a problem. and then let's say that the Conqueror step takes G of n time then which one will be a recurrence 40 again? You see that it's just you then. Okay. Did you guys all click in WoW? Maybe this is one that you guys should talk about. Talk about it a minute. See if ": [
+            3954.8,
+            4033.3,
+            92
+        ],
+        "prove the correctness. What do you say? I guess before we do that for me personally. I like this a lot better than doing the iterative one where you have to kind of like move the indices. You know what I'm talking about, I guess. But whatever way you know. I think this is more straightforward. It's easier to prove to at least for me. Okay. So remember what to ": [
+            2108.3,
+            2137.6,
+            48
+        ],
+        "ran out of room here. This whole mess in here is just one, right. Satya want to see one so we have end times C1 + C + log base 2 of end. So this is how many iterations at two are swimming how many operations it takes? Hey this I have a more kind of. Maybe a nicer looking thing here. Okay, so this is good. Oh, I kind ": [
+            3741.2,
+            3782.8,
+            86
+        ],
+        "relations already? So recurrent recursive algorithms kind of like that. You saw the same problem by successfully successively reducing it to the same problem with smaller inputs Okay, so We actually counted the number of binary strings that avoid the substring 0-0, right and we did it with this kind of recursive counting technique. So now let's think about if I have I have a string as an input binary ": [
+            67.3,
+            101.0,
+            1
+        ],
+        "return a 1/2 a k if a is less than or equal to be then concatenate a one with the recursive call. emerging those two lists otherwise concatenate be one with the recursive call of the remaining elements any questions about that. I guess if you guys I guess maybe we should do that, right? So, you know like where one list ends and the other one begins. Okay, let's ": [
+            2067.5,
+            2108.3,
+            47
+        ],
+        "see you then be the the time the album takes an input a size in then T of n is equal to T of N - 1 + some constant right in this constant takes care of like the first line and all of like the conditional statements and stuff. the base cases are that t of 0 and T of one just kicked a constant time for some constant ": [
+            1446.7,
+            1472.8,
+            37
+        ],
+        "set that equal to L1 L1 is going to be merged or A1 through a.m. I guess let's take each one individually send input of size less than and then we can use the induction hypothesis and assume that this is going to be a sorted list. So since this recursive call has less then and elements How wide is a sorted? List of A1 through a.m. Okay, al2 is ": [
+            3187.3,
+            3242.9,
+            72
+        ],
+        "size in so you see that the structures of those two things are very similar. That's why it's really nice to use induction to prove recursive algorithms. It just it just the most natural way to prove it. Okay, when should I use strong induction? Does anybody know? well If you go back more than one right, so that's kind of the rule for using strong induction. But in the ": [
+            674.4,
+            709.9,
+            15
+        ],
+        "smaller input every time it gets called the input gets smaller and smaller until it gets down to the base case and it will just output whatever the base case is. So for the for example If our input is less than 2 if it has size less than 2 then there's no way that you can have An Occurrence guy. So we'll just kind of stopped there that's going ": [
+            340.5,
+            365.6,
+            6
+        ],
+        "so now you have exactly what it should be. But really when you're talking about like the asymptotic growth. We don't really care about how long it runs on really small cases. That kind of makes sense. I don't know because When you when if n is less than 2 then you only execute this line and you don't go into the next line. It's just all that really matters ": [
+            1685.2,
+            1723.8,
+            41
+        ],
+        "so we kind of put that on there and then we build our algorithm. We build it under the assumption that is going to work. Well, right that is going to work correctly. So we build it on the faith that is going to work. Okay. So if my algorithm works correctly then if the first two bits are zero, this is really what it should output right plus however, ": [
+            560.0,
+            587.4,
+            11
+        ],
+        "string what I want to do if the number of times the substring 00 occurs or pseudocode just get have some sort of idea on how it would you implement it. Okay. Ready go. Yes. That's two. Yeah, they got to be consecutive right so. for example call now. 1 0 1 0 0 0 1 0 0 1 1 1 0 1 2-3 occurrences That makes sense. Okay, did ": [
+            101.0,
+            228.1,
+            2
+        ],
+        "sweep through. Okay. Yes. You always use the biggest woman and then you might have to if I mean if you really wanted to be specific about what the closed form is, then you would do something like this you would say. T of n is equal to D if n is equal to 0 D plus and minus one time see if n is greater than 0 write. And ": [
+            1637.8,
+            1685.2,
+            40
+        ],
+        "that allows the induction to kind of take off that implies. You can do that that implies that it works for all inputs of all sizes. Do what we want. Okay good. So we show the algorithm was correct for inputs of Link zero and one we showed if it's correct for all inputs of length K10 is correct for all inputs of blank a plus one therefore by induction ": [
+            1266.7,
+            1297.7,
+            32
+        ],
+        "that first occurrence of 00 if the first two. Bits are not 0 0 then you just returned. The recursive algorithm starting from B2. How do you come up with a recursive algorithm? One thing that's nice to do is to be clear on what you expect the algorithm to Output. Okay, so we expect this to Output the number of zeros number of sorry number of 00 occurrences Okay, ": [
+            510.9,
+            560.0,
+            10
+        ],
+        "the algorithm does in terms of the answers to the recursive calls to smaller and puts it's going to be important then inside of the inductive step kind of breakdown the algorithm. A lot of the times are going to have to break it into two cases or three cases depending on if there's like some sort of conditional right eye. For example for this example. We need to break ": [
+            833.8,
+            857.0,
+            20
+        ],
+        "the closed form doesn't have to work for 0. bus route and time C and -1 * C I was you guys. Yeah, that's okay. Because we're just really going to try to convert it into a big O form. So now we can say that t of n is Big Theta of n Which is good as long as the iterative one would have taken you just kind of ": [
+            1590.6,
+            1637.8,
+            39
+        ],
+        "the following could be the smallest element out of the mall. Okay good. So we're saying more than one which ones? A1 or B1 Like take out the stack the smallest value when you're dealing with two steps. I can either be at the bottom of the stack. Is being Bridge 2 or the bottom of this. You mean the top? Give me the top of them, right? Yeah. exactly ": [
+            1760.0,
+            1820.2,
+            43
+        ],
+        "the input from B2 through BK plus one right now replace the recursive call with what you expected to be which is going to be one plus the number of occurrences of 0-0 in B2 through BK plus one. Why am I why am I allowed to replace it with that? Right because of the induction hypothesis that that's exactly what it's saying. It's saying my algorithm will work and ": [
+            1065.2,
+            1094.0,
+            27
+        ],
+        "the list of our size and / 2. And then we have this runtime of merge, right? So basically we have two times merge sort of n / 2 + murder + how long it takes to merge two list of size and over to that. This is big Theta of an already, right? We proved that so we can kind of plug that in as some constant times and ": [
+            3463.0,
+            3496.6,
+            79
+        ],
+        "the sub problem in some way. Okay, so we have there's some more examples in the book and we might not get to the next big example, but we'll talk about it on Monday. But this is more of just a general strategy and merge sort is one algorithm that falls under it. Okay, so Let's suppose I have some general Murdock Sumi General divide-and-conquer strategy. Okay, I've divided the ": [
+            3921.0,
+            3954.8,
+            91
+        ],
+        "then the loop invariant the loop invariant algorithm you fix the size of the input and then you prove the induction of the loop, right? So this one is just for going to prove by induction on the size if I can show you my algorithm works for all inputs of size n -1. I'm going to use that to show you a bit works for all inputs of size ": [
+            749.0,
+            772.8,
+            17
+        ],
+        "this recursion algorithm. Correct. The goal is to prove that for any string if you like it like this. count double Rec I'll be want to be in is the number of places the substring 00 occurs. The overall structure is proving this claim by induction. so what's the base case? or base case is right when n is equal to 1 or any is equal to 0, right? What's ": [
+            885.7,
+            928.3,
+            22
+        ],
+        "to be our base case. Okay, otherwise question or comment? Like B1 Olcott,.... Looks like you you're passing all the characters separately. instead of that one entire stream Yeah, kind of me being. sort of careless with the pseudocode What does that make you happier? It's just one eight. You could even think about it as like a list. Cuz I'm not. well if you Even if you don't have ": [
+            365.6,
+            436.4,
+            7
+        ],
+        "to be the induction step? What's going to be the thing we want to prove in the induction step? Okay good. Armored of a 1/2 a KB 1/3 b l whenever k + L is equal to end. We want it for the total input size the sum of the two some of the can. Okay good. Alright, let's move on. So the induction hypothesis, we assume the album is ": [
+            2204.2,
+            2262.0,
+            51
+        ],
+        "to to run? Well, if TN is the time it takes armored on an input a total size in. Then we have one recursive call. It looks like there's two but really were only doing one or the other right? So you're really doing one recursive call every time or you're getting down to the base case. So really you have t of zero is some constant c t event ": [
+            2444.1,
+            2470.2,
+            57
+        ],
+        "truly output that number. Okay, and then the last line is to just kind of say any words why that is the actual number. Well, we have one occurrence of 00. That's the one and the number of occurrences in the rest. That's that's exactly what we have. Any questions about that first part? Okay, go second part is just as easy or easier. Well we have this is basically ": [
+            1094.0,
+            1133.4,
+            28
+        ],
+        "up, the bass case of the induction is usually the base case of the recursion. So if n is less than 2 + a 0 and his one to give like a small statement about why what it outputs follows the actual problem specification. So if n is 0 the only input of the empty string the empty string has no occurrences of 00 tortured output 0, which it does ": [
+            928.3,
+            954.3,
+            23
+        ],
+        "up? It's kind of I don't know if that. I don't know if you kind of understand what I'm saying, but you'll see it happen again where the best way to analyze these algorithms is only to go one step in. Okay, so let's look at the runtime. So mergesort we have a bunch of Constant time things right? And then we have two recursive calls. So two calls both ": [
+            3425.7,
+            3463.0,
+            78
+        ],
+        "want to sort it. This is the most efficient. Okay. This was a lot of work right doing all of the recursion stuff. So what we're going to do is develop a trick or a rule so that we don't have to deal with all this stuff anymore. It's called The Master theorem. Oh, that's just kind of shows you how much bigger and squared is than n login. So ": [
+            3848.9,
+            3880.0,
+            89
+        ],
+        "we just going to write it in kind of messed it up. spine where that happy face go Okay, so let's do it like this. So since oh shoot now. It's going to race everything. Since an is greater than zero we skip through the it those two if statements, right? Skip through two if statements and we call. merge sort of a 1 through a.m. I guess we'll let's ": [
+            3134.8,
+            3187.3,
+            71
+        ],
+        "we'll move on from there. Okay, the general divide-and-conquer strategy you divide and into a bunch of sub problems write a sub problems each of size and over be so formal short. Let's just kind of work recall. What merged what does to sub problems upsize Andover b u recursively solve each sub problem and then you conquer the problem right of size and by combining all the solutions of ": [
+            3880.0,
+            3921.0,
+            90
+        ],
+        "we're just going to go with the this as the Space Case T of one is equal to see one. Okay. Now when you unravel you plug you plug it into itself sotea then. Is equal to 2 times? Change it to Green. What is T event over to Willits to x t of n over for Frank Plus? CN / 2 actually instead of 4 I'm going to call ": [
+            3534.2,
+            3573.4,
+            81
+        ],
+        "what you're sorting if you start knowing things about your input, maybe it's close to being sorted already. Maybe it's from like a small set or like a small range of values. Maybe I don't know. Maybe it's shuffled in like a weird way. Then there might be faster sorting algorithms out there. But this one if it's just like you don't know anything about your list and you just ": [
+            3821.8,
+            3848.9,
+            88
+        ],
+        "working from the inside out and did all this multiplication and we kind of if if there were many many lines and you add up all however, many of those lines how long each one of them take. so if we try to do that with this well It's hard to get a direct answer, right? because we could say something like okay. Well this part takes big O of ": [
+            1330.7,
+            1358.8,
+            34
+        ],
+        "you can come up with a reason out your answer. Why did you choose that answer? Okay. I don't know if that really help. Okay, it should be see right. Each recursive call takes T of n Overby time you did a recursive calls. So 8 * that and then to combine them together takes + G event any questions. No, so it don't you only combining once. Do you ": [
+            4033.3,
+            4138.1,
+            93
+        ],
+        "you can plug them into merge and merge them together to get one big story of list. Got any questions about that? Okay. now I claim that this result. The result of merge sort will be a sort of list containing all elements. We're going to do proof by strong induction. Why do we need strong induction? What is the reason? Maybe this is a good one to talk it ": [
+            2775.6,
+            2850.5,
+            65
+        ]
+    },
+    "File Name": "Mathematics for Algorithms and Systems - B00 - Jones, Miles E - Winter 2019-lecture_9.flac",
+    "Full Transcript": "Listen to a podcast.  Okay.  Should we get started?  Okay, let's get started. So today.  We're going to start talking about recursive algorithms. How do you analyze them? What are we seen so far? We've seen iterative algorithms. We know how to okay, we know how to  Prove their correctness and we know how to analyze their run time. Okay, so  What is a recursive algorithm what we seen recurrence relations already? So recurrent recursive algorithms kind of like that. You saw the same problem by successfully successively reducing it to the same problem with smaller inputs Okay, so  We actually counted the number of binary strings that avoid the substring 0-0, right and we did it with this kind of recursive counting technique. So now let's think about if I have I have a string as an input binary string what I want to do if the number of times the substring 00 occurs or pseudocode just get have some sort of idea on how it would you implement it. Okay. Ready go.  Yes.  That's two.  Yeah, they got to be consecutive right so.  for example  call now.  1 0 1 0 0 0 1 0 0 1 1 1 0 1  2-3 occurrences  That makes sense.  Okay, did anybody have an iterative algorithm to do it?  Do it look anything like this.  Does anybody have a want to share like a different iterative algorithm?  How did what is this doing?  You you have some variable count that you're going to update its going to increment every time you find a 0-0 and how are you going to search for them? He's just going to start from the left and go to the right, right?  So I'm going to iterate from  one up 2 N -1  and every iteration  I'll check to see if there are two zeros in a row and if there are you in Kermit the count and if not, then you just continue.  Yeah, that's two occurrences.  And that will that will count it as two.  Okay, so but we're not going to do it about rhythms. Did anybody come up with a recursive algorithm to do it?  That's what we're going to look at next.  Think of one. Okay, let's look at one together. Okay, recursive algorithms are algorithms that call themselves. Okay, so you usually need some sort of base case because what's going to happen is you call the algorithm on a certain input and then the recursive call is on a smaller input every time it gets called the input gets smaller and smaller until it gets down to the base case and it will just output whatever the base case is. So for the for example  If our input is less than 2 if it has size less than 2 then there's no way that you can have An Occurrence guy. So we'll just kind of stopped there that's going to be our base case.  Okay, otherwise question or comment?  Like B1 Olcott,.... Looks like you you're passing all the characters separately.  instead of that one entire stream  Yeah, kind of me being.  sort of  careless with the pseudocode  What does that make you happier?  It's just one eight. You could even think about it as like a list.  Cuz I'm not.  well if you  Even if you don't have it, if you don't have it shrinking every time then your algorithm will go on forever.  Yeah, and so now I fixed it. Is it okay?  Okay, so often times.  Just like when we did recursive counting, we want to sort a split the set into two different things right remember when we tried to count these things we split it up into does it start with one or does it start with zero here we're going to do the same thing except for we're going to say does it start with 0 0 or not? Okay.  so  let's think about what are the what are the cases? Okay, if it starts with 0 0  Turn 1 + the recursive call starting at 2 up to end this should also be like that.  Okay, so that one is because of that first occurrence of 00 if the first two.  Bits are not 0 0 then you just returned.  The recursive algorithm starting from B2.  How do you come up with a recursive algorithm?  One thing that's nice to do is to be clear on what you expect the algorithm to Output. Okay, so we expect this to Output  the number of zeros  number of sorry number of 00 occurrences  Okay, so we kind of put that on there and then we build our algorithm. We build it under the assumption that is going to work. Well, right that is going to work correctly. So we build it on the faith that is going to work. Okay. So if my algorithm works correctly then if the first two bits are zero, this is really what it should output right plus however, many occurrences are in V2 through bien and similarly for if they're not 00.  Okay, so as we've seen right here.  This this particular problem can be solved with an iterative algorithm or recursive algorithm. And honestly, they're not really that much different and what they're doing. They're both kind of going through the list and finding these things as you go but describing sometimes can give us new insights into how it works.  And sometimes lead to more efficient algorithms. Also, this is the part. I like the most the correctness proofs are a lot easier for recursive algorithms because you don't have to come up with a loop invariant anymore. There is no Loop. You basically just run an induction on what the algorithm is supposed to do.  And you'll see that in a minute.  In fact induction and recursion are almost the same thing induction is a proof strategy where you start with a base case and you show how to prove the statement is true about nplusone. If you know, it's true for n whereas recursion you solve a problem where you give the base case and you show how to solve the problem of size n plus one. Assuming you can sell it for a size in so you see that the structures of those two things are very similar. That's why it's really nice to use induction to prove recursive algorithms.  It just it just the most natural way to prove it.  Okay, when should I use strong induction? Does anybody know?  well  If you go back more than one right, so that's kind of the rule for using strong induction. But in the in the case for recursive algorithms, it's  if your input  decreases  Buy more than one.  in the recursive  call  then we're going to see an example when we need to use strong induction.  Okay, so the overall structure of the proof is going to be prove that the album is correct on inputs of size and by the induction on the size of the input notice how that different than then the loop invariant the loop invariant algorithm you fix the size of the input and then you prove the induction of the loop, right? So this one is just for going to prove by induction on the size if I can show you my algorithm works for all inputs of size n -1. I'm going to use that to show you a bit works for all inputs of size n  Okay, Space Case. The bass cases are usually just the base cases of the recursion themselves and you just have to give a short argument of why the bass cases satisfy the the problem specification.  Okay, and you say something like the algorithm is correct on all inputs of size K or size up 2K if using strong induction and then you say show that the algorithm is correct on any input of size K plus one. That's the inductive step and  And then after that you're done, you don't have to do any conclusion anymore. You basically just proving the correctness of the algorithm directly using induction.  Okay.  so inside of the inductive step  What do you want to do? You basically want to keep in mind what you expect the algorithm to do. Okay, so Express with the algorithm does in terms of the answers to the recursive calls to smaller and puts it's going to be important then inside of the inductive step kind of breakdown the algorithm. A lot of the times are going to have to break it into two cases or three cases depending on if there's like some sort of conditional right eye. For example for this example. We need to break it up into the case of my string starts with 0 0 and it doesn't start with 0 0 and for each one of those you convert the recursive call into what you expected the output. So in this case, we're going to convert the recursive call into the actual number of occurrences of 00.  And then and then you just kind of work through it.  Okay. So let's prove this recursion algorithm. Correct. The goal is to prove that for any string if you like it like this.  count double Rec  I'll be want to be in is the number of places the substring 00 occurs. The overall structure is proving this claim by induction.  so  what's the base case?  or base case is  right when n is equal to 1 or any is equal to 0, right?  What's up, the bass case of the induction is usually the base case of the recursion. So if n is less than 2 + a 0 and his one to give like a small statement about why what it outputs follows the actual problem specification. So if n is 0 the only input of the empty string the empty string has no occurrences of 00 tortured output 0, which it does  Similarly if n is one in the output as a single bit and it doesn't have any occurrences of 00. So you output 0, what do you return zero? So that's good to questions about that.  Okay.  Let's go into the inductive hypothesis.  Inductive hypothesis is always going to look the same. It's going to be something like  suppose that for any input of length k or a length and or whatever variable you want to use.  Your algorithm on that size of an input works. And what do I mean by works will just replace it with whatever you expect it to do an ISO count double rack B12. BK will output the number of places the substring 00 occurs.  Now inductive step. We want to show that on some input of length K plus one. It works also.  There any questions so far?  Okay.  Let's break it up into cases.  Case one you start with 0 0 now just kind of follow what would happen in that case we need is a very simple algorithm. The only the only thing that's going to happen is that you return OnePlus this recursive call.  This is this case here.  Okay. So this the original input from B12 BK outputs OnePlus the input from B2 through BK plus one right now replace the recursive call with what you expected to be which is going to be one plus the number of occurrences of 0-0 in B2 through BK plus one. Why am I why am I allowed to replace it with that?  Right because of the induction hypothesis that that's exactly what it's saying. It's saying my algorithm will work and truly output that number.  Okay, and then the last line is to just kind of say any words why that is the actual number. Well, we have one occurrence of 00. That's the one and the number of occurrences in the rest. That's  that's exactly what we have.  Any questions about that first part?  Okay, go second part is just as easy or easier. Well we have this is basically if B1 and B2 are both.  nonzero Wright  or  how do I say that?  I just say B1. B2 is not equal to zero zero. Let's say it like that, right?  Then you know for sure that there is no occurrence starting at be one, right? So all the occurrence have occurrences have to start from B to onward basically exactly what you expect this thing.  output  Got any questions about that?  Don't say that white P1.  B1  oh, okay. Yeah, so this is a good  This is what distinguishes proving recursion algorithms verses proving iterative algorithm recursive algorithms on the size of the input.  So if my input is only one character.  Then I return 0.  Whereas in the iterative algorithm you kind of had to start from the iterations and build your way up to end. This one is we're starting from 0 and 1 and building your input size.  Yeah.  Well, I guess we have to be a little bit careful here. We are assuming that it does what it's supposed to do for all inputs of size k  And then we show that it does what it's supposed to do on an input of size k + 1.  I am so then that that's the link that allows the induction to kind of take off that implies. You can do that that implies that it works for all inputs of all sizes. Do what we want.  Okay good.  So we show the algorithm was correct for inputs of Link zero and one we showed if it's correct for all inputs of length K10 is correct for all inputs of blank a plus one therefore by induction on the input like the algorithm is correct for all inputs of any length.  Okay, so I don't know maybe you guys what are you guys like better Loop invariants or this?  Neither. Yeah.  Oh well.  Okay, let's talk about run time. How long is this algorithm take?  So remember what we did with the loop invariant once or the I mean Scooby the iterative wants through and Justified like working from the inside out and did all this multiplication and we kind of if if there were many many lines and you add up all however, many of those lines how long each one of them take.  so if we try to do that with this well  It's hard to get a direct answer, right?  because we could say something like  okay. Well this part takes big O of one time, right?  then  this part well, it takes however long it takes to do that the the  algorithm  however long  it takes  to do  the algorithm  you see what the problem is here.  However long it takes to do the algorithm is based on however long it takes to do the algorithm.  Stop, that's kind of.  A problem that you can't just do it like we did it before.  So instead what we're going to do is do kind of what we do when we were counting with recursions and just call it something let's say that the algorithm takes tea event operations.  on any input of size n  Then how many operations does it do on an input of size and -1?  given - 1  Okay, now you can sort of see where this is going.  Okay, let's see you then be the the time the album takes an input a size in then T of n is equal to T of N - 1 + some constant right in this constant takes care of like the first line and all of like the conditional statements and stuff.  the base cases are that t of 0 and T of one just kicked a constant time for some constant d  So now we have a recurrence relation that we know how to solve.  So this is going to be a recurrence relation remember for a recurrence relations. We need a base case and a recurrence. So we have everything.  So why don't you guys take a few minutes solve this recurrence ready? Go?  So what are you guys got anybody have an answer?  No.  Doesn't have to work that the closed form doesn't have to work for 0.  bus route and time C  and -1 * C  I was you guys.  Yeah, that's okay.  Because we're just really going to try to convert it into a big O form. So now we can say that t of n is Big Theta of n  Which is good as long as the iterative one would have taken you just kind of sweep through.  Okay. Yes.  You always use the biggest woman and then you might have to if I mean if you really wanted to be specific about what the closed form is, then you would do something like this you would say.  T of n is equal to D if n is equal to 0  D plus and minus one time see if n is greater than 0 write. And so now you have exactly what it should be. But really when you're talking about like the asymptotic growth. We don't really care about how long it runs on really small cases.  That kind of makes sense.  I don't know because  When you when if n is less than 2 then you only execute this line and you don't go into the next line.  It's just all that really matters is that they are constants.  Okay.  Let's look at another problem merging sorted lists.  If I'm if I give you two sorted lists.  A1 through AK and B1 for BL  We're going to try to do is produce a sorted list of length K plus a cell that contains all of their Elements, which of the following could be the first element of the output.  Or another Words, which of the following could be the smallest element out of the mall.  Okay good. So we're saying  more than one which ones?  A1 or B1  Like take out the stack the smallest value when you're dealing with two steps. I can either be at the bottom of the stack. Is being Bridge 2 or the bottom of this.  You mean the top?  Give me the top of them, right? Yeah.  exactly  Okay, good. So what do we get from this we basically get a very quick way to find the first element of the list so want you to use this idea and build a recursive algorithm to solve this problem. Okay. Ready go?  yeah, you could make a little bit of algorithm to write but  I want you to think about how would you build a a recursive algorithm and I'll give you kind of a  A tip when you're building these things.  It's really helpful for you to name your algorithm because you're going to have to call it. Right so name it something.  What did I name it?  R merge  AK  B1  And then say what it's supposed to I'll put in that should help.  Think about your base cases, right? What?  What can you sort of?  figure out from that  Okay. Is anybody have a  Algorithm they like to share.  the remainder of the remaining elements  Good. Yeah, right and then if a is a smaller you concatenate it with the recursive call of the remaining elements.  Sure. Yeah.  Right because it's already sorted maybe something like this.  Right. If the first list is empty then returned be one through b l a second list is empty return a 1/2 a k if a is less than or equal to be then concatenate a one with the recursive call.  emerging those two lists  otherwise  concatenate be one with the recursive call of the remaining elements any questions about that.  I guess if you guys I guess maybe we should do that, right?  So, you know like where one list ends and the other one begins.  Okay, let's prove the correctness. What do you say?  I guess before we do that for me personally. I like this a lot better than doing the iterative one where you have to kind of like move the indices. You know what I'm talking about, I guess.  But whatever way you know.  I think this is more straightforward. It's easier to prove to at least for me.  Okay. So remember what to do to prove these things you need to make a claim claim what you what you expect the algorithm to do. So I expect the algorithm to return a sorted list containing all the elements from from my device.  So let's do the proof by induction on the 10, which is the total input size. Okay, so we're going to have and be equal to k + Al.  Okay bass case suppose and is 0 right then. Both lists are empty. So you returned the empty list and everybody's happy.  Cuz the empty list is technically a sorted list.  Okay induction step. Let's suppose that for some n  greater than or equal to one.  Are merge will successfully return a sorted list whenever k + L is equal to n minus 1.  What do we want to prove? What's going to be the induction step? What's going to be the thing we want to prove in the induction step?  Okay good.  Armored of a 1/2 a KB 1/3 b l whenever k + L is equal to end. We want it for the total input size the sum of the two some of the can.  Okay good.  Alright, let's move on.  So the induction hypothesis, we assume the album is correct on all inputs of size and -1 now we want to show the algorithm is correct for all inputs of size in the name thing.  Okay, so  Suppose induction hypothesis, we want to show that it returns a sorted list whenever k + L is equal to end. So let's split up into two cases was empty in case to another of the list is empty.  Okay.  Now let's do case one. At least one of the list is empty for the base case. If one of the list is empty then you can put the other list it's sorted so everybody's happy, right?  pretty easy place to is when it gets a little tricky and we might have to break that up at the cases itself Caso case to  hey, neither of the laser empty and A1 is less than or equal to be one.  Okay, so that means we go into this first.  Conditional and we returned A1 concatenated with our merge of the rest, but the size of this input.  and -1 elements  so we can be sure that it will output a sorted list. What else do we know we know that a one is less than everything in that sorted list. So if we can cat made it to the front you get assorted list of everything.  Any questions about that?  Okay good. So then case to we have a 1 is greater than be one. It's basically the same thing, right?  This input has and -1 elements.  So by the induction hypothesis, you can assume the algorithm works. Then we also know since a one is greater than be one that be one.  Is less than everything. So if you take a sorted list of everything and put a smaller element in front, the whole list is sorted.  Okay.  conclusion  it works for all inputs of size n  basically by the if statement  so  basically case one case too and you'll see that that was the same thing that we did for the other algorithm.  Okay.  How long does it take to get to to run?  Well, if TN is the time it takes armored on an input a total size in.  Then we have one recursive call. It looks like there's two but really were only doing one or the other right? So you're really doing one recursive call every time or you're getting down to the base case.  So really you have t of zero is some constant c t event is equal to T of N - 1 + C Prime for some constant this look familiar at all.  To say it's almost exactly the same right? So  what is the solution to this recurrence work a recurrence equation?  Should have put all of the above here, right?  Okay, that's the right answer all of the above.  Really? The best thing to say, is that t of n is Big Theta of in right questions about that.  Because like because I was there at like Kmart.  That's part of the reason.  I mean, that's one way to think about it is that there'll be an - 1 recursive calls and each recursive call takes constant time to do.  So there's and -1 constant time things.  kinds of pens  you can you can Define some of those sorting algorithms that we did recursively and you see that those  those algorithms are going to take N squared time.  Kind of depends on what you're what you're doing inside of the recursive called.  But for these ones you like if you're only doing a constant thing inside of each.  The album only does constant stuff and a recursive call then. Yes going to be linear.  I guess you could think about that as like a rule.  Okay, let's move on to merge sort.  How does this work? We split into two groups organized each of the groups then get back together and figure out how to enter leave the groups in order. Now. We know how to enter leave. That's this our merge thing that we just talked about. So I think the only kind of mystery here is how do you organize?  Each of the groups. Well, we're just going to organize them recursively.  Okay, so merge sort is a type of algorithm called a divide-and-conquer algorithm.  Generally the idea is that you divide your input you recursively call on each.  sub input  and then you put them together in some way. So in the case of divide and conquer you divide the list into two sub list sort each sub list, and then merge them together merged assorted sub list together.  Okay, let's take a look at.  and implementation of merge sort  and I guess  you're not going to like this. So I'll put these guys on it.  I guess this is fine.  Okay, so merge sort.  You take a list.  If it has 0 elements then returned the empty list, right? If there's one element return just the first element or just the only element otherwise  set em to be the floor vent over to right that's going to be kind of the place that you cut in half.  Merge sort each half the first half and the second half right the left.  half and the right half  then  when you call merge sort on these things, they should be sorted right so L1 and L2 R2 sorted list, so you can plug them into merge and merge them together to get one big story of list.  Got any questions about that?  Okay.  now  I claim that this result. The result of merge sort will be a sort of list containing all elements. We're going to do proof by strong induction.  Why do we need strong induction? What is the reason?  Maybe this is a good one to talk it over with your neighbor.  Okay, I guess we're getting somewhere.  Is that what you guys thought?  K questions about strong induction  the only reason to ever use strong induction is when you're a recursive call or you're  right, I guess for the recursive algorithm says when you recursive call the input size is less than -1, which means that you can't just go one step up right remember regular induction assume and -1 prove n and that's fine for the ones we saw before but this one. The recursive calls are calling on list of size and mine with me and over to write and over too many elements. That's much less than + -1 normally.  Yeah, you could always use strong induction if you like. I think that it just  I guess I would use weak induction or regular induction when it's appropriate, but it wouldn't be wrong to you all the time.  Okay, so what's up?  Let's prove this by strong induction base case supposed to end in 0.  Suppose I miss one.  And is zero then we returned the empty list, which is trivially sorted if n is one then we returned just the first element or just the only element which is also truly sorted. Okay.  These are good.  Now let's go to the induction step suppose and is greater than one assumed as a strong induction hypothesis that merge sort will correctly sort all lists with K elements for nek in between 0 and less than in worth from 02 n -1.  Our goal is to prove that merge sort a 1/2 an returns a sort of list containing all the anyone. It's okay.  so  just as we did before.  Kind of go through the algorithm and at every recursive call replace it with what you expect the algorithm to do.  What do we expect algorithm to do is to return a sorted list? Okay, so then see if that helps.  okay, so since an is greater than 1  I was going to do this one.  wait, this is a  hold on a second.  Aren't we just going to write it in kind of messed it up.  spine  where that happy face go  Okay, so let's do it like this. So since  oh shoot now. It's going to race everything.  Since an is greater than zero we skip through the it those two if statements, right? Skip  through  two if statements  and  we call.  merge sort  of a 1 through a.m.  I guess we'll let's set that equal to L1 L1 is going to be merged or A1 through a.m.  I guess let's take each one individually send input of size less than and then we can use the induction hypothesis and assume that this is going to be a sorted list.  So since  this recursive  call  has  less  then and elements  How wide is a sorted?  List of A1 through a.m.  Okay, al2 is equal to merge sort.  A1 sewer 7 a.m. Plus one through a n  similarly  L2  is a sordid.  best  of  am plus one up to a n  then our merge  L1 L2  is a sordid.  West  all elements  Okay this part here.  What kind of piggybacking on the the correctness of armors we've already proved its correctness. So now we can use it for free as a subroutine in any other Alro.  any questions  All right and greater than one. Thank you.  Okay. So what I want you to get out of this the whole point of these kind of recursive algorithms when you're building them when you're proving them it all comes down to Faith.  Do you have faith your algorithm will work in the end? Cuz if you do then you can use it inside of your algorithm. Right? Do I have faith that merge sort worst will sort my list.  Sure. Well, then sort these smaller lists and then put them together and if I have faith that it will work.  kind of Magic Magical in my opinion  you can if you like you can kind of think about what happens.  As you break it up, then it gets broken up again and broken up again and broken up again and broken up again, right and keep on going down to the base cases. And that's why it's important to know that that's what it does and that's what the computer is doing. But for this class the most important thing for us is to just go back one level.  Just like this.  Meaning I'm going to break up my list.  Do the recursive calls and when I do the recursive calls, I don't want you to say it will split the list up again. I want you to say it will output a sorted list. I want you to say that it will do what it's supposed to do at the very end or else if you don't then you get kind of caught up with how when do you stop? When does it stop breaking up? It's kind of I don't know if that.  I don't know if you kind of understand what I'm saying, but you'll see it happen again where the best way to analyze these algorithms is only to go one step in.  Okay, so let's look at the runtime. So mergesort we have a bunch of  Constant time things right?  And then we have two recursive calls. So two calls both the list of our size and / 2.  And then we have this runtime of merge, right?  So basically we have two times merge sort of n / 2 + murder + how long it takes to merge two list of size and over to that. This is big Theta of an already, right?  We proved that so we can kind of plug that in as some constant times and and this is more just like approximating but we know that merge will grow at the same rate as some constant times and that's what it means to be big fat of it.  Okay. So now we have a new.  recurrence relation  Let's try to unravel this thing.  so we have t of n  Is equal to 2 T of n / 2 + C * n?  and I guess we're just going to go with the this as the  Space Case T of one is equal to see one.  Okay. Now when you unravel you plug you plug it into itself sotea then.  Is equal to 2 times?  Change it to Green. What is T event over to Willits to x t of n over for Frank Plus?  CN / 2  actually instead of 4 I'm going to call it and 5 want to call it to squared.  And this is going to be + CN.  Okay, let's clean that up a bit and we get two squared T of M over 2 squared + 10 + 10  Text of this is kind of like the first level II level. What's the third level?  Tia van is 2 squared.  Replace T of n over 2 squared with two t of an over to cubed.  Plus C and over 2 squared.  + CN + CN  Same thing you got a two squared times of seeing over to square that just gives you a CN and you clean this up and you get to cubed T of n / 2 cubed.  plus Cien por ciento Sienna's + 3 CN  Right, so you guys see the pattern happening?  What if we go down as let's say this is the first the first level second level third level what if we go down to like the cave level?  She event is going to be equal to 2 to the k.  T of n over to the k+ kcn  so how big does pee have to be in order for me to reach my  bass case  log base 2 event  Okay, so then.  I guess that's kind of bring some over here. So we go down to the log base 2 of n level and we get T of n is equal to  2 to the log base 2 of n  T of n over to the log base 2 of end  + log base 2 of n x c x n  to the log base 2 of and is just n  Sorry, I ran out of room here. This whole mess in here is just one, right.  Satya want to see one so we have end times C1 + C + log base 2 of end.  So this is how many iterations at two are swimming how many operations it takes?  Hey this I have a more kind of.  Maybe a nicer looking thing here.  Okay, so this is good.  Oh, I kind of jumped the gun here before and that's big Theta of and login and that's where that comes from.  turns out that  This is the fastest sorting algorithm.  asymptotically that we have  I guess there's a few caveats that I should say. This is the fastest sorting algorithm most efficient sorting algorithm. If you know nothing about your input, right if it if there's nothing no kind of clues about what you're sorting if you start knowing things about your input, maybe it's close to being sorted already. Maybe it's from like a small set or like a small range of values.  Maybe I don't know.  Maybe it's shuffled in like a weird way. Then there might be faster sorting algorithms out there. But this one if it's just like you don't know anything about your list and you just want to sort it. This is the most efficient.  Okay. This was a lot of work right doing all of the recursion stuff. So what we're going to do is develop a trick or a rule so that we don't have to deal with all this stuff anymore. It's called The Master theorem.  Oh, that's just kind of shows you how much bigger and squared is than n login. So we'll move on from there. Okay, the general divide-and-conquer strategy you divide and into a bunch of sub problems write a sub problems each of size and over be so formal short. Let's just kind of work recall. What merged what does  to sub problems  upsize  Andover b u recursively solve each sub problem and then you conquer the problem right of size and by combining all the solutions of the sub problem in some way.  Okay, so we have there's some more examples in the book and we might not get to the next big example, but we'll talk about it on Monday.  But this is more of just a general strategy and merge sort is one algorithm that falls under it. Okay, so  Let's suppose I have some general Murdock Sumi General divide-and-conquer strategy.  Okay, I've divided the problem into a sub problems each of size and Overby.  I recursively salt eats a problem.  and then  let's say that the Conqueror step takes G of n  time  then which one will be a recurrence 40 again?  You see that it's just you then.  Okay. Did you guys all click in WoW?  Maybe this is one that you guys should talk about.  Talk about it a minute. See if you can come up with a reason out your answer. Why did you choose that answer?  Okay.  I don't know if that really help.  Okay, it should be see right.  Each recursive call takes T of n Overby time you did a recursive calls. So 8 * that and then to combine them together takes + G event any questions.  No, so it don't you only combining once.  Do you do all the recursive calls right get all that information then you combine them all together?  Like for example for merge sort you do the 2 recursive calls, right? You get your information then you do one combining thing. You called merge only once  That makes sense.  As2 former store and B is also too.  And Giovanna is and or Beethoven.  That kind of makes sense now.  They call those combining that you're doing within each recursive call. That's like all packed into the T of n over be right that kind of includes all of that stuff that you're doing within each recursive call.  But then once you've done all of that stuff, then you can start kind of putting them together.  Okay.  So I think we should just end on the master theorem.  Okay.  so this is really kind of where where it goes down is that  Mainly all I say almost all divide and conquer algorithms will have a run time that follows this exact form where you can change out a B&G now the master theorem.  says  that if you have a a a and a b and the time it takes to  combined is Big O of n to the D.  then  depending on how a relates to be to the D. You have one of three options.  Okay, so  I kind of think we might be moving a little bit faster than the other class. So this might be a good time to stop. So on Monday unpack this for you and give you a reason for it. But what I would like for you to do is see what happens when you plug in the values for merge sort. What do you get from here?  Okay. See you guys on Monday.  UC San Diego podcast. EDU "
+}

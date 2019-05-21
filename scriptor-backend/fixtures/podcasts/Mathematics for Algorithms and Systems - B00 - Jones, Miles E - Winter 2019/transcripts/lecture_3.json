@@ -1,0 +1,501 @@
+{
+    "Blurbs": {
+        "2 corner swaps Okay, so you divide out by these just like we were dividing out by the categories, right? These are kind of like the things that you can't do and so you multiply them all together and divide it out knowing that information. I don't expect you to know that I mean I had to look it up right it's not That kind of thing is not really ": [
+            592.3,
+            621.2,
+            12
+        ],
+        "6, so this is 0 1 2 3 4 5 6 right. This is 6206 choose 1 6 shoes 2. Naked 15 so you can do that for any of the things and you always get it. That's right. Biggest value happens when K is in over two and you can think why is that the case while it's cuz you get the most variation right? If you kind of ": [
+            3215.4,
+            3253.5,
+            78
+        ],
+        "I need to tell you what is a binomial coefficient, right? What is a binomial coefficient does anybody know? Right exactly. Is that weird thing that thing right there? It's called n choose K. But another name for it is a binomial coefficient. I'll be interchanging those two different terminologies. Okay, so we've seen identities before mainly in like calculus or algebra or all these kind of things right and ": [
+            2263.9,
+            2309.9,
+            54
+        ],
+        "K ones in total. How about that? Maybe this will help if I wrote it like this zero. Right. There's an there. And how many ones do I want to be in that region of n? could be N choose K. Good any questions about that? Okay, let's put it all together. And plus one choose K is equal to and choose K - 1 + n choose K. Don't ": [
+            2868.3,
+            2921.5,
+            70
+        ],
+        "Listen to a podcast. Good evening, everyone. How's it going? Yeah. Okay. Alright, let's call this. fix fix density strings Okay, so Let's get started here. So we're going to continue with counting today. and the material we go over today is greatly going to help you with the homework and you're I hope that some of you had like redhead in the book and sort of understood and and ": [
+            1.9,
+            92.4,
+            0
+        ],
+        "Okay, so The idea is we want to count how many length and binary strings contain exactly K ones for the density of the number of ones. Okay. So for example of an is 6 + K is for which of these strings matches this example? Can I see her? Okay good. So notice I'm saying lexan. K ones okay good solanke 6 with K ones now, let's move on. ": [
+            654.0,
+            709.3,
+            14
+        ],
+        "Okay, so if I wanted to use the product rule I might run into some difficulties, right and you guys may have encountered this type of thing happening when you were trying to count certain things. So if I tried to do it, I would say, okay. How many options do I have for my first bit? It could be either a zero or a 2-0 or one so there's ": [
+            710.3,
+            733.0,
+            15
+        ],
+        "Okay. Ready go. Or one of you could write out all the sets of one and then your neighbor could write two sets of the other and then you can put them together and see if you can get them to match up in some. We wanted matching up in some sort of like way. That makes sense. But if you Just take a few minutes to kind of think ": [
+            1700.2,
+            1745.2,
+            41
+        ],
+        "Suwannee as one and then as you go up a savanna is equal to a 7 - 1 + 10 so What is the closed form of this recursion and we're going to get really good at doing these? I just want you to watch you guys to think about it first closed form means that it's not in the recursive form anymore. It's just like one thing that you ": [
+            3895.0,
+            3928.7,
+            96
+        ],
+        "That's this identity. Let's look at it. Okay. So each what each one of these regions think about it as and choose K. Okay, so we going down this way. MK going this way. Okay, so what's 020? What's 1 shoes? 01. What's 2 choose? 0 1 3 2 0 4 2 0 2 0 is always equal to 1 and why is that it's because there's only one way ": [
+            3000.2,
+            3045.9,
+            73
+        ],
+        "There's three positions, right because Each corner piece has three colors so you could you could have it in three different orientations. three orientations her corner peace So that's where you get 3 to the 8 because there's three orientations for each one. So by the product rule for multiplying all together. Okay, then. So you stay then there are. How many of these pieces? Please a darker pink. How ": [
+            308.4,
+            365.0,
+            5
+        ],
+        "We're not going to I'm not going to write them in on this fine. But I just want somebody to tell me what each one of these things to count. So what is this one count? Can you ready just say it in words? Write the number of length and binary strings that that have K - 1 ones and the other one is the number of length and binary ": [
+            2616.3,
+            2639.3,
+            64
+        ],
+        "about it. It might. You might kind of pop out once you stare at it for long enough. Hey, you got the Superman. Yes, typo. That's all you guys off. Sorry. How many 4 element subsets are there one? Sorry about that. Are these the ones that you guys got? How'd you guys Parramatta? So you do it by positions, right good? I just I actually put them up in ": [
+            1745.2,
+            1888.5,
+            42
+        ],
+        "and onto and these are all finite sets. So you have to worry about the infinite set thing. So one to one and onto means it's a one-to-one correspondence. You're basically pairing up something from one set and something from the other set and if they're if they're the same amount on each side that they're all going to be paired up with exactly one of the thing. Okay. So ": [
+            1648.6,
+            1671.7,
+            39
+        ],
+        "and you need a base case to start. Here are a few recursively defined functions. There's a Fibonacci numbers. The nth Fibonacci numbers just the sum of the previous two. There's factorials, right and factorial is just n x + -1 factorial. I mean we could we could just find them in a different way. But this is a way to define the recursively. summation of integers we have a ": [
+            3859.6,
+            3895.0,
+            95
+        ],
+        "apart and put it back together in order to get that into order to get the number of different orientation. Number of different combinations that you can actually do. What you need to do is okay. So we have this number here. 3 to the 8 * 12 factorial to to the 12u to divide this number by 12 and don't really worry about the reasoning behind that that has ": [
+            409.9,
+            442.0,
+            7
+        ],
+        "as counting disjoint sets And these things are like or right? Then really what you're counting is the number of length in binary strings with 0 ones plus the number of binary strings with 1 1 2 1 2 3 1 4 1 5 1 any number of ones? Right. So you're basically just counting all length and binary strings, right? And how many of those are there? Go to ": [
+            3700.0,
+            3738.3,
+            91
+        ],
+        "at this one. I'm going to mess it up really good. I don't know. anyhow I had it all solved. You saw when I brought it in here. So I saved it for you guys so that now it probably will never be back to a cube again. Everybody saying be cuz it's the most complicated looking thing, right? Sorry continue. Yeah, so that's kind of. The difference right? Are ": [
+            135.6,
+            187.5,
+            2
+        ],
+        "but now we're going to prove it. Okay. I dare you to try to prove this algebraically. It's a mess. I'm telling you. Write for one you have to deal with factorials fractions of factorials all this kind of stuff. And then for two, it's a summation which means that in order to prove it in general. You have to prove this whole big thing and mix everything together. I'm ": [
+            3558.4,
+            3589.5,
+            87
+        ],
+        "but you know what? I mean, they're counted by the same sequence. Any questions or comments? Okay, so now you know how to count subsets. That's good. Okay, so so when I'm thinking about these Fix density binary strings how many length in binary strings contain K ones you can think about it as out of all the positions of my binary strings. How many ways can you choose K ": [
+            1953.1,
+            1995.1,
+            45
+        ],
+        "can actually do it. So it might be a good exercise to kind of see what they are. Okay, so in general if I want to find the number of length n bit strings with exactly K ones right? Then the number of labeled bit strings is n factorial and the size of each category is going to be K factorial * N - K factorial K factorial is the ": [
+            1325.6,
+            1355.4,
+            30
+        ],
+        "can just plug in the numbers, right? If I just gave you the recursive form in order to find out what is of 100 was you have to do 100 steps, right? But if you had the clothes for and you can just plug in 100. Looking good. Okay, I think I'm going to leave you guys with that thought. Whatever you picked, maybe take the next few days to ": [
+            3928.7,
+            3965.9,
+            97
+        ],
+        "choose K is equal to n choose K - 1 + n choose K. So I'm going to have you guys do this as an exercise on your own. At home, if you want you don't have to do it. I'm just saying if you want to then it's a it's a good algebraic exercise, but it's not really going to help you with counting. Right and it's not really ": [
+            2540.5,
+            2564.3,
+            62
+        ],
+        "cuz now I know exactly how you got there. Okay suppose I'm doing you're doing a group project with 20 people. You must pick a team leader ascribe a Treasurer and a presenter. How many ways can you do this? Par20, for right? Which is equal to 20 factorial divided by 16 factorial which is equal to what? 20 choose 4 * 4 factorial Okay suppose you're doing a group ": [
+            2146.3,
+            2186.8,
+            50
+        ],
+        "does the job but I claim that it doesn't really shine any light on a why I don't have a good feeling of why after I do this, all I'm doing is following rules of arithmetic the combinatorial proof. Usually it'll kind of shed light on why it gives you more of an an idea why thank so. So that's the proof one. Okay, so the combinatorial proof the way ": [
+            2387.2,
+            2416.9,
+            57
+        ],
+        "don't have any more choices, but it depended on what my choices were to begin with. So so one way around this is to make a tree diagram. Okay, so you can kind of start here and this will be my first bit. See there is zero or one right and how about my second bit? It also be a 0 or 1. 0 or 1 right? And third and ": [
+            764.7,
+            802.1,
+            17
+        ],
+        "each of the 20 people are standing in a row and you say the four people that are going step forward right? Then you can read a binary string by the people who step forward are ones and the people that didn't step forward or zeros. And so that's a and length binary string with exactly 4 ones. I want to challenge you to when you're thinking about these combination ": [
+            2211.2,
+            2234.5,
+            52
+        ],
+        "factorial buddy have any comments or explanations for that. What do you mean fixing? You mean like for it to figure out? Call things. Cuz he can the homework like this emphasizes to text Pacific bottles. This is not like that. Exactly. So you use the product rule how many ways you can arrange the ones how many ways you can arrange this year us? 4 factorial ways to arrange ": [
+            1192.5,
+            1253.9,
+            27
+        ],
+        "for each one of those combinations, right? And you put it up you put each one on the ground, right then it would cover the surface of the Earth. 275 X so you would have a 275 height wall of or she'll of Rubik's Cubes going around the earth that just kind of tells you how many there are pretty crazy, huh? That's a really that's a lot. But I ": [
+            473.0,
+            514.2,
+            9
+        ],
+        "fourth and you guys can build out this triangle. Then the number of Scooby this tree. The number of leaves of the tree is the number of different possibilities. I'm not going to finish the triangle you guys can do it as exercise if you want, but we're going to find a much more clever way to count them. No, maybe it is good to do the triangle. No, cuz ": [
+            802.1,
+            840.4,
+            18
+        ],
+        "from that. Okay. So as you're going to see when we do these counting things you probably already seen this as you're working on it. Is that different Expressions May count many different things right? Maybe it counts the number of words or maybe it counts the number of hand or maybe it counts the number of permutations, right? But maybe it's the same expression. So what we're going to ": [
+            1523.3,
+            1557.5,
+            35
+        ],
+        "go on a field trip. How many ways can I do this? 139 choose 7 right Does it matter which order I pick them know? They're just all coming. Okay, what if I pick 7 people from this class and each one will go on a field trip with me on a different day of the week. How many ways can I do this? Multiply that by 7 factorial. Is ": [
+            2029.3,
+            2074.0,
+            47
+        ],
+        "go to either end, you don't really have many ones to play with or many zeros to play with right and it's symmetric, right? The Symmetry is from that first identity. okay, one more thing before we leave Pascal's triangle is can anybody tell me anything? interesting about the sum of the Rose some of the top row is what one. What about this Row 2 in this row? For ": [
+            3253.5,
+            3292.7,
+            79
+        ],
+        "going to pick either X or Y from each one of those factors. How many ways can I pick it so that there are kx's + & - kaywise. The bits n choose K. Right because you can think about it as sequences of zeros and ones let X be 0 and Y B one then how many ways can you pick an X and A Y xxy something like ": [
+            3434.5,
+            3473.5,
+            84
+        ],
+        "going to shine any light on why this Identity is how it is. Okay. So let's do a combinatorial proof. What is the left hand side count? What is n + 1 choose K count anybody say it can anybody tell me in terms of fix density binary strings? Good length, and plus one binary strings. with K once okay good. Okay. Now what is the right hand side count? ": [
+            2564.3,
+            2616.3,
+            63
+        ],
+        "good. Yeah, you just flip all the bits right if I have K1 and I flip all the bits. The result is a string within - K once if I have a string of K1 Islip all the bits I get to stream with K ones, right? So for every string there exists this other string within - K1, so that's the bijection between the two. Right because you have ": [
+            2471.0,
+            2499.5,
+            60
+        ],
+        "he did but there's another thing that Pascal has known for is anybody know? triangle, right isn't Pascal programming language to He didn't come up with that though. Did he he made that one up and I don't know the reason for Pascal's triangle. So you guys know how to build Pascal's triangle. I'm going to show you. You add the two numbers and then you get the other number. ": [
+            2961.6,
+            3000.2,
+            72
+        ],
+        "how would you pair them up? But can you think of a bijection a one-to-one correspondence between these two sets? Here's the exercise for choose to is equal to 6. So write down all six for element subsets of 1 2 3 4 write down all 6 length for binary strings with exactly two ones and come up with a way to make up a junction between those two sets. ": [
+            1671.7,
+            1700.2,
+            40
+        ],
+        "if they're if they're being counted by the same sequence. So what is the connection between subsets and binary strings and shoes cake house? The number of what K element subsets of a set of cardinality end. And since we're really only talking about sizes of sets. You'll often see me just use the set of numbers from 1 to n night because it's just kind of like the simplest ": [
+            1586.6,
+            1617.3,
+            37
+        ],
+        "in this Row 8 in this row 16 in this row. 32 what do you see happening? The powers of two, right? So this is another identity that we're going to see in a minute. But just remember you saw it here first. Okay. So what's the name? Why is it called a binomial coefficient? It's because these are the coefficients that that come out when you raise a binomial ": [
+            3292.7,
+            3323.4,
+            80
+        ],
+        "into both on and 3 and 4, both off. If you take a minute to think about this it it becomes clear now why they're counted by the same number because there is the same number of things right? Because for every subset you can get a binary string for every binary string and get a subset. So they're kind of like almost The same they're not the same thing, ": [
+            1927.8,
+            1953.1,
+            44
+        ],
+        "is 1 x squared + 2x y + 1 y squared. Those are all we know. Then how do I get to these other ones notice that these things are binomial coefficients can anybody see any sort of? Resemblance of this thing to anything else we saw today. Pascal's triangle questions or comments? Okay good. next thing here's the identity that I wanted to let you guys saw from before ": [
+            3508.4,
+            3558.4,
+            86
+        ],
+        "is not like a nice triangle. But what's the rule for Pascal's triangle is you take these two numbers and you add them together to get that number? Okay. You take these two numbers and you add them together to get that number right? These two numbers add them together to get that number, right? But really, what are you doing? well if this is an + 1 choose k ": [
+            3087.1,
+            3120.7,
+            75
+        ],
+        "it already here counts the number of our element subsets of a set of size n i, so yeah, so that's when you thinking about these hands of cards. They're sets there's subsets of the deck, right? So you use this combination. Okay. So this fact this thing with factorials that's one definition some notation that you can use is Steve, and our or this song. This thing here with ": [
+            1449.1,
+            1484.7,
+            33
+        ],
+        "it over with your neighbors? See if we can get to a consensus as a class? Okay, ready? Go? I'm going to watch your quicker answers here. Okay, we have over half of the class saying one of the answer. So I think that's pretty good, right? Good day, is it d? Okay good. So you have a 1 to start? Right, and this is a length and plus one ": [
+            2760.6,
+            2842.3,
+            68
+        ],
+        "it that counts also that counts the number of length and binary strings with and minus K ones. So why would it be that the number of binary strings with K ones is the same as a number of binary strings with n minus K ones. Is there a way that I can map one set to the other with a bijection kind of like what we did before. Okay, ": [
+            2445.2,
+            2471.0,
+            59
+        ],
+        "it's going to depend. See if I can I mean the tree what am I saying? Her let's do the tree. I just need six levels, right? Okay 01. 0101 okay, if I start out with two zeros, then this one has to just be one's all the way down. right and then if I go zero here. Now this one has to be one's all the way down. I ": [
+            840.4,
+            894.9,
+            19
+        ],
+        "k10s that flips to endless cables in case you're awesome. Shopkin match up these two sets by Pyrenees string together. This means if you have a bijection that the two sets have the same size. If you remember that from 20 from cst20 bijection of finite sets me they have the same cardinality. Questions or comments? Let's look at another identity. This is called Pascal's identity. It says that nplusone ": [
+            2499.5,
+            2540.5,
+            61
+        ],
+        "kind of fixed right you might be able to spin them around but they never change location. Right? What is changing location is? the corner pieces and how many of them are there? 8 corner pieces right So how many different ways can you arrange the locations of the corner pieces? 8 factorial ways to permute the corner locations Write any questions about that? Okay, then for each corner piece. ": [
+            245.3,
+            308.4,
+            4
+        ],
+        "kind of goes into a lot of the things that we're going to do today. So it's basically solving a problem by successively reducing it to a smaller problem. Okay with smaller inputs. K a recurrence relation and we thought we saw these in CSE 20, right? You basically Define what f is in terms of the previous F of + -1 F of N - 2 and so on ": [
+            3827.6,
+            3859.6,
+            94
+        ],
+        "labeled. fix density binary strings Okay, and the categories are going to be the fixed. density binary strings And the size of each category we're going to figure out okay, so what do I mean by label to fix density binary strings? K-Swiss the same slide So let's say I have and is equal to 6 and K is equal to 4 like I had before so I have two ": [
+            966.1,
+            1012.8,
+            22
+        ],
+        "let's let's just say it's B. All the coefficients in the expansion or not going to be integers from 1 to n, right? We saw that some of them exceed and right. For example 6 choose 2 is already 15. It's a lot bigger than 6. Okay, so when I when I do this expansion You're multiplying x + y x itself and X, right? So that means that I'm ": [
+            3398.7,
+            3434.5,
+            83
+        ],
+        "let's see on Wednesday. We're going to start on recursion. So let me just give you a little introduction and then we can we can start fresh on it. So. We're going to use recursion to count. We're going to use recursion to write algorithms. We're going to use recursion to prove the correctness. So for Mainly those three things. Okay. So this is a very powerful topic and it ": [
+            3795.3,
+            3827.6,
+            93
+        ],
+        "look at now is how come this thing and shoes are it counts the number of our element subsets of a set of size n but it actually also count the number of end binary strings with exactly are once these seemingly two unrelated mathematical objects set and binary strength. Why does this one thing count them both? There must be some sort of connection between those two sets, right ": [
+            1557.5,
+            1586.6,
+            36
+        ],
+        "many of those like Edge Edge pieces are there? 12 franc 12 edges so 12 factorial and now there's only two different orientations right * 2 to the 12th. Hey, so you have eight factorial 3 to the eighth 12 factorial to the 12th. questions So it turns out that not all of these are possible by move it by doing the Motions, right? You can have to take it ": [
+            365.0,
+            409.9,
+            6
+        ],
+        "mean the the point of this lesson is not if it's big or small or whatever. It's can we get the exact number and this is an exact number right? And that's why I want you guys to do with the homework and stuff. We're not estimating. We're actually counting exact numbers. 2 divided by 12 is because so if you had a solved Rubik's Cube, there's no way to ": [
+            514.2,
+            549.3,
+            10
+        ],
+        "n choose and minus K. Let's do the algebraic proof first. n choose K is equal to n factorial / K factorial n- K factorial But since multiplication is commutative that's just the same as and factorial / n minus K factorial times K factorial. and that's just and shoes and shoes and minus k Okay, so If you're comfortable with the algebraic proof, that's great. You know it it ": [
+            2338.6,
+            2387.2,
+            56
+        ],
+        "number of ways to arrange the ones and a factorial is the number of ways to arrange the zeros cuz if there's K ones there's and minus que sera. questions about that so this is the answer. Okay good. So what we did last week was something called a permutation or are permutation right, which is the number of ways to pick our elements from a set of n And ": [
+            1355.4,
+            1401.8,
+            31
+        ],
+        "of the categories has four factorial 2 factorial. What I'm interested in is the number of categories. So all I have to do is divide 6 factorial divided by 4 factorial 2 factorial. And that's what it is. That's the answer and I think that is what 15. So if you liked his exercise you could try to write out all 15. I mean, it's not the biggest number you ": [
+            1292.9,
+            1325.6,
+            29
+        ],
+        "of them are going to end up looking like one 01101, right? Naturally, the question is how many of them are going to look like that? like for example, there's going to be one for 011-2130 to one one what else is going to be there? 1 2 0 2 1 3 1 4 0 1 1 1. So how many different ways can you make that? 4 factorial 2 ": [
+            1136.5,
+            1192.5,
+            26
+        ],
+        "of them are just kind of have no choices at the end. They're going to make sense. Okay, let's look at a different way to count them. We're going to use this objects and categories and size of each category. So instead of that set the number of fix density binary strings. I'm going to count the set of labeled fix density binary strings. So that the total objects are ": [
+            927.3,
+            966.1,
+            21
+        ],
+        "of those positions to be ones and zeros? Thanks. So that's that's how you think about this n choose K. In terms of binary string you're choosing the positions the one positions. That's the choice. Okay. Okay, let's look at a few exercises just to kind of get you to see the difference between permutations and combinations. Okay, the first one suppose I'll pick 7 people from this class to ": [
+            1995.1,
+            2029.3,
+            46
+        ],
+        "once 2 factorial Waze to arrange Zero's, okay good. So was this thing anything special or all of the categories are going to have this amount of permutations? They're all going to be the same. So that means that it fits into this nice category thing. k So the total number of permutations with the labeled things is six factorial. I can group them together into categories and each one ": [
+            1256.2,
+            1292.9,
+            28
+        ],
+        "order them in a certain way, right? a combination is a is a lot like in our permutation except for the selection is unordered. Okay. So what types of mathematical objects don't have an order to them? Five-card hands, right? And what are 5 Card hands? In math, it just as its asset, right good. Okay, so discounts the how to say it in a different way Oh I said ": [
+            1401.8,
+            1449.1,
+            32
+        ],
+        "part of the counting exercise. Pick any of the questions or comments? How many people can do a Rubik's Cube? I am I have you guys help me with this thing. I don't know if it's the same or different. Okay, so let's move on. For the for the for this lecture. This is going to be the topic of conversation. Basically throughout the whole thing fix density binary strings ": [
+            621.2,
+            654.0,
+            13
+        ],
+        "problems try to think about them in different ways. Think about them assets think about them is binary strings so you can have any more idea of When and where to use them? Okay, let's move on. Okay. So next thing we're going to do is look at some binomial coefficient identities. These are things that are just basically remain true no matter what the numbers are and I guess ": [
+            2234.5,
+            2263.9,
+            53
+        ],
+        "project with a team to 20 people and you want to pick four of the 22 go to a conference. How many ways can you do this? 20 to 4 It's like you're not you don't care about the order you just care whether or not they're going right. It's kind of like a on or off. Thank thank the subset. You can think about it as each person is ": [
+            2186.8,
+            2211.2,
+            51
+        ],
+        "read about combinations because that was the homework was heavily based on knowing that we're going to cover it today and the homework not due until Wednesday. So if you still have time to think about your answers, so that being said did anybody think about this question? My father-in-law gave me this for Christmas and it's like it changes shape as you go. So if anybody wants to look ": [
+            92.4,
+            135.6,
+            1
+        ],
+        "set that I can think of with exactly n elements. But it also counts the set of lengths and binary strings with exactly K once peso. Often times when you're counting things that are hard or you want to make a connection between two things that are kind of by the same. sequence It's nice to make a bijection. Do you guys remember what a bijection is? One to one ": [
+            1617.3,
+            1648.6,
+            38
+        ],
+        "shoes. Can we kind of have two competing views here? Some people are saying is it the number of binary strings of length in the have K ones or the number of binary strings of length into have any number of ones? Well, remember K is your summing over K. So K can be zero it can B12 be too and so on. So if you think about these things ": [
+            3646.9,
+            3697.6,
+            90
+        ],
+        "should just draw them out. all right, and then if I have a 1 then I'll get you guys to finish this up as exercise. Right, and then you have a you have a choice of a 0 or 1 if you have the zero than its then it's just ones all the way down. Right? So you can kind of see that some of the branches split and some ": [
+            894.9,
+            927.3,
+            20
+        ],
+        "string. So there are in positions left to fill right? And what do I want to fill them with? I want to fill them with an or Sumi K - 1 ones because it already has one of the ones. What's the number of length in strange with K - 21? Okay, good. How about I all the Lands End plus one strings that start with a zero and have ": [
+            2842.3,
+            2868.3,
+            69
+        ],
+        "strings with K ones. Okay. So what is this? What is this symbol? It's called a plus. No, I want you to think about is the sum rule what you're doing is you're adding two disjoint sets. Okay? Okay, so just keep that in mind. So what I'm going to think about here is the thing on the left hand side is the number of length and plus one binary ": [
+            2639.3,
+            2675.4,
+            65
+        ],
+        "strings with K1. What I want to do with it is I want to split it up into two disjoint sets such that one of them is counted by that first term and the other is kind of by the second term. Okay. So what natural way to split up a set of binary strings? Does anybody have any ideas? into two disjoint sets Okay, good the ones that start ": [
+            2675.4,
+            2704.5,
+            66
+        ],
+        "telling you said nightmare to do algebraically to prove it, But really you're going to see how nice it is and along the way you'll have a better sense of why it is that way right these two kind of things. They don't look like they have much to do with each other. But as you're going to see they have a lot to do with each other. In fact, ": [
+            3589.5,
+            3610.6,
+            88
+        ],
+        "that what you said? Yeah, that's good. That's good. You pick the 7 and then you promote them right you pick? Okay. Those are the these are the seven that I'm taking and then you know, this one's going on Sunday Monday, Tuesday, Wednesday, Thursday, Friday have another way to write this. p139, 7 right or I think I heard somebody say it 139 factorial / 132 factorial. All of ": [
+            2074.0,
+            2118.9,
+            48
+        ],
+        "that. Think about that as kind of like a binary sequence. So how many binary sequences can you have? Its n choose k? And then they all get rearranged to be the same thing because multiplication is commutative. So let's look at a few examples some examples. X + y to the zero is One X + Y to the one is 1x + 1 Y X + Y squared ": [
+            3473.5,
+            3508.4,
+            85
+        ],
+        "the ant good. Thanks. O left hand side counts number binary strings of length in the number of one's right you break it up by the sum rule for disjoint sets because they have different number of ones and the right hand side just count the number of binary strings. So that's why they're equal pretty cool, huh? Okay. How we doing on time? Okay, so, let's see here. So, ": [
+            3738.3,
+            3795.3,
+            92
+        ],
+        "the way that I would have paired them. Okay? Did anybody else do it this way? I saw what you can do is label the positions of the binary string 1 2 3 4 right and it's kind of like you're turning them on or off think about like ones and zeros as on and off switch. So that first subset is one too. So I'm going to turn 1 ": [
+            1888.5,
+            1927.8,
+            43
+        ],
+        "them? big questions about that Okay, so that's what that's the total number of objects were counting when we're doing this object category size of each category bank because you just do 6 factorial. So I'm going to put all of these six factorial different permutations of these things into categories and the categories are going to be we're going to put two things in the same category if when ": [
+            1059.1,
+            1102.1,
+            24
+        ],
+        "then this one above it is n choose k And this one over here is an choose K - 1. And that's true for the whole thing to for the whole triangle. So then the bottom row will be what? 4 six four Okay. This is a way that you can compute binomial coefficients the way you can compute these n choose k. Okay. So here's a bigger a pascal ": [
+            3124.2,
+            3169.6,
+            76
+        ],
+        "these are equally correct. I would say, you know, if you gave me any of these on a exam or a homework or something, they're all correct, okay. And I prefer you you leave all your answers in these types of things instead of actually writing out the big integer that it by evaluating it. This has a lot more information in it for me when I'm looking at it ": [
+            2118.9,
+            2146.3,
+            49
+        ],
+        "they're counted by the same thing. Okay, so The first thing is what does the left hand side count? What is this summation Counting? I'm going to ride it out in like the longer form. So you get more of an idea, right? So this some Asian is what and choose. Choose 0 + and choose one plus and choose to plus.... + n choose N - 1 + and ": [
+            3610.6,
+            3646.9,
+            89
+        ],
+        "think about why justify why? Tell ya what sound a little bit early today? San Diego podcast for more visit podcast. ": [
+            3965.9,
+            4002.3,
+            98
+        ],
+        "to a power. I know you guys have all seen this and you guys will hurt it. I don't know if you remember it. But this is what it where it comes from. This is called the binomial theorem, right? It says how do you write out the sequence of coefficients when you raise a binomial to a power? Okay, so in general 4 x + y d n. What's ": [
+            3323.4,
+            3350.0,
+            81
+        ],
+        "to choose nothing from a set of n or there's only one string with zero ones. Right, so I think about it both ways. Okay, now what's 1 choose 1 want to choose to 3 choose 3 for choose for and choose an is also one Both of those things are just true for everything. Okay, so I'm building the triangle like this. It's kind of like a right triangle ": [
+            3045.9,
+            3087.1,
+            74
+        ],
+        "to do with a sort of the symmetries of the Rubik's Cube and how it works. But if you were if you were wondering that's the number of different combinations you can get to just by doing the motions. Now there's a really cool fun fact. Did I write it down? I did not write it. But oh, yeah. Okay good. So imagine that you took a Rubik's Cube and ": [
+            442.0,
+            473.0,
+            8
+        ],
+        "to rotate an edge piece without changing anything else. Okay. So like you don't you understand I'm saying you can't just rotate a single edge piece. Okay, so there's three from rotating. and Edge You can't you can't flip a single edge piece. Okay, so there's two from flipping. an edge And you can't swap two corner pieces. You can you can swap three, but you can't just swap to. ": [
+            549.3,
+            589.7,
+            11
+        ],
+        "triangle just to kind of show you a few of the identities that we've seen, okay? so let's say goes down this way. and K front and shoes and K goes this way. And goes down K goes over. Okay. So what if I wanted to know what is 6 choose 2 that's what we already saw before was 15 write 6 choose 2 is 15. So you go down ": [
+            3169.6,
+            3215.4,
+            77
+        ],
+        "true? All the terms in the expansion are some coefficient * x to the k y the N minus K or be all coefficients in the expansion are integers between 1 and N or C is a symmetry in the coefficients in the expansion. or deed the coefficients Of accent way I should have said in general which one is not true. Okay, what do we say? Okay good. So ": [
+            3350.0,
+            3398.7,
+            82
+        ],
+        "two right? How many for my second bit I also have two options? and the third bit two options as well. How about the fourth bit? Also two options. How about the fifth bit? Sort of now. It's going to start depending right because if I chose a one for each one of my first four bits, then my Fitbit is forced to be a zero. Frank so now I ": [
+            733.0,
+            764.7,
+            16
+        ],
+        "we able to peel off the stickers? Or not I'm thinking no I'm saying no. Okay, so let's go through the the thought process here. Where's my? Okay, so let's think about the thought process. Where's my pen? Okay, so noticed that these like middle sides these faces. Those are stationary in the in the sense that they don't change colors. They don't change at all. Like they are all ": [
+            187.5,
+            245.3,
+            3
+        ],
+        "what you've usually done to to prove that their true is show that they're true for every whatever n&k is to do some sort of algebraic manipulation what we're going to do is make a counting argument to show that the two sides are equal Can I show you what that looks like? It's called a combinatorial proof. Okay. So here's our first one and choose K is equal to ": [
+            2309.9,
+            2338.6,
+            55
+        ],
+        "with one and the ones that start with zero, this is good because you know that these two sets are disjoint, right? You can't start with both of one in a 0 and it makes up the entire. Okay, so let's count these. How many length and Force 1 strings start with a wand and have K ones? Okay. We got a little bit of uncertainty. Why don't you talk ": [
+            2704.5,
+            2760.6,
+            67
+        ],
+        "you do it is you count the left side and you count the right side and you make some sort of bijection between the two sides. How do I map one side to the other? Okay. So the left hand side which is an choose k We know what that counts that counts the number of length and binary strings with K ones, right? The right hand side we do ": [
+            2416.9,
+            2445.2,
+            58
+        ],
+        "you have like a better sense of of why it works? You're counting all of the binary strings with K ones and then on the other side, you're counting them into different groups. Write all the ones that start with one start with 0. Pretty cool, right? Okay. Does anybody have any idea why it's called Pascal's identity. Because Pascal made it up. I don't know if that's true. Maybe ": [
+            2921.5,
+            2961.6,
+            71
+        ],
+        "you take off the labels, they're the same binary string. stop So for example, all the strings made up of those are six factorial. Okay, good strings that agree except substring subscripts. This is actually going to be what we want to count and we'll figure out how many are in each category. That's what we're going to do now. So for example when you permute these labeled bits. Some ": [
+            1102.1,
+            1136.5,
+            25
+        ],
+        "you you say and shoes are because it's how many ways. Can you choose our things from a set of n? Okay, so let's let's kind of look at why these two things are different. Okay, so permutations counts the number of sequences of our elements from a set of end sequences meaning the order matters with combinations. The order doesn't matter any questions or let me clear up anything ": [
+            1484.7,
+            1523.3,
+            34
+        ],
+        "zeros and four ones. So I'm going to label them each one of them. I'm going to label a zero with a 1-0 with a two and then label the ones from one through four. Okay. So these are labeled fix density binary strings. How many rearrangements can you make with these? 6 factorial because each one of those things to different you. Just however many ways. Can you order ": [
+            1012.8,
+            1059.1,
+            23
+        ]
+    },
+    "File Name": "Mathematics for Algorithms and Systems - B00 - Jones, Miles E - Winter 2019-lecture_3.flac",
+    "Full Transcript": "Listen to a podcast.  Good evening, everyone.  How's it going?  Yeah.  Okay.  Alright, let's call this.  fix fix density strings  Okay, so  Let's get started here. So we're going to continue with counting today.  and  the material we go over today is greatly going to help you with the homework and you're  I hope that some of you had like redhead in the book and sort of understood and and read about combinations because that was the homework was heavily based on knowing that we're going to cover it today and the homework not due until Wednesday. So if you still have time to think about your answers, so  that being said  did anybody think about this question?  My father-in-law gave me this for Christmas and it's like it changes shape as you go.  So if anybody wants to look at this one.  I'm going to mess it up really good.  I don't know.  anyhow  I had it all solved. You saw when I brought it in here. So I saved it for you guys so that now it probably will never be back to a cube again.  Everybody saying be cuz it's the most complicated looking thing, right? Sorry continue.  Yeah, so that's kind of.  The difference right? Are we able to peel off the stickers?  Or not I'm thinking no I'm saying no.  Okay, so let's go through the the thought process here.  Where's my?  Okay, so let's think about the thought process.  Where's my pen?  Okay, so noticed that these like middle sides these faces. Those are stationary in the in the sense that they don't change colors. They don't change at all. Like they are all kind of fixed right you might be able to spin them around but they never change location. Right? What is changing location is?  the corner pieces  and how many of them are there?  8 corner pieces  right  So how many different ways can you arrange the locations of the corner pieces?  8 factorial ways to  permute  the corner locations  Write any questions about that?  Okay, then for each corner piece. There's three positions, right because Each corner piece has three colors so you could you could have it in three different orientations.  three orientations  her corner  peace  So that's where you get 3 to the 8 because there's three orientations for each one. So by the product rule for multiplying all together.  Okay, then.  So you stay then there are.  How many of these pieces?  Please a darker pink.  How many of those like Edge Edge pieces are there?  12 franc  12 edges  so 12 factorial and now there's only two different orientations right * 2 to the 12th. Hey, so you have eight factorial 3 to the eighth 12 factorial to the 12th.  questions  So it turns out that not all of these are possible by move it by doing the Motions, right? You can have to take it apart and put it back together in order to get that into order to get the number of different orientation. Number of different combinations that you can actually do.  What you need to do is okay. So we have this number here.  3 to the 8 * 12 factorial to to the 12u to divide this number by 12 and don't really worry about the reasoning behind that that has to do with a sort of the symmetries of the Rubik's Cube and how it works. But if you were if you were wondering that's the number of different combinations you can get to just by doing the motions.  Now there's a really cool fun fact.  Did I write it down?  I did not write it. But oh, yeah. Okay good.  So imagine that you took a Rubik's Cube and for each one of those combinations, right?  And you put it up you put each one on the ground, right then it would cover the surface of the Earth.  275 X so you would have a  275 height wall of or she'll of Rubik's Cubes going around the earth that just kind of tells you how many there are  pretty crazy, huh?  That's a really that's a lot. But I mean the the point of this lesson is not if it's big or small or whatever. It's can we get the exact number and this is an exact number right? And that's why I want you guys to do with the homework and stuff. We're not estimating. We're actually counting exact numbers.  2 divided by 12 is because  so if you had a solved Rubik's Cube, there's no way to to rotate an edge piece without changing anything else. Okay. So like you don't you understand I'm saying you can't just rotate a single edge piece. Okay, so there's three from rotating.  and Edge  You can't you can't flip a single edge piece. Okay, so there's two from flipping.  an edge  And you can't swap two corner pieces. You can you can swap three, but you can't just swap to.  2 corner  swaps  Okay, so you divide out by these just like we were dividing out by the categories, right? These are kind of like the things that you can't do and so you multiply them all together and divide it out knowing that information. I don't expect you to know that I mean I had to look it up right it's not  That kind of thing is not really part of the counting exercise.  Pick any of the questions or comments?  How many people can do a Rubik's Cube?  I am I have you guys help me with this thing.  I don't know if it's the same or different.  Okay, so let's move on.  For the for the for this lecture. This is going to be the topic of conversation. Basically throughout the whole thing fix density binary strings Okay, so  The idea is we want to count how many length and binary strings contain exactly K ones for the density of the number of ones.  Okay. So for example of an is 6 + K is for which of these strings matches this example?  Can I see her?  Okay good.  So notice I'm saying lexan.  K ones okay good solanke 6 with K ones now, let's move on.  Okay, so if I wanted to use the product rule I might run into some difficulties, right and you guys may have encountered this type of thing happening when you were trying to count certain things. So if I tried to do it, I would say, okay.  How many options do I have for my first bit? It could be either a zero or a 2-0 or one so there's two right?  How many for my second bit I also have two options?  and the third bit  two options as well. How about the fourth bit?  Also two options. How about the fifth bit?  Sort of now. It's going to start depending right because if I chose a one for each one of my first four bits, then my Fitbit is forced to be a zero.  Frank so now I don't have any more choices, but it depended on what my choices were to begin with. So  so one way around this is to make a tree diagram. Okay, so you can kind of start here and this will be my first bit.  See there is zero or one right and how about my second bit?  It also be a 0 or 1.  0 or 1 right?  And third and fourth and you guys can build out this triangle. Then the number of Scooby this tree. The number of leaves of the tree is the number of different possibilities.  I'm not going to finish the triangle you guys can do it as exercise if you want, but we're going to find a much more clever way to count them.  No, maybe it is good to do the triangle.  No, cuz it's going to depend.  See if I can I mean the tree what am I saying?  Her let's do the tree.  I just need six levels, right?  Okay 01.  0101  okay, if I start out with two zeros, then this one has to just be one's all the way down.  right  and then if I go zero here.  Now this one has to be one's all the way down.  I should just draw them out.  all right, and then if I have a 1  then I'll get you guys to finish this up as exercise.  Right, and then you have a you have a choice of a 0 or 1 if you have the zero than its then it's just ones all the way down. Right? So you can kind of see that some of the branches split and some of them are just kind of have no choices at the end. They're going to make sense.  Okay, let's look at a different way to count them.  We're going to use this objects and categories and size of each category. So instead of that set the number of fix density binary strings. I'm going to count the set of labeled fix density binary strings.  So that the total objects are labeled.  fix  density  binary strings  Okay, and the categories are going to be the fixed.  density  binary strings  And the size of each category we're going to figure out okay, so what do I mean by label to fix density binary strings?  K-Swiss the same slide  So let's say I have and is equal to 6 and K is equal to 4 like I had before so I have two zeros and four ones. So I'm going to label them each one of them. I'm going to label a zero with a 1-0 with a two and then label the ones from one through four. Okay. So these are labeled fix density binary strings.  How many rearrangements can you make with these?  6 factorial because each one of those things to different you. Just however many ways. Can you order them?  big questions about that  Okay, so that's what that's the total number of objects were counting when we're doing this object category size of each category bank because you just do 6 factorial.  So I'm going to put all of these six factorial different permutations of these things into categories and the categories are going to be we're going to put two things in the same category if when you take off the labels, they're the same binary string.  stop  So for example, all the strings made up of those are six factorial. Okay, good strings that agree except substring subscripts. This is actually going to be what we want to count and we'll figure out how many are in each category. That's what we're going to do now.  So for example when you permute these labeled bits.  Some of them are going to end up looking like one 01101, right?  Naturally, the question is how many of them are going to look like that?  like for example, there's going to be one for 011-2130 to  one one  what else is going to be there? 1 2 0 2 1 3 1 4 0 1 1 1. So how many different ways can you make that?  4 factorial 2 factorial buddy have any comments or explanations for that.  What do you mean fixing?  You mean like for it to figure out?  Call things.  Cuz he can the homework like this emphasizes to text Pacific bottles.  This is not like that.  Exactly. So you use the product rule how many ways you can arrange the ones how many ways you can arrange this year us?  4 factorial ways to arrange  once 2 factorial Waze  to arrange  Zero's, okay good.  So was this thing anything special or all of the categories are going to have this amount of permutations? They're all going to be the same. So that means that it fits into this nice category thing.  k  So the total number of permutations with the labeled things is six factorial. I can group them together into categories and each one of the categories has four factorial 2 factorial.  What I'm interested in is the number of categories. So all I have to do is divide 6 factorial divided by 4 factorial 2 factorial.  And that's what it is. That's the answer and I think that is what 15.  So if you liked his exercise you could try to write out all 15. I mean, it's not the biggest number you can actually do it. So it might be a good exercise to kind of see what they are.  Okay, so in general  if I want to find the number of length n bit strings with exactly K ones right? Then the number of labeled bit strings is n factorial and the size of each category is going to be K factorial * N - K factorial K factorial is the number of ways to arrange the ones and a factorial is the number of ways to arrange the zeros cuz if there's K ones there's and minus que sera.  questions about that  so this is the answer.  Okay good. So what we did last week was something called a permutation or are permutation right, which is the number of ways to pick our elements from a set of n  And order them in a certain way, right?  a combination  is a is a lot like in our permutation except for the selection is unordered. Okay. So what types of mathematical objects don't have an order to them?  Five-card hands, right?  And what are 5 Card hands?  In math, it just as its asset, right good. Okay, so  discounts  the  how to say it in a different way  Oh I said it already here counts the number of our element subsets of a set of size n i, so yeah, so that's when you thinking about these hands of cards. They're sets there's subsets of the deck, right? So you use this combination.  Okay. So this fact this thing with factorials that's one definition some notation that you can use is Steve, and our or this song.  This thing here with you you say and shoes are because it's how many ways. Can you choose our things from a set of n?  Okay, so  let's let's kind of look at why these two things are different. Okay, so permutations counts the number of sequences of our elements from a set of end sequences meaning the order matters with combinations. The order doesn't matter any questions or let me clear up anything from that.  Okay. So as you're going to see when we do these counting things you probably already seen this as you're working on it. Is that different Expressions May count many different things right? Maybe it counts the number of words or maybe it counts the number of hand or maybe it counts the number of permutations, right? But maybe it's the same expression. So what we're going to look at now is how come this thing and shoes are it counts the number of our element subsets of a set of size n but it actually also count the number of end binary strings with exactly are once these seemingly two unrelated mathematical objects set and binary strength.  Why does this one thing count them both? There must be some sort of connection between those two sets, right if they're if they're being counted by the same sequence.  So what is the connection between subsets and binary strings and shoes cake house? The number of what K element subsets of a set of cardinality end. And since we're really only talking about sizes of sets. You'll often see me just use the set of numbers from 1 to n night because it's just kind of like the simplest set that I can think of with exactly n elements.  But it also counts the set of lengths and binary strings with exactly K once peso.  Often times when you're counting things that are hard or you want to make a connection between two things that are kind of by the same.  sequence  It's nice to make a bijection. Do you guys remember what a bijection is?  One to one and onto and these are all finite sets. So you have to worry about the infinite set thing. So one to one and onto means it's a one-to-one correspondence. You're basically pairing up something from one set and something from the other set and if they're if they're the same amount on each side that they're all going to be paired up with exactly one of the thing. Okay. So how would you pair them up?  But can you think of a bijection a one-to-one correspondence between these two sets? Here's the exercise for choose to is equal to 6. So write down all six for element subsets of 1 2 3 4 write down all 6 length for binary strings with exactly two ones and come up with a way to make up a junction between those two sets. Okay. Ready go.  Or one of you could write out all the sets of one and then your neighbor could write two sets of the other and then you can put them together and see if you can get them to match up in some.  We wanted matching up in some sort of like way. That makes sense.  But if you  Just take a few minutes to kind of think about it. It might.  You might kind of pop out once you stare at it for long enough.  Hey, you got the Superman.  Yes, typo.  That's all you guys off.  Sorry.  How many 4 element subsets are there one?  Sorry about that.  Are these the ones that you guys got?  How'd you guys Parramatta?  So you do it by positions, right good?  I just I actually put them up in the way that I would have paired them. Okay?  Did anybody else do it this way?  I saw what you can do is label the positions of the binary string 1 2 3 4 right and it's kind of like you're turning them on or off think about like ones and zeros as on and off switch. So that first subset is one too. So I'm going to turn 1 into both on and 3 and 4, both off.  If you take a minute to think about this it it becomes clear now why they're counted by the same number because there is the same number of things right? Because for every subset you can get a binary string for every binary string and get a subset. So they're kind of like almost  The same they're not the same thing, but you know what? I mean, they're counted by the same sequence.  Any questions or comments?  Okay, so now you know how to count subsets. That's good.  Okay, so  so when I'm thinking about these  Fix density binary strings how many length in binary strings contain K ones you can think about it as out of all the positions of my binary strings. How many ways can you choose K of those positions to be ones and zeros?  Thanks. So that's that's how you think about this n choose K. In terms of binary string you're choosing the positions the one positions. That's the choice. Okay.  Okay, let's look at a few exercises just to kind of get you to see the difference between permutations and combinations. Okay, the first one suppose I'll pick 7 people from this class to go on a field trip. How many ways can I do this?  139 choose 7  right  Does it matter which order I pick them know? They're just all coming.  Okay, what if I pick 7 people from this class and each one will go on a field trip with me on a different day of the week.  How many ways can I do this?  Multiply that by 7 factorial. Is that what you said? Yeah, that's good.  That's good. You pick the 7 and then you promote them right you pick? Okay. Those are the these are the seven that I'm taking and then you know, this one's going on Sunday Monday, Tuesday, Wednesday, Thursday, Friday have another way to write this.  p139, 7 right or  I think I heard somebody say it 139 factorial / 132 factorial.  All of these are equally correct. I would say, you know, if you gave me any of these on a exam or a homework or something, they're all correct, okay.  And I prefer you you leave all your answers in these types of things instead of actually writing out the big integer that it by evaluating it.  This has a lot more information in it for me when I'm looking at it cuz now I know exactly how you got there.  Okay suppose I'm doing you're doing a group project with 20 people. You must pick a team leader ascribe a Treasurer and a presenter. How many ways can you do this?  Par20, for right?  Which is equal to 20 factorial divided by 16 factorial which is equal to what?  20 choose 4 * 4 factorial  Okay suppose you're doing a group project with a team to 20 people and you want to pick four of the 22 go to a conference. How many ways can you do this?  20 to 4  It's like you're not you don't care about the order you just care whether or not they're going right. It's kind of like a on or off.  Thank thank the subset.  You can think about it as each person is each of the 20 people are standing in a row and you say the four people that are going step forward right? Then you can read a binary string by the people who step forward are ones and the people that didn't step forward or zeros. And so that's a and length binary string with exactly 4 ones. I want to challenge you to when you're thinking about these combination problems try to think about them in different ways. Think about them assets think about them is binary strings so you can have any more idea of  When and where to use them?  Okay, let's move on.  Okay. So next thing we're going to do is look at some binomial coefficient identities. These are things that  are just basically remain true no matter what the numbers are and I guess I need to tell you what is a binomial coefficient, right?  What is a binomial coefficient does anybody know?  Right exactly. Is that weird thing that thing right there? It's called n choose K. But another name for it is a binomial coefficient. I'll be interchanging those two different terminologies.  Okay, so we've seen identities before mainly in like calculus or algebra or all these kind of things right and what you've usually done to to prove that their true is show that they're true for every whatever n&k is to do some sort of algebraic manipulation what we're going to do is make a counting argument to show that the two sides are equal  Can I show you what that looks like? It's called a combinatorial proof.  Okay. So here's our first one and choose K is equal to n choose and minus K. Let's do the algebraic proof first.  n choose K is equal to n factorial / K factorial n- K factorial  But since multiplication is commutative that's just the same as and factorial / n minus K factorial times K factorial.  and that's just and shoes and shoes and minus k  Okay, so  If you're comfortable with the algebraic proof, that's great. You know it it does the job but I claim that it doesn't really shine any light on a why I don't have a good feeling of why after I do this, all I'm doing is following rules of arithmetic the combinatorial proof. Usually it'll kind of shed light on why it gives you more of an an idea why thank so. So that's the proof one.  Okay, so the combinatorial proof the way you do it is you count the left side and you count the right side and you make some sort of bijection between the two sides. How do I map one side to the other? Okay. So the left hand side which is an choose k  We know what that counts that counts the number of length and binary strings with K ones, right?  The right hand side we do it that counts also that counts the number of length and binary strings with and minus K ones.  So why would it be that the number of binary strings with K ones is the same as a number of binary strings with n minus K ones. Is there a way that I can map one set to the other with a bijection kind of like what we did before.  Okay, good. Yeah, you just flip all the bits right if I have K1 and I flip all the bits. The result is a string within - K once if I have a string of K1 Islip all the bits I get to stream with K ones, right? So for every string there exists this other string within - K1, so that's the bijection between the two.  Right because you have k10s that flips to endless cables in case you're awesome.  Shopkin match up these two sets by Pyrenees string together.  This means if you have a bijection that the two sets have the same size.  If you remember that from 20 from cst20 bijection of finite sets me they have the same cardinality.  Questions or comments?  Let's look at another identity. This is called Pascal's identity.  It says that nplusone choose K is equal to n choose K - 1 + n choose K. So I'm going to have you guys do this as an exercise on your own.  At home, if you want you don't have to do it. I'm just saying if you want to then it's a it's a good algebraic exercise, but it's not really going to help you with counting. Right and it's not really going to shine any light on why this  Identity is how it is.  Okay. So let's do a combinatorial proof. What is the left hand side count? What is n + 1 choose K count anybody say it can anybody tell me in terms of fix density binary strings?  Good length, and plus one binary strings.  with K once  okay good.  Okay. Now what is the right hand side count? We're not going to I'm not going to write them in on this fine. But I just want somebody to tell me what each one of these things to count. So what is this one count? Can you ready just say it in words?  Write the number of length and binary strings that that have K - 1 ones and the other one is the number of length and binary strings with K ones. Okay. So what is this? What is this symbol?  It's called a plus.  No, I want you to think about is the sum rule what you're doing is you're adding two disjoint sets. Okay?  Okay, so just keep that in mind. So what I'm going to think about here is the thing on the left hand side is the number of length and plus one binary strings with K1.  What I want to do with it is I want to split it up into two disjoint sets such that one of them is counted by that first term and the other is kind of by the second term. Okay. So what natural way to split up a set of binary strings? Does anybody have any ideas?  into two disjoint sets  Okay, good the ones that start with one and the ones that start with zero, this is good because you know that these two sets are disjoint, right? You can't start with both of one in a 0 and it makes up the entire. Okay, so let's count these.  How many length and Force 1 strings start with a wand and have K ones?  Okay.  We got a little bit of uncertainty. Why don't you talk it over with your neighbors? See if we can get to a consensus as a class? Okay, ready? Go?  I'm going to watch your quicker answers here.  Okay, we have over half of the class saying one of the answer. So I think that's pretty good, right?  Good day, is it d?  Okay good. So you have a 1 to start?  Right, and this is a length and plus one string. So there are in positions left to fill right? And what do I want to fill them with? I want to fill them with an or Sumi K - 1 ones because it already has one of the ones.  What's the number of length in strange with K - 21?  Okay, good. How about I  all the Lands End plus one strings that start with a zero and have K ones in total. How about that?  Maybe this will help if I wrote it like this zero.  Right. There's an there.  And how many ones do I want to be in that region of n?  could be  N choose K. Good  any questions about that?  Okay, let's put it all together.  And plus one choose K is equal to and choose K - 1 + n choose K. Don't you have like a better sense of of why it works?  You're counting all of the binary strings with K ones and then on the other side, you're counting them into different groups. Write all the ones that start with one start with 0.  Pretty cool, right?  Okay. Does anybody have any idea why it's called Pascal's identity.  Because Pascal made it up.  I don't know if that's true. Maybe he did but there's another thing that Pascal has known for is anybody know?  triangle, right  isn't Pascal programming language to  He didn't come up with that though. Did he he made that one up and I don't know the reason for Pascal's triangle. So you guys know how to build Pascal's triangle.  I'm going to show you.  You add the two numbers and then you get the other number. That's this identity. Let's look at it. Okay.  So each what each one of these regions think about it as and choose K. Okay, so we going down this way.  MK going this way.  Okay, so what's 020?  What's 1 shoes? 01. What's 2 choose? 0 1 3 2 0 4 2 0 2 0 is always equal to 1 and why is that it's because there's only one way to choose nothing from a set of n  or there's only one string with zero ones.  Right, so I think about it both ways.  Okay, now what's 1 choose 1 want to choose to 3 choose 3 for choose for and choose an is also one  Both of those things are just true for everything.  Okay, so I'm building the triangle like this. It's kind of like a right triangle is not like a nice triangle. But what's the rule for Pascal's triangle is you take these two numbers and you add them together to get that number?  Okay.  You take these two numbers and you add them together to get that number right? These two numbers add them together to get that number, right?  But really, what are you doing?  well  if this is an + 1 choose k  then this one above it is n choose k  And this one over here is an choose K - 1.  And that's true for the whole thing to for the whole triangle.  So then the bottom row will be what?  4  six four  Okay. This is a way that you can compute binomial coefficients the way you can compute these n choose k.  Okay. So here's a bigger a pascal triangle just to kind of show you a few of the identities that we've seen, okay?  so let's say  goes down this way.  and K  front and shoes and K goes this way.  And goes down K goes over. Okay. So what if I wanted to know what is 6 choose 2 that's what we already saw before was 15 write 6 choose 2 is 15.  So you go down 6, so this is 0 1 2 3 4 5 6 right. This is 6206 choose 1 6 shoes 2.  Naked 15 so you can do that for any of the things and you always get it.  That's right.  Biggest value happens when K is in over two and you can think why is that the case while it's cuz you get the most variation right? If you kind of go to either end, you don't really have many ones to play with or many zeros to play with right and it's symmetric, right? The Symmetry is from that first identity.  okay, one more thing before we leave Pascal's triangle is  can anybody tell me anything?  interesting about the sum of the Rose  some of the top row is what one. What about this Row 2 in this row?  For in this Row 8 in this row 16 in this row.  32 what do you see happening?  The powers of two, right? So this is another identity that we're going to see in a minute.  But just remember you saw it here first.  Okay. So what's the name? Why is it called a binomial coefficient? It's because these are the coefficients that that come out when you raise a binomial to a power. I know you guys have all seen this and you guys will hurt it. I don't know if you remember it. But this is what it where it comes from. This is called the binomial theorem, right? It says how do you write out the sequence of coefficients when you raise a binomial to a power?  Okay, so in general 4 x + y d n. What's true?  All the terms in the expansion are some coefficient * x to the k y the N minus K or be all coefficients in the expansion are integers between 1 and N or C is a symmetry in the coefficients in the expansion.  or deed the coefficients  Of accent way I should have said in general which one is not true.  Okay, what do we say?  Okay good. So let's let's just say it's B.  All the coefficients in the expansion or not going to be integers from 1 to n, right? We saw that some of them exceed and right. For example 6 choose 2 is already 15. It's a lot bigger than 6.  Okay, so  when I when I do this expansion  You're multiplying x + y x itself and X, right?  So that means that I'm going to pick either X or Y from each one of those factors. How many ways can I pick it so that there are kx's + & - kaywise.  The bits n choose K. Right because you can think about it as sequences of zeros and ones let X be 0 and Y B one then how many ways can you pick an X and A Y xxy something like that. Think about that as kind of like a binary sequence. So how many binary sequences can you have? Its n choose k?  And then they all get rearranged to be the same thing because multiplication is commutative.  So let's look at a few examples some examples.  X + y to the zero is One X + Y to the one is 1x + 1 Y X + Y squared is 1 x squared + 2x y + 1 y squared. Those are all we know.  Then how do I get to these other ones notice that these things are binomial coefficients can anybody see any sort of?  Resemblance of this thing to anything else we saw today.  Pascal's triangle  questions or comments?  Okay good.  next thing  here's the identity that I wanted to let you guys saw from before but now we're going to prove it.  Okay.  I dare you to try to prove this algebraically.  It's a mess. I'm telling you.  Write for one you have to deal with factorials fractions of factorials all this kind of stuff. And then for two, it's a summation which means that in order to prove it in general. You have to prove this whole big thing and mix everything together. I'm telling you said nightmare to do algebraically to prove it, But really you're going to see how nice it is and along the way you'll have a better sense of why it is that way right these two kind of things. They don't look like they have much to do with each other. But as you're going to see they have a lot to do with each other. In fact, they're counted by the same thing.  Okay, so  The first thing is what does the left hand side count?  What is this summation Counting?  I'm going to ride it out in like the longer form. So you get more of an idea, right? So this some Asian is what and choose.  Choose 0 + and choose one plus and choose to plus.... + n choose N - 1 + and shoes.  Can we kind of have two competing views here?  Some people are saying is it the number of binary strings of length in the have K ones or the number of binary strings of length into have any number of ones?  Well, remember K is your summing over K. So K can be zero it can B12 be too and so on.  So if you think about  these things  as counting disjoint sets  And these things are like or right?  Then really what you're counting is the number of length in binary strings with 0 ones plus the number of binary strings with 1 1 2 1 2 3 1 4 1 5 1 any number of ones?  Right. So you're basically just counting all length and binary strings, right? And how many of those are there?  Go to the ant good.  Thanks. O left hand side counts number binary strings of length in the number of one's right you break it up by the sum rule for disjoint sets because they have different number of ones and the right hand side just count the number of binary strings. So that's why they're equal pretty cool, huh?  Okay.  How we doing on time?  Okay, so, let's see here.  So, let's see on Wednesday. We're going to start on recursion. So let me just give you a little introduction and then we can we can start fresh on it. So.  We're going to use recursion to count. We're going to use recursion to write algorithms. We're going to use recursion to prove the correctness. So for  Mainly those three things. Okay. So this is a very powerful topic and it kind of goes into a lot of the things that we're going to do today. So it's basically solving a problem by successively reducing it to a smaller problem. Okay with smaller inputs.  K a recurrence relation and we thought we saw these in CSE 20, right?  You basically Define what f is in terms of the previous F of + -1 F of N - 2 and so on and you need a base case to start.  Here are a few recursively defined functions. There's a Fibonacci numbers.  The nth Fibonacci numbers just the sum of the previous two. There's factorials, right and factorial is just n x + -1 factorial.  I mean we could we could just find them in a different way. But this is a way to define the recursively.  summation of integers we have a Suwannee as one and then as you go up  a savanna is equal to a 7 - 1 + 10  so  What is the closed form of this recursion and we're going to get really good at doing these? I just want you to watch you guys to think about it first closed form means that it's not in the recursive form anymore. It's just like one thing that you can just plug in the numbers, right? If I just gave you the recursive form in order to find out what is of 100 was you have to do 100 steps, right? But if you had the clothes for and you can just plug in 100.  Looking good.  Okay, I think I'm going to leave you guys with that thought.  Whatever you picked, maybe take the next few days to think about why justify why?  Tell ya what sound a little bit early today?  San Diego podcast for more visit podcast. "
+}
