@@ -12,8 +12,8 @@
 
 import json
 import os
-# Import libraries
 import sys
+from os.path import dirname, abspath
 
 from google.cloud import speech
 from google.cloud import storage
@@ -23,8 +23,8 @@ from google.cloud.speech import types
 # Change BUCKETNAME to fit Google Cloud Platform bucketname
 PATHTOAUDIOFILE = sys.argv[1]
 GENERALPATH = PATHTOAUDIOFILE.split("audios")[0] 
-# BUCKETNAME = "audiofilesscriptor"
-BUCKETNAME = "scriptor"
+BUCKETNAME = "audiofilesscriptor"
+#BUCKETNAME = "scriptor"
 
 NUMBEROFWORDSPERBLURB = 70
 
@@ -102,11 +102,11 @@ def processGoogleResponse(response):
     return blurbMap, fullTranscript
       
 
-def exportToJSON(audio_file_output, blurbMap, fullTranscript):
+def exportToJSON(original_file_name, audio_file_output, blurbMap, fullTranscript):
     json_out = {}
 
     # Creating json file name
-    file_prefix = audio_file_output.split(".")
+    file_prefix = original_file_name.split(".")
     json_file = file_prefix[0] + ".json"
 
     json_out["Full Transcript"] = fullTranscript
@@ -133,14 +133,19 @@ for fileName in os.listdir(PATHTOAUDIOFILE):
      
      print()
 
+     fullDir = dirname(abspath(PATHTOAUDIOFILE))
+     className = fullDir.split("/")[-1]
+
      print("Working on " + fileName + "...")
      audio_file_name = fileName
-     audio_file_output = fileName.split(".mp3")[0] + ".flac"
+     audio_file_output = className + "-" + fileName.split(".mp3")[0] + ".flac"
 
      file_name = PATHTOAUDIOFILE + audio_file_output
 
      source_file_name = PATHTOAUDIOFILE + audio_file_name
      output_file_name = PATHTOAUDIOFILE + audio_file_output
+
+
      destination_blob_name = audio_file_output
 
      print("Turning MP3 file into FLAC file...")
@@ -156,7 +161,7 @@ for fileName in os.listdir(PATHTOAUDIOFILE):
      blurbMap, fullTranscript = processGoogleResponse(response)
 
      print("Exporting to JSON file...")
-     exportToJSON(audio_file_output, blurbMap, fullTranscript)
+     exportToJSON(fileName, audio_file_output, blurbMap, fullTranscript)
      
      print("Deleting from Google Storage Bucket...")
      delete_blob(bucket_name, destination_blob_name)
