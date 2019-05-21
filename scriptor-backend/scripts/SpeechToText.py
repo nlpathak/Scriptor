@@ -22,6 +22,7 @@ from google.cloud.speech import types
 
 # Change BUCKETNAME to fit Google Cloud Platform bucketname
 PATHTOAUDIOFILE = sys.argv[1]
+GENERALPATH = PATHTOAUDIOFILE.split("audios")[0] 
 # BUCKETNAME = "audiofilesscriptor"
 BUCKETNAME = "scriptor"
 
@@ -93,7 +94,7 @@ def processGoogleResponse(response):
 
                    currBlurb = ''
                    numWordsInCurrBlurb = 0
-	 	   blurbIndex += 1
+                   blurbIndex += 1
 
     if numWordsInCurrBlurb != 0:
          blurbMap[currBlurb] = (currStartTime, currEndTime, blurbIndex)
@@ -116,15 +117,15 @@ def exportToJSON(audio_file_output, blurbMap, fullTranscript):
     json_data = json.dumps(json_out, indent=4, sort_keys=True)
 
     # Write to .json file
-    with open(PATHTOAUDIOFILE + "JSONS/" + json_file, 'w') as f:
+    with open(GENERALPATH + "transcripts/" + json_file, 'w') as f:
         f.write(json_data)
 
 
 
 bucket_name = BUCKETNAME
 
-if not os.path.isdir(PATHTOAUDIOFILE + "JSONS"):
-     os.mkdir(PATHTOAUDIOFILE + "JSONS")
+if not os.path.isdir(GENERALPATH + "transcripts"):
+     os.mkdir(GENERALPATH + "transcripts")
 
 for fileName in os.listdir(PATHTOAUDIOFILE):
      if not fileName.endswith(".mp3"):
@@ -143,7 +144,7 @@ for fileName in os.listdir(PATHTOAUDIOFILE):
      destination_blob_name = audio_file_output
 
      print("Turning MP3 file into FLAC file...")
-     os.system("sox " + source_file_name + " --rate 16k --bits 16 --channels 1 " + output_file_name)
+     os.system("sox " + "\"" + source_file_name + "\"" + " --rate 16k --bits 16 --channels 1 " + "\"" + output_file_name + "\"")
     
      print("Uploading to Google Cloud Storage bucket...")
      upload_blob(bucket_name, output_file_name, destination_blob_name)
