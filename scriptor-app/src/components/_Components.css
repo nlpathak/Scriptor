@@ -6,7 +6,7 @@ body {
 button:focus {
     outline: none;
 }
-  
+
 /*** Navbar ***/
 
 .navbar {
@@ -14,7 +14,7 @@ button:focus {
     width: 100%;
     background-color: rgba(72,136,163,.93);
 }
-  
+
 .navbar .logo {
     float: left;
     color:rgba(255,255,255,1);
@@ -32,11 +32,11 @@ button:focus {
     padding: 0;
     overflow: hidden;
 }
-  
+
 .navbar li {
     float: right;
 }
-  
+
 .navbar li button {
     display: block;
     padding: 16px 22px;
@@ -211,6 +211,25 @@ button:focus {
 /*** User Page ***/
 /* History */
 /* Favorites */
+
+.favorites {
+    padding: 20px;
+    display: block;
+}
+
+.favorites .header {
+    width: 20%;
+    overflow: hidden;
+}
+
+.favorites .header h1 {
+    font-weight: normal;
+    width: 20%;
+    font-size: 27px;
+}
+
+
+
 /* Settings */
 .settings {
     padding: 20px;
