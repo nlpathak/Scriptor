@@ -184,7 +184,7 @@ Warning: This documentation is a work-in-progress, so please message **#backend*
 #### Podcasts
 
 -   ##### Get podcast page data
-    `GET` /api/podcasts/snippets/(The transcription blob id goes here)/
+    `GET` /api/podcasts/blobs/(The transcription blob id goes here)/
     
     **Sample responses**
     ```json
@@ -193,7 +193,7 @@ Warning: This documentation is a work-in-progress, so please message **#backend*
         "podcast" : {
           // ...
         },
-        "transcription_blob" : {
+        "podcast_blob" : {
           // ...
         }
     }

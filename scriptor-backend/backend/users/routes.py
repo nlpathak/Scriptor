@@ -7,6 +7,13 @@ from backend.utils import login_required
 users_blueprint = Blueprint('users', __name__, url_prefix="/api/user")
 
 
+@users_blueprint.route("/me/")
+@login_required
+def get_current_user():
+    current_user = g.current_user.to_dict()
+    return jsonify(success=True, current_user=current_user)
+
+
 @users_blueprint.route('/register/', methods=['POST'])
 def user_register():
     """

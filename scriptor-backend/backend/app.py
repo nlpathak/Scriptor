@@ -31,10 +31,8 @@ def before_each_request():
 
 @app.route("/")
 def index():
-    if not g.current_user:
-        return jsonify(success=True)
-    else:
-        return jsonify(success=True, current_user=g.current_user.to_dict())
+    # A dummy API endpoint for checking the status of the API
+    return jsonify(success=True)
 
 # Import all blueprints
 from backend.users import users_blueprint
