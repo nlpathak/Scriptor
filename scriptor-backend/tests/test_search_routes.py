@@ -53,7 +53,6 @@ def test_podcasts():
     for blob in test_podcast_transcription_blobs:
         blob.delete()
 
-
 def test_general_search_podcasts(client, test_podcasts):
     # Try some relevant queries
     response = client.get(f"/api/search/podcasts/", query_string={"q": "lorem ipsum"})
