@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { toast } from 'react-toastify';
 import './_Components.css';
 
 class Signup extends Component {
@@ -15,8 +16,11 @@ class Signup extends Component {
     onSubmit(e) {
         e.preventDefault();
         if(this.state.pass !== this.state.verify) {
-            alert('Passwords do not match');
+            //@David
         } else {
+            toast("Welcome to Scriptor", {
+                className: 'popup'
+            });
             console.log(this.state);
         }
     }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { toast } from 'react-toastify';
 import './Forgotpass.css';
 
 class Forgotpass extends Component {
@@ -15,6 +16,9 @@ class Forgotpass extends Component {
         if(this.state.email.length < 1) {
             alert('Please enter an email');
         } else {
+            toast("Verification Email Sent", {
+                className: 'popup'
+            });
             console.log(this.state);
         }
     }

@@ -290,3 +290,12 @@ button:focus {
     color: rgba(72,136,163,.93);
     text-decoration: underline;
 }
+
+.popup {
+    background:rgba(72,136,163,.93) !important;
+    font-family: Heiti SC, sans-serif !important;
+    color: rgba(255,255,255,1) !important;
+    border-radius: 10px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+  }

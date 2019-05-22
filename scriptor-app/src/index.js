@@ -4,6 +4,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { toast } from 'react-toastify';
+
+toast.configure({
+    autoClose: 5000,
+    draggable: false,
+    closeButton: false,
+    draggablePercent: 100,
+    progressClassName: 'ourbar',
+    style: {top: '90px'}
+  });
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

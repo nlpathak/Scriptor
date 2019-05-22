@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './_Components.css';
 
 class Changepass extends Component {
@@ -15,9 +17,12 @@ class Changepass extends Component {
     onSubmit(e) {
         e.preventDefault();
         if(this.state.newpass !== this.state.verify) {
-            alert('Passwords do not match');
+            // @David
         } else {
             console.log(this.state);
+            toast("Password Changed", {
+                className: 'popup'
+            });
         }
     }
 

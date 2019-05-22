@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { toast } from 'react-toastify';
 import './PodcastPage.css';
 
 class PodcastPage extends Component {
@@ -57,6 +58,9 @@ class PodcastPage extends Component {
 
     onSubmit(e) {
         e.preventDefault();
+        toast("Favorited", {
+            className: 'popup'
+        });
     }
 
     render(){
@@ -75,7 +79,7 @@ class PodcastPage extends Component {
                 </div>
                 <div className="btn-group pagewide fullgroup">
                     <div className="btn-group pagewide">
-                        <button type="button" className="btn" onClck={e => this.onSubmit(e)}>FAVORITE</button>
+                        <button type="button" className="btn" onClick={e => this.onSubmit(e)}>FAVORITE</button>
                     </div>
                     <div className="btn-group pagewide">
                         <button type="button" className="btn">GO TO PODCAST</button>
