@@ -7,9 +7,9 @@ from backend.users.models import HistoryItem
 podcasts_blueprint = Blueprint('podcasts', __name__, url_prefix="/api/podcasts")
 
 
-@podcasts_blueprint.route("/transcriptions/<string:transcription_blob_id>/")
-def get_podcast_transcription_blob(transcription_blob_id):
-    transcription_blob = PodcastTranscriptionBlob.get(id=transcription_blob_id).to_dict()
+@podcasts_blueprint.route("/snippets/<string:transcription_blob_id>/")
+def get_podcast_snippet(transcription_blob_id):
+    transcription_blob = PodcastTranscriptionBlob.get(id=transcription_blob_id)
     podcast = transcription_blob.podcast.to_dict()
 
     if g.current_user:
@@ -18,7 +18,7 @@ def get_podcast_transcription_blob(transcription_blob_id):
                                    podcast_page_transcription_blob_id=transcription_blob.meta.id)
         g.current_user.add_history_item(history_item)
 
-    return jsonify(success=True, podcast=podcast, transcription_blob=transcription_blob)
+    return jsonify(success=True, podcast=podcast, transcription_blob=transcription_blob.to_dict())
 
 
 @podcasts_blueprint.route("/<string:podcast_id>/")

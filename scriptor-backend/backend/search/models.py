@@ -1,4 +1,5 @@
 from elasticsearch_dsl import Document, Text, Integer, Q, Date
+from flask import url_for
 
 from backend.podcasts.models import Podcast
 
@@ -30,9 +31,18 @@ class PodcastTranscriptionBlob(Document):
     class Index:
         name = "podcast_transription_blobs"
 
+    def get_snippet_url(self):
+        return url_for("podcasts.get_podcast_snippet", transcription_blob_id=self.meta.id)
+
     @property
     def podcast(self):
         return Podcast.get(id=self.podcast_id)
+
+    def convert_to_dict(self):
+        dict_ = self.to_dict(include_meta=False)
+        dict_['id'] = self.meta.id
+        dict_['href'] = self.get_snippet_url()
+        return dict_
 
     @staticmethod
     def search_podcasts(text_query, department=None, course_number=None, professor=None, quarter=None, section_id=None,

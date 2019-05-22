@@ -7,9 +7,14 @@ from backend.users.models import User
 from backend.search.models import PodcastTranscriptionBlob
 from backend.podcasts.models import Podcast
 
-User.init()
-PodcastTranscriptionBlob.init()
-Podcast.init()
+
+def init_db():
+    User.init()
+    PodcastTranscriptionBlob.init()
+    Podcast.init()
+
+
+init_db()
 
 # Middleware to run before each request
 @app.before_request
@@ -20,13 +25,16 @@ def before_each_request():
     try:
         auth_token = auth_token.replace("Bearer ", "")
         g.current_user = User.get_user_by_authtoken(auth_token=auth_token)
-    except:
+    except Exception as e:
         g.current_user = None
 
 
 @app.route("/")
 def index():
-    return jsonify(success=True)
+    if not g.current_user:
+        return jsonify(success=True)
+    else:
+        return jsonify(success=True, current_user=g.current_user.to_dict())
 
 # Import all blueprints
 from backend.users import users_blueprint
