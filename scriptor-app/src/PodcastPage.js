@@ -75,12 +75,12 @@ class PodcastPage extends Component {
                 </div>
                 <div className="btn-group pagewide fullgroup">
                     <div className="btn-group pagewide">
-                        <button type="button" className="btn">FAVORITE</button>
+                        <button type="button" className="btn" onClck={e => this.onSubmit(e)}>FAVORITE</button>
                     </div>
-                    <div className="btn-group pagewide inactive">
+                    <div className="btn-group pagewide">
                         <button type="button" className="btn">GO TO PODCAST</button>
                     </div>
-                    <div className="btn-group pagewide inactive">
+                    <div className="btn-group pagewide">
                         <button type="button" className="btn">VIEW TRANSCRIPT</button>
                     </div>
                 </div>

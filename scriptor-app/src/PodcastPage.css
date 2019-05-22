@@ -55,3 +55,8 @@
     color: rgba(72,136,163,.93);
     border: 1px solid rgba(72,136,163,.93);
 }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }

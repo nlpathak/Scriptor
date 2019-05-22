@@ -16,7 +16,8 @@ class Search extends Component {
     }
 
     updateFilters() {
-        if(this.state.query.length > 0) {
+        if(this.state.query.length > 0 || (this.state.department.length > 0 || this.state.course.length > 0
+        || this.state.professor.length > 0 || this.state.quarter.length > 0)) {
             this.setState({showFilters: true});
         } else {
             this.setState({showFilters: false});
