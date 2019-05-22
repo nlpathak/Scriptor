@@ -5,6 +5,9 @@
 2. `cd scriptor-backend`
 3. `pipenv install`
 
+## Tests
+To test the backend, run `pytest` from inside the `scriptor-backend` directory.
+
 ## Starting the backend API server
 1. `docker-compose up` (in a separate terminal tab, since this will start **Elasticsearch**)
 2. `pipenv shell` (in a separate terminal tab from the above command)
