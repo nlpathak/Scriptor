@@ -1,0 +1,346 @@
+{
+    "Blurbs": {
+        "+ 1 is an integer and so then you can use that kind of build up. So we're going to kind of generalized that type of argument Okay, so We're getting we can come at recursive definitions kind of in a few different ways. One of them is how to define a function. This might be how you guys are normally acquainted with her Persian. You can recursively Define a ": [
+            156.5,
+            184.1,
+            4
+        ],
+        "0 1 0 1 0 1? I already put a checkmark there. Okay, what about this thing here? Well, the... Kind of means that it goes on forever goes on for Infinity. So it's like an infinite sequence of zeros and ones. This is not a bit string. There's no way to get to this with a sequence of recursive recursive steps as we Define in the previous slide. questions ": [
+            1869.6,
+            1902.8,
+            43
+        ],
+        "0 1 1 0 0 1 0 1 and someone pick questions about that set. Okay, so I want to prove something about every one of these things in this set. What's a statement we can say about every single element in this set? Okay, good. That was the one that we're going to do good. Thank you. So the claim is that every element s has equal numbers zeros ": [
+            2269.4,
+            2315.2,
+            54
+        ],
+        "1 2 N -1 of G of I write you're just adding up all the i n minus one term and then you add the next one. questions about that What do you mean the other way around? re-index I don't know if I understand all you're doing G of 1 + the rest. that would be valid but it won't help you with writing a recursive function because the ": [
+            1003.9,
+            1057.0,
+            22
+        ],
+        "I Say N I should have said k Okay, so we'll start with that on on Wednesday. for your instructional UC San Diego podcast for more visit podcast. Ucf.edu ": [
+            2906.5,
+            2941.8,
+            67
+        ],
+        "I got some thoughts what we got, I guess I should say 4 and greater than or equal to one. Okay. So next thing we're going to do is Define asset recursively, so we're defining one set but The way that you figure out what's a member of the set is by a recursive rule? Okay. So you have the same things you have the basics step and the recursive ": [
+            1135.5,
+            1164.3,
+            25
+        ],
+        "Is it true for the is it true for the basis step of your recursively defined set? And you can usually just do that by inspection and then you show that if it's true for some element of the set, then it must be true for all of the all of the new elements in the recursive step. I think an example would be nice to see. Okay, so let's ": [
+            2146.4,
+            2182.6,
+            51
+        ],
+        "Let's look at them one by one. Okay, n factorial. How do I Define this recursively remember I need a basis step and then I need a recursive step. Okay. So for all of these. Functions, let's consider. the domain to be Are the positive integers negative integers? Okay, so the basic step in this case is going to be what happens when you have zero factorial. Basis step vs. ": [
+            548.7,
+            604.9,
+            14
+        ],
+        "Okay good. Alright, let's look at another example. Okay, I have that one is in s and then I have the recursive step is if a is in s than a plus two is an S. What is an equivalent description of this set? Okay, good all positive odd integers. questions You could just kind of think about it you put one in the set. And then if one is ": [
+            1459.6,
+            1519.6,
+            34
+        ],
+        "Okay. Good question, though. Okay. So how do we Define a function recursively? It's a lot like how we did the induction so you specify the function value at zero and then you figure out how to get to the next value from the previous value. Do you give a rule for finding its value based on the values of smaller integer? So it's kind of like you start at ": [
+            427.1,
+            456.5,
+            12
+        ],
+        "Okay. So since since 0 is in there, what else do we have? 00 and 01 are both in their right by these two rules. And since one is in there, we get 1 0 to me. Yeah, 1 0 and 1 1 those are both in there. And since we have all those we get 0 0 0 0 0 1 and so on. So this is actually going ": [
+            1682.9,
+            1711.6,
+            39
+        ],
+        "Spaces Step Zero factorial recursive step is going to be what? We need to figure out how do I get to n factorial from smaller factorials? okay, good times and -1 factorial for n greater than or equal to one. Everybody knows what factorial means are there any questions about factorial? We're all good get good. great questions about this recursive function Okay, how would you all do to to ": [
+            604.9,
+            663.4,
+            15
+        ],
+        "Thanks. Okay. Okay, so that's so here's the proof. This is just what I wrote down before I guess I'll have you guys prove this as an exercise. All right. so last kind of recursive definition we're going to have is hey. Recursively defined set a function on a recursively defined set. Okay. So the domain is going to be the set that has this recursive structure and then you ": [
+            2651.4,
+            2714.6,
+            63
+        ],
+        "a non-negative integer so if we have time for this Okay. So this was our original recursion for bit strings. We're just kind of growing them by one bit each time. So how many strings are formed using the basis stepped and at most and applications of the recursive step? Okay good. So if you like if you kind of think about the sequence. after 0 applications, you just get ": [
+            2782.4,
+            2862.9,
+            65
+        ],
+        "a seed which is like a 0 or 1/2 of 0 and that seemed kind of grows into a sequence. So let's get our clickers out. Which one of these sequences? Can we describe using a recursive function? And how would we do it? Let me just do this real fast. Where am I? Okay, let's see what you guys say. Okay, good. All of them can be defined recursively. ": [
+            456.5,
+            548.7,
+            13
+        ],
+        "about that so any restraints they have to be finite finite in length. Okay good. Okay, so recursive definitions that you may have seen already. strings are are really a great mathematical object that you can define recursively you can Define all these recursive Define all these sets of strings recursively if you guys are planning on taking CSE 105, then this is like This is like basically what you ": [
+            1902.8,
+            1952.8,
+            44
+        ],
+        "and ones You guys believe this to be true? Yeah, right kind of easy to see maybe some of you are even thinking about it recursively which is well if they have an even number of 100 wants to start with then I'm adding. A 0 + a 1 + My Only Rule. So the next one will have the even number of zeros and ones equal number of zeros ": [
+            2315.2,
+            2345.8,
+            55
+        ],
+        "basis step. It's the first string that we that we put into the set. Let's go back for a second. You guys can't see it. The First Drink is a basis step Lambda is a bit string Lambda is in this set. All right. play what about 1 is that a bit string? Yes, how about 0 0 0? Also, yes. Hey, so all three of these are. What about ": [
+            1821.1,
+            1869.6,
+            42
+        ],
+        "be paint. So it's you can kind of think about in this particular example the trait is that each string will always have zeros and ones and their offspring eating equal number of zeros and ones and their offspring will always have that equal number of zeros and ones just by the nature of the the process the nature of the recursion any questions about that that help with the ": [
+            2621.4,
+            2650.3,
+            62
+        ],
+        "being one to one being onto it's going to be important how we distinguish the range from the codomain, but for right now you can kind of think the co domain is the set of the set of values that you could expect to see but it might have values in the codomain that you can never get to sort of a little bit later. We start talking about functions. ": [
+            393.8,
+            425.9,
+            11
+        ],
+        "bit strings. Okay, so bit strings are sequences of zeros and ones and we don't we just write them in one after the other we don't. Separate them by commas or anything like that. They're just sequences of strength, okay. So this symbol 01 * this thing is called. cleaning star and it's an operation that you do on sets and the operation has a recursive meaning for a course ": [
+            1550.2,
+            1594.7,
+            36
+        ],
+        "definition of bit string? It's what we had in the previous slide. We defined it recursively case of this. Whatever we Define here is the set of all bit strings. Take a look. naked Okay, so if if something is not a bit string that means that you can't get to it using a sequence of recursive steps, right? Is the empty string a bit string? Yes, right. It's the ": [
+            1769.5,
+            1821.1,
+            41
+        ],
+        "do the whole time in that class talked about string sets of strings. And how do you describe them? You can describe them recursively that using one model or describe them by listing them out or describe them using these other types of tools called regular expressions and stuff like that. Okay, so there's data structures that you guys may have seen already in some of your coding classes often ": [
+            1952.8,
+            1981.1,
+            45
+        ],
+        "few of the first few strings in this set. We have Lambda. We have zero one, Lambda. 10 Lambda what else do we have based on those? 1010 1001 what else do we have? That's kind of coming from this guy. From this one we have what one? Well, I guess that's coming from this one. Dorset so I don't care about the order Frank. And this guy gives me. ": [
+            2213.3,
+            2261.6,
+            53
+        ],
+        "function. What do you need to specify a function? You need to know? What's the domain? What are the allowable inputs? What's the codomain? What type of input do you expect? And what's the rule? How do I given a certain input? How do I figure out what its images or what the function value is? So today primarily the in the domain is going to be positive. integers or ": [
+            184.1,
+            220.0,
+            5
+        ],
+        "grows it kind of splits off and then each branch puts off. What else is like that? Mike Rivers when they split and guess I'm just talking about tree structures, but yeah, it's a lot of complex information that you can build but it's it's kind of packaged in this nice small amount of steps pranks like a algorithm to kind of build these things. Okay. So what we've done ": [
+            2013.9,
+            2055.6,
+            47
+        ],
+        "have a function that goes to some codomain. Let me give you an example. the length function What is the length of a string? a string is what? Okay, good the number of characters. Okay, so L is a function. from the set of all bit strings to the non-negative integers for example L of 0100 is equal to 4 your input is a string and output is a number ": [
+            2714.6,
+            2782.4,
+            64
+        ],
+        "in the set than one plus two is in the sets of three good if three is anisette than three plus two is in the sets of 5 and so on. Okay. So let's look at another type of set of things we've been talking about sets of integers a lot. Let's talk about sets of strings. Okay. So strings are just sequences of characters. Often times will talk about ": [
+            1519.6,
+            1550.2,
+            35
+        ],
+        "into a cynicial e? 40K bases step 4 is in s good recursive step. So the recursive step says something like this. If let's call it. Hey, if a is in s then a + 1 is an ass. Painting the night that saw this describes the whole set. What about the number a hundred? How do you know a hundred is in the set? Well, if 99 is in ": [
+            1236.6,
+            1277.6,
+            28
+        ],
+        "is like when we say let K be greater than or equal to 0. and then assume W has equal number of zeros and ones this is the inductive hypothesis. Hey sweet has the same exact structure as regular induction just a little bit in generalized. Okay, then. We want to show. That each one of the rules will result in a string that has equal number of zeros and ": [
+            2457.9,
+            2502.9,
+            58
+        ],
+        "it with induction so far is we've kind of built this linear pathway because we're trying to prove something about all integers and integers are all integers greater than or equal to 0 and that set is nice because it has this linear path right cat pee of cake and pie pfk plus one and you can just go down the whole thing. Now what structural induction we may we ": [
+            2055.6,
+            2086.5,
+            48
+        ],
+        "just said that the domain will be starting from zero. So I was just trying to keep it. Keep it consistent with the other ones, but you can start at half of one if you wanted to and you just have half of 1 is equal to 2 G of one and then go from there. I feel like this Mike is a little too loud. There any other questions? ": [
+            1098.4,
+            1126.6,
+            24
+        ],
+        "like that. Okay, and you have initial population of I don't know some animal. Let's say hummingbird. Okay. Now if all the hummingbirds the initial population if they all carry a certain trait, right like let's say they're all pink. And we know that they they pass on that trait to their offspring if that's a rule. No matter how long they stay on this island. All hummingbirds will always ": [
+            2586.3,
+            2621.4,
+            61
+        ],
+        "like to do is have some sort of formula that you plug it into right? So what does that look like? We can do we can kind of talk about the formula. What happens when I plug in a certain number and then you may be a 10 squared or whatever and plus one or something like that or you can think about these values please function values as a ": [
+            287.8,
+            319.1,
+            8
+        ],
+        "look at this example. I want to have I want to build this subset s okay. It's not all the bit strings, but it's just some of the bit strings of subsets. How do we Define it? We're going to put in the empty string. Lambda and then if we have a string in s then 10 W is in sn01 W is in s let's let's write out a ": [
+            2182.6,
+            2213.3,
+            52
+        ],
+        "may build these sets with kind of a nonlinear path. If there's two or more rules, then you can maybe get to a number in different ways or get to certain numbers that you couldn't get to others. If you go down a certain branch of the tree guy. So structural induction is a generalization of mathematical induction or were talking more about recursively defined sets instead of just the ": [
+            2086.5,
+            2112.2,
+            49
+        ],
+        "maybe non- okay. so one of the other Something like that. The kodo name is going to be a lot of different things right you could you could either have the codomain be integers or real numbers or even sets ranked. So doesn't they don't have to match the codomain in the domain don't have to match. Okay, so if our domain were the set of non-negative integers are natural ": [
+            220.0,
+            264.5,
+            6
+        ],
+        "non-negative integers. Stop, how do you do structural induction Salat like regular induction? You shall I guess I have to tell you what types of problems you can do with structural induction. So if you have a recursively defined set s and I want to show that some statement is true for all of the values of s. IU structural induction. So the first thing you do is say okay. ": [
+            2112.2,
+            2146.4,
+            50
+        ],
+        "numbers. Then you can actually just write out what each function value is half of 0 of something half of one is something fm2 is something now. This will be like an infinite list of assignments. But if you had infinite time you could write them all out and if you had infinite time you can kind of read them all but we don't have time. So generally what we ": [
+            264.5,
+            287.8,
+            7
+        ],
+        "of an to be the partial sum up to end. Okay, and then so then so if you have that then the function 1/10 + 1 is just a partial sum up to End plus the next element. Okay. So let's see how that works. So like let's look first at Athens. Gyro. What is F10 here? If I equals 120 g of i k is anybody know how we ": [
+            902.1,
+            932.2,
+            19
+        ],
+        "of definition. OK and here it is. The recursive definition is this Lambda is in 01 star where Lambda is the empty string? And the recursive step if you have some W, so some string of zeros in 1 sumbit string if it's in 01 star, then w0 is in there and WW1 stars in there. Okay, let's look at kind of how this set could be built. Okay, so ": [
+            1594.7,
+            1631.2,
+            37
+        ],
+        "of talk about how to apply induction to a different type of problem. Remember we said that induction problems are really nice to show that something is true for all non-negative integers and or even all integers greater than or equal to some other integer and it works really well for that. There's another type of structure that it worked well for us and for that reason we call it ": [
+            67.9,
+            97.0,
+            1
+        ],
+        "ones want to show that. I guess it would be 10 W + 0 1 W each half. equal number of zeros and Watson You guys could probably already see where the proof is going. If you start with equal number of zeros and ones and then you add exactly 1 0 and 1 1 then the result will have equal number of zeros and ones. You see how it's ": [
+            2502.9,
+            2548.3,
+            59
+        ],
+        "over non-negative integers and vice versa. question No, what's the difference? No, it's not that specific. So the codomain is sort of the it's okay here at the range is easy to just Define. The range is all of the function values that are possible. The codomain is just any superset of the range. that might be kind of weird to think about but once we start talking about functions ": [
+            346.0,
+            393.8,
+            10
+        ],
+        "podcast Okay, good morning morning. Man, that was a long weekend, huh? Is nice. Didn't feel particularly long for anybody else. like an hour longer Yeah, I got an hour more sleep to an hour. Feels like its 12 right now. No. Still too early, huh? Okay, let's get started. Singh is not loud enough, huh? Okay, what are we doing today? Continue along with induction. We're going to kind ": [
+            1.9,
+            67.9,
+            0
+        ],
+        "powerful to use induction. You don't have to go through the infinite set. You can just kind of show that the recursion holds these properties right and it carries it Carries On. So I was looking at different ways to talk about structural induction and I came across this. This nice analogy which was supposed you had a like some Island that is separated from all other Society or anything ": [
+            2548.3,
+            2586.3,
+            60
+        ],
+        "proof together. What in the world? proof by structural induction Okay basis step. Okay, Lambda. Does it have equal number of zeros and ones? Lambda has 00 and 01 recursive step This is just like we had an induction where we were trying to were trying to prove that if W is in the the language or swimming if W is in the set. then Applying the rules to W ": [
+            2345.8,
+            2410.1,
+            56
+        ],
+        "recursion and induction really go hand-in-hand there one in the same thing recursion is more about how to define something recursively and induction doing the same concept but to prove something and is you using your using the recursive property the recursive nature. The only reason induction works on the set of all integers is because the integers have this recursive property where if any of the integer than n ": [
+            127.5,
+            156.5,
+            3
+        ],
+        "recursive step ready go. Nicki Minaj Let me know if you want me to write some more. some more numbers in the sequence Hi Mario, how's it going? Okay, how does it go? What is f let's call this let's call this function. I am so let's say this is a 0 a 1A 2A 3A. 4A 0 is equal to what? Two very good. And a n is equal ": [
+            704.5,
+            826.6,
+            17
+        ],
+        "resolve this when the when the index starts at a number after the the after it supposed to end. It's just zero notice that this is Nike not really the way you want to write a summation with a bunch of terms because you're starting at 1 and going to zero. So if the index starts before or after it supposed to end then we just defined that to be ": [
+            932.2,
+            965.1,
+            20
+        ],
+        "right and then you go back down to four is an asset and then it kind of you you bring up a good point because we in order to show that a hundred is in the set maybe like your scratch work would be going backwards like that trying to get to for but your presentation should look something like okay for is in the set there for five in ": [
+            1370.7,
+            1394.8,
+            32
+        ],
+        "sequence. And if I say I want to know what half of 15 is then I take my sequence and I go down 15 places and figure out what that is, right. So now we can kind of start linking different types of mathematical structures together. So functions over non-negative integers are mainly all they are really are just sequences case or anything that works with sequences works with functions ": [
+            319.1,
+            346.0,
+            9
+        ],
+        "set, but that's not the same as saying if a plus one is in the set than a s in a sentence. That's not what I said. I said I said, let's see if it a hundred in the set a hundred is in the set if 99 is an asset 99 is in the set. If not, it is in the set 98 is in the set if 97 ": [
+            1351.2,
+            1370.7,
+            31
+        ],
+        "start with this is to just write out. What is the set what is a set look like? For what else? 567 and so on Who the infinite set right we're going to see that we only need to find out amount of information in order to describe it. How do we describe it recursively basis step? Let's call this set ass faces step. What do we want to put ": [
+            1195.9,
+            1236.6,
+            27
+        ],
+        "step the bases step. You kind of put some initial elements in there may be one or two or three. In the recursive step tells you how to get two new elements. How do you add new elements to the set? Let's look at an example. the example of all integers X such that X is an integer and X is greater than 3 Okay, so maybe some place to ": [
+            1164.3,
+            1195.9,
+            26
+        ],
+        "structural induction, and it's It's really helpful. If you have some sort of set that's defined recursively then we can use induction to show that things are true about the set. Okay, so we're also going to talk about recursion. What does it mean to define something recursively whether that be a function or a SAT or something like that? And And you're going to you're going to notice that ": [
+            97.0,
+            127.5,
+            2
+        ],
+        "the end? 2 to the zero is equal to one right and then what 2 to the N is equal to? 2 * 2 to the N minus 1 4 and greater than or equal to one. Okay. How about this one? Why don't you guys take a few minutes to see if you can figure it out with your neighbor? We need a basis step and we need a ": [
+            663.4,
+            704.5,
+            16
+        ],
+        "the idea that we want I get to is that this thing here is actually F of N - 1 And if you start at 2 then. not really part of the definition Okay, so then we have a set of n is equal to G of n + 1/2 of N - 1 when? N is greater than or equal to one. Good questions about that. You could I ": [
+            1057.0,
+            1098.4,
+            23
+        ],
+        "the set than a hundred is in the set. How do you know 99 isn't this kind of trace it all the way back before so Yeah, it's such a different way to describe this set any questions about it. backspace backspace on 44073 No, but three is not an ass. Sure, you can cuz you start from a hundred and you back up back it up until you get ": [
+            1277.6,
+            1323.6,
+            29
+        ],
+        "the set the empty empty string one application you get what the empty string 0 and 1 he would get one three two applications. We get the empty set empty string 0 1 0 0 1 1 0 1 1 0 so that's how many 7 and so on right? It's basically like for every every time You apply it you keep on getting 2K + 1. Play Why Did ": [
+            2862.9,
+            2906.5,
+            66
+        ],
+        "the set their 46247 there for me and someone yeah. But it would be the same. That that would be an equivalent statement. question That's our recursive step. Can you say that say it again? 04 all sa isn't as implied a plus one is as that's fine. Let's write that kind of an alternative way to say it for all s. A&S implies a plus one is in it. ": [
+            1394.8,
+            1457.8,
+            33
+        ],
+        "times. They're defined recursively like trees like linkless grass be the purpose that you describe. The reason that you describe them recursively is because usually it's a small amount of code to build this really big complex object and this is recursion and and things like that. They have a lot to do with fractals and nature nature kind of works recursively. If you think about a tree when it ": [
+            1981.1,
+            2013.9,
+            46
+        ],
+        "to 4th. And then for you can say I know for is in the set because of the face of death. I mean three wheelers that right now because 3 is not in the set. This is this is a good this is a good example of the implication only going One Direction. But it says that if a is in the sack than a plus one is in the ": [
+            1323.6,
+            1351.2,
+            30
+        ],
+        "to generate the whole set of all possible bit strings. Are there any questions about this? Is Lambda is the empty string? It's the string without any characters. So if you start with no characters and you put a zero next to it then all you get is just 0. kind of subtle butt Okay, which one of these strings is not a bit string? And remember, what is the ": [
+            1711.6,
+            1769.5,
+            40
+        ],
+        "to get these new strings. Those also have the property and has the property than the new strings that you make will also have the property. So how we going to do this? Let W be in the sack. and assume W has equal number zeros and ones let's just highlight some of these things first. So when I say let wbns this is like when we're doing induction. This ": [
+            2410.1,
+            2457.9,
+            57
+        ],
+        "to what? write -4 * a + -1 any questions So what's the next element in the list? 512 * -4 is what negative 2048? Is that right? No. Yes. Yes, that's right. Yes questions about that. Okay, how about the summation thing? So some Nations actually are really they are really related to recursively defined functions. And the reason is because you can just think about the the function ": [
+            826.6,
+            902.1,
+            18
+        ],
+        "we have the empty string. And if you guys haven't seen the empty string before it's just a string with no characters. Okay, so if the empty string is in there, that means that the empty string. 0 and the empty string one are both in there. And a better way to write this. would be 0 and 1 peso. These are the same these mean the same thing. questions ": [
+            1631.2,
+            1673.2,
+            38
+        ],
+        "zero. Okay. Okay. So now how do I Define f of n well, let's just write it out at the van is I equals 1 to n g of I right. and so basically you're just doing G of 1 + G of 2 + G of 3 all the way up to + G of n so it's natural to decompose this 2 G of n Plus I equals ": [
+            965.1,
+            1003.9,
+            21
+        ]
+    },
+    "File Name": "Discrete Mathematics - A00 - Jones, Miles E - Fall 2018-lecture_17.flac",
+    "Full Transcript": "podcast  Okay, good morning morning.  Man, that was a long weekend, huh?  Is nice.  Didn't feel particularly long for anybody else.  like an hour longer  Yeah, I got an hour more sleep to an hour.  Feels like its 12 right now. No.  Still too early, huh? Okay, let's get started.  Singh is not loud enough, huh?  Okay, what are we doing today?  Continue along with induction. We're going to kind of talk about how to apply induction to a different type of problem.  Remember we said that induction problems are really nice to show that something is true for all non-negative integers and or even all integers greater than or equal to some other integer and it works really well for that. There's another type of structure that it worked well for us and for that reason we call it structural induction, and it's  It's really helpful. If you have some sort of set that's defined recursively then we can use induction to show that things are true about the set.  Okay, so we're also going to talk about recursion.  What does it mean to define something recursively whether that be a function or a SAT or something like that? And  And you're going to you're going to notice that recursion and induction really go hand-in-hand there one in the same thing recursion is more about how to define something recursively and induction doing the same concept but to prove something and is you using your using the recursive property the recursive nature. The only reason induction works on the set of all integers is because the integers have this recursive property where if any of the integer than n + 1 is an integer and so then you can use that kind of build up. So we're going to kind of generalized that type of argument  Okay, so  We're getting we can come at recursive definitions kind of in a few different ways. One of them is how to define a function. This might be how you guys are normally acquainted with her Persian. You can recursively Define a function. What do you need to specify a function? You need to know? What's the domain? What are the allowable inputs? What's the codomain? What type of input do you expect? And what's the rule? How do I given a certain input? How do I figure out what its images or what the function value is?  So today primarily the in the domain is going to be positive.  integers  or maybe non-  okay.  so one of the other  Something like that. The kodo name is going to be a lot of different things right you could you could either have the codomain be integers or real numbers or even sets ranked. So doesn't they don't have to match the codomain in the domain don't have to match.  Okay, so  if our domain were the set of  non-negative integers are natural numbers.  Then you can actually just write out what each function value is half of 0 of something half of one is something fm2 is something now. This will be like an infinite list of assignments. But if you had infinite time you could write them all out and if you had infinite time you can kind of read them all but we don't have time. So generally what we like to do is have some sort of formula that you plug it into right?  So what does that look like?  We can do we can kind of talk about the formula.  What happens when I plug in a certain number and then you may be a 10 squared or whatever and plus one or something like that or you can think about these values please function values as a sequence. And if I say I want to know what half of 15 is then I take my sequence and I go down 15 places and figure out what that is, right. So now we can kind of start linking different types of mathematical structures together. So functions over non-negative integers are mainly all they are really are just sequences case or anything that works with sequences works with functions over non-negative integers and vice versa.  question  No, what's the difference?  No, it's not that specific.  So the codomain is sort of the  it's okay here at the range is easy to just Define. The range is all of the function values that are possible.  The codomain is just any superset of the range.  that might be kind of weird to think about but once we start talking about functions being one to one being onto it's going to be important how we distinguish the range from the codomain, but for right now you can kind of think the co domain is the set of  the set of values that you could expect to see but it might have values in the codomain that you can never get to sort of a little bit later.  We start talking about functions.  Okay. Good question, though.  Okay. So how do we Define a function recursively? It's a lot like how we did the induction so you specify the function value at zero and then you figure out how to get to the next value from the previous value. Do you give a rule for finding its value based on the values of smaller integer? So it's kind of like you start at a seed which is like a 0 or 1/2 of 0 and that seemed kind of grows into a sequence.  So let's get our clickers out.  Which one of these sequences?  Can we describe using a recursive function?  And how would we do it?  Let me just do this real fast.  Where am I?  Okay, let's see what you guys say.  Okay, good. All of them can be defined recursively. Let's look at them one by one.  Okay, n factorial.  How do I Define this recursively remember I need a basis step and then I need a recursive step. Okay. So for all of these.  Functions, let's consider.  the domain  to be  Are the positive integers negative integers?  Okay, so the basic step in this case is going to be what happens when you have zero factorial.  Basis step vs. Spaces Step Zero factorial recursive step is going to be what?  We need to figure out how do I get to n factorial from smaller factorials?  okay, good times and -1 factorial  for n greater than or equal to one.  Everybody knows what factorial means are there any questions about factorial?  We're all good get good.  great questions about this recursive function  Okay, how would you all do to to the end?  2 to the zero is equal to one right and then what 2 to the N is equal to?  2 * 2 to the N minus 1  4 and greater than or equal to one.  Okay. How about this one? Why don't you guys take a few minutes to see if you can figure it out with your neighbor? We need a basis step and we need a recursive step ready go.  Nicki Minaj  Let me know if you want me to write some more.  some more numbers in the sequence  Hi Mario, how's it going?  Okay, how does it go? What is f let's call this let's call this function.  I am so let's say this is a 0 a 1A 2A 3A. 4A 0 is equal to what?  Two very good.  And a n is equal to what?  write -4 * a + -1  any questions  So what's the next element in the list? 512 * -4 is what negative 2048?  Is that right?  No.  Yes.  Yes, that's right. Yes questions about that.  Okay, how about the summation thing?  So some Nations actually are really  they are really related to recursively defined functions. And the reason is because you can just think about the  the function of an to be the partial sum up to end.  Okay, and then so then so if you have that then the function 1/10 + 1 is just a partial sum up to End plus the next element. Okay. So let's see how that works. So like let's look first at Athens. Gyro. What is F10 here?  If I equals 120 g of i k is anybody know how we resolve this when the when the index starts at a number after the the after it supposed to end.  It's just zero notice that this is Nike not really the way you want to write a summation with a bunch of terms because you're starting at 1 and going to zero. So if the index starts before or after it supposed to end then we just defined that to be zero.  Okay.  Okay. So now how do I Define f of n well, let's just write it out at the van is I equals 1 to n g of I right.  and so basically you're just doing G of 1 + G of 2 + G of 3 all the way up to + G of n so it's natural to  decompose this 2 G of n Plus  I equals 1 2 N -1 of G of I write you're just adding up all the i n minus one term and then you add the next one.  questions about that  What do you mean the other way around?  re-index  I don't know if I understand all you're doing G of 1 + the rest.  that would be valid but it won't help you with writing a recursive function because the the idea that we want I get to is that this thing here is actually F of N - 1  And if you start at 2 then.  not really part of the definition  Okay, so then we have a set of n is equal to G of n + 1/2 of N - 1 when?  N is greater than or equal to one.  Good questions about that.  You could I just said that the domain will be starting from zero. So I was just trying to keep it.  Keep it consistent with the other ones, but you can start at half of one if you wanted to and you just have half of 1 is equal to 2 G of one and then go from there.  I feel like this Mike is a little too loud.  There any other questions?  I got some thoughts what we got, I guess I should say 4 and greater than or equal to one.  Okay. So next thing we're going to do is Define asset recursively, so we're defining one set but  The way that you figure out what's a member of the set is by a recursive rule? Okay. So you have the same things you have the basics step and the recursive step the bases step. You kind of put some initial elements in there may be one or two or three.  In the recursive step tells you how to get two new elements. How do you add new elements to the set?  Let's look at an example.  the example of all integers X such that X is an integer and X is greater than 3  Okay, so maybe some place to start with this is to just write out. What is the set what is a set look like?  For what else?  567 and so on  Who the infinite set right we're going to see that we only need to find out amount of information in order to describe it.  How do we describe it recursively basis step?  Let's call this set ass faces step.  What do we want to put into a cynicial e?  40K bases step 4 is in s good recursive step.  So the recursive step says something like this.  If let's call it.  Hey, if a is in s  then a + 1 is an ass.  Painting the night that saw this describes the whole set. What about the number a hundred? How do you know a hundred is in the set? Well, if 99 is in the set than a hundred is in the set. How do you know 99 isn't this kind of trace it all the way back before so  Yeah, it's such a different way to describe this set any questions about it.  backspace backspace on 44073  No, but three is not an ass.  Sure, you can cuz you start from a hundred and you back up back it up until you get to 4th. And then for you can say I know for is in the set because of the face of death.  I mean three wheelers that right now because 3 is not in the set.  This is this is a good this is a good example of the implication only going One Direction.  But it says that if a is in the sack than a plus one is in the set, but that's not the same as saying if a plus one is in the set than a s in a sentence. That's not what I said. I said I said, let's see if it a hundred in the set a hundred is in the set if 99 is an asset 99 is in the set. If not, it is in the set 98 is in the set if 97 right and then you go back down to four is an asset and then it kind of you you bring up a good point because we  in order to show that a hundred is in the set maybe like your scratch work would be going backwards like that trying to get to for but your presentation should look something like okay for is in the set there for five in the set their 46247 there for me and someone  yeah.  But it would be the same.  That that would be an equivalent statement.  question  That's our recursive step. Can you say that say it again?  04 all sa isn't as implied a plus one is as that's fine.  Let's write that kind of an alternative way to say it for all s.  A&S implies a plus one is in it.  Okay good.  Alright, let's look at another example.  Okay, I have that one is in s and then I have the recursive step is if a is in s than a plus two is an S. What is an equivalent description of this set?  Okay, good all positive odd integers.  questions  You could just kind of think about it you put one in the set. And then if one is in the set than one plus two is in the sets of three good if three is anisette than three plus two is in the sets of 5 and so on.  Okay.  So let's look at another type of set of things we've been talking about sets of integers a lot. Let's talk about sets of strings. Okay. So strings are just sequences of characters.  Often times will talk about bit strings.  Okay, so bit strings are sequences of zeros and ones and we don't we just write them in one after the other we don't.  Separate them by commas or anything like that. They're just sequences of strength, okay.  So this symbol 01 * this thing is called.  cleaning star  and it's an operation that you do on sets and the operation has a recursive meaning for a course of definition. OK and here it is. The recursive definition is this  Lambda is in 01 star where Lambda is the empty string?  And the recursive step if you have some W, so some string of zeros in 1 sumbit string if it's in 01 star, then w0 is in there and WW1 stars in there.  Okay, let's look at kind of how this set could be built.  Okay, so we have the empty string.  And if you guys haven't seen the empty string before it's just a string with no characters.  Okay, so if the empty string is in there, that means that the empty string.  0 and the empty string one are both in there.  And a better way to write this.  would be  0 and 1 peso. These are the same these mean the same thing.  questions  Okay. So since since 0 is in there, what else do we have?  00 and 01 are both in their right by these two rules.  And since one is in there, we get 1 0 to me. Yeah, 1 0 and 1 1 those are both in there. And since we have all those we get 0 0 0 0 0 1 and so on.  So this is actually going to generate the whole set of all possible bit strings.  Are there any questions about this?  Is Lambda is the empty string? It's the string without any characters. So if you start with no characters and you put a zero next to it then all you get is just 0.  kind of subtle butt  Okay, which one of these strings is not a bit string?  And remember, what is the definition of bit string?  It's what we had in the previous slide. We defined it recursively case of this. Whatever we Define here is the set of all bit strings.  Take a look.  naked  Okay, so if if something is not a bit string that means that you can't get to it using a sequence of recursive steps, right?  Is the empty string a bit string?  Yes, right. It's the basis step.  It's the first string that we that we put into the set. Let's go back for a second. You guys can't see it.  The First Drink is a basis step Lambda is a bit string Lambda is in this set.  All right.  play what about 1  is that a bit string?  Yes, how about 0 0 0?  Also, yes.  Hey, so all three of these are.  What about 0 1 0 1 0 1?  I already put a checkmark there. Okay, what about this thing here?  Well, the... Kind of means that it goes on forever goes on for Infinity. So it's like an infinite sequence of zeros and ones. This is not a bit string. There's no way to get to this with a sequence of recursive recursive steps as we Define in the previous slide.  questions about that  so any restraints they have to be finite finite in length.  Okay good.  Okay, so  recursive definitions that you may have seen already.  strings are are really a great mathematical object that you can define recursively you can Define all these recursive Define all these sets of strings recursively if you guys are planning on taking CSE 105, then this is like  This is like basically what you do the whole time in that class talked about string sets of strings. And how do you describe them? You can describe them recursively that using one model or describe them by listing them out or describe them using these other types of  tools called regular expressions and stuff like that.  Okay, so there's data structures that you guys may have seen already in some of your coding classes often times. They're defined recursively like trees like linkless grass be the purpose that you describe. The reason that you describe them recursively is because usually it's a small amount of code to build this really big complex object and this is recursion and and things like that. They have a lot to do with fractals and nature nature kind of works recursively. If you think about a tree when it grows it kind of splits off and then each branch puts off.  What else is like that?  Mike Rivers when they split and guess I'm just talking about tree structures, but  yeah, it's a lot of complex information that you can build but it's it's kind of packaged in this nice small amount of  steps pranks like a algorithm to kind of build these things.  Okay. So what we've done it with induction so far is we've kind of built this linear pathway because we're trying to prove something about all integers and integers are all integers greater than or equal to 0 and that set is nice because it has this linear path right cat pee of cake and pie pfk plus one and you can just go down the whole thing.  Now what structural induction we may we may build these sets with kind of a nonlinear path. If there's two or more rules, then you can maybe get to a number in different ways or get to certain numbers that you couldn't get to others. If you go down a certain branch of the tree guy. So structural induction is a generalization of mathematical induction or were talking more about recursively defined sets instead of just the non-negative integers.  Stop, how do you do structural induction Salat like regular induction?  You shall I guess I have to tell you what types of problems you can do with structural induction. So if you have a recursively defined set s  and I want to show that some statement is true for all of the values of s.  IU structural induction. So the first thing you do is say okay. Is it true for the is it true for the basis step of your recursively defined set?  And you can usually just do that by inspection and then you show that if it's true for some element of the set, then it must be true for all of the all of the new elements in the recursive step.  I think an example would be nice to see.  Okay, so let's look at this example.  I want to have I want to build this subset s okay. It's not all the bit strings, but it's just some of the bit strings of subsets. How do we Define it? We're going to put in the empty string.  Lambda  and then if we have a string in s then 10 W is in sn01 W is in s  let's let's write out a few of the first few strings in this set.  We have Lambda. We have zero one, Lambda.  10 Lambda  what else do we have based on those?  1010  1001 what else do we have? That's kind of coming from this guy.  From this one we have what one?  Well, I guess that's coming from this one.  Dorset so I don't care about the order Frank.  And this guy gives me.  0 1 1 0 0 1 0 1 and someone pick questions about that set.  Okay, so I want to prove something about every one of these things in this set. What's a statement we can say about every single element in this set?  Okay, good. That was the one that we're going to do good. Thank you. So the claim is that every  element  s  has  equal numbers  zeros and ones  You guys believe this to be true?  Yeah, right kind of easy to see maybe some of you are even thinking about it recursively which is well if they have an even number of 100 wants to start with then I'm adding.  A 0 + a 1 + My Only Rule. So the next one will have the even number of zeros and ones equal number of zeros proof together.  What in the world?  proof by structural induction  Okay basis step.  Okay, Lambda. Does it have equal number of zeros and ones?  Lambda has  00 and 01  recursive step  This is just like we had an induction where we were trying to were trying to prove that if W is in the the language or swimming if W is in the set.  then  Applying the rules to W to get these new strings. Those also have the property and has the property than the new strings that you make will also have the property.  So how we going to do this?  Let W be in the sack.  and assume  W has  equal  number  zeros and ones  let's just highlight some of these things first. So when I say let wbns  this is like when we're doing induction. This is like when we say let K be greater than or equal to 0.  and then assume  W has equal number of zeros and ones this is the inductive hypothesis.  Hey sweet has the same exact structure as regular induction just a little bit in generalized.  Okay, then.  We want to show.  That each one of the rules will result in a string that has equal number of zeros and ones want to show that.  I guess it would be 10 W + 0 1 W each half.  equal number of zeros and Watson  You guys could probably already see where the proof is going.  If you start with equal number of zeros and ones and then you add exactly 1 0 and 1 1 then the result will have equal number of zeros and ones.  You see how it's powerful to use induction. You don't have to go through the infinite set. You can just kind of show that the recursion holds these properties right and it carries it Carries On.  So I was looking at different ways to talk about structural induction and I came across this.  This nice analogy which was supposed you had a like some Island that is separated from all other Society or anything like that. Okay, and you have initial population of I don't know some animal. Let's say hummingbird. Okay. Now if all the hummingbirds the initial population if they all carry a certain trait, right like let's say they're all pink.  And we know that they they pass on that trait to their offspring if that's a rule.  No matter how long they stay on this island. All hummingbirds will always be paint. So it's you can kind of think about  in this particular example the trait is that each string will always have zeros and ones and their offspring eating equal number of zeros and ones and their offspring will always have that equal number of zeros and ones just by the nature of the the process the nature of the recursion any questions about that that help with the  Thanks.  Okay.  Okay, so that's so here's the proof.  This is just what I wrote down before I guess I'll have you guys prove this as an exercise.  All right.  so last kind of recursive definition we're going to have is  hey.  Recursively defined set a function on a recursively defined set. Okay.  So the domain is going to be the set that has this recursive structure and then you have a function that goes to some codomain.  Let me give you an example.  the length function  What is the length of a string?  a string  is what?  Okay, good the number of characters.  Okay, so L is a function.  from  the set of all bit strings  to the non-negative integers  for example  L of 0100 is equal to 4 your input is a string and output is a  number a non-negative integer  so if we have time for this  Okay. So this was our original recursion for bit strings. We're just kind of growing them by one bit each time.  So how many strings are formed using the basis stepped and at most and applications of the recursive step?  Okay good.  So if you like if you kind of think about the sequence.  after 0 applications, you just get the set the empty empty string one application you get what the empty string 0 and 1  he would get one three two applications. We get the empty set empty string 0 1 0 0 1 1 0 1 1 0 so that's how many 7 and so on right? It's basically like for every every time  You apply it you keep on getting 2K + 1.  Play Why Did I Say N I should have said k  Okay, so we'll start with that on on Wednesday.  for your instructional  UC San Diego podcast for more visit podcast. Ucf.edu "
+}
