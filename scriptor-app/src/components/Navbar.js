@@ -4,6 +4,8 @@ import Signup from './Signup.js';
 import Login from './Login.js';
 import './_Components.css';
 
+import APIClient from "../api/APIClient.js";
+
 
 class Navbar extends Component {
     redirect(e, route) {
@@ -13,7 +15,12 @@ class Navbar extends Component {
 
     render(){
         // Render login navbar based on login
-        const loggedin = this.props.loggedin;
+
+        // TODO: Instead of the below line:
+        // const loggedin = this.props.loggedin;
+        // I think we should use the following line
+        const loggedin = APIClient.isCurrentUserLoggedIn();
+
         let logout_buttons =
             <div>
                 <Popup trigger={<li><button>LOG IN</button></li>} modal contentStyle={{height: '700px', width: '500px'}} closeOnDocumentClick>
@@ -35,7 +42,7 @@ class Navbar extends Component {
                 </div>
                 )}</Popup>
                 <li><button onClick={e => this.redirect(e, '/about')}>ABOUT</button></li>
-            </div>
+            </div>;
             
         let login_buttons =
             <div>
@@ -50,7 +57,7 @@ class Navbar extends Component {
                 </div>
                 </Popup>
                 <li><button onClick={e => this.redirect(e, '/about')}>ABOUT</button></li>
-            </div>
+            </div>;
 
         return(
             <div className='navbar'>

@@ -117,15 +117,15 @@ def exportToJSON(original_file_name, audio_file_output, blurbMap, fullTranscript
     json_data = json.dumps(json_out, indent=4, sort_keys=True)
 
     # Write to .json file
-    with open(GENERALPATH + "transcripts/" + json_file, 'w') as f:
+    with open(GENERALPATH + "transcriptions/" + json_file, 'w') as f:
         f.write(json_data)
 
 
 
 bucket_name = BUCKETNAME
 
-if not os.path.isdir(GENERALPATH + "transcripts"):
-     os.mkdir(GENERALPATH + "transcripts")
+if not os.path.isdir(GENERALPATH + "transcriptions"):
+    os.mkdir(GENERALPATH + "transcriptions")
 
 for fileName in os.listdir(PATHTOAUDIOFILE):
      if not fileName.endswith(".mp3"):

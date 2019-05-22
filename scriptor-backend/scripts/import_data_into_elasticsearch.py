@@ -4,14 +4,15 @@ import os
 
 from tqdm import tqdm
 
+from backend.app import init_db
 from backend.podcasts.models import Podcast
 from backend.search.models import PodcastTranscriptionBlob
 
 podcast_fixtures_folder = "./fixtures/podcasts"
 
-
 def extract_lecture_num(filename):
-    return int(filename.split(".")[0].replace("lecture_", ""))
+    start_index = filename.index("lecture_") + len("lecture_")
+    return int(filename.split(".")[0][start_index:])
 
 
 def extract_podcast_metadata_by_lecture_num(metadata, lecture_num):
@@ -56,6 +57,8 @@ def import_podcast_transcription_file(podcast_metadata, transcription_data):
 
 
 if __name__ == "__main__":
+
+    init_db()
 
     print("Clearing all existing podcast data...")
     Podcast.search().query("match_all").delete()

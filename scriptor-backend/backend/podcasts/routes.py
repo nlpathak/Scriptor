@@ -7,19 +7,24 @@ from backend.users.models import HistoryItem
 podcasts_blueprint = Blueprint('podcasts', __name__, url_prefix="/api/podcasts")
 
 
-@podcasts_blueprint.route("/transcriptions/<string:transcription_blob_id>/")
-def get_podcast_transcription_blob(transcription_blob_id):
-    transcription_blob = PodcastTranscriptionBlob.get(id=transcription_blob_id).to_dict()
-    podcast = transcription_blob.podcast.to_dict()
+@podcasts_blueprint.route("/blobs/<string:blob_id>/")
+def get_podcast_blob(blob_id):
+    podcast_blob = PodcastTranscriptionBlob.get(id=blob_id)
+    podcast = podcast_blob.podcast.to_dict()
 
     if g.current_user:
         # There's a logged-in user, so add this view to their history.
         history_item = HistoryItem(type=HistoryItem.TYPE_PODCAST_PAGE,
-                                   podcast_page_transcription_blob_id=transcription_blob.meta.id)
+                                   podcast_page_transcription_blob_id=podcast_blob.meta.id)
         g.current_user.add_history_item(history_item)
 
-    return jsonify(success=True, podcast=podcast, transcription_blob=transcription_blob)
+    return jsonify(success=True, podcast=podcast, podcast_blob=podcast_blob.to_dict())
 
+
+@podcasts_blueprint.route("/<string:podcast_id>/transcript/")
+def get_podcast_transcript(podcast_id):
+    full_transcript = Podcast.get(id=podcast_id).full_transcript
+    return jsonify(success=True, full_transcript=full_transcript)
 
 @podcasts_blueprint.route("/<string:podcast_id>/")
 def get_podcast(podcast_id):
@@ -27,7 +32,3 @@ def get_podcast(podcast_id):
     return jsonify(success=True, podcast=podcast)
 
 
-@podcasts_blueprint.route("/<string:podcast_id>/transcript/")
-def get_podcast_transcript(podcast_id):
-    full_transcript = Podcast.get(id=podcast_id).full_transcript
-    return jsonify(success=True, full_transcript=full_transcript)

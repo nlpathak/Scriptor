@@ -67,5 +67,5 @@ def search_podcasts():
                                    search_query=text_query)
         g.current_user.add_history_item(history_item)
 
-    relevant_transcription_blobs = [blob.to_dict() for blob in relevant_transcription_blobs]
+    relevant_transcription_blobs = [blob.convert_to_dict() for blob in relevant_transcription_blobs]
     return jsonify(success=True, results=relevant_transcription_blobs)

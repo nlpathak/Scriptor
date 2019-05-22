@@ -7,6 +7,13 @@ from backend.utils import login_required
 users_blueprint = Blueprint('users', __name__, url_prefix="/api/user")
 
 
+@users_blueprint.route("/me/")
+@login_required
+def get_current_user():
+    current_user = g.current_user.to_dict()
+    return jsonify(success=True, current_user=current_user)
+
+
 @users_blueprint.route('/register/', methods=['POST'])
 def user_register():
     """
@@ -36,14 +43,15 @@ def user_register():
 
     :return:    A JSON response with the user's auth token
     """
-    email = request.form['email']
-    password = request.form['password']
+    data = request.get_json(force=True)
+    email = data['email']
+    password = data['password']
 
     # Check if the email is valid.
     if not is_email_valid(email=email):
         return jsonify(success=False, error="Invalid email."), 400
 
-    # Check if the password is valid (ie., it's non-empty, etc.).
+    # Check if the password is valid.
     if not is_password_valid(password=password):
         return jsonify(success=False, error="Invalid password."), 400
 
@@ -87,8 +95,9 @@ def user_login():
 
     :return:    A JSON response with the user's auth token
     """
-    email = request.form['email']
-    password = request.form['password']
+    data = request.get_json(force=True)
+    email = data['email']
+    password = data['password']
 
     try:
         logged_in_user = User.get_by_login_credentials(email=email, password=password)
@@ -125,14 +134,15 @@ def user_change_password():
     }
     :return:    A JSON response indicating whether or not the user's password was successfully changed.
     """
-    existing_password = request.form['existing_password']
-    new_password = request.form['new_password']
+    data = request.get_json(force=True)
+    existing_password = data['existing_password']
+    new_password = data['new_password']
 
     try:
         g.current_user.change_password(existing_password=existing_password, new_password=new_password)
         return jsonify(success=True)
     except ValueError as e:
-        return jsonify(success=False, error=str(e))
+        return jsonify(success=False, error=str(e)), 400
 
 
 @users_blueprint.route("/favorite_podcasts/<string:podcast_id>/add/", methods=['POST'])
@@ -206,11 +216,11 @@ def user_get_favorite_podcasts():
     }
     :return:
     """
-    favorite_podcasts = g.current_user.favorite_podcasts
+    favorite_podcasts = [podcast.to_dict() for podcast in g.current_user.favorite_podcasts]
     return jsonify(success=True, favorite_podcasts=favorite_podcasts)
 
 
-@users_blueprint.route("/user/history/", methods=['GET'])
+@users_blueprint.route("/history/", methods=['GET'])
 @login_required
 def user_get_history():
     """
@@ -231,11 +241,11 @@ def user_get_history():
     page = int(request.args.get("page", 1))
     count = int(request.args.get("count", 10))
     history_items = g.current_user.history[(page - 1) * count: ((page - 1) * count) + count]
-    history_items = [item.to_dict() for item in history_items]
+    history_items = [item.convert_to_dict() for item in history_items]
     return jsonify(success=True, history=history_items)
 
 
-@users_blueprint.route("/user/history/clear/", methods=["DELETE"])
+@users_blueprint.route("/history/clear/", methods=["DELETE"])
 @login_required
 def user_clear_history():
     """
