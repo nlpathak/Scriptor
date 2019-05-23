@@ -1,0 +1,371 @@
+{
+    "Blurbs": {
+        "0 pfk and pipe UK plus one. It's equivalent to say that for all see greater than 1 P of C - 1 in pipe UFC You guys see why? It's kind of like what we're doing is we're replacing K with c - 1. It's sort of replacing variable. It's kind of like taking calculus. It's kind of like you can replace the the limits of integration with a ": [
+            2123.6,
+            2157.6,
+            54
+        ],
+        "1 dots there are k + 1 + 1 squared triangles You just gets a little awkward cuz they have to show up for k+ to so just a stylistic change maybe as an exercise. What you guys can do is redo the proof where you do pfk. If I feel Kate plus one and notice that it's just a little bit Messier, but it still works by this is ": [
+            2811.4,
+            2838.4,
+            71
+        ],
+        "1 steps. That means you get to some coordinate. Let's call the coordinate. The stateless call the state x, y coordinate coordinate arbitrary. Okay, so x + y it must have come from another state, right? so we can kind of break this up into cases right from where did it come from? Okay, so Here's my coordinate and where could it have come from? It could have come from ": [
+            1632.8,
+            1688.7,
+            42
+        ],
+        "I'm in it, even I'm going to stay in the even and I started it even so there. That the same applies. Yeah, that's exactly what we're doing here. Right? Yeah, that's that's the whole kind of point and this is a really good when you get into 21 and we'll do a little bit of this in 20 also. This is kind of the way to prove algorithms correct ": [
+            1949.1,
+            1981.1,
+            49
+        ],
+        "K be an arbitrary. Integer greater than or equal to 0. Okay. And so this integer is going to be fixed for the rest of the proof. But it's it's a it's a general arbitrary integer. So that means that we will we will prove it for every integer. What's up with that fix K uproot? Assume that pfk is true. And then there's this part which is not really. ": [
+            381.4,
+            409.2,
+            11
+        ],
+        "K now assume assume that the sum of the coordinates of any state reachable in case steps is even gave us any reachable state in case steps. Then we can just say let's assume it for all the So then what we want to show is that the sum of the coordinates of any state reachable after k + 1 steps is even how do we do that? Okay, so ": [
+            1523.9,
+            1549.8,
+            40
+        ],
+        "Listen to a podcast. Oh, yeah, too bad that the podcast can't capture the whole macho man, but maybe I'm just too big too big for the big screen. Yeah. Okay, who's here to learn? All right. Let me hear you. I'm talking about all yeah, brother or you much or Maniacs get ready for some discreet. Oh, yeah. Okay, any questions before we begin? Okay. excellent All right. Let's ": [
+            1.9,
+            66.2,
+            0
+        ],
+        "Not really part of the proof, but it's a really good idea to write it down WTF stands for want to show his what do you want to show you want the show that p f k + 1 is true and it's good to write it out in the in the terms so that you know what goal you're trying to get to okay, and then you prove. Then ": [
+            410.5,
+            432.3,
+            12
+        ],
+        "Oh before we do that. Oh, yeah, this is good for the next example Okay, so we've seen two examples with induction and they mainly been structured the same way. So I'm going to give you an in an alternative way to structure your inductive step. Okay. So this is how we have been doing it. We've been saying for all K is equal to greater than or equal to ": [
+            2096.8,
+            2123.6,
+            53
+        ],
+        "Okay, so here's our proof. Okay, consider it. Well, actually I'm skipping a step here. I want to show. That near let's say. the sum of coordinates of any state reachable in k + 1 steps is even okay. That's what I'm trying to prove. Okay proof. consider an arbitrary path k + 1 steps Okay. Everybody follow me so far Okay. So it's an arbitrary path of k + ": [
+            1556.5,
+            1632.8,
+            41
+        ],
+        "Song say something like he starts in one one. One plus one is two. therefore Pf0 is true. And let's just remind ourselves. What is p of n is? the sum of coordinates States after n steps Steven Okay, inductive step. Remember the the thing that I told you guys that you have to put you have to put something like this let K be a non-negative integer K fix ": [
+            1473.1,
+            1523.9,
+            39
+        ],
+        "This is our inductive hypothesis. Okay good. So now let's get into the proof. Okay, so I want to start with a triangle with C plus one. I should see. see dots Okay. So what are basic what I want to do is I want to take this triangle and kind of shrink it down to the Sea - 1 triangle so that I know something about the C minus ": [
+            2509.4,
+            2569.5,
+            65
+        ],
+        "a little bit Messier. Okay. Goodbye, everyone. There's a pleasure teaching you all. I can't come back Friday. I've got Saturday night's main event to prepare for. San Diego forecast ": [
+            2838.4,
+            2868.0,
+            72
+        ],
+        "adjacent. Put in a diagonal adjacent gridpoint. Okay. So the question here is that is it possible after a sequence of moves to reach the golden cauldron? Is it possible? No crank and you can maybe intuitively Cy but let's mathematically prove that it's impossible. And this this is the way that we're going to do this. Is using something called an invariant and an invariant. Let me write down ": [
+            1177.2,
+            1217.9,
+            31
+        ],
+        "and implication proof. We all know how to do that and it starts like this for all K greater than or equal to 0 pfk and Plies pfk plus one. This is called. inductive step Everybody good. song Here is the structure the scaffolding that you want to face your proof on. So I want your proved to be structured like this as you get better and better at doing ": [
+            257.2,
+            296.0,
+            7
+        ],
+        "are we allowed to say that that is even because we assume that in the inductive hypothesis. Yeah, it might seem a little magical as I go. How could we have assumed that? It's we don't know that that's true. But that's kind of the whole point is you sort of assumed it on faith, and then you use that to prove the next thing. Yes. Yes, you need to ": [
+            2011.1,
+            2049.5,
+            51
+        ],
+        "be right. Remember. We wanted the form to be for all non-negative integers n something is true. Okay. So let's change it into that form. for all non-negative integers and what is the statement? What is p of an it's going to be that? after n moves the robot is in a States with coordinates That sum to an even number. Often times you'll see this in mathematics. We're in ": [
+            1306.0,
+            1372.3,
+            34
+        ],
+        "be x - no x + 1 y -1. So let's do each one of these in 4 cases. So this would be case one. Let's say case to case 3 in case War. And then that will that will exhaust all the different cases. So I'll do case one and you guys can finish the other cases as an exercise. case one okay. the path let's say the how ": [
+            1727.5,
+            1769.0,
+            44
+        ],
+        "by one and so it just doesn't really depend on what your assumption is is that if you go to the next step one one bigger. Yeah, this is a style Choice when you want to build your proof. It might stylistically look better if you choose the second route Bennett if you choose the first one and maybe I'll say a little bit about it after we do the ": [
+            2188.6,
+            2221.4,
+            56
+        ],
+        "coordinates of any state reachable by the robot is In N steps is even mathematical induction on the number of steps. Okay, so often times you'll see this as a description of how you're going to go about the proof, right and steps is the thing where inducting on because that's kind of the number that that's sort of the variable in the P of N and it said that's ": [
+            1422.0,
+            1448.2,
+            37
+        ],
+        "correctness, a lot of the time it's especially for for Loops, right? You try to prove some invariant holds true as you go through the loop. This is sort of like a loop right the robot kind of moving has this very structured movement each time any other questions Very good question. Why are we able to set X - 1 + y + 1 Y is that white or ": [
+            1981.1,
+            2011.1,
+            50
+        ],
+        "different variable that kind of thing or what's another you can if you could replace the limits of the sun with a different variable or shift the limits of a son by a certain amount question up there. No, this is like exactly equivalent because we're still going from C minus one to see that's the same thing as going from K to k + 1 you're just stepping up ": [
+            2157.6,
+            2188.6,
+            55
+        ],
+        "do I word this before? I guess. robot entered XY from what was it X - 1, y + 1 that's case one. That path that the robot took to get 2x - 1 x + 1 was in case steps from that one, right? robot reached X - 1 y + 1 in case steps What does that mean? This is the step that we do if we use ": [
+            1769.0,
+            1824.2,
+            45
+        ],
+        "for all K greater than or equal to 0 P of K implies P of k+ one right then. It's going to be a little bit awkward. This is the reason is because I'm going to say I assume so let KB greater than equal to 0 assume for triangle with K dots there are k + 1 squared triangles, right? We want to show for triangle. with k + ": [
+            2764.2,
+            2811.4,
+            70
+        ],
+        "get Okay, good and + 1 squared. So when you're trying to build these problems or figure them out, it's sometimes it's nice to kind of write down. What what everything is so 40 we get one triangle. 4 m equals 1 we get 4 triangles. 4N equal to we get 9 triangles. And n equals 3 we get 16, right? And so you can kind of get the the ": [
+            2303.7,
+            2341.4,
+            59
+        ],
+        "go you're going to be that you're going to end up you can hang out the right. Okay for the first step. Okay, then how do you do it for the second step? Right. You've been see why it's necessary to do it that way. But your your your head is in the right place. You're on the right track. You really want to show that wherever I am. If ": [
+            1925.6,
+            1949.1,
+            48
+        ],
+        "good. Now what do I do? Let's start with this size. So 1 + 1 / que / 2 * 1 + 1/2. This is equal to what I like to use this for letter. F word to help me out with multiplying binomials. Does anybody know which word I'm thinking of? Well, yeah. 1 + what k / 2 + 1 / 2 + k / 4 now this ": [
+            972.5,
+            1016.3,
+            27
+        ],
+        "have the right form? Yes. It's saying a statement is true for all non-negative integers, but that's all you need. So what is pmk? What is the statement that we're trying to prove another way to say this is what is going to be our inductive hypothesis. What are we going to assume to be true in order to prove? P k + 1 I think I can think a ": [
+            481.7,
+            514.7,
+            14
+        ],
+        "if I went from K to K plus one, this is a good point and I did want to mention this a little bit. So you're let me get let me get myself. Yeah, just one or two more minutes. and then You guys are free to go but let me just say something about this because I think this is an important. note Okay. If I tried to prove ": [
+            2731.7,
+            2764.2,
+            69
+        ],
+        "implies POC. So assume that when we when we plot see mine is 1 points. fancy Square triangles result why is that is because I have C - 1 + 1 squared right? And so that follows the same structure. Want to show we divide the sides in to see please see pieces C + 1 square triangles result. Okay, so we've done all the setup now we just have ": [
+            2430.5,
+            2466.4,
+            63
+        ],
+        "induction. You can kind of lose some of the formalities but it might be nice to have it as a structure so that you know that you're not missing any piece Okay, so Basis step is very important prove that it's true. 4-0 a lot of the time it's just going to be by inspection. It's just going to be a very trivial thing that you just compute and it's ": [
+            296.0,
+            322.8,
+            8
+        ],
+        "is equal to 1 + k + 1 / 2 plus camera for okay, so I have a problem here. This thing doesn't really match what I have here. Is there any way that I can resolve that? Okay, good exactly. I'm trying to show that. Like that's trying to show that this side is greater than or equal to the other side. Right? And so since K is a ": [
+            1016.3,
+            1069.3,
+            28
+        ],
+        "is from the inductive hypothesis. IAH Is there any questions at this point does everybody understand how I got from the green to the red? Good because of the Assumption we made you something in the beginning. We know what we are assuming that one plus one half to the K is greater than equal to 1 + k / 2 so we can put that into our proof. Okay, ": [
+            934.4,
+            972.5,
+            26
+        ],
+        "is. Kate plus one is this statement? This is what we're trying to show. So somehow I'm going to try to get from from the pfk to the pfk plus one with some logical argument. So this is really the proof that you actually have to put some some thought into some. Some creativity. Maybe this is really the part of the proof that requires the content that requires some ": [
+            728.1,
+            757.7,
+            20
+        ],
+        "it one plus. 1/2 I know that this Is greater than or equal to 1 + k / 2? Thanks. That's what we start with. And now I need to do is figure out how to prove the want to show part. And if you have an inequality like this or any quality that you're trying to show then start from one side and try to logically get to the ": [
+            782.0,
+            813.6,
+            22
+        ],
+        "it. You basically have two triangles per. Write your two triangles for. You kind of have like the triangle that's right here and maybe the triangle to its right right one to four each. And then you have this extra triangle. So in here there are to see right cuz I have see dots. I have to see plus one triangles. That kind of makes sense. This is General. I ": [
+            2633.2,
+            2679.6,
+            67
+        ],
+        "kind of the idea. Alright, okay, let's build it and just like before we have our bases step. We want to show that the sum of the coordinates reachable after 0 steps is even is that the case you guys remember what he started in? You starting to run one right one plus one is two there for two is even there for the statement is true for 0 k. ": [
+            1448.2,
+            1471.5,
+            38
+        ],
+        "kind of the idea. Okay. alright, so these are both important for for proof by induction and needs to be some statement about integers is true about all non-negative integers. Okay. So how do you do it prove by induction? You need to show two things one need to show that is true about zero. This is called the basis step. Okay, and then you have to do a proof ": [
+            220.5,
+            257.2,
+            6
+        ],
+        "little bit better with these things on. Okay. Okay, we're going all jump on the bandwagon here. Anybody want to make a comment? Where's my pen? What should it be? It should be what? pmk Is the statement? 1 + 1/2 to the K is greater than or equal to 1 + 2/2. It's important. That pfk is based on K. Right? What is this year? This is actually pure ": [
+            514.7,
+            595.9,
+            15
+        ],
+        "mean, I know I drew five dots but it's general for NEC and that's why this disprove is a little informal, but I'm hoping that you kind of get the idea. Okay, so all in all in this in this big triangle we get how many triangles we get c squared + 2 C + 1 triangles, which is equal to what? C + 1 squared triangles questions Yeah, so ": [
+            2679.6,
+            2731.7,
+            68
+        ],
+        "miles usually teaches and And it's very important and if you don't learn it now, then you're going to struggle in those classes. So I'm hoping that I'll give you a good foundation for mathematical induction how to write them when to know when it's appropriate to use it and so on Okay, so What is mathematical induction it's a way to prove a certain type of statement. Okay, the ": [
+            109.5,
+            138.0,
+            2
+        ],
+        "next example, but I'm going to do the next example with this new. Style change let's see how that work. Okay triangles. if we start with an equilateral triangle And plot endpoints evenly distributed on each side. Okay, then connect the division the division points with all possible line segments. So that all the line segments are parallel caso4 example, this is when you have zero the first ones when ": [
+            2221.4,
+            2258.3,
+            57
+        ],
+        "non-negative integer. That's what I assumed. I know for a fact that this is greater than or equal to 1 + k + 1 / 2 that kind of makes sense. So this is kind of blocking the one I start from this side. and through a sequence of equals and greater than equal to as I get to the other side, so therefore pfk or let's do it like ": [
+            1069.3,
+            1113.5,
+            29
+        ],
+        "of algebra. And you find that x + y is equal to 2 C. 4 C in z This means that. That's some. XY is even that's what we wanted to show. Necessary to go through all of the cases, but I think you guys can finish off the cases from this example any questions. Okay for sent it to me. Initially and then prove that no matter where you ": [
+            1868.0,
+            1925.6,
+            47
+        ],
+        "of any state reachable by the robot is even this thing is staying a microphone thing some of the coordinates of any state reachable by the robot is even do you guys believe that? How do we prove it? Buy Dakshin good. Okay, so I want to I want to kind of bring your attention to something noticed that this statement isn't really in the form that we wanted to ": [
+            1262.8,
+            1306.0,
+            33
+        ],
+        "one of these four states. right because you can only move in diagonal directions. What are the coordinates of each of these states? We're kind of assuming that we're doing like a Cartesian coordinates or starting from the dino 00 so. This will be x -1 y -1. This will be X - 1 y + 1. Rent, this will be x + 1 y + 1 + this will ": [
+            1688.7,
+            1727.5,
+            43
+        ],
+        "one triangle. So if I can do that it will help me use the inductive hypothesis. So what's one way I can do that? screen ideas What if I just like take away this portion? Then what I'm left with up here. Is a c minus one. And then how many triangles are in here? C Square triangles how many triangles are in here? Well, it's kind of think about ": [
+            2569.5,
+            2633.2,
+            66
+        ],
+        "order to prove something you make up this Lemma and you assume the limit to be true, right and you say okay, but if if this letter is true, then I can prove the original statement using the Lema the sum of the coordinates of the gold cauldron is odd. If I if I believe the limit to be true, then it's impossible to get there. Right? And so then ": [
+            1372.3,
+            1396.2,
+            35
+        ],
+        "other side. Okay through a sequence of inequalities. Thanks for this is our inductive hypothesis. Okay now are proof. Okay, so I start with 1 + 1/2 to the k + 1. Can I start from this side and I'm trying to get to that side? Okay, so a lot of the times when you're doing induction, what you want to do is start from something like this and try ": [
+            813.6,
+            847.8,
+            23
+        ],
+        "our inductive hypothesis, what does that mean? About X - 1 y + 1 Write x -1 + y + 1 is even right because that's what we have assumed. So I'll just kind of put a little note here. buy inductive hypothesis X - 1 + y + 1 is equal to 2 C for C in Z Frank for some integer. Now you just do a little bit ": [
+            1824.2,
+            1868.0,
+            46
+        ],
+        "see be an integer with see greater than equal to one. Okay. So why did I pick C greater than equal to one instead of greater than or equal to 0 because I'm using this style change. I'm sure I'm doing it in the other way. Okay start from C is greater than greater than or equal to one because you're going to start with P of C plus one ": [
+            2411.5,
+            2430.5,
+            62
+        ],
+        "sense that it's growing pot. Right? It's the sequence of square numbers and it sort of offset a little bit. An equal 0 we're having 0 + 1 squared and so on and this kind of gives you a sense of why we why we should use the other form. Wait, what happened there? Oh, no. Oh, okay. Good. I figured out something. Something happened with my clicker. Okay. I ": [
+            2341.4,
+            2377.5,
+            60
+        ],
+        "show the bases step. That's very important. That's like hitting the first Domino. Yeah, and we're going to we're going to explore that a little bit more on Friday when the when it's instead of starting at zero you could start at another number like one or two or three or something like that, but it's all sort of the same idea. other questions Okay, let's look at another example. ": [
+            2049.5,
+            2091.9,
+            52
+        ],
+        "some like brain power everything else. I've done so far is either very simple or it's just the structure of the structure is there for a reason right? Like I said before it's good for us to know what you're doing. Okay. So how will we prove this? Here's the inductive step. As soon as our inductive hypothesis that this is true. Okay, so that means that I start with ": [
+            757.7,
+            782.0,
+            21
+        ],
+        "start off with today's learning goals. I don't know if I can keep this up the whole time. I'm going to lose my damn voice. Okay, mathematical induction one of my favorites. Okay, let's see here. So they get this together so mathematical induction. So this is going to be very important in other classes. Especially CSE 21 cc101. Those are the classes. I'm most I did not me but ": [
+            66.2,
+            109.5,
+            1
+        ],
+        "statement has to look something like this. Pfk is true for all integers are all non-negative integers. Okay, so if the statement, let me just put it in quotes here. The statement looks like this. It's probably a good idea to use mathematical induction. Okay? And here's the idea you show that it's true for P0. And then you use that to show that it's true for P1 and then ": [
+            138.0,
+            172.7,
+            3
+        ],
+        "step ourselves and it's just that simple any questions about that. Okay, good inductive step. Remember when you're when you're doing your adductor steps a let K be a non-negative integer? On Friday when your original and structure comes back he'll continue along with this and maybe we'll talk about different types of induction and this statement might change. But for now, this is the statement that we want because ": [
+            656.3,
+            698.0,
+            18
+        ],
+        "the word in variant. What does in mean? not not and what does variant mean? Trench not change or no change changing. Not changing. So it's some feature about the robot that doesn't ever change. Okay, and so the invariant here that we're going to use is that So this is this is what we call a llama. It's kind of like a helper proof the sum of the coordinates ": [
+            1217.9,
+            1262.8,
+            32
+        ],
+        "then. Paventy, okay. So this is going to be a good thing to do for your inductive proof is to figure out what is pfk or what is p of N and then when you plug in. Zero, it's very clear what you're plugging in right and what you're trying to prove. Okay, so let's do that next. Okay. Okay. So basic step. What do you want to show you ": [
+            595.9,
+            625.1,
+            16
+        ],
+        "think it's bad when we plot endpoints and I'm going to kind of Abbreviate all of the parallel lines and stuff, but you draw 10 points and draw the lines then you'll get n + 1 squared trying. Okay, basis step. We want to show that when you bought zero points you have zero + 1 squared triangles, and you can just do that by inspection. Okay, inductive step. Let's ": [
+            2377.5,
+            2411.5,
+            61
+        ],
+        "this. For all kpfk must have sorry stillings. Okay. Good night, Siri. K implies pfk + 1 And 0 so both of these statements are true. So P of n is true for all and greater than or equal to 0. any questions Okay, good. Everybody get sick. I'll do some more examples. I got a robot here. Okay. He starts at 1 one. And he's allowed to move diagonally ": [
+            1113.5,
+            1177.2,
+            30
+        ],
+        "to do the proof let's see, let's see how it goes Okay, and I'm going to just sort of do a proof by picture you can use you like as an exercise. You can formalize it. But just to give you a sense of how it goes. Thanks, so. So suppose we have C - 1 points on each side. Then how many triangles are in here? c squared triangles ": [
+            2466.4,
+            2506.5,
+            64
+        ],
+        "to transform it into something that looks like your inductive hypothesis. What's one way that we could do that? Okay, good one plus one half to the K * 1 + 1/2. questions about that Why did I do it that way because now I have everything I need to move forward because I know something about this itself, right? This is not my inductive hypothesis and it's necessary to ": [
+            847.8,
+            893.3,
+            24
+        ],
+        "true for zero and then you can move on. Usually a very easy step. Okay, so the inductive step. I like to think about it in three parts. Now, if you if you prove it your own way, that's fine, too. But if you break it up into these three parts, then it's easy for the reader to know where you are and it's easy for you to know that ": [
+            322.8,
+            346.6,
+            9
+        ],
+        "true. And so on. Sometimes you talk about a ladder not the type of ladder that we have in the ring where I broke it over Hulk Hogan's head, but just another ladder and so If I know that I can step on the first rung, and I know that I can step from one room to the other than I know that I can climb the entire ladder that's ": [
+            197.8,
+            220.5,
+            5
+        ],
+        "use P1 to show that it's true for me to be too sure that is true for P3 and so on. A lot of the times you think about it as like dominoes falling down. So the idea is that if I hit the first Domino down that's like proving it's true and that proves that the next Domino is true by hitting it over and the next one is ": [
+            172.7,
+            197.8,
+            4
+        ],
+        "use the inductive hypothesis in your proof. Okay, so this and sometimes will like to label things. So this is just factoring rink Factory. Okay. Now I can say for sure that this is greater than or equal to what? Well, I know that this thing is greater than or equal to 1 + k / 2. And this thing is equal to 1 + 1/2. Okay, this inequality here ": [
+            893.3,
+            934.4,
+            25
+        ],
+        "want to show TV of 0 and this is p of 0. You want to show that? Okay, is it going to be easy to show or hard to show? Easy, right you just sometimes you just put it there and then evaluate it and you say well one is greater than equal to one right and or put something like by inspection. okay, we're literally just Computing the basis ": [
+            625.1,
+            656.3,
+            17
+        ],
+        "we're trying to prove it for all non-negative integers. So that's what we assume in the inductive step. Let K be any non-negative integer and fix it to be that now assume as our inductive hypothesis that P of K is true. I don't know. What pfk is. Okay, and what we want to show is pmk + 1 and noticed that I've written out a written out what it ": [
+            698.0,
+            728.1,
+            19
+        ],
+        "you have zero points, right then we have one point on each side, then we have two points on each side. And so on. Okay. So how many points how many small triangles will there be? Contained in the original triangle small triangles not like all triangles but small triangles. For example, this would be like one two, three four and someone What should go in that plank? I could ": [
+            2258.3,
+            2303.7,
+            58
+        ],
+        "you haven't missed anything. Okay. So the first part is you're going to assume something called the inductive hypothesis. the inductive hypothesis Is that tea of K is true? Okay. So what is K in this in this in this objective hypothesis? This is some that bigger than or equal to 0 Okay, so For the inductive step. You always have to put some put this sentence in first. Let ": [
+            346.6,
+            381.4,
+            10
+        ],
+        "you prove the inductive step any questions so far. It might be better to see it with an example. So, you know kind of how it how to fill in the blanks. Okay, let's go dark Liquors out. What is pfk in this statement so that theorem is? For all non-negative integers n OnePlus 1/2 raised to the end is greater than or equal to 1 + 10/2. Does it ": [
+            432.3,
+            481.7,
+            13
+        ],
+        "you've taken the the original problem and you sort of converted it into a different problem to prove. So now the the validity of the original problem is based on the validity of this llama. So let's prove them, and that will in turn prove that the the theorem is true Okay, so So this is how we rewrite it right for any non-negative integer n the sum of the ": [
+            1396.2,
+            1422.0,
+            36
+        ]
+    },
+    "File Name": "Discrete Mathematics - A00 - Jones, Miles E - Fall 2018-lecture_15.flac",
+    "Full Transcript": "Listen to a podcast.  Oh, yeah, too bad that the podcast can't capture the whole macho man, but maybe I'm just too big too big for the big screen.  Yeah.  Okay, who's here to learn?  All right. Let me hear you.  I'm talking about all yeah, brother or you much or Maniacs get ready for some discreet. Oh, yeah.  Okay, any questions before we begin?  Okay.  excellent  All right. Let's start off with today's learning goals.  I don't know if I can keep this up the whole time. I'm going to lose my damn voice.  Okay, mathematical induction one of my favorites.  Okay, let's see here.  So  they get this together so mathematical induction. So this is going to be very important in other classes. Especially CSE 21 cc101. Those are the classes. I'm most  I did not me but miles usually teaches and  And it's very important and if you don't learn it now, then you're going to struggle in those classes. So I'm hoping that I'll give you a good foundation for mathematical induction how to write them when to know when it's appropriate to use it and so on Okay, so  What is mathematical induction it's a way to prove a certain type of statement. Okay, the statement has to look something like this.  Pfk is true for all integers are all non-negative integers.  Okay, so  if the statement, let me just put it in quotes here.  The statement looks like this.  It's probably a good idea to use mathematical induction. Okay?  And here's the idea you show that it's true for P0.  And then you use that to show that it's true for P1 and then use P1 to show that it's true for me to be too sure that is true for P3 and so on.  A lot of the times you think about it as like dominoes falling down.  So the idea is that if I hit the first Domino down that's like proving it's true and that proves that the next Domino is true by hitting it over and the next one is true. And so on. Sometimes you talk about a ladder not the type of ladder that we have in the ring where I broke it over Hulk Hogan's head, but just another ladder and so  If I know that I can step on the first rung, and I know that I can step from one room to the other than I know that I can climb the entire ladder that's kind of the idea.  Okay.  alright, so  these are both important for for proof by induction and needs to be some statement about integers is true about all non-negative integers.  Okay. So how do you do it prove by induction? You need to show two things one need to show that is true about zero. This is called the basis step.  Okay, and then you have to do a proof and implication proof. We all know how to do that and it starts like this for all K greater than or equal to 0 pfk and Plies pfk plus one. This is called.  inductive step  Everybody good.  song  Here is the structure the scaffolding that you want to face your proof on. So I want your proved to be structured like this as you get better and better at doing induction. You can kind of lose some of the formalities but it might be nice to have it as a structure so that you know that you're not missing any piece Okay, so  Basis step is very important prove that it's true. 4-0 a lot of the time it's just going to be by inspection. It's just going to be a very trivial thing that you just compute and it's true for zero and then you can move on. Usually a very easy step.  Okay, so the inductive step.  I like to think about it in three parts. Now, if you if you prove it your own way, that's fine, too. But if you break it up into these three parts, then it's easy for the reader to know where you are and it's easy for you to know that you haven't missed anything. Okay. So the first part is you're going to assume something called the inductive hypothesis.  the inductive hypothesis  Is that tea of K is true? Okay. So what is K in this in this in this objective hypothesis? This is some that bigger than or equal to 0 Okay, so  For the inductive step. You always have to put some put this sentence in first.  Let K be an arbitrary.  Integer greater than or equal to 0. Okay. And so this integer is going to be fixed for the rest of the proof. But it's it's a it's a general arbitrary integer. So that means that we will we will prove it for every integer.  What's up with that fix K uproot? Assume that pfk is true.  And then there's this part which is not really.  Not really part of the proof, but it's a really good idea to write it down WTF stands for want to show his what do you want to show you want the show that p f k + 1 is true and it's good to write it out in the in the terms so that you know what goal you're trying to get to okay, and then you prove.  Then you prove the inductive step any questions so far.  It might be better to see it with an example. So, you know kind of how it how to fill in the blanks.  Okay, let's go dark Liquors out.  What is pfk in this statement so that theorem is?  For all non-negative integers n OnePlus 1/2 raised to the end is greater than or equal to 1 + 10/2. Does it have the right form? Yes. It's saying a statement is true for all non-negative integers, but that's all you need. So what is pmk? What is the statement that we're trying to prove another way to say this is what is going to be our inductive hypothesis. What are we going to assume to be true in order to prove? P k + 1  I think I can think a little bit better with these things on.  Okay.  Okay, we're going all jump on the bandwagon here.  Anybody want to make a comment?  Where's my pen?  What should it be?  It should be what?  pmk  Is the statement?  1  + 1/2 to the K is greater than or equal to 1 + 2/2.  It's important. That pfk is based on K. Right? What is this year? This is actually pure then.  Paventy, okay. So this is going to be a good thing to do for your inductive proof is to figure out what is pfk or what is p of N and then when you plug in. Zero, it's very clear what you're plugging in right and what you're trying to prove. Okay, so let's do that next.  Okay.  Okay. So basic step. What do you want to show you want to show TV of 0 and this is p of 0.  You want to show that?  Okay, is it going to be easy to show or hard to show?  Easy, right you just sometimes you just put it there and then evaluate it and you say well one is greater than equal to one right and or put something like by inspection.  okay, we're literally just Computing the basis step ourselves and  it's just that simple any questions about that.  Okay, good inductive step. Remember when you're when you're doing your adductor steps a let K be a non-negative integer?  On Friday when your original and structure comes back he'll continue along with this and maybe we'll talk about different types of induction and this statement might change. But for now, this is the statement that we want because we're trying to prove it for all non-negative integers. So that's what we assume in the inductive step. Let K be any non-negative integer and fix it to be that now assume as our inductive hypothesis that P of K is true.  I don't know. What pfk is. Okay, and what we want to show is pmk + 1  and noticed that I've written out a written out what it is. Kate plus one is this statement? This is what we're trying to show.  So somehow I'm going to try to get from from the pfk to the pfk plus one with some logical argument. So this is really the proof that you actually have to put some some thought into some.  Some creativity. Maybe this is really the part of the proof that requires the content that requires some some like brain power everything else. I've done so far is either very simple or it's just the structure of the structure is there for a reason right? Like I said before it's good for us to know what you're doing. Okay. So how will we prove this? Here's the inductive step.  As soon as our inductive hypothesis that this is true. Okay, so that means that I start with it one plus.  1/2 I know that this  Is greater than or equal to 1 + k / 2?  Thanks. That's what we start with.  And now I need to do is figure out how to prove the want to show part. And if you have an inequality like this or any quality that you're trying to show then start from one side and try to logically get to the other side.  Okay through a sequence of inequalities.  Thanks for this is our inductive hypothesis.  Okay now are proof.  Okay, so I start with 1 + 1/2 to the k + 1.  Can I start from this side and I'm trying to get to that side?  Okay, so a lot of the times when you're doing induction, what you want to do is start from something like this and try to transform it into something that looks like your inductive hypothesis. What's one way that we could do that?  Okay, good one plus one half to the K * 1 + 1/2.  questions about that  Why did I do it that way because now I have everything I need to move forward because I know something about this itself, right? This is not my inductive hypothesis and it's necessary to use the inductive hypothesis in your proof. Okay, so this and sometimes will like to label things. So this is just factoring rink Factory.  Okay. Now I can say for sure that this is greater than or equal to what?  Well, I know that this thing is greater than or equal to 1 + k / 2.  And this thing is equal to 1 + 1/2.  Okay, this inequality here is from the inductive hypothesis.  IAH  Is there any questions at this point does everybody understand how I got from the green to the red?  Good because of the Assumption we made you something in the beginning. We know what we are assuming that one plus one half to the K is greater than equal to 1 + k / 2 so we can put that into our proof.  Okay, good. Now what do I do?  Let's start with this size. So 1 + 1 / que / 2 * 1 + 1/2. This is equal to what I like to use this for letter. F word to help me out with multiplying binomials. Does anybody know which word I'm thinking of?  Well, yeah.  1 + what k / 2 + 1 / 2 +  k / 4  now this is equal to  1 + k + 1 / 2  plus camera for  okay, so I have a problem here. This thing doesn't really match what I have here. Is there any way that I can resolve that?  Okay, good exactly. I'm trying to show that.  Like that's trying to show that this side is greater than or equal to the other side. Right? And so since K is a non-negative integer. That's what I assumed. I know for a fact that this is greater than or equal to 1 + k + 1 / 2  that kind of makes sense. So this is kind of blocking the one I start from this side.  and through a sequence of equals and greater than equal to as I get to the other side, so  therefore  pfk  or let's do it like this.  For all kpfk must have sorry stillings.  Okay. Good night, Siri. K implies pfk + 1  And 0 so both of these statements are true.  So P of n  is true for all and greater than or equal to 0.  any questions  Okay, good. Everybody get sick.  I'll do some more examples.  I got a robot here.  Okay.  He starts at 1 one.  And he's allowed to move diagonally adjacent.  Put in a diagonal adjacent gridpoint. Okay. So the question here is that is it possible after a sequence of moves to reach the golden cauldron?  Is it possible?  No crank and you can maybe intuitively Cy but let's mathematically prove that it's impossible. And this this is the way that we're going to do this.  Is using something called an invariant and an invariant.  Let me write down the word in variant.  What does in mean?  not  not and what does variant mean?  Trench not change or no change changing.  Not changing. So it's some feature about the robot that doesn't ever change. Okay, and so the invariant here that we're going to use is that  So this is this is what we call a llama. It's kind of like a helper proof the sum of the coordinates of any  state reachable by the robot is even  this thing is  staying a microphone thing some of the coordinates of any state reachable by the robot is even do you guys believe that?  How do we prove it?  Buy Dakshin good.  Okay, so I want to I want to kind of bring your attention to something noticed that this statement isn't really in the form that we wanted to be right. Remember. We wanted the form to be for all non-negative integers n something is true. Okay. So let's change it into that form.  for all non-negative  integers  and what is the statement? What is p of an it's going to be that?  after n moves  the robot  is in  a  States  with  coordinates  That sum to an even number.  Often times you'll see this in mathematics. We're in order to prove something you make up this Lemma and you assume the limit to be true, right and you say okay, but if if this letter is true, then I can prove the original statement using the Lema the sum of the coordinates of the gold cauldron is odd.  If I if I believe the limit to be true, then it's impossible to get there. Right? And so then you've taken the the original problem and you sort of converted it into a different problem to prove. So now the the validity of the original problem is based on the validity of this llama. So let's prove them, and that will in turn prove that the the theorem is true Okay, so  So this is how we rewrite it right for any non-negative integer n the sum of the coordinates of any state reachable by the robot is In N steps is even mathematical induction on the number of steps. Okay, so often times you'll see this  as a description of how you're going to go about the proof, right and steps is the thing where inducting on because that's kind of the number that that's  sort of the variable in the P of N and it said that's kind of the idea. Alright, okay, let's build it and just like before we have our bases step. We want to show that the sum of the coordinates reachable after 0 steps is even is that the case you guys remember what he started in?  You starting to run one right one plus one is two there for two is even there for the statement is true for 0 k.  Song say something like he starts in one one.  One plus one is two.  therefore  Pf0 is true.  And let's just remind ourselves. What is p of n is?  the sum of coordinates  States  after n steps  Steven  Okay, inductive step. Remember the the thing that I told you guys that you have to put you have to put something like this let K be a non-negative integer K fix K now assume assume that the sum of the coordinates of any state reachable in case steps is even gave us any reachable state in case steps. Then we can just say let's assume it for all the  So then what we want to show is that the sum of the coordinates of any state reachable after k + 1 steps is even how do we do that? Okay, so  Okay, so here's our proof.  Okay, consider it. Well, actually I'm skipping a step here. I want to show.  That near let's say.  the sum of coordinates  of any state  reachable  in k + 1 steps  is even okay. That's what I'm trying to prove.  Okay proof.  consider  an arbitrary path  k + 1 steps  Okay.  Everybody follow me so far  Okay.  So it's an arbitrary path of k + 1 steps. That means you get to some coordinate. Let's call the coordinate.  The stateless call the state x, y coordinate coordinate arbitrary.  Okay, so x + y it must have come from another state, right?  so  we can kind of break this up into cases right from where did it come from?  Okay, so  Here's my coordinate and where could it have come from? It could have come from one of these four states.  right  because you can only move in diagonal directions. What are the coordinates of each of these states?  We're kind of assuming that we're doing like a Cartesian coordinates or starting from the dino 00 so.  This will be x -1 y -1. This will be X - 1 y + 1.  Rent, this will be x + 1 y + 1 + this will be x - no x + 1 y -1. So let's do each one of these in 4 cases. So this would be case one. Let's say case to case 3 in case War.  And then that will that will exhaust all the different cases.  So I'll do case one and you guys can finish the other cases as an exercise.  case one  okay.  the path  let's say  the how do I word this before?  I guess.  robot  entered  XY from  what was it X - 1, y + 1 that's case one.  That path that the robot took to get 2x - 1 x + 1 was in case steps from that one, right?  robot  reached  X - 1 y + 1 in case steps  What does that mean? This is the step that we do if we use our inductive hypothesis, what does that mean? About X - 1 y + 1  Write x -1 + y + 1 is even right because that's what we have assumed. So I'll just kind of put a little note here.  buy inductive hypothesis  X - 1 + y + 1 is equal to 2 C for C in Z Frank for some integer.  Now you just do a little bit of algebra.  And you find that x + y is equal to 2 C.  4 C in z  This means that.  That's some.  XY is even  that's what we wanted to show.  Necessary to go through all of the cases, but I think you guys can finish off the cases from this example any questions.  Okay for sent it to me.  Initially and then prove that no matter where you go you're going to be that you're going to end up you can hang out the right. Okay for the first step.  Okay, then how do you do it for the second step?  Right. You've been see why it's necessary to do it that way. But your your your head is in the right place. You're on the right track. You really want to show that wherever I am. If I'm in it, even I'm going to stay in the even and I started it even so there.  That the same applies.  Yeah, that's exactly what we're doing here. Right? Yeah, that's that's the whole kind of point and this is a really good when you get into 21 and we'll do a little bit of this in 20 also.  This is kind of the way to prove algorithms correct correctness, a lot of the time it's especially for for Loops, right? You try to prove some invariant holds true as you go through the loop. This is sort of like a loop right the robot kind of moving has this very structured movement each time any other questions  Very good question. Why are we able to set X - 1 + y + 1 Y is that white or are we allowed to say that that is even  because we assume that in the inductive hypothesis.  Yeah, it might seem a little magical as I go. How could we have assumed that? It's we don't know that that's true.  But that's kind of the whole point is you sort of assumed it on faith, and then you use that to prove the next thing.  Yes. Yes, you need to show the bases step. That's very important. That's like hitting the first Domino.  Yeah, and we're going to we're going to explore that a little bit more on Friday when the when it's instead of starting at zero you could start at another number like one or two or three or something like that, but it's all sort of the same idea.  other questions  Okay, let's look at another example.  Oh before we do that. Oh, yeah, this is good for the next example Okay, so we've seen two examples with induction and they mainly been structured the same way. So I'm going to give you an in an alternative way to structure your inductive step. Okay. So this is how we have been doing it. We've been saying for all K is equal to greater than or equal to 0 pfk and pipe UK plus one. It's equivalent to say that for all see greater than 1 P of C - 1 in pipe UFC  You guys see why?  It's kind of like what we're doing is we're replacing K with c - 1.  It's sort of replacing variable. It's kind of like taking calculus.  It's kind of like you can replace the the limits of integration with a different variable that kind of thing or what's another you can if you could replace the limits of the sun with a different variable or shift the limits of a son by a certain amount question up there.  No, this is like exactly equivalent because we're still going from C minus one to see that's the same thing as going from K to k + 1 you're just stepping up by one and so it just doesn't really depend on what your assumption is is that if you go to the next step one one bigger.  Yeah, this is a style Choice when you want to build your proof. It might stylistically look better if you choose the second route Bennett if you choose the first one and maybe I'll say a little bit about it after we do the next example, but I'm going to do the next example with this new.  Style change let's see how that work.  Okay triangles.  if we start with an equilateral triangle  And plot endpoints evenly distributed on each side. Okay, then connect the division the division points with all possible line segments. So that all the line segments are parallel caso4 example, this is when you have zero the first ones when you have zero points, right then we have one point on each side, then we have two points on each side.  And so on.  Okay. So how many points how many small triangles will there be?  Contained in the original triangle small triangles not like all triangles but small triangles. For example, this would be like one two, three four and someone  What should go in that plank?  I could get  Okay, good and + 1 squared.  So when you're trying to build these problems or figure them out, it's sometimes it's nice to kind of write down. What what everything is so 40 we get one triangle.  4 m equals 1 we get 4 triangles.  4N equal to we get 9 triangles.  And n equals 3 we get 16, right? And so you can kind of get the the sense that it's growing pot. Right? It's the sequence of square numbers and it sort of offset a little bit.  An equal 0 we're having 0 + 1 squared and so on and this kind of gives you a sense of why we why we should use the other form.  Wait, what happened there?  Oh, no.  Oh, okay. Good.  I figured out something.  Something happened with my clicker. Okay. I think it's bad when we plot endpoints and I'm going to kind of  Abbreviate all of the parallel lines and stuff, but you draw 10 points and draw the lines then you'll get n + 1 squared trying.  Okay, basis step. We want to show that when you bought zero points you have zero + 1 squared triangles, and you can just do that by inspection.  Okay, inductive step. Let's see be an integer with see greater than equal to one. Okay. So why did I pick C greater than equal to one instead of greater than or equal to 0 because I'm using this style change. I'm sure I'm doing it in the other way. Okay start from C is greater than greater than or equal to one because you're going to start with P of C plus one implies POC.  So assume that when we when we plot see mine is 1 points.  fancy Square triangles  result why is that is because I have C - 1 + 1 squared right? And so that follows the same structure.  Want to show we divide the sides in to see please see pieces C + 1 square triangles result.  Okay, so we've done all the setup now we just have to do the proof let's see, let's see how it goes  Okay, and I'm going to just sort of do a proof by picture you can use you like as an exercise. You can formalize it. But just to give you a sense of how it goes. Thanks, so.  So suppose we have C - 1 points on each side.  Then how many triangles are in here?  c squared triangles  This is our inductive hypothesis.  Okay good. So now let's get into the proof.  Okay, so I want to start with a triangle with C plus one.  I should see.  see dots  Okay.  So what are basic what I want to do is I want to take this triangle and kind of  shrink it down to the Sea - 1 triangle so that I know something about the C minus one triangle. So if I can do that it will help me use the inductive hypothesis. So what's one way I can do that?  screen ideas  What if I just like take away this portion?  Then what I'm left with up here.  Is a c minus one.  And then how many triangles are in here?  C Square triangles  how many triangles are in here?  Well, it's kind of think about it. You basically have two triangles per.  Write your two triangles for. You kind of have like the triangle that's right here and maybe the triangle to its right right one to four each.  And then you have this extra triangle.  So in here there are to see right cuz I have see dots.  I have to see plus one triangles.  That kind of makes sense.  This is General. I mean, I know I drew five dots but it's general for NEC and that's why this disprove is a little informal, but I'm hoping that you kind of get the idea.  Okay, so all in all in this in this big triangle we get how many  triangles we get c squared + 2 C + 1 triangles, which is equal to what?  C + 1 squared triangles  questions  Yeah, so if I went from K to K plus one, this is a good point and I did want to mention this a little bit.  So you're let me get let me get myself. Yeah, just one or two more minutes.  and then  You guys are free to go but let me just say something about this because I think this is an important.  note  Okay.  If I tried to prove for all K greater than or equal to 0 P of K implies P of k+ one right then.  It's going to be a little bit awkward. This is the reason is because I'm going to say  I assume so let  KB greater than equal to 0 assume for  triangle  with K dots  there are k + 1 squared triangles, right?  We want to show for triangle.  with k + 1 dots  there are  k + 1 + 1 squared triangles  You just gets a little awkward cuz they have to show up for k+ to so just a stylistic change maybe as an exercise. What you guys can do is redo the proof where you do pfk. If I feel Kate plus one and notice that it's just a little bit Messier, but it still works by this is a little bit Messier.  Okay.  Goodbye, everyone.  There's a pleasure teaching you all.  I can't come back Friday. I've got Saturday night's main event to prepare for.  San Diego forecast "
+}

@@ -1,0 +1,621 @@
+{
+    "Blurbs": {
+        "6 features, but you have 28 by 28 whatever that is, like almost 900 say different units, but they all have the same 900 different units in each one of these six things but they all have the same weights. So that's a regular ization, right? I don't have a gazillion different parameters. I if it's 7 by 7 convolution, I have 50 parameters write 749 weights in one by ": [
+            2823.5,
+            2857.8,
+            71
+        ],
+        "7 and so it's paying attention to local part of the image. And the features are learned. So there's locality. And then these are replicated across the image. So if this is a good feature here, it's probably a good feature here here here in here. And so this real thing represents a bunch of units that cover this input in a kind of grid but it's overlapping cells and ": [
+            2716.9,
+            2755.2,
+            68
+        ],
+        "And so when they point in the same direction, you're going to get the maximum response. So what is white correspond to big numbers black corresponds to small numbers or negative if you've discovered this so that would make this guy fire that's an edge detector and in computer vision for decades people have been trying to get a better Edge detector than the other guy usually is a guy ": [
+            3161.3,
+            3190.0,
+            81
+        ],
+        "And the idea is if the gradient says go down go down then maybe when you know, it's consistent. So maybe we want to increase the learning rate to go down faster. But if the learning rate if the weight change from the last two times steps says go down go up. Maybe we're in one of those situations where we jumping across a ball boats positive this way in ": [
+            1261.0,
+            1292.6,
+            27
+        ],
+        "And you can use our prop with a full batch method, but for big redundant data sets like mnist. If you want to use many batches and try gradient descent with momentum. Try the Adam optimizer. I'm try whatever young Mikuni's doing now. So why isn't there like one thing I can tell you to use all the time? And it's because neural networks have very different properties depending on ": [
+            2193.0,
+            2229.6,
+            53
+        ],
+        "Berry neuron, okay. Okay. So here we mainly mean the part of the image that activates the unit but we also talked about the shape of these receptive field. So you just heard about one shape of receptive field. It's black on one side and white on the other that receptive field is going to respond to Vertical edges when you put it over a horizontal Edge, you'll get no ": [
+            3269.1,
+            3298.4,
+            84
+        ],
+        "Chinese. Some easier recognition benchmarks of CFR 10. Are these little teeny tiny images? I forget how big they are there like 16 by 16 or something and they have 10 categories and it did really well on that and it did really well in traffic signs. But it wasn't so good at Caltech 101 or 256 or Caltech 101 was a chestnut dataset that people use for quite a ": [
+            4122.1,
+            4156.2,
+            104
+        ],
+        "Deltas and you're multiplying by .25 in the more you do that if she go back they should shrink and that's called The Vanishing gradient problem. So we would have a higher learning rate on hidden units earlier in the network to compensate. So having an Adaptive learning rates might be a better idea. And so what we're going to do is have a Global Learning right and then multiply ": [
+            1193.9,
+            1230.8,
+            25
+        ],
+        "I guess you can kind of see if 3 there but who knows these are like combinations they have weights to all of these in the same location. So the tip of the three the tip of the three is it took so this guy will be maybe you know in the same location will be listening to or having weights to the same location on the three. Okay. That ": [
+            3570.4,
+            3600.9,
+            92
+        ],
+        "I mean, this is essentially what it does, right cuz we're changing by a constant. If a grating is small we divided by a small number. Why not force the number we divide by to be similar between many batches? and so this is Which slightly like momentum in a way because you know instead of dividing by a big number and a little number. We're going to divide by ": [
+            1991.3,
+            2023.7,
+            47
+        ],
+        "Listen to a podcast. Okay. kids are people who had trouble going from single example too many batches figure out their problems. Why? Do you know why? Last year, the the grabs didn't version of this class. There's a a project at the end and and one team. Have t-shirts made that said deep learning works. I don't know why. Okay. Saturday I'm still trying to find someplace to have ": [
+            1.9,
+            195.2,
+            0
+        ],
+        "Okay, so I have a I have adapted these slides from a tutorial Rob Hargis gave it nips several years ago. Because he's got great slides. But I've added some sort of a picture of my daughter with Wally for example in my slides. So why should we do condoms? Here's an image, its 11:40 by 6:48. So it's got 745000 pixels. Okay, it's a lot of pixels. I mean ": [
+            2374.7,
+            2413.5,
+            58
+        ],
+        "So if you did this for online learning every time you got a pattern you update the weights and you check if it's positive or negative. Then you're not getting a good idea of which way the real gradient is going and so you're probably going to change the learning rate too much. I'm so having a big mini batch are doing this with full batch. Learning is a better ": [
+            1470.9,
+            1500.4,
+            33
+        ],
+        "So in these packages that you guys are going to use platforms. You're going to use pytorch. There's just another it's actually you put in a layer called batch normalization. And so that batch normalizes this layer. Then you folk the next layer up a batch normalize that pump the next layer up etcetera and and it normalizes everything. but it also gives the network a chance to undo this ": [
+            603.9,
+            647.6,
+            9
+        ],
+        "So is there some way we can combine the robustness of our prop and the efficiency many batches and there is and And the effective averaging of gradients and it's called rmsprop. So you just Adam is in the air rmsprop? So our prop is equivalent to using the gradient, but also dividing by the size of the greater so adding plus one, but you're dividing by .1. Subtract 10.9, ": [
+            1916.8,
+            1957.2,
+            45
+        ],
+        "So it solves this gradient problem. So they use these things called residual connections their skip connections and white one. subset and so between input and output of subsections the network that copy then UC San Diego podcast. EDU ": [
+            4779.8,
+            4804.9,
+            122
+        ],
+        "So then we talked about momentum. And again what momentum does in? As I posted on Piazza, there's like too much stuff here. Really? What you need. Is that the change in the weights at this time? Step should be some fraction of the change of the weights at the last time step in Alpha is typically a point like 9 or even point nine nine and so this Average ": [
+            841.1,
+            880.1,
+            15
+        ],
+        "So this had 11 by 11 patches and then 5 by 5 Max pooling. Some more future learning etcetera in this was trained on the imagenet large scale visual recognition challenge IL RV or something like that and there's 1.2 million images in the dataset. These were collected by Faye Faye Lee at Stanford. There's more images in the imagenet dataset, but this is what's generally used. There's a thousand ": [
+            4229.1,
+            4269.9,
+            107
+        ],
+        "Wade initialization and with Deep that works with roller units. There's a similar analysis that's been done and you'll be able to set it to that kind of initialization and it's called Xavier initialization. And for that one. It turns out to be one over the number of inputs. Who knew? But again, all this careful work gets ruined by learning and and so batch normalization came along. I think ": [
+            487.3,
+            528.2,
+            6
+        ],
+        "What do you mean? Right cuz it's it's the back prop nut and it's learning features that may not be human. Right. It's learning combinations of these. These 6 features and it's it's listening each. One of these guys is listening to the same as listening to a different part of this may be a five-by-five patch at this and responding to it and these features are difficult to interpret. ": [
+            3526.6,
+            3570.4,
+            91
+        ],
+        "a neuron is responding to and what shape it's responding to with in that spot. And so neurons in early visual cortex respond to very small portions of the image and late in your brain. You get receptive Fields. It responded bigger portions of the image. So you get the Halle Berry neuron or the Jennifer Aniston neuron, and those are actual Finding Cinderella science. Okay, there is a Halle ": [
+            3230.3,
+            3269.1,
+            83
+        ],
+        "a small momentum and then make it bigger. and then we talked about nesteroff momentum. So for regular motive for nesterov momentum you add in the the momentum and then you measure the gradient at that point and add that to the weights. That's my new momentum term. And so I'm going to add that to the weights. Figure out what the gradient is where I get to and that's ": [
+            984.0,
+            1022.4,
+            19
+        ],
+        "about the same as 9 * 2.1 is 2.9 and some of those two zero so we'd want those to stay roughly that where it is, but assuming that the Adaptive learning rates don't change very much. Are prop wood increment the weight nine times and decorate deck permit at once by about the same amount. So it would ignore the fact that the gradient is 1.9. It's just going ": [
+            1844.1,
+            1878.0,
+            43
+        ],
+        "an average size. Okay. and so you have this thing sorted and it's not momentum at all, but it's got the same kind of flavor. He keep track of this thing, which is the mean square of the gradient. So here's the gradient squared point one of that and point nine of the previous. I'm so you start out with this on the first step and that becomes a mean ": [
+            2023.7,
+            2058.5,
+            48
+        ],
+        "and it's going to learn combinations of those that correspond a common things common features in the image that are used for solving the task. And then there's another pulling here and 4 and there's one of these for these are one-to-one but these are not one-to-one these what are they called rectangular solids through here, right and then there's a couple fully connected layers and then he has radial ": [
+            3020.1,
+            3056.9,
+            77
+        ],
+        "and right after or right during the programming assignment a group of Stanford came out with the you know, state-of-the-art on that data set and they've been working on it for a year. So the students were pretty excited about that. Okay. That's that any questions. That was a lot. But now we get to do continents. Yay. What's up? Yay, or boo? Who really don't want to do continent? ": [
+            2321.8,
+            2373.0,
+            57
+        ],
+        "and they're all pretty close. And if you're just a little bit better than the previous year you get your paper and cvpr. You just have to do like that much better. the Oxford Group Andrea Amsterdam then comes supervision cuz it's supervised. And okay. Hahaha, so they were 10% better than the next guy up. And this was shocking to computer vision people. This happened in 2012, and there ": [
+            4456.0,
+            4499.0,
+            113
+        ],
+        "are learned by backdrop. So backpropagation learns features in the service of the tasks. So this is previous computer vision approaches. This is Alex net. And then ZF net in 2013 got down to 10%. This is top 5 error. So if the right answer is in your top five outputs, then you got a point for that. So 10% is a better tuned Alex net then Googling it. It's ": [
+            4531.0,
+            4569.0,
+            115
+        ],
+        "are relatively uniform across the image and what I mean by that is why I should say a price images that you know, if I took another picture over here so that test is it over at the left side of the picture I get in, you know some new pixels, but if I go over every image of the world, I take a picture of the statistics of the ": [
+            2523.9,
+            2551.7,
+            62
+        ],
+        "are things that it's relatively invariant to that's an important thing. And it still gets the right answer for weird styles. Here is the Canadian seven or european seven. Here's an eight made out of two circles. Okay. can do weirdos here's a to made out of little circles. Here's the three that's had too much coffee. Paradiso for that's an outline of a for this looks like a response ": [
+            3846.7,
+            3888.4,
+            99
+        ],
+        "around 1. And you can show you can try that at home. So this ensures the big gains 2K rapidly when oscillation start so multiplying by a fraction makes them the first time you do that. It's .95 the second time. It's essentially .95 squared. So you're getting smaller and smaller. And this is what I just said. You can try this at home by flipping a coin start with ": [
+            1356.8,
+            1396.6,
+            30
+        ],
+        "basis functions at the output which you don't need to know about cuz we're not going to talk about him. So objects are made of Parts, the receptive Fields get larger. These things are like combining things from different parts of the image and solo level features early hear you're going to get edges. What's an edge in an image? This is an edge. It's a change in the brightness ": [
+            3056.9,
+            3087.1,
+            78
+        ],
+        "but you're dividing by .9. So you're not changing the way tin roof. In response to the size of the gradient. So is there some way to kind of normalize that so we track the sizes of the grade in? So many batch are profit. We divide a different by different number for each mini batch, right? So we if the gradient is Big we divided by a big number. ": [
+            1957.2,
+            1991.3,
+            46
+        ],
+        "by giving it some parameters that I can actually undo Bachelorette alization if you need to so, here's here's the scoring essentially subtracting mean divided by the standard deviation squared is the standard deviation squared little Epsilon there to prevent / 0 in case for some reason I can't imagine that this would be 0 but I guess it can be And again, this is for one variable like the ": [
+            647.6,
+            685.6,
+            10
+        ],
+        "by the square root of that and that makes the learning work much better in many batches and it turns out around this time Ian laocoon had a paper called No More pesky learning rates and it wasn't rmsprop, but it had terms in it that were a lot like this. Just general advice Champions advice is to do whatever Ian. The Coon is doing at the moment. Cuz he's ": [
+            2088.6,
+            2123.5,
+            50
+        ],
+        "called Google and had enough Google net an honor Beyond McCune. And then Andre karpathy after 3 days of training got down to here. Okay, spend three days memorizing what a Scottish deerhound look like, you know, and then resnet came along in 2015 and matched him. In 2016, we beat Andre with a combination of inception and resnet and it keeps going like that. so how did they do ": [
+            4569.0,
+            4609.5,
+            116
+        ],
+        "categories. Okay, and now they're very happy cuz it's doing very well and Alex is very happy cuz it's named after him. Okay, so there's 1.2 million training images 1000 categories with 702 1300 examples for class 50,000 test images large variation in the images and some fine scale categories. For example there any imagenet trained network is dog expert knows 120 different breeds of dog. And the goal is ": [
+            4269.9,
+            4315.5,
+            108
+        ],
+        "deviation every input. I could zero mean and unit standard deviation every activity at the first hidden layer on a per-unit basis over the hundred things. So you compute the mean or of the activation of that unit over the batch and subtract that off and divided by the standard deviation. So you're basically Z scoring every layer of the network and now so I have to do this sequentially. ": [
+            566.9,
+            603.9,
+            8
+        ],
+        "different words Okay. soci demo says Okay, so Here is Gwinnett 500 5th edition, and he's widened the network. And he's this is the input and he's like sliding it across and as he's sliding it across he's showing you what the six. Lowest level features are doing and then this level and then this level and you know, these are not interpretable and these are the answers so it ": [
+            3704.3,
+            3759.1,
+            96
+        ],
+        "doesn't know what it is when the only part of each one is in but it's getting it right. This is how young lacunes webpage. and so this is the translation one so you can see that. So here he's got like what's being shown in this portion of the image in it. It's still responding to a four and different places in the image. So it's doing some translation ": [
+            3759.1,
+            3800.3,
+            97
+        ],
+        "doing is taking the previous way change and doing a weight and some of that and the gradient at this point. Okay, that's all it is to waited some waited by the Learning rate and Alpha. Okay. You don't need to think about be really this is just Jeff being Jeff. Okay, so and again you can do it the recursion analysis if this value stays the same all the ": [
+            912.1,
+            951.3,
+            17
+        ],
+        "guy is listening to four of these guys. So 4444. So if something moves is in a little bit different place here. If one of these units has the the feature and so strongly response to that at one place and then on another image that slightly to the right or left then if he takes the max of this 4 by 4 patch, you're taking a Max of 4X ": [
+            2896.0,
+            2928.4,
+            73
+        ],
+        "had last program and so we have 74 million weights just for the input to heddens. Okay, that's that's bad. So what are some properties of the visual world that we can take into account? So a lot of one way to think about this is we're putting a prior on the structure of the network that reflects our knowledge about the problem. Okay? So there are four properties. I ": [
+            2440.6,
+            2482.5,
+            60
+        ],
+        "have to do any pre-processing of the image and it worked better than last year's model, which was just a base normal backdrop net. Okay. So what's the idea you have each unit here has of small receptive field that is a small part of the image that has weights to doesn't weights over here. It doesn't work Scott like maybe A 3 by 3 patch here or 7 by ": [
+            2687.5,
+            2716.9,
+            67
+        ],
+        "here or up here while he could be over there. So it doesn't depend on where it is in the image. So there's translation invariance in terms of the object, right? And then another point is that objects are made a part. So test has a hand and arm body ahead feet legs. So there's compositionality in the world. Right? Things are made of Parts the parts put together make ": [
+            2582.5,
+            2616.8,
+            64
+        ],
+        "here to hear. This is just copied the here and then the little bit of networking here just has to learn the difference that it should learn between its input in its output because it's already it's output is already its input but it's learning to change that and Because of these wonder One wait one connections the gradient can be passed all the way back through the network easily. ": [
+            4750.2,
+            4779.8,
+            121
+        ],
+        "his for that's his two again. Here's a Ting noise still getting it, right? Okay. so many questions that those demos yeah. What? You want to see the noisy for and the sidewalk? But I'm sorry you can't. Nope. Sorry. I'm sorry, I couldn't get the hearing test until November Flint. There are actually very ambiguous case. It's right in the state of said where it it could be one ": [
+            3925.5,
+            4001.9,
+            101
+        ],
+        "huge images water works much better. Sorry about that fix it for the next class. change the sigmoid how to initialize the weights and we were read just goes the other way around we talked about momentum, but we didn't talk about adaptive learning rates. Okay. And I can tell you now if you want to go work on your programming assignment. I am not going to have any clicker ": [
+            338.5,
+            380.8,
+            3
+        ],
+        "hundred or so inputs here for mnist and then you've got 50 inputs for the output guys, right? So 900 versus 50 the order of magnitude difference. It seems like you would want to change a whole lot of Weights a small amount because those changes are going to add up and and make a big change. So you want to change them so late and if you have 10 ": [
+            1099.8,
+            1126.9,
+            22
+        ],
+        "if you have a 6 megapixel camera, you know, this could be 6 million pixels. So how many and it's in color. So for each one of these pixel Series 3 numbers red green and blue. How many parameters would we need for a normal neural network? Well, if we had a hundred hidden units first draw we'd have this huge fan and you never the same problems you guys ": [
+            2413.5,
+            2440.6,
+            59
+        ],
+        "image of Lynette 5.0 which is iyanla Koontz Network. Like what are there used to be this car called the car and there was a cartoon of a Policeman stopping a motorist and saying especially for you the ticket anyway, okay to be there here are the six feature Maps. So what this is is the activation of of the first patch of guys are all Computing the same the ": [
+            3331.8,
+            3373.5,
+            86
+        ],
+        "in that stuff hidden. And this is called Alex net. It's actually half of it. This is 1/2 and that's I don't know why they never show a figure with both halves, but it's kind of cut off tap here. But basically you've got two identical networks that are then cross going into separate hidden layers and joining up at these separate in layers, and then there's a thousand categories. ": [
+            4196.3,
+            4228.2,
+            106
+        ],
+        "independently in his PhD thesis. So he created these convolutional neural networks and the year before it nips. He was in this group with danker and bunch of people from Bell labs. And the main point of the talk the year before was how much pre-processing they had to do to get this network to recognize handwritten digits. This year a year later Ian had this paper where he didn't ": [
+            2652.6,
+            2687.5,
+            66
+        ],
+        "invariance. It can deal with scale. So this is not built into the network. So the pool and gives you some translation invariance, but scale is not built-in. It's not a prior. So it has to learn this from seeing different size numbers. And it works for some amount of rotation and then it doesn't. And still gets this right till it gets too far away. It's it's so these ": [
+            3800.3,
+            3846.7,
+            98
+        ],
+        "is a good idea. And back in the day Robbie Jacobs who's now Rochester where I got my PhD he came up with this almost exactly this idea. But his version was using the agreement signed between the current gradient and the momentum and he did this for bachelor me because back in 99 Bachelor ending was fine because we had such small training sets. Adaptive learning rates only deal ": [
+            1500.4,
+            1541.3,
+            34
+        ],
+        "is in the next time the next time we do this this will be Alpha squared times this plus that right or plus this I should say and so it's exponentially decaying the farther back in time. It is the higher the exponent on the alpha if you think about the recursion here, so it's it's weighing recent changes more than very far away and time changes. So all we're ": [
+            880.1,
+            912.1,
+            16
+        ],
+        "is use the sign not the size. Okay. And now the wait updates are all the same size and it turns out that escapes from plateaus quickly. So this you can't our prop is okay. So this idea comes from mathematicians doing optimization. Our problem is that idea? With adapting the step size separately for each grade each way, which is kind of weird, right because wait, we're only using ": [
+            1695.9,
+            1748.6,
+            39
+        ],
+        "it and it work. weird Okay. Okay, I guess sir. All right. Okay. Okay. Okay. So last time we started we nearly finished talking about tricks in the trick of the trade. We discussed stochastic gradient descent vs. Batch shuffling the examples performing PCA of the inputs, which would have been a good thing to do for this programming assignment or the last one. I mean where you had these ": [
+            261.7,
+            338.5,
+            2
+        ],
+        "it by a local gain that's determined empirically for each weight. So what that we're going to every wait now, we're going to have a learning right. or a local game So here's the learning right? Here's the local game. So that's sub i j so for every weight in the network, there's going to be one of these guys. And it's a lot more parameter suddenly twice as many. ": [
+            1230.8,
+            1259.8,
+            26
+        ],
+        "it with a lot of stuff so Alex net had eight layers had a convolutional layer and then pulling convolution convolution convolution pooling fully connected fully connected fully connected. And so this is going to be a softmax. And again, what are these things doing? They're trying to learn features so that at this level it's linearly separable cuz that's all this can do is linearly separable problems. So it's ": [
+            4609.5,
+            4646.2,
+            117
+        ],
+        "knew something about it. That's the story but your mileage may vary. So last year I had a in I went through all this stuff and many Bachelor earning and everything and then somebody published a paper that said just using vanilla stochastic gradient descent generalize better at least on a bunch of problems. They tried but You know, sorry to had to tell my class forget everything I told ": [
+            754.8,
+            794.0,
+            13
+        ],
+        "last year now, maybe two years ago now everything, you know, sometimes I'm teaching stuff that happened a couple of weeks ago. So anyway, the way batch normalization works as it makes everything zero mean and unit standard deviation through a mini batch. So if I have a hundred things in my mini batch, and I've got 1 I mean even the input I could zero mean and unit standard ": [
+            528.2,
+            566.9,
+            7
+        ],
+        "learning features that take these images takes all those Scottish deerhounds and sticks them in one part of the space. It's a 4096 dimensional space, but that's and you finding a hyperplane that cuts off just the Scottish deerhounds. Okay, then Along Came BGG 19 from The Vision Group at Oxford that 19 layers. And then Googling that around the same time with 22 layers. And there's a lot of ": [
+            4646.2,
+            4683.5,
+            118
+        ],
+        "like a good idea. Okay. So we saw the demo and it's not responding to me. stopped okay, that's stopped working. Oh. Stop working cuz it stopped working. It's not responding to anything. after the keyboard review try again. No. Okay, so There were a lot of early successes like mnist did got really low air in him this point one 7% 0 in my book could recognize Arabic and ": [
+            4035.4,
+            4122.1,
+            103
+        ],
+        "logistic outputs and some cases are going to be very rare. And so you have to deal with that you have a very unbalanced data said it's like zero shows up only once in a while and I'm Nest. Okay, so you have to compensate for that somehow. Last year, that was the programming assignment also with this year. It's going to be a lot clearer cuz got better Tas ": [
+            2295.0,
+            2321.8,
+            56
+        ],
+        "maintains because of that it maintains the shape of the three years kind of a white detector. Here is a another kind of edge detector. Okay, and then this is the pooling layer so does everybody understand what this is? Chinese questions about what's being shown here. These are the six guys and it's the activation. This is called a feature map. Now and the ACT what I'm showing you ": [
+            3408.5,
+            3445.0,
+            88
+        ],
+        "makes sense. So I can understand these features their low-level features their Edge detectors. Have a harder time with these. Dish Network's now or the best model of the temporal lobe that we have which is where you recognize images and people are making correspondences between deep networks and activations of fmri activations Witcher activations of groups of of neurons in the brain or single hundred, you know, maybe a ": [
+            3600.9,
+            3642.4,
+            93
+        ],
+        "my new momentum. and that's intuitively it sounds better because you're making this long jump and then correcting for where you end up as opposed to regular momentum worry you compute the gradient here and then make the long jump which you know seems you're you're making a small correction then making a log on jump so that it's it's better to fix where you end up then to fix ": [
+            1022.4,
+            1060.6,
+            20
+        ],
+        "network because the gradient was very small by the time it got back there. And where are using logistic hidden units cuz we didn't know better. So if you have the slope term with the logistic hidden units and their they're highly active than the slope terms going to be very small. So is he propagated back even for a logistic? The maximum slope is .25, so you're taking the ": [
+            1165.2,
+            1193.9,
+            24
+        ],
+        "next assignment you'll be able to use the Adam Optimizer Adam stands for adaptive momentum or something like that. You don't you set a learning right once and Adam does all this for you? So that some of the kind of intuition behind Adam. You can use big many batches and that make sure that the changes in sign are mainly due do are not due to the sampling error. ": [
+            1435.4,
+            1470.9,
+            32
+        ],
+        "no k Sources. There we go. Sorry, thank you for telling me. Let's try that again. There we go. Okay. Sorry about that. Thank you for normalizing me. Okay. Yeah, so we we figured out that we should initialize the weights with zero mean and standard deviation went over the square root of the Fannin. Different layers, so I have different fan ins. and you know all this was about ": [
+            440.0,
+            487.3,
+            5
+        ],
+        "not that far off in like zucchini write typewriter keyboard keyboard accordion has kind of an accordion. Look this a hen versus a cock for cocker spaniel. How did that get in there? I don't know. There's a lot of variance in the images. So this has very little texture. This has a lot of texture. Mugs color doesn't tell you much about whether it's a Mugger not tank. But ": [
+            4345.9,
+            4380.4,
+            110
+        ],
+        "now and then make a long jump. Okay, honey. Questions about that that's close to where we left off last time. Okay, so adaptive learning rates we did start talking about this but it went by very fast is the end of the class. So remember in your previous assignment you had like 90,000 inputs here and then he had like and then that was it now you've got nine ": [
+            1060.6,
+            1099.8,
+            21
+        ],
+        "of you know, 7 by 7 patches here so that you get the same response no matter even though it's shifted maybe two pixels or something. And so that gives you some translation invariance. We're going to keep doing that as we go up and see the farther in the network you go the more translation invariance you have so then this also does the nice thing of reducing the ": [
+            2928.4,
+            2961.6,
+            74
+        ],
+        "one. And do this multiple times according to whether the coin comes up heads or tails? Magic, okay. another hack that there's a lot of hacks and deepness is take these guys and make sure they don't get too big or too small. So you could limit the games through lion some reasonable range like 1 or 10 or .01 + 100. Yeah, so the great thing now is that ": [
+            1396.6,
+            1435.4,
+            31
+        ],
+        "or the other, you know, a lot of sevens could be one to tell her and so, you know in those cases the the network can't really do anything right? It's it's going to maybe output both numbers. But you know, they asked the postal workers. So what do you do in cases like this and they say well we look at the city. Okay. Yeah, I know that seems ": [
+            4001.9,
+            4035.4,
+            102
+        ],
+        "output of one hidden unit over the batch. And so in order to do this, you have to do it a layer at a time over the batch, right or otherwise, you've got the wrong inputs. And then you take that nicely Z scored variable and you give it two parameters that allow you to undo the batch normalization and I'll leave it as an exercise for the reader to ": [
+            685.6,
+            714.1,
+            11
+        ],
+        "pixels in general or about the same. Okay, there's further Center bias, which is a photographer bias that you tend to have the the object in the middle of the picture. So this tends to be background. But generally you can assume that the statistics across the image are similar. Okay. And the identity of test doesn't matter where she is in the image. She could be over here over ": [
+            2551.7,
+            2582.5,
+            63
+        ],
+        "questions today. Guy throws music, okay. So we figured out that we should. Initialize the weights there be 0 mean with standard deviation 1 over the square root of the fan in so different layers of different fannin's and so this 12 adapters. and so that's that's assuming all those those things. And then we briefly talked about batch normalization. What? Oh, thank you. Huh? Alright. Nobody's been seeing anything ": [
+            380.8,
+            440.0,
+            4
+        ],
+        "red wine is going to be red right answer usually red or black or brown. Jigsaw puzzles. Not very shaped distinctive but a bell is the most Bells have that shape. And real-world size hear some segments of an orange laptop for four poster bed in an airliner. So there's a big range of things in there. And there's a lot of within category variance. So does anybody know what ": [
+            4380.4,
+            4414.7,
+            111
+        ],
+        "response. So You need a different Edge detector for that. So again, the first hidden Larry units are connected to small part of the image. The next flare up is connected to several of those enlarging the receptive field until just before the output you may get units that are activated by the whole image that is their receptive field spans the whole thing. So here is a picture of ": [
+            3298.4,
+            3331.8,
+            85
+        ],
+        "right here. This is a vertical Edge. Here's a horizontal Edge. Here's a 45-degree ish Edge Etc. So what would be a receptive field that would fire to this suppose? I had a 4 x 4 Bunch of weights and they line up over this what would make what set of Weights would make that? prior to that edge we're looking right here. And I've got to wait here to ": [
+            3087.1,
+            3126.0,
+            79
+        ],
+        "same feature and it seems to be a kind of horizontal ich Edge detector. So it's turning on for this and turning on for that as mostly where it goes from black to white locked away. Here's another one. That's looks like it's responding to white to black. Here's one that just as responding to the Blackness of the image. So it's just to kind of black detector and it ": [
+            3373.5,
+            3408.5,
+            87
+        ],
+        "say or that direction or whatever. Okay, it doesn't respect those Acts. Okay, so the next step is a little. Obscure, but bear with me for a few moments. So there's this thing called our prop. Which show the magnitude of the gradient can be very different for different weights and can change during learning can start out big when you're dropping the Earth quickly and then is he get ": [
+            1621.5,
+            1665.6,
+            37
+        ],
+        "size of the network because now I'm down to 14 by 14. I still have six of these cuz there's one of these for every one of these and now he's going to have 16 features 10 x 10. So there's a hundred guys here learning one feature a hundred guys here learning another one etcetera. So we're kind of blowing up the features face. to look at and what ": [
+            2961.6,
+            2992.6,
+            75
+        ],
+        "size, right you you got a pretty good idea what the whole population thinks right if you ask one person though. May have nothing to do with what the whole population thinks. Especially if you ask me so consider a weight that gets a gradient of plus point one on 9 many batches and a gradient of -2.9 on the 10th mini batch. You would like that way to be ": [
+            1812.3,
+            1844.1,
+            42
+        ],
+        "so this is negative. Then we should decrease our gain Factor our local learning rate. But if they're the same sign, so they're both positive or they're both negative. Then we should increase it a little bit. And again, if you flip a coin and every time it comes up heads you add .05 to some number and every time it comes up Tails u x .95 that will oscillate ": [
+            1321.7,
+            1356.8,
+            29
+        ],
+        "some tasks deferral on some require very accurate weights and some don't. And some have many rare cases that you have to deal with that require paying attention to your next programming assignment is going to include and we're going to be diagnosing cancer. And there are multiple conditions that it could have and so you can't do softmax because there might be multiple targets. So you have to use ": [
+            2258.9,
+            2295.0,
+            55
+        ],
+        "sorry. Ladies. But yeah. I'm just saying because we had a chance to hire a really good. female computer vision person and she went to Texas Hey Ray. Okay. So what do I mean, you know I said this so receptive field. What do I mean by that in Neuroscience a receptive field refers to both? It's somewhat ambiguous. It refers to what part of the how much visual angle ": [
+            3190.0,
+            3230.3,
+            82
+        ],
+        "square and then on the next step you take point nine of that in point one of this and he keep iterating that so this is a running average again. Exponentially decaying average of the square of the size of the gradient. Okay, and then you divide the gradient by the square root of that, which is the square of the size of the gradient. So we're going to divided ": [
+            2058.5,
+            2088.6,
+            49
+        ],
+        "structure and there's like a replicated. Kind of architecture here that's been replicated many times that why it's called Inception. If you haven't seen the movie Inception, you should see that movie. It's great. But you know, it's many layers of reality and there's many layers of the same. The same architecture all the way through and they added these yellow things are are supervised outputs. So they added to ": [
+            4683.5,
+            4715.3,
+            119
+        ],
+        "supervise the output at this level of the networking another one at this level and another one at this level and that helped train that help the gradients to get these features to be as good as they could etcetera. And then came resnet. Where are the hundred fifty two layers? And this is a network where there's a copy forward thing. So there's a one wait one connection from ": [
+            4715.3,
+            4750.2,
+            120
+        ],
+        "the activations of the units in response to the input. So these are six different features. They're all looking at a small portion of the input, but they're all Computing the same feature. So if this Edge continues you get the same response here cuz it's responding to an edge about like that. So the one responding year in the one responding year etcetera, they're going to line up when ": [
+            3445.0,
+            3471.3,
+            89
+        ],
+        "the he does good things. Okay. so there's a lot of different things I told you about and what what do you want to do? It's going to vary a lot depending on the problem. So if we have small datasets, maybe just 10,000 cases. We should probably do PCA on it and and we might use a full batch method because full batch methods can go quickly. If you ": [
+            2123.5,
+            2154.8,
+            51
+        ],
+        "the input and measures it at all locations in the image. That's what makes it the convolution. Okay, if you're in ee you know what I'm talking about? And he had six of these. and 2828 going that way 28 going that way and I forgot how big these were but they were like 7 by 7 or something like that. And Terry at 6 different. So basically you're learning ": [
+            2788.5,
+            2823.5,
+            70
+        ],
+        "the negative that way and so we want to slow down the learning to get to the bottom of that particular Bowl. That makes sense. So speed it up when it's consistent slow it down when it's inconsistent and the obvious way to do that is to look at the sign. If the sign of the the previous weight change for this weight and the current weight change are different, ": [
+            1292.6,
+            1321.7,
+            28
+        ],
+        "the review session tomorrow night. There's apparently. Everything that I wanted to do is booked. so Hopefully we'll find some place, but if not, I'm thinking maybe. broadcasting it webcasting it somehow and Taking questions by text or something. That's that's all I can think of. Yeah, so and see what happens there. Okay, so so you don't know what you change to make it work suddenly? You stop normalizing ": [
+            195.2,
+            261.7,
+            1
+        ],
+        "the side but wait now are using a step size for each grade each way and then use the same idea but multiplicatively. So again, this is a hack right? We're going to limit it by 50 and and buy a millionth on the other end here. We must buy where do these numbers come from? Somebody made him up? Probably Jeff Hinton or one of his students, right? So ": [
+            1748.6,
+            1780.9,
+            40
+        ],
+        "the things in there. Those things might be put together with other things to make bigger things. So young laocoon and 1989 believe it or not, but cpdp chapter 8 at the very end. They have a kind of extremely simple convolutional neural network. And that's that's in your readings then it's it's from 1986 and 1989. He came up with convolutional. He also invented back property by the way ": [
+            2616.8,
+            2652.6,
+            65
+        ],
+        "their architecture and the problem. They're trying to solve. So very deep nuts are very different than recurrent Nets or very different than wide shallow. And that's too wide shelling at is one with many hidden units, but just a few hidden layers a very deep net might be Have a smaller number of hidden units, but go for a long time and recurrent Nets are their own thing. And ": [
+            2229.6,
+            2258.9,
+            54
+        ],
+        "these guys are going to learn is combinations of these and it shows a square here like this is only listening to that guy, but in fact This is a volume it goes through all six of these so it's got weights to this guy waits to this guy. This guy this guy this guy all in the same place, right all talking about the same portion of the image ": [
+            2992.6,
+            3020.1,
+            76
+        ],
+        "they start out with the same initial random weights. And they stay the same initial stay the same way. It's because every update to every weight at every location is a averaged across this whole gray thing here. So that after 1 after some, you know, how many voucher whatever the weights are all changed the same amount so they stay the same. So this is learn some feature of ": [
+            2755.2,
+            2788.5,
+            69
+        ],
+        "think Ferguson only had two or three. I've got four. Nearby pixels depend most on nearby pixel. So this green is similar to that Korean similar that green but not pixels far away. So there's nothing about Tess's face that influencing the color of these pixels. But Wally has you know the same color issue around different parts of his body. On the other hand, the statistics of the pixels ": [
+            2482.5,
+            2523.9,
+            61
+        ],
+        "this is? Hey doggie experts. It's not just a dog. It's Scottish deerhound. Okay, so these are all it has to take all of these and put them in the same category. I mean compared that to amnest. Really? I mean it's it's incredibly variable. So why deep learning? So here's the standard computer vision approaches at the 2012 cvpr conference? Applied to this thing. This is their error rate ": [
+            4414.7,
+            4456.0,
+            112
+        ],
+        "this to hack but we're going to get to something that's slightly better than a hack and The nice thing about stochastic gradient descent is it when the learning rate small? It's averaging the gradients over a mini batch. So the mini batch is representing the whole training set. And if it's large enough, you know, it's like when somebody takes it all if you have a large enough sample ": [
+            1780.9,
+            1812.3,
+            41
+        ],
+        "to categorize these things into the right category in there weird category. So this is lens cap. That's probably just mislabeled right through the lens cap. I think it's hanging down there. It's really a reflex camera, but it's counted as wrong because it didn't say lens cap. So again back prop is really good at finding errors in the training set. Abacus Slug and the next one up or ": [
+            4315.5,
+            4345.9,
+            109
+        ],
+        "to change the weight the same amount roughly and so it's going to incriminate nine times and decrement at once but not in not respecting this difference in their size. Okay. So the white would grow a lot when if we were using mini batch gradient stochastic gradient said it would stay about the same. So our prop doesn't work. Well with many batches. It's more of a batch technique. ": [
+            1878.0,
+            1916.8,
+            44
+        ],
+        "to figure out how you could undo this by doing that like what gamma and beta would have to be to do that. Okay. So this turns out let's hear on one network that we trained. It was a Siamese convolutional neural network, which I'll tell you something about it some point in your lives Ed sped up training by 7 * So that's pretty cool. Yeah. Yes. Or he ": [
+            714.1,
+            754.8,
+            12
+        ],
+        "to one of these guys. And here's a weird 5 and it weird sex and again that we're date. and You know at some point that might say ate here, I don't remember but it's it's got the same network serve replicated from left to right. So it's got multiple answers depending on where it is in the image. So you can see it's doing pretty well at this. That's ": [
+            3888.4,
+            3925.5,
+            100
+        ],
+        "towards the bottom of the bowl. The gradient will get smaller and smaller, right? So if that makes it difficult to choose like one learning right to rule them all. when learning right to bind them one idea is in full batch learning is not to use a learning rate. Just use the sign of the gradient. So you'll have some learning right but it's fixed and all you do ": [
+            1665.6,
+            1695.9,
+            38
+        ],
+        "understood the Halle Berry neuron and to some extent because that's at the other end, but in between all hell broke loose and then we had didn't have a lot of ideas about what kind of features were being computed by the brain and now thanks to deep networks. We have a better idea. okay, and this is just going through what I already went through but saying it and ": [
+            3675.7,
+            3703.2,
+            95
+        ],
+        "us. So it's a big Network. It's got a lot of units in it, but only a small number of parameters then the next layer up. is usually a what's called a pulling Network the takes maybe a 4 by 4 patch here and these days usually what we do is take the maximum guy and that gives you translation invariance a small amount of translation in German. So this ": [
+            2857.8,
+            2896.0,
+            72
+        ],
+        "use something like Newton's method which you may have heard of or bfgs, which is something that takes into account the curvature. So when you have like a funnel like this you want to take that into account and the second-order techniques, which only work with batch. Taking two notches, which way is downhill, but the curvature around that the second derivative of the Earth. So those are some things. ": [
+            2154.8,
+            2191.7,
+            52
+        ],
+        "ute are Ray of 858 electrodes into a monkey and you could end if the electrodes are Further along in the temporal lobe a higher level of the network can predict those firings to the same image that he gives the monkey if there earlier lower layer in early earlier than our own that can predict it, you know, we understood would V1 V2, we're doing kind of and we ": [
+            3642.4,
+            3675.7,
+            94
+        ],
+        "wait here to waits for weights this way for weeks. Do you know until I got a little rectangle over this? What's a set of Weights that are fire to that make the unit excited? Yeah, basically white white on the right black on the left meaning that again remember? The weights look like what they respond to write your Computing the inner product of the input with the weights. ": [
+            3126.0,
+            3161.3,
+            80
+        ],
+        "way through so you're on a plane and so the gradient this the same all the time now, that's not going to be true. But you can do that analysis and you get this which shows that you know, this is .9 you're basically multiplying your learning right by a factor of 10. And if it's .99 its factor of 100. so that's that story and Jeff says start with ": [
+            951.3,
+            984.0,
+            18
+        ],
+        "weight when it says how quickly for moving in that direction. So that's what I mean by axis aligned. It's the accies are the weights because you're always Computing the partial derivative. The year was respect each weight and this is saying how quickly you change that one way momentum on the other hand. combines information from multiple things and can change Change how quickly you move in this direction ": [
+            1589.8,
+            1621.5,
+            36
+        ],
+        "weights you want to change them more quickly. and in more an old fashioned networks than modern networks. The gradients can get small and earlier layers of the network. So when we had There's a secret we actually did deep learning back in the day. I have three hidden layers that's deep now. And what we would do is is crank up the learning rate for earlier layers in the ": [
+            1126.9,
+            1165.2,
+            23
+        ],
+        "were like, oh my God and you telling them for years that they were going to have to learn their features. All these are where you know, you might take 10 different feature types that 10 different researchers figured out apply them to the image and then put a perceptron on top. So they're all hands created features with a perceptron on top the linear classifier this all the features ": [
+            4499.0,
+            4531.0,
+            114
+        ],
+        "while to Benchmark and had 101 categories and I don't know something like 50 examples for category and then 256 was the graduate student version add 256 categories. And then Along Came kraszewski subscriber and Hinton Hinton was somewhat apologetic about this because Ian wanted to apply deep networks to this problem, but his grad students weren't interested. So Jeff's grad students were this is Alex kraszewski and Helia subscriber ": [
+            4156.2,
+            4196.3,
+            105
+        ],
+        "with axis aligned effects. What does that mean? Any idea what that means? What what accies are we talking about? PCA what said what you said? No, not exactly. Okay. So here's wait one. Here is way too. We're talking about an error bowl over this. If we adaptive learning rate for way too, it's changing how quickly we move in this direction. If we change the learning rate for ": [
+            1541.3,
+            1589.8,
+            35
+        ],
+        "you get this feature map. Now, this is the pooling layer. So it's taking this guy. Just making it smaller. These are the I forgot. 16 different features of those features, okay and there Pretty different from one another and hard to interpret and there's a pooling layer of that and then there's here's the fully connected hidden lair. Okay, good. Yeah. No more low level. more like simple edges ": [
+            3471.3,
+            3521.0,
+            90
+        ],
+        "you, okay? Okay. And all of this is differentiable clearly that's differentiable. This is differentiable. So you can back propagate through it. And everything's wonderful. And again, as I said last time there's some discussion on the web that you can apply it to the inputs to unit, which is what we're doing essentially right based on Ian mcewan's analysis and that seemed to work better. So, who knows? Okay. ": [
+            794.0,
+            840.1,
+            14
+        ]
+    },
+    "File Name": "Deep Learning - C00 - Cottrell, Garrison W - Fall 2018-lecture_8.flac",
+    "Full Transcript": "Listen to a podcast. Okay.  kids are people who had trouble going from  single example too many batches figure out their problems.  Why?  Do you know why?  Last year, the the grabs didn't version of this class. There's a a project at the end and and one team.  Have t-shirts made that said deep learning works. I don't know why.  Okay.  Saturday I'm still trying to find someplace to have the review session tomorrow night.  There's apparently.  Everything that I wanted to do is booked.  so  Hopefully we'll find some place, but if not, I'm thinking maybe.  broadcasting it webcasting it somehow and  Taking questions by text or something. That's that's all I can think of.  Yeah, so  and see what happens there.  Okay, so so you don't know what you change to make it work suddenly?  You stop normalizing it and it work.  weird  Okay.  Okay, I guess sir. All right.  Okay.  Okay.  Okay. So last time we started we  nearly finished talking about tricks in the trick of the trade.  We discussed stochastic gradient descent vs. Batch shuffling the examples performing PCA of the inputs, which would have been a good thing to do for this programming assignment or the last one. I mean where you had these huge images water works much better. Sorry about that fix it for the next class.  change the sigmoid how to initialize the weights and we were  read just goes the other way around we talked about momentum, but  we didn't talk about adaptive learning rates.  Okay.  And I can tell you now if you want to go work on your programming assignment. I am not going to have any clicker questions today.  Guy throws music, okay.  So we figured out that we should.  Initialize the weights there be 0 mean with standard deviation 1 over the square root of the fan in so different layers of different fannin's and so this 12 adapters.  and  so that's that's assuming all those those things.  And then we briefly talked about batch normalization.  What?  Oh, thank you.  Huh? Alright. Nobody's been seeing anything no k  Sources. There we go.  Sorry, thank you for telling me.  Let's try that again. There we go.  Okay.  Sorry about that. Thank you for normalizing me.  Okay.  Yeah, so we we figured out that we should initialize the weights with zero mean and standard deviation went over the square root of the Fannin.  Different layers, so I have different fan ins.  and you know all this was about Wade initialization and with  Deep that works with roller units. There's a similar analysis that's been done and you'll be able to set it to that kind of initialization and it's called Xavier initialization. And for that one. It turns out to be one over the number of inputs.  Who knew?  But again, all this careful work gets ruined by learning and and so batch normalization came along. I think last year now, maybe two years ago now everything, you know, sometimes I'm teaching stuff that happened a couple of weeks ago.  So anyway, the way batch normalization works as it makes everything zero mean and unit standard deviation through a mini batch. So if I have a hundred things in my mini batch, and I've got  1 I mean even the input I could zero mean and unit standard deviation every input.  I could zero mean and unit standard deviation every activity at the first hidden layer on a per-unit basis over the hundred things.  So you compute the mean or of the activation of that unit over the batch and subtract that off and divided by the standard deviation. So you're basically Z scoring every layer of the network and now so I have to do this sequentially. So in these packages that you guys are going to use platforms. You're going to use pytorch.  There's just another it's actually you put in a layer called batch normalization. And so that batch normalizes this layer.  Then you folk the next layer up a batch normalize that pump the next layer up etcetera and  and it normalizes everything.  but it also gives the network a chance to undo this by giving it some parameters that I can actually undo Bachelorette alization if you need to so, here's here's the scoring essentially subtracting mean divided by the standard deviation squared is the standard deviation squared little Epsilon there to prevent / 0 in case for some reason I can't imagine that this would be 0 but I guess it can be  And again, this is for one variable like the output of one hidden unit over the batch. And so in order to do this, you have to do it a layer at a time over the batch, right or otherwise, you've got the wrong inputs.  And then you take that nicely Z scored variable and you give it two parameters that allow you to undo the batch normalization and I'll leave it as an exercise for the reader to to figure out how you could undo this by doing that like what gamma and beta would have to be to do that.  Okay.  So this turns out let's hear on one network that we trained. It was a Siamese convolutional neural network, which I'll tell you something about it some point in your lives Ed sped up training by 7 *  So that's pretty cool. Yeah.  Yes.  Or he knew something about it.  That's the story but your mileage may vary.  So last year I had a in I went through all this stuff and many Bachelor earning and everything and then somebody published a paper that said just using vanilla stochastic gradient descent generalize better at least on a bunch of problems. They tried but  You know, sorry to had to tell my class forget everything I told you, okay?  Okay.  And all of this is differentiable clearly that's differentiable. This is differentiable. So you can back propagate through it.  And everything's wonderful.  And again, as I said last time there's some discussion on the web that you can apply it to the inputs to unit, which is what we're doing essentially right based on Ian mcewan's analysis and that seemed to work better. So, who knows?  Okay.  So then we talked about momentum.  And again what momentum does in?  As I posted on Piazza, there's like too much stuff here. Really? What you need. Is that the change in the weights at this time? Step should be some fraction of the change of the weights at the last time step in Alpha is typically a point like 9 or even point nine nine and so this  Average is in the next time the next time we do this this will be Alpha squared times this plus that right or plus this I should say and so it's exponentially decaying the farther back in time. It is the higher the exponent on the alpha if you think about the recursion here, so it's it's weighing recent changes more than very far away and time changes. So all we're doing is taking the previous way change and doing a weight and some of that and the gradient at this point.  Okay, that's all it is to waited some waited by the Learning rate and Alpha.  Okay.  You don't need to think about be really this is just Jeff being Jeff.  Okay, so and again you can do it the recursion analysis if this value stays the same all the way through so you're on a plane and so the gradient this the same all the time now, that's not going to be true. But you can do that analysis and you get this which shows that you know, this is .9 you're basically multiplying your learning right by a factor of 10. And if it's .99 its factor of 100.  so that's that story and  Jeff says start with a small momentum and then make it bigger.  and  then we talked about nesteroff momentum. So for regular motive for nesterov momentum you add in the the momentum and then you measure the gradient at that point and add that to the weights.  That's my new momentum term.  And so I'm going to add that to the weights.  Figure out what the gradient is where I get to and that's my new momentum.  and that's intuitively it sounds better because you're making this long jump and then correcting for where you end up as opposed to regular momentum worry you compute the gradient here and then  make the long jump which you know seems you're you're making a small correction then making a log on jump so that  it's  it's better to fix where you end up then to fix now and then make a long jump.  Okay, honey.  Questions about that that's close to where we left off last time.  Okay, so adaptive learning rates we did start talking about this but it went by very fast is the end of the class. So remember in your previous assignment you had like 90,000 inputs here and then he had like and then that was it now you've got nine hundred or so inputs here for mnist and then you've got 50 inputs for the output guys, right? So 900 versus 50 the order of magnitude difference. It seems like you would want to change a whole lot of Weights a small amount because those changes are going to add up and and make a big change. So you want to change them so late and if you have 10 weights you want to change them more quickly.  and in  more an old fashioned networks than modern networks. The gradients can get small and earlier layers of the network. So when we had  There's a secret we actually did deep learning back in the day. I have three hidden layers that's deep now. And what we would do is is crank up the learning rate for earlier layers in the network because the gradient was very small by the time it got back there.  And where are using logistic hidden units cuz we didn't know better. So if you have the slope term with the logistic hidden units and their they're highly active than the slope terms going to be very small. So is he propagated back even for a logistic? The maximum slope is .25, so you're taking the Deltas and you're multiplying by .25 in the more you do that if she go back they should shrink and that's called The Vanishing gradient problem. So we would have a higher learning rate on hidden units earlier in the network to compensate.  So having an Adaptive learning rates might be a better idea.  And so  what we're going to do is have a Global Learning right and then multiply it by a local gain that's determined empirically for each weight. So what that we're going to every wait now, we're going to have a learning right.  or a local game  So here's the learning right? Here's the local game. So that's sub i j so for every weight in the network, there's going to be one of these guys.  And it's a lot more parameter suddenly twice as many.  And the idea is if the gradient says go down go down then maybe when you know, it's consistent. So maybe we want to increase the learning rate to go down faster.  But if the learning rate if the weight change from the last two times steps says go down go up. Maybe we're in one of those situations where we jumping across a ball boats positive this way in the negative that way and so we want to slow down the learning to get to the bottom of that particular Bowl.  That makes sense.  So speed it up when it's consistent slow it down when it's inconsistent and the obvious way to do that is to look at the sign.  If the sign of the the previous weight change for this weight and the current weight change are different, so this is negative.  Then we should decrease our gain Factor our local learning rate.  But if they're the same sign, so they're both positive or they're both negative. Then we should increase it a little bit.  And again, if you flip a coin and every time it comes up heads you add .05 to some number and every time it comes up Tails u x .95 that will oscillate around 1.  And you can show you can try that at home.  So this ensures the big gains 2K rapidly when oscillation start so multiplying by a fraction makes them the first time you do that. It's .95 the second time. It's essentially .95 squared. So you're getting smaller and smaller.  And this is what I just said.  You can try this at home by flipping a coin start with one.  And do this multiple times according to whether the coin comes up heads or tails?  Magic, okay.  another hack that there's a lot of hacks and deepness is  take these guys and make sure they don't get too big or too small.  So you could limit the games through lion some reasonable range like 1 or 10 or .01 + 100.  Yeah, so the great thing now is that next assignment you'll be able to use the Adam Optimizer Adam stands for adaptive momentum or something like that. You don't you set a learning right once and Adam does all this for you?  So that some of the kind of intuition behind Adam.  You can use big many batches and that make sure that the changes in sign are mainly due do are not due to the sampling error. So if you did this for online learning every time you got a pattern you update the weights and you check if it's positive or negative. Then you're not getting a good idea of which way the real gradient is going and so you're probably going to change the learning rate too much.  I'm so having a big mini batch are doing this with full batch. Learning is a better is a good idea.  And back in the day Robbie Jacobs who's now Rochester where I got my PhD he came up with this almost exactly this idea. But his version was using the agreement signed between the current gradient and the momentum and he did this for bachelor me because back in 99  Bachelor ending was fine because we had such small training sets.  Adaptive learning rates only deal with axis aligned effects. What does that mean?  Any idea what that means?  What what accies are we talking about?  PCA what said what you said? No, not exactly. Okay. So here's wait one.  Here is way too. We're talking about an error bowl over this.  If we adaptive learning rate for way too, it's changing how quickly we move in this direction. If we change the learning rate for weight when it says how quickly for moving in that direction. So that's what I mean by axis aligned. It's the accies are the weights because you're always Computing the partial derivative. The year was respect each weight and this is saying how quickly you change that one way momentum on the other hand.  combines information from multiple things and can change  Change how quickly you move in this direction say or that direction or whatever. Okay, it doesn't respect those Acts.  Okay, so the next step is a little.  Obscure, but bear with me for a few moments.  So there's this thing called our prop.  Which show the magnitude of the gradient can be very different for different weights and can change during learning can start out big when you're dropping the Earth quickly and then is he get towards the bottom of the bowl. The gradient will get smaller and smaller, right?  So if that makes it difficult to choose like one learning right to rule them all.  when learning right to bind them  one idea is in full batch learning is not to use a learning rate. Just use the sign of the gradient. So you'll have some learning right but it's fixed and all you do is use the sign not the size.  Okay.  And now the wait updates are all the same size and it turns out that escapes from plateaus quickly.  So this you can't our prop is okay. So this idea comes from mathematicians doing optimization.  Our problem is that idea?  With adapting the step size separately for each grade each way, which is kind of weird, right because wait, we're only using the side but wait now are using a step size for each grade each way and then use the same idea but multiplicatively.  So again, this is a hack right? We're going to limit it by 50 and and buy a millionth on the other end here. We must buy where do these numbers come from? Somebody made him up? Probably Jeff Hinton or one of his students, right? So this to hack  but we're going to get to something that's slightly better than a hack and  The nice thing about stochastic gradient descent is it when the learning rate small? It's averaging the gradients over a mini batch. So the mini batch is representing the whole training set.  And if it's large enough, you know, it's like when somebody takes it all if you have a large enough sample size, right you you got a pretty good idea what the whole population thinks right if you ask one person though.  May have nothing to do with what the whole population thinks.  Especially if you ask me so consider a weight that gets a gradient of plus point one on 9 many batches and a gradient of -2.9 on the 10th mini batch. You would like that way to be about the same as 9 * 2.1 is 2.9 and some of those two zero so we'd want those to stay roughly that where it is, but assuming that the Adaptive learning rates don't change very much.  Are prop wood increment the weight nine times and decorate deck permit at once by about the same amount. So it would ignore the fact that the gradient is 1.9. It's just going to change the weight the same amount roughly and so it's going to incriminate nine times and decrement at once but not in not respecting this difference in their size.  Okay.  So the white would grow a lot when if we were using mini batch gradient stochastic gradient said it would stay about the same.  So our prop doesn't work. Well with many batches.  It's more of a batch technique. So is there some way we can combine the robustness of our prop and the efficiency many batches and there is and  And the effective averaging of gradients and it's called rmsprop.  So you just Adam is in the air rmsprop?  So our prop is equivalent to using the gradient, but also dividing by the size of the greater so adding plus one, but you're dividing by .1.  Subtract 10.9, but you're dividing by .9. So you're not changing the way tin roof.  In response to the size of the gradient.  So is there some way to kind of normalize that so we track the sizes of the grade in?  So many batch are profit. We divide a different by different number for each mini batch, right? So we if the gradient is Big we divided by a big number. I mean, this is essentially what it does, right cuz we're changing by a constant.  If a grating is small we divided by a small number.  Why not force the number we divide by to be similar between many batches?  and so this is  Which slightly like momentum in a way because you know instead of dividing by a big number and a little number. We're going to divide by an average size.  Okay.  and  so you have this thing sorted and it's not momentum at all, but it's got the same kind of flavor. He keep track of this thing, which is the mean square of the gradient. So here's the gradient squared point one of that and point nine of the previous. I'm so you start out with this on the first step and that becomes a mean square and then on the next step you take point nine of that in point one of this and he keep iterating that so this is a running average again.  Exponentially decaying average of the square of the size of the gradient.  Okay, and then you divide the gradient by the square root of that, which is the square of the size of the gradient. So we're going to divided by the square root of that and that makes the learning work much better in many batches and it turns out around this time Ian laocoon had a paper called No More pesky learning rates and it wasn't rmsprop, but it had terms in it that were a lot like this.  Just general advice Champions advice is to do whatever Ian. The Coon is doing at the moment.  Cuz he's the he does good things. Okay.  so there's a lot of different things I told you about and  what what do you want to do? It's going to vary a lot depending on the problem. So if we have small datasets, maybe just 10,000 cases. We should probably do PCA on it and and we might use a full batch method because full batch methods can go quickly. If you use something like Newton's method which you may have heard of or bfgs, which is something that takes into account the curvature. So when you have like a funnel like this you want to take that into account and the second-order techniques, which only work with batch.  Taking two notches, which way is downhill, but the curvature around that the second derivative of the Earth.  So those are some things.  And you can use our prop with a full batch method, but for big redundant data sets like mnist.  If you want to use many batches and try gradient descent with momentum.  Try the Adam optimizer.  I'm try whatever young Mikuni's doing now.  So why isn't there like one thing I can tell you to use all the time? And it's because  neural networks have very different properties depending on their architecture and the problem. They're trying to solve.  So very deep nuts are very different than recurrent Nets or very different than wide shallow. And that's too wide shelling at is one with many hidden units, but just a few hidden layers a very deep net might be  Have a smaller number of hidden units, but go for a long time and recurrent Nets are their own thing.  And some tasks deferral on some require very accurate weights and some don't.  And some have many rare cases that you have to deal with that require paying attention to your next programming assignment is going to include and we're going to be diagnosing cancer.  And there are multiple conditions that it could have and so you can't do softmax because there might be multiple targets. So you have to use logistic outputs and some cases are going to be very rare. And so you have to deal with that you have a very unbalanced data said it's like zero shows up only once in a while and I'm Nest. Okay, so you have to compensate for that somehow.  Last year, that was the programming assignment also with this year. It's going to be a lot clearer cuz got better Tas and right after or right during the programming assignment a group of Stanford came out with the you know, state-of-the-art on that data set and they've been working on it for a year. So the students were pretty excited about that.  Okay.  That's that any questions.  That was a lot.  But now we get to do continents. Yay.  What's up? Yay, or boo?  Who really don't want to do continent?  Okay, so I have a I have adapted these slides from a tutorial Rob Hargis gave it nips several years ago.  Because he's got great slides.  But I've added some sort of a picture of my daughter with Wally for example in my slides.  So  why should we do condoms? Here's an image, its 11:40 by 6:48. So it's got 745000 pixels. Okay, it's a lot of pixels. I mean if you have a 6 megapixel camera, you know, this could be 6 million pixels. So how many and it's in color. So for each one of these pixel Series 3 numbers red green and blue.  How many parameters would we need for a normal neural network? Well, if we had a hundred hidden units first draw we'd have this huge fan and you never the same problems you guys had last program and so we have 74 million weights just for the input to heddens.  Okay, that's that's bad.  So what are some properties of the visual world that we can take into account? So a lot of one way to think about this is we're putting a prior on the structure of the network that reflects our knowledge about the problem. Okay?  So there are four properties. I think Ferguson only had two or three. I've got four.  Nearby pixels depend most on nearby pixel. So this green is similar to that Korean similar that green but not pixels far away. So there's nothing about Tess's face that influencing the color of these pixels.  But Wally has you know the same color issue around different parts of his body.  On the other hand, the statistics of the pixels are relatively uniform across the image and what I mean by that is why I should say a price images that you know, if I took another picture over here so that test is it over at the left side of the picture I get in, you know some new pixels, but if I go over every image of the world, I take a picture of the statistics of the pixels in general or about the same.  Okay, there's further Center bias, which is a photographer bias that you tend to have the the object in the middle of the picture. So this tends to be background. But generally you can assume that the statistics across the image are similar.  Okay.  And the identity of test doesn't matter where she is in the image. She could be over here over here or up here while he could be over there. So it doesn't depend on where it is in the image. So there's translation invariance in terms of the object, right?  And then another point is that objects are made a part. So test has a hand and arm body ahead feet legs.  So there's compositionality in the world. Right? Things are made of Parts the parts put together make the things in there. Those things might be put together with other things to make bigger things.  So young laocoon and 1989 believe it or not, but cpdp chapter 8 at the very end. They have a kind of extremely simple convolutional neural network. And that's that's in your readings then it's it's from 1986 and 1989. He came up with convolutional. He also invented back property by the way independently in his PhD thesis. So he created these convolutional neural networks and the year before it nips. He was in this group with danker and bunch of people from Bell labs. And the main point of the talk the year before was how much pre-processing they had to do to get this network to recognize handwritten digits.  This year a year later Ian had this paper where he didn't have to do any pre-processing of the image and it worked better than last year's model, which was just a base normal backdrop net.  Okay. So what's the idea you have each unit here has of small receptive field that is a small part of the image that has weights to doesn't weights over here. It doesn't work Scott like maybe  A 3 by 3 patch here or 7 by 7 and so it's paying attention to local part of the image.  And the features are learned.  So there's locality.  And then these are replicated across the image. So if this is a good feature here, it's probably a good feature here here here in here. And so this real thing represents a bunch of units that cover this input in a kind of grid but it's overlapping cells and they start out with the same initial random weights.  And they stay the same initial stay the same way. It's because every update to every weight at every location is a averaged across this whole gray thing here. So that after 1 after some, you know, how many voucher whatever the weights are all changed the same amount so they stay the same. So this is learn some feature of the input and measures it at all locations in the image. That's what makes it the convolution.  Okay, if you're in ee you know what I'm talking about?  And he had six of these.  and  2828 going that way 28 going that way and I forgot how big these were but they were like 7 by 7 or something like that.  And Terry at 6 different. So basically you're learning 6 features, but you have 28 by 28 whatever that is, like almost 900 say different units, but they all have the same 900 different units in each one of these six things but they all have the same weights. So that's a regular ization, right?  I don't have a gazillion different parameters. I if it's 7 by 7 convolution, I have 50 parameters write 749 weights in one by us.  So it's a big Network. It's got a lot of units in it, but only a small number of parameters then the next layer up.  is usually a what's called a  pulling Network the takes maybe a 4 by 4 patch here and these days usually what we do is take the maximum guy and that gives you translation invariance a small amount of translation in German. So this guy is listening to four of these guys. So 4444. So if something moves is in a little bit different place here.  If one of these units has the the feature and so strongly response to that at one place and then on another image that slightly to the right or left then if he takes the max of this 4 by 4 patch, you're taking a Max of 4X of you know, 7 by 7 patches here so that you get the same response no matter even though it's shifted maybe two pixels or something.  And so that gives you some translation invariance. We're going to keep doing that as we go up and see the farther in the network you go the more translation invariance you have  so then this also does the nice thing of reducing the size of the network because now I'm down to 14 by 14. I still have six of these cuz there's one of these for every one of these and now he's going to have 16 features 10 x 10. So there's a hundred guys here learning one feature a hundred guys here learning another one etcetera.  So we're kind of blowing up the features face.  to look at and what these guys are going to learn is combinations of these and it shows a square here like this is only listening to that guy, but in fact  This is a volume it goes through all six of these so it's got weights to this guy waits to this guy. This guy this guy this guy all in the same place, right all talking about the same portion of the image and it's going to learn combinations of those that correspond a common things common features in the image that are used for solving the task.  And then there's another pulling here and 4 and there's one of these for these are one-to-one but these are not one-to-one these what are they called rectangular solids through here, right and then there's a couple fully connected layers and then he has radial basis functions at the output which you don't need to know about cuz we're not going to talk about him.  So objects are made of Parts, the receptive Fields get larger. These things are like combining things from different parts of the image and solo level features early hear you're going to get edges. What's an edge in an image? This is an edge. It's a change in the brightness right here. This is a vertical Edge. Here's a horizontal Edge. Here's a 45-degree ish Edge Etc. So what would be a receptive field that would fire to this suppose? I had a 4 x 4  Bunch of weights and they line up over this what would make what set of Weights would make that?  prior to that edge  we're looking right here.  And I've got to wait here to wait here to waits for weights this way for weeks. Do you know until I got a little rectangle over this?  What's a set of Weights that are fire to that make the unit excited?  Yeah, basically white white on the right black on the left meaning that again remember?  The weights look like what they respond to write your Computing the inner product of the input with the weights. And so when they point in the same direction, you're going to get the maximum response.  So what is white correspond to big numbers black corresponds to small numbers or negative if you've discovered this so that would make this guy fire that's an edge detector and in computer vision for decades people have been trying to get a better Edge detector than the other guy usually is a guy sorry. Ladies. But yeah.  I'm just saying because we had a chance to hire a really good.  female computer vision person and she went to Texas  Hey Ray.  Okay.  So what do I mean, you know I said this so receptive field. What do I mean by that in Neuroscience a receptive field refers to both? It's somewhat ambiguous. It refers to what part of the how much visual angle a neuron is responding to and what shape it's responding to with in that spot.  And so neurons in early visual cortex respond to very small portions of the image and late in your brain. You get receptive Fields. It responded bigger portions of the image. So you get the Halle Berry neuron or the Jennifer Aniston neuron, and those are actual  Finding Cinderella science. Okay, there is a Halle Berry neuron, okay.  Okay. So here we mainly mean the part of the image that activates the unit but we also talked about the shape of these receptive field. So you just heard about one shape of receptive field. It's black on one side and white on the other that receptive field is going to respond to Vertical edges when you put it over a horizontal Edge, you'll get no response.  So  You need a different Edge detector for that.  So again, the first hidden Larry units are connected to small part of the image. The next flare up is connected to several of those enlarging the receptive field until just before the output you may get units that are activated by the whole image that is their receptive field spans the whole thing.  So here is a picture of image of Lynette 5.0 which is iyanla Koontz Network. Like what are there used to be this car called the car and there was a cartoon of a  Policeman stopping a motorist and saying especially for you the ticket anyway, okay to be there here are the six feature Maps. So what this is is the activation of of the first patch of guys are all Computing the same the same feature and it seems to be a kind of horizontal ich Edge detector. So it's turning on for this and turning on for that as mostly where it goes from black to white locked away.  Here's another one. That's looks like it's responding to white to black.  Here's one that just as responding to the Blackness of the image. So it's just to kind of black detector and it maintains because of that it maintains the shape of the three years kind of a white detector. Here is a another kind of edge detector.  Okay, and then this is the pooling layer so does everybody understand what this is?  Chinese questions about what's being shown here.  These are the six guys and it's the activation. This is called a feature map.  Now and the ACT what I'm showing you the activations of the units in response to the input.  So these are six different features. They're all looking at a small portion of the input, but they're all Computing the same feature. So if this Edge continues you get the same response here cuz it's responding to an edge about like that.  So the one responding year in the one responding year etcetera, they're going to line up when you get this feature map. Now, this is the pooling layer. So it's taking this guy. Just making it smaller. These are the I forgot.  16 different features of those features, okay and there  Pretty different from one another and hard to interpret and there's a pooling layer of that and then there's here's the fully connected hidden lair.  Okay, good. Yeah.  No more low level.  more like simple edges  What do you mean?  Right cuz it's it's the back prop nut and it's learning features that may not be human.  Right. It's learning combinations of these. These 6 features and it's it's listening each. One of these guys is listening to the same as listening to a different part of this may be a five-by-five patch at this and responding to it and these features are difficult to interpret. I guess you can kind of see if 3 there but who knows these are like combinations they have weights to all of these in the same location. So the tip of the three the tip of the three is it took so this guy will be maybe you know in the same location will be listening to or having weights to the same location on the three.  Okay.  That makes sense.  So I can understand these features their low-level features their Edge detectors. Have a harder time with these.  Dish Network's now or the best model of the temporal lobe that we have which is where you recognize images and people are making correspondences between deep networks and activations of fmri activations Witcher activations of  groups of of neurons in the brain or single hundred, you know, maybe a ute are Ray of 858 electrodes into a monkey and you could end if the electrodes are  Further along in the temporal lobe a higher level of the network can predict those firings to the same image that he gives the monkey if there earlier lower layer in early earlier than our own that can predict it, you know, we understood would V1 V2, we're doing kind of and we understood the Halle Berry neuron and to some extent because that's at the other end, but in between all hell broke loose and then we had didn't have a lot of ideas about what kind of features were being computed by the brain and now thanks to deep networks. We have a better idea.  okay, and this is just going through what I already went through but saying it and  different words  Okay.  soci demo says  Okay, so  Here is Gwinnett 500 5th edition, and he's widened the network.  And he's this is the input and he's like sliding it across and as he's sliding it across he's showing you what the six.  Lowest level features are doing and then this level and then this level and you know, these are not interpretable and these are the answers so it doesn't know what it is when the only part of each one is in but it's getting it right.  This is how young lacunes webpage.  and  so this is the translation one so you can see that.  So here he's got like what's being shown in this portion of the image in it. It's still responding to a four and different places in the image.  So it's doing some translation invariance.  It can deal with scale.  So this is not built into the network. So the pool and gives you some translation invariance, but scale is not built-in. It's not a prior. So it has to learn this from seeing different size numbers.  And it works for some amount of rotation and then it doesn't.  And still gets this right till it gets too far away.  It's it's  so these are things that it's relatively invariant to that's an important thing.  And it still gets the right answer for weird styles.  Here is the Canadian seven or european seven. Here's an eight made out of two circles.  Okay.  can do weirdos  here's a to made out of little circles.  Here's the three that's had too much coffee.  Paradiso for that's an outline of a for  this looks like a response to one of these guys.  And here's a weird 5 and it weird sex and again that we're date.  and  You know at some point that might say ate here, I don't remember but it's it's got the same network serve replicated from left to right. So it's got multiple answers depending on where it is in the image. So you can see it's doing pretty well at this.  That's his for that's his two again.  Here's a Ting noise still getting it, right?  Okay.  so many questions that those demos  yeah.  What?  You want to see the noisy for and the sidewalk?  But I'm sorry you can't.  Nope.  Sorry.  I'm sorry, I couldn't get the hearing test until November Flint.  There are actually very ambiguous case. It's right in the state of said where it it could be one or the other, you know, a lot of sevens could be one to tell her and  so, you know in those cases the  the network can't really do anything right? It's it's going to maybe output both numbers.  But you know, they asked the postal workers. So what do you do in cases like this and they say well we look at the city.  Okay.  Yeah, I know that seems like a good idea.  Okay.  So we saw the demo and it's not responding to me.  stopped  okay, that's stopped working.  Oh.  Stop working cuz it stopped working.  It's not responding to anything.  after the keyboard  review  try again.  No.  Okay, so  There were a lot of early successes like mnist did got really low air in him this point one 7%  0 in my book  could recognize Arabic and Chinese.  Some easier recognition benchmarks of CFR 10. Are these little teeny tiny images? I forget how big they are there like 16 by 16 or something and they have 10 categories and it did really well on that and it did really well in traffic signs.  But it wasn't so good at Caltech 101 or 256 or Caltech 101 was a chestnut dataset that people use for quite a while to Benchmark and had 101 categories and I don't know something like 50 examples for category and then 256 was the graduate student version add 256 categories.  And then Along Came kraszewski subscriber and Hinton Hinton was somewhat apologetic about this because Ian wanted to apply deep networks to this problem, but his grad students weren't interested. So Jeff's grad students were this is Alex kraszewski and Helia subscriber in that stuff hidden.  And this is called Alex net. It's actually half of it. This is 1/2 and that's I don't know why they never show a figure with both halves, but it's kind of cut off tap here. But basically you've got two identical networks that are then cross going into separate hidden layers and joining up at these separate in layers, and then there's a thousand categories.  So this had 11 by 11 patches and then 5 by 5 Max pooling.  Some more future learning etcetera in this was trained on the imagenet large scale visual recognition challenge IL RV or something like that and there's 1.2 million images in the dataset. These were collected by Faye Faye Lee at Stanford. There's more images in the imagenet dataset, but this is what's generally used. There's a thousand categories.  Okay, and now they're very happy cuz it's doing very well and Alex is very happy cuz it's named after him.  Okay, so there's 1.2 million training images 1000 categories with 702 1300 examples for class 50,000 test images large variation in the images and some fine scale categories. For example there any imagenet trained network is dog expert knows 120 different breeds of dog.  And the goal is to categorize these things into the right category in there weird category. So this is lens cap. That's probably just mislabeled right through the lens cap. I think it's hanging down there. It's really a reflex camera, but it's counted as wrong because it didn't say lens cap. So again back prop is really good at finding errors in the training set.  Abacus Slug and the next one up or not that far off in like zucchini write typewriter keyboard keyboard accordion has kind of an accordion. Look this a hen versus a cock for cocker spaniel. How did that get in there? I don't know.  There's a lot of variance in the images. So this has very little texture. This has a lot of texture.  Mugs color doesn't tell you much about whether it's a Mugger not tank. But red wine is going to be red right answer usually red or black or brown. Jigsaw puzzles. Not very shaped distinctive but a bell is the most Bells have that shape.  And real-world size hear some segments of an orange laptop for four poster bed in an airliner. So there's a big range of things in there.  And there's a lot of within category variance.  So does anybody know what this is?  Hey doggie experts.  It's not just a dog. It's Scottish deerhound. Okay, so these are all it has to take all of these and put them in the same category.  I mean compared that to amnest.  Really? I mean it's it's incredibly variable.  So why deep learning? So here's the standard computer vision approaches at the 2012 cvpr conference?  Applied to this thing. This is their error rate and they're all pretty close. And if you're just a little bit better than the previous year you get your paper and cvpr. You just have to do like that much better.  the Oxford Group Andrea Amsterdam  then comes supervision cuz it's supervised.  And okay.  Hahaha, so they were 10% better than the next guy up.  And this was shocking to computer vision people. This happened in 2012, and there were like, oh my God and you telling them for years that they were going to have to learn their features.  All these are where you know, you might take 10 different feature types that 10 different researchers figured out apply them to the image and then put a perceptron on top. So they're all hands created features with a perceptron on top the linear classifier this all the features are learned by backdrop. So backpropagation learns features in the service of the tasks.  So this is previous computer vision approaches. This is Alex net.  And then ZF net in 2013 got down to 10%. This is top 5 error. So if the right answer is in your top five outputs, then you got a point for that. So 10% is a better tuned Alex net then Googling it. It's called Google and had enough Google net an honor Beyond McCune.  And then Andre karpathy after 3 days of training got down to here.  Okay, spend three days memorizing what a Scottish deerhound look like, you know, and then resnet came along in 2015 and matched him.  In 2016, we beat Andre with a combination of inception and resnet and it keeps going like that.  so how did they do it with a lot of stuff so  Alex net had eight layers had a convolutional layer and then pulling convolution convolution convolution pooling fully connected fully connected fully connected. And so this is going to be a softmax. And again, what are these things doing? They're trying to learn features so that at this level it's linearly separable cuz that's all this can do is linearly separable problems.  So it's learning features that take these images takes all those Scottish deerhounds and sticks them in one part of the space. It's a 4096 dimensional space, but that's and you finding a hyperplane that cuts off just the Scottish deerhounds.  Okay, then Along Came BGG 19 from The Vision Group at Oxford that 19 layers.  And then Googling that around the same time with 22 layers.  And there's a lot of structure and there's like a replicated.  Kind of architecture here that's been replicated many times that why it's called Inception. If you haven't seen the movie Inception, you should see that movie. It's great. But you know, it's many layers of reality and there's many layers of the same.  The same architecture all the way through and they added these yellow things are are supervised outputs. So they added to supervise the output at this level of the networking another one at this level and another one at this level and that helped train that help the gradients to get these features to be as good as they could etcetera.  And then came resnet.  Where are the hundred fifty two layers?  And this is a network where there's a copy forward thing. So there's a one wait one connection from here to hear. This is just copied the here and then the little bit of networking here just has to learn the difference that it should learn between its input in its output because it's already it's output is already its input but it's learning to change that and  Because of these wonder One wait one connections the gradient can be passed all the way back through the network easily. So it solves this gradient problem.  So they use these things called residual connections their skip connections and white one.  subset and so between input and output of subsections the network that copy then  UC San Diego podcast. EDU "
+}
