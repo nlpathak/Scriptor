@@ -1,20 +1,51 @@
 import React, {Component} from 'react';
 import ReactList from 'react-list';
 import './_Components.css';
-import List from '@material-ui/core/List';
-import ListItem from "@material-ui/core/ListItem";
+/*
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import ListItemText from "@material-ui/core/ListItemText";
 import IconButton from "@material-ui/core/IconButton";
 import SvgIcon from '@material-ui/core/SvgIcon';
 import { withStyles } from '@material-ui/core/styles';
+*/
+import ListGroup from 'react-bootstrap/ListGroup'
+
 import starOff from './starOff.svg';
 import starOn from './starOn.svg';
 import { Link } from "react-router-dom";
 
 
 
+
+
+const list = [
+  {
+      "lecture_num": 1,
+      "date": "04/02/2019",
+      "audio_url": "https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp3",
+      "video_url": "https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp4",
+      "professor": "Hampton, Randolph Y.",
+      "quarter": "Spring 2019",
+      "course_name": "Nutrition",
+      "department": "BIBC",
+      "course_num": 120,
+      "section_id": "A00"
+  },
+  {
+      "lecture_num": 1,
+      "date": "01/08/2019",
+      "audio_url": "http://podcast-media.ucsd.edu/Podcasts/wi19/cogs9_a00_ccorforpav/cogs9_a00-01082019-1100.mp3",
+      "video_url": "http://podcast-media.ucsd.edu/Podcasts/wi19/cogs9_a00_ccorforpav/cogs9_a00-01082019-1100.mp4",
+      "professor": "Ellis, Shannon Elizabeth",
+      "quarter": "Winter 2019",
+      "course_name": "Introduction to Data Science",
+      "department": "COGS",
+      "course_num": 9,
+      "section_id": "A00"
+  },
+
+]
 
 //Hardcode data
 /*
@@ -32,22 +63,22 @@ this.props  = {
 };
 */
 
-//Change the style
-const styles = {
-    root: {
+const List = ({ list }) => (
+  <ul>
+    {list.map(item => (
+      <ListItem key={item.id} item={item} />
+    ))}
+  </ul>
+);
 
-    },
-    disabled: {},
-};
-
-//Generates list for favResult
-function generate(element) {
-    return [0, 1, 2].map(value =>
-        React.cloneElement(element, {
-            key: value
-        })
-    );
-}
+const ListItem = ({ item }) => (
+  <li>
+    <div>{item.professor}</div>
+    <div>{item.department}</div>
+    <div>{item.video_url}</div>
+    <div>{item.course_num}</div>
+  </li>
+);
 
 class FavResult extends Component {
 
@@ -65,12 +96,6 @@ class FavResult extends Component {
       relevanttext
       podlink
   */
-
-  //Initializes state as not dense
-  state = {
-    dense: false,
-  };
-
 
   formatTitle() {
       // Add department and coursenum
@@ -116,28 +141,24 @@ class FavResult extends Component {
 
   render(){
 
-      const { dense } = this.state;
       return(
           <div className='favorites'>
               <div className='header'>
                   <h1>FAVORITES</h1>
               </div>
-              <div className='FavList'>
-                  <List dense={dense}>
-                      {generate(
-                            //Hard code link
-                            <ListItem button component="a" href="https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp4">
-                                //Hard code BIBC
-                                <ListItemText primary="BIBC" />
-
-                                <ListItemSecondaryAction>
-                                    <IconButton onClick={e => this.unFavorite(e)}>
-                                          <img src={starOn} alt="" width="36" height="36" />
-                                    </IconButton>
-                                </ListItemSecondaryAction>
-                            </ListItem>
-                      )}
-                  </List>
+              <div className = 'favList'>
+                    <ul>
+                    {list.map(item => (
+                        <li className = 'favResult' key={item.audio_url}>
+                            <a href={item.video_url}>
+                                <div>{item.department + " " + item.professor }
+                                    <img onClick={e => this.unFavorite(e)}
+                                     src={starOn} alt="" width="48" height="48" />
+                                </div>
+                            </a>
+                        </li>
+                    ))}
+                    </ul>
               </div>
           </div>
         );
@@ -145,4 +166,5 @@ class FavResult extends Component {
 }
 
 
- export default withStyles(styles)(FavResult);
+
+ export default FavResult;
