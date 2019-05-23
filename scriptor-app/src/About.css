@@ -1,0 +1,89 @@
+.about {
+	padding: 20px;
+	width: 100%;
+}
+
+.about h1 {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	color:rgba(72,136,163,.93);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	font-size: 40px;
+	cursor: default;
+}
+
+.about h3 {
+	font-size: 22px;
+	cursor: default;
+	}
+
+.about h2 {
+	font-size: 30px;
+	cursor: default;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.about .team {
+	text-align: center;
+	clear: both;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.about .teamList {
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.about .statement {
+	padding-left: 20px;
+	float: left;
+	width: 48%;
+	cursor: default;
+}
+
+.about p {
+	font-size: 17px;
+}
+
+.about .personDesc {
+	padding-top: 5%;	
+}
+
+.about .groupPhoto {
+	float: right;
+	padding-right: 20px;
+	width: 48%;
+	cursor: default;
+	clear: none;
+}
+
+.about .person {
+	display: inline-block;
+	width: 20%;
+	margin-right: 5%;
+	margin-left: 5%;
+	border: 1px solid #ccc;
+}
+
+.about .person2 {
+	display: inline-block;
+	width: 20%;
+	margin-right: 2.25%;
+	margin-left: 2.15%;
+	border: 1px solid #ddd;
+}
+
+.about .person3 {
+	display: inline-block;
+	width: 20%;
+	margin-right: 2.25%;
+	margin-left: 2.15%;
+	border: 1px solid #ddd;
+
+}
