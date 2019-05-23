@@ -32,8 +32,8 @@ class HistoryItem(InnerDoc):
             params.update({"q": self.search_query})
             return url_for("search.search_podcasts", **params)
         else:
-            return url_for("podcasts.get_podcast_snippet",
-                           transcription_blob_id=self.podcast_page_transcription_blob_id)
+            return url_for("podcasts.get_podcast_blob",
+                           blob_id=self.podcast_page_transcription_blob_id)
 
     @property
     def title(self):

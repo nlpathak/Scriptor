@@ -32,7 +32,7 @@ class PodcastTranscriptionBlob(Document):
         name = "podcast_transription_blobs"
 
     def get_snippet_url(self):
-        return url_for("podcasts.get_podcast_snippet", transcription_blob_id=self.meta.id)
+        return url_for("podcasts.get_podcast_blob", blob_id=self.meta.id)
 
     @property
     def podcast(self):

@@ -54,18 +54,18 @@ def test_podcasts():
         blob.delete()
 
 
-def test_get_podcast_snippet(client, test_podcasts):
+def test_get_podcast_blob(client, test_podcasts):
     test_podcasts, test_blobs = test_podcasts
     test_blob = test_blobs[0]
     test_blob_id = test_blob.meta.id
 
-    response = client.get(f"/api/podcasts/snippets/{test_blob_id}/")
+    response = client.get(f"/api/podcasts/blobs/{test_blob_id}/")
     res = response.get_json()
 
     assert 200 == response.status_code
     assert res['success']
     assert res['podcast']
-    assert res['transcription_blob']
+    assert res['podcast_blob']
 
 
 def test_get_podcast(client, test_podcasts):

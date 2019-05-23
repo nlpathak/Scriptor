@@ -124,7 +124,7 @@ def test_authorization(test_user, client):
     (test_user_email, _, auth_token) = test_user
 
     # Test if authentication works
-    response = client.get("/", headers={"Authorization": f"Bearer {auth_token}"})
+    response = client.get("/api/user/me/", headers={"Authorization": f"Bearer {auth_token}"})
     res = response.get_json()
 
     assert 200 == response.status_code
