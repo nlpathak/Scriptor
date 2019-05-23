@@ -47,6 +47,7 @@ class APIClient {
         });
     }
 
+    // Implemented
     login(email, password) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/login/", {
@@ -65,10 +66,12 @@ class APIClient {
         });
     }
 
+    // Implemented
     logout() {
         this.clearAuthToken();
     }
 
+    // Implemented
     register(email, password) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/register/", {
@@ -87,6 +90,7 @@ class APIClient {
         });
     }
 
+    // Implemented
     changePassword(existingPassword, newPassword) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/change_password/", {
@@ -180,6 +184,7 @@ class APIClient {
 
 
     /** Search-based functions **/
+    // Implemented unfiltered search to toast
     searchPodcasts(text_query, filters = {}) {
         var url_query = filters;
         url_query.q = text_query;

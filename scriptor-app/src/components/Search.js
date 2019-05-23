@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './_Components.css';
+import { toast } from 'react-toastify';
+import APIClient from '../api/APIClient.js';
 
 class Search extends Component {
     state = {
@@ -26,12 +28,25 @@ class Search extends Component {
 
     onSubmit(e) {
         e.preventDefault();
-        console.log(this.state);
+        if(this.state.query.length === 0) {
+            return;
+        }
+        APIClient.searchPodcasts(this.state.query).then(response => {
+            response.forEach(function(element) {
+                console.log(element);
+                APIClient.getPodcastMetadata(element.podcast_id).then(back => {
+                    toast(back.department + ' ' + back.course_num + ' - ' + element.transcription_blob, {className: 'popup'});
+                });
+              });
+        }).catch(e => {
+            console.log(e);
+        });
     }
     
     handleEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
+            toast("Press the Search Button", {className: 'popup'});
          }
     }
     

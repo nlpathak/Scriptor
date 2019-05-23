@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { toast } from 'react-toastify';
+import APIClient from "../api/APIClient";
 import './_Components.css';
 
 class Signup extends Component {
@@ -16,13 +17,17 @@ class Signup extends Component {
     onSubmit(e) {
         e.preventDefault();
         if(this.state.pass !== this.state.verify) {
-            //@David
-        } else {
-            toast("Welcome to Scriptor", {
-                className: 'popup'
-            });
-            console.log(this.state);
+            // @David
+            toast.error("Passwords Don't Match");
+            return;
         }
+        APIClient.register(this.state.email, this.state.pass).then((authToken) => {
+            toast("Welcome to Scriptor", {className: 'popup'});
+            window.location.reload();
+        }).catch(e => {
+          toast.error("Account Already Exists");
+          // @David
+        });
     }
 
     render(){

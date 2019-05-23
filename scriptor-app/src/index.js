@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { toast } from 'react-toastify';
 
 toast.configure({
-    autoClose: 5000,
+    autoClose: 500000,
     draggable: false,
     closeButton: false,
     draggablePercent: 100,

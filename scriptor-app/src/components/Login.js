@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { toast } from 'react-toastify';
 import './_Components.css';
+import APIClient from "../api/APIClient.js";
 
 class Login extends Component {
     state = {
@@ -14,14 +15,13 @@ class Login extends Component {
 
     onSubmit(e) {
         e.preventDefault();
-        if(false) {
-            //@David
-        } else {
-            toast("Welcome Back", {
-                className: 'popup'
-            });
-        }
-        console.log(this.state);
+        APIClient.login(this.state.email, this.state.pass).then((authToken) => {
+            toast("Welcome Back", {className: 'popup'});
+            window.location.reload();
+        }).catch(e => {
+            toast.error("Invalid Username or Password");
+            // @David
+        });
     }
     render(){
         return(

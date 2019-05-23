@@ -3,8 +3,8 @@ import Popup from 'reactjs-popup';
 import Signup from './Signup.js';
 import Login from './Login.js';
 import './_Components.css';
-
 import APIClient from "../api/APIClient.js";
+import { toast } from 'react-toastify';
 
 
 class Navbar extends Component {
@@ -13,12 +13,16 @@ class Navbar extends Component {
         window.location.assign(route);
     }
 
+    logout(e) {
+        e.preventDefault();
+        console.log('done');
+        APIClient.logout();
+        toast("Logged Out", {className: 'popup'});
+        window.location.reload();
+    }
+
     render(){
         // Render login navbar based on login
-
-        // TODO: Instead of the below line:
-        // const loggedin = this.props.loggedin;
-        // I think we should use the following line
         const loggedin = APIClient.isCurrentUserLoggedIn();
 
         let logout_buttons =
@@ -53,7 +57,7 @@ class Navbar extends Component {
                     <button onClick={e => this.redirect(e, '/user')}>HISTORY</button>
                     <button onClick={e => this.redirect(e, '/user')}>FAVORITES</button>
                     <button onClick={e => this.redirect(e, '/user')}>SETTINGS</button>
-                    <button>LOG OUT</button>
+                    <button onClick={e => this.logout(e)}>LOG OUT</button>
                 </div>
                 </Popup>
                 <li><button onClick={e => this.redirect(e, '/about')}>ABOUT</button></li>
