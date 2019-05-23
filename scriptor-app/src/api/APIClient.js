@@ -1,7 +1,5 @@
 import querystring from "./utils";
 
-let BASE_URL = "http://localhost:5000";
-
 class APIClient {
     constructor() {
         this.state = {
@@ -29,9 +27,9 @@ class APIClient {
 
     _getRequestHeaders() {
         if (!this.isCurrentUserLoggedIn())
-            return {};
+            return {'Content-Type': 'application/json'};
         else
-            return {"Authorization": "Bearer " + this.getAuthToken()}
+            return {"Authorization": "Bearer " + this.getAuthToken(), 'Content-Type': 'application/json'}
     }
 
     /** User-based functions **/
@@ -40,7 +38,7 @@ class APIClient {
             return null;
 
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/me/", {headers: this._getRequestHeaders()}).then(response => response.json()).then((response) => {
+            fetch("/api/user/me/", {headers: this._getRequestHeaders()}).then(response => response.json()).then((response) => {
                 if (response.success)
                     resolve(response.current_user);
                 else
@@ -51,10 +49,10 @@ class APIClient {
 
     login(email, password) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/login/", {
+            fetch("/api/user/login/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
-                body: {"email": email, "password": password}
+                body: JSON.stringify({"email": email, "password": password})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
@@ -73,10 +71,10 @@ class APIClient {
 
     register(email, password) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/register/", {
+            fetch("/api/user/register/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
-                body: {"email": email, "password": password}
+                body: JSON.stringify({"email": email, "password": password})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
@@ -91,10 +89,10 @@ class APIClient {
 
     changePassword(existingPassword, newPassword) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/change_password/", {
+            fetch("/api/user/change_password/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
-                body: {"existing_password": existingPassword, "new_password": newPassword}
+                body: JSON.stringify({"existing_password": existingPassword, "new_password": newPassword})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
@@ -108,7 +106,7 @@ class APIClient {
 
     addFavoritePodcastById(podcastId) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/favorite_podcasts/" + podcastId + "/add/", {
+            fetch("/api/user/favorite_podcasts/" + podcastId + "/add/", {
                 method: 'POST',
                 headers: this._getRequestHeaders()
             }).then(response => response.json())
@@ -124,7 +122,7 @@ class APIClient {
 
     removeFavoritePodcastById(podcastId) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/favorite_podcasts/" + podcastId + "/remove/", {
+            fetch("/api/user/favorite_podcasts/" + podcastId + "/remove/", {
                 method: 'DELETE',
                 headers: this._getRequestHeaders()
             }).then(response => response.json())
@@ -140,7 +138,7 @@ class APIClient {
 
     getFavoritePodcasts() {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/favorite_podcasts/", {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/user/favorite_podcasts/", {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve(response.favorite_podcasts);
@@ -153,7 +151,7 @@ class APIClient {
 
     getHistory() {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/history/", {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/user/history/", {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve(response.history);
@@ -166,7 +164,7 @@ class APIClient {
 
     clearHistory() {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/user/history/clear/", {
+            fetch("/api/user/history/clear/", {
                 method: "DELETE",
                 headers: this._getRequestHeaders()
             }).then(response => response.json())
@@ -187,7 +185,7 @@ class APIClient {
         url_query.q = text_query;
         var queryString = querystring(url_query);
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/search/podcasts/" + queryString, {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/search/podcasts/" + queryString, {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve(response.results);
@@ -201,7 +199,7 @@ class APIClient {
     /** Podcast-based functions **/
     getPodcastSnippet(blobId) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/podcasts/blobs/" + blobId + "/", {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/podcasts/blobs/" + blobId + "/", {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve({podcast: response.podcast, podcast_blob: response.podcast_blob});
@@ -214,7 +212,7 @@ class APIClient {
 
     getPodcastMetadata(podcastId) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/podcasts/" + podcastId + "/", {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/podcasts/" + podcastId + "/", {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve(response.podcast);
@@ -227,7 +225,7 @@ class APIClient {
 
     getPodcastTranscript(podcastId) {
         return new Promise((resolve, reject) => {
-            fetch(BASE_URL + "/api/podcasts/" + podcastId + "/transcript/", {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/podcasts/" + podcastId + "/transcript/", {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve(response.full_transcript);
@@ -237,8 +235,6 @@ class APIClient {
                 })
         });
     }
-
-
 }
 
 export default new APIClient();
