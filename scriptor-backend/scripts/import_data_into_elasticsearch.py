@@ -33,7 +33,7 @@ def import_podcast_transcription_file(podcast_metadata, transcription_data):
 
     podcast = Podcast(title=podcast_metadata['course_name'], lecture_num=lecture_num, date=date,
                       department=podcast_metadata['department'],
-                      course_num=podcast_metadata['course_num'],
+                      course_num=str(podcast_metadata['course_num']),
                       quarter=podcast_metadata['quarter'],
                       ucsd_podcast_video_url=podcast_video_url, ucsd_podcast_audio_url=podcast_audio_url,
                       professor=podcast_metadata['professor'], section_id=podcast_metadata['section_id'],
@@ -49,7 +49,7 @@ def import_podcast_transcription_file(podcast_metadata, transcription_data):
                                                               ending_timestamp_second=end_time, blob_index=blurb_index,
                                                               lecture_num=lecture_num,
                                                               department=podcast_metadata['department'],
-                                                              course_num=podcast_metadata['course_num'],
+                                                              course_num=str(podcast_metadata['course_num']),
                                                               quarter=podcast_metadata['quarter'],
                                                               professor=podcast_metadata['professor'],
                                                               section_id=podcast_metadata['section_id'], date=date)

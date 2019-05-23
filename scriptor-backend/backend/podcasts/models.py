@@ -15,7 +15,7 @@ class Podcast(Document):
 
     # Some course metadata
     department = Text()
-    course_num = Integer()
+    course_num = Text()
     quarter = Text()
     professor = Text()
     section_id = Text()

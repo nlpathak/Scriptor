@@ -8,6 +8,8 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
+from scripts.utils import make_directory_safe_foldername
+
 PODCAST_AUDIO_VERSION = 0
 PODCAST_VIDEO_VERSION = 1
 
@@ -20,8 +22,22 @@ class NoPodcastAudioError(Exception):
     pass
 
 
+def get_lecture_numbers(course_podcast_website):
+    lecture_nums = []
+
+    result = requests.get(course_podcast_website, params={"v": PODCAST_AUDIO_VERSION})
+    content = result.content
+
+    soup = BeautifulSoup(content, features="html.parser")
+    for lecture_div in soup.find_all("div", class_="lecture"):
+        lecture_num = furl.furl(lecture_div.a.get("href")).args.get("l", None)
+        if lecture_num is not None:
+            lecture_nums.append(int(lecture_num))
+
+    return lecture_nums
+
 def extract_podcast_data(podcast_num, course_podcast_url):
-    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_AUDIO_VERSION}, verify=False)
+    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_AUDIO_VERSION})
     content = result.content
 
     soup = BeautifulSoup(content, features="html.parser")
@@ -47,7 +63,7 @@ def extract_podcast_data(podcast_num, course_podcast_url):
         raise NoPodcastAudioError()
 
     # Extract the video URL
-    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_VIDEO_VERSION}, verify=False)
+    result = requests.get(course_podcast_url, params={"l": podcast_num, "v": PODCAST_VIDEO_VERSION})
     content = result.content
     soup = BeautifulSoup(content, features="html.parser")
 
@@ -69,7 +85,9 @@ def extract_podcast_data(podcast_num, course_podcast_url):
 def download_podcast_data(course_podcast_website_url, course_name, department, course_num, section_id):
     f = furl.furl(course_podcast_website_url)
     f.remove(['l', 'v'])
+
     course_podcast_website_url = f.url
+    lecture_nums = get_lecture_numbers(course_podcast_website_url)
 
     podcast_course_metadata = {
         "course_name": course_name,
@@ -80,22 +98,16 @@ def download_podcast_data(course_podcast_website_url, course_name, department, c
 
     course_podcasts = []
 
-    current_podcast_num = 0
-
     print("Scraping podcast metadata...")
 
-    while True:
-        current_podcast_num += 1
+    for podcast_lecture_num in lecture_nums:
         try:
-            podcast_data = extract_podcast_data(current_podcast_num, course_podcast_website_url)
+            podcast_data = extract_podcast_data(podcast_lecture_num, course_podcast_website_url)
             podcast_data.update(podcast_course_metadata)
             course_podcasts.append(podcast_data)
         except NoPodcastAudioError:
             # This podcast has no audio, so skip to the next one
             continue
-        except InvalidPodcastError:
-            # We've reached the end of the list of podcasts for this course
-            break
 
     if not course_podcasts:
         print("No podcasts found.")
@@ -106,7 +118,8 @@ def download_podcast_data(course_podcast_website_url, course_name, department, c
 
     # Download audio files for this list of course podcasts
     course_podcast_dir = os.path.join("./fixtures", "podcasts",
-                                      f"{course_name} - {section_id} - {professor} - {quarter}")
+                                      make_directory_safe_foldername(
+                                          f"{course_name} - {section_id} - {professor} - {quarter}"))
     os.makedirs(course_podcast_dir)
 
     course_podcast_audio_dir = os.path.join(course_podcast_dir, "audios")
@@ -136,7 +149,7 @@ if __name__ == "__main__":
         course_podcast_website_url = input("course podcast website URL: ").strip()
         course_name = input("course name: ").strip()
         department = input("department (e.g. CSE, MAE, etc.): ").strip()
-        course_num = int(input("course num: ").strip())
+        course_num = input("course num: ").strip()
         section_id = input("section id: ").strip()
 
         print("\n")
