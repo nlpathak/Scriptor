@@ -124,6 +124,21 @@ class APIClient {
         });
     }
 
+    checkFavoritePodcast(podcastId) {
+        return new Promise((resolve, reject) => {
+            fetch("/api/user/favorite_podcasts/" + podcastId + "/check/", {
+                headers: this._getRequestHeaders()
+            }).then(response => response.json())
+                .then((response) => {
+                    if (response.success) {
+                        resolve(response.has_favorited_podcast);
+                    } else {
+                        reject(response.error);
+                    }
+                })
+        });
+    }
+
     removeFavoritePodcastById(podcastId) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/favorite_podcasts/" + podcastId + "/remove/", {

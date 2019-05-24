@@ -26,9 +26,8 @@ def get_podcast_transcript(podcast_id):
     full_transcript = Podcast.get(id=podcast_id).full_transcript
     return jsonify(success=True, full_transcript=full_transcript)
 
+
 @podcasts_blueprint.route("/<string:podcast_id>/")
 def get_podcast(podcast_id):
     podcast = Podcast.get(id=podcast_id).to_dict()
     return jsonify(success=True, podcast=podcast)
-
-

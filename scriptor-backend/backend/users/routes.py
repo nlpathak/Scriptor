@@ -145,6 +145,12 @@ def user_change_password():
         return jsonify(success=False, error=str(e)), 400
 
 
+@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/check/")
+@login_required
+def user_check_favorite_podcast(podcast_id):
+    has_favorited_podcast = g.current_user.has_favorited_podcast(podcast_id)
+    return jsonify(success=True, has_favorited_podcast=has_favorited_podcast)
+
 @users_blueprint.route("/favorite_podcasts/<string:podcast_id>/add/", methods=['POST'])
 @login_required
 def user_add_favorite_podcast(podcast_id):

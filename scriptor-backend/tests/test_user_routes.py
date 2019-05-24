@@ -204,16 +204,34 @@ def test_user_favorite_podcasts(test_user, test_podcasts, client):
     assert res["success"]
     assert len(test_podcasts) == len(res["favorite_podcasts"])
 
+    # Check that the "user_check_favorite_podcast" API endpoint works
+    for test_podcast in test_podcasts:
+        response = client.get(f"/api/user/favorite_podcasts/{test_podcast.meta.id}/check/",
+                              headers={"Authorization": f"Bearer {auth_token}"})
+        res = response.get_json()
+        assert 200 == response.status_code
+        assert res["success"]
+        assert res["has_favorited_podcast"]
+
     # Delete some favorite podcasts
     fav_podcasts_to_delete = test_podcasts[:1]
     for podcast in fav_podcasts_to_delete:
-        response = client.delete(f"/api/user/favorite_podcasts/{test_podcast.meta.id}/remove/",
+        response = client.delete(f"/api/user/favorite_podcasts/{podcast.meta.id}/remove/",
                                  headers={"Authorization": f"Bearer {auth_token}"})
         res = response.get_json()
         assert 200 == response.status_code
         assert res["success"]
 
     time.sleep(1)
+
+    # Check that the "user_check_favorite_podcast" API endpoint works
+    for test_podcast in test_podcasts:
+        response = client.get(f"/api/user/favorite_podcasts/{test_podcast.meta.id}/check/",
+                              headers={"Authorization": f"Bearer {auth_token}"})
+        res = response.get_json()
+        assert 200 == response.status_code
+        assert res["success"]
+        assert (test_podcast in fav_podcasts_to_delete) != res["has_favorited_podcast"]
 
     # Check that the user's list of favorite podcasts has now been updated
     response = client.get("/api/user/favorite_podcasts/", headers={"Authorization": f"Bearer {auth_token}"})

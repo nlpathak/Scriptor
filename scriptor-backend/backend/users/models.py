@@ -70,6 +70,9 @@ class User(Document):
         except:
             return []
 
+    def has_favorited_podcast(self, podcast_id):
+        return podcast_id in self.favorite_podcast_ids
+
     @classmethod
     def register_new_user(cls, email, password):
         """
