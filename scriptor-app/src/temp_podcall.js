@@ -9,7 +9,7 @@ function temp_podcall() {
         coursenum='101'
         coursename="Design and Analysis of Algorithm"
         section='A00'
-        professor='Miles Jones the Great'
+        professor='Miles Jones'
         lecturenum='12'
         videolink='http://techslides.com/demos/sample-videos/small.mp4'
         starttime='2'

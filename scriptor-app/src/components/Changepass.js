@@ -19,7 +19,7 @@ class Changepass extends Component {
         e.preventDefault();
         if(this.state.newpass !== this.state.verify) {
             // @David
-            toast.error("New Passwords Don't Match");
+            toast("New Passwords Don't Match", {className: 'popup error'});
             return;
         }
         APIClient.changePassword(this.state.oldpass, this.state.newpass).then((authToken) => {
@@ -28,7 +28,7 @@ class Changepass extends Component {
             this.setState({newpass: ''});
             this.setState({verify: ''});
         }).catch(e => {
-          toast.error("Invalid Old Password");
+            toast("Invalid Old Password", {className: 'popup error'});
           // @David
         }); 
 

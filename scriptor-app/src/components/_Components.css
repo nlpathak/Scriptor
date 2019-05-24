@@ -311,11 +311,17 @@ button:focus {
     text-decoration: underline;
 }
 
+
+/*** Toast ***/
 .popup {
     background:rgba(72,136,163,.93) !important;
-    font-family: Heiti SC, sans-serif !important;
+    font-family: Raleway, sans-serif !important;
     color: rgba(255,255,255,1) !important;
     border-radius: 10px !important;
     font-size: 20px !important;
     text-align: center !important;
-  }
+
+
+.error {
+    background:rgba(207, 70, 70, 0.93) !important;
+}

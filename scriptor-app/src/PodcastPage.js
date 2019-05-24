@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import './PodcastPage.css';
+import APIClient from './api/APIClient.js';
 
 class PodcastPage extends Component {
     /*
@@ -58,9 +59,11 @@ class PodcastPage extends Component {
 
     onSubmit(e) {
         e.preventDefault();
-        toast("Favorited", {
-            className: 'popup'
-        });
+        if(APIClient.isCurrentUserLoggedIn()) {
+            toast("Favorited", {className: 'popup'});
+        } else {
+            toast("Log In to Favorite", {className: 'popup error'});
+        }
     }
 
     render(){

@@ -1,14 +1,13 @@
 import React from 'react';
-import Changepass from './components/Changepass.js'
-import APIClient from './api/APIClient';
-import './User.css';
+import APIClient from './api/APIClient.js';
+import './History.css';
 
-function User() {
+function History() {
   const loggedin = APIClient.isCurrentUserLoggedIn();
   if(loggedin) {
     return (
       <div>
-            <Changepass />
+        History page not implemented.
       </div>
     );
   } else {
@@ -16,4 +15,4 @@ function User() {
   }
 }
 
-export default User;
+export default History;

@@ -18,14 +18,13 @@ class Signup extends Component {
         e.preventDefault();
         if(this.state.pass !== this.state.verify) {
             // @David
-            toast.error("Passwords Don't Match");
+            toast("Passwords Don't Match", {className: 'popup error'});
             return;
         }
         APIClient.register(this.state.email, this.state.pass).then((authToken) => {
-            toast("Welcome to Scriptor", {className: 'popup'});
             window.location.reload();
         }).catch(e => {
-          toast.error("Account Already Exists");
+          toast("Account Already Exists", {className: 'popup error'});
           // @David
         });
     }
