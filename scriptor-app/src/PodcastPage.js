@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import './PodcastPage.css';
 import APIClient from './api/APIClient.js';
 

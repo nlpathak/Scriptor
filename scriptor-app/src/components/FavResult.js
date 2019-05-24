@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
-import ReactList from 'react-list';
 import './_Components.css';
-import ListGroup from 'react-bootstrap/ListGroup'
 import starOff from './starOff.svg';
 import starOn from './starOn.svg';
-import { Link } from "react-router-dom";
 //Hard coded fav data
 import { course_podcasts } from "./favData.json"
 
