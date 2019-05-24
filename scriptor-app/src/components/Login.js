@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { toast } from 'react-toastify';
 import './_Components.css';
 import APIClient from "../api/APIClient.js";
 
@@ -15,13 +14,39 @@ class Login extends Component {
 
     onSubmit(e) {
         e.preventDefault();
+        document.getElementById('emailLogin').style.color = "rgba(0,0,0,.65)";
+        document.getElementById('emailLoginError').style.color = "rgba(0,0,0,.65)";
+        document.getElementById('emailLoginError').innerHTML = "";
+        document.getElementById('invalidLogin').style.color = "rgba(0,0,0,.65)";
+        document.getElementById('invalidLoginError').style.color = "rgba(0,0,0,.65)";
+        document.getElementById('invalidLoginError').innerHTML = "";
+        document.getElementById('titulo').style.marginTop = "75px";
+        document.getElementById('loginConfirm').style.marginTop = "75px";
+
+        if(!this.validateEmail(this.state.email)) {
+            document.getElementById('emailLogin').style.color = "rgba(207, 70, 70, 0.93)";
+            document.getElementById('emailLoginError').style.color = "rgba(207, 70, 70, 0.93)";
+            document.getElementById('emailLoginError').innerHTML = "Please enter a valid email.";
+            document.getElementById('titulo').style.marginTop = "35px";
+            return;
+          }
+
         APIClient.login(this.state.email, this.state.pass).then((authToken) => {
             window.location.reload();
         }).catch(e => {
-            toast("Invalid Username or Password", {className: 'popup error'});
+            document.getElementById('invalidLogin').style.color = "rgba(207, 70, 70, 0.93)";
+            document.getElementById('invalidLoginError').style.color = "rgba(207, 70, 70, 0.93)";
+            document.getElementById('invalidLoginError').innerHTML = "Invalid username or password.";
+            document.getElementById('loginConfirm').style.marginTop = "35px";
             // @David
         });
     }
+
+    validateEmail(email) {
+        var re = /\S+@\S+\.\S+/;
+        return re.test(email);
+    }
+
     render(){
         return(
             <div className='navpop'>
@@ -32,7 +57,7 @@ class Login extends Component {
                 </div>
 
                 <form className='col-xs-1 text-center navform'>
-                    <div className='field'>
+                    <div className='field' id='emailLogin'>
                         <p>Email</p>
                         <br></br>
                         <input 
@@ -41,10 +66,11 @@ class Login extends Component {
                         name = 'email'
                         value = {this.state.email} 
                         onChange={e => this.change(e)} />
+                        <p id='emailLoginError'></p>
                     </div>
 
-                    <div className='field'>
-                        <p>Password</p>
+                    <div className='field' id='invalidLogin'>
+                        <p style={{marginTop: '75px'}} id='titulo'>Password</p>
                         <br></br>
                         <input 
                         type = 'password'
@@ -52,9 +78,10 @@ class Login extends Component {
                         name = 'pass'
                         value = {this.state.pass} 
                         onChange={e => this.change(e)} />
+                        <p id='invalidLoginError'></p>
                     </div>
 
-                    <button className='center' onClick={e => this.onSubmit(e)}>LOG IN</button>
+                    <button id='loginConfirm' className='center' onClick={e => this.onSubmit(e)}>LOG IN</button>
                 </form> 
                 <a href='/forgotpass'>Forgot your password?</a>
             </div>
