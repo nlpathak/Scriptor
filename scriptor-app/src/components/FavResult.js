@@ -1,145 +1,68 @@
 import React, {Component} from 'react';
 import ReactList from 'react-list';
 import './_Components.css';
-/*
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
-import ListItemText from "@material-ui/core/ListItemText";
-import IconButton from "@material-ui/core/IconButton";
-import SvgIcon from '@material-ui/core/SvgIcon';
-import { withStyles } from '@material-ui/core/styles';
-*/
 import ListGroup from 'react-bootstrap/ListGroup'
-
 import starOff from './starOff.svg';
 import starOn from './starOn.svg';
 import { Link } from "react-router-dom";
+//Hard coded fav data
+import { course_podcasts } from "./favData.json"
 
 
-
-
-
-const list = [
-  {
-      "lecture_num": 1,
-      "date": "04/02/2019",
-      "audio_url": "https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp3",
-      "video_url": "https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp4",
-      "professor": "Hampton, Randolph Y.",
-      "quarter": "Spring 2019",
-      "course_name": "Nutrition",
-      "department": "BIBC",
-      "course_num": 120,
-      "section_id": "A00"
-  },
-  {
-      "lecture_num": 1,
-      "date": "01/08/2019",
-      "audio_url": "http://podcast-media.ucsd.edu/Podcasts/wi19/cogs9_a00_ccorforpav/cogs9_a00-01082019-1100.mp3",
-      "video_url": "http://podcast-media.ucsd.edu/Podcasts/wi19/cogs9_a00_ccorforpav/cogs9_a00-01082019-1100.mp4",
-      "professor": "Ellis, Shannon Elizabeth",
-      "quarter": "Winter 2019",
-      "course_name": "Introduction to Data Science",
-      "department": "COGS",
-      "course_num": 9,
-      "section_id": "A00"
-  },
-
-]
-
-//Hardcode data
-/*
-this.props  = {
-    "lecture_num": 1,
-    "date": "04/02/2019",
-    "audio_url": "https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp3",
-    "video_url": "https://podcast.ucsd.edu/Podcasts//sp19/bibc120_a00_q9av2ugvff/bibc120_a00-04022019-1400.mp4",
-    "professor": "Hampton, Randolph Y.",
-    "quarter": "Spring 2019",
-    "course_name": "Nutrition",
-    "department": "BIBC",
-    "course_num": 120,
-    "section_id": "A00"
-};
-*/
-
-const List = ({ list }) => (
-  <ul>
-    {list.map(item => (
-      <ListItem key={item.id} item={item} />
-    ))}
-  </ul>
+var podcasts = course_podcasts.map((item, index) =>
+    <div key={index}>
+        {1}
+    </div>
 );
 
-const ListItem = ({ item }) => (
-  <li>
-    <div>{item.professor}</div>
-    <div>{item.department}</div>
-    <div>{item.video_url}</div>
-    <div>{item.course_num}</div>
-  </li>
-);
 
 class FavResult extends Component {
 
-  /*
-  Requires props:
-      department
-      coursenum
-      coursename
-      section
-      professor
-      lecturenum
+    toggleFav (e, index) {
+      e.preventDefault();
+      alert("Unfavorite test")
+      podcasts[index] = podcasts[index] ? 0 : 1;
+    }
 
-      videolink
-      startime
-      relevanttext
-      podlink
-  */
-
-  formatTitle() {
+   formatTitle(item) {
       // Add department and coursenum
-      let fulltitle = this.props.department + ' ' + this.props.coursenum;
+      let fulltitle = item.department + ' ' + item.course_num;
 
       // Add truncated coursename
-      var coursename = this.props.coursename;
+      var coursename = item.course_name;
       if(coursename.length > 25) {
           coursename = coursename.substring(0,25) + '...';
       }
       fulltitle += ' - ' + coursename;
 
       // Add section id
-      fulltitle += ' [' + this.props.section + ']';
+      var quarter = item.quarter;
+      quarter = quarter.substring(0, 2).toUpperCase() + quarter.substring(quarter.length - 2, quarter.length);
+      fulltitle += ' [' + item.section_id + '-' + quarter + ']';
 
       // Add truncated professor
-      var professor = this.props.professor;
-      if(professor.length > 12) {
-          professor = professor.substring(0,12) + '...';
+      var professor = item.professor;
+      if(professor.length > 25) {
+          professor = professor.substring(0,25) + '...';
       }
+      // Swaps first and last name
+      professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
+                  professor.substring(0, professor.indexOf(','))
       fulltitle += ' | ' + professor;
 
       // Add lecturenum
-      fulltitle += ' | Lecture ' + this.props.lecturenum;
+      fulltitle += ' | Lecture ' + item.lecture_num;
 
       return fulltitle;
   }
 
-  formatVideoLink() {
-      return (this.props.videolink + '#t=' + this.props.starttime);
-  }
-
-  unFavorite(e){
-      e.preventDefault();
-      alert('UNFAVORITE TEST');
-
-  }
-
-  renderItem(index, key) {
-      return <div key={key}>{'CSE'}</div>;
+  formatVideoLink(item) {
+      return (item.videolink + '#t=' + item.starttime);
   }
 
 
   render(){
+
 
       return(
           <div className='favorites'>
@@ -148,12 +71,13 @@ class FavResult extends Component {
               </div>
               <div className = 'favList'>
                     <ul>
-                    {list.map(item => (
-                        <li className = 'favResult' key={item.audio_url}>
+                    {course_podcasts.map((item, index)  => (
+                        <li className = 'favResult' key={index}>
                             <a href={item.video_url}>
-                                <div>{item.department + " " + item.professor }
-                                    <img onClick={e => this.unFavorite(e)}
-                                     src={starOn} alt="" width="48" height="48" />
+                                <div>{this.formatTitle(item)    }
+                                    <img onClick={e => this.toggleFav(e, index)}
+                                    src={podcasts[index] ? starOn : starOff}
+                                    alt="" width="48" height="48"/>
                                 </div>
                             </a>
                         </li>
