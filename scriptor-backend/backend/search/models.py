@@ -20,7 +20,7 @@ class PodcastTranscriptionBlob(Document):
 
     # Filters that the user can search against
     department = Text()
-    course_num = Integer()
+    course_num = Text()
     quarter = Text()
     professor = Text()
     section_id = Text()

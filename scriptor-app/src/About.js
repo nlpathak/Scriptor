@@ -22,73 +22,73 @@ function About() {
 		
 	  <div className='teamList'>
 	  	<div className='person'>
-	  	<p className='personDesc'>Shuusei Yoshida</p>
+	  	<p className='personDesc'>David Febles</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p className='personDesc'>UI Specialist</p>
+	  	<p className='personDesc'>Project Manager</p>
 	  	</div>
 
 		<div className='person'>
-	  	<p className='personDesc'>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Amithab Arumugam</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p className='personDesc'>UI Specialist</p>
+	  	<p className='personDesc'>Software Development Lead</p>
 	  	</div>
 
 		<div className='person'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Kelvin Chan</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Senior System Analyst</p>
 	  	</div>
 
 		<div className='person2'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Somsubhro Dhar</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Business Analyst</p>
 	  	</div>
 
 		<div className='person2'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Raghavan Kope</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Database Specialist</p>
 	  	</div>
 	  	
 	  	<div className='person2'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Sabeel Mansuri</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>UI Specialist</p>
 	  	</div>
 
 	  	<div className='person2'> 
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Pranav Narasimmaraj</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Algorithm Specialist</p>
 	  	</div>
 
 	  	<div className='person3'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Nikhil Pathak</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Software Development Lead</p>
 	  	</div>
 	  	
 	  	<div className='person3'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Subhash Ramesh</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Software Architect</p>
 	  	</div>
 
 	  	<div className='person3'>
-	  	<p>Shuusei Yoshida</p>
+	  	<p className='personDesc'>Ayush Shukla</p>
 	  	<img src="https://user-images.githubusercontent.com/36279762/58230298-cf149400-7ce8-11e9-8874-99f97d7e6e5d.png"	
 	  		style={{width: '100%'}}/>
-	  	<p>UI Specialist</p>
+	  	<p className='personDesc'>Quality Assurance Lead</p>
 	  	</div>
 
 	  	<div className='person3'>
