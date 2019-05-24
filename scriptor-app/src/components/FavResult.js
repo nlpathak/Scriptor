@@ -8,17 +8,27 @@ import { course_podcasts } from "./favData.json"
 
 var podcasts = course_podcasts.map((item, index) =>
     <div key={index}>
-        {1}
+        {0}
     </div>
 );
 
 
 class FavResult extends Component {
 
-    toggleFav (e, index) {
+    constructor(props) {
+      super(props);
+      this.state = {isFav : course_podcasts.map((element) => true)};
+      this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(e, index) {
       e.preventDefault();
-      alert("Unfavorite test")
-      podcasts[index] = podcasts[index] ? 0 : 1;
+
+      const newFav = [...this.state.isFav]
+      newFav[index] = !this.state.isFav[index]
+      this.setState(state => ({
+        isFav: newFav
+      }));
     }
 
    formatTitle(item) {
@@ -57,6 +67,12 @@ class FavResult extends Component {
       return (item.videolink + '#t=' + item.starttime);
   }
 
+  returnURL(item){
+      if(item.video_url.length < 1){
+          item.video_url = item.audio_url
+      }
+      return item.video_url
+  }
 
   render(){
 
@@ -70,10 +86,10 @@ class FavResult extends Component {
                     <ul>
                     {course_podcasts.map((item, index)  => (
                         <li className = 'favResult' key={index}>
-                            <a href={item.video_url}>
-                                <div>{this.formatTitle(item)    }
-                                    <img onClick={e => this.toggleFav(e, index)}
-                                    src={podcasts[index] ? starOn : starOff}
+                            <a href={this.returnURL(item)}>
+                                <div>{this.formatTitle(item)}
+                                    <img onClick={(e) => {this.handleClick(e, index)}}
+                                    src={this.state.isFav[index] ? starOn : starOff}
                                     alt="" width="48" height="48"/>
                                 </div>
                             </a>
