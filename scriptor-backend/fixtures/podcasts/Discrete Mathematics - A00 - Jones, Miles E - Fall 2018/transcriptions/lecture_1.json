@@ -1,0 +1,381 @@
+{
+  "Blurbs": {
+    "68 + 4 then we have 11:36 and 2 and then 2272. and one so that's kind of the arithmetic part that you have to do. So then the next thing you do is you cross out the left values in each row with even right values. Okay. So which values have even write value to 8 to 4 and the 2 so cross all those out like that and ": [
+      2333.3,
+      2378.5,
+      66
+    ],
+    "B column because if you don't know how to use itself just want this question only has a and b so those are the only selections that mean anything to make sense or you guys just trying to be funny. Okay, anybody have any questions about their clickers or need any help? Okay, we'll talk about participation in a minute. Okay, let's talk about a few things Piazza. So the ": [
+      663.8,
+      702.0,
+      20
+    ],
+    "Infinity is just some big thing and that's it. But we're going to look at different levels. There are Infinities that are bigger than other infinities. And so we're talk about how does that why does that make sense? And how do we formalize that? Okay. So let's start with introductions. My name is Miles Jones. I'll be the instructor for this class and we have another class at 12 ": [
+      409.4,
+      440.7,
+      12
+    ],
+    "Listen to a podcast. Okay, so everybody's here for CSE 20. Okay good. Is the sentence this sentence is false true or false? We'll talk about that. Okay? This is kind of one part of the is this thing working yet. This is one part of the The class that we're going to talk about in detail is logic write this type of thing a logical statement true or false. ": [
+      1.9,
+      46.0,
+      0
+    ],
+    "Okay, so get your clickers out. Our code here is a d Okay, so If you don't have a clicker, that's okay. Because if you have a clicker for today, that's okay, but I want you to get one over the weekend. So on Monday we can start using them. Well, I'll tell you why mostly it's for reasons of participation and we'll go over the participation points and stuff ": [
+      517.5,
+      550.2,
+      15
+    ],
+    "Okay, so there's that grades will talk about academic integrity and here's the textbook. accommodations I guess I should say something about this to is that if you need any kind of Accommodations for exams and stuff like that go to the office of students with disabilities two OSD office and they'll give you a letter that I can sign and we can set you up. I just ask that ": [
+      1251.2,
+      1287.8,
+      36
+    ],
+    "Okay, so why you guys are doing that? I'll just kind of describe the the method that maybe you learned right you put them up on top of each other. And you do this sequence of steps right at the algorithm what I want to show you is a different algorithm to do this. It's called Russian peasant multiplication. Have you guys heard of this before? Okay, so here are ": [
+      2238.6,
+      2270.9,
+      63
+    ],
+    "You're responsible to know what is a violation and what is not. Okay, here's kind of. quick scenario Aren't you working on a homework question with your partner? And you're stuck on a question. You run into a friend who solved the problem already and shows you her solution you look at it, but put it away before continuing the group conversation is this acceptable? This considered a violation or ": [
+      1504.9,
+      1534.9,
+      43
+    ],
+    "a lot of the time it's nice to know if your algorithm will work. So you can prove the correctness of your algorithm things like that games and strategies. How do you prove that a strategy will work in a certain game or that it's better than a different strategy. things like that, so How do we exploit these properties to solve the problems? So it kind of depends on ": [
+      310.2,
+      340.3,
+      9
+    ],
+    "a lot of the times people would ask me what I do and it's kind of hard to talk about it. But one thing that we're going to do in this class is build up a vocabulary build up a set of notation and ideas Concepts that's going to make it easier for you guys to communicate mathematically between each other and maybe you say well why am I taking ": [
+      89.3,
+      113.9,
+      2
+    ],
+    "a math course in a CS Department? Well, it turns out that computer science mathematics is a really good language to use in order to communicate. Thanks. Okay, so so those are the two kind of funny things I wanted to do. But before we get started, let's talk about a little bit about the types of resources that the university has for you guys. So if you know anybody ": [
+      113.9,
+      145.6,
+      3
+    ],
+    "about any of the answers or or strategies or hints k if you have more of like a question about the way something is worded or you don't really understand what the question is asking those things you can you can post publicly on Piazza but nothing about The current homework it's more about things in lecture things that you didn't really understand or class policy. Syllabus something about the ": [
+      727.6,
+      769.4,
+      22
+    ],
+    "algorithm and it's mainly we're just going to try to start exploring what algorithm is just to get you started into a few of the concepts that we're covering the class. Okay, so what is a algorithm? Well, you can think about it as a finite sequence of events or finite sequence of precise instructions for solving a problem. So here's a Big Bang Theory algorithm for finding a friend ": [
+      1639.0,
+      1672.5,
+      47
+    ],
+    "algorithm to find the best. Okay, so What people are saying this? Say no so this is not the best we can do. Okay, so this is This is an answer. Right you're saying that this algorithm is not working to its full potential but it's not giving you the optimal solution. What is a way that you can convince me that it's not the optimal solution. Okay, give a ": [
+      1927.5,
+      1996.0,
+      56
+    ],
+    "all the rules and maybe we can go into when you can you can read those on your own when you're reviewing. I think it's much better if I just show you by example. Okay, so you put one integer in the left column and one integer in the right column. Okay, every step you double the left column and you have the right column. Okay. So we're going to ": [
+      2270.9,
+      2298.7,
+      64
+    ],
+    "and how do we know if something is true or how do we know that something is false right? We're going to kind of build these ideas up step-by-step and by the end of the class you're going to have some basic tools of how to prove if something is true. We're basic were mostly talking about mathematical proofs. So you're going to see things like proof by contradiction proof ": [
+      246.9,
+      274.7,
+      7
+    ],
+    "and sometimes you'll you'll think about the algorithm in this way. It's kind of like a decision tree other times you'll think about it as a pseudocode other times, you might think about it as more of like a high-level set of actual English sentence instructions say so there's a lot of different ways to describe it. Okay. So one type of problem computational problem is optimization. This is like, ": [
+      1672.5,
+      1706.6,
+      48
+    ],
+    "and we're going to be coordinating and the instructor for that class has been he's up there. We're going we have some of our team too, but I think we're going to introduce them all at the end of the class so that we can introduce them and then we can all go to the next class and introduce everybody there to Okay, so I may not be able to ": [
+      440.7,
+      464.8,
+      13
+    ],
+    "best way to get in touch with us is through Piazza how many of you guys have used Piazza before? Okay good. So, you know how it works. If you don't know how it works then ask somebody else and Bill kind of help you out. This is what I mainly want you to use Piazza for a public post. Please do not post anything about the current homework do ": [
+      702.0,
+      727.6,
+      21
+    ],
+    "broadcasted so you can use that as a resource to study with or to just review what we did in class. Okay. so at this point I want to give you a and idea of the website. Okay, so here's the website. So this is very important. You need to register your clicker on here. This is a Google form for us to be able to keep track of your ": [
+      901.7,
+      946.1,
+      27
+    ],
+    "by induction these types of strategies to to prove something is true and he want to do it in such a way that you can convince somebody else mainly in this class, but In general anybody that can kind of read this type of math will be able to follow your proof logically step by step. So what types of things do we want to prove well in computer science ": [
+      274.7,
+      310.2,
+      8
+    ],
+    "chances as you need to finish the quiz and you can get those points. Did you ever question? Yeah quizzes are optional. So basically you can only have a maximum of four points per week of participation. So if you leave town or something Yeah, you can make it up with the quiz. So the quiz can make up all the points. Okay, so four points per week maximum. That ": [
+      1089.4,
+      1126.2,
+      32
+    ],
+    "class. Okay. So what kind of things are we going to do each week while we have a free class reading there's videos. I'll show you where to find those on the website. Of course, we have class lecture we have discussion sections. Those are on Mondays and I'll talk about those in a minute and then we have the review quiz. And homework, of course. the textbook is this ": [
+      805.8,
+      842.9,
+      24
+    ],
+    "class. The other reason that were using them is so that I can take attendance and part of your grade is participation. And so we'll go over that what that means in this class. Okay. okay, so who has Used clickers most people. Okay so far. Are you guys who have not then? All right. So anybody that's riding C D or E. I'm just assuming that you're in the ": [
+      626.0,
+      663.8,
+      19
+    ],
+    "considered a violation if you work on homework with anyone else then your homework partner unless you're in office hours with one of the Tas or Tutors or one of the instructors if you search the internet for any answers for homework or any resources that give you test questions or test answers and if you share any of your notes while taking an exam is not a complete list. ": [
+      1476.7,
+      1504.2,
+      42
+    ],
+    "counterexample or give an example that has more chocolate chips that follow the constraints. Okay. So do you have a example? Okay, great. Thank you. 8 + 7 + 4 is 19 and that's greater than the other solution. Everywhere sad because the algorithm doesn't work. But at least we know that it doesn't work and then we can start looking for an algorithm to to find it. Okay, so ": [
+      1996.0,
+      2036.1,
+      57
+    ],
+    "cuz it's kind of like a 3 to 6 minute video. It's a very short thing and it and it only tells you about that one thing. So here's where you can find all of these videos and it gives you took a quick lesson. repercussions Okay, so that's the website. Let's go back to the class A few notes on academic Integrity you're responsible to know what is or ": [
+      1403.7,
+      1446.5,
+      40
+    ],
+    "due. So we're saying it's due on Thursday. Is that right? Okay. And homework one which we will post probably at the end of the day today will be due next Saturday. Stop and you can find that link right here. So and I don't know you can just find out what we're doing every day. There's the midterm is on the 5th week and There's eight homeworks. No homework ": [
+      1319.5,
+      1355.4,
+      38
+    ],
+    "during Thanksgiving. No homework the week of the mid-term. Any questions about that? Everything extra resources not yet. You're the play pre-class readings. I think this card. Okay, so So last year a team of students and professors got together and created all of these videos for this class specifically. So these are really good. If you do if you need to brush up on Jeff to a particular topic ": [
+      1355.4,
+      1403.7,
+      39
+    ],
+    "everybody is getting all of the questions over and over again, then I know that we're on track and we can move forward if there are certain Concepts that are not really well understood, but maybe I can spend a little bit more time or or get my ta is to go over in discussion or I just kind of understand where you're having problems and when you're not Also, ": [
+      576.5,
+      602.4,
+      17
+    ],
+    "false falsity but what is it? Falsehood truth and falsehood that kind of thing. Here are a few funny comics. I think they're funny. when we do math I guess sometimes it seems like it's a miracle. It's what this person saying and sometimes a mathematician is not so good at telling a Layman about what he does. I I was a math student hear a grad student. And so ": [
+      47.7,
+      89.3,
+      1
+    ],
+    "first example selecting any three cookies. The greedy algorithm is definite it's finite and it is correct. But if we restrict it to the rows and columns, then it's definite finite and not correct. Maybe I want to just give you a an example of an algorithm. That is not correct. Yeah, of course. It depends on your your level of satisfaction. Right and you can prove balance on on ": [
+      2114.0,
+      2156.7,
+      60
+    ],
+    "get to know each and every one of you there's a lot of you but I'm going to try I see a few familiar faces, but I would like to get to know some of you come to office hours. We'll get to know each other. Okay? So I guess let's get started with a few of the logistics. So first thing is we're going to be using clickers. Okay? ": [
+      464.8,
+      499.5,
+      14
+    ],
+    "have caps which is Counseling and Psychological Services. So if you if you need services like that, then here's the number and the website. So all this will be on the slides that you can you can access it. Okay, so so let's talk about what we're going to do in this class Okay, so Like I said before part of the class is going to be dealing with logic ": [
+      211.7,
+      246.9,
+      6
+    ],
+    "how do I get the best solution among the set of all solutions? Okay. so This map here with the with the guy with the suitcase. This is sort of referring to a very famous optimization problem called the traveling salesman problem. And it's basically you're a traveling salesman. You have a list of cities that you need to visit to sell and you want to visit each City exactly ": [
+      1706.6,
+      1739.3,
+      49
+    ],
+    "interesting. I really had a lot of fun with it. So I hope you know, if you have any questions, please feel free to ask any of us for help and understanding and also hopefully you'll find it as exciting as we all do. Yeah there no dumb questions. So don't be afraid to ask us anything. Alright. Thanks guys. Okay. Well, I guess we'll and a little bit early ": [
+      2712.6,
+      2744.5,
+      73
+    ],
+    "into the content of the day. We're going to look at a pseudocode. If you don't know what that is, it's just kind of informally writing code and it's not really connected to any particular programming language. It's just kind of like how mathematicians sort of Rideout code we're going to explain the higher level function and identify explain informally, whether and why A pseudocode Satisfied properties of being an ": [
+      1605.2,
+      1639.0,
+      46
+    ],
+    "is not a violation of academic Integrity. There's a there's a whole handbook on this that you can find online. But here are a few violations that I consider violations if you click in for somebody for participation points when they're not actually present if you ask for homework problems from somebody else or quiz problems or test problems or test answers or if you share so both ways are ": [
+      1446.5,
+      1476.7,
+      41
+    ],
+    "it's for you. If you keep on getting the clicker problems wrong, then maybe you should go and get some help from one of the Tutors or from me or from vent pay. So it's all those things in class. I'm hoping that it will spark some discussion. We might pause the classic here and there so that you can talk to your neighbors and talk about certain Concepts in ": [
+      602.4,
+      626.0,
+      18
+    ],
+    "like that, but What what's one reason that we're going to use clickers? Okay, so let me turn this on. I just kind of want to see who has you use clickers before. So what reason is for me? I get to put up questions and you guys will choose a through e or in this case Just A and B. I can see your your level of comprehension if ": [
+      550.2,
+      576.5,
+      16
+    ],
+    "means that you can earn a maximum of 40 points throughout the whole quarter right 4 times 1040 require that you only earn 30 points to get the full credit to the get the full 5% credit every Point fewer than 30 you'll lose a whole percentage Point 29.4% 28.53 % anyting fewer than 22 points you get 0% for participation. I don't think it's going to be such a ": [
+      1126.2,
+      1155.4,
+      33
+    ],
+    "most people were saying see and there is an algorithm to find the best solution. Does anybody have an idea of how to do them? And then what? Okay, so you do some sort of analysis on how many are you losing? and then make a build it up that way. Sounds good. Anybody else have an idea? Yeah, that will work right kind of like the most basic way ": [
+      2036.1,
+      2085.3,
+      58
+    ],
+    "my time to drink before I give it a different class. Thank you. Hi Angela. This is my last quarter here as a siesta. I've actually tooted for 101 before which is Introduction to algorithms that and this is my first time doing this class. So good luck you guys hydrangea Maria. I'm a second-year CS student and I took this course last year. I thought the material was really ": [
+      2634.6,
+      2712.6,
+      72
+    ],
+    "not. Well, I guess that's what I should say is this acceptable. Gang Song the little baby, right? But I think that the the key concept here is that you looked at it. Just don't look at it just say, you know what we can discuss this after the due date of the homework because by then we know that the solutions are coming out and we are free to ": [
+      1534.9,
+      1574.0,
+      44
+    ],
+    "of harassment and discrimination in this what that stands for? So here's the information there. Of course this University we try to keep everybody safe and try to prevent these things from happening and if they do happen we want to try to deal with it as best ways. We can additionally we have the sexual assault Resource Center. It kind of goes with the thing above and then we ": [
+      181.9,
+      211.7,
+      5
+    ],
+    "of instructions and you get some sort of result. There's nothing in here that I've showed you that has shown you that it's going to work every time that will involve a proof of correctness. But it's is detailed enough. This is something that you want to have an algorithm at least a deterministic algorithm is that if I put in the same two values I get the same result, ": [
+      2428.0,
+      2456.4,
+      68
+    ],
+    "once and then return home. What's the what's the route that has the shortest time or the shortest distance case with the optimization problem because you can think about all the different solutions. You can come up with a solution. You can just do the cities in alphabetical order or do it in any other random order for what you want to do is find the best solution. I need ": [
+      1739.3,
+      1766.1,
+      50
+    ],
+    "or comments? You need to finish the quiz correctly, but you have unlimited tries is going to be like a multiple choice thing. So it's not going to be like something very. It'll tell you if you're wrong, and you can try again. No. Know if you get anything more than 30 points then you get the full 5% Just want to give you a little bit of wiggle room. ": [
+      1198.7,
+      1248.2,
+      35
+    ],
+    "or not? Right. So that's what we're going to talk about. So this would be 1 + 9 + 4 is 14. I got some out I wanted to I guess I already did this. Sorry. Okay. So here's the thing. Is this the best we can do is what I want you to think no, but there's no algorithm to find the best or no and there is an ": [
+      1901.0,
+      1927.5,
+      55
+    ],
+    "participation. Okay, if you were not using Triton Edge, so if you have enrolled your clicker in Triton, Ed. Just doesn't matter at all guys don't register it here on this link. So here's me and Ben. We might have pictures of the TA is coming but here's the team we have. That right. Yeah, I think I need to update that. Okay, that's fine. We'll introduce all of them ": [
+      946.1,
+      991.3,
+      28
+    ],
+    "right? The instructions are formal enough that you can always follow them in the same exact way. Okay. So this is this is going to be the topic of conversation for discussion section on Monday. Wait till we go over what time's the special sections are. I'll just write it up on here. discussion section Monday what are the times? 6 to 6:50 and 7 to 7:50 You can go ": [
+      2456.4,
+      2513.4,
+      69
+    ],
+    "run into a problem when the integer on the in the right column is odd, right? Because we want if you have an odd number then you you don't get an integer anymore. So we're always just going to round down if we do. some let's just fill this out. We have to 84 what's 17 divided by 2 rounded down? Eight. Okay to 84 * 2 is what? 5 ": [
+      2298.7,
+      2331.9,
+      65
+    ],
+    "section is worth one point. So that's a total of 4. Per week that you can get during the class in discussion. Okay, or you can take the weekly quiz and that will count for four points and I'll show you what that means. Those are going to be due. on Wednesday nights Okay, so it'll be like a Google form that you fill out and you'll have as many ": [
+      1058.1,
+      1089.4,
+      31
+    ],
+    "struggle to meet this you're going to have plenty of opportunities to earn these points. Got any questions about that? You don't like we're not using Triton at at all for this class. So if you have already registered it for triton, Ed. It doesn't mean anything. So do the Google form. That's the one that's going to be that we're going to pull the information from. Any other questions ": [
+      1155.4,
+      1198.7,
+      34
+    ],
+    "talk about it. It won't be it won't be a violation if we talk about it after that. So just try to have some common sense and you don't want to go to the academic Integrity office or go to a hearing I don't want to go. So let's all try to be as a class. Ethical and responsible. Can we agree to do that? Thank you. Okay, let's get ": [
+      1574.0,
+      1605.2,
+      45
+    ],
+    "that came at the end of class. Okay. So here's all the stuff that we are aiming to cover Piazza. I'm just going to go through this quick cuz we kind of talked about a lot of this stuff already. Are grading is going to be giving here I'll talk about participation and the survey. What are we decide on the survey then? Okay, in the middle of the term, ": [
+      991.3,
+      1022.5,
+      29
+    ],
+    "that's the case, you can come talk to me or send me an email and once you're enrolled I can I can enroll you into gradescope anybody and office hours. We're still kind of working on setting those up so they should be they should be ready an uploaded onto the website by the end of the weekend so that we can start them next week. The class will be ": [
+      869.6,
+      901.7,
+      26
+    ],
+    "the cookies up there that's referring to the problem. We're going to do. Animation. Did you guys see that? I don't think that is the optic most optimal solution for that is a solution. Okay. So here's a cookie problem. You have a grid of cookies and they all have a different size or they all have their own size. You want to select three of the cookies and you ": [
+      1766.1,
+      1799.4,
+      51
+    ],
+    "the most number of chocolate chips, right? Then I'll eliminate all cookies that have any Any in the same row and column eliminate 758 and 6. Okay, then out of the ones that remain pick the one with the most number of chocolate chips, which is for And cancel out the two in the three then pick the one and that's going to be my solution. Now, is it optimal ": [
+      1867.5,
+      1901.0,
+      54
+    ],
+    "these types of things right? And so if you if you're okay with it being within a certain bound, then you could you could get a much more efficient algorithm, but you might not get the optimal. All right. so So what we talked about algorithms were talking about solving a problem. What types of problems are we going to encounter? Well, this is not an exhaustive list. I just ": [
+      2156.7,
+      2192.7,
+      61
+    ],
+    "thing here I'll show you where to find the the full name of it on the website. Just going to be one midterm in one final we can kind of talk about those as they come along and gradescope is where we are going to be handing in homework submissions. If you did not get a gradescope invitation, that means that you weren't enrolled when I sent out and if ": [
+      842.9,
+      869.6,
+      25
+    ],
+    "to do it. Right and so a lot of the times for these types of optimization problems. They're always really kind of existing out an algorithm to do it, but it may not be very efficient and those types of questions. You'll kind of encounter more in CSE 21 and in 101, but it's nice to think about those types of questions. Okay, so just summarizing what we did the ": [
+      2085.3,
+      2114.0,
+      59
+    ],
+    "to either one. What are the rooms? 1064 both of them it's too which one? 21110 Don't let some have the the group of tutors team come up so you can introduce yourselves. And then the other instructor. Hi, everyone. Let's come over into the front of the class. Okay, we'll start with Ben. 12 section of this class and a lot of my research is involved playing cs20 concept ": [
+      2513.4,
+      2596.6,
+      70
+    ],
+    "to eliminating bugs in program. If you want to ask me about any of that and I'll tell you later in time. Go ahead. I might ask you some questions about that. I might have my first time doing here at the high school and Community College. Definitely could help a lot of it. I really do. Kevin Hart Radio City FC tickets last night or first. Here at least ": [
+      2596.6,
+      2634.6,
+      71
+    ],
+    "today. Don't get used to it though. See you all on Monday. Have a nice weekend. San Diego ": [
+      2744.5,
+      2757.0,
+      74
+    ],
+    "want to optimize the chocolate Okay. So maximize the total number of chocolate chips the number of chocolate chips on the altogether have the most chocolate chips. So the greedy approach would be to pick the cookie with the most chocolate chips eliminated from the set and repeat the next cookie with the with the big the most number of chocolate chips. And so on. So You Pick 9 then ": [
+      1799.4,
+      1832.0,
+      52
+    ],
+    "want to start you out. So there's optimization. We already talked about that is also arithmetic problems. How do I add two things multiply two things subtract two things, right things like that, and that's what we're going to do next. Okay. So here's an exercise for you. You can you can go you can work in a in a group if you like. How would you do this? calculator ": [
+      2192.7,
+      2228.8,
+      62
+    ],
+    "we're going to do a survey stuff. That'll be 1% to to encourage you guys and in the end in the middle in the end will give you more information about that a little later. Okay. Okay. So here's a participation policy. It's a lot to read but I want to just give you kind of the main points Okay, so Each lecture is worth one point, okay. Each discussion ": [
+      1022.5,
+      1058.1,
+      30
+    ],
+    "website something like that. You can private Post in Piazza and then the instructors are the only ones that see it and this would be a good time. If you wanted to talk about your specific homework submission, if something was wrong with it, or if you had a question about it any of any special circumstances pertaining to you? Okay. any questions Concord Okay, so let's talk about the ": [
+      769.4,
+      805.8,
+      23
+    ],
+    "what are you left with? Add the remaining left values together and output the result. So 1 42 + 2272 is 4. 1 4 so what you guys got from before? Okay, so why does this work or does it work every time these are type of questions? I want you to be thinking about the first thing is that this is an algorithm. It's it's it's a sequence sequence ": [
+      2378.5,
+      2428.0,
+      67
+    ],
+    "what problem you're talking about? And I guess. As we go to the class will start kind of talking about these things one by one and and use them to solve these problems. And the last kind of thing we're going to talk about while there's more than just this but here's another bullet point. We're going to talk about logical paradoxes, which are like the first question. I asked ": [
+      340.3,
+      374.1,
+      10
+    ],
+    "who's having a crisis or if you yourself were having a crisis involving housing insecurities or food or some stuff like that. You can go to the Triton Food Pantry in the student center. Here's the Facebook page, okay. Additionally if you find yourself in an uncomfortable situation, if you're facing any discrimination sexual harassment any kind of thing like that, then we have an office here the office. Prevention ": [
+      145.6,
+      181.9,
+      4
+    ],
+    "you pick a then you pick 7. Okay. Well, there's always an optimal solution. This is pretty simple, right? Okay, so If you actually want to select three cookies where you can have at most one for row and column. You want to still maximize the number of chocolate chips will this strategy work anymore? Let's let's talk about what the strategy will do. First I'll pick. The cookie with ": [
+      1832.0,
+      1867.5,
+      53
+    ],
+    "you you do that before week too so that you'll everything will be set up for you for the first midterm to try to do that soon. Okay. And here's the lecture stuff. Okay, so you guys can go through it in and look more specifically. Let me just give you a quick review of the calendar. So this is where you find the slides. The review quiz 1 is ": [
+      1287.8,
+      1319.5,
+      37
+    ],
+    "you. Is this what was it? Is the sentence this sentence is false. Is this true or false? This actually doesn't really have a truth value and so these type of things exist and we're going to kind of learn how to deal with them. another type of sort of weird property of math that we're going to look at is different sizes of infinity you guys mail think that ": [
+      374.1,
+      409.4,
+      11
+    ]
+  },
+  "File Name": "Discrete Mathematics - A00 - Jones, Miles E - Fall 2018-lecture_1.flac",
+  "Full Transcript": "Listen to a podcast.  Okay, so everybody's here for CSE 20.  Okay good.  Is the sentence this sentence is false true or false?  We'll talk about that. Okay?  This is kind of one part of the is this thing working yet. This is one part of the  The class that we're going to talk about in detail is logic write this type of thing a logical statement true or false.  false falsity  but what is it?  Falsehood truth and falsehood that kind of thing.  Here are a few funny comics. I think they're funny.  when we do math  I guess sometimes it seems like it's a miracle. It's what this person saying and sometimes a mathematician is not so good at telling a Layman about what he does. I I was a math student hear a grad student. And so a lot of the times people would ask me what I do and it's kind of hard to talk about it. But one thing that we're going to do in this class is build up a vocabulary build up a set of notation and ideas Concepts that's going to make it easier for you guys to communicate mathematically between each other and maybe you say well why am I taking a math course in a CS Department? Well, it turns out that computer science mathematics is a really good language to use in order to communicate. Thanks.  Okay, so  so those are the two kind of funny things I wanted to do. But before we get started, let's talk about a little bit about the types of resources that the university has for you guys. So if you know anybody who's having a crisis or if you yourself were having a crisis involving housing insecurities or food or some stuff like that. You can go to the Triton Food Pantry in the student center. Here's the Facebook page, okay.  Additionally if you find yourself in an uncomfortable situation, if you're facing any discrimination sexual harassment any kind of thing like that, then we have an office here the office.  Prevention of harassment and discrimination in this what that stands for? So here's the information there. Of course this University we try to keep everybody safe and try to prevent these things from happening and if they do happen we want to try to deal with it as best ways. We can additionally we have the sexual assault Resource Center. It kind of goes with the thing above and then we have caps which is  Counseling and Psychological Services. So if you if you need  services like that, then here's the number and the website. So all this will be on the slides that you can you can access it.  Okay, so  so let's talk about what we're going to do in this class Okay, so  Like I said before part of the class is going to be dealing with logic and how do we know if something is true or how do we know that something is false right? We're going to kind of build these ideas up step-by-step and by the end of the class you're going to have some basic tools of how to prove if something is true. We're basic were mostly talking about mathematical proofs. So you're going to see things like proof by contradiction proof by induction these types of strategies to  to prove something is true and he want to do it in such a way that you can convince somebody else mainly in this class, but  In general anybody that can kind of read this type of math will be able to follow your proof logically step by step.  So  what types of things do we want to prove well in computer science a lot of the time it's nice to know if your algorithm will work. So you can prove the correctness of your algorithm things like that games and strategies. How do you prove that a strategy will work in a certain game or that it's better than a different strategy.  things like that, so  How do we exploit these properties to solve the problems? So it kind of depends on what problem you're talking about?  And  I guess.  As we go to the class will start kind of talking about these things one by one and and use them to solve these problems.  And the last kind of thing we're going to talk about while there's more than just this but here's another bullet point. We're going to talk about logical paradoxes, which are like the first question. I asked you.  Is this what was it?  Is the sentence this sentence is false. Is this true or false?  This actually doesn't really have a truth value and so these type of things exist and we're going to kind of learn how to deal with them.  another type of sort of  weird property of math that we're going to look at is different sizes of infinity you guys mail think that Infinity is just some big thing and that's it. But we're going to look at different levels. There are Infinities that are bigger than other infinities. And so we're talk about how does that why does that make sense? And how do we formalize that?  Okay. So let's start with introductions. My name is Miles Jones. I'll be the instructor for this class and we have another class at 12 and we're going to be coordinating and the instructor for that class has been he's up there. We're going we have some of our team too, but I think we're going to introduce them all at the end of the class so that we can introduce them and then we can all go to the next class and introduce everybody there to  Okay, so  I may not be able to get to know each and every one of you there's a lot of you but I'm going to try I see a few familiar faces, but  I would like to get to know some of you come to office hours.  We'll get to know each other. Okay?  So I guess let's get started with a few of the logistics. So first thing is we're going to be using clickers. Okay?  Okay, so get your clickers out. Our code here is  a d  Okay, so  If you don't have a clicker, that's okay. Because if you have a clicker for today, that's okay, but I want you to get one over the weekend. So on Monday we can start using them. Well, I'll tell you why mostly it's for reasons of participation and we'll go over the participation points and stuff like that, but  What what's one reason that we're going to use clickers? Okay, so let me turn this on. I just kind of want to see who has you use clickers before.  So what reason is for me? I get to put up questions and you guys will choose a through e or in this case Just A and B. I can see your your level of comprehension if everybody is getting all of the questions over and over again, then I know that we're on track and we can move forward if there are certain Concepts that are not really well understood, but maybe I can spend a little bit more time or or get my ta is to go over in discussion or I just kind of understand where you're having problems and when you're not  Also, it's for you. If you keep on getting the clicker problems wrong, then maybe you should go and get some help from one of the Tutors or from me or from vent pay. So it's all those things in class. I'm hoping that it will spark some discussion. We might pause the classic here and there so that you can talk to your neighbors and talk about certain Concepts in class. The other reason that were using them is so that I can take attendance and part of your grade is participation. And so we'll go over that what that means in this class. Okay.  okay, so who has  Used clickers most people. Okay so far. Are you guys who have not then?  All right. So anybody that's riding C D or E. I'm just assuming that you're in the B column because  if you don't know how to use itself just want this question only has a and b so those are the only selections that mean anything to make sense or you guys just trying to be funny.  Okay, anybody have any questions about their clickers or need any help?  Okay, we'll talk about participation in a minute.  Okay, let's talk about a few things Piazza. So the best way to get in touch with us is through Piazza how many of you guys have used Piazza before?  Okay good. So, you know how it works. If you don't know how it works then ask somebody else and Bill kind of help you out. This is what I mainly want you to use Piazza for a public post. Please do not post anything about the current homework do about any of the answers or or strategies or hints k  if you have more of like a question about the way something is worded or you don't really understand what the question is asking those things you can you can post publicly on Piazza but nothing about  The current homework it's more about things in lecture things that you didn't really understand or class policy. Syllabus something about the website something like that. You can private Post in Piazza and then the instructors are the only ones that see it and this would be a good time. If you wanted to talk about your specific homework submission, if something was wrong with it, or if you had a question about it any of any special circumstances pertaining to you?  Okay.  any questions  Concord  Okay, so let's talk about the class.  Okay. So what kind of things are we going to do each week while we have a free class reading there's videos. I'll show you where to find those on the website. Of course, we have class lecture we have discussion sections.  Those are on Mondays and I'll talk about those in a minute and then we have the review quiz.  And homework, of course.  the textbook is  this thing here  I'll show you where to find the the full name of it on the website.  Just going to be one midterm in one final we can kind of talk about those as they come along and gradescope is where we are going to be handing in homework submissions. If you did not get a gradescope invitation, that means that you weren't enrolled when I sent out and if that's the case, you can come talk to me or send me an email and once you're enrolled I can  I can enroll you into gradescope anybody and office hours. We're still kind of working on setting those up so they should be they should be ready an uploaded onto the website by the end of the weekend so that we can start them next week.  The class will be broadcasted so you can use that as a resource to study with or to just review what we did in class.  Okay.  so at this point I want to give you a  and idea of the website.  Okay, so here's the website.  So this is very important. You need to register your clicker on here. This is a Google form for us to be able to keep track of your participation. Okay, if you were not using Triton Edge, so if you have enrolled your clicker in Triton, Ed.  Just doesn't matter at all guys don't register it here on this link.  So here's me and Ben.  We might have pictures of the TA is coming but here's the team we have.  That right.  Yeah, I think I need to update that. Okay, that's fine. We'll introduce all of them that came at the end of class. Okay. So here's all the stuff that we are aiming to cover Piazza. I'm just going to go through this quick cuz we kind of talked about a lot of this stuff already.  Are grading is going to be giving here I'll talk about participation and the survey.  What are we decide on the survey then?  Okay, in the middle of the term, we're going to do a survey stuff. That'll be 1% to to encourage you guys and in the end in the middle in the end will give you more information about that a little later.  Okay.  Okay. So here's a participation policy. It's a lot to read but I want to just give you kind of the main points Okay, so  Each lecture is worth one point, okay.  Each discussion section is worth one point. So that's a total of 4. Per week that you can get during the class in discussion. Okay, or you can take the weekly quiz and that will count for four points and I'll show you what that means. Those are going to be due.  on Wednesday nights  Okay, so it'll be like a Google form that you fill out and you'll have as many chances as you need to finish the quiz and you can get those points. Did you ever question?  Yeah quizzes are optional. So basically you can only have a maximum of four points per week of participation. So if you leave town or something  Yeah, you can make it up with the quiz. So the quiz can make up all the points.  Okay, so four points per week maximum. That means that you can earn a maximum of 40 points throughout the whole quarter right 4 times 1040 require that you only earn 30 points to get the full credit to the get the full 5% credit every Point fewer than 30 you'll lose a whole percentage Point 29.4% 28.53 % anyting fewer than 22 points you get 0% for participation. I don't think it's going to be such a struggle to meet this you're going to have plenty of opportunities to earn these points.  Got any questions about that?  You don't like we're not using Triton at at all for this class. So if you have already registered it for triton, Ed. It doesn't mean anything. So do the Google form. That's the one that's going to be that we're going to pull the information from.  Any other questions or comments?  You need to finish the quiz correctly, but you have unlimited tries is going to be like a multiple choice thing. So it's not going to be like something very.  It'll tell you if you're wrong, and you can try again.  No.  Know if you get anything more than 30 points then you get the full 5%  Just want to give you a little bit of wiggle room.  Okay, so there's that grades will talk about academic integrity and here's the textbook.  accommodations I guess I should say something about this to is that if you need any kind of  Accommodations for exams and stuff like that go to the office of students with disabilities two OSD office and they'll give you a letter that I can sign and we can set you up. I just ask that you you do that before week too so that you'll everything will be set up for you for the first midterm to try to do that soon.  Okay.  And here's the lecture stuff. Okay, so you guys can go through it in and look more specifically. Let me just give you a quick review of the calendar. So this is where you find the slides.  The review quiz 1 is due. So we're saying it's due on Thursday.  Is that right?  Okay.  And homework one which we will post probably at the end of the day today will be due next Saturday.  Stop and you can find that link right here.  So and I don't know you can just find out what we're doing every day. There's the midterm is on the 5th week and  There's eight homeworks. No homework during Thanksgiving. No homework the week of the mid-term.  Any questions about that?  Everything extra resources not yet. You're the play pre-class readings.  I think this card.  Okay, so  So last year a team of students and professors got together and created all of these videos for this class specifically. So these are really good. If you do if you need to brush up on Jeff to a particular topic cuz it's kind of like a 3 to 6 minute video. It's a very short thing and it and it only tells you about that one thing. So here's where you can find all of these videos and it gives you took a quick lesson.  repercussions  Okay, so that's the website. Let's go back to the  class  A few notes on academic Integrity you're responsible to know what is or is not a violation of academic Integrity. There's a there's a whole handbook on this that you can find online.  But here are a few violations that I consider violations if you click in for somebody for participation points when they're not actually present if you ask for homework problems from somebody else or quiz problems or test problems or test answers or if you share so both ways are considered a violation if you work on homework with anyone else then your homework partner unless you're in office hours with one of the Tas or Tutors or one of the instructors if you search the internet for any answers for homework or any resources that give you test questions or test answers and if you share any of your notes while taking an exam is not a complete list.  You're responsible to know what is a violation and what is not.  Okay, here's kind of.  quick scenario  Aren't you working on a homework question with your partner? And you're stuck on a question. You run into a friend who solved the problem already and shows you her solution you look at it, but put it away before continuing the group conversation is this acceptable?  This considered a violation or not.  Well, I guess that's what I should say is this acceptable.  Gang Song the little baby, right?  But I think that the the key concept here is that you looked at it.  Just don't look at it just say, you know what we can discuss this after the due date of the homework because by then we know that the solutions are coming out and we are free to talk about it. It won't be it won't be a violation if we talk about it after that. So just try to have some common sense and you don't want to go to the academic Integrity office or go to a hearing I don't want to go. So let's all try to be as a class.  Ethical and responsible. Can we agree to do that?  Thank you.  Okay, let's get into the content of the day.  We're going to look at a pseudocode.  If you don't know what that is, it's just kind of informally writing code and it's not really connected to any particular programming language. It's just kind of like how mathematicians sort of Rideout code we're going to explain the higher level function and identify explain informally, whether and why A pseudocode Satisfied properties of being an algorithm and it's mainly we're just going to try to start exploring what algorithm is just to get you started into a few of the concepts that we're covering the class.  Okay, so what is a algorithm?  Well, you can think about it as a finite sequence of events or finite sequence of precise instructions for solving a problem. So here's a Big Bang Theory algorithm for finding a friend and sometimes you'll you'll think about the algorithm in this way. It's kind of like a decision tree other times you'll think about it as a pseudocode other times, you might think about it as more of like a high-level set of actual English sentence instructions say so there's a lot of different ways to describe it.  Okay. So one type of problem computational problem is optimization. This is like, how do I get the best solution among the set of all solutions? Okay.  so  This map here with the with the guy with the suitcase. This is sort of referring to a very famous optimization problem called the traveling salesman problem. And it's basically you're a traveling salesman. You have a list of cities that you need to visit to sell and you want to visit each City exactly once and then return home. What's the what's the route that has the shortest time or the shortest distance case with the optimization problem because you can think about all the different solutions. You can come up with a solution. You can just do the cities in alphabetical order or do it in any other random order for what you want to do is find the best solution.  I need the cookies up there that's referring to the problem. We're going to do.  Animation. Did you guys see that?  I don't think that is the optic most optimal solution for that is a solution.  Okay. So here's a cookie problem. You have a grid of cookies and they all have a different size or they all have their own size. You want to select three of the cookies and you want to optimize the chocolate Okay. So maximize the total number of chocolate chips the number of chocolate chips on the altogether have the most chocolate chips.  So the greedy approach would be to pick the cookie with the most chocolate chips eliminated from the set and repeat the next cookie with the with the big the most number of chocolate chips. And so on. So You Pick 9 then you pick a then you pick 7. Okay. Well, there's always an optimal solution.  This is pretty simple, right?  Okay, so  If you actually want to select three cookies where you can have at most one for row and column.  You want to still maximize the number of chocolate chips will this strategy work anymore?  Let's let's talk about what the strategy will do.  First I'll pick.  The cookie with the most number of chocolate chips, right? Then I'll eliminate all cookies that have any  Any in the same row and column eliminate 758 and 6. Okay, then out of the ones that remain pick the one with the most number of chocolate chips, which is for  And cancel out the two in the three then pick the one and that's going to be my solution. Now, is it optimal or not? Right. So that's what we're going to talk about. So this would be 1 + 9 + 4 is 14.  I got some out I wanted to I guess I already did this.  Sorry.  Okay. So here's the thing. Is this the best we can do is what I want you to think no, but there's no algorithm to find the best or no and there is an algorithm to find the best.  Okay, so  What people are saying this?  Say no so this is not the best we can do.  Okay, so this is  This is an answer. Right you're saying that this algorithm is not working to its full potential but it's not giving you the optimal solution. What is a way that you can convince me that it's not the optimal solution.  Okay, give a counterexample or give an example that has more chocolate chips that follow the constraints. Okay. So do you have a example?  Okay, great. Thank you. 8 + 7 + 4 is 19 and that's greater than the other solution.  Everywhere sad because the algorithm doesn't work. But at least we know that it doesn't work and then we can start looking for an algorithm to to find it. Okay, so most people were saying see  and there is an algorithm to find the best solution. Does anybody have an idea of how to do them?  And then what?  Okay, so you do some sort of analysis on how many are you losing?  and then make a  build it up that way. Sounds good.  Anybody else have an idea?  Yeah, that will work right kind of like the most basic way to do it. Right and so a lot of the times for these types of optimization problems. They're always really kind of existing out an algorithm to do it, but it may not be very efficient and those types of questions. You'll kind of encounter more in CSE 21 and in 101, but it's nice to think about those types of questions.  Okay, so  just summarizing what we did the first example selecting any three cookies. The greedy algorithm is definite it's finite and it is correct. But if we restrict it to the rows and columns, then it's definite finite and not correct.  Maybe I want to just give you a an example of an algorithm. That is not correct.  Yeah, of course. It depends on your your level of satisfaction. Right and you can prove balance on on these types of things right? And so if you if you're okay with it being within a certain bound, then you could you could get a much more efficient algorithm, but you might not get the optimal.  All right.  so  So what we talked about algorithms were talking about solving a problem. What types of problems are we going to encounter? Well, this is not an exhaustive list.  I just want to start you out. So there's optimization. We already talked about that is also arithmetic problems. How do I add two things multiply two things subtract two things, right things like that, and that's what we're going to do next. Okay. So here's an exercise for you.  You can you can go you can work in a in a group if you like.  How would you do this?  calculator  Okay, so why you guys are doing that?  I'll just kind of describe the the method that maybe you learned right you put them up on top of each other.  And you do this sequence of steps right at the algorithm what I want to show you is a different algorithm to do this.  It's called Russian peasant multiplication. Have you guys heard of this before?  Okay, so here are all the rules and maybe we can go into when you can you can read those on your own when you're reviewing. I think it's much better if I just show you by example.  Okay, so you put one integer in the left column and one integer in the right column. Okay, every step you double the left column and you have the right column. Okay. So we're going to run into a problem when the integer on the in the right column is odd, right? Because we want if you have an odd number then you you don't get an integer anymore. So we're always just going to round down if we do.  some  let's just fill this out. We have to 84 what's 17 divided by 2 rounded down?  Eight. Okay to 84 * 2 is what?  5  68 + 4  then we have 11:36 and 2 and then 2272.  and one  so that's kind of the arithmetic part that you have to do.  So then the next thing you do is you cross out the left values in each row with even right values. Okay. So which values have even write value to 8 to 4 and the 2 so cross all those out like that and what are you left with?  Add the remaining left values together and output the result. So 1 42 + 2272 is 4.  1  4  so what you guys got from before?  Okay, so  why does this work or does it work every time these are type of questions? I want you to be thinking about the first thing is that this is an algorithm. It's it's it's a sequence sequence of instructions and you get some sort of result. There's nothing in here that I've showed you that has shown you that it's going to work every time that will involve a proof of correctness.  But it's is detailed enough. This is something that you want to have an algorithm at least a deterministic algorithm is that if I put in the same two values I get the same result, right? The instructions are formal enough that you can always follow them in the same exact way.  Okay. So this is this is going to be the topic of conversation for discussion section on Monday.  Wait till we go over what time's the special sections are.  I'll just write it up on here.  discussion section  Monday  what are the times?  6 to 6:50 and 7 to 7:50  You can go to either one. What are the rooms?  1064 both of them  it's too which one?  21110  Don't let some have the the group of tutors team come up so you can introduce yourselves.  And then the other instructor.  Hi, everyone. Let's come over into the front of the class.  Okay, we'll start with Ben.  12 section of this class and a lot of my research is involved playing cs20 concept to eliminating bugs in program. If you want to ask me about any of that and I'll tell you later in time. Go ahead. I might ask you some questions about that.  I might have my first time doing here at the high school and Community College. Definitely could help a lot of it. I really do.  Kevin Hart Radio City FC tickets last night or first. Here at least my time to drink before I give it a different class.  Thank you.  Hi Angela. This is my last quarter here as a siesta. I've actually tooted for 101 before which is Introduction to algorithms that and this is my first time doing this class. So good luck you guys hydrangea Maria. I'm a second-year CS student and I took this course last year. I thought the material was really interesting. I really had a lot of fun with it. So I hope you know, if you have any questions, please feel free to ask any of us for help and understanding and also hopefully you'll find it as exciting as we all do.  Yeah there no dumb questions. So don't be afraid to ask us anything.  Alright. Thanks guys.  Okay. Well, I guess we'll and a little bit early today. Don't get used to it though.  See you all on Monday. Have a nice weekend.  San Diego "
+}

@@ -1,4 +1,5 @@
-from elasticsearch_dsl import Document, Text, Date, Integer
+from elasticsearch_dsl import Document, Text, Date, Integer, Keyword
+
 
 class Podcast(Document):
     """
@@ -20,6 +21,18 @@ class Podcast(Document):
     professor = Text()
     section_id = Text()
 
+    # Some of the same fields as above, but indexed for searching through them
+    # These will not be set directly, and will only be used when searching through the filters themselves
+    exact_value_department = Keyword()
+    exact_value_quarter = Keyword()
+    exact_value_professor = Keyword()
+
     # Elasticsearch index settings
     class Index:
         name = "podcasts"
+
+    def save(self, **kwargs):
+        self.exact_value_department = self.department
+        self.exact_value_quarter = self.quarter
+        self.exact_value_professor = self.professor
+        return super().save(**kwargs)

@@ -1,0 +1,566 @@
+{
+  "Blurbs": {
+    "+ 5 or something like that. Okay, so that turns out into a linearly separable problem. So we came up with a new feature which is just the product of the two input features to make it be able to do xor and that's a common strategies to try and come up with features. And for example, rosenblatt himself assumed and nonlinear pre-processing. Well, that's nonlinear. Okay. Another example is ": [
+      530.8,
+      569.5,
+      8
+    ],
+    "6 2 + 12 - 3 + 6 - 12 - 12 + 6 - 3 + 3 - 6 + 12 What what's going on here? So Yeah sort of. But okay. So so this would be symmetric if it was one one zero zero one one, right? What if it was one one zero zero one one what would happen? Well, if this was on and that was ": [
+      4061.2,
+      4103.8,
+      97
+    ],
+    "Define delta J to B- of the derivative J with respect to AJ. and so Third derivative of Jay with respect to w i j is this and this I just defined as Delta. Okay, the negative of this is is Delta. So it's okay. and gradient descent says we're going to do this. We're going to go downhill. Which means we're going to end up with this and remember ": [
+      1621.9,
+      1666.8,
+      37
+    ],
+    "I get T minus y and I send that back here send that back here and then I've now computed the gradient for all the weights I've computed. the I've computed the partial of Jay with suspected wi Jay. Okay, and So, why is this cool? Why is this really really good in terms of efficiency? How many people know how to numerically approximate a gradient or derivative anybody you ": [
+      2809.9,
+      2855.8,
+      69
+    ],
+    "I'd say we have some data like this. in a circle and we have we want to separate these guys from these guys. What's a feature I could use their? Yeah, so so if you made the but I wanted to be linearly separable so I can if this is 0-0 I can use in this is action in this is why I can use like x squared plus y ": [
+      571.6,
+      611.1,
+      9
+    ],
+    "I've already said that Steve Prime of Hey Jay, and for some reason and this derivation, I didn't make the put it there. I don't know why I guess just to make it make it look more complicated. Okay, and congratulations on having made it this far in the class. There's not going to be any more homework. So that are as hard as that last one. It is written ": [
+      2206.1,
+      2237.3,
+      53
+    ],
+    "If I subtract Epsilon from that. I can compute then I compute the error. And then what's so that's the rise I can subtract that from this from that. That's the Run. It stood out to Epsilon until I'm Computing linear approximation to the slope. Okay, and if Epsilon is small enough, it's going to be pretty linear. But I have to hold all the other way to the network ": [
+      2925.4,
+      2959.7,
+      72
+    ],
+    "J Wright. So this is just going to be the slope of the Hidden unit at that point. This is really giave Jay and so the derivative that was perfect to its input is G Prime of AJ. And there's the rub because it means we can't get rid of the slope for the hidden units in 4 years many of us used the logistic for hitting units and if ": [
+      2029.1,
+      2060.4,
+      48
+    ],
+    "Nobody said he thankfully this time neighbor you have a 7 in 10 chance that your neighbor knows the answer. unless all the smart people sit together and Why this clicker question is really funny apparently. Okay, it's settled down. Let's vote again. Try again. Okay, okay. Okay. Keep going. Okay, we went up 4% preds progress. I don't know if it's the testiclea significantly better, but it is better. ": [
+      3324.0,
+      3436.1,
+      82
+    ],
+    "Okay, I'm going to close it out going going going gone. Okay, what's the answer? Okay. She is gradient I sent. It's not gradient descent. You have to read the answers. before you answer Okay. Okay. Okay. Don't go I'll post on me. Yeah, it changes the activations to go downhill know it changes the weights to go downhill in the error. Okay. It is kind of the opposite of ": [
+      3437.8,
+      3502.4,
+      83
+    ],
+    "Okay, start new session. Okay. Are you ready? Hey. Okay. Well, send me your already voted. You haven't even seen the question yet. That's amazing. How did you know? sorry, everybody thinks that my answers are alright already a but I can't seem to advance out of there we go. Okay. Have advanced the sides now. Okay, so the tldr back propped of rhino or TL DR? Too long didn't ": [
+      3206.8,
+      3270.4,
+      80
+    ],
+    "Okay. This is just the chain rule. It's this weird-looking chain rule though, cuz we've got the sum and I have to admit that I stared at this for a really long time back in 1985 or so before you were born. And I I kind of get it now. 33 years later, okay. So to know how changing my how changing my input changes the error I have to ": [
+      1775.5,
+      1813.4,
+      41
+    ],
+    "Okay. and now we have to take into account the hidden units and the reason here why we can't Have the perceptron activation function here is because the way we're going to figure out how to propagate the error backwards is we're going to use the chain rule calculus. And you can't apply that to a binary threshold unit cuz it's not continuous and besides. Any gradient of that would ": [
+      1350.7,
+      1391.4,
+      29
+    ],
+    "So I'm coder is a neural network that takes an input in and and in this case an image in so it's a bunch of pixel values. And they were connected to Hidden units. and and then they were connected to the output which was again, an image And what were training it to do is just to reproduce its input on the output. That's why it's called an auto ": [
+      2465.5,
+      2510.5,
+      60
+    ],
+    "a rocket off. So it's really expensive if I just tell her that what these weights are these rights are which are usually kind of the inverse of these weights has rummelhart said, you know the heading in and I'll try and reproduce What it sees which is what I do if I was a hidden unit says frontal heart and so it's how to put weights are probably going ": [
+      2581.6,
+      2610.7,
+      63
+    ],
+    "again your mind right now back propped learns representations in the service of the tasks. They remember that that's your mantra. Okay. So here's a version of xor it's one of those ones. You wouldn't have thought of. The number in the in the unit is the bias. So think of that is what the unit likes to do in the absence of any other input and I should say ": [
+      3812.6,
+      3844.1,
+      91
+    ],
+    "algorithm for that. I mean they're short of is but yeah, so that's one way is there something we could do to perceptrons to fix it? Yeah. Okay. So if this is X1 and this is X2, we could have a third feature which is x 1 x X-2. and then if we set it up, so Oh, really? All you need is to have the goodbye us x 0 ": [
+      433.5,
+      492.1,
+      6
+    ],
+    "all of the ways that the air changes as the input to those guys were connected to changes. X how their input changes with respecting my input Okay, is that make sense? I'm going to sum up all the ways the guys are bug me that I'm connected to how the air changes with respected them their net input and how their net input changes is my net input changes. ": [
+      1738.4,
+      1775.5,
+      40
+    ],
+    "an output and it's going to change the air as I change this and this and this and so The way I affect the error has to wait as to sum up the way all these guys affect the air. Cuz I affect all of them. Okay. Okay, fine. If your if you have the only dumb question is the one that isn't asked. So if you have a question ": [
+      1910.3,
+      1949.1,
+      45
+    ],
+    "and that from that you can get like outlines of things in and recognize their shape. Okay, so okay. This was great. And you know, if you can just come up with great features and that's what what computer vision people did for decades was spend a weekend thinking about what might be a good feature and then put a linear classifier on top like a perceptron. or softmax Okay, ": [
+      735.6,
+      773.6,
+      13
+    ],
+    "and then I've got this guy. And now I'm going to use the chain rule on that guy. Like how does his input change as my output changes 4 times. How does my output change as my input changes? I just played the chain rule again. And what's this guy? Sorry. Delta no, no. there's a this is this is X the activation. So it's G 8 G of A ": [
+      1987.5,
+      2029.1,
+      47
+    ],
+    "and this could be the logistic. It could be a rello. It could be 10 H. People are even starting to put soft Max in the middle of network switch MidFirst didn't make a lot of sense, but you can kind of use it as an attention signal like what you're attending to and you multiply the output of that X other outputs and you gate what you're looking at ": [
+      1194.0,
+      1223.7,
+      25
+    ],
+    "be zero. Okay. So let's talk a little bit about notation zi is going to mean here. It's going to mean either the output of hidden unit where this is hidden units taking the weighted sum of its inputs flying the non-linearity and then we've got the output and we multiply that times this way to add into this guy's input or z i could be an input like it's ": [
+      1391.4,
+      1428.9,
+      30
+    ],
+    "being t- why which we like Okay. But for hidden units we have to take into account every units at Jason's output to so J is in unit. It send output directly to the output unit sword could send output to the next hidden layer up. And so the air is going to change as its input changes and we can again use the chain rule where we sum up ": [
+      1704.9,
+      1738.4,
+      39
+    ],
+    "but since this is this Delta Zach guy, okay, so that's how we compute Delta. Okay. So the original schema for gradient descent is this and that leads to this? Okay, so it's just that there's still learning right? But this is exactly what we had before. So this is T minus wife James and output unit swimming the right combination of objective function and output activation function and this ": [
+      2323.7,
+      2364.7,
+      56
+    ],
+    "changed starts at the output the way to change send the Deltas are propagated backwards uses the slope of the output unit uses the slope of the Hidden units A & D . K we're we're we're going good so far. mostly looking good okay, many of you are not answering the the Serta catch question good Okay, I think that's almost everybody. Anybody else when I weigh in? Okay ": [
+      3555.3,
+      3616.8,
+      85
+    ],
+    "directly connected to the input this network. Now what I didn't tell you I guess yet is that backprop has local Minima it can get stuck. And not learn something. And although if you have enough hidden units are a lot of ways around the block and hyperspace and most local minimum are okay, but this problem is soft is small enough that half the time it has a local ": [
+      4469.1,
+      4503.3,
+      108
+    ],
+    "do you do? Okay. What are you do so I have this input I give you the input and forth. I got an output. And then I can compute the air. And suppose in the middle of year. I've got a weight w i j and I want to check is my gradient, right? You can do a numerical approximation to the derivative. By doing what will you add Epsilon ": [
+      2855.8,
+      2892.6,
+      70
+    ],
+    "encoder because even though it's supervised learning. Right, I'm using backprop. The input is the teacher. So it's really either self supervised learning or unsupervised learning and it's called an encoder because usually you have fewer units here than you have inputs. And so you're finding a compressed representation of the image and then you're blowing it up again. And so it's going to filter the image and not be ": [
+      2510.5,
+      2547.6,
+      61
+    ],
+    "enough information. Okay, it's 6:16. I have a plane at 7:40. So I'm going to save the good stuff for next week. Thank you. UC San Diego podcast for more visit podcast. ": [
+      4582.4,
+      4800.2,
+      111
+    ],
+    "first off for a here's an interesting one. That's a little mind-boggling. So this is the input. This is a hidden unit now to Hidden unit and this is the output. So this is Computing symmetry of its input. So 11000 is not symmetric. Its is it symmetric around this this is not symmetric. So, what's what what's going on here? the weights are in this is 3 2 - ": [
+      4017.1,
+      4061.2,
+      96
+    ],
+    "fixed while I do that. Okay, so I have to do it for one way and that and I have to run everything all my patterns through the network to figure out the true grade in. And then I pick another wait and do it again pick another wait and do it again. It's really going to be expensive because not only do I change this weight, but I have ": [
+      2959.7,
+      2985.7,
+      73
+    ],
+    "forward propagation, but in five you thought that but the real answer. Is that it learns internal representations or features like and an or the example? I just gave ya. backprop learns I'm sorry. Okay. Okay, it learns internal representations. Okay, just one more and then you can leave if you don't like this anymore. Okay, okay. Computing the Deltas starts with the output their propagated backwards in the waiter ": [
+      3502.4,
+      3555.3,
+      84
+    ],
+    "function but there's no learning algorithm for hitting units and we don't think one will ever be discovered and and that was the year that Bryson and who discovered back prop which nobody knew about it, but accept Bryson and toe and their colleagues because But they weren't in our field. So anyway, and it was a generalization of the Robin's Monroe procedure from the 50s. And I'm going to ": [
+      890.6,
+      930.4,
+      17
+    ],
+    "going going going gone. The last minute went from 81% to 79% So now you have to okay. So how many people here have written down the right answer on a test erased it and then written down the wrong answer. Everybody you're lying. Okay. Okay, what's the answer class? Thank you. Okay, this is right. You started the output propagated backwards in the weights are changed, but it's not ": [
+      3616.8,
+      3659.7,
+      86
+    ],
+    "going to be w i j. Do do do do okay. So it's just like when you end up with just the input on that line, except it's the opposite you get to wait cuz you're taking the derivative with respect to the input on that line. Okay, so you got that? because every summon that every term in the sum is zero, except when I Coast Jay, okay, and ": [
+      2171.9,
+      2206.1,
+      52
+    ],
+    "have a carry out of that place. And it just that case if there is a carry out of that place it turns off that guy and turns on that guy. How many layers is this network? It has two hidden layers. This one is before that one. Although there skip connections here. It's This is kind of the first hidden Lair. That's the second admire, but their direct also ": [
+      4436.1,
+      4469.1,
+      107
+    ],
+    "hidden unit 2 linear and the output unit 2 linear, which is what we should have done. Then this is essentially does principal component analysis. If you know what that is. I'll tell you what that is later, but Because it's try to optimize the same thing as PCA as the square there. Yeah. see yeah, I even programmed in bcpl is called bcpl and and there was the predecessor ": [
+      2735.3,
+      2771.8,
+      67
+    ],
+    "hidden units. So backprop. It's kind of her best to programming yours. Okay. Just kind of cool. Okay. So that's a little anecdote. I like to tell you. It's the difference between the input and the output. It said yeah. Yeah, this is T. This is why. And you some that up over all the outfits and we is logistic activation functions. But if you do this so that the ": [
+      2687.6,
+      2735.3,
+      66
+    ],
+    "his tech report on that when he called it learning logic and patented it and then Young laocoon discovered it in his PhD thesis and Dave rummelhart and Ron Williams and Jeff Hinton discovered it here at UCSD. We're hitting and Williams for postdocs and Dave romarco's faculty in the psych department at that time and it works a lot like perceptron. So you randomly choose some input output pattern ": [
+      1059.0,
+      1096.0,
+      21
+    ],
+    "homework. Why? Etsy That's so we were talking about w i j. Rxr ewj here. So we're trying to find the derivative of the suspected Jay and did I screw up? I know there's Jay. Okay, it's the same guy. Okay, so This derivative now. I did it finally is mine SG Prime of AJ. So it's the slope of that hidden unit. * the sum of the Deltas have ": [
+      2237.3,
+      2293.3,
+      54
+    ],
+    "input and the output? So you could have you know, here's the output. and we want wait for Muniz. It's always one. That's -1. And here's X1. And here's X2. Hey, thank you. Okay, and In between you have another unit. and what this guy does is or we already know how to do that and what this guy does is and we already know how to do that. And ": [
+      815.4,
+      857.8,
+      15
+    ],
+    "is Delta if Jay is a hidden unit. And there is no Delta if Jay is an input unit. You don't change the input units okay for you, could you could back brake propagate all the way to the inputs and try and change them? We'll see ya later that that's been done. So we have a recursive definition of delta. We know what it is through the output units ": [
+      2364.7,
+      2397.9,
+      57
+    ],
+    "is over and see you see it's on its way here as soon as my student goes and gets it and brings it over. You borrowed it today. I didn't get it back. I'm if anybody now that there are more people here. I'll ask one more time. Does anybody have a USB C to VGA adapter? No Okay, so Okay, so I'm sure we saw perceptrons already and they ": [
+      202.7,
+      246.0,
+      1
+    ],
+    "it is nor is Computing door. Okay, very right. So why is it Computing nor this thing likes to be on in the absence of any input sonor means that it's going to be on 400. 401 this comes up and turns that down but it's not enough. It's still on 1-0. This comes up and turns it off at night off enough. But if both of them come on, ": [
+      3882.5,
+      3926.1,
+      93
+    ],
+    "it turns off the output. So what is it? It's it's nand not nor it's neither or nor nor its name and that's hard to say. Okay. So that's nand. Okay. Okay, what is this guy doing? It only turns on 400. It's got a hot. It's got a bias 2.2 is enough to turn on this guy. In any if there's any input on and turns it off. So ": [
+      3926.1,
+      3970.3,
+      94
+    ],
+    "know how they are this what I just said * how their input changes his mind for changes her again. This part should be fairly clear because it's the chain rule but the sum is a little weird cuz you're thinking about what everybody you're connected to. So this the idea you should have in your mind. Here's some hidden unit. And it's connected to all these other units above ": [
+      1813.4,
+      1845.4,
+      42
+    ],
+    "layer times to wake you some all that up take the derivative that was expected wi J. And again since it's a partial derivative, all of these terms are zero because she is fixed. This is fixed when we are doing partial derivatives, except when I equals k, So I move the derivative inside cuz the derivative the sun is some of the derivatives. And that's just see I so ": [
+      1520.4,
+      1555.3,
+      34
+    ],
+    "listening to a podcast cover pages Okay. so Today we're going to talk about backpropagation. Today, we're going to talk about backpropagation. Can y'all hear me? the first working Hello. Hello. Hello. Hello. Okay. Okay. Okay. Check check check my volume mic volume is all the way up. Okay. Anyway, we're going to talk about perceptron. Sorry backpropagation today and I need the lights. Okay, my adapter for my laptop ": [
+      1.9,
+      202.7,
+      0
+    ],
+    "majoring in You know demonstrations and stuff like that. Okay, so if that's okay. Here we go. Ok, and so and I wasn't into neural Nets or anything then accept as far as reading and Isaac Asimov and science fiction, okay. So then in 1985, so 1973 Paul Ware Bose discovered it again or 74 in his PhD thesis and he showed it to Steve grossberg who I think I ": [
+      979.1,
+      1031.8,
+      19
+    ],
+    "minimum. Can you guess why? Guy learns to be the carry out of the first place. It's too late then for this guy to figure out if there's a carry out of the middle place. Because it can't find out that there's a carry because it's Upstream of that guy. doesn't find out that there was a carry so half the time that guy learns to be the carry out ": [
+      4503.3,
+      4555.1,
+      109
+    ],
+    "negative 12. So this guy I'll turn on so this guy turns on when this is one zero this guy turns on when it's 01. So again, it's an asymmetry detector. But if it's symmetric all of these cancel each other if one if it was zero one zero zero one zero. Let's get to -6 this get to + 6. They balance this gives a plus six this cuz ": [
+      4239.1,
+      4272.5,
+      102
+    ],
+    "network and the algorithm uses the chain rule calculus to go downhill in the air measure with respect to the weights, which what we've been doing right gradient descent and the hidden units have to then learn features that solve the problem. So first, let's talk about forward propagation just to make sure we're on the same page with that. So we start with some inputs like feminist pickled pixel ": [
+      1128.3,
+      1160.2,
+      23
+    ],
+    "not in putting a zero to the next layer up. Okay, and since Jay is independent of K. We're sending over K. And this just involves Jay. I can pull that out. And this is again just going to be the slope term. Okay. Okay, okay. Okay, and then the definition of this guy is is the sum of the weighted sum of the inputs W, you know the input ": [
+      2093.9,
+      2128.9,
+      50
+    ],
+    "objective function we want to figure out what's the derivative of Jay with respect to this weight in the network. And as usual we're going to start while I don't know if this is usual. I don't know if I did this before but we'll use the chain rule to do this. so we'll try and figure out the derivative of the air with respect to the input to the ": [
+      1461.1,
+      1486.9,
+      32
+    ],
+    "of computer vision up till 2012 was trying to come up with features like this that will not quite like this that could solve a problem like one kind of feature of an image. might be her sorry 000 - 2 - 1 - 1 so if you place this over a part of an image where it's dark over here. And white over here. Does work very well? Okay, ": [
+      647.4,
+      702.4,
+      11
+    ],
+    "of machine learning. And so how do we fix that? Turn the ideas on how to fix that? Yeah. Okay, so I think what you're saying use the product of the two inputs. How are the square or something? Oh, okay. So you're saying use a quadratic function instead of a so maybe something it would go like this. Okay, that's cool. But I don't know if there's a learning ": [
+      379.4,
+      433.5,
+      5
+    ],
+    "of the first place and there are originally there are connections everywhere here. So for example, this guy isn't connected to that that just means it that way to learn to be zero. Okay, but initially it was connected to everything and it could learn to carry out of that place and then the skies host. He can't be the carry out of the middle place cuz he doesn't have ": [
+      4555.1,
+      4582.4,
+      110
+    ],
+    "on this puts in a -6 this puts in a plus-6, they cancel each other out and this hidden unit likes to be off in the absence of any other input. This guy likes to be on so it's detected asymmetries. It's going to say it's symmetric unless told otherwise So if it doesn't get any input from these guys, which have big negative nines to this. So if either ": [
+      4103.8,
+      4134.0,
+      98
+    ],
+    "once we've computer dit for the output units, then we can computed for the hidden layer below that. Once we've computed them for that we can computers for the hidden layer below that Etc. So this the idea that have in mind I compute some Delta's for everybody hears me and trying to compute my Delta. I compute the Deltas of everybody on connected to you multiply them times to ": [
+      2397.9,
+      2428.7,
+      58
+    ],
+    "one in the ones place over here. Right. So these are solid + 1 lines, but if they're both on then what we have a carry. And this guy only is an aunt of these two so it took Carrie detector. What is it? Do it turns off the guy that they're trying to turn on by having a big negative to wait and that likes to be off in ": [
+      4362.6,
+      4390.7,
+      105
+    ],
+    "one of those comes on and turns off the output, so these this network is a kind of asymmetry detector. And so if the if things are symmetric, these guys are going to balance and they're going to balance down here as well. But if they're not symmetric. Well, this is -3 + 6, so it's going to turn that one on. they can't be like all threes because if ": [
+      4134.0,
+      4169.7,
+      99
+    ],
+    "or sorry you add Epsilon to the weight. So remember we're trying to go. Downhill in the air so we have some error function in this is w i j and this is Jay. Okay and suppose I'm right here. This is the value of w i j right now if I add a little bit to that and compute the air I'll get that number. So that's adding Epsilon ": [
+      2892.6,
+      2925.4,
+      71
+    ],
+    "plug in here. Okay. All right. Goody. Anyway, I call that the books that killed Frank rosenblatt. Because he died in a mysterious boating accident on his birthday and Chesapeake Bay is out sailing and he kind of disappeared over the side. And so there's only one date here. So he was pretty depressed. I assume this is Ithaca you was at Cornell. I was at Cornell, but I was ": [
+      930.4,
+      979.1,
+      18
+    ],
+    "quite as sharp as the original image, but that's an that's an auto encoder. Okay. Any questions about wondering autoencoder is Yeah. Why? You know, they're used all over the place. It turns out but I mean suppose you wanted suppose. I'm up on Mars and I'm taking pictures of the Martians and I want to send it back to Earth and suppose for every picture. I have to shoot ": [
+      2547.6,
+      2581.6,
+      62
+    ],
+    "quite it's a fishing you sure do that. And the cool thing is that generalize has it turns out to recurrent networks, which is what our brains are. Okay. And we'll see how that works. Later. So in the next K slides work is some small integer because we've only got 7 minutes. I'm going to look at various representation sit back prop is learned in problems that solved and ": [
+      3777.3,
+      3812.6,
+      90
+    ],
+    "read. Okay, the opposite of forward propagation learnt internal representations. It's a form of gradient descent. It changes the activations to go downhill in the parameters. What's the what's the best answer here? I can imagine you might pick. Some other answer, but what's the best answer? Okay, 73 of you have answered said all of you. going going going gone. Okay. So 68% of you got the right answer. ": [
+      3270.4,
+      3324.0,
+      81
+    ],
+    "remember the Delta rule it had that input on that line there and this was the difference between what you did and what you should have done and there's so what we're going to end up doing is defining this or the negative of it as Delta. Okay. So just like before we have a term that the input on the line for my d'jais. And now we're going to ": [
+      1589.2,
+      1621.9,
+      36
+    ],
+    "right now, there's probably doesn't other people in the class have the same question. I just have to find the person brave enough to ask it okay? No questions. Okay. It's all perfectly clear. Good glad to hear it. So moving right along. Okay. Yes. What we did find. This is Delta. Right? So I put a minus sign out there and put Delta K. That's Delta. Dudududu dudududu. Okay, ": [
+      1949.1,
+      1987.5,
+      46
+    ],
+    "so backprop learning. I'm going to drive back prop for you. I'm going to do it on the slides cuz I always make mistakes when I do it on the board, but it's still gradient descent. Okay. So for any now, we have you no pairs of things just like we did for softmax, but it might be from here to hear. It might be from here to hear etcetera. ": [
+      1321.5,
+      1349.2,
+      28
+    ],
+    "so but then this is far as As far as perceptrons go though in 1969 Minsky and papert. Minsky just died recently. By the way, he's a professor at MIT came out with a book called perceptrons and it showed you know, there were a lot of things like X or that you couldn't compute one other approach to solving xor. Is you could add a unit in between the ": [
+      773.6,
+      815.4,
+      14
+    ],
+    "so that only some things get through the network see, but anyway, then we get all these these and this is the there's still a bias term for the outputs. And then we propagate those forward and we get a awaited some for the outputs. And now it's 0 to M because we have some number of hidden units and then you apply the activation function to that and get ": [
+      1223.7,
+      1260.6,
+      26
+    ],
+    "squared is as an input or as two inputs and then I've got by squaring them. All the Mindless ones are going to be over here and all the plus ones are going to be over here. And then we can separate them. Okay. So yeah, so that's a good idea. So and that was where things stood for quite a while and then the last 30 years or so ": [
+      611.1,
+      647.4,
+      10
+    ],
+    "that as time goes on. So depending on where you start you're going to get different answers. So if you So this particular one it had two big weights to hear and this guy learned or and this guy learned and and then or just turned on the output every time but and just when it came on it at a big negative way to turn off the output. So ": [
+      3139.6,
+      3169.3,
+      78
+    ],
+    "that got really too active or to inactive it would be very slow to learn. Okay, then people noticed a these bipolar units like 10 H, which goes from -1 to 1 looks just like the sigmoid, but it goes from -1 to 1 when that's inactive you. At least you're putting in an input on the line above you that's going to contribute to the error eventually, but it's ": [
+      2060.4,
+      2093.9,
+      49
+    ],
+    "that might screw up other patterns, it wasn't so slow for you guys, but we saw it when I did or in class that it training on 00 would set things up great 400, but then you turn on 01 it couldn't do 0/0 anymore. She had to turn on 0-0 and then you do one zero and now can't 200 anymore. So I'm turning on some patterns will interfere ": [
+      299.1,
+      326.2,
+      3
+    ],
+    "that these are logistic functions all of them. So anything like 4 and above and the input pretty much turns is all the way on and anyone any input -4 turns it all the way off. Okay. So what Boolean function is this network computing without the hidden unit. So if you didn't have this, what's the outer part computing? or nor Right, it's either or it's neither nor nor ": [
+      3844.1,
+      3882.5,
+      92
+    ],
+    "that's one possible solution to ax or but in fact starting with a bunch of different initial random weight so you can get a bunch of solutions to X or and some of them will surprise you right? It's not like what you would have thought of as a solution X or Okay, we have clicker questions. You're ready clickers at the ready. Let's see have to start up iclicker. ": [
+      3169.3,
+      3203.5,
+      79
+    ],
+    "that's the input on that line just like it was for perceptrons just like it was for logistic regression just like it was for softmax rejection regression. Okay, so going back. This is being put on that line this being put on that line in k. And we got this to be just being put on that line. And now we have to worry about this guy. And if you ": [
+      1555.3,
+      1589.2,
+      35
+    ],
+    "the absence of any other input and it turns on the middle guy. Okay. And now what? So if it turns on the middle guy, but there's a one year. There should be a carry out of there. Not you know and tell. This guy says oh there's a carry into that place. And so with all with any three of those on any two of those on will be ": [
+      4390.7,
+      4436.1,
+      106
+    ],
+    "the best right? We don't start and this is the second one is actually how Russell and norvig had brought back prop in volume 1 of artificial intelligence a modern approach. But again backprop is resilient to programming yours. So if you compute the Deltas at the output and then changed the weights into the output and then propagate the Deltas back. Well, you're probably getting the Deltas. Four different ": [
+      3659.7,
+      3696.5,
+      87
+    ],
+    "the guys I'm connected to so that we were trying to figure out the Delta for Edna unit J. I take the Deltas of everybody. I'm connected to I run the network backwards multiplying the Deltas X the weights. So again, this is like an inner product of the Deltas X the weights, but it's going backwards to one to one of the guys one of the Hidden units. So ": [
+      2293.3,
+      2323.7,
+      55
+    ],
+    "the input layer in this is the first hidden unit layer. So these could be one hitting unit layer to the output. It could be one hitting unit layer to the next in unit layer. You going to multiple layers and that's how we get deep Networks. Okay, honey, so many questions about that. That's just notation Z is going to be ambiguous. Okay. So let's say J is the ": [
+      1428.9,
+      1461.1,
+      31
+    ],
+    "them. And so it's contributing its output ZJ times that CJ X whatever that way it is that way to Jay times that way is going to change their input their weighted some of their inputs, right and then so how does that change as my input changes? How does this change as my input changes? And then how does the error change is there input change its? Okay. So ": [
+      1845.4,
+      1874.4,
+      43
+    ],
+    "then and you so I have three I have three by 3 pixels here. And I multiply 0 times that and 1 times that and two times that and 1 times that they form the inner product of this with this. I got a big signal and now it's detected a visual Edge in the image and that's very useful for recognizing images cuz Just about everything has an edge ": [
+      702.4,
+      735.6,
+      12
+    ],
+    "then it has a big negative way to the output. So this does or right along and then just when we get to the line in the truth table where we have to go off and comes on and turns off the output. Okay. all right, so that's called a hidden unit and Minsky and pappert said well, if you had hidden units then you could compute any be in ": [
+      857.8,
+      890.6,
+      16
+    ],
+    "these is perceptrons. and Again, this the solid lines all that this is doing binary addition. And so we're adding 0 and 1211 and the output is 100. Okay, is that right? I think it is. Okay. Alright, so what how does this work? Okay. Well if there's a one here then we wanted one in the ones place up there. Or if there's one over here. We want to ": [
+      4320.1,
+      4362.6,
+      104
+    ],
+    "they are all threes instead of -3 in 6 than these would balance have so you have to have these guys get bigger and bigger in order to you know, suppose these guys somehow. Outweighed this guy. Will they can't because 6 + 3 is 9 it cannot way that guy so it's got to be perfectly balanced. And that's the that's kind of the story about why they have ": [
+      4169.7,
+      4205.3,
+      100
+    ],
+    "this isn't working. Okay, and that's not working. Okay. So why is this wonderful? It's wonderful because it learns internal representations instead of having to on the weekend sit around and think of features. It learns the features. It also learns internal representations and it learns internal representations. It's like real estate location location location. This is the big point of Bachrach. Okay, this is almost your Mantra and I ": [
+      3728.5,
+      3777.3,
+      89
+    ],
+    "to be in this ratio. You have to avoid combinations of the other ones that might Mistakenly turn on or off a hidden unit. Okay, so if it's one suppose, those are all zeros and this is 10. Well, it's got a big negative up to hear 1 x - 12 0 x + 12 to that guy's going to be off. But this guy gets a positive and a ": [
+      4205.3,
+      4239.1,
+      101
+    ],
+    "to mirror its Imports. Wait, so whatever pattern it's responding to its going to try and put that pattern. Add that pattern into the pixels that at output depending on how active it is, right? There are clicker questions coming. Okay. Get get your clippers out. Okay, so what palm and Rowan I did was return this thing. And we go to the PDP group meeting to presenter results and ": [
+      2610.7,
+      2652.6,
+      64
+    ],
+    "to see it had one day at a time word. Yeah, okay. Alright, so what can backprop learn? Okay, just just to be clear it was so if you're writing your back propped program, which we're going to make you actually Implement backprop yourselves or not going to let you use some package. I taken and put front by get an outfit. I compare the output to the teacher and ": [
+      2771.8,
+      2809.9,
+      68
+    ],
+    "to that guy and now it's going to happen. What's the derivative of that going to be? Huh? W i j yeah, so these are all going to be zero. Right, except when k equals J cuz we're thinking all the other things are constant. And so we're going to have just one term of this big some that's wi Jay-Z and that's going or ZJ. Wjk ZJ, and that's ": [
+      2128.9,
+      2171.9,
+      51
+    ],
+    "to visit all the other weights in the network in order to get the output. So it's going to be a border W Squared where W is the number weights. So that's W squared. Backprop is linear in W. You visit each wait once when you do this and you do it for all the weights at once, so that's really really efficient. Okay, any questions about that? questions Okay, ": [
+      2985.7,
+      3025.7,
+      74
+    ],
+    "told the story to beginning right grossberg looked at it and said I did that I did that I didn't do that but it's not interesting. I did that I did that and then not interesting thing was back prop. So we're both kind of put it down for a while and then a 1985 three groups independently discovered it David Parker and undergrad at MIT and I still have ": [
+      1031.8,
+      1059.0,
+      20
+    ],
+    "unit wi J's connected to so this are weight from I to J. So this the input to Jay and then this and this is the weighted some of the inputs. So this is the part it always turns into the input on that line. So just recalling that this is the weighted sum of the inputs to unit J X the output. So it's the output of the previous ": [
+      1486.9,
+      1520.4,
+      33
+    ],
+    "values. You're going to be doing mnist for your next assignment. And then at the hidden units you compute the weighted sum of the inputs. This is from Ida J and from 0 to D. And that gives you the net input or a sub Jay to this hidden unit Jay, okay. And then you apply the activation function to that to get the output of that hidden unit. Okay, ": [
+      1160.2,
+      1194.0,
+      24
+    ],
+    "wait. So I'm running the weights backwards summing them up and then I put in the slope turn. So we can't get rid of that. Except if you make a mistake in your program. Okay, so Paul Monroe and I back in the day with our 1986 or 87 autoencoder for images. You know, it's it's kind of old nobody noticed though. Who does it now, but we did it. ": [
+      2428.7,
+      2465.5,
+      59
+    ],
+    "we're going to have to some my contribution to the air is based on how I affect all these guys above me. Okay, any questions about that? Yeah. Well, I contribute to the error somehow. I'm going to contribute to the air by changing this guy. Who may be an output? Right. And so that's going to change the air or it could be another hidden unit that's connected to ": [
+      1874.4,
+      1910.3,
+      44
+    ],
+    "we're kind of confused cuz here's the air. And here's the training time. And the air goes down. But then it starts to go up again. And it wasn't that our learning rate was too high or anyting and rummelhart just said there's a bug. So we started our code for like an hour or two. And finally we realized that we hadn't put in the slope term for the ": [
+      2652.6,
+      2687.6,
+      65
+    ],
+    "weights than you computed them and you're getting the wrong answer at the hidden units, but because you usually change them slowly it's still pretty much works. So it's another backprop is a resilient to programming errors. We know it doesn't use the slope of the Hidden units. It does use the slope of the app, which does he use that sew A & D. Is the answer okay? So ": [
+      3696.5,
+      3728.5,
+      88
+    ],
+    "were pretty cool because anything they could do. Do they can learn to do? Which is a pretty strong guarantee and there was great and the way they work is that you prevent you randomize the order of the pattern. She presented pattern you update the weights. So it's supervised learning you're giving a target for every output for every input. It's slow because when you train on some patterns ": [
+      246.0,
+      299.1,
+      2
+    ],
+    "what's what's that function called? Nor okay. There we go. So by a combination of nand and nor it solves the problem. Okay, so this is xor except for this guy and that's when this guy comes on and turns the output off. Okay, so it's a lot like the Ouran and solution but negated. Okay, so that's one representation learned by backprop. Not the features you think of first ": [
+      3970.3,
+      4017.1,
+      95
+    ],
+    "when we were doing the output. This is T minus why the difference between what you did and what you should have done. So so far, it's completely consistent with what we did before, okay. And so we know for the outputs that that comes out to that, okay. any questions that's assuming that we have the right objective function and the right output activation function so they end up ": [
+      1666.8,
+      1704.9,
+      38
+    ],
+    "which is equal to 1 W 0 if you have that be some negative number. Then in the absence of other input it'll be off right and so actually leave these is zero. Are sorry. Sorry we want it on 400. So and then you have these B say -2 or -2 and then this is only going to be one when both are one and now we have like ": [
+      492.1,
+      530.8,
+      7
+    ],
+    "with other patterns. And it can only do linearly separable problems. So if your problem is let's make this. positive and this positive and this negative and this negative Concerta works, so there's no way to put a line here that separates these guys from these guys. He can't do it. Right, but okay. So extra is kind of the smallest hard problem. It says it's like the hydrogen atom ": [
+      326.2,
+      379.4,
+      4
+    ],
+    "wrong in some way and you've got a Delta there and you've got a activation year. So even though the way to zero you can change it. right, and now I start to get Some action here and we had some inputs here and we can change those and but the problem is when you do that all the hidden unit compute the same function. Yeah. We'll talk more about ": [
+      3099.8,
+      3139.6,
+      77
+    ],
+    "yeah. First step of backpropagation. Yeah. I don't mean that it is linear in the weights to learn some function. That would be really amazing. Okay, so what is backprop learned? So you start out with some random Network? And by the way, now we have to use random weights to start out cuz if we make them all 0 it doesn't really learn anything. Depends on some things but ": [
+      3025.7,
+      3070.1,
+      75
+    ],
+    "you make it all zero if it's 10 H, then then the tan H20. It's hero and nothing happens. If you use the logistic logistic is .5 it's your oh, so at least you get some activation here, which gives you some output here while it doesn't give you any output there because it the waitress zero, but at least it's an input on that line. So this will be ": [
+      3070.1,
+      3099.8,
+      76
+    ],
+    "you might have six they balance. So you can convince yourself. I hope that that solves the problem. Okay. Yeah. Yeah. Sorry. know your their sigmoid Sorry, I should have said that. But for the next example, it's a good idea to think of them as perceptrons, but they have to be they have to be smooth so you can take derivatives. Okay, here it is useful to think of ": [
+      4272.5,
+      4320.1,
+      103
+    ],
+    "you percent the input. Put. That's the sound the activation makes when it hits the output you give it a teaching signal And you propagate the air backwards through the network and that's why it's called backprop. And then you change the connection strengths according to the air. So here's the picture you given an input pump. You got an output compute the air propagate the are backwards through the ": [
+      1096.0,
+      1128.3,
+      22
+    ],
+    "your final set of outputs. So this is the activation function of the outputs. It could be softmax. It could be linear. It could be the logistic Etc. Okay any questions so far? That's forward propagation. Yeah. Yeah, I don't know. What? Doesn't change it welcome to tinnitus. I just recently discovered. I have tinnitus I still here and there's some buzzing in one of my ears. Okay anyway. Okay, ": [
+      1260.6,
+      1321.5,
+      27
+    ]
+  },
+  "File Name": "Deep Learning - C00 - Cottrell, Garrison W - Fall 2018-lecture_5.flac",
+  "Full Transcript": "listening to a podcast cover pages Okay.  so  Today we're going to talk about backpropagation.  Today, we're going to talk about backpropagation. Can y'all hear me?  the first working  Hello. Hello.  Hello. Hello.  Okay. Okay. Okay. Check check check my volume mic volume is all the way up.  Okay. Anyway, we're going to talk about perceptron. Sorry backpropagation today and I need the lights.  Okay, my adapter for my laptop is over and see you see it's on its way here as soon as my student goes and gets it and brings it over. You borrowed it today. I didn't get it back.  I'm if anybody now that there are more people here. I'll ask one more time. Does anybody have a USB C to VGA adapter?  No Okay, so  Okay, so  I'm sure we saw perceptrons already and they were pretty cool because anything they could do.  Do they can learn to do?  Which is a pretty strong guarantee and there was great and the way they work is that you prevent you randomize the order of the pattern. She presented pattern you update the weights. So it's supervised learning you're giving a target for every output for every input. It's slow because when you train on some patterns that might screw up other patterns, it wasn't so slow for you guys, but we saw it when I did or in class that it training on 00 would set things up great 400, but then you turn on 01 it couldn't do 0/0 anymore. She had to turn on 0-0 and then you do one zero and now can't 200 anymore. So I'm turning on some patterns will interfere with other patterns.  And it can only do linearly separable problems. So if your problem is let's make this.  positive and this positive and  this negative and  this negative  Concerta works, so there's no way to put a line here that separates these guys from these guys. He can't do it.  Right, but okay. So extra is kind of the smallest hard problem. It says it's like the hydrogen atom of machine learning. And so how do we fix that? Turn the ideas on how to fix that? Yeah.  Okay, so I think what you're saying use the product of the two inputs.  How are the square or something?  Oh, okay. So you're saying use a quadratic function instead of a so maybe something it would go like this.  Okay, that's cool. But I don't know if there's a learning algorithm for that. I mean they're short of is but yeah, so that's one way is there something we could do to perceptrons to fix it? Yeah.  Okay. So if this is X1 and this is X2, we could have a third feature which is x 1 x X-2.  and then if we set it up, so  Oh, really? All you need is to have the  goodbye us x 0 which is equal to 1 W 0 if you have that be some negative number.  Then in the absence of other input it'll be off right and so actually leave these is zero.  Are sorry. Sorry we want it on 400. So and then you have these B say -2 or -2 and then this is only going to be one when both are one and now we have like + 5 or something like that.  Okay, so that turns out into a linearly separable problem. So we came up with a new feature which is just the product of the two input features to make it be able to do xor and that's a common strategies to try and come up with features. And for example, rosenblatt himself assumed and nonlinear pre-processing. Well, that's nonlinear. Okay. Another example is  I'd say we have some data like this.  in a circle and we have  we want to separate these guys from these guys.  What's a feature I could use their?  Yeah, so so if you made the but I wanted to be linearly separable so I can if this is 0-0 I can use in this is action in this is why I can use like x squared plus y squared is as an input or as two inputs and then I've got by squaring them. All the Mindless ones are going to be over here and all the plus ones are going to be over here.  And then we can separate them.  Okay. So yeah, so that's a good idea. So and that was where things stood for quite a while and then the last 30 years or so of computer vision up till 2012 was trying to come up with features like this that will not quite like this that could solve a problem like one kind of feature of an image.  might be  her sorry 000 - 2 - 1 - 1 so if you place this over a part of an image where it's dark over here.  And white over here.  Does work very well? Okay, then and you so I have three I have three by 3 pixels here.  And I multiply 0 times that and 1 times that and two times that and 1 times that they form the inner product of this with this. I got a big signal and now it's detected a visual Edge in the image and that's very useful for recognizing images cuz  Just about everything has an edge and that from that you can get like outlines of things in and recognize their shape.  Okay, so okay. This was great. And you know, if you can just come up with great features and that's what what computer vision people did for decades was spend a weekend thinking about what might be a good feature and then put a linear classifier on top like a perceptron.  or softmax  Okay, so  but then this is far as  As far as perceptrons go though in 1969 Minsky and papert. Minsky just died recently. By the way, he's a professor at MIT came out with a book called perceptrons and it showed you know, there were a lot of things like X or that you couldn't compute one other approach to solving xor.  Is you could add a unit in between the input and the output?  So you could have you know, here's the output.  and we want  wait for Muniz. It's always one. That's -1. And here's X1. And here's X2. Hey, thank you. Okay, and  In between you have another unit.  and what this guy does is or we already know how to do that and what this guy does is and  we already know how to do that. And then it has a big negative way to the output. So this does or right along and then just when we get to the line in the truth table where we have to go off and comes on and turns off the output.  Okay.  all right, so that's called a hidden unit and Minsky and pappert said well, if you had hidden units then you could compute any be in function but there's no learning algorithm for hitting units and we don't think one will ever be discovered and and that was the year that Bryson and who discovered back prop which nobody knew about it, but accept Bryson and toe and their colleagues because  But they weren't in our field.  So anyway, and it was a generalization of the Robin's Monroe procedure from the 50s.  And I'm going to plug in here.  Okay.  All right.  Goody.  Anyway, I call that the books that killed Frank rosenblatt.  Because he died in a mysterious boating accident on his birthday and Chesapeake Bay is out sailing and he kind of disappeared over the side. And so there's only one date here. So he was pretty depressed. I assume this is Ithaca you was at Cornell. I was at Cornell, but I was majoring in  You know demonstrations and stuff like that.  Okay, so  if that's okay.  Here we go. Ok, and so and I wasn't into neural Nets or anything then accept as far as reading and Isaac Asimov and science fiction, okay.  So then in 1985, so 1973 Paul Ware Bose discovered it again or 74 in his PhD thesis and he showed it to Steve grossberg who I think I told the story to beginning right grossberg looked at it and said I did that I did that I didn't do that but it's not interesting. I did that I did that and then not interesting thing was back prop. So we're both kind of put it down for a while and then a 1985 three groups independently discovered it David Parker and undergrad at MIT and I still have his tech report on that when he called it learning logic and patented it and then  Young laocoon discovered it in his PhD thesis and Dave rummelhart and Ron Williams and Jeff Hinton discovered it here at UCSD. We're hitting and Williams for postdocs and Dave romarco's faculty in the psych department at that time and it works a lot like perceptron. So you randomly choose some input output pattern you percent the input. Put. That's the sound the activation makes when it hits the output you give it a teaching signal  And you propagate the air backwards through the network and that's why it's called backprop. And then you change the connection strengths according to the air.  So here's the picture you given an input pump. You got an output compute the air propagate the are backwards through the network and the algorithm uses the chain rule calculus to go downhill in the air measure with respect to the weights, which what we've been doing right gradient descent and the hidden units have to then learn features that solve the problem.  So first, let's talk about forward propagation just to make sure we're on the same page with that.  So we start with some inputs like feminist pickled pixel values. You're going to be doing mnist for your next assignment.  And then at the hidden units you compute the weighted sum of the inputs. This is from Ida J and from 0 to D. And that gives you the net input or a sub Jay to this hidden unit Jay, okay.  And then you apply the activation function to that to get the output of that hidden unit.  Okay, and this could be the logistic. It could be a rello. It could be 10 H. People are even starting to put soft Max in the middle of network switch MidFirst didn't make a lot of sense, but you can kind of use it as an attention signal like what you're attending to and you multiply the output of that X other outputs and you gate what you're looking at so that only some things get through the network see, but anyway, then we get all these these and this is the there's still a bias term for the outputs.  And then we propagate those forward and we get a awaited some for the outputs. And now it's 0 to M because we have some number of hidden units and then you apply the activation function to that and get your final set of outputs. So this is the activation function of the outputs. It could be softmax. It could be linear. It could be the logistic Etc. Okay any questions so far? That's forward propagation. Yeah.  Yeah, I don't know.  What?  Doesn't change it welcome to tinnitus. I just recently discovered. I have tinnitus I still here and there's some buzzing in one of my ears.  Okay anyway.  Okay, so backprop learning. I'm going to drive back prop for you. I'm going to do it on the slides cuz I always make mistakes when I do it on the board, but it's still gradient descent. Okay. So for any now, we have you no pairs of things just like we did for softmax, but it might be from here to hear. It might be from here to hear etcetera.  Okay.  and now we have to take into account the hidden units and the reason here why we can't  Have the perceptron activation function here is because the way we're going to figure out how to propagate the error backwards is we're going to use the chain rule calculus.  And you can't apply that to a binary threshold unit cuz it's not continuous and besides.  Any gradient of that would be zero.  Okay. So let's talk a little bit about notation zi is going to mean here. It's going to mean either the output of hidden unit where this is hidden units taking the weighted sum of its inputs flying the non-linearity and then we've got the output and we multiply that times this way to add into this guy's input or z i could be an input like it's the input layer in this is the first hidden unit layer. So these could be one hitting unit layer to the output. It could be one hitting unit layer to the next in unit layer. You going to multiple layers and that's how we get deep Networks.  Okay, honey, so many questions about that. That's just notation Z is going to be ambiguous. Okay. So let's say J is the objective function we want to figure out what's the derivative of Jay with respect to this weight in the network. And as usual we're going to start while I don't know if this is usual. I don't know if I did this before but we'll use the chain rule to do this.  so we'll try and figure out the derivative of the air with respect to the input to the unit wi J's connected to  so this are weight from I to J. So this the input to Jay and then this and this is the weighted some of the inputs. So this is the part it always turns into the input on that line.  So just recalling that this is the weighted sum of the inputs to unit J X the output. So it's the output of the previous layer times to wake you some all that up take the derivative that was expected wi J. And again since it's a partial derivative, all of these terms are zero because she is fixed. This is fixed when we are doing partial derivatives, except when I equals k,  So I move the derivative inside cuz the derivative the sun is some of the derivatives.  And that's just see I so that's the input on that line just like it was for perceptrons just like it was for logistic regression just like it was for softmax rejection regression. Okay, so going back.  This is being put on that line this being put on that line in k.  And we got this to be just being put on that line. And now we have to worry about this guy.  And if you remember the Delta rule it had that input on that line there and this was the difference between what you did and what you should have done and there's so what we're going to end up doing is defining this or the negative of it as Delta.  Okay.  So just like before we have a term that the input on the line for my d'jais.  And now we're going to Define delta J to B- of the derivative J with respect to AJ.  and so  Third derivative of Jay with respect to w i j is this and this I just defined as Delta. Okay, the negative of this is is Delta. So it's okay.  and  gradient descent says we're going to do this. We're going to go downhill.  Which means we're going to end up with this and remember when we were doing the output. This is T minus why the difference between what you did and what you should have done.  So so far, it's completely consistent with what we did before, okay.  And so we know for the outputs that that comes out to that, okay.  any questions  that's assuming that we have the right objective function and  the right output activation function so they end up being t- why which we like  Okay.  But for hidden units we have to take into account every units at Jason's output to so J is in unit. It send output directly to the output unit sword could send output to the next hidden layer up. And so the air is going to change as its input changes and we can again use the chain rule where we sum up all of the ways that the air changes as the input to those guys were connected to changes.  X how their input changes with respecting my input  Okay, is that make sense? I'm going to sum up all the ways the guys are bug me that I'm connected to how the air changes with respected them their net input and how their net input changes is my net input changes. Okay. This is just the chain rule. It's this weird-looking chain rule though, cuz we've got the sum and I have to admit that I stared at this for a really long time back in 1985 or so before you were born.  And I I kind of get it now.  33 years later, okay.  So to know how changing my how changing my input changes the error I have to know how they are this what I just said * how their input changes his mind for changes her again. This part should be fairly clear because it's the chain rule but the sum is a little weird cuz you're thinking about what everybody you're connected to.  So this the idea you should have in your mind. Here's some hidden unit.  And it's connected to all these other units above them. And so it's contributing its output ZJ times that CJ X whatever that way it is that way to Jay times that way is going to change their input their weighted some of their inputs, right and then so how does that change as my input changes? How does this change as my input changes? And then how does the error change is there input change its? Okay. So we're going to have to some my contribution to the air is based on how I affect all these guys above me.  Okay, any questions about that?  Yeah.  Well, I contribute to the error somehow. I'm going to contribute to the air by changing this guy.  Who may be an output?  Right. And so that's going to change the air or it could be another hidden unit that's connected to an output and it's going to change the air as I change this and this and this and so  The way I affect the error has to wait as to sum up the way all these guys affect the air.  Cuz I affect all of them.  Okay.  Okay, fine.  If your if you have the only dumb question is the one that isn't asked.  So if you have a question right now, there's probably doesn't other people in the class have the same question.  I just have to find the person brave enough to ask it okay?  No questions. Okay. It's all perfectly clear. Good glad to hear it. So moving right along.  Okay. Yes. What we did find. This is Delta. Right? So I put a minus sign out there and put Delta K. That's Delta.  Dudududu dudududu. Okay, and then I've got this guy.  And now I'm going to use the chain rule on that guy. Like how does his input change as my output changes 4 times. How does my output change as my input changes? I just played the chain rule again. And what's this guy?  Sorry.  Delta no, no.  there's a this is  this is X the activation. So it's G 8 G of A J Wright.  So this is just going to be the slope of the Hidden unit at that point.  This is really giave Jay and so the derivative that was perfect to its input is G Prime of AJ.  And there's the rub because it means we can't get rid of the slope for the hidden units in 4 years many of us used the logistic for hitting units and if that got really too active or to inactive it would be very slow to learn.  Okay, then people noticed a these bipolar units like 10 H, which goes from -1 to 1 looks just like the sigmoid, but it goes from -1 to 1 when that's inactive you.  At least you're putting in an input on the line above you that's going to contribute to the error eventually, but it's not in putting a zero to the next layer up.  Okay, and since Jay is independent of K. We're sending over K. And this just involves Jay. I can pull that out.  And this is again just going to be the slope term.  Okay.  Okay, okay.  Okay, and then the definition of this guy is is the sum of the weighted sum of the inputs W, you know the input to that guy and now it's going to happen.  What's the derivative of that going to be?  Huh?  W i j yeah, so these are all going to be zero.  Right, except when k equals J cuz we're thinking all the other things are constant.  And so we're going to have just one term of this big some that's wi Jay-Z and that's going or ZJ.  Wjk ZJ, and that's going to be w i j.  Do do do do okay.  So it's just like when you end up with just the input on that line, except it's the opposite you get to wait cuz you're taking the derivative with respect to the input on that line.  Okay, so you got that?  because every summon that every term in the sum is zero, except when I Coast Jay, okay, and I've already said that Steve Prime of  Hey Jay, and for some reason and this derivation, I didn't make the put it there. I don't know why I guess just to make it make it look more complicated.  Okay, and congratulations on having made it this far in the class. There's not going to be any more homework. So that are as hard as that last one.  It is written homework.  Why?  Etsy  That's so we were talking about w i j.  Rxr ewj here.  So we're trying to find the derivative of the suspected Jay and did I screw up?  I know there's Jay. Okay, it's the same guy.  Okay, so  This derivative now. I did it finally is mine SG Prime of AJ. So it's the slope of that hidden unit.  * the sum of the Deltas  have the guys I'm connected to so that we were trying to figure out the Delta for Edna unit J. I take the Deltas of everybody. I'm connected to I run the network backwards multiplying the Deltas X the weights. So again, this is like an inner product of the Deltas X the weights, but it's going backwards to one to one of the guys one of the Hidden units.  So but since this is this Delta Zach guy, okay, so that's how we compute Delta.  Okay.  So the original schema for gradient descent is this and that leads to this? Okay, so it's just that there's still learning right? But this is exactly what we had before.  So this is T minus wife James and output unit swimming the right combination of objective function and output activation function and this is Delta if Jay is a hidden unit.  And there is no Delta if Jay is an input unit. You don't change the input units okay for you, could you could back brake propagate all the way to the inputs and try and change them?  We'll see ya later that that's been done. So we have a recursive definition of delta. We know what it is through the output units once we've computer dit for the output units, then we can computed for the hidden layer below that.  Once we've computed them for that we can computers for the hidden layer below that Etc.  So this the idea that have in mind I compute some Delta's for everybody hears me and trying to compute my Delta. I compute the Deltas of everybody on connected to you multiply them times to wait. So I'm running the weights backwards summing them up and then I put in the slope turn.  So we can't get rid of that.  Except if you make a mistake in your program.  Okay, so Paul Monroe and I back in the day with our 1986 or 87 autoencoder for images.  You know, it's it's kind of old nobody noticed though. Who does it now, but we did it. So I'm coder is a neural network that takes an input in and and in this case an image in so it's a bunch of pixel values.  And they were connected to Hidden units.  and and then they were connected to the output which was  again, an image  And what were training it to do is just to reproduce its input on the output. That's why it's called an auto encoder because even though it's supervised learning.  Right, I'm using backprop. The input is the teacher. So it's really either self supervised learning or unsupervised learning and it's called an encoder because usually you have fewer units here than you have inputs. And so you're finding a compressed representation of the image and then you're blowing it up again. And so it's going to filter the image and not be quite as sharp as the original image, but that's an that's an auto encoder. Okay. Any questions about wondering autoencoder is  Yeah.  Why?  You know, they're used all over the place. It turns out but I mean suppose you wanted suppose. I'm up on Mars and I'm taking pictures of the Martians and I want to send it back to Earth and suppose for every picture. I have to shoot a rocket off. So it's really expensive if I just tell her that what these weights are these rights are which are usually kind of the inverse of these weights has rummelhart said, you know the heading in and I'll try and reproduce What it sees which is what I do if I was a hidden unit says frontal heart and so it's how to put weights are probably going to mirror its Imports. Wait, so whatever pattern it's responding to its going to try and put that pattern.  Add that pattern into the pixels that at output depending on how active it is, right? There are clicker questions coming.  Okay.  Get get your clippers out. Okay, so what palm and Rowan I did was return this thing.  And we go to the PDP group meeting to presenter results and we're kind of confused cuz here's the air.  And here's the training time.  And the air goes down.  But then it starts to go up again.  And it wasn't that our learning rate was too high or anyting and rummelhart just said there's a bug.  So we started our code for like an hour or two. And finally we realized that we hadn't put in the slope term for the hidden units. So backprop. It's kind of her best to programming yours. Okay. Just kind of cool.  Okay.  So that's a little anecdote. I like to tell you.  It's the difference between the input and the output.  It said yeah. Yeah, this is T.  This is why.  And you some that up over all the outfits and we is logistic activation functions. But if you do this so that the hidden unit 2 linear and the output unit 2 linear, which is what we should have done. Then this is essentially does principal component analysis. If you know what that is. I'll tell you what that is later, but  Because it's try to optimize the same thing as PCA as the square there. Yeah.  see  yeah, I even programmed in bcpl is called bcpl and  and there was the predecessor to see it had one day at a time word.  Yeah, okay. Alright, so what can backprop learn?  Okay, just just to be clear it was so if you're writing your back propped program, which we're going to make you actually Implement backprop yourselves or not going to let you use some package. I taken and put front by get an outfit. I compare the output to the teacher and I get T minus y and I send that back here send that back here and then  I've now computed the gradient for all the weights I've computed.  the  I've computed the partial of Jay with suspected wi Jay. Okay, and  So, why is this cool? Why is this really really good in terms of efficiency?  How many people know how to numerically approximate a gradient or derivative anybody you do you do? Okay. What are you do so  I have this input I give you the input and forth. I got an output.  And then I can compute the air.  And suppose in the middle of year. I've got a weight w i j and I want to check is my gradient, right? You can do a numerical approximation to the derivative.  By doing what will you add Epsilon or sorry you add Epsilon to the weight. So remember we're trying to go.  Downhill in the air so we have some error function in this is w i j and this is Jay.  Okay and suppose I'm right here. This is the value of w i j right now if I add a little bit to that and compute the air I'll get that number. So that's adding Epsilon If I subtract Epsilon from that.  I can compute then I compute the error.  And then what's so that's the rise I can subtract that from this from that. That's the Run.  It stood out to Epsilon until I'm Computing linear approximation to the slope.  Okay, and if Epsilon is small enough, it's going to be pretty linear.  But I have to hold all the other way to the network fixed while I do that.  Okay, so I have to do it for one way and that and I have to run everything all my patterns through the network to figure out the true grade in.  And then I pick another wait and do it again pick another wait and do it again. It's really going to be expensive because not only do I change this weight, but I have to visit all the other weights in the network in order to get the output. So it's going to be a border W Squared where W is the number weights.  So that's W squared.  Backprop is linear in W. You visit each wait once when you do this and you do it for all the weights at once, so that's really really efficient.  Okay, any questions about that?  questions  Okay, yeah.  First step of backpropagation. Yeah.  I don't mean that it is linear in the weights to learn some function. That would be really amazing.  Okay, so what is backprop learned? So you start out with some random Network?  And by the way, now we have to use random weights to start out cuz if we make them all 0 it doesn't really learn anything.  Depends on some things but you make it all zero if it's 10 H, then then the tan H20. It's hero and nothing happens. If you use the logistic logistic is .5 it's your oh, so at least you get some activation here, which gives you some output here while it doesn't give you any output there because it the waitress zero, but at least it's an input on that line. So this will be wrong in some way and you've got a Delta there and you've got a activation year. So even though the way to zero you can change it.  right, and now I start to get  Some action here and we had some inputs here and we can change those and but the problem is when you do that all the hidden unit compute the same function.  Yeah.  We'll talk more about that as time goes on.  So depending on where you start you're going to get different answers. So if you  So this particular one it had two big weights to hear and this guy learned or and this guy learned and and then or just turned on the output every time but and just when it came on it at a big negative way to turn off the output. So that's one possible solution to ax or but in fact starting with a bunch of different initial random weight so you can get a bunch of solutions to X or and some of them will surprise you right? It's not like what you would have thought of as a solution X or  Okay, we have clicker questions. You're ready clickers at the ready.  Let's see have to start up iclicker.  Okay, start new session.  Okay.  Are you ready?  Hey.  Okay.  Well, send me your already voted. You haven't even seen the question yet. That's amazing. How did you know?  sorry, everybody thinks that my answers are alright already a  but I can't seem to advance out of there we go.  Okay.  Have advanced the sides now.  Okay, so the tldr back propped of rhino or TL DR?  Too long didn't read. Okay, the opposite of forward propagation learnt internal representations. It's a form of gradient descent.  It changes the activations to go downhill in the parameters.  What's the what's the best answer here? I can imagine you might pick.  Some other answer, but what's the best answer?  Okay, 73 of you have answered said all of you.  going  going  going  gone. Okay. So 68% of you got the right answer. Nobody said he thankfully this time neighbor you have a 7 in 10 chance that your neighbor knows the answer.  unless all the smart people sit together and  Why this clicker question is really funny apparently.  Okay, it's settled down. Let's vote again. Try again.  Okay, okay.  Okay.  Keep going.  Okay, we went up 4%  preds progress. I don't know if it's the testiclea significantly better, but it is better.  Okay, I'm going to close it out going going going gone. Okay, what's the answer?  Okay.  She is gradient I sent.  It's not gradient descent.  You have to read the answers.  before you answer  Okay.  Okay. Okay. Don't go I'll post on me. Yeah, it changes the activations to go downhill know it changes the weights to go downhill in the error.  Okay.  It is kind of the opposite of forward propagation, but in five you thought that but the real answer.  Is that it learns internal representations or features like and an or the example? I just gave ya.  backprop learns  I'm sorry. Okay. Okay, it learns internal representations. Okay, just one more and then you can leave if you don't like this anymore. Okay, okay.  Computing the Deltas starts with the output their propagated backwards in the waiter changed starts at the output the way to change send the Deltas are propagated backwards uses the slope of the output unit uses the slope of the Hidden units A & D  .  K  we're we're we're going good so far.  mostly looking good  okay, many of you are not answering the  the Serta catch question good  Okay, I think that's almost everybody.  Anybody else when I weigh in? Okay going going going gone. The last minute went from 81% to 79% So now you have to okay. So how many people here have written down the right answer on a test erased it and then written down the wrong answer.  Everybody you're lying. Okay.  Okay, what's the answer class?  Thank you. Okay, this is right. You started the output propagated backwards in the weights are changed, but it's not the best right?  We don't start and this is the second one is actually how Russell and norvig had brought back prop in volume 1 of artificial intelligence a modern approach. But again backprop is resilient to programming yours. So if you compute the Deltas at the output and then changed the weights into the output and then propagate the Deltas back. Well, you're probably getting the Deltas.  Four different weights than you computed them and you're getting the wrong answer at the hidden units, but because you usually change them slowly it's still pretty much works. So it's another backprop is a resilient to programming errors. We know it doesn't use the slope of the Hidden units. It does use the slope of the app, which does he use that sew A & D.  Is the answer okay?  So this isn't working. Okay, and that's not working.  Okay.  So why is this wonderful?  It's wonderful because it learns internal representations instead of having to on the weekend sit around and think of features.  It learns the features. It also learns internal representations and it learns internal representations. It's like real estate location location location. This is the big point of Bachrach. Okay, this is almost your Mantra and I quite it's a fishing you sure do that. And the cool thing is that generalize has it turns out to recurrent networks, which is what our brains are.  Okay.  And we'll see how that works. Later.  So in the next K slides work is some small integer because we've only got 7 minutes. I'm going to look at various representation sit back prop is learned in problems that solved and again your mind right now back propped learns representations in the service of the tasks.  They remember that that's your mantra.  Okay. So here's a version of xor it's one of those ones. You wouldn't have thought of.  The number in the in the unit is the bias. So think of that is what the unit likes to do in the absence of any other input and I should say that these are logistic functions all of them. So anything like 4 and above and the input pretty much turns is all the way on and anyone any input -4 turns it all the way off. Okay. So what Boolean function is this network computing without the hidden unit. So if you didn't have this, what's the outer part computing?  or  nor  Right, it's either or it's neither nor nor it is nor is Computing door. Okay, very right. So why is it Computing nor this thing likes to be on in the absence of any input sonor means that it's going to be on 400.  401  this comes up and turns that down but  it's not enough. It's still on 1-0. This comes up and turns it off at night off enough. But if both of them come on, it turns off the output. So what is it? It's it's nand not nor it's neither or nor nor its name and that's hard to say.  Okay.  So that's nand.  Okay.  Okay, what is this guy doing?  It only turns on 400. It's got a hot. It's got a bias 2.2 is enough to turn on this guy.  In any if there's any input on and turns it off.  So what's what's that function called?  Nor okay. There we go. So by a combination of nand and nor it solves the problem.  Okay, so this is xor except for this guy and that's when this guy comes on and turns the output off.  Okay, so it's a lot like the Ouran and solution but negated.  Okay, so that's one representation learned by backprop.  Not the features you think of first first off for a  here's an interesting one. That's a little mind-boggling.  So this is the input.  This is a hidden unit now to Hidden unit and this is the output. So this is Computing symmetry of its input.  So 11000 is not symmetric. Its is it symmetric around this this is not symmetric.  So, what's what what's going on here?  the weights are in this is 3 2 - 6 2 + 12 - 3 + 6 - 12  - 12 + 6 - 3 + 3 - 6 + 12  What what's going on here? So  Yeah sort of. But okay. So so this would be symmetric if it was one one zero zero one one, right?  What if it was one one zero zero one one what would happen? Well, if this was on and that was on this puts in a -6 this puts in a plus-6, they cancel each other out and this hidden unit likes to be off in the absence of any other input. This guy likes to be on so it's detected asymmetries. It's going to say it's symmetric unless told otherwise  So if it doesn't get any input from these guys, which have big negative nines to this. So if either one of those comes on and turns off the output, so these this network is a kind of asymmetry detector.  And so if the if things are symmetric, these guys are going to balance and they're going to balance down here as well. But if they're not symmetric.  Well, this is -3 + 6, so it's going to turn that one on.  they can't be like all threes because if they are all threes instead of -3 in 6 than these would balance have  so you have to have these guys get bigger and bigger in order to you know, suppose these guys somehow.  Outweighed this guy. Will they can't because 6 + 3 is 9 it cannot way that guy so it's got to be perfectly balanced. And that's the that's kind of the story about why they have to be in this ratio. You have to avoid combinations of the other ones that might  Mistakenly turn on or off a hidden unit.  Okay, so if it's one suppose, those are all zeros and this is 10. Well, it's got a big negative up to hear 1 x - 12 0 x + 12 to that guy's going to be off.  But this guy gets a positive and a negative 12. So this guy I'll turn on so this guy turns on when this is one zero this guy turns on when it's 01.  So again, it's an asymmetry detector.  But if it's symmetric all of these cancel each other if one if it was zero one zero zero one zero.  Let's get to -6 this get to + 6. They balance this gives a plus six this cuz you might have six they balance.  So you can convince yourself. I hope that that solves the problem.  Okay.  Yeah.  Yeah.  Sorry.  know your their sigmoid  Sorry, I should have said that.  But for the next example, it's a good idea to think of them as perceptrons, but they have to be they have to be smooth so you can take derivatives.  Okay, here it is useful to think of these is perceptrons.  and  Again, this the solid lines all that this is doing binary addition.  And so we're adding 0 and 1211 and the output is 100. Okay, is that right?  I think it is. Okay. Alright, so what how does this work? Okay. Well if there's a one here then we wanted one in the ones place up there.  Or if there's one over here. We want to one in the ones place over here.  Right. So these are solid + 1 lines, but if they're both on then what we have a carry.  And this guy only is an aunt of these two so it took Carrie detector. What is it? Do it turns off the guy that they're trying to turn on by having a big negative to wait and that likes to be off in the absence of any other input and it turns on the middle guy.  Okay.  And now what?  So if it turns on the middle guy, but there's a one year.  There should be a carry out of there.  Not you know and tell.  This guy says oh there's a carry into that place.  And so with all with any three of those on any two of those on will be have a carry out of that place.  And it just that case if there is a carry out of that place it turns off that guy and turns on that guy.  How many layers is this network?  It has two hidden layers. This one is before that one. Although there skip connections here. It's  This is kind of the first hidden Lair. That's the second admire, but their direct also directly connected to the input this network.  Now what I didn't tell you I guess yet is that backprop has local Minima it can get stuck.  And not learn something.  And although if you have enough hidden units are a lot of ways around the block and hyperspace and most local minimum are okay, but this problem is soft is small enough that half the time it has a local minimum.  Can you guess why?  Guy learns to be the carry out of the first place.  It's too late then for this guy to figure out if there's a carry out of the middle place.  Because it can't find out that there's a carry because it's Upstream of that guy.  doesn't find out that there was a carry so  half the time that guy learns to be the carry out of the first place and there are originally there are connections everywhere here. So for example, this guy isn't connected to that that just means it that way to learn to be zero.  Okay, but initially it was connected to everything and it could learn to carry out of that place and then the skies host. He can't be the carry out of the middle place cuz he doesn't have enough information.  Okay, it's 6:16. I have a plane at 7:40. So I'm going to save the good stuff for next week.  Thank you.  UC San Diego podcast for more visit podcast. "
+}
