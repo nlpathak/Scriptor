@@ -185,12 +185,55 @@ class APIClient {
 
     /** Search-based functions **/
     // Implemented unfiltered search to toast
-    searchPodcasts(text_query, filters = {}) {
+    searchPodcasts(text_query, filters) {
         var url_query = filters;
         url_query.q = text_query;
         var queryString = querystring(url_query);
         return new Promise((resolve, reject) => {
             fetch("/api/search/podcasts/" + queryString, {headers: this._getRequestHeaders()}).then(response => response.json())
+                .then((response) => {
+                    if (response.success) {
+                        resolve(response.results);
+                    } else {
+                        reject(response.error);
+                    }
+                })
+        });
+    }
+
+    /* Auxiliary search methods for input autocomplete */
+    searchDepartments(query) {
+        var queryString = querystring({q: query});
+        return new Promise((resolve, reject) => {
+            fetch("/api/search/departments/" + queryString, {headers: this._getRequestHeaders()}).then(response => response.json())
+                .then((response) => {
+                    if (response.success) {
+                        resolve(response.results);
+                    } else {
+                        reject(response.error);
+                    }
+                })
+        });
+    }
+
+    searchProfessors(query) {
+        var queryString = querystring({q: query});
+        return new Promise((resolve, reject) => {
+            fetch("/api/search/professors/" + queryString, {headers: this._getRequestHeaders()}).then(response => response.json())
+                .then((response) => {
+                    if (response.success) {
+                        resolve(response.results);
+                    } else {
+                        reject(response.error);
+                    }
+                })
+        });
+    }
+
+    searchQuarters(query) {
+        var queryString = querystring({q: query});
+        return new Promise((resolve, reject) => {
+            fetch("/api/search/quarters/" + queryString, {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
                         resolve(response.results);

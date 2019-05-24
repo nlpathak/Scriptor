@@ -16,10 +16,9 @@ class Login extends Component {
     onSubmit(e) {
         e.preventDefault();
         APIClient.login(this.state.email, this.state.pass).then((authToken) => {
-            toast("Welcome Back", {className: 'popup'});
             window.location.reload();
         }).catch(e => {
-            toast.error("Invalid Username or Password");
+            toast("Invalid Username or Password", {className: 'popup error'});
             // @David
         });
     }

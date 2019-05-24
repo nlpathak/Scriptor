@@ -1,27 +1,36 @@
 from flask import Blueprint, request, jsonify, g
 
+from backend.search import utils
 from backend.search.models import PodcastTranscriptionBlob
 from backend.users.models import HistoryItem
 
 search_blueprint = Blueprint('search', __name__, url_prefix="/api/search")
 
-
 @search_blueprint.route("/departments/", methods=['GET'])
 def search_departments():
-    # TODO:
-    pass
+    q = request.args.get("q")
+    if not q:
+        return jsonify(success=False, error="Please provide a search query."), 400
+    departments = utils.search_departments(department=q)
+    return jsonify(success=True, results=departments)
 
 
-@search_blueprint.route("/courses/", methods=['GET'])
-def search_courses():
-    # TODO:
-    pass
-
-
-@search_blueprint.route("/professor/", methods=['GET'])
+@search_blueprint.route("/professors/", methods=['GET'])
 def search_professors():
-    # TODO:
-    pass
+    q = request.args.get("q")
+    if not q:
+        return jsonify(success=False, error="Please provide a search query."), 400
+    professors = utils.search_professors(professor=q)
+    return jsonify(success=True, results=professors)
+
+
+@search_blueprint.route("/quarters/", methods=['GET'])
+def search_quarters():
+    q = request.args.get("q")
+    if not q:
+        return jsonify(success=False, error="Please provide a search query."), 400
+    quarters = utils.search_quarters(quarter=q)
+    return jsonify(success=True, results=quarters)
 
 
 @search_blueprint.route("/podcasts/", methods=['GET'])

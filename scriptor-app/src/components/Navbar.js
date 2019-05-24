@@ -54,8 +54,8 @@ class Navbar extends Component {
                 contentStyle={{padding: '0px', border: 'none'}}
                 arrow={false}>
                 <div className='dropdown'>
-                    <button onClick={e => this.redirect(e, '/user')}>HISTORY</button>
-                    <button onClick={e => this.redirect(e, '/user')}>FAVORITES</button>
+                    <button onClick={e => this.redirect(e, '/history')}>HISTORY</button>
+                    <button onClick={e => this.redirect(e, '/favorites')}>FAVORITES</button>
                     <button onClick={e => this.redirect(e, '/user')}>SETTINGS</button>
                     <button onClick={e => this.logout(e)}>LOG OUT</button>
                 </div>

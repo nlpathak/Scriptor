@@ -1,14 +1,14 @@
 import React from 'react';
-import Changepass from './components/Changepass.js'
-import APIClient from './api/APIClient';
-import './User.css';
+import Favorite from './components/FavResult.js';
+import APIClient from './api/APIClient.js';
+import './Favorites.css';
 
-function User() {
+function Favorites() {
   const loggedin = APIClient.isCurrentUserLoggedIn();
   if(loggedin) {
     return (
       <div>
-            <Changepass />
+        <Favorite/>
       </div>
     );
   } else {
@@ -16,4 +16,4 @@ function User() {
   }
 }
 
-export default User;
+export default Favorites;

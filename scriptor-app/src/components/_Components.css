@@ -224,15 +224,35 @@ button:focus {
 }
 
 .favorites .header h1 {
-    font-weight: normal;
-    width: 20%;
-    font-size: 27px;
+    float: left;
+    color:rgba(72,136,163,.93);
+    padding-bottom: 15px;
+    padding-right: 100px;
+    font-size: 40px;
+    cursor: default;
 }
 
-.favorites .FavList List{
-    font-weight: bold;
-    padding: 20px;
-    font-size: 25px;
+.favorites .favList  {
+    float: left !important ;
+    font-size: 30px !important;
+    cursor: default;
+}
+
+.favorites .favList .favResult {
+    list-style-type: none;
+    padding-bottom: 26px;
+
+}
+
+.favorites .favList .favResult a {
+    list-style-type: none;
+    text-decoration: underline;
+    color:rgba(72,136,163,.93);
+}
+
+.favorites .favList .favResult a div img{
+    position: absolute;
+    right: 150px;
 }
 
 /* Settings */
@@ -291,11 +311,16 @@ button:focus {
     text-decoration: underline;
 }
 
+
+/*** Toast ***/
 .popup {
     background:rgba(72,136,163,.93) !important;
-    font-family: Heiti SC, sans-serif !important;
+    font-family: Raleway, sans-serif !important;
     color: rgba(255,255,255,1) !important;
     border-radius: 10px !important;
     font-size: 20px !important;
     text-align: center !important;
-  }
+}
+.error {
+    background:rgba(207, 70, 70, 0.93) !important;
+}
