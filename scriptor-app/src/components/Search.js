@@ -58,7 +58,11 @@ class Search extends Component {
                     const timeStamp = minutes + ":" + updatedSeconds;
                     const vidUrl = back.ucsd_podcast_video_url;
                     console.log(back);
-                    var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "]" + " | " + back.professor + " | " + "Lecture " + back.lecture_num, blurb: element.transcription_blob, timestamp: timeStamp, url: vidUrl}
+                    var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "]" + " | " + back.professor + " | " + "Lecture " + back.lecture_num, 
+                        blurb: element.transcription_blob, 
+                        timestamp: timeStamp, 
+                        url: vidUrl
+                    }
                     this.setState(prevState => ({results: [...prevState.results, result]}));
                     counter++;
                     if(counter == response.length){

@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 import './PodcastPage.css';
 import APIClient from './api/APIClient.js';
 import queryString from 'query-string';
+import { Link } from 'react-router-dom';
 
 class PodcastPage extends Component {
     values = queryString.parse(this.props.location.search);
@@ -79,6 +80,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.color = "rgba(255,255,255,1)";
                 document.getElementById('togglebutton').style.border = "none";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(72,136,163,.93)";
+                document.getElementById('togglebutton').innerHTML = "Favorite";
             } else {
                 APIClient.addFavoritePodcastById(this.values.podcast_id).then(response => {
                     toast("Added to Favorites", {className: 'popup'});
@@ -87,6 +89,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+                document.getElementById('togglebutton').innerHTML = "Unfavorite";
             }   
         });
 
@@ -110,6 +113,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+                document.getElementById('togglebutton').innerHTML = "Unfavorite";
             } else {
                 this.state.isFavorited= false;
             }   
@@ -122,10 +126,16 @@ class PodcastPage extends Component {
                         <source src={this.formatVideoLink()}/>
                     </video>
                     <div className='text'>
-                        <p >{this.formatRelevantText()}</p>
-                        <a href='#' className='link'>See Highlights</a>
+                        <h3>Speech-to-Text</h3>
+                        <p style={{marginTop: '22px'}}>{this.formatRelevantText()}</p>
+                        <Link
+                        className='link'
+                        to={{
+                        pathname: "/transcript",
+                        search: "?podcast_id=" + this.values.podcast_id 
+                        }}
+                        >View Full Transcript</Link>
                     </div>
-
                 </div>
                 <div className="btn-group pagewide fullgroup">
                     <div className="btn-group pagewide">
@@ -133,9 +143,6 @@ class PodcastPage extends Component {
                     </div>
                     <div className="btn-group pagewide">
                         <button type="button" className="btn" onClick={e => this.relocate(e)}>GO TO PODCAST</button>
-                    </div>
-                    <div className="btn-group pagewide">
-                        <button type="button" className="btn" onClick={e => this.viewTranscript(e)}>VIEW TRANSCRIPT</button>
                     </div>
                 </div>
             </div>
