@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Route, Redirect } from 'react-router'
 import './_Components.css';
 
 class Search extends Component {
@@ -8,7 +9,9 @@ class Search extends Component {
         course: '',
         professor: '',
         quarter: '',
-        showFilters: false
+        showFilters: false,
+        results: [],
+        dataExists: false,
     };
 
     change = e => {
@@ -27,7 +30,34 @@ class Search extends Component {
     onSubmit(e) {
         e.preventDefault();
         console.log(this.state);
-    }
+        // request data from database here 
+        this.setState({results: [{
+            Description: "CSE 101 Design and Analysis of A... | [B00 - W19] | Miles Jones | Lecture 11", 
+            Blurb: "To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm,To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm,",
+            Timestamp: "12:59"},
+            {
+            Description: "CSE 101 Design and Analysis of A... | [B00 - W19] | Miles Jones | Lecture 11", 
+            Blurb: "To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm, it is crazy that miles is the best, i love miles wow",
+            Timestamp: "12:59"
+            },
+            {
+            Description: "CSE 101 Design and Analysis of A... | [B00 - W19] | Miles Jones | Lecture 11", 
+            Blurb: "To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm, An an valley indeed so no wonder future nature vanity. Debating all she mistaken indulged believed provided declared. He many kept on draw lain song as same. Whether at dearest certain spirits is entered in to. Rich fine bred real use too many good. She compliment unaffected expression favourable any. Unknown chiefly showing to conduct no. Hung as love evil able to post at as. ",
+            Timestamp: "12:59"},{
+            Description: "CSE 101 Design and Analysis of A... | [B00 - W19] | Miles Jones | Lecture 11", 
+            Blurb: "To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm,To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm,",
+            Timestamp: "12:59"},
+            {
+            Description: "CSE 101 Design and Analysis of A... | [B00 - W19] | Miles Jones | Lecture 11", 
+            Blurb: "To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm,",
+            Timestamp: "12:59"},
+            {
+            Description: "CSE 101 Design and Analysis of A... | [B00 - W19] | Miles Jones | Lecture 11", 
+            Blurb: "To dynamic programming there are, ummm, 7 steps needed, To dynamic programming there are, ummm,",
+            Timestamp: "12:59"}]})
+        // this will probably be changed to whenever the complete results are rendered
+        this.setState({dataExists: true});
+        }
     
     handleEnter = (e) => {
         if (e.key === 'Enter') {
@@ -94,7 +124,9 @@ class Search extends Component {
                     <br></br>
                     {filters}
                     <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
-                    
+                    {this.state.dataExists && <Redirect to={{pathname: '/results',state: { results: this.state.results }}}/>
+                    }
+
                 </form> 
             </div>
         )

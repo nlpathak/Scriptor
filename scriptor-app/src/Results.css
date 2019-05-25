@@ -1,0 +1,43 @@
+
+.results  .description{
+    font-size: 170%;
+    max-width: 90%;
+    list-style-type: none;
+    color: rgba(72,136,163,.93);
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: Heiti SC, sans-serif;
+    position: relative;
+    left: 6%;
+
+}
+
+.results .blurb{
+	font-size: 115%;
+	list-style-type: none;
+	max-width: 80%;
+	position: relative;
+    left: 6%;
+}
+
+.spacer {
+	height: 20px;
+}
+
+.results .timeStamp {
+	font-family: Heiti SC, sans-serif;
+	position: relative;
+	color: rgba(72,136,163,.93);
+	text-decoration: underline;
+	text-underline-position: under;
+	font-size: 140%;
+
+
+}
+
+.results .times {
+	position: absolute;
+	left: 93%;
+
+}
+
