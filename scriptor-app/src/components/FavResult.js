@@ -14,7 +14,6 @@ var podcasts = course_podcasts.map((item, index) =>
 
 
 class FavResult extends Component {
-
     constructor(props) {
       super(props);
       this.state = {isFav : course_podcasts.map((element) => true)};

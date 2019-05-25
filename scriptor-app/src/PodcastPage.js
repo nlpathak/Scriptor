@@ -2,59 +2,62 @@ import React, {Component} from 'react';
 import { toast } from 'react-toastify';
 import './PodcastPage.css';
 import APIClient from './api/APIClient.js';
+import queryString from 'query-string';
 
 class PodcastPage extends Component {
+    values = queryString.parse(this.props.location.search);
+
     /*
-    Requires props:
+    Requires querystring with:
         department
-        coursenum
-        coursename
-        section
+        course_num
+        title
+        section_id
         professor
-        lecturenum
+        lecture_num
 
-        videolink
-        startime
-        relevanttext
-        podlink
+        ucsd_podcast_video_url
+        starting_timestamp_second
+        transcription_blob
+        ucsd_podcast_audio_url
     */
-
+    
     formatTitle() {
         // Add department and coursenum
-        let fulltitle = this.props.department + ' ' + this.props.coursenum;
+        let fulltitle = this.values.department + ' ' + this.values.course_num;
 
         // Add truncated coursename
-        var coursename = this.props.coursename;
+        var coursename = this.values.title;
         if(coursename.length > 25) {
             coursename = coursename.substring(0,25) + '...';
         }
         fulltitle += ' - ' + coursename;
 
         // Add section id
-        fulltitle += ' [' + this.props.section + ']';
+        fulltitle += ' [' + this.values.section_id + ']';
 
         // Add truncated professor
-        var professor = this.props.professor;
+        var professor = this.values.professor;
         if(professor.length > 12) {
             professor = professor.substring(0,12) + '...';
         }
         fulltitle += ' | ' + professor;
 
         // Add lecturenum
-        fulltitle += ' | Lecture ' + this.props.lecturenum;
+        fulltitle += ' | Lecture ' + this.values.lecture_num;
 
         return fulltitle;
     }
 
     formatVideoLink() {
-        return (this.props.videolink + '#t=' + this.props.starttime);
+        return (this.values.ucsd_podcast_video_url + '#t=' + this.values.starting_timestamp_second);
     }
 
     formatRelevantText() {
-        if(this.props.relevanttext.length > 950) {
-            return this.props.relevanttext.substring(0, 950) + '...';
+        if(this.values.transcription_blob.length > 950) {
+            return this.values.transcription_blob.substring(0, 950) + '...';
         }
-        return this.props.relevanttext;
+        return this.values.transcription_blob;
     }
 
     onSubmit(e) {
@@ -69,7 +72,7 @@ class PodcastPage extends Component {
     render(){
         return(
             <div className='podpage'>
-                <h1 className='title'><a className='link' href={this.props.podlink}>{this.formatTitle()}</a></h1>
+                <h1 className='title'><a className='link' href={this.values.ucsd_podcast_video_url}>{this.formatTitle()}</a></h1>
                 <div className='toplayer'>
                     <video className='vid' controls>
                         <source src={this.formatVideoLink()}/>

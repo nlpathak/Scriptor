@@ -31,10 +31,11 @@ class Search extends Component {
         if(this.state.query.length === 0) {
             return;
         }
-        APIClient.searchPodcasts(this.state.query).then(response => {
+        APIClient.searchPodcasts(this.state.query, {}).then(response => {
             response.forEach(function(element) {
                 console.log(element);
                 APIClient.getPodcastMetadata(element.podcast_id).then(back => {
+                    console.log(back);
                     toast(back.department + ' ' + back.course_num + ' - ' + element.transcription_blob, {className: 'popup'});
                 });
               });
