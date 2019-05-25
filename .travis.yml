@@ -1,0 +1,15 @@
+language: python
+python: '3.7'
+
+services:
+- docker
+
+install:
+- 'pip install pipenv'
+- 'pipenv install --deploy --system'
+
+script:
+- docker-compose up -d elasticsearch
+- sleep 15
+- cd scriptor-backend
+- pytest

@@ -28,10 +28,12 @@ class HistoryItem(InnerDoc):
     @property
     def url(self):
         if self.type == HistoryItem.TYPE_SEARCH_QUERY:
-            return url_for("search.search_podcasts", **self.search_filters.to_dict())
+            params = self.search_filters.to_dict()
+            params.update({"q": self.search_query})
+            return url_for("search.search_podcasts", **params)
         else:
-            return url_for("podcasts.get_podcast_transcription_blob",
-                           transcription_blob_id=self.podcast_page_transcription_blob_id)
+            return url_for("podcasts.get_podcast_blob",
+                           blob_id=self.podcast_page_transcription_blob_id)
 
     @property
     def title(self):
@@ -40,7 +42,7 @@ class HistoryItem(InnerDoc):
         else:
             return PodcastTranscriptionBlob.get(id=self.podcast_page_transcription_blob_id).podcast.title
 
-    def to_dict(self, skip_empty=True):
+    def convert_to_dict(self):
         return {"type": self.type, "url": self.url, "title": self.title}
 
 
@@ -55,7 +57,7 @@ class User(Document):
     password_hash = Keyword()
 
     favorite_podcast_ids = Text(multi=True)  # A list of podcast ids for the user's favorites
-    history = Nested(HistoryItem, multi=True)  # A list of HistoryItems, representing the user's history
+    history = Nested(HistoryItem)  # A list of HistoryItems, representing the user's history
 
     # Elasticsearch index settings for this model
     class Index:
@@ -68,6 +70,9 @@ class User(Document):
         except:
             return []
 
+    def has_favorited_podcast(self, podcast_id):
+        return podcast_id in self.favorite_podcast_ids
+
     @classmethod
     def register_new_user(cls, email, password):
         """
@@ -77,7 +82,6 @@ class User(Document):
         :param password:    The user's password
         :return:            A saved User object
         """
-
         # Check if email is already registered, and if so, raise an error.
         user_search = User.search()
         email_query = Q("term", email=email)
@@ -100,6 +104,9 @@ class User(Document):
         :param password:    The user's password
         :return:            The corresponding User object
         """
+        email = email.strip()
+        password = password.strip()
+
         user_search = User.search()
 
         login_query = Q("term", email=email)
@@ -135,7 +142,7 @@ class User(Document):
             user_dict = jwt.decode(auth_token, settings.JWT_SECRET, algorithms=['HS256'])
             user_id = user_dict['user_id']
             return User.get(id=user_id)
-        except:
+        except Exception as e:
             raise ValueError("User for auth token '%s' could not be fetched." % auth_token)
 
     def change_password(self, existing_password, new_password):
@@ -163,7 +170,7 @@ class User(Document):
         This removes a podcast's id from the user's favorite list, if it exists.
         :param podcast_id:  The podcast id to remove from the user's favorite
         """
-        self.favorite_podcast_ids = [podcast_id for podcast_id in self.favorite_podcasts if
+        self.favorite_podcast_ids = [podcast_id for podcast_id in self.favorite_podcast_ids if
                                      podcast_id != podcast_id_to_remove]
         self.save()
 
@@ -193,3 +200,7 @@ class User(Document):
     def clear_history(self):
         self.history = []
         self.save()
+
+    @staticmethod
+    def delete_by_email(email):
+        return User.search().query("term", email=email).delete()

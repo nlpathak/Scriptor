@@ -1,0 +1,97 @@
+.about {
+	padding: 20px;
+	width: 100%;
+}
+
+.about h1 {
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	color:rgba(72,136,163,.93);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	font-size: 40px;
+	cursor: default;
+}
+
+.about h2 {
+	font-size: 30px;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.about h3 {
+	font-size: 22px;
+	cursor: default;
+	}
+
+.about p {
+	font-size: 1.25vw;
+}
+
+.about .statement {
+	padding-left: 20px;
+	float: left;
+	width: 48%;
+	cursor: default;
+}
+
+.about .groupPhoto {
+	float: right;
+	padding-right: 20px;
+	width: 45%;
+	clear: none;
+}
+
+.about .teamList {
+	text-align: center;
+	width: 100%;
+}
+
+.about .team {
+	clear: both;
+}
+
+.about .teamRow1 {
+	display: inline-block;
+	width: 20%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 60px;
+}
+
+.about .teamRow2 {
+	display: inline-block;
+	width: 20%;
+	margin-right: 2.25%;
+	margin-left: 2.15%;
+	margin-bottom: 60px;
+}
+
+.about .teamRow3 {
+	display: inline-block;
+	width: 20%;
+	margin-right: 2.25%;
+	margin-left: 2.15%;
+}
+
+.about .name {	
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	font-size: 1.20vw;
+	color:rgba(72,136,163,.93);
+}
+
+.about .description {
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 0px;
+	font-size: 1.20vw;
+}
+
+.about .profile {
+	border-radius: 50%;
+}

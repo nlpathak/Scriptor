@@ -3,6 +3,8 @@ import Popup from 'reactjs-popup';
 import Signup from './Signup.js';
 import Login from './Login.js';
 import './_Components.css';
+import APIClient from "../api/APIClient.js";
+import { toast } from 'react-toastify';
 
 
 class Navbar extends Component {
@@ -11,9 +13,18 @@ class Navbar extends Component {
         window.location.assign(route);
     }
 
+    logout(e) {
+        e.preventDefault();
+        console.log('done');
+        APIClient.logout();
+        toast("Logged Out", {className: 'popup'});
+        window.location.reload();
+    }
+
     render(){
         // Render login navbar based on login
-        const loggedin = this.props.loggedin;
+        const loggedin = APIClient.isCurrentUserLoggedIn();
+
         let logout_buttons =
             <div>
                 <Popup trigger={<li><button>LOG IN</button></li>} modal contentStyle={{height: '700px', width: '500px'}} closeOnDocumentClick>
@@ -35,7 +46,7 @@ class Navbar extends Component {
                 </div>
                 )}</Popup>
                 <li><button onClick={e => this.redirect(e, '/about')}>ABOUT</button></li>
-            </div>
+            </div>;
             
         let login_buttons =
             <div>
@@ -43,14 +54,14 @@ class Navbar extends Component {
                 contentStyle={{padding: '0px', border: 'none'}}
                 arrow={false}>
                 <div className='dropdown'>
-                    <button onClick={e => this.redirect(e, '/user')}>HISTORY</button>
-                    <button onClick={e => this.redirect(e, '/user')}>FAVORITES</button>
+                    <button onClick={e => this.redirect(e, '/history')}>HISTORY</button>
+                    <button onClick={e => this.redirect(e, '/favorites')}>FAVORITES</button>
                     <button onClick={e => this.redirect(e, '/user')}>SETTINGS</button>
-                    <button>LOG OUT</button>
+                    <button onClick={e => this.logout(e)}>LOG OUT</button>
                 </div>
                 </Popup>
                 <li><button onClick={e => this.redirect(e, '/about')}>ABOUT</button></li>
-            </div>
+            </div>;
 
         return(
             <div className='navbar'>

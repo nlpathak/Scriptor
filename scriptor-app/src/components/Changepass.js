@@ -2,12 +2,13 @@ import React, {Component} from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './_Components.css';
+import APIClient from '../api/APIClient';
 
 class Changepass extends Component {
     state = {
         oldpass: '',
-        verify: '',
-        newpass: ''
+        newpass: '',
+        verify: ''
     };
 
     change = e => {
@@ -18,12 +19,19 @@ class Changepass extends Component {
         e.preventDefault();
         if(this.state.newpass !== this.state.verify) {
             // @David
-        } else {
-            console.log(this.state);
-            toast("Password Changed", {
-                className: 'popup'
-            });
+            toast("New Passwords Don't Match", {className: 'popup error'});
+            return;
         }
+        APIClient.changePassword(this.state.oldpass, this.state.newpass).then((authToken) => {
+            toast("Password Updated", {className: 'popup'});
+            this.setState({oldpass: ''});
+            this.setState({newpass: ''});
+            this.setState({verify: ''});
+        }).catch(e => {
+            toast("Invalid Old Password", {className: 'popup error'});
+          // @David
+        }); 
+
     }
 
     render(){
