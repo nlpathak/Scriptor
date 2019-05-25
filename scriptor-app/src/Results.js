@@ -17,13 +17,14 @@ constructor(props){
 
 
 render(){
+  var url = "";
 return (
      <div className = "results">
       	{this.props.location.state.results.map((results, index) => (
       		<div key={index}>
         		<li className= "description"> {results.description}</li>
         		<div className="times">
-				      <a className= "timeStamp" href= {results.url} target="_blank"> {results.timestamp}</a> 
+				      <a className= "timeStamp" href= {results.url + "#t=" + results.timestamp} target="_blank"> {results.timestamp}</a> 
 				    </div>
         		<li className= "blurb"> {results.blurb} </li>
         		<div className ="spacer"></div>
