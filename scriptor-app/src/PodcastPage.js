@@ -91,6 +91,17 @@ class PodcastPage extends Component {
         });
 
     }
+    
+    relocate(e) {
+        e.preventDefault();
+        window.location.assign(this.values.ucsd_podcast_video_url);
+    }
+
+    viewTranscript(e) {
+        e.preventDefault();
+        let location = "/transcript?" + "podcast_id=" + this.values.podcast_id; 
+        window.location.assign(location);
+    }
 
     render(){
         APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
@@ -121,10 +132,10 @@ class PodcastPage extends Component {
                         <button type="button" className="btn" id='togglebutton' onClick={e => this.onSubmit(e)}>FAVORITE</button>
                     </div>
                     <div className="btn-group pagewide">
-                        <button type="button" className="btn">GO TO PODCAST</button>
+                        <button type="button" className="btn" onClick={e => this.relocate(e)}>GO TO PODCAST</button>
                     </div>
                     <div className="btn-group pagewide">
-                        <button type="button" className="btn">VIEW TRANSCRIPT</button>
+                        <button type="button" className="btn" onClick={e => this.viewTranscript(e)}>VIEW TRANSCRIPT</button>
                     </div>
                 </div>
             </div>

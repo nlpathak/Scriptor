@@ -10,7 +10,7 @@ import { course_podcasts } from "./favData.json"
 class FavResult extends Component {
     constructor(props) {
         super(props);
-        this.state = {isFav : course_podcasts.map((element) => true)};
+        this.state = {isFav : course_podcasts.map((element) => true), podcasts: ''};
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -67,6 +67,12 @@ class FavResult extends Component {
         return item.video_url
     }
 
+    componentDidMount() {
+        APIClient.getFavoritePodcasts().then(response => {
+            this.setState({podcasts: {response}});
+        });
+    }
+
     render(){
         return(
             <div className='favorites'>
@@ -75,7 +81,8 @@ class FavResult extends Component {
                 </div>
                 <div className = 'favList'>
                         <ul>
-                        {course_podcasts.map((item, index)  => (
+                        {console.log(this.state.podcasts)}
+                        {this.state.podcasts.map((item, index)  => (
                             <li className = 'favResult' key={index}>
                                 <a href={this.returnURL(item)}>
                                     <div>{this.formatTitle(item)}
@@ -86,10 +93,10 @@ class FavResult extends Component {
                                 </a>
                             </li>
                         ))}
-                        </ul>
+                    </ul>
                 </div>
             </div>
-            );
+        );
     }
 }
 

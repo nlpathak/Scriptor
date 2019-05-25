@@ -10,6 +10,7 @@ import PodcastPage from './PodcastPage.js';
 import './App.css';
 import Forgotpass from './Forgotpass.js';
 import temp_podcall from './temp_podcall.js';
+import Transcript from './Transcript.js';
 
 class App extends Component {
     render() {
@@ -24,6 +25,7 @@ class App extends Component {
                         <Route path="/history" component={History}/>
                         <Route path="/favorites" component={Favorites}/>
                         <Route path="/podcast" component={PodcastPage}/>
+                        <Route path="/transcript" component={Transcript}/>
                         
                         <Route path="/podcall" component={temp_podcall}/>
 
