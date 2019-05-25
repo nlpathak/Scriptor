@@ -6,13 +6,6 @@ import starOn from './starOn.svg';
 import { course_podcasts } from "./favData.json"
 
 
-var podcasts = course_podcasts.map((item, index) =>
-    <div key={index}>
-        {0}
-    </div>
-);
-
-
 class FavResult extends Component {
     constructor(props) {
       super(props);

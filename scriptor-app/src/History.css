@@ -1,0 +1,64 @@
+.history {
+    padding: 20px;
+    display: block;
+}
+
+.history  .header {
+    width: 20%;
+    overflow: hidden;
+}
+
+.history .header h1 {
+    float: left;
+    color:rgba(72,136,163,.93);
+		padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    cursor: default;
+}
+
+
+
+.history .search h1 {
+    color:rgba(0,0,0,.65);
+		padding-top: 15px;
+    padding-bottom: 45px;
+		position:absolute;
+    font-size: 30px;
+    cursor: default;
+}
+
+.history .search h1 div ul  {
+	padding: 0;
+}
+
+.history .search h1 div ul .searches {
+	padding-top: 35px;
+	list-style-type: none;
+	color:rgba(72,136,163,.93);
+}
+
+.history .search h2 {
+    color:rgba(0,0,0,.65);
+		padding-top: 15px;
+		position:absolute;
+		padding-left: 450px;
+    padding-bottom: 45px;
+    font-size: 30px;
+    cursor: default;
+}
+
+.history .search h2 div ul  {
+	padding: 0;
+}
+
+.history .search h2 div ul .results {
+	padding-top: 35px;
+	list-style-type: none;
+	text-decoration: underline;
+	color:rgba(72,136,163,.93);
+}
+
+.history .search h2 div ul .results a {
+	color:rgba(72,136,163,.93);
+}
