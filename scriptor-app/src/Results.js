@@ -19,15 +19,15 @@ class Results extends Component {
 		var url = "";
 		return (
 			<div className = "results">
-					{this.props.location.state.results.map((results, index) => (
-						<div key={index}>
-							<li className= "description"> {results.description}</li>
-							<div className="times">
-								<a className= "timeStamp" href= {results.url + "#t=" + results.timestamp} target="_blank"> {results.timestamp}</a> 
-							</div>
-							<li className= "blurb"> {results.blurb} </li>
-							<div className ="spacer"></div>
-						</div>			
+				{this.props.location.state.results.map((results, index) => (
+					<div key={index}>
+						<li className= "description"> {results.description}</li>
+						<div className="times">
+							<a className= "timeStamp" href= {results.url + "#t=" + results.timestamp} target="_blank"> {results.timestamp}</a> 
+						</div>
+						<li className= "blurb"> {results.blurb} </li>
+						<div className ="spacer"></div>
+					</div>			
 				))}
 			</div>
 		);

@@ -1,4 +1,4 @@
-import {React, Component} from 'react';
+import React, {Component} from 'react';
 import APIClient from "../api/APIClient";
 import './_Components.css';
 

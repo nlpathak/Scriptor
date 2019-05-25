@@ -44,7 +44,7 @@ class Search extends Component {
         }
         APIClient.searchPodcasts(this.state.query, {}).then(response => {
             var counter = 0;
-            if(response.length == 0){
+            if(response.length === 0){
                 document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
                 document.getElementById('noResults').innerHTML = "No results found";
             }
@@ -65,7 +65,7 @@ class Search extends Component {
                     }
                     this.setState(prevState => ({results: [...prevState.results, result]}));
                     counter++;
-                    if(counter == response.length){
+                    if(counter === response.length){
                         if(this.state.results.length > 0){
                             this.setState({dataExists: true});
                         }

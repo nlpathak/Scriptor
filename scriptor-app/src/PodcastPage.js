@@ -76,7 +76,7 @@ class PodcastPage extends Component {
                 APIClient.removeFavoritePodcastById(this.values.podcast_id).then(response => {
                     toast("Removed from Favorites", {className: 'popup'});
                 });
-                this.state.isFavorited = false;
+                this.setState({isFavorited: false});
                 document.getElementById('togglebutton').style.color = "rgba(255,255,255,1)";
                 document.getElementById('togglebutton').style.border = "none";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(72,136,163,.93)";
@@ -85,7 +85,7 @@ class PodcastPage extends Component {
                 APIClient.addFavoritePodcastById(this.values.podcast_id).then(response => {
                     toast("Added to Favorites", {className: 'popup'});
                 });
-                this.state.isFavorited=true;
+                this.setState({isFavorited: true});
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
@@ -100,22 +100,16 @@ class PodcastPage extends Component {
         window.location.assign(this.values.ucsd_podcast_video_url);
     }
 
-    viewTranscript(e) {
-        e.preventDefault();
-        let location = "/transcript?" + "podcast_id=" + this.values.podcast_id; 
-        window.location.assign(location);
-    }
-
     render(){
         APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
             if(response) {
-                this.state.isFavorited = true;
+                this.setState({isFavorited: true});
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
                 document.getElementById('togglebutton').innerHTML = "Unfavorite";
             } else {
-                this.state.isFavorited= false;
+                this.setState({isFavorited: false});
             }   
         });
         return(
@@ -134,7 +128,7 @@ class PodcastPage extends Component {
                         pathname: "/transcript",
                         search: "?podcast_id=" + this.values.podcast_id 
                         }}
-                        >View Full Transcript</Link>
+                        ><u>View Full Transcript</u></Link>
                     </div>
                 </div>
                 <div className="btn-group pagewide fullgroup">

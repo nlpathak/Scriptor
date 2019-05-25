@@ -50,7 +50,7 @@ class Navbar extends Component {
             
         let login_buttons =
             <div>
-                <Popup trigger={<li><button>MY ACCOUNT</button></li>} position="bottom center" on="hover" closeOnDocumentClick mouseLeaveDelay={0} mouseEnterDelay={0}
+                <Popup trigger={<li><button onClick={e => this.redirect(e, '/user')}>MY ACCOUNT</button></li>} position="bottom center" on="hover" closeOnDocumentClick mouseLeaveDelay={0} mouseEnterDelay={0}
                 contentStyle={{padding: '0px', border: 'none'}}
                 arrow={false}>
                 <div className='dropdown'>
