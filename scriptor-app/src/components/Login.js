@@ -29,7 +29,7 @@ class Login extends Component {
             document.getElementById('emailLoginError').innerHTML = "Please enter a valid email.";
             document.getElementById('titulo').style.marginTop = "35px";
             return;
-          }
+        }
 
         APIClient.login(this.state.email, this.state.pass).then((authToken) => {
             window.location.reload();

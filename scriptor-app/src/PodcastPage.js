@@ -6,6 +6,9 @@ import queryString from 'query-string';
 
 class PodcastPage extends Component {
     values = queryString.parse(this.props.location.search);
+    state = {
+        isFavorited: null
+    };
 
     /*
     Requires querystring with:
@@ -62,14 +65,44 @@ class PodcastPage extends Component {
 
     onSubmit(e) {
         e.preventDefault();
-        if(APIClient.isCurrentUserLoggedIn()) {
-            toast("Favorited", {className: 'popup'});
-        } else {
+        if(!APIClient.isCurrentUserLoggedIn()) {
             toast("Log In to Favorite", {className: 'popup error'});
-        }
+            return;
+        } 
+        
+        APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
+            if(response) {
+                APIClient.removeFavoritePodcastById(this.values.podcast_id).then(response => {
+                    toast("Removed from Favorites", {className: 'popup'});
+                });
+                this.state.isFavorited = false;
+                document.getElementById('togglebutton').style.color = "rgba(255,255,255,1)";
+                document.getElementById('togglebutton').style.border = "none";
+                document.getElementById('togglebutton').style.backgroundColor = "rgba(72,136,163,.93)";
+            } else {
+                APIClient.addFavoritePodcastById(this.values.podcast_id).then(response => {
+                    toast("Added to Favorites", {className: 'popup'});
+                });
+                this.state.isFavorited=true;
+                document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
+                document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
+                document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+            }   
+        });
+
     }
 
     render(){
+        APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
+            if(response) {
+                this.state.isFavorited = true;
+                document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
+                document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
+                document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+            } else {
+                this.state.isFavorited= false;
+            }   
+        });
         return(
             <div className='podpage'>
                 <h1 className='title'><a className='link' href={this.values.ucsd_podcast_video_url}>{this.formatTitle()}</a></h1>
@@ -85,7 +118,7 @@ class PodcastPage extends Component {
                 </div>
                 <div className="btn-group pagewide fullgroup">
                     <div className="btn-group pagewide">
-                        <button type="button" className="btn" onClick={e => this.onSubmit(e)}>FAVORITE</button>
+                        <button type="button" className="btn" id='togglebutton' onClick={e => this.onSubmit(e)}>FAVORITE</button>
                     </div>
                     <div className="btn-group pagewide">
                         <button type="button" className="btn">GO TO PODCAST</button>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import APIClient from './api/APIClient.js';
 
 function temp_podcall() {
   var state = {
@@ -8,13 +9,14 @@ function temp_podcall() {
     title: "Design and Analysis of Algorithm",
     section_id: 'A00',
     professor: 'Miles Jones',
-    lecture_num: '12',
-
-    ucsd_podcast_video_url: 'http://techslides.com/demos/sample-videos/small.mp4',
-    starting_timestamp_second:'2',
-    transcription_blob:'To do dynamic programming, there are, umm, 7 steps needed. Step 1 is defining the, umm, subproblems. Nine out of ten times you restate the problem within a subset of the original input. For example, if your dynamic programming algorithm was, umm, finding the maximum event scheduling from last class, your step 1 would just be the maximum number of events you can To do dynamic programming, there are, umm, 7 steps needed. Step 1 is defining the, umm, subproblems. Nine out of ten times you restate the problem within a subset of the original input. For example, if your dynamic programming algorithm was, umm, finding the maximum event scheduling from last class, your step 1 would just be the maximum number of events you can To do dynamic programming, there are, umm, 7 steps needed. Step 1 is defining the, umm, subproblems. Nine out of ten times you restate the problem within a subset of the original input. For example, if your dynamic programming algorithm was, umm, finding the maximum event scheduling from last class, your step 1 would just be the maximum number of events you can To do dynamic programming, there are, umm, 7 steps needed. Step 1 is defining the, umm, subproblems. Nine out of ten times you restate the problem within a subset of the original input. For example, if your dynamic programming algorithm was, umm, finding the maximum event scheduling from last class, your step 1 would just be the maximum number of events you can',
-    ucsd_podcast_audio_url:'#'
+    lecture_num: '24',
+    podcast_id: 'EZaX52oBQfPwwEpzHeN9',
+    ucsd_podcast_video_url: 'http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-03062019-1500.mp4',
+    starting_timestamp_second:'429',
+    transcription_blob:"recurrence makes sense and that's what I want you to do already. So that's kind of like took it out. Okay. So today the dynamic programming problems were going to look at today. I'll ha...",
+    ucsd_podcast_audio_url:'http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-03062019-1500.mp3',
   };
+
     /*
     Requires state:
         department
@@ -44,7 +46,7 @@ function temp_podcall() {
           + "&starting_timestamp_second=" + state.starting_timestamp_second
           + "&transcription_blob=" + state.transcription_blob
           + "&ucsd_podcast_audio_url=" + state.ucsd_podcast_audio_url
-          ,
+          + "&podcast_id=" + state.podcast_id
         }}
       >Testpage</Link>
     </button>

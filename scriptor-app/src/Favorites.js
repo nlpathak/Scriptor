@@ -5,10 +5,11 @@ import './Favorites.css';
 
 function Favorites() {
   const loggedin = APIClient.isCurrentUserLoggedIn();
+
   if(loggedin) {
     return (
       <div>
-        <Favorite/>
+        <Favorite />
       </div>
     );
   } else {
