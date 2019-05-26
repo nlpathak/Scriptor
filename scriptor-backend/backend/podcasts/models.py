@@ -1,5 +1,5 @@
 from elasticsearch_dsl import Document, Text, Date, Integer, Keyword
-
+from nltk.tokenize import sent_tokenize
 
 class Podcast(Document):
     """
@@ -30,6 +30,28 @@ class Podcast(Document):
     # Elasticsearch index settings
     class Index:
         name = "podcasts"
+
+    def get_transcript_sections(self, sentence_split=5):
+        transcript_sentences = sent_tokenize(self.full_transcript)
+
+        sections = []
+        current_section_sents = []
+        for idx, sent in enumerate(transcript_sentences):
+            if (idx % sentence_split == 0):
+
+                # Add the section built-up so far to the list of sections
+                if current_section_sents:
+                    sections.append(" ".join(current_section_sents))
+
+                # Restart a new section
+                current_section_sents = [sent, ]
+            else:
+                current_section_sents.append(sent)
+
+        if current_section_sents:
+            sections.append(" ".join(current_section_sents))
+
+        return sections
 
     def save(self, **kwargs):
         self.exact_value_department = self.department

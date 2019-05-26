@@ -1,25 +1,22 @@
 # Backend API quickstart
 
 ## Installation
-1. Ensure that you have `pipenv` installed. If not, install it with `pip install pipenv`.
-2. `cd scriptor-backend`
-3. `pipenv install`
+1. `docker-compose build --no-cache`
 
 ## Tests
-To test the backend, run `pytest` from inside the `scriptor-backend` directory.
+To test the backend, run `docker-compose exec backend pytest` (ensure that you've already run `docker-compose up`).
 
 ## Starting the backend API server
-1. `docker-compose up` (in a separate terminal tab, since this will start **Elasticsearch**)
-2. `pipenv shell` (in a separate terminal tab from the above command)
-3. `PYTHONPATH=. python scripts/import_data_into_elasticsearch.py` (only run this the first time, or if you cleared the database data the last time you stopped the backend)
-4. `PYTHONPATH=. python app.py` (this will start the backend API server)
+1. `docker-compose build --no-cache` (if you just pulled a new copy of the code from the repo)
+2. `docker-compose up`
+3. Wait for ~10-15 seconds, for Elasticsearch to boot up
+4. `docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py` (if you want to import all the podcast transcriptions into Elasticsearch)
 
 The backend API server can be reached at <a href="http://localhost:5000" target="_blank">http://localhost:5000</a>
 
 ## Stopping the backend API server
-1. To stop **Elasticsearch**, run `docker-compose down` if you'd like to keep the database data (so that all the data will remain when you restart the backend server later), or run `docker-compose down -v` if you'd like to clear the database data.
+1. Run `docker-compose down` if you'd like to keep the database data (so that all the data will remain when you restart the backend server later), or run `docker-compose down -v` if you'd like to clear the database data.
     - ***Note:** If you clear the database data, you need to re-run the database import script before restarting the backend server.*
-2. `Ctrl+C` the terminal tab where you ran `PYTHONPATH=. python app.py`
     
 ## API Overview
 Warning: This documentation is a work-in-progress, so please message **#backend** on Slack if you have any questions! :)

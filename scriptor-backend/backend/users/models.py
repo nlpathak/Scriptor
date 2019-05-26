@@ -1,7 +1,10 @@
+import uuid
+
 import jwt
 from elasticsearch_dsl import Document, Text, Nested, InnerDoc, Q, Keyword, Object
 from flask import url_for
 from passlib.hash import bcrypt
+from sendgrid import Mail, SendGridAPIClient
 
 from backend.db import *
 from backend.podcasts.models import Podcast
@@ -59,9 +62,44 @@ class User(Document):
     favorite_podcast_ids = Text(multi=True)  # A list of podcast ids for the user's favorites
     history = Nested(HistoryItem)  # A list of HistoryItems, representing the user's history
 
+    password_recovery_token = Text(required=False)
+
     # Elasticsearch index settings for this model
     class Index:
         name = "users"
+
+    def generate_password_recovery_token(self):
+        self.password_recovery_token = str(uuid.uuid4())
+        self.save()
+        return self.password_recovery_token
+
+    def verify_password_token(self, token):
+        return self.password_recovery_token == token
+
+    def send_forgot_password_email(self):
+        password_recovery_token = self.generate_password_recovery_token()
+
+        message = Mail(
+            from_email=settings.FROM_EMAIL,
+            to_emails=self.email,
+            subject='Your Password Recovery Token',
+            html_content=f"""
+            Hey there!
+            <br>
+            <br>
+            Forgot your password? No worries!
+            <br>
+            <br>
+            Here's your recovery token: <b>{password_recovery_token}</b>
+            <br>
+            <br>
+            Cheers,
+            <br>
+            The Scriptor Team
+            """)
+
+        sg = SendGridAPIClient(settings.SENDGRID_APIKEY)
+        sg.send(message)
 
     @property
     def favorite_podcasts(self):
@@ -145,6 +183,14 @@ class User(Document):
         except Exception as e:
             raise ValueError("User for auth token '%s' could not be fetched." % auth_token)
 
+    def set_password(self, password):
+        if not is_password_valid(password):
+            raise ValueError("Invalid password.")
+
+        password_hash = bcrypt.hash(password)
+        self.password_hash = password_hash
+        self.save()
+
     def change_password(self, existing_password, new_password):
         """
         This changes the user's password to the new, given password.
@@ -158,12 +204,8 @@ class User(Document):
         if not bcrypt.verify(existing_password, self.password_hash):
             raise ValueError("Incorrect existing password.")
 
-        if not is_password_valid(new_password):
-            raise ValueError("Invalid new password.")
+        self.set_password(new_password)
 
-        new_password_hash = bcrypt.hash(new_password)
-        self.password_hash = new_password_hash
-        self.save()
 
     def remove_favorite_podcast(self, podcast_id_to_remove):
         """
