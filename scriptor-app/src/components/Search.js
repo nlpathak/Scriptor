@@ -3,6 +3,8 @@ import {Redirect } from 'react-router'
 import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
+import { withRouter } from 'react-router-dom';
+
 
 class Search extends Component {
     data = [];
@@ -14,8 +16,6 @@ class Search extends Component {
         quarter: '',
         showFilters: false,
         results: [],
-        dataExists: false,
-        show: true,
     };
 
     change = e => {
@@ -33,9 +33,6 @@ class Search extends Component {
         }
     }
 
-    checkDataExist(){
-
-    }
 
     onSubmit(e) {
        e.preventDefault();
@@ -82,9 +79,10 @@ class Search extends Component {
                     this.setState(prevState => ({results: [...prevState.results, result]}));
                     counter++;
                     if(counter === response.length){
-                        if(this.state.results.length > 0){
-                            this.setState({dataExists: true});
-                        }
+                        this.props.history.push({
+                        pathname: '/results',
+                        state: { results: this.state.results }
+                        })
                     }
                     });
                 });
@@ -159,8 +157,6 @@ class Search extends Component {
                     <p id="noResults"></p>
                     {filters}
                     <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
-                    {this.state.dataExists && <Redirect to={{pathname: '/results', state: { results: this.state.results }}}/>
-                    }
 
 
                 </form> 
@@ -169,4 +165,4 @@ class Search extends Component {
     }
 }
 
-export default Search;
+export default withRouter(Search);
