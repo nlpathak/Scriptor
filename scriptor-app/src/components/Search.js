@@ -155,7 +155,6 @@ class Search extends Component {
                     value = {this.state.query} 
                     onChange={e => this.change(e)} />
                     <p id="noResults"></p>
-                    <br></br>
                     {filters}
                     <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
                     {this.state.dataExists && <Redirect to={{pathname: '/results', state: { results: this.state.results }}}/>
