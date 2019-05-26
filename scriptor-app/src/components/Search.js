@@ -74,16 +74,16 @@ class Search extends Component {
                             transcription_blob: element.transcription_blob,
                             ucsd_podcast_audio_url: back.ucsd_podcast_audio_url,
                         }
-                }
-                this.setState(prevState => ({results: [...prevState.results, result]}));
-                counter++;
-                if(counter === response.length){
-                    if(this.state.results.length > 0){
-                        this.setState({dataExists: true});
                     }
-                }
+                    this.setState(prevState => ({results: [...prevState.results, result]}));
+                    counter++;
+                    if(counter === response.length){
+                        if(this.state.results.length > 0){
+                            this.setState({dataExists: true});
+                        }
+                    }
+                    });
                 });
-            });
 
         });
 
