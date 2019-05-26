@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Route, Redirect } from 'react-router'
+import {Redirect } from 'react-router'
 import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
@@ -44,7 +44,7 @@ class Search extends Component {
         }
         APIClient.searchPodcasts(this.state.query, {}).then(response => {
             var counter = 0;
-            if(response.length == 0){
+            if(response.length === 0){
                 document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
                 document.getElementById('noResults').innerHTML = "No results found";
             }
@@ -57,20 +57,38 @@ class Search extends Component {
                     var updatedSeconds = ('0' + seconds).slice(-2);
                     const timeStamp = minutes + ":" + updatedSeconds;
                     const vidUrl = back.ucsd_podcast_video_url;
-                    console.log(back);
-                    var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "]" + " | " + back.professor + " | " + "Lecture " + back.lecture_num, blurb: element.transcription_blob, timestamp: timeStamp, url: vidUrl}
+                    var prof = back.professor;
+                    prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
+                        prof.substring(0, prof.indexOf(','))
+                    console.log(prof);
+                    var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.lecture_num, 
+                        blurb: element.transcription_blob, 
+                        timestamp: timeStamp, 
+                        url: vidUrl,
+                        podcast_id: element.podcast_id,
+                        podcastPage: {
+                            department: back.department,
+                            course_num: back.course_num,
+                            title: back.title,
+                            section_id: back.section_id,
+                            professor: prof,
+                            lecture_num: back.lecture_num,
+                            ucsd_podcast_video_url: back.ucsd_podcast_video_url,
+                            starting_timestamp_second: element.starting_timestamp_second,
+                            transcription_blob: element.transcription_blob,
+                            ucsd_podcast_audio_url: back.ucsd_podcast_audio_url,
+                        }
+                    }
                     this.setState(prevState => ({results: [...prevState.results, result]}));
                     counter++;
-                    if(counter == response.length){
+                    if(counter === response.length){
                         if(this.state.results.length > 0){
                             this.setState({dataExists: true});
                         }
                     }
+                    });
                 });
-              });
 
-        }).catch(e => {
-            console.log(e);         
         });
 
     }
@@ -139,10 +157,9 @@ class Search extends Component {
                     value = {this.state.query} 
                     onChange={e => this.change(e)} />
                     <p id="noResults"></p>
-                    <br></br>
                     {filters}
                     <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
-                    {this.state.dataExists && <Redirect to={{pathname: '/results',state: { results: this.state.results }}}/>
+                    {this.state.dataExists && <Redirect to={{pathname: '/results', state: { results: this.state.results }}}/>
                     }
 
 

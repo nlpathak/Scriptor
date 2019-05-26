@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 import './PodcastPage.css';
 import APIClient from './api/APIClient.js';
 import queryString from 'query-string';
+import { Link } from 'react-router-dom';
 
 class PodcastPage extends Component {
     values = queryString.parse(this.props.location.search);
@@ -75,18 +76,20 @@ class PodcastPage extends Component {
                 APIClient.removeFavoritePodcastById(this.values.podcast_id).then(response => {
                     toast("Removed from Favorites", {className: 'popup'});
                 });
-                this.state.isFavorited = false;
+                this.setState({isFavorited: false});
                 document.getElementById('togglebutton').style.color = "rgba(255,255,255,1)";
                 document.getElementById('togglebutton').style.border = "none";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(72,136,163,.93)";
+                document.getElementById('togglebutton').innerHTML = "Favorite";
             } else {
                 APIClient.addFavoritePodcastById(this.values.podcast_id).then(response => {
                     toast("Added to Favorites", {className: 'popup'});
                 });
-                this.state.isFavorited=true;
+                this.setState({isFavorited: true});
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+                document.getElementById('togglebutton').innerHTML = "Unfavorite";
             }   
         });
 
@@ -97,23 +100,21 @@ class PodcastPage extends Component {
         window.location.assign(this.values.ucsd_podcast_video_url);
     }
 
-    viewTranscript(e) {
-        e.preventDefault();
-        let location = "/transcript?" + "podcast_id=" + this.values.podcast_id; 
-        window.location.assign(location);
-    }
-
-    render(){
+    componentDidMount() {
         APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
             if(response) {
-                this.state.isFavorited = true;
+                this.setState({isFavorited: true});
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+                document.getElementById('togglebutton').innerHTML = "Unfavorite";
             } else {
-                this.state.isFavorited= false;
+                this.setState({isFavorited: false});
             }   
         });
+    }
+
+    render(){
         return(
             <div className='podpage'>
                 <h1 className='title'><a className='link' href={this.values.ucsd_podcast_video_url}>{this.formatTitle()}</a></h1>
@@ -122,10 +123,16 @@ class PodcastPage extends Component {
                         <source src={this.formatVideoLink()}/>
                     </video>
                     <div className='text'>
-                        <p >{this.formatRelevantText()}</p>
-                        <a href='#' className='link'>See Highlights</a>
+                        <h3>Speech-to-Text</h3>
+                        <p style={{marginTop: '22px'}}>{this.formatRelevantText()}</p>
+                        <Link
+                        className='link'
+                        to={{
+                        pathname: "/transcript",
+                        search: "?podcast_id=" + this.values.podcast_id 
+                        }}
+                        ><u>View Full Transcript</u></Link>
                     </div>
-
                 </div>
                 <div className="btn-group pagewide fullgroup">
                     <div className="btn-group pagewide">
@@ -133,9 +140,6 @@ class PodcastPage extends Component {
                     </div>
                     <div className="btn-group pagewide">
                         <button type="button" className="btn" onClick={e => this.relocate(e)}>GO TO PODCAST</button>
-                    </div>
-                    <div className="btn-group pagewide">
-                        <button type="button" className="btn" onClick={e => this.viewTranscript(e)}>VIEW TRANSCRIPT</button>
                     </div>
                 </div>
             </div>

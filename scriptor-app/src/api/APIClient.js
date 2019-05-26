@@ -108,6 +108,7 @@ class APIClient {
         });
     }
 
+    // Implemented
     addFavoritePodcastById(podcastId) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/favorite_podcasts/" + podcastId + "/add/", {
@@ -124,6 +125,7 @@ class APIClient {
         });
     }
 
+    // Implemented
     checkFavoritePodcast(podcastId) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/favorite_podcasts/" + podcastId + "/check/", {
@@ -139,6 +141,7 @@ class APIClient {
         });
     }
 
+    // Implemented
     removeFavoritePodcastById(podcastId) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/favorite_podcasts/" + podcastId + "/remove/", {

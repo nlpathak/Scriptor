@@ -81,7 +81,6 @@ class FavResult extends Component {
                 </div>
                 <div className = 'favList'>
                         <ul>
-                        {console.log(this.state.podcasts)}
                         {this.state.podcasts.map((item, index)  => (
                             <li className = 'favResult' key={index}>
                                 <a href={this.returnURL(item)}>

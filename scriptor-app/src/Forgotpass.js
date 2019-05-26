@@ -19,7 +19,6 @@ class Forgotpass extends Component {
             toast("Verification Email Sent", {
                 className: 'popup'
             });
-            console.log(this.state);
         }
     }
 
