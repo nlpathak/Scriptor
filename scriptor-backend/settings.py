@@ -4,7 +4,6 @@ ENV = os.environ.get("ENV", "DEV")
 if ENV == "DEV":
     # Only load the .env file in the development environment
     from dotenv import load_dotenv
-
     load_dotenv()
 
 # Elasticsearch-related settings
