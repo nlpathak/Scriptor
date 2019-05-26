@@ -43,7 +43,25 @@ class Results extends Component {
                             </Link> 
                          </li>
 						<div className="times">
-							<a className= "timeStamp" href= {result.url + "#t=" + result.timestamp} target="_blank" rel="noopener noreferrer"> {result.timestamp}</a> 
+							<li className= "timeStamp"> 
+                            <Link to={{ 
+							pathname: '/podcast',
+                            search:  
+                            "?department=" + result.podcastPage.department 
+                            + "&course_num=" + result.podcastPage.course_num
+                            + "&title=" + encodeURIComponent(result.podcastPage.title)
+                            + "&section_id=" + result.podcastPage.section_id
+                            + "&professor=" + result.podcastPage.professor
+                            + "&lecture_num=" + result.podcastPage.lecture_num
+                            + "&ucsd_podcast_video_url=" + result.podcastPage.ucsd_podcast_video_url
+                            + "&starting_timestamp_second=" + result.podcastPage.starting_timestamp_second
+                            + "&transcription_blob=" + result.podcastPage.transcription_blob
+                            + "&ucsd_podcast_audio_url=" + result.podcastPage.ucsd_podcast_audio_url
+                            + "&podcast_id=" + result.podcast_id,
+                             }}>
+                             {result.timestamp}
+                            </Link> 
+							</li> 
 						</div>
 						<li className= "blurb"> {result.blurb} </li>
 						<div className ="spacer"></div>

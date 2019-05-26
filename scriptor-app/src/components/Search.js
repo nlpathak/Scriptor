@@ -45,6 +45,7 @@ class Search extends Component {
                 APIClient.getPodcastMetadata(element.podcast_id).then(back => {
                     const quarter = back.quarter.split(' ');
                     const qString = quarter[0].substr(0,1) + quarter[1].substr(2,3);
+                    console.log(element.starting_timestamp_second);
                     var minutes = Math.floor(element.starting_timestamp_second / 60);
                     var seconds = element.starting_timestamp_second % 60;    
                     var updatedSeconds = ('0' + seconds).slice(-2);
@@ -76,7 +77,7 @@ class Search extends Component {
                     counter++;
                     if(counter === response.length){
                         this.props.history.push({
-                        pathname: '/results',
+                        pathname: '/results/hi',
                         state: { results: this.state.results }
                         })
                     }

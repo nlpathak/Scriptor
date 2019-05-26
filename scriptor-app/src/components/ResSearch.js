@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Redirect } from 'react-router'
+import {Redirect} from 'react-router'
 import './ResSearch.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
