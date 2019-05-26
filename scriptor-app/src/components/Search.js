@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Route, Redirect } from 'react-router'
+import {Redirect } from 'react-router'
 import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
@@ -57,12 +57,24 @@ class Search extends Component {
                     var updatedSeconds = ('0' + seconds).slice(-2);
                     const timeStamp = minutes + ":" + updatedSeconds;
                     const vidUrl = back.ucsd_podcast_video_url;
-                    console.log(back);
                     var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "]" + " | " + back.professor + " | " + "Lecture " + back.lecture_num, 
                         blurb: element.transcription_blob, 
                         timestamp: timeStamp, 
-                        url: vidUrl
+                        url: vidUrl,
+                    podcastPage: {
+                        department: back.department,
+                        course_num: back.course_num,
+                        title: back.title,
+                        section_id: back.section_id,
+                        professor: back.professor,
+                        lecture_num: back.lecture_num,
+                        ucsd_podcast_video_url: back.ucsd_podcast_video_url,
+                        starting_timestamp_second: element.starting_timestamp_second,
+                        transcription_blob: element.transcription_blob,
+                        ucsd_podcast_audio_url: back.ucsd_podcast_audio_url
                     }
+                    }
+                    console.log(result);
                     this.setState(prevState => ({results: [...prevState.results, result]}));
                     counter++;
                     if(counter === response.length){
@@ -146,7 +158,7 @@ class Search extends Component {
                     <br></br>
                     {filters}
                     <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
-                    {this.state.dataExists && <Redirect to={{pathname: '/results',state: { results: this.state.results }}}/>
+                    {this.state.dataExists && <Redirect to={{pathname: '/results', state: { results: this.state.results }}}/>
                     }
 
 
