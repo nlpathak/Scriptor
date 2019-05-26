@@ -3,22 +3,31 @@ import APIClient from '../api/APIClient.js';
 import './_Components.css';
 import starOff from './starOff.svg';
 import starOn from './starOn.svg';
-//Hard coded fav data
-import { course_podcasts } from "./favData.json"
+import {toast} from 'react-toastify';
 
 
 class FavResult extends Component {
     constructor(props) {
         super(props);
-        this.state = {isFav : course_podcasts.map((element) => true), podcasts: ''};
+        this.state = {isFav : [], podcasts: []};
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick(e, index) {
+    handleClick(e, index, item) {
         e.preventDefault();
 
         const newFav = [...this.state.isFav]
         newFav[index] = !this.state.isFav[index]
+
+        if(!newFav[index]) {
+            APIClient.removeFavoritePodcastById(item.id).then(response => {
+                toast("Removed from Favorites", {className: 'popup'});
+            });
+        } else {
+            APIClient.addFavoritePodcastById(item.id).then(response => {
+                toast("Added to Favorites", {className: 'popup'});
+            });
+        }   
         this.setState(state => ({
             isFav: newFav
         }));
@@ -29,7 +38,7 @@ class FavResult extends Component {
         let fulltitle = item.department + ' ' + item.course_num;
 
         // Add truncated coursename
-        var coursename = item.course_name;
+        var coursename = item.title;
         if(coursename.length > 25) {
             coursename = coursename.substring(0,25) + '...';
         }
@@ -61,15 +70,16 @@ class FavResult extends Component {
     }
 
     returnURL(item){
-        if(item.video_url.length < 1){
-            item.video_url = item.audio_url
+        if(item.ucsd_podcast_video_url.length < 1){
+            item.ucsd_podcast_video_url = item.audio_url
         }
-        return item.video_url
+        return item.ucsd_podcast_video_url
     }
 
     componentDidMount() {
         APIClient.getFavoritePodcasts().then(response => {
-            this.setState({podcasts: {response}});
+            this.setState({podcasts: response});
+            this.setState({isFav: this.state.podcasts.map((element) => true)});
         });
     }
 
@@ -85,7 +95,7 @@ class FavResult extends Component {
                             <li className = 'favResult' key={index}>
                                 <a href={this.returnURL(item)}>
                                     <div>{this.formatTitle(item)}
-                                        <img onClick={(e) => {this.handleClick(e, index)}}
+                                        <img onClick={(e) => {this.handleClick(e, index, item)}}
                                         src={this.state.isFav[index] ? starOn : starOff}
                                         alt="" width="48" height="48"/>
                                     </div>
