@@ -222,7 +222,7 @@ def user_get_favorite_podcasts():
     }
     :return:
     """
-    favorite_podcasts = [podcast.to_dict() for podcast in g.current_user.favorite_podcasts]
+    favorite_podcasts = [podcast.convert_to_dict() for podcast in g.current_user.favorite_podcasts]
     return jsonify(success=True, favorite_podcasts=favorite_podcasts)
 
 

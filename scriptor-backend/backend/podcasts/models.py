@@ -36,3 +36,8 @@ class Podcast(Document):
         self.exact_value_quarter = self.quarter
         self.exact_value_professor = self.professor
         return super().save(**kwargs)
+
+    def convert_to_dict(self):
+        dict_ = self.to_dict(include_meta=False)
+        dict_['id'] = self.meta.id
+        return dict_

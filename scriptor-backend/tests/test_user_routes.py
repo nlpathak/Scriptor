@@ -203,6 +203,8 @@ def test_user_favorite_podcasts(test_user, test_podcasts, client):
     assert 200 == response.status_code
     assert res["success"]
     assert len(test_podcasts) == len(res["favorite_podcasts"])
+    for fav_podcast in res["favorite_podcasts"]:
+        assert fav_podcast['id']  # Make sure each podcast object has an id field.
 
     # Check that the "user_check_favorite_podcast" API endpoint works
     for test_podcast in test_podcasts:
@@ -240,6 +242,8 @@ def test_user_favorite_podcasts(test_user, test_podcasts, client):
     assert 200 == response.status_code
     assert res["success"]
     assert len(test_podcasts) - len(fav_podcasts_to_delete) == len(res["favorite_podcasts"])
+    for fav_podcast in res["favorite_podcasts"]:
+        assert fav_podcast['id']  # Make sure each podcast object has an id field.
 
 
 def test_user_history(test_user, test_podcasts, client):
