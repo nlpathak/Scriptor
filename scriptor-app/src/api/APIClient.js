@@ -322,12 +322,16 @@ class APIClient {
         });
     }
 
-    getPodcastTranscript(podcastId) {
+    getPodcastTranscript(podcastId, sentence_split = 5) {
         return new Promise((resolve, reject) => {
-            fetch("/api/podcasts/" + podcastId + "/transcript/", {headers: this._getRequestHeaders()}).then(response => response.json())
+            fetch("/api/podcasts/" + podcastId + "/transcript/",
+                {
+                    headers: this._getRequestHeaders(),
+                    body: JSON.stringify({"sentence_split": sentence_split})
+                }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
-                        resolve(response.full_transcript);
+                        resolve(response);
                     } else {
                         reject(response.error);
                     }

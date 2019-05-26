@@ -94,3 +94,4 @@ def test_get_podcast_transcript(client, test_podcasts):
     assert 200 == response.status_code
     assert res['success']
     assert "Lorem ipsum" == res['full_transcript']
+    assert ["Lorem ipsum"] == res['transcript_sections']

@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, g
+from flask import Blueprint, jsonify, g, request
 
 from backend.podcasts.models import Podcast
 from backend.search.models import PodcastTranscriptionBlob
@@ -10,7 +10,7 @@ podcasts_blueprint = Blueprint('podcasts', __name__, url_prefix="/api/podcasts")
 @podcasts_blueprint.route("/blobs/<string:blob_id>/")
 def get_podcast_blob(blob_id):
     podcast_blob = PodcastTranscriptionBlob.get(id=blob_id)
-    podcast = podcast_blob.podcast.to_dict()
+    podcast = podcast_blob.podcast.convert_to_dict()
 
     if g.current_user:
         # There's a logged-in user, so add this view to their history.
@@ -23,11 +23,13 @@ def get_podcast_blob(blob_id):
 
 @podcasts_blueprint.route("/<string:podcast_id>/transcript/")
 def get_podcast_transcript(podcast_id):
-    full_transcript = Podcast.get(id=podcast_id).full_transcript
-    return jsonify(success=True, full_transcript=full_transcript)
-
+    sentence_split = int(request.args.get("sentence_split", 5))
+    podcast = Podcast.get(id=podcast_id)
+    full_transcript = podcast.full_transcript
+    transcript_sections = podcast.get_transcript_sections(sentence_split=sentence_split)
+    return jsonify(success=True, full_transcript=full_transcript, transcript_sections=transcript_sections)
 
 @podcasts_blueprint.route("/<string:podcast_id>/")
 def get_podcast(podcast_id):
-    podcast = Podcast.get(id=podcast_id).to_dict()
+    podcast = Podcast.get(id=podcast_id).convert_to_dict()
     return jsonify(success=True, podcast=podcast)

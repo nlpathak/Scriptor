@@ -10,9 +10,12 @@ class Transcript extends Component {
         transcript: null
     };
 
+    // TODO: How should we render response.transcript_sections instead of just the full_transcript?
+    // response.transcript_sections is a list of strings representing the entire podcast split into paragraphs (ie. each string in transcript_sections is a paragraph).
+
     componentDidMount() {
         APIClient.getPodcastTranscript(this.values.podcast_id).then(response => {
-            this.setState({transcript: response})
+            this.setState({transcript: response.full_transcript})
         });
     }
     
