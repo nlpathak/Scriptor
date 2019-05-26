@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Redirect } from 'react-router'
 import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
@@ -35,11 +34,17 @@ class Search extends Component {
 
     onSubmit(e) {
        e.preventDefault();
+       if(this.state.query.length === 0) {
+        document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
+        document.getElementById('noResults').innerHTML = "Please enter a query.";
+        return;
+       }
         APIClient.searchPodcasts(this.state.query, {dept: this.state.department, course: this.state.couse, professor: this.state.professor, quarter: this.state.quarter}).then(response => {
             var counter = 0;
             if(response.length === 0){
                 document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
-                document.getElementById('noResults').innerHTML = "No results found";
+                document.getElementById('noResults').innerHTML = "No results found.";
+                return;
             }
             response.forEach((element) => {
                 APIClient.getPodcastMetadata(element.podcast_id).then(back => {
@@ -54,12 +59,12 @@ class Search extends Component {
                     var prof = back.professor;
                     prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
                         prof.substring(0, prof.indexOf(','))
-                    console.log(prof);
                     var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.lecture_num, 
                         blurb: element.transcription_blob, 
                         timestamp: timeStamp, 
                         url: vidUrl,
                         podcast_id: element.podcast_id,
+                        blob_id: element.id,
                         podcastPage: {
                             department: back.department,
                             course_num: back.course_num,

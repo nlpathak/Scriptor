@@ -324,10 +324,9 @@ class APIClient {
 
     getPodcastTranscript(podcastId, sentence_split = 5) {
         return new Promise((resolve, reject) => {
-            fetch("/api/podcasts/" + podcastId + "/transcript/",
+            fetch("/api/podcasts/" + podcastId + "/transcript/?sentence_split=" + sentence_split,
                 {
                     headers: this._getRequestHeaders(),
-                    body: JSON.stringify({"sentence_split": sentence_split})
                 }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {

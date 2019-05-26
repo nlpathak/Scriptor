@@ -7,22 +7,27 @@ class Transcript extends Component {
     values = queryString.parse(this.props.location.search);
 
     state = {
-        transcript: null
+        transcript: []
     };
-
-    // TODO: How should we render response.transcript_sections instead of just the full_transcript?
-    // response.transcript_sections is a list of strings representing the entire podcast split into paragraphs (ie. each string in transcript_sections is a paragraph).
 
     componentDidMount() {
         APIClient.getPodcastTranscript(this.values.podcast_id).then(response => {
-            this.setState({transcript: response.full_transcript})
+            response.transcript_sections.forEach(element => {
+                this.setState(prevState => ({transcript: [...prevState.transcript, element]}));
+            });
         });
     }
     
     render() {
         return(
-            <div>
-                {this.state.transcript}
+            <div className='transcript'>
+                {this.state.transcript.map((result, index) => (
+					<div key={index}>
+                        {result}
+                        <br></br>
+                        <br></br>
+					</div>			
+				))}
             </div>
         );
     }

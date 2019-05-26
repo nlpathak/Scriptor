@@ -10,21 +10,6 @@ class PodcastPage extends Component {
     state = {
         isFavorited: null
     };
-
-    /*
-    Requires querystring with:
-        department
-        course_num
-        title
-        section_id
-        professor
-        lecture_num
-
-        ucsd_podcast_video_url
-        starting_timestamp_second
-        transcription_blob
-        ucsd_podcast_audio_url
-    */
     
     formatTitle() {
         // Add department and coursenum
@@ -53,8 +38,8 @@ class PodcastPage extends Component {
         return fulltitle;
     }
 
-    formatVideoLink() {
-        return (this.values.ucsd_podcast_video_url + '#t=' + this.values.starting_timestamp_second);
+    formatVideoLink(mainurl) {
+        return (mainurl + '#t=' + this.values.starting_timestamp_second);
     }
 
     formatRelevantText() {
@@ -112,15 +97,20 @@ class PodcastPage extends Component {
                 this.setState({isFavorited: false});
             }   
         });
+        APIClient.getPodcastSnippet(this.values.blob_id).then(response => {
+           console.log(response);
+        });
     }
 
     render(){
+        let mainurl;
+        this.values.ucsd_podcast_video_url === '' ? mainurl = this.values.ucsd_podcast_audio_url : mainurl = this.values.ucsd_podcast_video_url;
         return(
             <div className='podpage'>
-                <h1 className='title'><a className='link' href={this.values.ucsd_podcast_video_url}>{this.formatTitle()}</a></h1>
+                <h1 className='title'><a className='link' href={mainurl}>{this.formatTitle()}</a></h1>
                 <div className='toplayer'>
                     <video className='vid' controls>
-                        <source src={this.formatVideoLink()}/>
+                        <source src={this.formatVideoLink(mainurl)}/>
                     </video>
                     <div className='text'>
                         <h3>Speech-to-Text</h3>
