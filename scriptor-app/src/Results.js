@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './About.css';
 import './Results.css';
 import { Link } from 'react-router-dom';
+import ResSearch from './components/ResSearch.js';
 
 
 
@@ -19,6 +20,7 @@ class Results extends Component {
 	render(){
 		return (
 			<div className = "results">
+            <ResSearch/>
 				{this.props.location.state.results.map((result, index) => (
 					<div key={index}>
 						<li className= "description"> 
