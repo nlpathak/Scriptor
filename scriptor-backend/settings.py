@@ -1,6 +1,8 @@
+import os
+
 # Elasticsearch-related settings
 ELASTICSEARCH = {
-    "hosts": ["localhost"]
+    "hosts": os.environ.get("ES_HOSTS", "localhost").split(",")
 }
 
 JWT_SECRET = "dfhudgruwij3o0u@#$@#!ED"
