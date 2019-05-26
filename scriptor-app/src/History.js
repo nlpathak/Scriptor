@@ -45,6 +45,7 @@ class History extends Component {
   }
 
   render() {
+    if(APIClient.isCurrentUserLoggedIn()) {
       return (
         <div className = "history">
           <div className='header'>
@@ -78,6 +79,9 @@ class History extends Component {
           </div>
         </div>
       );
+    } else {
+      window.location.assign('/');
+    }
   }
 }
 export default History;

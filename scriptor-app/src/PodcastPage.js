@@ -10,21 +10,6 @@ class PodcastPage extends Component {
     state = {
         isFavorited: null
     };
-
-    /*
-    Requires querystring with:
-        department
-        course_num
-        title
-        section_id
-        professor
-        lecture_num
-
-        ucsd_podcast_video_url
-        starting_timestamp_second
-        transcription_blob
-        ucsd_podcast_audio_url
-    */
     
     formatTitle() {
         // Add department and coursenum
@@ -113,7 +98,7 @@ class PodcastPage extends Component {
             }   
         });
         APIClient.getPodcastSnippet(this.values.blob_id).then(response => {
-            console.log(response);
+           console.log(response);
         });
     }
 

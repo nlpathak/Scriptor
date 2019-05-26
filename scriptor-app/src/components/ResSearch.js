@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './ResSearch.css';
+import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
 import { withRouter } from 'react-router-dom';
@@ -58,7 +58,6 @@ class ResSearch extends Component {
                     var prof = back.professor;
                     prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
                         prof.substring(0, prof.indexOf(','))
-                    console.log(prof);
                     var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.lecture_num, 
                         blurb: element.transcription_blob, 
                         timestamp: timeStamp, 
