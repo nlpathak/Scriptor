@@ -8,24 +8,7 @@ class History extends Component {
     queries: [],
     podcasts: []
   };
-
-  searchHistory = [
-      {
-        "search": "Dynamic Programming"
-      },
-      {
-        "search": "Dynamic Programming"
-      },
-      {
-        "search": "Dynamic Programming"
-      },
-      {
-        "search": "Daily sugar intake"
-      },
-      {
-        "search": "Daily sugar intake"
-      }
-  ]
+  
   returnURL(item){
       if(item.video_url.length < 1){
           item.video_url = item.audio_url

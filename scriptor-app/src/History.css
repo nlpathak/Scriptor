@@ -3,6 +3,10 @@
     display: block;
 }
 
+.history li {
+  text-decoration: none !important; 
+}
+
 .history  .header {
     width: 20%;
     overflow: hidden;
