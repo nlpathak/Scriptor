@@ -251,6 +251,30 @@ def user_get_history():
     return jsonify(success=True, history=history_items)
 
 
+@users_blueprint.route("/send_password_recovery_email/", methods=["POST"])
+@login_required
+def user_send_password_recovery_email():
+    try:
+        g.current_user.send_forgot_password_email()
+        return jsonify(success=True)
+    except Exception as e:
+        return jsonify(success=False, error="The password recovery email could not be sent."), 400
+
+
+@users_blueprint.route("/set_new_password/", methods=['POST'])
+@login_required
+def user_set_new_password():
+    data = request.get_json(force=True)
+    password_token = data['password_token']
+    if not g.current_user.verify_password_token(password_token):
+        return jsonify(success=False, error="Invalid password verification token."), 400
+    new_password = data['new_password']
+    try:
+        g.current_user.set_password(new_password)
+    except Exception as e:
+        return jsonify(success=False, error=str(e)), 400
+    return jsonify(success=True)
+
 @users_blueprint.route("/history/clear/", methods=["DELETE"])
 @login_required
 def user_clear_history():
