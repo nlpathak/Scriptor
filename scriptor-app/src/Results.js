@@ -27,7 +27,7 @@ class Results extends Component {
                             search:  
                             "?department=" + result.podcastPage.department 
                             + "&course_num=" + result.podcastPage.course_num
-                            + "&title=" + result.podcastPage.title
+                            + "&title=" + encodeURIComponent(result.podcastPage.title)
                             + "&section_id=" + result.podcastPage.section_id
                             + "&professor=" + result.podcastPage.professor
                             + "&lecture_num=" + result.podcastPage.lecture_num

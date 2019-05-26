@@ -57,7 +57,11 @@ class Search extends Component {
                     var updatedSeconds = ('0' + seconds).slice(-2);
                     const timeStamp = minutes + ":" + updatedSeconds;
                     const vidUrl = back.ucsd_podcast_video_url;
-                    var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "]" + " | " + back.professor + " | " + "Lecture " + back.lecture_num, 
+                    var prof = back.professor;
+                    prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
+                        prof.substring(0, prof.indexOf(','))
+                    console.log(prof);
+                    var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.lecture_num, 
                         blurb: element.transcription_blob, 
                         timestamp: timeStamp, 
                         url: vidUrl,
@@ -67,7 +71,7 @@ class Search extends Component {
                             course_num: back.course_num,
                             title: back.title,
                             section_id: back.section_id,
-                            professor: back.professor,
+                            professor: prof,
                             lecture_num: back.lecture_num,
                             ucsd_podcast_video_url: back.ucsd_podcast_video_url,
                             starting_timestamp_second: element.starting_timestamp_second,
