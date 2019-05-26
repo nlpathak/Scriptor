@@ -13,8 +13,6 @@ class Transcript extends Component {
     componentDidMount() {
         APIClient.getPodcastTranscript(this.values.podcast_id).then(response => {
             this.setState({transcript: response})
-        }).catch(e => {
-            console.log(e);
         });
     }
     

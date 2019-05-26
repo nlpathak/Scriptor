@@ -61,32 +61,30 @@ class Search extends Component {
                         blurb: element.transcription_blob, 
                         timestamp: timeStamp, 
                         url: vidUrl,
-                    podcastPage: {
-                        department: back.department,
-                        course_num: back.course_num,
-                        title: back.title,
-                        section_id: back.section_id,
-                        professor: back.professor,
-                        lecture_num: back.lecture_num,
-                        ucsd_podcast_video_url: back.ucsd_podcast_video_url,
-                        starting_timestamp_second: element.starting_timestamp_second,
-                        transcription_blob: element.transcription_blob,
-                        ucsd_podcast_audio_url: back.ucsd_podcast_audio_url
-                    }
-                    }
-                    console.log(result);
-                    this.setState(prevState => ({results: [...prevState.results, result]}));
-                    counter++;
-                    if(counter === response.length){
-                        if(this.state.results.length > 0){
-                            this.setState({dataExists: true});
+                        podcast_id: element.podcast_id,
+                        podcastPage: {
+                            department: back.department,
+                            course_num: back.course_num,
+                            title: back.title,
+                            section_id: back.section_id,
+                            professor: back.professor,
+                            lecture_num: back.lecture_num,
+                            ucsd_podcast_video_url: back.ucsd_podcast_video_url,
+                            starting_timestamp_second: element.starting_timestamp_second,
+                            transcription_blob: element.transcription_blob,
+                            ucsd_podcast_audio_url: back.ucsd_podcast_audio_url,
                         }
+                }
+                this.setState(prevState => ({results: [...prevState.results, result]}));
+                counter++;
+                if(counter === response.length){
+                    if(this.state.results.length > 0){
+                        this.setState({dataExists: true});
                     }
+                }
                 });
-              });
+            });
 
-        }).catch(e => {
-            console.log(e);         
         });
 
     }

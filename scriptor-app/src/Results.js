@@ -9,7 +9,6 @@ class Results extends Component {
     search = this.props.location.state.results.podcastPage;
 	constructor(props){
 		super(props);
-		console.log(this.props.location.state.results);
 		this.state = {
 			isLoaded: false,
 		}
@@ -24,7 +23,7 @@ class Results extends Component {
 					<div key={index}>
 						<li className= "description"> 
                             <Link to={{ 
-                            pathname: '/podcast',
+							pathname: '/podcast',
                             search:  
                             "?department=" + result.podcastPage.department 
                             + "&course_num=" + result.podcastPage.course_num

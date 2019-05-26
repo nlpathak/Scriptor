@@ -100,7 +100,7 @@ class PodcastPage extends Component {
         window.location.assign(this.values.ucsd_podcast_video_url);
     }
 
-    render(){
+    componentDidMount() {
         APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
             if(response) {
                 this.setState({isFavorited: true});
@@ -112,6 +112,9 @@ class PodcastPage extends Component {
                 this.setState({isFavorited: false});
             }   
         });
+    }
+
+    render(){
         return(
             <div className='podpage'>
                 <h1 className='title'><a className='link' href={this.values.ucsd_podcast_video_url}>{this.formatTitle()}</a></h1>

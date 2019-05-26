@@ -15,7 +15,6 @@ class Navbar extends Component {
 
     logout(e) {
         e.preventDefault();
-        console.log('done');
         APIClient.logout();
         toast("Logged Out", {className: 'popup'});
         window.location.reload();
