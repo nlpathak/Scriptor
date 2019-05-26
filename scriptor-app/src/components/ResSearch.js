@@ -85,6 +85,8 @@ class ResSearch extends Component {
                         pathname: '/results',
                         state: { results: this.state.results}
                         })
+
+                        this.setState({results: []});
                         this.setState({showFilters: false});
                     }
                     });
