@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Redirect } from 'react-router'
 import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
@@ -59,6 +58,7 @@ class Search extends Component {
                         timestamp: timeStamp, 
                         url: vidUrl,
                         podcast_id: element.podcast_id,
+                        blob_id: element.id,
                         podcastPage: {
                             department: back.department,
                             course_num: back.course_num,

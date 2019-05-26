@@ -15,8 +15,6 @@ class Results extends Component {
 		}
 	}
 
-
-
 	render(){
 		return (
 			<div className = "results">
@@ -37,7 +35,8 @@ class Results extends Component {
                             + "&starting_timestamp_second=" + result.podcastPage.starting_timestamp_second
                             + "&transcription_blob=" + result.podcastPage.transcription_blob
                             + "&ucsd_podcast_audio_url=" + result.podcastPage.ucsd_podcast_audio_url
-                            + "&podcast_id=" + result.podcast_id,
+							+ "&podcast_id=" + result.podcast_id
+							+ "&blob_id=" + result.blob_id
                              }}>
                              {result.description}
                             </Link> 

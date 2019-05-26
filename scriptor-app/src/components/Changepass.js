@@ -17,11 +17,17 @@ class Changepass extends Component {
 
     onSubmit(e) {
         e.preventDefault();
+
+        if(this.state.newpass.length < 4) {
+            toast("Password must be at least 4 characters.", {className: 'popup error'});
+            return;
+        }
+
         if(this.state.newpass !== this.state.verify) {
-            // @David
             toast("New Passwords Don't Match", {className: 'popup error'});
             return;
         }
+
         APIClient.changePassword(this.state.oldpass, this.state.newpass).then((authToken) => {
             toast("Password Updated", {className: 'popup'});
             this.setState({oldpass: ''});
@@ -29,7 +35,6 @@ class Changepass extends Component {
             this.setState({verify: ''});
         }).catch(e => {
             toast("Invalid Old Password", {className: 'popup error'});
-          // @David
         }); 
 
     }
