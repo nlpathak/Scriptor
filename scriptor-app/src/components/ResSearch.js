@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {Redirect } from 'react-router'
-import './_Components.css';
+import './ResSearch.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
 import { withRouter } from 'react-router-dom';
 
 
-class Search extends Component {
+class ResSearch extends Component {
+    query = "";
     state = {
         query: '',
         department: '',
@@ -34,12 +35,17 @@ class Search extends Component {
 
 
     onSubmit(e) {
+       this.query = this.state.query;
        e.preventDefault();
+        if(this.state.query.length === 0) {
+        }
         APIClient.searchPodcasts(this.state.query, {dept: this.state.department, course: this.state.couse, professor: this.state.professor, quarter: this.state.quarter}).then(response => {
             var counter = 0;
             if(response.length === 0){
                 document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
                 document.getElementById('noResults').innerHTML = "No results found";
+            this.setState({showFilters: false});
+
             }
             response.forEach((element) => {
                 APIClient.getPodcastMetadata(element.podcast_id).then(back => {
@@ -77,8 +83,9 @@ class Search extends Component {
                     if(counter === response.length){
                         this.props.history.push({
                         pathname: '/results',
-                        state: { results: this.state.results }
+                        state: { results: this.state.results}
                         })
+                        this.setState({showFilters: false});
                     }
                     });
                 });
@@ -98,32 +105,32 @@ class Search extends Component {
         let filters;
         if(this.state.showFilters) {
             filters = 
-                <div className='filters'>
-                    <div className='filterinputs'>
+                <div className='resfilters'>
+                    <div className='resfilterinputs'>
                         <input 
                             type = 'text'
-                            className ='filterbar' 
+                            className ='resfilterbar' 
                             name = 'department'
                             value = {this.state.department} 
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)}/>
                         <input 
                             type = 'text'
-                            className ='filterbar' 
+                            className ='resfilterbar' 
                             name = 'course'
                             value = {this.state.course} 
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
                         <input 
                             type = 'text'
-                            className ='filterbar' 
+                            className ='resfilterbar' 
                             name = 'professor'
                             value = {this.state.professor} 
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
                         <input 
                             type = 'text'
-                            className ='filterbar' 
+                            className ='resfilterbar' 
                             name = 'quarter'
                             value = {this.state.quarter} 
                             onChange={e => this.change(e)} 
@@ -140,19 +147,18 @@ class Search extends Component {
         }
 
         return (
-            <div className={this.state.showFilters ? 'searchform active' : 'searchform'}>
+            <div className={'ressearchform'}>
                 <form className='col-xs-1 text-center'>
-                    <h1 className='title'>SCRIPTOR</h1>
                     <input 
                     type = 'text'
-                    className ='searchbar' 
+                    className ='ressearchbar' 
                     name = 'query'
-                    placeholder = 'What do you want to learn?'
+                    placeholder = "Keep Learning?"
                     value = {this.state.query} 
                     onChange={e => this.change(e)} />
                     <p id="noResults"></p>
                     {filters}
-                    <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
+                    <button className='rescenter' onClick={e => this.onSubmit(e)}>Search</button>
 
 
                 </form> 
@@ -161,4 +167,4 @@ class Search extends Component {
     }
 }
 
-export default withRouter(Search);
+export default withRouter(ResSearch);
