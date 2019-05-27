@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Redirect} from 'react-router'
 import './_Components.css';
 import { toast } from 'react-toastify';
 import APIClient from '../api/APIClient.js';
@@ -39,7 +38,7 @@ class ResSearch extends Component {
        e.preventDefault();
         if(this.state.query.length === 0) {
         }
-        APIClient.searchPodcasts(this.state.query, {dept: this.state.department, course: this.state.couse, professor: this.state.professor, quarter: this.state.quarter}).then(response => {
+        APIClient.searchPodcasts(this.state.query, {dept: this.state.department, course: this.state.course, professor: this.state.professor, quarter: this.state.quarter}).then(response => {
             var counter = 0;
             if(response.length === 0){
                 document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
@@ -138,7 +137,7 @@ class ResSearch extends Component {
                             onKeyDown={e => this.handleEnter(e)} />
                     </div>
                     <p style={{marginTop: '5px'}}>Department</p>
-                    <p>Course</p>
+                    <p>Course Number</p>
                     <p>Professor</p>
                     <p>Quarter</p>
                     

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import APIClient from '../api/APIClient.js';
 import './_Components.css';
-import starOff from './starOff.svg';
-import starOn from './starOn.svg';
+import starOff from './starOff.png';
+import starOn from './starOn.png';
 import {toast} from 'react-toastify';
 
 
@@ -97,7 +97,7 @@ class FavResult extends Component {
                                     <div>{this.formatTitle(item)}
                                         <img onClick={(e) => {this.handleClick(e, index, item)}}
                                         src={this.state.isFav[index] ? starOn : starOff}
-                                        alt="" width="48" height="48"/>
+                                        alt="" width="58" height="58"/>
                                     </div>
                                 </a>
                             </li>

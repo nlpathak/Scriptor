@@ -21,7 +21,6 @@ class Search extends Component {
     }
 
     
-    
     updateFilters() {
         if(this.state.query.length > 0 || (this.state.department.length > 0 || this.state.course.length > 0
         || this.state.professor.length > 0 || this.state.quarter.length > 0)) {
@@ -39,7 +38,8 @@ class Search extends Component {
         document.getElementById('noResults').innerHTML = "Please enter a query.";
         return;
        }
-        APIClient.searchPodcasts(this.state.query, {dept: this.state.department, course: this.state.couse, professor: this.state.professor, quarter: this.state.quarter}).then(response => {
+        console.log(this.state.course);
+        APIClient.searchPodcasts(this.state.query, {dept: this.state.department, course_num: this.state.course, professor: this.state.professor, quarter: this.state.quarter}).then(response => {
             var counter = 0;
             if(response.length === 0){
                 document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
@@ -50,7 +50,6 @@ class Search extends Component {
                 APIClient.getPodcastMetadata(element.podcast_id).then(back => {
                     const quarter = back.quarter.split(' ');
                     const qString = quarter[0].substr(0,1) + quarter[1].substr(2,3);
-                    console.log(element.starting_timestamp_second);
                     var minutes = Math.floor(element.starting_timestamp_second / 60);
                     var seconds = element.starting_timestamp_second % 60;    
                     var updatedSeconds = ('0' + seconds).slice(-2);
@@ -82,7 +81,7 @@ class Search extends Component {
                     counter++;
                     if(counter === response.length){
                         this.props.history.push({
-                        pathname: '/results/hi',
+                        pathname: '/results',
                         state: { results: this.state.results }
                         })
                     }
@@ -136,7 +135,7 @@ class Search extends Component {
                             onKeyDown={e => this.handleEnter(e)} />
                     </div>
                     <p style={{marginTop: '5px'}}>Department</p>
-                    <p>Course</p>
+                    <p>Course Number</p>
                     <p>Professor</p>
                     <p>Quarter</p>
                     

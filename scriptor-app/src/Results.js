@@ -59,7 +59,7 @@ class Results extends Component {
                             + "&podcast_id=" + result.podcast_id,
                              }}>
                              {result.timestamp}
-                            </Link> 
+                            </Link > 
 							</li> 
 						</div>
 						<li className= "blurb"> {result.blurb} </li>
