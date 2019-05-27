@@ -246,3 +246,10 @@ class User(Document):
     @staticmethod
     def delete_by_email(email):
         return User.search().query("term", email=email).delete()
+
+    @staticmethod
+    def find_by_email(email):
+        try:
+            return User.search().query("term", email=email).execute()[0]
+        except:
+            raise ValueError("Invalid email.")

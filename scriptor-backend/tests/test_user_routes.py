@@ -301,8 +301,17 @@ def test_user_history(test_user, test_podcasts, client):
 def test_user_forgot_password(client, test_user):
     (test_user_email, test_user_password, auth_token, test_user_id) = test_user
 
+    # Should fail for invalid email
     response = client.post(f"/api/user/send_password_recovery_email/",
-                           headers={"Authorization": f"Bearer {auth_token}"})
+                           json={"email": test_user_email + "asdas"})
+    res = response.get_json()
+    assert 400 == response.status_code
+    assert not res["success"]
+    assert "Invalid email." == res['error']
+
+    # Should succeed for valid email
+    response = client.post(f"/api/user/send_password_recovery_email/",
+                           json={"email": test_user_email})
     res = response.get_json()
     assert 200 == response.status_code
     assert res["success"]
@@ -315,10 +324,19 @@ def test_user_forgot_password(client, test_user):
     incorrect_password_recovery_token = password_recovery_token + "q32ee"
     new_password = test_user_password + "123e1"
 
+    # Should fail for invalid email
+    response = client.post(f"/api/user/set_new_password/",
+                           json={"password_token": incorrect_password_recovery_token, "new_password": new_password,
+                                 "email": test_user_email + "asdas"})
+    res = response.get_json()
+    assert 400 == response.status_code
+    assert not res["success"]
+    assert "Invalid email." == res['error']
+
     # Trying to set a new password with an incorrect recovery token should fail
     response = client.post(f"/api/user/set_new_password/",
-                           headers={"Authorization": f"Bearer {auth_token}"},
-                           json={"password_token": incorrect_password_recovery_token, "new_password": new_password})
+                           json={"password_token": incorrect_password_recovery_token, "new_password": new_password,
+                                 "email": test_user_email})
     res = response.get_json()
     assert 400 == response.status_code
     assert not res["success"]
@@ -326,8 +344,8 @@ def test_user_forgot_password(client, test_user):
 
     # Try to set a new password with a correct recovery token
     response = client.post(f"/api/user/set_new_password/",
-                           headers={"Authorization": f"Bearer {auth_token}"},
-                           json={"password_token": password_recovery_token, "new_password": new_password})
+                           json={"password_token": password_recovery_token, "new_password": new_password,
+                                 "email": test_user_email})
     res = response.get_json()
     assert 200 == response.status_code
     assert res["success"]

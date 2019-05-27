@@ -108,11 +108,12 @@ class APIClient {
         });
     }
 
-    sendPasswordTokenEmail() {
+    sendPasswordTokenEmail(userEmail) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/send_password_recovery_email/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
+                body: JSON.stringify({"email": userEmail})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
@@ -124,12 +125,12 @@ class APIClient {
         });
     }
 
-    setNewPassword(newPassword, passwordToken) {
+    setNewPassword(userEmail, newPassword, passwordToken) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/set_new_password/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
-                body: JSON.stringify({"password_token": passwordToken, "new_password": newPassword})
+                body: JSON.stringify({"email": userEmail, "password_token": passwordToken, "new_password": newPassword})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
