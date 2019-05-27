@@ -89,7 +89,6 @@ if __name__ == "__main__":
                 with open(os.path.join(transcriptions_folder, f"offset_lecture_{lecture_num}.txt")) as f:
                     video_silence_offset_secs = int(f.read().replace("\n", "").strip())
             except:
-                print(f"no offset for: {course_podcast_folder}, # {lecture_num}")
                 video_silence_offset_secs = 0
 
             podcast_metadata = extract_podcast_metadata_by_lecture_num(metadata=metadata, lecture_num=lecture_num)

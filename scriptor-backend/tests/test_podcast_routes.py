@@ -24,7 +24,7 @@ def test_podcasts():
     test_podcast_transcription_blobs = []
 
     for podcast in test_podcasts:
-        podcast.save()
+        podcast.save(refresh="wait_for")
 
         test_blobs = [
             PodcastTranscriptionBlob(podcast_id=podcast.meta.id, transcription_blob="lorem ipsum " + str(time.time()),
@@ -38,11 +38,9 @@ def test_podcasts():
         ]
 
         for blob in test_blobs:
-            blob.save()
+            blob.save(refresh="wait_for")
 
         test_podcast_transcription_blobs.extend(test_blobs)
-
-    time.sleep(1)
 
     yield test_podcasts, test_podcast_transcription_blobs
 

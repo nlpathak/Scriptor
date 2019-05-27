@@ -28,5 +28,16 @@ services:
       ES_HOSTS: elasticsearch
     restart: always
 
+  frontend:
+    build:
+      context: scriptor-app/
+    ports:
+    - 3000:3000
+    expose:
+    - 3000
+    depends_on:
+    - backend
+    restart: always
+
 volumes:
   esdata:

@@ -70,7 +70,7 @@ class User(Document):
 
     def generate_password_recovery_token(self):
         self.password_recovery_token = str(uuid.uuid4())
-        self.save()
+        self.save(refresh="wait_for")
         return self.password_recovery_token
 
     def verify_password_token(self, token):
@@ -129,7 +129,7 @@ class User(Document):
 
         password_hash = bcrypt.hash(password)
         new_user = cls(email=email, password_hash=password_hash)
-        new_user.save()
+        new_user.save(refresh="wait_for")
         return new_user
 
     @staticmethod
@@ -189,7 +189,7 @@ class User(Document):
 
         password_hash = bcrypt.hash(password)
         self.password_hash = password_hash
-        self.save()
+        self.save(refresh="wait_for")
 
     def change_password(self, existing_password, new_password):
         """
@@ -214,7 +214,7 @@ class User(Document):
         """
         self.favorite_podcast_ids = [podcast_id for podcast_id in self.favorite_podcast_ids if
                                      podcast_id != podcast_id_to_remove]
-        self.save()
+        self.save(refresh="wait_for")
 
     def add_favorite_podcast(self, podcast_id):
         """
@@ -228,7 +228,7 @@ class User(Document):
             self.favorite_podcast_ids.append(podcast_id)
 
             # Save the updated user
-            self.save()
+            self.save(refresh="wait_for")
 
     def add_history_item(self, history_item):
         """
@@ -237,11 +237,11 @@ class User(Document):
         :param history_item:    The HistoryItem object to add
         """
         self.history.append(history_item)
-        self.save()
+        self.save(refresh="wait_for")
 
     def clear_history(self):
         self.history = []
-        self.save()
+        self.save(refresh="wait_for")
 
     @staticmethod
     def delete_by_email(email):

@@ -4,6 +4,17 @@ class APIClient {
     constructor() {
         this.state = {
             authToken: localStorage.getItem("authToken")
+        };
+        this.callbacks = [];
+    }
+
+    addCallback(cb) {
+        this.callbacks.push(cb);
+    }
+
+    notifyCallbacks(message) {
+        for (var i = 0; i < this.callbacks.length; i++) {
+            this.callbacks[i](message);
         }
     }
 
@@ -58,6 +69,7 @@ class APIClient {
                 .then((response) => {
                     if (response.success) {
                         this.setAuthToken(response.auth_token);
+                        this.notifyCallbacks({type: "auth", action: "login"});
                         resolve(response.auth_token);
                     } else {
                         reject(response.error);
@@ -69,6 +81,7 @@ class APIClient {
     // Implemented
     logout() {
         this.clearAuthToken();
+        this.notifyCallbacks({type: "auth", action: "logout"});
     }
 
     // Implemented
@@ -82,6 +95,7 @@ class APIClient {
                 .then((response) => {
                     if (response.success) {
                         this.setAuthToken(response.auth_token);
+                        this.notifyCallbacks({type: "auth", action: "login"});
                         resolve(response.auth_token);
                     } else {
                         reject(response.error);
