@@ -124,7 +124,9 @@ class User(Document):
         user_search = User.search()
         email_query = Q("term", email=email)
 
-        if user_search.query(email_query).execute():
+        existing_user = user_search.query(email_query).execute()
+
+        if existing_user:
             raise ValueError("Email address already exists.")
 
         password_hash = bcrypt.hash(password)
