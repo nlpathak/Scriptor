@@ -10,7 +10,7 @@ class Login extends Component {
 
     change = e => {
         this.setState({[e.target.name]: e.target.value});
-    }
+    };
 
     onSubmit(e) {
         e.preventDefault();
@@ -82,8 +82,8 @@ class Login extends Component {
                     </div>
 
                     <button id='loginConfirm' className='center' onClick={e => this.onSubmit(e)}>LOG IN</button>
-                </form> 
-                <a href='/forgotpass'>Forgot your password?</a>
+                </form>
+                <a href='/forgot_password'>Forgot your password?</a>
             </div>
         );
     }

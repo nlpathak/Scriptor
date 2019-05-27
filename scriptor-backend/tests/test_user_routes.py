@@ -23,7 +23,6 @@ def test_user():
     test_user_pass = "test"
 
     test_user = User.register_new_user(email=test_user_email, password=test_user_pass)
-    time.sleep(1)
 
     yield (test_user_email, test_user_pass, test_user.generate_auth_token(), test_user.meta.id)
 
@@ -41,7 +40,7 @@ def test_podcasts():
     test_podcast_transcription_blobs = []
 
     for podcast in test_podcasts:
-        podcast.save()
+        podcast.save(refresh="wait_for")
 
         test_blobs = [
             PodcastTranscriptionBlob(podcast_id=podcast.meta.id, transcription_blob="lorem ipsum " + str(time.time())),
@@ -52,11 +51,9 @@ def test_podcasts():
         ]
 
         for blob in test_blobs:
-            blob.save()
+            blob.save(refresh="wait_for")
 
         test_podcast_transcription_blobs.extend(test_blobs)
-
-    time.sleep(1)
 
     yield test_podcasts
 
@@ -93,8 +90,6 @@ def test_valid_registration(client):
     assert 200 == response.status_code
     assert res['success']
     assert res['auth_token']
-
-    time.sleep(1)
 
     User.delete_by_email(email=email)
 
@@ -164,8 +159,6 @@ def test_change_password(test_user, client):
     assert 200 == response.status_code
     assert res['success']
 
-    time.sleep(1)
-
     # Make sure we can login with new credentials
     response = client.post("/api/user/login/", json={"email": test_user_email,
                                                      "password": new_password})
@@ -194,8 +187,6 @@ def test_user_favorite_podcasts(test_user, test_podcasts, client):
         assert 200 == response.status_code
         assert res["success"]
 
-    time.sleep(1)
-
     # Check that the user's list of favorite podcasts have been saved
     response = client.get("/api/user/favorite_podcasts/", headers={"Authorization": f"Bearer {auth_token}"})
     res = response.get_json()
@@ -223,8 +214,6 @@ def test_user_favorite_podcasts(test_user, test_podcasts, client):
         res = response.get_json()
         assert 200 == response.status_code
         assert res["success"]
-
-    time.sleep(1)
 
     # Check that the "user_check_favorite_podcast" API endpoint works
     for test_podcast in test_podcasts:
@@ -301,13 +290,20 @@ def test_user_history(test_user, test_podcasts, client):
 def test_user_forgot_password(client, test_user):
     (test_user_email, test_user_password, auth_token, test_user_id) = test_user
 
+    # Should fail for invalid email
     response = client.post(f"/api/user/send_password_recovery_email/",
-                           headers={"Authorization": f"Bearer {auth_token}"})
+                           json={"email": test_user_email + "asdas"})
+    res = response.get_json()
+    assert 400 == response.status_code
+    assert not res["success"]
+    assert "Invalid email." == res['error']
+
+    # Should succeed for valid email
+    response = client.post(f"/api/user/send_password_recovery_email/",
+                           json={"email": test_user_email})
     res = response.get_json()
     assert 200 == response.status_code
     assert res["success"]
-
-    time.sleep(1)
 
     password_recovery_token = User.get(id=test_user_id).password_recovery_token
     assert password_recovery_token
@@ -315,10 +311,19 @@ def test_user_forgot_password(client, test_user):
     incorrect_password_recovery_token = password_recovery_token + "q32ee"
     new_password = test_user_password + "123e1"
 
+    # Should fail for invalid email
+    response = client.post(f"/api/user/set_new_password/",
+                           json={"password_token": incorrect_password_recovery_token, "new_password": new_password,
+                                 "email": test_user_email + "asdas"})
+    res = response.get_json()
+    assert 400 == response.status_code
+    assert not res["success"]
+    assert "Invalid email." == res['error']
+
     # Trying to set a new password with an incorrect recovery token should fail
     response = client.post(f"/api/user/set_new_password/",
-                           headers={"Authorization": f"Bearer {auth_token}"},
-                           json={"password_token": incorrect_password_recovery_token, "new_password": new_password})
+                           json={"password_token": incorrect_password_recovery_token, "new_password": new_password,
+                                 "email": test_user_email})
     res = response.get_json()
     assert 400 == response.status_code
     assert not res["success"]
@@ -326,13 +331,11 @@ def test_user_forgot_password(client, test_user):
 
     # Try to set a new password with a correct recovery token
     response = client.post(f"/api/user/set_new_password/",
-                           headers={"Authorization": f"Bearer {auth_token}"},
-                           json={"password_token": password_recovery_token, "new_password": new_password})
+                           json={"password_token": password_recovery_token, "new_password": new_password,
+                                 "email": test_user_email})
     res = response.get_json()
     assert 200 == response.status_code
     assert res["success"]
-
-    time.sleep(1)
 
     # Double check that we cannot login with old credentials
     response = client.post("/api/user/login/",

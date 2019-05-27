@@ -4,6 +4,17 @@ class APIClient {
     constructor() {
         this.state = {
             authToken: localStorage.getItem("authToken")
+        };
+        this.callbacks = [];
+    }
+
+    addCallback(cb) {
+        this.callbacks.push(cb);
+    }
+
+    notifyCallbacks(message) {
+        for (var i = 0; i < this.callbacks.length; i++) {
+            this.callbacks[i](message);
         }
     }
 
@@ -58,6 +69,7 @@ class APIClient {
                 .then((response) => {
                     if (response.success) {
                         this.setAuthToken(response.auth_token);
+                        this.notifyCallbacks({type: "auth", action: "login"});
                         resolve(response.auth_token);
                     } else {
                         reject(response.error);
@@ -69,6 +81,7 @@ class APIClient {
     // Implemented
     logout() {
         this.clearAuthToken();
+        this.notifyCallbacks({type: "auth", action: "logout"});
     }
 
     // Implemented
@@ -82,6 +95,7 @@ class APIClient {
                 .then((response) => {
                     if (response.success) {
                         this.setAuthToken(response.auth_token);
+                        this.notifyCallbacks({type: "auth", action: "login"});
                         resolve(response.auth_token);
                     } else {
                         reject(response.error);
@@ -108,11 +122,12 @@ class APIClient {
         });
     }
 
-    sendPasswordTokenEmail() {
+    sendPasswordTokenEmail(userEmail) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/send_password_recovery_email/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
+                body: JSON.stringify({"email": userEmail})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
@@ -124,12 +139,12 @@ class APIClient {
         });
     }
 
-    setNewPassword(newPassword, passwordToken) {
+    setNewPassword(userEmail, newPassword, passwordToken) {
         return new Promise((resolve, reject) => {
             fetch("/api/user/set_new_password/", {
                 method: 'POST',
                 headers: this._getRequestHeaders(),
-                body: JSON.stringify({"password_token": passwordToken, "new_password": newPassword})
+                body: JSON.stringify({"email": userEmail, "password_token": passwordToken, "new_password": newPassword})
             }).then(response => response.json())
                 .then((response) => {
                     if (response.success) {

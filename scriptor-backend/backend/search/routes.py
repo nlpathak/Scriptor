@@ -46,14 +46,14 @@ def search_podcasts():
 
     # Extract any filters that were supplied
     department = request.args.get("dept")
-    course_number = request.args.get("course_num")
+    course_num = request.args.get("course_num")
     professor = request.args.get("professor")
     quarter = request.args.get("quarter")
     section_id = request.args.get("section_id")
 
     relevant_transcription_blobs = PodcastTranscriptionBlob.search_podcasts(text_query=text_query,
                                                                             department=department,
-                                                                            course_number=course_number,
+                                                                            course_num=course_num,
                                                                             professor=professor, quarter=quarter,
                                                                             section_id=section_id, page=page,
                                                                             count=num_results)
@@ -63,8 +63,8 @@ def search_podcasts():
 
         if department:
             search_filters["dept"] = department
-        if course_number:
-            search_filters["course_num"] = course_number
+        if course_num:
+            search_filters["course_num"] = course_num
         if professor:
             search_filters["professor"] = professor
         if quarter:
