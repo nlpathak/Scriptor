@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import { toast } from 'react-toastify';
+import {toast} from 'react-toastify';
 import './PodcastPage.css';
 import APIClient from './api/APIClient.js';
 import queryString from 'query-string';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class PodcastPage extends Component {
     values = queryString.parse(this.props.location.search);
@@ -109,7 +109,7 @@ class PodcastPage extends Component {
             <div className='podpage'>
                 <h1 className='title'><a className='link' href={mainurl}>{this.formatTitle()}</a></h1>
                 <div className='toplayer'>
-                    <video className='vid' controls>
+                    <video className='vid' controls autoplay>
                         <source src={this.formatVideoLink(mainurl)}/>
                     </video>
                     <div className='text'>

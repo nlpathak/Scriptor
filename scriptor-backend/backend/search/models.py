@@ -1,4 +1,4 @@
-from elasticsearch_dsl import Document, Text, Integer, Q, Date
+from elasticsearch_dsl import Document, Text, Integer, Q, Date, Keyword
 from flask import url_for
 
 from backend.podcasts.models import Podcast
@@ -20,7 +20,7 @@ class PodcastTranscriptionBlob(Document):
 
     # Filters that the user can search against
     department = Text()
-    course_num = Text()
+    course_num = Keyword()
     quarter = Text()
     professor = Text()
     section_id = Text()
@@ -45,15 +45,15 @@ class PodcastTranscriptionBlob(Document):
         return dict_
 
     @staticmethod
-    def search_podcasts(text_query, department=None, course_number=None, professor=None, quarter=None, section_id=None,
+    def search_podcasts(text_query, department=None, course_num=None, professor=None, quarter=None, section_id=None,
                         page=1, count=10):
         search_criteria = [Q('match', transcription_blob=text_query), ]
 
         if department:
             search_criteria.append(Q('match', department=department))
 
-        if course_number:
-            search_criteria.append(Q('match', course_number=course_number))
+        if course_num:
+            search_criteria.append(Q('match', course_num=course_num))
 
         if professor:
             search_criteria.append(Q('match', professor=professor))
