@@ -1,0 +1,607 @@
+{
+  "Blurbs": {
+    "* 0 + 1 * 4 + 0. That road which is just 1 0 0 then all the entries in the product grow or going to be the same as the entries you had above. Similarly if I look at the bottom row. This bottom row here, I multiply 9001 times the column but all that's going to do is pick off the last entry write 0 + 0 ": [
+      2470.9,
+      2495.4,
+      95
+    ],
+    "+ 100 + 100 + 1 this Elementary Matrix when I X on the left, it does not change the first or the second row as we know it has a third row as it should not know. What about When I look at the second the second row here, well there I'm multiplying by the row hear X the column and that means that I take - 2 * ": [
+      2495.4,
+      2521.2,
+      96
+    ],
+    "+ y -1 and the other operations don't affect the determinant of a matrix is just plus and minus the product of the pivots. If the Matrix is invertible and if it's not invertible, then at the end you get a diagonal matrix that has zeros on some zeros on the diagonal and therefore the determinant is zero. And so it follows that we get the theorem which tells the ": [
+      1777.3,
+      1801.0,
+      69
+    ],
+    "10 cubed over three steps to calculate the determinants and Cubed / 3 flops where Anna is the size of the Matrix. That's to be compared to n factorial but those numbers are just incomparable and factorial is ridiculously huge compared to M cubed / 3, even if n is 3 already and Cubed / 3 is 3 is 3 cubed / 3 or 9. So about 9 flops maximum ": [
+      2081.9,
+      2108.4,
+      81
+    ],
+    "243 - 5 and then that third term is + x 3 x the degenerative to want to 3-1 to that thing + y 3 x the determinants of that thing. I'm really done anything except expand out oil out these this product of sums, but now I recognize something Let's ignore that ignore the second Road. Look at just the one with the exes the one with just the ": [
+      746.0,
+      778.3,
+      30
+    ],
+    "3 Matrix, but let's just pretend each one of those row operations. We just saw corresponds to an elementary Matrix. He won. E2 E3 and E4 and so what that says here from the last slide, is it really this a one here that you get after one step of row reduction is the same thing as E1 x a no, we've got this A1 and we get to a ": [
+      2634.8,
+      2668.2,
+      101
+    ],
+    "3 stop and then one week from tonight is the second midterm 8 p.m. Start time. It's not in this room again. It's in three different rooms not the same rooms as last time. One of them is the same Galbraith Hall 242 the other two rooms of the two big rooms and Peterson Hall 108 & 110, but as before you will not be in you will not altogether ": [
+      36.7,
+      60.4,
+      1
+    ],
+    "A and B is not invertible, then their product can't be invertible either. I'll let you think about why that is so that's a positive. Either of those matrices has zero determinant then so does the product so that is consistent here. So let's just work with the case where A and B are both invertible from what we just saw the last slide if a is invertible, then we ": [
+      2956.9,
+      2977.4,
+      112
+    ],
+    "But it also respect the algebraic structure of the matrices. Is it respect matrix multiplication? Okay, we talked about we'll talk about linear Transformations that respect Edition to terminate doesn't respect Edition. It doesn't mean much harder it respect matrix multiplication know. Why is that what we can see it from the what we just saw so suppose that well, first of all, if if one of the two matrices ": [
+      2930.6,
+      2956.9,
+      111
+    ],
+    "Elementary matrices. And the reason is the Theron this written right here. So take any row operations. I like it. If I do that real oppression. So one of these three kinds if I do it to the identity Matrix, I get an elementary Matrix eat Now what if I take that same row operation and I do it to some other Matrix a get a new Matrix a tilde ": [
+      2328.9,
+      2351.8,
+      90
+    ],
+    "I can achieve this no change by swapping the two rows. It also means that the determinant changes sign. How can I possibly happen? Do you know any numbers that are their own negative? 0 and that term is not there. That's a really important property. If you take the determinant if you see any Matrix and has a repeated row or column its determinant is zero. Can you can ": [
+      1574.3,
+      1605.8,
+      60
+    ],
+    "I can input a matrix and you know, we thought of matrices and vectors before so I can input a matrix into this function and I output a number which is a kind of vector 1 by 1 Matrix. So you might think well this course in linear algebra. This should be a linear transformation. Well, it's not which is why this chapter is very different from all the other ": [
+      320.3,
+      340.6,
+      13
+    ],
+    "I have two x minus one from the sign pattern and I take the determinant of everything that is not in the first row and the second column. So that means that I'm looking at these entries. That's a determinant of 2-3 4-5. And then finally I go to the third entry in the first row doing the cofactor expansion x 3 + y 3 x a + 1 again. ": [
+      640.4,
+      668.6,
+      26
+    ],
+    "I know what row operations are required to take it to the identity. What do I need to do to take a baby to the identity? You just do the same row operations in sequence, right? That's exactly what this says. Cuz the inverse of that thing is the identity. I know that means that we'll look I just keep track of the same. Row operations the same qualities for ": [
+      3026.7,
+      3050.2,
+      115
+    ],
+    "If I swap two rows. The only effect that has on the determinant is to change its sign. Okay, and now we know how to turn it behave under all three row operations modulo. 2nd wonder the real Workhorse which has this funny business where we have to add something which we don't really know how to handle any better than we did before it seems like maybe this isn't ": [
+      1456.8,
+      1480.8,
+      56
+    ],
+    "Matrix as very only in one row. So here's a matrix in the first row. I'll think of it as as a variable vector and then the second and third rows are fixed like that one here. So now I can think of the determinant as a function not of the whole Matrix, but just of that first row with the second and third rows fixed equal to some random ": [
+      491.0,
+      511.6,
+      20
+    ],
+    "Matrix? Is a product of Elementary matrices? Now what's so great about that? Remember when we just a few minutes ago talk about how to actually compute determinants. We said hey as long as you can keep track of the row operations, then you can pack of the determining. It's just going to be the product of the plus and minus ones in the pivots. Okay, but now we know ": [
+      2878.9,
+      2903.4,
+      109
+    ],
+    "Okay. time's the determinants of the stuff that's left over which is 231 - 1 Okay, so that's just the first step of the cofactor expansion. If I were going to write this whole thing out then I would now calculate those three to a two determinants and simplify everything but that's not my goal. My goal is not to give you a number if you're my goal is to ": [
+      670.6,
+      695.5,
+      27
+    ],
+    "Once you have trezeros below the main diagonal, you know, the determinant of that Matrix that's left over and you don't want to do the N squared over 2 more operations that required to get through trash 1 form because none of those operations will change the determinant if I were to do the one remaining thing here in pivot that 13 out and I keep track of that 13, ": [
+      1997.1,
+      2018.6,
+      77
+    ],
+    "So here's what I see. I see that the determinant of a matrix whose row is a sum of two other row Victor's is the sum of the determinants of the two matrices with the same bottom two rows Frozen and then I put the rose that are in the sum in the separate determinants what that says exactly is that the determinants is linear in each row separately holding ": [
+      816.4,
+      857.9,
+      32
+    ],
+    "So we start with the identity Matrix. And let's do a certain row operation on that one. So let's do a roast swap. Let's swap the first and third rows. Okay, that means we get this. So that resulting Matrix on the right hand side there that is an example of an elementary matrix. It's a matrix that you can get by doing a row operation of single row operation ": [
+      2219.3,
+      2247.9,
+      86
+    ],
+    "Well each one of those matrices is invertible. So it's take that equation. We have the identity Matrix to reduced row Echelon form is 84 * 83 * 82 * 81 * a So now let me multiply on the left by E4 * 83 * 82 * 81. inverse and that's going to equal a and remember that inversion reverses the order of multiplication so I get this so ": [
+      2783.7,
+      2824.6,
+      106
+    ],
+    "X's is a cofactor expansion. It is exactly the cofactor expansion that we would use to compute the determinants. The Matrix with the x's in the first row and those same entries in the second and third And the second row the one with the wise that's equal to the determinant. Where I have just the wise in the first row and those same constants in the second and third. ": [
+      778.3,
+      813.5,
+      31
+    ],
+    "a bit of discussion of the Terminus which might happen then then what whatever we do then as well, but it will not include chapter 5. So the cutoff for material you're responsible for on this midterm is up to chapter 3 is everything we did since the last midterm until chapter 3 to be clear, of course still need to understand everything. We did that you already tested on ": [
+      82.7,
+      101.2,
+      3
+    ],
+    "a pivot and one of them was just a determinant. Well, then, what about a b? A b is equal to E1 E2 E3 F1 F2 know already that tells us something great. What it says is you know, what? If I have a matrix a and I know what row operations are required to take it to the I to the identity and I have another Matrix B, and ": [
+      3002.4,
+      3026.7,
+      114
+    ],
+    "a that's a third example of an elementary Matrix and these aren't the only kind of mattresses. You can call Elementary matrices. Okay, not just these three matrices here but ones that you can achieve by these operations one single operation on the identity Matrix, the very restricted class of matrices. Most bases are not Elementary. But we will see in a moment that every Matrix is a product of ": [
+      2306.0,
+      2328.9,
+      89
+    ],
+    "a you tell me? Okay. First I'm going to Pivot the First Column the first row by 2. So I / 2 what that means is that you're multiplying the determinant by 2 because it's kind of in reverse. Okay, so that's how pivot raw operations behave that's how they determine who pays under pivot operations now about the second kind of operation. Will I've written it down here the ": [
+      1090.1,
+      1114.2,
+      42
+    ],
+    "about 10 factorial is over 10 million. Okay. So if you're getting Beyond to the two by two or three by three setting you never ever use the cofactor expansion other than to prove properties of the determinants. You're actually Computing determinants. You're always going to do it by Robert rushing. Okay. Now I want to give a slightly different perspective on everything that we just did which is going ": [
+      2138.0,
+      2163.6,
+      83
+    ],
+    "about the topics for the midterm as well as some practice midterms just like last time so that's that's the plan that's it administered via and now let's continue with the course material for today, which is determinants, so I don't have it written here, but just as a reminder, We defined last day in general. What a determinant of determinant of an N by n Matrix is it's a ": [
+      125.5,
+      150.2,
+      5
+    ],
+    "all of those numbers at the end of times the determinant of the reduced row Echelon form of the Matrix, but we saw last day that if a matrix is triangular the determinant is the product of the diagonal entries. Now if the Matrix that you get at the end, the reduced row Echelon form is the identity Matrix. That means it's the product of one's which is just one ": [
+      1708.0,
+      1729.6,
+      66
+    ],
+    "also does not respect Edition. I mean you can see actually from that example. It doesn't respect Edition because multiplying a matrix by 2 is the same as adding it to itself. So we see here the determinants of I + I is not the same as the determinant of I plus the determinant of I I think the temperature is not a linear function not a linear transformation. That ": [
+      425.7,
+      444.9,
+      17
+    ],
+    "are the same row and I asked you to swap them. What is the result? It's the same damn thing. Nothing happened. Right? So if I swap those two rows. R1 R1 R3 Okay. Nothing happened, but this property down here. Tells me that if I swap those two rows I introduce a minus sign. How can I be I take the Matrix. I don't really change it. But because ": [
+      1534.1,
+      1574.3,
+      59
+    ],
+    "because I get a knot. I have a zero in the first entry there. So I'm going to do a row swap. between the first and second rows 1/2 - 1014 + 580 and when I do that, I'm just going to keep track of the fact. But that Rose swap introduces a -1 into the determinant. No, I'm going to do my favorite kind of operation to get a ": [
+      1843.9,
+      1872.6,
+      72
+    ],
+    "being one of those rooms the three sections ab&c will be spread out randomly among those three rooms. So watch on Piazza watch on Triton head. For your room and seat assignment to be posted by the end of this week and let me comment that the topics covered for the mid-term will go up to and including everything we do today. And if we leak into Friday's lecture with ": [
+      60.4,
+      82.7,
+      2
+    ],
+    "but we just got an expression for ETA to its really E2 x e 1 x a But if we do this one more time. we get that Pi is equal to e 4 times a three times the previous step in the reduction, but putting these two together says that that's easy for * 83 * 82 * 81 * a Okay, so we get this equation here. What ": [
+      2698.1,
+      2733.0,
+      103
+    ],
+    "by Sum sequence of row operations, right? So maybe maybe four of them are required R1. To some new Matrix A1 R22 some new Matrix 82 R32 some new Matrix a three and maybe there's one more step required are for and that gives me the identity Matrix, which is the reduced row Echelon form. Probably it'll take more than four if we have a bigger than 2 3 by ": [
+      2608.5,
+      2634.8,
+      100
+    ],
+    "by deleting the row and column that the entry you're interested in isn't. We did a bunch of practice with that and that you're working on your homework already. So hopefully you've done a bunch of examples already and you're getting mechanically good with doing those computations. Why well only because I need you to understand the definition not because I ever want you to actually computer determinant. I mean ": [
+      202.3,
+      226.1,
+      8
+    ],
+    "can expand it is a product of some Elementary matrices. Maybe it's three of them. And those Elementary matrices correspond to row operations, maybe one of them was a pivot and one of them was a row up that didn't require changing the determinant and one of them was a roast. And be maybe be is a product of only two row operations F1 and F2. One of them was ": [
+      2977.4,
+      3002.4,
+      113
+    ],
+    "chapters in The Textbook determinants are not linear things closely related to linear algebra, but they're not linear functions. So what I mean by that is if I take the determinant Of a matrix a nice scale that Matrix let's let's do an example of that. Let me put it up here just enough in a little box. This is a demonstration. So here's a matrix the identity Matrix. And ": [
+      340.6,
+      376.0,
+      14
+    ],
+    "choices. I claimed it that function is a linear transformation. So if I take the determinant of this Matrix here with entries in the first row being some parameters. Then that function of that row Vector is actually linear transformation, meaning that the determinant of that Matrix is the sum is the same as the sum of the determinants when that row is the sum of two things. Let's just ": [
+      511.6,
+      541.5,
+      21
+    ],
+    "column that you choose you expand a long that roller call him with some plus and minus signs. OK determined by fixed checkerboard pattern from the size of the Matrix and then you multiple you add up a linear combination of the entries on that row or column X some smaller determinants determinants one size smaller corresponding to The End by n -1 by 10 - 1 matrices you get ": [
+      175.6,
+      202.3,
+      7
+    ],
+    "cuz now I've taken a single determinant and turn it into a sum of 2 and each of them looks about equally hard to compute probably but we'll see you in a second that actually The first term there is no problem at all. So to see that let's look at the Third Kind of operation. The one that we actually rarely use it. Sometimes we have to which is ": [
+      1226.0,
+      1245.4,
+      48
+    ],
+    "determinant behaves under all the row operations and it's easy to keep track of There's a question. Hey, so when I'm doing real operations, all I have to do is keep track of it as a certain number associated with kind of row operation that start with the Matrix a and I'm going to carry it all the way to reduce trash salon for men in the process. I'm just ": [
+      1646.9,
+      1668.7,
+      63
+    ],
+    "determinant by that pivot is X that pivot. Now be careful with this means though is I'm interested in actually calculating this thing. I want to know what this determinant and I do a real operation and I then have the thing on the left. So really what I want to do is X that pee if I give you an A and I say hey, what's the determinant of ": [
+      1064.3,
+      1090.1,
+      41
+    ],
+    "determinant does what it was supposed to determine the determinant is zero. If and only if the original Matrix Was not invertible. Okay. So let's look at a specific example here for how we would implement this. So here's a matrix a 3 by 3 Matrix know we could use the cofactor expansion to calculate this determinant. No problem is not a big deal. In fact, there's a couple zeros ": [
+      1801.0,
+      1824.7,
+      70
+    ],
+    "determinant here German is the function of this all the entries in The Matrix. We have this complicated recursive formula for how we actually compute it. Whatever it is, it produces some function of all the entries. Play some combination of the entries and actually has polynomials but let's think of it this way. Let me give you a matrix like the one down here and I'll think of the ": [
+      469.5,
+      491.0,
+      19
+    ],
+    "determinant of a on the determinant of B. Okay, so that's the deal every invertible. Matrix is a product of Elementary matrices and you already know how to find them. It's just row reduction. And what that means is it the determinant is a multiplicative function. And so let me just conclude by noting for example, if I want to take the determinant of a matrix to the 100th power, ": [
+      3080.8,
+      3106.4,
+      117
+    ],
+    "first step of it. So the second kind of row operation is the real Workhorse of the road. Shahnaz brother where I take some r o i x some number and then I add the result that I add that road to some other row and then replace that that row so I take the first row x 3 added to the second row and replace the second row with ": [
+      1114.2,
+      1136.1,
+      43
+    ],
+    "for this one over here. the first sign is that plus but it's the same sign pattern we have to use over here. So now that first sign is a minus and they're all reversed from the ones we had before so that's a - + - So it looks almost exactly the same. The only difference is an overall factor of -1 and that's what happens here in general. ": [
+      1423.4,
+      1456.8,
+      55
+    ],
+    "function that takes any Square Matrix and spits out a number. Now, what does that number mean? Hopefully will answer that question a few ways today. Okay, but we saw how to compute it. We started with the two by two kids were there an explicit formula and then we saw this recursive way to generalize that two larger matrices called the cofactor expansion where you take any row or ": [
+      150.2,
+      175.6,
+      6
+    ],
+    "get that this is the same thing as the determinant of a to the 100th power. You just compute the determinant once and then take the hundred power that number. All right. So on Friday, we will finish our conversation about what the determinant actually is and we'll. EDU. ": [
+      3131.3,
+      3155.0,
+      119
+    ],
+    "going to compute determinant is by Row reduction. So we'll see you in a moment how that works. In order to get there. We need to understand some properties of this determinant function so that we can understand what row reduction does to the determinants. So the the first observation I want to make is well. This is a class in linear algebra. And we have this function determinant so ": [
+      295.0,
+      320.3,
+      12
+    ],
+    "going to do the operations of these three types. And if I just keep track. Of what when I pivot I keep track of what I pivoted by. If I roast WAP, I keep track of the fact that there was a roast Lobster. I put a minus one. And the main relay operation where I take a multiple of 1 row and add it to another I don't even ": [
+      1668.7,
+      1688.7,
+      64
+    ],
+    "he's the second and third rows and look at the first row by itself and then look at some of Rove actors in the first row. What is the determinant do to that? Well, We go back to our definition of the determinant we use the cofactor expansion. So that means the first thing we do is remember the sign pattern this checkerboard sign pattern we need to use I ": [
+      560.8,
+      585.6,
+      23
+    ],
+    "if the Matrix has some zeros on the diagonal meaning that the registration form is not the identity. Matrix is not invertible. You're going to get a zero there and then determine it will be zero and so we have proved this there. that if you take any Square Matrix Either the Matrix was invertible, which just reminding you of how different words fit together the same thing as saying ": [
+      1729.6,
+      1753.5,
+      67
+    ],
+    "in row Echelon form. So I could either continue and Go to reduced row Echelon form which will require me to Pivot next or I can remember from last day that now I know that from the cofactor expansion that the determinant of this Matrix over here, which is triangular is just the product of the diagonal entries. Okay, and so this one has determinants. 1 * 1 * 13 ": [
+      1933.4,
+      1958.9,
+      75
+    ],
+    "in the first midterm in order to do anything that we do in this class. Everything has been dealt one step on top of the than the other. but specifically testing you on this exam will be topics since the last midterm and up to and including determinants and I'll post specifically which sections on the course webpage when I make the big announcement later, you know today or tomorrow ": [
+      101.2,
+      125.5,
+      4
+    ],
+    "interested in and I have to add something to it, which is that a that I used in the operation times the determinant of a new Matrix and that new Matrix is the old Matrix, but with one of the Rose repeated that I'm having the second row there it's gone. It's been replaced and I have the first row repeat it. not clear how helpful that is right now ": [
+      1206.8,
+      1226.0,
+      47
+    ],
+    "interested in the property is here know what happens. If I do that roast WAP and look at the second Matrix over on the right here. Well, I'm going to get different looking calculations if I stand along the first row again, but I don't have to expend along the first row. I can choose whatever I want to extend a long. So let's expand along the second row of ": [
+      1357.4,
+      1377.3,
+      53
+    ],
+    "is that actually say, well one more observation. We need to make that we've highlighted many times row operations are reversible. Okay any operation I do to get from Matrix to a new Matrix. I can reverse it and go back and if I pivot then I pivot by the reciprocal if I swap to Rose then I swap them back. If I add three times the first row to ": [
+      2733.0,
+      2756.1,
+      104
+    ],
+    "it by row reduction. Can you get it to get your Matrix to a row Echelon form and then you calculate and then you multiply all the pivots and plus and minus ones from roast loves together and that gives you the determinant. That means that it only takes if you remember the kind of complexity analysis we did in the first week or second week. It only takes about ": [
+      2061.9,
+      2081.9,
+      80
+    ],
+    "it. We're going to do it in a restricted context here. We're talking about Square matrices. So every row operation can be achieved by multiplying by a certain Matrix and them kind of matrices that you use are called Elementary matrices the what is an elementary Matrix. Well, it's just the result of a row operation on the identity Matrix. So here is here are examples of the three kinds. ": [
+      2194.6,
+      2219.3,
+      85
+    ],
+    "know I'm going to choose any row or column to expand along and I'll get the same answer no matter what I do, but just to make things easier for the sake of this demonstration. I'm going to go ahead and choose to expand along the first row. You're the one that we're thinking of as the variable here. So what that says? Is that okay? The cofactor expansion tells ": [
+      585.6,
+      607.5,
+      24
+    ],
+    "last slide we get immediately that this is the same thing as if I take that Matrix without that scalar there. the original Matrix And take its determinant of the determinant is linear, which means I have to pull out that one over Pete. That's all so from the linearity in the first row or in any Row in fact. If I do a pivot row operation that changes the ": [
+      1035.5,
+      1064.3,
+      40
+    ],
+    "let's take a matrix a K104 2 - 1/3 and 111 if I were doing real operations the first step I would do here would be to multiply the first row by -2 and add to the second. Replace the second row with that. So let's do that. So that gives me multiply the first row by -2 seconds in -8 and gives me a -5 there are four. So ": [
+      2376.8,
+      2413.8,
+      92
+    ],
+    "linear function of each row separately holding all the other roads fixed. It's also a linear function of each column holding all the other columns fix. I've only shown that it's respect someone's here, but it's even easier to show that it respects scalar multiplication in each row or column fixed holding all the other column very that's a super important property of determinants. We're going to use it now ": [
+      906.7,
+      934.5,
+      35
+    ],
+    "listening to a podcast chapter 5 Eigenvalues administrivia for the day you have a Matlab assignment is due this Friday. I know many of you are working on it because I've seen lots of your questions on Piazza and you have a yet another MyMathLab assignment number 6, which is due on Tuesday next week by 11:59 p.m. The topic of this my math lab assignment is determinants of chapter ": [
+      2.0,
+      36.7,
+      0
+    ],
+    "made some changes to the second row and what have I done in the second row. I've taken a linear combination of things and we just said on the last by the determinant is linear in each row a holding that is fixed. So what that means is exactly this it means that that determinant with the second row being a song that's going to multiple is the same as ": [
+      1159.8,
+      1179.5,
+      45
+    ],
+    "me what I do is I take the first entry which is X1 + y 1 * a + 1 you know that + 1 their time is the determinant of the stuff down here 1/4 - 1 - 5 Okay. Great. Now the next thing I do is I move on to the next entry in the first row that I'm expanding along. So that's X2 + Y2 now. ": [
+      607.5,
+      640.4,
+      25
+    ],
+    "me write it as all six terms together organized like this. So this first term here, that's x 1 x this determinant. 1 4 -1 - 5 + y 1 x the determinant of 1/4 - 1 - 5 The second term is X2 while it's - X2. Does that minus sign their - x 2 x the determiner of 243 - 5 - y to X the determinant of ": [
+      716.2,
+      746.0,
+      29
+    ],
+    "means that it doesn't have a matrix. That means that it's not something we have standard tools for analyzing. Well, but hang on it's not all bad. It does have some properties related to linear transformation. In fact viewed in the right way. It is linear it is what's called multilinear the fancy word, but it has a simple meaning and what it means is this so I've got the ": [
+      444.9,
+      469.5,
+      18
+    ],
+    "need to keep track of those because that doesn't change the determinant or you can think of it as saying I keep track of the number one that I associate to those what this tells us is that at the end of the day if I want to compute a determinant if I just keep track of all those row operations, the determinant is going to be the product of ": [
+      1688.7,
+      1708.0,
+      65
+    ],
+    "numbers here. But that's okay because a lot of them are very easy to compute. Let's look at the elements of the first row of the product Matrix. I'm out the plane that first row of the Matrix here by the First Column, but that first row is 100. So I just take 1 * 1 + 0 for the first century. I'm there for the second one is 1 ": [
+      2451.2,
+      2470.9,
+      94
+    ],
+    "of permanent to do them right side. And I think it's a good idea for you guys to check in and around notebooks that using the cofactor expansion does give you minus 13 for this guy only take 30 seconds or maybe a minute and you'll see that you get the same answer that. Okay, so that is really how determinants are computed. That's how Matlab calculate determinant it. Does ": [
+      2039.1,
+      2061.9,
+      79
+    ],
+    "of row operation. To get rid of the -2 in the 3-2 at him at 3 to be there. Then I'm going to multiply the second row by 2 and add to the Third. so that gives me desired 0 there and I multiply in the second row by to give me 8 plus the third is 13. And again, that wrong person doesn't change the determinant and now I'm ": [
+      1901.7,
+      1933.4,
+      74
+    ],
+    "of you who are computer science Majors when you hear that are just getting up and leaving the room because that means it's not an algorithm. That means it's ridiculous. Okay, if it's not it's not even exponential. It's it's way worse than exponential so, No computer can reasonably do it ever but that's okay because that's not the way you would actually computer determine. And so what I want ": [
+      254.6,
+      274.4,
+      10
+    ],
+    "on the identity Matrix. How about if we do a pivot right? So I'll start with the identity Matrix. And let me replace. The first row with the first row over 3. There is another example of an elementary Matrix one where one entry on the diagonal has been changed from one to some other nonzero number and then the Third Kind of row operation again, the usual Workhorse of ": [
+      2247.9,
+      2283.3,
+      87
+    ],
+    "on the midterm, you will probably have to compute the determinants that way to demonstrate that, you know the definition but no human being should ever actually computer minutes that way neither should any computer as we talked about last day that algorithm from the definition the cofactor expansion to calculate determinants takes an unfathomable amount of time by the algorithm has complexity more than n factorial and so any ": [
+      226.1,
+      254.6,
+      9
+    ],
+    "or 13 and therefore keeping track of those things. the determinant of the original Matrix is 13 * 1 * 1 * -1 or -13 Okay, that wasn't much work at all. It was about the same exit and even less work. Then the cofactor expansion would have been yes. I would say it is important to do a hard stop because continuing any further will be wasting your effort. ": [
+      1958.9,
+      1997.1,
+      76
+    ],
+    "or less prove that that's how that kind of Elementary row operation is implemented that kind of operations implemented by that kind of a matrix. And you can follow through for the other kinds of operations as well. Okay. So this is an interesting and useful observation row operations are really implemented by multiplication by matrices multiplication by Elementary matrices on the left. Great. So what? well that tells us ": [
+      2552.8,
+      2582.8,
+      98
+    ],
+    "other words, if I can get from a the identity by row operations, then I can get back from the identities are by the reverse draw operation, which means exactly this that a can be achieved by doing real operations in sequence on the identity the reverse of the ones that took me to the roost restaurant in the first place. So what that shows us? Is that every invertible ": [
+      2858.2,
+      2878.9,
+      108
+    ],
+    "pattern to remember how the signs go in the cofactor. I'm going to get his + 1 times the determinant of 4 6 8 9. -2 sorry You're right. It is 5. Thank you. then I get - 2 * 4679 + 3 * the determinant of 4 5 7 8 Now I can keep going if I want the number. But again, I'm not interested in the number. I'm ": [
+      1319.6,
+      1357.4,
+      52
+    ],
+    "relate this to the determinant of the original Matrix, but without a psalm In the entries. So how do we do that while we just noticed that each one of these terms. I've got an X1 + 2y 1 or next 2 + 2y 2. So let me break these this sum up is three terms here. But each one of them is the sum of two terms. So let ": [
+      695.5,
+      716.2,
+      28
+    ],
+    "reproduction. The one that gets used the most is where I take some multiple of the first row say and add it to the second row and replace the second row with that. So if I do that to the identity Matrix gear What that does is the opposite of what we want usually to do but that's okay. It does this. Can you put the four there? So that's ": [
+      2283.3,
+      2306.0,
+      88
+    ],
+    "row swaps. So for example, it might be that there's a zero in the one 1 entry of the original Matrix and that there isn't in the second row. So what we do in that case usually has swap the second in the first row if that's what I've done here in the question is how do these two determinants relate to each other? Now this one isn't covered by ": [
+      1245.4,
+      1266.8,
+      49
+    ],
+    "something great about matrices that have the identity of a matrix has they reduced row Echelon form that is to say invertible matrices. So if I take an invertible Matrix a and I know it's invertible. I figured that out somehow then that means it's reduced row Echelon form is the identity. What that was that really says that I'm going to be able to get to the identity matrix ": [
+      2582.8,
+      2608.5,
+      99
+    ],
+    "square Matrix. 3 by 3 Matrix. I'm reading it. You know, it must be magic lanterns with rose Row 1 row to Row 3 there and suppose I then pivot. So that's my first kind of row operation right where I can take any row and I can divide through that roll by some nonzero constant. What happens to the determinant when I do that? Okay, so I start with ": [
+      959.6,
+      982.9,
+      37
+    ],
+    "tell that immediately? But in fact if you remember where determinants were supposed to come from we haven't proved this yet. We're about to determine its supposed to be a measure of whether a matrix is invertible. Right, if a matrix has a repeated row or column that means that it doesn't have all of its rows or columns pivotal which means is not invertible which means it is supposed ": [
+      1605.8,
+      1628.7,
+      61
+    ],
+    "that Matrix if I swap those two rows? Is it this is a trick question and you know the answer what happens? Should I write a specific example? I don't think it's going to help anymore. I think you all know the answer or just mumbling quietly because you're not sure what I'm getting at because it seems like too dumb and answer. If I give you two rows that ": [
+      1509.3,
+      1534.1,
+      58
+    ],
+    "that has full rank rank in and pivots. Then in that case the determinant is the product of the pivots X assign plus or minus cuz I keep track. I got those pivots there each time. I did a row up to the pivot. I had to X that pivot in order to preserve the determinant that keep track of those if I didn't hero swaps that gives me on ": [
+      1753.5,
+      1777.3,
+      68
+    ],
+    "that that new combined row. That's our typical kind of operation we do for the reduction algorithm. So what happens when we do that what happened to the determinant when we do that while I've written out the first step of what happens there. So the determinant of that row reduced Matrix there Well think of the first and third rows as fixed now cuz they are and now I've ": [
+      1136.1,
+      1159.8,
+      44
+    ],
+    "that we can get all the way to the identity just by the product of matrices and what that tells us is the following remarkable theorem that will finish with today. The determinants which is the super complicated cofactor expansion function, which is linear and the rose individually but not altogether and might be very complicated to compute from first blush. Not only can it be computed doing wrong operations. ": [
+      2903.4,
+      2930.6,
+      110
+    ],
+    "that's our end result here. Hey is equal to one inverse x e to inverse X III inverse x e for inverse. Okay. So let me summarize that in words what it says is if I get from a matrix a to the identity matrix by row operations, then in fact a is equal to the product of the elementary matrices operations in versus so each of the operations in ": [
+      2824.6,
+      2858.2,
+      107
+    ],
+    "that's the first step of Road action. We would do here. Well at the same time, let me take that Matrix. 1042 - 13111 and Multiplied on the left by the corresponding Elementary Matrix meaning I do that same row operation multiply the first row by -2 and a second to the identity Matrix. Let's do that matrix multiplication. Okay, we'll have to multiply these things out and give 9 ": [
+      2413.8,
+      2451.2,
+      93
+    ],
+    "the Matrix a and I want to know what it's determinant is well instead of doing the cofactor expansion. Let me do a one-step of row reduction. And if I can track how the determinant changes under that stuff of row reduction, then I could just do the computation for the row reduced Matrix instead and keep track of all the changes as I go. That's our goal here over ": [
+      982.9,
+      1008.1,
+      38
+    ],
+    "the entry in the first row + Pantry in the second row + 0 which is exactly what the elementary operation was supposed to do and that is what it implements. So I get - 2 * 1 + 2 * 1 which is -2 * 0 + 1 * -1 + -2 * 4 + 3 which is -5 Czech. Okay, that's just a demonstration. But actually we more ": [
+      2521.2,
+      2552.8,
+      97
+    ],
+    "the first slide wit it. This is not a linear transformation of our single fixed-route. This is what happens when we look at different rows colliding with each other, but actually we can go back to the cofactor expansion definition of the terminal to see what happens because I'm over here in the first one if we use the cofactor expansion. Let's do it with a specific example. Let's say ": [
+      1266.8,
+      1292.8,
+      50
+    ],
+    "the others fixed Hey, so if I hold all the roads, but one fixed. And think of the determinant of this Matrix is a function of just that row. It is a linear transformation of just that row. That's exactly what this says. I've only shown it in this one special case and it only showed it for the first row, but you can see that that's how it's going ": [
+      859.0,
+      882.1,
+      33
+    ],
+    "the scalar multiple and some of the determinants just like I've written there. Okay. Well that has a nice relationship cuz it tells me once I've done the row reduction I get back to something over here. That involves the determinant of the original on row reduced Matrix. So what it says, if I do that operation, what I really have to do is take the original determinant. I was ": [
+      1179.5,
+      1206.8,
+      46
+    ],
+    "the second then I'm going to add one negative one. Third of the first row to the second -3 reversible. If you look at the previous slide hear each one of those matrices is invertible. Yeah, that's what it says to say that an operation is reversible. It says that the corresponding Elementary Matrix is invertible and you can write down the inverse easily in each one of those cases. ": [
+      2756.1,
+      2781.6,
+      105
+    ],
+    "then all the remaining operations all the operations in the backwards day is at the end of row reduction. They're all of the Forum add a multiple of Row 3 to roast Taro to end and replace road to with that. All of them are there's no more putting there's no more roast whopping so all their operations don't change the determinant. So it would be pointless from the perspective ": [
+      2018.6,
+      2039.1,
+      78
+    ],
+    "then. We need to know how the determinant changes under the roloffs. So this one actually follows from what we did on the last slide. I said that holding any looking at anyone row as the variable the variable vector and holding other all the other Rose fixed. The determinant is a linear transformation that one row so that in particular means that it respects scalar multiplication. So from the ": [
+      1008.1,
+      1035.5,
+      39
+    ],
+    "there. So if we're your dishes about which column or row, we spend along it won't be much work at all. But I want to demonstrate how to calculate this determinant using these observations. We just made what we're going to do is rub against this Matrix at least until we get to a row Echelon form. So the first row operation I'm going to do is a row swap ": [
+      1824.7,
+      1843.9,
+      71
+    ],
+    "this Matrix. okay, and then from that when I'm going to get is 1 * the stuff that's left over 5 6 8 9 -2 * 4679 Plus 3 * 457 94578 right No, no, why not? Hey, you guys are too quick for me. Okay, I shouldn't try to make these intentional mistakes cuz I know you're going to catch him right away. I can't fool you right so ": [
+      1377.3,
+      1423.4,
+      54
+    ],
+    "those row operations. So the determinant of a appear was equal to p x + 1 x - 1 the determinant of V was equal to Q x 1 and here since these are row operations that take us to the identity that says the determinant of a b is equal to p x + 1 x - 1 x q x one but that is The products of the ": [
+      3050.2,
+      3080.8,
+      116
+    ],
+    "to be zero. That's what they determined. It was supposed to measure for us. Now we see why that's true. It's because of this row swapping negation business pay if you ever have a repeated row, which you will always get in the reduced row Echelon form in a in a row Echelon form if it's not invertible, then the determinant will be zero and now we see how the ": [
+      1628.7,
+      1646.9,
+      62
+    ],
+    "to buy one step of raw row reduction. So that says that a to is really e to X A1. but a one is equal to a 1 * a so that's really equal to 82 * 81 * a now this A3 here same thing. We got it from a to buy one step of reproduction. So that means that a 3 is equal to eat 3 * 82 ": [
+      2668.2,
+      2696.7,
+      102
+    ],
+    "to calculate determinant of a 3 by 3 compared to 3 factorial, which is well 6, okay fine. Maybe it would have been faster in some cases. But let's do 4 for cubed / 3/4 cubed is 64 / 3 is about 21. Whereas 4 factorial is 24. So already it's a little faster to do it this way about a 10 by 10 10 cubed / 3 is 666 ": [
+      2108.4,
+      2138.0,
+      82
+    ],
+    "to discuss at least on the process of what we're getting through today is how you would actually compute the determinant. It's harder to Define at the way. I'm going to show that it will actually be computed. But it's it is the fastest way to compute determinants and we're going to see how that comes about. Okay, of course just like everything else in the spot. The way we're ": [
+      274.4,
+      295.0,
+      11
+    ],
+    "to go the function of 2 x 2 Matrix would have to equal to X the function of the Matrix, but we can come get this determine if the determinant of two times That Dunta Matrix is 2 * 2 - 0 * 0 which is for which is not equal to 2 * 1. Okay, the determinant is not a linear transformation. It does not respect scalar multiplication. It ": [
+      399.7,
+      425.7,
+      16
+    ],
+    "to show us one more super important property of the determinant. Okay, we've been doing row reduction from the very beginning of this class. We've also been doing matrix multiplication since about the third week of this class. There's a connection between those two things. In fact row reduction is matrix multiplication, believe it or not. And here's how it works for matrices of any size. If you're careful about ": [
+      2163.6,
+      2194.6,
+      84
+    ],
+    "to understand how the determinant behaves when we perform row operations on The Matrix. So let's let's look at row operations. So I give you a square Matrix for all the demonstrations here. I'm working with a 3 by 3 Matrix just because I don't want to keep writing more variables are more rows. But all of these things work exactly the same way for any number of rows granny ": [
+      934.5,
+      959.6,
+      36
+    ],
+    "to work no matter which row or no matter which way we choose because of the same effects. I mean we use the same cofactor expansion in any roller, and hero or column. You know, what if we had done exactly the same calculations but turned her head on its side and work with the transpose of this Matrix. We get the same thing not only is the determinant a ": [
+      882.1,
+      906.7,
+      34
+    ],
+    "very useful. Well now here's the key really sneaky observation. Let's just look at this Matrix here. So I'm taking the determinant of Row 1 Row 2 Row 3. Row 1 Row 1 Row 3 Write the first row repeat it. What happens if I swap the first and second rows of this Matrix? I've got to Matrix and I've got the first two rows are equal what happens to ": [
+      1480.8,
+      1509.3,
+      57
+    ],
+    "what is its determinant? Well, it's 1 * 1 - 0 * 0 is 1 No, what if I were to take? Identity Matrix and thinking of it as a vector scale it. So I X some together most balls almost played by 2. So that gives me the Matrix 2 0 0 2 He know if the determinant function were a linear transformation, we know how this would have ": [
+      376.0,
+      399.7,
+      15
+    ],
+    "which is a row reduced version of that same Matrix. What's the relationship between a tilde? I got a tiller from a by row reduction by one row operation. It turns out that you could just as well have said hey, I got that rotors Matrix a tilde by multiplying a on the left by the corresponding Elementary Matrix. Let's look at an example just to illustrate this point. So ": [
+      2351.8,
+      2376.8,
+      91
+    ],
+    "which is something you're asked to do on your Matlab homework one thing you could do here is take this Matrix. Maybe it's 5 by 5 and X self a hundred times now, it's one of those notifications but you have to do it a hundred times if it's five by five that's instead of 125 Ops is 12500. It's a lot of computation but instead iterating this product we ": [
+      3106.4,
+      3131.3,
+      118
+    ],
+    "work that out. Why should that be true? So here I've already written it. So this Matrix here. This is a matrix where the first row is the sum of two other routes right? One row X1 X2 X3. And the second row y 1 Y 2 y 3 now, I'm not saying that I have that. You know, I'm adding those two matrices to each other. I'm just saying ": [
+      541.5,
+      560.8,
+      22
+    ],
+    "you know one two three four five six, seven eight nine going to come to that guy. And if I do the row swap. Between the first two that's 4 5 6 1 2 3 7 8 9. So in this first example here. Let me go ahead and expand along the first row. If I do the cofactor expansion spending on the first row. Then I write my signed ": [
+      1292.8,
+      1319.6,
+      51
+    ],
+    "zero below the one there was also the one I'm going to multiply the first row by -5 and adds the third row. So that gives me the desired 0 there I get 8-10 is -2 and I got 0 - -5 is + 5 + that doesn't change the determinant. I'll just record that by noting a plus one there. I know I need to do the same kind ": [
+      1872.6,
+      1901.7,
+      73
+    ]
+  },
+  "Full Transcript": "listening to a podcast chapter 5  Eigenvalues administrivia for the day you have a Matlab assignment is due this Friday. I know many of you are working on it because I've seen lots of your questions on Piazza and you have a yet another MyMathLab assignment number 6, which is due on Tuesday next week by 11:59 p.m. The topic of this my math lab assignment is determinants of chapter 3 stop and then one week from tonight is the second midterm 8 p.m. Start time. It's not in this room again. It's in three different rooms not the same rooms as last time. One of them is the same Galbraith Hall 242 the other two rooms of the two big rooms and Peterson Hall 108 & 110, but as before you will not be in you will not altogether being one of those rooms the three sections ab&c will be spread out randomly among those three rooms. So watch on Piazza watch on Triton head.  For your room and seat assignment to be posted by the end of this week and let me comment that the topics covered for the mid-term will go up to and including everything we do today. And if we leak into Friday's lecture with a bit of discussion of the Terminus which might happen then then what whatever we do then as well, but it will not include chapter 5. So the cutoff for material you're responsible for on this midterm is up to chapter 3 is everything we did since the last midterm until chapter 3 to be clear, of course still need to understand everything. We did that you already tested on in the first midterm in order to do anything that we do in this class. Everything has been dealt one step on top of the than the other.  but specifically testing you on this exam will be topics since the last midterm and up to and including determinants and I'll post specifically which sections on the course webpage when I make the big announcement later, you know today or tomorrow about the topics for the midterm as well as some practice midterms just like last time so that's that's the plan that's it administered via and now let's continue with the course material for today, which is determinants, so I don't have it written here, but just as a reminder,  We defined last day in general. What a determinant of determinant of an N by n Matrix is it's a function that takes any Square Matrix and spits out a number.  Now, what does that number mean? Hopefully will answer that question a few ways today.  Okay, but we saw how to compute it. We started with the two by two kids were there an explicit formula and then we saw this recursive way to generalize that two larger matrices called the cofactor expansion where you take any row or column that you choose you expand a long that roller call him with some plus and minus signs. OK determined by fixed checkerboard pattern from the size of the Matrix and then you multiple you add up a linear combination of the entries on that row or column X some smaller determinants determinants one size smaller corresponding to The End by n -1 by 10 - 1 matrices you get by deleting the row and column that the entry you're interested in isn't.  We did a bunch of practice with that and that you're working on your homework already. So hopefully you've done a bunch of examples already and you're getting mechanically good with doing those computations. Why well only because I need you to understand the definition not because I ever want you to actually computer determinant. I mean on the midterm, you will probably have to compute the determinants that way to demonstrate that, you know the definition but no human being should ever actually computer minutes that way neither should any computer as we talked about last day that algorithm from the definition the cofactor expansion to calculate determinants takes an unfathomable amount of time by the algorithm has complexity more than n factorial and so any of you who are computer science Majors when you hear that are just getting up and leaving the room because that means it's not an algorithm. That means it's ridiculous. Okay, if it's not it's not even exponential. It's it's way worse than exponential so,  No computer can reasonably do it ever but that's okay because that's not the way you would actually computer determine. And so what I want to discuss at least on the process of what we're getting through today is how you would actually compute the determinant. It's harder to Define at the way. I'm going to show that it will actually be computed.  But it's it is the fastest way to compute determinants and we're going to see how that comes about. Okay, of course just like everything else in the spot. The way we're going to compute determinant is by  Row reduction. So we'll see you in a moment how that works. In order to get there. We need to understand some properties of this determinant function so that we can understand what row reduction does to the determinants.  So the the first observation I want to make is well. This is a class in linear algebra.  And we have this function determinant so I can input a matrix and you know, we thought of matrices and vectors before so I can input a matrix into this function and I output a number which is a kind of vector 1 by 1 Matrix. So you might think well this course in linear algebra. This should be a linear transformation. Well, it's not which is why this chapter is very different from all the other chapters in The Textbook determinants are not linear things closely related to linear algebra, but they're not linear functions. So what I mean by that is if I take the determinant  Of a matrix a nice scale that Matrix let's let's do an example of that. Let me put it up here just enough in a little box.  This is a demonstration.  So here's a matrix the identity Matrix.  And what is its determinant? Well, it's 1 * 1 - 0 * 0 is 1  No, what if I were to take?  Identity Matrix and thinking of it as a vector scale it. So I X some together most balls almost played by 2. So that gives me the Matrix 2 0 0 2  He know if the determinant function were a linear transformation, we know how this would have to go the function of 2 x 2 Matrix would have to equal to X the function of the Matrix, but we can come get this determine if the determinant of two times That Dunta Matrix is 2 * 2 - 0 * 0 which is for which is not equal to 2 * 1.  Okay, the determinant is not a linear transformation. It does not respect scalar multiplication. It also does not respect Edition. I mean you can see actually from that example. It doesn't respect Edition because multiplying a matrix by 2 is the same as adding it to itself. So we see here the determinants of I + I is not the same as the determinant of I plus the determinant of I  I think the temperature is not a linear function not a linear transformation. That means that it doesn't have a matrix. That means that it's not something we have standard tools for analyzing.  Well, but hang on it's not all bad. It does have some properties related to linear transformation. In fact viewed in the right way. It is linear it is what's called multilinear the fancy word, but it has a simple meaning and what it means is this so I've got the determinant here German is the function of this all the entries in The Matrix. We have this complicated recursive formula for how we actually compute it. Whatever it is, it produces some function of all the entries.  Play some combination of the entries and actually has polynomials but let's think of it this way. Let me give you a matrix like the one down here and I'll think of the Matrix as very only in one row. So here's a matrix in the first row. I'll think of it as as a variable vector and then the second and third rows are fixed like that one here. So now I can think of the determinant as a function not of the whole Matrix, but just of that first row with the second and third rows fixed equal to some random choices.  I claimed it that function is a linear transformation. So if I take the determinant of this Matrix here with entries in the first row being some parameters.  Then that function of that row Vector is actually linear transformation, meaning that the determinant of that Matrix is the sum is the same as the sum of the determinants when that row is the sum of two things. Let's just work that out. Why should that be true? So here I've already written it. So this Matrix here. This is a matrix where the first row is the sum of two other routes right? One row X1 X2 X3. And the second row y 1 Y 2 y 3 now, I'm not saying that I have that. You know, I'm adding those two matrices to each other. I'm just saying he's the second and third rows and look at the first row by itself and then look at some of Rove actors in the first row. What is the determinant do to that? Well,  We go back to our definition of the determinant we use the cofactor expansion. So that means the first thing we do is remember the sign pattern this checkerboard sign pattern we need to use  I know I'm going to choose any row or column to expand along and I'll get the same answer no matter what I do, but just to make things easier for the sake of this demonstration. I'm going to go ahead and choose to expand along the first row. You're the one that we're thinking of as the variable here. So what that says?  Is that okay? The cofactor expansion tells me what I do is I take the first entry which is X1 + y 1 * a + 1 you know that + 1 their time is the determinant of the stuff down here 1/4 - 1 - 5  Okay.  Great. Now the next thing I do is I move on to the next entry in the first row that I'm expanding along.  So that's X2 + Y2 now. I have two x minus one from the sign pattern and I take the determinant of everything that is not in the first row and the second column. So that means that I'm looking at these entries.  That's a determinant of 2-3 4-5.  And then finally I go to the third entry in the first row doing the cofactor expansion x 3 + y 3 x a + 1 again.  Okay.  time's the determinants of the stuff that's left over which is 231 - 1  Okay, so that's just the first step of the cofactor expansion. If I were going to write this whole thing out then I would now calculate those three to a two determinants and simplify everything but that's not my goal. My goal is not to give you a number if you're my goal is to relate this to the determinant of the original Matrix, but without a psalm  In the entries. So how do we do that while we just noticed that each one of these terms. I've got an X1 + 2y 1 or next 2 + 2y 2. So let me break these this sum up is three terms here. But each one of them is the sum of two terms. So let me write it as all six terms together organized like this. So this first term here, that's x 1 x this determinant.  1 4 -1 - 5 + y 1 x the determinant of 1/4 - 1 - 5  The second term is X2 while it's - X2. Does that minus sign their - x 2 x the determiner of 243 - 5 - y to X the determinant of 243 - 5 and then that third term is + x 3 x the degenerative to want to 3-1 to that thing + y 3 x the determinants of that thing.  I'm really done anything except expand out oil out these this product of sums, but now I recognize something Let's ignore that ignore the second Road. Look at just the one with the exes the one with just the X's is a cofactor expansion.  It is exactly the cofactor expansion that we would use to compute the determinants.  The Matrix with the x's in the first row and those same entries in the second and third  And the second row the one with the wise that's equal to the determinant.  Where I have just the wise in the first row and those same constants in the second and third.  So here's what I see. I see that the determinant of a matrix whose row is a sum of two other row Victor's is the sum of the determinants of the two matrices with the same bottom two rows Frozen and then I put the rose that are in the sum in the separate determinants what that says exactly is that  the determinants  is linear  in each row separately  holding  the others fixed  Hey, so if I hold all the roads, but one fixed.  And think of the determinant of this Matrix is a function of just that row. It is a linear transformation of just that row. That's exactly what this says.  I've only shown it in this one special case and it only showed it for the first row, but you can see that that's how it's going to work no matter which row or no matter which way we choose because of the same effects. I mean we use the same cofactor expansion in any roller, and hero or column. You know, what if we had done exactly the same calculations but turned her head on its side and work with the transpose of this Matrix.  We get the same thing not only is the determinant a linear function of each row separately holding all the other roads fixed. It's also a linear function of each column holding all the other columns fix.  I've only shown that it's respect someone's here, but it's even easier to show that it respects scalar multiplication in each row or column fixed holding all the other column very  that's a super important property of determinants. We're going to use it now to understand how the determinant behaves when we perform row operations on The Matrix.  So let's let's look at row operations. So I give you a square Matrix for all the demonstrations here. I'm working with a 3 by 3 Matrix just because I don't want to keep writing more variables are more rows. But all of these things work exactly the same way for any number of rows granny square Matrix.  3 by 3 Matrix. I'm reading it. You know, it must be magic lanterns with rose Row 1 row to Row 3 there and suppose I then pivot. So that's my first kind of row operation right where I can take any row and I can divide through that roll by some nonzero constant.  What happens to the determinant when I do that?  Okay, so I start with the Matrix a and I want to know what it's determinant is well instead of doing the cofactor expansion. Let me do a one-step of row reduction.  And if I can track how the determinant changes under that stuff of row reduction, then I could just do the computation for the row reduced Matrix instead and keep track of all the changes as I go.  That's our goal here over then. We need to know how the determinant changes under the roloffs. So this one actually follows from what we did on the last slide.  I said that holding any looking at anyone row as the variable the variable vector and holding other all the other Rose fixed. The determinant is a linear transformation that one row so that in particular means that it respects scalar multiplication.  So from the last slide we get immediately that this is the same thing as if I take  that Matrix without that scalar there.  the original Matrix  And take its determinant of the determinant is linear, which means I have to pull out that one over Pete. That's all so from the linearity in the first row or in any Row in fact.  If I do a pivot row operation that changes the determinant by that pivot is X that pivot.  Now be careful with this means though is I'm interested in actually calculating this thing. I want to know what this determinant and I do a real operation and I then have the thing on the left. So really what I want to do is X that pee if I give you an A and I say hey, what's the determinant of a you tell me? Okay. First I'm going to Pivot the First Column the first row by 2. So I / 2 what that means is that you're multiplying the determinant by 2 because it's kind of in reverse.  Okay, so that's how pivot raw operations behave that's how they determine who pays under pivot operations now about the second kind of operation. Will I've written it down here the first step of it. So the second kind of row operation is the real Workhorse of the road. Shahnaz brother where I take some r o i x some number and then I add the result that I add that road to some other row and then replace that that row so I take the first row x 3 added to the second row and replace the second row with that that new combined row. That's our typical kind of operation we do for the reduction algorithm. So what happens when we do that what happened to the determinant when we do that while I've written out the first step of what happens there. So the determinant of that row reduced Matrix there  Well think of the first and third rows as fixed now cuz they are and now I've made some changes to the second row and what have I done in the second row. I've taken a linear combination of things and we just said on the last by the determinant is linear in each row a holding that is fixed. So what that means is exactly this it means that that determinant with the second row being a song that's going to multiple is the same as the scalar multiple and some of the determinants  just like I've written there.  Okay. Well that has a nice relationship cuz it tells me once I've done the row reduction I get back to something over here.  That involves the determinant of the original on row reduced Matrix. So what it says, if I do that operation, what I really have to do is take the original determinant. I was interested in and I have to add something to it, which is that a that I used in the operation times the determinant of a new Matrix and that new Matrix is the old Matrix, but with one of the Rose repeated that I'm having the second row there it's gone. It's been replaced and I have the first row repeat it.  not clear how helpful that is right now cuz now I've taken a single determinant and turn it into a sum of 2 and each of them looks about equally hard to compute probably but we'll see you in a second that actually  The first term there is no problem at all. So to see that let's look at the Third Kind of operation. The one that we actually rarely use it. Sometimes we have to which is row swaps.  So for example, it might be that there's a zero in the one 1 entry of the original Matrix and that there isn't in the second row. So what we do in that case usually has swap the second in the first row if that's what I've done here in the question is how do these two determinants relate to each other?  Now this one isn't covered by the first slide wit it. This is not a linear transformation of our single fixed-route. This is what happens when we look at different rows colliding with each other, but actually we can go back to the cofactor expansion definition of the terminal to see what happens because I'm over here in the first one if we use the cofactor expansion.  Let's do it with a specific example.  Let's say you know one two three four five six, seven eight nine going to come to that guy. And if I do the row swap.  Between the first two that's 4 5 6 1 2 3 7 8 9.  So in this first example here.  Let me go ahead and expand along the first row. If I do the cofactor expansion spending on the first row. Then I write my signed pattern to remember how the signs go in the cofactor.  I'm going to get his + 1 times the determinant of 4 6 8 9.  -2 sorry  You're right. It is 5. Thank you.  then I get - 2 * 4679 + 3 * the determinant of 4 5 7 8  Now I can keep going if I want the number. But again, I'm not interested in the number. I'm interested in the property is here know what happens. If I do that roast WAP and look at the second Matrix over on the right here. Well, I'm going to get different looking calculations if I stand along the first row again, but I don't have to expend along the first row. I can choose whatever I want to extend a long. So let's expand along the second row of this Matrix.  okay, and then from that when I'm going to get is  1 * the stuff that's left over 5 6 8 9  -2 *  4679  Plus  3 * 457 94578  right  No, no, why not?  Hey, you guys are too quick for me. Okay, I shouldn't try to make these intentional mistakes cuz I know you're going to catch him right away. I can't fool you right so for this one over here.  the first sign  is that plus but it's the same sign pattern we have to use over here.  So now that first sign is a minus and they're all reversed from the ones we had before so that's a - + -  So it looks almost exactly the same.  The only difference is an overall factor of -1 and that's what happens here in general. If I swap two rows. The only effect that has on the determinant is to change its sign.  Okay, and now we know how to turn it behave under all three row operations modulo. 2nd wonder the real Workhorse which has this funny business where we have to add something which we don't really know how to handle any better than we did before it seems like maybe this isn't very useful. Well now here's the key really sneaky observation.  Let's just look at this Matrix here. So I'm taking the determinant of Row 1 Row 2 Row 3.  Row 1 Row 1 Row 3  Write the first row repeat it.  What happens if I swap the first and second rows of this Matrix?  I've got to Matrix and I've got the first two rows are equal what happens to that Matrix if I swap those two rows?  Is it this is a trick question and you know the answer what happens?  Should I write a specific example? I don't think it's going to help anymore. I think you all know the answer or just mumbling quietly because you're not sure what I'm getting at because it seems like too dumb and answer.  If I give you two rows that are the same row and I asked you to swap them. What is the result?  It's the same damn thing. Nothing happened. Right? So if I swap those two rows.  R1 R1 R3  Okay.  Nothing happened, but this property down here.  Tells me that if I swap those two rows I introduce a minus sign.  How can I be I take the Matrix. I don't really change it. But because I can achieve this no change by swapping the two rows. It also means that the determinant changes sign. How can I possibly happen?  Do you know any numbers that are their own negative?  0  and that term is not there.  That's a really important property. If you take the determinant if you see any Matrix and has a repeated row or column its determinant is zero.  Can you can tell that immediately?  But in fact if you remember where determinants were supposed to come from we haven't proved this yet. We're about to determine its supposed to be a measure of whether a matrix is invertible.  Right, if a matrix has a repeated row or column that means that it doesn't have all of its rows or columns pivotal which means is not invertible which means it is supposed to be zero. That's what they determined. It was supposed to measure for us. Now we see why that's true. It's because of this row swapping negation business pay if you ever have a repeated row, which you will always get in the reduced row Echelon form in a in a row Echelon form if it's not invertible, then the determinant will be zero and now we see how the determinant behaves under all the row operations and it's easy to keep track of  There's a question.  Hey, so when I'm doing real operations, all I have to do is keep track of it as a certain number associated with kind of row operation that start with the Matrix a and I'm going to carry it all the way to reduce trash salon for men in the process. I'm just going to do the operations of these three types.  And if I just keep track.  Of what when I pivot I keep track of what I pivoted by.  If I roast WAP, I keep track of the fact that there was a roast Lobster. I put a minus one.  And the main relay operation where I take a multiple of 1 row and add it to another I don't even need to keep track of those because that doesn't change the determinant or you can think of it as saying I keep track of the number one that I associate to those what this tells us is that at the end of the day if I want to compute a determinant if I just keep track of all those row operations, the determinant is going to be the product of all of those numbers at the end of times the determinant of the reduced row Echelon form of the Matrix, but we saw last day that if a matrix is triangular the determinant is the product of the diagonal entries.  Now if the Matrix that you get at the end, the reduced row Echelon form is the identity Matrix. That means it's the product of one's which is just one if the Matrix has some zeros on the diagonal meaning that the registration form is not the identity. Matrix is not invertible. You're going to get a zero there and then determine it will be zero and so we have proved this there.  that if you take any Square Matrix  Either the Matrix was invertible, which just reminding you of how different words fit together the same thing as saying that has full rank rank in and pivots.  Then in that case the determinant is the product of the pivots X assign plus or minus cuz I keep track. I got those pivots there each time. I did a row up to the pivot. I had to X that pivot in order to preserve the determinant that keep track of those if I didn't hero swaps that gives me on + y -1 and the other operations don't affect the determinant of a matrix is just plus and minus the product of the pivots.  If the Matrix is invertible and if it's not invertible, then at the end you get a diagonal matrix that has zeros on some zeros on the diagonal and therefore the determinant is zero. And so it follows that we get the theorem which tells the determinant does what it was supposed to determine the determinant is zero. If and only if the original Matrix  Was not invertible.  Okay. So let's look at a specific example here for how we would implement this. So here's a matrix a 3 by 3 Matrix know we could use the cofactor expansion to calculate this determinant. No problem is not a big deal. In fact, there's a couple zeros there. So if we're your dishes about which column or row, we spend along it won't be much work at all. But I want to demonstrate how to calculate this determinant using these observations. We just made what we're going to do is rub against this Matrix at least until we get to a row Echelon form.  So the first row operation I'm going to do is a row swap because I get a knot. I have a zero in the first entry there. So I'm going to do a row swap.  between the first and second rows 1/2 - 1014 + 580  and when I do that, I'm just going to keep track of the fact.  But that Rose swap introduces a -1 into the determinant.  No, I'm going to do my favorite kind of operation to get a zero below the one there was also the one I'm going to multiply the first row by -5 and adds the third row.  So that gives me the desired 0 there I get 8-10 is -2 and I got 0 - -5 is + 5 + that doesn't change the determinant. I'll just record that by noting a plus one there.  I know I need to do the same kind of row operation.  To get rid of the -2 in the 3-2 at him at 3 to be there. Then I'm going to multiply the second row by 2 and add to the Third.  so  that gives me  desired 0 there and I multiply in the second row by to give me 8 plus the third is 13.  And again, that wrong person doesn't change the determinant and now I'm in row Echelon form. So I could either continue and Go to reduced row Echelon form which will require me to Pivot next or I can remember from last day that now I know that from the cofactor expansion that the determinant of this Matrix over here, which is triangular is just the product of the diagonal entries.  Okay, and so this one has determinants.  1 * 1 * 13 or 13 and therefore keeping track of those things.  the determinant of the original Matrix  is  13 * 1 * 1 * -1 or -13  Okay, that wasn't much work at all. It was about the same exit and even less work. Then the cofactor expansion would have been yes.  I would say it is important to do a hard stop because continuing any further will be wasting your effort. Once you have trezeros below the main diagonal, you know, the determinant of that Matrix that's left over and you don't want to do the N squared over 2 more operations that required to get through trash 1 form because none of those operations will change the determinant if I were to do the one remaining thing here in pivot that 13 out and I keep track of that 13, then all the remaining operations all the operations in the backwards day is at the end of row reduction. They're all of the Forum add a multiple of Row 3 to roast Taro to end and replace road to with that. All of them are there's no more putting there's no more roast whopping so all their operations don't change the determinant. So it would be pointless from the perspective of permanent to do them right side. And I think it's a good idea for you guys to check in and around notebooks that using the cofactor expansion does give you minus 13 for this guy only take  30 seconds or maybe a minute and you'll see that you get the same answer that.  Okay, so that is really how determinants are computed. That's how Matlab calculate determinant it. Does it by row reduction. Can you get it to get your Matrix to a row Echelon form and then you calculate and then you multiply all the pivots and plus and minus ones from roast loves together and that gives you the determinant.  That means that it only takes if you remember the kind of complexity analysis we did in the first week or second week. It only takes about 10 cubed over three steps to calculate the determinants and Cubed / 3 flops where Anna is the size of the Matrix. That's to be compared to n factorial but those numbers are just incomparable and factorial is ridiculously huge compared to M cubed / 3, even if n is 3 already and Cubed / 3 is 3 is 3 cubed / 3 or 9. So about 9 flops maximum to calculate determinant of a 3 by 3 compared to 3 factorial, which is well 6, okay fine.  Maybe it would have been faster in some cases. But let's do 4 for cubed / 3/4 cubed is 64 / 3 is about 21. Whereas 4 factorial is 24. So already it's a little faster to do it this way about a 10 by 10 10 cubed / 3 is 666 about 10 factorial is over 10 million. Okay. So if you're getting Beyond to the two by two or three by three setting you never ever use the cofactor expansion other than to prove properties of the determinants.  You're actually Computing determinants. You're always going to do it by Robert rushing.  Okay.  Now I want to give a slightly different perspective on everything that we just did which is going to show us one more super important property of the determinant.  Okay, we've been doing row reduction from the very beginning of this class.  We've also been doing matrix multiplication since about the third week of this class. There's a connection between those two things. In fact row reduction is matrix multiplication, believe it or not. And here's how it works for matrices of any size. If you're careful about it. We're going to do it in a restricted context here. We're talking about Square matrices. So every row operation can be achieved by multiplying by a certain Matrix and them kind of matrices that you use are called Elementary matrices the what is an elementary Matrix. Well, it's just the result of a row operation on the identity Matrix. So here is here are examples of the three kinds. So we start with the identity Matrix.  And let's do a certain row operation on that one. So let's do a roast swap. Let's swap the first and third rows.  Okay, that means we get this.  So that resulting Matrix on the right hand side there that is an example of an elementary matrix. It's a matrix that you can get by doing a row operation of single row operation on the identity Matrix.  How about if we do a pivot right? So I'll start with the identity Matrix.  And let me replace.  The first row with the first row over 3.  There is another example of an elementary Matrix one where one entry on the diagonal has been changed from one to some other nonzero number and then the Third Kind of row operation again, the usual Workhorse of reproduction. The one that gets used the most is where I take some multiple of the first row say and add it to the second row and replace the second row with that. So if I do that to the identity Matrix gear  What that does is the opposite of what we want usually to do but that's okay. It does this. Can you put the four there?  So that's a that's a third example of an elementary Matrix and these aren't the only kind of mattresses. You can call Elementary matrices. Okay, not just these three matrices here but ones that you can achieve by these operations one single operation on the identity Matrix, the very restricted class of matrices. Most bases are not Elementary.  But we will see in a moment that every Matrix is a product of Elementary matrices. And the reason is the Theron this written right here. So take any row operations. I like it. If I do that real oppression. So one of these three kinds if I do it to the identity Matrix, I get an elementary Matrix eat  Now what if I take that same row operation and I do it to some other Matrix a get a new Matrix a tilde which is a row reduced version of that same Matrix. What's the relationship between a tilde? I got a tiller from a by row reduction by one row operation. It turns out that you could just as well have said hey, I got that rotors Matrix a tilde by multiplying a on the left by the corresponding Elementary Matrix.  Let's look at an example just to illustrate this point. So let's take a matrix a  K104 2 - 1/3 and 111 if I were doing real operations  the first step I would do here would be to multiply the first row by -2 and add to the second.  Replace the second row with that.  So let's do that.  So that gives me  multiply the first row by -2 seconds in -8 and gives me a -5 there are four. So that's the first step of Road action. We would do here. Well at the same time, let me take that Matrix.  1042 - 13111 and Multiplied on the left by the corresponding Elementary Matrix meaning I do that same row operation multiply the first row by -2 and a second to the identity Matrix.  Let's do that matrix multiplication.  Okay, we'll have to multiply these things out and give 9 numbers here. But that's okay because a lot of them are very easy to compute. Let's look at the elements of the first row of the product Matrix. I'm out the plane that first row of the Matrix here by the First Column, but that first row is 100. So I just take 1 * 1 + 0 for the first century. I'm there for the second one is 1 * 0 + 1 * 4 + 0. That road which is just 1 0 0 then all the entries in the product grow or going to be the same as the entries you had above.  Similarly if I look at the bottom row.  This bottom row here, I multiply 9001 times the column but all that's going to do is pick off the last entry write 0 + 0 + 100 + 100 + 1 this Elementary Matrix when I X on the left, it does not change the first or the second row as we know it has a third row as it should not know. What about  When I look at the second the second row here, well there I'm multiplying by the row hear X the column and that means that I take - 2 * the entry in the first row + Pantry in the second row + 0 which is exactly what the elementary operation was supposed to do and that is what it implements. So I get - 2 * 1 + 2 * 1 which is -2 * 0 + 1 * -1 + -2 * 4 + 3 which is -5 Czech.  Okay, that's just a demonstration. But actually we more or less prove that that's how that kind of Elementary row operation is implemented that kind of operations implemented by that kind of a matrix.  And you can follow through for the other kinds of operations as well.  Okay. So this is an interesting and useful observation row operations are really implemented by multiplication by matrices multiplication by Elementary matrices on the left.  Great. So what?  well  that tells us something great about matrices that have the identity of a matrix has they reduced row Echelon form that is to say invertible matrices.  So if I take an invertible Matrix a and I know it's invertible. I figured that out somehow then that means it's reduced row Echelon form is the identity.  What that was that really says that I'm going to be able to get to the identity matrix by Sum sequence of row operations, right? So maybe maybe four of them are required R1.  To some new Matrix A1 R22 some new Matrix 82 R32 some new Matrix a three and maybe there's one more step required are for and that gives me the identity Matrix, which is the reduced row Echelon form. Probably it'll take more than four if we have a bigger than 2 3 by 3 Matrix, but let's just pretend  each one of those row operations. We just saw corresponds to an elementary Matrix.  He won.  E2 E3 and E4 and so what that says here from the last slide, is it really this a one here that you get after one step of row reduction is the same thing as E1 x a  no, we've got this A1 and we get to a to buy one step of raw row reduction. So that says that a to is really e to X A1.  but a one is equal to a 1 * a  so that's really equal to 82 * 81 * a  now this A3 here same thing. We got it from a to buy one step of reproduction. So that means that a 3 is equal to eat 3 * 82  but we just got an expression for ETA to its really  E2 x e 1 x a  But if we do this one more time.  we get that Pi is equal to e 4 times a three times the previous step in the reduction, but putting these two together says that that's easy for * 83 * 82 * 81 * a  Okay, so we get this equation here.  What is that actually say, well one more observation. We need to make that we've highlighted many times row operations are reversible.  Okay any operation I do to get from Matrix to a new Matrix. I can reverse it and go back and if I pivot then I pivot by the reciprocal if I swap to Rose then I swap them back. If I add three times the first row to the second then I'm going to add one negative one. Third of the first row to the second -3 reversible. If you look at the previous slide hear each one of those matrices is invertible.  Yeah, that's what it says to say that an operation is reversible. It says that the corresponding Elementary Matrix is invertible and you can write down the inverse easily in each one of those cases.  Well each one of those matrices is invertible. So it's take that equation. We have the identity Matrix to reduced row Echelon form is 84 * 83 * 82 * 81 * a  So now let me multiply on the left by E4 * 83 * 82 * 81.  inverse and that's going to equal a and remember that inversion reverses the order of multiplication so I get this  so that's our end result here.  Hey is equal to one inverse x e to inverse X III inverse x e for inverse.  Okay.  So let me summarize that in words what it says is if I get from a matrix a to the identity matrix by row operations, then in fact a is equal to the product of the elementary matrices operations in versus so each of the operations in other words, if I can get from a the identity by row operations, then I can get back from the identities are by the reverse draw operation, which means exactly this that a can be achieved by doing real operations in sequence on the identity the reverse of the ones that took me to the roost restaurant in the first place.  So what that shows us? Is that every invertible Matrix?  Is a product of Elementary matrices?  Now what's so great about that?  Remember when we just a few minutes ago talk about how to actually compute determinants. We said hey as long as you can keep track of the row operations, then you can pack of the determining. It's just going to be the product of the plus and minus ones in the pivots.  Okay, but now we know that we can get all the way to the identity just by the product of matrices and what that tells us is the following remarkable theorem that will finish with today.  The determinants which is the super complicated cofactor expansion function, which is linear and the rose individually but not altogether and might be very complicated to compute from first blush. Not only can it be computed doing wrong operations. But it also respect the algebraic structure of the matrices. Is it respect matrix multiplication?  Okay, we talked about we'll talk about linear Transformations that respect Edition to terminate doesn't respect Edition. It doesn't mean much harder it respect matrix multiplication know. Why is that what we can see it from the what we just saw so suppose that well, first of all, if if one of the two matrices A and B is not invertible, then their product can't be invertible either. I'll let you think about why that is so that's a positive. Either of those matrices has zero determinant then so does the product so that is consistent here. So let's just work with the case where A and B are both invertible from what we just saw the last slide if a is invertible, then we can expand it is a product of some Elementary matrices. Maybe it's three of them.  And those Elementary matrices correspond to row operations, maybe one of them was a pivot and one of them was a row up that didn't require changing the determinant and one of them was a roast.  And be  maybe be is a product of only two row operations F1 and F2. One of them was a pivot and one of them was just a determinant.  Well, then, what about a b?  A b is equal to E1 E2 E3 F1 F2 know already that tells us something great. What it says is you know, what?  If I have a matrix a and I know what row operations are required to take it to the I to the identity and I have another Matrix B, and I know what row operations are required to take it to the identity. What do I need to do to take a baby to the identity? You just do the same row operations in sequence, right? That's exactly what this says. Cuz the inverse of that thing is the identity.  I know that means that we'll look I just keep track of the same.  Row operations the same qualities for those row operations. So the determinant of a appear was equal to p x + 1 x - 1 the determinant of V was equal to Q x 1 and here since these are row operations that take us to the identity that says the determinant of a b is equal to p x + 1 x - 1 x q x one but that is  The products of the determinant of a on the determinant of B.  Okay, so that's the deal every invertible. Matrix is a product of Elementary matrices and you already know how to find them. It's just row reduction.  And what that means is it the determinant is a multiplicative function. And so let me just conclude by noting for example, if I want to take the determinant of a matrix to the 100th power, which is something you're asked to do on your Matlab homework one thing you could do here is take this Matrix. Maybe it's 5 by 5 and X self a hundred times now, it's one of those notifications but you have to do it a hundred times if it's five by five that's instead of 125 Ops is 12500. It's a lot of computation but instead iterating this product we get that this is the same thing as the determinant of a to the 100th power. You just compute the determinant once and then take the hundred power that number.  All right. So on Friday, we will finish our conversation about what the determinant actually is and we'll. EDU. ",
+  "Name": "math18_b00_wi18-02212018-1000",
+  "File Name": "lecture_18.flac"
+}

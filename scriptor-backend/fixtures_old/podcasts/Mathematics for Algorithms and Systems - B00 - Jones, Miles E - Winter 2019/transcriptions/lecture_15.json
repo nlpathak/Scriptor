@@ -1,0 +1,571 @@
+{
+    "Blurbs": {
+        "0 okay doesn't have to be a self Lube it just kind of makes some of the algorithms and theorems better if we make this assumption. Okay, a simple path is a path that doesn't repeat vertices a circuit is a path that starts and ends at the same vertex and a cycle is a circuit that doesn't repeat vertices. Eneloop or self Loop we already talked about that is ": [
+            2435.4,
+            2466.3,
+            56
+        ],
+        "10 Which is equal to 2 times the number of edges, so that means that the number of edges must be 5, right? Any questions about that? Okay. So what consequence can we make from this statement? What is this fact imply? Hey, maybe we're kind of getting closer to. number c the number of vertices with odd degree is even What does that really mean? Think about it in ": [
+            2045.2,
+            2138.4,
+            48
+        ],
+        "2? How many possible edges can I have between two vertices in a directed graph? What about with three vertices? 1 2 3 4 5 6 right and there they correspond to the total number of ordered pairs. You can have a b a c. ba b c c a c b How do you count that kind of thing? any questions Basically for every Edge for every vertex there ": [
+            981.0,
+            1046.8,
+            21
+        ],
+        "800 to 440. Which means I can get 4 oz in the middle cup, which is what I wanted to do. Yes. Like a like a self Loop. You could put that in or leave it out. I don't think it would affect the the problem specification. Yeah, I would leave it out since it doesn't really help to put it in. in this case But it wouldn't be wrong, ": [
+            4397.8,
+            4443.8,
+            108
+        ],
+        "Edge from the vertex to all the the vertices and it's less. Okay, so it goes to C to D and 2E B goes to see into a she goes to D. Digos to a NB and E and he goes to a then you can go back and forth and all it is is just a list of the neighbors. You could also build a adjacency list for a ": [
+            1642.0,
+            1679.3,
+            38
+        ],
+        "How about a graph with no parallel edges, but we didn't really talk about what happens in a matrix when you have parallel edges, but think about it if vertex a connects to Vertex or if vertex I connect to vertex J. Let's stay with three different edges. What do you think that entries going to be? Three, right? So in the case where there are no parallel edges all ": [
+            1277.3,
+            1305.5,
+            28
+        ],
+        "I claimed that X is going to be the set that contains all vertices that you can reach from at. Okay. So the question here, does this algorithm output the entire collection of vertices be reachable from S5. Direct path is what we're going to figure out. Okay now to do this, we need to kind of think about two different directions one is going to be that. if an ": [
+            3024.2,
+            3057.1,
+            75
+        ],
+        "I have to go from a Vertex inside of x to advertise outside of acts. So let's call that pair. y&z Okay. So here's where the contradiction comes. Why is an ex that means that at some point you had to explore? Why and when you explored why you had to get dizzy? If you explore Z or if you if you get to Z then Z is going to ": [
+            3337.5,
+            3369.6,
+            84
+        ],
+        "I just got this on YouTube. I don't know. I got it. I got it exactly two gallons in here. Right right letting exactly one gallon of empty space, right? Congratulations, you're still alive. Okay, so oh. Where to sell that okay. so this is call for now tartaglia is pouring problem. Okay, how is this problem a graph problem? Well. We need to do is assign roles for the ": [
+            4133.3,
+            4224.8,
+            103
+        ],
+        "I'm talking about grass a lot because it there there an integral part in computer science. They come up all the time. All these different networks different algorithmic problems use a lot of graphs. Anything kind of having to do with road maps or spatial kind of things you can use graphs. They come up all over the place. So when we input it into a computer, we're not going ": [
+            739.9,
+            772.8,
+            18
+        ],
+        "It takes constant time to DQ. One of the kind of implementations of this has f as a priority queue if that's the case then it takes some time to kind of pick the right for attack. So let's think about how long is it going to take assume G is stored as an adjacency list. Okay, so And now instead of having the sets FX in you you have ": [
+            3470.0,
+            3515.9,
+            88
+        ],
+        "Just the thing in the Box. Okay, you guys are saying B&C and it's good because you're both right in the worst-case V is going to have an edge going to every other vertex. Right? So it's up or down of an right but a tighter upper bowel would be degree of the right because every every vertex B Simpson adjacency list your only considering each of its outgoing Neighbors. ": [
+            3632.4,
+            3669.3,
+            92
+        ],
+        "Listen to a podcast. Okay, good evening. Okay, how's everybody going doing going? Okay? Almost done with the quarter. Anybody have any questions before we start? The next homework dude on Friday the individual homework and then then the next group homework will be due next week because we're starting it today starting the new subject today. All right, let's begin then. So we're going to just talk about graphs ": [
+            1.9,
+            56.6,
+            0
+        ],
+        "Okay. and then what's the upper bound on the entire? Wild Olive Okay. Well, that's kind of work it out together. This inner for Loop is going to take degree. A v I should say out degree right out degree of V time or iterations forever TV show in the whole algorithm. Worst case scenario is that you explore every single vertex? So that would sum up all the vertices ": [
+            3671.3,
+            3725.2,
+            93
+        ],
+        "Remember that trivial path. I was telling you about the trivial path from s to ask good. Induction step. Okay suppose that after the teeth iteration everything in X & F is reachable. What happened in the t plus first iteration? You take somebody that's already in a half. Which means you can reach it. And you bring all of its neighbors into a half, right? You could already reached ": [
+            3120.9,
+            3158.8,
+            78
+        ],
+        "The Edge from a Vertex to itself. Everything goes through their specific. Yeah, that's called a hamiltonian path. If there's a path that goes through every single vertex exactly once we'll talk about that probably starting on Wednesday. And there is a path that goes through every single edge is called the oil area and path and we'll talk about that too. Okay, let's look at a few types of ": [
+            2466.3,
+            2497.9,
+            57
+        ],
+        "To store the upper triangle of the Matrix, right and the rest of the Matrix we can kind of ignore. Okay good. Let's think about memory efficiency. You can kind of think about grass on some sort of like a scale from sparse to dense. So you have very dense grass means that there are many many edges in relation to the number of vertices and then a very sparse ": [
+            1466.4,
+            1505.1,
+            33
+        ],
+        "Vertex only have meaning in an undirected graph when you talk about a directed graph, you have to talk about the in degree or the out degree when it's going to be two different things but a degree is going to be the total number of edges incident with it, except that a loop contribute twice. Hey, so what's the maximum degree of a Vertex in this graph? We can ": [
+            1765.0,
+            1792.3,
+            41
+        ],
+        "We can just now use it have an algorithm that does this thing. It's a really nice thing to do and we'll show you how to apply it to a certain problem. okay, but before we do that, I just want to quickly talk about why this algorithm is is good. What what makes it efficient? Okay, so let's go through the runtime. Now this is sort of like a ": [
+            3398.1,
+            3434.1,
+            86
+        ],
+        "a graph it's basically a set of vertices in a set of edges with the constraint that well not really more that an edge is just a link between two vertices. So let's start with directed graphs directed just means that each Edge has a arrow. Okay, the think about the arrow as a as like as like a bow and arrow Arrow right to have the arrowhead the pointy ": [
+            123.4,
+            159.3,
+            3
+        ],
+        "a tree which we'll talk about. I think maybe next week or maybe starting on Wednesday is a graph with no cycle undirected graph with no Cycles. Dang, it looks something like this and there's many properties of trees that will that will talk about in due time? and a directed tree usually is called a rooted tree which has a root and it has the root has children in ": [
+            2610.6,
+            2638.1,
+            62
+        ],
+        "a trick question. Sorry. This should be big old one. Cuz you're just checking to see what set you was in and then you move you move this to you from one set to the other. Okay here, let's do this one now. What's an upper bound on the time it takes to go through the whole Loop for a given V this whole thing? No the whole for Loop. ": [
+            3596.4,
+            3631.4,
+            91
+        ],
+        "about each Edge is is a each line in the grid is an edge and each crossing of the grid is a vertex unless that Crossing is an obstacle. How about this? chemical symbols are graphs the nodes are or Nodes and vertices are the same thing. Sorry, I'll probably go back and forth vertices are. Adams right edges bonds All right, is this a direct or undirected? I think ": [
+            569.3,
+            613.0,
+            14
+        ],
+        "about this map coloring or just a map? Nodes are States. Edges are what? borders so undirected right Is it simple? Simply simple, right? There are no selfloops. You can't border yourself and there's no multi. Edge's right. There's no there's no parallel edges. You can't once you border a state. You can't border it again, unless you're talking about. I guess you can't can you? Is it easier to ": [
+            469.9,
+            537.2,
+            12
+        ],
+        "all count. right Let's just draw for each one. We have three here. Write three here to here to here. And how many here? Okay, how about this? What is the degree of vertex 5? Remember what I said about selfloops. What do I say? They count twice why do they count twice? Well, you can kind of think about the degree as sort of like look at a very ": [
+            1792.3,
+            1838.5,
+            42
+        ],
+        "all day today mainly start with the main definitions few properties and we'll look at kind of a standard. type of graph algorithm that will be able to use to solve a multitude of different kind of problems and what you're going to see is that often times the problem won't be given to you as a graph problem will be given to you in some other form and sometimes ": [
+            56.6,
+            98.1,
+            1
+        ],
+        "and it said internet graph. Is the what? Yeah, but I'm just wondering cuz the internet graph mean like those are the servers and like connections or they web pages Maybe this is just like a subgraph. let's think about it as nodes are web pages, right? and edges are hyperlinks cases it's directed or undirected. Directed right, you might be able to link to somebody else's website, but there ": [
+            369.8,
+            430.2,
+            10
+        ],
+        "and the only question is is there an edge there or not? It's not how many there are. Okay, let's look at some examples of some grass. Here is a a metro map of downtown Tokyo Is this a directed graph for undirected graph? undirected yeah, maybe like one of the the directions of the train is under construction and then you can only get from Toyosu to tsukishima and ": [
+            250.5,
+            298.6,
+            7
+        ],
+        "are and -1 other vertices that you can connect it to and there and vertices that you could get that from. Okay, so we have end times and -1 pieces of information. We need to we need to store basically for each of those possible ordered pairs. We want we want to know if it's going to be on or off is The Edge going to be there or not ": [
+            1046.8,
+            1071.9,
+            22
+        ],
+        "back to tell her what I said about it and then my poor dad. Nobody told me anything. So he calls me just to say hi. My brother calls me. Yes, he calls me back to tell me what Mom said. I don't know just a silly example. Okay, so you can notice that I got all that information. I could draw that whole graph just by the information in ": [
+            1195.1,
+            1227.4,
+            26
+        ],
+        "basically that has many edges between a pair of nodes. Okay, sometimes are called parallel edges for certain problems. It's not necessary to connect two vertices multiple times and other problems. It might be just kind of depends on what type of problem you're doing. simple graphs it's basically a graph that doesn't have any parallel edges or selfloops. It's just kind of like every Edge connect to different vertices ": [
+            219.5,
+            250.5,
+            6
+        ],
+        "be put into X. types of kind of the idea and that's kind of what I say here. Olive wise neighbors getting into put into into a half including z z was an F at some point since he will eventually be put into act which contradicts the fact that these never next. Okay, good. So Thought we got through the proof now. We don't have to prove it. Again. ": [
+            3369.6,
+            3398.1,
+            85
+        ],
+        "be there, right and so and * N - one's kind of on the order of N squared. So why don't we just build it into a matrix? This is called an adjacency matrix. It's basically tells you. Call vertices are connected if there is a 1in entry i, j that means vertex. I point to vertex J. If there's a zero, that means vertex. I does not point to ": [
+            1071.9,
+            1104.4,
+            23
+        ],
+        "bit. We're going to talk a little bit more about this a little bit later when we start talking about hamiltonian paths and stuff. questions about that Okay. so that's kind of like the the vocab for grass. Now. Let's move on to what we can do with them. There's kind of like three different sorts of problems. We can think about with grass. There's the reach ability problem. Which ": [
+            2752.8,
+            2784.2,
+            66
+        ],
+        "border it or you don't so that makes it simple? Okay, you could also think about grass as like plotting pads. Maybe you have like Obstacles in the way, and so you can't draw a line there, right? And so you can make a graph and then if you want to figure out how to move around in it. You can run a graph algorithm on this grid you think ": [
+            537.2,
+            569.3,
+            13
+        ],
+        "can just go. What can I reach from s this is sort of what it's built for. But another problem we can do is talk about is the graph connected right? Let's say this is for an undirected graph. If it's an undirected graph and I start from a vertex. And what would what kind of indication would I have if the whole graph was connected? What would be the ": [
+            3850.8,
+            3882.6,
+            97
+        ],
+        "could also do it for undirected graphs. What is the neighbor in undirected graph a neighbor? Is any vertex that is connected to a neighbor of a Vertex is any other vertex that's connected by a single edge. You have two different kinds of neighbors neighbors and incoming neighbors, right? And you can kind of figure out what they what they are from this. Neighboring vertices are also called adjacent ": [
+            1578.9,
+            1608.5,
+            36
+        ],
+        "degrees. You're basically counting all the arrowheads right? And you counted one per Edge any questions. What about the sum of all the out degrees? Also e write the sum of the in degrees has to be equal to the sum of the out degrees and have to be equal to the number of edges. Okay good. Alright, let's talk about some more vocab. We have path a path is ": [
+            2359.4,
+            2393.0,
+            54
+        ],
+        "did here. We're basically taking of the original problem making a graph out of it. This graph wouldn't be so hard to make. You just basically. You know build the graph by looking at all the possible pores. You can even kind of use the algorithm to build your graph right every time you want to. Consider all the neighbors of a certain configuration. You just consider all the possible ": [
+            4485.5,
+            4516.4,
+            110
+        ],
+        "different dimensions. So a 0 dimensional Cube. It's just a point in space, right? A one dimensional cube is just a line a two dimensional cube is a square a three dimensional Cube. Well, we all know what that is. And then a four-dimensional cube something called a tesseract. and can't really like Envision it in four-dimensional space, but we can think about how many vertices it should have in ": [
+            2673.4,
+            2713.0,
+            64
+        ],
+        "directed graph where the list of the neighbors are just the adjacency list is just a list of the neighbors and you'll see that sometimes it's a little redundant for example Connecticut is connected to Massachusetts for Massachusetts also has Connecticut and its list it's a little redundant but it takes up less memory. any questions Yeah, I mean essentially Vermont has kind of taken care of already, but for ": [
+            1679.3,
+            1730.2,
+            39
+        ],
+        "divided by two because we've counted every handshake twice right once from the one person who wants from the other person and this kind of idea is carried over to all undirected graphs. K a d regular graph means that every vertex has the same degree, which is D. So, this would be a 4 regular graph cuz every vertex is of degree 4. In a d regular graph. It's ": [
+            1947.4,
+            1983.1,
+            45
+        ],
+        "do the end * N - 1 / 2 right. That's what we're talkin about. Okay, good. Now you can just think about it and with 4 vertices that means we're going to have their means that 6 edges are possible. Right? We'll think about it 1 2 4 1 2 2 3 4 5 and 6. Those are the those that's the maximum number of edges we can fit ": [
+            1399.9,
+            1427.9,
+            31
+        ],
+        "each one of those vertices may or may not have children and so on but it's basically a Directed graph where every vertex has exactly one has has in degree one except for the route which has it in degree of 0. We'll talk about more then. He's kind of a funny family of graphs called the hypercube graph and it's kind of like what the cube looks like in ": [
+            2638.1,
+            2673.4,
+            63
+        ],
+        "element is in X that means that it's reachable from s but also the other way around if an element is reachable from ask then it must be an ax because I have to think about both directions because we don't want to Output a incomplete list and we also don't want to Output a list that contains things that you can't reach. Okay. So what were how we're going ": [
+            3057.1,
+            3085.3,
+            76
+        ],
+        "entries are what? 01. Okay good. Okay, and then finally what can you say about an adjacency Matrix of an undirected graph? Remember what it means to be undirected? Is that vertex of an edge? And there's no Direction there that's not like one has any priority over the other? Okay good. The Matrix is going to be symmetric or across the diag to diag on cuz basically the igathe ": [
+            1305.5,
+            1356.3,
+            29
+        ],
+        "entry is going to be same as the jic entry. So that is what it means to be symmetric. Okay, good now. Let's go to this undirected graph. Simple undirected graph. What's the maximum number of edges you can have for this? undirected graph with 10 edges and vertices remember simple means no self Loops. No multi. Edge has no parallel edges. Okay, good. This is when we want to ": [
+            1356.3,
+            1399.9,
+            30
+        ],
+        "for one or the other so you can think about edges and it in an undirected graph as Sets of two vertices right remember and a set the order doesn't matter. All that matters is that those two vertices are together directed graph. You can think about it more as an ordered pair the edge that goes that takes V to w. okay, so my multigraph is a Paducah graph ": [
+            188.6,
+            219.5,
+            5
+        ],
+        "four-dimensional space and if it existed in four-dimensional space which to virtus which pairs of vertices would be connected and then and so on and we can build a five-dimensional just using the same sort of pattern the pattern basically is well one way to do it is to label each vertex with a binary string into binary strings are connected by an edge if they differ with only one ": [
+            2713.0,
+            2752.8,
+            65
+        ],
+        "graph means that there are very few edges in relation to vertices Okay, so in a and I did Jason C Matrix in a sparse graph, right? There's going to be a lot a lot a lot of zeros right maybe more than then you should have what I'm trying to say is is there a better way that we can store the information of a sparse graph? so There ": [
+            1505.1,
+            1543.6,
+            34
+        ],
+        "grass. We have the complete graph on N vertices. This is an undirected graph where every single pair of vertices is connected by an edge. You see how kind of dense they get. In fact, this is the densest of all the simple graphs, right? Because every single possible pair of vertices are connected by image. Okay. There's also the edgeless graph. Which we call K and bar, right the ": [
+            2497.9,
+            2528.6,
+            58
+        ],
+        "have kind of two sets of things and you want to make some connections like maybe it's ones that would be students and the other one will be classes and there would be an edge from a student to a class if that student took that class right or so something like that where the You separate kind of two different flavors of vertices do different types of things. Okay ": [
+            2583.4,
+            2610.6,
+            61
+        ],
+        "if G does not have an edge between you and be so you can see these two graphs are each other's compliment. Okay, another type of graph that we're going to see a lot is a bipartite graph. We're basically you have two sets of vertices and there are are not there are not any edges that connect two vertices in the same set you often see this when you ": [
+            2557.6,
+            2583.4,
+            60
+        ],
+        "if you're lucky you can change the problem into a graph and then use these nice simple graph algorithms to solve the problem. So I hope we get to a kind of the the main example of today probably by the end of the class will at least start it and you can see sort of how changing something into a graph can be a benefit. Okay. So what is ": [
+            98.1,
+            123.4,
+            2
+        ],
+        "implement it and we use Accu then this can tell you what's the shortest distance from s to all other vertices. I think this is more of like a topic for 101 and 100 you guys in 100 that comes after this class, right? Okay, so let's take a little break and watch a clip from one of my favorite movies. how do I Who? Oh, yeah. Oh, yeah, it ": [
+            3939.7,
+            3999.0,
+            100
+        ],
+        "in degree is the number of edges going to V. The out degree is the number of edges coming from V. the for example this has in the in degree here. shooter in degree is 1 out degree is what? Good zero. How about for this one we have in degree is one. out 1 2 3 So what if I sum up all of the in degrees, what is ": [
+            2188.7,
+            2237.9,
+            51
+        ],
+        "in v. And does anybody remember what the sum of all the out degrees is? here to eat be in a directed graph to eat and undirected graph. Either way, it's going to be Big O of e e big of the number of edges. Okay, any questions about that? Okay good. Okay. So the total time is asymptotic leopper bounded by the sum of the degrees of all vertices ": [
+            3725.2,
+            3772.4,
+            94
+        ],
+        "into that simple graph. Okay, let's look at another graph. This would be a kind of like the graph we saw for the states where each vertex is estate in each. Edge of the border now, here's the adjacency Matrix that we can make for this graph notice that it's a undirected graph. So the Matrix is symmetric, which also kind of means that what that we only really need. ": [
+            1427.9,
+            1463.9,
+            32
+        ],
+        "invariant proof, you just have to show that it's going to you know. Prove your goal. So after the final iteration of the loop f is empty, right? That's what the while loop is basically giving you so if Loop invariant is true, then the output X contains only vertices that are reachable from s Okay good. So we've done this. If a Vertex is in X then that means ": [
+            3244.5,
+            3276.8,
+            81
+        ],
+        "is basically like is there can I get from one vertex to another is there a path that exists there's a path question which is if there is a path. How do you construct it? What is the sequence of edges that I can take to get there and then a distance one, which is more like a optimization is out of all the pads out there which one has ": [
+            2784.2,
+            2807.6,
+            67
+        ],
+        "is something called an adjacency list. What is an adjacency list at basically just list out the neighbors of each vertex. So now instead of having zeros and ones for every possible pair. You're just telling me which pairs there are and if they're very few pairs, right? If it's very sparse then this would this would save a lot of memory. Okay, so that's for directed graphs for you ": [
+            1543.6,
+            1578.9,
+            35
+        ],
+        "is the maximum shortest path between all pairs of vertices kind of gives you a sense of? It's like how far apart are the farthest apart vertices. Okay, so we're going to start with reach ability. Basically, I want you to I want I want us to be able to given a graph and a vertex. Give me a list of all the vertices that I can reach from that ": [
+            2843.9,
+            2872.8,
+            69
+        ],
+        "it has a proximity sensor. on the phone to drugs 5 gallon and 3 gallon At the time I will stop. I don't know. if the judge Obviously, we can't fill the 3 gallon jug with 4 gallons of water. Right? Obviously a 3 gallon jug exactly to the top right now exactly 3 gallons in a 5-gallon jug, right? Hey, You want to focus on the problem at hand? ": [
+            4059.3,
+            4130.4,
+            102
+        ],
+        "it's reachable. Let's do the other way around if a Vertex is reachable, then it must be an ax at the end. We're going to do this by contradiction. Assume that by contradiction then there's some vertex W that I can reach from s but somehow never made it into acts at the end of the algorithm. Is that possible? No, it's not possible. But let's kind of go through. ": [
+            3276.8,
+            3305.6,
+            82
+        ],
+        "its neighbors, that's basically what I'm saying. Yes, good point. Outgoing the reason that were singing seeing outgoing is because you can think about this graph as being stored as an adjacency list, and we usually just kind of say that the vertices in the adjacency list of a Vertex are its neighbors. Alcoa Neighbors I could Point them. Okay, so Now remember the the last part of a loop ": [
+            3187.3,
+            3244.5,
+            80
+        ],
+        "just a sequence of vertices edges vertices Edge where each Edge connects the two vertices it so it's basically a route from one vertex to another the length of the path is going to be the number of edges and I should say this probably going to ask me again, but let's say it now is that There is always a trivial. path from a Vertex to itself of length ": [
+            2393.0,
+            2434.2,
+            55
+        ],
+        "kind of just like saying that there are n people and each person shakes hands with d other people. And so the number of edges is in x d over to sew two times a number of edges is an x d. Which is the sum of all the degrees, right? now this is actually A property of all undirected graphs if you sum up all the degrees of all ": [
+            1983.1,
+            2013.9,
+            46
+        ],
+        "like the other way. you can't have just one odd degree vertex, right, but when you add up all the degrees, you need to get an even number so that the number of odd degree vertices has to always be even because each each pair of Audrey's vertices have to pair up right because an odd plus an odd, is that even that's kind of like the only way that ": [
+            2138.4,
+            2160.9,
+            49
+        ],
+        "might not be a link back, right? What about multigraph? Or is it simple? Multi, right. You could have two hyperlinks on the save webpage. You can even have selfloops right give her go to a web page where you have to like read the whole thing. You get down to the bottom and it says back the top right? That's just South Loop. Okay. Well, that's pretty good. How ": [
+            430.2,
+            469.9,
+            11
+        ],
+        "mom also calls my brother. wait Let's go. Let's go. Let's go this way first. Okay, I call my mom. First my mom calls me. And she also called my brother and my aunt. Okay, let's let's do moms row. Okay then. Then I call my brother. And then I call my mom back to tell her what my brother said about it. And then my brother called my mom ": [
+            1152.2,
+            1195.1,
+            25
+        ],
+        "more down. The line a bridge is basically any any Edge that when you remove it the graph becomes disconnected. Okay. Is there a cycle in my graph? If you want to get at that there are ways to use this algorithm to tell you if there's a cycle. What is the degree of each vertex you can count the degrees? And if we're if we're careful with how we ": [
+            3908.0,
+            3939.7,
+            99
+        ],
+        "neighbors you move that vertex from f 2X it's kind of like. Every time you're at a Vertex you look at all of its neighbors and put them all into F when you're done with that you put that vertex into X and you don't look at it. Again. It's already been exported. It's been it's been used. Okay. stop At the end of the algorithm we return X and ": [
+            2990.9,
+            3024.2,
+            74
+        ],
+        "one is three. out degree is In degree, here is one out degree. Here is one. in degree here is to out degree here is to In degree here is one. How is 1? Okay, good. We're kind of getting we're getting somewhere here. Okay, good getting more closer to the thing should be e Wright. What why is it he's kind of like if you're counting all the in ": [
+            2298.9,
+            2359.4,
+            53
+        ],
+        "output of this algorithm? The whole set of vertices, right? If it's connected that means I can get from this vertex to all the other ones. Can I stuff we can use it to ask questions about connectivity. Is a certain age of bridge. Well, we haven't really talked about what bridge is I'll give you kind of a brief definition, but we'll we'll look at it a little bit ": [
+            3882.6,
+            3908.0,
+            98
+        ],
+        "part and they have the tail which is like the part with the feathers. Each Edge has a head and a tail that those are the vertices. So here's some other terms that we will be using an undirected graph. Is a graph where there's no arrows on the edges. It's it's more just like the two vertices are connected by an edge. And that's it. If there's no preference ": [
+            159.3,
+            188.6,
+            4
+        ],
+        "pores that you can make and you can kind of build the graph as you go. Then you run the algorithm on the graph and you get a path kind of for free, right? We're not we're not building any kind of new clever design. All we're doing is build is changing the input around so that it fits this other algorithm problem. Okay any questions? All right. Next time ": [
+            4516.4,
+            4547.8,
+            111
+        ],
+        "possible ordered pairs or How many? possible edges are there Say in a directed graph. Aren't you guys take a few minutes and talk about it? Let's say there are no self loops. Okay. A simple directed graph no self Loops. No, no parallel edges. Still hanging on this end to the end - 1 / 2, huh? Let's take a look at some examples. What event is equal to ": [
+            799.7,
+            981.0,
+            20
+        ],
+        "protect J. So it down the diagonal if if you say that there's no selfloops down two diagonal will be all zeros, right? Alright, let's look at this example. Oh, wait where? Oh, yeah, let's build it. Okay. So this is an example of what happens when my mom Finds out some piece of Gossip or something. Okay, so My mom calls me. That's what this is for. Okay, my ": [
+            1104.4,
+            1152.2,
+            24
+        ],
+        "recalled at for directed graph sum of all the out degrees is and so the whole algorithm take Big O of B plus e and if you think about it this is like all of the data that's being given, right. This is all the data in the input is going to be V plus eat, so we call this run time linear. linear runtime because it's linear with respect ": [
+            3772.4,
+            3806.5,
+            95
+        ],
+        "right in the Innocence. You can kind of like take vertex 3 and kind of pull it out like that and you can sort of see that if all the edges stay connected you'll be left with the same graph. Right so really all that matters in a graph is what vertices are connected by edges what pairs of vertices are connected? okay, let's start talking about directed graphs because ": [
+            708.2,
+            736.3,
+            17
+        ],
+        "right? Also, you can go back on that trivial path thing right that I was talking about. Every vertex has a path to itself. So is this graph directed? Yes, right. Are you allowed to pour water than in chronological? I guess it is. I don't think it's maybe. Either way, if we get his kind of Follow that that step-by-step then we can get a app at what we ": [
+            4443.8,
+            4485.5,
+            109
+        ],
+        "small. Sort of range around the vertex and how many how many edges are going through that that barrier right? So if I put a little barrier around 5, you can see that there are 1 2 3 4 5 Crossings. Okay good. Now next one. Yes. Sure. Okay, let's look at another thing that you guys might remember from one of the homework talked about handshakes now we can ": [
+            1838.5,
+            1890.6,
+            43
+        ],
+        "so the sets are going to be x f and u x is going to be the explored vertices the ones that we've reached already and the ones that we've kind of looked at and looked at all its neighbors. There's a frontier the ones that you have reached, but you haven't really yet explored. You haven't looked at at the neighbors yet. And then there's the unreached. Okay. So ": [
+            2905.5,
+            2931.6,
+            71
+        ],
+        "start of an outline of a formal proof Okay. So I'm saying that W is reachable from s that means that there's some past that I can take that gets to w. Right. I'm also claiming by contradiction. That W is not an ax. But something but I know that ass must be an ex, right? So at some point this path has to cross over the boundary of X-ray. ": [
+            3306.8,
+            3337.5,
+            83
+        ],
+        "starting vertex. So given a directed graph G in a start vertex s produce a list of all vertices be reachable from s by a direct path in G. Okay, the way I'm going to describe it this algorithm is going to be using kind of sets and like math. But if you wanted to implement that you just have to figure out certain data structures for these sets. Okay, ": [
+            2872.8,
+            2905.5,
+            70
+        ],
+        "that for a text. Then you can reach its neighbors too. And so and then you move that vertex into acts so you can kind of see where this. This induction stuff is going. Add the neighbors of v2f and then you move the from aftax. Okay. So are there any questions about that induction step? If you can get to that fur text and you can get to all ": [
+            3158.8,
+            3187.3,
+            79
+        ],
+        "that going to sum up to remember when we summed up all the degrees of a undirected graph? We got to x e what if we sum up all the in degrees of a graph of a directed graph? Give me this is a good one for you guys to talk it through. Call your doing that. I'll I'll make some. Some notes Here. What's the in degree of this ": [
+            2237.9,
+            2298.9,
+            52
+        ],
+        "the Matrix of the Matrix is enough information to build the graph. so let's think about what types of properties grass would have given that the Matrix has turned property. So what can you say about an adjacency Matrix of a graph with no self loops? just like Just like we kind of saw there's no self Loops all the diagonals on the elements are zero along the diagonal, okay. ": [
+            1227.4,
+            1272.9,
+            27
+        ],
+        "the fewest edges? Okay, and so for these three problems here are three for these three kind of types of problems. Here are three specific problems connectedness. Is there a path between every pair of vertices? The Oilerie and hamiltonian path. We'll talk about that starting on Wednesday. Is there a path that goes through every single edge exactly once or every single vertex exactly once and then diameter What ": [
+            2807.6,
+            2843.9,
+            68
+        ],
+        "the idea here is we're going to set the vertices to be an ordered triple of of numbers is going to correspond to the number of ounces in the large medium and small cups. Okay, the edges are going to be you can get from one configuration to another if there's like a legal poor right that you can get from one to the other. In a single pour then ": [
+            4289.4,
+            4324.1,
+            106
+        ],
+        "the middle Cup, right? so here are the rules. Where's my thing here? In the graph problem. How do you set it up? What are the vertices and what are the edges then? How do I change the problem specification into a problem specification that has to do with graphs. Maybe it has to do with pads or connectivity or if there's a cycle or something like that? Okay. so ": [
+            4253.4,
+            4289.4,
+            105
+        ],
+        "the sake of doing work on graphs in the computer you want to be able to look up which vertices are connected quickly. So if I want to know which vertices are connected to Vermont, it's better to have a Vermont list instead of having to try to find it throughout the whole thing. Okay. Okay, so let's talk about some more. Vocab degree degree. What's the degree of a ": [
+            1730.2,
+            1765.0,
+            40
+        ],
+        "the the complete graph on N vertices be right. K & Bar because it's going to be the complement and basically it's just you have and vertices out there. With no edges at all. So what does it mean to be complement? Well, it just basically means that jeep G bar is the complement of g means that she bar has an edge between you and be if and only ": [
+            2528.6,
+            2557.6,
+            59
+        ],
+        "the vertices you will always get two times the number of edges. Why is that just think about the handshakes right? You're counting each Edge twice by each person. Let's think about this crap here. What are the degrees of all the vertices? We got two two one, two, three, four and two. So you add them all up you get to + 2 + 4 + 2 is what? ": [
+            2013.9,
+            2043.5,
+            47
+        ],
+        "there's an itch. So what's the problem specification? What do I need to ask about this graph that I created? In order to solve the problem. Okay. Turn up. We all understood what I was asking, but What we want to know. Is there a path from 800 to 440 write a path from there from 8 to 800400 is a valid sequence of moves that I can get from ": [
+            4324.1,
+            4397.8,
+            107
+        ],
+        "think about a handshake graph. Which is like each person is a vertex and there's a edge between two people if they shook hands right? So if there are any people in a room and everybody shakes hands with d other people how many handshakes take place? Okay, good. Why do we have 2 / 2? So an x d is like and people eat shook somebody's hand but then ": [
+            1890.6,
+            1947.4,
+            44
+        ],
+        "this array called status in its index by each vertex. Now the status of the value of status is going to be either except for you depending on where that what set that vertex is in. Okay, this is nice because it gives you a very quick way to check if a Vertex is in a certain set. Aren't you just kind of pull up that array value and see ": [
+            3515.9,
+            3541.4,
+            89
+        ],
+        "this is the algorithm. Let's kind of go through it line by line and then we'll talk about how it works. Okay, X is going to be empty and you is or an F is going to start with just the starting vertex and you was going to be everything else all the other vertices. What this means when you start is that? Ass is on the frontier you're starting ": [
+            2931.6,
+            2958.3,
+            72
+        ],
+        "to be a graph? all that really matters is What are the sets of vertices and which edges are connected by an edge? Okay. So are these two graphs the same? When they certainly look different right if you just type by first glance. Okay, good. Good. Good good. Yes just spikes up like that. Yes, B, we can arrange rearrange the vertices so that the pictures look the same ": [
+            665.9,
+            708.2,
+            16
+        ],
+        "to draw the graph like I drew before we're going to have to represent it somehow. Okay. So what I'm asking you here is to just kind of start thinking about how much memory do we require to hold the hold the information of a graph. So how many ordered pairs of vertices are there? in a directed graph another way to say this is given and vertices how many ": [
+            772.8,
+            799.7,
+            19
+        ],
+        "to prove one of the directions is by a loop invariant so I claimed that after every iteration. everything in X & F is reachable from s you just do a proof by induction. Bass cases for when T is equal to zero before you even go into the loop. What is X and f x is empty and F contains just asked is a stretchable from s Yes, right. ": [
+            3085.3,
+            3120.9,
+            77
+        ],
+        "to the purple and orange lines. Are they two different lines or they actually the same track? I don't understand to Tokyo, but that could just mean that those two lines are use the same track. I don't know. It depends on the problem again, so maybe maybe multi multi graph Okay, let's look at another one. How about the internet graph? I got this picture off of the internet ": [
+            332.4,
+            369.8,
+            9
+        ],
+        "to the size of the input. Good. Okay, so that was the whole algorithm analysis and everything. Let's think about how what kind of problems we can use it for you guys. Even remember what this algorithm is supposed to do. Reach ability right figure out given a Vertex what other vertices are reachable from it. So what kind of problems can we solve using this? Well, of course we ": [
+            3806.5,
+            3850.8,
+            96
+        ],
+        "undirected right? Could it be a multigraph? if you want Yeah, like what about like a Like Oxygen doesn't have a double bond? Or is it nitrogen triple bonded? Any chemist in here? I don't know. Maybe you call it one Edge, maybe call it another Edge. Maybe it's a Edgewood like a label on it or something like that. Okay, so let's start talking about what does it mean ": [
+            613.0,
+            665.9,
+            15
+        ],
+        "vertex is on the frontier, which means we reached it, but we haven't looked at its neighbors yet. Okay, then you go through this while loop. You pick a vertex in F. Send you Loop through each neighbor of that vertex. And if it's not if it hasn't been explored or in the frontier yet. you move it from you to f once you're done with looking at all the ": [
+            2958.3,
+            2990.9,
+            73
+        ],
+        "vertices and the edges and then turn the problem into something into a graph problem. Okay, so Here are the rules of the game right? In this case. I'm just doing three cups instead of to wear. The big cup is basically the fountain right for the big stuff starts completely full with 8 ounces or gallons or whatever and the goal is to get for exactly 4 oz in ": [
+            4224.8,
+            4253.4,
+            104
+        ],
+        "vertices. That's why we call it an adjacency list and adjacency Matrix. Okay, so here's an example of a adjacency list This is for a directed graph. So how do we how do I kind of draw this graph of this is something that you might want to store in the computer, but if you wanted to kind of build it back up and drive. You just draw it directed ": [
+            1608.5,
+            1642.0,
+            37
+        ],
+        "very high-level description of the algorithm. I don't really go into the details of certain things. Like how do you pick the v in? Okay, we're just going to assume that this takes constant time. for now and there are implementations that make a constant time. For example, if you had asked as a stack then it takes constant time to pop the stack right or F was a queue. ": [
+            3434.1,
+            3470.0,
+            87
+        ],
+        "was huh. Okay copy. Okay, so I'll just give you a a little preamble to what this what this video is going to show. It's going to show a puzzle. And it may not seem like this is a graph problem, but we're going to treat it as one. Okay, so I'll just put my computer. Okay ready? I got a I told you not to open it. The message ": [
+            3999.0,
+            4059.3,
+            101
+        ],
+        "we'll see we'll take a look at this in more detail and look at kind of what the path looks like and then we'll start with some other graph problems. Can you see San Diego podcast? ": [
+            4547.8,
+            4573.0,
+            112
+        ],
+        "what letter comes out? Okay. So when I say if you is not in X or F the way to the way to do that is to pull up status of you and see what what's Edison. Okay, so now what's an upper bound on the time it takes to do one iteration of the body of the for Loop. I think I made. Okay, so this is sort of ": [
+            3541.4,
+            3596.4,
+            90
+        ],
+        "you can get rid of a You can kind of make this thing work. Are there any questions about that? Okay, this is going to kind of play a role when we start talking about. We Larry and Pat's but probably probably get to that on Wednesday. Okay, so that's undirected graphs in a directed graph. We have two different types of degrees we have in degree and out degree ": [
+            2160.9,
+            2188.7,
+            50
+        ],
+        "you couldn't get back, right? Is it a while so we'll put may be directed also kind of depends on what kind of problem are you trying to figure out if there's a path are you just trying to figure out how to get somewhere? Cuz those are all kind of directed may be directed. What about is it a multigraph? Yeah, it kind of depends on you count these ": [
+            298.6,
+            332.4,
+            8
+        ]
+    },
+    "File Name": "Mathematics for Algorithms and Systems - B00 - Jones, Miles E - Winter 2019-lecture_15.flac",
+    "Full Transcript": "Listen to a podcast.  Okay, good evening.  Okay, how's everybody going doing going? Okay?  Almost done with the quarter.  Anybody have any questions before we start?  The next homework dude on Friday the individual homework and then then the next group homework will be due next week because we're starting it today starting the new subject today.  All right, let's begin then.  So we're going to just talk about graphs all day today mainly start with the main definitions few properties and we'll look at kind of a standard.  type of graph algorithm that will be able to use to solve a multitude of different kind of problems and what you're going to see is that  often times the problem won't be given to you as a graph problem will be given to you in some other form and  sometimes if you're lucky you can change the problem into a graph and then use these nice simple graph algorithms to solve the problem. So I hope we get to a kind of the the main example of today probably by the end of the class will at least start it and you can see sort of how changing something into a graph can be a benefit.  Okay. So what is a graph it's basically a set of vertices in a set of edges with the constraint that well not really more that an edge is just a link between two vertices. So let's start with directed graphs directed just means that each Edge has a arrow.  Okay, the think about the arrow as a as like as like a bow and arrow Arrow right to have the arrowhead the pointy part and they have the tail which is like the part with the feathers. Each Edge has a head and a tail that those are the vertices.  So here's some other terms that we will be using an undirected graph.  Is a graph where there's no arrows on the edges. It's it's more just like the two vertices are connected by an edge. And that's it. If there's no preference for one or the other so you can think about edges and it in an undirected graph as  Sets of two vertices right remember and a set the order doesn't matter. All that matters is that those two vertices are together directed graph. You can think about it more as an ordered pair the edge that goes that takes V to w.  okay, so my multigraph is a  Paducah graph basically that has many edges between a pair of nodes. Okay, sometimes are called parallel edges for certain problems. It's not necessary to connect two vertices multiple times and other problems. It might be just kind of depends on what type of problem you're doing.  simple graphs  it's basically a graph that doesn't have any parallel edges or selfloops. It's just kind of like every Edge connect to different vertices and the only question is is there an edge there or not? It's not how many there are.  Okay, let's look at some examples of some grass. Here is a  a metro map of downtown Tokyo  Is this a directed graph for undirected graph?  undirected  yeah, maybe like one of the the directions of the train is under construction and then you can only get from  Toyosu to tsukishima and you couldn't get back, right?  Is it a while so we'll put may be directed also kind of depends on what kind of problem are you trying to figure out if there's a path are you just trying to figure out how to get somewhere? Cuz those are all kind of directed may be directed. What about is it a multigraph?  Yeah, it kind of depends on you count these to the purple and orange lines. Are they two different lines or they actually the same track? I don't understand to Tokyo, but that could just mean that those two lines are use the same track. I don't know. It depends on the problem again, so  maybe  maybe multi multi graph  Okay, let's look at another one. How about the internet graph?  I got this picture off of the internet and it said internet graph.  Is the what?  Yeah, but I'm just wondering cuz the internet graph mean like those are the servers and like  connections or they web pages  Maybe this is just like a subgraph.  let's think about it as  nodes are web pages, right?  and edges  are hyperlinks  cases it's directed or undirected.  Directed right, you might be able to link to somebody else's website, but there might not be a link back, right?  What about multigraph?  Or is it simple?  Multi, right. You could have two hyperlinks on the save webpage. You can even have selfloops right give her go to a web page where you have to like read the whole thing. You get down to the bottom and it says back the top right? That's just South Loop.  Okay. Well, that's pretty good. How about this map coloring or just a map?  Nodes are States.  Edges are what?  borders  so  undirected right  Is it simple?  Simply simple, right?  There are no selfloops. You can't border yourself and there's no multi.  Edge's right. There's no there's no parallel edges. You can't once you border a state. You can't border it again, unless you're talking about.  I guess you can't can you?  Is it easier to border it or you don't so that makes it simple?  Okay, you could also think about grass as like  plotting pads. Maybe you have like  Obstacles in the way, and so you can't draw a line there, right? And so you can make a graph and then if you want to figure out how to move around in it. You can run a graph algorithm on this grid you think about each Edge is is a each line in the grid is an edge and each crossing of the grid is a vertex unless that Crossing is an obstacle.  How about this?  chemical symbols are graphs the nodes are or  Nodes and vertices are the same thing. Sorry, I'll probably go back and forth vertices are.  Adams  right  edges  bonds  All right, is this a direct or undirected?  I think undirected right?  Could it be a multigraph?  if you want  Yeah, like what about like a Like Oxygen doesn't have a double bond?  Or is it nitrogen triple bonded?  Any chemist in here?  I don't know.  Maybe you call it one Edge, maybe call it another Edge. Maybe it's a Edgewood like a label on it or something like that.  Okay, so let's start talking about what does it mean to be a graph?  all that really matters is  What are the sets of vertices and which edges are connected by an edge?  Okay. So are these two graphs the same?  When they certainly look different right if you just type by first glance.  Okay, good. Good. Good good. Yes just spikes up like that. Yes, B, we can arrange rearrange the vertices so that the pictures look the same right in the Innocence. You can kind of like take vertex 3 and kind of pull it out like that and you can sort of see that if all the edges stay connected you'll be left with the same graph. Right so really all that matters in a graph is what vertices are connected by edges what pairs of vertices are connected?  okay, let's start talking about directed graphs because  I'm talking about grass a lot because it there there an integral part in computer science. They come up all the time. All these different networks different algorithmic problems use a lot of graphs.  Anything kind of having to do with road maps or spatial kind of things you can use graphs.  They come up all over the place. So when we input it into a computer, we're not going to draw the graph like I drew before we're going to have to represent it somehow. Okay. So what I'm asking you here is to just kind of start thinking about how much memory do we require to hold the hold the information of a graph. So how many ordered pairs of vertices are there?  in a directed graph another way to say this is given and vertices how many possible ordered pairs or  How many?  possible  edges  are there  Say in a directed graph.  Aren't you guys take a few minutes and talk about it?  Let's say there are no self loops.  Okay.  A simple directed graph no self Loops. No, no parallel edges.  Still hanging on this end to the end - 1 / 2, huh?  Let's take a look at some examples.  What event is equal to 2?  How many possible edges can I have between two vertices in a directed graph?  What about with three vertices?  1 2 3 4  5  6  right and there they correspond to the total number of ordered pairs. You can have a b a c.  ba  b c c a c b  How do you count that kind of thing?  any questions  Basically for every Edge for every vertex there are and -1 other vertices that you can connect it to and there and vertices that you could get that from.  Okay, so we have end times and -1 pieces of information. We need to we need to store basically for each of those possible ordered pairs. We want we want to know if it's going to be on or off is The Edge going to be there or not be there, right and so and * N - one's kind of on the order of N squared. So why don't we just build it into a matrix? This is called an adjacency matrix. It's basically tells you.  Call vertices are connected if there is a 1in entry i, j that means vertex. I point to vertex J. If there's a zero, that means vertex. I does not point to protect J.  So it down the diagonal if if you say that there's no selfloops down two diagonal will be all zeros, right?  Alright, let's look at this example. Oh, wait where? Oh, yeah, let's build it. Okay. So this is an example of what happens when my mom  Finds out some piece of Gossip or something. Okay, so  My mom calls me. That's what this is for. Okay, my mom also calls my brother.  wait  Let's go. Let's go. Let's go this way first. Okay, I call my mom.  First my mom calls me.  And she also called my brother and my aunt. Okay, let's let's do moms row. Okay then.  Then I call my brother.  And then I call my mom back to tell her what my brother said about it.  And then my brother called my mom back to tell her what I said about it and then my poor dad. Nobody told me anything. So he calls me just to say hi.  My brother calls me. Yes, he calls me back to tell me what Mom said.  I don't know just a silly example.  Okay, so you can notice that I got all that information. I could draw that whole graph just by the information in the Matrix of the Matrix is enough information to build the graph.  so  let's think about what types of properties grass would have given that the Matrix has turned property. So what can you say about an adjacency Matrix of a graph with no self loops?  just like  Just like we kind of saw there's no self Loops all the diagonals on the elements are zero along the diagonal, okay.  How about a graph with no parallel edges, but we didn't really talk about what happens in a matrix when you have parallel edges, but think about it if vertex a connects to Vertex or if vertex I connect to vertex J. Let's stay with three different edges. What do you think that entries going to be?  Three, right? So in the case where there are no parallel edges all entries are what?  01. Okay good.  Okay, and then finally  what can you say about an adjacency Matrix of an undirected graph? Remember what it means to be undirected? Is that vertex of an edge? And there's no Direction there that's not like one has any priority over the other?  Okay good.  The Matrix is going to be symmetric or across the diag to diag on  cuz basically the igathe entry is going to be same as the jic entry. So that is what it means to be symmetric.  Okay, good now.  Let's go to this undirected graph.  Simple undirected graph. What's the maximum number of edges you can have for this?  undirected graph with 10 edges and vertices  remember simple means no self Loops. No multi. Edge has no parallel edges.  Okay, good. This is when we want to do the end * N - 1 / 2 right. That's what we're talkin about.  Okay, good. Now you can just think about it and with 4 vertices that means we're going to have their means that 6 edges are possible. Right? We'll think about it 1 2 4 1 2 2 3 4 5 and 6. Those are the those that's the maximum number of edges we can fit into that simple graph.  Okay, let's look at another graph. This would be a kind of like the graph we saw for the states where each vertex is estate in each.  Edge of the border now, here's the adjacency Matrix that we can make for this graph notice that it's a undirected graph. So the Matrix is symmetric, which also kind of means that what that we only really need.  To store the upper triangle of the Matrix, right and the rest of the Matrix we can kind of ignore.  Okay good.  Let's think about memory efficiency. You can kind of think about grass on some sort of like a scale from sparse to dense. So you have very dense grass means that there are many many edges in relation to the number of vertices and then a very sparse graph means that there are very few edges in relation to vertices Okay, so  in a  and I did Jason C Matrix in a sparse graph, right? There's going to be a lot a lot a lot of zeros right maybe more than then you should have what I'm trying to say is is there a better way that we can store the information of a sparse graph?  so  There is something called an adjacency list. What is an adjacency list at basically just list out the neighbors of each vertex. So now instead of having zeros and ones for every possible pair. You're just telling me which pairs there are and if they're very few pairs, right? If it's very sparse then this would this would save a lot of memory.  Okay, so that's for directed graphs for you could also do it for undirected graphs. What is the neighbor in undirected graph a neighbor? Is any vertex that is connected to a neighbor of a Vertex is any other vertex that's connected by a single edge. You have two different kinds of neighbors neighbors and incoming neighbors, right?  And you can kind of figure out what they what they are from this.  Neighboring vertices are also called adjacent vertices. That's why we call it an adjacency list and adjacency Matrix.  Okay, so here's an example of a  adjacency list  This is for a directed graph. So how do we how do I kind of draw this graph of this is something that you might want to store in the computer, but if you wanted to kind of build it back up and drive.  You just draw it directed Edge from the vertex to all the the vertices and it's less. Okay, so it goes to C to D and 2E B goes to see into a  she goes to D.  Digos to a  NB  and E  and he goes to a then you can go back and forth and all it is is just a list of the neighbors. You could also build a adjacency list for a directed graph where the list of the neighbors are just the adjacency list is just a list of the neighbors and you'll see that sometimes it's a little redundant for example  Connecticut is connected to Massachusetts for Massachusetts also has Connecticut and its list it's a little redundant but  it takes up less memory.  any questions  Yeah, I mean essentially Vermont has kind of taken care of already, but for the sake of doing work on graphs in the computer you want to be able to look up which vertices are connected quickly. So if I want to know which vertices are connected to Vermont, it's better to have a Vermont list instead of having to try to find it throughout the whole thing.  Okay.  Okay, so let's talk about some more.  Vocab degree degree. What's the degree of a Vertex only have meaning in an undirected graph when you talk about a directed graph, you have to talk about the in degree or the out degree when it's going to be two different things but a degree is going to be the total number of edges incident with it, except that a loop contribute twice. Hey, so what's the maximum degree of a Vertex in this graph?  We can all count.  right  Let's just draw for each one. We have three here.  Write three here to here to here. And how many here?  Okay, how about this?  What is the degree of vertex 5?  Remember what I said about selfloops. What do I say?  They count twice why do they count twice? Well, you can kind of think about the degree as sort of like look at a very small.  Sort of range around the vertex and how many how many edges are going through that that barrier right? So if I put a little barrier around 5, you can see that there are 1 2 3 4 5 Crossings.  Okay good.  Now next one. Yes.  Sure.  Okay, let's look at another thing that you guys might remember from one of the homework talked about handshakes now we can think about a handshake graph.  Which is like each person is a vertex and there's a edge between two people if they shook hands right? So if there are any people in a room and everybody shakes hands with d other people how many handshakes take place?  Okay, good. Why do we have 2 / 2?  So an x d is like and people eat shook somebody's hand but then divided by two because we've counted every handshake twice right once from the one person who wants from the other person and this kind of idea is carried over to all undirected graphs.  K a d regular graph means that every vertex has the same degree, which is D. So, this would be a 4 regular graph cuz every vertex is of degree 4.  In a d regular graph. It's kind of just like saying that there are n people and each person shakes hands with d other people.  And so the number of edges is in x d over to sew two times a number of edges is an x d.  Which is the sum of all the degrees, right?  now this is actually  A property of all undirected graphs if you sum up all the degrees of all the vertices you will always get two times the number of edges. Why is that just think about the handshakes right? You're counting each Edge twice by each person.  Let's think about this crap here. What are the degrees of all the vertices? We got two two one, two, three, four and two. So you add them all up you get to + 2 + 4 + 2 is what?  10  Which is equal to 2 times the number of edges, so that means that the number of edges must be 5, right?  Any questions about that?  Okay. So what consequence can we make from this statement? What is this fact imply?  Hey, maybe we're kind of getting closer to.  number c  the number of vertices with odd degree is even  What does that really mean?  Think about it in like the other way.  you can't have just one odd degree vertex, right, but when you add up all the degrees, you need to get an even number so that the number of odd degree vertices has to always be even because each each pair of Audrey's vertices have to pair up right because an odd plus an odd, is that even that's kind of like the only way that you can get rid of a  You can kind of make this thing work.  Are there any questions about that?  Okay, this is going to kind of play a role when we start talking about. We Larry and Pat's but probably probably get to that on Wednesday.  Okay, so that's undirected graphs in a directed graph. We have two different types of degrees we have in degree and out degree in degree is the number of edges going to V. The out degree is the number of edges coming from V.  the for example  this has in the in degree here.  shooter  in degree  is 1  out degree is what?  Good zero. How about for this one we have in degree is one.  out 1 2 3  So what if I sum up all of the in degrees, what is that going to sum up to remember when we summed up all the degrees of a undirected graph? We got to x e what if we sum up all the in degrees of a graph of a directed graph?  Give me this is a good one for you guys to talk it through.  Call your doing that. I'll I'll make some.  Some notes Here.  What's the in degree of this one is three.  out degree is  In degree, here is one out degree. Here is one.  in degree here is to out degree here is to  In degree here is one.  How is 1?  Okay, good. We're kind of getting we're getting somewhere here.  Okay, good getting more closer to the thing should be e Wright.  What why is it he's kind of like if you're counting all the in degrees.  You're basically counting all the arrowheads right? And you counted one per Edge any questions.  What about the sum of all the out degrees?  Also e write the sum of the in degrees has to be equal to the sum of the out degrees and have to be equal to the number of edges. Okay good.  Alright, let's talk about some more vocab.  We have path a path is just a sequence of vertices edges vertices Edge where each Edge connects the two vertices it so it's basically a route from one vertex to another the length of the path is going to be the number of edges and I should say this probably going to ask me again, but let's say it now is that  There is always a trivial.  path  from a Vertex to itself  of length  0  okay doesn't have to be a self Lube it just kind of makes some of the algorithms and theorems better if we make this assumption.  Okay, a simple path is a path that doesn't repeat vertices a circuit is a path that starts and ends at the same vertex and a cycle is a circuit that doesn't repeat vertices.  Eneloop or self Loop we already talked about that is The Edge from a Vertex to itself.  Everything goes through their specific. Yeah, that's called a hamiltonian path. If there's a path that goes through every single vertex exactly once we'll talk about that probably starting on Wednesday.  And there is a path that goes through every single edge is called the oil area and path and we'll talk about that too.  Okay, let's look at a few types of grass. We have the complete graph on N vertices. This is an undirected graph where every single pair of vertices is connected by an edge.  You see how kind of dense they get. In fact, this is the densest of all the simple graphs, right? Because every single possible pair of vertices are connected by image.  Okay.  There's also the edgeless graph.  Which we call K and bar, right the the the complete graph on N vertices be right.  K & Bar because it's going to be the complement and basically it's just you have and vertices out there.  With no edges at all.  So what does it mean to be complement? Well, it just basically means that jeep G bar is the complement of g means that she bar has an edge between you and be if and only if G does not have an edge between you and be so you can see these two graphs are each other's compliment.  Okay, another type of graph that we're going to see a lot is a bipartite graph. We're basically you have two sets of vertices and there are are not there are not any edges that connect two vertices in the same set you often see this when you have kind of two sets of things and you want to make some connections like maybe it's  ones that would be students and the other one will be classes and there would be an edge from a student to a class if that student took that class right or so something like that where the  You separate kind of two different flavors of vertices do different types of things.  Okay a tree which we'll talk about. I think maybe next week or maybe starting on Wednesday is a graph with no cycle undirected graph with no Cycles.  Dang, it looks something like this and there's many properties of trees that will that will talk about in due time?  and a directed tree usually is called a rooted tree which has a root and it has the root has children in each one of those vertices may or may not have children and so on but it's basically a  Directed graph where every vertex has exactly one has has in degree one except for the route which has it in degree of 0.  We'll talk about more then.  He's kind of a funny family of graphs called the hypercube graph and it's kind of like what the cube looks like in different dimensions. So a 0 dimensional Cube.  It's just a point in space, right?  A one dimensional cube is just a line a two dimensional cube is a square a three dimensional Cube. Well, we all know what that is.  And then a four-dimensional cube something called a tesseract.  and can't really like Envision it in four-dimensional space, but we can think about how many vertices it should have in four-dimensional space and if it existed in four-dimensional space which to virtus which pairs of vertices would be connected and then and so on and we can build a five-dimensional just using the same sort of pattern the pattern basically is  well  one way to do it is to label each vertex with  a binary string into binary strings are connected by an edge if they differ with only one bit.  We're going to talk a little bit more about this a little bit later when we start talking about hamiltonian paths and stuff.  questions about that  Okay.  so that's kind of like the  the vocab for grass. Now. Let's move on to what we can do with them. There's kind of like three different sorts of problems. We can think about with grass. There's the reach ability problem.  Which is basically like is there can I get from one vertex to another is there a path that exists there's a path question which is if there is a path. How do you construct it? What is the sequence of edges that I can take to get there and then a distance one, which is more like a optimization is out of all the pads out there which one has the fewest edges?  Okay, and so for these three problems here are three for these three kind of types of problems. Here are three specific problems connectedness. Is there a path between every pair of vertices?  The Oilerie and hamiltonian path. We'll talk about that starting on Wednesday. Is there a path that goes through every single edge exactly once or every single vertex exactly once  and then diameter  What is the maximum shortest path between all pairs of vertices kind of gives you a sense of?  It's like how far apart are the farthest apart vertices.  Okay, so we're going to start with reach ability.  Basically, I want you to I want I want us to be able to given a graph and a vertex.  Give me a list of all the vertices that I can reach from that starting vertex.  So given a directed graph G in a start vertex s produce a list of all vertices be reachable from s by a direct path in G.  Okay, the way I'm going to describe it this algorithm is going to be using kind of sets and like math. But if you wanted to implement that you just have to figure out certain data structures for these sets.  Okay, so the sets are going to be x f and u x is going to be the explored vertices the ones that we've reached already and the ones that we've kind of looked at and looked at all its neighbors. There's a frontier the ones that you have reached, but you haven't really yet explored. You haven't looked at at the neighbors yet. And then there's the unreached.  Okay. So this is the algorithm. Let's kind of go through it line by line and then we'll talk about how it works.  Okay, X is going to be empty and you is or an F is going to start with just the starting vertex and you was going to be everything else all the other vertices.  What this means when you start is that?  Ass is on the frontier you're starting vertex is on the frontier, which means we reached it, but we haven't looked at its neighbors yet.  Okay, then you go through this while loop.  You pick a vertex in F.  Send you Loop through each neighbor of that vertex.  And if it's not if it hasn't been explored or in the frontier yet.  you move it from you to f  once you're done with looking at all the neighbors you move that vertex from f  2X  it's kind of like.  Every time you're at a Vertex you look at all of its neighbors and put them all into F when you're done with that you put that vertex into X and you don't look at it. Again. It's already been exported. It's been it's been used.  Okay.  stop  At the end of the algorithm we return X and I claimed that X is going to be the set that contains all vertices that you can reach from at.  Okay.  So the question here, does this algorithm output the entire collection of vertices be reachable from S5. Direct path is what we're going to figure out.  Okay now to do this, we need to kind of think about two different directions one is going to be that.  if an element is in X that means that it's reachable from s  but also the other way around if an element is reachable from ask then it must be an ax because I have to think about both directions because we don't want to Output a  incomplete list and we also don't want to Output a list that contains things that you can't reach.  Okay. So what were how we're going to prove one of the directions is by a loop invariant so I claimed that after every iteration.  everything in X & F is reachable from s  you just do a proof by induction.  Bass cases for when T is equal to zero before you even go into the loop. What is X and f x is empty and F contains just asked is a stretchable from s  Yes, right. Remember that trivial path. I was telling you about the trivial path from s to ask good.  Induction step. Okay suppose that after the teeth iteration everything in X & F is reachable. What happened in the t plus first iteration?  You take somebody that's already in a half. Which means you can reach it.  And you bring all of its neighbors into a half, right? You could already reached that for a text. Then you can reach its neighbors too. And so and then you move that vertex into acts so you can kind of see where this.  This induction stuff is going.  Add the neighbors of v2f and then you move the from aftax.  Okay. So are there any questions about that induction step?  If you can get to that fur text and you can get to all its neighbors, that's basically what I'm saying.  Yes, good point.  Outgoing the reason that were singing seeing outgoing is because you can think about this graph as being stored as an adjacency list, and we usually just kind of say that the vertices in the adjacency list of a Vertex are its neighbors.  Alcoa Neighbors  I could Point them.  Okay, so  Now remember the the last part of a loop invariant proof, you just have to show that it's going to you know.  Prove your goal. So after the final iteration of the loop f is empty, right? That's what the while loop is basically giving you so  if Loop invariant is true, then the output X contains only vertices that are reachable from s  Okay good. So we've done this.  If a Vertex is in X then that means it's reachable. Let's do the other way around if a Vertex is reachable, then it must be an ax at the end.  We're going to do this by contradiction.  Assume that by contradiction then there's some vertex W that I can reach from s but somehow never made it into acts at the end of the algorithm. Is that possible?  No, it's not possible. But let's kind of go through.  start of an outline of a formal proof  Okay.  So I'm saying that W is reachable from s that means that there's some past that I can take that gets to w.  Right. I'm also claiming by contradiction.  That W is not an ax.  But something but I know that ass must be an ex, right? So at some point this path has to cross over the boundary of X-ray. I have to go from a Vertex inside of x to advertise outside of acts. So let's call that pair.  y&z  Okay. So here's where the contradiction comes.  Why is an ex that means that at some point you had to explore? Why and when you explored why you had to get dizzy?  If you explore Z or if you if you get to Z then Z is going to be put into X.  types of kind of the idea  and that's kind of what I say here.  Olive wise neighbors getting into put into into a half including z z was an F at some point since he will eventually be put into act which contradicts the fact that these never next.  Okay, good. So  Thought we got through the proof now. We don't have to prove it. Again. We can just now use it have an algorithm that does this thing. It's a really nice thing to do and we'll show you how to apply it to a certain problem.  okay, but before we do that, I just want to  quickly  talk about why this algorithm is is good. What what makes it efficient?  Okay, so let's go through the runtime.  Now this is sort of like a very high-level description of the algorithm. I don't really go into the details of certain things. Like how do you pick the v in?  Okay, we're just going to assume that this takes constant time.  for now  and there are implementations that make a constant time. For example, if you had asked as a stack then it takes constant time to pop the stack right or F was a queue. It takes constant time to DQ.  One of the kind of implementations of this has f as a priority queue if that's the case then it takes some time to kind of pick the right for attack.  So  let's think about  how long is it going to take assume G is stored as an adjacency list.  Okay, so  And now instead of having the sets FX in you you have this array called status in its index by each vertex. Now the status of the value of status is going to be either except for you depending on where that what set that vertex is in. Okay, this is nice because it gives you a very quick way to check if a Vertex is in a certain set.  Aren't you just kind of pull up that array value and see what letter comes out?  Okay.  So when I say if you is not in X or F the way to the way to do that is to pull up status of you and see what what's Edison.  Okay, so now what's an upper bound on the time it takes to do one iteration of the body of the for Loop.  I think I made.  Okay, so this is sort of a trick question. Sorry. This should be big old one.  Cuz you're just checking to see what set you was in and then you move you move this to you from one set to the other. Okay here, let's do this one now.  What's an upper bound on the time it takes to go through the whole Loop for a given V this whole thing?  No the whole for Loop.  Just the thing in the Box.  Okay, you guys are saying B&C and it's good because you're both right in the worst-case V is going to have an edge going to every other vertex. Right? So it's up or down of an right but a tighter upper bowel would be degree of the right because every every vertex B Simpson adjacency list your only considering each of its outgoing Neighbors.  Okay.  and then  what's the upper bound on the entire?  Wild Olive  Okay. Well, that's kind of work it out together.  This inner for Loop is going to take degree.  A v I should say out degree right out degree of V time or iterations forever TV show in the whole algorithm. Worst case scenario is that you explore every single vertex?  So that would sum up all the vertices in v.  And does anybody remember what the sum of all the out degrees is?  here to eat  be in a directed graph to eat and undirected graph.  Either way, it's going to be Big O of e e big of the number of edges.  Okay, any questions about that?  Okay good.  Okay. So the total time is asymptotic leopper bounded by the sum of the degrees of all vertices recalled at for directed graph sum of all the out degrees is and so the whole algorithm take Big O of B plus e and if you think about it  this is like  all of the data that's being given, right. This is all the data in the input is going to be V plus eat, so we call this run time linear.  linear runtime  because it's linear with respect to the size of the input.  Good.  Okay, so that was the whole algorithm analysis and everything.  Let's think about how what kind of problems we can use it for you guys. Even remember what this algorithm is supposed to do.  Reach ability right figure out given a Vertex what other vertices are reachable from it. So what kind of problems can we solve using this?  Well, of course we can just go. What can I reach from s this is sort of what it's built for.  But another problem we can do is talk about is the graph connected right? Let's say this is for an undirected graph.  If it's an undirected graph and I start from a vertex.  And what would what kind of indication would I have if the whole graph was connected? What would be the output of this algorithm?  The whole set of vertices, right? If it's connected that means I can get from this vertex to all the other ones. Can I stuff we can use it to ask questions about connectivity.  Is a certain age of bridge. Well, we haven't really talked about what bridge is I'll give you kind of a brief definition, but we'll we'll look at it a little bit more down. The line a bridge is basically any any Edge that when you remove it the graph becomes disconnected.  Okay. Is there a cycle in my graph?  If you want to get at that there are ways to use this algorithm to tell you if there's a cycle.  What is the degree of each vertex you can count the degrees?  And if we're if we're careful with how we implement it and we use Accu then this can tell you what's the shortest distance from s to all other vertices.  I think this is more of like a  topic for 101 and 100  you guys in 100 that comes after this class, right?  Okay, so  let's take a little break and watch a clip from one of my favorite movies.  how do I  Who?  Oh, yeah.  Oh, yeah, it was huh.  Okay copy.  Okay, so I'll just give you a  a little preamble to what this what this video is going to show. It's going to show a puzzle.  And it may not seem like this is a graph problem, but we're going to treat it as one. Okay, so I'll just put my computer.  Okay ready?  I got a  I told you not to open it.  The message it has a proximity sensor.  on the phone to drugs  5 gallon and 3 gallon  At the time I will stop.  I don't know.  if the judge  Obviously, we can't fill the 3 gallon jug with 4 gallons of water. Right? Obviously a 3 gallon jug exactly to the top right now exactly 3 gallons in a 5-gallon jug, right? Hey,  You want to focus on the problem at hand?  I just got this on YouTube. I don't know.  I got it. I got it exactly two gallons in here. Right right letting exactly one gallon of empty space, right?  Congratulations, you're still alive.  Okay, so  oh.  Where to sell that okay.  so this is  call  for now  tartaglia is pouring problem.  Okay, how is this problem a graph problem? Well.  We need to do is assign roles for the vertices and the edges and then turn the problem into something into a graph problem. Okay, so  Here are the rules of the game right? In this case. I'm just doing three cups instead of to wear. The big cup is basically the fountain right for the big stuff starts completely full with 8 ounces or gallons or whatever and the goal is to get for exactly 4 oz in the middle Cup, right?  so  here are the rules.  Where's my thing here?  In the graph problem. How do you set it up? What are the vertices and what are the edges then? How do I change the problem specification into a problem specification that has to do with graphs. Maybe it has to do with pads or connectivity or if there's a cycle or something like that? Okay.  so the idea here is  we're going to  set the vertices to be an ordered triple of  of numbers is going to correspond to the number of ounces in the large medium and small cups.  Okay, the edges are going to be you can get from one configuration to another if there's like a legal poor right that you can get from one to the other.  In a single pour then there's an itch. So what's the problem specification?  What do I need to ask about this graph that I created?  In order to solve the problem.  Okay.  Turn up. We all understood what I was asking, but  What we want to know. Is there a path from 800 to 440 write a path from there from 8 to 800400 is a valid sequence of moves that I can get from 800 to 440. Which means I can get 4 oz in the middle cup, which is what I wanted to do.  Yes.  Like a like a self Loop.  You could put that in or leave it out. I don't think it would affect the the problem specification.  Yeah, I would leave it out since it doesn't really help to put it in.  in this case  But it wouldn't be wrong, right?  Also, you can go back on that trivial path thing right that I was talking about. Every vertex has a path to itself.  So is this graph directed?  Yes, right.  Are you allowed to pour water than in chronological?  I guess it is.  I don't think it's maybe.  Either way, if we get his kind of Follow that that step-by-step then we can get a app at what we did here. We're basically taking of the original problem making a graph out of it. This graph wouldn't be so hard to make.  You just basically.  You know build the graph by looking at all the possible pores. You can even kind of use the algorithm to build your graph right every time you want to.  Consider all the neighbors of a certain configuration. You just consider all the possible pores that you can make and you can kind of build the graph as you go.  Then you run the algorithm on the graph and you get a path kind of for free, right? We're not we're not building any kind of new clever design. All we're doing is build is changing the input around so that it fits this other algorithm problem.  Okay any questions?  All right. Next time we'll see we'll take a look at this in more detail and look at kind of what the path looks like and then we'll start with some other graph problems.  Can you see San Diego podcast? "
+}

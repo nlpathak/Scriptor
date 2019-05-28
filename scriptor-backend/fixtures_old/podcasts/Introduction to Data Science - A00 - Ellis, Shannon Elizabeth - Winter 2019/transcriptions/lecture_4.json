@@ -1,0 +1,621 @@
+{
+    "Blurbs": {
+        "- A + that's going to Stage or add new modified and deleted file soon as your shortcuts. I've included these on the sides now because you need to know that but if in the future somebody tells you need to use GitHub and you've never used it. You might remember that this lecture happened in your past and you'll have these two look back at to refresh your memory. ": [
+            1199.2,
+            1215.6,
+            44
+        ],
+        "And it's great because you do have revision history in your Google Docs. You can see who made what changes you can see editions. And what was taken out of it. The problem is you can always see what somebody else is working on. So say you want to try to write part of a paper but you realize that you don't really know that much about it and you ": [
+            793.8,
+            808.2,
+            24
+        ],
+        "Everything that was in your raw code back and have things that didn't work or that are not as clean and you want to make sure that you are able to keep track of everything. I'm getting off point. Is that here using something called snake case and we'll come back to it that is but it's lowercase for everything with an underscore separating words. Okay, we're going to talk ": [
+            2863.0,
+            2882.5,
+            104
+        ],
+        "GitHub of what the previous code look like at that point in time. After that, it's the same process you would then only interact with your version on GitHub. So you would work it and after that everything we talked about apply. They're just adding in that one step before. So you on this for coffee or generating a new feature or you're fixing a bug and you realize her ": [
+            2081.0,
+            2103.9,
+            75
+        ],
+        "I imagine you may need to use in your assignments. These are really easy to write out you put a number followed by a. And then a space and this will render a nicely ordered list. If you don't care about the number that you just wanted to get bulleted list, you will use a dash there lots of different ways. I'm just giving you one example here keep it ": [
+            3236.6,
+            3256.7,
+            118
+        ],
+        "I'm going to touch on markdown which is why you guys will be using for your projects. So I'll just run through that to make sure everybody's at least seen that as they go on to undo their assignments and then a heads up at the end when you get to the last lied, I'm going to show you a short video at the end that's going to Primus for ": [
+            580.7,
+            595.3,
+            12
+        ],
+        "I've never programmed and 10 would like to teach an intro programming course so you can see why the right account is with on the y-axis. You can see there are lots of people down here who are less experience and we have a lot in the course. We're more experienced the bars are colored by whether or not you're familiar with Version Control, which is a topic were talking ": [
+            633.2,
+            649.2,
+            15
+        ],
+        "Listen to a podcast. Sorry for the delay where to get started. So today and a few times we're going to start by answering a clicker questions to get you guys thinking. I'll give you some time. I'll read it as you guys get your clippers out the ideas with these is to get you guys thinking and also cuz he's will come from previous lectures. The goal isn't for ": [
+            1.9,
+            231.9,
+            0
+        ],
+        "Moser? So if you go out into the world and are looking for a data science job, they most most of the time we'll expect you to have something on GitHub and it's the way to show off your work and to show the project you worked on only your public repo so that public projects that you make project public will be visible to others on but it is ": [
+            1036.9,
+            1053.9,
+            36
+        ],
+        "Okay, so you've met changes you've staged them by using get add the next thing you want to do is create a commit commit is a snapshot of your file and a point in time. So you can add multiple time when you generate a committee that is going to be stored as a conglomerates all the changes you've made at that point that you've added you now commit and ": [
+            1216.8,
+            1238.9,
+            45
+        ],
+        "Version Control and get is by far the one that most people use so we figured I would be a safe one to cover. So I'm talking about getting the difference is get is the system that you use to track your files GitHub is the home for everything on the internet. So you used it to keep track of everything and then you can put it all on GitHub ": [
+            914.0,
+            933.0,
+            30
+        ],
+        "We don't have to discuss that too much more lesser questions. What is it that allows you to time travel? 8 * 3 seconds 3 2 1 I over Alan Levy agree that the hash is what allows you to time travel? John legere thought that a different word could be up there. Okay, if you make edits to someone else's repo, what would they have to do to incorporate ": [
+            2539.6,
+            2591.2,
+            91
+        ],
+        "What if somebody on your team disagrees with the changes you made you don't have to then regenerate build images without getting likely rename these files but we decided we're not renaming files were just going to check what happened to them over time. So the days of renaming or over instead you tailgate which files you want to keep track of so this happens with Ed, which makes sense. ": [
+            1158.8,
+            1178.4,
+            42
+        ],
+        "You are replicating somebody's previous finding. All right, great job on that a few announcements before we get into today's topic Epix reading is due Friday before midnight. The first assignments due next Friday, the there's a holiday on Monday. So you will not have section. If you have sex on Monday, if your sectional Wednesday or Friday so section next week that will make it slightly more difficult for ": [
+            478.8,
+            501.3,
+            7
+        ],
+        "You're going to add or stage. You're going to Stage these files using get at it tells you which file to add this next part. You don't have to memorize these. It's just letting you know there are different ways to specify which files you want to include. So give me lots and lots of changes you've added files you've changed files. You deleted files. You could do get add ": [
+            1178.4,
+            1199.2,
+            43
+        ],
+        "a little early. I'm going to let you guys go but will rock part of the video at the beginning of class on Tuesday. San Diego podcast for more visit podcast. Ucf.edu ": [
+            3323.9,
+            3350.8,
+            122
+        ],
+        "a number of us working on the project and you can see that we made lots of branches and then eventually all came to a consensus of the end where we included all of the changes that Edward is making at this point in time and then we continued on in the projects throughout these of y'all to commit messages. You can see the hash year who made the changes ": [
+            2709.1,
+            2726.5,
+            96
+        ],
+        "a social media for programming. That works on both sides. You can also see other people's work. So if you know somebody else is working on an interesting project. There's no need for you to reinvent the wheel. If you're doing something similar you can go look at their code follow it a course give them attribution that you borrowed it and you can then get further in your project ": [
+            1053.9,
+            1073.4,
+            37
+        ],
+        "about to make a s'more at the fact that in addition to this structure the name matter and there are good names in there are bad names for files and I'm guilty of not always having perfectly name files, but it's important to consider. So finally answering machine readable human-readable and nicely ordered. So nice I ordered means like if the order of the files matter you might want to ": [
+            2882.5,
+            2901.2,
+            105
+        ],
+        "about today. So it makes sense that if you have never programmed you would have no idea what version control is as to show this to let you know if you're down here, this is who the programming in this course is designed for there is no programming prerak. You are not required or expected of any background. The great thing is we also have people at the pier and ": [
+            649.2,
+            666.4,
+            16
+        ],
+        "access get Austin a lot of people especially if they're getting started using git and GitHub. Got so often when people getting started as a lot easier to use a GUI. So somewhere where you can see the changes you're making as you're making them. Honestly, I use both the command line and this is called sourcetree. There are a number of these. This is a project where there were ": [
+            2687.7,
+            2709.1,
+            95
+        ],
+        "already talked about this but you collaborate like you do with Google Docs and that every person can make changes on but there is some stable house right now. That's how it differs from people. So you don't work on the same thing together you're able to collaborate. But the difference here, is that make changes locally when we talked locally were talking about the computer sitting in front of ": [
+            997.8,
+            1017.5,
+            34
+        ],
+        "an easy to update. So it makes it should make sense. Where is Viola sound? So the folder structure matters and the reason it matters is cuz you're working on a project and your audience is with other people. So you want them to make sense of what you're doing and it's also you in six months because when you're working on projects people are going to ask you to ": [
+            2770.3,
+            2788.0,
+            99
+        ],
+        "an email you attach something to me like, oh crap. I forgot. I have to pick that other thing and then oh and I forgot this other thing anyone has any three attachments within a matter of minutes. So none of those are ideal. This is a snapshot from the Google Suite of products is Google Docs. This is similar to what you all will be using for your projects. ": [
+            776.8,
+            793.8,
+            23
+        ],
+        "and C. I know it's what you in another position. Okay, so the remote host called the repo absolutely true. What about the part of me want to get an old snapshot? That is where it would be stored. So I definitely see why he that has been popular but you check out old commits. So if you want to get a Snapchat at any point in time, the commit ": [
+            1739.5,
+            1766.4,
+            60
+        ],
+        "and when they were made you can also do all to get pulled get cloned get pushed from the gooey on 3rd Street. So pull and pushed clone is on a different screen. So all of these the same things can be done either in the command line or using a GUI if you so choose and I said I use both I don't even have a system is just ": [
+            2726.5,
+            2745.0,
+            97
+        ],
+        "are correct there. Okay, I have you just feelings if you're confused if you want to see more this is another bit on where a lot of came from. So for your assignments you're going to be using which one is marked down to enter information into your sinus When You lyrics I meant this is what it will look like and when you listen to the interviewer tells you ": [
+            3123.9,
+            3152.2,
+            113
+        ],
+        "are special characters. So the examples of this I'll talk about a few of these this first ones not a great name is because there are spaces in the file. So that is not as easily computer-readable here. If you just use underscores. It is improved on these next to the problems are the special characters. So you'd want to get rid of those. This one is not as easily ": [
+            2918.4,
+            2940.0,
+            107
+        ],
+        "are ways to keep notes to yourself and attract bugs and EverQuest other features. Okay. Any questions on this part? Yes. I'm so the hatches are stored. We'll get to that I'll show you a picture of that. But on GitHub in each commit is associated with it. You can also find it within get but I'll show you on GitHub where you can see it and then what it ": [
+            2232.2,
+            2255.4,
+            83
+        ],
+        "are you two quick questions here within a project directory, which of the following is true? I'll give you a few more seconds. 3 2 1 Are a lot of those e all of the above came and right when I first put this up and I think you were banking on the fact that I wouldn't put all of the above on unless it were true, which is not ": [
+            2965.8,
+            3022.2,
+            109
+        ],
+        "at this point. Let it be so confident that they got it, right. All right. I'm going to close it open it back up. I want you guys to discuss with each other and going to try to come to some consensus. And I'll give you another few seconds as you can vent try to convince each other. We're getting closer to a consensus. I'm going to close it get ": [
+            1615.8,
+            1690.6,
+            57
+        ],
+        "bad idea and you can abandon it so you can get rid of branches pretty easily or if you decide that. Hey, it really did work out. You can merge it into the master Branch. So if you do want to include these changes they can all be included when you merge them back into the master branch. It's approaching allows you to try stuff out. Okay, so far we've ": [
+            1956.8,
+            1979.1,
+            69
+        ],
+        "been talking about you working on a repository that you have access to that you're collaborating with other people, but I told you it's kind of his social network question. Yeah. Better questions to what precaution should you take before merging into? The master Branch? The answer is it depends so different teams have different ways in which they use branching and you had company. This is something that you ": [
+            1979.1,
+            2004.2,
+            70
+        ],
+        "break. Added a few more seconds. Alright, okay, but checking on her standing up to this point. So say you have made changes locally and you want to see them on the remote. What is it that you should do? I don't keep clothes in a few seconds. 3 2 1 Okay. So the most popular response was pushed which was their son that I was going for but I ": [
+            1403.0,
+            1531.1,
+            54
+        ],
+        "bugs or feature request or just general to do is to yourself. A lot of people uses his things to remind himself that they want to do any projects need to be assigned to people you can use tags. It's a really good way to organize things that you want to do in the future at keep track of bugs that have happened over time. Okay. So this is the ": [
+            2176.8,
+            2194.1,
+            80
+        ],
+        "can click on any hash and start seeing what changes were made in the file at that point in time. So lines of code are added will be in green lines that were deleted with me and read this is the first time I included this file. So everything's green. I'm just in clean it so you have some idea I mentioned before that you would use the terminal to ": [
+            2667.4,
+            2687.7,
+            94
+        ],
+        "can work with to see what branch are on at a certain point in time. I'm sure you could have your question. Can you edit their backs profile to have its display with furniture on and I don't see why not. You don't even know what a bad profile is if you don't. All right. Any other questions? Okay, I'll give you a minute or two to review talk to ": [
+            2400.9,
+            2433.9,
+            89
+        ],
+        "change it as a maid, but it's way better and we'll talk about why Okay, so very briefly. This is what it looks like when you're running it in the terminal you don't need to memorize any of this you will just need to understand what these second words are so it always starts of get and then you use some verb is what we talkin about today. And when ": [
+            953.4,
+            973.6,
+            32
+        ],
+        "changes out you pull changes. Hello kind of a whirlwind. Any questions so far? Okay, I'm going to give you guys like 2 minutes read through this talk to your neighbor of any point you're confused about and then we'll go to the clicker questions today. There are right and wrong answers for the clicker questions when there haven't been on the other days other. I'll give you a quick ": [
+            1381.9,
+            1403.0,
+            53
+        ],
+        "computer, which means you've already previously called cloned it somebody else made changes. So then you pull them to get the rest of them. Any questions on that one D is the right answer. Last one kind of long your team has made changes to a new file on a repository that you're working on simultaneously. They have pushed your changes you made changes to a different file in the ": [
+            1837.9,
+            1859.2,
+            63
+        ],
+        "conceptually, so I don't want you to like memorize the word repo. I want you to understand that a repo or repository is where you store everything for a single project. Okay. Today we're going to talk about get and GitHub. The reason we chose and get is this is data from stack Overflow. And this is where lots of people answer and ask questions about code different ways to ": [
+            891.2,
+            914.0,
+            29
+        ],
+        "created as he's working on a paper and you can see that's over the course of a couple months and he has changed the suffix here on his file names to reflect the date in which she use this version and each of these is a very similar file to the one that existed before she's probably edited typos may have moved some figures around but they're not all that ": [
+            705.1,
+            723.5,
+            19
+        ],
+        "cuz they're working on their stable copy. They have an out-of-date copy now. So before they move on any further there were going to want to get your images that you changed and so they can then pull from GitHub. So you push to GitHub and you pull from GitHub. So you pushed your changes and then your teammate is going to pull them and then now they're up to ": [
+            1321.5,
+            1342.8,
+            50
+        ],
+        "date and have the same file that you were working with. Okay, there's going to be two points. Why recap this is the first of them and I'm going to leave us up for a second and then give you guys a second to read through all the notes before we go to the clicker question. This is a reminder that everything we talked about so far get home is ": [
+            1342.8,
+            1363.5,
+            51
+        ],
+        "didn't make that much sense every else and that's okay. You do not need to know that but I am glad that I now know. So question is will what branch Iran be visible in your terminal. No, but you can always ask what branch are on with using get commands. There's also going to talk about this. There are gooey approaches to this that you can visualize that you ": [
+            2368.7,
+            2400.9,
+            88
+        ],
+        "difference between when you use one over the other if you wanted to Okay. So for those of you couldn't hear you would put the number at the end if it were version number and if you order it matters, if you had zero one that was different than 02 when you needed them in that specific order. You would put it at the front so both A and C ": [
+            3098.3,
+            3123.9,
+            112
+        ],
+        "different from each other. So it seems crazy that we save all these different versions rather than just tracking which change from one of the other you don't see that he has his final to Bob and then a few days later has an actual update to that. There's a joke that anytime you add vinyl to the end. That's certainly an absolutely not going to be the last version ": [
+            723.5,
+            740.1,
+            20
+        ],
+        "directories is the only one that's true there. All right, which of the following is the best file name here? I don't feel down a few seconds. 3 2 1 Alright, so we have a little bit of disagreement. So kind of trick question. I think both are good and it depends with the file includes. So antsy or both good anybody want to explain why they think what the ": [
+            3042.9,
+            3098.3,
+            111
+        ],
+        "email to everybody in the group there then going to be working on a different version of that Microsoft Word document and then you as a person in charge of this at the end is going to get a bunch of different files and have to figure out how to merge them. So you incorporate everybody's feedback. That sucks list. I've done it. So I've certainly done it. You've sent ": [
+            758.7,
+            776.8,
+            22
+        ],
+        "file tax next lecture. So if you don't know if I'll pass that's fine. And then your image would show up in the rendered format code. You just put tactics for those who have like Max. I think it's a game on a PC headset find underneath your Escape that would allow this to look like code. Am I so you can include URLs would you likely need to do ": [
+            3278.2,
+            3299.5,
+            120
+        ],
+        "for everybody the best majority of the course is not familiar with birth control and that's the topic we're talking about today. Okay, so I took his first shoe slides from Brad wojtek Saudis have his name and then but my computer has historically look the same way. I imagine many of you have similar thinks so is this is a list of a number of files that he has ": [
+            685.0,
+            705.1,
+            18
+        ],
+        "former commit even though we're up here and I can see what the file structure look like at that point in time and you could always return to one previous time if you realize that all of these things were bad. These are all can have the same commit message. The message is not what makes it unique the hash that is saved along at each commits is what is ": [
+            1900.3,
+            1919.5,
+            66
+        ],
+        "front of command message would be change colors for Animal Icons that makes it pretty clear to somebody else who's looking through or me later on to know what I did at that particular point in the project. We have all written dad and an informative commit messages. So like changed would not be helpful. You don't even know what you changed and we've all been like coding late at ": [
+            1259.2,
+            1280.2,
+            47
+        ],
+        "going to be expected that you know them and you know them to detailing up to use these systems and that's of birth control. The second one is file management and I'm going to talk about this not because it's the most interesting topic in the world, but I wish somebody had told me earlier on that file management and naming files matter. After I get to those two topics, ": [
+            564.2,
+            580.7,
+            11
+        ],
+        "he said clone that you would look at the Clone but when you get clone that is getting us out of file. So you get old Snapchat. That wouldn't be what exactly when did you do throughout pull? I can see everything. Can you get information from GitHub when you pull but that's not going to get you to that old snapshot. Okay. So who wants to defend between B ": [
+            1718.3,
+            1739.5,
+            59
+        ],
+        "human-readable there two spaces why you can figure it out. It's harder to read than here again where I mention that we used to make queso lowercase underscore it lowercase underscore lowercase and the same thing goes for this one down here. It's just much easier to read what this is then was over here on the left. Any questions about General fires file structure or file naming? So what ": [
+            2940.0,
+            2965.8,
+            108
+        ],
+        "ideal cuz it's a tough problem too self-conscious. If you're working on something about more complex and on a team at a company, you would have to know what they're like protocol is for how they work on the That's right question. Okay, so we were talking previously about you working on a repository that you have access to that you're working on with your other teammates, but I said ": [
+            2039.2,
+            2062.2,
+            73
+        ],
+        "if you are linking to where you got your data from in your assignment and the case of the URL what you want to show up in a hyperlink goes between the scare square brackets followed by parentheses in here is your URL and there's no space in between those two. Okay questions on what we talked about today. Okay, you guys are getting antsy and I know it there's ": [
+            3299.5,
+            3323.9,
+            121
+        ],
+        "improves the amount each Amazon user spend annually on Amazon design an experiment that determines how people decide on cut off in their analysis. And the last one is designing an algorithm that accurately predicts when people will get their own Netflix account. Yes question oag. Is that the question? Sorry. I should have written that. I don't give everybody a couple more seconds. 3 2 1 alright son lives ": [
+            268.9,
+            340.4,
+            3
+        ],
+        "in less time. Elizabeth General reasons why you would use get and get Hub and now we're going to start talking about the way in which you use it and the verbs that use to control Version Control your files. So get health is the remote host remote because it is not local. So local isn't food in front of you the remote host here. It's getting hard because it ": [
+            1073.4,
+            1097.5,
+            38
+        ],
+        "in their coach if identified identified a problem and their analysis, but you don't know how to fix it yourself or you know what the time to do it and submit a PR. So instead you can submit an issue an issue was just kind of a note it's a bug tracker you can put tissues on your own Repose. You can put them on other people's repositories and mechanical ": [
+            2157.9,
+            2176.8,
+            79
+        ],
+        "in this one and I would have figured in here and cold in here and a product would be things like papers. I've written or dashboards I've made or reports I've generated and even if those directories and that all are related to the higher-order directory, so what we talked about tidy data in a later lecture, but the broad theater of the day do you start with that? I ": [
+            2828.6,
+            2847.0,
+            102
+        ],
+        "in to the master Branch when you want to work on somebody's repo that you don't have access to you first for it. And then you do everything Downstream that you've already talked about. And then two things that are great about getting out of his you can submit pull request and they can be either included or abandon depending on what the person thinks of your PR and issues ": [
+            2213.2,
+            2232.2,
+            82
+        ],
+        "include numbers at the beginning so all the lectures in this course, I've number 0 1 and whatever it is 0 to underscore whatever it is or 3 so I can sort them in the order and that means that they're nicely ordered what I sort them on the name human-readable means like you look at it and you know, what's in that file and she doesn't have any spaces ": [
+            2901.2,
+            2918.4,
+            106
+        ],
+        "intentionally left commit in there because that is something you would have to do before you push them. So if you want it to show up on the remote you have to push but I can definitely see why people chose see as a secondary response. So pushes what I was looking for there, though. Next one you want to check out an old snapshot of your repo. What is ": [
+            1531.1,
+            1553.2,
+            55
+        ],
+        "is geographically distinct from your computer. The repo as I mentioned are all the files that are in that repository that have to do with that project. I need to down and the first thing you do is clone this repository from GitHub. So cloning as the name implies means you're making a copy of what's on the on the racaza on the remote. So you're going to take all ": [
+            1097.5,
+            1120.8,
+            39
+        ],
+        "is mark on his way to format your text using only text so you don't have to use highways. Goku full highlights of coke look at italics and then change it that way. It's all in code it in the text itself. So if you're familiar with HTML HTML works, but Mark is just slightly simpler. So when we talked about hear what you saw in that last slide is ": [
+            3169.3,
+            3189.0,
+            115
+        ],
+        "is what we're keeping. Those are the snapshot those points across along your development that you've saved so you can go back to any of them. We're going to talk about this more in the second half. I had a feeling this would be the most contentious. So just answer the answer was C. Okay, so your teammate has made changes to a GitHub repository. You want to check them ": [
+            1766.4,
+            1788.7,
+            61
+        ],
+        "it that you check out? I'll close it in a few seconds. 3 2 1 all right. Okay, so we'll see disagreement. I had a feeling this would be the one where we had the most disagreement which is fine cuz this is good so that I know that this part was not as clear. I'm just anybody and I know it might be daunting want to defend their answer ": [
+            1553.2,
+            1615.8,
+            56
+        ],
+        "like depends on my mood at the time. I got a Version Control. We're going to move to talking about file naming and file structure any questions before we do that and great questions so far. Okay suppose Tetra matters, and this is not the most riveting topic but it's important until all of the files in your repository should be easy to find easy to share easy to understand ": [
+            2745.0,
+            2770.3,
+            98
+        ],
+        "look as you expect it to look. If you want to add emphasis you either at asterisks around the text, you want to emphasize or underscores both work either is fine use one asterisk or underscore for italicized text. They can see what is around. The mattress is now italicized or two for bold if you want a towel size and bold use three. You can also make list which ": [
+            3210.7,
+            3236.6,
+            117
+        ],
+        "looks like if you were to click on it on GitHub in a few slice question here. The difference between clone and Fork so you clone a repository that you have access to the get the copy of a set of files that you have already been given permission for is what you have to do if it's somebody else's work. So you'd Fork the repo and then clone it ": [
+            2255.4,
+            2276.5,
+            84
+        ],
+        "make changes at the end for things that you never anticipated and if you can't find those files or the code or the figures to update your a waste a ton of time. So set up a file structure in the beginning helps you down the line. This is a quote from Jenny Brian. She is a software engineer at our studio and she's a file organization and naming are ": [
+            2788.0,
+            2810.0,
+            100
+        ],
+        "need a tourist things you've done to it and manipulated so you wouldn't want to get them confused. We'll talk about different types of figures. You're welcome to be all the like mess you come up with as you're doing the project and a final coat would be like what you get out into the world so that they can reproduce what you did and it doesn't have to include ": [
+            2847.0,
+            2862.9,
+            103
+        ],
+        "next week's topic. So he gets the last line. I know you get antsy and every try to get out of here, but there will be a quick video just to start getting you thinking about next week's topic. Okay. So today we talkin about birth control and the verbs that are using that that should make more sense as we get through this and these situations when you would ": [
+            595.3,
+            613.9,
+            13
+        ],
+        "night and maybe had some liquor vanities in your GitHub commit messages. So you want to be helpful, but they can sometimes also expressed frustration. Okay. So this is what it is. Enter commit message here be who when and what? After you've made these changes you want these to be available to other person who's also working on this project at the same time and they don't have access ": [
+            1280.2,
+            1302.8,
+            48
+        ],
+        "of a set of files. This is what I talked about before if you had file one and then you had multiple versions of it. And then in the same project you had a different one and then you get down here with Final in his final final when you're talking about using a Version Control System. You have one version of every file and you just track what changes ": [
+            851.1,
+            870.3,
+            27
+        ],
+        "off the side of a so most people said that c was designing a star method determines how people decide on Kut Austin Turn Alice's that isn't that correct? I think B&D can be data science, but they're not the science of data science. And a is just science. So when you're actually studying how people are doing their analyses. That's what we talk about when we talk about the ": [
+            340.4,
+            366.6,
+            4
+        ],
+        "on something a project all at once. In this Emoji talk about each person edits their own copy of the files and then chooses when to share those changes with the rest of the team. So that's how it's different from Google Docs. So temporary or partial by one person organ interfere with another person's work while they're working on it. Okay. So it's a way to manage the evolution ": [
+            826.9,
+            851.1,
+            26
+        ],
+        "on what we've already talked about. So I told you before that you can get to former commits by checking them out. So each time you created commit get is tracking the changes that are made at that point in time automatically. So that is the beauty of using it. And this is what allows you to time travel so I can say I want to go back to this ": [
+            1881.7,
+            1900.3,
+            65
+        ],
+        "other people appreciate when you help or even like fix typos is a really great way to submit a PR So I mentioned they can determine if they want to murder pull request. Okay. What is your working on this and you realize you don't actually know how to solve the problem but you've identified a problem that they were probably want to know about the you identify a bug ": [
+            2140.5,
+            2157.9,
+            78
+        ],
+        "out for the first time locally and let's assume you are already you already have this on your computer. I'm most votes are in. I'm going to close it in 3 2 1. Okay. So you would pull it you all made it to the right answer. I can see why you're saying clone. I added that little bit at the end that you already have the files on your ": [
+            1788.7,
+            1837.9,
+            62
+        ],
+        "over time so you have one copy these file and then the Virgin system is going to track what happened. The set of files are all going to be related to the same project. So you keep all the files for a project in one place. And that one place is called a repository or repo. So it is a vocabulary lesson 91 you understand by one you understand it ": [
+            870.3,
+            891.2,
+            28
+        ],
+        "powerful weapons against chaos, and it's absolutely true. It's a little bit of effort up front and it really pays dividends. Don't talk about file structure. I'm talking about the actual directories you have in your pository. I've already proposed idea here is how you could do it, but it really does make sense to have the higher levels of structure files be really clear. So I would have data ": [
+            2810.0,
+            2828.6,
+            101
+        ],
+        "same. Repo. What did you first do to get your teammates? Let's get this one cuz I had mixed up with the last one that was it. So everything holds I said was true because I put that stipulation on the one before that was in the same one that I confuse anybody there or not going to do that one. Read Sao second set of information about GitHub expand ": [
+            1859.2,
+            1881.7,
+            64
+        ],
+        "say you're working on something and you have this idea, but you're really not sure if it's going to work. You don't want to make changes to what everybody else will be using instead. You can try something cool out on a branch that makes it on a different path makes all those changes on a different path after you get done. You can either determine that it was a ": [
+            1941.0,
+            1956.8,
+            68
+        ],
+        "science of data science. This was the six division in donaho six divisions of data science questions on this one or more. Before we move on to today's topics. So which of the following demonstrates replicability? I'll let you all read then feel free to chat with each other and I'll open this up now. I don't want to close in a few seconds. I 3 2 1 Okay, so ": [
+            366.6,
+            462.9,
+            5
+        ],
+        "second recap. I'll give you time to look over everything after we go through this line. So each time you commit you have a snapshot in time and there is a hash associated with each of these commits and they are unique. Ranching is what allows you to try something out that you're not sure it's going to work and then you can either abandon it or merge it back ": [
+            2194.1,
+            2213.2,
+            81
+        ],
+        "should ask people and learn about the some people. The master branch is its sacred and you should do everything on branches and you should only merge when you had somebody else review your code or you had somebody else agree that it can be merged into the master Branch. If you are trying something out on your team the precautions you want to make sure that there's something and ": [
+            2004.2,
+            2023.5,
+            71
+        ],
+        "simple. You can write it if you use a different approach to building you're allowed to use that. Very briefly. You also have images that you can add. I imagine you may have an image that you want to include. So you do use an! Open square bracket. This is referencing the name of the image. And then you'd use the pass to the image. We're going to talk about ": [
+            3256.7,
+            3278.2,
+            119
+        ],
+        "so you could get that copy. It's just so that you aren't making direct changes to somebody else's work that you would use a fork. There was a question up here. Yeah. Oh, I don't know the answer that question Shawn Maynard answered. I don't know if those on you the question was. Is there question was it there a reason a mole? it's because Sorry to the reason that ": [
+            2276.5,
+            2313.1,
+            85
+        ],
+        "start writing kind of nonsense to get started you really want everybody else to see that all the time. You want to try to stop and get it to a point and then share that version the real talk about that process today. That's just another step in the right direction at something called La Tech. Okay Version Control. It's a process that enables people and multiple people to work ": [
+            808.2,
+            826.9,
+            25
+        ],
+        "that initial person might want this in their code. I thought you can't just submit changes to somebody is repository that you don't have access to that. You can give them a suggestion to do so and this is called a polar Quest so we'll pull her classes. You've written some code that you think would be helpful to this repository. That's that you don't have access to you submitted ": [
+            2103.9,
+            2122.0,
+            76
+        ],
+        "that like it's a social network. You can go see what other people are doing. So you find this other cool repository. It's not just going to allow you to clone their repository and start making changes to their repository. You first have to make your own coffee make your own copy is called for working. So this you do get fork and then you have an exact copy on ": [
+            2062.2,
+            2081.0,
+            74
+        ],
+        "that you had an H22 header. So you would 2 pound signs with a space and that rendered as a larger font as a header. So the more Signs you have the smaller the heading will be. This works for all types of formatting they want to do if you want a line break. You just have to add two spaces to the end of your line and that will ": [
+            3189.0,
+            3210.7,
+            116
+        ],
+        "the best way to really test whether or not you know, something is to try to tell somebody else about it. So in section as you're helping feel free to go about explaining the topics on to everybody is over here and it will be mutually beneficial for everybody your cement the fact that you really understand programming and they will learn more. Okay, so it should work out well ": [
+            666.4,
+            685.0,
+            17
+        ],
+        "the files that exist on GitHub and you're going to suddenly have them in front of you on your computer when you clone it. The reason this is helpful for collaboration. Is that the same time somebody else can claim the files to their local computer and you'll have identical copies of the project at that point in time. If you both clone at the same time. Great. I don't ": [
+            1120.8,
+            1142.6,
+            40
+        ],
+        "the reading this week that some of you have discussed infection something not so this is from David on hose 50 years of data science. And the question is which of the following would count as the science of data science. The first one is carrying out an experiment that accurately determines who is at high risk of Contracting HIV. The second one will be developing a recommendation system that ": [
+            248.5,
+            268.9,
+            2
+        ],
+        "the same you could run it out with him again, and we came to give you the same hash. I have to discuss like the details. VeggieTales why that's the output of the hatches in HEX, but that's kind of fun usable recent. Thank you. I did not know that so I learned something today. Probably super helpful to lots of the computer scientist in the room and and maybe ": [
+            2342.5,
+            2368.7,
+            87
+        ],
+        "they're in hexadecimal is because the hash that's computed uses the Sha algorithm. I think get the latest version of kitties are sha-256. So takes its it's an hour and that takes a file or a group of files and it produces a unique code that's completely unique to the state of those files. That way they're identified uniquely. So theoretically you could go back and if the files of ": [
+            2313.1,
+            2342.5,
+            86
+        ],
+        "this come it is what you're going to put on get home. So come it tracks who what and went. So who would be in this case me that I made its going to check the time and date and I'm going to get a little note about what I did when I made this commit so you want to make informative commit messages. So in this case, I'm in ": [
+            1238.9,
+            1259.2,
+            46
+        ],
+        "those people on Monday to get time to work on their assignment together in a group but it is still do for all of you next Friday any questions on assignment. I know Friday group haven't gotten to form in section yet. Okay said extra credits now. I'm trying Ed a last note about the first reading quiz. So I had made an error and I will try to let ": [
+            501.3,
+            524.1,
+            8
+        ],
+        "to approach everything again get up. I just wanted to every to briefly see that I'm good. How have you have a repository? You have some GitHub username. These are all the directories on commits are made and you can always check out any of those commits using the hash. So this is part of the hash. If you would Spanish would be able to see the entire hash. You ": [
+            2649.9,
+            2667.4,
+            93
+        ],
+        "to double click when you double-click. It's going to look something like this will be a left hand side and a right hand side. The left hand side is what you will write and this is all in marketown, which is what we talked about now, and this is how it renders. So it looks pretty even though you've only used text to specify stuff what I mean by that ": [
+            3152.2,
+            3169.3,
+            114
+        ],
+        "to them and they can choose whether or not they like it or if they can include it so they can merge your PR your floorquest if they so choose or they can abandon it. They don't have to take your suggestion. But this is a really great way to start contributing if you have small fixes to other people's work, which it is a collaborative nature on GitHub. So ": [
+            2122.0,
+            2140.5,
+            77
+        ],
+        "to these changes that you made so you have to push them to get up. So you do get push. So after you create a commit it gets pushed to get Hub and now those new files with the changes you made are all available to everyone on the team. Okay, and then I change your team is still working on them, but they don't automatically get these changes, right ": [
+            1302.8,
+            1321.5,
+            49
+        ],
+        "true. The answer is D the answer to the problem here is spaces in folder names. They are not ideal. Nondescript folder names are best know if we should know what those are just by looking at them and more folders is better than fewer folders. Not necessarily true you then out of folders and makes it clear in what you set up Saudi subdirectories should be related to parent ": [
+            3022.2,
+            3042.9,
+            110
+        ],
+        "unique? So this is a unique cash and its associated with each commit and you use this hash today. Go back in time. This is what you would specify to return to a earlier point in time. So the change don't disappear when you check something out. You just get a snapshot at that earlier Point time. Another great thing about get is it allows you to use branching? So ": [
+            1919.5,
+            1941.0,
+            67
+        ],
+        "use each of them and then we'll talk about Bible file structure approaches and how to name files for your on do science projects. Okay. So this is just to give everybody an idea of who's in the room. So why don't you hear two pieces of information these are from the survey you all filled out so down here we have how comfortable are you with programming one was ": [
+            613.9,
+            633.2,
+            14
+        ],
+        "vast majority of you at got the answer, correct, when you're replicating something you're using data that are different than the initial study. I put this question on here cuz I thought this is something we didn't touch on the other day. It doesn't matter whether or not you already have a date or you collect a fact as long as they're different and you come to the same conclusion. ": [
+            462.9,
+            478.8,
+            6
+        ],
+        "want to work on the project. So you get working and you decide you want to make a few changes to some of the images in the project. So you said you weren't change the background of this cow PNG and then change back on his bunny PNG and if you weren't using birth control, you probably rename these images because you wouldn't want to lose what they were before. ": [
+            1142.6,
+            1158.8,
+            41
+        ],
+        "we're not going to talk about this today. No merge conflicts that you have made changes on this branch that don't agree with what's going on on the master Branch. I'm so that's just something you would think about and realize that you may have to deal with you don't need to know about merge conflicts. It's good to know that things happen. Sometimes when using this system that aren't ": [
+            2023.5,
+            2039.2,
+            72
+        ],
+        "where you can visualize and see the changes you've made to your project. So we wanted to have something to compare to track changes from Microsoft Word is the best comparison we have heard it, but it's more powerful than that. It's easier to use and then on GitHub its Allure drop box where you can all work on the same set of files and you all have access to ": [
+            933.0,
+            953.4,
+            31
+        ],
+        "would be unfair to you. I think so. I'm trying to get there as I can and Grading chart respond to any questions those grade should be fine. Unless there was some adding error that I made somewhere. Alright. So today where do we talkin about topics that I think are really important for data scientists understand the topics that aren't always covered in detail, but it's at some point ": [
+            541.1,
+            564.2,
+            10
+        ],
+        "you guys know anytime I make mistake. I had assigned partial credit to that matching question incorrectly. So some of you got more points and you should have and some music up to her. If you were in the future category. I have regretted and you now have all the points you should have had if you were given to many points. I didn't take any Away by mistake. It ": [
+            524.1,
+            541.1,
+            9
+        ],
+        "you have. That sucks. I'm going to this it doesn't matter what it says here, but there's an email and then there's an attachment of the paper. So what happens in when you're trying to publish a paper is you have a bunch of authors and you one person often writes the like most of it and it says I was ever ready for edits. So if you're sending this ": [
+            740.1,
+            758.7,
+            21
+        ],
+        "you the file that you're working on on your computer. So you can try stuff out locally on your computer without having everybody else see it. And other than it is at something stable is on you have so few make a bunch of breaking changes that don't actually work and wear a terrible idea. You never put them on GitHub. They never become part of the project. Is Ruth ": [
+            1017.5,
+            1036.9,
+            35
+        ],
+        "you to only understand and know the information the day that I talked about it. It's to make sure that you can apply it going forward. So because it can also help as you guys are preparing and studying today or I know all the topics from that lecture. I knew all the clicker questions for that or I should look more deeply at that this first one comes from ": [
+            231.9,
+            248.5,
+            1
+        ],
+        "you track all your files in the terminal and then you put them on get how this is what get head looks like each of these is a repo and we'll talk a little bit more about what things look like on GitHub for the end. Okay, any questions so far on generally what get in GitHub are? Okay, we're talk about each of these reasons in order. So I've ": [
+            973.6,
+            997.8,
+            33
+        ],
+        "your changes? few more seconds a321 are we had a little bit of disagreement here? So they need to merge what you did and you would have made a poor request of the answer here is see you make the polar Quest the emergent. The question was what would they have to do? Okay, there legends about this on how you would find a hash there lots of different ways ": [
+            2591.2,
+            2649.9,
+            92
+        ],
+        "your neighbor review the process here that we were talking about and then we'll do the second set of clicker questions. Shawnee weather I'll give every another few seconds. All right, so if you want to play around an experiment. With your own repo what should you do? I'll give you a few more seconds. All right 3 to 1. Overwhelmingly, we agree that you would branch which is correct. ": [
+            2433.9,
+            2539.6,
+            90
+        ],
+        "your remote Host. This is going to be a geographically distant place where you store everything your repo or the set of all the files to get the repo you clone it to your local host, which is the computer sitting in front of you. Once you make changes you have to add and commit them once you commit then you can push them to get help to get any ": [
+            1363.5,
+            1381.9,
+            52
+        ],
+        "your votes in. M321. All right, we're getting over making progress. I know when I was like five nights were making progress to the right answer is either b or c. So we're going to rule out clone. So this is mostly a terminology think this is something to eat. Somebody who uses get would say we're going to check out and then the answer so I can see what ": [
+            1690.6,
+            1718.3,
+            58
+        ]
+    },
+    "File Name": "Introduction to Data Science - A00 - Ellis, Shannon Elizabeth - Winter 2019-lecture_4.flac",
+    "Full Transcript": "Listen to a podcast. Sorry for the delay where to get started. So today and a few times we're going to start by answering a clicker questions to get you guys thinking. I'll give you some time. I'll read it as you guys get your clippers out the ideas with these is to get you guys thinking and also cuz he's will come from previous lectures. The goal isn't for you to only understand and know the information the day that I talked about it. It's to make sure that you can apply it going forward. So because it can also help as you guys are preparing and studying today or I know all the topics from that lecture. I knew all the clicker questions for that or I should look more deeply at that this first one comes from the reading this week that some of you have discussed infection something not so this is from David on hose 50 years of data science. And the question is which of the following would count as the science of data science. The first one is carrying out an experiment that accurately determines who is at high risk of Contracting HIV. The second one will be developing a recommendation system that improves the amount each Amazon user spend annually on Amazon design an experiment that determines how people decide on cut off in their analysis. And the last one is designing an algorithm that accurately predicts when people will get their own Netflix account. Yes question oag. Is that the question? Sorry. I should have written that.  I don't give everybody a couple more seconds.  3 2 1  alright son lives off the side of a so most people said that c was designing a star method determines how people decide on Kut Austin Turn Alice's that isn't that correct? I think B&D can be data science, but they're not the science of data science.  And a is just science. So when you're actually studying how people are doing their analyses. That's what we talk about when we talk about the science of data science. This was the six division in donaho six divisions of data science questions on this one or more.  Before we move on to today's topics. So which of the following demonstrates replicability? I'll let you all read then feel free to chat with each other and I'll open this up now.  I don't want to close in a few seconds.  I 3 2 1  Okay, so vast majority of you at got the answer, correct, when you're replicating something you're using data that are different than the initial study. I put this question on here cuz I thought this is something we didn't touch on the other day. It doesn't matter whether or not you already have a date or you collect a fact as long as they're different and you come to the same conclusion. You are replicating somebody's previous finding. All right, great job on that a few announcements before we get into today's topic Epix reading is due Friday before midnight. The first assignments due next Friday, the there's a holiday on Monday. So you will not have section. If you have sex on Monday, if your sectional Wednesday or Friday so section next week that will make it slightly more difficult for those people on Monday to get time to work on their assignment together in a group but it is still do for all of you next Friday any questions on assignment. I know Friday group haven't gotten to form in section yet.  Okay said extra credits now. I'm trying Ed a last note about the first reading quiz. So I had made an error and I will try to let you guys know anytime I make mistake. I had assigned partial credit to that matching question incorrectly. So some of you got more points and you should have and some music up to her. If you were in the future category. I have regretted and you now have all the points you should have had if you were given to many points. I didn't take any Away by mistake. It would be unfair to you. I think so. I'm trying to get there as I can and Grading chart respond to any questions those grade should be fine. Unless there was some adding error that I made somewhere. Alright.  So today where do we talkin about topics that I think are really important for data scientists understand the topics that aren't always covered in detail, but it's at some point going to be expected that you know them and you know them to detailing up to use these systems and that's of birth control. The second one is file management and I'm going to talk about this not because it's the most interesting topic in the world, but I wish somebody had told me earlier on that file management and naming files matter.  After I get to those two topics, I'm going to touch on markdown which is why you guys will be using for your projects. So I'll just run through that to make sure everybody's at least seen that as they go on to undo their assignments and then a heads up at the end when you get to the last lied, I'm going to show you a short video at the end that's going to Primus for next week's topic. So he gets the last line. I know you get antsy and every try to get out of here, but there will be a quick video just to start getting you thinking about next week's topic.  Okay. So today we talkin about birth control and the verbs that are using that that should make more sense as we get through this and these situations when you would use each of them and then we'll talk about Bible file structure approaches and how to name files for your on do science projects. Okay. So this is just to give everybody an idea of who's in the room. So why don't you hear two pieces of information these are from the survey you all filled out so down here we have how comfortable are you with programming one was I've never programmed and 10 would like to teach an intro programming course so you can see why the right account is with on the y-axis. You can see there are lots of people down here who are less experience and we have a lot in the course. We're more experienced the bars are colored by whether or not you're familiar with Version Control, which is a topic were talking about today. So it makes sense that if you have never programmed you would have no idea what version control is as to show this to let you know if you're down here, this is who the programming in this course is designed for there is no programming prerak. You are not required or expected of any background.  The great thing is we also have people at the pier and the best way to really test whether or not you know, something is to try to tell somebody else about it. So in section as you're helping feel free to go about explaining the topics on to everybody is over here and it will be mutually beneficial for everybody your cement the fact that you really understand programming and they will learn more. Okay, so it should work out well for everybody the best majority of the course is not familiar with birth control and that's the topic we're talking about today.  Okay, so I took his first shoe slides from Brad wojtek Saudis have his name and then but my computer has historically look the same way. I imagine many of you have similar thinks so is this is a list of a number of files that he has created as he's working on a paper and you can see that's over the course of a couple months and he has changed the suffix here on his file names to reflect the date in which she use this version and each of these is a very similar file to the one that existed before she's probably edited typos may have moved some figures around but they're not all that different from each other. So it seems crazy that we save all these different versions rather than just tracking which change from one of the other you don't see that he has his final to Bob and then a few days later has an actual update to that. There's a joke that anytime you add vinyl to the end. That's certainly an absolutely not going to be the last version you have.  That sucks. I'm going to this it doesn't matter what it says here, but there's an email and then there's an attachment of the paper. So what happens in when you're trying to publish a paper is you have a bunch of authors and you one person often writes the like most of it and it says I was ever ready for edits. So if you're sending this email to everybody in the group there then going to be working on a different version of that Microsoft Word document and then you as a person in charge of this at the end is going to get a bunch of different files and have to figure out how to merge them. So you incorporate everybody's feedback. That sucks list. I've done it. So I've certainly done it. You've sent an email you attach something to me like, oh crap. I forgot. I have to pick that other thing and then oh and I forgot this other thing anyone has any three attachments within a matter of minutes. So none of those are ideal.  This is a snapshot from the Google Suite of products is Google Docs. This is similar to what you all will be using for your projects. And it's great because you do have revision history in your Google Docs. You can see who made what changes you can see editions. And what was taken out of it. The problem is you can always see what somebody else is working on. So say you want to try to write part of a paper but you realize that you don't really know that much about it and you start writing kind of nonsense to get started you really want everybody else to see that all the time. You want to try to stop and get it to a point and then share that version the real talk about that process today. That's just another step in the right direction at something called La Tech. Okay Version Control. It's a process that enables people and multiple people to work on something a project all at once.  In this Emoji talk about each person edits their own copy of the files and then chooses when to share those changes with the rest of the team. So that's how it's different from Google Docs. So temporary or partial by one person organ interfere with another person's work while they're working on it. Okay.  So it's a way to manage the evolution of a set of files.  This is what I talked about before if you had file one and then you had multiple versions of it. And then in the same project you had a different one and then you get down here with Final in his final final when you're talking about using a Version Control System. You have one version of every file and you just track what changes over time so you have one copy these file and then the Virgin system is going to track what happened.  The set of files are all going to be related to the same project. So you keep all the files for a project in one place. And that one place is called a repository or repo. So it is a vocabulary lesson 91 you understand by one you understand it conceptually, so I don't want you to like memorize the word repo. I want you to understand that a repo or repository is where you store everything for a single project.  Okay. Today we're going to talk about get and GitHub. The reason we chose and get is this is data from stack Overflow. And this is where lots of people answer and ask questions about code different ways to Version Control and get is by far the one that most people use so we figured I would be a safe one to cover. So I'm talking about getting the difference is get is the system that you use to track your files GitHub is the home for everything on the internet. So you used it to keep track of everything and then you can put it all on GitHub where you can visualize and see the changes you've made to your project.  So we wanted to have something to compare to track changes from Microsoft Word is the best comparison we have heard it, but it's more powerful than that. It's easier to use and then on GitHub its Allure drop box where you can all work on the same set of files and you all have access to change it as a maid, but it's way better and we'll talk about why  Okay, so very briefly. This is what it looks like when you're running it in the terminal you don't need to memorize any of this you will just need to understand what these second words are so it always starts of get and then you use some verb is what we talkin about today. And when you track all your files in the terminal and then you put them on get how this is what get head looks like each of these is a repo and we'll talk a little bit more about what things look like on GitHub for the end.  Okay, any questions so far on generally what get in GitHub are?  Okay, we're talk about each of these reasons in order. So I've already talked about this but you collaborate like you do with Google Docs and that every person can make changes on but there is some stable house right now. That's how it differs from people. So you don't work on the same thing together you're able to collaborate.  But the difference here, is that make changes locally when we talked locally were talking about the computer sitting in front of you the file that you're working on on your computer. So you can try stuff out locally on your computer without having everybody else see it. And other than it is at something stable is on you have so few make a bunch of breaking changes that don't actually work and wear a terrible idea. You never put them on GitHub. They never become part of the project.  Is Ruth Moser? So if you go out into the world and are looking for a data science job, they most most of the time we'll expect you to have something on GitHub and it's the way to show off your work and to show the project you worked on only your public repo so that public projects that you make project public will be visible to others on but it is a social media for programming.  That works on both sides. You can also see other people's work. So if you know somebody else is working on an interesting project. There's no need for you to reinvent the wheel. If you're doing something similar you can go look at their code follow it a course give them attribution that you borrowed it and you can then get further in your project in less time.  Elizabeth General reasons why you would use get and get Hub and now we're going to start talking about the way in which you use it and the verbs that use to control Version Control your files.  So get health is the remote host remote because it is not local. So local isn't food in front of you the remote host here. It's getting hard because it is geographically distinct from your computer.  The repo as I mentioned are all the files that are in that repository that have to do with that project.  I need to down and the first thing you do is clone this repository from GitHub. So cloning as the name implies means you're making a copy of what's on the on the racaza on the remote. So you're going to take all the files that exist on GitHub and you're going to suddenly have them in front of you on your computer when you clone it.  The reason this is helpful for collaboration. Is that the same time somebody else can claim the files to their local computer and you'll have identical copies of the project at that point in time. If you both clone at the same time.  Great. I don't want to work on the project. So you get working and you decide you want to make a few changes to some of the images in the project.  So you said you weren't change the background of this cow PNG and then change back on his bunny PNG and if you weren't using birth control, you probably rename these images because you wouldn't want to lose what they were before. What if somebody on your team disagrees with the changes you made you don't have to then regenerate build images without getting likely rename these files but we decided we're not renaming files were just going to check what happened to them over time. So the days of renaming or over instead you tailgate which files you want to keep track of so this happens with Ed, which makes sense. You're going to add or stage.  You're going to Stage these files using get at it tells you which file to add this next part. You don't have to memorize these. It's just letting you know there are different ways to specify which files you want to include. So give me lots and lots of changes you've added files you've changed files. You deleted files. You could do get add - A + that's going to Stage or add new modified and deleted file soon as your shortcuts. I've included these on the sides now because you need to know that but if in the future somebody tells you need to use GitHub and you've never used it. You might remember that this lecture happened in your past and you'll have these two look back at to refresh your memory.  Okay, so you've met changes you've staged them by using get add the next thing you want to do is create a commit commit is a snapshot of your file and a point in time. So you can add multiple time when you generate a committee that is going to be stored as a conglomerates all the changes you've made at that point that you've added you now commit and this come it is what you're going to put on get home. So come it tracks who what and went. So who would be in this case me that I made its going to check the time and date and I'm going to get a little note about what I did when I made this commit so you want to make informative commit messages. So in this case, I'm in front of command message would be change colors for Animal Icons that makes it pretty clear to somebody else who's looking through or me later on to know what I did at that particular point in the project.  We have all written dad and an informative commit messages. So like changed would not be helpful. You don't even know what you changed and we've all been like coding late at night and maybe had some liquor vanities in your GitHub commit messages. So you want to be helpful, but they can sometimes also expressed frustration. Okay. So this is what it is.  Enter commit message here be who when and what?  After you've made these changes you want these to be available to other person who's also working on this project at the same time and they don't have access to these changes that you made so you have to push them to get up. So you do get push. So after you create a commit it gets pushed to get Hub and now those new files with the changes you made are all available to everyone on the team.  Okay, and then I change your team is still working on them, but they don't automatically get these changes, right cuz they're working on their stable copy.  They have an out-of-date copy now. So before they move on any further there were going to want to get your images that you changed and so they can then pull from GitHub. So you push to GitHub and you pull from GitHub. So you pushed your changes and then your teammate is going to pull them and then now they're up to date and have the same file that you were working with.  Okay, there's going to be two points. Why recap this is the first of them and I'm going to leave us up for a second and then give you guys a second to read through all the notes before we go to the clicker question. This is a reminder that everything we talked about so far get home is your remote Host. This is going to be a geographically distant place where you store everything your repo or the set of all the files to get the repo you clone it to your local host, which is the computer sitting in front of you. Once you make changes you have to add and commit them once you commit then you can push them to get help to get any changes out you pull changes.  Hello kind of a whirlwind.  Any questions so far?  Okay, I'm going to give you guys like 2 minutes read through this talk to your neighbor of any point you're confused about and then we'll go to the clicker questions today. There are right and wrong answers for the clicker questions when there haven't been on the other days other. I'll give you a quick break.  Added a few more seconds.  Alright, okay, but checking on her standing up to this point.  So say you have made changes locally and you want to see them on the remote. What is it that you should do?  I don't keep clothes in a few seconds.  3 2 1  Okay. So the most popular response was pushed which was their son that I was going for but I intentionally left commit in there because that is something you would have to do before you push them. So if you want it to show up on the remote you have to push but I can definitely see why people chose see as a secondary response. So pushes what I was looking for there, though.  Next one you want to check out an old snapshot of your repo. What is it that you check out?  I'll close it in a few seconds.  3 2 1  all right.  Okay, so we'll see disagreement. I had a feeling this would be the one where we had the most disagreement which is fine cuz this is good so that I know that this part was not as clear. I'm just anybody and I know it might be daunting want to defend their answer at this point.  Let it be so confident that they got it, right.  All right. I'm going to close it open it back up. I want you guys to discuss with each other and going to try to come to some consensus.  And I'll give you another few seconds as you can vent try to convince each other. We're getting closer to a consensus.  I'm going to close it get your votes in.  M321. All right, we're getting over making progress. I know when I was like five nights were making progress to the right answer is either b or c.  So we're going to rule out clone.  So this is mostly a terminology think this is something to eat. Somebody who uses get would say we're going to check out and then the answer so I can see what he said clone that you would look at the Clone but when you get clone that is getting us out of file. So you get old Snapchat. That wouldn't be what exactly when did you do throughout pull? I can see everything. Can you get information from GitHub when you pull but that's not going to get you to that old snapshot. Okay. So who wants to defend between B and C. I know it's what you in another position.  Okay, so the remote host called the repo absolutely true. What about the part of me want to get an old snapshot?  That is where it would be stored. So I definitely see why he that has been popular but you check out old commits. So if you want to get a Snapchat at any point in time, the commit is what we're keeping. Those are the snapshot those points across along your development that you've saved so you can go back to any of them. We're going to talk about this more in the second half. I had a feeling this would be the most contentious. So just answer the answer was C.  Okay, so your teammate has made changes to a GitHub repository. You want to check them out for the first time locally and let's assume you are already you already have this on your computer.  I'm most votes are in. I'm going to close it in 3 2 1.  Okay.  So you would pull it you all made it to the right answer. I can see why you're saying clone. I added that little bit at the end that you already have the files on your computer, which means you've already previously called cloned it somebody else made changes. So then you pull them to get the rest of them. Any questions on that one D is the right answer.  Last one kind of long your team has made changes to a new file on a repository that you're working on simultaneously. They have pushed your changes you made changes to a different file in the same. Repo. What did you first do to get your teammates? Let's get this one cuz I had mixed up with the last one that was it. So everything holds I said was true because I put that stipulation on the one before that was in the same one that I confuse anybody there or not going to do that one.  Read Sao second set of information about GitHub expand on what we've already talked about. So I told you before that you can get to former commits by checking them out. So each time you created commit get is tracking the changes that are made at that point in time automatically. So that is the beauty of using it.  And this is what allows you to time travel so I can say I want to go back to this former commit even though we're up here and I can see what the file structure look like at that point in time and you could always return to one previous time if you realize that all of these things were bad.  These are all can have the same commit message. The message is not what makes it unique the hash that is saved along at each commits is what is unique? So this is a unique cash and its associated with each commit and you use this hash today. Go back in time. This is what you would specify to return to a earlier point in time.  So the change don't disappear when you check something out. You just get a snapshot at that earlier Point time. Another great thing about get is it allows you to use branching? So say you're working on something and you have this idea, but you're really not sure if it's going to work. You don't want to make changes to what everybody else will be using instead. You can try something cool out on a branch that makes it on a different path makes all those changes on a different path after you get done. You can either determine that it was a bad idea and you can abandon it so you can get rid of branches pretty easily or if you decide that. Hey, it really did work out. You can merge it into the master Branch. So if you do want to include these changes they can all be included when you merge them back into the master branch.  It's approaching allows you to try stuff out.  Okay, so far we've been talking about you working on a repository that you have access to that you're collaborating with other people, but I told you it's kind of his social network question. Yeah.  Better questions to what precaution should you take before merging into? The master Branch? The answer is it depends so different teams have different ways in which they use branching and you had company. This is something that you should ask people and learn about the some people. The master branch is its sacred and you should do everything on branches and you should only merge when you had somebody else review your code or you had somebody else agree that it can be merged into the master Branch. If you are trying something out on your team the precautions you want to make sure that there's something and we're not going to talk about this today. No merge conflicts that you have made changes on this branch that don't agree with what's going on on the master Branch. I'm so that's just something you would think about and realize that you may have to deal with you don't need to know about merge conflicts. It's good to know that things happen. Sometimes when using this system that aren't ideal cuz it's a tough problem too self-conscious. If you're working on something about more complex and on a team at a company, you would have to know what they're like protocol is for how they work on the  That's right question.  Okay, so we were talking previously about you working on a repository that you have access to that you're working on with your other teammates, but I said that like it's a social network. You can go see what other people are doing. So you find this other cool repository. It's not just going to allow you to clone their repository and start making changes to their repository. You first have to make your own coffee make your own copy is called for working. So this you do get fork and then you have an exact copy on GitHub of what the previous code look like at that point in time.  After that, it's the same process you would then only interact with your version on GitHub. So you would work it and after that everything we talked about apply.  They're just adding in that one step before.  So you on this for coffee or generating a new feature or you're fixing a bug and you realize her that initial person might want this in their code. I thought you can't just submit changes to somebody is repository that you don't have access to that. You can give them a suggestion to do so and this is called a polar Quest so we'll pull her classes. You've written some code that you think would be helpful to this repository. That's that you don't have access to you submitted to them and they can choose whether or not they like it or if they can include it so they can merge your PR your floorquest if they so choose or they can abandon it. They don't have to take your suggestion. But this is a really great way to start contributing if you have small fixes to other people's work, which it is a collaborative nature on GitHub. So other people appreciate when you help or even like fix typos is a really great way to submit a PR  So I mentioned they can determine if they want to murder pull request. Okay. What is your working on this and you realize you don't actually know how to solve the problem but you've identified a problem that they were probably want to know about the you identify a bug in their coach if identified identified a problem and their analysis, but you don't know how to fix it yourself or you know what the time to do it and submit a PR. So instead you can submit an issue an issue was just kind of a note it's a bug tracker you can put tissues on your own Repose. You can put them on other people's repositories and mechanical bugs or feature request or just general to do is to yourself. A lot of people uses his things to remind himself that they want to do any projects need to be assigned to people you can use tags. It's a really good way to organize things that you want to do in the future at keep track of bugs that have happened over time.  Okay. So this is the second recap. I'll give you time to look over everything after we go through this line. So each time you commit you have a snapshot in time and there is a hash associated with each of these commits and they are unique.  Ranching is what allows you to try something out that you're not sure it's going to work and then you can either abandon it or merge it back in to the master Branch when you want to work on somebody's repo that you don't have access to you first for it. And then you do everything Downstream that you've already talked about.  And then two things that are great about getting out of his you can submit pull request and they can be either included or abandon depending on what the person thinks of your PR and issues are ways to keep notes to yourself and attract bugs and EverQuest other features.  Okay. Any questions on this part? Yes.  I'm so the hatches are stored. We'll get to that I'll show you a picture of that. But on GitHub in each commit is associated with it. You can also find it within get but I'll show you on GitHub where you can see it and then what it looks like if you were to click on it on GitHub in a few slice question here.  The difference between clone and Fork so you clone a repository that you have access to the get the copy of a set of files that you have already been given permission for is what you have to do if it's somebody else's work. So you'd Fork the repo and then clone it so you could get that copy. It's just so that you aren't making direct changes to somebody else's work that you would use a fork. There was a question up here. Yeah.  Oh, I don't know the answer that question Shawn Maynard answered. I don't know if those on you the question was. Is there question was it there a reason a mole?  it's because  Sorry to the reason that they're in hexadecimal is because the hash that's computed uses the Sha algorithm. I think get the latest version of kitties are sha-256. So takes its it's an hour and that takes a file or a group of files and it produces a unique code that's completely unique to the state of those files. That way they're identified uniquely. So theoretically you could go back and if the files of the same you could run it out with him again, and we came to give you the same hash. I have to discuss like the details.  VeggieTales why that's the output of the hatches in HEX, but that's kind of fun usable recent.  Thank you. I did not know that so I learned something today. Probably super helpful to lots of the computer scientist in the room and and maybe didn't make that much sense every else and that's okay. You do not need to know that but I am glad that I now know.  So question is will what branch Iran be visible in your terminal. No, but you can always ask what branch are on with using get commands. There's also going to talk about this. There are gooey approaches to this that you can visualize that you can work with to see what branch are on at a certain point in time.  I'm sure you could have your question. Can you edit their backs profile to have its display with furniture on and I don't see why not.  You don't even know what a bad profile is if you don't.  All right.  Any other questions?  Okay, I'll give you a minute or two to review talk to your neighbor review the process here that we were talking about and then we'll do the second set of clicker questions.  Shawnee weather  I'll give every another few seconds.  All right, so if you want to play around an experiment.  With your own repo what should you do?  I'll give you a few more seconds.  All right 3 to 1.  Overwhelmingly, we agree that you would branch which is correct. We don't have to discuss that too much more lesser questions. What is it that allows you to time travel?  8 * 3 seconds 3 2 1  I over Alan Levy agree that the hash is what allows you to time travel?  John legere thought that a different word could be up there.  Okay, if you make edits to someone else's repo, what would they have to do to incorporate your changes?  few more seconds  a321  are we had a little bit of disagreement here?  So they need to merge what you did and you would have made a poor request of the answer here is see you make the polar Quest the emergent.  The question was what would they have to do?  Okay, there legends about this on how you would find a hash there lots of different ways to approach everything again get up. I just wanted to every to briefly see that I'm good. How have you have a repository? You have some GitHub username. These are all the directories on commits are made and you can always check out any of those commits using the hash. So this is part of the hash. If you would Spanish would be able to see the entire hash. You can click on any hash and start seeing what changes were made in the file at that point in time. So lines of code are added will be in green lines that were deleted with me and read this is the first time I included this file. So everything's green. I'm just in clean it so you have some idea I mentioned before that you would use the terminal to access get Austin a lot of people especially if they're getting started using git and GitHub.  Got so often when people getting started as a lot easier to use a GUI. So somewhere where you can see the changes you're making as you're making them. Honestly, I use both the command line and this is called sourcetree. There are a number of these. This is a project where there were a number of us working on the project and you can see that we made lots of branches and then eventually all came to a consensus of the end where we included all of the changes that Edward is making at this point in time and then we continued on in the projects throughout these of y'all to commit messages. You can see the hash year who made the changes and when they were made you can also do all to get pulled get cloned get pushed from the gooey on 3rd Street. So pull and pushed clone is on a different screen. So all of these the same things can be done either in the command line or using a GUI if you so choose and I said I use both I don't even have a system is just like depends on my mood at the time.  I got a Version Control. We're going to move to talking about file naming and file structure any questions before we do that and great questions so far.  Okay suppose Tetra matters, and this is not the most riveting topic but it's important until all of the files in your repository should be easy to find easy to share easy to understand an easy to update. So it makes it should make sense. Where is Viola sound? So the folder structure matters and the reason it matters is cuz you're working on a project and your audience is with other people. So you want them to make sense of what you're doing and it's also you in six months because when you're working on projects people are going to ask you to make changes at the end for things that you never anticipated and if you can't find those files or the code or the figures to update your a waste a ton of time. So set up a file structure in the beginning helps you down the line.  This is a quote from Jenny Brian. She is a software engineer at our studio and she's a file organization and naming are powerful weapons against chaos, and it's absolutely true. It's a little bit of effort up front and it really pays dividends. Don't talk about file structure. I'm talking about the actual directories you have in your pository. I've already proposed idea here is how you could do it, but it really does make sense to have the higher levels of structure files be really clear. So I would have data in this one and I would have figured in here and cold in here and a product would be things like papers. I've written or dashboards I've made or reports I've generated and even if those directories and that all are related to the higher-order directory, so what we talked about tidy data in a later lecture, but the broad theater of the day do you start with that? I need a tourist things you've done to it and manipulated so you wouldn't want to get them confused. We'll talk about different types of figures. You're welcome to be all the like mess you come up with as you're doing the project and a final coat would be like what you get out into the world so that they can reproduce what you did and it doesn't have to include  Everything that was in your raw code back and have things that didn't work or that are not as clean and you want to make sure that you are able to keep track of everything.  I'm getting off point. Is that here using something called snake case and we'll come back to it that is but it's lowercase for everything with an underscore separating words.  Okay, we're going to talk about to make a s'more at the fact that in addition to this structure the name matter and there are good names in there are bad names for files and I'm guilty of not always having perfectly name files, but it's important to consider. So finally answering machine readable human-readable and nicely ordered. So nice I ordered means like if the order of the files matter you might want to include numbers at the beginning so all the lectures in this course, I've number 0 1 and whatever it is 0 to underscore whatever it is or 3 so I can sort them in the order and that means that they're nicely ordered what I sort them on the name human-readable means like you look at it and you know, what's in that file and she doesn't have any spaces are special characters.  So the examples of this I'll talk about a few of these this first ones not a great name is because there are spaces in the file. So that is not as easily computer-readable here. If you just use underscores. It is improved on these next to the problems are the special characters. So you'd want to get rid of those. This one is not as easily human-readable there two spaces why you can figure it out. It's harder to read than here again where I mention that we used to make queso lowercase underscore it lowercase underscore lowercase and the same thing goes for this one down here. It's just much easier to read what this is then was over here on the left.  Any questions about General fires file structure or file naming?  So what are you two quick questions here within a project directory, which of the following is true?  I'll give you a few more seconds.  3 2 1  Are a lot of those e all of the above came and right when I first put this up and I think you were banking on the fact that I wouldn't put all of the above on unless it were true, which is not true. The answer is D the answer to the problem here is spaces in folder names. They are not ideal. Nondescript folder names are best know if we should know what those are just by looking at them and more folders is better than fewer folders. Not necessarily true you then out of folders and makes it clear in what you set up Saudi subdirectories should be related to parent directories is the only one that's true there.  All right, which of the following is the best file name here?  I don't feel down a few seconds.  3 2 1  Alright, so we have a little bit of disagreement. So kind of trick question. I think both are good and it depends with the file includes. So antsy or both good anybody want to explain why they think what the difference between when you use one over the other  if you wanted to  Okay. So for those of you couldn't hear you would put the number at the end if it were version number and if you order it matters, if you had zero one that was different than 02 when you needed them in that specific order. You would put it at the front so both A and C are correct there.  Okay, I have you just feelings if you're confused if you want to see more this is another bit on where a lot of came from.  So for your assignments you're going to be using which one is marked down to enter information into your sinus When You lyrics I meant this is what it will look like and when you listen to the interviewer tells you to double click when you double-click. It's going to look something like this will be a left hand side and a right hand side. The left hand side is what you will write and this is all in marketown, which is what we talked about now, and this is how it renders. So it looks pretty even though you've only used text to specify stuff what I mean by that is mark on his way to format your text using only text so you don't have to use highways. Goku full highlights of coke look at italics and then change it that way. It's all in code it in the text itself. So if you're familiar with HTML HTML works, but Mark is just slightly simpler. So when we talked about hear what you saw in that last slide is that you had an H22 header. So you would 2 pound signs with a space and that rendered as a larger font as a header. So the more  Signs you have the smaller the heading will be.  This works for all types of formatting they want to do if you want a line break. You just have to add two spaces to the end of your line and that will look as you expect it to look.  If you want to add emphasis you either at asterisks around the text, you want to emphasize or underscores both work either is fine use one asterisk or underscore for italicized text. They can see what is around. The mattress is now italicized or two for bold if you want a towel size and bold use three.  You can also make list which I imagine you may need to use in your assignments. These are really easy to write out you put a number followed by a. And then a space and this will render a nicely ordered list. If you don't care about the number that you just wanted to get bulleted list, you will use a dash there lots of different ways. I'm just giving you one example here keep it simple. You can write it if you use a different approach to building you're allowed to use that.  Very briefly. You also have images that you can add. I imagine you may have an image that you want to include. So you do use an! Open square bracket. This is referencing the name of the image. And then you'd use the pass to the image. We're going to talk about file tax next lecture. So if you don't know if I'll pass that's fine. And then your image would show up in the rendered format code. You just put tactics for those who have like Max. I think it's a game on a PC headset find underneath your Escape that would allow this to look like code.  Am I so you can include URLs would you likely need to do if you are linking to where you got your data from in your assignment and the case of the URL what you want to show up in a hyperlink goes between the scare square brackets followed by parentheses in here is your URL and there's no space in between those two.  Okay questions on what we talked about today.  Okay, you guys are getting antsy and I know it there's a little early. I'm going to let you guys go but will rock part of the video at the beginning of class on Tuesday.  San Diego podcast for more visit podcast. Ucf.edu "
+}

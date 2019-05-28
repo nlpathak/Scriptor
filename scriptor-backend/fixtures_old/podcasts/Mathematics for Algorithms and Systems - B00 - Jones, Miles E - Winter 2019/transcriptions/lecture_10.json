@@ -1,0 +1,501 @@
+{
+    "Blurbs": {
+        "1 in the string record A1 to interpret the next bets as position. Okay. So this is going to be kind of your marker pit. So you need a 1/2 to indicate that you found a one and then you read off what its position is. Okay. Okay, I don't know maybe we didn't I didn't really explain it that well, I think after you see me go through it ": [
+            3654.6,
+            3700.1,
+            84
+        ],
+        "2 to the 2 4 is equal to 2 to the ceiling of 3/2. Okay, so anybody have an encoding algorithm and maybe a decoding algorithm that goes with it? We got talking about the weather. Call man. Okay, good. Just cut it and just store the first half. Okay, so that's the decode it right? Okay, soda and code it. to encode Right, I guess just say like keep. ": [
+            2985.9,
+            3122.2,
+            72
+        ],
+        "2. Okay, then what is M3? It's actually x l y l plus XL. Why are plus x r y l plus XR? Why are so + 3 - + 1 - M2 is equal to x l y r + x r y l. This is exactly what I want here if you factor out the 10th to the 4th. I think I just did it in a in ": [
+            1531.7,
+            1568.5,
+            37
+        ],
+        "3 and that's that's the minimum number of bits. I need the right and now I can say oh, maybe this is 0 0 0 0 0 1 1 0 0 101 010 + 011 I don't know maybe put them in order. Maybe put them in a weird order. Okay. Now that I get this thing. Okay. Now let's go back to fix density binary strings. Do you guys ": [
+            2563.9,
+            2601.6,
+            64
+        ],
+        "4 5 6 7 8 and B is 2 4 6 8 1 3 5 7. We can just split them up as if they were strings right the right the right half in the left half now, how do you translate that split up into arithmetic really what you're doing is multiplying. The left half by 10 to the four, right? You're multiplying it by 10,000 to kind of ": [
+            775.6,
+            804.3,
+            20
+        ],
+        "A is 3 B is two. As one so we have a s-3b to the D is 2 to the 1 so we still have a bigger than be to the D. We still have the bottom-heavy. So we plugged it in we get into the log base 2 of 3, which is Big O of n to the 1.5 8 case. We actually get better. Ben and squared Okay ": [
+            1665.7,
+            1699.0,
+            41
+        ],
+        "And then you get a 1:01. And then a 111. And then a 111. No, sorry, this is bad 100. was that stop the what? I guess so right then it would only be two zeros, right? Do you start with to? after you find found that first one then there's only one possibility you could do that, but that's sort of not part of the the encoding that we ": [
+            4100.2,
+            4158.0,
+            94
+        ],
+        "Can you estimate the number of operations may be in some sort of Big O class or big state of class? What is that? Why is it in squared? You don't know. Right, so you basically have to multiply every combination of digits from the upper number in the lower number, right? For example, I have to do 7 * 5/7 * 1 * 5 + 1 * 2y at ": [
+            671.2,
+            717.4,
+            17
+        ],
+        "I wanted to revisit this wait. Let me get my clicker thing. Clicker sorry takes a minute to load. Okay, it's on now. Okay, so in general you divide the problems into a sub problems exercise and over B, and there were the non recursive part takes G event time to do. Then what is the recurrence for T of n you guys remember? Okay, good. We were remembering correctly. ": [
+            102.3,
+            175.3,
+            2
+        ],
+        "Listen to a podcast evening class. Let's get started. Anybody have any questions before? No. Right, right. Yeah. Okay. So where were we basically going over the general divide-and-conquer strategy? We saw it already and action with the merge sort, but let's see it in another example, but generally what are we doing? You don't always have to divide the problem into two or three or anything, right? It's so ": [
+            1.9,
+            59.1,
+            0
+        ],
+        "Okay, so it looks like divide and conquer didn't really help us out much is just like another way to do the same problem in roughly the same amount of time. stop Yeah, that's where we get. but these guys coma gaurav in karatsuba They had the insight to replace one of the multiplications one of the four multiplications with a linear time subtraction. So now we're going to be ": [
+            1219.9,
+            1255.1,
+            31
+        ],
+        "Should be this right? So these are the recursive calls right? You do any of them each on a problem size and Overby and then once you're done with that you kind of combined everything up together. You only do that part 1. Okay good. so if Giovanni is a polynomial then you can use the master theorem. So let's look at what the master theorem says. So this is ": [
+            176.5,
+            210.4,
+            3
+        ],
+        "We see a one and we interpret the position of the one in the window 00. drink then you move the window over. to hear Now we have a string of 4-0. So I just record that as a single 0. No one's in that window. The next one I find a one so I put a marker bit and then what's going to be the code for the position ": [
+            3733.1,
+            3773.4,
+            86
+        ],
+        "What we're talking about here is the time it takes to do the recursion as you look through the recursion tree. Okay. So this is something that a recursion tree might look like you start at the top. That's the problem. You're trying to solve. That's your one problem of size n then you split it up in this case. It looks like we're splitting it up into four, but ": [
+            253.2,
+            277.5,
+            5
+        ],
+        "Yeah, so so these are the ASCII codes for A C T and G as your computer would know them right and here they hex hexadecimal are representations. Let's taking eight bits per character. So that means you have ate and bits for an nucleotide pairs. The biologists. Yes. Okay. Base pairs. Okay. That's a better thing. Right? What is a nucleotide? Is that that? Those things right? Okay. Those ": [
+            2182.2,
+            2238.5,
+            57
+        ],
+        "a different way than was on the slide. But the point is that you can do some subtractions and additions to only have three recursive calls rather than for I don't know if that helped her for that clear it up at all. still want Yeah, the math that you just have to kind of figure that out for yourself and and play around with it. I was just arithmetic ": [
+            1568.5,
+            1603.5,
+            38
+        ],
+        "a lost listen and coding you might want to think about if you had like a very rudimentary drawing right and you can think about it basically as turning the pixels on and off as white and black. Then instead of encoding every on and off pixel as a coordinate which kind of seems like the best way to present the information. You can instead think about. Well, I know ": [
+            1936.0,
+            1964.2,
+            49
+        ],
+        "a lot, right So if you wanted to store that data while in the nineties, they actually stored it using the letters A C T and G and I don't know do you guys go over like the ASCII codes in any of your classes? Like how how big does it how many bits does it take to uniquely? Determine a letter on the keyboard. Do you guys do that? ": [
+            2148.6,
+            2182.2,
+            56
+        ],
+        "about it, if you know some certain characteristics, then you can you know, if there's some patterns that you can see then you can turn those patterns into codes and then when you unzip it does codes tell you how to fill in the gaps Okay, so For example in the video data compression really like to think about it as a sequence of Steel frames, but think about how ": [
+            1837.1,
+            1868.3,
+            46
+        ],
+        "algebra to compress the data and each compression makes it smaller. But you kind of lose some of the fine details. You probably can't see it. So well, maybe you can but this one down here is a little bit blurrier than the rest but it's sort of hard to see the difference between the first and second and you have you you've taken the image size by Decrease the ": [
+            2020.9,
+            2050.9,
+            52
+        ],
+        "always like Yeah, that's what I was going to show you here. So if you had let's say you had six objects. K a b c d e f and how many bits do you need in order to uniquely identify all of them? 3 right Feeling so you take the log base 2 of 6 which is like to point something and you take the ceiling of that. It's ": [
+            2519.9,
+            2563.9,
+            63
+        ],
+        "and move the window over. Okay, so This example we have in his que tienes. 12K is 3 so the window size we're going to take is an over K, which is 4 in this case. Okay. So how we going to encode this string? So the idea here. Oh shoot. Nothing happened. The window sizes for which means we look at the first four bits. Okay, and the question ": [
+            3531.7,
+            3566.6,
+            81
+        ],
+        "are those are nucleotides then we'll just say that then do you want to use 8 bajillion bits to store it? Is there a better way? Well, look if you just think about encoding them more efficiently, then you can say OK the Azores zero Zero's the Caesars hero ones T's r10 and G's R11 now we can store them with 2 bajillion bits instead of eight days a week ": [
+            2238.5,
+            2271.8,
+            58
+        ],
+        "as a binary string of length and width K ones. How long is the encoding? Well, maybe we can even look at the example as sort of a hint. right are original string was of length 12 and our output string was of length 1 2 3 4 5 6 7 8 9 10 Okay. It depends on where the ones are. Remember in this case or in the in ": [
+            3917.9,
+            3996.9,
+            90
+        ],
+        "as close to linear as possible, but not actually quite at linear time. So that's what I mean by 1 plus... It's just going to be like a little bit bigger than one. Okay in 2007. There is a best-known time for multiplication. I should have updated these slides. Cuz I didn't know back then. It's still not known whether whether or not there exists a linear time for multiplication ": [
+            1729.3,
+            1767.4,
+            43
+        ],
+        "as equal 2/4, that's good. Okay, what does B represent? I think the size right like how much did you divide it by? So how does the size of the subproblems relate to the original problem? This is the original problem here. Is 1/2 precise. Got right. This this original problem has basically to 8-bit 8 digit numbers and then you get down to two four digit numbers. So be ": [
+            1063.1,
+            1106.9,
+            27
+        ],
+        "because there's four so there are four. two bit strings So what's a this is position 0 0 then we have is 0 1 1 0 and 1 1. so going now. What output corresponds to these first few bits? Okay, so remember we have Is it going to be 0 0 0 1 1 0 and 1 1 okay, so you fix the window size if there is a ": [
+            3602.2,
+            3654.6,
+            83
+        ],
+        "bit into something unique and you're able to come back, right? That's kind of the idea. I mean that's just a very simple example, but it gives you a sense that we're trying to do is have this reversible and coding algorithm any questions about that. Okay, how about palindromes? Palindrome is a string that reads the same backward and forward. So let's think about binary strings how many lengths ": [
+            2773.9,
+            2803.1,
+            68
+        ],
+        "do that. If you need to get that information all the time, you need it accessible then you may not want to encode it at all. But if it's something that you're going to store away for a long time and you're not going to use it, then it might be good to encode it. And then when you do need it, you might need to take a little time ": [
+            2087.7,
+            2104.7,
+            54
+        ],
+        "drawing self. So there would be no loss in this compression right? Because because it would be able to reproduce the exact same image as before. So if you are thinking about Compressing images like when you want to make it like your avatar in like a certain app or something where it's it's only going to be like this big for everybody to see then they might use linear ": [
+            1988.2,
+            2020.9,
+            51
+        ],
+        "end binaries palindromes are there? any ideas Okay, good 2 to the N / 2. And maybe we'll make it the floor right if n is odd. to the floor vent over to Okay. So, how are we going to how many bits are optimally required to include and length and binary palindrome? How many how many of the how many of them were there two to the Andover to? ": [
+            2803.1,
+            2859.7,
+            69
+        ],
+        "equal to 2 to the 1 so a is equal to be to the D. So that's how I know. I use that middle one so that this is a steady-state recursion which means that at every level you're doing roughly the same amount of calculations. So if I'm doing any calculations at the top level right when I merge I'm doing roughly and calculations at every level. There are ": [
+            450.8,
+            474.1,
+            11
+        ],
+        "get such a shorter string. Okay, so we're going to use a marker bit to indicate when to interpret the output as a position. K member fix a window size if there's a 1 in the window. Then recorder one and interpret the next bits as the position. Okay, I'll show you how it works in a minute. Then record its position and move the window over otherwise recorded 0 ": [
+            3504.3,
+            3531.7,
+            80
+        ],
+        "going to look we're going to do something like that in a minute, but just to is it is anybody know like a simple way to do it. Just just to Lop off one of the bits. Okay, so just delete. The first or the last bit right doesn't matter. I'm going to say the last bit. It was very easy to encode. How do you decode well? count the ": [
+            3333.7,
+            3377.9,
+            75
+        ],
+        "good. So this is good news. We've had some progress since then so that was what year that was, but I think like in the 30s or 20s or something. So 1963 we have to mend cook. They develop a series of algorithms that take you down to almost constant time. I see me almost linear time so they can give you they can design an algorithm to get you ": [
+            1699.0,
+            1729.3,
+            42
+        ],
+        "had to zip files and unzip files and all that kind of thing. How does it actually work? What are the things that you want to accomplish when you do that? Why is it possible to do that? You know you have this file and has this information in it. How are you able to make it smaller without losing any of the information? Well, if you know some things ": [
+            1809.6,
+            1837.1,
+            45
+        ],
+        "happened to my oh my God. Why isn't working anymore? It just says it's racing. Well, that makes it go. That's crazy. All right. Okay, whatever. I guess that's gone for now. Okay. So what is that mean given a set of n objects you need at least the ceiling of log base 2 of n Bits to store and different objects because with any fewer number of bits there ": [
+            2392.0,
+            2452.5,
+            61
+        ],
+        "have that would be a smart way to do it though. Yeah, cuz you know the rest of the zeros. I guess it sort of works both ways. Okay, so for the best case the shortest that we're going to get is if all the ones are at the beginning, which means that You have one bit for each one. Thanks. You have K bits for each K bits to ": [
+            4158.0,
+            4197.3,
+            95
+        ],
+        "have those zeros. And then the right half is just that number itself. So it really looks like this is 1 2 3 4 0 0 0 0 + 5 6 7 8 And you do the same thing with B. Okay. Now, let's see what happens when we multiply those two things together. Okay, so we have two binomials, which is just a means a kind of a polynomial ": [
+            804.3,
+            834.7,
+            21
+        ],
+        "here in here. got any questions So see how now I'm only doing three recursive calls. like arithmetic and arithmetic Lee Okay, let's take a look here. Okay, so Let's say we had x and y r r x * y. right Annex is going to be equal to x to the left x 10 to the 4. Plus x to the right right and why will be why I ": [
+            1334.9,
+            1412.7,
+            34
+        ],
+        "here's the idea. the kindness to do with like doing the runs, but it's sort of like kind of thinking about where are the ones in the string and This compression algorithm doesn't it only really works. Well, if there are a lot fewer ones than there are zeros when they're kind of the same number of zeros and ones then it may not work as well. You may not ": [
+            3478.4,
+            3504.3,
+            79
+        ],
+        "if I can't beat that I may as well just do the grade school method. Hey good. So how I how am I going to approach this problem as a divide-and-conquer problem. So kind of the the simplest way to do these kind of problems is to just break up the inputs in half to split them up. Okay. So if I had a is equal to 1 2 3 ": [
+            747.0,
+            775.6,
+            19
+        ],
+        "if you know, it's a movie that you're only going to watch one time or I don't know it even if it's just like a a video that you have. Of your friend or I don't know something you don't really care about if the clouds are, you know Super HD. whatever you just kind of care about how how it looks. So one kind of idea about encoding that's ": [
+            1902.1,
+            1936.0,
+            48
+        ],
+        "image size by a lot and have you lost data sure, but it's not really important. So today we're going to be really be looking kind of at the basics of lossless data compression, how do you think about and coding things? What are the what are your limitations? Okay, so The compression scheme. Well, it may take a long time to encode and decode is it worth it to ": [
+            2050.9,
+            2087.7,
+            53
+        ],
+        "in general you divide the problems into a some problems. Each of the problem is a size and Overby. Just in general then you solve each sub problem and then recursively, right. recursively and then you conquer by combining the problems to to solve your original problem of size n right to this is kind of like the non recursive part. Okay, so we thought we saw this already, but ": [
+            59.1,
+            102.3,
+            1
+        ],
+        "in there are log and many levels so that's why you get an login. Okay, any questions about that? Okay, so let's look at another. Tell her to do that another example. We didn't really talk about it in this way. But binary search turns out to be a divide-and-conquer algorithm. It's sort of like a degenerate case because you're not recording on both sides. But basically the idea here ": [
+            474.1,
+            514.4,
+            12
+        ],
+        "is Is there a one in this window and the answer is yes. Right. So where is the first one in the window? So we look at that first window. And let's say that we have our bits. I also so let's say this is our window right our window has four places now, we're going to encode each one of those positions in the window with two bits, right ": [
+            3566.6,
+            3602.2,
+            82
+        ],
+        "is equal to 2. Okay, good now. What how long does it take to do the non recursive part? And what is the non recursive part in this algorithm? psych summing write something and shifting so shifting by 10 to the 8th shifting by 10 to the 4 That you can think of not as an actual multiplication, right? You can just think about it as like patting the end ": [
+            1106.9,
+            1143.5,
+            28
+        ],
+        "is for B is 2D is one Sol A is for right? B to the D is 2 to the 1 so a is bigger than b to the D. That means we have this bottom-heavy. Recursion recursive tree recursion tree and Solace plug everything in this means we get Big O of n to the log base 2 of 4, which is equal to Big O of N squared. ": [
+            1183.4,
+            1217.0,
+            30
+        ],
+        "is half of the length and D. Anybody know. I have it there already D is equal to one and that's because this is a linear term. So it turns out. that this is recursion follows the middle. the middle part How do I know that all I have to do is relate A to B to the D? So a is equal to to be to the D is ": [
+            406.0,
+            450.8,
+            10
+        ],
+        "is split the split the problem into two and then recovers on whatever side you believe the target to been right. So in this case is equal to 1 Because there's only one recursive call. But how big is the size of the sub problem? Half right and now my my my non-recursive part is constant time. The non recursive part is just checking to see which side the target ": [
+            514.4,
+            550.4,
+            13
+        ],
+        "it to wherever that one like to the next place after that one that you have kind of considered? Yeah, you move it all the way over cuz you sort of have considered all those zeros, right? Those are all encoded into just one bit. Okay, so a good encoding decoding algorithm the correctness while you have to think about how did I in code? And how did I decode ": [
+            3837.5,
+            3877.4,
+            88
+        ],
+        "just fill out the rest with zeros as you wish. All the ones out there all at the end then you have to then you have a bunch of zeros. write for example If you had one two, three, four, five, six, seven eight nine one one one, right then your encoding is going to be well you get a zero for that right you get a zero for that. ": [
+            4068.6,
+            4099.0,
+            93
+        ],
+        "just think about a s some Some arbitrary number of sub problems. And each one of these so problems is a size and Overby. And it takes this is going to be the non-recursive part. Text Big O of n to the D to combine all of this together. Okay, and so as you go down you're splitting it up into more and more and more sub problems. But it ": [
+            277.5,
+            318.7,
+            6
+        ],
+        "kind of varies depending on what type of recursion you have. You're always going to be getting more sub problems. But are they going to be shrinking smaller and smaller so that at the bottom layer you're not doing much you're doing like fewer and fewer operations. If that's the case, then it's top-heavy which means that all of the calculations happen in the last sent. Well, not all but ": [
+            318.7,
+            344.7,
+            7
+        ],
+        "kind of where we ended last time and today I'll try to give you a little bit more of an explanation of where this comes from. Okay, so The idea here. Is that the relationship between A and B to the D it sort of gives you three different options, okay? we call this the top heavy this is going to be steady state. And it's going to be bottom-heavy. ": [
+            210.4,
+            248.8,
+            4
+        ],
+        "least have to do and squared many single multiplications. And then the rest is adding adding is actually a linear time operation and you can think about why just by thinking about the grade school method when you add two big numbers you just Adam by column, so you're doing an operations. So this is Big O of N squared. Okay, so that's the that's the time to beat because ": [
+            717.4,
+            747.0,
+            18
+        ],
+        "left x 10 to the 4 + y, right? Okay. So what I propose to do is the three multiplications I'll do is going to be multiplication one will be. x l y l multiplication two will be XR why are in multiplication 3 will be XL plus XR. X yl + y r Okay. Now what I want is I want to get to XL y l x 10 ": [
+            1412.7,
+            1464.2,
+            35
+        ],
+        "like for is to have some sort of a systematic way of encoding a length and binary palindrome into 2 and over two bits. Okay, ready go. Yes. Oh, yeah, she'll be feeling right. Right to be ceiling. Sorry about that. Right because how many of them are there of three. There's going to be 0 0 0 0 1 0 1 0 1 and 1 1 1 so it's ": [
+            2904.8,
+            2983.8,
+            71
+        ],
+        "linear time algorithm. We know how to do it for addition. We don't know if it's possible for multiplication. Pretty crazy, huh? Okay, so that's the end of the recursive stuff. So we're going to move on to kind of like the next concept which is talking about encoding decoding data compression that kind of thing. Okay any questions before we move on? Okay. Peso data compression. We all have ": [
+            1767.4,
+            1809.6,
+            44
+        ],
+        "little early? Also? I feel like maybe I'm going a little bit faster than the other class and I don't want to get too far ahead so that we can kind of be on the same. slice San Diego forecast ": [
+            4310.1,
+            4328.2,
+            98
+        ],
+        "login, which is what we had before any questions. Let's question. That's that's from this constant term. Because D is the exponent of the non recursive part and if it's constant, then it's into the zero. Let's look at another example. Will this work another context? Yes. Okay, let's look at multiplication. So what do we want to do is multiply 2 and bit or n digit numbers Palos Cutlass ": [
+            583.8,
+            633.7,
+            15
+        ],
+        "more efficient operation than multiplication subtraction is just linear time. So doing those subtractions doesn't cost a lot of time. So it's worth it to do that so that I can combine them together. Okay, what's going to be the result of Peace of tractions? You're probably going to get another two four digit numbers, right? so now I have a recursive call here, right? And two other recursive calls ": [
+            1291.8,
+            1334.9,
+            33
+        ],
+        "most of the calculations happen in the last step. Or it could be the case that as you as you divide you kind of create more problems and and it takes longer and longer to do them in that case. It's the bottom layer that has most of the calculation lb the bottom-heavy. Okay, then in between it's going to be steady state, which means that each layer takes the ": [
+            344.7,
+            371.0,
+            8
+        ],
+        "much data that is holding instead. Why don't you just think about one frame that doesn't move like the background the sky or that moves very slightly and really only think about the golfer as the thing that's moving. Now. This is something called a lossy data compression, which means that you're actually losing information, but we we consider this information so dull and uninteresting that it's okay, right, especially ": [
+            1868.3,
+            1902.1,
+            47
+        ],
+        "need to show that they're reversible functions right you to show that if you compose them then you get the identity right? I encode something and then I decode the encoding I should get whatever I had back. Okay, so you have to use strong induction to prove this. Okay, so let's go back to that and coding algorithm. Assume Andover Cay is a power of 2, okay. Consider S ": [
+            3877.4,
+            3917.9,
+            89
+        ],
+        "number of Wands Right if there are K - 1 ones than the last bits got to be one if there are k-1s than the last bit has to be zero. Okay, good any questions about that? Okay, so can we do better how what if we know K is much less than in right now. We can look like look at kind of the patterns and look at kind ": [
+            3377.9,
+            3424.3,
+            76
+        ],
+        "of how it's built Okay, so What if we know K is only slightly less than end, right? So then you can kind of think about changing all the ones to zeros are all those zeros to ones and you kind of get a the sort of the same problem going on. Okay, so we're going to look at a compression algorithm a valid compression algorithm must have inputs of ": [
+            3424.3,
+            3450.0,
+            77
+        ],
+        "of s when the ones are towards the beginning of the string or in the one towards the end of the string or when the ones are kind of evenly spread out? Okay, good ones towards the beginning right because once you have encoded all the ones then the zeros you can just kind of forget about because you already know where the three ones are and so you can ": [
+            4030.7,
+            4068.6,
+            92
+        ],
+        "of that one? 11 good And then I move the window over and there's just zeros so I can put a zero in that position. Oh what this is. Okay. Actually, this is 0 here is sort of redundant right because I found my three ones already. and so I don't really need anything else. May just do something real fast. Okay. Okay, so the question are you just move ": [
+            3773.4,
+            3837.5,
+            87
+        ],
+        "one way that I could do that? with only three bits Okay good. So you could like a label the positions right to be like 0 1 2 3 4 5 6 and 7 and then write their position in binary. So you'd have this one would be 000001 franc. 010 011 and so on and then you've got this and coding algorithm write it you're able to encode every ": [
+            2723.5,
+            2773.9,
+            67
+        ],
+        "only doing three sets of problems. Let's see how that changes our algorithm and let's see how it changes our runtime. Okay. So this is what we had before right and this is using foil. But really what I can do now. Is collect some terms and instead of doing these for multiplications. I can do some subtraction and multiply the results of those and subtraction is is a cheaper ": [
+            1255.1,
+            1291.8,
+            32
+        ],
+        "purpose is basically to show you how to reconstruct the answer that I want from smaller problems because each one of these colored pairs is a smaller smaller problem. So I have for smaller problems. How do you suppose I'm going to evaluate those problems those for smaller problems. What is it? Okay. Yes. cut those in half, but Yes. But let's say it in a different way. How about ": [
+            869.4,
+            922.3,
+            23
+        ],
+        "remember this how many length in the binary strings contain exactly K ones? Are you doing this for me to get this thing together? All right. Ah, there it is. Excellent. Okay good you guys remembered from last time or from the beginning of class? It's going to be and choose k Good any questions about that? Okay good. So, let's go to the next thing. Okay. So what is ": [
+            2601.6,
+            2652.6,
+            65
+        ],
+        "same amount of time. Okay, so let's look at some examples that we've seen so far. remember merge sort In merge sort which is this. let's fill in the blanks for what are a b and d Okay, so Hey is equal to 2 right? That's this one. That means we're due to recursive calls B is also equal to 2 that means that each of the sub problems is ": [
+            371.0,
+            406.0,
+            9
+        ],
+        "shorter or the same length or elsewise. What's the point of doing this right? But it also must be uniquely decodable. Now we're not talking about like image compression anymore. This is like we don't want to lose any of the data. We just want to compress it into a smaller package. That's that at some point. Maybe we want to decode and get the original data back. Okay, so ": [
+            3450.0,
+            3478.4,
+            78
+        ],
+        "should be on. So if it's constant, that means D is equal to 0. constant time non-recursive Park So in this case, we get the same thing. We got a steady state which basically means we do a constant time per level and there are at their login levels. So we get this one we get into the D login button to the zero is one so we just get ": [
+            550.4,
+            583.8,
+            14
+        ],
+        "size n / 2 + p n r p is a different constant than see it turns out that P is a bigger constant than see because we have to do a lot more overhead. I would do a lot more subtractions more Edition more linear time things as like the recursive non-recursive part, but we're going to save on the actual asymptotic runtime. Okay. So let's do the analysis ": [
+            1636.6,
+            1665.7,
+            40
+        ],
+        "so I mean the Insight I don't expect you to come up with that yourself. This was like, you know a brilliant idea. Funny how let's go back and look at this for a second. RS3 recursive calls, let's go to this thing. So before we had tea event is 48 + / 2 + CN now we have with the karatsuba method. We have three recursive calls all of ": [
+            1603.5,
+            1636.6,
+            39
+        ],
+        "some sums. Okay. So what is going to be the recursion I get from this divide-and-conquer algorithm. I think this is going to Hey, how are you doing? Are we all just going to jump on the bandwagon? Is that one actually, right or? How many does look right? I'm not sure sure. Okay, let's let's take a look. Let's think about it. so think about each one of these ": [
+            954.7,
+            1029.7,
+            25
+        ],
+        "taking it down by a factor of 4. any questions Okay, but I mean, of course this is dependent on the fact that I know that there's going to be only four of them right and think about the relationship between 4 and 2 and we're going to come back to that in a minute. Okay. Given a set of n objects. What is the minimum number of bits required ": [
+            2271.8,
+            2308.0,
+            59
+        ],
+        "that the top line is 20 whites in a row, so just in Kota at 20 wipes, right and then it would be like another three whites and three blacks and one white one black right so you can kind of think about it at in terms of how would you drive and maybe the the the instructions on how to dry it takes up less information on the actual ": [
+            1964.2,
+            1988.2,
+            50
+        ],
+        "the example. We had Andover Cay. Is 4 Sol log base 2 of n / K is just too. That's basically how many bits you need to describe the window, but you're going to need more than that to describe the whole string. Okay. the side of their okay, so it sort of depends on where the ones are. So when are you going to get the shortest and coding ": [
+            3996.9,
+            4030.7,
+            91
+        ],
+        "the first Andover to That's right. to decode Well, you kind of have to do some sort of algorithm which kind of copies over every bit to the end right copy the copy the same string backwards to the end something like that. copy the string backwards to the end Okay. Good any questions? Okay. Now, let's go back to fix density binary strings. So I want you guys to ": [
+            3123.5,
+            3174.1,
+            73
+        ],
+        "the minimum number of bits required to encode all eight bit strings with exactly one 1 okay. Okay, but just jumping on the bandwagon here, huh? Okay. Think about how many there are how many 8-bit strings have exactly 1 1/8, right? Here they are. Here they are. So save this was your data you had all of these and I wanted to uniquely and code them. What's it? What's ": [
+            2652.6,
+            2723.5,
+            66
+        ],
+        "then you'll get kind of the hang of what I'm trying to do. Okay, so we have a one that's the marker bit. Then. We have a 01 meaning that the first one is found in the second position. 101 so so the mark of it basically tells you that the next two bits will be positions will tell you the position so that we move the window over now. ": [
+            3700.1,
+            3733.1,
+            85
+        ],
+        "think about them as in digit numbers. We return the decimal or binary representation of their product. Okay. So what we have here is what most of us probably learned in what fifth grade. When do you learn that? I guess it depends on what country you're from, right? I think in the United States, it's like a fifth grade thing. So How many operations in general will this take ": [
+            633.7,
+            671.2,
+            16
+        ],
+        "think about this you have a length in binary string that we know has K ones. Okay, so that those are given how am I going to encode them with and -1 bits ready to go? Do you need an encoding and decoding? Okay, anybody have it and coding? rhythm Oh. Yeah, you could do that. So that might even get it. Shorter than in -1 bits, right? Yeah, we're ": [
+            3174.1,
+            3333.7,
+            74
+        ],
+        "to encode each element? Hey, you need to be able to uniquely and code each one. So how do you do that with the minimum number of bits? k minimum Okay, good. We're all going to jump on the bandwagon here. log base 2 of n Good, are there any questions about that? let's think about what that what's the consequence of that Let's say you had four objects. What ": [
+            2308.0,
+            2392.0,
+            60
+        ],
+        "to kind of fun packet. Save your data and coding algorithm store it decoding when you get your data back. Okay, so Suppose you're working with DNA. Right and we all know that DNA is I don't know in the human body. What what do we have like? a bajillion Pair, what do you call a nucleotide pairs? Are there any biologists in here? No. How many do we have? ": [
+            2104.7,
+            2145.8,
+            55
+        ],
+        "to the 8 plus. Excel why are x 10 to the 4th + x r y l x 10 to the 4th Plus? x l y l so How do I get all of those terms? This is just an one right in this is just an to the other way around. 2 that should be right right. That's what that's what messed me up. This is m 1 and ": [
+            1464.2,
+            1531.7,
+            36
+        ],
+        "total for for those ones. Then you have log base 2 of Andover Cay bits for each one to specify the position. so you have and then there's K of those so you have K log base 2 of n / k + K. Okay, so this is the shortest number of bits that you need for this encoding. Okay now. in the worst-case Yeah. All right. I think maybe ": [
+            4197.3,
+            4274.7,
+            96
+        ],
+        "variables a b and d having like a purpose or think about what what do they represent? So what does a represent in words? Write the number of sub problems the number of recursive calls. So how many subproblems do we have? 4 write all the answers have a is equal to 4. So at least we're good with that right take it. Get rid of that sell for so ": [
+            1029.7,
+            1063.1,
+            26
+        ],
+        "we solve them recursively? Which means that you're of course, which means that you divide those in half and then how do you solve those problems to buy those in half but that's been kind of like a high-level split it up solve all four of those things recursively then put them together and there's your divide and conquer algorithm. Okay, so we have four four digit multiplication some shift ": [
+            922.3,
+            954.7,
+            24
+        ],
+        "we'll end here because what I want to do is have you guys have like that you guys with fresh Minds so that we can tackle this the rest of this algorithm. And we're going to use this year to give a lower bound on the number of fix dent fix density binary strings and that will actually give us a sense of how many there are. What's in a ": [
+            4274.7,
+            4310.1,
+            97
+        ],
+        "with two terms. So I don't know about you, but when I was think maybe a middle school I learned about this four letter. F word that helped me multiply binomial together. Does anybody know what that is? Spoil my night. Good. Good answer. Okay, so if you boil this out you get this product here. Okay, why did I have to do all of that work? What what's the ": [
+            834.7,
+            869.4,
+            22
+        ],
+        "with zeros which will take that most linear time and then we're going to be adding which also takes linear time. So we have D is equal to one which means linear time. Okay, let's write out the recursion T of n is equal to 4 T of n / 2 + Big O of n okay any questions? Okay good. So, let's plug that into the master theorem. K ": [
+            1143.5,
+            1183.4,
+            29
+        ],
+        "would not be sufficiently many uniquely distinct bit strings to identify all the objects. That kind of makes sense. Let's look at an example. Let me try this real fast. Turn it off and on again. okay, if we had six oh my God. What if I take the batteries out and put it back in? I got some nightmare. Oh, no now it just doesn't work at all. Yes. ": [
+            2452.5,
+            2513.3,
+            62
+        ],
+        "write this is the total number So how many bits are required remember how to do it? You just do the ceiling of log base 2 of the total number of elements to to the Andover to? And this is just what? the floor vent over to Can anybody think of an encoding algorithm that can achieve this? Why don't you guys talk about it and groups? What I would ": [
+            2861.4,
+            2904.8,
+            70
+        ]
+    },
+    "File Name": "Mathematics for Algorithms and Systems - B00 - Jones, Miles E - Winter 2019-lecture_10.flac",
+    "Full Transcript": "Listen to a podcast evening class. Let's get started. Anybody have any questions before?  No.  Right, right. Yeah.  Okay. So where were we basically going over the general divide-and-conquer strategy? We saw it already and action with the merge sort, but let's see it in another example, but generally what are we doing?  You don't always have to divide the problem into two or three or anything, right? It's so in general you divide the problems into a some problems.  Each of the problem is a size and Overby.  Just in general then you solve each sub problem and then recursively, right.  recursively  and then you conquer by combining the problems to to solve your original problem of size n right to this is kind of like the non recursive part.  Okay, so we thought we saw this already, but I wanted to revisit this wait. Let me get my clicker thing.  Clicker  sorry takes a minute to load.  Okay, it's on now.  Okay, so in general you divide the problems into a sub problems exercise and over B, and there were the non recursive part takes G event time to do.  Then what is the recurrence for T of n you guys remember?  Okay, good. We were remembering correctly.  Should be this right?  So these are the recursive calls right? You do any of them each on a problem size and Overby and then once you're done with that you kind of combined everything up together. You only do that part 1.  Okay good.  so  if Giovanni is a polynomial then you can use the master theorem. So let's look at what the master theorem says. So this is kind of where we ended last time and today I'll try to give you a little bit more of an explanation of where this comes from.  Okay, so  The idea here. Is that the relationship between A and B to the D it sort of gives you three different options, okay?  we call this the  top heavy  this is going to be steady state.  And it's going to be bottom-heavy.  What we're talking about here is the time it takes to do the recursion as you look through the recursion tree. Okay. So this is something that a recursion tree might look like you start at the top. That's the problem. You're trying to solve. That's your one problem of size n then you split it up in this case. It looks like we're splitting it up into four, but just think about a s some  Some arbitrary number of sub problems.  And each one of these so problems is a size and Overby.  And it takes this is going to be the non-recursive part.  Text Big O of n to the D to combine all of this together.  Okay, and so as you go down you're splitting it up into more and more and more sub problems. But it kind of varies depending on what type of recursion you have. You're always going to be getting more sub problems. But are they going to be shrinking smaller and smaller so that at the bottom layer you're not doing much you're doing like fewer and fewer operations. If that's the case, then it's top-heavy which means that all of the calculations happen in the last sent. Well, not all but most of the calculations happen in the last step.  Or it could be the case that as you as you divide you kind of create more problems and and it takes longer and longer to do them in that case. It's the bottom layer that has most of the calculation lb the bottom-heavy.  Okay, then in between it's going to be steady state, which means that each layer takes the same amount of time.  Okay, so let's look at some examples that we've seen so far.  remember merge sort  In merge sort which is this.  let's fill in the blanks for what are a b and d Okay, so  Hey is equal to 2 right? That's this one.  That means we're due to recursive calls B is also equal to 2 that means that each of the sub problems is is half of the length and D. Anybody know.  I have it there already D is equal to one and that's because this is a linear term.  So it turns out.  that  this is recursion follows the middle.  the middle part  How do I know that all I have to do is relate A to B to the D? So a is equal to to be to the D is equal to 2 to the 1 so a is equal to be to the D. So that's how I know. I use that middle one so that this is a steady-state recursion which means that at every level you're doing roughly the same amount of calculations. So if I'm doing any calculations at the top level right when I merge I'm doing roughly and calculations at every level. There are in there are log and many levels so that's why you get an login.  Okay, any questions about that?  Okay, so let's look at another.  Tell her to do that another example.  We didn't really talk about it in this way. But binary search turns out to be a divide-and-conquer algorithm. It's sort of like a degenerate case because you're not recording on both sides. But basically the idea here is split the split the problem into two and then recovers on whatever side you believe the target to been right. So in this case is equal to 1  Because there's only one recursive call. But how big is the size of the sub problem?  Half right and now my my my non-recursive part is constant time. The non recursive part is just checking to see which side the target should be on.  So if it's constant, that means D is equal to 0.  constant time  non-recursive Park  So in this case, we get the same thing. We got a steady state which basically means we do a constant time per level and there are at their login levels. So we get this one we get into the D login button to the zero is one so we just get login, which is what we had before any questions.  Let's question.  That's that's from this constant term.  Because D is the exponent of the non recursive part and if it's constant, then it's into the zero.  Let's look at another example.  Will this work another context? Yes. Okay, let's look at multiplication. So what do we want to do is multiply 2 and bit or n digit numbers Palos Cutlass think about them as in digit numbers. We return the decimal or binary representation of their product.  Okay. So what we have here is what most of us probably learned in what fifth grade.  When do you learn that?  I guess it depends on what country you're from, right? I think in the United States, it's like a fifth grade thing.  So  How many operations in general will this take Can you estimate the number of operations may be in some sort of Big O class or big state of class?  What is that? Why is it in squared?  You don't know.  Right, so you basically have to multiply every combination of digits from the upper number in the lower number, right? For example, I have to do 7 * 5/7 * 1 * 5 + 1 * 2y at least have to do and squared many single multiplications.  And then the rest is adding adding is actually a linear time operation and you can think about why just by thinking about the grade school method when you add two big numbers you just Adam by column, so you're doing an operations. So this is Big O of N squared.  Okay, so that's the that's the time to beat because if I can't beat that I may as well just do the grade school method.  Hey good. So how I how am I going to approach this problem as a divide-and-conquer problem. So kind of the the simplest way to do these kind of problems is to just break up the inputs in half to split them up. Okay. So if I had a is equal to 1 2 3 4 5 6 7 8 and B is 2 4 6 8 1 3 5 7.  We can just split them up as if they were strings right the right the right half in the left half now, how do you translate that split up into arithmetic really what you're doing is multiplying.  The left half by 10 to the four, right? You're multiplying it by 10,000 to kind of have those zeros.  And then the right half is just that number itself. So it really looks like this is 1 2 3 4 0 0 0 0 + 5 6 7 8  And you do the same thing with B.  Okay. Now, let's see what happens when we multiply those two things together.  Okay, so we have two binomials, which is just a means a kind of a polynomial with two terms.  So I don't know about you, but when I was think maybe a middle school I learned about this four letter. F word that helped me multiply binomial together. Does anybody know what that is?  Spoil my night.  Good.  Good answer.  Okay, so if you boil this out you get this product here.  Okay, why did I have to do all of that work? What what's the purpose is basically to show you how to reconstruct the answer that I want from smaller problems because each one of these colored pairs is a smaller smaller problem.  So I have for smaller problems. How do you suppose I'm going to evaluate those problems those for smaller problems.  What is it?  Okay. Yes.  cut those in half, but  Yes.  But let's say it in a different way. How about we solve them recursively?  Which means that you're of course, which means that you divide those in half and then how do you solve those problems to buy those in half but that's been kind of like a high-level split it up solve all four of those things recursively then put them together and there's your divide and conquer algorithm.  Okay, so we have four four digit multiplication some shift some sums. Okay. So what is going to be the recursion I get from this divide-and-conquer algorithm.  I think this is going to  Hey, how are you doing?  Are we all just going to jump on the bandwagon? Is that one actually, right or?  How many does look right?  I'm not sure sure.  Okay, let's let's take a look. Let's think about it.  so  think about each one of these variables a b and d having like a purpose or think about what what do they represent? So what does a represent in words?  Write the number of sub problems the number of recursive calls. So how many subproblems do we have?  4 write all the answers have a is equal to 4. So at least we're good with that right take it.  Get rid of that sell for so as equal 2/4, that's good.  Okay, what does B represent?  I think the size right like how much did you divide it by? So how does the size of the subproblems relate to the original problem? This is the original problem here.  Is 1/2 precise.  Got right.  This this original problem has basically to 8-bit 8 digit numbers and then you get down to two four digit numbers. So be is equal to 2.  Okay, good now.  What how long does it take to do the non recursive part? And what is the non recursive part in this algorithm?  psych summing write something and shifting so  shifting by 10 to the 8th shifting by 10 to the 4  That you can think of not as an actual multiplication, right? You can just think about it as like patting the end with zeros which will take that most linear time and then we're going to be adding which also takes linear time. So we have D is equal to one which means linear time.  Okay, let's write out the recursion T of n is equal to 4 T of n / 2 + Big O of n okay any questions?  Okay good. So, let's plug that into the master theorem.  K is for B is 2D is one Sol A is for right?  B to the D is 2 to the 1 so a is bigger than b to the D. That means we have this bottom-heavy.  Recursion recursive tree recursion tree and Solace plug everything in this means we get Big O of n to the log base 2 of 4, which is equal to Big O of N squared.  Okay, so it looks like divide and conquer didn't really help us out much is just like another way to do the same problem in roughly the same amount of time.  stop  Yeah, that's where we get.  but  these guys  coma gaurav in karatsuba  They had the insight to replace one of the multiplications one of the four multiplications with a linear time subtraction. So now we're going to be only doing three sets of problems. Let's see how that changes our algorithm and let's see how it changes our runtime.  Okay. So this is what we had before right and this is using foil.  But really what I can do now.  Is collect some terms and instead of doing these for multiplications.  I can do some subtraction and multiply the results of those and subtraction is is a cheaper more efficient operation than multiplication subtraction is just linear time. So doing those subtractions doesn't cost a lot of time. So it's worth it to do that so that I can combine them together. Okay, what's going to be the result of Peace of tractions? You're probably going to get another two four digit numbers, right?  so now I have  a recursive call here, right?  And two other recursive calls here in here.  got any questions  So see how now I'm only doing three recursive calls.  like arithmetic and arithmetic Lee  Okay, let's take a look here.  Okay, so  Let's say we had x and y r r x * y.  right  Annex is going to be equal to x to the left x 10 to the 4.  Plus x to the right right and why will be why I left x 10 to the 4 + y, right?  Okay. So what I propose to do is the three multiplications I'll do is going to be multiplication one will be.  x l y l  multiplication two will be XR why are in multiplication 3 will be XL plus XR.  X  yl + y r  Okay. Now what I want is I want to get to XL y l x 10 to the 8 plus.  Excel  why are x 10 to the 4th + x r y l x 10 to the 4th Plus?  x l y l  so  How do I get all of those terms?  This is just an one right in this is just an to the other way around.  2  that should be right right. That's what that's what messed me up.  This is m 1 and 2.  Okay, then what is M3? It's actually x l y l plus XL.  Why are plus x r y l plus XR? Why are so + 3 - + 1 - M2 is equal to x l y r + x r y l.  This is exactly what I want here if you factor out the 10th to the 4th.  I think I just did it in a in a different way than was on the slide.  But the point is that you can do some subtractions and additions to only have three recursive calls rather than for I don't know if that helped her for that clear it up at all.  still want  Yeah, the math that you just have to kind of figure that out for yourself and and play around with it. I was just arithmetic so  I mean the Insight I don't expect you to come up with that yourself. This was like, you know a brilliant idea.  Funny how let's go back and look at this for a second.  RS3 recursive calls, let's go to this thing. So before we had tea event is 48 + / 2 + CN now we have with the karatsuba method. We have three recursive calls all of size n / 2 + p n r p is a different constant than see it turns out that P is a bigger constant than see because we have to do a lot more overhead. I would do a lot more subtractions more Edition more linear time things as like the recursive non-recursive part, but we're going to save on the actual asymptotic runtime.  Okay. So let's do the analysis A is 3 B is two. As one so we have a s-3b to the D is 2 to the 1 so we still have a bigger than be to the D. We still have the bottom-heavy.  So we plugged it in we get into the log base 2 of 3, which is Big O of n to the 1.5 8 case. We actually get better.  Ben and squared  Okay good. So this is good news. We've had some progress since then so that was what year that was, but I think like in the 30s or 20s or something. So 1963 we have to mend cook.  They develop a series of algorithms that take you down to almost constant time.  I see me almost linear time so they can give you they can design an algorithm to get you as close to linear as possible, but not actually quite at linear time. So that's what I mean by 1 plus... It's just going to be like a little bit bigger than one.  Okay in 2007.  There is a best-known time for multiplication. I should have updated these slides.  Cuz I didn't know back then.  It's still not known whether whether or not there exists a linear time for multiplication linear time algorithm. We know how to do it for addition. We don't know if it's possible for multiplication.  Pretty crazy, huh?  Okay, so that's the end of the recursive stuff. So we're going to move on to kind of like the next concept which is talking about encoding decoding data compression that kind of thing. Okay any questions before we move on?  Okay.  Peso data compression. We all have had to zip files and unzip files and all that kind of thing. How does it actually work? What are the things that you want to accomplish when you do that? Why is it possible to do that?  You know you have this file and has this information in it. How are you able to make it smaller without losing any of the information? Well, if you know some things about it, if you know some certain characteristics, then you can you know, if there's some patterns that you can see then you can turn those patterns into codes and then when you unzip it does codes tell you how to fill in the gaps Okay, so  For example in the video data compression really like to think about it as a sequence of Steel frames, but think about how much data that is holding instead. Why don't you just think about one frame that doesn't move like the background the sky or that moves very slightly and really only think about the golfer as the thing that's moving. Now. This is something called a lossy data compression, which means that you're actually losing information, but we we consider this information so dull and uninteresting that it's okay, right, especially if you know, it's a movie that you're only going to watch one time or I don't know it even if it's just like a a video that you have.  Of your friend or I don't know something you don't really care about if the clouds are, you know Super HD.  whatever  you just kind of care about how how it looks.  So one kind of idea about encoding that's a lost listen and coding you might want to think about if you had like a very rudimentary drawing right and you can think about it basically as turning the pixels on and off as white and black.  Then instead of encoding every on and off pixel as a coordinate which kind of seems like the best way to present the information. You can instead think about. Well, I know that the top line is 20 whites in a row, so just in Kota at 20 wipes, right and then it would be like another three whites and three blacks and one white one black right so you can kind of think about it at in terms of how would you drive and maybe the the the instructions on how to dry it takes up less information on the actual drawing self.  So there would be no loss in this compression right? Because because it would be able to reproduce the exact same image as before.  So if you are thinking about  Compressing images like when you want to make it like your avatar in like a certain app or something where it's it's only going to be like this big for everybody to see then they might use linear algebra to compress the data and each compression makes it smaller. But you kind of lose some of the fine details. You probably can't see it. So well, maybe you can but this one down here is a little bit blurrier than the rest but it's sort of hard to see the difference between the first and second and you have you you've taken the image size by  Decrease the image size by a lot and have you lost data sure, but it's not really important.  So today we're going to be really be looking kind of at the basics of lossless data compression, how do you think about and coding things? What are the what are your limitations?  Okay, so  The compression scheme. Well, it may take a long time to encode and decode is it worth it to do that. If you need to get that information all the time, you need it accessible then you may not want to encode it at all. But if it's something that you're going to store away for a long time and you're not going to use it, then it might be good to encode it. And then when you do need it, you might need to take a little time to kind of fun packet.  Save your data and coding algorithm store it decoding when you get your data back.  Okay, so  Suppose you're working with DNA. Right and we all know that DNA is  I don't know in the human body. What what do we have like?  a bajillion  Pair, what do you call a nucleotide pairs?  Are there any biologists in here?  No.  How many do we have?  a lot, right  So if you wanted to store that data while in the nineties, they actually stored it using the letters A C T and G and I don't know do you guys go over like the ASCII codes in any of your classes? Like how how big does it how many bits does it take to uniquely?  Determine a letter on the keyboard.  Do you guys do that? Yeah, so so these are the ASCII codes for A C T and G as your computer would know them right and here they hex hexadecimal are representations.  Let's taking eight bits per character. So that means you have ate and bits for an nucleotide pairs.  The biologists. Yes.  Okay.  Base pairs. Okay. That's a better thing. Right? What is a nucleotide?  Is that that?  Those things right? Okay. Those are those are nucleotides then we'll just say that then do you want to use 8 bajillion bits to store it?  Is there a better way?  Well, look if you just think about encoding them more efficiently, then you can say OK the Azores zero Zero's the Caesars hero ones T's r10 and G's R11 now we can store them with 2 bajillion bits instead of eight days a week taking it down by a factor of 4.  any questions  Okay, but I mean, of course this is dependent on the fact that I know that there's going to be only four of them right and think about the relationship between 4 and 2 and we're going to come back to that in a minute.  Okay.  Given a set of n objects. What is the minimum number of bits required to encode each element?  Hey, you need to be able to uniquely and code each one.  So how do you do that with the minimum number of bits?  k  minimum  Okay, good. We're all going to jump on the bandwagon here.  log base 2 of n  Good, are there any questions about that?  let's think about what that what's the  consequence of that  Let's say you had four objects.  What happened to my  oh my God.  Why isn't working anymore? It just says it's racing.  Well, that makes it go.  That's crazy.  All right.  Okay, whatever.  I guess that's gone for now. Okay. So what is that mean given a set of n objects you need at least the ceiling of log base 2 of n Bits to store and different objects because with any fewer number of bits there would not be sufficiently many uniquely distinct bit strings to identify all the objects. That kind of makes sense.  Let's look at an example.  Let me try this real fast. Turn it off and on again.  okay, if we had six  oh my God.  What if I take the batteries out and put it back in?  I got some nightmare.  Oh, no now it just doesn't work at all.  Yes.  always like  Yeah, that's what I was going to show you here. So if you had let's say you had six objects.  K a b c d e f and how many bits do you need in order to uniquely identify all of them?  3 right  Feeling so you take the log base 2 of 6 which is like to point something and you take the ceiling of that. It's 3 and that's that's the minimum number of bits. I need the right and now I can say oh, maybe this is 0 0 0 0 0 1 1 0 0  101  010 + 011 I don't know maybe put them in order. Maybe put them in a weird order.  Okay.  Now that I get this thing. Okay. Now let's go back to fix density binary strings. Do you guys remember this how many length in the binary strings contain exactly K ones?  Are you doing this for me to get this thing together?  All right.  Ah, there it is. Excellent. Okay good you guys remembered from last time or from the beginning of class? It's going to be and choose k  Good any questions about that?  Okay good. So, let's go to the next thing.  Okay. So what is the minimum number of bits required to encode all eight bit strings with exactly one 1  okay.  Okay, but just jumping on the bandwagon here, huh?  Okay. Think about how many there are how many 8-bit strings have exactly 1 1/8, right?  Here they are.  Here they are.  So save this was your data you had all of these and I wanted to uniquely and code them. What's it? What's one way that I could do that?  with only three bits  Okay good. So you could like a label the positions right to be like 0 1 2 3 4 5 6 and 7 and then write their position in binary. So you'd have this one would be 000001 franc.  010  011 and so on and then you've got this and coding algorithm write it you're able to encode every bit into something unique and you're able to come back, right?  That's kind of the idea. I mean that's just a very simple example, but it gives you a sense that we're trying to do is have this reversible and coding algorithm any questions about that.  Okay, how about palindromes?  Palindrome is a string that reads the same backward and forward. So let's think about binary strings how many lengths end binaries palindromes are there?  any ideas  Okay, good 2 to the N / 2.  And maybe we'll make it the floor right if n is odd.  to the floor vent over to  Okay. So, how are we going to how many bits are optimally required to include and length and binary palindrome?  How many how many of the how many of them were there two to the Andover to?  write this is the  total  number  So how many bits are required remember how to do it? You just do the ceiling of log base 2 of the total number of elements to to the Andover to?  And this is just what?  the floor vent over to  Can anybody think of an encoding algorithm that can achieve this?  Why don't you guys talk about it and groups? What I would like for is to have some sort of a systematic way of encoding a length and binary palindrome into 2 and over two bits. Okay, ready go.  Yes.  Oh, yeah, she'll be feeling right.  Right to be ceiling.  Sorry about that.  Right because how many of them are there of three. There's going to be 0 0 0 0 1 0 1 0 1 and 1 1 1 so it's  2 to the 2  4 is equal to 2 to the ceiling of 3/2.  Okay, so anybody have an encoding algorithm and maybe a decoding algorithm that goes with it?  We got talking about the weather.  Call man.  Okay, good. Just cut it and just store the first half.  Okay, so that's the decode it right? Okay, soda and code it.  to encode  Right, I guess just say like keep.  the first  Andover to  That's right.  to decode  Well, you kind of have to do some sort of algorithm which kind of copies over every bit to the end right copy the copy the same string backwards to the end something like that.  copy  the string  backwards  to the end  Okay. Good any questions?  Okay.  Now, let's go back to fix density binary strings.  So I want you guys to think about this you have a length in binary string that we know has K ones. Okay, so that those are given how am I going to encode them with and -1 bits ready to go?  Do you need an encoding and decoding?  Okay, anybody have it and coding?  rhythm  Oh.  Yeah, you could do that.  So that might even get it.  Shorter than in -1 bits, right? Yeah, we're going to look we're going to do something like that in a minute, but just to is it is anybody know like a simple way to do it. Just just to Lop off one of the bits.  Okay, so just delete.  The first or the last bit right doesn't matter. I'm going to say the last bit.  It was very easy to encode. How do you decode well?  count the number  of Wands  Right if there are K - 1 ones than the last bits got to be one if there are k-1s than the last bit has to be zero.  Okay, good any questions about that?  Okay, so can we do better how what if we know K is much less than in right now. We can look like look at kind of the patterns and look at kind of how it's built Okay, so  What if we know K is only slightly less than end, right? So then you can kind of think about changing all the ones to zeros are all those zeros to ones and you kind of get a  the sort of the same problem going on.  Okay, so we're going to look at a compression algorithm a valid compression algorithm must have inputs of shorter or the same length or elsewise. What's the point of doing this right?  But it also must be uniquely decodable.  Now we're not talking about like image compression anymore. This is like we don't want to lose any of the data. We just want to compress it into a smaller package. That's that at some point. Maybe we want to decode and get the original data back.  Okay, so here's the idea.  the kindness to do with like doing the runs, but it's sort of like kind of thinking about where are the ones in the string and  This compression algorithm doesn't it only really works. Well, if there are a lot fewer ones than there are zeros when they're kind of the same number of zeros and ones then it may not work as well. You may not get such a shorter string.  Okay, so we're going to use a marker bit to indicate when to interpret the output as a position.  K member fix a window size  if there's a 1 in the window.  Then recorder one and interpret the next bits as the position. Okay, I'll show you how it works in a minute.  Then record its position and move the window over otherwise recorded 0 and move the window over.  Okay, so  This example we have in his que tienes. 12K is 3 so the window size we're going to take is an over K, which is 4 in this case. Okay. So how we going to encode this string?  So the idea here.  Oh shoot.  Nothing happened.  The window sizes for which means we look at the first four bits. Okay, and the question is  Is there a one in this window and the answer is yes.  Right. So where is the first one in the window?  So  we look at that first window.  And let's say that we have our bits.  I also so let's say this is our window right our window has four places now, we're going to encode each one of those positions in the window with two bits, right because there's four so there are four.  two bit strings  So what's a this is position 0 0 then we have is 0 1 1 0 and 1 1.  so  going now.  What output corresponds to these first few bits? Okay, so remember  we have  Is it going to be 0 0 0 1 1 0 and 1 1 okay, so you fix the window size if there is a 1 in the string record A1 to interpret the next bets as position. Okay. So this is going to be kind of your marker pit. So you need a 1/2 to indicate that you found a one and then you read off what its position is.  Okay.  Okay, I don't know maybe we didn't I didn't really explain it that well, I think after you see me go through it then you'll get kind of the hang of what I'm trying to do.  Okay, so we have a one that's the marker bit. Then. We have a 01 meaning that the first one is found in the second position.  101 so so the mark of it basically tells you that the next two bits will be positions will tell you the position so that we move the window over now. We see a one and we interpret the position of the one in the window 00.  drink  then you move the window over.  to hear  Now we have a string of 4-0. So I just record that as a single 0.  No one's in that window.  The next one I find a one so I put a marker bit and then what's going to be the code for the position of that one?  11 good  And then I move the window over and there's just zeros so I can put a zero in that position.  Oh what this is.  Okay.  Actually, this is 0 here is sort of redundant right because I found my three ones already.  and so  I don't really need anything else.  May just do something real fast.  Okay.  Okay, so  the question  are you just move it to wherever that one like to the next place after that one that you have kind of considered?  Yeah, you move it all the way over cuz you sort of have considered all those zeros, right? Those are all encoded into just one bit.  Okay, so a good encoding decoding algorithm the correctness while you have to think about how did I in code? And how did I decode need to show that they're reversible functions right you to show that if you compose them then you get the identity right? I encode something and then I decode the encoding I should get whatever I had back. Okay, so you have to use strong induction to prove this.  Okay, so  let's go back to that and coding algorithm.  Assume Andover Cay is a power of 2, okay.  Consider S as a binary string of length and width K ones. How long is the encoding?  Well, maybe we can even look at the example as sort of a hint.  right  are original string was of length 12 and our output string was of length 1 2 3 4 5 6 7 8 9 10  Okay.  It depends on where the ones are.  Remember in this case or in the in the example. We had Andover Cay.  Is 4 Sol log base 2 of n / K is just too.  That's basically how many bits you need to describe the window, but you're going to need more than that to describe the whole string.  Okay.  the side of their  okay, so it sort of depends on where the ones are. So when are you going to get the shortest and coding of s when the ones are towards the beginning of the string or in the one towards the end of the string or when the ones are kind of evenly spread out?  Okay, good ones towards the beginning right because once you have encoded all the ones then the zeros you can just kind of forget about because you already know where the three ones are and so you can just fill out the rest with zeros as you wish.  All the ones out there all at the end then you have to then you have a bunch of zeros.  write for example  If you had one two, three, four, five, six, seven eight nine one one one, right then your encoding is going to be well you get a zero for that right you get a zero for that.  And then you get a 1:01.  And then a 111.  And then a 111.  No, sorry, this is bad 100.  was that  stop the what?  I guess so right then it would only be two zeros, right?  Do you start with to?  after you find found that first one then there's only one possibility you could do that, but that's sort of not part of the  the encoding that we have  that would be a smart way to do it though.  Yeah, cuz you know the rest of the zeros.  I guess it sort of works both ways.  Okay, so  for the best case the shortest that we're going to get is if all the ones are at the beginning, which means that  You have one bit for each one. Thanks. You have K bits for each K bits to total for for those ones.  Then you have log base 2 of Andover Cay bits for each one to specify the position.  so  you have and then there's K of those so you have K log base 2 of n / k + K.  Okay, so  this is the shortest number of bits that you need for this encoding.  Okay now.  in the worst-case  Yeah.  All right.  I think maybe we'll end here because what I want to do is  have you guys have like that you guys with fresh Minds so that we can tackle this the rest of this algorithm.  And we're going to use this year to give a lower bound on the number of fix dent fix density binary strings and that will actually give us a sense of how many there are.  What's in a little early? Also? I feel like maybe I'm going a little bit faster than the other class and I don't want to get too far ahead so that we can kind of be on the same.  slice  San Diego forecast "
+}

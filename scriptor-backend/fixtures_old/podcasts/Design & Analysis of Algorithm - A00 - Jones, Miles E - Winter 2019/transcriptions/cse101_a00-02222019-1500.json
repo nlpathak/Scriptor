@@ -1,0 +1,392 @@
+{
+  "Blurbs": {
+    "And if you know, it's a dead end then just throw it away and move on. Using this method now. You only have to look at 15720 possible. Queen placements which is better than 40,000 but you know, it's this is kind of thing. It's like it's just slightly better. It's still kind of exponential in the the size of the problem. Okay, let's look at how this problem would ": [
+      2334.7,
+      2361.1,
+      63
+    ],
+    "CLR And I'm saying less than because I know that sea is bigger than the constant term of that LR that big old LR thing questions about that. Okay, so then the rest is just going through the algebra. So by the inductive hypothesis, this is less than or equal to C L squared plus c r squared plus c l r. Okay. Now let's just add in another CLR. ": [
+      1577.4,
+      1618.4,
+      41
+    ],
+    "Force. And sometimes they can be really quick depending on the type of input and you can maybe get lucky and it works really fast. So it has like a wide range of run times based on the input where the worst case is usually exponential but you can maybe get something fast if you're lucky. Okay, let's go back to these optimization problems. We have are our all of ": [
+      1908.1,
+      1938.3,
+      49
+    ],
+    "If you're kind of like just doing it kind of naively this would be the the thing but if you're right this was going to be my next thing. If you put all the Queens such that no two queens occupy the same square now you have 64 Tuesday, and this is much much less still huge, but it's much less. Okay, what else could we kind of how else ": [
+      2244.9,
+      2272.0,
+      60
+    ],
+    "Listen to a podcast. Okay, how's this level? volume level All right. Let's get started here. Check to make sure. I have the right. slides nice Okay. Let's get started. So last time if you all were call we were talking about this problem. a finding the Maximum overlap among pairs of intervals right and then sort them by their starting point and then split them in half that way ": [
+      1.9,
+      86.5,
+      0
+    ],
+    "Max and point. Reds and then this one is compared with all Blues. and find Max and then you just returned the maximum and then this would be kind of the the whole procedure. Basically, you sort them by the a values right? You split the list in half based on the a values right? The left endpoints you do your two recursive calls. And then you do you're in ": [
+      353.0,
+      405.5,
+      7
+    ],
+    "Second Step was Well, I've done that. Case of the next one I'm picking is this one right and you cancel out? Why is it do that? Cancel out all these. Now you're stuck right because one of the Rose has been filled. So you just keep on doing this and keep checking to see if one of your rose has been completely canceled out. Can I make sense? I ": [
+      2437.6,
+      2470.7,
+      66
+    ],
+    "You can get a tighter bound actually. you can go through the recursion tree again, and you can you can kind of figure out how to To get it and you can get this to be T of n is Big O of n log squared in. You kind of think about why right because you have that extra and login in there. Okay. Is there a way that I ": [
+      450.7,
+      481.9,
+      9
+    ],
+    "a very brief correctness proof kind of thing. So it's clear that the greatest overlap will be from two intervals either in the left half or two from the right half or one from the left and one from the right sort algorithm considers. All three of those cases there for should fission output the correct one. Okay, let's move on to. looking at trees, so Trees have a really ": [
+      601.3,
+      632.5,
+      13
+    ],
+    "all of that stuff that I did before the recursive calls, you can kind of think of that as a space cases did I do? Oh, you're right I missed something tonight. Okay. So yeah, you're right. So you need to say first I need to say LCA of our our is our right. Is that all I need? Middle terminate right because the Explorer wall. Yeah, I guess I ": [
+      1130.3,
+      1187.9,
+      29
+    ],
+    "all the solution for Matt possibilities you looking at all the solutions that follow the constraints and in that case you cut down by a by a lot in general maybe more. So depending on the problem. Okay. So like I said before exhaustive search only looks at the solution format. We're at West backtracking kind of looks at the solution format and the constraints and you can think about ": [
+      2039.5,
+      2070.0,
+      53
+    ],
+    "an example and you can kind of see what what I mean. Okay. So the first example we're going to look at is the eight Queens puzzle. Have you guys seen this before? So Queen can attack. In rows and columns and also along diagonals and so you want to put 8 Queens on a chessboard so that none of that no two pairs are attacking. case of the solution ": [
+      2145.5,
+      2171.6,
+      57
+    ],
+    "and V is on the right set LCA of UV to be equal to R. Now, what are we done? Well, we've only considered pairs where there's least. Common ancestor is our how do we get all the rest of the pair's you just recurse? Okay, so we curse on the left and right sub trees. So this is a pseudocode for what we do. Let's just kind of go ": [
+      982.9,
+      1013.2,
+      25
+    ],
+    "and we came up with a way to walk. We're going to recruit on each side and get the the biggest overlap from each subset. And then the only thing that's left is to find the biggest overlap where you have one from the Reds and one from the blues we figured out there's an easy way to do it if you just compare every pair but that takes and ": [
+      86.5,
+      110.6,
+      1
+    ],
+    "and we got this is less than or equal to C L squared plus c r squared plus 2 CLR adding another one. Why did I do that? Now you can now you can Factor right that's equal to c x l + r squared. Now, what is L + r? + - and that's less than or equal to less than cm squared. we got Tia van less than ": [
+      1619.5,
+      1663.0,
+      42
+    ],
+    "any of the Blues. Yeah, I think in time is better right so find the red with the latest end time. How long is that take? That's an over to comparisons, right? Okay, then what do I do with that? Compared to every single blue. Is that efficient? How many Blues are there? Andover to so you can pair this interval with each one of the Blues that's an over ": [
+      179.6,
+      228.9,
+      3
+    ],
+    "are least common ancestor would be our parent me and my uncle are least common ancestor will be our grandparent and and you can be your own ancestor. So me and my father's least common ancestor would be my father that kind of makes sense. So every pair of vertices will have at least common ancestor. I don't know me and somebody in this class are these coming ancestor? Maybe ": [
+      806.1,
+      833.9,
+      20
+    ],
+    "based on the two children you split it up into maybe three sub problems or whatever case of problems if the route has K children. Okay, so so let's say we have a full and balanced binary tree which basically means all the roads are filled and the bottom row has it all leaves all leaves are in the bottom row. So if we want to know something about the ": [
+      663.3,
+      694.8,
+      15
+    ],
+    "basically comparing everybody in El to everybody in our so they'll take l x our operations. So alright. So what do you think the total run time will be take a guess and we can check it. What do you want to base your guess on? Maybe like what we just did with the complete binary tree, right? We know that the complete binary tree is a option is a ": [
+      1401.0,
+      1429.0,
+      35
+    ],
+    "be doing is filling up a matrix or an array with two indices X and Y and you want it to calculate the least common ancestor of X and Y for every pair of vertices, so what does that mean? It kind of means like if you're thinking about it in terms of a family tree think about it as your youngest common ancestor, right? So me and my brother ": [
+      780.4,
+      806.1,
+      19
+    ],
+    "between call and then you just find the maximum of the three. So it makes sense. So how long is it going to take the steaks and login, right? I'm 2 recursive calls T of n / 2. T of n / 2 and so this is my runtime Does anybody know how to solve that it's not really in the master theorem form? No, you can get a tighter. ": [
+      405.5,
+      450.7,
+      8
+    ],
+    "but it is a nice idea to utilize if you don't have anything better to do if you don't have any other better Solutions. Okay backtracking. It's a generic method. Okay, so it it's more of like an idea of how to approach a problem. And it's often I'll just talk to you right now. It's often not very efficient, but it can get the job done and it's usually ": [
+      1836.2,
+      1867.8,
+      47
+    ],
+    "call him by call him. But you see it's kind of doing this recursive thing and trying to fill up the columns over and over again and I found one. That's when it does that so. how to find another one and so on so I don't know you could probably code this up if you like the way I think the strength of these backtracking algorithms is their Simplicity ": [
+      2533.1,
+      2566.8,
+      68
+    ],
+    "can improve on this run time? Let's go back to the pseudocode. Yeah, I don't know how how much better. It's going to get if you split it more. I'm thinking more about what's what's the thing. That's making it. What kind of the heaviest non recursive part? Yes. So this is just kind of like a warning to you guys. Is that often times? If you if you sort ": [
+      481.9,
+      535.2,
+      10
+    ],
+    "can we save this number down? Okay. So if you do know Queen on the same row then each Queen has you know has their own have a square and then and even more no Queen in the same column you get eight factorial which is But then you're trying to find a problem. Right and that's harder to count. I think I like you like this is easy to ": [
+      2272.0,
+      2304.0,
+      61
+    ],
+    "concerning Cobra on what one the last one does it happen. sandiego.edu ": [
+      2755.6,
+      2783.2,
+      75
+    ],
+    "count. So it's easy to generate all of those generator mall and then you check to see if it work. Okay good. So the backtracking neck that attacks the problem by considering one row at a time and it eliminates the subtree. It eliminates kind of the possible non Solutions like the dead ends before it searched them all. Early in their construction so it kind of constructs each solution. ": [
+      2304.0,
+      2334.7,
+      62
+    ],
+    "descendants. Okay, then all the vertices in the left subtree. The LCA with ours are all the vertices in the right subtree LCA of RV is our and then you do like a double for Loop basically all pairs. a vertices with one in hell and one in our you said they're going to be our then you do your two recursive calls. And then you're done like this is ": [
+      1042.9,
+      1084.2,
+      27
+    ],
+    "done with the Queens you go to your first available position. Maybe you read it from left to right row by row you put in the smallest possible number that could be they're using the constraints and then you just keep on going and keep filling it up at any point you find some space that can't be filled with any number then you kind of backtrack until you backtrack ": [
+      2629.9,
+      2661.3,
+      71
+    ],
+    "follow the extract the constraints then throw it away. You can see that you're doing a bunch of unnecessary things because you're looking at even solutions that don't follow the constraints. Okay, so like the like greedy algorithms do backtracking takes all of those Solutions in the solution format space breaks it down to a series of simpler local searches, right? Which exit do we take first then second or ": [
+      1973.7,
+      2006.3,
+      51
+    ],
+    "format is all Arrangements of 8 Queens and the constraint is no.2 are attacking. And this one is not really an objective. It's not a optimization problem is just a search problem. It's a decision problem. Can this be done? And really you want to know if it can be done? How do you do it? Okay, so so if I just do a Brute Force you can think about ": [
+      2171.6,
+      2214.6,
+      58
+    ],
+    "get exponentially more many more. the point what are the questions about this? Okay good. Okay, that's just what I have. Okay. So the next thing we're going to do is backtracking I like putting backtracking here because it's kind of a kind of a nice segue from what is the what is the volume go up. Does somebody have like a remote control for this thing? Or when you ": [
+      1757.2,
+      1802.7,
+      45
+    ],
+    "gives us. But yeah, you can't really get any better than in square, right? This is kind of getting question Explorer gives you all the vertices that you can reach from that vertex. Okay, so imagine that we had that line there so that we can we can terminate. Okay. So if the binary tree is balanced than each recursive call is of size N - 1 / 2 or ": [
+      1268.4,
+      1308.9,
+      31
+    ],
+    "guess we should say. if r r c is No. or I guess we should say if our is no right if our is no I don't know return nothing. Is that good? So that we can stop. Now we're trying to find every single pair. We're going to populate the entire array. ice the best right But it's still we should still try to look at what the runtime ": [
+      1187.9,
+      1268.4,
+      30
+    ],
+    "have no idea. Play some Phantom is changing the volume. Am I rubbing against it or something? how to call the the guy Okay, so backtracking what I like about it. It's a nice Segway from divide and conquer into dynamic programming and we'll kind of go over what it is when I can spend so much time on backtracking. It's not kind of like one of our main topics ": [
+      1802.7,
+      1836.2,
+      46
+    ],
+    "in half or we put it to the two children. It's not necessarily going to cut the problem exactly in half. So if the binary tree is uneven then the run time now is T of n is t a l the left the size of the left half plus T of are the size of the right half priced plus Big O of l x are right because you're ": [
+      1372.3,
+      1401.0,
+      34
+    ],
+    "into the master theorem directly. Can you get AIDS to be is to D is too and you get T of n is equal to Big O of N squared so that's good. And that's that's like what you kind of expect it to be. Okay. So the next thing we're going to do is think about what happens when the when the tree is unbalanced right when we split ": [
+      1349.7,
+      1372.3,
+      33
+    ],
+    "is a possibility that the tree could be so in if we're trying to prove something in general then the the one possibility that we've already looked at. Could be a lower bound could be worse than General. We have no idea at this point. So why don't we guess when we try our best guess? Basically, like you said before and square to sort of the lowest possible runtime ": [
+      1429.0,
+      1463.1,
+      36
+    ],
+    "it as well. There are 64 squares on the chessboard and each Queen gets to pick one of those squares. So the whole solution space is 64 to the 8th, which is this huge number and I didn't even it's so big that I didn't want to write it out. So I copied and pasted it from Wolfram Alpha Wolfram Alpha. Well, then that's part of the constraint right so. ": [
+      2214.6,
+      2243.7,
+      59
+    ],
+    "it's somebody who lived, you know, 10,000 years ago, or maybe you don't know maybe we're more related than you think and it's our least common ancestor could be somebody that lived in the past hundred years. Who knows? Right. Okay, so I don't know. I mean now we have all this DNA testing and data. Who knows? Okay. So the let's let's approach this problem with the assumption that ": [
+      833.9,
+      866.4,
+      21
+    ],
+    "just go layer-by-layer, right? So then the the recursive call would would check those two these two squares in the second row. Cancel everything out. And then once you cancelled out the entire chest board, you don't have to look any more, right? Or really if you cancelled out any one of the single rose, then you know, you got you're at a dead end. So for example if the ": [
+      2407.2,
+      2437.6,
+      65
+    ],
+    "like some random thing right and figure it out. But then how do you know how many numbers to take away? Are you programmed this over winter break his nose to board and ride. It was just a random number like driving with the ones place randomly and each of the squares. Okay. Yeah, I guess this wouldn't be so great at generating then because it is like you're the ": [
+      2692.9,
+      2725.9,
+      73
+    ],
+    "might be like the solute the sub problems are a size + -1 or + -2 instead of in / 2 and that that dividing by two we've already seen that can make a big difference in efficiency. Whereas subtracting you usually going to get like a exponential time if you have to do more than one of the problems Okay. General idea is the same and we'll look at ": [
+      2118.3,
+      2145.5,
+      56
+    ],
+    "nice recursive structure already and so using divide and conquer on trees is a really good. Strategy when you're trying to find trying to recursively find a certain property or a certain value associated with the tree. Okay. Mostly we're going to look at binary tree's but really this strategy can generalize to any tree you just kind of instead of just splitting it up into the two sub problems ": [
+      632.5,
+      663.3,
+      14
+    ],
+    "not an algorithm that returns anything it just kind of like populates an array, right? So I guess if you like before you run it, you could kind of initialize the array to like all zeros or something and then it will for populated any questions. Okay. So let's think about the run time. If the binary tree is balanced then what are the sizes of these recursive calls? So ": [
+      1084.2,
+      1130.3,
+      28
+    ],
+    "of their little subtree. Glad you can see if Ira curse on them. It's basically splitting the problem into two which is a lot like what we do with divide and conquer. Notice that each child subtree is half of the problem. So you get a nice divide and conquer structure. Okay, not all trees are going to be nicely full and complete right? They might be uneven we can ": [
+      719.4,
+      749.5,
+      17
+    ],
+    "of those iterations in that double for Okay, so let's do some let's do the induction base case easy. It's true by choice of see now. Let's let's do a strong inductive hypothesis suppose that this run time is bounded by c k squared for all k then what do we have? We have to then it's going to be. less than T of L + T of our + ": [
+      1540.1,
+      1577.4,
+      40
+    ],
+    "only putting the smallest number in it in NH time. So it's going to do like one through nine and then like 2 1 through 9, or I don't know it's going to kind of always generate the same one. Okay. Well, maybe we should call it a day. So we're going to look at it. One more no, two more backtracking algorithms and then start on dynamic programming. One ": [
+      2725.9,
+      2755.6,
+      74
+    ],
+    "our things instant solution format constraints and objective. now if we're talking about a brute force or like an exhaustive search type algorithm that basically goes through all possibilities of your solution format. So it says is this is this, you know, generate all the solutions possible then check to see if it's a if all of the constraints if it does then, you know calculated subjective. If it doesn't ": [
+      1938.3,
+      1973.7,
+      50
+    ],
+    "our tree is full and complete and balanced and then we'll talk about if if our tree is not balanced. The algorithm is still going to work just as well. The only thing that might change is the runtime so we'll talk about how to calculate the runtime with an unbalanced tree. Okay, so let's talk about it first what pairs of vertices? So this is the root are. So ": [
+      866.4,
+      896.9,
+      22
+    ],
+    "really all you're doing is trying to get some initial Choice and then we cursing on that on each one of those. Okay. Get out of there. slideshow from Priceline Okay, here's another problem. You can solve with backtracking. So you have this Sudoku puzzle, which is a partially filled in puzzle. The solution format is a grid with all squares filled with the numbers one through nine. Right and ": [
+      2566.8,
+      2603.8,
+      69
+    ],
+    "roughly half right? How long does the non recursive part take? And squared right because of this thing. It's going to be like 10 / 2 x + / 2. or + - 1/2 squared operations or Innovations okay, so this is going to be all recursion and you can kind of ignore the end minus one here and just think about it as an over two and plug it ": [
+      1308.9,
+      1349.7,
+      32
+    ],
+    "route based on the rest of the tree when we can do is rudra curse on each of the children. Nnn when I say recruits on the children. I'm really meeting recruiting on their whole subtree. But you can kind of think of each node as like a representative of its whole sub tree. So the route is the representative of the entire tree in each child is a representative ": [
+      694.8,
+      719.4,
+      16
+    ],
+    "siento which is what we wanted to show. Play any questions. But if you showed up and swear, it is like the maximum for the run time. Yeah, it's upper bound. We went this shows it is to Upper bound. But if you can actually argue it's a tight upper bound because you know that you can't get any better than in squared. Unnecessary nose, make it fully balanced. That ": [
+      1663.0,
+      1705.8,
+      43
+    ],
+    "slightly better than doing a route for okay. It if you like if you like backtracking, it's it's a nice kind of first step towards building a dynamic programming problem strategy solution, but we'll talk about dynamic programming completely independent of backtracking also so you can kind of figure out what works well for you. So if it's not very efficient in general, but it can be better than Brute ": [
+      1867.8,
+      1908.1,
+      48
+    ],
+    "something in order to kind of Leverage that order it's better to just sorted first and then take advantage of it instead of sorting it every time. Cuz once it's sorted then it will be sorted forever. Okay good. So it's instead. And put the sorted list and then you can do it all like this and now your run time will be well. Sorting takes and log in and ": [
+      535.2,
+      565.7,
+      11
+    ],
+    "square time. So my question to you was can we do it more efficiently. Did anybody have a chance to think about it? Okay, share your findings like the red interval with the rightmost and point. Oso, the one with the with the latest start time So this one? But what if the latest start time was like this little guy right here? And maybe not didn't even connect with ": [
+      110.6,
+      179.6,
+      2
+    ],
+    "still use the same strategy. There's nothing preventing us from saying request on this sub tree and we're curse on this sub tree. But we're not guaranteed that the problem is going to be divided in half anymore, right? Okay. so let's just kind of explore this using a example case of the example I'm going to do is called the least common ancestor. Okay, and what we're going to ": [
+      749.5,
+      780.4,
+      18
+    ],
+    "that we could possibly get. So let's try for that and see if it works. Thanks. Let's take a guess and we can check it based on. previous analysis Okay, so We we guess that it would take big oven Square. So let's try to prove it and we prove it using induction. Okay, and so in order to prove a big O bound we need to go back to ": [
+      1463.1,
+      1495.7,
+      37
+    ],
+    "the constraint is that there can be no repeats of numbers in each of the sub Square row or column the objective. It's sort of like the Queen's puzzle. It's that you're just trying to find a solution if one exists. Hopefully one does exist if you found a puzzle in a newspaper, but so the idea is sort of it's like almost the same kind of thing that you've ": [
+      2603.8,
+      2629.9,
+      70
+    ],
+    "the definition. Right? If f is big ol G. That means f is less than or equal to c x g for some constant see, you know for all and greater than some value. Okay. So I claimed that t of n is less than or equal to cm squared for all n greater than equal to one and that's eval you can be whatever I want. It just needs ": [
+      1495.7,
+      1518.6,
+      38
+    ],
+    "the idea is that so What are the points that's really important is where the first blue starts this point? and noticed that there will be no red interval that starts after that so that the red interval that ends the latest is also the red interval that is the longest in blues territory and that should be straightforward to prove and then once you prove that then that's that ": [
+      273.9,
+      309.6,
+      5
+    ],
+    "the solution as like a big tree. That's the solution space is a big tree and backtracking kind of cuts the tree when it's a dead end and doesn't look at all of the solutions that could come out of it because it knows it won't follow the constraints and you could maybe cut off a big portion of your solution space. Okay, another way to think about backtracking and ": [
+      2070.0,
+      2095.2,
+      54
+    ],
+    "then the rest of the algorithm has this recursion. Which should look familiar by now and this gives you an login. So then you get an login + 10 login as in login in the whole thing is in login. Which is good which is better than N squared which was the Brute Force any questions. Okay. so you're sort of a a summary a recap and sort of like ": [
+      565.7,
+      601.3,
+      12
+    ],
+    "think this one would be Queen starts here. And then you cancel out all of these and all of these and these guys and this guy. The next time you only have one choice and so on. Okay, so let's look at this video. how do I just so you haven't an idea of what it was how this thing looks. control-click I think so. I guess it's going to ": [
+      2470.7,
+      2533.1,
+      67
+    ],
+    "this is like a good way to approach the problem is this idea of reducing conquer? So we're going to basically do the same strategy we did for divide and conquer except for that. The sub problems are not going to be reduced in size by constant Factor. This probably going to be more like they get reduced in size by a car like a constant difference, right? So it ": [
+      2095.2,
+      2118.3,
+      55
+    ],
+    "through it. So I'm going to call LL stub tree in our sub tree. Just explore those routes. Let's think about the trees as a directed graph with edges pointing down. Right? So if you explore from those roots does children, you're just going to get all of the subtree, right? That's a good way to to kind of figure out what descendants there. Are you just getting all the ": [
+      1013.2,
+      1042.9,
+      26
+    ],
+    "to be fixed. It just needs to be a fix constant. So I'm going to pick it to be bigger than T of one and I'm going to pick up to be bigger than kind of the constant term of LR. I kind of like the overhead of what you have to do LR many times, or maybe you could think about it as like the cost to do one ": [
+      1518.6,
+      1540.1,
+      39
+    ],
+    "to comparisons. Rancho and over 2% of it to you have and comparisons total. questions about that so basically, what you would have to prove is that that red one that you chose is the best one to pick right that it's overlap with any of the Blues is better than any other red interval and I'm just going to give you more like an idea of the proof but ": [
+      228.9,
+      273.9,
+      4
+    ],
+    "to figure out all of the pairs where the least common ancestor is the route we have them all then you just recurse on the to sub list on the two subtrees the two children. See how that looks. Okay. So for each vertex be set lcav of our two equal to our right then for each pair of vertices u and v such that you was on the left ": [
+      958.0,
+      982.9,
+      24
+    ],
+    "to the last one and you change that number and your kind of that's why I've called backtracking cuz you kind of go back until you've you can change it again and then you try to find if you can figure it out and so on. I don't know. I don't know exactly what you do to generate it because I mean like you could generate one of these would ": [
+      2661.3,
+      2692.9,
+      72
+    ],
+    "what kind of pears are vertices will have the root as their least common ancestor? What do you mean one layer down? Okay, the children. Okay. So yeah anybody from the left and anybody from the right, right? so LCA of anybody in left anybody in right is equal to R anybody else. Okay any vertex with the root? Pretty much at okay. So the idea behind the algorithm is ": [
+      896.9,
+      958.0,
+      23
+    ],
+    "who know which interval do we take first or second? So greedy algorithms. They just pick it and never look back where it backtracking it kind of pics fix it but also looks to see if what would happen if you didn't pick it and saw it in that way you're sort of exploring all the possibilities. so add one way to think about backtracking is instead of looking at ": [
+      2006.3,
+      2039.5,
+      52
+    ],
+    "will imply that It's the best option to compared to everybody. Okay, so that's good. And so I drew up some slides that. That go over this this algorithm this subroutine overlap between that just does what we said and here's some pseudocode but I'm not going to really go over in detail. If you're if you're interested you can look through it. It's basically just what we said. Find ": [
+      309.6,
+      353.0,
+      6
+    ],
+    "work for Four Queens. Okay. So basically you want to recover Saint all possibilities of putting the queen in the top row. Okay. So if I put a queen here, right? then you basically kind of cancel out all of the squares that you can't put a queen in right? Okay, and you kind of RA curse on this little subgraph here? And the way you do that is you ": [
+      2361.1,
+      2407.2,
+      64
+    ],
+    "would happen if you still got to have the same height. I suppose so. Just kind of knots. And then the height of your feet. Oh, yeah. Oh, right, cuz you can have right you could have just as a line of end nose. But if you populated the whole tree of B2 to the end or or or what to the N minus 1 or something so you can ": [
+      1705.8,
+      1757.2,
+      44
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "02222019",
+  "Full Transcript": "Listen to a podcast.  Okay, how's this level?  volume level  All right. Let's get started here.  Check to make sure.  I have the right.  slides  nice  Okay.  Let's get started.  So last time if you all were call we were talking about this problem.  a finding the  Maximum overlap among pairs of intervals right and then sort them by their starting point and then split them in half that way and we came up with a way to walk. We're going to recruit on each side and get the the biggest overlap from each subset. And then the only thing that's left is to find the biggest overlap where you have one from the Reds and one from the blues we figured out there's an easy way to do it if you just compare every pair but that takes and square time. So my question to you was can we do it more efficiently. Did anybody have a chance to think about it?  Okay, share your findings like the red interval with the rightmost and point.  Oso, the one with the with the latest start time  So this one?  But what if the latest start time was like this little guy right here?  And maybe not didn't even connect with any of the Blues.  Yeah, I think in time is better right so find the red with the latest end time. How long is that take?  That's an over to comparisons, right?  Okay, then what do I do with that?  Compared to every single blue. Is that efficient?  How many Blues are there?  Andover to so you can pair this  interval with each one of the Blues  that's an over to comparisons.  Rancho and over 2% of it to you have and comparisons total.  questions about that  so  basically, what you would have to prove is that that red one that you chose is the best one to pick right that it's overlap with any of the Blues is better than any other red interval and  I'm just going to give you more like an idea of the proof but the idea is that  so  What are the points that's really important is where the first blue starts this point?  and noticed that there will be no red interval that starts after that so that the red interval that ends the latest is also the red interval that is the longest in blues territory and that should be straightforward to prove and then once you prove that then that's that will imply that  It's the best option to compared to everybody.  Okay, so that's good. And so  I drew up some slides that.  That go over this this algorithm this subroutine overlap between that just does what we said and here's some pseudocode but I'm not going to really go over in detail. If you're if you're interested you can look through it. It's basically just what we said.  Find Max and point.  Reds  and then this one is compared with all Blues.  and find Max  and then you just returned the maximum and then this would be kind of the the whole procedure.  Basically, you sort them by the a values right? You split the list in half based on the a values right? The left endpoints you do your two recursive calls.  And then you do you're in between call and then you just find the maximum of the three. So it makes sense.  So how long is it going to take the steaks and login, right?  I'm 2 recursive calls T of n / 2.  T of n / 2  and so this is my  runtime  Does anybody know how to solve that it's not really in the master theorem form?  No, you can get a tighter. You can get a tighter bound actually.  you can go through the recursion tree again, and you can you can kind of figure out how to  To get it and you can get this to be T of n is Big O of n log squared in.  You kind of think about why right because you have that extra and login in there.  Okay. Is there a way that I can improve on this run time?  Let's go back to the pseudocode.  Yeah, I don't know how how much better. It's going to get if you split it more. I'm thinking more about what's what's the thing. That's making it.  What kind of the heaviest non recursive part?  Yes.  So this is just kind of like a warning to you guys. Is that often times? If you if you sort something in order to kind of Leverage that order it's better to just sorted first and then take advantage of it instead of sorting it every time.  Cuz once it's sorted then it will be sorted forever.  Okay good. So it's instead.  And put the sorted list and then you can do it all like this and now your run time will be well.  Sorting takes and log in and then the rest of the algorithm has this recursion.  Which should look familiar by now and this gives you an login.  So then you get an login + 10 login as in login in the whole thing is in login.  Which is good which is better than N squared which was the Brute Force any questions.  Okay.  so  you're sort of a  a summary a recap and sort of like a very brief correctness proof kind of thing. So it's clear that the greatest overlap will be from two intervals either in the left half or two from the right half or one from the left and one from the right sort algorithm considers. All three of those cases there for should fission output the correct one.  Okay, let's move on to.  looking at trees, so  Trees have a really nice recursive structure already and so using divide and conquer on trees is a really good.  Strategy when you're trying to find trying to recursively find a certain property or a certain value associated with the tree. Okay. Mostly we're going to look at binary tree's but really this strategy can generalize to any tree you just kind of instead of just splitting it up into the two sub problems based on the two children you split it up into maybe three sub problems or whatever case of problems if the route has K children.  Okay, so  so let's say we have a full and balanced binary tree which basically means all the roads are filled and the bottom row has it all leaves all leaves are in the bottom row.  So if we want to know something about the route based on the rest of the tree when we can do is rudra curse on each of the children.  Nnn when I say recruits on the children. I'm really meeting recruiting on their whole subtree. But you can kind of think of each node as like a representative of its whole sub tree. So the route is the representative of the entire tree in each child is a representative of their little subtree.  Glad you can see if Ira curse on them. It's basically splitting the problem into two which is a lot like what we do with divide and conquer.  Notice that each child subtree is half of the problem. So you get a nice divide and conquer structure. Okay, not all trees are going to be nicely full and complete right? They might be uneven we can still use the same strategy. There's nothing preventing us from saying request on this sub tree and we're curse on this sub tree.  But we're not guaranteed that the problem is going to be divided in half anymore, right?  Okay.  so let's just kind of  explore this using a example case of the example I'm going to do is called the least common ancestor. Okay, and what we're going to be doing is filling up a matrix or an array with two indices X and Y and you want it to calculate the least common ancestor of X and Y for every pair of vertices, so what does that mean? It kind of means like if you're thinking about it in terms of a family tree think about it as your youngest common ancestor, right? So me and my brother are least common ancestor would be our parent me and my uncle are least common ancestor will be our grandparent and and you can be your own ancestor.  So me and my father's least common ancestor would be my father that kind of makes sense. So every pair of vertices will have at least common ancestor. I don't know me and somebody in this class are these coming ancestor? Maybe it's somebody who lived, you know, 10,000 years ago, or maybe you don't know maybe we're more related than you think and it's our least common ancestor could be somebody that lived in the past hundred years. Who knows?  Right. Okay, so  I don't know. I mean now we have all this DNA testing and data. Who knows?  Okay. So the let's let's approach this problem with the assumption that our tree is full and complete and balanced and then we'll talk about if if our tree is not balanced. The algorithm is still going to work just as well. The only thing that might change is the runtime so we'll talk about how to calculate the runtime with an unbalanced tree.  Okay, so let's talk about it first what pairs of vertices?  So this is the root are.  So what kind of pears are vertices will have the root as their least common ancestor?  What do you mean one layer down?  Okay, the children. Okay. So yeah anybody from the left and anybody from the right, right?  so LCA of  anybody  in left anybody  in right is equal to R anybody else.  Okay any vertex with the root?  Pretty much at okay. So the idea behind the algorithm is to figure out all of the pairs where the least common ancestor is the route we have them all then you just recurse on the to sub list on the two subtrees the two children.  See how that looks.  Okay. So for each vertex be set lcav of our two equal to our right then for each pair of vertices u and v such that you was on the left and V is on the right set LCA of UV to be equal to R.  Now, what are we done? Well, we've only considered pairs where there's least. Common ancestor is our how do we get all the rest of the pair's you just recurse?  Okay, so we curse on the left and right sub trees. So this is a pseudocode for what we do. Let's just kind of go through it. So I'm going to call LL stub tree in our sub tree.  Just explore those routes. Let's think about the trees as a directed graph with edges pointing down. Right? So if you explore from those roots does children, you're just going to get all of the subtree, right? That's a good way to to kind of figure out what descendants there. Are you just getting all the descendants.  Okay, then all the vertices in the left subtree. The LCA with ours are all the vertices in the right subtree LCA of RV is our and then you do like a double for Loop basically all pairs.  a vertices  with  one in hell and one in our  you said they're going to be our then you do your two recursive calls.  And then you're done like this is not an algorithm that returns anything it just kind of like populates an array, right? So I guess if you like before you run it, you could kind of initialize the array to like all zeros or something and then it will for populated any questions.  Okay.  So let's think about the run time.  If the binary tree is balanced then what are the sizes of these recursive calls?  So all of that stuff that I did before the recursive calls, you can kind of think of that as a space cases did I do? Oh, you're right I missed something tonight.  Okay. So yeah, you're right. So you need to say first I need to say LCA of our our is our right.  Is that all I need?  Middle terminate right because the Explorer wall.  Yeah, I guess I guess we should say.  if r r c  is  No.  or I guess we should say if our is no right if our is no  I don't know return nothing.  Is that good?  So that we can stop.  Now we're trying to find every single pair. We're going to populate the entire array.  ice the best  right  But it's still we should still try to look at what the runtime gives us.  But yeah, you can't really get any better than in square, right?  This is kind of getting  question  Explorer gives you all the vertices that you can reach from that vertex.  Okay, so imagine that we had that line there so that we can we can terminate.  Okay.  So if the binary tree is balanced than each recursive call is of size N - 1 / 2 or roughly half right? How long does the non recursive part take?  And squared right because of this thing.  It's going to be like 10 / 2 x + / 2.  or + - 1/2 squared operations  or Innovations  okay, so this is going to be all recursion and  you can kind of ignore the end minus one here and just think about it as an over two and plug it into the master theorem directly.  Can you get AIDS to be is to D is too and you get T of n is equal to Big O of N squared so that's good. And that's that's like what you kind of expect it to be.  Okay. So the next thing we're going to do is think about what happens when the when the tree is unbalanced right when we split in half or we put it to the two children. It's not necessarily going to cut the problem exactly in half.  So  if the binary tree is uneven then the run time now is T of n is t a l the left the size of the left half plus T of are the size of the right half priced plus Big O of l x are right because you're basically  comparing everybody in El to everybody in our so they'll take l x our operations.  So alright. So what do you think the total run time will be take a guess and we can check it. What do you want to base your guess on?  Maybe like what we just did with the complete binary tree, right? We know that the complete binary tree is a option is a is a possibility that the tree could be so in if we're trying to prove something in general then  the the one possibility that we've already looked at.  Could be a lower bound could be worse than General. We have no idea at this point. So why don't we guess when we try our best guess?  Basically, like you said before and square to sort of the lowest possible runtime that we could possibly get. So let's try for that and see if it works.  Thanks. Let's take a guess and we can check it based on.  previous  analysis  Okay, so  We we guess that it would take big oven Square. So let's try to prove it and we prove it using induction. Okay, and so in order to prove a big O bound we need to go back to the definition. Right? If f is big ol G. That means f is less than or equal to c x g for some constant see, you know for all and greater than some value. Okay. So I claimed that t of n is less than or equal to cm squared for all n greater than equal to one and that's eval you can be whatever I want. It just needs to be fixed. It just needs to be a fix constant. So I'm going to pick it to be bigger than T of one and I'm going to pick up to be bigger than kind of the constant term of LR. I kind of like the overhead of what you have to do LR many times, or maybe you could think about it as like the cost to do one of those iterations in that double for  Okay, so let's do some let's do the induction base case easy. It's true by choice of see now. Let's let's do a strong inductive hypothesis suppose that this run time is bounded by c k squared for all k then what do we have?  We have to then it's going to be.  less than T of L + T of our + CLR  And I'm saying less than because I know that sea is bigger than the constant term of that LR that big old LR thing questions about that.  Okay, so then the rest is just going through the algebra. So by the inductive hypothesis, this is less than or equal to C L squared plus c r squared plus c l r. Okay. Now let's just add in another CLR.  and we got this is less than or equal to C L squared plus c r squared plus 2 CLR  adding another one. Why did I do that?  Now you can now you can Factor right that's equal to c x l + r squared.  Now, what is L + r?  + -  and that's less than or equal to less than cm squared.  we got  Tia van less than siento which is what we wanted to show.  Play any questions.  But if you showed up and swear, it is like the maximum for the run time.  Yeah, it's upper bound.  We went this shows it is to Upper bound. But if you can actually argue it's a tight upper bound because you know that you can't get any better than in squared.  Unnecessary nose, make it fully balanced.  That would happen if you still got to have the same height.  I suppose so.  Just kind of knots.  And then the height of your feet.  Oh, yeah.  Oh, right, cuz you can have right you could have just as a line of end nose.  But if you populated the whole tree of B2 to the end or or or what to the N minus 1 or something so you can get exponentially more many more.  the point  what are the questions about this?  Okay good.  Okay, that's just what I have.  Okay. So the next thing we're going to do is  backtracking  I like putting backtracking here because it's kind of a kind of a nice segue from what is the what is the volume go up. Does somebody have like a remote control for this thing?  Or when you have no idea.  Play some Phantom is changing the volume.  Am I rubbing against it or something?  how to call the the guy  Okay, so backtracking what I like about it. It's a nice Segway from divide and conquer into dynamic programming and we'll kind of go over what it is when I can spend so much time on backtracking. It's not kind of like one of our main topics but it is a nice idea to utilize if you don't have anything better to do if you don't have any other better Solutions.  Okay backtracking. It's a generic method. Okay, so it it's more of like an idea of how to approach a problem.  And it's often I'll just talk to you right now. It's often not very efficient, but it can get the job done and it's usually slightly better than doing a route for okay.  It if you like if you like backtracking, it's it's a nice kind of first step towards building a dynamic programming problem strategy solution, but we'll talk about dynamic programming completely independent of backtracking also so you can kind of figure out what works well for you.  So if it's not very efficient in general, but it can be better than Brute Force.  And sometimes they can be really quick depending on the type of input and you can maybe get lucky and it works really fast. So it has like a wide range of run times based on the input where the worst case is usually exponential but you can maybe get something fast if you're lucky.  Okay, let's go back to these optimization problems. We have are our all of our things instant solution format constraints and objective.  now  if we're talking about a brute force or like an exhaustive search type algorithm that basically goes through all possibilities of your solution format. So it says is this is this, you know, generate all the solutions possible then check to see if it's a if all of the constraints if it does then, you know calculated subjective. If it doesn't follow the extract the constraints then throw it away. You can see that you're doing a bunch of unnecessary things because you're looking at even solutions that don't follow the constraints.  Okay, so like the like greedy algorithms do backtracking takes all of those Solutions in the solution format space breaks it down to a series of simpler local searches, right? Which exit do we take first then second or who know which interval do we take first or second?  So greedy algorithms. They just pick it and never look back where it backtracking it kind of pics fix it but also looks to see if what would happen if you didn't pick it and saw it in that way you're sort of exploring all the possibilities.  so  add one way to think about backtracking is instead of looking at all the solution for Matt possibilities you looking at all the solutions that follow the constraints and in that case you cut down by a by a lot in general maybe more. So depending on the problem.  Okay. So like I said before exhaustive search only looks at the solution format. We're at West backtracking kind of looks at the solution format and the constraints and you can think about the solution as like a big tree. That's the solution space is a big tree and backtracking kind of cuts the tree when it's a dead end and doesn't look at all of the solutions that could come out of it because it knows it won't follow the constraints and you could maybe cut off a big portion of your solution space.  Okay, another way to think about backtracking and this is like a good way to approach the problem is this idea of reducing conquer? So we're going to  basically do the same strategy we did for divide and conquer except for that. The sub problems are not going to be reduced in size by constant Factor. This probably going to be more like they get reduced in size by a car like a constant difference, right? So it might be like the solute the sub problems are a size + -1 or + -2 instead of in / 2 and that that dividing by two we've already seen that can make a big difference in efficiency. Whereas subtracting you usually going to get like a exponential time if you have to do more than one of the problems  Okay.  General idea is the same and we'll look at an example and you can kind of see what what I mean. Okay. So the first example we're going to look at is the eight Queens puzzle. Have you guys seen this before?  So Queen can attack.  In rows and columns and also along diagonals and so you want to put 8 Queens on a chessboard so that none of that no two pairs are attacking.  case of the solution format is  all Arrangements  of 8 Queens  and the constraint is no.2 are attacking.  And this one is not really an objective. It's not a optimization problem is just a search problem. It's a decision problem. Can this be done? And really you want to know if it can be done? How do you do it?  Okay, so  so if I just do a Brute Force you can think about it as well. There are 64 squares on the chessboard and each Queen gets to pick one of those squares. So the whole solution space is 64 to the 8th, which is this huge number and I didn't even it's so big that I didn't want to write it out. So I copied and pasted it from Wolfram Alpha Wolfram Alpha.  Well, then that's part of the constraint right so.  If you're kind of like just doing it kind of naively this would be the the thing but if you're right this was going to be my next thing.  If you put all the Queens such that no two queens occupy the same square now you have 64 Tuesday, and this is much much less still huge, but it's much less.  Okay, what else could we kind of how else can we save this number down?  Okay. So if you do know Queen on the same row then each Queen has you know has their own have a square and then and even more no Queen in the same column you get eight factorial which is  But then you're trying to find a problem. Right and that's harder to count. I think I like you like this is easy to count. So it's easy to generate all of those generator mall and then you check to see if it work. Okay good. So the backtracking neck that attacks the problem by considering one row at a time and it eliminates the subtree. It eliminates kind of the possible non Solutions like the dead ends before it searched them all.  Early in their construction so it kind of constructs each solution. And if you know, it's a dead end then just throw it away and move on.  Using this method now. You only have to look at 15720 possible.  Queen placements which is better than 40,000 but you know, it's this is kind of thing. It's like it's just slightly better. It's still kind of exponential in the the size of the problem.  Okay, let's look at how this problem would work for Four Queens.  Okay. So basically you want to recover Saint all possibilities of putting the queen in the top row. Okay. So if I put a queen here, right?  then you basically  kind of cancel out all of the squares that you can't put a queen in right?  Okay, and you kind of RA curse on this little subgraph here?  And the way you do that is you just go layer-by-layer, right? So then the the recursive call would would check those two these two squares in the second row.  Cancel everything out. And then once you cancelled out the entire chest board, you don't have to look any more, right?  Or really if you cancelled out any one of the single rose, then you know, you got you're at a dead end. So for example if the Second Step was  Well, I've done that.  Case of the next one I'm picking is this one right and you cancel out?  Why is it do that?  Cancel out all these.  Now you're stuck right because one of the Rose has been filled. So you just keep on doing this and keep checking to see if one of your rose has been completely canceled out.  Can I make sense?  I think this one would be Queen starts here. And then you cancel out all of these and all of these and these guys and this guy.  The next time you only have one choice and so on.  Okay, so  let's look at this video.  how do I  just so you haven't an idea of what it was how this thing looks.  control-click  I think so. I guess it's going to call him by call him. But you see it's kind of doing this recursive thing and trying to fill up the columns over and over again and  I found one. That's when it does that so.  how to find another one and so on so I don't know you could probably  code this up if you like the way I think the strength of these backtracking algorithms is their Simplicity really all you're doing is trying to get some initial Choice and then we cursing on that on each one of those.  Okay.  Get out of there.  slideshow from Priceline  Okay, here's another problem. You can solve with backtracking.  So you have this Sudoku puzzle, which is a partially filled in puzzle. The solution format is a grid with all squares filled with the numbers one through nine. Right and the constraint is that there can be no repeats of numbers in each of the sub Square row or column the objective. It's sort of like the Queen's puzzle. It's that you're just trying to find a solution if one exists. Hopefully one does exist if you found a puzzle in a newspaper, but  so the idea is sort of  it's like almost the same kind of thing that you've done with the Queens you go to your first available position. Maybe you read it from left to right row by row you put in the smallest possible number that could be they're using the constraints and then you just keep on going and keep filling it up at any point you find some space that can't be filled with any number then you kind of backtrack until you backtrack to the last one and you change that number and your kind of that's why I've called backtracking cuz you kind of go back until you've you can change it again and then you try to find if you can figure it out and so on.  I don't know.  I don't know exactly what you do to generate it because I mean like you could generate one of these would like some random thing right and figure it out. But then how do you know how many numbers to take away?  Are you programmed this over winter break his nose to board and ride. It was just a random number like driving with the ones place randomly and each of the squares.  Okay.  Yeah, I guess this wouldn't be so great at generating then because it is like you're the only putting the smallest number in it in NH time. So it's going to do like one through nine and then like 2 1 through 9, or I don't know it's going to kind of always generate the same one.  Okay. Well, maybe we should call it a day. So we're going to look at it. One more no, two more backtracking algorithms and then start on dynamic programming.  One concerning Cobra on what one the last one does it happen.  sandiego.edu ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02222019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-02222019-1500.mp3",
+  "File Name": "lecture_19.flac"
+}

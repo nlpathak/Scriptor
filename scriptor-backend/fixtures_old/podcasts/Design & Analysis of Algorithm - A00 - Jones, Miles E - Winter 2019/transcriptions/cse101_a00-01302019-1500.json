@@ -1,0 +1,397 @@
+{
+  "Blurbs": {
+    "But yeah, I know I mean if if that's what you consider best then yeah, that's that's the best way. So we're going to see here that some algorithms have a lot of may be obvious best choice choices, but they may not all lead to the optimal answer. Okay, so some other techniques that will will look at our backtracking dynamic programming hill climbing sarcastic search uristix. These are ": [
+      1969.2,
+      2000.8,
+      51
+    ],
+    "Can anybody give me a better solution? No, I so when I say solution, I mean a subset of 6. so another solution not another algorithm just another solution. Know the solution remember we did this solution for me. So in this case, the solution format is a subset of 6 cookies like solution of the problem. If you swapped go back. Okay, so if I swap 99 + 81 ": [
+      2404.0,
+      2457.2,
+      62
+    ],
+    "Force, right? So for example, if T is the set of the events and the number of events is n then checking all possibilities it would take. 2 to the end to the end we go to all the subsets check if it's valid and then store the the number and just do that for every single subset and then find the maximum out of all those okay, so I ": [
+      2899.2,
+      2934.3,
+      75
+    ],
+    "How much is 100 G? Chip Ahoy Okay, so you need 6 chip ahoys basically, yeah. Okay, so what's a good algorithm to do this? Take the biggest cookie. So this will be a greedy strategy take the biggest cookie remove it from the pile and then repeat six times, right? So, how would that look you take the biggest cookie? Okay, then remove it. o99 99 remove it 97 ": [
+      2116.7,
+      2161.8,
+      55
+    ],
+    "I think that this with Pat compression you actually get ackermann function as the upper bound but log star is easier and easier up or down to prove. It's still pretty slow. Any other questions? So if we improve Kroos goals then fine turns into. An amortized cost of log, * what does that mean? That just means when you average it over the whole algorithm. It will average out ": [
+      1227.7,
+      1264.4,
+      32
+    ],
+    "I would think that the for the minimum spanning tree now that that should not be directed has been on Spanish Retreat should always be undirected graph, which is your kind of thing where if if this one can communicate to that one then they should be able to communicate back and if you cut all the lines. wind direction exactly. Yeah exactly. You need to be able to but ": [
+      1554.9,
+      1587.0,
+      40
+    ],
+    "In same row and then the objective is the total size right only difference between put one more constraint on it. What if what is the algorithm you could use to select the best option? If you can't select two cookies from the same row or column can anybody give me a grease trap as you to do this? Take the biggest in all the sky 99. Okay good. And ": [
+      2282.7,
+      2319.8,
+      59
+    ],
+    "Listen to a podcast. Okay, good morning. I mean good afternoon everyone anybody have any questions before we begin? We're going to give you all the seating chart right for the quiz. Okay, so make sure you go to the quiz section that you are assigned to if there is a circumstance where you need to change sections then just let me know by email and I'll make sure that ": [
+      1.9,
+      91.3,
+      0
+    ],
+    "Okay, so furthermore for single problem. There might be one more than one greedy Choice best choice and one of them may work and one of them may not work. We we just saw that piece of the next example, we're going to look at I want you guys to get started on this is event scheduling. Okay. So suppose you're running a cookie conference and you have a collection ": [
+      2756.0,
+      2779.4,
+      71
+    ],
+    "Okay, so this is how they describe it in the book. I'm just going to give you guys like a an example of what it would look like. Okay, so let's just make up an example. Let's say that this tree has its height to okay. So let's say a is too and then we have B. 0 and a Sadie one. where's cc0 and I don't know maybe. Maybe ": [
+      574.2,
+      626.3,
+      15
+    ],
+    "Okay. So let's try to break down an optimization problem. You have your instance your input Your solution format. What is your output supposed to look like the constraints? What properties does your solution have to have an objective function? How do you know if given two solutions? How do you know one is better than the other? For example, let's think about shortest path but saying shortest path between ": [
+      1339.8,
+      1365.4,
+      35
+    ],
+    "So how many times do you have to log it over over and over until you get less than 1? next song So it turns out that. This is a very slow growing function. Okay, in fact if you want log star and be greater than 5 Uniden to be greater than 2 raised to the 65536 power. Which is really big, right? so super all reasonably sized graphs log ": [
+      1110.7,
+      1156.5,
+      29
+    ],
+    "What's the constraint? Willa path is a valid path. But where does it start and where does it end? Okay, good. So has two. start s and end At T I just called these S&T. Okay. Good and then what's the objective? What is the function like the objective is basically a function that you input and a solution and outputs a number. So this one is the path length, ": [
+      1406.6,
+      1459.2,
+      37
+    ],
+    "all ways that you take the big Global search and break it down to little local searches that you do in order to get there. Okay, so let's look at a very simple example. Okay suppose you the Cookie Monster and you have a 6 by 6 sheet of freshly baked cookies in front of you. The cookies are all chocolate chip cookies, but they may have different sizes. You're ": [
+      2000.8,
+      2028.7,
+      52
+    ],
+    "and a to get directly pointed to III even though it's already pointing to it. B 0 and then we have the rest, right? Pacer everybody along the path that I had to go up will point up to eat. Polynesian So as you go up. Every vertex that you encounter on your way up you redirect its parent to be directly to the root. We say it again. No, ": [
+      730.1,
+      796.7,
+      19
+    ],
+    "and sorting Izzy Lockey. right so we basically have like the runtime of the algorithm which is this plus how long it takes to sort and the result we get is Big O of elog V. Any questions about that? Because I log. e Is Big O of log V? or pig say that actually she just kind of put them all together. It's fine. Just makes it simpler to ": [
+      343.3,
+      400.8,
+      9
+    ],
+    "any questions about that. Okay good. So that sounds all of our operations. So now instead of finding the height of the tree we can actually change it to find being login Union being login. Where n is the number of vertices and so now the wrong times of crew schools will make set is 0 is big old one fine is Big O V Union is Big O V ": [
+      314.4,
+      343.3,
+      8
+    ],
+    "be the number and that would also be like the bandwidth of the path. And I guess I guess we should say. Objective is to maximize right? Maximize this thing where I was this one you want to minimize, right? Okay, so in a lot of algorithmic problems that we'll see in this class and a lot that you'll encounter does the space of solutions is exponential. So obviously you ": [
+      1700.1,
+      1740.0,
+      44
+    ],
+    "by using something called path compression. And the idea here. Is that every time you you see a Vertex every time you you're finding. White River when you find your you're climbing up until you see the route so as you climb up you do a bit of housekeeping and so every vertex on that, you just attach it directly to the root. And what does that do? It kind ": [
+      516.7,
+      545.8,
+      13
+    ],
+    "could you could just search through all the solutions exponentially large still is finite so you can still do it in finite time. And sometimes this is the best way to do it unless p is equal to NP the best algorithms that we have for certain problems are still exponential time. So a good way to make progress towards an efficient algorithm is to break that massive Global search ": [
+      1740.0,
+      1767.8,
+      45
+    ],
+    "cuz it's it's almost linear right? It's basically linear for any reasonably sized graph questions about that. Okay, let's move on. Greedy strategies talked about greedy strategies, but let's kind of talk about them anymore generality. Okay greedy strategies are usually used to solve optimization problems optimization problems are generally when you try to solve a problem you're trying to find the best solution. I'm on the water spacer possibilities. ": [
+      1300.1,
+      1338.7,
+      34
+    ],
+    "do that, I have to climb the tree in an end while I'm climbing the tree. Why don't I just keep on pointing everybody back to the route? Okay. So when I when I do find see the result would look like so I'm going to kind of Do something in here? queso I said C 0 and a point that to III right D1 gets directly pointed to III ": [
+      697.6,
+      730.1,
+      18
+    ],
+    "got when we did the greedy the other way. So this is just a demonstrate to you that to you that it might look like it's working but it's actually Not this this example was I took it from a book and it's actually very particularly chosen all the values. This turns out to be the worst possible one. So the greedy strategy gave you the worst possible selection of ": [
+      2597.1,
+      2628.6,
+      67
+    ],
+    "greedy method in some cases not all. There's like a sufficient structure in the actual problem where you can just blindly make the best local choice and it will get you to the to the right answer. Is it called the greedy method you can you can Define the greedy method for pretty much any problem whether or not it works is another case doesn't always work just as in ": [
+      1800.6,
+      1834.1,
+      47
+    ],
+    "greedy strategies and they both work and we're not going to prove them. But we all kind of have a good feeling that they were. Okay and then do you get 481 cookies? Okay. So what is what's the format for this one? It's the same right? You have your sheets? a cookies You got your solution format is a subset. Of 6 the constraints is that no two cookies. ": [
+      2253.0,
+      2280.6,
+      58
+    ],
+    "guess we'll start with this on Monday because Friday we're going to have our quiz and we'll talk about some different greedy strategy is which ones work which ones don't and See you guys on Friday. ": [
+      2934.3,
+      2948.9,
+      76
+    ],
+    "height zero and it's and it's rank is set to zero. So that's good. And then so suppose every vertex of rain K has has its height as K. So now consider a vertex of writing a plus one. The only way it can be ranked k + 1 is if you Union two vertices of rank K and if that happened then one of them would be K plus ": [
+      167.3,
+      195.9,
+      3
+    ],
+    "important. okay, so here is it just another one that I put okay. So here's the actual best solution for this problem. Okay. So the greedy algorithm gave us 404 the actual best solutions for 58. How do I get there while I'll let you guys think about how to do it the way I did it was not using a greedy strategy. Okay, I want to do one more ": [
+      2488.9,
+      2521.3,
+      64
+    ],
+    "improve the runtime of this discrete disjoint sets data structure? Is it actually going to improve the runtime of crystals? The answer is no. But suppose that the information comes in already sorted then we can improve on the time. Alex just say edges if edges Are already sorted? then it is worth it. Okay to the way to do it is by or one way to do it is ": [
+      466.9,
+      516.7,
+      12
+    ],
+    "in your best interest because in the longer term you may not do well on your exam. Anybody else? going to class because then you missed that date would that person and Are you are you starved or you you didn't get enough sleep? You dropped your laptop out the window. But how is that in your immediate best interest? How you dropped off the window from your apartment? Oh ": [
+      1869.3,
+      1916.2,
+      49
+    ],
+    "instead put 97 + 85 then, instead of 99 + 81 + 597 + 85 + that means it's going to be 99-81 is what 180? + 97 + 85 is 182 sweet Pecan up by 2. And that's it. I mean this might not be the best solution but it at least shows us that the the one our algorithm gave us is not the best and that's what's ": [
+      2457.2,
+      2488.9,
+      63
+    ],
+    "is what we got by doing it. Okay, if we get 404 Okay. So my question to you is is this the optimal strategy? Not necessarily, right? Okay. So every time you say it's not the optimal strategy, you have to come up with a counterexample. That's the best way to prove it right is just say, well there's this other solution that has a a better objective function. Okay. ": [
+      2374.7,
+      2404.0,
+      61
+    ],
+    "least two to the K vertices. So again, the only way that you can get a root of k + 1 is if you Union to rank a vertices and if each one of those subtrees has more than two to the K vertices and then when you put them together and has to the k+ to the K vertices or more. Okay, any questions about that? Okay, that's going ": [
+      255.3,
+      285.4,
+      6
+    ],
+    "life acting in one's immediate best interest is not always the best longer-term strategy. Does anybody have any examples? Not going to class. Wait, but how is that in one's immediate best interest? Cuz because you want to sleep or play video games or you forgot to have lunch and or are you wanted to meet up with somebody that you liked or? Yeah, but then it's might not be ": [
+      1834.1,
+      1869.3,
+      48
+    ],
+    "login where they're you know, when and is the number of vertices and so in order to show this let's prove it. So we proved it in with two different. Sprite with two with two claims for the first claim is that the ranks actually correspond to the heights of the trees and so here's an induction proof will just go over it quickly. A Vertex by itself has has ": [
+      134.6,
+      167.3,
+      2
+    ],
+    "look at. And it's not V Plessy anymore because the input remember is a connected graph and 4 connected graphs. He is big Omega of V. Okay, so so there's two components to kruskal's algorithm. There's the sorting and then there's the algorithm so it's this is really as best as we can do right because it takes just this long to sort it. Right. So sorting is sort of ": [
+      400.8,
+      439.0,
+      10
+    ],
+    "of events or talks people talk about which is their favorite cookie or this and that each of them has a start time and end time. Okay Ono you only have one conference room. So now you have to schedule as many stalks as possible. Okay? And none of them have to overlap. So how do we fill in this thing? The instance is a set of intervals. With a ": [
+      2779.4,
+      2810.0,
+      72
+    ],
+    "of shortens that shortens the tree. So every subsequent time you you you call that vertex again, you only have to go up once you don't have to go up the whole length of the tree anymore. Okay. So for each vertex, you only really have to go up the farthest length only one time every other time you look at it. You only have to go up one Edge. ": [
+      545.8,
+      571.4,
+      14
+    ],
+    "of the route. So that means next time I call find C. I only have to do one. one thing pretty smart though, right? Log of and lock up the highest number of elements. You got to Traverse through the many ways and so if you do a constant time thing while you're going up your not really adding two exponential asymptotic lie to your run time. So what is ": [
+      937.3,
+      983.7,
+      24
+    ],
+    "of vertices only on one level, right? And we're taking care of those those redirections during times when we have to do something anyway, so or like not really losing out. We go all the way up so member what fine does is you start at the vertex you're finding in this case see right? So what I'm going to do is I'm going to say okay redirect cease parent ": [
+      874.4,
+      912.3,
+      22
+    ],
+    "one and will be the height of the other tree plus that other Edge Drew like kind of a picture so suppose this tree has height k, and this tree also has hike k so then when we Union them together I may just do it like this. You are you add that edge right there? And now this has hiked a plus one and it says hike K and ": [
+      195.9,
+      228.4,
+      4
+    ],
+    "one more demonstration of this. So I suppose the Cookie Monster was going on a diet. Okay, but he still wanted to eat 6 cookies. But now the objective function is to minimize right? So what would the greedy strategy here be a might not work, but you could think about what I could do is pick the the smallest cookie, which is 40 cross out the row and column ": [
+      2521.3,
+      2551.3,
+      65
+    ],
+    "only allowed to take 6 cookies. How can you maximize your total cookie intake? Okay, let's so give you an example or let's first let's let's look at the breakdown. The instance is the the sizes of cookies But let's let's just assume that the Cookie Monster has the ability to determine the size of a cookie by just looking at it in constant time. The solution format is a ": [
+      2028.7,
+      2069.3,
+      53
+    ],
+    "optimization problem. Ready go. If you want you want me to put it on this again? I'm so damn real world situation with Max bandwidth the direct or indirect by direct communication. But we need to find out this way. I would say it's directed and I'm thinking more of like the the water flow kind of situation where the water can flow both directions through a pipe. So Yeah, ": [
+      1491.9,
+      1554.9,
+      39
+    ],
+    "or not real? You're still being greedy in whatever. Right. Yeah kind of greedy though. Right in a sense. You're like always picking the lowest one. to look at next and then if not yet because whatever when you take a column, what do you think of cookie? Would that work? Okay. Well, then you can't solve it with a greedy algorithm. Like what exactly you just have to change ": [
+      2668.3,
+      2720.4,
+      69
+    ],
+    "remove it 94 and then 92 and then 88th and then 85 and that's it, right? Okay, we're done. Okay. And then we're going to eat 555g of cookie. Okay, that's fine. Okay, what about if I'm restricted to only selecting one cookie from each row? What would be a greedy algorithm to do this? So start from the top row and pick the biggest cookie start from the second ": [
+      2161.8,
+      2202.3,
+      56
+    ],
+    "repeat. Okay. I didn't finish this animation. Okay, let's just do it this way. What's the next biggest 81 Right, and then the next biggest is what 74? Is that right? Okay, and then 50 * 60 and then 50 Oh, no. And then 40, right? Okay. So then we you can fill those in let's just move on a little bit. Alright, so this is what you get. This ": [
+      2319.8,
+      2374.7,
+      60
+    ],
+    "right then pick the next smallest which is 50 cross out the row and column. Then pick the next smallest, which is 60. Knock out the row and column. The next smallest is. 74 and then the next smallest is 81. The next smallest is 99. You guys notice anything about this solution? was that Yeah, we took the largest cookie. But what else? The same exact solution that we ": [
+      2551.3,
+      2597.1,
+      66
+    ],
+    "row and pick the biggest cookie start from the third row or alternatively pick the biggest cookie overall and then remove it roll, right? Then pick the next biggest cookie overall and remove its Roe. Frank and then pick the next one which is what 75? 80 Chopra and then what 75? 7076 and then 70 weight 73 hair and then 68. Thank you. Okay, great. So those are both ": [
+      2202.3,
+      2253.0,
+      57
+    ],
+    "sense of why the shortest path problem and the max bandwidth problem are so similar. Do you remember we used like basically the same dijkstra type algorithm to solve them both, right? Because all of all of the solution format is the same and basically what the kind of the scaffolding that we used was Graph Search. And what is Graph Search give you That's right. Exactly the type of ": [
+      1631.9,
+      1661.2,
+      42
+    ],
+    "set. a subset of 6 constraints are no constraints. And the objective is to maximize. the sum of all the sizes of all the cookies I just put to see. Where cookie is in your subset? Okay, let's look at an example. What kind of algorithm would I use let's say that these are the the size of the cookies in. grams But those are very small cookie. So right. ": [
+      2069.3,
+      2114.3,
+      54
+    ],
+    "sew so suppose I did a bunch of unions and this this tree was the result right now. Yes, the result of doing a bunch of stuff and then the next operation was fine to see and show up at finding it you basically just every every vertex along the way you just redirected to the route. yeah, yeah, because remember Union is Define to find each vertex first and ": [
+      796.7,
+      836.7,
+      20
+    ],
+    "six cookies with the constraints. Are usually doesn't give us the optimal temperature inside the house. Yeah, so that's how you describe the greedy algorithm whether or not it gives you the optimal solution is what we're going to have to do to prove it. I mean for this problem, there's a straightforward transmission you can do. And usually can you commission and then what you're doing is the real ": [
+      2628.6,
+      2668.3,
+      68
+    ],
+    "solution that we want. Okay, what was the objective again? The minimum overall edges in the path? weight of edge So the objective function is not doesn't tell you the you know, the optimal thing the objective function all it does it tells you how to compare two solutions to potential Solutions. So it's a function that you plug in a solution that gives you a number so that would ": [
+      1661.2,
+      1700.1,
+      43
+    ],
+    "spend so it's kind of like a funny way to think about it. But the idea is that now instead of having a Having a cost every time you find a view every time you run fine. We're going to look at an amortized cost of how long does it take to run find m x song. Whenever you call the vortex at points B and all of its ancestors ": [
+      1007.2,
+      1035.7,
+      26
+    ],
+    "star and is basically constant. I'm right because it has this upper bound of four, right? You're you're not really going to get any inputs that are bigger than this. can't really think of I mean how many particles are there in the universe? There's only like two to the 200 or something, right? Anybody know? any physicists in here are fairly confident that to to the 65536 is more ": [
+      1156.5,
+      1194.8,
+      30
+    ],
+    "start time and a finish time. What's the solution for Matt? I guess we could do like start one finish one start to finish two and so on. start and finish in what's the solution format? Okay good so subset. of intervals What's the constraint? best objective Okay good. So they right they don't. overlap And then the objective is maximized. size of subset so I like to do it ": [
+      2810.0,
+      2878.6,
+      73
+    ],
+    "than the number of atoms in the universe. So if you have a graph that has all the atoms connected and stuff like that then it's still you still would have log star that number to be equal to 4. I forgot where I was reading but with one star. Inverse ackermann function actually grows slower than lockstar so loved stars like an upper bound of inverse Ackerman. and actually ": [
+      1194.8,
+      1227.7,
+      31
+    ],
+    "that kind of Brute Force search into a series of like simple local searches where hopefully at each stage we're kind of getting closer and closer to the optimal solution. If you can't tell which local choices best, you may still have to kind of search all possible choices, but at least you're sort of doing it intelligently instead of just asking about every single possible solution. Okay, so the ": [
+      1767.8,
+      1800.6,
+      46
+    ],
+    "the K plus one comes from that added Edge Plus the height of that other tree. Okay. So the other thing that we wanted to show is that any routenote of rank K has at least two the caver to seize. This is a simple induction proof to a root node has only one vertex and has ranked 0 And let's suppose that a root of Frank K has at ": [
+      228.4,
+      255.3,
+      5
+    ],
+    "the bottleneck. So if we do any improvements on kruskal's algorithm, it won't improve the overall run time anymore. If we were able to do the the whole process in linear time, the whole algorithm is still going to take elog be because that's how how long it takes to sort. But that being said we are going to think about can we improve the runtime of Union? Can we ": [
+      439.0,
+      466.9,
+      11
+    ],
+    "the cost of calling find X is M log * m n so have you guys heard of log star before? Okay log star and is the number of times you have to log in to get back to 1? Okay. So for example log star of 10,000 is 4 because log of 10,000 is 13 log log 10003 log log log is 1.9 + log log log log 8.9. ": [
+      1066.1,
+      1109.1,
+      28
+    ],
+    "the what is the runtime now this thing we're not going to go too deep into it cuz it's kind of like. I don't know it takes a while but it is given in the book and you can take a look and they do give you a A nice little analogy of like giving the vertices like money to spend and then like how much money did each vertex ": [
+      983.7,
+      1007.2,
+      25
+    ],
+    "the what was the last Union that I did with this tree? the union the two trees together the the the route and the route e Okay. Anyhow, so we have this tree and let's say the operation than I call is. find see So you just finding see all I want to Output is a I want to me. I want to Output the route. But in order to ": [
+      662.6,
+      697.6,
+      17
+    ],
+    "then when you call those finds you You you clean up. P0880 because they're not on the path of see it's it's it's it's dependent on like what operation I'm doing. So if later I I did find B, then then be would be to redirected also, yeah. So after a while if you find enough things the result is just going to be a root node with a bunch ": [
+      836.7,
+      874.4,
+      21
+    ],
+    "this one but Mac bandwidth is like how much can I push through this network in the network has to be directed so I know which direction they go. Now. Maybe there is a to a pipe that goes this way and a pipe that goes back that could be the case and I could have different bandwidth. Is that what you guys got? This is this gives you a ": [
+      1587.0,
+      1631.9,
+      41
+    ],
+    "this way because this gives you a sense of like the size of the problem the solution space here is all subsets when we all know that the number of subsets of a set of size and is 2 to the end. So at least we know kind of what we're working with and and how we should. How was your week consider a solution to be better than Brute ": [
+      2878.6,
+      2899.2,
+      74
+    ],
+    "to be the root. And then I move up to Dee and I say okay read DirecTV's parent to be the root. Okay, then I move up to a and I say redirect a parent to be the root and then move out to eat and I found the route so then I'm done. So everybody along the way you just redirect them all to be the child direct child ": [
+      912.3,
+      937.3,
+      23
+    ],
+    "to give us a bound. Okay Suppose there and vertices. Hobart XR Bank login has at least and vertices. Right? So if you have a vertex of rank anything bigger than login, it's going to have at least more than and vertices. So basically what I'm saying here, is that the hot the the maximum height you can have is login. And then that that balance all of our operations ": [
+      285.4,
+      314.4,
+      7
+    ],
+    "to log star. And Union is also a more ties to lock star. so basically now we get that the out running the algorithm is elog * n we still have this bottleneck of sorting but if we take if if we assume that all the information comes in sorted then we get you know, Big O of log star. And which I like to call Lenny or Star time ": [
+      1264.4,
+      1300.1,
+      33
+    ],
+    "to the root the ranks don't necessarily represent the height of the graph anymore. So that's sort of lost right because the grass are going to start getting shorter and shorter, but at least they're there an upper bound on how high by the tree is so that's a no Okay. So how much does it help so without pack compression the height will be log and with Pat compression ": [
+      1035.7,
+      1066.1,
+      27
+    ],
+    "two points in a graph. between two points Taste of the instance is going to be a graph. start node and endnote Right and maybe you have positive Edge weights or something like that, right? But that's just the information given so what's the solution for Matt? What is the solution going to look like in general? Okay a list of vertices or a list of edges write a path. ": [
+      1365.4,
+      1404.2,
+      36
+    ],
+    "we'll make a tree of hike three. So it's a we have e is 3 and then we have f 0 Angie 1 + H20 read so let's say we had that tree and I might have it might look kind of weird the way that I built it, but I'm trying to have a tree that's actually able to be built using the Union's right? And so what was ": [
+      626.3,
+      662.6,
+      16
+    ],
+    "what the word greedy mean or what the quote on quote Best Choice is at Eastpoint. Good. good observation Okay. So let's just go through this a few more slides here. So doesn't always work and because of that right like you were staying up there. We have to prove that works. Once we once we make it right or else we must present a counterexample like we did before. ": [
+      2720.4,
+      2754.6,
+      70
+    ],
+    "which is the the sum of all the edge lengths, right? For the sum of all the edges in the path the length of the edge. questions about that Okay, so that's what we have right? Yeah. Okay. I want you guys to think think for a few minutes. How would you fill in the details for the max bandwidth path problem? I'll give you a hint. This is a ": [
+      1459.2,
+      1491.9,
+      38
+    ],
+    "wow. So you say you saved yourself the the the manual labor of walking it down the stairs and you gained you gain do that. But then you lost in the longer-term maybe a financial burden. Okay. But anybody have any examples of when acting in your best, your immediate been best interest is actually better for the long-term. Okay looking for internship. Yeah. If you're giving up having fun. ": [
+      1916.2,
+      1965.9,
+      50
+    ],
+    "you're on the other on the other seating chart. Any other questions? Okay. So the last part of Monday's lecture I kind of went through it a little fast, but let's just revisit it. We did a few proofs. and these proofs were supposed to Justify why the heights of the trees will stay short, right? We wanted the heights of the trees. Never to get any any taller than ": [
+      91.3,
+      134.6,
+      1
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01302019",
+  "Full Transcript": "Listen to a podcast. Okay, good morning. I mean good afternoon everyone anybody have any questions before we begin? We're going to give you all the seating chart right for the quiz. Okay, so make sure you go to the quiz section that you are assigned to if there is a circumstance where you need to change sections then just let me know by email and I'll make sure that you're on the other on the other seating chart.  Any other questions?  Okay. So the last part of Monday's lecture I kind of went through it a little fast, but let's just revisit it.  We did a few proofs.  and these proofs were supposed to  Justify why the heights of the trees will stay short, right? We wanted the heights of the trees. Never to get any any taller than login where they're you know, when and is the number of vertices and so in order to show this let's prove it. So we proved it in with two different.  Sprite with two with two claims for the first claim is that the ranks actually correspond to the heights of the trees and so here's an induction proof will just go over it quickly.  A Vertex by itself has has height zero and it's and it's rank is set to zero. So that's good. And then so suppose every vertex of rain K has has its height as K. So now consider a vertex of writing a plus one. The only way it can be ranked k + 1 is if you Union two vertices of rank K and if that happened then one of them would be K plus one and will be the height of the other tree plus that other Edge Drew like kind of a picture so suppose this tree has height k,  and this tree also has hike k  so then when we Union them together  I may just do it like this.  You are you add that edge right there? And now this has hiked a plus one and it says hike K and the K plus one comes from that added Edge Plus the height of that other tree.  Okay. So the other thing that we wanted to show is that any routenote of rank K has at least two the caver to seize. This is a simple induction proof to a root node has only one vertex and has ranked 0  And let's suppose that a root of Frank K has at least two to the K vertices. So again, the only way that you can get a root of k + 1 is if you Union to rank a vertices and if each one of those subtrees has more than two to the K vertices and then when you put them together and has to the k+ to the K vertices or more.  Okay, any questions about that?  Okay, that's going to give us a bound.  Okay Suppose there and vertices.  Hobart XR Bank login has at least and vertices. Right? So if you have a vertex of rank anything bigger than login, it's going to have at least more than and vertices. So basically what I'm saying here, is that the hot the the maximum height you can have is login.  And then that that balance all of our operations any questions about that.  Okay good. So that sounds all of our operations. So now instead of finding the height of the tree we can actually change it to find being login Union being login.  Where n is the number of vertices and so now the wrong times of crew schools will make set is 0 is big old one fine is Big O V Union is Big O V and sorting Izzy Lockey.  right  so  we basically have like the runtime of the algorithm which is this plus how long it takes to sort and the result we get is Big O of elog V.  Any questions about that?  Because I log.  e  Is Big O of log V?  or pig say that actually  she just kind of put them all together.  It's fine.  Just makes it simpler to look at.  And it's not V Plessy anymore because the input remember is a connected graph and 4 connected graphs.  He is big Omega of V.  Okay, so so there's two components to kruskal's algorithm. There's the sorting and then there's the algorithm so it's this is really as best as we can do right because it takes just this long to sort it. Right. So sorting is sort of the bottleneck. So if we do any improvements on kruskal's algorithm, it won't improve the overall run time anymore. If we were able to do the the whole process in linear time, the whole algorithm is still going to take elog be because that's how how long it takes to sort.  But that being said we are going to think about can we improve the runtime of Union? Can we improve the runtime of this discrete disjoint sets data structure?  Is it actually going to improve the runtime of crystals? The answer is no.  But suppose that the information comes in already sorted then we can improve on the time.  Alex just say edges if edges  Are already sorted?  then  it is worth it.  Okay to the way to do it is by or one way to do it is by using something called path compression.  And the idea here. Is that every time you you see a Vertex every time you you're finding.  White River when you find your you're climbing up until you see the route so as you climb up you do a bit of housekeeping and so every vertex on that, you just attach it directly to the root. And what does that do? It kind of shortens that shortens the tree. So every subsequent time you you you call that vertex again, you only have to go up once you don't have to go up the whole length of the tree anymore. Okay. So for each vertex, you only really have to go up the farthest length only one time every other time you look at it.  You only have to go up one Edge.  Okay, so this is how they describe it in the book. I'm just going to give you guys like a an example of what it would look like. Okay, so let's just make up an example.  Let's say that this tree has its height to okay. So let's say a is too and then we have B.  0  and a Sadie one.  where's cc0 and  I don't know maybe.  Maybe we'll make a tree of hike three. So it's a we have e  is 3  and then we have  f  0  Angie 1 + H20  read so let's say we had that tree and I might have it might look kind of weird the way that I built it, but I'm trying to have a tree that's actually able to be built using the Union's right? And so what was the what was the last Union that I did with this tree?  the union the two trees together the the the route and the route e  Okay. Anyhow, so we have this tree and let's say the operation than I call is.  find  see  So you just finding see all I want to Output is a I want to me. I want to Output the route. But in order to do that, I have to climb the tree in an end while I'm climbing the tree. Why don't I just keep on pointing everybody back to the route? Okay. So when I when I do find see the result would look like so I'm going to kind of  Do something in here?  queso  I said C 0 and a point that to III right D1 gets directly pointed to III and a to get directly pointed to III even though it's already pointing to it.  B 0 and then we have the rest, right?  Pacer everybody along the path that I had to go up will point up to eat.  Polynesian  So as you go up.  Every vertex that you encounter on your way up you redirect its parent to be directly to the root.  We say it again.  No, sew so suppose I did a bunch of unions and this this tree was the result right now.  Yes, the result of doing a bunch of stuff and then the next operation was fine to see and show up at finding it you basically just every every vertex along the way you just redirected to the route.  yeah, yeah, because remember Union is Define to find each vertex first and then when you call those finds you  You you clean up.  P0880 because they're not on the path of see it's it's it's it's dependent on like what operation I'm doing. So if later I I did find B, then then be would be to redirected also, yeah.  So after a while if you find enough things the result is just going to be a root node with a bunch of vertices only on one level, right?  And we're taking care of those those redirections during times when we have to do something anyway, so or like not really losing out.  We go all the way up so member what fine does is you start at the vertex you're finding in this case see right? So what I'm going to do is I'm going to say okay redirect cease parent to be the root.  And then I move up to Dee and I say okay read DirecTV's parent to be the root. Okay, then I move up to a and I say redirect a parent to be the root and then move out to eat and I found the route so then I'm done. So everybody along the way you just redirect them all to be the child direct child of the route. So that means next time I call find C. I only have to do one.  one thing  pretty smart though, right?  Log of and lock up the highest number of elements.  You got to Traverse through the many ways and so if you do a constant time thing while you're going up your not really adding two exponential asymptotic lie to your run time.  So what is the what is the runtime now this thing we're not going to go too deep into it cuz it's kind of like.  I don't know it takes a while but it is given in the book and you can take a look and they do give you a  A nice little analogy of like giving the vertices like money to spend and then like how much money did each vertex spend so it's kind of like a funny way to think about it. But the idea is that now instead of having a  Having a cost every time you find a view every time you run fine. We're going to look at an amortized cost of how long does it take to run find m x song.  Whenever you call the vortex at points B and all of its ancestors to the root the ranks don't necessarily represent the height of the graph anymore. So that's sort of lost right because the grass are going to start getting shorter and shorter, but at least they're there an upper bound on how high by the tree is so that's a no  Okay. So how much does it help so without pack compression the height will be log and with Pat compression the cost of calling find X is M log * m n  so have you guys heard of log star before?  Okay log star and is the number of times you have to log in to get back to 1?  Okay.  So for example  log star of 10,000 is 4 because log of 10,000 is 13 log log 10003 log log log is 1.9 + log log log log 8.9.  So how many times do you have to log it over over and over until you get less than 1?  next song  So it turns out that.  This is a very slow growing function.  Okay, in fact if you want log star and be greater than 5 Uniden to be greater than 2 raised to the 65536 power.  Which is really big, right?  so  super all reasonably sized graphs log star and is basically constant. I'm right because it has this upper bound of four, right? You're you're not really going to get any inputs that are bigger than this.  can't really think of  I mean how many particles are there in the universe? There's only like two to the 200 or something, right?  Anybody know?  any physicists in here  are fairly confident that to to the 65536 is more than the number of atoms in the universe. So if you have a graph that has all the atoms connected and stuff like that then it's still you still would have log star that number to be equal to 4.  I forgot where I was reading but with one star.  Inverse ackermann function actually grows slower than lockstar so loved stars like an upper bound of inverse Ackerman.  and actually I think that  this with Pat compression you actually get ackermann function as the upper bound but log star is easier and easier up or down to prove.  It's still pretty slow.  Any other questions?  So if we improve Kroos goals then fine turns into.  An amortized cost of log, * what does that mean? That just means when you average it over the whole algorithm. It will average out to log star. And Union is also a more ties to lock star.  so basically now we get that the out running the algorithm is elog * n  we still have this bottleneck of sorting but if we take if if we assume that all the information comes in sorted then we get you know, Big O of log star.  And which I like to call Lenny or Star time cuz it's it's almost linear right? It's basically linear for any reasonably sized graph questions about that.  Okay, let's move on.  Greedy strategies talked about greedy strategies, but let's kind of talk about them anymore generality. Okay greedy strategies are usually used to solve optimization problems optimization problems are generally when you try to solve a problem you're trying to find the best solution. I'm on the water spacer possibilities.  Okay. So let's try to break down an optimization problem. You have your instance your input Your solution format. What is your output supposed to look like the constraints? What properties does your solution have to have an objective function? How do you know if given two solutions? How do you know one is better than the other?  For example, let's think about shortest path but saying shortest path between two points in a graph.  between two points  Taste of the instance is going to be a graph.  start  node and endnote  Right and maybe you have positive Edge weights or something like that, right? But that's just the information given so what's the solution for Matt? What is the solution going to look like in general?  Okay a list of vertices or a list of edges write a path.  What's the constraint?  Willa path is a valid path.  But where does it start and where does it end?  Okay, good. So has two.  start  s and end  At T I just called these S&T. Okay.  Good and then what's the objective?  What is the function like the objective is basically a function that you input and a solution and outputs a number.  So this one is  the path length, which is the the sum of all the edge lengths, right?  For the sum of all the edges in the path the length of the edge.  questions about that  Okay, so that's what we have right? Yeah. Okay. I want you guys to think think for a few minutes. How would you fill in the details for the max bandwidth path problem?  I'll give you a hint. This is a optimization problem. Ready go.  If you want you want me to put it on this again?  I'm so damn real world situation with Max bandwidth the direct or indirect by direct communication.  But we need to find out this way. I would say it's directed and I'm thinking more of like the the water flow kind of situation where  the water can flow both directions through a pipe. So  Yeah, I would think that the for the minimum spanning tree now that that should not be directed has been on Spanish Retreat should always be undirected graph, which is your kind of thing where if if this one can communicate to that one then they should be able to communicate back and if you cut all the lines.  wind direction  exactly. Yeah exactly. You need to be able to  but this one but Mac bandwidth is like how much can I push through this network in the network has to be directed so I know which direction they go. Now. Maybe there is a to a pipe that goes this way and a pipe that goes back that could be the case and I could have different bandwidth.  Is that what you guys got?  This is this gives you a sense of why the shortest path problem and the max bandwidth problem are so similar. Do you remember we used like basically the same dijkstra type algorithm to solve them both, right? Because all of all of the solution format is the same and basically what the kind of the scaffolding that we used was Graph Search. And what is Graph Search give you  That's right. Exactly the type of solution that we want.  Okay, what was the objective again? The minimum overall edges in the path?  weight of edge  So the objective function is not doesn't tell you the you know, the optimal thing the objective function all it does it tells you how to compare two solutions to potential Solutions. So it's a function that you plug in a solution that gives you a number so that would be the number and that would also be like the bandwidth of the path.  And I guess I guess we should say.  Objective is to maximize right?  Maximize this thing where I was this one you want to minimize, right?  Okay, so  in a lot of algorithmic problems that we'll see in this class and a lot that you'll encounter does the space of solutions is exponential. So obviously you could you could just search through all the solutions exponentially large still is finite so you can still do it in finite time. And sometimes this is the best way to do it unless p is equal to NP the best algorithms that we have for certain problems are still exponential time. So a good way to make progress towards an efficient algorithm is to break that massive Global search that kind of Brute Force search into a series of like simple local searches where hopefully at each stage we're kind of getting closer and closer to the optimal solution.  If you can't tell which local choices best, you may still have to kind of search all possible choices, but at least you're sort of doing it intelligently instead of just asking about every single possible solution.  Okay, so the greedy method in some cases not all.  There's like a sufficient structure in the actual problem where you can just blindly make the best local choice and it will get you to the to the right answer.  Is it called the greedy method you can you can Define the greedy method for pretty much any problem whether or not it works is another case doesn't always work just as in life acting in one's immediate best interest is not always the best longer-term strategy. Does anybody have any examples?  Not going to class.  Wait, but how is that in one's immediate best interest?  Cuz because you want to sleep or play video games or you forgot to have lunch and or are you wanted to meet up with somebody that you liked or?  Yeah, but then it's might not be in your best interest because in the longer term you may not do well on your exam.  Anybody else?  going to class because then you missed that date would that person and  Are you are you starved or you you didn't get enough sleep?  You dropped your laptop out the window.  But how is that in your immediate best interest?  How you dropped off the window from your apartment?  Oh wow.  So you say you saved yourself the the the manual labor of walking it down the stairs and you gained you gain do that. But then you lost in the longer-term maybe a financial burden.  Okay.  But anybody have any examples of when acting in your best, your immediate been best interest is actually better for the long-term.  Okay looking for internship.  Yeah.  If you're giving up having fun.  But yeah, I know I mean if if that's what you consider best then yeah, that's that's the best way. So we're going to see here that some algorithms have a lot of may be obvious best choice choices, but they may not all lead to the optimal answer.  Okay, so some other techniques that will will look at our backtracking dynamic programming hill climbing sarcastic search uristix. These are all ways that you take the big Global search and break it down to little local searches that you do in order to get there.  Okay, so let's look at a very simple example. Okay suppose you the Cookie Monster and you have a 6 by 6 sheet of freshly baked cookies in front of you. The cookies are all chocolate chip cookies, but they may have different sizes.  You're only allowed to take 6 cookies. How can you maximize your total cookie intake? Okay, let's so give you an example or let's first let's let's look at the breakdown. The instance is the  the sizes  of cookies  But let's let's just assume that the Cookie Monster has the ability to determine the size of a cookie by just looking at it in constant time.  The solution format is a set.  a subset  of 6 constraints are no constraints.  And the objective is to maximize.  the sum of all the sizes of all the cookies  I just put to see.  Where cookie is in your subset?  Okay, let's look at an example.  What kind of algorithm would I use let's say that these are the the size of the cookies in.  grams  But those are very small cookie. So right.  How much is 100 G?  Chip Ahoy  Okay, so you need 6 chip ahoys basically, yeah.  Okay, so what's a good algorithm to do this?  Take the biggest cookie.  So this will be a greedy strategy take the biggest cookie remove it from the pile and then repeat six times, right? So, how would that look you take the biggest cookie? Okay, then remove it.  o99  99 remove it 97 remove it 94  and then 92 and then  88th and then 85 and that's it, right? Okay, we're done.  Okay.  And then we're going to eat 555g of cookie. Okay, that's fine.  Okay, what about if I'm restricted to only selecting one cookie from each row? What would be a greedy algorithm to do this?  So start from the top row and pick the biggest cookie start from the second row and pick the biggest cookie start from the third row or alternatively pick the biggest cookie overall and then remove it roll, right?  Then pick the next biggest cookie overall and remove its Roe.  Frank and then pick the next one which is what 75?  80 Chopra  and then what 75?  7076  and then  70  weight 73 hair  and then 68. Thank you.  Okay, great. So those are both greedy strategies and they both work and we're not going to prove them. But we all kind of have a good feeling that they were. Okay and then do you get 481 cookies? Okay. So what is what's the format for this one? It's the same right? You have your sheets?  a cookies  You got your solution format is a subset.  Of 6 the constraints is that no two cookies.  In same row and then the objective is the total size right only difference between put one more constraint on it.  What if what is the algorithm you could use to select the best option? If you can't select two cookies from the same row or column can anybody give me a grease trap as you to do this?  Take the biggest in all the sky 99.  Okay good.  And repeat. Okay. I didn't finish this animation. Okay, let's just do it this way. What's the next biggest 81  Right, and then the next biggest is what 74?  Is that right?  Okay, and then  50 * 60  and then 50  Oh, no.  And then 40, right?  Okay.  So then we you can fill those in let's just move on a little bit. Alright, so this is what you get. This is what we got by doing it. Okay, if we get 404  Okay. So my question to you is is this the optimal strategy?  Not necessarily, right? Okay. So every time you say it's not the optimal strategy, you have to come up with a counterexample. That's the best way to prove it right is just say, well there's this other solution that has a a better objective function. Okay. Can anybody give me a better solution?  No, I so when I say solution, I mean a subset of 6.  so another  solution not another algorithm just another solution.  Know the solution remember we did this solution for me.  So in this case, the solution format is a subset of 6 cookies like solution of the problem.  If you swapped go back.  Okay, so if I swap 99 + 81 instead put 97 + 85 then, instead of 99 + 81 + 597 + 85 + that means it's going to be 99-81 is what 180?  + 97 + 85 is 182 sweet Pecan up by 2. And that's it. I mean this might not be the best solution but it at least shows us that the the one our algorithm gave us is not the best and that's what's important.  okay, so here is it just another one that I put  okay. So here's the actual best solution for this problem. Okay. So the greedy algorithm gave us 404 the actual best solutions for 58. How do I get there while I'll let you guys think about how to do it the way I did it was not using a greedy strategy.  Okay, I want to do one more one more demonstration of this. So I suppose the Cookie Monster was going on a diet. Okay, but he still wanted to eat 6 cookies. But now the objective function is to minimize right? So what would the greedy strategy here be a might not work, but you could think about what I could do is pick the the smallest cookie, which is 40 cross out the row and column right then pick the next smallest which is 50 cross out the row and column.  Then pick the next smallest, which is 60.  Knock out the row and column. The next smallest is.  74  and then the next smallest is 81.  The next smallest is 99.  You guys notice anything about this solution?  was that  Yeah, we took the largest cookie. But what else?  The same exact solution that we got when we did the greedy the other way. So this is just a demonstrate to you that to you that it might look like it's working but it's actually  Not this this example was I took it from a book and it's actually very particularly chosen all the values. This turns out to be the worst possible one. So the greedy strategy gave you the worst possible selection of six cookies with the constraints.  Are usually doesn't give us the optimal temperature inside the house.  Yeah, so that's how you describe the greedy algorithm whether or not it gives you the optimal solution is what we're going to have to do to prove it.  I mean for this problem, there's a straightforward transmission you can do.  And usually can you commission and then what you're doing is the real or not real?  You're still being greedy in whatever.  Right. Yeah kind of greedy though. Right in a sense. You're like always picking the lowest one.  to look at next  and then if not yet because whatever when you take a column, what do you think of cookie?  Would that work? Okay. Well, then you can't solve it with a greedy algorithm. Like what exactly you just have to change what the word greedy mean or what the quote on quote Best Choice is at Eastpoint.  Good.  good observation  Okay. So let's just go through this a few more slides here. So doesn't always work and because of that right like you were staying up there. We have to prove that works. Once we once we make it right or else we must present a counterexample like we did before.  Okay, so furthermore for single problem. There might be one more than one greedy Choice best choice and one of them may work and one of them may not work. We we just saw that piece of the next example, we're going to look at I want you guys to get started on this is event scheduling. Okay. So suppose you're running a cookie conference and you have a collection of events or talks people talk about which is their favorite cookie or this and that each of them has a start time and end time. Okay Ono you only have one conference room. So now you have to schedule as many stalks as possible. Okay?  And none of them have to overlap. So how do we fill in this thing? The instance is a set of intervals.  With a start time and a finish time.  What's the solution for Matt? I guess we could do like start one finish one start to finish two and so on.  start and finish in  what's the solution format?  Okay good so subset.  of intervals  What's the constraint?  best objective  Okay good. So they right they don't.  overlap  And then the objective is maximized.  size of subset  so  I like to do it this way because this gives you a sense of like the size of the problem the solution space here is all subsets when we all know that the number of subsets of a set of size and is 2 to the end. So at least we know kind of what we're working with and and how we should.  How was your week consider a solution to be better than Brute Force, right? So for example, if T is the set of the events and the number of events is n then checking all possibilities it would take.  2 to the end  to the end  we go to all the subsets check if it's valid and then store the the number and just do that for every single subset and then find the maximum out of all those  okay, so I guess we'll start with this on Monday because Friday we're going to have our quiz and we'll talk about some different greedy strategy is which ones work which ones don't and  See you guys on Friday. ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01302019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01302019-1500.mp3",
+  "File Name": "lecture_10.flac"
+}

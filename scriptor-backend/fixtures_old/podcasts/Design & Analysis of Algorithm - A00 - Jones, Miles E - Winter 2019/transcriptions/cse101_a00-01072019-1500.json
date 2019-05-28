@@ -1,0 +1,367 @@
+{
+  "Blurbs": {
+    "If I if you asked me to find the 100th Fibonacci number, I would do it this way, right? I keep a I keep a list of the numbers and keep on adding one to the one number to the the previous number. So this is a huge Improvement because now we have a linear time algorithm instead of a exponential time algorithm. Okay. Oh my God. Okay. So basically ": [
+      1869.6,
+      1904.2,
+      53
+    ],
+    "La Tech or anything like that is fine equation editors or whatever. Okay, so standards for homework assignments. This is just there's a lot to read our kind of sum it up in this class. We're going to be talking about algorithms and how to analyze them. So there are many different things that you need to take into consideration. There is the runtime analysis. There is the correctness right ": [
+      624.8,
+      653.9,
+      13
+    ],
+    "Malaysian problem or go through all the solutions and see if one satisfies this property something like that. These are algorithms. They work fine. It's easy to prove that. They're correct. The problem with them is that usually they're slow because oftentimes the the space of solutions is exponentially large. So we're going to try to do is cut down that time. By finding a better algorithm and how do ": [
+      1325.2,
+      1357.2,
+      36
+    ],
+    "Okay, okay, but I want to show you the website to crap. Okay? So it looks like I guess I'll start with this so we can get out of the way the website did everybody get a Piazza. thing gradescope I imagine are there any of you that are not enrolled in the class some of you? Okay. So for you guys? Sign up for Piazza yourself and on there. ": [
+      177.9,
+      214.6,
+      2
+    ],
+    "So here's the Piazza link and the gradescope link. So we'll be talkin about office hours and discussions in a minute. Maybe we'll talk about it now. So there's not going to be many office hours this first week because there's not a homework due until next week. I'll be holding office hours. I'll show you where to find those and then the TA is will start holding more and ": [
+      469.7,
+      499.4,
+      8
+    ],
+    "So homework are going to be due on Thursdays. I've been kind of shuffling around the due dates and stuff. But I think it works best for me. If homework sardou on Thursdays. You can work in groups of up to four and I need you to type the homework points will be taking off for handwritten homework. If you guys want to use Google Docs or Microsoft Word or ": [
+      598.1,
+      624.8,
+      12
+    ],
+    "They will be a run time a Target run time that I give you ice a make algorithm that runs in Big O of N squared time something like that. So if you get algorithm that runs any faster, that's great, right and so but I'm going to be looking at your run times as as well as your correctness and algorithm description Okay, we'll talk more about what I ": [
+      681.9,
+      710.1,
+      15
+    ],
+    "They're not going to come up so often in this class, but I want you to start thinking about. When you can call something a constant time operation and when you can't, okay. So if we had to end but numbers were and is larger than the word size. Then we have to perform the addition using software right and kind of do it using these chunks. K&S takes linear ": [
+      2108.7,
+      2137.1,
+      60
+    ],
+    "Which I don't know if you know this Fibonacci numbers grow exponentially. Can I self do I have that here? Should I price a elective Envy? The number of computers steps, it takes to calculate 1 of n then since this is a recursive function. We can write a recurrence relation for the number of steps. It takes in general. T of n is going to be equal to what ": [
+      1607.3,
+      1641.5,
+      45
+    ],
+    "Yes. Keep them fine. Okay. Are you guys having problems with Internet in here to you got a guest, right? Oh my God. So sorry about this. Hunted TV show did everybody have a nice time over the break? Good. Everybody ready to be back. kind of I would have liked one more week. Okay, And now guest is not working. Okay, here we go. Okay. Did it change? Okay. ": [
+      380.5,
+      469.7,
+      7
+    ],
+    "You can find a link to the website. And on the website, you can find a code that will let you sign up to gradescope yourself. Okay, if you're signing up to gradescope. Okay, so let me just write something Shining. Up for oh, no. gradescope You must enter your PID you have to do that or else I'm not going to be able to like a link your scores ": [
+      214.6,
+      258.8,
+      3
+    ],
+    "You follow the rules you follow what I'm talking about. You fold a book you can find those then there are clever algorithms and every once in a while, we'll see some of those and those might be a little bit harder to understand how somebody came up with them, but you can still kind of see how they relate to the methodical Albert. And then maybe one or two ": [
+      1386.5,
+      1408.1,
+      38
+    ],
+    "a concept in class or if there's something in the homework that doesn't make sense that you need clarification on those are those are okay questions, but actually getting homework giving hints and all that stuff is off limits. Okay, the book that we're going to use is scooped up papademetriou, you and Weiser Ronnie and we're going to be sort of sticking closely to that book for the most ": [
+      301.9,
+      329.3,
+      5
+    ],
+    "a solution please refrain from looking at it. I know that it might be hard to do but I would consider that an act of academic dishonesty. Okay, let's go to the calendar. So the first homework will be due next Thursday, and this was just give you a sense of what pacing we're going to do and we'll go over kind of outline of what we're going to cover ": [
+      821.8,
+      852.7,
+      20
+    ],
+    "all you people who don't like math, but It's going to be very proof heavy and this kind of thing. There's not going to be any programming assignments, but I do expect you to be able to program mostly reading pseudocode and writing pseudocode. You can get away through this class without running a single program. Although I will say that it's helpful sometimes to try some of these algorithms ": [
+      993.6,
+      1026.1,
+      25
+    ],
+    "and eight and then we have a final exam on the Saturday right after class. So I'll try to have most of my lecture done by this Wednesday here so we can review and understand that very short notice right to have your exam on a Saturday, but I'll try to make sure that we are at will do some practice before. Okay. any questions Okay, let's continue along with ": [
+      875.5,
+      911.0,
+      22
+    ],
+    "and you can get astronomical amounts of time for a relatively small input size. Okay. So also we wanted we want to make sure things are fast. When we do them very often right things that are very simple things like sorting searching data if we can we can make those faster than our day today. Day-to-day life will go faster to write everything that your phone does and your ": [
+      1233.5,
+      1265.5,
+      33
+    ],
+    "being owed. are runtime analysis was even though it was very simplified is very good in and you can you can kind of see it in the and running this program. Okay. So what time do we have 343? yeah, maybe we'll stop right now and will start again on Wednesday with some graph problems. UC San Diego podcast for more visit podcast. Ucf.edu ": [
+      2542.8,
+      2592.8,
+      70
+    ],
+    "but he's kind of the first place where he put it into a book and his book was the compendious book on calculation by completion and balancing. Basically an algebra book and what kind of algorithms did he have in their adding subtracting multiplying dividing and solving linear equations write each one of those is algorithm because you have the step by step process, right? And he did it. Basically ": [
+      1079.9,
+      1107.8,
+      28
+    ],
+    "computer does and all that kind of thing. Okay. Also when you have big data, and you know, the data sets are getting bigger and bigger and bigger. So if we can find faster and faster algorithms, we need to keep up with with that size the same thing goes for the growth of Technology right technology is going to get faster and faster and more complicated. And so in ": [
+      1265.5,
+      1295.0,
+      34
+    ],
+    "constant time and and are there times when they shouldn't be considered as constant? There's certain ways of storing numbers that are very very big if you operate on those then he made his size and vision so excited. I was wondering when you got to Max size it sounded weird. Okay good. So it needs to fit inside of a Write a location right in a computer and the ": [
+      1970.6,
+      2005.1,
+      56
+    ],
+    "do a lot with that pseudocode a little bit of counting strategies and a lot of graph Theory. That's kind of the first thing we're going to look at. Weight limit back. How do you go forward? He swiped like that. Okay, let's start with Al khor is me. He is basically the inventor of the algorithm, but maybe maybe not. I mean people I've been using algorithms for forever, ": [
+      1048.7,
+      1079.9,
+      27
+    ],
+    "do that. My computer can't even do that my computer. It takes one second only to do 32. Go back computer is not really that fast. Anyhow. So if the fastest computer can do a half of 66 in 1 second, right then like we said does the exponential growth right? So things get out of hand by only increasing a little bit. Okay. So you see that if you ": [
+      1708.6,
+      1741.1,
+      48
+    ],
+    "do we care about algorithm time? Computers are really fast don't they have plenty of time to solve algorithms. The the fastest computers can do millions and trillions of computations per second. Isn't that enough time to solve any problem? Well the answer, of course you guys all know probably is that some of some problems they don't scale well write exponential growth or exponential time problems. Don't scale well ": [
+      1198.2,
+      1233.5,
+      32
+    ],
+    "doing a linear number of operations, but these numbers are so big that you have to add them together. song just kind of tube to bring us into the next lecture. Let's talk a little bit about how we're going to approach problems. And this is going to be important for your first homework and for kind of when we're talking mostly about graph problems. so This whole idea of ": [
+      2233.5,
+      2278.8,
+      64
+    ],
+    "even have enough time to computer. So just like what you said the reason that this is bad is because we aren't we using the information we're calculating it over and over and over again right industry. You can see we've calculated F of 1 1 2 3 4 5 x and f x 0 1 2 3 times and this is only doing the fifth-ranked so you can just ": [
+      1770.6,
+      1801.4,
+      50
+    ],
+    "expect because proving these things are correct is not the easiest thing to do and we'll talk about that more any questions about that. Okay. Okay, great collaboration guidelines. Please only stick with your groups to collaborate. I'm okay with open collaboration when you come into office hours, but when you're outside of office hours, please only stick with your group and don't share your in-store Solutions. Okay, so there ": [
+      710.1,
+      742.3,
+      16
+    ],
+    "guys have seen before in 100 right greedy algorithms divide and conquer dynamic programming and then we might I think we'll have time to talk a little bit about peeing and pee and if we have more time when it's not very likely but we'll see if we can get to it. We'll talk about it or interpretive Improvement Network flow. This is kind of like hill climbing gradient descent ": [
+      1439.2,
+      1466.7,
+      40
+    ],
+    "if I do it this way. so much glare this light lamp then there's that crap. All right. I guess that's it's kind of sucks, huh? We'll see how well this does. Turn off the lights in the front. the better Okay. Now, how do I make it move forward? Need a mouse, okay. It's just because you know the holidays and I forgot to I'll get it next time. ": [
+      83.9,
+      176.3,
+      1
+    ],
+    "imagine how many different how many times you have to repeat to do this? Okay, then. Okay, so this is going to be one of the main general principles that we're going to want to do in this class, which is store and reuse. The algorithm is recomputed the same thing many times. That's bad. Right? This is the basis for dynamic programming. And in fact, we're the first algorithm ": [
+      1801.4,
+      1840.0,
+      51
+    ],
+    "in there. is canceled Okay. Let's start. What do we assume? You know 20 and 21 are really kind of the big ones the discrete math how to talk about different console using mathematical notation and mathematical language. That's what we're going to do in this class. I know this is a computer science class, but really we're going to treat it as a math class. So I'm sorry for ": [
+      959.4,
+      993.6,
+      24
+    ],
+    "in this class. I just wanted to show you where to get everything. It's not ready yet. I'm still kind of tweaking the the problems, but it'll be ready before Thursday before this Thursday if you have a whole week to work on it. Okay, we got the holidays. We got quiz 1 Quiz 2 and Quiz 3 those are going to be on Fridays of what weeks for six ": [
+      852.7,
+      875.5,
+      21
+    ],
+    "increase it by around 10, you get to 1 minute doesn't seem so bad increase it by up to 100 now. We're talkin 3 months so you can see that in exponential time is dangerous 100 doesn't seem like it's a it's a huge input to put in there, but you can see it takes a long time. Let alone F-150 which is the age of the universe. We don't ": [
+      1741.1,
+      1770.6,
+      49
+    ],
+    "is 12 billion. That's not going to fit in our word size anymore. Or maybe it will depending on what kind of computer you that but you can see that it can get out of hand really quickly. And so you have to incorporate that run time into your run time analysis. So if we want exact precision then what do I have it if we want exact precision? Here ": [
+      2170.0,
+      2208.8,
+      62
+    ],
+    "listening to a podcast Okay, good afternoon. So I'm having a little bit of technical difficulties because I forgot my connector, but then I found a connector but then the there's like two male parts. how is anybody supposed to does that work? No, it's not a Mac. It's the same as yours. Okay. Well, we're just going to have to use the overhead projector. Okay. Play maybe it's better ": [
+      1.9,
+      83.9,
+      0
+    ],
+    "message on Piazza and we can talk about opening that up. But I I imagine that it's not going to be the most popular of the discussion sections are not mandatory. They're there for you guys to come and and I hope that you get something out of them, but I'm not going to force you to go. Okay. So here's all the teams and tutors. We have a few ": [
+      530.2,
+      558.0,
+      10
+    ],
+    "more and more office hours as it goes on and you guys have wolf have plenty of help to talk about the home works for the discussions were going to cancel this 8 to 8:50 discussion section on Friday. If there is a petition that you guys want to keep it open. I'm open to To talk about it. You can just send me a Anonymous mess or a private ": [
+      499.4,
+      530.2,
+      9
+    ],
+    "of them over here. You guys want to introduce yourselves? Thanks guys. Thank you, Mustafa. Okay, so my office hours are here 12 to 2 on Wednesdays and there's my my room number so you guys can can come there. I'll be there this week and then we'll start feeling in more office hours as we go. Okay, text subject material will go over all that kind of stuff homework. ": [
+      558.0,
+      598.1,
+      11
+    ],
+    "or the next Alvin and we're going to look at is actually a dynamic programming algorithm. Stop. This will be fed to what how does FIB to work? Well, the first thing I do is I create an array and I use that array array to store the values. And then I used the stored-value to compute the next one and so on. This is how I would do it. ": [
+      1840.0,
+      1869.6,
+      52
+    ],
+    "order to keep up we need to keep up our algorithms and make sure that they scale well. So our goal basically in this class, we're going to give you going to be giving a problem and I'm hoping that we can all kind of figure out the obvious algorithm together very quickly. Right? Mainly it's going to be something like go through all possible solutions find the best one ": [
+      1295.0,
+      1325.2,
+      35
+    ],
+    "out on your favorite programming language. I'm not going to give any guidance to that. You're just going to have to kind of do it on your own but I don't know if some students have told me that in the past that has helped them understand what's going on. But you can get away without basic math notation proofs. This one's a big one asymptotic notation. We're going to ": [
+      1026.1,
+      1048.7,
+      26
+    ],
+    "page says. Okay, so What is algorithm it's basically a step-by-step instructions that you can tell a computer to do or something that you can tell somebody else to do right giving directions or following a recipe loser sort of some sort of kind of like algorithm. The things that we're going to do in this class. I want to be a little bit more strict and and make sure ": [
+      1137.2,
+      1167.0,
+      30
+    ],
+    "part. I'm going to Veer off and and and use this optional text algorithm design when we start talking about greedy algorithms. Okay, so this will be for Oh God. how do you Sobe green tea greedy okay, so if I click this does it cuz it go my God All right. Let's see if this works here. Okay. Thank you very much. Okay. Unreleased this is awful and show. ": [
+      329.3,
+      380.5,
+      6
+    ],
+    "projector, but let me just see if it's possible. Okay. See if this works. Okay. So I wrote this. this thing in Python You can see that it's just the same algorithm that we had before, right? Okay now. I wanted to this is hard to do with the I think but let's just see how long it takes to do one of these things so Maybe I can use ": [
+      2347.2,
+      2411.4,
+      67
+    ],
+    "return one if n is to the return to great if or else return FIB 1 + -1 + 51 + -2. How long is this going to take? exponential time How did you know that? and then Write it almost doubles every time write the time almost doubles at every step. In fact, it actually the rate that it grows is proportional to the size of the Fibonacci number. ": [
+      1560.6,
+      1606.0,
+      44
+    ],
+    "reusing and storing previous computations. It's also nice to reuse algorithms. If there's algorithm that works really well and you know, it's correct and you know, it's efficient then it's nice to reuse that as a subroutine in another algorithm. We're going to see some of that we're just see that all through the class. Okay, and so on Wednesday, I'm going to introduce this problem. Maybe I'll introduce it ": [
+      2278.8,
+      2313.1,
+      65
+    ],
+    "size of that location can vary most computer architectures have 32-bit or 64-bit or something like that. So if if your if your input can fit inside of that then we can talk about doing operations on it and constant time. so that being said Most of the problems we're going to do we're just going to assume that everything can fit in it. Okay. We're going to be working ": [
+      2005.1,
+      2036.9,
+      57
+    ],
+    "small numbers look up any kind of constant time operation. Okay, so just kind of talked about this a little bit. Certain ideas about what how long it takes for a chip to perform the hardware and all this kind of stuff. But what I wanted to say here is this is important. When should operations such as addition multiplication those kind of things when should those be considered as ": [
+      1939.1,
+      1970.6,
+      55
+    ],
+    "that we are describing them mathematically with very rigorous kind of notation. So what do I want to know? I want to know what is the input also called the instance? What it what are you going to Output or the solution in both of these should be finitely describable. Buy Beano in some sort of way right with with with bits or some sort of information. Okay, so why ": [
+      1167.0,
+      1198.2,
+      31
+    ],
+    "that you know, it's my duty to do that. So I hope that doesn't happen but I just have to say it. Okay, so this is So use of outside resources, I want you to only use the books and the notes in the lecture notes from class and the resources of the TA and all that stuff. If you do stumble upon a solution or something that looks like ": [
+      795.1,
+      821.8,
+      19
+    ],
+    "that's going to have to be taken into consideration for your run time. Okay, so So if we're using floating-point, which is kind of like a approximation that can fit into the word size then all the operations are constant. Okay, so when we're doing this Fibonacci thing. Do you want it to be exact or do you want it to have if you want to just be an approximation? ": [
+      2076.9,
+      2105.9,
+      59
+    ],
+    "the class. Okay good. Okay Logistics, they're going to be three 40-minute quizzes already talked about that. Yeah, we're going to drop one of your homework Stu. I don't know if I mentioned it. Okay. We're going to be talking about office hours on the website minor from 12 to 2 and the discussion sections will start Friday. Okay, so the 8 p.m. discussion section I put too many asses ": [
+      911.0,
+      959.4,
+      23
+    ],
+    "the stopwatch on my watch be better. Okay. Can you even see that now that's not going to work cuz my computer. My computer has a stopwatch I think. No, doesn't there hold on a sec. Sorry about that. I'll have my Everything together next time stopwatch. Okay. Here we go. Okay now Fibonacci 35 Okay ready? Okay for 4 seconds and 45 seconds milliseconds. Okay. Now what I want ": [
+      2411.4,
+      2477.7,
+      68
+    ],
+    "the way that we do it multiplying by lining up the digits and you know multiplying each column and all that kind of stuff. Those are algorithms. In fact his name al-khwarizmi is sort of a when it when it came when his book came over to To Florence they changed his name to algorithme and that's where algorithm comes from. I don't know at least that's what the Wikipedia ": [
+      1107.8,
+      1137.2,
+      29
+    ],
+    "there but not for any points or any participation just to maybe develop the class. So for next time if I want to use them, I'll I'll set them up, but I'm not going to require them. There's not going to be any participation credit for this class and we can all just shout out our answers. Okay, so let's look at the algorithm first. If n is one then ": [
+      1536.0,
+      1560.6,
+      43
+    ],
+    "there is and there's not the actual how do you write the algorithm the high-level description the pseudocode and that kind of thing so, All of those things matter and I need you to be clear and concise when you are writing your algorithms and writing your proof of correctness. Okay? And so this kind of gives you a little bit of a idea of what I expect often times. ": [
+      653.9,
+      681.9,
+      14
+    ],
+    "those kind of things. Okay, so let's start with Fibonacci. We all know his story. He's got this sequence, right? And this first example, I'm going to give you a algorithm is not a very good algorithm. And what is it supposed to do it supposed to given the input is a number and an output will be the and Fibonacci number. So here's the definition of Fibonacci numbers that ": [
+      1466.7,
+      1502.2,
+      41
+    ],
+    "time Edition takes linear time. We're going to look at multiplication. It actually takes more than linear time and we can kind of get it as Almost as close as we want, but we'll see we'll see that we do divide and conquer. Okay. So for the Fibonacci example noticed that we're doing operations on these Fibonacci numbers and these Fibonacci numbers themselves are growing really fast, right? So F450 ": [
+      2137.1,
+      2170.0,
+      61
+    ],
+    "today just so you could think about it. It's called The Max bandwidth half problem. And what I want you to do is use a familiar algorithm to solve it. Okay, so I know this is but just give me a second here cuz I had a demo that I wanted to do. And I don't know if I'm going to be able to do it with this. With this ": [
+      2313.1,
+      2347.2,
+      66
+    ],
+    "very fast computer, I guess this is I made these slides a while ago. So maybe this is changed but they can do about 2 to the 45 calculations in one second. So that's around 1.6 to the 66. So that means that maybe the fastest computer could run this program with the input of 66 and it would take it one second. Okay, pretty fast. I surely could not ": [
+      1681.7,
+      1708.6,
+      47
+    ],
+    "we do that? Well, that's kind of the whole thing of this class. We're going to go through different paradigms divide-and-conquer dynamic programming 3D Graph Search graph algorithms and use those to kind of get a better asymptotically faster algorithm. Okay, so you have the obvious algorithms then we have the method of methodical algorithms. Those are the basic ones that you're going to be doing in this class. Right? ": [
+      1357.2,
+      1386.5,
+      37
+    ],
+    "we go. This is what I wanted. You want exact Precision. Then we have to do end times while to the end. We maybe let's say Big O of n * 1.6 to the end went cuz you have to do the exponential number of operations and each operation itself takes linear time, cuz you're adding these huge numbers and preferred to it will be end times then because you're ": [
+      2208.8,
+      2233.5,
+      63
+    ],
+    "we have to do this, which is going to take T of n -1 and this which is going to take T of N - 2 and so are you seeing you just get the Fibonacci? Relation in in terms of the runtime. Okay, and so T of n Is actually Big O of 1.6 to the end. This is how fast something like that. Okay, so that's bad. So ": [
+      1641.5,
+      1681.7,
+      46
+    ],
+    "were going to use. Okay after one is one of them to is 1/2 of and is Ativan - 1 + f + -2 so I was like trying to think about whether or not I wanted to use iclickers and I decided not to use them. so I know that most of you guys have them so I might decide to start maybe putting a few clicker questions up ": [
+      1502.2,
+      1536.0,
+      42
+    ],
+    "what I have here is that anything exponential is very dangerous. Anything polynomial is pretty reasonable. Even if it has a big exponent. It's still in the kind of the realm of efficient in an innocent. Okay. Okay, so just to kind of remind everybody what are we talkin about when we talk about computer steps. These are things that take constant time right branching adding small numbers compared to ": [
+      1904.2,
+      1939.1,
+      54
+    ],
+    "will be three quizzes. They will be I'll show you what days they're going to be on and each one is 10% of your grade or I'll do this thing. Will you take the two best quizzes? I have some grade scale that might kind of shift depending on how well you guys doing the class. I might curve it a little bit. And academic dishonesty. I hope I mean ": [
+      742.3,
+      768.3,
+      17
+    ],
+    "will see some miraculous algorithms while you say how did anybody ever think of this just kind of like this crazy idea that somebody came up with. Okay, so 80% of the class is going to be the general methodical algorithms and then we'll see a little bit of these clever ones. Sarkis basically, what we're going to do in the class graph search data structures, which I hope you ": [
+      1408.1,
+      1439.2,
+      39
+    ],
+    "with everything. Okay? Okay. Okay. So there's gradescope Piazza and website. That's pretty much it. Okay. So your assignments you'll get them on the course schedule. I'll show you where to get that Piazza is used for discussions and I'll put answer keys there. I would like for you guys to not ask homework questions on Piazza that will be more for office hours more about if your Confused about ": [
+      258.8,
+      301.9,
+      4
+    ],
+    "with reasonable size numbers unless otherwise stated. Okay, so assuming the elements can fit into a single register. and and this might cause some problems in certain situations because we might not be able to get perfect Precision, right? Because we might not have enough decimal places. So for you if you require perfect Precision that you're going to need to use more than one memory location, right and And ": [
+      2036.9,
+      2076.9,
+      58
+    ],
+    "you guys are all taking upper-division class. I hope that you guys have seen this before, you know, just make sure that whatever you do is ethical and an honest and don't cheat and don't copy and And I'll be aware that this is in this University. We take this very seriously, and if I do catch anything that I'm going to have to report you nothing personal, it's just ": [
+      768.3,
+      795.1,
+      18
+    ],
+    "you to do is estimate. How long do you think it will take to do FIB of 36? What do you think like six or seven seconds something like that? 7 Okay. I mean we we are using Precision measuring technology. Okay, ready? Go? All right. Here we go. 4 pretty good pranks The theory works right? I just wanted to show you this to give you a sense of ": [
+      2477.7,
+      2542.8,
+      69
+    ]
+  },
+  "Class Name": "cse101",
+  "Date": "01072019",
+  "Full Transcript": "listening to a podcast  Okay, good afternoon. So I'm having a little bit of technical difficulties because I forgot my connector, but then I found a connector but then the there's like two male parts.  how is anybody supposed to  does that work?  No, it's not a Mac. It's the same as yours.  Okay. Well, we're just going to have to use the overhead projector.  Okay.  Play maybe it's better if I do it this way.  so much glare  this light  lamp  then there's that crap.  All right.  I guess that's  it's kind of sucks, huh?  We'll see how well this does.  Turn off the lights in the front.  the better  Okay. Now, how do I make it move forward?  Need a mouse, okay.  It's just because you know the holidays and I forgot to I'll get it next time.  Okay, okay, but I want to show you the website to crap. Okay?  So it looks like I guess I'll start with this so we can get out of the way the website did everybody get a Piazza.  thing  gradescope  I imagine are there any of you that are not enrolled in the class some of you? Okay. So for you guys?  Sign up for Piazza yourself and on there. You can find a link to the website.  And on the website, you can find a code that will let you sign up to gradescope yourself. Okay, if you're signing up to gradescope.  Okay, so let me just write something Shining.  Up for oh, no.  gradescope  You must enter your PID you have to do that or else I'm not going to be able to like a link your scores with everything. Okay?  Okay. Okay. So there's gradescope Piazza and website. That's pretty much it.  Okay.  So your assignments you'll get them on the course schedule. I'll show you where to get that Piazza is used for discussions and I'll put answer keys there. I would like for you guys to not ask homework questions on Piazza that will be more for office hours more about if your  Confused about a concept in class or if there's something in the homework that doesn't make sense that you need clarification on those are those are okay questions, but actually getting homework giving hints and all that stuff is off limits.  Okay, the book that we're going to use is scooped up papademetriou, you and Weiser Ronnie and we're going to be  sort of sticking closely to that book for the most part. I'm going to Veer off and and and use this optional text algorithm design when we start talking about greedy algorithms. Okay, so this will be for  Oh God.  how do you  Sobe green tea  greedy  okay, so if I click this does it cuz it go  my God  All right. Let's see if this works here. Okay. Thank you very much.  Okay.  Unreleased this is awful and show. Yes. Keep them fine. Okay.  Are you guys having problems with Internet in here to you got a guest, right?  Oh my God.  So sorry about this.  Hunted TV show did everybody have a nice time over the break?  Good.  Everybody ready to be back.  kind of  I would have liked one more week.  Okay,  And now guest is not working.  Okay, here we go.  Okay.  Did it change? Okay. So here's the Piazza link and the gradescope link.  So we'll be talkin about office hours and discussions in a minute. Maybe we'll talk about it now. So there's not going to be many office hours this first week because there's not a homework due until next week. I'll be holding office hours. I'll show you where to find those and then the TA is will start holding more and more and more office hours as it goes on and you guys have wolf have plenty of help to talk about the home works for the discussions were going to cancel this 8 to 8:50 discussion section on Friday. If there is a petition that you guys want to keep it open. I'm open to  To talk about it. You can just send me a Anonymous mess or a private message on Piazza and we can talk about opening that up. But I I imagine that it's not going to be the most popular of the discussion sections are not mandatory. They're there for you guys to come and and I hope that you get something out of them, but I'm not going to force you to go. Okay. So here's all the teams and tutors. We have a few of them over here. You guys want to introduce yourselves?  Thanks guys.  Thank you, Mustafa.  Okay, so my office hours are here 12 to 2 on Wednesdays and there's my my room number so you guys can can come there. I'll be there this week and then we'll start feeling in more office hours as we go.  Okay, text subject material will go over all that kind of stuff homework. So homework are going to be due on Thursdays. I've been kind of shuffling around the due dates and stuff. But I think it works best for me. If homework sardou on Thursdays. You can work in groups of up to four and I need you to type the homework points will be taking off for handwritten homework. If you guys want to use Google Docs or Microsoft Word or La Tech or anything like that is fine equation editors or whatever.  Okay, so standards for homework assignments.  This is just there's a lot to read our kind of sum it up in this class. We're going to be talking about algorithms and how to analyze them. So there are many different things that you need to take into consideration. There is the runtime analysis. There is the correctness right there is and there's not the actual how do you write the algorithm the high-level description the pseudocode and that kind of thing so,  All of those things matter and I need you to be clear and concise when you are writing your algorithms and writing your proof of correctness. Okay? And so this kind of gives you a little bit of a idea of what I expect often times. They will be a run time a Target run time that I give you ice a make algorithm that runs in Big O of N squared time something like that. So if you get algorithm that runs any faster, that's great, right and so but I'm going to be looking at your run times as as well as your correctness and  algorithm description  Okay, we'll talk more about what I expect because proving these things are correct is not the easiest thing to do and we'll talk about that more any questions about that.  Okay. Okay, great collaboration guidelines. Please only stick with your groups to collaborate. I'm okay with open collaboration when you come into office hours, but when you're outside of office hours, please only stick with your group and don't share your in-store Solutions.  Okay, so there will be three quizzes. They will be I'll show you what days they're going to be on and each one is 10% of your grade or I'll do this thing. Will you take the two best quizzes? I have some grade scale that might kind of shift depending on how well you guys doing the class. I might curve it a little bit.  And academic dishonesty. I hope I mean you guys are all taking upper-division class. I hope that you guys have seen this before, you know, just make sure that whatever you do is ethical and an honest and don't cheat and don't copy and  And I'll be aware that this is in this University. We take this very seriously, and if I do catch anything that I'm going to have to report you nothing personal, it's just that you know, it's my duty to do that. So I hope that doesn't happen but I just have to say it. Okay, so this is  So use of outside resources, I want you to only use the books and the notes in the lecture notes from class and the resources of the TA and all that stuff.  If you do stumble upon a solution or something that looks like a solution please refrain from looking at it. I know that it might be hard to do but I would consider that an act of academic dishonesty.  Okay, let's go to the calendar.  So the first homework will be due next Thursday, and this was just give you a sense of what pacing we're going to do and we'll go over kind of outline of what we're going to cover in this class. I just wanted to show you where to get everything. It's not ready yet. I'm still kind of tweaking the the problems, but it'll be ready before Thursday before this Thursday if you have a whole week to work on it.  Okay, we got the holidays. We got quiz 1 Quiz 2 and Quiz 3 those are going to be on Fridays of what weeks for six and eight and then we have a final exam on the Saturday right after class. So I'll try to have most of my lecture done by this Wednesday here so we can review and understand that very short notice right to have your exam on a Saturday, but I'll try to make sure that we are at will do some practice before.  Okay.  any questions  Okay, let's continue along with the class.  Okay good.  Okay Logistics, they're going to be three 40-minute quizzes already talked about that.  Yeah, we're going to drop one of your homework Stu. I don't know if I mentioned it.  Okay.  We're going to be talking about office hours on the website minor from 12 to 2 and the discussion sections will start Friday. Okay, so the 8 p.m.  discussion section  I put too many asses in there.  is canceled  Okay.  Let's start. What do we assume? You know 20 and 21 are really kind of the big ones the discrete math how to talk about different console using mathematical notation and mathematical language. That's what we're going to do in this class. I know this is a computer science class, but really we're going to treat it as a math class. So I'm sorry for all you people who don't like math, but  It's going to be very proof heavy and this kind of thing. There's not going to be any programming assignments, but I do expect you to be able to program mostly reading pseudocode and writing pseudocode. You can get away through this class without running a single program. Although I will say that it's helpful sometimes to try some of these algorithms out on your favorite programming language. I'm not going to give any guidance to that. You're just going to have to kind of do it on your own but I don't know if some students have told me that in the past that has helped them understand what's going on.  But you can get away without basic math notation proofs. This one's a big one asymptotic notation. We're going to do a lot with that pseudocode a little bit of counting strategies and a lot of graph Theory. That's kind of the first thing we're going to look at.  Weight limit back. How do you go forward?  He swiped like that. Okay, let's start with Al khor is me. He is basically the inventor of the algorithm, but maybe maybe not. I mean people I've been using algorithms for forever, but he's kind of the first place where he put it into a book and his book was the compendious book on calculation by completion and balancing.  Basically an algebra book and what kind of algorithms did he have in their adding subtracting multiplying dividing and solving linear equations write each one of those is algorithm because you have the step by step process, right? And he did it. Basically the way that we do it multiplying by lining up the digits and you know multiplying each column and all that kind of stuff. Those are algorithms. In fact his name al-khwarizmi is sort of a when it when it came when his book came over to  To Florence they changed his name to algorithme and that's where algorithm comes from. I don't know at least that's what the Wikipedia page says.  Okay, so  What is algorithm it's basically a step-by-step instructions that you can tell a computer to do or something that you can tell somebody else to do right giving directions or following a recipe loser sort of some sort of kind of like algorithm. The things that we're going to do in this class. I want to be a little bit more strict and and make sure that we are describing them mathematically with very rigorous kind of notation. So what do I want to know? I want to know what is the input also called the instance? What it what are you going to Output or the solution in both of these should be finitely describable.  Buy Beano in some sort of way right with with with bits or some sort of information.  Okay, so  why do we care about algorithm time?  Computers are really fast don't they have plenty of time to solve algorithms. The the fastest computers can do millions and trillions of computations per second. Isn't that enough time to solve any problem? Well the answer, of course you guys all know probably is that some of some problems they don't scale well write exponential growth or exponential time problems. Don't scale well and you can get astronomical amounts of time for a relatively small input size. Okay.  So also we wanted we want to make sure things are fast. When we do them very often right things that are very simple things like sorting searching data if we can we can make those faster than our day today.  Day-to-day life will go faster to write everything that your phone does and your computer does and all that kind of thing.  Okay. Also when you have big data, and you know, the data sets are getting bigger and bigger and bigger. So if we can find faster and faster algorithms, we need to keep up with with that size the same thing goes for the growth of Technology right technology is going to get faster and faster and more complicated. And so in order to keep up we need to keep up our algorithms and make sure that they scale well.  So our goal basically in this class, we're going to give you going to be giving a problem and I'm hoping that we can all kind of figure out the obvious algorithm together very quickly. Right? Mainly it's going to be something like go through all possible solutions find the best one Malaysian problem or go through all the solutions and see if one satisfies this property something like that. These are algorithms. They work fine. It's easy to prove that. They're correct. The problem with them is that usually they're slow because oftentimes the the space of solutions is exponentially large. So we're going to try to do is cut down that time.  By finding a better algorithm and how do we do that? Well, that's kind of the whole thing of this class. We're going to go through different paradigms divide-and-conquer dynamic programming 3D Graph Search graph algorithms and use those to kind of get a better asymptotically faster algorithm.  Okay, so you have the obvious algorithms then we have the method of methodical algorithms. Those are the basic ones that you're going to be doing in this class. Right? You follow the rules you follow what I'm talking about. You fold a book you can find those then there are clever algorithms and every once in a while, we'll see some of those and those might be a little bit harder to understand how somebody came up with them, but you can still kind of see how they relate to the methodical Albert.  And then maybe one or two will see some miraculous algorithms while you say how did anybody ever think of this just kind of like this crazy idea that somebody came up with.  Okay, so 80% of the class is going to be the general methodical algorithms and then we'll see a little bit of these clever ones.  Sarkis basically, what we're going to do in the class graph search data structures, which I hope you guys have seen before in 100 right greedy algorithms divide and conquer dynamic programming and then we might I think we'll have time to talk a little bit about peeing and pee and if we have more time when it's not very likely but we'll see if we can get to it. We'll talk about it or interpretive Improvement Network flow. This is kind of like hill climbing gradient descent those kind of things.  Okay, so let's start with Fibonacci. We all know his story. He's got this sequence, right? And this first example, I'm going to give you a algorithm is not a very good algorithm.  And what is it supposed to do it supposed to given the input is a number and an output will be the and Fibonacci number.  So here's the definition of Fibonacci numbers that were going to use. Okay after one is one of them to is 1/2 of and is Ativan - 1 + f + -2  so I was like trying to think about whether or not I wanted to use iclickers and I decided not to use them.  so  I know that most of you guys have them so I might decide to start maybe putting a few clicker questions up there but not for any points or any participation just to maybe develop the class. So for next time if I want to use them, I'll I'll set them up, but I'm not going to require them. There's not going to be any participation credit for this class and we can all just shout out our answers.  Okay, so let's look at the algorithm first.  If n is one then return one if n is to the return to great if or else return FIB 1 + -1 + 51 + -2. How long is this going to take?  exponential time  How did you know that?  and then  Write it almost doubles every time write the time almost doubles at every step. In fact, it actually the rate that it grows is proportional to the size of the Fibonacci number.  Which I don't know if you know this Fibonacci numbers grow exponentially. Can I self do I have that here?  Should I price a elective Envy? The number of computers steps, it takes to calculate 1 of n then since this is a recursive function.  We can write a recurrence relation for the number of steps. It takes in general.  T of n  is going to be equal to what we have to do this, which is going to take T of n -1 and this which is going to take T of N - 2  and so are you seeing you just get the Fibonacci?  Relation in in terms of the runtime. Okay, and so  T of n  Is actually Big O of 1.6 to the end. This is how fast something like that.  Okay, so that's bad.  So very fast computer, I guess this is I made these slides a while ago. So maybe this is changed but they can do about 2 to the 45 calculations in one second. So that's around 1.6 to the 66. So that means that maybe the fastest computer could run this program with the input of 66 and it would take it one second. Okay, pretty fast. I surely could not do that.  My computer can't even do that my computer. It takes one second only to do 32.  Go back computer is not really that fast. Anyhow.  So if the fastest computer can do a half of 66 in 1 second, right then like we said does the exponential growth right? So things get out of hand by only increasing a little bit. Okay. So you see that if you increase it by around 10, you get to 1 minute doesn't seem so bad increase it by up to 100 now. We're talkin 3 months so you can see that in exponential time is dangerous 100 doesn't seem like it's a it's a huge input to put in there, but you can see it takes a long time.  Let alone F-150 which is the age of the universe. We don't even have enough time to computer.  So just like what you said the reason that this is bad is because we aren't we using the information we're calculating it over and over and over again right industry. You can see we've calculated F of 1 1 2 3 4 5 x and f x 0 1 2 3 times and this is only doing the fifth-ranked so you can just imagine how many different how many times you have to repeat to do this?  Okay, then.  Okay, so this is going to be one of the main general principles that we're going to want to do in this class, which is store and reuse.  The algorithm is recomputed the same thing many times. That's bad. Right? This is the basis for dynamic programming. And in fact, we're the first algorithm or the next Alvin and we're going to look at is actually a dynamic programming algorithm.  Stop. This will be fed to  what how does FIB to work?  Well, the first thing I do is I create an array and I use that array array to store the values.  And then I used the stored-value to compute the next one and so on. This is how I would do it. If I if you asked me to find the 100th Fibonacci number, I would do it this way, right? I keep a I keep a list of the numbers and keep on adding one to the one number to the the previous number.  So this is a huge Improvement because now we have a linear time algorithm instead of a exponential time algorithm.  Okay.  Oh my God.  Okay. So basically what I have here is that anything exponential is very dangerous. Anything polynomial is pretty reasonable. Even if it has a big exponent. It's still in the kind of the realm of efficient in an innocent.  Okay.  Okay, so just to kind of remind everybody what are we talkin about when we talk about computer steps. These are things that take constant time right branching adding small numbers compared to small numbers look up any kind of constant time operation.  Okay, so just kind of talked about this a little bit.  Certain ideas about what how long it takes for a chip to perform the hardware and all this kind of stuff. But what I wanted to say here is this is important.  When should operations such as addition multiplication those kind of things when should those be considered as constant time and and are there times when they shouldn't be considered as constant?  There's certain ways of storing numbers that are very very big if you operate on those then he made his size and vision so excited. I was wondering when you got to Max size it sounded weird.  Okay good. So it needs to fit inside of a  Write a location right in a computer and the size of that location can vary most computer architectures have 32-bit or 64-bit or something like that. So if if your if your input can fit inside of that then we can talk about doing operations on it and constant time.  so that being said  Most of the problems we're going to do we're just going to assume that everything can fit in it. Okay. We're going to be working with reasonable size numbers unless otherwise stated.  Okay, so assuming the elements can fit into a single register.  and  and this might cause some problems in certain situations because we might not be able to get perfect Precision, right? Because we might not have enough decimal places. So for you if you require perfect Precision that you're going to need to use more than one memory location, right and  And that's going to have to be taken into consideration for your run time. Okay, so  So if we're using floating-point, which is kind of like a approximation that can fit into the word size then all the operations are constant.  Okay, so when we're doing this Fibonacci thing. Do you want it to be exact or do you want it to have if you want to just be an approximation?  They're not going to come up so often in this class, but I want you to start thinking about.  When you can call something a constant time operation and when you can't, okay.  So if we had to end but numbers were and is larger than the word size. Then we have to perform the addition using software right and kind of do it using these chunks.  K&S takes linear time Edition takes linear time. We're going to look at multiplication. It actually takes more than linear time and we can kind of get it as  Almost as close as we want, but we'll see we'll see that we do divide and conquer.  Okay. So for the Fibonacci example noticed that we're doing operations on these Fibonacci numbers and these Fibonacci numbers themselves are growing really fast, right? So F450 is 12 billion. That's not going to fit in our word size anymore. Or maybe it will depending on what kind of computer you that but you can see that it can get out of hand really quickly. And so you have to incorporate that run time into your run time analysis. So if we want exact precision  then  what do I have it if we want exact precision?  Here we go. This is what I wanted. You want exact Precision. Then we have to do end times while to the end. We maybe let's say Big O of n * 1.6 to the end went cuz you have to do the exponential number of operations and each operation itself takes linear time, cuz you're adding these huge numbers and preferred to it will be end times then because you're doing a linear number of operations, but these numbers are so big that you have to add them together.  song  just kind of tube to bring us into the next lecture.  Let's talk a little bit about how we're going to approach problems. And this is going to be important for your first homework and for kind of when we're talking mostly about graph problems.  so  This whole idea of reusing and storing previous computations. It's also nice to reuse algorithms. If there's algorithm that works really well and you know, it's correct and you know, it's efficient then it's nice to reuse that as a subroutine in another algorithm. We're going to see some of that we're just see that all through the class.  Okay, and so on Wednesday, I'm going to introduce this problem. Maybe I'll introduce it today just so you could think about it. It's called The Max bandwidth half problem. And what I want you to do is use a familiar algorithm to solve it.  Okay, so  I know this is but just give me a second here cuz I had a demo that I wanted to do.  And I don't know if I'm going to be able to do it with this.  With this projector, but let me just see if it's possible.  Okay.  See if this works.  Okay.  So I wrote this.  this thing in Python  You can see that it's just the same algorithm that we had before, right?  Okay now.  I wanted to this is hard to do with the  I think but let's just see how long it takes to do one of these things so  Maybe I can use the stopwatch on my watch be better.  Okay.  Can you even see that now that's not going to work cuz my computer. My computer has a stopwatch I think.  No, doesn't there hold on a sec.  Sorry about that.  I'll have my  Everything together next time stopwatch. Okay. Here we go.  Okay now Fibonacci 35  Okay ready?  Okay for 4 seconds and 45 seconds milliseconds.  Okay. Now what I want you to do is estimate. How long do you think it will take to do FIB of 36?  What do you think like six or seven seconds something like that?  7  Okay. I mean we we are using Precision measuring technology. Okay, ready? Go?  All right. Here we go.  4  pretty good pranks  The theory works right? I just wanted to show you this to give you a sense of being owed.  are runtime analysis was even though it was very simplified is very good in and you can you can kind of see it in the  and running this program.  Okay. So what time do we have 343?  yeah, maybe we'll stop right now and  will start again on Wednesday with some graph problems.  UC San Diego podcast for more visit podcast. Ucf.edu ",
+  "Section": "a00",
+  "Time": "1500",
+  "Video URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01072019-1500.mp4",
+  "Audio URL": "http://podcast-media.ucsd.edu/Podcasts/wi19/cse101_a00_eoacc2krxy/cse101_a00-01072019-1500.mp3",
+  "File Name": "lecture_1.flac"
+}
