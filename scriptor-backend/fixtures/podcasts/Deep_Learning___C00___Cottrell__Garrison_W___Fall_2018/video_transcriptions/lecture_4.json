@@ -1,0 +1,556 @@
+{
+    "Blurbs": {
+        "Delta rule? And in the next lecture, maybe this one and I'm pretty sure this one cuz we got 40 got a long time left 15 minutes. Yeah, we'll get into it. Okay, so any questions, so I just arrived a bad learning rule for you and that's when we use for a long time. No questions, no questions. Okay. So for logistic regression, there's no clothes formula for the ": [
+            1699.1,
+            1734.2,
+            33
+        ],
+        "I can leave after learning right you don't need that. Okay. So now since these are all going to be the same basically for every n I'm just going to do one exact one example and get rid of having take all those Having all that clunky sigma's and stuff like that. Okay. example Okay, that is. One pattern I call it so pattern is an input output pattern. Okay, ": [
+            940.9,
+            988.9,
+            17
+        ],
+        "I don't know anything else and this is a normalizing constant? So we don't have to think about that. And we don't have any reason to assume some W's are better than others. We can make some assumptions about the W's in that leads to Bayesian backpropagation. But you know like the dummies might be gassy and describe distributed right summer big some are small that summer zero. Okay. So ": [
+            2563.5,
+            2604.1,
+            57
+        ],
+        "I learn from Christine Alvarado. Okay. Okay now it's 70. Okay going to close it out going going going gone evokes. What's the answer class? See, okay good. So a few people voted for d And at least four people voted for a so maximum likelihood maximizes the probability of the data. Given, you know you trying to maximize and probably the data given the parameters. So you're trying to ": [
+            3199.4,
+            3250.8,
+            73
+        ],
+        "It's still going to be the same minimum whether this is here or not and I get Do-do-do-do do-do-do-do. sum squared error So do do do do do-do-do-do is the sound from Twilight Zone, and I'm going to say it a lot. so to recap when doing regression if we assume the targets are gaussian distributed. Okay, and we maximize the likelihood of the data by minimizing the negative log ": [
+            3921.3,
+            3970.3,
+            90
+        ],
+        "Network because what we're going to find out if she's still need the slope for the hidden units, you can't get rid of it there. It's great having T. Minus y at the output but you're going to have a slope at the hidden units and you can't you have to have so the nice thing about this is if you've got it as a hidden unit is that the ": [
+            2074.7,
+            2097.5,
+            43
+        ],
+        "Network which will see what that is some day. So this is based on Bishop chapter 6 section 6167 and 6969 as the derivative of the softmax. You might want to look at that. It's not it's some crucial steps there. They're kind of missing but helps, okay. That's what we're going to talk about. How does it lead to some squared error for aggression has it lead to cross ": [
+            2412.4,
+            2449.6,
+            53
+        ],
+        "No, I'm not going to oh, how do I find? Can you find there please? Where's my mouse? This isn't showing up on my screen is my mouse. Okay. So this is the results of the maximum likelihood estimation for a 1D. Gaussian. So it's an expression for the results of mle. Okay. Oh, I haven't started. Sorry. I have to find my mouse on my screen. Okay. Voting is ": [
+            3313.1,
+            3368.8,
+            75
+        ],
+        "Okay, tan H is another one that goes from -1 to 1 and this turns out to be useful because it's not 0 or 1. So if I'm in a deep Network where I am sending activation up to the next guy something very still the Delta really just have to figure out what the Delta is. And so the input on that line the x i affect how fast ": [
+            2136.3,
+            2169.5,
+            45
+        ],
+        "Okay. I'm going to start right off with a few clicker question. Forget your clickers out. There should be a a I haven't been able to find my Professor clicker so I don't can't change the channel. So I hope no one next door is using clickers on a you ready. Set Go Oh, I have to sorry. I haven't started it yet. Okay. There we go. Okay. Okay. The ": [
+            10.4,
+            99.0,
+            0
+        ],
+        "So it's mainly the state of very unlikely making this likely which is wrong. Right? It's not this doesn't happen a lot. How about that one? Know, how about that one? Yeah. Okay. So we're trying to find a model that makes the data likely and if we're trying to fit a gaussian to some data, we try and maximize the likelihood. So to do that it turns out it's ": [
+            2835.9,
+            2871.6,
+            64
+        ],
+        "Start new session. Okay. Where'd my little thing go? There it is. Okay. Mariah Carey Okay liquor is live. Hey, is it 59 of you 60 of answered? Okay. What's your answer? 76th Ave. You've answered and oh, I haven't looked at the distribution of answers. Okay, good. Okay, it's more than 80% of you. That means I don't have to go to talking to your neighbor. That's that's what ": [
+            3140.1,
+            3199.4,
+            72
+        ],
+        "a Since it was negative our glycolytic came became a plus, but we're not trying to fit that. So we can remove that term because it's constant with respect to the weights cuz we're not trying to fit Sigma. We're trying to fit this guy. And this Factor doesn't do anything either. It's just me and we can assume the signals or some constant. and that doesn't affect the minimum. ": [
+            3887.6,
+            3921.3,
+            89
+        ],
+        "all the data points. Which is and this is the distribution. Why haven't the T of N - 5 in in one month? So what if it was so what's the probability that sin category one? It's one because it's in category 1 Okay, so Reuse tea event equals one category one that makes y ven to the 1000th power, which is just y ven. So that's what our network ": [
+            4121.0,
+            4158.8,
+            94
+        ],
+        "and one might cut off all the pictures of Bob. One might cut off all the pictures of Ted. So they're all fighting it out. Okay. And perceptrons again can be considered a linear discriminant. All they do is put a line down in the input space and on one side of the line. They're on the other side of the line. They're off. And then we seen logistic regression. ": [
+            1999.0,
+            2033.3,
+            41
+        ],
+        "and so if you Try and figure out what Miu is you set this equal to zero and take the derivative of this and Saturday equal to zero and solve. That ends up setting Mewtwo the empirical mean of the stator. That's why when we're trying to fit a Galaxy and we use the data we compute the mean of it and set Mew and are gassy in to the ": [
+            3046.1,
+            3078.8,
+            70
+        ],
+        "and softmax And all of these can be trained by the Delta rule. It's kind of spooky actually. There are other activation functions though. They were going to see soon one is called rectified linear units are rellos to his friends. And this is kind of a combination of linear and and and perceptron it's off until it hits 0 it's on linearly. So this is nice in the Deep ": [
+            2034.9,
+            2074.7,
+            42
+        ],
+        "answer is not he. and there you want to put it there but Okay, is everybody voted? Are there only 65 of you? Really? Okay 66. Okay. I'm going to close it out. going going Going Sean. Okay, what's the answer? Thank you. 94% of you got that for four people. I didn't get it. Why is he answer not be? Yeah, this this is for those who used to ": [
+            99.0,
+            156.8,
+            1
+        ],
+        "are actually Airplanes lyrics the smaller number is increase laptop, but still increasing. Okay, so nobody can find out which one yeah, so, where is this where you're changing the weights? Yeah, so why it's got the label label - Alpha Centauri Southpark. Where is T4 this and why for that? Yeah, okay. This is hard for me to read cuz these are all different things in my occupation. So ": [
+            4570.2,
+            4626.0,
+            105
+        ],
+        "are in the same order. It's a monotonic function doesn't change. What where the peak is. So often what we do is we stick a log in front of that. We are. The max of this then is the minimum of this with a negative sign in front. All right. That's all I did there. And there should be some parentheses around this whole thing and not subtracting this from ": [
+            2906.0,
+            2938.0,
+            66
+        ],
+        "are they in that and because of this it's no longer linear regression. You can fit curves and things. But out here if you're doing classification, it's either the logistic or softmax. and disappointed people don't often think about a lot of times what you're trying to do here is something it's not linearly separable. So what the network is trying to do with these layers you can have lots ": [
+            2266.4,
+            2300.0,
+            49
+        ],
+        "based on an older paper by young laocoon, but some of them are relevant and don't make sense. Yeah, I don't have time to come to office hours today. I have a 11:30 o clock to increasing actually, so I have been stuck on the problem instead of decreasing or increasing my training zero an antioxidant to figure it out. Maybe you're learning rate is too high and weight. They ": [
+            4507.5,
+            4570.2,
+            104
+        ],
+        "because we're going to start with me and squirt are take the derivative with respect to the way. It's plugged the result into the formula for gradient descent and get a bad learning roll. And in the next the next lecture we might get to some of it today. We'll see why that is, okay. So the just to remember our notation the output of the network is y equal ": [
+            675.3,
+            710.7,
+            11
+        ],
+        "called a softmax? You know, whoever has the biggest a is going to win right there going to be the biggest output. So why so the max winds but why use this at all? Well, the reason again is that it it's positive that's always a positive number. And when you send them over all the patterns. We get this on the top and this on the bottom, so it ": [
+            1765.4,
+            1803.0,
+            35
+        ],
+        "can take it away just because that the softmax is actually a generalization of logistic. If you plug in to the softmax, just two categories, you can turn that into a soft into a logistic. So it's a generalization to more than two categories. So we've seen four kinds of neural networks so far linear Network, which gives you linear regression where you're all network is this and you have ": [
+            1881.0,
+            1915.6,
+            38
+        ],
+        "confident and wrong. We're going to get a big slope there. You got a big error signal? All right. So not knowing any better four years. This is what we did. This is what's in chapter 8 of the Old Testament that PDP book volume 1 and if it does work, I mean this did we use this for a long time. And it just screwed us. And then the ": [
+            1624.2,
+            1664.1,
+            31
+        ],
+        "data. How do we do that? So here's an illustration. This is the distribution of scores from CSC 150 and spring of 2016. I don't know which way is high and which way is low, but here's the data. It's looks kind of Galaxy on Dish. Does this go see and make the data likely? Show all the date is over here, but the skousen is near zero over here. ": [
+            2801.6,
+            2835.9,
+            63
+        ],
+        "encoding. How do we write the likelihood? Okay. Well we can just put it up here the TV up here, right? Why is output which to probably a category K if category this is category K and it is category K that's going to be a one if it's not category K. It's going to be a zero. So all the other categories turned a zero in the end up ": [
+            4361.6,
+            4391.2,
+            100
+        ],
+        "far ahead. So this is the Red Line This is the deterministic function. And this is the probability of sum Target given that So there's some deterministic function with some zero mean additive Galaxy noise. So a Target is a touch of accident at that point plus Epsilon where Epsilon is the gaussian noise? That means Epsilon people's t- age of exercise pen to subtracting from both sides. So the ": [
+            3741.9,
+            3780.4,
+            85
+        ],
+        "find the parameters that make the data most likely. It doesn't maximize the loss. We want to minimize the loss. Doesn't maximize the parameters. I don't know exactly what that would mean make the parameters really really big. Not sure. but anyway Why is this not working? Where is nothing nothing is working? Okay. That's weird. Okay. Where's my little? Okay. All right. question 2 the following is an expression. ": [
+            3250.8,
+            3313.1,
+            74
+        ],
+        "form formula for the weight. So we have to use gradient descent as you guys have been doing in your homework. And I said all this cross entropy lines leads to a good role. Okay. So this is just the softmax you all know what this off Max's by now, so I'm not going to spend any time on it really unless somebody wants me to. Okay, why is this ": [
+            1734.2,
+            1765.4,
+            34
+        ],
+        "get sent for multiple classes? so again Conjuring Seaway classification multiple multinomial regression if we assume the targets are multi normally distributed maximize like get processed. Okay, so in the next lecture, okay, so I told you all this in the next lecture. I'm going to talk about some other approaches to objective functions. These aren't the only ones. And then start with some tricks of the trade, which is ": [
+            4464.5,
+            4507.5,
+            103
+        ],
+        "given D is probably be given w x probably W over the probably the data. Hey, everybody. Remember Bayes rule. So much. So this represents a world in which D is true and then you're trying to find out what the most probable there this etcetera. Okay, so this is called the likelihood and Bayes rule. This is called the prior. You know, what's the probability of that happening if ": [
+            2524.4,
+            2563.5,
+            56
+        ],
+        "guy with the most input usually would win. So that's how we make decisions in their own that send you make a decision here by picking the maximum output right say I had a student in my office hour today saying he was getting 100% of the 6-way one. Anybody getting that. Okay. That's a bug whoever-you-are. He's got a bug somewhere. Okay, if you're still here, okay? So we ": [
+            1837.7,
+            1881.0,
+            37
+        ],
+        "here's the idea. Here's a regression problem. We have all these blue dots. That's the data. We've got we're trying to fit the data. But let's let's assume right now. That this red line is the underlying deterministic function that generated this data. How did it generate this data? by drawing from a gaussian with 0 mean at the value of the of the Red Kerr, so all these points ": [
+            3593.9,
+            3632.9,
+            81
+        ],
+        "if we make this assumption that when were trying to do regression the data has gaussian 0 Min gaussian noise, then the probability of any one of these targets are given where it is. It has to be where it is because it's around this red line. Yes, actually so age of accident is we assume that's the the equation for the red line, sorry I want a little too ": [
+            3709.4,
+            3741.9,
+            84
+        ],
+        "in the training set. It's a constant double use a variable and the derivative of the sun is the sum of the derivative. So this is really daigle's 1/2 D of the derivative of w 0 x 0 with respect to Wi her. Sorry. Can we make this a little more explicit? This is the derivative of w0 is expected w i x x 0 + the derivative of 1 ": [
+            1282.4,
+            1324.9,
+            24
+        ],
+        "info in our case the input-output function as likely as possible. It's not the input. It makes the data likely as possible. So how we model that distribution of data is the key thing. So here's a Galaxy and distribution. Assuming the data points are independently identically distributed and we're trying to fit this gas into some data. Then the likelihood of the data. That's usually written with the script ": [
+            2681.3,
+            2726.5,
+            60
+        ],
+        "input the output and so they're hidden because he can't see him. The only see the input the output and we don't know exactly where they're heading there who put them there but here they are and this could be these guys could be reloj and these guys softmax and this is just the input to a lot of mistakes people made early on your friend of mine still does ": [
+            2203.6,
+            2231.1,
+            47
+        ],
+        "is saying is the output 1 - y ven * 1 - but wait even is one this becomes a zero. And so this goes away cuz it's this to the zeroth power. So we just end up with Y then. What if it's in Category 2? What's the probability of it being in category too? Well, that that would if it has a zero Target, then this becomes Iran ": [
+            4158.8,
+            4190.3,
+            95
+        ],
+        "it again. The answer is still not easy. Okay. going going going God Okay, you your neighbor has a 49% chance of having it right turn to your neighbor and discuss it will try again. You got to find a neighbor if you don't have a neighbor. doing Okay, it seem to have settled down. Got your answer in your pocket ready. girl better Okay, we went from. 49% getting ": [
+            192.0,
+            337.7,
+            3
+        ],
+        "it in terms of G. When is it? Yeah. That's after we figure out what this is first, which is hot. Okay, what's the derivative of f x with respect to X? F Prime of X the derivative of x at that point right? So so we get so we get T-minus why x - 5 G Prime Of a the slope of g at that point x the derivative ": [
+            1172.5,
+            1232.7,
+            22
+        ],
+        "last time except slightly different. So this is minus the derivative of the sun over all the patterns. X the target for that pattern minus y for that pattern quantity squared. Okay, and that's Delta. That's the difference between what you did and what you should have done. oh, and I'm going to put mean squared error. So 1 / n And I needed to down here to. Okay. So ": [
+            841.8,
+            889.8,
+            15
+        ],
+        "learning really drives in your homework doesn't have that smoke turn. So it's funny. But that's what happened. Sometimes though. We told her students. Just leave out the slope learns better. We didn't we didn't know why though. So what's going on here is that mean squared error is the wrong objective function for logistic regression. The right one is the one you use cross entropy. Which leads to the ": [
+            1664.1,
+            1699.1,
+            32
+        ],
+        "likelihood of the data looks like this product of a gaussian. And now instead of HVAC Savannah in there. I put my neural-net cuz that's what I want to match. I want to match that underlying deterministic function in spite of the noise. Okay. And this notation here why of excavation semicolon W emphasizes that our model here is parameterize by Debbie. Pretty standard notation of a little semicolon and ": [
+            3780.4,
+            3819.8,
+            86
+        ],
+        "likelihood we get some squared error. Okay, pretty cool. Huh? Any questions? Yeah. When was this discovered? Probably by gas or something like that it sold. This is if you're doing regression, it's not logistic regression. This is just fitting data not trying to categorize data will get to that don't worry coming. So how does this lead to cross it? for logistic regression okay, so logistic regression should out ": [
+            3970.3,
+            4028.0,
+            91
+        ],
+        "log inside at the sum you get log of that to the team and you get whoa, there it is cross entropy. Okay, so to recap. When we're doing two category classification if we assume the targets are Bernoulli distribution and maximize the likelihood of data by minimizing the negative log likelihood. We find that we need to minimize cross entropy error. Simply doesn't play. so Verde I'm in 8 ": [
+            4272.0,
+            4327.1,
+            98
+        ],
+        "math is all good. For what could be a problem with this. What if Yeah, what if giave is already close to zero? So the output of the network is almost zero what happens to the learning? for that pattern You know, it's always G of a van and that's going to be very close to zero in the slope is the gradient is going to be very small. Hey, ": [
+            1538.2,
+            1587.8,
+            29
+        ],
+        "meeting. So that's an exercise for you. Okay. Okay. Okay, I found more clicker questions. Don't leave. There's a clicker question. Okay. I didn't know this had a clicker question is. Okay, so this is a check your understanding thicker question. okay, maximum likelihood estimation Does it maximize the parameters of a distribution? I think I turned off. I must have turned off and I see. Start new session, okay. ": [
+            3078.8,
+            3136.5,
+            71
+        ],
+        "minutes. How does this lead to cross and for multinomial regression? Okay. Now we have more than 2 outputs. What's the same? They're RC outputs one for each category now he want. I let the probably if that the case output is the probability that that input is in category k And we want T soup and k equal to one is an injury or otherwise, so that's one hot ": [
+            4327.1,
+            4361.6,
+            99
+        ],
+        "multiple in your DM puts plus a bias in D plus one Waits. And so you always get a line and you can use that with data and the Delta World to fit some data. And if you have a bunch of data and you use gradient descent on linear with with this formula you get that if you converge properly, so that's regression. It's not classification. Are we seeing ": [
+            1915.6,
+            1955.7,
+            39
+        ],
+        "of a with respect to Wi. Okay. And what is AAA again, is the weighted sum of the inputs? so this the driving of the Sun from i s r e j equals 1/2 D of w a x i s r e j j j j j w i i Ask Sai why because when you're taking a partial derivative. What are the variables here? It's not a Nexus ": [
+            1232.7,
+            1282.4,
+            23
+        ],
+        "of black on one just didn't work for him as my research group and believe more Research Unit through we do unbelievable research which is why we can't get published. That's not true. We do get published. I had somebody in a review Wednesday. He can't even get his stuff published man. It was it's a joke. And this is me the star symbol. I'm meditating on an auto encoder ": [
+            2372.0,
+            2412.4,
+            52
+        ],
+        "of layers here not just one is get them to the point. So that just before the output. You're making everything linearly separable again. Is that all you can do with these guys? So you're trying to find learn some features in the service of the task that will make it linear make your problem linearly separable at the output. So there are theoretical ways to motivate perceptrons and these ": [
+            2300.0,
+            2335.1,
+            50
+        ],
+        "okay. So since in a neural network modeling the mapping from x2t. Weep when there's no parameters in here of the model. This is what we're trying to model the probability of the output given the input. Right. That's what logistic regression does. That's what softmax regression does. So when were minimizing this with their structure are parameters we can just drop this turn. Okay, that's too bright. Okay. So ": [
+            3554.0,
+            3593.9,
+            80
+        ],
+        "on that works we have inputs and outputs and now the likelihood looks like this so it's the product. Of all the data points of the prophet of joint probability of the input and the output that's what we want to maximize. That's the likelihood again. We're assuming that all the EX's and the t's are independent of one another all the valley all the data points in the in ": [
+            3479.3,
+            3512.8,
+            78
+        ],
+        "on. I need a way to get updated and has lots of decreasing to do that. Can you just look at what the output of the network is for your test examples? It is like it's just something easy red white and bright. Does it make sense at all? I mean sometimes finishing the war all the time all the time. the same thing for every input Search did you ": [
+            4734.4,
+            4784.8,
+            108
+        ],
+        "open. Oaks Okay, 68 of you voted. 72 I know there were 80 in here earlier just a few seconds ago. the other six of you haven't voted Okay, one more. Come on. You can do it make a choice. Not that are okay. I'm going to close it out going going going gone. What's the answer class? That's right. They're all the same. Trying to maximize the log likelihood ": [
+            3368.8,
+            3423.0,
+            76
+        ],
+        "or Trying to minimize the negative log likelihood. We're trying to maximize the likelihood. D&C All right. Let's see if it's this works now doesn't work if this works. Well, it stopped again. Okay. All right, so that's it for clickers for the moment. So now you can go. Okay. Okay, so Or finding a Galaxy and we assumed one dimensional data like scores on a test. But in there ": [
+            3423.0,
+            3479.3,
+            77
+        ],
+        "or what we're talking about here. But it's just I think it's just some picture I found on the internet and I wanted to use it because it makes the point well. So another words the probably the target given the data is his calcium. Okay, so here's the target. HVAC Savannah is our model of the data. So this is our neural network or our regression thing etcetera? So ": [
+            3670.2,
+            3709.4,
+            83
+        ],
+        "other things and we're going to talk about that more next time which is really going to be this time. So let's go to this time. Okay, so I haven't changed this one yet. But I told you that you know, I had people that. It didn't like this. It made them hurt their eyes or their brains or something. I'm not sure what Okay, the white on Blue instead ": [
+            2335.1,
+            2372.0,
+            51
+        ],
+        "out. Is the product of the probability of each data point if they're independent data points than the likelihood of the data is the probability of each data point. Which where do the data points go their ears X that's the data? Here's xn here's xn so we're plugging the end of the gaussian. and we take this outside and there's a big n on it and now we're product ": [
+            2726.5,
+            2760.2,
+            61
+        ],
+        "parameters we have and plugging the result into the format formula for gradient descent. And then it pops the Delta roll. Okay. What happens if we try to use mean squared error for logistic regression? So today I'm going to start with means you guys are all done the derivative for logistic regression. I hope softmax is harder and I don't blame you. If you don't look at it still ": [
+            610.0,
+            644.9,
+            9
+        ],
+        "perceptrons and they do classification, but they're either zero or one so they can just do two categories. But of course you could have multiple outputs of a perceptron to all the weights would just be independent of one another and each perceptron is trying to figure it's part of the category. So if you had multiple categories You know. one perceptron might shut off all the pictures of Gary ": [
+            1955.7,
+            1999.0,
+            40
+        ],
+        "put a minus sign instead of a plus sign. That's what happened. The Delta rule to change the weight is a result of She is figuring out how to go downhill and gradient descent means that. We don't set the derivative of the objective function said it's a zero and solved because we can't solve because the bunch of non-linear equations. Okay, good next question or I have to start ": [
+            156.8,
+            192.0,
+            2
+        ],
+        "remember the Z score your test set? Okay. Are you sure you're reading in the test set properly or the hold exit properly? ": [
+            4784.8,
+            4799.6,
+            109
+        ],
+        "right to 57% 58% That's the that's the power of peer instruction make a k going going going gone. Okay. What's the answer class? the answer is d four of you said see and and this will cause your hair to explode. Do not do that. A third of you we've been and I said be now be is an answer to a different question. This is the this is ": [
+            337.7,
+            397.5,
+            4
+        ],
+        "schema again for 4 gradient descent doesn't matter what this is or how this figures into the model doesn't have to be neural Nets could be something else you try and go downhill with in the error with respected that parameter. Okay, so I have a lot of slides that do all this but I think it turns out that you know, that's too fast for most people. Hopefully this ": [
+            757.8,
+            796.9,
+            13
+        ],
+        "seems to one. So it gives you a probability distribution over the categories. And we'll be seeing the softmax again fairly often. So that's sometimes called a softmax distribution. So if anybody goes up somebody else goes down. It's like a winner-take-all network. So that's what we used to call it in the old days. He had a network with multiple answers and they were all inhibiting one another the ": [
+            1803.0,
+            1837.7,
+            36
+        ],
+        "sense here. Right? We don't think you know, this is Happy plus or minus some gassy and noise, right? It doesn't make sense. It's not the right distribution of the data right? Not the right likelihood form. So what do you think it is worth what distribution models are coin flip? Bernoulli Okay. And there it is. Okay. So again We assume that the likely it is the product of ": [
+            4076.3,
+            4121.0,
+            93
+        ],
+        "slopes really easy one year and zero here. There's like nothing to do basically, right? The weird thing about it in terms of like a neural network is real neurons. Don't just keep going as high as they can go. They have a maximum firing rate. So that's one. There's also one called leaky relu where there is a little something going on down here. Another line at some slow. ": [
+            2097.5,
+            2134.4,
+            44
+        ],
+        "so I can pull it out in front. So when I take the log of this I get this it's a son because I took the log until I get that part. Okay, and what is that? That looks a lot like some squared are scaled by this number, which doesn't have anything to do with the mean. Plus this other thing. that's the constant out front came it became ": [
+            3858.8,
+            3887.6,
+            88
+        ],
+        "so I'm going to want to do the derivative of 10 - y n quantity squared. over two times a 1/2 in front of your weather expected WI and so that's equal to 2/2. Turn Stephen how I can drop the ends. Sorry. Drop the NCAA drunken you okay X the derivative of T minus y with respect to Wi. so that's just using the chain rule of calculus the ": [
+            988.9,
+            1036.0,
+            18
+        ],
+        "so one person said this is the mean squared error objective function. It's not the logistic function. This is the logistic function otherwise known as the sigmoid or the the squashing function. And that's why it's called the sigmoid again cuz it looks like this. Where is is 5 + 0 and only one asymptotic Lee + - + 0 asymptotically okay. Any guys don't suppose there any questions about ": [
+            510.8,
+            557.7,
+            7
+        ],
+        "some probability distribution over the data. Last four linear or just plain regress and we assumed that the distribution was gassy and because we assumed there was some underlying deterministic function to which we had a Galaxy in noise here because it's a coin flip. We use the Bernoulli distribution for the likelihood. Okay. So what's the negative log likelihood of that? Well negative log of this is remove the ": [
+            4231.4,
+            4272.0,
+            97
+        ],
+        "tent for logistic regression and how does it lead to cross entropy for multinomial? Regression, okay. So what is maximum likelihood? That's where we're going to start. So the main idea is what we really want to know is given the data which parameters of w of our model are most likely. What are the most probable parameters of our model that is we want the parameters W. These are ": [
+            2449.6,
+            2490.2,
+            54
+        ],
+        "that to the one that to zero. okay, just any questions Okay. So we can write the entire likelihood it as the product of the probabilities of all the data points. So now we have this and this and this and that should start to look kind of familiar. So we take the negative log of that forget a song and some in this do do do-do-do-do do do we ": [
+            4428.8,
+            4464.5,
+            102
+        ],
+        "that's the derivative of SEC CWI. Now the derivative of the sun is the sum of the derivatives again. So that's just - 1 / end and the Sun. Ozone goes from 1 to figgin of 1/2 the derivative of T of N - y then. Find a squared expected WI. Okay, that's fine. Everybody happy with that. I hope ya did I do it, right? I forgot the no. ": [
+            889.8,
+            939.2,
+            16
+        ],
+        "that's the log likelihood. It's the negative log likelihood to come here. Okay. I already said that. So these are all equivalent finding the maximum of the log finding the minimum of the negative log finding the minimum this thing. Find the minimum of this thing. I guess what we had a Galaxy in here. What's a gas unit E2 this? So when you take the natural log of e ": [
+            2975.7,
+            3012.8,
+            68
+        ],
+        "that? Okay. that's it for clicker questions today has been Okay, okay. So some easy ones murder one. Okay, so last time Actually, I guess it's a break presentation turn on some more lights. So last time I derive the Delta rule for linear regression by coming up with me and screw starting with mean squared error. Taking the derivative with respect to the weights and the weights are the ": [
+            557.7,
+            610.0,
+            8
+        ],
+        "the answer. I don't see anything wrong with that 5 p.m. Yeah, I don't know I can find out when you're using the way to just trained to do the lost right now for sure of that. Okay, I would you know, I often like print things out to see make sure they're where I think they are, you know, if you have tried that eyes and see what's going ": [
+            4700.9,
+            4734.4,
+            107
+        ],
+        "the argument. Okay, so the cool thing that happens when you take the log Is it turns into a sum and then you have the log of the probability of each point? Okay, any questions so far? So typically we call this the error. Right try to maximize the likelihood but instead we minimize the negative log likelihood and we usually just call that the air. So that's the likelihood ": [
+            2938.0,
+            2975.7,
+            67
+        ],
+        "the schema for gradient descent. If you want to change your weight, you should change them in the direction of that will. Decrease the objective function. So this part says uphill in the objective function When You Subtract it you go downhill. Okay. This is the Delta. So I tried to fill you with this because this is delta T. Minus. Why is delta T minus? Why is Delta here ": [
+            397.5,
+            435.9,
+            5
+        ],
+        "the training set car independent so we can product them together. But this factors you remember your probability in the probability of T given x times the probability of x. And taking the negative log, we get minus negative log likelihood is minus the sum. Of the log of this plus the log of this. Okay. Any questions on that? That's just straightforward logs blah blah blah, okay. No questions, ": [
+            3512.8,
+            3554.0,
+            79
+        ],
+        "the weights that maximize the probability of the W given the data soap, you know models in a single layer Network are even a multi-layer network. We've got parameters and destruction of the network kind of sets the structure of the model and this this is finding the best parameters that the data that make your data would generate if it could But remember base rule. They're probably in W ": [
+            2490.2,
+            2524.4,
+            55
+        ],
+        "then the parameters. Okay, the negative log likelihood of this is this. Right here is negative log just in front of all of this. I haven't changed anything here. Nothing behind the curtain. And now I move the login. not login logout login I get this Okay, so if you take the log of e to something you get this something. And the something is there for every data point ": [
+            3819.8,
+            3858.8,
+            87
+        ],
+        "thing over every datapoint E2 that okay. That's so what happens? So maximum likelihood says we should pick you and sigma such that the likely it is maximized. and Until we want to maximize this which means we want to maximize this we want to find the Mew and sigma that make this as big as possible. Okay, so we should choose the parameters that maximize the likelihood of the ": [
+            2760.2,
+            2801.6,
+            62
+        ],
+        "thing that's done in machine learning is Hugh. Try and make this High by making this high. And so that's that's where the name comes from. This is the likelihood and we're trying to maximize the likelihood. Bayesian hate this they have priors and so we're not being real bajans here. So we want so what this says is I want W's that make the data that we get the ": [
+            2645.0,
+            2681.3,
+            59
+        ],
+        "this becomes one and we get this comes 1-0. So this is the probability that 10 Category 2 that becomes one that becomes one. We just send up with that. Okay makes sense. Pretty cool a t kind of gates those two things. Okay. So now this is the likelihood of the data. He believed me so far. So what we're trying to do is first we have to have ": [
+            4190.3,
+            4231.4,
+            96
+        ],
+        "this it's a fine activation function to the input switch, you know, the logistic it's just kind of weird but you don't do that either just the the Ryan puts that and then that this is where we learn to. These could be rather they could be Logistics. They could be 10 H. And typically these are always going to be either linear. If you're trying to do regression or ": [
+            2231.1,
+            2266.4,
+            48
+        ],
+        "this that means it's going to be like that. It's sort of like a normal. Hey, so that's Steve Prime. Arvak's and that's device. What are you making? Okay, so that's that's cool. We were happy about that. We didn't have to do much to calculate the slope. But what's wrong with this? It looks a lot like the Delta rule. so any ideas There's nothing wrong with the math ": [
+            1483.0,
+            1538.2,
+            28
+        ],
+        "to G of a work Juve is does logistic activation function and a is the weighted sum of the input. Sometimes I'll slip and call that the net input and what's x 0 here. 5 bias One. Yeah, it's one w0s to buy it. Just checking. Okay? Okay. Why did I get this again? Okay. so we're going to reduce the objective function by going downhill and this is the ": [
+            710.7,
+            757.8,
+            12
+        ],
+        "to replace y with giave so I've got my ass tribute of G of a with respect to Wi. And so it's t- why? Has the stand minus sign here privative G of a with respect to a x the derivative of a respected WI. So I'm just using the chain rule. Again, so what's this? What's this one? That's just any anybody somebody what? I just you can leave ": [
+            1114.4,
+            1172.5,
+            21
+        ],
+        "to something you got that something. Your doodoo doodoo doodoo? Doodoo? What does that Look Alot Like that looks a lot like squared error. Got a minus here. It's got a minus here. And some things out front something down here usually for trying to so what we're trying to do is find the mean. That's one of the things we're trying to fit and we're trying to find Sigma. ": [
+            3012.8,
+            3044.9,
+            69
+        ],
+        "too, but that is the Delta rule. Okay any questions? about that answer Okay. All right. Okay Ready Set Go. Hopefully this one will be easy. It looks like it's easy. Okay, very few. We are getting fooled by anything here. Okay, 73 people event 74. When wrong answer got changed to right answer. So get one wrong answer. Okay going going going gone. Okay, and what's the answer be ": [
+            435.9,
+            510.8,
+            6
+        ],
+        "turn in your programming spent minutes and your homework, but that is a little tricky of a derivative. So don't feel bad. If you can't figure it out. Okay? Okay, so we're going to start today. We're going to start with me and squirt or not. So what we did in the homework was start with cross entropy. And you're going to see why we did that in some sense ": [
+            644.9,
+            675.3,
+            10
+        ],
+        "two comes down and that's why I've got a 1/2 in front cuz now I've got T minus y times in somewhere back there. I dropped a minus sign to so the derivative of the sun is the sum of the derivatives against oh, yeah - the derivative of y Spectra WI and that is 0 cos T is a constant. and so 58 - y x the derivative of ": [
+            1036.0,
+            1076.9,
+            19
+        ],
+        "usually more convenient. Not to maximize the likelihood but minimize the negative of the log of the likelihood. and then log is a monotonic function so the the maximum of that is the maximum of not that right. So if you have x y z and you apply to the law to them and why is bigger than x and C is bigger than y then the log of those ": [
+            2871.6,
+            2906.0,
+            65
+        ],
+        "we're going to assume without a data that all W's are equally likely so this prior is a constant. That is it's the same for everything. That's the uniform distribution. Okay. So what happens then? So if this is normalizing constant, and this is constant, then maximizing this means we're maximizing this over W, which means we're maximizing this cuz that's constant and that's constant. So this is a common ": [
+            2604.1,
+            2645.0,
+            58
+        ],
+        "were drawn from a gas in year, and now she in here guessing here guessing here etcetera. So we assume this so this is like no choice. Okay, it could be measurement noise could be actual noise if you're in a bar. Okay. So this is the this thing represents the probably the target cuz it's gaussian distributed x 0 Given W and betta, I don't remember what beta is ": [
+            3632.9,
+            3670.2,
+            82
+        ],
+        "what if TV is really close to 1. Same problem, right? So we're out here or out here and if we're so. If we're very confident in our answering wrong, it's really hard to change it. But if we're really confident in her answer and were wrong and we used the standard Delta roll that we got from Cross entropy. No problem, you know, this isn't here if we're really ": [
+            1587.8,
+            1624.2,
+            30
+        ],
+        "with just the guy for that category. Okay, so that's the probably one pattern. If the product over all these wise And most of them will turn to one with a one-out and coding except for the one that has the one so that's the probability distribution. That's a probably one pattern. So, you know, this is just illustrating my point. Okay this to the zero that to the zero ": [
+            4391.2,
+            4428.8,
+            101
+        ],
+        "with the probability of category 1 so we want the network to produce the probability that the input is in category one. That is the output. should be the probability category 1 given X So that's again basically categorization. So How can so that that's like a coin flip, right? And okay, so what's the likelihood of the data now? Okay, is it a Galaxy in? That doesn't make any ": [
+            4028.0,
+            4076.3,
+            92
+        ],
+        "won't be too fast. So The rosie you just joining us. We already did the clickers. Sorry. Okay, so the schema is w i w i minus some learning right and ziggurat of a MSC. With respect to wink and we're going to try to do logistic regression this way. Okay, so I have to figure out what this is. And it's going to look a lot like I did ": [
+            796.9,
+            841.8,
+            14
+        ],
+        "x - G Prime of a time's the derivative of w i x is expected wi, which is just X. so Okay, so that okay. So there it is. That's what you get for learning rule. when you use mean squared error with the logistic function Okay, so no no no no, no. Okay, so all right Sue. Okay, so fun fact. That if you already know what giave is ": [
+            1370.3,
+            1440.3,
+            26
+        ],
+        "x 1 for the Schecter WI... What's the derivative of? WD XD sorry, if you can't see that for the Spectre w i and so when you're taking a derivative. A partial derivative used to mall the other variables are constant. So that's it. If that's not I then that's a constant. So the all of these go to zero except when J equal sign. and so that's t- why? ": [
+            1324.9,
+            1369.1,
+            25
+        ],
+        "y -2 driven is a y or w i but why do you have a is a so I can just do this, right? No, I can't because this is logistic regression. So y equals g of f a. How much is 1/1 + 50 to the minus a okay, so I can't just get rid of that. I have to use the chain rule again. And now I'm going ": [
+            1076.9,
+            1114.4,
+            20
+        ],
+        "you could Logistics. Do something again to hear you're doing what it is at a Timber at a 1/2 as a woman X. Thank you though with WhatsApp Road logistics in, then it is. Okay. That sounds like a stalker. Do have you tried resetting the validation last is 0 right before you can do a private post to us and show us your code and maybe somebody will find ": [
+            4626.0,
+            4700.9,
+            106
+        ],
+        "you learn that weight. And so if you go down to zero, you're not learning very much. Where is this one that goes down 2-1 in plus one. You can learn faster with this. Until when we have a hidden layer, which we're going to have soon. You're not ready yet? So we have some inputs. Like here's the exercise then we have some units that are in between the ": [
+            2169.5,
+            2203.6,
+            46
+        ],
+        "you're just a subtraction in a x a way from the slope of TV? because the slope of the events just uofa * 1 - TV All right. Let's just look at that for a second. So in the end, I dropped in minus and there's another month and you know, it's just some the end. Okay, so here's the squashing function. And the slope is this * 1 - ": [
+            1440.3,
+            1483.0,
+            27
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_4.flac",
+    "Full Transcript": "Okay.  I'm going to start right off with a few clicker question.  Forget your clickers out.  There should be a a  I haven't been able to find my  Professor clicker so I don't can't change the channel. So I hope no one next door is using clickers on a you ready.  Set Go  Oh, I have to sorry. I haven't started it yet.  Okay.  There we go. Okay.  Okay.  The answer is not he.  and there you want to put it there but  Okay, is everybody voted? Are there only 65 of you?  Really? Okay 66.  Okay.  I'm going to close it out.  going going  Going Sean. Okay, what's the answer? Thank you. 94% of you got that for four people.  I didn't get it. Why is he answer not be?  Yeah, this this is for those who used to put a minus sign instead of a plus sign. That's what happened. The Delta rule to change the weight is a result of  She is figuring out how to go downhill and gradient descent means that.  We don't set the derivative of the objective function said it's a zero and solved because we can't solve because the bunch of non-linear equations.  Okay, good next question or I have to start it again.  The answer is still not easy.  Okay.  going going going  God  Okay, you your neighbor has a 49% chance of having it right turn to your neighbor and discuss it will try again.  You got to find a neighbor if you don't have a neighbor.  doing  Okay, it seem to have settled down. Got your answer in your pocket ready.  girl  better  Okay, we went from.  49% getting right to 57% 58%  That's the that's the power of peer instruction make a  k  going  going going gone. Okay. What's the answer class?  the answer is d  four of you said see and and this will cause your hair to explode.  Do not do that.  A third of you we've been and I said be now be is an answer to a different question.  This is the this is the schema for gradient descent. If you want to change your weight, you should change them in the direction of that will.  Decrease the objective function. So this part says uphill in the objective function When You Subtract it you go downhill.  Okay.  This is the Delta. So I tried to fill you with this because this is delta T. Minus. Why is delta T minus? Why is Delta here too, but that is the Delta rule.  Okay any questions?  about that answer  Okay.  All right.  Okay Ready Set Go.  Hopefully this one will be easy.  It looks like it's easy.  Okay, very few. We are getting fooled by anything here.  Okay, 73 people event 74.  When wrong answer got changed to right answer.  So get one wrong answer.  Okay going going going gone.  Okay, and what's the answer be so one person said this is the mean squared error objective function. It's not the logistic function. This is the logistic function otherwise known as the sigmoid or the the squashing function.  And that's why it's called the sigmoid again cuz it looks like this.  Where is is 5 + 0 and only one asymptotic Lee + - + 0 asymptotically okay. Any guys don't suppose there any questions about that? Okay.  that's it for clicker questions today has been  Okay, okay.  So some easy ones murder one. Okay, so last time  Actually, I guess it's a break presentation turn on some more lights. So last time I derive the Delta rule for linear regression by coming up with me and screw starting with mean squared error.  Taking the derivative with respect to the weights and the weights are the parameters we have and plugging the result into the format formula for gradient descent.  And then it pops the Delta roll.  Okay.  What happens if we try to use mean squared error for logistic regression?  So today I'm going to start with means you guys are all done the derivative for logistic regression. I hope softmax is harder and I don't blame you. If you don't look at it still turn in your programming spent minutes and your homework, but that is a little tricky of a derivative. So don't feel bad. If you can't figure it out. Okay? Okay, so we're going to start today. We're going to start with me and squirt or not. So what we did in the homework was start with cross entropy.  And you're going to see why we did that in some sense because we're going to start with me and squirt are take the derivative with respect to the way. It's plugged the result into the formula for gradient descent and get a bad learning roll.  And in the next the next lecture we might get to some of it today. We'll see why that is, okay.  So the just to remember our notation the output of the network is y equal to G of a work Juve is does logistic activation function and a is the weighted sum of the input. Sometimes I'll slip and call that the net input and what's x 0 here.  5 bias  One. Yeah, it's one w0s to buy it. Just checking. Okay?  Okay.  Why did I get this again? Okay.  so we're going to reduce the objective function by going downhill and this is the schema again for  4 gradient descent doesn't matter what this is or how this figures into the model doesn't have to be neural Nets could be something else you try and go downhill with in the error with respected that parameter.  Okay, so I have a lot of slides that do all this but I think it turns out that you know, that's too fast for most people. Hopefully this won't be too fast. So  The rosie you just joining us. We already did the clickers. Sorry.  Okay, so the schema is w i w i  minus some learning right and ziggurat of a MSC.  With respect to wink and we're going to try to do logistic regression this way. Okay, so I have to figure out what this is.  And it's going to look a lot like I did last time except slightly different. So this is minus the derivative of the sun over all the patterns.  X  the target for that pattern minus y for that pattern quantity squared.  Okay, and that's Delta. That's the difference between what you did and what you should have done.  oh, and I'm going to put  mean squared error. So 1 / n  And I needed to down here to.  Okay.  So that's the derivative of SEC CWI. Now the derivative of the sun is the sum of the derivatives again. So that's just - 1 / end and the Sun.  Ozone goes from 1 to figgin of 1/2 the derivative of T of N - y then.  Find a squared expected WI.  Okay, that's fine. Everybody happy with that. I hope ya did I do it, right?  I forgot the no.  I can leave after learning right you don't need that. Okay. So now since these are all going to be the same basically for every n I'm just going to do one exact one example and get rid of having take all those  Having all that clunky sigma's and stuff like that. Okay.  example  Okay, that is.  One pattern I call it so pattern is an input output pattern.  Okay, so I'm going to want to do the derivative of 10 - y n quantity squared.  over two times a 1/2 in front of your  weather expected WI  and so that's equal to 2/2.  Turn Stephen how I can drop the ends. Sorry.  Drop the NCAA drunken you okay X the derivative of T minus y with respect to Wi.  so that's just using the chain rule of calculus the two comes down and that's why I've got a 1/2 in front cuz now I've got T minus y  times in somewhere back there. I dropped a minus sign to  so the derivative of the sun is the sum of the derivatives against oh, yeah - the derivative of y Spectra WI  and that is 0 cos T is a constant.  and so  58 - y  x the derivative of y -2 driven is a y or w i but why do you have a is a so I can just do this, right?  No, I can't because this is logistic regression. So y equals g of f a.  How much is 1/1 + 50 to the minus a okay, so I can't just get rid of that. I have to use the chain rule again. And now I'm going to replace y with giave  so I've got my ass tribute of G of a with respect to Wi.  And so it's t- why?  Has the stand minus sign here privative G of a with respect to a x the derivative of a respected WI.  So I'm just using the chain rule.  Again, so what's this?  What's this one?  That's just any anybody somebody what?  I just you can leave it in terms of G.  When is it?  Yeah.  That's after we figure out what this is first, which is hot.  Okay, what's the derivative of f x with respect to X?  F Prime of X the derivative of x at that point right? So  so we get  so we get  T-minus why  x - 5 G Prime  Of a the slope of g at that point x the derivative of a with respect to Wi.  Okay. And what is AAA again, is the weighted sum of the inputs?  so this the driving of the Sun from i s r e j equals 1/2 D of w a x i s r e j j j j j w i i  Ask Sai why because when you're taking a partial derivative.  What are the variables here? It's not a Nexus in the training set. It's a constant double use a variable and the derivative of the sun is the sum of the derivative. So this is really daigle's 1/2 D of the derivative of w 0 x 0 with respect to Wi her. Sorry.  Can we make this a little more explicit?  This is the derivative of w0 is expected w i x x 0 + the derivative of 1 x 1 for the Schecter WI...  What's the derivative of?  WD XD sorry, if you can't see that for the Spectre w i and so when you're taking a derivative.  A partial derivative used to mall the other variables are constant.  So that's it. If that's not I then that's a constant. So the all of these go to zero except when J equal sign.  and so  that's t- why?  x - G Prime of a  time's the derivative of w i x is expected wi, which is just X.  so  Okay, so that okay. So there it is. That's what you get for learning rule.  when you use mean squared error with the logistic function  Okay, so no no no no, no.  Okay, so  all right Sue.  Okay, so fun fact.  That if you already know what giave is you're just a subtraction in a x a way from the slope of TV?  because the slope of the events just uofa * 1 - TV  All right. Let's just look at that for a second.  So in the end, I dropped in minus and there's another month and you know, it's just some the end.  Okay, so  here's the squashing function.  And the slope is this * 1 - this that means it's going to be like that.  It's sort of like a normal.  Hey, so that's Steve Prime.  Arvak's and that's device.  What are you making?  Okay, so that's that's cool. We were happy about that. We didn't have to do much to calculate the slope.  But what's wrong with this? It looks a lot like the Delta rule.  so any ideas  There's nothing wrong with the math math is all good.  For what could be a problem with this.  What if  Yeah, what if giave is already close to zero? So the output of the network is almost zero what happens to the learning?  for that pattern  You know, it's always G of a van and that's going to be very close to zero in the slope is the gradient is going to be very small.  Hey, what if TV is really close to 1.  Same problem, right? So we're out here or out here and if we're so.  If we're very confident in our answering wrong, it's really hard to change it.  But if we're really confident in her answer and were wrong and we used the standard Delta roll that we got from Cross entropy. No problem, you know, this isn't here if we're really confident and wrong. We're going to get a big slope there.  You got a big error signal?  All right.  So not knowing any better four years. This is what we did. This is what's in chapter 8 of the Old Testament that PDP book volume 1 and if it does work, I mean this did we use this for a long time.  And it just screwed us.  And then the learning really drives in your homework doesn't have that smoke turn. So it's funny. But that's what happened. Sometimes though. We told her students. Just leave out the slope learns better.  We didn't we didn't know why though.  So what's going on here is that mean squared error is the wrong objective function for logistic regression. The right one is the one you use cross entropy.  Which leads to the Delta rule?  And in the next lecture, maybe this one and I'm pretty sure this one cuz we got 40 got a long time left 15 minutes. Yeah, we'll get into it.  Okay, so any questions, so I just arrived a bad learning rule for you and that's when we use for a long time.  No questions, no questions. Okay. So for logistic regression, there's no clothes formula for the form formula for the weight. So we have to use gradient descent as you guys have been doing in your homework.  And I said all this cross entropy lines leads to a good role.  Okay. So this is just the softmax you all know what this off Max's by now, so I'm not going to spend any time on it really unless somebody wants me to.  Okay, why is this called a softmax?  You know, whoever has the biggest a is going to win right there going to be the biggest output. So why so the max winds but why use this at all? Well, the reason again is that it it's positive that's always a positive number.  And when you send them over all the patterns.  We get this on the top and this on the bottom, so it seems to one.  So it gives you a probability distribution over the categories.  And we'll be seeing the softmax again fairly often. So that's sometimes called a softmax distribution.  So if anybody goes up somebody else goes down. It's like a winner-take-all network. So that's what we used to call it in the old days. He had a network with multiple answers and they were all inhibiting one another the guy with the most input usually would win. So that's how we make decisions in their own that send you make a decision here by picking the maximum output right say I had a student in my office hour today saying he was getting 100% of the 6-way one. Anybody getting that. Okay. That's a bug whoever-you-are. He's got a bug somewhere.  Okay, if you're still here, okay?  So we can take it away just because that the softmax is actually a generalization of logistic. If you plug in to the softmax, just two categories, you can turn that into a soft into a logistic.  So it's a generalization to more than two categories.  So we've seen four kinds of neural networks so far linear Network, which gives you linear regression where you're all network is this and you have multiple in your DM puts plus a bias in D plus one Waits.  And so you always get a line and you can use that with data and the Delta World to fit some data. And if you have a bunch of data and you use gradient descent on linear with with this formula you get that if you converge properly, so that's regression. It's not classification.  Are we seeing perceptrons and they do classification, but they're either zero or one so they can just do two categories.  But of course you could have multiple outputs of a perceptron to all the weights would just be independent of one another and each perceptron is trying to figure it's part of the category. So if you had multiple  categories  You know.  one perceptron might  shut off all the pictures of Gary and one might cut off all the pictures of Bob.  One might cut off all the pictures of Ted.  So they're all fighting it out.  Okay.  And perceptrons again can be considered a linear discriminant. All they do is put a line down in the input space and on one side of the line. They're on the other side of the line. They're off.  And then we seen logistic regression.  and softmax  And all of these can be trained by the Delta rule. It's kind of spooky actually.  There are other activation functions though. They were going to see soon one is called rectified linear units are rellos to his friends. And this is kind of a combination of linear and and and perceptron it's off until it hits 0 it's on linearly.  So this is nice in the Deep Network because what we're going to find out if she's still need the slope for the hidden units, you can't get rid of it there. It's great having T. Minus y at the output but you're going to have a slope at the hidden units and you can't you have to have so the nice thing about this is if you've got it as a hidden unit is that the slopes really easy one year and zero here. There's like nothing to do basically, right?  The weird thing about it in terms of like a neural network is real neurons. Don't just keep going as high as they can go. They have a maximum firing rate.  So that's one. There's also one called leaky relu where there is a little something going on down here. Another line at some slow.  Okay, tan H is another one that goes from -1 to 1 and this turns out to be useful because it's not 0 or 1. So if I'm in a deep Network where I am sending activation up to the next guy something very still the Delta really just have to figure out what the Delta is. And so the input on that line the x i affect how fast you learn that weight. And so if you go down to zero, you're not learning very much. Where is this one that goes down 2-1 in plus one. You can learn faster with this.  Until when we have a hidden layer, which we're going to have soon.  You're not ready yet?  So we have some inputs. Like here's the exercise then we have some units that are in between the input the output and so they're hidden because he can't see him. The only see the input the output and we don't know exactly where they're heading there who put them there but here they are and this could be these guys could be reloj and these guys softmax and this is just the input to a lot of mistakes people made early on your friend of mine still does this it's a fine activation function to the input switch, you know, the logistic it's just kind of weird but you don't do that either just the the Ryan puts that and then that this is where we learn to.  These could be rather they could be Logistics. They could be 10 H. And typically these are always going to be either linear. If you're trying to do regression or are they in that and because of this it's no longer linear regression. You can fit curves and things.  But out here if you're doing classification, it's either the logistic or softmax.  and disappointed people don't often think about  a lot of times what you're trying to do here is something it's not linearly separable.  So what the network is trying to do with these layers you can have lots of layers here not just one is get them to the point. So that just before the output.  You're making everything linearly separable again.  Is that all you can do with these guys?  So you're trying to find learn some features in the service of the task that will make it linear make your problem linearly separable at the output.  So there are theoretical ways to motivate perceptrons and these other things and we're going to talk about that more next time which is really going to be this time.  So let's go to this time.  Okay, so I haven't changed this one yet.  But I told you that you know, I had people that.  It didn't like this. It made them hurt their eyes or their brains or something. I'm not sure what  Okay, the white on Blue instead of black on one just didn't work for him as my research group and believe more Research Unit through we do unbelievable research which is why we can't get published. That's not true. We do get published. I had somebody in a review Wednesday. He can't even get his stuff published man. It was it's a joke.  And this is me the star symbol. I'm meditating on an auto encoder Network which will see what that is some day. So this is based on Bishop chapter 6 section 6167 and 6969 as the derivative of the softmax. You might want to look at that. It's not it's some crucial steps there. They're kind of missing but helps, okay.  That's what we're going to talk about. How does it lead to some squared error for aggression has it lead to cross tent for logistic regression and how does it lead to cross entropy for multinomial?  Regression, okay.  So what is maximum likelihood?  That's where we're going to start. So the main idea is what we really want to know is given the data which parameters of w of our model are most likely.  What are the most probable parameters of our model that is we want the parameters W. These are the weights that maximize the probability of the W given the data soap, you know models in a single layer Network are even a multi-layer network. We've got parameters and destruction of the network kind of sets the structure of the model and this this is finding the best parameters that the data that make your data would generate if it could  But remember base rule.  They're probably in W given D is probably be given w x probably W over the probably the data.  Hey, everybody. Remember Bayes rule.  So much. So this represents a world in which D is true and then you're trying to find out what the most probable there this etcetera.  Okay, so this is called the likelihood and Bayes rule. This is called the prior. You know, what's the probability of that happening if I don't know anything else and this is a normalizing constant?  So we don't have to think about that.  And we don't have any reason to assume some W's are better than others. We can make some assumptions about the W's in that leads to Bayesian backpropagation. But you know like the dummies might be gassy and describe distributed right summer big some are small that summer zero. Okay. So we're going to assume without a data that all W's are equally likely so this prior is a constant. That is it's the same for everything. That's the uniform distribution. Okay.  So what happens then?  So if this is normalizing constant, and this is constant, then maximizing this means we're maximizing this over W, which means we're maximizing this cuz that's constant and that's constant.  So this is a common thing that's done in machine learning is Hugh.  Try and make this High by making this high.  And so that's that's where the name comes from. This is the likelihood and we're trying to maximize the likelihood.  Bayesian hate this they have priors and so we're not being real bajans here. So we want so what this says is I want W's that make the data that we get the info in our case the input-output function as likely as possible.  It's not the input. It makes the data likely as possible. So how we model that distribution of data is the key thing.  So here's a Galaxy and distribution.  Assuming the data points are independently identically distributed and we're trying to fit this gas into some data.  Then the likelihood of the data.  That's usually written with the script out.  Is the product of the probability of each data point if they're independent data points than the likelihood of the data is the probability of each data point.  Which where do the data points go their ears X that's the data?  Here's xn here's xn so we're plugging the end of the gaussian.  and we take this outside and there's a big n on it and now we're product thing over every datapoint E2 that  okay.  That's so what happens?  So maximum likelihood says we should pick you and sigma such that the likely it is maximized.  and  Until we want to maximize this which means we want to maximize this we want to find the Mew and sigma that make this as big as possible.  Okay, so we should choose the parameters that maximize the likelihood of the data.  How do we do that?  So here's an illustration. This is the distribution of scores from CSC 150 and spring of 2016. I don't know which way is high and which way is low, but here's the data. It's looks kind of Galaxy on Dish. Does this go see and make the data likely?  Show all the date is over here, but the skousen is near zero over here. So it's mainly the state of very unlikely making this likely which is wrong. Right? It's not this doesn't happen a lot.  How about that one?  Know, how about that one? Yeah. Okay. So we're trying to find a model that makes the data likely and if we're trying to fit a gaussian to some data, we try and maximize the likelihood.  So to do that it turns out it's usually more convenient.  Not to maximize the likelihood but minimize the negative of the log of the likelihood.  and then log is a  monotonic function so the  the maximum of that is the maximum of  not that right. So if you have x y z and you apply to the law to them and why is bigger than x and C is bigger than y then the log of those are in the same order. It's a monotonic function doesn't change. What where the peak is. So often what we do is we stick a log in front of that.  We are.  The max of this then is the minimum of this with a negative sign in front.  All right. That's all I did there.  And there should be some parentheses around this whole thing and not subtracting this from the argument. Okay, so the cool thing that happens when you take the log  Is it turns into a sum and then you have the log of the probability of each point?  Okay, any questions so far? So typically we call this the error.  Right try to maximize the likelihood but instead we minimize the negative log likelihood and we usually just call that the air.  So that's the likelihood that's the log likelihood. It's the negative log likelihood to come here. Okay. I already said that.  So these are all equivalent finding the maximum of the log finding the minimum of the negative log finding the minimum this thing.  Find the minimum of this thing.  I guess what we had a Galaxy in here.  What's a gas unit E2 this?  So when you take the natural log of e to something you got that something.  Your doodoo doodoo doodoo? Doodoo? What does that Look Alot Like that looks a lot like squared error.  Got a minus here. It's got a minus here.  And some things out front something down here usually for trying to so what we're trying to do is find the mean.  That's one of the things we're trying to fit and we're trying to find Sigma.  and so if you  Try and figure out what Miu is you set this equal to zero and take the derivative of this and Saturday equal to zero and solve.  That ends up setting Mewtwo the empirical mean of the stator.  That's why when we're trying to fit a Galaxy and we use the data we compute the mean of it and set Mew and are gassy in to the meeting.  So that's an exercise for you.  Okay.  Okay.  Okay, I found more clicker questions. Don't leave. There's a clicker question.  Okay.  I didn't know this had a clicker question is.  Okay, so this is a check your understanding thicker question.  okay, maximum likelihood estimation  Does it maximize the parameters of a distribution?  I think I turned off.  I must have turned off and I see.  Start new session, okay.  Start new session.  Okay.  Where'd my little thing go? There it is. Okay.  Mariah Carey  Okay liquor is live.  Hey, is it 59 of you 60 of answered?  Okay.  What's your answer?  76th Ave. You've answered  and oh, I haven't looked at the distribution of answers.  Okay, good. Okay, it's more than 80% of you. That means I don't have to go to talking to your neighbor.  That's that's what I learn from Christine Alvarado. Okay.  Okay now it's 70.  Okay going to close it out going going going gone evokes. What's the answer class?  See, okay good. So a few people voted for d  And at least four people voted for a so maximum likelihood maximizes the probability of the data.  Given, you know you trying to maximize and probably the data given the parameters. So you're trying to find the parameters that make the data most likely.  It doesn't maximize the loss. We want to minimize the loss.  Doesn't maximize the parameters.  I don't know exactly what that would mean make the parameters really really big. Not sure.  but anyway  Why is this not working?  Where is nothing nothing is working?  Okay.  That's weird.  Okay.  Where's my little?  Okay.  All right.  question 2  the following is an expression. No, I'm not going to  oh, how do I find? Can you find there please?  Where's my mouse? This isn't showing up on my screen is my mouse.  Okay.  So this is the results of the maximum likelihood estimation for a 1D. Gaussian.  So it's an expression for the results of mle.  Okay.  Oh, I haven't started. Sorry.  I have to find my mouse on my screen.  Okay.  Voting is open.  Oaks  Okay, 68 of you voted.  72 I know there were 80 in here earlier just a few seconds ago.  the other six of you  haven't voted  Okay, one more. Come on. You can do it make a choice.  Not that are okay. I'm going to close it out going going going gone. What's the answer class? That's right. They're all the same.  Trying to maximize the log likelihood or Trying to minimize the negative log likelihood.  We're trying to maximize the likelihood.  D&C  All right. Let's see if it's this works now doesn't work if this works.  Well, it stopped again.  Okay.  All right, so that's it for clickers for the moment. So now you can go.  Okay.  Okay, so  Or finding a Galaxy and we assumed one dimensional data like scores on a test. But in there on that works we have inputs and outputs and now the likelihood looks like this so it's the product.  Of all the data points of the prophet of joint probability of the input and the output that's what we want to maximize. That's the likelihood again. We're assuming that all the EX's and the t's are independent of one another all the valley all the data points in the in the training set car independent so we can product them together.  But this factors you remember your probability in the probability of T given x times the probability of x.  And taking the negative log, we get minus negative log likelihood is minus the sum.  Of the log of this plus the log of this. Okay. Any questions on that? That's just straightforward logs blah blah blah, okay.  No questions, okay.  So since in a neural network modeling the mapping from x2t.  Weep when there's no parameters in here of the model. This is what we're trying to model the probability of the output given the input.  Right. That's what logistic regression does. That's what softmax regression does.  So when were minimizing this with their structure are parameters we can just drop this turn.  Okay, that's too bright. Okay. So here's the idea. Here's a regression problem. We have all these blue dots. That's the data.  We've got we're trying to fit the data. But let's let's assume right now.  That this red line is the underlying deterministic function that generated this data. How did it generate this data?  by drawing from a gaussian with 0 mean at the value of the of the  Red Kerr, so all these points were drawn from a gas in year, and now she in here guessing here guessing here etcetera. So we assume this so this is like no choice. Okay, it could be measurement noise could be actual noise if you're in a bar.  Okay. So this is the this thing represents the probably the target cuz it's gaussian distributed x 0  Given W and betta, I don't remember what beta is or what we're talking about here.  But it's just I think it's just some picture I found on the internet and I wanted to use it because it makes the point well.  So another words the probably the target given the data is his calcium.  Okay, so here's the target.  HVAC Savannah is our model of the data.  So this is our neural network or our regression thing etcetera?  So if we make this assumption that when were trying to do regression the data has gaussian 0 Min gaussian noise, then the probability of any one of these targets are given where it is. It has to be where it is because it's around this red line.  Yes, actually so age of accident is we assume that's the the equation for the red line, sorry  I want a little too far ahead. So this is the Red Line This is the deterministic function. And this is the probability of sum Target given that  So there's some deterministic function with some zero mean additive Galaxy noise. So a Target is a touch of accident at that point plus Epsilon where Epsilon is the gaussian noise?  That means Epsilon people's t- age of exercise pen to subtracting from both sides.  So the likelihood of the data looks like this product of a gaussian.  And now instead of HVAC Savannah in there. I put my neural-net cuz that's what I want to match. I want to match that underlying deterministic function in spite of the noise.  Okay.  And this notation here why of excavation semicolon W emphasizes that our model here is parameterize by Debbie.  Pretty standard notation of a little semicolon and then the parameters.  Okay, the negative log likelihood of this is this.  Right here is negative log just in front of all of this. I haven't changed anything here. Nothing behind the curtain.  And now I move the login.  not login logout login I get this  Okay, so if you take the log of e to something you get this something.  And the something is there for every data point so I can pull it out in front.  So when I take the log of this I get this it's a son because I took the log until I get that part. Okay, and what is that?  That looks a lot like some squared are scaled by this number, which doesn't have anything to do with the mean.  Plus this other thing.  that's the constant out front came it became a  Since it was negative our glycolytic came became a plus, but we're not trying to fit that.  So we can remove that term because it's constant with respect to the weights cuz we're not trying to fit Sigma. We're trying to fit this guy.  And this Factor doesn't do anything either. It's just me and we can assume the signals or some constant.  and  that doesn't affect the minimum. It's still going to be the same minimum whether this is here or not and I get  Do-do-do-do do-do-do-do.  sum squared error  So do do do do do-do-do-do is the sound from Twilight Zone, and I'm going to say it a lot.  so  to recap  when doing regression if we assume the targets are gaussian distributed.  Okay, and we maximize the likelihood of the data by minimizing the negative log likelihood we get some squared error.  Okay, pretty cool. Huh? Any questions? Yeah.  When was this discovered?  Probably by gas or something like that it sold.  This is if you're doing regression, it's not logistic regression.  This is just fitting data not trying to categorize data will get to that don't worry coming.  So how does this lead to cross it?  for logistic regression  okay, so logistic regression should out with the probability of category 1  so we want the network to produce the probability that the input is in category one. That is the output.  should be the probability category 1 given X  So that's again basically categorization.  So  How can so that that's like a coin flip, right?  And okay, so what's the likelihood of the data now?  Okay, is it a Galaxy in?  That doesn't make any sense here. Right? We don't think you know, this is Happy plus or minus some gassy and noise, right? It doesn't make sense. It's not the right distribution of the data right? Not the right likelihood form. So what do you think it is worth what distribution models are coin flip?  Bernoulli  Okay.  And there it is. Okay. So again  We assume that the likely it is the product of all the data points.  Which is and this is the distribution.  Why haven't the T of N - 5 in in one month? So what if it was so what's the probability that sin category one? It's one because it's in category 1 Okay, so  Reuse tea event equals one category one that makes y ven to the 1000th power, which is just y ven. So that's what our network is saying is the output 1 - y ven * 1 - but wait even is one this becomes a zero. And so this goes away cuz it's this to the zeroth power. So we just end up with Y then.  What if it's in Category 2?  What's the probability of it being in category too? Well, that that would if it has a zero Target, then this becomes Iran this becomes one and we get this comes 1-0. So this is the probability that 10 Category 2 that becomes one that becomes one. We just send up with that.  Okay makes sense.  Pretty cool a t kind of gates those two things.  Okay. So now this is the likelihood of the data.  He believed me so far.  So what we're trying to do is first we have to have some probability distribution over the data.  Last four linear or just plain regress and we assumed that the distribution was gassy and because we assumed there was some underlying deterministic function to which we had a Galaxy in noise here because it's a coin flip. We use the Bernoulli distribution for the likelihood.  Okay.  So what's the negative log likelihood of that?  Well negative log of this is remove the log inside at the sum you get log of that to the team and you get  whoa, there it is cross entropy.  Okay, so to recap.  When we're doing two category classification if we assume the targets are Bernoulli distribution and maximize the likelihood of data by minimizing the negative log likelihood. We find that we need to minimize cross entropy error.  Simply doesn't play.  so  Verde  I'm in 8 minutes. How does this lead to cross and for multinomial regression?  Okay. Now we have more than 2 outputs.  What's the same? They're RC outputs one for each category now he want.  I let the probably if that the case output is the probability that that input is in category k  And we want T soup and k equal to one is an injury or otherwise, so that's one hot encoding.  How do we write the likelihood?  Okay. Well we can just put it up here the TV up here, right? Why is output which to probably a category K if category this is category K and it is category K that's going to be a one if it's not category K. It's going to be a zero. So all the other categories turned a zero in the end up with just the guy for that category.  Okay, so that's the probably one pattern.  If the product over all these wise  And most of them will turn to one with a one-out and coding except for the one that has the one so that's the probability distribution. That's a probably one pattern.  So, you know, this is just illustrating my point. Okay this to the zero that to the zero that to the one that to zero.  okay, just  any questions  Okay.  So we can write the entire likelihood it as the product of the probabilities of all the data points. So now we have this and this and this and that should start to look kind of familiar. So we take the negative log of that forget a song and some in this  do do do-do-do-do do do we get sent for multiple classes?  so again  Conjuring Seaway classification multiple multinomial regression if we assume the targets are multi normally distributed maximize like get processed.  Okay, so in the next lecture, okay, so I told you all this in the next lecture. I'm going to talk about some other approaches to objective functions. These aren't the only ones.  And then start with some tricks of the trade, which is based on an older paper by young laocoon, but some of them are relevant and don't make sense.  Yeah, I don't have time to come to office hours today. I have a 11:30 o clock to increasing actually, so I have been stuck on the problem instead of decreasing or increasing my training zero an antioxidant to figure it out.  Maybe you're learning rate is too high and weight. They are actually  Airplanes lyrics  the smaller number is increase laptop, but still increasing.  Okay, so nobody can find out which one yeah, so, where is this where you're changing the weights? Yeah, so why it's got the label label - Alpha Centauri Southpark. Where is T4 this and why for that? Yeah, okay.  This is hard for me to read cuz these are all different things in my occupation.  So you could Logistics.  Do something again to hear you're doing what it is at a Timber at a 1/2 as a woman X. Thank you though with WhatsApp Road logistics in, then it is. Okay. That sounds like a stalker.  Do have you tried resetting the validation last is 0 right before you can do a private post to us and show us your code and maybe somebody will find the answer. I don't see anything wrong with that 5 p.m.  Yeah, I don't know I can find out when you're using the way to just trained to do the lost right now for sure of that. Okay, I would you know, I often like print things out to see make sure they're where I think they are, you know, if you have tried that eyes and see what's going on.  I need a way to get updated and has lots of decreasing to do that. Can you just look at what the output of the network is for your test examples? It is like it's just something easy red white and bright.  Does it make sense at all? I mean sometimes  finishing the war all the time all the time.  the same thing for every input  Search did you remember the Z score your test set? Okay.  Are you sure you're reading in the test set properly or the hold exit properly? "
+}

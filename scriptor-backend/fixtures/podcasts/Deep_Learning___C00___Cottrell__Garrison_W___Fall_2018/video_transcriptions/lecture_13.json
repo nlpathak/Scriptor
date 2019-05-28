@@ -1,0 +1,606 @@
+{
+    "Blurbs": {
+        "10 to 25,000 words, depending on what you call a word. having a 25000 units off Max imagine trying to Compute the soft Max whereas if you have a letter there's only like 26 of those and then there's some other stuff like punctuation to actually these let character at a time that works are quite common. So here's a network. That's just like this that's been trained on Shakespeare. ": [
+            3432.4,
+            3471.6,
+            84
+        ],
+        "59 votes. 60 votes 61 Okay. Okay, turn to your neighbor or Neighbour as a 2/3 chance of being correct. And talk about it for a minute or two. Okay. Let's try again. Try again. 4140 Keep going. going Okay, I think there were 60 people last time. Come on guys. Okay. going going going Gone, okay, practically exactly the same result. Okay class. What's the answer d? naughty Okay, ": [
+            1176.8,
+            1325.2,
+            31
+        ],
+        "And Gru units which were simpler than this even are usually even easier to train than lstm units. And they seem to be able to do just about everything in the last Jam unit does. So what about here's a task where we're reading cursive save. I still know how to write in cursive is still teach that in school. Anyway, the input is a sequence of X Y P ": [
+            2464.7,
+            2499.9,
+            61
+        ],
+        "English by predicting the next word and a lot of English a lot of training data and then you can buy us it you can have it learn to produce sentences that respond that are about the image that's been input. But sentences might not admit a fixed-length representation. but words could okay. So we can take a word in each step is input. And then the model could output ": [
+            3169.7,
+            3212.2,
+            77
+        ],
+        "I output it strong now now I put hat. Now I'm done and a lot of these systems now use an attention Network to focus on different parts of the image is there you can use like a kind of softmax like thing to gate different parts of the image can be learned from the recurrent net in order to look at different things as you're walking through the image. ": [
+            4265.8,
+            4298.0,
+            106
+        ],
+        "Jordans tasks was taking a fixed input and generating sequence of phonemes in a sentence in order to demonstrate something about coarticulation in language. So you say and his example was Alyssa nice dress truck tour. That's friend sort of and the point of this thing was when you say sinistra, you have to have a flat mouth. But when you say struktur you have to have a rounded mouth ": [
+            694.5,
+            734.2,
+            17
+        ],
+        "Okay. Okay. So the last time we started what? Yes, you're going to have secure question. Yeah, okay. I'll review previous sides for a few minutes. Okay, let's see. Let's get these lights a little better. Okay. the last time we talked about two ways to do sequential information sequential processing in throw mats and one which is not very good is the map time into space but I should ": [
+            20.8,
+            89.4,
+            0
+        ],
+        "Okay. So damn this network demonstrate sensitivity to temporal context one of the cake us things said don't spend so much time on reviewing the last lecture. The other one another one said I like the way you spend time reviewing the last lecture. So, okay. Okay. So let's go on ahead. Okay backprop through time. This one student came to my office hours. One of the KQ Elsa's was ": [
+            540.2,
+            583.7,
+            13
+        ],
+        "Schmidt over and his students at after we started using deep for current Networks. And the cool thing about this Central computation paper and the cool thing about it is that it it's a little kind of connectionist your neural network Gadget that allows you to save a memory over a long. Of time. It basically is like a memory. So it has a operation the right the memory cell ": [
+            1878.0,
+            1912.0,
+            45
+        ],
+        "Shakespeare. Pandarus alas I think he shall become approached in the day when little strain would be attained into being never fed and who is but a chain and subject service dad. I should not sleep so. What ya so we should put this on obviously we should have a class play. But anyway. notice that First of all, I did make some mistakes, right? That's not a word. Even ": [
+            3539.4,
+            3577.5,
+            87
+        ],
+        "So it might highlight in a the Hat here. So here's a man in the black shirt is playing guitar construction worker in Orange safety vest is working on Road. Two young girls are playing with Lego toy. Well, I don't know if the girls are not a boy is doing a backflip on wakeboard this that's probably because of the water he's not at a whiteboard. He's on a ": [
+            4298.0,
+            4329.9,
+            107
+        ],
+        "So they take the entire Corpus of Shakespeare a character that I'm trained it to predict the next word next character. And now I can give a kind of some initial random State and let it hallucinate. So what we do here is we don't necessarily take the maximum output. We have a we have a softmax and we draw from that distribution. So we flip a 26 sided coin ": [
+            3472.6,
+            3508.8,
+            85
+        ],
+        "So this is a little neural network gas that can write memories keep them alive for a while read them out and it all learns by back propagation Through Time. For each cell it's just a scalar. But typically you'll have vectors of these things. So you'll have an lstm layer in your network and I have really no idea why they call it a long short term memory. That ": [
+            2083.8,
+            2127.8,
+            51
+        ],
+        "T. What we're showing is what comes out at time T and this layer so you can have input from the same layer and the layer below you and then this is often at an H. Unit here and then we've got the input gate. And again, all of these have the same inputs there and these weights the weights to these are learned through gradient descent. And so here's ": [
+            2205.1,
+            2237.3,
+            54
+        ],
+        "These aren't the these aren't the gradients you've been looking for. Okay. Okay. Okay, so does summarize I'm going to just go into another lecture right after the show to summarize we can model sequential data by using input buffering to represent the sequence like Natok or we can use recurrence in the network mapping time into the state of the network. So the state of the network changes over ": [
+            2939.5,
+            2987.1,
+            71
+        ],
+        "This is how it's represented in a recurrent Network 10 of you said this. There's no variable T that corresponds to time in the network itself. We just use at the label. Blinks and it's not in the way. Okay. Ready for the next one. Okay training a recurrent Network uses backpropagation from the future to the Past from the past to the Future. Backpropagation needs to be adjusted to ": [
+            1433.8,
+            1472.5,
+            34
+        ],
+        "You guys are help from compilers. Noah to parse tree. Okay, so image captioning. This is just from 4 years ago. He take an image in run it through a CNN. That's maybe been trained on. Imagenet and you take the layer before the output and now I've got another layer of weights and training put that into a network as an initial state. And give us this could be ": [
+            4067.6,
+            4108.8,
+            101
+        ],
+        "a carry when you no longer have the previous input in your input. So you have to remember it somehow in your internal State and Jordan that works couldn't do this because they can only remember what they output not there hidden state but this took a long time just to remember this one bit and that's why we have a hippocampus. We we basically hash things should happen to ": [
+            1016.5,
+            1046.7,
+            27
+        ],
+        "a different every time and that's how they got this. But if you know, it knows so much from just predicting the next character. Mayfair news who's Noble Souls. I'll have the heart of the wars doesn't totally make sense. But it's syntactically pretty cool pretty good. Okay, so this is trained on nips and Jaylen Daniel our papers and it's it's Guided by inputting the word recurrent first. So ": [
+            3690.8,
+            3733.1,
+            91
+        ],
+        "a network that's been trained on Wikipedia or something like that. But now I'm biasing it and learning these weights from this image to generate straw hat. And again all these weights for the same all the output way through the same all the input weights or the same time goes from left to right. Okay, and then copy this down and put that up copy that down. here Oh, ": [
+            4108.8,
+            4145.2,
+            102
+        ],
+        "a program, which we're going to hear about and maybe the next lecture. I'll talk about the neural turing machine and learning to ask to for motor control. So let's go ahead to here and just remember that what Jeff did was just give random sequence of body and goo and the network was able to if you think about just thresholding this error you can think about this is ": [
+            384.3,
+            421.6,
+            9
+        ],
+        "a word it each time step. Or we can take this arbitrary like sentence and break it up into parts. see if that doesn't thank you. So this site is only slightly confusing because it's got this in it. This is just a feed-forward network. Basic are in an architectures. That's not a RNN. Okay, the purple things are inputs. The green things are recurrent hidden layers. The red things ": [
+            3212.2,
+            3250.8,
+            78
+        ],
+        "according to the softmax and sample from that distribution to get the next input and let it go where it wants. Okay. There was a lot of confusion about that last year. People said wait, I took the it's not doing anything cuz I'm taking the maximum every time that's a good way to get it stuck. You really need to sample from the output distribution. So here's trained on ": [
+            3508.8,
+            3539.4,
+            86
+        ],
+        "and an operation to read from the memory cell and an operation to erase the memory pill. And the way it does it is by gating by having logistic units that go between 0 and 1 and they multiply X other weights in order if there are 0 and they multiplied by another weight and the activation running along it. They they cut that it and put it off if ": [
+            1912.0,
+            1941.9,
+            46
+        ],
+        "and noises. Okay. Okay. So here's another model beer review. So remember this thing okay, and it generates its own input for the next time step because we're sampling from this output distribution this guy. You know, it looks so this is the standard kind of thing, but we're going to train it to do. Is degenerate beer reviews? And so we say Okay. I want to a good beer ": [
+            4360.9,
+            4403.6,
+            109
+        ],
+        "and some punctuation and apparently it's doing capitalization and things like that to that makes sense. So you get supposed to 26. Output softmax. It's a distribution. I can sample from that distribution. Like when I flip a coin I'm sampling from a coin to see a binomial distribution, but I can sample a 26 sided coin that has some sides that are heavier than others. case the distribution of ": [
+            3655.4,
+            3690.8,
+            90
+        ],
+        "and then also you could specify the initial states of the same subset of units and every time step and we're going to see examples of this kind of thing. The cool thing about this is just like regular Network. She can specified targets at the output but you can also specify targets anywhere in the network so you can make it, you know do some oscillation if you want ": [
+            764.2,
+            797.5,
+            19
+        ],
+        "and then it has the next following not following you carry. Okay, and I talked about this, but we can skip that for now. So this little experiment where it was cool because we're training it to do a program so we can just swap two lines of the program and make it harder for the network by having a task for the next input and then say there was ": [
+            986.2,
+            1016.5,
+            26
+        ],
+        "and to add them together and do a carry. And so this still doesn't work. But given this input you should be able to map it to a new state where there's a two down here and then there's a carry and this was in chapter 14 of the New Testament is second volume of the PDP books, but they didn't actually implement it. We implemented it and show that ": [
+            868.4,
+            896.5,
+            22
+        ],
+        "and yet you've got us TR and both places sinistra structure until the way you say those differs because of nearby phonemes. When asked to be flat when asked to be rounded but our doesn't care whether it's flat around it. So you would get around it are at the end of the flat one at the beginning. You can specify some of the units having being an input and ": [
+            734.2,
+            764.2,
+            18
+        ],
+        "appearance. Sorry pours a pinkish color with a Fridays then white head that leaves a lacing. F is for smell T is for taste. Do it again. Okay, let's let's try Russian imperial stout. It's bad. This is really sweet and creamy mouthfeel is sticking to M is for mouth feel bad for bad bottle. But then by the end even though it's got this input the whole time that ": [
+            4738.2,
+            4794.7,
+            118
+        ],
+        "are brick colored things are outputs. So this is something that could take in a sequence like frames of a video and then you could train at the output what action is being performed in the video or you could take a sequence of words and decide is so stay positive or negative review that's called sentiment analysis. So you can take lots of reviews from Amazon or whatever and ": [
+            3250.8,
+            3280.5,
+            79
+        ],
+        "back propagate through this cuz these logistic units have nice derivatives. Okay, so here's gory details. This one has a forget gate and all the names have been changed to protect the innocent. So here's input coming from the rest of the network. This is interesting here. So El here refers to this layer at time T minus one. This is the input from an earlier hidden Lair at time ": [
+            2167.8,
+            2205.1,
+            53
+        ],
+        "back propagating to here. If you look at chapter 8 of the New Testament the first volume of the PDP bucks, which is in your readings down at the bottom of the resources page at the very end. They have something called sigma.pi units and back prop along. This multiplicative connection is is very simple and these are Sigma Pi because pi means multiply and then you send them up. ": [
+            2392.7,
+            2427.9,
+            59
+        ],
+        "beautiful face, and we talked about how Jeff Omens work was some of the first work to show how you could actually find temporal structure by simply learning to predict the future. And this is this is something people try to do right now pretty much with trying to predict the next frame of video. For example. And what was at the time this was a pretty cool thing you're ": [
+            233.9,
+            272.0,
+            5
+        ],
+        "bridge has long time intervals with concatenated input. She just have the static input that sits here. If you want to 5.0 review or you could have 1.0 review etcetera and here's an example of that. 5 fruit vegetable beer on tap at the Brew Pub in the nice dark color with a nice head that left a lot of lace on the glass. So the interesting thing. About this ": [
+            4435.8,
+            4464.8,
+            111
+        ],
+        "by Grand model is a model where you go through a whole Corpus and you count how frequently is is blue followed by C. For example and so you got a distribution of words that could follow blue and so that's funny cuz it's blue and so you can measure how What's the probability of the sequence of words in the sentence is and if it's high probability by stay ": [
+            3928.4,
+            3960.5,
+            97
+        ],
+        "by Grand model, you say it's better than one that's lower probability. and hybrid approaches. I don't know what that is, but unsound Langley cell stm's that is using multiple lstms. Did better than stay the art and in fact. And there was no information about language model their height hardwired into the system. So and Google brain. They've been doing machine translation in Google using, you know, probably hundreds ": [
+            3960.5,
+            3999.0,
+            98
+        ],
+        "carefully like has been young lacunes paper. But it's also it's still very hard to detect how the current Target at the output layer may depend on something that happened 60 time steps ago. So it makes it hard to deal with long-range dependencies. Okay. That enter lstms. So this actually was invented in 1997 long before people were doing very deep networks, but people picked it up again, especially ": [
+            1834.6,
+            1878.0,
+            44
+        ],
+        "coordinates of the tip of the pen. The P says is depend on the paper or not accent. Why is obvious? The output is the sequence of characters. So Graves and Schmidt Hoover, Alex Graves has now I think probably a Google deepmind show that R and ends with lstm units were the best systems for reading cursive. And they used to sequence of small images is input instead of ": [
+            2499.9,
+            2538.6,
+            62
+        ],
+        "counting parentheses, right? I don't know what that is, but because of the therap tour. The Raptor the aim is to improve the score of the back-in-the-day Baroque Pearl Motor used a system similar to this who is a fine by Graham trigram model is of English and submitted a paper to IJ CNN, which was it is a bad neural-net conference and it's the only paper that's ever been ": [
+            3763.2,
+            3806.1,
+            93
+        ],
+        "deep recurrent neural network and Google translate and they're up to about 30 languages doing using recurrent Network spell No, and no information about language that has built-in impact a friend of mine. Talk to somebody at Google brain and ask them. You know, how can you tell how the parse tree is represented in the guy said what's a parse tree? So they really had no knowledge in linguistics. ": [
+            4031.5,
+            4066.6,
+            100
+        ],
+        "doesn't need to be adjusted. It's not back propagating error from the past into the Future 2 future ended the past. Okay, we're good. Everybody got that. Okay. So this you already know but it was on Jeff slide. So I'm putting it here. There's a big difference between the forward and backwards pass in the forward pass. We use squash and functions like the logistic to prevent activity vectors ": [
+            1541.8,
+            1582.1,
+            36
+        ],
+        "don't know if anybody does. And they can be used to do multiple things. I can draw a device in lstm units are Gadget that allows the network to latch a memory hold onto it relatively indefinitely and they've revolutionized recurrent networks. Even though they came way before deep Network Scott popular. They were a device that that turns out to be useful now today. Okay, any questions about any ": [
+            3020.0,
+            3057.7,
+            73
+        ],
+        "elkan wrote a critical review of recurrent nuts, which I gave them a lot of input on bring you to that part paper. And again, I'm pointing you to this blog post by andrej karpathy. Okay. So imagine you haven't really heard very much about the current networks yet. We're going to motivate them. We have great tools for fix size data Vector in Vector out take this in saxophone ": [
+            3100.0,
+            3135.5,
+            75
+        ],
+        "ex-wife he coordinates, but we're going to see one that does does it from xyp. So the movie we're going to see We're going to watch a movie kids. The movie that we're going to see shows several different things in the first row, you'll it'll show when the characters are recognized. It never revises this output. So difficult decisions are delayed. There's no reason why it couldn't revise its ": [
+            2538.6,
+            2572.7,
+            63
+        ],
+        "figment of the imagination. You should probably look at this, too. Andre is probably a better lecturer than me. Okay any questions about this? so this the demo More examples. You said more demos? somewhere around the th At the very end. where a this layer So yeah, so it's it's using its make some sense. Right if the network has learned anything about language. It probably learns that a ": [
+            2802.8,
+            2883.3,
+            69
+        ],
+        "first when we are doing deep learning. We thought that we had to pre-trained a deep Network and set your ways to have some good weights and then apply backpropagation. That's what Justin did in 2005 in His science paper. He had a special way of building up a deep Network by building a layer at a time. Using a different learning algorithm then backpropagation and then he applied backpropagation ": [
+            1753.4,
+            1785.6,
+            42
+        ],
+        "from exploding for one thing and then compute nonlinear functions. but the backwards pass is completely linear if you double the air at the final layer, all the are derivatives will double That's a linear function to better way to describe it. I think in some ways than the way I do. So the Ford pasta determines the slope terms that are used at the hidden Lair Witcher used to ": [
+            1582.1,
+            1613.4,
+            37
+        ],
+        "gave it an R an EFC of you and our and Arnie and then the tea and then they let it go. Recurrent Network for the stifle information for logistic regression methods along with either of the algorithms previously two or more skew is more similar to the model with the average mismatched graph. So look and knows that open parenthesis should be followed by close parenthesis. It's so mad ": [
+            3733.1,
+            3763.2,
+            92
+        ],
+        "goes from left to right. Yeah. So yeah, you could you could train networks to do multiple things and people are doing that now. One of my students is working on that. Just starting. okay, the other questions about this, so these are Something like this might be on a test. For example, like draw me a picture of a network that can do something or other or associate this ": [
+            3359.9,
+            3394.5,
+            82
+        ],
+        "got towards the clear golden color with a small white head that dissipates quickly I generated again. I got it for the clear golden color was it? Huh? I don't want to do that. I don't know what's going to happen. If I do a nice this is like thanks to battleman for the bottle poured into a pint glass best by date at 7:10 is for a Roma or ": [
+            4708.6,
+            4738.2,
+            117
+        ],
+        "great because you can get all the data you need from the internet. You don't have to have a teaching signal so you don't have to go to Amazon Mechanical Turk and have somebody label what the target should be right because you've got the next word. Generating a sequence like a word or sentence or an image caption sequence recognition recognize this sentence recognize an action sequence transformation learning ": [
+            349.9,
+            384.3,
+            8
+        ],
+        "hippocampus with rats cuz they're basically a cortex or hippocampus with a little bit of Cortex. We've got a cortex for the little hippocampus. Okay, sir questions. Okay. So this is check your understanding. We had people in the cake us who wanted more clicker questions. We had people who wanted fewer clicker questions. We had people who didn't want me to count correctness on clicker questions. How many people ": [
+            1082.3,
+            1125.0,
+            29
+        ],
+        "hook them together so that Arabic propagated through here learns the set of Weights that set this thing up to generate straw hat. Start it's just saying it's just a it would always be start some unit to say, okay this the beginning. Start generating now. That is going to make it produce straw now. It's got an internal State here in these lstm units. It says the basic Eliseo ": [
+            4220.8,
+            4265.8,
+            105
+        ],
+        "hundred time steps what happens to a linear system when you you know, just multiply imagine all the weights for exactly the same just to make an example as I Square the weights Cube the way it's the tutterow, you're basically raising the weights to a very high-power. What are they going to do to the Deltas? They're going to go to 0 or Infinity. So we have to do ": [
+            1651.1,
+            1685.1,
+            39
+        ],
+        "in Shakespeare, but look at how much I've put a person. Calling and then it knows a lot about sentences that they have a subject to verb and I think is followed by a whole sentence. It's mr. There, but it put commas in and at the end. It's puts it. It knows a lot about English test from predicting the next character. Yeah. What does softmax give you? Characters ": [
+            3577.5,
+            3624.4,
+            88
+        ],
+        "input or the output. Everything has to come from the temporal structure their predictive abilities. So like all of these are clustered this way because of their predictive abilities. Okay. Things that predict the same kind of thing cluster together again what this is is a way of looking at the internal representation of the network by clustering the hidden unit activation vectors. Okay there any questions about this stuff? ": [
+            496.3,
+            537.7,
+            12
+        ],
+        "into this the read gate is set at zero the keep gate is set at 0 time is going to go from left to right. So we're going to unroll this now the keep gate stays on. So at the next time step, it's still there. This is the South flank enrolled in time. The right Jade is such a 03 K20. Keep it still on we keep the 1.7, ": [
+            2274.3,
+            2305.1,
+            56
+        ],
+        "is D not he okay ready for another one? Okay. Why isn't it going ahead? Okay. Time is represented in a recurrent Network by space. state valve variable T that corresponds to time to weights Okay, I've got 60. 6/61 or two of you before not all going to vote. Okay going going going gone. What's the answer be? Yeah. And this is how it's represented in a feed-forward network. ": [
+            1357.7,
+            1433.8,
+            33
+        ],
+        "is paying attention to for to make its decision. Okay, so you have to remember this. There's not going to be a test, but you have to remember it. 1 okay. White this is not it. This is Nando defreitas teaching about the current networks. What's going on here? It's worked earlier today. Let's see if I can just grab this. stop Oh stop me. There we go. Course, it ": [
+            2632.4,
+            2697.2,
+            66
+        ],
+        "is that a lot of these beer reviews have a structure they start with the appearance. And then maybe they talk about the aroma. The bourbon is pretty subtle as well. Okay, it's a bourbon beer. I really don't know that I find a flavor the spear taste like I would prefer a little more carbon ization to come through. It's pretty drinkable, but I wouldn't mind if the sphere ": [
+            4464.8,
+            4491.8,
+            112
+        ],
+        "it because the state is getting reset when it recognizes a character. The third row is going to show the writing. And as I said Optical input works better than Penn coordinates. And then the 4th row shows the gradient being back propagated all the way to the X and Y inputs from the currently most active character and what that does is it lets you see what the network ": [
+            2599.8,
+            2632.4,
+            65
+        ],
+        "it said Russian imperial stout and it's supposed to be at one that's getting that inputs. ": [
+            4794.7,
+            4799.5,
+            119
+        ],
+        "it very good for propagating are backwards through the network. And now we keep taking v-0 erase that memory. Okay. So this is the little mind-boggling at first. Yeah. Yeah, so all I mean this is it operating, you know at production time when you deployed your neural network, but it also demonstrates how changing the weights can be done by back propagating through here. And you know, you're also ": [
+            2340.6,
+            2392.7,
+            58
+        ],
+        "it was like a finite State machine. Okay, so we're going to see some examples of this. So I'm going to skip over this for now and I'm going to skip over to here where I trained with my student food soon. Who? Later became a Buddhist monk and was head of his Monastery. So now he's the Reverend John who anyway he trained this network to take in digits ": [
+            835.8,
+            868.4,
+            21
+        ],
+        "it you needed a recurrent Network to do this and what the network is doing is taking in Columns of digits. Writing down the result of the Sun and then saying there's a carry and then asking for the next input and then writing the result. Skipping this if there's a carrier and then asking for the next input so it sometimes does right next sometimes it does right carry ": [
+            896.5,
+            928.1,
+            23
+        ],
+        "layers of the network if we had more than one Hidden Lake And so the two ways we do this now are gradient clipping which just limits the length of the gradient vector. So that doesn't grow without sounds but it's still pointing in the same direction. That prevents the exploding gradient problem the vanishing gradient problem. We can take care of by some careful initialization of the weights. At ": [
+            1714.7,
+            1753.4,
+            41
+        ],
+        "learn their whether they're positive or negative and there are labeled data sets for that. He need to have somebody label the dataset. This one takes it fixed length in so this could be an image and this could generate a caption for the image. Okay, or you could do something like this where you're taking in an English sentence. You got a representation of the whole sentence and then ": [
+            3280.5,
+            3310.8,
+            80
+        ],
+        "like that idea? Okay. Well, I'll switch it so we don't count correct this and clicker questions, okay. Okay, a recurrent network is a special case of a feed-forward netware a the Ford part for a response to time the backwards part. Corresponds to are being passed into the future the connections between units are replicated for each time step and see or BNC. Okay. Okay, we got 58 votes ": [
+            1125.0,
+            1176.8,
+            30
+        ],
+        "like this one should be low here. Hi, there are low here hi there. And it's just you just add the T minus y to the Deltas that are back propagated and change the weight according to the air. There's no issue with doing that. Yeah. Well, I showed that last time I'll show it again when I did the sequential ad or network you could see the inside of ": [
+            797.5,
+            835.8,
+            20
+        ],
+        "multiply the Delta. So that's again just a linear function. and so the issue is again that imagine that you know, we have say the same thing happening at every layer then we've got a linear system and when you're doing back propagation through time, you're doing backpropagation for a lot many more time steps. Then you you know, most even deep networks. Okay, maybe you're back propagating a couple ": [
+            1613.4,
+            1651.1,
+            38
+        ],
+        "musician man's shirt. Okay fix size inputs fix sized output. But what we really want is some sort of structured outputs like something it takes this in and says a group of young people playing a game of frisbee. How do you do this you use a convolutional neural network? To learn a representation of this and then that feeds into a network that's been trained on a model of ": [
+            3135.5,
+            3169.7,
+            76
+        ],
+        "next week and do different things depending on what the state of the system is. So first it looked first time write an 8:00. Ask for the next one right at zero say up. There's a carry as for the next one now for three and four even though it's not seeing It hasn't written a little one above this. It still knows how to put 8. That runs off ": [
+            928.1,
+            957.7,
+            24
+        ],
+        "noun phrase follows a preposition. And so this probably going to be at either for the or an a for us. This layer is showing the gradient that propagated to the input layer to see what it's paying attention to in the input. Coming back here. Oh, I didn't see that. so the a lights up again you say city of flashing a little bit Yeah, well don't pay attention. ": [
+            2883.3,
+            2939.5,
+            70
+        ],
+        "of character outputs you're predicting each next character you're trained and typically these are teacher forced which means that even if it didn't have put a b here you use the teaching signal as the input here that's called teacher for 6. So you give it the input it should have output on the last time step to train it but it's it's out putting a distribution over 26 letters ": [
+            3624.4,
+            3655.4,
+            89
+        ],
+        "of linguist building stochastic context-free grammars to generate with lots and lots of linguistic knowledge built-in and then Google brain just train to network to go from English to French and it turned out to do better than the Google translate thing. So about a year or two ago. I don't remember whether it was last December or the December before that. They replaced all this linguistic stuff with a ": [
+            3999.0,
+            4031.5,
+            99
+        ],
+        "of that? Okay, I am done going to switch to. another Butcher and recurrent networks and this one was so Zach Lipton. Gave a lecture for me when I was out of town. Once he was a PhD student this department. He got a job before even defended his PhD in the business Court emu so that means salaries this big And he and his one of his advisors Charles ": [
+            3057.7,
+            3100.0,
+            74
+        ],
+        "of the sequence. Okay. Okay. I talked about that. I talked about that, but we know There are different ways to provide input. So this is showing little circles like units, but when I do this, this could be just input rather than units. It computes something and this is setting an initial State for the network and say I want to generate something from this. So one of my ": [
+            644.3,
+            694.5,
+            16
+        ],
+        "okay. Hey questions. Alright, I will by the way summarize the cake u.s. Survey tonight. My favorite comment though was Maybe you could bring more dogs, like two or three was a small one and a medium one and medium size one anyway. Okay, so some of the problems that you can do with these or predict the next word prediction X pixel and predicting the next word is really ": [
+            307.2,
+            349.9,
+            7
+        ],
+        "output. There are nail bi-directional lstm networks where 1 L. GM is going from the past to the future of the others going from the future to the past so it could revive in that way. Road to shows the state of a subset of memory cells and that's going to be just a bunch of garbage, but you can see when there's like a line down the middle of ": [
+            2572.7,
+            2599.8,
+            64
+        ],
+        "predicting the next thing and you only have two back propagate the Deltas from here to hear why just to hear because now I've got the Deltas for here and I can learn the mapping from hidden students and from input to Hidden chamber. I have any questions about that. Sometimes people have have trouble like seeing this mapping. So all we're doing is Implementing deaths by implementing this okay, ": [
+            272.0,
+            307.2,
+            6
+        ],
+        "really big it flattens the distribution. So if this is really big it's basically eat is a zero, which is one so you got a one for every output. So if you make tea really small it sharpens the distribution cuz it amplifies the exponent if it's below 1 Okay, so here we've made the temperature small at point for and that changes the distribution your sampling from. So, let's ": [
+            4607.9,
+            4648.0,
+            115
+        ],
+        "rejected from ijcnn. I think somebody looked at it, I guess anyway so you can generate papers this way. Too bad. It's not going to get into nip. So miss Spelling's why would you submit a paper to nips with misspelling since terrible again? There's another one here is Wikipedia. The meaning of life is the tradition of the ancient human reproduction is less favorable to the good boy for ": [
+            3806.1,
+            3842.3,
+            94
+        ],
+        "review. So I want a 5.0 review. And that sort of works, but it's better. This is Zach's work. To upend that input as a separate input on every time step. So, you know all the way through you're doing a 5.0 beer review. In fact you put in a you know, what thing you want and what kind of beer so they have several kinds of beer. So this ": [
+            4403.6,
+            4435.8,
+            110
+        ],
+        "right K20 up. Let's read it out now. Now if this memory needs to change we're back propagating error from here and it's got a weight of one all the way back so that the error is going to just stay the same all the way back and then it can change this here. Okay, so it's very good for profit. It's again a link of wait one which makes ": [
+            2305.1,
+            2340.6,
+            57
+        ],
+        "right back. This is a linear unit with a self link and if this keep gate is off if it's zero, then it goes away he get zero coming through. Okay, so that with these this one on whatever is in here stays here. Okay, now usually these Gates really get 2.99 or something like that. So maybe it decays a little bit but not much. here is input from ": [
+            2015.8,
+            2052.7,
+            49
+        ],
+        "say that a lot of current approaches that nap time into the state of the network also map time into space as part of the input. So for example, if you want to have a neural net play a video game, it's a good idea to give it several frames of the video so that you can the neural network can easily compute motion. So again mapping time and I'm ": [
+            89.4,
+            122.1,
+            1
+        ],
+        "see what happens if we use a temperature of 2. It's pretty bad, right? temperature for It's okay. It's garbage. Right. It's just random digits. What about if I do a temperature of 2.01 that's really is freezing the network, so it's going to be very deterministic now. Yeah, it's it's like repeat. I repeat myself when under stress. I repeat myself when under stress. Okay, I regenerated. I still ": [
+            4648.0,
+            4708.6,
+            116
+        ],
+        "seems like what? Shouldn't be long term memory. The Lauren short-term. Anyway, it's a weird name. This is one architecture. There are now many variants on this. There are simpler ones called gated recurrent units or gr. Use and they're implemented and most packages Hazard lstm units the great thing about these packages as you don't have to figure out how to implement this it's just there. And we can ": [
+            2127.8,
+            2167.8,
+            52
+        ],
+        "show up personally to office hours. I have office hours. I do show up personally to them. Okay. So again, this is just these three units on this network enrolled in time. And so you have the same weights at every time step that are linked with each other cuz they have to be the same way. They're being used over and over and over again, but a different time ": [
+            583.7,
+            616.6,
+            14
+        ],
+        "something to take care of that problem. There are two ways that we do it when is you know, so back when we had were all using sigmoid stuff that the soap was never bigger than 25. So a lot of times you had a shrinking gradient. So this is the called the exploding or Vanishing gradient problem. And all we would do is raise the learning rate at earlier ": [
+            1685.1,
+            1714.7,
+            40
+        ],
+        "state is reset. And this is what it's paying attention to. This is the person right? Okay. Then we can play this more than once to see. You can really see the reset there. Hey can see what it's paying attention to decide what to output Okay. Let's go back. Freshii that again. Okay. So it didn't get one thing, right? This is should be an R. More than a ": [
+            2745.1,
+            2802.8,
+            68
+        ],
+        "steps you got different deltas and for those different Dolphins you have different inputs. And the combination of the Deltas and the inputs gives you the weight changes and you can just average those together to get to update the the weights for the network and this can be done any number of time steps in. Okay, so there's no restriction on the length of the inputs or the length ": [
+            616.6,
+            644.3,
+            15
+        ],
+        "structure of language without Yeah, I doing anything else. And let's see I talked about that and this is really cool because what it's it's learned again from just listening to the radio. It's just taking a localist input predicting a local as Stout foot. So it's not like there's nothing all of the words have an inner product of 0. There's no information about the words themselves in the ": [
+            455.7,
+            496.3,
+            11
+        ],
+        "temperature in the sauce mix so the softmax The output is e r y k a z z a k. Over the sun Jive the AJ. You can put a temperature term on this. by putting a t here T4 temperature if this is really big. What's going to happen? What? What? would be what? If I'm a really big what happens say, it's Infinity. Yeah, every if this gets ": [
+            4544.0,
+            4607.9,
+            114
+        ],
+        "the cell it goes got this circulating thing. And then this one has a forget gate which was called the keep gate in the other one and means the opposite and then turn output gate or read gate. and this is the a funny way of writing down with the what that functions are so here's an example of We've somehow we've turned on the right date. We've written 1.7 ": [
+            2237.3,
+            2274.3,
+            55
+        ],
+        "the end and we give it a done you burn off the end. And we did a PCA of the Hidden U-turn activations overtime and show that it had internal states that you might relate to find it stay at a time and it's doing Edition. So it has one state when there's a next following Carrie and that's the internal state where it remembers that there was a carry ": [
+            957.7,
+            986.2,
+            25
+        ],
+        "the kind of attention signal when you have a lot of air and it says, oh there's the beginnings of the words cuz they're not predictable. And I needed it with longer sentences. And again, these are you know, really toy problems today, but this was very important at the time. It made it very clear that just learning to predict. The future was a good way to learn the ": [
+            421.6,
+            455.7,
+            10
+        ],
+        "the rest of the network and this is the right gate usually that 0 but if you want to store something you turn that guy on and that lets information coming to hear and either be added to what's already there or to just write it if it's already 0 Hey. And then there's a reed gay and that multiplies X out till to read out what's in the cell. ": [
+            2052.7,
+            2083.8,
+            50
+        ],
+        "they're one they let it pass through. So there's a right gate that allows you to write into the memory. It stays in the cell as long as it's keep gate is on. And information can be read from the cell by turning on its read gate. And what's remarkable about this? It's to me. It's practically magic is it you don't have to decide when to write and read ": [
+            1941.9,
+            1972.3,
+            47
+        ],
+        "things gradient descent. I just think it's mind-boggling myself. So this is a weight of 1 this is the memory cell and this is something he calls it. I think they're recurrent error Carousel. There's a keep gate and what this symbol notes. This is a sigmoid all unit going from 0 to 1 and so it multiplies times this if this is it one then 1.73 traveling hearing comes ": [
+            1972.3,
+            2015.8,
+            48
+        ],
+        "this is right the forward part we run rolling in. Thyme t e o t equals 1/2 equals to 2 equals 3. The backwards part for a sconce that are being passed into the Future No into the past. That's not right the connections between units of replicated for each time stuff. Yes, you have to have the same weights being used over and over again. Okay, so the answer ": [
+            1325.2,
+            1357.7,
+            32
+        ],
+        "thousand lstm units 384 million parameters. The input. Vocab was a hundred sixty thousand words. The output was 80,000 words just use vanilla stochastic gradient descent with learning rate that went down over time to 10 days with ATP. Use four of them were just used to compute the soft Max over 80,000 things. And so this achieved a blue score which is a bigram trigram at set a remodeled ": [
+            3886.1,
+            3928.4,
+            96
+        ],
+        "time like those lips. We're seeing on the screen and that's the memory that the network has and recurrence can be implemented by unrolling the Network in Time. Turning a recurrent Network into a feed-forward one and earlier ones used very simple architectures and then rolled one-time step and we can Envision the internal States face using PCA. You can do that on the Network's we have now, too. I ": [
+            2987.1,
+            3020.0,
+            72
+        ],
+        "to it and it worked. Nowadays, we know that doing things like batch normalization fixes his problem initializing the weights carefully and also skip connections is in resnet where you have weights of one running between multiple layers that allows to gradient to travel all the way back. You said we just said this? Puritan layers, no problem but Lauren sequences and we can avoid by. Initializing the weights very ": [
+            1785.6,
+            1834.6,
+            43
+        ],
+        "told that I've forgotten this but I'm told that in Jeff elements finding structure in time papers starts out talking about how I map time into space. So John likes a banana we could have for buffers but then what about longer sentences banana and nut talk? We just keep shifting over it and that's pretty good except that, you know, there are some sequences that may need a wider ": [
+            122.1,
+            152.9,
+            2
+        ],
+        "trampoline. Girl in pink dress is jumping in the air black and white dog jumps over a bar young girl in pink shirt is swinging on a swing man in blue wetsuit is surfing on a wave. Pretty amazing do do do do do do do do so. That's about four of you said please keep doing the doo doo doo doo theme. And then somebody else said more diversity ": [
+            4329.9,
+            4360.9,
+            108
+        ],
+        "us during the day and of the hippocampus and then it replays stuff at night and and then it gets burned in. So it's good to sleep after you study because that consolidates your memory with your hippocampus regenerating the days activities in your cortex and Helping you remember stuff. So it's that's why the brain has this memory thing stuck on it and a lot of people study the ": [
+            1046.7,
+            1082.3,
+            28
+        ],
+        "was available. Okay? Okay, so, let's see if this works. Yes or no? So, this is a UCSD site D-backs. So the we're going to do a fruit vegetable beer with a five temperature point for what's that? So she give me a minute. Come on. Come on, OK give up. Red lights are okay. There we go. So again, remember we have a soft next output. There's something called ": [
+            4491.8,
+            4544.0,
+            113
+        ],
+        "well, why didn't you leave earlier? I was waiting for the verb. So the verb has to agree with the subject and if it comes a long ways away from the the beginning knowing what the agreement on a b may take a lot, you know, you need a fairly wide window. And so we had this clicker question and then free showed my Jordans beautiful face and Jeff Hellman's ": [
+            200.8,
+            233.9,
+            4
+        ],
+        "when you get to hear so You know again the multiplication you can differentiate through that no problem. Okay. I'm so these gadgets have now become standard in most recurrent Networks. When you do it the way Jeff did it and maybe you back propagate all the way through time that's called vanilla recurrent neural network, and they usually are much harder to train than LS networks with lstm units. ": [
+            2428.8,
+            2463.8,
+            60
+        ],
+        "window remover bigger the ETC. It's got some idea what the meaning of life is that I guess. And again, all of these are one character at a time. It's amazing. So then we can do sequence to sequence like my feet hurt and a sentence zamolo, PA and the sentence. And this is heliostats kyburz working 2014. So they train deep lstms with four layers each layer had a ": [
+            3842.3,
+            3886.1,
+            95
+        ],
+        "window. In order to know how to pronounce something. so yeah. I can't think of an example right now. But well in German, for example, the verb comes at the end of the sentence. Mark Twain once I left a a German play at the middle of the play when there was a break and he said that play was awful the worst thing I've ever seen in. Somebody said ": [
+            152.9,
+            200.8,
+            3
+        ],
+        "with some tasks. Okay. So how about a degenerative text Mom so we could have a start and have it generate now takes in the but generates takes a nanny generates. Annie takes a nanny generation are Federation! And okay, so this network has been trained to generate a word a character at a time. Now the great thing about this is you know, you might have a vocabulary of ": [
+            3394.5,
+            3432.4,
+            83
+        ],
+        "work in this context back propagation is the same but the way changes need to be averaged over time and day. Looking good. Okay going going. going Gone. Alright, what's the answer? What? yeah e A lot of people said this that's correct. Nobody said this but that and that are both correct. It's just the same but the way changes need to be averaged over the time step. Okay ": [
+            1472.5,
+            1541.8,
+            35
+        ],
+        "works earlier in the day and doesn't work now. Nope, that's not it. that funding let's try this. Perrigo Okay. So I'm going to stop at part way through. So again, this is the output show it if it has some threshold, it just makes it decide whether or not to Output or not. So mov. Here is the state and you can kind of see lines here where the ": [
+            2697.2,
+            2745.1,
+            67
+        ],
+        "yeah, this would not be convolutional be a fully connected layer. No, it's it's just setting the so this circle here could be a thousand lstm units. Okay, that stands for a layer of lstm units and it's learning a weight Matrix that's backprop comes from here. Here here goes back to here and probably does not change the CNN at all. Probably the back prop stops about here and ": [
+            4145.2,
+            4189.5,
+            103
+        ],
+        "you learn a set of Weights that map from the internal representation of the image to start state is essentially for this thing. And you know, I think it's good also to just keep giving this input is shego. This is just showing giving it the input at the beginning but you can prenup a language model independently that's good at creating English sentences and train this independently and then ": [
+            4189.5,
+            4220.8,
+            104
+        ],
+        "you output a French sentence to go with it. Where this one takes an input and generates output it every time step. This could be like a speech recognition system. People are trying now to get networks that do multiple tasks. And yes, I mean, it's not like this network doesn't have an output here. It does but you're not paying attention to it in case that wasn't obvious time ": [
+            3310.8,
+            3359.9,
+            81
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_13.flac",
+    "Full Transcript": "Okay.  Okay. So the last time we started what?  Yes, you're going to have secure question.  Yeah, okay. I'll review previous sides for a few minutes.  Okay, let's see. Let's get these lights a little better.  Okay.  the last time we talked about  two ways to do sequential information sequential processing in  throw mats and one which is  not very good is the map time into space but I should say that a lot of current approaches that nap time into the state of the network also map time into space as part of the input. So for example, if you want to have a neural net play a video game, it's a good idea to give it several frames of the video so that you can the neural network can easily compute motion.  So again mapping time and I'm told that I've forgotten this but I'm told that in Jeff elements finding structure in time papers starts out talking about how I map time into space. So  John likes a banana we could have for buffers but then what about longer sentences banana and nut talk? We just keep shifting over it and that's pretty good except that, you know, there are some sequences that may need a wider window.  In order to know how to pronounce something.  so  yeah.  I can't think of an example right now. But well in German, for example, the verb comes at the end of the sentence.  Mark Twain once I left a a German play at the middle of the play when there was a break and he said that play was awful the worst thing I've ever seen in. Somebody said well, why didn't you leave earlier? I was waiting for the verb.  So the verb has to agree with the subject and if it comes a long ways away from the the beginning knowing what the agreement on a b may take a lot, you know, you need a fairly wide window.  And so we had this clicker question and then  free showed my Jordans beautiful face and Jeff Hellman's beautiful face, and we talked about how Jeff Omens work was some of the first work to show how you could actually find temporal structure by simply learning to predict the future.  And this is this is something people try to do right now pretty much with trying to predict the next frame of video. For example.  And what was at the time this was a pretty cool thing you're predicting the next thing and you only have two back propagate the Deltas from here to hear why just to hear because now I've got the Deltas for here and I can learn the mapping from hidden students and from input to Hidden chamber. I have any questions about that.  Sometimes people have have trouble like seeing this mapping.  So all we're doing is  Implementing deaths by implementing this okay, okay.  Hey questions. Alright, I will by the way summarize the cake u.s. Survey tonight. My favorite comment though was  Maybe you could bring more dogs, like two or three was a small one and a medium one and medium size one anyway.  Okay, so some of the problems that you can do with these or predict the next word prediction X pixel and predicting the next word is really great because you can get all the data you need from the internet. You don't have to have a teaching signal so you don't have to go to Amazon Mechanical Turk and have somebody label what the target should be right because you've got the next word.  Generating a sequence like a word or sentence or an image caption sequence recognition recognize this sentence recognize an action sequence transformation learning a program, which we're going to hear about and maybe the next lecture. I'll talk about the neural turing machine and learning to ask to for motor control.  So let's go ahead to here and just remember that what Jeff did was just give random sequence of body and goo and the network was able to if you think about just thresholding this error you can think about this is the kind of attention signal when you have a lot of air and it says, oh there's the beginnings of the words cuz they're not predictable.  And I needed it with longer sentences. And again, these are you know, really toy problems today, but this was very important at the time. It made it very clear that just learning to predict. The future was a good way to learn the structure of language without  Yeah, I doing anything else.  And let's see I talked about that and this is really cool because what it's it's learned again from just listening to the radio. It's just taking a localist input predicting a local as Stout foot. So it's not like there's nothing all of the words have an inner product of 0.  There's no information about the words themselves in the input or the output. Everything has to come from the temporal structure their predictive abilities. So like all of these are clustered this way because of their predictive abilities.  Okay.  Things that predict the same kind of thing cluster together again what this is is a way of looking at the internal representation of the network by clustering the hidden unit activation vectors.  Okay there any questions about this stuff?  Okay.  So damn this network demonstrate sensitivity to temporal context one of the cake us things said don't spend so much time on reviewing the last lecture. The other one another one said I like the way you spend time reviewing the last lecture. So, okay.  Okay.  So let's go on ahead.  Okay backprop through time.  This one student came to my office hours. One of the KQ Elsa's was show up personally to office hours. I have office hours. I do show up personally to them. Okay. So again, this is just these three units on this network enrolled in time. And so you have the same weights at every time step that are linked with each other cuz they have to be the same way. They're being used over and over and over again, but a different time steps you got different deltas and for those different Dolphins you have different inputs.  And the combination of the Deltas and the inputs gives you the weight changes and you can just average those together to get to update the the weights for the network and this can be done any number of time steps in. Okay, so there's no restriction on the length of the inputs or the length of the sequence. Okay.  Okay.  I talked about that.  I talked about that, but we know  There are different ways to provide input. So this is showing little circles like units, but when I do this, this could be just input rather than units. It computes something and this is setting an initial State for the network and say I want to generate something from this. So one of my Jordans tasks was taking a fixed input and generating sequence of phonemes in a sentence in order to demonstrate something about coarticulation in language. So you say and his example was Alyssa nice dress truck tour.  That's friend sort of and the point of this thing was when you say sinistra, you have to have a flat mouth. But when you say struktur you have to have a rounded mouth and yet you've got us TR and both places sinistra structure until the way you say those differs because of nearby phonemes. When asked to be flat when asked to be rounded but our doesn't care whether it's flat around it. So you would get around it are at the end of the flat one at the beginning.  You can specify some of the units having being an input and and then also you could specify the initial states of the same subset of units and every time step and we're going to see examples of this kind of thing.  The cool thing about this is just like regular Network. She can specified targets at the output but you can also specify targets anywhere in the network so you can make it, you know do some oscillation if you want like this one should be low here. Hi, there are low here hi there.  And it's just you just add the T minus y to the Deltas that are back propagated and change the weight according to the air. There's no issue with doing that. Yeah.  Well, I showed that last time I'll show it again when I did the sequential ad or network you could see the inside of it was like a finite State machine.  Okay, so we're going to see some examples of this. So I'm going to skip over this for now and I'm going to skip over to here where I trained with my student food soon. Who?  Later became a Buddhist monk and was head of his Monastery. So now he's the Reverend John who anyway he trained this network to take in digits and to add them together and do a carry. And so this still doesn't work. But given this input you should be able to map it to a new state where there's a two down here and then there's a carry and this was in chapter 14 of the New Testament is second volume of the PDP books, but they didn't actually implement it. We implemented it and show that it you needed a recurrent Network to do this and what the network is doing is taking in Columns of digits.  Writing down the result of the Sun and then saying there's a carry and then asking for the next input and then writing the result.  Skipping this if there's a carrier and then asking for the next input so it sometimes does right next sometimes it does right carry next week and do different things depending on what the state of the system is. So first it looked first time write an 8:00. Ask for the next one right at zero say up. There's a carry as for the next one now for three and four even though it's not seeing  It hasn't written a little one above this. It still knows how to put 8.  That runs off the end and we give it a done you burn off the end.  And we did a PCA of the Hidden U-turn activations overtime and show that it had internal states that you might relate to find it stay at a time and it's doing Edition. So it has one state when there's a next following Carrie and that's the internal state where it remembers that there was a carry and then it has the next following not following you carry.  Okay, and I talked about this, but we can skip that for now.  So this little experiment where it was cool because we're training it to do a program so we can just swap two lines of the program and make it harder for the network by having a task for the next input and then say there was a carry when you no longer have the previous input in your input.  So you have to remember it somehow in your internal State and Jordan that works couldn't do this because they can only remember what they output not there hidden state but this took a long time just to remember this one bit and that's why we have a hippocampus. We we basically hash things should happen to us during the day and of the hippocampus and then it replays stuff at night and and then it gets burned in. So it's good to sleep after you study because that consolidates your memory with your hippocampus regenerating the days activities in your cortex and  Helping you remember stuff. So it's that's why the brain has this memory thing stuck on it and a lot of people study the hippocampus with rats cuz they're basically a cortex or hippocampus with a little bit of Cortex. We've got a cortex for the little hippocampus.  Okay, sir questions.  Okay.  So this is check your understanding.  We had people in the cake us who wanted more clicker questions. We had people who wanted fewer clicker questions.  We had people who didn't want me to count correctness on clicker questions. How many people like that idea?  Okay. Well, I'll switch it so we don't count correct this and clicker questions, okay.  Okay, a recurrent network is a special case of a feed-forward netware a the Ford part for a response to time the backwards part.  Corresponds to are being passed into the future the connections between units are replicated for each time step and see or BNC.  Okay.  Okay, we got 58 votes 59 votes.  60 votes 61  Okay.  Okay, turn to your neighbor or Neighbour as a 2/3 chance of being correct.  And talk about it for a minute or two.  Okay.  Let's try again.  Try again.  4140  Keep going.  going  Okay, I think there were 60 people last time. Come on guys.  Okay.  going  going going  Gone, okay, practically exactly the same result.  Okay class. What's the answer d?  naughty  Okay, this is right the forward part we run rolling in. Thyme t e o t equals 1/2 equals to 2 equals 3.  The backwards part for a sconce that are being passed into the Future No into the past.  That's not right the connections between units of replicated for each time stuff. Yes, you have to have the same weights being used over and over again. Okay, so the answer is D not he okay ready for another one?  Okay.  Why isn't it going ahead?  Okay.  Time is represented in a recurrent Network by space.  state  valve variable T that corresponds to time to weights  Okay, I've got 60.  6/61 or two of you before not all going to vote. Okay going going going gone. What's the answer be?  Yeah.  And this is how it's represented in a feed-forward network. This is how it's represented in a recurrent Network 10 of you said this.  There's no variable T that corresponds to time in the network itself. We just use at the label.  Blinks and it's not in the way.  Okay.  Ready for the next one.  Okay training a recurrent Network uses backpropagation from the future to the Past from the past to the Future.  Backpropagation needs to be adjusted to work in this context back propagation is the same but the way changes need to be averaged over time and day.  Looking good.  Okay going going.  going  Gone. Alright, what's the answer?  What?  yeah e  A lot of people said this that's correct.  Nobody said this but that and that are both correct. It's just the same but the way changes need to be averaged over the time step. Okay doesn't need to be adjusted. It's not back propagating error from the past into the Future 2 future ended the past. Okay, we're good.  Everybody got that.  Okay.  So this you already know but it was on Jeff slide. So I'm putting it here. There's a big difference between the forward and backwards pass in the forward pass. We use squash and functions like the logistic to prevent activity vectors from exploding for one thing and then compute nonlinear functions.  but the backwards pass is completely linear if you double the air at the final layer, all the are derivatives will double  That's a linear function to better way to describe it. I think in some ways than the way I do.  So the Ford pasta determines the slope terms that are used at the hidden Lair Witcher used to multiply the Delta. So that's again just a linear function.  and so the issue is again that  imagine that you know, we have say the same thing happening at every layer then we've got a linear system and when you're doing back propagation through time, you're doing backpropagation for a lot many more time steps. Then you you know, most even deep networks. Okay, maybe you're back propagating a couple hundred time steps what happens to a linear system when you you know, just multiply imagine all the weights for exactly the same just to make an example as I  Square the weights Cube the way it's the tutterow, you're basically raising the weights to a very high-power. What are they going to do to the Deltas?  They're going to go to 0 or Infinity.  So we have to do something to take care of that problem. There are two ways that we do it when is you know, so back when we had were all using sigmoid stuff that the soap was never bigger than 25. So a lot of times you had a shrinking gradient. So this is the called the exploding or Vanishing gradient problem. And all we would do is raise the learning rate at earlier layers of the network if we had more than one Hidden Lake  And so the two ways we do this now are gradient clipping which just limits the length of the gradient vector.  So that doesn't grow without sounds but it's still pointing in the same direction.  That prevents the exploding gradient problem the vanishing gradient problem. We can take care of by some careful initialization of the weights. At first when we are doing deep learning. We thought that we had to pre-trained a deep Network and set your ways to have some good weights and then apply backpropagation. That's what Justin did in 2005 in His science paper. He had a special way of building up a deep Network by building a layer at a time.  Using a different learning algorithm then backpropagation and then he applied backpropagation to it and it worked.  Nowadays, we know that doing things like batch normalization fixes his problem initializing the weights carefully and also skip connections is in resnet where you have weights of one running between multiple layers that allows to gradient to travel all the way back.  You said we just said this?  Puritan layers, no problem  but Lauren sequences  and we can avoid by.  Initializing the weights very carefully like has been young lacunes paper.  But it's also it's still very hard to detect how the current Target at the output layer may depend on something that happened 60 time steps ago.  So it makes it hard to deal with long-range dependencies.  Okay.  That enter lstms. So this actually was invented in 1997 long before people were doing very deep networks, but people picked it up again, especially Schmidt over and his students at after we started using deep for current Networks.  And the cool thing about this Central computation paper and the cool thing about it is that it it's a little kind of connectionist your neural network Gadget that allows you to save a memory over a long. Of time. It basically is like a memory. So it has a operation the right the memory cell and an operation to read from the memory cell and an operation to erase the memory pill.  And the way it does it is by gating by having logistic units that go between 0 and 1 and they multiply X other weights in order if there are 0 and they multiplied by another weight and the activation running along it. They they cut that it and put it off if they're one they let it pass through.  So there's a right gate that allows you to write into the memory. It stays in the cell as long as it's keep gate is on.  And information can be read from the cell by turning on its read gate.  And what's remarkable about this? It's to me. It's practically magic is it you don't have to decide when to write and read things gradient descent.  I just think it's mind-boggling myself.  So this is a weight of 1 this is the memory cell and this is something he calls it. I think they're recurrent error Carousel. There's a keep gate and what this symbol notes. This is a sigmoid all unit going from 0 to 1 and so it multiplies times this if this is it one then 1.73 traveling hearing comes right back. This is a linear unit with a self link and if this keep gate is off if it's zero, then it goes away he get zero coming through.  Okay, so that with these this one on whatever is in here stays here.  Okay, now usually these Gates really get 2.99 or something like that. So maybe it decays a little bit but not much.  here is input from the rest of the network and this is the right gate usually that 0 but if you want to store something you turn that guy on and that lets information coming to hear and either be added to what's already there or to just write it if it's already 0  Hey.  And then there's a reed gay and that multiplies X out till to read out what's in the cell. So this is a little neural network gas that can write memories keep them alive for a while read them out and it all learns by back propagation Through Time.  For each cell it's just a scalar. But typically you'll have vectors of these things. So you'll have an lstm layer in your network and I have really no idea why they call it a long short term memory. That seems like what?  Shouldn't be long term memory.  The Lauren short-term. Anyway, it's a weird name. This is one architecture. There are now many variants on this. There are simpler ones called gated recurrent units or gr. Use and they're implemented and most packages Hazard lstm units the great thing about these packages as you don't have to figure out how to implement this it's just there.  And we can back propagate through this cuz these logistic units have nice derivatives.  Okay, so here's gory details. This one has a forget gate and all the names have been changed to protect the innocent. So here's input coming from the rest of the network. This is interesting here. So El here refers to this layer at time T minus one.  This is the input from an earlier hidden Lair at time T. What we're showing is what comes out at time T and this layer so you can have input from the same layer and the layer below you and then this is often at an H.  Unit here and then we've got the input gate. And again, all of these have the same inputs there and these weights the weights to these are learned through gradient descent. And so here's the cell it goes got this circulating thing. And then this one has a forget gate which was called the keep gate in the other one and means the opposite and then turn output gate or read gate.  and this is the a funny way of writing down with the  what that functions are  so here's an example of  We've somehow we've turned on the right date. We've written 1.7 into this the read gate is set at zero the keep gate is set at 0 time is going to go from left to right. So we're going to unroll this now the keep gate stays on. So at the next time step, it's still there. This is the South flank enrolled in time.  The right Jade is such a 03 K20.  Keep it still on we keep the 1.7, right K20 up. Let's read it out now.  Now if this memory needs to change we're back propagating error from here and it's got a weight of one all the way back so that the error is going to just stay the same all the way back and then it can change this here. Okay, so it's very good for profit. It's again a link of wait one which makes it very good for propagating are backwards through the network.  And now we keep taking v-0 erase that memory.  Okay.  So this is the little mind-boggling at first.  Yeah.  Yeah, so all I mean this is it operating, you know at production time when you deployed your neural network, but it also demonstrates how changing the weights can be done by back propagating through here. And you know, you're also back propagating to here.  If you look at chapter 8 of the New Testament the first volume of the PDP bucks, which is in your readings down at the bottom of the resources page at the very end. They have something called sigma.pi units and back prop along. This multiplicative connection is is very simple and these are Sigma Pi because pi means multiply and then you send them up.  when you get to hear so  You know again the multiplication you can differentiate through that no problem.  Okay.  I'm so these gadgets have now become standard in most recurrent Networks.  When you do it the way Jeff did it and maybe you back propagate all the way through time that's called vanilla recurrent neural network, and they usually are much harder to train than LS networks with lstm units.  And Gru units which were simpler than this even are usually even easier to train than lstm units.  And they seem to be able to do just about everything in the last Jam unit does.  So what about here's a task where we're reading cursive save. I still know how to write in cursive is still teach that in school. Anyway, the input is a sequence of X Y P coordinates of the tip of the pen. The P says is depend on the paper or not accent. Why is obvious?  The output is the sequence of characters.  So Graves and Schmidt Hoover, Alex Graves has now I think probably a Google deepmind show that R and ends with lstm units were the best systems for reading cursive.  And they used to sequence of small images is input instead of ex-wife he coordinates, but we're going to see one that does does it from xyp. So the movie we're going to see  We're going to watch a movie kids.  The movie that we're going to see shows several different things in the first row, you'll it'll show when the characters are recognized. It never revises this output. So difficult decisions are delayed. There's no reason why it couldn't revise its output. There are nail bi-directional lstm networks where 1 L. GM is going from the past to the future of the others going from the future to the past so it could revive in that way.  Road to shows the state of a subset of memory cells and that's going to be just a bunch of garbage, but you can see when there's like a line down the middle of it because the state is getting reset when it recognizes a character.  The third row is going to show the writing.  And as I said Optical input works better than Penn coordinates.  And then the 4th row shows the gradient being back propagated all the way to the X and Y inputs from the currently most active character and what that does is it lets you see what the network is paying attention to for to make its decision. Okay, so you have to remember this.  There's not going to be a test, but you have to remember it.  1  okay.  White this is not it.  This is Nando defreitas teaching about the current networks. What's going on here?  It's worked earlier today.  Let's see if I can just grab this.  stop  Oh stop me.  There we go.  Course, it works earlier in the day and doesn't work now.  Nope, that's not it.  that funding  let's try this.  Perrigo  Okay.  So I'm going to stop at part way through. So again, this is the output show it if it has some threshold, it just makes it decide whether or not to Output or not. So mov.  Here is the state and you can kind of see lines here where the state is reset. And this is what it's paying attention to. This is the person right?  Okay.  Then we can play this more than once to see.  You can really see the reset there.  Hey can see what it's paying attention to decide what to  output  Okay.  Let's go back.  Freshii that again.  Okay.  So it didn't get one thing, right?  This is should be an R.  More than a figment of the imagination.  You should probably look at this, too.  Andre is probably a better lecturer than me.  Okay any questions about this?  so this the demo  More examples. You said more demos?  somewhere around the th  At the very end.  where  a  this layer  So yeah, so it's it's using its make some sense. Right if the network has learned anything about language. It probably learns that a noun phrase follows a preposition. And so this probably going to be at either for the or an a for us.  This layer is showing the gradient that propagated to the input layer to see what it's paying attention to in the input.  Coming back here.  Oh, I didn't see that.  so the a lights up again you say  city of flashing a little bit  Yeah, well don't pay attention. These aren't the  these aren't the gradients you've been looking for.  Okay.  Okay.  Okay, so does summarize I'm going to just go into another lecture right after the show to summarize we can model sequential data by using input buffering to represent the sequence like Natok or we can use recurrence in the network mapping time into the state of the network. So the state of the network changes over time like those lips. We're seeing on the screen and that's the memory that the network has and recurrence can be implemented by unrolling the Network in Time.  Turning a recurrent Network into a feed-forward one and earlier ones used very simple architectures and then rolled one-time step and we can Envision the internal States face using PCA. You can do that on the Network's we have now, too. I don't know if anybody does.  And they can be used to do multiple things. I can draw a device in lstm units are Gadget that allows the network to latch a memory hold onto it relatively indefinitely and they've revolutionized recurrent networks. Even though they came way before deep Network Scott popular. They were a device that that turns out to be useful now today.  Okay, any questions about any of that?  Okay, I am done going to switch to.  another  Butcher and recurrent networks and this one was so Zach Lipton.  Gave a lecture for me when I was out of town. Once he was a PhD student this department. He got a job before even defended his PhD in the business Court emu so that means salaries this big  And he and his one of his advisors Charles elkan wrote a critical review of recurrent nuts, which I gave them a lot of input on bring you to that part paper. And again, I'm pointing you to this blog post by andrej karpathy.  Okay. So imagine you haven't really heard very much about the current networks yet.  We're going to motivate them. We have great tools for fix size data Vector in Vector out take this in saxophone musician man's shirt. Okay fix size inputs fix sized output.  But what we really want is some sort of structured outputs like something it takes this in and says a group of young people playing a game of frisbee.  How do you do this you use a convolutional neural network?  To learn a representation of this and then that feeds into a network that's been trained on a model of English by predicting the next word and a lot of English a lot of training data and then you can buy us it you can have it learn to produce sentences that respond that are about the image that's been input.  But sentences might not admit a fixed-length representation.  but words could  okay.  So we can take a word in each step is input. And then the model could output a word it each time step.  Or we can take this arbitrary like sentence and break it up into parts.  see if that doesn't  thank you.  So this site is only slightly confusing because it's got this in it. This is just a feed-forward network.  Basic are in an architectures. That's not a RNN. Okay, the purple things are inputs.  The green things are recurrent hidden layers. The red things are brick colored things are outputs. So this is something that could take in a sequence like frames of a video and then you could train at the output what action is being performed in the video or you could take a sequence of words and decide is so stay positive or negative review that's called sentiment analysis. So you can take lots of reviews from Amazon or whatever and learn their whether they're positive or negative and there are labeled data sets for that. He need to have somebody label the dataset. This one takes it fixed length in so this could be an image and this could generate a caption for the image.  Okay, or you could do something like this where you're taking in an English sentence. You got a representation of the whole sentence and then you output a French sentence to go with it.  Where this one takes an input and generates output it every time step. This could be like a speech recognition system.  People are trying now to get networks that do multiple tasks. And yes, I mean, it's not like this network doesn't have an output here. It does but you're not paying attention to it in case that wasn't obvious time goes from left to right. Yeah. So yeah, you could you could train networks to do multiple things and people are doing that now.  One of my students is working on that.  Just starting.  okay, the other questions about this, so these are  Something like this might be on a test. For example, like draw me a picture of a network that can do something or other or associate this with some tasks.  Okay. So how about a degenerative text Mom so we could have a start and have it generate now takes in the but generates takes a nanny generates. Annie takes a nanny generation are  Federation! And okay, so this network has been trained to generate a word a character at a time.  Now the great thing about this is you know, you might have a vocabulary of 10 to 25,000 words, depending on what you call a word.  having a 25000 units off Max imagine trying to  Compute the soft Max whereas if you have a letter there's only like 26 of those and then there's some other stuff like punctuation to actually these let character at a time that works are quite common.  So here's a network. That's just like this that's been trained on Shakespeare.  So they take the entire Corpus of Shakespeare a character that I'm trained it to predict the next word next character.  And now I can give a kind of some initial random State and let it hallucinate. So what we do here is we don't necessarily take the maximum output. We have a we have a softmax and we draw from that distribution. So we flip a 26 sided coin according to the softmax and sample from that distribution to get the next input and let it go where it wants.  Okay.  There was a lot of confusion about that last year. People said wait, I took the it's not doing anything cuz I'm taking the maximum every time that's a good way to get it stuck.  You really need to sample from the output distribution.  So here's trained on Shakespeare.  Pandarus alas I think he shall become approached in the day when little strain would be attained into being never fed and who is but a chain and subject service dad. I should not sleep so.  What ya so we should put this on obviously we should have a class play. But anyway.  notice that  First of all, I did make some mistakes, right? That's not a word.  Even in Shakespeare, but look at how much I've put a person.  Calling and then it knows a lot about sentences that they have a subject to verb and I think is followed by a whole sentence.  It's mr. There, but it put commas in and at the end. It's puts it. It knows a lot about English test from predicting the next character. Yeah.  What does softmax give you?  Characters of character outputs you're predicting each next character you're trained and typically these are teacher forced which means that even if it didn't have put a b here you use the teaching signal as the input here that's called teacher for 6.  So you give it the input it should have output on the last time step to train it but it's it's out putting a distribution over 26 letters and some punctuation and apparently it's doing capitalization and things like that to that makes sense. So you get supposed to 26.  Output softmax. It's a distribution. I can sample from that distribution.  Like when I flip a coin I'm sampling from a coin to see a binomial distribution, but I can sample a 26 sided coin that has some sides that are heavier than others.  case the distribution of a different every time  and that's how they got this. But if you know, it knows so much from just predicting the next character.  Mayfair news who's Noble Souls. I'll have the heart of the wars doesn't totally make sense. But it's syntactically pretty cool pretty good.  Okay, so this is trained on nips and Jaylen Daniel our papers and it's it's Guided by inputting the word recurrent first. So gave it an R an EFC of you and our and Arnie and then the tea and then they let it go.  Recurrent Network for the stifle information for logistic regression methods along with either of the algorithms previously two or more skew is more similar to the model with the average mismatched graph. So look and knows that open parenthesis should be followed by close parenthesis. It's so mad counting parentheses, right?  I don't know what that is, but because of the therap tour.  The Raptor the aim is to improve the score of the back-in-the-day Baroque Pearl Motor used a system similar to this who is a fine by Graham trigram model is of English and submitted a paper to IJ CNN, which was it is a bad neural-net conference and it's the only paper that's ever been rejected from ijcnn. I think somebody looked at it, I guess anyway so you can generate papers this way.  Too bad. It's not going to get into nip. So miss Spelling's why would you submit a paper to nips with misspelling since terrible again? There's another one here is Wikipedia. The meaning of life is the tradition of the ancient human reproduction is less favorable to the good boy for window remover bigger the ETC. It's got some idea what the meaning of life is that I guess.  And again, all of these are one character at a time.  It's amazing.  So then we can do sequence to sequence like my feet hurt and a sentence zamolo, PA and the sentence.  And this is heliostats kyburz working 2014.  So they train deep lstms with four layers each layer had a thousand lstm units 384 million parameters. The input. Vocab was a hundred sixty thousand words. The output was 80,000 words just use vanilla stochastic gradient descent with learning rate that went down over time to 10 days with ATP. Use four of them were just used to compute the soft Max over 80,000 things.  And so this achieved a blue score which is a bigram trigram at set a remodeled by Grand model is a model where you go through a whole Corpus and you count how frequently is is blue followed by C. For example  and so you got a distribution of words that could follow blue and so that's funny cuz it's blue and so you can measure how  What's the probability of the sequence of words in the sentence is and if it's high probability by stay by Grand model, you say it's better than one that's lower probability.  and  hybrid approaches. I don't know what that is, but unsound Langley cell stm's that is using multiple lstms.  Did better than stay the art and in fact.  And there was no information about language model their height hardwired into the system. So and Google brain.  They've been doing machine translation in Google using, you know, probably hundreds of linguist building stochastic context-free grammars to generate with lots and lots of linguistic knowledge built-in and then Google brain just train to network to go from English to French and it turned out to do better than the Google translate thing. So about a year or two ago. I don't remember whether it was last December or the December before that. They replaced all this linguistic stuff with a deep recurrent neural network and Google translate and they're up to about 30 languages doing using recurrent Network spell  No, and no information about language that has built-in impact a friend of mine.  Talk to somebody at Google brain and ask them. You know, how can you tell how the parse tree is represented in the guy said what's a parse tree?  So they really had no knowledge in linguistics.  You guys are help from compilers. Noah to parse tree.  Okay, so image captioning.  This is just from 4 years ago. He take an image in run it through a CNN. That's maybe been trained on.  Imagenet and you take the layer before the output and now I've got another layer of weights and training put that into a network as an initial state.  And give us this could be a network that's been trained on Wikipedia or something like that. But now I'm biasing it and learning these weights from this image to generate straw hat.  And again all these weights for the same all the output way through the same all the input weights or the same time goes from left to right.  Okay, and then copy this down and put that up copy that down.  here  Oh, yeah, this would not be convolutional be a fully connected layer.  No, it's it's just setting the so this circle here could be a thousand lstm units. Okay, that stands for a layer of lstm units and it's learning a weight Matrix that's backprop comes from here. Here here goes back to here and probably does not change the CNN at all.  Probably the back prop stops about here and you learn a set of Weights that map from the internal representation of the image to start state is essentially for this thing. And you know, I think it's good also to just keep giving this input is shego. This is just showing giving it the input at the beginning but you can prenup a language model independently that's good at creating English sentences and train this independently and then hook them together so that Arabic propagated through here learns the set of Weights that set this thing up to generate straw hat.  Start it's just saying it's just a it would always be start some unit to say, okay this the beginning.  Start generating now.  That is going to make it produce straw now. It's got an internal State here in these lstm units. It says the basic Eliseo I output it strong now now I put hat.  Now I'm done and a lot of these systems now use an attention Network to focus on different parts of the image is there you can use like a kind of softmax like thing to gate different parts of the image can be learned from the recurrent net in order to look at different things as you're walking through the image. So it might highlight in a the Hat here.  So here's a man in the black shirt is playing guitar construction worker in Orange safety vest is working on Road.  Two young girls are playing with Lego toy. Well, I don't know if the girls are not a boy is doing a backflip on wakeboard this that's probably because of the water he's not at a whiteboard. He's on a trampoline.  Girl in pink dress is jumping in the air black and white dog jumps over a bar young girl in pink shirt is swinging on a swing man in blue wetsuit is surfing on a wave.  Pretty amazing do do do do do do do do so. That's about four of you said please keep doing the doo doo doo doo theme.  And then somebody else said more diversity and noises.  Okay. Okay. So here's another model beer review.  So remember this thing okay, and it generates its own input for the next time step because we're sampling from this output distribution this guy.  You know, it looks so this is the standard kind of thing, but we're going to train it to do.  Is degenerate beer reviews?  And so we say Okay. I want to a good beer review. So I want a 5.0 review.  And that sort of works, but it's better. This is Zach's work.  To upend that input as a separate input on every time step. So, you know all the way through you're doing a 5.0 beer review.  In fact you put in a you know, what thing you want and what kind of beer so they have several kinds of beer.  So this bridge has long time intervals with concatenated input. She just have the static input that sits here. If you want to 5.0 review or you could have 1.0 review etcetera and here's an example of that.  5 fruit vegetable beer on tap at the Brew Pub in the nice dark color with a nice head that left a lot of lace on the glass. So the interesting thing.  About this is that a lot of these beer reviews have a structure they start with the appearance. And then maybe they talk about the aroma. The bourbon is pretty subtle as well. Okay, it's a bourbon beer. I really don't know that I find a flavor the spear taste like I would prefer a little more carbon ization to come through. It's pretty drinkable, but I wouldn't mind if the sphere was available. Okay?  Okay, so, let's see if this works.  Yes or no?  So, this is a UCSD site D-backs.  So the we're going to do a fruit vegetable beer with a five temperature point for what's that? So she give me a minute.  Come on.  Come on, OK give up.  Red lights are okay. There we go. So again, remember we have a soft next output. There's something called temperature in the sauce mix  so the softmax  The output is e r y k a z z a k.  Over the sun Jive the AJ.  You can put a temperature term on this.  by putting a t here  T4 temperature if this is really big.  What's going to happen?  What?  What?  would be  what?  If I'm a really big what happens say, it's Infinity.  Yeah, every if this gets really big it flattens the distribution. So if this is really big it's basically eat is a zero, which is one so you got a one for every output. So if you make tea really small it sharpens the distribution cuz it amplifies the exponent if it's below 1  Okay, so here we've made the temperature small at point for and that changes the distribution your sampling from.  So, let's see what happens if we use a temperature of 2.  It's pretty bad, right?  temperature for  It's okay. It's garbage.  Right. It's just random digits.  What about if I do a temperature of 2.01 that's really is freezing the network, so it's going to be very deterministic now.  Yeah, it's it's like repeat. I repeat myself when under stress. I repeat myself when under stress.  Okay, I regenerated. I still got towards the clear golden color with a small white head that dissipates quickly I generated again. I got it for the clear golden color was it?  Huh?  I don't want to do that. I don't know what's going to happen. If I do a nice this is like  thanks to battleman for the bottle poured into a pint glass best by date at 7:10 is for a Roma or appearance. Sorry pours a pinkish color with a Fridays then white head that leaves a lacing.  F is for smell T is for taste.  Do it again.  Okay, let's let's try Russian imperial stout.  It's bad.  This is really sweet and creamy mouthfeel is sticking to M is for mouth feel bad for bad bottle.  But then by the end even though it's got this input the whole time that it said Russian imperial stout and it's supposed to be at one that's getting that inputs. "
+}

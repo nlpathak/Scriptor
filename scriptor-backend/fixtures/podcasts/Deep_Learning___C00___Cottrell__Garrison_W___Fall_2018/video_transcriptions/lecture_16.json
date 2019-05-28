@@ -1,0 +1,486 @@
+{
+    "Blurbs": {
+        "1 for the first pixel x 0 or 1 for II 1001 for the third so 2 * 2. * so even if binary 64 by 64 image has two to the 64th possible images many of them won't look like anyting most of them won't look like anything. He'll be white noise. And so that's why we believe there's a lower dimensional manifold that these things live on right. ": [
+            4492.2,
+            4523.6,
+            93
+        ],
+        "And the goal is to develop the generator Network in such a way that it fools the discriminator network. What the discriminator does is. You give it its unsupervised cuz he just take the data that you have you feed that into the discriminator and the generator Network tries to fool the discriminator into thinking that what it generated is a real image. And so there's that. It's like this ": [
+            2296.9,
+            2331.5,
+            46
+        ],
+        "Helix. So it's learn to function that that is encoded the three-dimensional data and a In a single scalar, so the scalar so here's to you and here's .25 and here's .35 and here's .45 etcetera. So it's it's just running along the the Helix. So that's nonlinear dimensionality reduction and we can think of this as a manifold. So in math we think of the data is lying on ": [
+            1427.7,
+            1475.7,
+            27
+        ],
+        "I believe this is each one is starting from a different random point in the input. And this is how that random Point changes over time as it learns. Okay. Okay. So now like I did with our little Network you can take two points and you can just move through the space. So these are tall probably points. It would have generated cuz you know, it might be completely ": [
+            3973.7,
+            4017.2,
+            84
+        ],
+        "I feel ya. The generator is trying to minimize. And I'd discriminator say Daddy is trying to maximize. Set my alarm for 5 a.m. so again, this guy's trying to go uphill in this the the the generator is I'm sorry, the generator is trying to go downhill. The discriminator is trying to go up hills. So you just a difference in the sign. But it's wonderful that we have ": [
+            2811.9,
+            2862.5,
+            58
+        ],
+        "I mean this look real from a distance. Anyway, I mean if you get up close so you can kind of see weird stuff but geez, that's that's pretty cool. Okay. Now here's 2017. This is Alaskan by Chairman Mao and Al and here's one that's been trained on churches dying rooms. Look at those chairs are pretty detailed and they do look like they told you up. Although that ": [
+            3635.0,
+            3667.6,
+            77
+        ],
+        "I'm not clear on what you're saying. Special edition of maybe about your problem where is generating? Like I never You can ask me so I haven't worked with Ganz very much, but you can for example try and maximize the entropy of the output. Overtime and that's me. thinking on my feet So entropy is like variance, right? So you can try and maximise the variance across the images ": [
+            4384.1,
+            4432.9,
+            91
+        ],
+        "So if the discriminator gets way ahead of the generator, the generator doesn't get any useful in back prop error. because it's already at almost 1 and Yeah, but your use cross entropy loss that helps but it's still not getting enough feedback. It's weird. It's it's like it's getting feedback from a single output. You would think it would need more than that. Somehow yeah. Did to do something, ": [
+            3015.0,
+            3057.5,
+            62
+        ],
+        "So that's one. And then there were two and there were three and then there were five new so I computed the slope between here and here and it comes out to a 4.3 papers a week and and it's not as steep there as it is over here. So it's pretty amazing. It's just impossible. Well, it's not impossible. It's very difficult to keep up with began literature. So ": [
+            3818.7,
+            3858.9,
+            81
+        ],
+        "So we get beer. So this pre-training stuff is simply learning the language model and I don't remember from the paper, but I'm pretty sure they just turned it on the reviews. so that it learns the structure of the language and then went once you've done that then trained it to generate reviews by tacking on the The auxiliary information which as I said in my post today, there's ": [
+            371.5,
+            410.0,
+            2
+        ],
+        "So with the spiral it lives on a on a single Line, but faces face space, there's kind of a manifold two faces that we were traversing there with again. I know you're talking about the crew training stuff like going to be today. Yeah. Yeah, I suppose you may as well. I don't know. Yeah, okay. All right. Well, have a good Thanksgiving. If you don't have any place ": [
+            4523.6,
+            4574.6,
+            94
+        ],
+        "So yeah, it's possible that this could go wrong and it's they are very hard to train. Although there's all website with hints on how to get these to work and there's a link to it in this set of slides. So again mode collapses when the generator like just generates one image, but then the discriminator can easily say oh that's the generators and mention can figure it out. ": [
+            2975.9,
+            3015.0,
+            61
+        ],
+        "That's probably wouldn't learn very well. I would guess we gave it a larger space to learn in and then slowly reduce the dimensions of that space like the attack in the three body problem. For those who've you read that Chinese science fiction. There's anybody who's in the universe is going to want to expand completely. So anytime they detect any intelligent life. They they wipe it out. And ": [
+            1772.8,
+            1808.4,
+            36
+        ],
+        "This is so true. This used to be the the Standard instructions on shampoo your supposed to wash your hair twice for some reason. I don't think they asked that anymore. So again, it's it's still tricky to optimize giving little feedback. But recent work is mostly fixed this. Yeah, it's just I mean, you know, it's the same as what you already do your averaging over the batch the ": [
+            3252.6,
+            3297.4,
+            68
+        ],
+        "a low lower dimensional Subspace a surface. We usually think of it as just a line. Until this network has discovered that underlying manifold. How do you choose the one with military buildings? Like how do you measure your music? So you go through the whole data set and you watch like how much what is this guy do over the dataset? You have another guy who watch what he ": [
+            1475.7,
+            1513.9,
+            28
+        ],
+        "a unary or one hot encoding of the kind of beer and then they take the rating and they just modify that into some number between minus 1 and 1. 4 - 1 for a 1 review 1 for a 5 review 04 A3 review etcetera. Okay, so that's the story. Yeah. I'm saying there's a pre training stuff where you learn the language model. That's all you do is ": [
+            410.0,
+            449.9,
+            3
+        ],
+        "alike. We have two eyes and nose and mouth and two ears but here when you're switching between objects really different. This could be good for a science fiction movie. I'm sure. Okay. All right, we had enough fun yet. I know you want to keep watching. Okay. Well it goes on for how much longer. another minute Okay. Now, I'm pretty sure I don't know for sure, but I'm ": [
+            4153.9,
+            4224.7,
+            87
+        ],
+        "and a horse over here and you know, so it's not doing terribly Okay, how about 2016? Okay. I was got a convolutional again. This is from I clear 2016. That's the International Conference on learning representations the Deep learning conference. Okay, here it is. generating pictures of rooms Bedrooms, so you have two usually they traded on one category of things like cures bedrooms and it's doing pretty well. ": [
+            3590.9,
+            3635.0,
+            76
+        ],
+        "and coder which Rummelhart invented, but he didn't know it because that's not what he called it, but now been go takes credit. Anyway, I've been encyclopedia article from long time ago where I used to anyway. Neener neener neener so dropouts away regularizing a neural network. And usually there's just a switch for it and you can pick a probability of how many units you want to turn off ": [
+            1697.7,
+            1734.3,
+            34
+        ],
+        "and keep the network still working. So in that way we took this data. And we didn't train it with I shouldn't this is a little bit of a life. We do again. We started with more than one hitting you and then eliminated them slowly picking on the smallest guy in and trying to shrink its its variants 2-0 so that it wasn't adding anything to the computation. It's ": [
+            1321.3,
+            1349.1,
+            24
+        ],
+        "and then at the end he is all of the Hidden units, but you have to scale all the way to buy a half if you do 50% drop out so it still works, right? Okay. So, what was your question again? City of Houston for like a single unit probably if you know, I probably so you're talking about doing drop out where I leave one unit there, right? ": [
+            1734.3,
+            1772.8,
+            35
+        ],
+        "as part of your training regimen. Yeah. So ask about the additional rent. show the picture of the why don't Oh, you mean random number generators random numbers that are the same size as the image Well, that's too big. If you take all possible, even if you think about binary images, right if you have a 64 by 64 binary image, that's 4096 pixels. You could pick 0 or ": [
+            4432.9,
+            4492.2,
+            92
+        ],
+        "awake from every pixel into this guy and and then you can send the component back to Earth and it's a new day. It's a rotation of the space. There's another one going this way, but we could just make do with the first one throw away this component and just send a 1D representation back to Earth which is the projections of these points on to here. So this ": [
+            1137.9,
+            1172.5,
+            19
+        ],
+        "bigger noticed there another way to think about it is this is the output of the network, but here it's got a minus sign in front of it when it takes as input the output of the generator. Okay, so that's the discriminator output for real data. And here's the discriminator output for fake data. Now, I've got it, right they 2g or the parameters that generator say daddy or ": [
+            2704.6,
+            2736.8,
+            55
+        ],
+        "but you don't eat too much. So unfortunately, the generator objective function here doesn't work very well. And I'll show you a graph of that in the moment. So you're trying to minimize this but you could also like takeout this and try and maximise that that's what actually works better. So this is a little confusing but this is the output of the discriminator. So if it's 1 That's ": [
+            3057.5,
+            3097.7,
+            63
+        ],
+        "can't be see because specifying the targets the targets are given to you. They're the input. So your targets are the input you're trying to make the output the same as the input. And D is wrong because it usually has a smaller Central hidden layer than the input because you're trying to compress the data. Are you trying to learn something about the distribution of the data? so There's ": [
+            1003.2,
+            1036.8,
+            15
+        ],
+        "cops and tell right away and then there's this kind of arms race where the counterfeit or gets better and better and fools the cop. Hey. So the generator is trained by backprop from the discriminator. Initially, it's going to generate garbage. But the discriminator I'll say that's not an image, but the generator is trying to go uphill in that full it and the full it has to learn ": [
+            2443.1,
+            2483.0,
+            50
+        ],
+        "decide it, you know here when taxes through the middle and two more going this way just like this in fact But the data is really just a line. It's single dimensional data. Right. It's a curve but it's still one-dimensional. And so we could then take that one hidden unit and run its you know, just drive the decoding network with these values and it would Trace out this ": [
+            1385.5,
+            1427.7,
+            26
+        ],
+        "did. This is they started having it generate low-resolution images then they added another layer. To make them somewhat higher resolution and finally higher resolution. So Here's some people. I think I was trained on celeb a witch. Kind of ironically as a lot of b list celebrities in it. So these are generated images by the Gann. and yeah. pretty cool So yeah. So this is overtraining. This is ": [
+            3910.7,
+            3973.7,
+            83
+        ],
+        "dimensional space for another person and just linearly interpolate between them and see what the output is. So here's an example of that so that these guys were in the training set. So there were reproduced pretty well and it morphs between them kind of a crappy morph. But and people do that a lot with cans will see that with Gans to okay. How do you spell? Well, in ": [
+            1940.6,
+            1988.0,
+            40
+        ],
+        "does over the date and the third one? Yeah, the variance of the output activation variances Poor Man's information, right? So you find the guy who's contributing the least. And you shrink his various ten20 now the back prop is clever. And when you try to do that, it blows up the weights from that guy so that it still has the same effect. So we had to actually normalize ": [
+            1513.9,
+            1548.5,
+            29
+        ],
+        "game they're playing so Do you want this generator Network that just starts from some random inputs and is multiple are usually convolutional and generates an image that fools the discriminator. And so this is the full system me of this generator Network trying to create images that the discriminator network. Thanks are real. So you start by training the discriminator network on real images and made up images. And ": [
+            2331.5,
+            2374.4,
+            47
+        ],
+        "gets a consistent signal back. If you change them both at the same time. I don't think that you know, you're going to get one response for your stuff this time and a different response. The next time the discriminator isn't being consistent. It it's got a flat output. It's saying 0 all the time and the the gradient is going to be small. It's not going to tell you ": [
+            3466.7,
+            3500.2,
+            73
+        ],
+        "go faster. So learning a language model just means what we've been talking about all of which is that you have inputs that correspond to the characters and then your output it corresponds to that the characters. Let's let's do this one be back. We give it an e. And it produces an e and then that gets copied back you give it an e? And it produces are okay. ": [
+            323.9,
+            371.5,
+            1
+        ],
+        "here where your goal is to Simply increase the output of this network. So it's just got one output real or fake. And remarkably it works so you can think of this as a criminal that's counterfeiting bills in this the cop and the cop is trying to differentiate between real bills and counterfeit bills. And you know, it is actually the the criminals pretty bad at it and the ": [
+            2407.4,
+            2443.1,
+            49
+        ],
+        "here's some of the most recent stuff for my clear 2018. That's this year. She didn't notice the school demo. Where's School demo? Here we go. The way they do have sound shoot and didn't see. Can I get sound? Or maybe there isn't sound I guess there isn't sound you. No, I haven't played it yet. Okay. So by the way, this is Progressive training against the way they ": [
+            3858.9,
+            3910.7,
+            82
+        ],
+        "is trained on the Toronto face database. This is generated by the generator. This is the closest stuff in the training set to these you can see they're very different. And this is pretty crappy. But it was 2014 time is passed. here it is trained on Seaford little tiny 32 by 32 images and it's not doing very well on that but it did generate a ship over there ": [
+            3551.7,
+            3590.9,
+            75
+        ],
+        "it a lot of images and they are tricky to train, but your methods are coming out all the time. And by the way, I wanted to point out. This at the bottom of this image is a website can hacks for training giving lots of tips for training Gans forgot to point that out. and so they can only generate data but they can transform it so you can ": [
+            4288.5,
+            4326.6,
+            89
+        ],
+        "it's learns to tell which ones are real and which were fake and then you start to train the generator using feedback from the discriminator. The generator network is trying to create images that make this guy turn on so you're trying to go uphill in the output of this network. Cuz it's going to put one if it's real and zero if it's fake until you back propagate from ": [
+            2374.4,
+            2407.4,
+            48
+        ],
+        "it's really low this the slope is low. And so if you replace it with maximizing the output of the discriminator, which would you know make the discriminator think it's real the same plot is very different now, so here it's steep for bad example. So it's it's got a good gradient for going uphill trying to make the discriminator output positive or one. Okay. So that's that this is ": [
+            3133.1,
+            3173.8,
+            65
+        ],
+        "just constant over the data set. Okay, so then we got it down to one hidden unit. And you find out how this the Helix so the principal components of this data. It would have three principal components one going on this way and two more going around the circle. So the PCA cannot reduce the dimensionality of this successfully at all. You'd have to have three principal components to ": [
+            1349.1,
+            1385.5,
+            25
+        ],
+        "just predict the next character. Predict the next character and then what he do. Predict the next character. Okay. Okay. Yeah. the characters Yeah, yeah. Yeah. Well you train review after review after review, basically, yeah. Yeah. And then after that at the metadata. Yeah, and then traded to create that particular review. What happens if you don't do the screenshot it takes longer. Probably doesn't probably doesn't work as ": [
+            449.9,
+            512.1,
+            4
+        ],
+        "maximize this? When X is drawn from the discriminator or Z in this case, and so this is generating a fake image. If this guy out puts a 0 then that's going to make this as big as possible if this out with your one then you've got the log of 0 but you're not really going to have but anyway, you're trying to make that bigger right making that ": [
+            2666.7,
+            2704.6,
+            54
+        ],
+        "me go on where I've got some more texts to work from. Okay, so it stands for expectation with respect to a distribution. So it's the average just think average fee for average. beverage And D they died G is the discriminator output. It's Target is one for real image and zero otherwise. Smbd that's that's the discriminator should be sorry. Okay there that's right. oops Okay. So they daddy ": [
+            2535.3,
+            2618.9,
+            52
+        ],
+        "me you were talking to your neighbors others are Googling. Okay, let's try again. Good. Googling works Okay going going going. Gone. All right. What's the answer be? Yeah, so 25% of you initially said a but that can't be true. If you're trying to reproduce your input on your output the input and output layers have to be the same size. to be still thought it was a it ": [
+            947.0,
+            1003.2,
+            14
+        ],
+        "mean this these labels don't really say anything but And that cat looks kind of weird that cat doesn't seem to have a mouth. That is not a dog. But they're pretty damn good. Just amazing. Generated the Leaning Tower of Pisa. And there's a kind of short Eiffel Tower. Okay. Okay, what if we interpolate between objects? Same faces are a much more homogeneous class, right? We all look ": [
+            4081.5,
+            4153.9,
+            86
+        ],
+        "mini batch, right? That's what he means the average. So here's a kind of abstract view of what you're trying to do. So this black this is A cartoon is supposed to be the real distribution of the data and we're just pretending year. It's a gaussian. the green line Is what the generator generates so it's some other gaussian way over here. This is the output of the discriminator ": [
+            3297.4,
+            3344.3,
+            69
+        ],
+        "minute. Okay, quiet it down. Let's try again. some improvement Yeah. Okay. Going going first to the last two are you go going gone? Okay. What's the answer class? Okay is about single hidden layer networks with linear hidden layer. And when your outfit layer multiple heading layer Network won't do that. It'll learn something better than principal components. It learns the underlying data manifold. Yeah, okay any questions about ": [
+            2072.6,
+            2195.1,
+            43
+        ],
+        "minutes as a kind of temporal autoencoder or language model is a kind of temporal autoencoder because it's doing a little something a little different than a realtor encoder because it's predicting the next character. If so, here's an auto in powder, it's got an encoder part and a decoder part and you can give it an image. So here's a small image and every blue. Here corresponds to a ": [
+            702.8,
+            736.9,
+            10
+        ],
+        "network that learns this representation of the data and the The weights from the images end up looking something like this depending on how you train it. So these are principal components of the data set that this guy came from okay. Make sense any questions about that. Okay, so I asked you a question about then. Just check for understanding. Okay. Autoencoder is enough neural networks that has different ": [
+            774.3,
+            821.1,
+            12
+        ],
+        "new ones. Yeah that something weird there happened. You are as part of his head. Bro, what happened there? Yeah, so you can see that some of these coins not every point in the space is a real face. Some of them have weird features. Like that, that wasn't a real face. But they're pretty damn good. So this is from Elsa and categories short pretty amazing the detail. I ": [
+            4017.2,
+            4081.5,
+            85
+        ],
+        "of characteristics to the networking and ask it to generate a review for a particular beer. And then they compare that to the author's actual review of that fear and but you don't have to do that. You're just learning to generate reviews given only the rating and the type of gear. Okay. And you can print it with the temperature set at 1 you don't have to vary the ": [
+            547.2,
+            579.8,
+            6
+        ],
+        "okie dokie Okay gang. Yo, let's get started. Okay today. I want to talk about Dan's or generative adversarial Networks. As they're known. but before I do I want to bring up one thing about the programming assignment if you okay Okay, so if you look at the paper. What they they do a pre training step which is just learning a language model. It makes the rest of it ": [
+            242.1,
+            323.9,
+            0
+        ],
+        "one doesn't have a leg there churches Outdoors kitchens conference rooms cetera. So it's pretty good getting better. And then this is generating faces with began. These are looking really good and these are not real people. Okay. And then here's cycle again. So it's cycle again does and and this is also and supervise its really interesting how you train the scan to generate things in one domain and ": [
+            3667.6,
+            3715.1,
+            78
+        ],
+        "one of the ways they do that is by reducing the dimensionality down to one. So everybody dies cuz they know they're flat. anyway so okay, and then we also did it with faces and and we use 5 hidden units and and got these are the inputs. These are the outputs noticed 5in. They all look alike. They do reflect somewhat Expressions her mouth is open her mouth is ": [
+            1808.4,
+            1849.6,
+            37
+        ],
+        "one time and you keep doing that randomly on every pattern. And that forces the units to not be co-dependent. They have to they have to go to CODA meetings and that's co-dependents Anonymous my ex-wife goes to those and so the network can't depend on anyone particular unit being there. So they they have to learn relatively independent features and it's almost like sampling what it is like sampling ": [
+            1628.4,
+            1667.3,
+            32
+        ],
+        "open. Yeah. So this is the control and and Metcalf dataset where we tried to add we ask people to look happy look sad look afraid and We got the Irish Setter affect, which is this is an Irish Setter. That's Happy. This is an Irish Setter that sad. The sniper Irish Setter the suicidal they were not not very good at making facial expressions in response to que like ": [
+            1849.6,
+            1890.3,
+            38
+        ],
+        "particular pixel and every blue. Up there corresponds to the same pixel. So in particular you don't have to label the data because the data is the teacher. So it's a kind of self-organizing network that learns a representation of the data. And since the top part is the same as the bottom part you can imagine folding it over like that. And now it's it's more obviously a self-organizing ": [
+            736.9,
+            774.3,
+            11
+        ],
+        "pretty sure those. those were conditional Gans or Okay, so these are real people and you can tell they're not a list celebrities even though it's Celebi. Okay, so lots and lots of images the train Okay. Okay, so cool demo, huh? Okay. So generative adversarial networks were invented by Ian Goodfellow Ian Goodfellow. Sorry. And it's completely unsupervised. You don't have to pick labels for anything. You just show ": [
+            4224.7,
+            4288.5,
+            88
+        ],
+        "she's surprised anyway, yeah. The row the top Rose the input the bottom Rose the output. Yeah, so it's not doing you not doing very well, right? It's not replicating the people very well, but still it's burying something. so anyway, really hidden layer now with 5 units in it and I can take a point in that's five dimensional space for one person and another point in the five ": [
+            1890.3,
+            1940.6,
+            39
+        ],
+        "size and putting up with layers and she usually trained using Square Tara loss is difficult to implement as a larger Central hidden layer than the input. Sorry, I have to yeah. I didn't explicitly mention the answer which may Okay going going. going gone. All right. Talk to your neighbor for a minute about this. You have a 60% chance that your neighbor has the right answer. Okay, send ": [
+            821.1,
+            947.0,
+            13
+        ],
+        "so there's a reason why there's the same number here is here cuz you're just trying to reproduce this on the output because this a gray-scale image you'll be training with not cross entropy loss, but squared error loss because it's a regression problem in the sense. You're trying to Simply produce numbers that correspond to the pixels. Now I'm Paul Monroe died. First did this back in the 80s, ": [
+            1036.8,
+            1066.9,
+            16
+        ],
+        "so. horse to zebra zebra horse apples and oranges oranges and apples But my favorite is this bad case word failed. Okay. Okay, so yams are multiplying these are the names of all currently named Gans. Darcy that again Okay, here's the cumulative number of Gann papers per month. So it only goes up cuz it's cumulative and rough to 510 part way through 2018. The first paper was 2014. ": [
+            3751.5,
+            3818.7,
+            80
+        ],
+        "some data. And let's see who who knows what an otter encounter is. Who doesn't know what an otter and cutter is? Okay, I've talked about them a couple of times. Luckily. I've included some slides on them. So you can get reminded so hands are form of unsupervised learning where you're the model can generate data from a distribution. So it's basically learning the distribution of the data and ": [
+            634.2,
+            672.2,
+            8
+        ],
+        "take some data and make it into something different. So some additional slides. Additional sides and that's it. Now that we've got eight minutes. You could ask questions or I could start another lecture and finish it later or you or you could we could all go home? Yeah. Yeah, and I called that mode collapse. Or like even like maybe generate more like more usual images. Okay, wait. Sorry. ": [
+            4326.6,
+            4384.1,
+            90
+        ],
+        "temperature. During training just when you're generating. k Okay, find any questions about that. See if that works, okay. Okay. Okay. I'm sorry. I saw some figures from the Stanford convolutional networks course. So so far we've heard about supervised learning and that's learning a mapping from some input to some output and unsupervised learning usually mostly in the form of autoencoders, which learn some reduce dimensional and coating of ": [
+            579.8,
+            634.2,
+            7
+        ],
+        "that component vector? And so we're doing the inner product of the input with that weight factor to get its loading on that component. so again if case you forgotten Here's my standard example of height and weight of the Martians and those are correlated. And the first principal component is this guy that I kept that's a vector in the same input spaces the input source got to be ": [
+            1104.0,
+            1137.9,
+            18
+        ],
+        "that what? so Nobody actually after talking to each other. No one answered these two so I wasn't going to talk about them. But what about the bottleneck thing? Bottleneck you wanted smaller than the end right also called a wasting Network or an hourglass architecture. Yeah. Hi what we did back in the day, but he wouldn't do that now convolutional networks are way better. Yeah. Yeah, I mean ": [
+            2195.1,
+            2247.5,
+            44
+        ],
+        "the blue one till wants to be on over here and off over here. Right. So starting from Z. You're generating stuff that's over here not where the real data is. Okay. Then as training goes on the generator or sorry the discriminator learns a nice smooth Dark Earth. Okay, not much has happened yet. And then the generator starts to learn so it starts moving its output closer to ": [
+            3344.3,
+            3383.4,
+            70
+        ],
+        "the kind of equilibrium point of this training that make sense. Yeah, no. Yeah, yeah. Why would you want to give the generator up to take turns training today? How else are you going to do it? Yeah doing online version. Well, so what the discriminant after the discriminator is been trained? It's fixed, right and after it's been trained once and now the generator is generating stuff and it ": [
+            3416.9,
+            3466.7,
+            72
+        ],
+        "the new access that explains most of the data and if I Gave a neural network to input switch or the weight and the height and trained it with one hidden units. It was linear and asked it to reproduce the weight and height than the output. That's exactly what it would do. Okay. So we would use a linear hidden layer and a linear output layer. Okay, and so ": [
+            1172.5,
+            1210.0,
+            20
+        ],
+        "the objective function that most people use now. So training gun prestige by you give the generator some random noise. input which leads to junk is output repeat that k x Take a real samples from the training set. Now. I'm not training the generator here. I'm just using it with initial random weights to generate crap. And then you take like a real examples and you train the discriminator ": [
+            3173.8,
+            3210.1,
+            66
+        ],
+        "the parameters of the discriminator. And the discriminator wants to maximize the subjective. So D of X is close to 1 when it's real and DFG of Z is close to zero fake. Okay. And the generator is trying to minimize this objective. If it if the generator made fools the discriminator, this is going to be smaller one- that so it's trying to go down hill in this and ": [
+            2736.8,
+            2776.4,
+            56
+        ],
+        "the real distribution. And this guy is getting a harder task now. It's got to separate these overlapping distributions and the end goal is that The generator generate state are from the same distribution that the real data comes from. And now what is the discriminator do it? Just outputs .5 all the time. Cuz it's been fool. That has no idea. What's right and what's wrong? Okay, so that's ": [
+            3383.4,
+            3416.9,
+            71
+        ],
+        "the that's it's go for outputting for real data. If it's zero, that's its goal for fake data for fake data. And this is the plot of its loss function over what the discriminator does and their what's bad about this is that it's really so this is the gradient right that it's getting and it's big when it has it's generating good images, but if it's generating bad images, ": [
+            3097.7,
+            3133.1,
+            64
+        ],
+        "the the weight vectors to prevent it from doing that. So we had to keep their weight factors at some length and then when we drove that guy down, he really did stop contributing and then run the data through see which is the next Louis guy in terms of how much information they're contributing and start picking on that one. They always pick on the smallest guy just like ": [
+            1548.5,
+            1581.5,
+            30
+        ],
+        "then You have a reverse can that tries from that other domain to generate stuff back? So you've got a This this guy is trying to create you start with a horse. You try and create a zebra. So you've got a discriminator over here that sang horse vs. Zebra, and then you take that zebra and try and generate the original image again until you can map between domain ": [
+            3715.1,
+            3751.5,
+            79
+        ],
+        "there are now convolutional autoencoder s and they're often used for learning a lower dimensional representation the input. We didn't know about convolutional networks been invented yet. Okay. This is an idea. I guess he and had after a conversation in a bar their liking autoencoder except there's no end Kotor. There's only the decoder part. Dudududu so that's the generator Network and then there's an adversary the discriminator network. ": [
+            2247.5,
+            2296.9,
+            45
+        ],
+        "there's no generator parameters here. So when the discriminator or the generator is trying to minimize says it only has to pay attention to that term. Okay, which is going to be the output of the discriminator to its some number between 0 and 1 total logistic output. Yeah. Which direction are you going to move during gradient if that's cuz like you're minimizing. Don't you want to go down? ": [
+            2776.4,
+            2809.2,
+            57
+        ],
+        "these are principal components you can think of these as the weights now from the input to one hidden unit. So it's it's it's like the the pictures we created for programming assignment 1 I guess. Any questions about that? Okay, so that's a linear. Network and then David and mirrors and I did a nonlinear neural network. So now these are actually hidden layers with Logistics units again, it ": [
+            1210.0,
+            1255.8,
+            21
+        ],
+        "these are the weights of the discriminator. So the discriminator so what the discriminator outputs is the function of its weights and so that's what we're trying to adjust with this. and so for there's another G. Sorry, that should be a d so the output of this guy's the probability that so You want to maximize this? when the x is drawn from real data And you want to ": [
+            2618.9,
+            2666.7,
+            53
+        ],
+        "this case, we we stopped too soon or too too late. Right? I mean it's not doing a very good job of reproducing these. It's getting some of the features but it's like all the same person. If you want to look at two things you want to look at the dimensionality the hidden lair in the error at the output when the are the output gets too big you ": [
+            1988.0,
+            2014.3,
+            41
+        ],
+        "to discriminate real from fake and you probably don't want to train it a lot. He just wanted to get it mostly right? Yeah. Probably I would say so. I need to be big enough that it can represent the whole. the distribution okay, now give the generator random noise input repeat k x train on the generator objective function holding the discriminator fixed Okay, and then rinse and repeat. ": [
+            3210.1,
+            3250.6,
+            67
+        ],
+        "to generate images. There are lots of problems with this like mode collapse. We're like this just generates one image, but we've managed to overcome that problem right now. so This is like a game. So it has a Minimax objective function. Which if you took 150 were maybe. He took 150 might get game playing. So are you there's adversary so what the so what the What this? Let ": [
+            2483.0,
+            2535.3,
+            51
+        ],
+        "to go for Thanksgiving, what we used to do in grad school is having orphans dinner where we would do a potluck get together with your friends have a potluck. See you next week. ": [
+            4574.6,
+            4588.1,
+            95
+        ],
+        "to neural net. we've got one neuron that that's trying to create images and one neuron that that's trying to discriminate between real and fake ones. So the goal of the generator is to fool the discriminate. the reason the main function to It's the opposite so you can tell because this says a little G4 generator, so it's trying to minimize and it says the D for discriminator. That's ": [
+            2862.5,
+            2912.5,
+            59
+        ],
+        "to to the end different models, but and then at the end so that regular Rises the network. It says it's an alternative to wake 2K. And you do that at every layer of the network. And if he do it was an auto encoder and you do it on the input. Where that is he just turn off some of the inputs. That's call Daddy noising Auto and Coke ": [
+            1667.3,
+            1697.7,
+            33
+        ],
+        "trying to maximum. So again, the generators parameters are only in the second term. So it's trying to make the discriminator. It's it's trying to make the discriminators output close to one which one- that'll be small. So it's trying to go uphill in this. Okay. So the actual training alternates between the two, yeah. I read past from the discriminator solar generator only generates picture that can fool us. ": [
+            2912.5,
+            2965.9,
+            60
+        ],
+        "units than we thought we needed. With three inputs, we sure don't need more than three hidden units and then we would find the guy that had the smallest variability over the data and penalize him to try and reduce his very ability to zero. So we added an extra constrain here to eliminate hidden units that way until We got to a point where we couldn't really eliminate them ": [
+            1288.6,
+            1321.3,
+            23
+        ],
+        "very much. So these are the original results from I think the 2014 paper where? These guys are generated by the generator. And these are the closest guys in the in the training set so you can see they're not exactly the same like that smaller than that. So it's generating novel outputs things that are not in the training set. Okay. It hasn't just memorize the data. oops Here ": [
+            3500.2,
+            3551.7,
+            74
+        ],
+        "was still 1992. We didn't know any better. And this way we can learn unlearn your representations of the data. And so suppose you're handed the status at the three-dimensional. So somebody hands you this bunch of data like that. You could have three inputs and three outputs and you ask it to reproduce the input on the output and what we did was we train it with more heading ": [
+            1255.8,
+            1288.6,
+            22
+        ],
+        "we'll see what that means in a few minutes. But first recall those he's at Noah Bernardo encoder is autoencoders. The rest of you can go. Oh, okay. So given a set of data you learn a mapping from X 2 X through a narrow channel of hidden units. All I got on Kotor is doing is reproducing its input on at output. Okay, and remember I talked about all ": [
+            672.2,
+            702.8,
+            9
+        ],
+        "well. But that that's in the paper which I we linked from the programming assignment and pretty sure and yeah, and you can Ignore most of the paper but the that bit is part of the training and they only were only using the type of beer and the rating we're not trying to learn any particular authors reviews, which they do in the paper. Okay, they give a bunch ": [
+            512.1,
+            547.2,
+            5
+        ],
+        "which was a good year for some music. We didn't know better. So we had a logistic hidden layer and logistic outputs and it turns out it's still basically learned the principal components of the data. That is it. It it didn't learn it didn't line up perfectly with the principal components. But each unit here can be thought of as one of the components and its way fechter. Is ": [
+            1066.9,
+            1104.0,
+            17
+        ],
+        "you do if you were a bully. Okay, yeah. multiple player Yeah, so actually I always forget to tell you guys about Dropout but everybody seems to know about it. Anyway drop out is a regular ization procedure invented by Jeff Hinton. Of course, we're for any particular layer of the network. You randomly turn it off say with 50% probability. So only half the units are there. At any ": [
+            1581.5,
+            1628.4,
+            31
+        ],
+        "you've gone too far. Nobody Does that now it was just us. Okay. So here's another clicker question. Inara encoder with more than one hidden layer can learn principal components the input. we're in the underlying data manifold requires a bottleneck layer that's bigger than the Input Dimension is train with cross entropy loss. Okay going going going don't know there's 50 to view 53k stop your neighbor for a ": [
+            2014.3,
+            2072.6,
+            42
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_16.flac",
+    "Full Transcript": "okie dokie Okay gang.  Yo, let's get started. Okay today. I want to talk about Dan's or generative adversarial Networks.  As they're known.  but before I do I want to bring up one thing about the  programming assignment  if you okay  Okay, so if you look at the paper.  What they they do a pre training step which is just learning a language model. It makes the rest of it go faster. So learning a language model just means what we've been talking about all of which is that you  have inputs that correspond to the characters and then your output it corresponds to that the characters.  Let's let's do this one be back. We give it an e.  And it produces an e and then that gets copied back you give it an e?  And it produces are okay. So we get beer. So this pre-training stuff is simply learning the language model and I don't remember from the paper, but I'm pretty sure they just turned it on the reviews.  so that it learns the structure of the language and then went once you've done that then trained it to generate reviews by tacking on the  The auxiliary information which as I said in my post today, there's a unary or one hot encoding of the kind of beer and then they take the rating and they just modify that into some number between minus 1 and 1.  4 - 1 for a 1 review 1 for a 5 review 04 A3 review etcetera.  Okay, so that's the story. Yeah.  I'm saying there's a pre training stuff where you learn the language model.  That's all you do is just predict the next character.  Predict the next character and then what he do.  Predict the next character. Okay. Okay. Yeah.  the characters  Yeah, yeah. Yeah. Well you train review after review after review, basically, yeah.  Yeah.  And then after that at the metadata.  Yeah, and then traded to create that particular review.  What happens if you don't do the screenshot it takes longer.  Probably doesn't probably doesn't work as well. But that that's in the paper which I we linked from the programming assignment and pretty sure and yeah, and you can  Ignore most of the paper but the that bit is part of the training and they only were only using the type of beer and the rating we're not trying to learn any particular authors reviews, which they do in the paper.  Okay, they give  a bunch of characteristics to the networking and ask it to generate a review for a particular beer.  And then they compare that to the author's actual review of that fear and but you don't have to do that. You're just learning to generate reviews given only the rating and the type of gear.  Okay.  And you can print it with the temperature set at 1 you don't have to vary the temperature.  During training just when you're generating.  k  Okay, find any questions about that.  See if that works, okay.  Okay. Okay. I'm sorry. I saw some figures from the Stanford convolutional networks course.  So so far we've heard about supervised learning and that's learning a mapping from some input to some output and unsupervised learning usually mostly in the form of autoencoders, which learn some reduce dimensional and coating of some data.  And let's see who who knows what an otter encounter is.  Who doesn't know what an otter and cutter is?  Okay, I've talked about them a couple of times. Luckily. I've included some slides on them.  So you can get reminded so hands are form of unsupervised learning where you're the model can generate data from a distribution. So it's basically learning the distribution of the data and we'll see what that means in a few minutes. But first recall those he's at Noah Bernardo encoder is autoencoders. The rest of you can go. Oh, okay. So given a set of data you learn a mapping from X 2 X through a narrow channel of hidden units. All I got on Kotor is doing is reproducing its input on at output.  Okay, and remember I talked about all minutes as a kind of temporal autoencoder or language model is a kind of temporal autoencoder because it's doing a little something a little different than a realtor encoder because it's predicting the next character.  If so, here's an auto in powder, it's got an encoder part and a decoder part and you can give it an image. So here's a small image and every blue. Here corresponds to a particular pixel and every blue. Up there corresponds to the same pixel.  So in particular you don't have to label the data because the data is the teacher. So it's a kind of self-organizing network that learns a representation of the data.  And since the top part is the same as the bottom part you can imagine folding it over like that. And now it's it's more obviously a self-organizing network that learns this representation of the data and the  The weights from the images end up looking something like this depending on how you train it. So these are principal components of the data set that this guy came from okay.  Make sense any questions about that.  Okay, so I asked you a question about then.  Just check for understanding.  Okay.  Autoencoder is enough neural networks that has different size and putting up with layers and she usually trained using Square Tara loss is difficult to implement as a larger Central hidden layer than the input.  Sorry, I have to yeah.  I didn't explicitly mention the answer which may  Okay going going.  going  gone. All right. Talk to your neighbor for a minute about this.  You have a 60% chance that your neighbor has the right answer.  Okay, send me you were talking to your neighbors others are Googling.  Okay, let's try again.  Good.  Googling works  Okay going going going.  Gone. All right. What's the answer be? Yeah, so  25% of you initially said a  but that can't be true. If you're trying to reproduce your input on your output the input and output layers have to be the same size.  to be still thought it was a  it can't be see because specifying the targets the targets are given to you. They're the input. So your targets are the input you're trying to make the output the same as the input.  And D is wrong because it usually has a smaller Central hidden layer than the input because you're trying to compress the data. Are you trying to learn something about the distribution of the data?  so  There's so there's a reason why there's the same number here is here cuz you're just trying to reproduce this on the output because this a gray-scale image you'll be training with not cross entropy loss, but squared error loss because it's a regression problem in the sense. You're trying to Simply produce numbers that correspond to the pixels.  Now I'm Paul Monroe died. First did this back in the 80s, which was a good year for some music. We didn't know better. So we had a logistic hidden layer and logistic outputs and it turns out it's still basically learned the principal components of the data. That is it. It it didn't learn it didn't line up perfectly with the principal components. But each unit here can be thought of as one of the components and its way fechter. Is that component vector? And so we're doing the inner product of the input with that weight factor to get its loading on that component.  so again if case you forgotten  Here's my standard example of height and weight of the Martians and those are correlated.  And the first principal component is this guy that I kept that's a vector in the same input spaces the input source got to be awake from every pixel into this guy and and then you can send the component back to Earth and it's a new day. It's a rotation of the space. There's another one going this way, but we could just make do with the first one throw away this component and just send a 1D representation back to Earth which is the projections of these points on to here. So this the new access that explains most of the data and if I  Gave a neural network to input switch or the weight and the height and trained it with one hidden units. It was linear and asked it to reproduce the weight and height than the output. That's exactly what it would do.  Okay.  So we would use a linear hidden layer and a linear output layer.  Okay, and so these are principal components you can think of these as the weights now from the input to one hidden unit. So it's it's it's like the the pictures we created for programming assignment 1 I guess.  Any questions about that?  Okay, so that's a linear.  Network and then David and mirrors and I did a nonlinear neural network. So now these are actually hidden layers with Logistics units again, it was still 1992. We didn't know any better.  And this way we can learn unlearn your representations of the data.  And so suppose you're handed the status at the three-dimensional. So somebody hands you this bunch of data like that. You could have three inputs and three outputs and you ask it to reproduce the input on the output and what we did was we train it with more heading units than we thought we needed.  With three inputs, we sure don't need more than three hidden units and then we would find the guy that had the smallest variability over the data and penalize him to try and reduce his very ability to zero. So we added an extra constrain here to eliminate hidden units that way until  We got to a point where we couldn't really eliminate them and keep the network still working.  So in that way we took this data.  And we didn't train it with I shouldn't this is a little bit of a life. We do again. We started with more than one hitting you and then eliminated them slowly picking on the smallest guy in and trying to shrink its its variants 2-0 so that it wasn't adding anything to the computation. It's just constant over the data set. Okay, so then we got it down to one hidden unit.  And you find out how this the Helix so the principal components of this data. It would have three principal components one going on this way and two more going around the circle. So the PCA cannot reduce the dimensionality of this successfully at all. You'd have to have three principal components to decide it, you know here when taxes through the middle and two more going this way just like this in fact  But the data is really just a line. It's single dimensional data.  Right. It's a curve but it's still one-dimensional.  And so we could then take that one hidden unit and run its you know, just drive the decoding network with these values and it would Trace out this Helix. So it's learn to function that that is encoded the three-dimensional data and a  In a single scalar, so the scalar so here's to you and here's .25 and here's .35 and here's .45 etcetera. So it's it's just running along the the Helix. So that's nonlinear dimensionality reduction and we can think of this as a manifold. So in math we think of the data is lying on a low lower dimensional Subspace a surface. We usually think of it as just a line.  Until this network has discovered that underlying manifold.  How do you choose the one with military buildings? Like how do you measure your music? So you go through the whole data set and you watch like how much what is this guy do over the dataset? You have another guy who watch what he does over the date and the third one?  Yeah, the variance of the output activation variances Poor Man's information, right? So you find the guy who's contributing the least.  And you shrink his various ten20 now the back prop is clever.  And when you try to do that, it blows up the weights from that guy so that it still has the same effect. So we had to actually normalize the the weight vectors to prevent it from doing that. So we had to keep their weight factors at some length and then when we drove that guy down, he really did stop contributing and then run the data through see which is the next Louis guy in terms of how much information they're contributing and start picking on that one.  They always pick on the smallest guy just like you do if you were a bully.  Okay, yeah.  multiple player  Yeah, so actually I always forget to tell you guys about Dropout but everybody seems to know about it. Anyway drop out is a regular ization procedure invented by Jeff Hinton. Of course, we're for any particular layer of the network. You randomly turn it off say with 50% probability. So only half the units are there.  At any one time and you keep doing that randomly on every pattern.  And that forces the units to not be co-dependent. They have to they have to go to CODA meetings and that's co-dependents Anonymous my ex-wife goes to those and so the network can't depend on anyone particular unit being there. So they they have to learn relatively independent features and it's almost like sampling what it is like sampling to to the end different models, but and then at the end so that regular Rises the network. It says it's an alternative to wake 2K.  And you do that at every layer of the network.  And if he do it was an auto encoder and you do it on the input.  Where that is he just turn off some of the inputs. That's call Daddy noising Auto and Coke and coder which  Rummelhart invented, but he didn't know it because that's not what he called it, but now been go takes credit. Anyway, I've been encyclopedia article from long time ago where I used to anyway.  Neener neener neener so dropouts away regularizing a neural network. And usually there's just a switch for it and you can pick a probability of how many units you want to turn off and then at the end he is all of the Hidden units, but you have to scale all the way to buy a half if you do 50% drop out so it still works, right?  Okay. So, what was your question again?  City of Houston for like a single unit  probably if you know, I probably so you're talking about doing drop out where I leave one unit there, right? That's probably wouldn't learn very well. I would guess we gave it a larger space to learn in and then slowly reduce the dimensions of that space like the attack in the three body problem.  For those who've you read that Chinese science fiction. There's anybody who's in the universe is going to want to expand completely. So anytime they detect any intelligent life. They they wipe it out.  And one of the ways they do that is by reducing the dimensionality down to one. So everybody dies cuz they know they're flat.  anyway  so  okay, and then we also did it with faces and and we use 5 hidden units and and got  these are the inputs. These are the outputs noticed 5in. They all look alike. They do reflect somewhat Expressions her mouth is open her mouth is open. Yeah. So this is the control and and Metcalf dataset where we tried to add we ask people to look happy look sad look afraid and  We got the Irish Setter affect, which is this is an Irish Setter. That's Happy.  This is an Irish Setter that sad.  The sniper Irish Setter the suicidal they were not not very good at making facial expressions in response to que like she's surprised anyway, yeah.  The row the top Rose the input the bottom Rose the output.  Yeah, so it's not doing you not doing very well, right? It's not replicating the people very well, but still it's burying something.  so  anyway, really hidden layer now with 5 units in it and I can take a point in that's five dimensional space for one person and another point in the five dimensional space for another person and just linearly interpolate between them and see what the output is.  So here's an example of that so that these guys were in the training set. So there were reproduced pretty well and it morphs between them kind of a crappy morph. But and people do that a lot with cans will see that with Gans to  okay.  How do you spell?  Well, in this case, we we stopped too soon or too too late. Right? I mean it's not doing a very good job of reproducing these.  It's getting some of the features but it's like all the same person.  If you want to look at two things you want to look at the dimensionality the hidden lair in the error at the output when the are the output gets too big you you've gone too far.  Nobody Does that now it was just us.  Okay.  So here's another clicker question.  Inara encoder with more than one hidden layer can learn principal components the input.  we're in the underlying data manifold requires a bottleneck layer that's bigger than the  Input Dimension is train with cross entropy loss.  Okay going going going don't know there's 50 to view 53k stop your neighbor for a minute.  Okay, quiet it down. Let's try again.  some improvement  Yeah.  Okay.  Going going first to the last two are you go going gone? Okay. What's the answer class?  Okay is about single hidden layer networks with linear hidden layer. And when your outfit layer multiple heading layer Network won't do that. It'll learn something better than principal components.  It learns the underlying data manifold.  Yeah, okay any questions about that what?  so  Nobody actually after talking to each other. No one answered these two so I wasn't going to talk about them. But what about the bottleneck thing?  Bottleneck you wanted smaller than the end right also called a wasting Network or an hourglass architecture. Yeah.  Hi what we did back in the day, but he wouldn't do that now convolutional networks are way better.  Yeah. Yeah, I mean there are now convolutional autoencoder s  and they're often used for learning a lower dimensional representation the input.  We didn't know about convolutional networks been invented yet. Okay.  This is an idea. I guess he and had after a conversation in a bar their liking autoencoder except there's no end Kotor. There's only the decoder part.  Dudududu so that's the generator Network and then there's an adversary the discriminator network. And the goal is to develop the generator Network in such a way that it fools the discriminator network. What the discriminator does is.  You give it its unsupervised cuz he just take the data that you have you feed that into the discriminator and the generator Network tries to fool the discriminator into thinking that what it generated is a real image. And so there's that. It's like this game they're playing so  Do you want this generator Network that just starts from some random inputs and is multiple are usually convolutional and generates an image that fools the discriminator.  And so this is the full system me of this generator Network trying to create images that the discriminator network. Thanks are real. So you start by training the discriminator network on real images and made up images.  And it's learns to tell which ones are real and which were fake and then you start to train the generator using feedback from the discriminator. The generator network is trying to create images that make this guy turn on so you're trying to go uphill in the output of this network.  Cuz it's going to put one if it's real and zero if it's fake until you back propagate from here where your goal is to Simply increase the output of this network. So it's just got one output real or fake.  And remarkably it works so you can think of this as a criminal that's counterfeiting bills in this the cop and the cop is trying to differentiate between real bills and counterfeit bills.  And you know, it is actually the the criminals pretty bad at it and the cops and tell right away and then there's this kind of arms race where the counterfeit or gets better and better and fools the cop.  Hey.  So the generator is trained by backprop from the discriminator.  Initially, it's going to generate garbage.  But the discriminator I'll say that's not an image, but the generator is trying to go uphill in that full it and the full it has to learn to generate images. There are lots of problems with this like mode collapse. We're like this just generates one image, but we've managed to overcome that problem right now.  so  This is like a game. So it has a Minimax objective function. Which if you took  150 were maybe. He took 150 might get game playing.  So are you there's adversary so what the  so what the  What this?  Let me go on where I've got some more texts to work from.  Okay, so it stands for expectation with respect to a distribution. So it's the average just think average fee for average.  beverage  And D they died G is the discriminator output.  It's Target is one for real image and zero otherwise.  Smbd that's that's the discriminator should be sorry.  Okay there that's right.  oops  Okay.  So they daddy these are the weights of the discriminator. So the discriminator so what the discriminator outputs is the function of its weights and so that's what we're trying to adjust with this.  and  so for there's another G. Sorry, that should be a d so the output of this guy's the probability that so  You want to maximize this?  when the x is drawn from real data  And you want to maximize this?  When X is drawn from the discriminator or Z in this case, and so this is generating a fake image. If this guy out puts a 0 then that's going to make this as big as possible if this out with your one then you've got the log of 0 but you're not really going to have but anyway, you're trying to make that bigger right making that bigger noticed there another way to think about it is this is the output of the network, but here it's got a minus sign in front of it when it takes as input the output of the generator.  Okay, so that's the discriminator output for real data. And here's the discriminator output for fake data.  Now, I've got it, right they 2g or the parameters that generator say daddy or the parameters of the discriminator.  And the discriminator wants to maximize the subjective. So D of X is close to 1 when it's real and DFG of Z is close to zero fake. Okay.  And the generator is trying to minimize this objective. If it if the generator made fools the discriminator, this is going to be smaller one- that  so it's trying to go down hill in this and there's no generator parameters here. So when the discriminator or the generator is trying to minimize says it only has to pay attention to that term.  Okay, which is going to be the output of the discriminator to its some number between 0 and 1 total logistic output. Yeah.  Which direction are you going to move during gradient if that's cuz like you're minimizing. Don't you want to go down?  I feel ya. The generator is trying to minimize.  And I'd discriminator say Daddy is trying to maximize.  Set my alarm for 5 a.m.  so again, this guy's trying to go uphill in this the the the generator is  I'm sorry, the generator is trying to go downhill. The discriminator is trying to go up hills. So you just a difference in the sign.  But it's wonderful that we have to neural net.  we've got  one neuron that that's trying to create images and one neuron that that's trying to discriminate between real and fake ones. So the goal of the generator is to fool the discriminate.  the reason  the main function to  It's the opposite so you can tell because this says a little G4 generator, so it's trying to minimize and it says the D for discriminator. That's trying to maximum.  So again, the generators parameters are only in the second term. So it's trying to make the discriminator. It's it's trying to make the discriminators output close to one which one- that'll be small.  So it's trying to go uphill in this.  Okay.  So the actual training alternates between the two, yeah.  I read past from the discriminator solar generator only generates picture that can fool us.  So yeah, it's possible that this could go wrong and it's they are very hard to train. Although there's all website with hints on how to get these to work and there's a link to it in this set of slides.  So again mode collapses when the generator like just generates one image, but then the discriminator can easily say oh that's the generators and mention can figure it out. So if the discriminator gets way ahead of the generator, the generator doesn't get any useful in back prop error.  because it's already at almost 1 and  Yeah, but your use cross entropy loss that helps but it's still not getting enough feedback. It's weird. It's it's like it's getting feedback from a single output. You would think it would need more than that.  Somehow yeah.  Did to do something, but you don't eat too much.  So unfortunately, the generator objective function here doesn't work very well.  And I'll show you a graph of that in the moment. So you're trying to minimize this but you could also like takeout this and try and maximise that that's what actually works better.  So this is a little confusing but this is the output of the discriminator. So if it's 1  That's the that's it's go for outputting for real data. If it's zero, that's its goal for fake data for fake data. And this is the plot of its loss function over what the discriminator does and their what's bad about this is that it's really so this is the gradient right that it's getting and it's big when it has it's generating good images, but if it's generating bad images, it's really low this the slope is low.  And so if you replace it with maximizing the output of the discriminator, which would you know make the discriminator think it's real the same plot is very different now, so here it's steep for bad example. So it's it's got a good gradient for going uphill trying to make the discriminator output positive or one.  Okay.  So that's that this is the objective function that most people use now.  So training gun prestige by you give the generator some random noise.  input which leads to junk is output repeat that k x  Take a real samples from the training set. Now. I'm not training the generator here. I'm just using it with initial random weights to generate crap. And then you take like a real examples and you train the discriminator to discriminate real from fake and you probably don't want to train it a lot. He just wanted to get it mostly right? Yeah.  Probably I would say so.  I need to be big enough that it can represent the whole.  the distribution  okay, now give the generator random noise input repeat k x  train on the generator objective function holding the discriminator fixed  Okay, and then rinse and repeat.  This is so true. This used to be the the  Standard instructions on shampoo your supposed to wash your hair twice for some reason. I don't think they asked that anymore.  So again, it's it's still tricky to optimize giving little feedback.  But recent work is mostly fixed this.  Yeah, it's just I mean, you know, it's the same as what you already do your averaging over the batch the mini batch, right?  That's what he means the average.  So here's a kind of abstract view of what you're trying to do.  So this black this is  A cartoon is supposed to be the real distribution of the data and we're just pretending year. It's a gaussian.  the green line  Is what the generator generates so it's some other gaussian way over here. This is the output of the discriminator the blue one till wants to be on over here and off over here.  Right. So starting from Z. You're generating stuff that's over here not where the real data is.  Okay.  Then as training goes on the generator or sorry the discriminator learns a nice smooth Dark Earth.  Okay, not much has happened yet.  And then the generator starts to learn so it starts moving its output closer to the real distribution.  And this guy is getting a harder task now. It's got to separate these overlapping distributions and the end goal is that  The generator generate state are from the same distribution that the real data comes from. And now what is the discriminator do it? Just outputs .5 all the time.  Cuz it's been fool. That has no idea. What's right and what's wrong?  Okay, so that's the kind of equilibrium point of this training that make sense.  Yeah, no.  Yeah, yeah.  Why would you want to give the generator up to take turns training today?  How else are you going to do it?  Yeah doing online version.  Well, so what the discriminant after the discriminator is been trained?  It's fixed, right and after it's been trained once and now the generator is generating stuff and it gets a consistent signal back. If you change them both at the same time. I don't think that you know, you're going to get one response for your stuff this time and a different response. The next time the discriminator isn't being consistent.  It it's got a flat output. It's saying 0 all the time and the the gradient is going to be small.  It's not going to tell you very much.  So these are the original results from I think the 2014 paper where?  These guys are generated by the generator.  And these are the closest guys in the in the training set so you can see they're not exactly the same like that smaller than that.  So it's generating novel outputs things that are not in the training set.  Okay.  It hasn't just memorize the data.  oops  Here is trained on the Toronto face database. This is generated by the generator. This is the closest stuff in the training set to these you can see they're very different.  And this is pretty crappy.  But it was 2014 time is passed.  here it is trained on Seaford little tiny 32 by 32 images and it's not doing very well on that but it did generate a ship over there and a horse over here and you know, so it's not doing terribly  Okay, how about 2016? Okay. I was got a convolutional again. This is from I clear 2016. That's the International Conference on learning representations the Deep learning conference.  Okay, here it is.  generating pictures of rooms  Bedrooms, so you have two usually they traded on one category of things like cures bedrooms and it's doing pretty well. I mean this look real from a distance. Anyway, I mean if you get up close so you can kind of see weird stuff but geez, that's that's pretty cool.  Okay. Now here's 2017. This is Alaskan by Chairman Mao and Al and here's one that's been trained on churches dying rooms. Look at those chairs are pretty detailed and they do look like they told you up.  Although that one doesn't have a leg there churches Outdoors kitchens conference rooms cetera.  So it's pretty good getting better.  And then this is generating faces with began.  These are looking really good and these are not real people.  Okay.  And then here's cycle again. So it's cycle again does and and this is also and supervise its really  interesting how you train the scan to generate things in one domain and then  You have a reverse can that tries from that other domain to generate stuff back? So you've got a  This this guy is trying to create you start with a horse. You try and create a zebra. So you've got a discriminator over here that sang horse vs. Zebra, and then you take that zebra and try and generate the original image again until you can map between domain so.  horse to zebra zebra horse  apples and oranges oranges and apples  But my favorite is this bad case word failed.  Okay.  Okay, so yams are multiplying these are the names of all currently named Gans.  Darcy that again  Okay, here's the cumulative number of Gann papers per month.  So it only goes up cuz it's cumulative and rough to 510 part way through 2018.  The first paper was 2014. So that's one.  And then there were two and there were three and then there were five new so I computed the slope between here and here and it comes out to a 4.3 papers a week and and it's not as steep there as it is over here. So it's pretty amazing.  It's just impossible. Well, it's not impossible. It's very difficult to keep up with began literature.  So here's some of the most recent stuff for my clear 2018. That's this year. She didn't notice the school demo.  Where's School demo? Here we go.  The way they do have sound shoot and didn't see.  Can I get sound?  Or maybe there isn't sound I guess there isn't sound you.  No, I haven't played it yet.  Okay.  So by the way, this is Progressive training against the way they did. This is they started having it generate low-resolution images then they added another layer.  To make them somewhat higher resolution and finally higher resolution. So  Here's some people. I think I was trained on celeb a witch.  Kind of ironically as a lot of b list celebrities in it.  So these are generated images by the Gann.  and  yeah.  pretty cool  So yeah.  So this is overtraining.  This is I believe this is each one is starting from a different random point in the input.  And this is how that random Point changes over time as it learns.  Okay.  Okay. So now like I did with our little Network you can take two points and you can just move through the space.  So these are tall probably points. It would have generated cuz you know, it might be completely new ones.  Yeah that something weird there happened.  You are as part of his head.  Bro, what happened there?  Yeah, so you can see that some of these coins not every point in the space is a real face. Some of them have weird features.  Like that, that wasn't a real face.  But they're pretty damn good.  So this is from Elsa and  categories  short pretty amazing the detail. I mean this these labels don't really say anything but  And that cat looks kind of weird that cat doesn't seem to have a mouth.  That is not a dog.  But they're pretty damn good.  Just amazing.  Generated the Leaning Tower of Pisa.  And there's a kind of short Eiffel Tower.  Okay.  Okay, what if we interpolate between objects?  Same faces are a much more homogeneous class, right? We all look alike. We have two eyes and nose and mouth and two ears but here when you're switching between objects really different.  This could be good for a science fiction movie. I'm sure.  Okay.  All right, we had enough fun yet.  I know you want to keep watching. Okay. Well it goes on for how much longer.  another minute  Okay.  Now, I'm pretty sure I don't know for sure, but I'm pretty sure those.  those were conditional Gans or  Okay, so these are real people and you can tell they're not a list celebrities even though it's Celebi.  Okay, so  lots and lots of images  the train  Okay.  Okay, so cool demo, huh? Okay.  So generative adversarial networks were invented by Ian Goodfellow Ian Goodfellow. Sorry.  And it's completely unsupervised. You don't have to pick labels for anything. You just show it a lot of images and they are tricky to train, but your methods are coming out all the time.  And by the way, I wanted to point out.  This at the bottom of this image is a website can hacks for training giving lots of tips for training Gans forgot to point that out.  and  so they can only generate data but they can transform it so you can take some data and make it into something different.  So some additional slides.  Additional sides and that's it.  Now that we've got eight minutes.  You could ask questions or I could start another lecture and finish it later or you or you could we could all go home?  Yeah.  Yeah, and I called that mode collapse.  Or like even like maybe generate more like more usual images.  Okay, wait. Sorry. I'm not clear on what you're saying.  Special edition of maybe about your problem where is generating? Like I never  You can ask me so I haven't worked with Ganz very much, but you can for example try and maximize the entropy of the output.  Overtime and that's me.  thinking on my feet  So entropy is like variance, right? So you can try and maximise the variance across the images as part of your training regimen. Yeah.  So ask about the additional rent.  show the picture of the  why don't  Oh, you mean random number generators random numbers that are the same size as the image  Well, that's too big.  If you take all possible, even if you think about binary images, right if you have a 64 by 64 binary image, that's 4096 pixels. You could pick 0 or 1 for the first pixel x 0 or 1 for II 1001 for the third so 2 * 2. * so even if binary 64 by 64 image has two to the 64th possible images many of them won't look like anyting most of them won't look like anything. He'll be white noise. And so that's why we believe there's a lower dimensional manifold that these things live on right. So with the spiral it lives on a on a single  Line, but faces face space, there's kind of a manifold two faces that we were traversing there with again. I know you're talking about the crew training stuff like going to be today.  Yeah. Yeah, I suppose you may as well.  I don't know.  Yeah, okay.  All right. Well, have a good Thanksgiving.  If you don't have any place to go for Thanksgiving, what we used to do in grad school is having orphans dinner where we would do a potluck get together with your friends have a potluck.  See you next week. "
+}

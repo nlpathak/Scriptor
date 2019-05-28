@@ -1,0 +1,586 @@
+{
+    "Blurbs": {
+        "Hey, so we have six hidden units shown here. and what is unit one? That is the upper right one in coding. So here's the family trees and what? What feature is that one in coding? Yeah, so this is the British unit it turns on if they're British. That's a useful feature. That means you only want to turn on the British at the output because British and Italian ": [
+            2614.0,
+            2654.5,
+            65
+        ],
+        "I've got in that batch, you know, probably all the digits in 10 examples are 12 examples of each and so I've got a kind of Representative subset of the data and I'll get a pretty good estimate of which way is downhill. It's still called stochastic gradient descent because you're not going down the true gradient depending on which examples you picked. You'll go a little bit different directions ": [
+            4274.2,
+            4305.0,
+            104
+        ],
+        "It tends to get better Solutions because of the stochastic City you're changing weights based on some examples and your you can get around some of these local Minima that way to remember we have we don't have just a bowl anymore. Now, we've got local Minima because the error surface is no longer just to Bullhead. It's all weirdly shaped because of these hidden units. and another thing is ": [
+            4082.7,
+            4118.0,
+            99
+        ],
+        "Okay, that's good started. Just a reminder. Yo, just a reminder of where we got to last time we were talking about. Multiple layer neural networks. And how which is what your programming assignment is about and how you give an input. You got an output and then you back propagate the error through the network and then update the weight. And I briefly talked about forward propagation. Cuz sometimes ": [
+            46.5,
+            104.8,
+            0
+        ],
+        "PhD students. girlfriend now wife and so you can do these kind of poor man's more swear. You're just like this is like 40% of these pixels plus 60% of those pixels. So it's not a real morphe. But it's it's a little bit fun. Okay. Sorry. That was the fun part. Okay. so now we're going to leave back prop and and I'm going to use I guess the ": [
+            3307.9,
+            3361.6,
+            81
+        ],
+        "So Mnist, what you're working on now has 60,000 training examples of 10 digits. So you're going to see every digit lots and lots of times before you get through the whole training set. so it seems like a huge waste of time to go through 60000 examples and add up all the way changes and after you've processed 60,000 example changed the weights once what a waste because by ": [
+            4005.3,
+            4042.5,
+            97
+        ],
+        "Stone in Marion the story Okay, so that's the the nationality unit or the British unit. So it did picks out this family tree. Hey, which is useful because the answer is going to come from this family tree. Okay. How about hitting unit 2? so here is hidden unit 2 it corresponds to Christopher Andrew being on and Etc. What do you think? That one's encoding. Wow, that was ": [
+            2654.5,
+            2701.7,
+            66
+        ],
+        "That's going to pick out pairs of people. And other combinations of these units will pick out different parts of the tree that makes a lot of sense, I think. And then these are the relationship unit. So what is this one in code? Gender turns on for Aunt niece sister and wife daughter mother. Okay, so so the gender is going to be picked out by that unit. So ": [
+            2842.1,
+            2882.0,
+            70
+        ],
+        "We don't have a lot of you know Wizards or phones. There's a Nashville TN but it becomes a z. right Okay. Okay, fine. any questions One more. Yeah. with the unit this is distance in some space. So I guess you know probably normalized in some way. So things up here far apart things down here really close. So here is B2B in P2P, for example? BNP are very ": [
+            2280.6,
+            2335.6,
+            57
+        ],
+        "When I trained in that work to recognize facial expressions, I didn't know what features it should learn it had to figure it out. Which we're going to see next. so I'm going to give a demo this is downloadable from my website I showed you this one before I think right we're just learns to separate these two things. You saw that one and when I had their learning ": [
+            2916.3,
+            2951.9,
+            72
+        ],
+        "a Delta for these guys. And if there's guys below here, they're also neural network units and not the input then I propagate these back. And then if there's more I keep propagating. Those back so in a deep Network, we're propagating the Deltas a long way from the output back to nearly the input. And so this makes sense intuitively believe it or not. So if You have a ": [
+            675.2,
+            714.3,
+            16
+        ],
+        "a torn. 27 units here with blank turned on 27 units here with C turned on a and t okay, so it's not like actually looking at the image. We're just giving it an input where it's already seen the the input and learned overnight on a vax which is an old supercommittee supercomputer. We used to call it. We are happy to have it. It's probably not as powerful ": [
+            1264.6,
+            1298.4,
+            31
+        ],
+        "anybody else except people. I'm directly connected to okay, and the cool thing about this is if we Define delta is The derivative of Jay with respect to the net inputs of the units and this is just Delta for all those guys. I'm connected to 3 to find it that way. And again, this is the picture to have in your mind. Here. I am I'm the input on ": [
+            356.4,
+            392.3,
+            7
+        ],
+        "as your phone now and business weeks that it's learned the abilities of a six-year-old child overnights are there was a lot of hype but this is the only neural-net so far that's been on the Today Show twice. Cuz Terry knew somebody who was a producer on that and what it does is map time into space. So let's let's see what I mean by that again. Here's all ": [
+            1298.4,
+            1330.7,
+            32
+        ],
+        "back crop learning internal representation, so they yeah. Yeah, so it's all of the Hidden units basically run the network backwards. So this input comes in it activates the hidden units different amounts. And then you use that amount to * * the weights and had that up to get an image out of it. So it's like each unit is going to have some features. It's responding to and ": [
+            3842.5,
+            3881.0,
+            93
+        ],
+        "back to however far they go and then change the weight. Okay. any questions Okay. So again one thing that's different about this than your previous assignments is now I need random initial weight. It's not zero weights and we'll talk a little later about why zero weights doesn't work. We need Randomness to break up some symmetry problem, but And in the next lecture, assuming a get that far ": [
+            885.3,
+            938.8,
+            22
+        ],
+        "back to that momentarily. So what is Natok Natok a neural network that learns to read aloud from text now? It doesn't really read from text. What we do is we have localist inputs. That is one year one hot encoding of a through z and space and probably some other punctuation and to have the network read a cat you would have, you know, like 27 units here with ": [
+            1227.0,
+            1264.6,
+            30
+        ],
+        "be that. okay, and so from there we we drive back prop. So that that one is just CI. Thank you those either cut that. and then we have that other one. okay, and okay. So this is the derivation of backdrop for the hidden units. So we're trying to compute what Delta is and for some arbitrary unit in the middle of the network. We have to think about ": [
+            271.3,
+            322.8,
+            5
+        ],
+        "big error, and I have a big weight to you that I probably had something to do with it, and I need to change what I'm doing. So I'll get a big Delta. My Delta will be increased a lot if I have a big weight to the next guy up and he has a big Delta. If he has a big Delta and I have a small way to ": [
+            714.3,
+            736.8,
+            17
+        ],
+        "but they figured those out as well as they could. And so that's the training Corpus and then they turn it on this and then they turn the page and test it on the next page. okay, so this is what it sounds like when it's just learning by Terry sinofsky and Charles Rosenberg learning Corpus taken from Carteret and Jones informal speech first grade transcription. The First Recording represents ": [
+            1504.0,
+            1548.3,
+            38
+        ],
+        "by that The gradient is first-order. It's like which way is downhill. Conjugate sorry bfgs takes into account the curvature around the slope so that the curvature is second-order. And so these things can find the minimum very quickly. They tend to get very large weights, but you have to go through the whole training set which is Impractical like Facebook has billions of pictures of faces. It would be ": [
+            4204.1,
+            4238.5,
+            102
+        ],
+        "called spinal tap and their drummer always gets electrocuted or whatever and every concert but the guy has a nap and he says they're really dumb guys and the guy has a nap and he said most people say it's just go up to 10 mine goes up to 11. Okay, so, okay. So anyway, so Terry and Charlie Rosenberg got this book that has a transcript of what some ": [
+            1436.3,
+            1473.3,
+            36
+        ],
+        "chaotic time series are deterministic. But if you make a little change of one point, it makes a big change later on that's what chaos is and So we had this system where we would actually pick the example with the greatest error and trained on that. Then we'd pick the next example of the greatest Aaron train on those two examples. And so we just picked the examples with ": [
+            4428.3,
+            4460.1,
+            108
+        ],
+        "classes in your mini batch and one possible. He ristic is as I just mentioned pick ones with more are more often but used with caution because there's a lot of reasons why that example might be hard might be an error in the training set the mislabeled example, and that's why it's hard that crap is really good at finding mislabeled examples in the training set by putting a ": [
+            4613.6,
+            4645.4,
+            114
+        ],
+        "complicated Network and we talked about Edition. So now we're going to have more more fun and talk about nettalk. So this means I need to. iTunes and okay, most of its Rock but there is where is technical traditional technical? Natok demonstration of network learning. Okay, so that was Terry Sandusky talking but I could barely hear him. I hope so. I have to be quiet but let's come ": [
+            1172.1,
+            1227.0,
+            29
+        ],
+        "consonants are in some places in the soft consonants and others and over here. There's a e i o u and sometimes y and so you get a similarity structure over the inputs or over the mappings in this case. how the network kind of organizes that internal representational space That makes sense. Yeah, is that a question? No. What's our Mantra back propped learns representations in the service of ": [
+            2164.9,
+            2206.5,
+            54
+        ],
+        "dimensional space and it's gotten this much of this one that much of that one that much of that one Etc. She can see the sliders very well. if I move these You know, it changes her face. Write in a few zero all of them. You get the average face. In this state of set and then you can if you do that, then you can have fun kind ": [
+            3150.4,
+            3185.9,
+            77
+        ],
+        "down hill. Okay. So so using a mini batches, what is done by everyone now? and again, you take these examples and you change the way it's once and then you get another batch of 128 say this can be usually very efficient a GPU so When Computing the gradient I have to take these hundred and twenty-eight examples and go fuc with all of them at once with exactly ": [
+            4305.0,
+            4346.7,
+            105
+        ],
+        "fast generation. It turns on for Christopher and Penelope notice. It's symmetric between the Italians and the British once I figured out who's who this one's kind of an Italian unit. Not quite as strong. Now this says, okay. It's going to turn on for Christopher Andrew and Penelope and Christine. And turn way off for Colin. And we're off for Charlotte. So it's height in the tree. 2 pics ": [
+            2701.7,
+            2739.5,
+            67
+        ],
+        "find my desktop. There it is. Jay Cooke by the way is like 80 11 years old all these lives on my street and he owned a car that Grace Hopper Road in But she recently sold. Austin-Healey Okay. Okay, let's do Cafe 40. That's better. Okay. So the first thing so just said demo of face processing we're going to train a neural network to recognize facial expressions and ": [
+            3018.3,
+            3070.5,
+            74
+        ],
+        "find something down here Roberto married Maria and had Emilio and Luchia Emilio married Gina with GMA married Marco, etcetera. Okay, so every every Every family has a boy and a girl in this weird family tree. So the top one is the British. The bottom one is Italians. Okay. Did you if you ask me already? Okay, here's the network. It was a deep Network took a very long ": [
+            2425.1,
+            2467.9,
+            60
+        ],
+        "for the hidden unit. So people on Piazza ask this question like why is it always that well, that's what it is sex. I don't know what else to tell you. That's the way the math comes out. And so this is a recursive definition of delta you computer that the output units and then you propagated backwards through the network and you keep doing that. So now I've got ": [
+            642.2,
+            675.2,
+            15
+        ],
+        "for you know, owed you and stuff like that. And then I do the cluster analysis and it tells me kind of how the network breaks up the world. And it breaks it up and do naturally things that a linguist would appreciate vowels and consonants and puts, you know hard consonants together. Yeah. this guy it's hard to read but I think it's a stiiizy which is very infrequent. ": [
+            2236.9,
+            2279.4,
+            56
+        ],
+        "got 40 inputs instead of 100 times of 130 and you found out in your programming assignment how bad that could be right you have 90,000 some pixel inputs with PCA. I could have given you much smaller dimensional inputs. Tell again these are this is like an axis and this is where on that access this Falls basically project that face under this and you find out what its ": [
+            3214.6,
+            3250.6,
+            79
+        ],
+        "have high entropy in your batch so that you get a lot of different in a lot of information form each example. I don't know. I don't know who's done work on this, but you could try it look and see. Okay, I mean the main thing is you want to shuffle the examples and you know, if you have a big enough if you have 60,000 examples, you probably ": [
+            4518.9,
+            4547.4,
+            111
+        ],
+        "here. You're going to have to go through a derivative of this guy to get to him. So that's why you can't get rid of the slope of the Hidden units. And so I just replace that with Delta k That's the definition of delta. It's got a minus sign in front of it. and then how does the How does I'm doing a chain rule, so to figure out ": [
+            426.9,
+            460.7,
+            9
+        ],
+        "hidden unit and see what the representation kind of get the internal representation of the face, so She is angry. And that's the internal representation of anger by the network. So this should look somewhat familiar. Maybe a little different than what you guys found discussed. Surprise Setter k do to do so that's that's kind of fun and now So, okay, so I did emotions and we all did ": [
+            3443.8,
+            3485.9,
+            84
+        ],
+        "him than I had less to do with it. I don't I'm not as worried or if he has a smaller and I have a big way to him. I don't care as much but it changes my Delta a little bit if he has a small air and I have a small waist and I don't give a shit. Okay? Okay, so that makes intuitive sense. Does that make ": [
+            736.8,
+            759.9,
+            18
+        ],
+        "how it changes the guys it's connected to how they are changes compared to the for the guys that's connected to and how their input. How the Earth changes is there input changes and how their input changes as my output changes notice. This will be zero for anybody, you know. Upstream or whatever you want to call it of this unit. Cuz my activation my net input doesn't affect ": [
+            322.8,
+            356.4,
+            6
+        ],
+        "identities and gender. And the first thing we did though was something called principal components analysis, which is a way to reduce dimensionality. So these images are like a hundred by 130 and this particular data set is got the first 40 principal component which are kind of a A underlying like dimension for each face. So this is like how much of this slider here has how much of ": [
+            3070.5,
+            3113.5,
+            75
+        ],
+        "if it's .1 you multiply 1 times the weights get pixels out of that and then well principal components with you then. and turn into one of these things and then can you add those up for all the hidden units? One paragraph Queen take average overall to or is just a weighted sum of all of them. exactly Okay. Alright, so tricks of the trade in the remaining 15 ": [
+            3881.0,
+            3925.7,
+            94
+        ],
+        "if the training examples start to change like you guys have new things to say compared to what I used to say write and say cool far out and you guys say something else like having SEC is over now, right but Anyway, okay. Right on Brothers & Sisters of the Revolution, okay. And you can use this for very large datasets that you can't keep in memory cuz it's ": [
+            4118.0,
+            4162.9,
+            100
+        ],
+        "impractical to do that on those. Okay. So why many Bachelor name which is part of your homework, you're going to be doing many batches. So what's this the compromise between online learning where you change the weight for every example and Bash learning where you change the weights after seeing all the examples instead you got a good-sized salad example say 128 to pick a random number and now ": [
+            4238.5,
+            4274.2,
+            103
+        ],
+        "in the service of the tasks. So what we're going to look at next. Is 6 hidden units that sat above these 24 people down here and later. We're going to look at 6 hidden units above these relationship units here. So this is called a hidden diagram. After Jeff Hinton surprisingly enough along the top or all the British and the second row corresponds to the corresponding Italian. A ": [
+            2542.0,
+            2580.6,
+            63
+        ],
+        "in your bed and takes out your ear plugs when you're trying to sleep. Okay, any questions about that? Okay. I hope there's one. Yeah. What? Yes. Yeah a classification problem. So again Here's the network. So again, you're you're the job of the network is in a sense of classification problem because it has to turn on the right phone the correct phonemic the output out of the 40 ": [
+            1935.6,
+            1990.8,
+            47
+        ],
+        "intuitive sense to you? Okay. That if this guy's a hidden unit. So so what do you want to know about him if he's a hidden unit? Yeah, okay. So it's it's exactly the same as this. Except you know, I've got J's up here instead of case. I mean Yeah, so the Delta here will be most played X this and added into this guy's Delta in the same ": [
+            759.9,
+            810.6,
+            19
+        ],
+        "is. So you take the two closest ones usually in euclidean distance and you average them together and you draw a little bit of tree. So you put that one there in that one there and you put a little line between him and now I take the next two closest ones and do the same thing in the same thing. And eventually I get a binder I get down ": [
+            2110.0,
+            2135.9,
+            52
+        ],
+        "it's not and you can look at the weights and try and figure out what it's doing. But another idea is to take the activations. All these hidden units for every input output mapping like this is C going to cut and if there are other sea going to cuz you take the activation of the Hidden units in the average all those together. So there's just a finite number ": [
+            2050.5,
+            2077.9,
+            50
+        ],
+        "just need to shuffle once right. He just want to make sure you're not getting yours a one one one one one one one one one and you get a hundred and twenty-eight ones in your mini batch. What's going to happen? What's it going to do? It's going to be these want what sorry. Not exactly. I mean, it's telling you selling Network turn on the one unit. Turn ": [
+            4547.4,
+            4584.1,
+            112
+        ],
+        "just something I can turn in my family. He won't stop them and I created nightmare factory in La Porte 8-ball. Just take 2 minutes to get to sleep. If you're just a baby don't come on. Okay, so it's not great. But you know, we've come a long way since 1987 or so and it's a six-year-old. So that's why the baby comes out of the crib and crawls ": [
+            1869.4,
+            1935.6,
+            46
+        ],
+        "lot of hair on them. Maybe you need to learn something about the easy examples before he learned the hard examples, but it can improve performance on infrequent examples like and now we get back to that talk. Okay. and the next thing is PCA the input so will say that for next time cuz Okay. ": [
+            4645.4,
+            4675.0,
+            115
+        ],
+        "me in a changes. So if this is the next layer up is an output. This is just T minus y usually and then X to wait I'm connected to them by. Okay. And let me see if I've got. Yes, and so that the final learning will for the hidden units. Well the learning room for everybody. Is that right? But for the output units Delta is just T ": [
+            577.2,
+            613.0,
+            13
+        ],
+        "minus y if James and output unit, we have the right combination of objective function and activation function that doesn't have to be team run this way as we saw if you use the wrong objective function squared error with logistic output to get a slope term in here, which is too bad. But later we figured out we should optimize something else. And then this is always the Delta ": [
+            613.0,
+            642.2,
+            14
+        ],
+        "minute. Well, it could be the same activation functions to be a different one. But usually they're the same in in the hidden layers of teeth Network. Okay, so you just keep doing that. Now as I said in last lecture in the first iteration of Russell, norvig the best AI book on the planet, which is now in space they got this wrong in that given the Deltas up ": [
+            810.6,
+            853.6,
+            20
+        ],
+        "minutes will start doing some of these so there is at the like V paper from the bottom of the resources page under readings is laocoon tricks of the trade. So this is from a a chapter in a book called tricks to the trade the name of the chapters efficient back prop and it's from a while ago. And so some of these tricks are a bit outdated at ": [
+            3925.7,
+            3955.3,
+            95
+        ],
+        "notice what's going on in the right hand side here. What's happening? they're very much very similar to one another because it's trying to learn his identity now, so it's not changing very much from one picture to the next until You got this somebody else. Okay. You guys didn't do this. I don't think of Step through these bed. This is got hidden unit. So it's the hidden unit ": [
+            3534.6,
+            3585.3,
+            86
+        ],
+        "of nerd Fun by trying to find that face find this face spray, you know. Well, I know this one's down and this one's up cuz I just saw it. So and then like how do I how do I set these to get her? So anyway, the point is these numbers that is where on the slider you are can there be input to my network? And I've only ": [
+            3185.9,
+            3214.6,
+            78
+        ],
+        "of the four 4X door and this guy catches the case where Actor is different from or that is when both inputs are on and turns off the output and just that case. Okay. But because you have different initial random weights, you can get lots of different solutions this problem some of which might surprise you. Okay. and we did this already. What was the answer? Okay, we did ": [
+            1004.7,
+            1048.1,
+            25
+        ],
+        "of these mappings from letters to sound right? That's what we do when we read aloud from text. And so you get you know, Kay different ones of these three have 70 say activations a vector of length 70 for every input output napping and then what you do a hierarchical clustering analysis, so who knows what that is? Crab, you're going to learn something today. You know what it ": [
+            2077.9,
+            2110.0,
+            51
+        ],
+        "okay. initializing 08 Oh, he's wrong. That's the difference between the person who actually did the work Charlie Rosenberg and the person who supervised to work and got their name as first author Terry Sadowski. Terry is at the Salk Institute here, by the way, and he's also got associated with a bunch of departments on campus. Yeah. Why are you look at the error? Right and you you have ": [
+            1624.8,
+            1669.0,
+            41
+        ],
+        "on the one unit turn on the it can solve that very quickly by cranking up the bias on the one output. Not learn anything about the input then supposed to get all too. So I will just turn that bias down in the to buy a ShopRite and doesn't need to learn anything. So you really need different examples and sequences. Sorry, so you really want examples from different ": [
+            4584.1,
+            4613.6,
+            113
+        ],
+        "online essentially. Why Bachelor dating? Well the mathematicians over in the math department that do the two function optimization have a very good understanding of how these things converge when you take the true gradient. There are lots of good optimization techniques conjugate gradient bfgs, etcetera. These taken to conjugate gradient is kind of a one and a half order technique bfgs is a second-order technique and what I mean ": [
+            4162.9,
+            4204.1,
+            101
+        ],
+        "optimize a softmax or your got a logistic or their various other things we could be doing and all I need is the Delta for the if I'm the layer just before the outputs. I just need the Delta for those guys and I don't care what I'm optimizing. Except I need how that thing. I'm trying to optimize is how that changes as being put to that out put ": [
+            542.7,
+            577.2,
+            12
+        ],
+        "or the logistic or linear. If you're doing regression you want linear outputs, you're doing classification. You want LogistiCare softmax, and then it was there any questions about that? I hope not at this point and then we started talking about gradient descent. And we just plugged in played. so so the first thing we always do here is break this into the gradient with respect to the weights break ": [
+            144.0,
+            189.4,
+            2
+        ],
+        "other cool thing is it generalized has to recurrent Networks. Okay, so last time. We started talking about some of the things back prop has learned. And again, your Mantra is back prop learns representations in the service of the tasks. So when you're meditating, that's your Mantra, okay? So we talked about EXO early this simple Network that does xor we talked about. Symmetry and this is somewhat more ": [
+            1132.0,
+            1172.1,
+            28
+        ],
+        "out those guys Okay. How about unit 6? What unit 6 sets this guy? Turns on for Chris dimmer. any ideas children Christopher is a father grandfather actually. designer what? I'm sorry. I really am going to get a hearing aid by the end of this quarter. But what? Siblings in law. Yeah. Side of the family hits the side of the tree. It's which side of the aisle you ": [
+            2739.5,
+            2800.5,
+            68
+        ],
+        "perceptron or logistic regression for softmax regression that part becomes the input on that line. And then by analogy this becomes the Delta were the negative of it does depending on Whose book you're reading. You got it both ways sew-in in the Delta rule. We had T T minus y which turns out to be this and then we have the input on that line, which turns out to ": [
+            232.1,
+            271.3,
+            4
+        ],
+        "principal component is. Okay, so this so you can have fun with this, you know a good that's somebody a happy guy. Okay anyway, and and then you can do kind of poor man's Morse. these These are Oops, I was supposed to. have to load the PCA projections again, but there she is again. And here's somebody else. That's my that's a meow I should say. She was my ": [
+            3250.6,
+            3307.9,
+            80
+        ],
+        "propped using Matrix X so I don't know if what's the latest on that back in the day Mark blue towsky my PhD student in Hell wife and I had a couple of papers on learning Maki glass from 25 examples plus or minus 2 and the idea what America glasses a Time series that models your heart beats. And so it's one of these chaotic time series and so ": [
+            4377.6,
+            4428.3,
+            107
+        ],
+        "rate too high, the green line went away and Etc that sound familiar. Hey buddy, knots 4C. That's okay. So let's go here. and so the first thing we did let's use California facial expressions. Oh wait, that's not what I want. Bow, okay. All right. Let's quit on a Matlab and start over is currently the screens been screwed up by somebody else. Okay. Sorry. Pikachu, okay. Going to ": [
+            2951.9,
+            3018.3,
+            73
+        ],
+        "representation. We can try and do this with fewer hidden units. So I just reduce them to 5 and still does really well and now they will with fewer resources the network will learn even more. fix representations of everybody because it doesn't have Any resources to reflect these changes in the input that really doesn't need to reflect anyway. and now I think you might have noticed before that ": [
+            3585.3,
+            3627.2,
+            87
+        ],
+        "same data set. So I just read in the 40 principal components for all the images in this little data set. Wait this the days that you guys had right? yeah, okay, so it's got it figured out how I've got 40 input units got any patterns sounds familiar and 10 hidden unit and now I'm going to load the targets and then go for Cafe I have to go ": [
+            3361.6,
+            3397.1,
+            82
+        ],
+        "second recording after 10,000 training words. You mean of 9 and blown or something when we walk home from school? I want to whip you friends on sometimes me and friend zone from school. Now. Time she wants to run she gets very bizarre stuff. That's why we can't run. I like to go to my grandmother's will Kakashi games on Andy will be there sometime. Sometimes we sleep over ": [
+            1756.1,
+            1798.4,
+            43
+        ],
+        "series and then you're trying to predict the next point. And so if you keep picking examples based on that and we could learn the whole thing from 25 examples. And so that was a that's not a great idea again if you have a lot of noise, but that's that's what we did and it seems like you would want to pick diverse examples. So maybe you want to ": [
+            4488.3,
+            4518.9,
+            110
+        ],
+        "similar to one another the only difference between them is voicing. So if you hold your throat and you go bbbbbbb. riot Baby, v v v v v v pppp the only differences with your voice and you're vibrating your vocal cords before you open your mouth and with PR knot. So they're very similar sounds. Yeah, I've also over here and consonants over here. Yeah, and there is like ": [
+            2335.6,
+            2378.1,
+            58
+        ],
+        "sit on at the wedding. Right, you know this is once it's turning on for these guys and turning off for these guys. What? Yeah. Okay, so between those three features and their opposites which are also there. 1 pics out that one picks out that one picks out that And so that narrows it down to Penelope and Christopher. Which was you'll see that's enough to solve the problem. ": [
+            2800.5,
+            2841.0,
+            69
+        ],
+        "six-year-old child is saying. And on the page, you can't see your opposite. This is transcription by linguists into phonemes. I guess that's what linguists do for fun. And I don't know but that was a training set. So they had the the the words and the sounds and there are some alignment issues cuz they're a lot of you know silent letters like a yacht or comb for example, ": [
+            1473.3,
+            1504.0,
+            37
+        ],
+        "sofo names in English. So that's it. Yeah, and again, once they get that phone him they slide this over get the next one sided over get the next one and that's called napping time into space to pay cuz I've laid it out. This is t t + 20 + 2 t - 20 - 2 etcetera instead of for example having the network State be recurrent and change ": [
+            1990.8,
+            2020.2,
+            48
+        ],
+        "soft consonants like hard consonants like sure where so you don't release are you're just vibrating and but with the big stunt glottal stop there. Okay, next example sentence family trees. So this was the first paper in the proceedings to the cognitive science Society in 1986 big thick book. And this is the first paper in it. These are two family trees. They're isomorphic. So everything up here first ": [
+            2378.1,
+            2425.1,
+            59
+        ],
+        "square is white if it's positive black if it's negative. So these are the weights into this hidden unit. So Charles and its corresponding Italian have big waves into this hidden unit positive ones and Penelope and her corresponding Italian have negative weights into it. Okay. That's what the hen diagram shows you it's a way to visualize the weights. to a heading unit Any questions about what that showing? ": [
+            2580.6,
+            2612.2,
+            64
+        ],
+        "that backprop has learned. This reminds me I need this. Okay, let's hope it works. Okay. And it's very efficient. And you're as you're going to see in your programming assignment checking the weight numerically is very expensive and Computing the derivative of the error with respect to the weight numerically is very Computationally intensive. Where is this does one seat forward One Sweep back and you're done. And the ": [
+            1087.6,
+            1132.0,
+            27
+        ],
+        "that confuses people. I don't know. I guess I've Forgotten how confusing things can be? and in this example, we had a play some nonlinear softmax that are non-linear activation function. That can be whatever we wanted to be as long as you can take a derivative of it. And then at the output level we had some other nonlinear activation function or linear activation function, which could be softmax ": [
+            104.8,
+            144.0,
+            1
+        ],
+        "that into the gradient with respect to the activation of unit J. So this the weight from I to Jay and then how the activation for the input waited some of the inputs to Jay change as the weight changes and this just turns into what Okay, how many people make W how many people think ziti? It's the input on that line. Just like the Delta rule for the ": [
+            189.4,
+            232.1,
+            3
+        ],
+        "that one I'm figuring out how this changes as this changes and then how this changes. Is that changes. using the chain rule So there's using the chain rule for the Zack. and this guy is how the output of this unit changes has its input changes. So that's just the slope of that unit. And this is going to turn out to be just the weight. From this guy ": [
+            460.7,
+            495.7,
+            10
+        ],
+        "the biggest Terror. This would be a terrible thing to do if you have noise because she picked noisy examples, but we picked example set in for Mackie glass. We know what the you know, it's determined estic so we have exactly and so we had a lot of examples of yours the input, you know, maybe you take five or six points in the previous part of the time ": [
+            4460.1,
+            4488.3,
+            109
+        ],
+        "the first 5 minutes of learning with a network starting from 08. The second recording gives the performance of the network after 20 passes through a corpus of 500 Words. The third recording shows how the network generalizes to Fresh text. First Recording denovo learning Oh, no, no, no, no, no, no no, no, no. So remember what these that this is old right, this is from 87 so it ": [
+            1548.3,
+            1602.7,
+            39
+        ],
+        "the letters of the alphabet plus space, etc. Etc. Etc. So time that is the passing of this text is mapped into this space. Okay, and then that the job of the network is to take the central letter here. Which is C and it's in this context. It sounds like, or that's the outputs are the all the phony a unit for every phoneme and English that's supposed to ": [
+            1330.7,
+            1367.9,
+            33
+        ],
+        "the right phoneme and you have the you can also look at the percent. Correct? Huh? It's that simple. There's nothing more fancy that goes on the speech like nothing more fancy. Okay, you look disappointed. Okay. Okay, so it goes on like that for a little while. No, no, no, no, no, no, no, no, no gays and EE. Okay, okay. the new song from Gwen and Emmett Okay ": [
+            1669.0,
+            1756.1,
+            42
+        ],
+        "the same weights in the network. And then I go backwards getting the Deltas and those all use the same weights cuz I haven't changed the weights yet. So I can do that in parallel date of parallelism where I can do that as a big Matrix of here's some inputs pump I get, you know, 128 * 10 outputs right for each example and I can do my back ": [
+            4346.7,
+            4377.6,
+            106
+        ],
+        "the tasks? So this is not the end, but it's not the outdoor. It's the hidden Lair where the representations are. And what we did was we took all went through all the Corpus took all the instances where she was going to K. And average the hidden unit activations for that together. So I have one hidden unit Vector of activations for C to K. And I do that ": [
+            2206.5,
+            2236.9,
+            55
+        ],
+        "the time you process and say ten thousand examples, you probably almost already solved the problem because you've seen a thousand examples of every category by then right then so Real world data sets tend to have redundancies in the training set. It's not completely true. Now that we have imagenet for example there a wide variety of Scottish deerhounds in the training set, but there's still some redundancy there. ": [
+            4042.5,
+            4082.7,
+            98
+        ],
+        "there and there's list expressions. and got 10 hidden units now I can train it is you and I don't know what the blue I didn't. I guess. I have zero validations and zero test. So I don't know what that blue line is. This is the test that it's all 0 empty but what you can do with this now is kind of do a gradient backwards from each ": [
+            3397.1,
+            3443.8,
+            83
+        ],
+        "there sometime when I go to go to my cousin I get a place off Taylor play Batman turn on all that sounds like your tears and doubly bed. That's why I see, you know a first shot at it and it was it was you know years ago anyway for my undergrads my freshman that I would say, it was a religious experience listening to this. Okay, so now ": [
+            1798.4,
+            1835.1,
+            44
+        ],
+        "there's a minimum over there. I might get to that one by start over here and there's a minimum over here and might get to that one. So depending on where you start you'll get different answers. And different local minimum and so this is one solution. If you set the initial weights, just right it'll find this excellent at work with where one does or which is three out ": [
+            974.0,
+            1004.7,
+            24
+        ],
+        "there. They would use that to change these weights because all you need is the Delta and the input on that line. And then they would propagate the Deltas back and then they would change these weights and then they would propagate the Deltas back. That's wrong. Okay, because now I'm using different weights than I computed the gradient with. So I need to propagate the Deltas all the way ": [
+            853.6,
+            885.3,
+            21
+        ],
+        "this contact see is cut but if this was perceived then it would be so right so that that context is enough for many letters to get the right pronunciation, but it doesn't work for all cases. Yeah. I think it went to 7. His mine mine goes up to 11. That you had to see this is spinal tap for that hits a mockumentary about a heavy metal band's ": [
+            1395.2,
+            1436.3,
+            35
+        ],
+        "this internal representation from the five hidden units, but other than that, okay. Now I'm going to try. gender and I apologize to the non-binary among you but there we only have two in those days. I bet I can do gender with one hidden unit. Okay, so this is basically going to be a perceptum. Okay. Now it knows it's should have two outputs because we had two outputs ": [
+            3665.7,
+            3704.9,
+            89
+        ],
+        "this is in that one? Her face is dark. This is light. So it's kind of down at the bottom Etc. So this face. Is a weighted some of these eigenfaces they're called. Okay, because they're the eigenvectors of the covariance Matrix of the data. And so there are orthogonal meeting each one of these has an inner product of 0 and so face is a point in this 40 ": [
+            3113.5,
+            3150.4,
+            76
+        ],
+        "this line and here's everybody connected to and the question is what that breaks down to his. How does the air change? Okay. I want to know how the air changes as my input changes. That's the son of how they are changes is all these guys. Empire changes and how all these guys input changes as my input changes Okay, and you can see when you go back through ": [
+            392.3,
+            426.9,
+            8
+        ],
+        "this one already. What was the answer? I think he just remembered that. I don't think you're red it. Okay. Okay. And again, this is wonderful because it learns internal representations and I don't have any clicker questions today so you can if you can leave now. Okay, so it's wonderful because it learns internal representations and that's basically what we're going to talk about today some different internal representations ": [
+            1048.1,
+            1087.6,
+            26
+        ],
+        "this point, but They're good. It's going to be good for you and they illustrate some points that later led to things like batch normalization. Which we're going to learn about later while later in this talk. Okay, so these are the tricks. this particular chapter comes down on the side of stochastic gradient descent vs. Batch So this tends to learn faster because of redundancy in the training set. ": [
+            3955.3,
+            4005.3,
+            96
+        ],
+        "this so, it should look familiar, but it learned these representations in the service of the tasks. so that's what the network Thanks. This guy looks like in order to get surprised at right. Okay. But I can also. Load the identities and stead as you guys did. And now it knows there's 10 outputs. We got 10 hidden units. We're going to train it to do that. and now ": [
+            3485.9,
+            3532.6,
+            85
+        ],
+        "time to train but the idea was here. You had one hot encoding of each person. It over here you had relationships so you could turn on Emilio father and it should turn on at the output. The one person is Emilio's father. Okay, and the thing that the idea that Hitler wanted to explain motivate here was these are localist. We call them one hot encoding and then it ": [
+            2467.9,
+            2507.8,
+            61
+        ],
+        "to one guy. That's the average of all of them and that's the root of the tree. So you create a binary tree this way and things down here are closer together than things up here and what you see basic it's hard for you to see from where you are but fairly easy for me to see but it divides the world into vowels and consonants. And the hard ": [
+            2135.9,
+            2164.9,
+            53
+        ],
+        "to that guy. Okay. Okay. And there's the weight. There they are. And for some reason I don't put G Prime there. And so, okay. Okay, so this through all that we get to this which is the Delta for any unit. That's not an output unit. This doesn't depend at all on how the Deltas for the output sir are computed. They could be computed because you're trying to ": [
+            495.7,
+            542.7,
+            11
+        ],
+        "today. I will be taught or Thursday. I'll be talkin about some some ideas for how you should initialize this week. Okay, some tricks of the trade. So because you start out with initially random weights, and now the earth's surface is no longer of it, you know, depending on how many hidden layers you have. It can be some arbitrary landscape. And so if I start over here and ": [
+            938.8,
+            974.0,
+            23
+        ],
+        "took a while to train and they just had one hidden layer. But remember the thing about the bias it learns the bias on the outputs is what's going to learn first because it's always got a 1 on the other end of the line. And so what is it learn the way you can minimize the are the best is to learn the average phoneme and English, which is ": [
+            1602.7,
+            1624.8,
+            40
+        ],
+        "turn on the cusp sign now the smart thing they did with it and then they shipped it over one produce the next next sat in the smart thing. They did was hook this up to a deck talk speech synthesizer so you could actually hear it. Which is what we're going to do. So this produces the sound in the context of the other letters around it. So in ": [
+            1367.9,
+            1395.2,
+            34
+        ],
+        "we could have just one but we had to Okay, and boom it learned it really fast. I could probably also pulled out some. Some guys here. Let's hold out say 10. See what happens. And tests that are goes down to zero very quickly in this case. And now it happens the internal representation. It's exactly the same for this guy. As well as that guy. Doesn't change. Until ": [
+            3704.9,
+            3747.4,
+            90
+        ],
+        "we hit a woman. But it's the same for all women. Let's see Universal women in the Universal Man. So, okay. So again, it's learned a representation in the service of the task here. It just has to representations 1/4 male to 1/4 female. Okay. Alright any questions comments funny stories? So why is why can I do this for their perceptron? I mean, how do I know that from ": [
+            3747.4,
+            3795.2,
+            91
+        ],
+        "we're going to turn the page. And listen to it. Reading the next page. I'm not going to show you that page right away and see if you can figure out what it's saying and then I'll show it to you after a few words. Reading Rainbow Ridge in the third recording the previous network is tested on a new Corpus, which is a continuation of the training Corpus. There's ": [
+            1835.1,
+            1869.4,
+            45
+        ],
+        "what I just did I had one hidden unit, right? So it's just going to have a positive connection to one of the outputs and the native connection to the other. And that's it. So Okay, honey. I'm going to close this out. Okay, so all right, so that's learning internal representations in the service of the tasks. Okay. Are we all happy? I'm happy. Okay, any any questions about ": [
+            3795.2,
+            3842.5,
+            92
+        ],
+        "when that guy had his mouth wide open. The representation was different. this guy and now it's not different because it doesn't have the resources to represent those differences and it doesn't need to to solve the problem. So what did it do? Yes. learned representations in the service of the tasks Okay. Any questions about that? So there's a little bit of mathemagic going on here where I get ": [
+            3627.2,
+            3665.7,
+            88
+        ],
+        "with inputs over time. We'll talk more about that. So one of the cool things they did and Steve Hansen is still pissed off that they didn't reference him for it. Cuz he gave him the idea is they took how do you look at this and figure out what it's doing? I mean, you've got like 70 hidden units. I think I don't remember how many they had. And ": [
+            2020.2,
+            2050.5,
+            49
+        ],
+        "would learn a distributed representation up here of different features of these people and it learned it all through me. There's there's no similarities between any of these guys senior product of any one of these inputs a zero. So there's no similarity structure in the input. It has to learn it. Learn a representation of their features that solves the task. Okay. And so that's it's learning a representation ": [
+            2507.8,
+            2542.0,
+            62
+        ],
+        "you don't need the gender here you just need Christopher and Penelope, and then you could say son and you'll get Arthur. Okay. Okay any questions? So the network learns his features in the service of the task and learn some on its own. We didn't have to think those up the network figured in there. And so that's useful if we don't know what they ought to be like. ": [
+            2882.0,
+            2914.8,
+            71
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_6.flac",
+    "Full Transcript": "Okay, that's good started.  Just a reminder.  Yo, just a reminder of where we got to last time we were talking about.  Multiple layer neural networks. And how which is what your programming assignment is about and how you give an input. You got an output and then you back propagate the error through the network and then update the weight.  And I briefly talked about forward propagation. Cuz sometimes that confuses people. I don't know.  I guess I've  Forgotten how confusing things can be?  and in this example, we had a  play some nonlinear softmax that are non-linear activation function.  That can be whatever we wanted to be as long as you can take a derivative of it. And then at the output level we had some other nonlinear activation function or linear activation function, which could be softmax or the logistic or linear. If you're doing regression you want linear outputs, you're doing classification. You want LogistiCare softmax, and then it was there any questions about that?  I hope not at this point and then we started talking about gradient descent.  And we just plugged in played.  so  so the first thing we always do here is break this into the gradient with respect to the weights break that into the gradient with respect to the activation of unit J. So this the weight from I to Jay and then how the activation for the input waited some of the inputs to Jay change as the weight changes and this just turns into what  Okay, how many people make W how many people think ziti? It's the input on that line. Just like  the Delta rule for the perceptron or logistic regression for softmax regression that part becomes the input on that line. And then by analogy this becomes the Delta were the negative of it does depending on Whose book you're reading. You got it both ways sew-in in the Delta rule.  We had T T minus y which turns out to be this and then we have the input on that line, which turns out to be that.  okay, and so from there we  we drive back prop.  So that that one is just CI.  Thank you those either cut that.  and then  we have that other one.  okay, and  okay.  So this is the derivation of backdrop for the hidden units. So we're trying to compute what Delta is and for some arbitrary unit in the middle of the network.  We have to think about how it changes the guys it's connected to how they are changes compared to the for the guys that's connected to and how their input. How the Earth changes is there input changes and how their input changes as my output changes notice. This will be zero for anybody, you know.  Upstream or whatever you want to call it of this unit. Cuz my activation my net input doesn't affect anybody else except people. I'm directly connected to  okay, and the cool thing about this is if we Define delta is  The derivative of Jay with respect to the net inputs of the units and this is just Delta for all those guys. I'm connected to  3 to find it that way.  And again, this is the picture to have in your mind. Here. I am I'm the input on this line and here's everybody connected to and the question is what that breaks down to his. How does the air change? Okay. I want to know how the air changes as my input changes. That's the son of how they are changes is all these guys.  Empire changes and how all these guys input changes as my input changes  Okay, and you can see when you go back through here. You're going to have to go through a derivative of this guy to get to him.  So that's why you can't get rid of the slope of the Hidden units.  And so I just replace that with Delta k  That's the definition of delta.  It's got a minus sign in front of it.  and then  how does the  How does I'm doing a chain rule, so to figure out that one I'm figuring out how this changes as this changes and then how this changes. Is that changes.  using the chain rule  So there's using the chain rule for the Zack.  and  this guy is how the output of this unit changes has its input changes. So that's just the slope of that unit.  And this is going to turn out to be just the weight.  From this guy to that guy.  Okay.  Okay.  And there's the weight.  There they are.  And for some reason I don't put G Prime there.  And so, okay.  Okay, so this through all that we get to this which is the Delta for any unit. That's not an output unit.  This doesn't depend at all on how the Deltas for the output sir are computed. They could be computed because you're trying to optimize a softmax or your got a logistic or their various other things we could be doing and all I need is the Delta for the if I'm the layer just before the outputs. I just need the Delta for those guys and I don't care what I'm optimizing.  Except I need how that thing. I'm trying to optimize is how that changes as being put to that out put me in a changes. So if this is the next layer up is an output. This is just T minus y usually and then X to wait I'm connected to them by.  Okay.  And let me see if I've got.  Yes, and so that the final learning will for the hidden units.  Well the learning room for everybody. Is that right?  But for the output units Delta is just T minus y if James and output unit, we have the right combination of objective function and activation function that doesn't have to be team run this way as we saw if you use the wrong objective function squared error with logistic output to get a slope term in here, which is too bad. But later we figured out we should optimize something else.  And then this is always the Delta for the hidden unit. So people on Piazza ask this question like why is it always that well, that's what it is sex. I don't know what else to tell you. That's the way the math comes out.  And so this is a recursive definition of delta you computer that the output units and then  you propagated backwards through the network and you keep doing that. So now I've got a Delta for these guys.  And if there's guys below here, they're also neural network units and not the input then I propagate these back.  And then if there's more I keep propagating.  Those back so in a deep Network, we're propagating the Deltas a long way from the output back to nearly the input.  And so this makes sense intuitively believe it or not. So if  You have a big error, and I have a big weight to you that I probably had something to do with it, and I need to change what I'm doing.  So I'll get a big Delta. My Delta will be increased a lot if I have a big weight to the next guy up and he has a big Delta.  If he has a big Delta and I have a small way to him than I had less to do with it. I don't I'm not as worried or if he has a smaller and I have a big way to him. I don't care as much but it changes my Delta a little bit if he has a small air and I have a small waist and I don't give a shit. Okay? Okay, so that makes intuitive sense. Does that make intuitive sense to you?  Okay.  That if this guy's a hidden unit.  So so what do you want to know about him if he's a hidden unit?  Yeah, okay. So it's it's exactly the same as this.  Except you know, I've got J's up here instead of case. I mean  Yeah, so the Delta here will be most played X this and added into this guy's Delta in the same minute.  Well, it could be the same activation functions to be a different one. But usually they're the same in in the hidden layers of teeth Network.  Okay, so you just keep doing that. Now as I said in last lecture in the first iteration of Russell, norvig the best AI book on the planet, which is now in space they got this wrong in that given the Deltas up there. They would use that to change these weights because all you need is the Delta and the input on that line.  And then they would propagate the Deltas back and then they would change these weights and then they would propagate the Deltas back. That's wrong.  Okay, because now I'm using different weights than I computed the gradient with.  So I need to propagate the Deltas all the way back to however far they go and then change the weight.  Okay.  any questions  Okay. So again one thing that's different about this than your previous assignments is now I need random initial weight. It's not zero weights and we'll talk a little later about why zero weights doesn't work. We need Randomness to break up some symmetry problem, but  And in the next lecture, assuming a get that far today.  I will be taught or Thursday. I'll be talkin about some some ideas for how you should initialize this week.  Okay, some tricks of the trade. So because you start out with initially random weights, and now the earth's surface is no longer of it, you know, depending on how many hidden layers you have. It can be some arbitrary landscape.  And so if I start over here and there's a minimum over there. I might get to that one by start over here and there's a minimum over here and might get to that one. So depending on where you start you'll get different answers.  And different local minimum and so this is one solution. If you set the initial weights, just right it'll find this excellent at work with where one does or which is three out of the four 4X door and this guy catches the case where  Actor is different from or that is when both inputs are on and turns off the output and just that case.  Okay.  But because you have different initial random weights, you can get lots of different solutions this problem some of which might surprise you.  Okay.  and  we did this already.  What was the answer?  Okay, we did this one already. What was the answer?  I think he just remembered that. I don't think you're red it. Okay.  Okay. And again, this is wonderful because it learns internal representations and I don't have any clicker questions today so you can if you can leave now.  Okay, so it's wonderful because it learns internal representations and that's basically what we're going to talk about today some different internal representations that backprop has learned.  This reminds me I need this.  Okay, let's hope it works.  Okay.  And it's very efficient. And you're as you're going to see in your programming assignment checking the weight numerically is very expensive and Computing the derivative of the error with respect to the weight numerically is very  Computationally intensive. Where is this does one seat forward One Sweep back and you're done.  And the other cool thing is it generalized has to recurrent Networks.  Okay, so last time.  We started talking about some of the things back prop has learned. And again, your Mantra is back prop learns representations in the service of the tasks. So when you're meditating, that's your Mantra, okay?  So we talked about EXO early this simple Network that does xor we talked about.  Symmetry and this is somewhat more complicated Network and we talked about Edition.  So now we're going to have more more fun and talk about nettalk.  So this means I need to.  iTunes  and  okay, most of its Rock but there is  where is technical traditional technical?  Natok  demonstration of network learning. Okay, so that was Terry Sandusky talking but I could barely hear him. I hope so. I have to be quiet but let's come back to that momentarily.  So what is Natok Natok a neural network that learns to read aloud from text now? It doesn't really read from text. What we do is we have localist inputs. That is one year one hot encoding of a through z and space and probably some other punctuation and to have the network read a cat you would have, you know, like 27 units here with a torn.  27 units here with blank turned on 27 units here with C turned on a and t okay, so it's not like actually looking at the image. We're just giving it an input where it's already seen the  the input and learned overnight on a vax which is an old supercommittee supercomputer. We used to call it. We are happy to have it. It's probably not as powerful as your phone now and business weeks that it's learned the abilities of a six-year-old child overnights are there was a lot of hype but this is the only neural-net so far that's been on the Today Show twice.  Cuz Terry knew somebody who was a producer on that and what it does is map time into space. So let's let's see what I mean by that again. Here's all the letters of the alphabet plus space, etc. Etc. Etc. So time that is the passing of this text is mapped into this space.  Okay, and then that the job of the network is to take the central letter here.  Which is C and it's in this context. It sounds like, or that's the outputs are the all the phony a unit for every phoneme and English that's supposed to turn on the cusp sign now the smart thing they did with it and then they shipped it over one produce the next next sat in the smart thing. They did was hook this up to a deck talk speech synthesizer so you could actually hear it.  Which is what we're going to do.  So this produces the sound in the context of the other letters around it. So in this contact see is cut but if this was perceived then it would be so right so that that context is enough for many letters to get the right pronunciation, but it doesn't work for all cases.  Yeah.  I think it went to 7.  His mine mine goes up to 11.  That you had to see this is spinal tap for that hits a mockumentary about a heavy metal band's called spinal tap and their drummer always gets electrocuted or whatever and every concert but the guy has a nap and he says they're really dumb guys and the guy has a nap and he said most people say it's just go up to 10 mine goes up to 11.  Okay, so, okay. So anyway, so Terry and Charlie Rosenberg got this book that has a transcript of what some six-year-old child is saying.  And on the page, you can't see your opposite. This is transcription by linguists into phonemes. I guess that's what linguists do for fun. And I don't know but that was a training set. So they had the the the words and the sounds and there are some alignment issues cuz they're a lot of you know silent letters like a yacht or comb for example, but they figured those out as well as they could.  And so that's the training Corpus and then they turn it on this and then they turn the page and test it on the next page.  okay, so this is what it  sounds like when it's just  learning  by Terry sinofsky and Charles Rosenberg learning Corpus taken from Carteret and Jones informal speech first grade transcription.  The First Recording represents the first 5 minutes of learning with a network starting from 08.  The second recording gives the performance of the network after 20 passes through a corpus of 500 Words.  The third recording shows how the network generalizes to Fresh text.  First Recording denovo learning  Oh, no, no, no, no, no, no no, no, no.  So remember what these that this is old right, this is from 87 so it took a while to train and they just had one hidden layer. But remember the thing about the bias it learns the bias on the outputs is what's going to learn first because it's always got a 1 on the other end of the line. And so what is it learn the way you can minimize the are the best is to learn the average phoneme and English, which is okay.  initializing 08  Oh, he's wrong. That's the difference between the person who actually did the work Charlie Rosenberg and the person who supervised to work and got their name as first author Terry Sadowski. Terry is at the Salk Institute here, by the way, and he's also  got associated with a bunch of departments on campus. Yeah.  Why are you look at the error? Right and you you have the right phoneme and you have the you can also look at the percent. Correct? Huh?  It's that simple. There's nothing more fancy that goes on the speech like nothing more fancy.  Okay, you look disappointed.  Okay. Okay, so it goes on like that for a little while.  No, no, no, no, no, no, no, no, no gays and EE.  Okay, okay.  the new song from Gwen and Emmett  Okay second recording after 10,000 training words.  You mean of 9 and blown or something when we walk home from school? I want to whip you friends on sometimes me and friend zone from school. Now. Time she wants to run she gets very bizarre stuff. That's why we can't run. I like to go to my grandmother's will Kakashi games on Andy will be there sometime. Sometimes we sleep over there sometime when I go to go to my cousin I get a place off Taylor play Batman turn on all that sounds like your tears and doubly bed.  That's why I see, you know a first shot at it and it was it was you know years ago anyway for my undergrads my freshman that I would say, it was a religious experience listening to this.  Okay, so now we're going to turn the page.  And listen to it.  Reading the next page. I'm not going to show you that page right away and see if you can figure out what it's saying and then I'll show it to you after a few words.  Reading Rainbow Ridge  in the third recording the previous network is tested on a new Corpus, which is a continuation of the training Corpus.  There's just something I can turn in my family. He won't stop them and I created nightmare factory in La Porte 8-ball. Just take 2 minutes to get to sleep. If you're just a baby don't come on.  Okay, so it's not great. But you know, we've come a long way since 1987 or so and it's a six-year-old. So that's why the baby comes out of the crib and crawls in your bed and takes out your ear plugs when you're trying to sleep.  Okay, any questions about that?  Okay.  I hope there's one. Yeah.  What?  Yes. Yeah a classification problem. So again  Here's the network.  So again, you're you're the job of the network is in a sense of classification problem because it has to turn on the right phone the correct phonemic the output out of the 40 sofo names in English.  So that's it. Yeah, and again, once they get that phone him they slide this over get the next one sided over get the next one and that's called napping time into space to pay cuz I've laid it out. This is t t + 20 + 2 t - 20 - 2 etcetera instead of for example having the network State be recurrent and change with inputs over time.  We'll talk more about that. So one of the cool things they did and Steve Hansen is still pissed off that they didn't reference him for it. Cuz he gave him the idea is they took how do you look at this and figure out what it's doing? I mean, you've got like 70 hidden units. I think I don't remember how many they had.  And it's not and you can look at the weights and try and figure out what it's doing. But another idea is to take the activations.  All these hidden units for every input output mapping like this is C going to cut and if there are other sea going to cuz you take the activation of the Hidden units in the average all those together. So there's just a finite number of these mappings from letters to sound right? That's what we do when we read aloud from text. And so you get you know, Kay different ones of these three have  70 say activations a vector of length 70 for every input output napping and then what you do a hierarchical clustering analysis, so who knows what that is?  Crab, you're going to learn something today. You know what it is. So you take the two closest ones usually in euclidean distance and you average them together and you draw a little bit of tree.  So you put that one there in that one there and you put a little line between him and now I take the next two closest ones and do the same thing in the same thing. And eventually I get a binder I get down to one guy. That's the average of all of them and that's the root of the tree. So you create a binary tree this way and things down here are closer together than things up here and what you see basic it's hard for you to see from where you are but fairly easy for me to see but it divides the world into vowels and consonants.  And the hard consonants are in some places in the soft consonants and others and over here. There's a e i o u and sometimes y and so you get a similarity structure over the inputs or over the mappings in this case.  how the network kind of organizes that internal representational space  That makes sense. Yeah, is that a question?  No.  What's our Mantra back propped learns representations in the service of the tasks? So this is not the end, but it's not the outdoor. It's the hidden Lair where the representations are.  And what we did was we took all went through all the Corpus took all the instances where she was going to K.  And average the hidden unit activations for that together. So I have one hidden unit Vector of activations for C to K.  And I do that for you know, owed you and stuff like that.  And then I do the cluster analysis and it tells me kind of how the network breaks up the world.  And it breaks it up and do naturally things that a linguist would appreciate vowels and consonants and puts, you know hard consonants together. Yeah.  this guy  it's hard to read but I think it's a stiiizy which is very infrequent.  We don't have a lot of you know Wizards or phones.  There's a Nashville TN but it becomes a z.  right  Okay.  Okay, fine.  any questions  One more. Yeah.  with the unit  this is distance in some space. So I guess you know probably normalized in some way. So things up here far apart things down here really close.  So here is B2B in P2P, for example?  BNP are very similar to one another the only difference between them is voicing. So if you hold your throat and you go bbbbbbb.  riot  Baby, v v v v v v pppp the only differences with your voice and you're vibrating your vocal cords before you open your mouth and with PR knot.  So they're very similar sounds.  Yeah, I've also over here and consonants over here.  Yeah, and there is like soft consonants like hard consonants like  sure where so you don't release are you're just vibrating and but with the big stunt glottal stop there.  Okay, next example sentence family trees. So this was the first paper in the proceedings to the cognitive science Society in 1986 big thick book. And this is the first paper in it. These are two family trees. They're isomorphic. So everything up here first find something down here Roberto married Maria and had Emilio and Luchia Emilio married Gina with GMA married Marco, etcetera. Okay, so every every  Every family has a boy and a girl in this weird family tree. So the top one is the British. The bottom one is Italians.  Okay. Did you if you ask me already? Okay, here's the network. It was a deep Network took a very long time to train but the idea was here. You had one hot encoding of each person.  It over here you had relationships so you could turn on Emilio father and it should turn on at the output. The one person is Emilio's father.  Okay, and the thing that the idea that Hitler wanted to explain motivate here was these are localist. We call them one hot encoding and then it would learn a distributed representation up here of different features of these people and it learned it all through me. There's there's no similarities between any of these guys senior product of any one of these inputs a zero.  So there's no similarity structure in the input. It has to learn it. Learn a representation of their features that solves the task. Okay. And so that's it's learning a representation in the service of the tasks. So what we're going to look at next.  Is 6 hidden units that sat above these 24 people down here and later. We're going to look at 6 hidden units above these relationship units here.  So this is called a hidden diagram.  After Jeff Hinton surprisingly enough along the top or all the British and the second row corresponds to the corresponding Italian.  A square is white if it's positive black if it's negative. So these are the weights into this hidden unit. So Charles and its corresponding Italian have big waves into this hidden unit positive ones and Penelope and her corresponding Italian have negative weights into it. Okay. That's what the hen diagram shows you it's a way to visualize the weights.  to a heading unit  Any questions about what that showing?  Hey, so we have six hidden units shown here.  and  what is unit one? That is the upper right one in coding.  So here's the family trees and what?  What feature is that one in coding?  Yeah, so this is the British unit it turns on if they're British. That's a useful feature. That means you only want to turn on the British at the output because British and Italian Stone in Marion the story  Okay, so that's the the nationality unit or the British unit. So it did picks out this family tree.  Hey, which is useful because the answer is going to come from this family tree.  Okay.  How about hitting unit 2?  so  here is hidden unit 2 it corresponds to Christopher Andrew being on and Etc. What do you think?  That one's encoding.  Wow, that was fast generation. It turns on for Christopher and Penelope notice. It's symmetric between the Italians and the British once I figured out who's who this one's kind of an Italian unit. Not quite as strong. Now this says, okay. It's going to turn on for Christopher Andrew and Penelope and Christine.  And turn way off for Colin.  And we're off for Charlotte. So it's height in the tree.  2 pics out those guys  Okay.  How about unit 6?  What unit 6 sets this guy?  Turns on for Chris dimmer.  any ideas  children  Christopher is a father grandfather actually.  designer  what?  I'm sorry. I really am going to get a hearing aid by the end of this quarter. But what?  Siblings in law. Yeah.  Side of the family hits the side of the tree. It's which side of the aisle you sit on at the wedding.  Right, you know this is once it's turning on for these guys and turning off for these guys.  What?  Yeah.  Okay, so between those three features and their opposites which are also there.  1 pics out that one picks out that one picks out that  And so that narrows it down to Penelope and Christopher.  Which was you'll see that's enough to solve the problem.  That's going to pick out pairs of people.  And other combinations of these units will pick out different parts of the tree that makes a lot of sense, I think.  And then these are the relationship unit. So what is this one in code?  Gender turns on for Aunt niece sister and wife daughter mother.  Okay, so so the gender is going to be picked out by that unit. So you don't need the gender here you just need  Christopher and Penelope, and then you could say son and you'll get Arthur.  Okay.  Okay any questions?  So the network learns his features in the service of the task and learn some on its own. We didn't have to think those up the network figured in there. And so that's useful if we don't know what they ought to be like.  When I trained in that work to recognize facial expressions, I didn't know what features it should learn it had to figure it out.  Which we're going to see next.  so I'm going to give a demo this is  downloadable from my website  I showed you this one before I think right we're just learns to separate these two things.  You saw that one and when I had their learning rate too high, the green line went away and Etc that sound familiar.  Hey buddy, knots 4C. That's okay. So let's go here.  and  so  the first thing we did  let's use California facial expressions.  Oh wait, that's not what I want.  Bow, okay.  All right. Let's quit on a Matlab and start over is currently the screens been screwed up by somebody else.  Okay.  Sorry.  Pikachu, okay.  Going to find my desktop. There it is.  Jay Cooke by the way is like 80 11 years old all these lives on my street and he  owned a car that Grace Hopper Road in  But she recently sold.  Austin-Healey  Okay.  Okay, let's do Cafe 40.  That's better. Okay. So the first thing so just said demo of face processing we're going to train a neural network to recognize facial expressions and identities and gender.  And the first thing we did though was something called principal components analysis, which is a way to reduce dimensionality. So these images are like a hundred by 130 and this particular data set is got the first 40 principal component which are kind of a  A underlying like dimension for each face. So this is like how much of this slider here has how much of this is in that one? Her face is dark. This is light. So it's kind of down at the bottom Etc. So this face.  Is a weighted some of these eigenfaces they're called. Okay, because they're the eigenvectors of the covariance Matrix of the data. And so there are orthogonal meeting each one of these has an inner product of 0 and so face is a point in this 40 dimensional space and it's gotten this much of this one that much of that one that much of that one Etc. She can see the sliders very well.  if I move these  You know, it changes her face.  Write in a few zero all of them. You get the average face.  In this state of set and then you can if you do that, then you can have fun kind of nerd Fun by trying to find that face find this face spray, you know. Well, I know this one's down and this one's up cuz I just saw it.  So and then like how do I how do I set these to get her? So anyway, the point is these numbers that is where on the slider you are can there be input to my network? And I've only got 40 inputs instead of 100 times of 130 and you found out in your programming assignment how bad that could be right you have 90,000 some pixel inputs with PCA. I could have given you much smaller dimensional inputs.  Tell again these are this is like an axis and this is where on that access this Falls basically project that face under this and you find out what its principal component is.  Okay, so this so you can have fun with this, you know a good that's somebody a happy guy. Okay anyway, and and then you can do kind of poor man's Morse.  these These are  Oops, I was supposed to.  have to load the PCA projections  again, but there she is again.  And here's somebody else. That's my that's a  meow I should say.  She was my PhD students.  girlfriend now wife  and  so you can do these kind of poor man's more swear. You're just like this is like 40% of these pixels plus 60% of those pixels. So it's not a real morphe.  But it's it's a little bit fun.  Okay. Sorry. That was the fun part.  Okay.  so now we're going to leave back prop and and I'm going to use  I guess the same data set.  So I just read in the 40 principal components for all the images in this little data set. Wait this the days that you guys had right?  yeah, okay, so it's got it figured out how I've got 40 input units got any patterns sounds familiar and 10 hidden unit and now  I'm going to load the targets and then go for Cafe I have to go there and there's list expressions.  and got 10 hidden units now I can train it is you and  I don't know what the blue I didn't.  I guess.  I have zero validations and zero test. So I don't know what that blue line is. This is the test that it's all 0 empty but what you can do with this now is kind of do a gradient backwards from each hidden unit and see what the representation kind of get the internal representation of the face, so  She is angry.  And that's the internal representation of anger by the network. So this should look somewhat familiar.  Maybe a little different than what you guys found discussed. Surprise Setter k  do to do so that's that's kind of fun and now  So, okay, so I did emotions and we all did this so, it should look familiar, but it learned these representations in the service of the tasks.  so that's what the network  Thanks. This guy looks like in order to get surprised at right.  Okay.  But I can also.  Load the identities and stead as you guys did.  And now it knows there's 10 outputs.  We got 10 hidden units.  We're going to train it to do that.  and  now  notice what's going on in the right hand side here.  What's happening?  they're very much very similar to one another because it's trying to learn his identity now, so it's not changing very much from one picture to the next until  You got this somebody else.  Okay.  You guys didn't do this. I don't think of Step through these bed. This is got hidden unit. So it's the hidden unit representation. We can try and do this with fewer hidden units.  So I just reduce them to 5 and still does really well and now they will with fewer resources the network will learn even more.  fix representations of everybody because it doesn't have  Any resources to reflect these changes in the input that really doesn't need to reflect anyway.  and now  I think you might have noticed before that when that guy had his mouth wide open. The representation was different.  this guy  and now it's not different because it doesn't have the resources to represent those differences and it doesn't need to to solve the problem.  So what did it do?  Yes.  learned representations in the service of the tasks  Okay.  Any questions about that?  So there's a little bit of mathemagic going on here where I get this internal representation from the five hidden units, but other than that,  okay.  Now I'm going to try.  gender and I apologize to the non-binary among you but  there we only have two in those days.  I bet I can do gender with one hidden unit.  Okay, so this is basically going to be a perceptum.  Okay. Now it knows it's should have two outputs because we had two outputs we could have just one but we had to  Okay, and boom it learned it really fast. I could probably also pulled out some.  Some guys here. Let's hold out say 10. See what happens.  And tests that are goes down to zero very quickly in this case.  And now it happens the internal representation.  It's exactly the same for this guy.  As well as that guy.  Doesn't change.  Until we hit a woman.  But it's the same for all women.  Let's see Universal women in the Universal Man.  So, okay. So again, it's learned a representation in the service of the task here. It just has to representations 1/4 male to 1/4 female.  Okay.  Alright any questions comments funny stories?  So why is why can I do this for their perceptron? I mean, how do I know that from what I just did I had one hidden unit, right? So it's just going to have a positive connection to one of the outputs and the native connection to the other.  And that's it. So  Okay, honey. I'm going to close this out.  Okay, so  all right, so that's  learning internal representations in the service of the tasks.  Okay.  Are we all happy?  I'm happy.  Okay, any any questions about back crop learning internal representation, so they yeah.  Yeah, so it's all of the Hidden units basically run the network backwards. So this input comes in it activates the hidden units different amounts. And then you use that amount to * * the weights and had that up to get an image out of it. So it's like each unit is going to have some features. It's responding to and if it's .1 you multiply 1 times the weights get pixels out of that and then well principal components with you then.  and turn into one of these things and then  can you add those up for all the hidden units?  One paragraph Queen take average overall to or is just a weighted sum of all of them.  exactly  Okay. Alright, so tricks of the trade in the remaining 15 minutes will start doing some of these so there is at the like V paper from the bottom of the resources page under readings is laocoon tricks of the trade. So this is from a a chapter in a book called tricks to the trade the name of the chapters efficient back prop and it's from a while ago. And so some of these tricks are a bit outdated at this point, but  They're good. It's going to be good for you and they illustrate some points that later led to things like batch normalization.  Which we're going to learn about later while later in this talk.  Okay, so these are the tricks.  this particular chapter comes down on the side of  stochastic gradient descent vs. Batch  So this tends to learn faster because of redundancy in the training set. So  Mnist, what you're working on now has 60,000 training examples of 10 digits. So you're going to see every digit lots and lots of times before you get through the whole training set.  so it seems like a huge waste of time to go through 60000 examples and add up all the way changes and after you've processed 60,000 example changed the weights once  what a waste because by the time you process and say ten thousand examples, you probably almost already solved the problem because you've seen a thousand examples of every category by then right then so  Real world data sets tend to have redundancies in the training set. It's not completely true. Now that we have imagenet for example there a wide variety of Scottish deerhounds in the training set, but there's still some redundancy there. It tends to get better Solutions because of the stochastic City you're changing weights based on some examples and your you can get around some of these local Minima that way to remember we have we don't have just a bowl anymore. Now, we've got local Minima because the error surface is no longer just to Bullhead. It's all weirdly shaped because of these hidden units.  and another thing is if the training examples start to change like you guys have new things to say compared to what I used to say write and say cool far out and you guys say something else like having SEC is over now, right but  Anyway, okay.  Right on Brothers & Sisters of the Revolution, okay.  And you can use this for very large datasets that you can't keep in memory cuz it's online essentially.  Why Bachelor dating? Well the mathematicians over in the math department that do the two function optimization have a very good understanding of how these things converge when you take the true gradient.  There are lots of good optimization techniques conjugate gradient bfgs, etcetera. These taken to conjugate gradient is kind of a one and a half order technique bfgs is a second-order technique and what I mean by that  The gradient is first-order. It's like which way is downhill.  Conjugate sorry bfgs takes into account the curvature around the slope so that the curvature is second-order. And so these things can find the minimum very quickly. They tend to get very large weights, but you have to go through the whole training set which is Impractical like Facebook has billions of pictures of faces. It would be impractical to do that on those.  Okay. So why many Bachelor name which is part of your homework, you're going to be doing many batches. So what's this the compromise between online learning where you change the weight for every example and Bash learning where you change the weights after seeing all the examples instead you got a good-sized salad example say 128 to pick a random number and now I've got in that batch, you know, probably all the digits in 10 examples are 12 examples of each and so I've got a kind of Representative subset of the data and I'll get a pretty good estimate of which way is downhill. It's still called stochastic gradient descent because you're not going down the true gradient depending on which examples you picked.  You'll go a little bit different directions down hill.  Okay.  So so using a mini batches, what is done by everyone now?  and again, you take these examples and you change the way it's once and then you get another batch of 128 say this can be usually very efficient a GPU so  When Computing the gradient I have to take these hundred and twenty-eight examples and go fuc with all of them at once with exactly the same weights in the network. And then I go backwards getting the Deltas and those all use the same weights cuz I haven't changed the weights yet. So I can do that in parallel date of parallelism where I can do that as a big Matrix of here's some inputs pump I get, you know,  128 * 10 outputs right for each example and I can do my back propped using Matrix X  so  I don't know if what's the latest on that back in the day Mark blue towsky my PhD student in Hell wife and I had a couple of papers on learning Maki glass from 25 examples plus or minus 2 and the idea what America glasses a Time series that models your heart beats. And so it's one of these chaotic time series and so chaotic time series are deterministic. But if you make a little change of one point, it makes a big change later on that's what chaos is and  So we had this system where we would actually pick the example with the greatest error and trained on that.  Then we'd pick the next example of the greatest Aaron train on those two examples. And so we just picked the examples with the biggest Terror. This would be a terrible thing to do if you have noise because she picked noisy examples, but we picked example set in for Mackie glass. We know what the you know, it's determined estic so we have exactly and so we had a lot of examples of yours the input, you know, maybe you take five or six points in the previous part of the time series and then you're trying to predict the next point. And so if you keep picking examples based on that and we could learn the whole thing from 25 examples.  And so that was a that's not a great idea again if you have a lot of noise, but that's that's what we did and it seems like you would want to pick diverse examples. So maybe you want to have high entropy in your batch so that you get a lot of different in a lot of information form each example. I don't know. I don't know who's done work on this, but you could try it look and see.  Okay, I mean the main thing is you want to shuffle the examples and you know, if you have a big enough if you have 60,000 examples, you probably just need to shuffle once right. He just want to make sure you're not getting yours a one one one one one one one one one and you get a hundred and twenty-eight ones in your mini batch. What's going to happen?  What's it going to do?  It's going to be these want what sorry.  Not exactly. I mean, it's telling you selling Network turn on the one unit. Turn on the one unit turn on the it can solve that very quickly by cranking up the bias on the one output.  Not learn anything about the input then supposed to get all too. So I will just turn that bias down in the to buy a ShopRite and doesn't need to learn anything. So you really need different examples and sequences.  Sorry, so you really want examples from different classes in your mini batch and one possible. He ristic is as I just mentioned pick ones with more are more often but used with caution because there's a lot of reasons why that example might be hard might be an error in the training set the mislabeled example, and that's why it's hard that crap is really good at finding mislabeled examples in the training set by putting a lot of hair on them. Maybe you need to learn something about the easy examples before he learned the hard examples, but it can improve performance on infrequent examples like and now we get back to that talk. Okay.  and the next thing is PCA the input so will say that for next time cuz  Okay. "
+}

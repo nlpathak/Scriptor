@@ -1,0 +1,586 @@
+{
+    "Blurbs": {
+        "As long as your hand doesn't get too hot. We got T minus y x x i. Do do do do do do do do so. That's that that's right. That's the equals wi plus T. Minus y times the input on that line. Okay question or is that just a comment? Because teaser constant and you know, unless your Jimi Hendrix, you don't think you can change constants. You ": [
+            3812.4,
+            3860.9,
+            95
+        ],
+        "Behavior. Hey. Sorry. so so we have this monotonic activation function and here again, I'm separating out the bias. So it's the inner product between the weights and the input plus this bias term and G is the sigmoid. Yeah, so okay, you can also Imagine the same network being linear regression Network where G would be the identity function. And then were were actually plotting a line in the ": [
+            1630.7,
+            1681.6,
+            36
+        ],
+        "Delta role for linear regression. But look I predicted. I was going to run out of time before I can show how that generalized is the logistic regression, but that's your homework. Anyway, so in your homework, We don't use some squared error because when you do that with logistic regression, you got to learning will it doesn't work as well as if you minimize a different objective function, which ": [
+            4354.7,
+            4387.7,
+            110
+        ],
+        "Hey other questions. Oh, it's it's the exactly the same right? I didn't I didn't say anything about the bias. We got to do something else know the bias is awake from unit. That's always one. Enzo W. 0 equals the old W 0 + t - y * 1 so this is why the bias off and changes more quickly in a neural net because X in the neuron ": [
+            4012.4,
+            4052.5,
+            100
+        ],
+        "Lambda just says how much we care. So one approaches to get more data and then I've got so much to say to the polynomial has to come as close to it as possible. But the other approach to making the model fit the data better is to have something else we minimize. What is this do if we want to minimize this were trying to shorten the weight Vector ": [
+            713.0,
+            740.6,
+            15
+        ],
+        "Okay, let's get started. check Okay, this is the first lecture and from what I understand nobody understood. Is that is that right? Okay, so I just wanted to like point of few things out. Okay, so At first we took one feature of A's and B's and we figured out. Okay, so this is the feature and we're going to put a threshold somewhere here in anything less than ": [
+            132.4,
+            182.7,
+            0
+        ],
+        "One X and probably see one over the probability of the data. okay, then probably see to is that so now if we know the prior probability of one category in the prior probably the other usually we just They're just one half but you can have data that's skewed in some way by there's a lot more of one category than the other and this the probability of the ": [
+            1882.2,
+            1912.2,
+            43
+        ],
+        "So we'll just stick regression. So the whole idea here is so in a perceptron You have a damn it. Okay to take one of these here and one over here. Okay, so remember a perceptron? Is like that? And so it's zero. Everything over here evaluates to zero when we plug it into the perceptron everything over here evaluates to one when we plug it into the perceptron. Now ": [
+            1457.0,
+            1500.3,
+            32
+        ],
+        "Vector shorter Occam's razor. Yeah. You don't need less weights. You need smaller weights. So it would stay would fit in a little box as opposed to Big Box. Okay, so that's what I'm talking about here. And we're going to you're going to do that in your homework your programming assignment. I think do we have that in the programming assignment? I don't remember. Okay play here lambdas, just ": [
+            781.2,
+            823.2,
+            17
+        ],
+        "WI? Okay, and now what's why why is the inner product of the weights for the inputs? So that becomes t- why is a derivative of the Sun as I goes from 0 to D of wixi with respect to Wi oops, I better use a different variable have i j. Jay Jay okay. So what's the story of active? XY why because we're assuming that all the other W's ": [
+            3732.2,
+            3776.5,
+            93
+        ],
+        "We need to figure out this guy. Right, and that's the thing. We're going to add to W to make the air go down, right? So we want to know. What is -2 partial derivative? Of the air with inspected wi, what is that? okay, and the rest of the slides in this the side deck do this, but I'm doing it more slowly so you can follow me instead ": [
+            3416.6,
+            3452.7,
+            85
+        ],
+        "a line to the data. so what are we do? We want to minimize this and we have all these parameters. and the rule for gradient that says wi is the old wi so this is one of our parameters - the partial derivative of the SSE. Weather expected that parameter. That's exactly what I've been saying all on this is the slope with respect to that one parameter. We ": [
+            3345.8,
+            3384.5,
+            83
+        ],
+        "adding and adding some normally distributed noise. You just have a gaussian. You don't go to conferences and call it a normal distribution. You say a gaussian distribution with 0 mean so we just add little bits to the green line and we get that data. This is what we're going to try and fit to the data, which is the polynomial of degree m. Where which things are the ": [
+            299.4,
+            331.6,
+            4
+        ],
+        "and I have to invert it. It might not even fit in memory. But if I can take some examples and change the way it's for every example using the Delta rule that I could do it interactive lie, and I won't run out of memory. I'm not trying to invert a big Matrix again. You don't want to have to invert a matrix if you can avoid it. Okay. ": [
+            3985.3,
+            4010.9,
+            99
+        ],
+        "and function cuz it takes the line and squashes it down. It's also called the sigmoid which is Greek for asked basically or S. Like if you tell it your ad this looks like an s Okay. Sirius okay, that's the activation function and it's nice and smooth instead of the perceptron which isn't smooth. It's got a discontinuity and since we're going to use calculus and take derivatives if ": [
+            1556.3,
+            1593.0,
+            34
+        ],
+        "and it's a high probability of being a b. Okay, so that's our two gaussians. These have equal variance these don't. and so What this says up here. I used to have all blue slides but people said that hurt their heads so I can get all the way to switching this to these are just cut out from the other side. So the probability of an x given that ": [
+            1786.3,
+            1818.5,
+            40
+        ],
+        "and some of the input supposed to buy us if I set the weighted sum of the end if I said wa equal to that and W 0 equal to this crazy thing and so I can interpret it as I can just read those. I can just look at the parameters of those two gaussians and set the weights. Right away. I just plug into this formula and I'm ": [
+            2121.0,
+            2150.4,
+            49
+        ],
+        "and then when I got here I plugged those things back in for NBA. Yeah, okay, who's at the desk that okay. Okay. Okay, so that's really nice, but we can't assume that our data is going to be gaussian. If we happen to know they're gassing of this mean in the same variance and I can just set the weights and I'm done. I don't have to train a ": [
+            2247.5,
+            2281.5,
+            52
+        ],
+        "and this is a pseudo inverse of a witch has a big Matrix and and these are the W's Oh, actually it should be the other way around. So let's say w x equals the targets. Okay now to get what w is I have the targets X the inverse of x. Well, when all these are matrices and X is not Square its rectangular then you do the pseudo ": [
+            3159.9,
+            3196.2,
+            78
+        ],
+        "are constants when we're doing a partial derivative. And so and this is constant because it's given to us in the training set. And so the only part of this song that's not zero is the one where Jay equals I and so we have the derivative wixii over wi which is just x i Oh, you're you're talking. Thank you. Okay, so this because you can keep doing that. ": [
+            3776.5,
+            3810.3,
+            94
+        ],
+        "are the bees. Okay, just imagine that's what happens right? So this could be You know the value of the feature and if you remember and go back to that first lecture where he had histograms, they're kind of gaussian dish just like I'm vegan dish pecans. I eat pizza. So this could be your midterm grade. Right? And this is you guys and this is some monkeys taking the ": [
+            1719.9,
+            1755.7,
+            38
+        ],
+        "are you? Got the sides from last OK as I've been used to learn machine translation from English to French French to English Setter Etc has been used for playing training a system to play Go things are going to drive your car soon later in the quarter will see how you can even have a system learn to program learning program to recognize faces and emotions object recognition image ": [
+            2314.6,
+            2356.5,
+            54
+        ],
+        "assignment, but whatever I said, that's what you do. So, you know it by scaling, you know, if you have one over and then the sum is a lot smaller. It's the average not the total sum squared error. And now if I change the learning rate I can account for that. So cuz it's going to scale the weight changes. Okay. Okay, so I haven't told you this but ": [
+            2867.1,
+            2907.1,
+            70
+        ],
+        "be different in this line would be over here just cutting off when one Okay. And given the solution we found like one 1-1 it would be exactly at 45 degrees here. Right and -1 would make this one over that. What should be the square root of 2? Okay. Any questions now? What is a W-9? Why is W-9 have to be negative all the data's over here, I ": [
+            1124.0,
+            1174.5,
+            24
+        ],
+        "can do gradient descent and head turns out with linear regression does is minimizes the sum squared error, that means Burger. you know, it's like ax equals B right now if I want to know what exit is I set x equal to be? x a 2-1 Okay now replace all these with matrices. It's a big Matrix. yeah, I mean like this is W, right and this is your ": [
+            3043.6,
+            3099.7,
+            75
+        ],
+        "can fit the data perfectly. 1 2 3 4 Yeah, solve 9 equations and nine unknown so I can solve those using pseudoinverse and I'll be done. Follow all of that. This is just an example in order to get to. You know the idea of overfitting we're not going to do any polynomial fitting ever. In this class. Okay weird. It's just an example. Okay..... Somebody asked what's Lambda ": [
+            668.5,
+            713.0,
+            14
+        ],
+        "can probably find it on Netflix or somewhere. I'm not sure but it's it's a great nothing like it but the theme song is do do do do do do do do and that looks like Who you know something weird is going on here in the Twilight Zone. Okay, so I didn't tell you this but linear regression you're trying to draw a line through some data, you know ": [
+            2979.2,
+            3012.0,
+            73
+        ],
+        "can take anything and turn it into the sigmoid pretty much following along. But anyway now I've got a logistic regression. categorizar so as that thing which Is possessing Applied Adela just took already another words to probably class one follows a sigmoid as a function of the log ratio of the probability of Class C to the pro. That is the law God's basically cuz these are going to ": [
+            2023.1,
+            2063.0,
+            47
+        ],
+        "cancel because they're usually equal So that's the kind of motivation for the sigmoid. Yeah, cuz otherwise, she'll Hell Breaks Loose. It's not so simple is this. So in other words, we can interpret the output of the sigmoid as a probability the posterior probability. It's called in spaceland. It's probably a category 1 given X and then that thing can be written as something that looks like. The weight ": [
+            2063.0,
+            2121.0,
+            48
+        ],
+        "captioning generating new images of faces that scans or generative adversarial networks, which I finally did a lecture on last. For the grad students. I'll probably give it to you too. So what is gradient descent you have some objective function something that you're trying to minimize. How about minimizing errors seems like a good idea. That's what you want to do on your midterm. Right? You might as well ": [
+            2356.5,
+            2387.5,
+            55
+        ],
+        "category. Okay, any questions so far because you got if nobody understood it then we have to like stop. Someone said I could just go slower. So I think I might talk. Okay. Okay. So here's the second thing people didn't understand. This is a regression example where you're trying to get as close to some data as possible. Some blue dots that are generated from the screen curve by ": [
+            256.6,
+            299.4,
+            3
+        ],
+        "class. So that's really easy to separate that's less though. So we're going to have the separated with a gaussian over with a logistic function. And what it's going to do is it's going to be low over here. And it's going to start to go up and reach about a half here because it's 50-50 whether you're in category or category B, and then it gets higher over here ": [
+            1755.7,
+            1786.3,
+            39
+        ],
+        "data. Then it turns out since these two some to one. That means that this plus this has to some to one so we can put that plus the numerator. Sum that up on the bottom and that normalizes it. To be in a we don't have to actually no pfx. Since we know the Sounder one, there's only two categories then that means that the denominator has to be ": [
+            1912.2,
+            1947.4,
+            44
+        ],
+        "denominator WI. And that's why I put the 1/2 there X the derivative of T. Minus y I'm sorry. I don't need this year WI. Already, it's starting to look kind of like the the Delta Road got that Delta there. All I did was use the chain Rule and take the driver this thing and then I take the derivative of the thing inside of it. Okay. Okay, I ": [
+            3603.7,
+            3645.4,
+            90
+        ],
+        "difference between this and tea and we'll get an equation in m + 1 anones. Okay, the unknowns reason W's now we take a second example, we got an equation and plus one in their rooms. Every Point here generates an equation. That's a polynomial. Where was a polynomial until we plugged X in and now it's just like w 0 + W 1 x whatever it is plus W210 ": [
+            371.5,
+            409.4,
+            6
+        ],
+        "distance. We're going to find the line that's closest to all the data. Okay. So this is a weird way to do linear regression if we got a closed form formula. Why would we ever want to do this? any ideas computational say what? Why does it? Yeah, so if this is the year of big data or jucunda data, whatever and so if I have a matrix this big ": [
+            3941.6,
+            3985.3,
+            98
+        ],
+        "done. So I haven't had to learn the weights. I set the way it's ya. So proud of you. Says what? Yeah. How does that simplify to what? so so yours be over at right if i r a z e to the log of that natural log of that then I get B over a dudududu dudududu, okay. here Oh, I didn't I just plugged it in so that ": [
+            2150.4,
+            2209.3,
+            50
+        ],
+        "factor, and that's because just to make that a little clearer. What's a x to the X A- XP? okay, so here is the line here is like Where we are and see if we have x a and x b and we treat them at their points on this line, and we treat them as nectar. Then x a minus XP. Is this Factor? So that's in the same ": [
+            1314.2,
+            1356.0,
+            29
+        ],
+        "figure out what that is and then we going the opposite direction. So this is that little change of w that's making the error smaller. This is the formula for gradient descent doesn't matter what whether we're talking about W or some other model some huge complicated model with millions of these guys. We still are doing this. We're going downhill in the air. So how do we do that? ": [
+            3384.5,
+            3416.6,
+            84
+        ],
+        "for the zero, so the two is going to come down. I'll get why am I nasty and then some more stuff depending on what why is In this yeah. So when I plot this red line, so, okay. So what I do is I take the derivative here. I set it to zero and then I plug in All My Ex's so I'm going to get one equation for ": [
+            567.2,
+            601.6,
+            11
+        ],
+        "guess in this W or this W. This has to be negative because it's a distance. So minus a minus is a plus if the weight Vector is pointing over here there wouldn't be the solution at BW 0 instead. Joe Derby no minus sign in front because it's a distance. So this confused the students last year and then I realized well this example they're assuming it points this ": [
+            1174.5,
+            1211.9,
+            25
+        ],
+        "guy. Is that Jeff Henry on the Coon? Okay. I didn't really show that but you can tell you can do face recognition really well and you can tell those aren't the same. Okay, so that's it for today. No problem, and then set them to 0 and then self remember that way. Is there a reason why? Are non-linear equations? try talk about how Yeah, some of the coolest ": [
+            4495.9,
+            4575.5,
+            114
+        ],
+        "have to be able to remember what I wrote over there when I get over here, but instead. Okay, I do. Okay. Now I don't have to remember what I said. Ok - t - y. time's the derivative of e tea with respect to y s r e t respected WI Maya the derivative of y with respect to Wi, okay, the derivative of the sum or the difference ": [
+            3645.4,
+            3698.2,
+            91
+        ],
+        "head with the covers. He's really don't want to invert a matrix. Okay, so linear regression find this line. sell my model y equals c n o w x for all the EX's and all the the target. So I'm you know, I want tea and equals a w x and her lots of ends. right, and so And I do that by taking the sum squared error for the ": [
+            3227.1,
+            3272.3,
+            80
+        ],
+        "how much of this we do. And so if the learning rate is too small like I showed you last time you don't get there very fast. If the learning rate is too big. I might actually jump over here and increase the air. And that's what happened when I set the learning rate to to on that perceptron thing in it, and then separating line just left the left ": [
+            2580.8,
+            2607.5,
+            62
+        ],
+        "if you've got some points. And you're trying to find a line. That's as close to all the points as possible. And it turns out there's a closed form solution for this. He's been just invert a matrix or invert use a pseudo inverse and boom you're done and that's why you can call a Matlab function for linear regression and boom you're done. There's no gradient descent, but you ": [
+            3012.0,
+            3043.6,
+            74
+        ],
+        "in there and I had to say off we're on and we're supposed to be off and I want to raise the weights and lower the threshold for off and we're supposed to be on I want to raise the weights. What were the threshold? I think I said the same thing twice over the bias. I just say how I raised the weights in the bias or a lower ": [
+            1258.3,
+            1277.6,
+            27
+        ],
+        "inverse of X and that's provably minimizes the squared error. So I just have to invert a matrix. Now that actually can be iterative to do that. But yeah, that's all you have to do. makes sense Are we happy? Cuz cuz I'm never going to make you invert a matrix. If you have to invert a matrix, you should just go home and crawl into bed and cover your ": [
+            3196.2,
+            3227.1,
+            79
+        ],
+        "inverse, which if you don't know what that is, you should have taken linear algebra now and find out but that's life in the big city Okay, so Alright, so yes, that's what I mean. You invert a matrix that's closed form. This the closed form solution. There's no like You know, it's this time sis and I'm done right in the linear regression case. This is a big vector ": [
+            3125.2,
+            3159.9,
+            77
+        ],
+        "is a bachelor enrollware. I go through all the examples and this is mean squared error and I some all the way to changes up. This is away change and this again is the Delta role because we call this Delta the difference between what you didn't want you should have done. And that's bad. She go through all the examples compute the way change, but you don't change the ": [
+            4222.5,
+            4248.2,
+            106
+        ],
+        "is cross entropy. And so when instead of some squared are you try and minimize cross entropy? You got this. Dudududu dinner. Okay, and so but that's your homework is to try to take that derivative. And what are you going to have to do? well when you get to the part where When you get so I've already done most of their your homework for you here. But when ": [
+            4387.7,
+            4423.4,
+            111
+        ],
+        "is that most of the time a local minimum is good enough. For government work. Yeah, yeah. I am I doing this iterative layover every yeah, that's bad. If the features you correlated, we'll talk about that and a couple weeks. But yeah on every step I go through I can go through all the patterns. That's patch learning figure out which way is add all those little weight changes ": [
+            2709.3,
+            2756.7,
+            66
+        ],
+        "is the derivative of the is the sum of the derivatives. I got - t - y This is a constant. It's given to us by God and the training set. So, this is Zera. And now I've got minus the derivative of y with respect to Wi. Okay, and now I'm just going to get rid of those minus signs cuz there's two of them earlier. Why was expected ": [
+            3698.2,
+            3732.2,
+            92
+        ],
+        "is the mean new one here Mewtwo here. So me one is right here. Mewtwo is right there. Okay using Bayes rule to figure out okay, this is the probably the data given the category, but what we really want is to probably the category given X. And so using Bayes rule, if you don't remember Bayes rule go look it up. I guess that's a probably x given see ": [
+            1850.2,
+            1882.2,
+            42
+        ],
+        "is two-dimensional X1 and X2. And so if this is the equation of y f x equals is 0 We're going to call everything in the dataspace over here category 1 and that's Category 2 and the point of this slide is to show that the show this is a linear discriminant. The W says where this separating line is it's always at right angles to it and the bias ": [
+            1050.0,
+            1089.5,
+            22
+        ],
+        "it's as you go you may learn more by the end because he got a lot of redundancy in the training set. So that would be online learning where you got an example and you actually change the wait for that example. That's stochastic gradient descent. I'm so again. It's the Delta rule. Okay. So there's a generalization to perceptron called logistic regression in places where places that buy that ": [
+            4277.1,
+            4316.6,
+            108
+        ],
+        "it's if the exes are a little if the Sun is a little bit bigger will say it's category 1 if it's a little bit smaller will say it's Category 2. And so this is where the line is. It's where Wyatt of x equals 0. So this is a linear separator because there's a line here. And the weight Vector now in this setup is two dimensional the data ": [
+            1019.0,
+            1050.0,
+            21
+        ],
+        "it, you know, let's let's assume that so y a x xn is WT xn ready to hear X is a vector W is a vector and that's that's our model of the data turns out to be a liner a plane or hyperplane etcetera and we want to get it as close to the data as possible. We're not doing classification. We're doing regression here. We're trying to fit ": [
+            3307.5,
+            3345.8,
+            82
+        ],
+        "know, he said if 6 turns out to be 9, I don't mind. Cuz you got your own world to live in and it ain't going to bother me. T is the target t for Target t for teacher Like X or 1 or 0? Okay, so we don't want to change any constants because then everything will go to hell. Okay. Okay, so that was linear regression. But in ": [
+            3860.9,
+            3905.6,
+            96
+        ],
+        "like the square root of that. It makes it smaller and doesn't make the learning rates us too small too fast. Okay. Okay. So there's all this stuff in here you can look at. And that's what I just did mostly accepting this version. I forgot to put the 1/2 in front and I ended up with this to everywhere. It's really annoying. And I got some some. So this ": [
+            4179.8,
+            4222.5,
+            105
+        ],
+        "linear combination of the inputs we were yeah, so this is a linear combination of the inputs, but it's like the inputs to different powers. And since and we need something we're trying to minimize. Until we get we start with this as the thing. We're trying to minimize as some Square there and it doesn't matter what consonants are out here or even if it's one over n which ": [
+            459.0,
+            490.8,
+            8
+        ],
+        "linear regression is when you're trying to sell it turns out I'm going to the next couple of lectures are going to be magical because and also really boring because I'm going to show that the perceptron rule the Delta roll for the perceptron is going to be the same rule that you wanted. If you're doing linear regression that's going to be the same rule that you want. If ": [
+            2907.1,
+            2936.1,
+            71
+        ],
+        "makes it mean squared error. This formula will have the same minimum no matter whether we if we * 3 where its minimum in terms of the parameters will be the same place. Breaker doesn't matter if it's here or it's up here or it's down here. It's all the minimums always in the same place. So to minimize that thing which is going to be a parabola. Write this ": [
+            490.8,
+            524.0,
+            9
+        ],
+        "mean squared error or whatever and I put a 1/2 in front to make things simple the mean Square. So I need an objective function just like for the polynomials. So I take n equals 1 to Big end of all the examples TN - y n squared okay, and that's what I want to minimize. if I want to do it by gradient descent Why have some W's in ": [
+            3272.3,
+            3307.5,
+            81
+        ],
+        "minimize the square there right the same going to be the same thing. So we want smaller. So we have this expression that we did with the polynomials the sum squared are we want to make it smaller? So we'd like to change our parameters in such a way to make the arrow smaller. And the idea is to take the derivative of the sum squared error with respect to ": [
+            2387.5,
+            2415.7,
+            56
+        ],
+        "minimum. That's gradient descent. So now we plug that into the sun Square there and we'll get the minimum some spray Terry and but we do this for all of the parameters at the same time. And that's what we do usually this. Distance it we go is is the slope and it usually is love going to be really big up here. So you have a learning rate. That's ": [
+            2549.4,
+            2580.8,
+            61
+        ],
+        "neural network at all. But we don't know our date is gas in most things are gaussian. But you know almost everything is calcium in the world that we need to learn weights. But we're still going to interpret the output is the probability of category 1 given the input. So what do we do? Where we do? Tell me you know what we do. Gradient descent. Thank you. How ": [
+            2281.5,
+            2314.6,
+            53
+        ],
+        "of a sun is the sum of the derivatives derivatives or linear write a linear operation so I can always do this and now in order to make my life easier. I'm just going to figure out one of these derivatives, you know, therefore men goes from 1 to n and I just found them up. So I want to just figure out what this is T minus why I ": [
+            3536.2,
+            3567.3,
+            88
+        ],
+        "of like going Okay, so we want - so minus the partial derivative of the son of 1/2. I'm just honest and goes from 1 to Big end of tea and mitos Y and quantity Square that's our objective function that we're trying to go down hill in right? And here by the way. This is our model. Now we're not having a yes or no or one or zero ": [
+            3452.7,
+            3491.2,
+            86
+        ],
+        "of this parameter. So this this is the sum squared error as a function of wi to function no place where it has two values. Okay. So suppose we start out here. What I want to do is compute the slope of this thing that tells me which way will increase the Earth. So I take the negative of the slope and that's just some number, you know, it's the ": [
+            2485.6,
+            2517.1,
+            59
+        ],
+        "oh, it's 1/1 + e to the negative log of A over B, which is just a minus appeal. This is still a / B / B / a and then I can plug what I've got back in. This guy for one and that guy for the other and the P of X is cancel and if I call this whole thing, I've got the signal. In fact, you ": [
+            1988.8,
+            2023.1,
+            46
+        ],
+        "one of our parameters. And you assume all the other parameters are constant that gives you partial derivatives turns out that's the only difference and that tells us which way he'll in the air. But we want to go downhill. So we take the negative of the slope and add that to the parameter. Here's the idea. You should have in your head. at least four Like I said, here's ": [
+            2415.7,
+            2452.0,
+            57
+        ],
+        "orientation as the line. It's a line segment and what I prove there was that w? W x that the inner product of those two is zero, and so they're at right angles. k Okay. Alright, so. Is anybody still confused? So what a perceptron is a linear separator it put linear because the line and it can only separate things where there is a line between them. So that's ": [
+            1356.0,
+            1405.6,
+            30
+        ],
+        "parameters and you can have lots of parameters and next is going to be your design Matrix with all the examples in this is going to be a vector not just be but a whole Vector of the targets for all those examples and then it turns out but it's not a square Matrix because you have more examples than parameters usually and then you have to do a pseudo ": [
+            3099.7,
+            3125.2,
+            76
+        ],
+        "parameters? The wcso a lot of people might think X. It's a variable so must be the parameters. No axes the data. So, you know, we're going to get one where X is here and tea. So this is x t is the target is here and what we do then is we that's point eight or something. We plug-in .84 X everywhere and we Are trying to minimize the ": [
+            331.6,
+            371.5,
+            5
+        ],
+        "really. But this is the nice thing about Square there is there's a global the local minimum in the global minimum are the same once we get into neural networks in multiple layers are going to look so pretty if you think that looks pretty it'll be like this and you're going downhill and you can end up here when the best answer is over here, but the when happens ": [
+            2681.3,
+            2709.3,
+            65
+        ],
+        "right here. It's too big essentially and this is the case where it's one half the year and 1/2 - minimizing thing and it just spends too much time minimizing the minimizing W and not minimizing the error and and so this is with no regularization. That's too low. Here's with too much regularization. That's too high. Here's the soup. That's just the right heat for Goldilocks. Okay. So that's ": [
+            823.2,
+            868.2,
+            18
+        ],
+        "rise over the Run. Right and that's going to be some number and I subtract that number from wi and I get here now. I'm here figure out the slope figure out the negative of the soap by multiplying by -1 surprise surprise, and then I subtract that from Debbie and at some point the subs going to get smaller and smaller and hopefully will converge to where it's a ": [
+            2517.1,
+            2549.4,
+            60
+        ],
+        "some parameter wi and we imagine all the other parameters are fixed it whatever their value is right now so I can play w i n to the formula for sum squared error and for some values of wi it'll be high and for some values of wi and I'll be low. So this is SSE and in fact because it's some squared error. It'll be a parabola. In terms ": [
+            2452.0,
+            2485.6,
+            58
+        ],
+        "space to get as close to the data as possible. Okay, so we're going to give this counterintuitive. We're going to make this hard by giving this counterintuitive derivation. So that are two categories are gaussian. So What you should have in your head is that this is category 1. Do you like this is Category 2? So maybe this is some feature. And these are the A's and these ": [
+            1681.6,
+            1719.9,
+            37
+        ],
+        "squared. It's a parabola in w. okay, so if I multiply this out the teaser constants the W switcher part of the formula are going to get multiplied times each other and I get w0w 0 squared etcetera. So it's a it's a function. I'm trying to get minimized and it's a parabola in the parameters. Okay, so to minimize that I take the derivative of this guy and Saturday ": [
+            524.0,
+            567.2,
+            10
+        ],
+        "stick in an alpha here. And this is the Robin's Monroe procedure from the 50s and they proved some things about what the learning rate oughta be. And how how are you make it smaller and smaller and she go in order to ensure convergence? So they are other three got to be a certain big bigness but it can't be too small. It's got to be just right and ": [
+            4086.8,
+            4119.6,
+            102
+        ],
+        "stuff when when it comes out. It's like holy shit. You're welcome light, except that I'm going to teach about it, right? Here here. You will be jumping the gun as they say it's alright. ": [
+            4575.5,
+            4616.4,
+            115
+        ],
+        "take that initial learning right in / 2 then so if you use Big T to stand for how many iterations you're doing you do that? How do you know if I'm on the teeth time? I'm changing the all the weights I / T that turns out to be too too aggressive and in fact, so that's the theoretical where you have to prove it. Most people use something ": [
+            4152.4,
+            4179.8,
+            104
+        ],
+        "tells us we're along that where that line is along that Vector. So if we were doing or and this was 01, and this was one zero and that 00 and this is one one. We want the network to the system return one if all of those are are on this side of the plane or the line and zero. Otherwise if we are doing and the bias would ": [
+            1089.5,
+            1124.0,
+            23
+        ],
+        "than the line stop wiggling so much. That's because I'm just going back and forth over here. If you're learning rate is higher than that. You'll get down to some point where you're jumping across here and it stays High. And if he then lowers learning right and I'll go there if you keep lowering learning rate. I'll jump back and forth over here and then Okay, yeah. No, not ": [
+            2644.4,
+            2681.3,
+            64
+        ],
+        "that is usually some number between 0 and 1 or 1 or -1 and so it's it's not always a very big number. Where is the bias will change quickly depending on the difference between the Target in the inputs. Yeah. Is that a question or Yeah, yeah. So again celebrity rate. Yeah, this is is essentially corresponds to learning rate of 1. Let's go back to So usually you ": [
+            4052.5,
+            4086.8,
+            101
+        ],
+        "that will call category one is in greater than that will call Category 2. Okay. This now, let's say we get a second feature. Okay, and now all of category two or most of it is over here and category one is over here this and we put a line between them. That's a linear discriminant. Somebody said what's a linear discriminant? I meant what we were just looking at ": [
+            182.7,
+            224.0,
+            1
+        ],
+        "the first X. Annatto, that should be X soup in one equation for the second X1 equation for the third acts. I'll have and equations in whatever number of unknowns my W's are so if I have you know a linear thing I'll have w0w one. So I'll have an equations in two unknowns. That's too many equations. But there's a linear algebra trick that still will minimize it so ": [
+            601.6,
+            634.0,
+            12
+        ],
+        "the stage. Yeah. Yeah, so you pick some value like one or .01. You don't want something bigger than one cuz then you're like Really going across that's why I said it to 2 and it went crazy. And typically though. What you're really doing is is do you anneal the learning rate which is what I did by hand and that simulation. It kept making it smaller and smaller ": [
+            2607.5,
+            2644.4,
+            63
+        ],
+        "the weights in the bias. So it's pee or characters on the slide. Okay. An end here I'm just showing that the separating line. That's what you had to do in your homework. You had to make this into slope intercept form MX plus b and I didn't drive it because he had to do it. And this is just a proof that this line is perpendicular to the weight ": [
+            1277.6,
+            1314.2,
+            28
+        ],
+        "this case for linear regression T, you know, all your examples are going to be these points you're trying to fit and so particular X. This is T. It's not one or zero because it's linear regression for this axe. It's this tea Etc. So these RX tea pairs. Input output desired output and because we're minimizing the squared error, which if you take the square root, you got euclidean ": [
+            3905.6,
+            3941.6,
+            97
+        ],
+        "this normalizing constant. Okay. Okay. okay, so now we've got a formula for weather what the probability of it being in category 1 is so if I said call that a happy then I can divide through by a okay, then I can. Take this and say hello. This is the e to the log of be over a which is just be over at and then I can say ": [
+            1947.4,
+            1988.8,
+            45
+        ],
+        "this way and on average they tend to go down the right direction. Doesn't matter actually so I can put one over N and is fixed for my training set. You know, maybe I've got a hundred example, so it's one over a hundred. That's the average if the minimum is going to be in exactly the same place. I don't remember what I told you to do in the ": [
+            2829.7,
+            2867.1,
+            69
+        ],
+        "up. And so you go down. So the sum squared error is the sum of the squared are over every pattern. So you have to do this forever and Eagles won to begin. And you add all those up? And then you go downhill or you can take one pattern one example and go downhill just based on that and because you're only looking at one example, it's not this, ": [
+            2756.7,
+            2793.1,
+            67
+        ],
+        "want to drop those in so I don't have to draw them cuz I'm lazy. Okay. All right, everybody with me so far when I get all done. I can put it back in here and put little ends there and everybody would be happy. Okay. So what is that? bats - t - y times two cuz I brought the two down and I've got that too in the ": [
+            3567.3,
+            3603.7,
+            89
+        ],
+        "was a a and that was be so I didn't want to write that all over the place. right So I just plugged it back in. And a is p of x given see one P2P of see of 1 and over this and B is probably a C2. Blah blah blah blah blah, okay. So I just was simplified it by calling this thing a / A + B ": [
+            2209.3,
+            2247.5,
+            51
+        ],
+        "was a linear discriminant on that side, but here's an example of a linear discriminant. You have some line and eating over here will call category to anything over here will call category 1 and write and And the way we do that is we have some function for category 1 some function for category 2 and if one is bigger than the other then we call a category that ": [
+            224.0,
+            256.6,
+            2
+        ],
+        "was inspected wi is why Prime of x? X 2 driven of X with respect to W. I wear this is the weighted some of your inputs. But if if everything works out just right that'll cancel out with something else and you got the chain rule you get you get the Delta roll. Okay. All right, and I also showed although I didn't really show you that guy that ": [
+            4458.5,
+            4495.9,
+            113
+        ],
+        "way and that turns out to make W negative which means minus minus and plus you were okay. It's a distance. Okay. Alright any other questions? Yes. So the bias is always the opposite of threshold. So w 0 equals minus Theta. But we we made Theta go away earlier because it made makes the learning roll simpler to describe. So those are elected last year's slides. I had stayed ": [
+            1211.9,
+            1258.3,
+            26
+        ],
+        "we have two dimensions. Okay. Okay. Okay part of your homework. Okay, we have this thing where y of x equals 0 that's but why of Acts? is equal to w wtx for WW1 X1 + W2 X2. That's the inner product of the weight factor and x and I'm leaving out the bias here. And so that's equal to zero. Midwives XC that's where where this is zero. If ": [
+            950.9,
+            1019.0,
+            20
+        ],
+        "we take derivatives of the perceptron we get 0 and 0 is the slope is 0 everywhere with this. We actually can get it slow. So that's good. Okay. So yeah, so the ideas if it was to D like the or function over here it would be like this. It's still a linear separator because the hill is the same everywhere. It's still aligned, but it's got this ramp ": [
+            1593.0,
+            1630.7,
+            35
+        ],
+        "we're going to do logistic regression where y of x a where a equals the weight of time of the inputs from April 02 D of WI that's a and why has some I'm just writing this because we call this the activation function for perceptron. It's that weird graph for logistic regression. It's 1/1 + e to the minus a and that's shaped like this. It's called a squash ": [
+            1500.3,
+            1556.3,
+            33
+        ],
+        "weights. Character another one change the way it's cuz it don't change the way she just some them all up and then you take the average and changed the weights. Once this is typically a bad idea because a lot of times the data set is redundant in a while. So everybody's happy face looks kind of the same because you got this big smile if you change the way ": [
+            4248.2,
+            4277.1,
+            107
+        ],
+        "were why is just taking the input and multiplying at times the way it's doing the inner product? Okay. So what is that? Well, it's minus the Sun from n goes from 1 to Big end of the partial derivative of 10 - why'n quantity squared over weather spec to win I'm going to stick a to down there. I just moved it to it. So the some the derivative ": [
+            3491.2,
+            3536.2,
+            87
+        ],
+        "what it can compute only linearly separable things. And if it was 3D then we have a plane and if it's 4D we have a hyperplane & Beyond hyper playing all the way. All the way down or up. Okay. butcher to okay picture to since we're since I program and are used to program back when I programmed and see we count from 0 to swear computer scientist. Okay. ": [
+            1405.6,
+            1454.3,
+            31
+        ],
+        "what that was any questions about that now. Okay. kfin just happened. Okay, let's see if I can remember what the confusions were here. That is Frank rosenblatt on the left. Okay, so why? why so a lot of people had a question about What's going on? Okay, what's what is this diagram, you know WTF Okay, so Does not do anything, okay? Okay. So what's going on here? We ": [
+            868.2,
+            950.9,
+            19
+        ],
+        "whatever it is squared Etc. So it's it's all conscience accept the W's Yeah. and -1 paper plane as a linear combination So let me just stop for a second and say in some sense the XX Square... X to the m are the features this time, right? So we just take the features and takacs and we square at we Cubit cornet get whatever. Is that make sense. the ": [
+            409.4,
+            459.0,
+            7
+        ],
+        "which allows us to go from zero one class for our new class first gives us a probability of category membership. And unlike linear regression for logistic regression. There's no closed form formula anymore. It's not linear equations anymore. And so we have to use gradient descent. Okay, and I don't raid gradient descent for linear regression, which can be useful for Big Data. Minimizing mean squared error leads to ": [
+            4316.6,
+            4354.7,
+            109
+        ],
+        "which the weight Vector is these multipliers on the polynomial right? Terms. Lambda says how much we care about it if lambda zero will have no regularization. If Lambda is 1 then we're going to try and balance these two to minimize them both. And if land is 0000015 then we mostly care about this but we also want to make the weight Vector sure why is making the weight ": [
+            740.6,
+            781.2,
+            16
+        ],
+        "you can solve these regression Problems by using simple linear algebra tricks that's called the pseudo inverse. Yeah, okay. And so, you know I can so it's there's too many points for the unknowns. But in the end you'll get like the average height of all those points were that or that or that or that here? I'm going to have nine equations and nine on nones. And so I ": [
+            634.0,
+            668.5,
+            13
+        ],
+        "you get to the park where you got this? PN - Y and X the derivative of y with respect to Wi now I've got to Why is no longer just a weighted sum of the inputs? It's the logistic function. And so we have to take the derivative of that and then take the derivative of the weighted sum by using the chain rule. So dravot evolved, why vax ": [
+            4423.4,
+            4458.5,
+            112
+        ],
+        "you have to change it as certain rate the rate you change the learning rate. Is he start out with some learning right? Say alphazero and then you go through all the data change the weight. Then you take Alpha zero 1/1 that doesn't change much. Then you go through the data again the second time it's called an epic when you go through all the data and now I ": [
+            4119.6,
+            4152.4,
+            103
+        ],
+        "you know, this is the sum of many parabolas for one for each example. So if I just take one example and go downhill for that, it's not necessarily the same as the direction that I would get if I went through all the examples. so that's called stochastic gradient descent because you randomize the order the pattern so you get random examples and they go this way this way ": [
+            2793.1,
+            2829.7,
+            68
+        ],
+        "you're doing logistic regression and it's going to be the same role that you want. If you're doing multinomial regression softmax regression, so Do do do do so. That's the theme song to The Twilight Zone by the way, you're too young for that. Don't watch it because parental advisory. But anyway, so they're pretty good. But do you want the Twilight Zone was Rod Serling introducing it? Anyway, you ": [
+            2936.1,
+            2979.2,
+            72
+        ],
+        "you're in C1. So here's C1. It's this distribution. These are the probabilities of being an axe have a high probability of being here low probability of being here in here. That's the probability density function of the sea ones and this is the probability density function of the sea to S. So it's that one And that's just the formula for a gassy and the only difference between them ": [
+            1818.5,
+            1850.2,
+            41
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_3.flac",
+    "Full Transcript": "Okay, let's get started.  check  Okay, this is the first lecture and from what I understand nobody understood. Is that is that right?  Okay, so I just wanted to like point of few things out.  Okay, so  At first we took one feature of A's and B's and we figured out. Okay, so this is the feature and we're going to put a threshold somewhere here in anything less than that will call category one is in greater than that will call Category 2.  Okay.  This now, let's say we get a second feature. Okay, and now all of category two or most of it is over here and category one is over here this and we put a line between them.  That's a linear discriminant. Somebody said what's a linear discriminant? I meant what we were just looking at was a linear discriminant on that side, but here's an example of a linear discriminant. You have some line and eating over here will call category to anything over here will call category 1 and write and  And the way we do that is we have some function for category 1 some function for category 2 and if one is bigger than the other then we call a category that category.  Okay, any questions so far because you got if nobody understood it then we have to like stop. Someone said I could just go slower. So I think I might talk. Okay.  Okay. So here's the second thing people didn't understand. This is  a regression example where you're trying to get as close to some data as possible. Some blue dots that are generated from the screen curve by adding and adding some normally distributed noise. You just have a gaussian. You don't go to conferences and call it a normal distribution. You say a gaussian distribution with 0 mean so we just add little bits to the green line and we get that data. This is what we're going to try and fit to the data, which is the polynomial of degree m.  Where which things are the parameters?  The wcso a lot of people might think X. It's a variable so must be the parameters. No axes the data. So, you know, we're going to get one where X is here and tea. So this is x t is the target is here and what we do then is we that's point eight or something. We plug-in .84 X everywhere and we  Are trying to minimize the difference between this and tea and we'll get an equation in m + 1 anones.  Okay, the unknowns reason W's now we take a second example, we got an equation and plus one in their rooms. Every Point here generates an equation. That's a polynomial. Where was a polynomial until we plugged X in and now it's just like w 0 + W 1 x whatever it is plus W210 whatever it is squared Etc. So it's it's all conscience accept the W's  Yeah.  and -1 paper plane as a linear combination  So let me just stop for a second and say in some sense the XX Square... X to the m are the features this time, right? So we just take the features and takacs and we square at we Cubit cornet get whatever. Is that make sense.  the linear combination of the inputs we were  yeah, so this is a linear combination of the inputs, but it's like the inputs to different powers.  And since and we need something we're trying to minimize.  Until we get we start with this as the thing. We're trying to minimize as some Square there and it doesn't matter what consonants are out here or even if it's one over n which makes it mean squared error.  This formula will have the same minimum no matter whether we if we * 3 where its minimum in terms of the parameters will be the same place.  Breaker doesn't matter if it's here or it's up here or it's down here. It's all the minimums always in the same place.  So to minimize that thing which is going to be a parabola.  Write this squared. It's a parabola in w.  okay, so if I multiply this out the teaser constants  the W switcher part of the formula are going to get multiplied times each other and I get w0w 0 squared etcetera. So it's a it's a function. I'm trying to get minimized and it's a parabola in the parameters.  Okay, so to minimize that I take the derivative of this guy and Saturday for the zero, so the two is going to come down. I'll get why am I nasty and then some more stuff depending on what why is  In this yeah.  So when I plot this red line, so, okay. So what I do is I take the derivative here. I set it to zero and then I plug in All My Ex's so I'm going to get one equation for the first X.  Annatto, that should be X soup in one equation for the second X1 equation for the third acts. I'll have and equations in whatever number of unknowns my W's are so if I have you know a linear thing I'll have w0w one. So I'll have an equations in two unknowns.  That's too many equations. But there's a linear algebra trick that still will minimize it so you can solve these regression Problems by using simple linear algebra tricks that's called the pseudo inverse.  Yeah, okay. And so, you know I can so it's there's too many points for the unknowns. But in the end you'll get like the average height of all those points were that or that or that or that here? I'm going to have nine equations and nine on nones. And so I can fit the data perfectly.  1 2 3 4  Yeah, solve 9 equations and nine unknown so I can solve those using pseudoinverse and I'll be done.  Follow all of that. This is just an example in order to get to.  You know the idea of overfitting we're not going to do any polynomial fitting ever.  In this class. Okay weird. It's just an example.  Okay.....  Somebody asked what's Lambda Lambda just says how much we care. So one approaches to get more data and then I've got so much to say to the polynomial has to come as close to it as possible.  But the other approach to making the model fit the data better is to have something else we minimize. What is this do if we want to minimize this were trying to shorten the weight Vector which the weight Vector is these multipliers on the polynomial right? Terms. Lambda says how much we care about it if lambda zero will have no regularization.  If Lambda is 1 then we're going to try and balance these two to minimize them both.  And if land is 0000015 then we mostly care about this but we also want to make the weight Vector sure why is making the weight Vector shorter Occam's razor.  Yeah.  You don't need less weights. You need smaller weights. So it would stay would fit in a little box as opposed to Big Box. Okay, so that's what I'm talking about here.  And we're going to you're going to do that in your homework your programming assignment. I think do we have that in the programming assignment? I don't remember. Okay play here lambdas, just right here. It's too big essentially and this is the case where it's one half the year and 1/2 - minimizing thing and it just spends too much time minimizing the minimizing W and not minimizing the error and and so this is with no regularization. That's too low.  Here's with too much regularization. That's too high. Here's the soup. That's just the right heat for Goldilocks.  Okay.  So that's what that was any questions about that now.  Okay.  kfin  just happened.  Okay, let's see if I can remember what the confusions were here.  That is Frank rosenblatt on the left.  Okay, so why?  why so a lot of people had a question about  What's going on?  Okay, what's what is this diagram, you know WTF Okay, so  Does not do anything, okay?  Okay. So what's going on here? We we have two dimensions.  Okay.  Okay.  Okay part of your homework. Okay, we have this thing where y of x equals 0 that's but why of Acts?  is equal to  w  wtx for WW1 X1 + W2 X2. That's the inner product of the weight factor and x and I'm leaving out the bias here. And so that's equal to zero.  Midwives XC that's where where this is zero.  If it's if the exes are a little if the Sun is a little bit bigger will say it's category 1 if it's a little bit smaller will say it's Category 2. And so this is where the line is. It's where Wyatt of x equals 0. So this is a linear separator because there's a line here.  And the weight Vector now in this setup is two dimensional the data is two-dimensional X1 and X2. And so if this is the equation of y f x equals is 0  We're going to call everything in the dataspace over here category 1 and that's Category 2 and the point of this slide is to show that the show this is a linear discriminant.  The W says where this separating line is it's always at right angles to it and the bias tells us we're along that where that line is along that Vector. So if we were doing or and this was 01, and this was one zero and that 00 and this is one one. We want the network to the system return one if all of those are are on this side of the plane or the line and zero. Otherwise if we are doing and the bias would be different in this line would be over here just cutting off when one  Okay.  And given the solution we found like one 1-1 it would be exactly at 45 degrees here.  Right and -1 would make this one over that.  What should be the square root of 2?  Okay.  Any questions now?  What is a W-9?  Why is W-9 have to be negative all the data's over here, I guess in this W or this W. This has to be negative because it's a distance. So minus a minus is a plus if the weight Vector is pointing over here there wouldn't be the solution at BW 0 instead.  Joe  Derby no minus sign in front because it's a distance. So this confused the students last year and then I realized well this example they're assuming it points this way and that turns out to make W negative which means minus minus and plus you were okay. It's a distance.  Okay.  Alright any other questions?  Yes.  So the bias is always the opposite of threshold. So w 0 equals minus Theta.  But we we made Theta go away earlier because it made makes the learning roll simpler to describe. So those are elected last year's slides. I had stayed in there and I had to say off we're on and we're supposed to be off and I want to raise the weights and lower the threshold for off and we're supposed to be on I want to raise the weights. What were the threshold? I think I said the same thing twice over the bias. I just say how I raised the weights in the bias or a lower the weights in the bias. So it's pee or characters on the slide.  Okay.  An end here I'm just showing that the separating line. That's what you had to do in your homework. You had to make this into slope intercept form MX plus b and I didn't drive it because he had to do it.  And this is just a proof that this line is perpendicular to the weight factor, and that's because just to make that a little clearer. What's a x to the X A- XP?  okay, so here is the line here is like  Where we are and see if we have x a and x b and we treat them at their points on this line, and we treat them as nectar.  Then x a minus XP. Is this Factor?  So that's in the same orientation as the line. It's a line segment and what I prove there was that w?  W x that the inner product of those two is zero, and so they're at right angles.  k  Okay. Alright, so.  Is anybody still confused?  So what a perceptron is a linear separator it put linear because the line and it can only separate things where there is a line between them. So that's what it can compute only linearly separable things. And if it was 3D then we have a plane and if it's 4D we have a hyperplane & Beyond hyper playing all the way.  All the way down or up.  Okay.  butcher to okay  picture to  since we're since I program and are used to program back when I programmed and see we count from 0 to swear computer scientist.  Okay.  So we'll just stick regression. So the whole idea here is  so in a perceptron  You have a damn it. Okay to take one of these here and one over here.  Okay, so remember a perceptron?  Is like that?  And so it's zero.  Everything over here evaluates to zero when we plug it into the perceptron everything over here evaluates to one when we plug it into the perceptron. Now we're going to do logistic regression where y of x a where a equals the weight of time of the inputs from April 02 D of WI  that's a  and why has some I'm just writing this because we call this the activation function for perceptron. It's that weird graph for logistic regression. It's 1/1 + e to the minus a  and that's shaped like this. It's called a squash and function cuz it takes the line and squashes it down. It's also called the sigmoid which is Greek for asked basically or S. Like if you tell it your ad this looks like an s  Okay.  Sirius okay, that's the activation function and it's nice and smooth instead of the perceptron which isn't smooth. It's got a discontinuity and since we're going to use calculus and take derivatives if we take derivatives of the perceptron we get 0 and 0 is the slope is 0 everywhere with this. We actually can get it slow. So that's good.  Okay. So yeah, so the ideas if it was to D like the or function over here it would be like this.  It's still a linear separator because the hill is the same everywhere. It's still aligned, but it's got this ramp Behavior.  Hey.  Sorry.  so  so we have this monotonic activation function and here again, I'm separating out the bias.  So it's the inner product between the weights and the input plus this bias term and G is the sigmoid.  Yeah, so okay, you can also Imagine the same network being linear regression Network where G would be the identity function.  And then were were actually plotting a line in the space to get as close to the data as possible.  Okay, so we're going to give this counterintuitive. We're going to make this hard by giving this counterintuitive derivation. So that are two categories are gaussian. So  What you should have in your head is that this is category 1.  Do you like this is Category 2?  So maybe this is some feature.  And these are the A's and these are the bees.  Okay, just imagine that's what happens right? So this could be  You know the value of the feature and if you remember and go back to that first lecture where he had histograms, they're kind of gaussian dish just like I'm vegan dish pecans.  I eat pizza. So this could be your midterm grade. Right? And this is you guys and this is some monkeys taking the class. So that's really easy to separate that's less though. So we're going to have the separated with a gaussian over with a logistic function.  And what it's going to do is it's going to be low over here.  And it's going to start to go up and reach about a half here because it's 50-50 whether you're in category or category B, and then it gets higher over here and it's a high probability of being a b.  Okay, so that's our two gaussians. These have equal variance these don't.  and so  What this says up here. I used to have all blue slides but people said that hurt their heads so I can get all the way to switching this to these are just cut out from the other side. So the probability of an x given that you're in C1. So here's C1. It's this distribution. These are the probabilities of being an axe have a high probability of being here low probability of being here in here. That's the probability density function of the sea ones and this is the probability density function of the sea to S. So it's that one  And that's just the formula for a gassy and the only difference between them is the mean new one here Mewtwo here. So me one is right here. Mewtwo is right there.  Okay using Bayes rule to figure out okay, this is the probably the data given the category, but what we really want is to probably the category given X.  And so using Bayes rule, if you don't remember Bayes rule go look it up. I guess that's a probably x given see One X and probably see one over the probability of the data.  okay, then probably see to is that so now if we know the prior probability of one category in the prior probably the other usually we just  They're just one half but you can have data that's skewed in some way by there's a lot more of one category than the other and this the probability of the data. Then it turns out since these two some to one.  That means that this plus this has to some to one so we can put that plus the numerator.  Sum that up on the bottom and that normalizes it.  To be in a we don't have to actually no pfx.  Since we know the Sounder one, there's only two categories then that means that the denominator has to be this normalizing constant. Okay.  Okay.  okay, so now we've got a formula for weather what the probability of it being in category 1 is so if I said call that a happy then I can divide through by a  okay, then I can.  Take this and say hello. This is the e to the log of be over a which is just be over at  and then  I can say oh, it's 1/1 + e to the negative log of A over B, which is just a minus appeal. This is still a / B / B / a and then  I can plug what I've got back in.  This guy for one and that guy for the other and the P of X is cancel and if I call this whole thing, I've got the signal.  In fact, you can take anything and turn it into the sigmoid pretty much following along. But anyway now I've got a logistic regression.  categorizar so as that thing  which Is possessing  Applied Adela just took already another words to probably class one follows a sigmoid as a function of the log ratio of the probability of Class C to the pro. That is the law God's basically cuz these are going to cancel because they're usually equal  So that's the kind of motivation for the sigmoid.  Yeah, cuz otherwise, she'll Hell Breaks Loose.  It's not so simple is this.  So in other words, we can interpret the output of the sigmoid as a probability the posterior probability. It's called in spaceland.  It's probably a category 1 given X and then that thing can be written as something that looks like.  The weight and some of the input supposed to buy us if I set the weighted sum of the end if I said wa equal to that and W 0 equal to this crazy thing and so I can interpret it as I can just read those. I can just look at the parameters of those two gaussians and set the weights.  Right away. I just plug into this formula and I'm done. So I haven't had to learn the weights. I set the way it's ya.  So proud of you.  Says what?  Yeah.  How does that simplify to what?  so so yours be over at  right if i r a z e to the log of that natural log of that then I get B over a  dudududu dudududu, okay.  here  Oh, I didn't I just plugged it in so that was a a and that was be so I didn't want to write that all over the place.  right  So I just plugged it back in.  And a is p of x given see one P2P of see of 1 and over this and B is probably a C2.  Blah blah blah blah blah, okay.  So I just was simplified it by calling this thing a / A + B and then when I got here I plugged those things back in for NBA.  Yeah, okay, who's at the desk that okay.  Okay.  Okay, so that's really nice, but we can't assume that our data is going to be gaussian.  If we happen to know they're gassing of this mean in the same variance and I can just set the weights and I'm done. I don't have to train a neural network at all. But we don't know our date is gas in most things are gaussian. But you know almost everything is calcium in the world that we need to learn weights. But we're still going to interpret the output is the probability of category 1 given the input.  So what do we do?  Where we do?  Tell me you know what we do.  Gradient descent. Thank you. How are you? Got the sides from last OK as I've been used to learn machine translation from English to French French to English Setter Etc has been used for playing training a system to play Go things are going to drive your car soon later in the quarter will see how you can even have a system learn to program learning program to recognize faces and emotions object recognition image captioning generating new images of faces that scans or generative adversarial networks, which I finally did a lecture on last.  For the grad students. I'll probably give it to you too.  So what is gradient descent you have some objective function something that you're trying to minimize. How about minimizing errors seems like a good idea. That's what you want to do on your midterm. Right? You might as well minimize the square there right the same going to be the same thing. So we want smaller. So we have this expression that we did with the polynomials the sum squared are we want to make it smaller? So we'd like to change our parameters in such a way to make the arrow smaller.  And the idea is to take the derivative of the sum squared error with respect to one of our parameters.  And you assume all the other parameters are constant that gives you partial derivatives turns out that's the only difference and that tells us which way he'll in the air.  But we want to go downhill. So we take the negative of the slope and add that to the parameter. Here's the idea. You should have in your head.  at least four  Like I said, here's some parameter wi and we imagine all the other parameters are fixed it whatever their value is right now so I can play w i n to the formula for sum squared error and for some values of wi it'll be high and for some values of wi and I'll be low. So this is SSE and in fact because it's some squared error. It'll be a parabola.  In terms of this parameter. So this this is the sum squared error as a function of wi to function no place where it has two values. Okay. So suppose we start out here.  What I want to do is compute the slope of this thing that tells me which way will increase the Earth. So I take the negative of the slope and that's just some number, you know, it's the rise over the Run.  Right and that's going to be some number and I subtract that number from wi and I get here now. I'm here figure out the slope figure out the negative of the soap by multiplying by -1 surprise surprise, and then I subtract that from Debbie and at some point the subs going to get smaller and smaller and hopefully will converge to where it's a minimum.  That's gradient descent. So now we plug that into the sun Square there and we'll get the minimum some spray Terry and but we do this for all of the parameters at the same time.  And that's what we do usually this.  Distance it we go is is the slope and it usually is love going to be really big up here. So you have a learning rate. That's how much of this we do.  And so if the learning rate is too small like I showed you last time you don't get there very fast. If the learning rate is too big. I might actually jump over here and increase the air.  And that's what happened when I set the learning rate to to on that perceptron thing in it, and then separating line just left the left the stage. Yeah.  Yeah, so you pick some value like one or .01. You don't want something bigger than one cuz then you're like  Really going across that's why I said it to 2 and it went crazy. And typically though. What you're really doing is is do you anneal the learning rate which is what I did by hand and that simulation. It kept making it smaller and smaller than the line stop wiggling so much. That's because I'm just going back and forth over here. If you're learning rate is higher than that. You'll get down to some point where you're jumping across here and it stays High.  And if he then lowers learning right and I'll go there if you keep lowering learning rate. I'll jump back and forth over here and then  Okay, yeah.  No, not really. But this is the nice thing about Square there is there's a global the local minimum in the global minimum are the same once we get into neural networks in multiple layers are going to look so pretty if you think that looks pretty it'll be like this and you're going downhill and you can end up here when the best answer is over here, but the when happens is that most of the time a local minimum is good enough.  For government work. Yeah, yeah.  I am I doing this iterative layover every yeah, that's bad. If the features you correlated, we'll talk about that and a couple weeks. But yeah on every step I go through I can go through all the patterns. That's patch learning figure out which way is add all those little weight changes up.  And so you go down. So the sum squared error is the sum of the squared are over every pattern. So you have to do this forever and Eagles won to begin.  And you add all those up?  And then you go downhill or you can take one pattern one example and go downhill just based on that and because you're only looking at one example, it's not this, you know, this is the sum of many parabolas for one for each example. So if I just take one example and go downhill for that, it's not necessarily the same as the direction that I would get if I went through all the examples.  so  that's called stochastic gradient descent because you randomize the order the pattern so you get random examples and they go this way this way this way and on average they tend to go down the right direction.  Doesn't matter actually so I can put one over N and is fixed for my training set. You know, maybe I've got a hundred example, so it's one over a hundred. That's the average if the minimum is going to be in exactly the same place.  I don't remember what I told you to do in the assignment, but whatever I said, that's what you do.  So, you know it by scaling, you know, if you have one over and then the sum is a lot smaller. It's the average not the total sum squared error. And now if I change the learning rate I can account for that.  So cuz it's going to scale the weight changes.  Okay.  Okay, so I haven't told you this but linear regression is when you're trying to sell it turns out I'm going to the next couple of lectures are going to be magical because and also really boring because I'm going to show that the perceptron rule the Delta roll for the perceptron is going to be the same rule that you wanted. If you're doing linear regression that's going to be the same rule that you want. If you're doing logistic regression and it's going to be the same role that you want. If you're doing multinomial regression softmax regression, so  Do do do do so. That's the theme song to The Twilight Zone by the way, you're too young for that.  Don't watch it because parental advisory. But anyway, so they're pretty good. But do you want the Twilight Zone was Rod Serling introducing it?  Anyway, you can probably find it on Netflix or somewhere. I'm not sure but it's it's a great nothing like it but the theme song is do do do do do do do do and that looks like  Who you know something weird is going on here in the Twilight Zone.  Okay, so  I didn't tell you this but linear regression you're trying to draw a line through some data, you know if you've got some points.  And you're trying to find a line. That's as close to all the points as possible.  And it turns out there's a closed form solution for this. He's been just invert a matrix or invert use a pseudo inverse and boom you're done and that's why you can call a Matlab function for linear regression and boom you're done. There's no gradient descent, but you can do gradient descent and head turns out with linear regression does is minimizes the sum squared error, that means Burger.  you know, it's like  ax equals B right now if I want to know what exit is I set x equal to be?  x a 2-1  Okay now replace all these with matrices.  It's a big Matrix.  yeah, I mean like this is W, right and this is your parameters and you can have lots of parameters and next is going to be your design Matrix with all the examples in this is going to be a vector not just be but a whole Vector of the targets for all those examples and then it turns out but it's not a square Matrix because you have more examples than parameters usually and then you have to do a pseudo inverse, which if you don't know what that is, you should have taken linear algebra now and find out but that's life in the big city Okay, so  Alright, so yes, that's what I mean. You invert a matrix that's closed form. This the closed form solution. There's no like  You know, it's this time sis and I'm done right in the linear regression case. This is a big vector and this is a pseudo inverse of a witch has a big Matrix and and these are the W's  Oh, actually it should be the other way around. So let's say w x equals the targets. Okay now to get what w is I have the targets X the inverse of x.  Well, when all these are matrices and X is not Square its rectangular then you do the pseudo inverse of X and that's provably minimizes the squared error. So I just have to invert a matrix.  Now that actually can be iterative to do that. But yeah, that's all you have to do.  makes sense  Are we happy? Cuz cuz I'm never going to make you invert a matrix. If you have to invert a matrix, you should just go home and crawl into bed and cover your head with the covers. He's really don't want to invert a matrix. Okay, so linear regression find this line.  sell my model y equals c n o w x  for all the EX's and all the the target. So I'm you know, I want tea and equals a w x and her lots of ends.  right, and so  And I do that by taking the sum squared error for the mean squared error or whatever and I put a 1/2 in front to make things simple the mean Square. So I need an objective function just like for the polynomials. So I take n equals 1 to Big end of all the examples TN - y n  squared  okay, and that's what I want to minimize.  if I want to do it by gradient descent  Why have some W's in it, you know, let's let's assume that so y a x  xn is WT  xn ready to hear X is a vector W is a vector and that's that's our model of the data turns out to be a liner a plane or hyperplane etcetera and we want to get it as close to the data as possible. We're not doing classification. We're doing regression here. We're trying to fit a line to the data.  so  what are we do?  We want to minimize this and we have all these parameters.  and the rule for gradient that says  wi is the old wi so this is one of our parameters - the partial derivative of the SSE.  Weather expected that parameter. That's exactly what I've been saying all on this is the slope with respect to that one parameter. We figure out what that is and then we going the opposite direction. So this is that little change of w that's making the error smaller. This is the formula for gradient descent doesn't matter what whether we're talking about W or some other model some huge complicated model with millions of these guys. We still are doing this.  We're going downhill in the air. So how do we do that? We need to figure out this guy.  Right, and that's the thing. We're going to add to W to make the air go down, right?  So we want to know.  What is -2 partial derivative?  Of the air with inspected wi, what is that?  okay, and the rest of the slides in this the side deck do this, but I'm doing it more slowly so you can follow me instead of like going  Okay, so we want - so minus the partial derivative of the son of 1/2. I'm just honest and goes from 1 to Big end of tea and mitos Y and quantity Square that's our objective function that we're trying to go down hill in right?  And here by the way.  This is our model.  Now we're not having a yes or no or one or zero were why is just taking the input and multiplying at times the way it's doing the inner product?  Okay.  So what is that? Well, it's minus the Sun from n goes from 1 to Big end of the partial derivative of 10 - why'n  quantity squared  over  weather spec to win I'm going to stick a to down there. I just moved it to it. So the some the derivative of a sun is the sum of the derivatives derivatives or linear write a linear operation so I can always do this and now in order to make my life easier.  I'm just going to figure out one of these derivatives, you know, therefore men goes from 1 to n and I just found them up. So I want to just figure out what this is T minus why I want to drop those in so I don't have to draw them cuz I'm lazy.  Okay.  All right, everybody with me so far when I get all done. I can put it back in here and put little ends there and everybody would be happy. Okay. So what is that?  bats - t - y  times two cuz I brought the two down and I've got that too in the denominator WI.  And that's why I put the 1/2 there X the derivative of T. Minus y  I'm sorry. I don't need this year WI.  Already, it's starting to look kind of like the the Delta Road got that Delta there.  All I did was use the chain Rule and take the driver this thing and then I take the derivative of the thing inside of it.  Okay.  Okay, I have to be able to remember what I wrote over there when I get over here, but instead.  Okay, I do.  Okay. Now I don't have to remember what I said. Ok - t - y.  time's the derivative of e  tea with respect to y s r e t respected WI  Maya the derivative of y with respect to Wi, okay, the derivative of the sum or the difference is the derivative of the is the sum of the derivatives. I got - t - y  This is a constant. It's given to us by God and the training set.  So, this is Zera.  And now I've got minus the derivative of y with respect to Wi.  Okay, and now I'm just going to get rid of those minus signs cuz there's two of them earlier. Why was expected WI?  Okay, and now what's why why is the inner product of the weights for the inputs?  So that becomes t- why is a derivative of the Sun as I goes from 0 to D of wixi with respect to Wi oops, I better use a different variable have i j.  Jay  Jay okay. So what's the story of active?  XY why because we're assuming that all the other W's are constants when we're doing a partial derivative. And so and this is constant because it's given to us in the training set. And so the only part of this song that's not zero is the one where Jay equals I and so we have the derivative wixii over wi which is just x i  Oh, you're you're talking. Thank you.  Okay, so this because you can keep doing that.  As long as your hand doesn't get too hot.  We got T minus y x x i.  Do do do do do do do do so. That's that that's right. That's the equals wi plus T. Minus y times the input on that line.  Okay question or is that just a comment?  Because teaser constant and you know, unless your Jimi Hendrix, you don't think you can change constants. You know, he said if 6 turns out to be 9, I don't mind.  Cuz you got your own world to live in and it ain't going to bother me.  T is the target t for Target t for teacher  Like X or 1 or 0?  Okay, so we don't want to change any constants because then everything will go to hell.  Okay.  Okay, so that was linear regression.  But in this case for linear regression T, you know, all your examples are going to be these points you're trying to fit and so particular X.  This is T. It's not one or zero because it's linear regression for this axe. It's this tea Etc. So these RX tea pairs.  Input output desired output and because we're minimizing the squared error, which if you take the square root, you got euclidean distance. We're going to find the line that's closest to all the data.  Okay. So this is a weird way to do linear regression if we got a closed form formula. Why would we ever want to do this?  any ideas  computational say what?  Why does it?  Yeah, so if this is the year of big data or jucunda data, whatever and so if I have a matrix this big and I have to invert it. It might not even fit in memory.  But if I can take some examples and change the way it's for every example using the Delta rule that I could do it interactive lie, and I won't run out of memory.  I'm not trying to invert a big Matrix again. You don't want to have to invert a matrix if you can avoid it.  Okay.  Hey other questions.  Oh, it's it's the exactly the same right? I didn't I didn't say anything about the bias. We got to do something else know the bias is awake from unit. That's always one.  Enzo W. 0 equals the old W 0 + t - y  * 1  so this is why the bias off and changes more quickly in a neural net because X in the neuron that is usually some number between 0 and 1 or 1 or -1 and so it's it's not always a very big number. Where is the bias will change quickly depending on the difference between the Target in the inputs. Yeah. Is that a question or  Yeah, yeah. So again celebrity rate. Yeah, this is is essentially corresponds to learning rate of 1. Let's go back to  So usually you stick in an alpha here.  And this is the Robin's Monroe procedure from the 50s and they proved some things about what the learning rate oughta be. And how how are you make it smaller and smaller and she go in order to ensure convergence?  So they are other three got to be a certain big bigness but it can't be too small. It's got to be just right and you have to change it as certain rate the rate you change the learning rate. Is he start out with some learning right? Say alphazero and then you go through all the data change the weight.  Then you take Alpha zero 1/1 that doesn't change much. Then you go through the data again the second time it's called an epic when you go through all the data and now I take that initial learning right in / 2 then so if you use Big T to stand for how many iterations you're doing you do that?  How do you know if I'm on the teeth time? I'm changing the all the weights I / T that turns out to be too too aggressive and in fact, so that's the theoretical where you have to prove it. Most people use something like the square root of that. It makes it smaller and doesn't make the learning rates us too small too fast.  Okay.  Okay.  So there's all this stuff in here you can look at.  And that's what I just did mostly accepting this version. I forgot to put the 1/2 in front and I ended up with this to everywhere. It's really annoying.  And I got some some.  So this is a bachelor enrollware.  I go through all the examples and this is mean squared error and I some all the way to changes up. This is away change and this again is the Delta role because we call this Delta the difference between what you didn't want you should have done.  And that's bad. She go through all the examples compute the way change, but you don't change the weights.  Character another one change the way it's cuz it don't change the way she just some them all up and then you take the average and changed the weights. Once this is typically a bad idea because a lot of times the data set is redundant in a while. So everybody's happy face looks kind of the same because you got this big smile if you change the way it's as you go you may learn more by the end because he got a lot of redundancy in the training set.  So that would be online learning where you got an example and you actually change the wait for that example. That's stochastic gradient descent.  I'm so again. It's the Delta rule. Okay.  So there's a generalization to perceptron called logistic regression in places where places that buy that which allows us to go from zero one class for our new class first gives us a probability of category membership.  And unlike linear regression for logistic regression. There's no closed form formula anymore.  It's not linear equations anymore. And so we have to use gradient descent.  Okay, and I don't raid gradient descent for linear regression, which can be useful for Big Data.  Minimizing mean squared error leads to Delta role for linear regression. But look I predicted. I was going to run out of time before I can show how that generalized is the logistic regression, but that's your homework. Anyway, so in your homework,  We don't use some squared error because when you do that with logistic regression, you got to learning will it doesn't work as well as if you minimize a different objective function, which is cross entropy.  And so when instead of some squared are you try and minimize cross entropy?  You got this.  Dudududu dinner. Okay, and so but that's your homework is to try to take that derivative. And what are you going to have to do?  well when you get to the part where  When you get so I've already done most of their your homework for you here.  But when you get to the park where you got this?  PN - Y and X the derivative of y with respect to Wi now I've got to  Why is no longer just a weighted sum of the inputs? It's the logistic function. And so we have to take the derivative of that and then take the derivative of the weighted sum by using the chain rule. So dravot evolved, why vax was inspected wi is why Prime of x?  X 2 driven of X with respect to W. I wear this is the weighted some of your inputs.  But if if everything works out just right that'll cancel out with something else and you got the chain rule you get you get the Delta roll.  Okay.  All right, and I also showed although I didn't really show you that guy that guy.  Is that Jeff Henry on the Coon?  Okay.  I didn't really show that but you can tell you can do face recognition really well and you can tell those aren't the same.  Okay, so that's it for today.  No problem, and then set them to 0 and then self remember that way. Is there a reason why?  Are non-linear equations?  try  talk about how  Yeah, some of the coolest stuff when when it comes out. It's like holy shit.  You're welcome light, except that I'm going to teach about it, right?  Here here. You will be jumping the gun as they say it's alright. "
+}

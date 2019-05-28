@@ -1,0 +1,646 @@
+{
+    "Blurbs": {
+        "+ 1 and that's supposed to just be a, there looks a little weird where it is and usually if in the case of infinite things what this gamma does is make the reward the long-term expected reward converge. So if you didn't have gamete hear this thing could blow up so far future you're going to have gamma to a big exponent and you know .92 big exponent is ": [
+            2956.8,
+            2993.5,
+            75
+        ],
+        "150 which I haven't done in quite a while but Okay. Try that, but okay. alright State space search I should have some slides on this I guess okay back in the day. We used to have something called the dime store now. I guess they have Dollar stores are in the dime store. You can buy this puzzle. And the puzzle would be like this. And have one space ": [
+            3627.5,
+            3670.9,
+            94
+        ],
+        "But basically you can see that it's organizing the hidden space. So that similar states are near one another and this is the wonderful thing about using a network for this even some states that our world have ever seen before which is entirely likely. They will map to similar part of the space and you'll do similar things. That is you generalize to things you've never seen before the ": [
+            2342.3,
+            2375.5,
+            61
+        ],
+        "Gammon, this is Jared Sorrows work. He's at IBM and this is from the 80s. And this was this big success reinforcement learning works. Woohoo play this game 20 years ago by you know and about and there's no other successes took a while, okay. So the network takes in a representation the board as input like in the Atari thing learned the value of that board position is output ": [
+            4472.4,
+            4510.1,
+            118
+        ],
+        "Jared's Charles was is usually thought of as the first one and then alphago. Okay. So again, this is the agent environment interface. The agent takes an action gets a new state new reward takes an action boom. Boom. Boom. Okay, and then the policy is a mapping from states to action probabilities. So this is slightly different notation. It's just saying the probability of this action in the state ": [
+            2815.3,
+            2853.5,
+            71
+        ],
+        "Lair just before the output. Where they've done either PCA to get it down to two Dimensions or they've done some other technique for getting it down to two Dimensions Square neighboring things in this space correspond to things that are similar to each other, right? So hidden layer here is very similar to The Hidden Lair. They're okay and you can see that things that are near one another ": [
+            2280.3,
+            2314.5,
+            59
+        ],
+        "Montezuma's Revenge. I think there is a key. I have to pick up and that you know, that's hard to train a network to do by this method. So there are no networks with learn to play multiple games there, but we're not going to talk about that. Okay. Okay, so so far we've done this. We talked about this this time. I'm going to give a little bit more ": [
+            2722.2,
+            2779.5,
+            69
+        ],
+        "Okay game. today, I want to talk about reinforcement learning and I borrowed some stuff here from andrej. Karpathy blog. I don't remember how much but Okay. so All right so far we've mostly talked about supervised learning where you have a set of inputs and outputs where it is. It's known in advance what you want then at work to do for every input. We've also looked at unsupervised ": [
+            10.5,
+            61.7,
+            0
+        ],
+        "So if anybody heard of The Mark of property before taking 151 or whatever from Lawrence the The probability that the state we get to is state t plus one and the reward is that given? The state were in and the reward we got for taking that action than the state we were in before that that is this. This is the mark of property. It just says their ": [
+            3070.1,
+            3111.6,
+            78
+        ],
+        "So we have multiple mappings from state to action state to action. Do we want to make those more likely cuz we won or do we want to make those less likely cuz we lost and so you compute the gradient and the weight changes over all those individual actions and then use that to decide on an average using the average of those to change the weight. Okay, it's ": [
+            1461.5,
+            1491.7,
+            39
+        ],
+        "Then I can do the same thing and move left right up down. There's only three ways. I can move here etcetera and I got a bunch of new States. So this is a tree. And basically what I do is I if I want to find the solution to this puzzle, I can do a breadth first search through this tree until I get to the goal. Okay. More ": [
+            3741.6,
+            3769.0,
+            97
+        ],
+        "Yeah. 0 instead of the one we have a Marjorie gray together directions Yeah. So if it came out to zero free samples and we got zero which would be this is this is the 0 region because the probability of 0 is 1 - 2 / so this is the one region where the up region in this is the down region. Okay, and so we use the actual ": [
+            1661.2,
+            1704.6,
+            44
+        ],
+        "You could you know if your model is accurate you could imagine what will happen next and maybe just learned from the model. by running your model So if you can but if you have a good model, you can do simulated experiences and learn even better and you can plan you can plan ahead. So one standard thing that people do and reinforcement learning as they learn the value ": [
+            3272.5,
+            3309.5,
+            84
+        ],
+        "a deep so actually the outputs. The probability the outputs of the Q value network of that Network were actually cue values not probabilities. What you can then turn into a probability distribution. So these are closely related. The value of estate is the maximum of the Q value for that state over the different actions you could take and either one of these can be used to specify a ": [
+            3443.1,
+            3477.4,
+            89
+        ],
+        "a policy that you know, maybe it's like this. And there's hell here in a few falling if you fall in here. You die and you get bad rewards. So typically the the optimal policy is like that you just try and go that way if you can And so there's a discrete set of states and discrete set of actions. So you can just do a table look up ": [
+            2418.5,
+            2451.4,
+            63
+        ],
+        "action action finally a games over in either you find out you won or lost. So it's hard to tell whether these actions early in the game are good or bad and generally we don't know the answer to that all you know at the end is whether you won or lost. Okay, so this is reinforcement learning. What does the agent learn? The agent learn to policy usually denoted ": [
+            335.0,
+            367.5,
+            8
+        ],
+        "actions. I can keep track of how much reward I got by taking those actions in the grid world. For example, we usually have a little shocked a little negative reward for being in any of these states besides the goal and that makes you want to get out of the world and get to the goal as fast as possible. So if I start here and I end up ": [
+            3342.1,
+            3367.6,
+            86
+        ],
+        "agent actually takes actions and then the Asian gets the updated state of the environment and perhaps our reward signal. and unlike supervised learning the reward doesn't tell you what you did or what to do. It just says whether or not that was good or bad and it may actually be a scalar which says oh that was really good or that was okay. Tell Russell norvig have a ": [
+            103.9,
+            140.4,
+            2
+        ],
+        "and and you don't need some function approximator like a neural net. But you know anything you learned about this state doesn't generalized any other states. So the wonderfulness of a function approximator like this is that if generalize has two states, it's never seen before in this some extent that addresses the curse of dimensionality. Okay, so I know you guys like movies. Going to see a movie. Turn ": [
+            2451.4,
+            2492.9,
+            64
+        ],
+        "and taking an action and Counting how frequently do I get to that state how frequently do I get to that state and over many experiences that counting is going to converge to the actual probability. So the way we make gridworld hard as we have taking the action up means you actually go up 80% of the time and then 10% of the time you go left and 10% ": [
+            3175.6,
+            3206.4,
+            81
+        ],
+        "and you can slide the five into the space or Slide the 8th and do the spacers Slide the one into it or Slide the pour into it. And then you'll have a new space and you can find something into that. It's a sliding Block Puzzle. It's called and your goal is to you know, get to a state like one two, three, four, five six, seven eight. Okay, ": [
+            3670.9,
+            3699.9,
+            95
+        ],
+        "are things it's not so good at in Montezuma's Revenge. I think that says 0% hausu mentioned in his talk yesterday that they're they're up to pretty good scores now in Montezuma's Revenge cuz it's Deep Mind and it's a couple years later. Okay, this is for this particular game which looks like Space Invaders. Not sure what game that is. But this is a 2d representation of the Hidden ": [
+            2238.3,
+            2280.3,
+            58
+        ],
+        "as a result of your experience. Okay. So this function can be implemented by Deep Network that mastram states for example images of a game like an Atari game to a softmax over the actions. So here is a really old video game called Pawn. and the agent the game will do this and then the eight-year the agent controlling this paddle and you have basically three choices up down ": [
+            406.7,
+            450.4,
+            10
+        ],
+        "as pie which is a mapping from states to a probability distribution over actions. I'm so assuming you have in different actions. It's the probability of each action given the state and generally do you want to Have high probability and actions that are going to lead to win and low probability on actions that are bad in that state. Until reinforcement learning techniques specify how you change your policy ": [
+            367.5,
+            406.7,
+            9
+        ],
+        "assignment, but if I get like it's this is Iran. This is one and I get .9 then I put a, you know, a barrier there and I draw a random number from uniform distribution and it's much more likely I'm going to land here then I am here so that's flipping a weighted coin. And with your softmax right now, you flipping a many-sided coins fav little intervals depending ": [
+            1536.9,
+            1568.3,
+            41
+        ],
+        "between games because you know, andrej karpathy or somebody else could sit down and in 15 minutes, they're playing kind of like an average player, right? They ever experienced being game players. The network has no memory of any games that's ever learned. It's just like as I like to say and I'm even with a PhD it's it's just stimulus-response stimulus-response. Okay, it's not thinking it had its not ": [
+            1783.1,
+            1812.7,
+            47
+        ],
+        "blog you I think he has videos of it playing before it knows much and it just kind of wanders around and then it gets better and better and better and finally it never misses. Okay. Now pouring is actually pretty good for learning reinforcement learning because he actually get points as you go so you can get rewards as you go if you get if you you know, headed ": [
+            1366.7,
+            1397.1,
+            36
+        ],
+        "but he was talking about sort of discreet, you know taking in and we look down we say, oh there's a a chair. There's a table there's a dog, you know, now I can interact through this table without thinking about it at the pixel level. Right? And so if we want a system that interacts with the world, it would be good if it you know actually segmented it ": [
+            966.8,
+            993.8,
+            25
+        ],
+        "by Q learning which is a model free technique, but maybe we'll get to that later in this lecture, but you can imagine it's policy gradient for fun. Okay. so just summarized policy gradient is you got some soft next distribution over your actions or a logistic if you only have two You treat the sample as a teacher. So if I sample from that and I got a one ": [
+            1893.6,
+            1926.2,
+            50
+        ],
+        "coin you're going to try different things. So that gives you some exploration, right? And as you learn in certain in various states that the output will become more and more deterministic like .99 another way to do exploration and exploitation is to take us off Max output and use a temperature parameter. So in order to try everything, you'd have a high temperature initially which will tend to give ": [
+            600.7,
+            636.9,
+            15
+        ],
+        "could get you to a next state. There's a terminal test that says okay is the game over yet and a value function and usually this in the minute original Minimax algorithm where it said something like the 8th puzzle where you can actually go to the end of the tree. You just have a plus one or a minus one if if you win minus one if you lose ": [
+            4071.1,
+            4103.1,
+            107
+        ],
+        "could maybe make the learning rate bigger. If you have a bigger reward things like that. Yeah. Oh, oh, it's just what it's just what Andre did in his blog. He trained this little Network on Pawling and it turned out to work better with policy gradient, which is good because then you can explain it. I don't think we know that. people try different things, you know, you see ": [
+            2053.4,
+            2098.3,
+            54
+        ],
+        "courage the moves that we actually took. The moves that we actually took where the sample that we got from this probability and if we won at the end then we want to go downhill in the air, right? But if we lose it, then we don't want to do all those things. We did we go uphill in the air. And make those moves less likely. Okay, so we ": [
+            1182.3,
+            1217.9,
+            31
+        ],
+        "depth of the end of the game is just how do you make a move and you make a move and but in a real game the time is proportional to this branching Factor raised to the depths of the end of the game. So I notice the branching factors 3 my depth here is 2 3 to the 2 is 9 notice there are nine things here. So it's ": [
+            4219.1,
+            4249.6,
+            111
+        ],
+        "do we describe the space? So the number of parameters doesn't explode when we have heat networks? Is that still as big of an issue and are people too? Have a much bigger alteration space. Near continuous. Yeah, I mean there is continuous reinforcement continuous action. I mean, the hardest reinforcement learning is continuous action continuous state. So ways around that or as you say discreet izing the actions so, ": [
+            884.4,
+            920.2,
+            23
+        ],
+        "don't have to think about the future at all. So I assume most you know how to do a state space search for you search for a solution to a puzzle and a tree or the branches were the real estate space searches. I do who else does. some of you a lot of you don't yeah, this is why I teach States face search and 150 when I teach ": [
+            3593.5,
+            3627.5,
+            93
+        ],
+        "downhill in the gradient, you're going to move your outputs closer to those Targets in that state. Right, and if you go up to him the greatest you're going to move away from the targets. Okay, and actually you can't really learn anything using this what Andre did was I think he took either two successive States and use the difference between them. So they got velocity right what you ": [
+            1295.3,
+            1325.8,
+            34
+        ],
+        "easily said than done because in some games, right? There's going to be more than four hear different things that you can do and it quickly blows up with the depth of the tree. So you can try depth-first search and then that saves a lot of space but you may end up like just going down down down down down until you unless you keep track of what states ": [
+            3769.0,
+            3797.7,
+            98
+        ],
+        "encourage the actions that led to win and we discourage the actions that led to a loss but what's weird about this is you encourage all of the actions that you took if you win whether they were good or not and you encourage discouraged all of the actions that you took when you lost even the good ones but on average you end up doing good stuff more. Okay, ": [
+            1217.9,
+            1251.4,
+            32
+        ],
+        "feed of the end. Where be is the branching factor and M is the depth that you search to. So for chess, that's about 35 to the hundred for go. It's 250 250. And so this didn't you know, you can't possibly it's not practical to search. Right. So how would the value be calculated the best you can do is learn a mapping from states to values from experience. ": [
+            4249.6,
+            4286.5,
+            112
+        ],
+        "for red in the estimated value for White. And so this is the temporal difference rule some learning rate. Times the difference between the output of the network at the next time step, which is my estimated value for this next day and the value of the network Ike of the state I came from and so this is my temporal difference rule these r-values there the output of the ": [
+            4603.3,
+            4637.7,
+            122
+        ],
+        "for the egg puzzle is how many pieces are out of place. If I move down here and I have one less piece out of place or maybe even suddenly two pieces are in the right place. Great. I'll go that way. Right till I have some function I can compute on the state and decide how good it is. That's a value function and a heuristic value function is ": [
+            3965.9,
+            3995.4,
+            104
+        ],
+        "formal introduction to reinforcement learning and then I'm going to talk about the first. Not successful reinforcement learning system to play a game. It was Jerry to Sorrows TD Gammon, although you could imagine that what? Was done in the 50s by the guy who learned to Checkers program whose name I've forgotten right now, but I met him before he died that might have been called reinforcement learning. But ": [
+            2779.5,
+            2815.3,
+            70
+        ],
+        "get the new state at time t plus one and perhaps our reward. So you're always getting a state and the perhaps your most recent reward and then you take an action get a new state got a new reward etcetera. so He's got two states are some subset of offended discrete set of States, but it can also be a continuous set of States actions are often a set ": [
+            228.3,
+            264.9,
+            5
+        ],
+        "going to maximize over these so he's going to take this. Okay, cuz he can guarantee that many can't do better than 3 if he takes that move. That's the Minimax algorithm. It tells you which move to take the move with the highest value for you. Okay. Sew-in real games though. This branching Factor really kills you. So hear the branching factors 3, that's not so bad. And the ": [
+            4183.0,
+            4219.1,
+            110
+        ],
+        "great definition of reinforcement learning. Imagine playing a game has rules. He don't know after a hundred or so moves your opponents as you lose and that's reinforcement learning in a nutshell. So the real key difference between this and other things is that the agent is actually learning to act out in the world and is using trial and error to do so what just happened. It's also one ": [
+            140.4,
+            180.6,
+            3
+        ],
+        "happening? Okay, so this lecture I think was from a maybe a 50-minute class. But I'll have got more after this. So just to summarize what I've told you so far reinforcement learning is very different from either supervisor or unsupervised learning because there's no specific targets for the output. There's only this reinforcement signal and the Network's own actions affect its environment. And the network has to learn through ": [
+            2642.8,
+            2686.3,
+            67
+        ],
+        "have our first similar States. So these three there's two columns to the right that are full and then one guy there the says two guys there they're far away. So we don't have to worry as much about him. But we need to worry about this guy. It's almost hit us. And this is just a I just cranked up the contrast here so you can see it better. ": [
+            2314.5,
+            2342.3,
+            60
+        ],
+        "have to know or go as yet. The next state is deterministic just like chess Checkers a lot of other things. But a lot of practical approaches to reinforcement learning or model free, so there was no model in that pawn thing. There was no model in the Atari thing. You just learned a map from state to actions if you had a model. Of the world you can practice. ": [
+            3241.0,
+            3271.5,
+            83
+        ],
+        "he didn't have a stay in the same state action. And this is actually something that he did on his blog and he trains it and it's not a deep Network and it's not a convolutional network, but most systems that play Atari games now, we'll have convolutional deep Network. So to play this you taking the current image. You got an output and then you flip a coin depending ": [
+            486.1,
+            520.9,
+            12
+        ],
+        "here, I have a 0 and those are my targets. Good. how to get o This is point nine. Then I'm doing 1 - 2.9. As my Delta for the outputs. right So if I'm trying to see if I won I'm going to try and reduce this difference and make going up more likely if I lost I'm going to increase this difference and make going down more. Likely. ": [
+            1617.2,
+            1661.2,
+            43
+        ],
+        "in a zero if you drop Or the number of points you scored. And your assumption is the opponent will always choose the move that maximizes its value. So here is an example of a Minimax tree. Max is the guy who starting and he's represented by this triangle and he's trying to maximize his score men is trying to minimize Max's score maximize her score So Max and mini ": [
+            4103.1,
+            4137.8,
+            108
+        ],
+        "in the third place cuz it's point six. Then my target becomes that. Okay. And at the end i x t minus y this is the output of the network by the sign of the grace of the reward. And I back property are from all those different steps in parallel and change the weight. Hey. All right. So that's the story and I'm sticking to it. Okay, so over ": [
+            1926.2,
+            1971.8,
+            51
+        ],
+        "into different parts and but typically You know the the the things that we've done so far involved just like this so you got some pixels is input and you're just, you know, taking all those pixels and ignoring the fact that there's a huge curse of dimensionality because most of these pixel stay still for one thing and you only have to tend to the parts that really matter. ": [
+            993.8,
+            1026.7,
+            26
+        ],
+        "is he and put those pixels and then I think maybe they use the last four frames and they use the same network for every game. Okay, they just traded from scratch for every game. There is no transfer between games you don't like. Oh, I've done all these games. Now this game looks familiar. That's the one that's what people are working on right now is How to transfer ": [
+            1750.4,
+            1783.1,
+            46
+        ],
+        "is the function of the policy, but the way we usually do it is the output of the system is a probability distribution over the different actions. So, what's the go? What are we trying to do? The thing where you know you and I are trying to do is to maximize our long-term expected reward you are suffering right now through this course unlike the hundred or so other ": [
+            2853.5,
+            2886.1,
+            72
+        ],
+        "is trying to move its pieces and get off the board. This way red is trying to go that way and there is some simple rules. Okay, so red is trying to move that way. So you roll a pair of dice? And so every move you roll two dice and there are 36 possible outcomes. So that's a pretty high branching factor and then not only that I need ": [
+            4330.9,
+            4369.3,
+            114
+        ],
+        "just given a state and whatever action I took I'm going to use that as my great-aunt to update the weights and I'm going to average over the whole session basically. Yeah, you had a question. So yeah, so, you know, maybe we're going to have a hundred actions. We have a hundred training examples basically right where we took an action in a state the state changes over time. ": [
+            1424.5,
+            1461.5,
+            38
+        ],
+        "layer weights. So for some games like boxing that turns out to be okay, but the blue lines are for the network. This network, okay. So that the gray lines are for a network where you get this in and you have one layer weights to there? And stop Max output like programming assignment 1. Unless it's just a closer look. So these are the things that's good at. These ": [
+            2197.1,
+            2238.3,
+            57
+        ],
+        "leads to all sorts of trouble like, you know, you want to stop home. It's grocery store on the way home and then you find yourself in your driveway and you forgot to stop at the grocery store cuz he went on autopilot. Yeah, he first I wondered like in Q learning a a big issue is like the curse of dimensionality where if you have continuous observations face. How ": [
+            855.2,
+            884.4,
+            22
+        ],
+        "learning with autoencoders and Dan's but today I want to talk about reinforcement learning and I'm going to start with a really simple form of reinforcement learning and then if I I assume I'm going to get to my next set of sides after this where I get into a little bit more detail and and other methods so the there's an agent and reinforcement learning action environment. So the ": [
+            61.7,
+            103.9,
+            1
+        ],
+        "mean at the end you can get you in a winner lose or you can decide, you know, you come to the end but most of the time for most realistic games. You just can't do it. It's the space is too big. So instead use a value function to decide which branch to to search under it's also known as the heuristic State evaluation function. So a simple one ": [
+            3934.0,
+            3965.9,
+            103
+        ],
+        "million games and pawing and you know after each game you update the weights update the weight. So that's a million times you're updating the weights. And you know, that's that's as long as I want to wait. right Well, then that's like a positive feedback. You could if you have scalars like, you know, -10 2 + 10 or something, you might there's different things you could do. You ": [
+            2012.1,
+            2053.4,
+            53
+        ],
+        "model 3 forum Yeah, so I didn't actually finish my thought they're so model free means basically you're in a state. Can you take some action without thinking about what might happen after that model-based is means you have this big Matrix or tensor is each entry is the probability that if I'm in this state and I take this action what next state will I get to So that's ": [
+            1031.5,
+            1070.6,
+            27
+        ],
+        "model-based learning so model-based means that the agent has available to it or it it did might have to learn this through experience amount of its environment, which is just this PSAs Prime thing. So it's what this is is you you have the store somewhere. It's not an output of some Network or something like that. It's something that you learn overtime by, you know being in a state ": [
+            3146.4,
+            3175.6,
+            80
+        ],
+        "move from the state? So you do roll out so a role that is for 1 equals 1/2 a gazillion do received the random number generator Simulator game to the end using TD gammons evaluation function for each move have the result to running averages value of this position. So you're just simulate a whole bunch of games using TD Gammon as your player and that gives you a way ": [
+            4765.3,
+            4797.4,
+            126
+        ],
+        "movements and then there's just pushing the red button and then they're so safe movements and pushing the red button. So those are all your actions. So instead of just one output. We have a a softmax. over all possible actions Okay, and I get on this network is the policy its mapping from states to actions and it's giving you the probability of these actions. Okay, so this learn ": [
+            1854.2,
+            1893.6,
+            49
+        ],
+        "need. You need to know the movement of this ball to know what's going to happen next and where you should move your paddle. Okay, so that's a common strategy is to use multiple frames or different frames to know the motion going on in the world. Okay? Yeah. And this particular method works well in this simple environment. But for a so so if you go to andrej karpathy ": [
+            1325.8,
+            1366.7,
+            35
+        ],
+        "network and send some stuff to go downhill in some gradient of these outputs. Okay. So the weights are updated to make it closer to the next day and this is called TD Gammon are sorry TD Lambda temporal difference is the TV part and Lambda is this discount Factor on things. So when land is 0 feedback occurs beyond the current timestamp when lamp is one. Beer feedback without ": [
+            4637.7,
+            4683.1,
+            123
+        ],
+        "not back prop C time. Even though time is happening. Yeah, so this is a logistic output unit. Okay, so it's going to give you a number between 0 and 1. And you flip a coin based on that? k And I guess I'll just eat you look a little. Just just drive this home one more time with I mean, you're basically doing this right now with your programming ": [
+            1491.7,
+            1536.9,
+            40
+        ],
+        "of a discrete set of actions that you can take, but they can also be continuous. So when I'm waving my arms, that's a continuous action. I've got many an infinite number of joint angle so I can set my alarm at. Because it's a real number and then you get some reward and a new state. So your life consists of being in the state taking an action getting ": [
+            264.9,
+            294.4,
+            6
+        ],
+        "of estate. What's that? The value of the state is the expected long-term reward return to being in the state following the optimal policy. Or it may have a little pie up here, which is the same thing. But if you follow policy pie. Okay, so you don't normally know this but you learn this you can you can if I'm in state ass and I take a bunch of ": [
+            3309.5,
+            3342.1,
+            85
+        ],
+        "of the best attested forms of learning in the brain. You have a whole set of your basal ganglia or set up to take actions and get rewards for those actions. And weed the whole field of neuro economics started several years back basically based on these ideas. Okay. So here's the setup you have an agent takes an action at time T which changes your environment and then you ": [
+            180.6,
+            228.3,
+            4
+        ],
+        "of the world, then you can use this to decide what the best policy is. Okay. So Q learning is kind of like that except that it's the value of the state if I take that action. So it's specific to every action and every state. and so again, there's an optimal q and there's the Q from following your current policy. And the Atari player learn these values using ": [
+            3401.8,
+            3443.1,
+            88
+        ],
+        "on that output. It's waited by the output. So if the Opera is .99, you're generally going to go up if it's .01. You're going to go down but you flip this coin based a weighted coin based on the probability of going up. So again, this is a situation where you're sampling and to do that you take the unit interval you Partition it into you know, if the ": [
+            520.9,
+            554.7,
+            13
+        ],
+        "on the plug in the sand here. Okay. So this is this might be Dennis the BB from Deep Mind. I'm not sure but they're playing Breakout. Now it's not saying now I can't hear anything. Nothing, right? Okay. Let's go back. understanding dropping our plans by 200 - 96 Breakout Yeah, some of you have basically you're trying to hit those things and every time you hit one you ": [
+            2492.9,
+            2561.3,
+            65
+        ],
+        "on you know that the distribution of probabilities. Yeah. No. No, actually, I just sampled it's not an ARG Max. Those are the targets here. So again the out the output of the network is the probability of Your Action is up. okay, so if the probability is .9 and I sample from it and I'll and somewhere in here then I got to one. if I end up over ": [
+            1568.3,
+            1617.2,
+            42
+        ],
+        "one where you make up some heuristic or rule of thumb? Like if your thumbnail subtends a visual angle about one or two degrees in arms, like that's the rule of thumb 6 is the perfect number of people for a dinner party another rule of thumb never invite more than 25% of the people do a party from the economics Department. Okay another rule of thumb, okay? So that's ": [
+            3995.4,
+            4032.4,
+            105
+        ],
+        "one. Where is it just Us Deptford search to fix depth over and over again first to death once and up to then dip 3, why would you do that you do that because it turns out you actually save so much space by doing a depth-first search that you can solve problems that you couldn't solve otherwise and turns out that entered of deepening just going down one and ": [
+            3838.5,
+            3864.1,
+            100
+        ],
+        "or stay. And head each time step. So each time step. You're moving up some amount down to him out and he basically move up more by tape by pushing the up button multiple times. Okay. So here's a very simple Pawn Network. This is directly from yandere carpathians blog you taken the raw pixels. And have a hidden layer and then the output is the probability moving up. So ": [
+            450.4,
+            486.1,
+            11
+        ],
+        "outputs .9 you have 90% here in 10% hear you do a uniform draw between 0 and 1 and typically you're going to feel fit in the 90% but you have some chance of moving down. Okay. Yeah, so one of the sort of memes about reinforcement learning is the exploration exploitation Trey. So you're learning by trial and error. So you want to try stuff and by flipping a ": [
+            554.7,
+            600.7,
+            14
+        ],
+        "over here I can keep track of how much value I got starting here and doing that how much value I got starting here doing that and then getting there. And keep track of that and then learn what the value of each state is with my current policy. So that's called the value function. Okay, then again, that's something you're trying to maximize. And if you have a model ": [
+            3367.6,
+            3401.8,
+            87
+        ],
+        "papers where they're comparing K different reinforcement learning algorithms, and then they just tell you which one What's the best? rinpoche tqn. I don't know about rainbows. He cure. Okay, I don't know about it. Haven't read it. Like I said, there's dinner. There's new papers coming out just about every day. Yeah. Our guide well because it's easier to train a feed-forward network. You know or avoid recurrence if ": [
+            2098.3,
+            2149.6,
+            55
+        ],
+        "past this guy, that's one session. He he lost you got a point and you could be a problem. If you could use back prop 2 to learn what you you know, all the things that what you did a good or good goes past you you want to discourage all the things. Now this is for want to be really clear. This is not backprop through time. This is ": [
+            1397.1,
+            1424.5,
+            37
+        ],
+        "people that dropped it because you're trying to maximize your salary when you get out of here, right? So, you know graduate schools the same thing. I mean, you know, there's no reason to get a PhD in less. You really really want one. Otherwise why you no go through that pain, so you're trying to maximize your expected on average long-term reward. So here's here's a reward you're trying ": [
+            2886.1,
+            2922.8,
+            73
+        ],
+        "play this game and then we get down to these terminal places. So this is just a made-up thing, right? and So Max wants the largest outcome mini wants the smallest so the Minimax algorithm is you take the minimum of all these guys cuz you know, that's what mini is going to choose. and so you do men at every there and then Max is going to choose he's ": [
+            4137.8,
+            4183.0,
+            109
+        ],
+        "policy. You just take the action that has the maximum Q value. Okay, so that's Q learning is model is good for model free learning because you have a table of State action values that you learn and will maybe talk about that today, but you don't need to know anything about the future. You're just learning the show when I take this action this state my expected reward is ": [
+            3477.4,
+            3516.3,
+            90
+        ],
+        "probability as the output of the network the sample as the Target and we take the difference of those as the delta. Okay, so you're basically doing a cross entropy learning. It's just you may go one way or the other depending on winning or losing okay? any more questions Okay, run out of questions. Okay, so here's a deep mines Atari player. They have you know, whatever the game ": [
+            1704.6,
+            1750.4,
+            45
+        ],
+        "probability of the next date in the reward if we're in the state and take this action only depends on this state in this faction. That is that you can forget your past unlike real life where you never stop paying for your past. Okay, so all the agent needs to know anytime is the current state. Hey. Okay, and so this is where I was going to talk about ": [
+            3111.6,
+            3146.4,
+            79
+        ],
+        "reward getting to the next state taking an action getting reward getting the next date. And this is why one of the old reinforcement algorithms who is called sarsa. Okay. But for lots of games, there is no reward. Is he go right? So you play chess and you know, your your opponent isn't going to say good move usually say you just take your interstate and taking action action ": [
+            294.4,
+            335.0,
+            7
+        ],
+        "shall come as a probability. But then you have different moves that you can take based on that. So a roll of for one lies, you can move one piece one point and another piece 4 points or one piece Five Points. So for one, I could go one too. Well, this is some of the role was not for 1 1 2 3 5 3 looks like so one ": [
+            4369.3,
+            4401.6,
+            115
+        ],
+        "simple rules like that and if he got doubles like for 4 and then you can actually you get 4 4 4 4 Okay. So a double az-66 lies you any combination of four pieces, 6.21 piece 12 points into 6, etcetera and sometimes you can't move at all because all the places you could get to or covered by your opponent. Okay. I already told you that. Sir, TDE ": [
+            4433.2,
+            4472.4,
+            117
+        ],
+        "so in the remaining nine minutes, I'm going to talk about TD game and next time I'll talk about go. So this is backgammon anybody play backgammon here. Okay, so it's one of these physical physical thing and he actually pick up things and moved. Okay. So this is backgammon white and red are trying to get off the board by Rolling Dice and moving pieces towards their goal weight ": [
+            4289.6,
+            4330.9,
+            113
+        ],
+        "so you want to keep sliding so that's a puzzle. and state space search is Basically, this is a state. And I look at well, what's what's my next day? It's possible next States 06875 1342 so I can move it's easier to think about if you think about just moving the space. So if we move the space left right up and down or get for a new States. ": [
+            3699.9,
+            3739.0,
+            96
+        ],
+        "stage. Yeah. Well, you you basically would mask off things that you can't do right? So you've got a set of possible actions with each time step and you can if your distribution is over all the actions you can just Mask off things that you can't do the network doesn't know this there is some in a rules being in post and what it can do. It doesn't know ": [
+            703.4,
+            748.9,
+            18
+        ],
+        "standard thing. I always teach when I used to teach reinforcement learning is a is a course. Does he start out with a gridworld? We're basically you have a a world like this. And maybe it has some blockages in it where you can't go and you've got four actions up down left, right? And you're trying to find a goal here and you start over here. And you learn ": [
+            2375.5,
+            2418.5,
+            62
+        ],
+        "starting over and going down two and then starting over and going down three doesn't use that much more time than just simple depth-first search surprisingly enough. OK States face search good now suppose. I've got an enemy that can move the square back somewhere. Right, and then that's his turn or her turn and then I have returned and then he has a turn and then I have a ": [
+            3864.1,
+            3899.8,
+            101
+        ],
+        "state. We mean whatever information is available to the agent in gridworld. The state is just you know, 1 1 1 2 1 3 etcetera here. You've got some Sensations maybe the image of the game and I'll be highly processed by the neural network. And it should ideally summarize past Sensations in some way so that you retain all useful information that is a snap of the Markov property. ": [
+            3032.5,
+            3070.1,
+            77
+        ],
+        "taking all these pixels. and is there a Gremlin back there? So you take your current image? You run it through your network and you get some output and using that output you flip a coin to decide what you should do whether you go up or down. So you took a probability from here and you produced a one or a zero by sampling from that probability distribution and ": [
+            1115.4,
+            1152.4,
+            29
+        ],
+        "term that means that I need a different kind of tree a game tree where I you know, I can do any of these things, but I have to be ready for all of the things that they could do. Mini Mac Thank you. So I have some value for this so and again A lot of times these spaces are so huge that you can't possibly compute them. I ": [
+            3899.8,
+            3934.0,
+            102
+        ],
+        "that In queso again value of estate is the long-term expected reward starting in that state. The Q value is the expected long-term reward starting in that state and taking that action. Yeah. Yeah, so this is pi, right so The best one is the value of the state. So this is the action word we're going to take the action that gives us generally if we're doing greedy at ": [
+            3516.3,
+            3563.8,
+            91
+        ],
+        "that that can easily make the search much more stringing down here instead of broad because you're searching under good places. Okay, and then game playing there's also at research, but you have to be ready for what your opponent by 2. So the Minimax algorithm is What's often used for these? You've got some initial state is the board position whose turn it is the operators are legal moves ": [
+            4032.4,
+            4071.1,
+            106
+        ],
+        "the K arbitrarily far in time. And intermediate values give you a smooth way to switch between these two cases. So again, TV gallon starts in some State we have all these possible moves to give you some values and you choose from these values by picking the best one and the cool thing about Backgammon is that the exploration is built in through the rolling of the dice? So ": [
+            4683.1,
+            4724.4,
+            124
+        ],
+        "the successive stayed after that. That's the temporal difference between the stated the value of the state of time T in the value of the state of time t plus 1 and again, he used to neural net for this back. Then we had basically one hidden lair. And is taking this board and trying to figure out the value. So if you'll have linear outputs the valley estimated value ": [
+            4575.9,
+            4603.3,
+            121
+        ],
+        "the value of the state I get to so the base case for this is you end up winning. Okay, and so you got a one when you win then the guy just before that tries to make its value closer to that one. And so the the value of the gold ripples slowly through all the things you went through by just trying to make each state close to ": [
+            4545.5,
+            4575.9,
+            120
+        ],
+        "then we can use that as a Target right? It's either one or a zero and the trick is at the end. We use the sign of the word on the gradient. So we take all these steps we go through the the game and boom we went. Okay, how do we know what was good? And what was bad we don't accept that we won. So we wanted and ": [
+            1152.4,
+            1182.3,
+            30
+        ],
+        "these are backgammon experts and eventually with 15 1.5 million games, which is the back then it came very close to being as good as this guy. Who's a backgammon expert. So that was counted as a success. And it's also become the most common thing to use for roll out. So what's a roll at you start in some state? And you're trying to figure out what's the best ": [
+            4724.4,
+            4765.3,
+            125
+        ],
+        "think I'll just keep going here. You may never find the taco stand down the street that has even better burritos, right? So you have to but at some point You want to stop trying everything and and just say well, you know, this is my favorite Taco Stand. I'm going to go here. Okay. 3 questions other questions so far I'm actually Facebook. But getting in change depending on ": [
+            668.7,
+            703.4,
+            17
+        ],
+        "thinking at all. Okay. So here's the networking. Maybe it's got four frames of the last games and then goes through convolutional with relu Etc. And then the output there's a red button on the Atari controller. So you've got discretized what you can do when there's no no no movement up 45 22 and 1/2 45 Etc. And so there's those for those one two, three, four eight different ": [
+            1812.7,
+            1854.2,
+            48
+        ],
+        "this is an algorithm. It's called policy gradient where this is the policy for following your gradient depending on the reward that either encourages things that led to positive reward or discourages things that lead to a negative reward. And this is probably the world's simplest reinforcement learning algorithm. Yeah. Well when you Okay, you have all these targets right that are actually what you did. And if you go ": [
+            1251.4,
+            1295.3,
+            33
+        ],
+        "this point or exploiting not exploring. We're going to take the action that has the maximum Q value and those are Define the same way when this one is the value of the state if I follow this policy from here, which will most likely be take that action, right because it's the maximum q-value so you don't need a world model because we're just learning State action pairs. I ": [
+            3563.8,
+            3593.5,
+            92
+        ],
+        "through playing games for the Shelf. And the way through updated using a temporal difference rule on every move. So let me kind of explain what that is. So I get to this next day and I look at the difference between my estimated value for the state. I came from and the value of the state. I got to and I make the state I came from closer to ": [
+            4510.1,
+            4545.5,
+            119
+        ],
+        "to evaluate a move. ": [
+            4797.4,
+            4799.5,
+            127
+        ],
+        "to maximize this and it's your reward at the next time step. Now this could start out at Time Zero, of course. And then you get some discounted reward for the future X episode gamma is a discount rate between 0 and 1. And then doubly discounted the roar in the next state. So it's the sum. From cable 02 Infiniti of gamma to the K rewarded t + k ": [
+            2922.8,
+            2956.8,
+            74
+        ],
+        "to talk about this later. There are basically two types of reinforcement learning model 3 and model based. Frontal cortex is your model of a spark your basal ganglia is your model free part model free is basically stimulus-response here. You're given some stimulus and you have a and almost automated reaction like driving, you know, you we all have certain we can talk while we try I've and that ": [
+            813.2,
+            855.2,
+            21
+        ],
+        "trial and error. Policy gradient is a method that Updates this policy based on the reward that uses its own samples as targets fall is a gradient uphill or downhill depending on the side of the reward then on average. It approves Its Behavior over time. Until this one network architecture can exceed human performance on a large number of games but they're still games. Acquire some prior knowledge 7 ": [
+            2686.3,
+            2722.2,
+            68
+        ],
+        "two, three, one, two, three, four five. I can move one piece to their there's three. Okay if you have two pieces or more on a point Your opponent can't land there. But if you have just one piece on a point and your opponent lands there then you go back to start you have to go back to the beginning and start over with that piece. So there's some ": [
+            4401.6,
+            4433.2,
+            116
+        ],
+        "very long time to learn in terms of their overall experience. So You may play millions of games many more than any person would play in their lifetime in order to learn the parameters of the system. Yeah does if you're doing a report along with the guy wants you to have to know the probability of the environment like all of you probably seen before hand. So we're going ": [
+            782.5,
+            813.2,
+            20
+        ],
+        "very small. So it makes the expected reward converge and if you have a 0 for Gamma or a low gamma that means that you're caring more about what's happening right now. And if you have a point nine nine gamma, then you're ready for grad school. So you wait future rewards more heavily than not then current rewards but more heavily than they would otherwise. That again by the ": [
+            2993.5,
+            3032.5,
+            76
+        ],
+        "what its actions actually do. Search s is a two-person perfect information gained its deterministic. So if I move someplace I'm going to move there. It's not like well, I'll probably move some place you you have to move but you'd still initially want to try a bunch of random different things in order to see what what work. And this is partly why reinforcement learning systems take a very ": [
+            748.9,
+            782.5,
+            19
+        ],
+        "x a good actions will become more likely in the bad actions will become less likely. Okay, yeah. what is your training at like a play something like pain but then it already achieved like the optimal state has you're still learning cousin that ruin that give you an radio Yeah, but you don't really want to wait an infinite amount of time. So I'm going to play, you know ": [
+            1971.8,
+            2012.1,
+            52
+        ],
+        "you a uniform distribution over your actions. And as you learn you start to lower the temperature and then you start taking more and more deterministic action. So then you're exploiting your knowledge when you're trying a bunch of random stuff you're exploiting your exploring. So if you need to if you just explore a little bit and you find out o this Taco Stand has good good burritos. I ": [
+            636.9,
+            668.7,
+            16
+        ],
+        "you break it and you're trying to get up to the upper part. That's that's your job. And you've got one paddle down here. Can you hear that? Hey, did you see that? So that's actually a human strategy 2x / 2x / to play this game. Okay, you want to see it again? Okay. So yeah. I think this she is is Q learning. Okay, why is nothing is ": [
+            2561.3,
+            2642.8,
+            66
+        ],
+        "you can. okay, so these are some results this is You know roughly human level. And it reaches human level play defined as 75% of an expert score on 29 of these game. So video pinball box saying breakout, etcetera. The gray lines here are just a linear Networks. With no, no logistic. No hidden layer Etc. So while it could be a logistic, but it's it's just a single ": [
+            2149.6,
+            2197.1,
+            56
+        ],
+        "you go, right? So it's a probabilistic action. Okay. So again, this this triple is Big Table of triples is your model of the world. It says if I'm in state gas and I take action a I will transition to State us Prime with this probability. So it's just a lookup table to some extent. And in a game like go which we're going to talk about. You don't ": [
+            3206.4,
+            3241.0,
+            82
+        ],
+        "you know, Like that or were using a probability distribution is your output or some continuous out. We're not going to talk about continuous actions though because that's just too hard for. What are two lectures in? Still have that. Well, not as much how to sue a new professor in our department gave a talk yesterday at the seminar about he didn't get to this part of his talk, ": [
+            920.2,
+            966.8,
+            24
+        ],
+        "you've visited and then there's something called beam search where you only keep track of like three of these guys and then you keep going and then there's a star search which is optimal search given some heuristics mirrors invented back probably in the 50s or 60s. Okay. So that's State space search any questions about that. Okay many techniques you could use to do this. Iterative deepening is another ": [
+            3797.7,
+            3838.5,
+            99
+        ],
+        "your world model. It says so if I do this then I'm going to end up here. And then you can use that to plan ahead because he can simulate different trajectories through the space stone wall three red frontal lobes. Frontal cortex prefrontal cortex a little too complicated for today. Okay here is playing right now. It's this thing. That's do, you know looks like this right and we ": [
+            1070.6,
+            1115.4,
+            28
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_17.flac",
+    "Full Transcript": "Okay game.  today, I want to talk about reinforcement learning and  I borrowed some stuff here from andrej. Karpathy blog. I don't remember how much but  Okay.  so  All right so far we've mostly talked about supervised learning where you have a set of inputs and outputs where it is. It's known in advance what you want then at work to do for every input. We've also looked at unsupervised learning with autoencoders and Dan's but today I want to talk about reinforcement learning and I'm going to start with a really simple form of reinforcement learning and then if I I assume I'm going to get to my next set of sides after this where I get into a little bit more detail and and other methods so  the  there's an agent and reinforcement learning action environment. So the agent actually takes actions and then the Asian gets the updated state of the environment and perhaps our reward signal.  and unlike supervised learning  the reward doesn't tell you what you did or what to do. It just says whether or not that was good or bad and it may actually be a scalar which says oh that was really good or that was okay.  Tell Russell norvig have a great definition of reinforcement learning. Imagine playing a game has rules. He don't know after a hundred or so moves your opponents as you lose and that's reinforcement learning in a nutshell.  So the real key difference between this and other things is that the agent is actually learning to act out in the world and is using trial and error to do so what just happened. It's also one of the best attested forms of learning in the brain. You have a whole set of your basal ganglia or set up to take actions and get rewards for those actions.  And weed the whole field of neuro economics started several years back basically based on these ideas.  Okay. So here's the setup you have an agent takes an action at time T which changes your environment and then you get the new state at time t plus one and perhaps our reward. So you're always getting a state and the perhaps your most recent reward and then you take an action get a new state got a new reward etcetera.  so  He's got two states are some subset of offended discrete set of States, but it can also be a continuous set of States actions are often a set of a discrete set of actions that you can take, but they can also be continuous. So when I'm waving my arms, that's a continuous action. I've got many an infinite number of joint angle so I can set my alarm at.  Because it's a real number and then you get some reward and a new state. So your life consists of being in the state taking an action getting reward getting to the next state taking an action getting reward getting the next date. And this is why one of the old reinforcement algorithms who is called sarsa.  Okay.  But for lots of games, there is no reward. Is he go right? So you play chess and you know, your your opponent isn't going to say good move usually say you just take your interstate and taking action action action action finally a games over in either you find out you won or lost.  So it's hard to tell whether these actions early in the game are good or bad and generally we don't know the answer to that all you know at the end is whether you won or lost.  Okay, so this is reinforcement learning. What does the agent learn?  The agent learn to policy usually denoted as pie which is a mapping from states to a probability distribution over actions. I'm so assuming you have in different actions. It's the probability of each action given the state and generally do you want to  Have high probability and actions that are going to lead to win and low probability on actions that are bad in that state.  Until reinforcement learning techniques specify how you change your policy as a result of your experience.  Okay.  So this function can be implemented by Deep Network that mastram states for example images of a game like an Atari game to a softmax over the actions.  So here is a really old video game called Pawn.  and the agent  the game will do this and then the eight-year the agent controlling this paddle and you have basically three choices up down or stay.  And head each time step. So each time step. You're moving up some amount down to him out and he basically move up more by tape by pushing the up button multiple times.  Okay. So here's a very simple Pawn Network. This is directly from yandere carpathians blog you taken the raw pixels.  And have a hidden layer and then the output is the probability moving up. So he didn't have a stay in the same state action. And this is actually something that he did on his blog and he trains it and it's not a deep Network and it's not a convolutional network, but most systems that play Atari games now, we'll have convolutional deep Network.  So to play this you taking the current image. You got an output and then you flip a coin depending on that output. It's waited by the output. So if the Opera is .99, you're generally going to go up if it's .01. You're going to go down but you flip this coin based a weighted coin based on the probability of going up. So again, this is a situation where you're sampling and to do that you take the unit interval you  Partition it into you know, if the outputs .9 you have 90% here in 10% hear you do a uniform draw between 0 and 1 and typically you're going to feel fit in the 90% but you have some chance of moving down.  Okay.  Yeah, so one of the sort of memes about reinforcement learning is the exploration exploitation Trey. So you're learning by trial and error. So you want to try stuff and by flipping a coin you're going to try different things. So that gives you some exploration, right? And as you learn in certain in various states that the output will become more and more deterministic like .99 another way to do exploration and exploitation is to take us off Max output and use a temperature parameter.  So in order to try everything, you'd have a high temperature initially which will tend to give you a uniform distribution over your actions. And as you learn you start to lower the temperature and then you start taking more and more deterministic action. So then you're exploiting your knowledge when you're trying a bunch of random stuff you're exploiting your exploring. So if you need to if you just explore a little bit and you find out o this Taco Stand has good good burritos. I think I'll just keep going here. You may never find the taco stand down the street that has even better burritos, right? So you have to but at some point  You want to stop trying everything and and just say well, you know, this is my favorite Taco Stand. I'm going to go here.  Okay.  3 questions other questions so far  I'm actually Facebook. But getting in change depending on stage.  Yeah.  Well, you you basically would mask off things that you can't do right? So you've got a set of possible actions with each time step and you can if your distribution is over all the actions you can just  Mask off things that you can't do the network doesn't know this there is some in a rules being in post and what it can do. It doesn't know what its actions actually do.  Search s is a two-person perfect information gained its deterministic. So if I move someplace I'm going to move there. It's not like well, I'll probably move some place you you have to move but you'd still initially want to try a bunch of random different things in order to see what what work.  And this is partly why reinforcement learning systems take a very very long time to learn in terms of their overall experience. So  You may play millions of games many more than any person would play in their lifetime in order to learn the parameters of the system. Yeah does if you're doing a report along with the guy wants you to have to know the probability of the environment like all of you probably seen before hand. So we're going to talk about this later. There are basically two types of reinforcement learning model 3 and model based.  Frontal cortex is your model of a spark your basal ganglia is your model free part model free is basically stimulus-response here. You're given some stimulus and you have a and almost automated reaction like driving, you know, you we all have certain we can talk while we try I've and that leads to all sorts of trouble like, you know, you want to stop home. It's grocery store on the way home and then you find yourself in your driveway and you forgot to stop at the grocery store cuz he went on autopilot. Yeah, he first  I wondered like in Q learning a a big issue is like the curse of dimensionality where if you have continuous observations face.  How do we describe the space? So the number of parameters doesn't explode when we have heat networks? Is that still as big of an issue and are people too?  Have a much bigger alteration space.  Near continuous. Yeah, I mean there is continuous reinforcement continuous action. I mean, the hardest reinforcement learning is continuous action continuous state. So ways around that or as you say discreet izing the actions so, you know,  Like that or were using a probability distribution is your output or some continuous out. We're not going to talk about continuous actions though because that's just too hard for.  What are two lectures in?  Still have that.  Well, not as much how to sue a new professor in our department gave a talk yesterday at the seminar about he didn't get to this part of his talk, but he was talking about sort of discreet, you know taking in and we look down we say, oh there's a a chair. There's a table there's a dog, you know, now I can interact through this table without thinking about it at the pixel level. Right? And so if we want a system that interacts with the world, it would be good if it you know actually segmented it into different parts and but typically  You know the the the things that we've done so far involved just like this so you got some pixels is input and you're just, you know, taking all those pixels and ignoring the fact that there's a huge curse of dimensionality because most of these pixel stay still for one thing and you only have to tend to the parts that really matter.  model 3 forum  Yeah, so I didn't actually finish my thought they're so model free means basically you're in a state. Can you take some action without thinking about what might happen after that model-based is means you have this big Matrix or tensor is each entry is the probability that if I'm in this state and I take this action what next state will I get to  So that's your world model. It says so if I do this then I'm going to end up here.  And then you can use that to plan ahead because he can simulate different trajectories through the space stone wall three red frontal lobes.  Frontal cortex prefrontal cortex a little too complicated for today.  Okay here is playing right now. It's this thing. That's do, you know looks like this right and we taking all these pixels.  and  is there a Gremlin back there? So you take your current image? You run it through your network and you get some output and using that output you flip a coin to decide what you should do whether you go up or down.  So you took a probability from here and you produced a one or a zero by sampling from that probability distribution and then we can use that as a Target right? It's either one or a zero and the trick is at the end. We use the sign of the word on the gradient. So we take all these steps we go through the the game and boom we went. Okay, how do we know what was good? And what was bad we don't accept that we won. So we wanted and courage the moves that we actually took.  The moves that we actually took where the sample that we got from this probability and if we won at the end then we want to go downhill in the air, right? But if we lose it, then we don't want to do all those things. We did we go uphill in the air.  And make those moves less likely.  Okay, so we encourage the actions that led to win and we discourage the actions that led to a loss but what's weird about this is you encourage all of the actions that you took if you win whether they were good or not and you encourage discouraged all of the actions that you took when you lost even the good ones but on average you end up doing good stuff more.  Okay, this is an algorithm. It's called policy gradient where this is the policy for following your gradient depending on the reward that either encourages things that led to positive reward or discourages things that lead to a negative reward.  And this is probably the world's simplest reinforcement learning algorithm. Yeah.  Well when you  Okay, you have all these targets right that are actually what you did.  And if you go downhill in the gradient, you're going to move your outputs closer to those Targets in that state.  Right, and if you go up to him the greatest you're going to move away from the targets.  Okay, and actually you can't really learn anything using this what Andre did was I think he took either two successive States and use the difference between them. So they got velocity right what you need. You need to know the movement of this ball to know what's going to happen next and where you should move your paddle.  Okay, so that's a common strategy is to use multiple frames or different frames to know the motion going on in the world. Okay?  Yeah.  And this particular method works well in this simple environment.  But for a so so if you go to andrej karpathy blog you I think he has videos of it playing before it knows much and it just kind of wanders around and then it gets better and better and better and finally it never misses.  Okay. Now pouring is actually pretty good for learning reinforcement learning because he actually get points as you go so you can get rewards as you go if you get if you you know, headed past this guy, that's one session. He he lost you got a point and you could be a problem. If you could use back prop 2 to learn what you you know, all the things that what you did a good or good goes past you you want to discourage all the things.  Now this is for want to be really clear. This is not backprop through time. This is just given a state and whatever action I took I'm going to use that as my great-aunt to update the weights and I'm going to average over the whole session basically. Yeah, you had a question.  So  yeah, so, you know, maybe we're going to have a hundred actions. We have a hundred training examples basically right where we took an action in a state the state changes over time. So we have multiple mappings from state to action state to action. Do we want to make those more likely cuz we won or do we want to make those less likely cuz we lost and so you compute the gradient and the weight changes over all those individual actions and then use that to decide on an average using the average of those to change the weight.  Okay, it's not back prop C time.  Even though time is happening.  Yeah, so this is a logistic output unit.  Okay, so it's going to give you a number between 0 and 1.  And you flip a coin based on that?  k  And I guess I'll just eat you look a little.  Just just drive this home one more time with I mean, you're basically doing this right now with your programming assignment, but if I get like it's this is Iran. This is one and I get .9 then I put a, you know, a barrier there and I draw a random number from uniform distribution and it's much more likely I'm going to land here then I am here so that's flipping a weighted coin.  And with your softmax right now, you flipping a many-sided coins fav little intervals depending on you know that the distribution of probabilities. Yeah.  No.  No, actually, I just sampled it's not an ARG Max.  Those are the targets here. So again the out the output of the network is the probability of Your Action is up.  okay, so if the probability is .9  and I sample from it and I'll and somewhere in here then I got to one.  if I end up over here, I have a 0  and those are my targets.  Good.  how to get o  This is point nine. Then I'm doing 1 - 2.9.  As my Delta for the outputs.  right  So if I'm trying to see if I won I'm going to try and reduce this difference and make going up more likely if I lost I'm going to increase this difference and make going down more. Likely. Yeah.  0 instead of the one we have a  Marjorie gray together directions  Yeah.  So if it came out to zero free samples and we got zero which would be this is this is the 0 region because the probability of 0 is 1 - 2 / so this is the one region where the up region in this is the down region.  Okay, and so we use the actual probability as the output of the network the sample as the Target and we take the difference of those as the delta.  Okay, so you're basically doing a cross entropy learning. It's just you may go one way or the other depending on winning or losing okay?  any more questions  Okay, run out of questions.  Okay, so here's a deep mines Atari player.  They have you know, whatever the game is he and put those pixels and then I think maybe they use the last four frames and they use the same network for every game. Okay, they just traded from scratch for every game. There is no transfer between games you don't like. Oh, I've done all these games. Now this game looks familiar. That's the one that's what people are working on right now is  How to transfer between games because you know, andrej karpathy or somebody else could sit down and in 15 minutes, they're playing kind of like an average player, right? They ever experienced being game players. The network has no memory of any games that's ever learned. It's just like as I like to say and I'm even with a PhD it's it's just stimulus-response stimulus-response. Okay, it's not thinking it had its not thinking at all.  Okay. So here's the networking. Maybe it's got four frames of the last games and then goes through convolutional with relu Etc. And then the output there's a red button on the Atari controller. So you've got discretized what you can do when there's no no no movement up 45 22 and 1/2 45 Etc. And so there's those for those one two, three, four eight different movements and then there's just pushing the red button and then they're so safe movements and pushing the red button.  So those are all your actions.  So instead of just one output. We have a a softmax.  over all possible actions  Okay, and I get on this network is the policy its mapping from states to actions and it's giving you the probability of these actions.  Okay, so this learn by Q learning which is a model free technique, but maybe we'll get to that later in this lecture, but you can imagine it's policy gradient for fun.  Okay.  so just summarized policy gradient is you got some soft next distribution over your actions or a logistic if you only have two  You treat the sample as a teacher. So if I sample from that and I got a one in the third place cuz it's point six. Then my target becomes that.  Okay.  And at the end i x t minus y this is the output of the network by the sign of the grace of the reward.  And I back property are from all those different steps in parallel and change the weight.  Hey.  All right.  So that's the story and I'm sticking to it.  Okay, so over x a good actions will become more likely in the bad actions will become less likely.  Okay, yeah.  what is your training at like a play something like pain but then it already achieved like the optimal state has you're still learning cousin that ruin that give you an  radio  Yeah, but you don't really want to wait an infinite amount of time. So I'm going to play, you know million games and pawing and you know after each game you update the weights update the weight. So that's a million times you're updating the weights. And you know, that's that's as long as I want to wait.  right  Well, then that's like a positive feedback. You could if you have scalars like, you know, -10 2 + 10 or something, you might there's different things you could do. You could maybe make the learning rate bigger. If you have a bigger reward things like that. Yeah.  Oh, oh, it's just what it's just what Andre did in his blog. He trained this little Network on Pawling and it turned out to work better with policy gradient, which is good because then you can explain it.  I don't think we know that.  people try different things, you know, you see papers where they're comparing K different reinforcement learning algorithms, and then they just tell you which one  What's the best?  rinpoche  tqn. I don't know about rainbows. He cure. Okay, I don't know about it. Haven't read it.  Like I said, there's dinner. There's new papers coming out just about every day. Yeah.  Our guide well because it's easier to train a feed-forward network.  You know or avoid recurrence if you can.  okay, so these are some results this is  You know roughly human level.  And it reaches human level play defined as 75% of an expert score on 29 of these game. So video pinball box saying breakout, etcetera. The gray lines here are just a linear Networks.  With no, no logistic. No hidden layer Etc. So while it could be a logistic, but it's it's just a single layer weights. So for some games like boxing that turns out to be okay, but the blue lines are for the network.  This network, okay.  So that the gray lines are for a network where you get this in and you have one layer weights to there?  And stop Max output like programming assignment 1.  Unless it's just a closer look.  So these are the things that's good at.  These are things it's not so good at in Montezuma's Revenge.  I think that says 0% hausu mentioned in his talk yesterday that they're they're up to pretty good scores now in Montezuma's Revenge cuz it's Deep Mind and it's a couple years later.  Okay, this is for this particular game which looks like Space Invaders. Not sure what game that is. But this is a 2d representation of the Hidden Lair just before the output.  Where they've done either PCA to get it down to two Dimensions or they've done some other technique for getting it down to two Dimensions Square neighboring things in this space correspond to things that are similar to each other, right? So hidden layer here is very similar to The Hidden Lair. They're okay and you can see that things that are near one another have our first similar States.  So these three there's two columns to the right that are full and then one guy there the says two guys there they're far away. So we don't have to worry as much about him. But we need to worry about this guy. It's almost hit us.  And this is just a I just cranked up the contrast here so you can see it better. But basically you can see that it's organizing the hidden space. So that similar states are near one another and this is the wonderful thing about using a network for this even some states that our world have ever seen before which is entirely likely.  They will map to similar part of the space and you'll do similar things. That is you generalize to things you've never seen before the standard thing. I always teach when I used to teach reinforcement learning is a is a course. Does he start out with a gridworld? We're basically  you have a a world like this.  And maybe it has some blockages in it where you can't go and you've got four actions up down left, right? And you're trying to find a goal here and you start over here.  And you learn a policy that you know, maybe it's like this.  And there's hell here in a few falling if you fall in here. You die and you get bad rewards. So typically the the optimal policy is like that you just try and go that way if you can  And so there's a discrete set of states and discrete set of actions. So you can just do a table look up and and you don't need some function approximator like a neural net.  But you know anything you learned about this state doesn't generalized any other states. So the wonderfulness of a function approximator like this is that if generalize has two states, it's never seen before in this some extent that addresses the curse of dimensionality.  Okay, so I know you guys like movies.  Going to see a movie.  Turn on the plug in the sand here.  Okay. So this is this might be Dennis the BB from Deep Mind. I'm not sure but they're playing Breakout.  Now it's not saying now I can't hear anything.  Nothing, right? Okay. Let's go back.  understanding  dropping our plans by 200 - 96 Breakout  Yeah, some of you have basically you're trying to hit those things and every time you hit one you you break it and you're trying to get up to the upper part. That's that's your job. And you've got one paddle down here. Can you hear that?  Hey, did you see that?  So that's actually a human strategy 2x / 2x / to play this game.  Okay, you want to see it again? Okay.  So yeah.  I think this she is is Q learning.  Okay, why is nothing is happening?  Okay, so  this lecture I think was from a maybe a 50-minute class. But I'll have got more after this. So just to summarize what I've told you so far reinforcement learning is very different from either supervisor or unsupervised learning because there's no specific targets for the output. There's only this reinforcement signal and the Network's own actions affect its environment.  And the network has to learn through trial and error.  Policy gradient is a method that Updates this policy based on the reward that uses its own samples as targets fall is a gradient uphill or downhill depending on the side of the reward then on average. It approves Its Behavior over time.  Until this one network architecture can exceed human performance on a large number of games but they're still games. Acquire some prior knowledge 7 Montezuma's Revenge. I think there is a key. I have to pick up and that you know, that's hard to train a network to do by this method.  So there are no networks with learn to play multiple games there, but we're not going to talk about that.  Okay.  Okay, so so far we've done this.  We talked about this this time. I'm going to give a little bit more formal introduction to reinforcement learning and then I'm going to talk about the first.  Not successful reinforcement learning system to play a game. It was Jerry to Sorrows TD Gammon, although you could imagine that what?  Was done in the 50s by the guy who learned to Checkers program whose name I've forgotten right now, but I met him before he died that might have been called reinforcement learning. But Jared's Charles was is usually thought of as the first one and then alphago.  Okay. So again, this is the agent environment interface. The agent takes an action gets a new state new reward takes an action boom. Boom. Boom.  Okay, and then the policy is a mapping from states to action probabilities. So this is slightly different notation. It's just saying the probability of this action in the state is the function of the policy, but the way we usually do it is the output of the system is a probability distribution over the different actions.  So, what's the go? What are we trying to do?  The thing where you know you and I are trying to do is to maximize our long-term expected reward you are suffering right now through this course unlike the hundred or so other people that dropped it because you're trying to maximize your salary when you get out of here, right? So, you know graduate schools the same thing. I mean, you know, there's no reason to get a PhD in less. You really really want one. Otherwise why you no go through that pain, so you're trying to maximize your expected on average long-term reward. So here's here's a reward you're trying to maximize this and it's your reward at the next time step. Now this could start out at Time Zero, of course.  And then you get some discounted reward for the future X episode gamma is a discount rate between 0 and 1.  And then doubly discounted the roar in the next state. So it's the sum.  From cable 02 Infiniti of gamma to the K rewarded t + k + 1 and that's supposed to just be a, there looks a little weird where it is and usually if in the case of infinite things what this gamma does is make the reward the long-term expected reward converge. So if you didn't have gamete hear this thing could blow up so far future you're going to have gamma to a big exponent and you know .92 big exponent is very small.  So it makes the expected reward converge and if you have a 0 for Gamma or a low gamma that means that you're caring more about what's happening right now.  And if you have a point nine nine gamma, then you're ready for grad school.  So you wait future rewards more heavily than not then current rewards but more heavily than they would otherwise.  That again by the state. We mean whatever information is available to the agent in gridworld. The state is just you know, 1 1 1 2 1 3 etcetera here. You've got some Sensations maybe the image of the game and I'll be highly processed by the neural network.  And it should ideally summarize past Sensations in some way so that you retain all useful information that is a snap of the Markov property. So if anybody heard of The Mark of property before taking 151 or whatever from Lawrence the  The probability that the state we get to is state t plus one and the reward is that given?  The state were in and the reward we got for taking that action than the state we were in before that that is this. This is the mark of property. It just says their probability of the next date in the reward if we're in the state and take this action only depends on this state in this faction. That is that you can forget your past unlike real life where you never stop paying for your past.  Okay, so all the agent needs to know anytime is the current state.  Hey.  Okay, and so this is where I was going to talk about model-based learning so model-based means that the agent has available to it or it it did might have to learn this through experience amount of its environment, which is just this PSAs Prime thing.  So it's what this is is you you have the store somewhere. It's not an output of some Network or something like that. It's something that you learn overtime by, you know being in a state and taking an action and Counting how frequently do I get to that state how frequently do I get to that state and over many experiences that counting is going to converge to the actual probability.  So the way we make gridworld hard as we have taking the action up means you actually go up 80% of the time and then 10% of the time you go left and 10% you go, right? So it's a probabilistic action.  Okay. So again, this this triple is Big Table of triples is your model of the world. It says if I'm in state gas and I take action a I will transition to State us Prime with this probability. So it's just a lookup table to some extent.  And in a game like go which we're going to talk about. You don't have to know or go as yet. The next state is deterministic just like chess Checkers a lot of other things.  But a lot of practical approaches to reinforcement learning or model free, so there was no model in that pawn thing. There was no model in the Atari thing. You just learned a map from state to actions if you had a model.  Of the world you can practice.  You could you know if your model is accurate you could imagine what will happen next and maybe just learned from the model.  by running your model  So if you can but if you have a good model, you can do simulated experiences and learn even better and you can plan you can plan ahead.  So one standard thing that people do and reinforcement learning as they learn the value of estate. What's that? The value of the state is the expected long-term reward return to being in the state following the optimal policy.  Or it may have a little pie up here, which is the same thing. But if you follow policy pie.  Okay, so you don't normally know this but you learn this you can you can if I'm in state ass and I take a bunch of actions. I can keep track of how much reward I got by taking those actions in the grid world. For example, we usually have a little shocked a little negative reward for being in any of these states besides the goal and that makes you want to get out of the world and get to the goal as fast as possible. So if I start here and I end up over here I can keep track of how much value I got starting here and doing that how much value I got starting here doing that and then getting there.  And keep track of that and then learn what the value of each state is with my current policy.  So that's called the value function.  Okay, then again, that's something you're trying to maximize.  And if you have a model of the world, then you can use this to decide what the best policy is.  Okay. So Q learning is kind of like that except that it's the value of the state if I take that action.  So it's specific to every action and every state.  and so  again, there's an optimal q and there's the Q from following your current policy.  And the Atari player learn these values using a deep so actually the outputs.  The probability the outputs of the Q value network of that Network were actually cue values not probabilities.  What you can then turn into a probability distribution.  So these are closely related. The value of estate is the maximum of the Q value for that state over the different actions you could take  and either one of these can be used to specify a policy. You just take the action that has the maximum Q value.  Okay, so that's Q learning is model is good for model free learning because you have a table of State action values that you learn and will maybe talk about that today, but you don't need to know anything about the future. You're just learning the show when I take this action this state my expected reward is that  In queso again value of estate is the long-term expected reward starting in that state. The Q value is the expected long-term reward starting in that state and taking that action. Yeah.  Yeah, so this is pi, right so  The best one is the value of the state.  So this is the action word we're going to take the action that gives us generally if we're doing greedy at this point or exploiting not exploring. We're going to take the action that has the maximum Q value and those are Define the same way when this one is the value of the state if I follow this policy from here, which will most likely be take that action, right because it's the maximum q-value so you don't need a world model because we're just learning State action pairs. I don't have to think about the future at all.  So I assume most you know how to do a state space search for you search for a solution to a puzzle and a tree or the branches were the real estate space searches.  I do who else does.  some of you  a lot of you don't  yeah, this is why I teach States face search and 150 when I teach 150 which I haven't done in quite a while but  Okay.  Try that, but okay.  alright State space search  I should have some slides on this I guess okay back in the day. We used to have something called the dime store now. I guess they have Dollar stores are in the dime store. You can buy this puzzle.  And the puzzle would be like this.  And have one space and you can slide the five into the space or Slide the 8th and do the spacers Slide the one into it or Slide the pour into it.  And then you'll have a new space and you can find something into that. It's a sliding Block Puzzle. It's called and your goal is to you know, get to a state like one two, three, four, five six, seven eight. Okay, so you want to keep sliding so that's a puzzle.  and state space search  is  Basically, this is a state.  And I look at well, what's what's my next day? It's possible next States 06875 1342 so I can move it's easier to think about if you think about just moving the space. So if we move the space left right up and down or get for a new States.  Then I can do the same thing and move left right up down.  There's only three ways. I can move here etcetera and I got a bunch of new States. So this is a tree.  And basically what I do is I if I want to find the solution to this puzzle, I can do a breadth first search through this tree until I get to the goal.  Okay.  More easily said than done because in some games, right? There's going to be more than four hear different things that you can do and it quickly blows up with the depth of the tree.  So you can try depth-first search and then that saves a lot of space but you may end up like just going down down down down down until you unless you keep track of what states you've visited and then there's something called beam search where you only keep track of like three of these guys and then you keep going and then there's a star search which is optimal search given some heuristics mirrors invented back probably in the 50s or 60s. Okay. So that's State space search any questions about that. Okay many techniques you could use to do this.  Iterative deepening is another one. Where is it just Us Deptford search to fix depth over and over again first to death once and up to then dip 3, why would you do that you do that because it turns out you actually save so much space by doing a depth-first search that you can solve problems that you couldn't solve otherwise and turns out that entered of deepening just going down one and starting over and going down two and then starting over and going down three doesn't use that much more time than just simple depth-first search surprisingly enough. OK States face search good now suppose. I've got an enemy that can move the square back somewhere.  Right, and then that's his turn or her turn and then I have returned and then he has a turn and then I have a term that means that I need a different kind of tree a game tree where I you know, I can do any of these things, but I have to be ready for all of the things that they could do.  Mini Mac  Thank you.  So I have some value for this so and again A lot of times these spaces are so huge that you can't possibly compute them. I mean at the end you can get you in a winner lose or you can decide, you know, you come to the end but most of the time for most realistic games. You just can't do it. It's the space is too big.  So instead use a value function to decide which branch to to search under it's also known as the heuristic State evaluation function. So a simple one for the egg puzzle is how many pieces are out of place.  If I move down here and I have one less piece out of place or maybe even suddenly two pieces are in the right place. Great. I'll go that way.  Right till I have some function I can compute on the state and decide how good it is.  That's a value function and a heuristic value function is one where you make up some heuristic or rule of thumb?  Like if your thumbnail subtends a visual angle about one or two degrees in arms, like that's the rule of thumb 6 is the perfect number of people for a dinner party another rule of thumb never invite more than 25% of the people do a party from the economics Department.  Okay another rule of thumb, okay?  So that's that that can easily make the search much more stringing down here instead of broad because you're searching under good places. Okay, and then game playing there's also at research, but you have to be ready for what your opponent by 2.  So the Minimax algorithm is  What's often used for these?  You've got some initial state is the board position whose turn it is the operators are legal moves could get you to a next state. There's a terminal test that says okay is the game over yet and a value function and usually this in the minute original Minimax algorithm where it said something like the 8th puzzle where you can actually go to the end of the tree. You just have a plus one or a minus one if  if you win minus one if you lose in a zero if you drop  Or the number of points you scored.  And your assumption is the opponent will always choose the move that maximizes its value. So  here is an example of a Minimax tree.  Max is the guy who starting and he's represented by this triangle and he's trying to maximize his score men is trying to minimize Max's score maximize her score So Max and mini play this game and then we get down to these terminal places. So this is just a made-up thing, right?  and  So Max wants the largest outcome mini wants the smallest so the Minimax algorithm is you take the minimum of all these guys cuz you know, that's what mini is going to choose.  and so you do men at every  there and then Max is going to choose he's going to maximize over these so he's going to take this.  Okay, cuz he can guarantee that many can't do better than 3 if he takes that move.  That's the Minimax algorithm. It tells you which move to take the move with the highest value for you.  Okay.  Sew-in real games though. This branching Factor really kills you. So hear the branching factors 3, that's not so bad. And the depth of the end of the game is just how do you make a move and you make a move and but in a real game the time is proportional to this branching Factor raised to the depths of the end of the game. So I notice the branching factors 3 my depth here is 2 3 to the 2 is 9 notice there are nine things here. So it's feed of the end. Where be is the branching factor and M is the depth that you search to.  So for chess, that's about 35 to the hundred for go. It's 250 250. And so this didn't you know, you can't possibly it's not practical to search.  Right. So how would the value be calculated the best you can do is learn a mapping from states to values from experience.  so  in the remaining nine minutes, I'm going to talk about TD game and next time I'll talk about go. So this is backgammon anybody play backgammon here.  Okay, so it's one of these physical physical thing and he actually pick up things and moved.  Okay. So this is backgammon white and red are trying to get off the board by Rolling Dice and moving pieces towards their goal weight is trying to move its pieces and get off the board. This way red is trying to go that way and there is some simple rules.  Okay, so red is trying to move that way.  So you roll a pair of dice?  And so every move you roll two dice and there are 36 possible outcomes. So that's a pretty high branching factor and then not only that I need shall come as a probability. But then you have different moves that you can take based on that. So a roll of for one lies, you can move one piece one point and another piece 4 points or one piece Five Points. So for one, I could go one too. Well, this is some of the role was not for 1 1 2 3 5 3 looks like so one two, three, one, two, three, four five. I can move one piece to their there's three. Okay if you have two pieces or more on a point  Your opponent can't land there. But if you have just one piece on a point and your opponent lands there then you go back to start you have to go back to the beginning and start over with that piece.  So there's some simple rules like that and if he got doubles like for 4 and then you can actually you get 4 4 4 4  Okay.  So a double az-66 lies you any combination of four pieces, 6.21 piece 12 points into 6, etcetera and sometimes you can't move at all because all the places you could get to or covered by your opponent.  Okay. I already told you that.  Sir, TDE Gammon, this is Jared Sorrows work. He's at IBM and this is from the 80s. And this was this big success reinforcement learning works. Woohoo play this game 20 years ago by you know and about and there's no other successes took a while, okay.  So the network takes in a representation the board as input like in the Atari thing learned the value of that board position is output through playing games for the Shelf.  And the way through updated using a temporal difference rule on every move. So let me kind of explain what that is. So I get to this next day and I look at the difference between my estimated value for the state. I came from and the value of the state. I got to and I make the state I came from  closer to the value of the state I get to  so the base case for this is you end up winning. Okay, and so you got a one when you win then the guy just before that tries to make its value closer to that one. And so the the value of the gold ripples slowly through all the things you went through by just trying to make each state close to the successive stayed after that. That's the temporal difference between the stated the value of the state of time T in the value of the state of time t plus 1 and again, he used to neural net for this back. Then we had basically one hidden lair.  And is taking this board and trying to figure out the value. So if you'll have linear outputs the valley estimated value for red in the estimated value for White.  And so this is the temporal difference rule some learning rate.  Times the difference between the output of the network at the next time step, which is my estimated value for this next day and the value of the network Ike of the state I came from and so this is my temporal difference rule these r-values there the output of the network and send some stuff to go downhill in some gradient of these outputs.  Okay.  So the weights are updated to make it closer to the next day and this is called TD Gammon are sorry TD Lambda temporal difference is the TV part and Lambda is this discount Factor on things. So when land is 0 feedback occurs beyond the current timestamp when lamp is one.  Beer feedback without the K arbitrarily far in time.  And intermediate values give you a smooth way to switch between these two cases. So again,  TV gallon starts in some State we have all these possible moves to give you some values and you choose from these values by picking the best one and the cool thing about  Backgammon is that the exploration is built in through the rolling of the dice?  So these are backgammon experts and eventually with 15 1.5 million games, which is the back then it came very close to being as good as this guy. Who's a backgammon expert.  So that was counted as a success.  And it's also become the most common thing to use for roll out. So what's a roll at you start in some state?  And you're trying to figure out what's the best move from the state? So you do roll out so a role that is for 1 equals 1/2 a gazillion do received the random number generator Simulator game to the end using TD gammons evaluation function for each move have the result to running averages value of this position.  So you're just simulate a whole bunch of games using TD Gammon as your player and that gives you a way to evaluate a move. "
+}

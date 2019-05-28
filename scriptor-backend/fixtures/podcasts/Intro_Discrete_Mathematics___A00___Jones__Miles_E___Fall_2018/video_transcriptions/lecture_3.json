@@ -1,0 +1,366 @@
+{
+    "Blurbs": {
+        "* 2 is very simple in binary. Okay. So how would you guys draw this circuit first? Well, I guess first. Let's answer this quicker question, and then I want you to drive. So I have my input is a fixed with three bit representation. The output is a fixed with three bit representation of n mod 2. So what is the output for the input x 2 x 1 ": [
+            2229.3,
+            2260.9,
+            53
+        ],
+        "- 1 so in this in this case. 5 bits for example can hold all the numbers from 0 up to 31 up to to to the 5 - 1 and 3 bits can hold all the numbers from 0 to 7. So just buy that kind of logic 7 * 2 is 14 right so you can never get pass 31 to get past 31 then you need an ": [
+            2153.3,
+            2184.7,
+            51
+        ],
+        "0. What kind of make sense? Any other questions? Right, so I haven't gotten to that yet. But yeah, so if it overflows then you kind of have to just ignore that that bit right that extra bit like if if they were if it was going from 3 to 3, right and I * 2 it's kind of not defined. Well, right because you have to say Okay multiply ": [
+            2046.5,
+            2089.8,
+            49
+        ],
+        "2 and I'm hoping to get 6 what happens here? Well, this is zero. Just go straight over here. This one goes straight here. Sorry, this one goes here. This one goes here. The ground always gives me 0 and the ground always gives me 0 so this is the 5 bit representation of 6. So I got I started with 011 and I ended with 0 0 1 1 ": [
+            2017.3,
+            2046.5,
+            48
+        ],
+        "3. Which is equal to what one and then I have one div 3 which is what 0 so now Q is equal to 0 and it cuts out of the loop. and now our number is just 2 to 1 right now cuz we built it from the right. Remember. Just seeing if you guys are paying attention. Where is 122 built it from the other day? Okay, is ": [
+            1675.7,
+            1718.3,
+            40
+        ],
+        "All right, let's get started today. How's everybody doing? Good good. You guys start on the homework yet? Yes, no, maybe you should get started. All right, where's my? All right, where's my clicker thing? so let some I kind of hope that you guys had a hope that you guys had a little bit of time to explore how to change from different bases and I'm going to remind ": [
+            111.3,
+            170.4,
+            0
+        ],
+        "Cuz whenever you multiply by 2 you always get zero in that bit. This one will go right here. This one will go right here. Just want to go right here. And then we have another. We have another ground on the top right will never be able to fill in that top. Bit with the one right will always be a zero. Okay. So this is what the circuit ": [
+            1877.4,
+            1906.2,
+            45
+        ],
+        "First? Saw that first digit? I do 17 mod 3, which is what? to write Okay, and now I use that too. Why go through the loop again K increments to 1q becomes 17 div 3. Which is what? 5 the here I have 5 Mod 3. Which is what also to okay, and then Q becomes 5 div 3. which is 1K increments to 2 I have 1 mod ": [
+            1620.4,
+            1675.7,
+            39
+        ],
+        "I guess memory is probably the best example your computer can only hold a finite number of bits. So What number can it reach right now? We can start talking about what is a fixed with base B expansion now fixed with base B expansion. is just the coefficients have to be in between 0 and B -1 And you have to pad the leading coefficient was 0-2 to match ": [
+            509.5,
+            544.4,
+            11
+        ],
+        "The number of digits will grow as the number grows, right? And so there are numbers that have I don't know a million digits are numbers that have a billion digits is unbounded right? But since this is in part kind of a computer science class, we have to start thinking about limits. What are the limits that your computer can hold you thinking about memory or Something like that. ": [
+            478.5,
+            509.5,
+            10
+        ],
+        "Yeah. Yeah ground is always zero. Always start our victory for example connections to the right side. after the ground for how do we know where to go? So like for example, if my input was like 3 for example, right then my input would be 011. That would be that would be the binary representation of 3 in a fixed width 3 bit system, right then when I x ": [
+            1961.1,
+            2017.3,
+            47
+        ],
+        "a physical thing going to add why I wanted to show you this video. Wait, hold on. Does this can I get volume on here? Okay. So this guy here he makes a he makes a and gate out of dominoes. Are you guys seen this? Can you hear it? Okay, so here is his and gate it's really cool. He goes like so if you hit one of if ": [
+            2795.0,
+            2860.1,
+            67
+        ],
+        "and then you could do this for any base that we said any integer greater than or equal to 2. So that's just come review. Now we just talked about numbers and integers positive integers. There are. How many positive integers are there? Many write infinitely many right. So that means in order to to represent them with a binary expansion or a decimal expansion or any base B expansion. ": [
+            440.8,
+            475.8,
+            9
+        ],
+        "at the same time. Then the left one will short-circuit those ones and the right one will be will be able to knock over the other one. So this is a nand gate which means that if if I hit both of them down the last one will go down, but I bet he'll either or then it won't. Okay, so you guys want to see it in action? All ": [
+            2887.6,
+            2915.9,
+            69
+        ],
+        "binary the same picture just looks like that so it's a lot easier to handle. What is the saying the saying that 0 + 000 + 1 is 1 1 + 0 is 1 + 1 + 1. Well, it's too but that means that we have a zero there and we have to carry the one. so here is really what we want our our Adder to do. This ": [
+            2434.3,
+            2468.6,
+            58
+        ],
+        "but this blue region is a thing is something with a carry for example, if I did 6 + 7 How do I get three in the in that place but then it also have to carry so you have to kind of do two different things and keep track. Now. This is a lot to memorize. I mean we all did right or we all learned it but in ": [
+            2409.0,
+            2434.3,
+            57
+        ],
+        "can actually do these logical thing. ": [
+            2973.5,
+            2975.6,
+            71
+        ],
+        "computer actually do this? That's kind of another question that maybe can wait for a little bit later but for right now, Given mod are like functions that we have access to. Okay, so if I have some number or some integer n and its base B expansion, right and is equal to a k - 1 down to a zero-based be okay, then what is an mod b and ": [
+            999.1,
+            1036.7,
+            25
+        ],
+        "digits and the way that we found it was by raising beat to to these Powers until we found a power that exceeded the number right? We need to just find that sweet spot. Once we had that we use that to figure out what the what the left-most digit was right so last time We found. leftmost digit and worked to the right So what we're going to do ": [
+            318.5,
+            360.5,
+            5
+        ],
+        "divisibility? The the first bit in any expansion or the first digit in any expansion is that number you got a divided by B and find its remainder? Okay. So the remainder is something called nod. But it's also nice to know. how many times does be fit into this number and that's what Dave so There's a theorem from number theory. Is that for any integer end and any ": [
+            808.4,
+            847.8,
+            20
+        ],
+        "exclusive or z z is always going to be the same as Z. So whenever you exclusive or the same thing, you're going to get a zero. Okay, so here's here's one more gate that. You'll find in your homework, but we didn't. I haven't really talked about yet. It just basically negates it it turns a zero into a one and it turns a woman into a 0. I ": [
+            2700.1,
+            2732.4,
+            65
+        ],
+        "extra bit so that I guess That kind of answer. Yeah, so yeah, so base B. We can try. Let's just go back. So I had it written up here. This thing fixed with base B expansion Express non-negative integers. I guess I should say fixed with base B expansion with K digits. Okay. So another another kind of feature of this particular circuit is that is very simple, right ": [
+            2184.7,
+            2229.3,
+            52
+        ],
+        "fixed with three bit representation of N and what we want to do is get the 5 bit representation of to do in case of how is this going to look? Okay. Well we have these three bits. As input let's just call him x 1 x 2. Doesn't let me write that X. 3 Okay, and in our output we have five bits. Okay now. What happens when we ": [
+            1784.2,
+            1825.9,
+            43
+        ],
+        "from zero up to be to the K - 1 Cuz what happens when you go from B to the K - 1 2B to the k? You get that extra bit. I like to think about it as like your odometer in your car. Right? It's like each one of those things is is rolling right once you get to nine nine nine nine nine nine nine. They all ": [
+            609.1,
+            639.4,
+            14
+        ],
+        "gets down to zero and hopefully Q is going to be decreasing or else it won't terminate but it will soon it's going to be okay. Okay, so we set a k to be equal to Q mod be now before we go into it. Let's think about how what happens in the first the first pass through we're going to have a 0 equal to and modbee. That's exactly ": [
+            1519.6,
+            1545.5,
+            36
+        ],
+        "guys already look them up, but this is how they're drawn. write the homework ones don't have a exclusive or but okay. So here are this is the or this is the end. This is the exclusive or these are sort of like the three main ones. 1 what do you think zero? exclusive or taking the either Yeah, that's one way to say it. Yeah, but another way to ": [
+            2567.5,
+            2612.0,
+            62
+        ],
+        "idea for these next few slides is that we're going to be given an input and we're going to be doing binary numbers now. We're kind of like shifting from all bases to just binary base. We have a bunch of ones and zeros as the input. We do some, tutorial logic like a circuit and that will give us output. Okay. So here's the first example, we have a ": [
+            1753.9,
+            1784.2,
+            42
+        ],
+        "in base B, then remember, it's just a 1A, 2A 3A. Okay, we increment K and then we just go back in and do it again. Hey, let's look at an example. All right. I'm going to do 17. Mod 3 or Scooby 17 in base 3 Okay. So when I start out Q is equal to 17 K is equal to 0. Okay. Now, how do I get that? ": [
+            1584.3,
+            1620.4,
+            38
+        ],
+        "is a reason for that kind of makes sense. Okay, so then once we get that significant digit we need to use and div be to to do the next one is going to be kind of like this Loop algorithm like we did before and you'll see that we just kind of go from the right to the left. So here it is in pseudocode. Now, let's go through ": [
+            1459.3,
+            1486.3,
+            34
+        ],
+        "is actually called a half adder right now. But what we wanted to do is this will be the ones place and this would be the tooz place, right? So if they're 0 + 0 we want the sum to be 0-0 in one we want these some to b110 some doobie 1101. We want the song to be zero, but the carries are going to be all zeros and ": [
+            2468.6,
+            2499.2,
+            59
+        ],
+        "is equal to 10 or like that's how you write it for any base. So this is going to be sort of the idea another more kind of formal reason. is that you have b x a k - 1B to the K - 1 + all the way down to a 1 V + a 0 when you when you distribute the be in there, then you get a ": [
+            1297.4,
+            1327.4,
+            29
+        ],
+        "is the a zero. Okay good. Okay. So here's like a little useful fact is that when you have any equal to this number in base be when you multiply 10 by B. Can you get an extra zero at the end you kind of pad the right side with a zero? Why is that? It's like the same reason when you multiply by 10, right because B base B ": [
+            1251.8,
+            1297.4,
+            28
+        ],
+        "it by 2 if possible and if it overflows then ignore the 4th bit or something like that. In this particular example, you'll never get a overflow because I've I've made the output big enough to handle everything. I've actually made it a little bit too big, right? So in general kbits can hold all the numbers from 0 to up all the way up to be to the K ": [
+            2089.8,
+            2153.3,
+            50
+        ],
+        "k - 1B to the k+... + a 1 B squared + a 0 b + 0 Rank, the 0 is in the ones place now because there's nothing there. So that's kind of the idea. How is this useful? Well, it kind of gives us a a way to relate actual integer multiplication, right and times be to its representation and in vice versa because a lot of the ": [
+            1327.4,
+            1360.2,
+            30
+        ],
+        "kind of roll over to 0 and then that nextbit rolls over cuz I'm doing in the wrong way the next bit kind of rolls over. Okay, so you can't actually Express the number B to the k with K bits But you can express me to the K - 1. Bee questions about that. Okay, so what about negative integers? This is something that you may have encountered in ": [
+            639.4,
+            676.3,
+            15
+        ],
+        "looks like. Are there any questions? This is like if you wanted to create some sort of circuit right where your input is a 3 digit or a 3 bit number and your output. Is that number * 2? Yeah, because if it's a 5 bit number. You can never get that V bit because it's too much too big. They say it again. No, it's the base is too. ": [
+            1906.2,
+            1961.1,
+            46
+        ],
+        "multiply a binary number by 2? right you Pat it, right so Let's say we're reading the number down. Like that's okay. So we've had it with a zero at the first position. Right? So we're going to do is just you draw something like this. Is it going to be a ground? This is just like always put 0 there that. that bottom bit will always be zero bank. ": [
+            1825.9,
+            1877.4,
+            44
+        ],
+        "my Facebook account All right. Okay good. Hey, bud X the power of what? that's supposed to be like that or if you like why is it like that? Well, what you could do is you can factor out a b from all of those. Perms Clipper zero turn in so what you get is that number? That's that's how many times he can fit inside end in the remainder ": [
+            1150.8,
+            1251.8,
+            27
+        ],
+        "not both the same. That's not how it goes It goes like this one of my positions has to be. Either X or Y has to be a one but not both. So that's the exclusive or Okay. And how are these things drawn? Well, exclusive or looks like this and looks like that. Okay, and you say you've seen these on your homework and I don't know if you ": [
+            2534.9,
+            2567.5,
+            61
+        ],
+        "numbers as we all know can I mean you could you could talk about fractions right talk about them in fractions. We could talk about him in like a decimal expansion and you can use you can you can expand every rational number into a different base? And so then you have like a decimal with all these digits and those digits will come from that particular. Okay, so Stay ": [
+            708.8,
+            740.7,
+            17
+        ],
+        "of class on Monday. So. reminding you that if an is this sequence AKA -1 down to a 0 in base 2 then when I X 4 it's kind of like multiplying it by a hundred right because for is 100 in base 2 so you get the same sorts of things that you're used to in base 10. So do you guys remember what we said? Well many of ": [
+            202.1,
+            235.0,
+            2
+        ],
+        "one is ended B? What you guys just get I'll give you guys a minute or to talk it over with your neighbor. See if you can figure out what they are in terms of those a values. Okay, ready go? How's it going? What is that? President is a presidential alert. AR test My phone ran out of batteries before class. Cuz I'm out of the loop. apply for ": [
+            1036.7,
+            1150.8,
+            26
+        ],
+        "positive integer D. There are two unique integers q&r where are is in between 0 and d and an is equal to QD pluck R Us something that you may have learned in like 4th grade about dividing. You can always divide one number by another and you you can get how many times is that number fit in it? And then you also get a remainder. And we say ": [
+            847.8,
+            875.2,
+            21
+        ],
+        "represent it, but you need to know like how many bits your you're allowed to use. All right, so that that'll kind of coming to play a little bit later. Okay, so base B expansion can express any positive integers? Like I said, even though there are infinitely many you just put more bits in there or put more digits but a fixed with expansion can only express non-negative integers ": [
+            583.4,
+            609.1,
+            13
+        ],
+        "right. He does it in like Okay, he's just doing the and gate. When are you doing? Oh you already did it? Okay. Here we go. I think it's going to knock down both of them. I can't do it. Sort of anticlimactic, right? But it's cool. He's be build an exclusive or gate. I just wanted to show you it so you can get an idea that physical objects ": [
+            2915.9,
+            2973.5,
+            70
+        ],
+        "right. Sorry, there's a typo. Oh, yeah. Thank you. Any other questions or comments? Alright, so for right now, we're just going to like assume that we all know how to do these we all know how to take dip and we all know how to take mod or there's some we have a calculator that can do it for us if you want to get into how does the ": [
+            965.4,
+            999.1,
+            24
+        ],
+        "say it. Is that X in either X or Y has to be one, but they both can't be one. cos 0 0 exclusive or 0 is 0 this is how you draw them and So for this circuit here. We needed that to Pat it with zeros with the ground and I just drew the ground thing. But is there a way to make a ground out of these ": [
+            2612.0,
+            2655.9,
+            63
+        ],
+        "should get rid of this thing. Play some these are kind of the Ford things that will use in in circuits. For which one? Yeah, or if p is 0 then not p as one. So this is the kind of the truth table for it. 0 is false is true. Okay. so in your computer you have you have these circuits right in your computer to do how is ": [
+            2732.4,
+            2795.0,
+            66
+        ],
+        "than 10 when you add something so you have to carry the other one. It's the same thing with binary okay with 10. When you do two two two digit additions. It may be the case that you have to carry. But what is the what is that a digit going to be when you add the two so all of this yellow region? This is everything without a carry. ": [
+            2375.1,
+            2407.7,
+            56
+        ],
+        "the first idea is well, all I have to do to find the rightmost digit is to do and modbee. I say leave significant, but this might make a little bit more sense. rightmost Let me give you an example of this or something that maybe you have seen already. Okay, so any number mod 2 is either going to be 0 or 1. What are the numbers when you ": [
+            1393.9,
+            1435.7,
+            32
+        ],
+        "the numbers that you mod 2 equals 0 what are those numbers called? Even and the ones that mod 2 equals one, right? And so when you have binary numbers, it's really easy to tell if they're even or odd you just look at the rightmost digit if it's zero or one case, but that's kind of a application or like a may be a reason for this or this ": [
+            1435.7,
+            1459.3,
+            33
+        ],
+        "then one here. So this thing is called and because it's asking for it's it's saying if there is a one and a one then I'll put a one that's it. If there's a 00 and one that doesn't work 00 that doesn't work, so think about it in that way. This thing here is called exclusive or which means I need to have a 1 or a 0 but ": [
+            2499.2,
+            2534.9,
+            60
+        ],
+        "things out of maybe and or or exclusive or? The ground is also called a contradiction because it's always false or always zero. So which one of these will always be zero? Okay, good. It's going to BC. Because exclusive or basically says if the two inputs are the same then output 0 and if they're different than output one kind of another way to think about it. So Z ": [
+            2655.9,
+            2700.1,
+            64
+        ],
+        "this definite is a finite is a correct. It's all those three things with its it's going to terminate every time because she was always going to be decreasing by at least one every time. and stop you're eventually going to get down to zero no matter how big Q is. All right. so let some let's talk about this fixed with representation and and also about circuits. So the ": [
+            1718.3,
+            1753.9,
+            41
+        ],
+        "this together and then we'll go through an example. Okay, so cute starts as n that's one of our inputs right and case starts at zero. cuz what we're going to do is start k at 0 and move K up all the way until the until our however many digits we have okay. Okay, we're going to have a while loop and we're going to do this until Q ": [
+            1486.3,
+            1519.6,
+            35
+        ],
+        "times we want to pad the pad one side with zeros and if we can if we can show that that's just the same thing as multiplying by a particular number then we can go kind of back and forth between the two worlds. Alright, so now let's do this algorithm the ideas. We want to use the dip in the mod to build this. base B expansion Okay. So ": [
+            1360.2,
+            1393.9,
+            31
+        ],
+        "to be Some K. Does anybody remember what K represent? number of digits, right And the coefficients in the expansion we all know kind of how that looks. Zoraida idea now is to find the smallest digit first then the next smallest and so on but how we going to do that? We're going to need a few different operators. We're basically going to need to know what is the ": [
+            767.0,
+            808.4,
+            19
+        ],
+        "to go straight across right? What about these other two? Grounded, right? any questions a very simple again, so let's talk about more complicated arithmetic. So let's talk about more complicated circuits. When when we when we add these two numbers that these two representations of numbers even with decimal representations, we have to kind of do this algorithm and it might be the case that you get something bigger ": [
+            2334.5,
+            2375.1,
+            55
+        ],
+        "today is start with the rightmost digit and move to the left. So we're going to see how do it that way. You guys can use whatever way you want when you're doing it in practice, but it's nice to know that there's two different ways to do it. Okay, in order to do this. We need to Define these two things the dip in the mod operators. and then ": [
+            360.5,
+            383.5,
+            6
+        ],
+        "tuned for these classes. I think you'll talk more about that kind of. All right. So let's go to algorithm to but this is this is the one where we're going to work from the ones position and all the way up to the case the beat of the K. Okay. So it's the same kind of algorithm you're in putting a number and Anna base your output is supposed ": [
+            740.7,
+            767.0,
+            18
+        ],
+        "we might not get quite to that at the end, but that's kind of where we're going. Okay. So let's Song review what we did. We have a notation for positive integer you write and is equal to this expansion is the base B expansion and this is how we are did this is this is the quantity of n but how we write it is this base B expansion ": [
+            412.0,
+            440.8,
+            8
+        ],
+        "we're going to take this all this stuff that we're doing with binary and talk about how to relate integer operations into binary operations or to bitwise Boolean operations. And that's going to kind of launches into propositional logic and predicate logic and all that kind of stuff. We're instead of ones and zeros. We're going to start trying to think about them as truth and false. It's okay, so ": [
+            383.5,
+            412.0,
+            7
+        ],
+        "we've already did that. We've already done this in one way. Does anybody remember? Kind of thinking a few words. What was our strategy to do this? Play for like each digit X in the basement to the like a power that can power torque launcher. Okay, good. Yeah, so this was kind of like the algorithm that we did was we found K, right which was the number of ": [
+            273.6,
+            318.5,
+            4
+        ],
+        "what is 15 mod 5 Okay. So 23 div 5. That's how many times does 5 go into 23 that should be for? and what's 15 mod 5 what is it 0 right because 5 divides evenly into 15. Okay, any questions about that? We're going to kind of just assume we can up question. quotient when when you divide and Bybee It's not what it is. Oh, yeah, you're ": [
+            902.8,
+            965.4,
+            23
+        ],
+        "what number is divisible by another another if when you divide them the remainder is 0 when stuff that's where this all comes from. Okay. So what is the notation here is going to be Q is going to be like n / D without the remainder and then our is going to be and Maddie that's going to be the remainder. Okay. So what is 25 / 5 and ": [
+            875.2,
+            902.8,
+            22
+        ],
+        "what we talked about before they so in first Loop we have that a zero is equal to end mod b because we said the the rightmost digit is always going to be just in my pee. So then we reset Q2 BQ div be and remember what you did be is. It's just the it's the it's the the quotient I guess but if you write que div be ": [
+            1545.5,
+            1584.3,
+            37
+        ],
+        "x 0? Hey now, people are just jumping on the bandwagon, huh? That one is right. remember and my two is just the division the remainder when you divide by 2, it's basically saying is it even or odd is the is that fit 01 Swift drive? This thing is it's going to be simple or x 2 x 1 x 0 what does it look like? Eczema. Just going ": [
+            2260.9,
+            2334.5,
+            54
+        ],
+        "you do the answer to this question if n is Binary representation then n is divisible by 4 exactly. When what? Okay good. So A1. Equals 0 and a zero is equal to zero. This is what we need. This is the exact thing questions about that. Okay good. Okay. So we're going to do is continue along with this constructing the base B expansion of an of a number ": [
+            235.0,
+            273.6,
+            3
+        ],
+        "you hit the input to then it won't do anything right. It'll knock out those to Domino's if you hit input one. Then it will kind of short circuit itself. You see how it if it goes over to the left it will hit those Domino's out and the rights. The right Branch will not be able to get to the end. Right but if you hit both of them ": [
+            2860.1,
+            2887.6,
+            68
+        ],
+        "you of what we did a little bit and then we're going to look at it in another way because so. The first thing I want to do though is continue or at least review what we talked about. Okay, so the bass frequency is a b. Okay, let me write that on there. All right, we have it here. Just remind you of what we did at the end ": [
+            170.4,
+            202.1,
+            1
+        ],
+        "your homework. There is this thing called two's complement. There's also something called one's complement and it's a way to represent positive and negative numbers. It's a it's a little different than what we're doing here. We're really kind of only focusing on positive integers here, but it's a nice way for you to see that there's not only one way to represent things. How about rational numbers? Well rational ": [
+            676.3,
+            708.8,
+            16
+        ],
+        "your size to what I'm saying. Here is like what if your computer could only hold eight bits right then let's just do a little example like a eight eight. bit expansion Let's say for is while you just kind of padded with zeros. is at 8 Right, but then there's eight bits, right? So you just had it with zero. So this fixed with expansion is another way to ": [
+            544.4,
+            583.4,
+            12
+        ]
+    },
+    "File Name": "Intro_Discrete_Mathematics___A00___Jones__Miles_E___Fall_2018-lecture_3.flac",
+    "Full Transcript": "All right, let's get started today. How's everybody doing?  Good good.  You guys start on the homework yet?  Yes, no, maybe you should get started.  All right, where's my?  All right, where's my clicker thing?  so let some  I kind of hope that you guys had a hope that you guys had a little bit of time to explore how to change from different bases and  I'm going to remind you of what we did a little bit and then we're going to look at it in another way because so.  The first thing I want to do though is continue or at least review what we talked about.  Okay, so the bass frequency is a b.  Okay, let me write that on there.  All right, we have it here.  Just remind you of what we did at the end of class on Monday. So.  reminding you that  if an is this sequence AKA -1 down to a 0 in base 2 then when I X 4  it's kind of like multiplying it by a hundred right because for is 100 in base 2 so you get the same sorts of things that you're used to in base 10.  So do you guys remember what we said? Well many of you do the answer to this question if n is  Binary representation then n is divisible by 4 exactly. When what?  Okay good. So A1.  Equals 0 and a zero is equal to zero. This is what we need. This is the exact thing questions about that.  Okay good.  Okay. So we're going to do is continue along with this constructing the base B expansion of an of a number we've already did that. We've already done this in one way.  Does anybody remember?  Kind of thinking a few words. What was our strategy to do this?  Play for like each digit X in the basement to the like a power that can power torque launcher.  Okay, good. Yeah, so this was kind of like the algorithm that we did was we found K, right which was the number of digits and the way that we found it was by raising beat to to these Powers until we found a power that exceeded the number right? We need to just find that sweet spot. Once we had that we use that to figure out what the what the left-most digit was right so last time  We found.  leftmost  digit  and worked  to the right  So what we're going to do today is start with the rightmost digit and move to the left. So we're going to see how do it that way.  You guys can use whatever way you want when you're doing it in practice, but it's nice to know that there's two different ways to do it. Okay, in order to do this. We need to Define these two things the dip in the mod operators.  and  then we're going to take this all this stuff that we're doing with binary and talk about how to relate integer operations into binary operations or to bitwise Boolean operations. And that's going to kind of launches into propositional logic and predicate logic and all that kind of stuff. We're instead of ones and zeros. We're going to start trying to think about them as truth and false. It's okay, so we might not get quite to that at the end, but that's kind of where we're going.  Okay. So let's Song review what we did.  We have a notation for positive integer you write and is equal to this expansion is the base B expansion and this is how we are did this is this is the quantity of n but how we write it is this base B expansion and then you could do this for any base that we said any integer greater than or equal to 2.  So that's just come review.  Now we just talked about numbers and integers positive integers. There are.  How many positive integers are there?  Many write infinitely many right. So that means in order to to represent them with a binary expansion or a decimal expansion or any base B expansion.  The number of digits will grow as the number grows, right? And so there are numbers that have I don't know a million digits are numbers that have a billion digits is unbounded right? But since this is in part kind of a computer science class, we have to start thinking about limits. What are the limits that your computer can hold you thinking about memory or  Something like that. I guess memory is probably the best example your computer can only hold a finite number of bits. So  What number can it reach right now? We can start talking about what is a fixed with base B expansion now fixed with base B expansion.  is just  the coefficients have to be in between 0 and B -1  And you have to pad the leading coefficient was 0-2 to match your size to what I'm saying. Here is like what if your computer could only hold eight bits right then let's just do a little example like a eight eight.  bit  expansion  Let's say for is while you just kind of padded with zeros.  is at 8  Right, but then there's eight bits, right? So you just had it with zero. So this fixed with expansion is another way to represent it, but you need to know like how many bits your you're allowed to use.  All right, so that that'll kind of coming to play a little bit later.  Okay, so base B expansion can express any positive integers? Like I said, even though there are infinitely many you just put more bits in there or put more digits but a fixed with expansion can only express non-negative integers from zero up to be to the K - 1  Cuz what happens when you go from B to the K - 1 2B to the k?  You get that extra bit. I like to think about it as like your odometer in your car. Right? It's like each one of those things is is rolling right once you get to nine nine nine nine nine nine nine. They all kind of roll over to 0 and then that nextbit rolls over cuz I'm doing in the wrong way the next bit kind of rolls over. Okay, so you can't actually Express the number B to the k  with K bits  But you can express me to the K - 1.  Bee questions about that.  Okay, so what about negative integers?  This is something that you may have encountered in your homework. There is this thing called two's complement. There's also something called one's complement and it's a way to represent positive and negative numbers. It's a it's a little different than what we're doing here. We're really kind of only focusing on positive integers here, but it's a nice way for you to see that there's not only one way to represent things.  How about rational numbers?  Well rational numbers as we all know can I mean you could you could talk about fractions right talk about them in fractions. We could talk about him in like a decimal expansion and you can use you can you can expand every rational number into a different base? And so then you have like a decimal with all these digits and those digits will come from that particular.  Okay, so  Stay tuned for these classes. I think you'll talk more about that kind of.  All right. So let's go to algorithm to but this is this is the one where we're going to work from the ones position and all the way up to the case the beat of the K. Okay. So it's the same kind of algorithm you're in putting a number and Anna base your output is supposed to be  Some K. Does anybody remember what K represent?  number of digits, right  And the coefficients in the expansion we all know kind of how that looks.  Zoraida idea now is to find the smallest digit first then the next smallest and so on but how we going to do that? We're going to need a few different operators.  We're basically going to need to know what is the divisibility?  The the first bit in any expansion or the first digit in any expansion is that number you got a divided by B and find its remainder? Okay. So the remainder is something called nod.  But it's also nice to know.  how many times does be fit into this number and that's what Dave so  There's a theorem from number theory. Is that for any integer end and any positive integer D. There are two unique integers q&r where are is in between 0 and d and an is equal to QD pluck R Us something that you may have learned in like 4th grade about dividing. You can always divide one number by another and you you can get how many times is that number fit in it? And then you also get a remainder.  And we say what number is divisible by another another if when you divide them the remainder is 0 when stuff that's where this all comes from.  Okay. So what is the notation here is going to be Q is going to be like n / D without the remainder and then our is going to be and Maddie that's going to be the remainder. Okay. So what is 25 / 5 and what is 15 mod 5  Okay. So 23 div 5. That's how many times does 5 go into 23 that should be for?  and what's 15 mod 5  what is it 0 right because 5 divides evenly into 15.  Okay, any questions about that?  We're going to kind of just assume we can up question.  quotient when when you divide and Bybee  It's not what it is.  Oh, yeah, you're right.  Sorry, there's a typo.  Oh, yeah.  Thank you.  Any other questions or comments?  Alright, so for right now, we're just going to like assume that we all know how to do these we all know how to take dip and we all know how to take mod or there's some we have a calculator that can do it for us if you want to get into how does the computer actually do this? That's kind of another question that maybe can wait for a little bit later but for right now,  Given mod are like functions that we have access to.  Okay, so  if I have some number or some integer n and its base B expansion, right and is equal to a k - 1 down to a zero-based be okay, then what is an mod b and one is ended B?  What you guys just get I'll give you guys a minute or to talk it over with your neighbor. See if you can figure out what they are in terms of those a values. Okay, ready go?  How's it going?  What is that?  President is a presidential alert.  AR test  My phone ran out of batteries before class.  Cuz I'm out of the loop.  apply for my Facebook account  All right.  Okay good.  Hey, bud X the power of what?  that's supposed to be  like that or if you like  why is it like that?  Well, what you could do is you can factor out a b from all of those.  Perms Clipper zero turn in so what you get is that number? That's that's how many times he can fit inside end in the remainder is the a zero.  Okay good.  Okay. So here's like a little useful fact is that when you have any equal to this number in base be when you multiply 10 by B.  Can you get an extra zero at the end you kind of pad the right side with a zero? Why is that?  It's like the same reason when you multiply by 10, right because B base B is equal to 10 or like that's how you write it for any base. So this is going to be  sort of the idea another more kind of formal reason.  is that you have b x a k - 1B to the K - 1 + all the way down to a 1 V + a 0 when you when you distribute the be in there, then you get a k - 1B to the k+... + a 1 B squared + a 0 b + 0  Rank, the 0 is in the ones place now because there's nothing there. So that's kind of the idea.  How is this useful? Well, it kind of gives us a a way to relate actual integer multiplication, right and times be to its representation and in vice versa because a lot of the times we want to pad the pad one side with zeros and if we can if we can show that that's just the same thing as multiplying by a particular number then we can go kind of back and forth between the two worlds.  Alright, so now let's do this algorithm the ideas. We want to use the dip in the mod to build this.  base B expansion  Okay. So the first idea is well, all I have to do to find the rightmost digit is to do and modbee.  I say leave significant, but this might make a little bit more sense.  rightmost  Let me give you an example of this or something that maybe you have seen already.  Okay, so any number mod 2 is either going to be 0 or 1.  What are the numbers when you the numbers that you mod 2 equals 0 what are those numbers called? Even and the ones that mod 2 equals one, right? And so when you have binary numbers, it's really easy to tell if they're even or odd you just look at the rightmost digit if it's zero or one case, but that's kind of a application or like a may be a reason for this or this is a reason for that kind of makes sense.  Okay, so then once we get that significant digit we need to use and div be to to do the next one is going to be kind of like this Loop algorithm like we did before and you'll see that we just kind of go from the right to the left.  So here it is in pseudocode. Now, let's go through this together and then we'll go through an example.  Okay, so cute starts as n that's one of our inputs right and case starts at zero.  cuz what we're going to do is start k at 0 and move K up all the way until the until our however many digits we have  okay.  Okay, we're going to have a while loop and we're going to do this until Q gets down to zero and hopefully Q is going to be decreasing or else it won't terminate but it will soon it's going to be okay.  Okay, so we set a k to be equal to Q mod be now before we go into it. Let's think about how what happens in the first the first pass through we're going to have a 0 equal to and modbee. That's exactly what we talked about before they so  in first Loop  we have that a zero is equal to end mod b  because we said the the rightmost digit is always going to be just in my pee.  So then we reset Q2 BQ div be  and remember what you did be is. It's just the it's the it's the the quotient I guess but if you write que div be in base B, then remember, it's just a 1A, 2A 3A.  Okay, we increment K and then we just go back in and do it again.  Hey, let's look at an example.  All right. I'm going to do 17. Mod 3 or Scooby 17 in base 3  Okay. So when I start out Q is equal to 17 K is equal to 0.  Okay. Now, how do I get that? First? Saw that first digit? I do 17 mod 3, which is what?  to write  Okay, and now I use that too.  Why go through the loop again K increments to 1q becomes 17 div 3.  Which is what?  5  the here I have 5 Mod 3.  Which is what also to okay, and then Q becomes 5 div 3.  which is  1K increments to 2  I have 1 mod 3.  Which is equal to what one and then I have one div 3 which is what 0 so now Q is equal to 0 and it cuts out of the loop.  and now our number is just  2 to 1  right  now cuz we built it from the right. Remember. Just seeing if you guys are paying attention.  Where is 122 built it from the other day?  Okay, is this definite is a finite is a correct. It's all those three things with its it's going to terminate every time because she was always going to be decreasing by at least one every time.  and stop  you're eventually going to get down to zero no matter how big Q is.  All right.  so let some  let's talk about this fixed with representation and and also about circuits. So the idea for these next few slides is that we're going to be given an input and  we're going to be doing binary numbers now. We're kind of like shifting from all bases to just binary base.  We have a bunch of ones and zeros as the input. We do some, tutorial logic like a circuit and that will give us output.  Okay.  So here's the first example, we have a fixed with three bit representation of N and what we want to do is get the 5 bit representation of to do in case of how is this going to look?  Okay. Well we have these three bits.  As input let's just call him x 1 x 2.  Doesn't let me write that X.  3  Okay, and in our output we have five bits.  Okay now.  What happens when we multiply a binary number by 2?  right you Pat it, right so  Let's say we're reading the number down.  Like that's okay. So we've had it with a zero at the first position. Right? So we're going to do is just you draw something like this.  Is it going to be a ground? This is just like always put 0 there that.  that bottom  bit will always be zero bank. Cuz whenever you multiply by 2 you always get zero in that bit.  This one will go right here. This one will go right here. Just want to go right here. And then we have another.  We have another ground on the top right will never be able to fill in that top.  Bit with the one right will always be a zero. Okay. So this is what the circuit looks like. Are there any questions?  This is like if you wanted to create some sort of circuit right where your input is a 3 digit or a 3 bit number and your output. Is that number * 2?  Yeah, because if it's a 5 bit number.  You can never get that V bit because it's too much too big.  They say it again.  No, it's the base is too. Yeah.  Yeah ground is always zero.  Always start our victory for example connections to the right side.  after the ground for  how do we know where to go?  So like for example, if my input was like 3 for example, right then my input would be 011.  That would be that would be the binary representation of 3 in a fixed width 3 bit system, right then when I x 2 and I'm hoping to get 6 what happens here? Well, this is zero. Just go straight over here. This one goes straight here.  Sorry, this one goes here. This one goes here. The ground always gives me 0 and the ground always gives me 0 so this is the 5 bit representation of 6.  So I got I started with 011 and I ended with 0 0 1 1 0.  What kind of make sense?  Any other questions?  Right, so I haven't gotten to that yet. But yeah, so if it overflows then you kind of have to just ignore that that bit right that extra bit like if if they were if it was going from 3 to 3, right and I * 2  it's kind of not defined. Well, right because you have to say Okay multiply it by 2 if possible and if it overflows then ignore the 4th bit or something like that.  In this particular example, you'll never get a overflow because I've I've made the output big enough to handle everything. I've actually made it a little bit too big, right?  So in general kbits can hold all the numbers from 0 to up all the way up to be to the K - 1 so in this in this case.  5 bits for example can hold all the numbers from 0 up to 31 up to to to the 5 - 1 and 3 bits can hold all the numbers from 0 to 7. So just buy that kind of logic 7 * 2 is 14 right so you can never get  pass 31 to get past 31 then you need an extra bit so that I guess  That kind of answer.  Yeah, so yeah, so base B.  We can try. Let's just go back. So I had it written up here.  This thing fixed with base B expansion Express non-negative integers. I guess I should say fixed with base B expansion with K digits.  Okay. So another another kind of feature of this particular circuit is that is very simple, right * 2 is very simple in binary.  Okay. So how would you guys draw this circuit first? Well, I guess first. Let's answer this quicker question, and then I want you to drive.  So I have my input is a fixed with three bit representation. The output is a fixed with three bit representation of n mod 2.  So what is the output for the input x 2 x 1 x 0?  Hey now, people are just jumping on the bandwagon, huh?  That one is right.  remember  and my two is just the division the remainder when you divide by 2, it's basically saying is it even or odd is the is that fit 01 Swift drive? This thing is it's going to be simple or  x 2 x 1 x 0  what does it look like?  Eczema. Just going to go straight across right?  What about these other two?  Grounded, right?  any questions  a very simple again, so let's talk about more complicated arithmetic. So let's talk about more complicated circuits.  When when we when we add these two numbers that these two representations of numbers even with decimal representations, we have to kind of do this algorithm and it might be the case that you get something bigger than 10 when you add something so you have to carry the other one. It's the same thing with binary okay with 10.  When you do two two two digit additions.  It may be the case that you have to carry. But what is the what is that a digit going to be when you add the two so all of this yellow region?  This is everything without a carry.  but this blue region is a thing is something with a carry for example, if I did 6 + 7  How do I get three in the in that place but then it also have to carry so you have to kind of do two different things and keep track. Now. This is a lot to memorize. I mean we all did right or we all learned it but in binary the same picture just looks like that so it's a lot easier to handle.  What is the saying the saying that 0 + 000 + 1 is 1 1 + 0 is 1 + 1 + 1. Well, it's too but that means that we have a zero there and we have to carry the one.  so  here is really what we want our our Adder to do. This is actually called a half adder right now. But what we wanted to do is this will be the ones place and this would be the tooz place, right?  So if they're 0 + 0 we want the sum to be 0-0 in one we want these some to b110 some doobie 1101. We want the song to be zero, but the carries are going to be all zeros and then one here. So this thing is called and because it's asking for it's it's saying if there is a one and a one then I'll put a one that's it.  If there's a 00 and one that doesn't work 00 that doesn't work, so think about it in that way.  This thing here is called exclusive or which means I need to have a 1 or a 0 but not both the same.  That's not how it goes It goes like this one of my positions has to be.  Either X or Y has to be a one but not both. So that's the exclusive or  Okay.  And how are these things drawn?  Well, exclusive or looks like this and looks like that. Okay, and you say you've seen these on your homework and I don't know if you guys already look them up, but this is how they're drawn.  write the homework ones don't have a exclusive or but  okay. So here are this is the or this is the end. This is the exclusive or these are sort of like the three main ones.  1  what do you think zero?  exclusive or taking the either  Yeah, that's one way to say it.  Yeah, but another way to say it. Is that X in either X or Y has to be one, but they both can't be one.  cos 0 0 exclusive or 0 is 0  this is how you draw them and  So for this circuit here.  We needed that to Pat it with zeros with the ground and I just drew the ground thing. But is there a way to make a ground out of these things out of maybe and or or exclusive or?  The ground is also called a contradiction because it's always false or always zero. So which one of these will always be zero?  Okay, good. It's going to BC.  Because exclusive or basically says if the two inputs are the same then output 0 and if they're different than output one kind of another way to think about it. So Z exclusive or z z is always going to be the same as Z. So whenever you exclusive or the same thing, you're going to get a zero.  Okay, so  here's here's one more gate that.  You'll find in your homework, but we didn't.  I haven't really talked about yet. It just basically negates it it turns a zero into a one and it turns a woman into a 0.  I should get rid of this thing.  Play some these are kind of the Ford things that will use in in circuits.  For which one?  Yeah, or if p is 0 then not p as one.  So this is the kind of the truth table for it.  0 is false is true.  Okay.  so in your computer  you have  you have these circuits right in your computer to do how is a physical thing going to add why I wanted to show you this video.  Wait, hold on.  Does this can I get volume on here?  Okay.  So this guy here he makes a he makes a and gate out of dominoes. Are you guys seen this?  Can you hear it?  Okay, so here is his and gate it's really cool. He goes like  so if you hit one of if you hit the input to then it won't do anything right. It'll knock out those to Domino's if you hit input one.  Then it will kind of short circuit itself. You see how it if it goes over to the left it will hit those Domino's out and the rights. The right Branch will not be able to get to the end. Right but if you hit both of them at the same time.  Then the left one will short-circuit those ones and the right one will be will be able to knock over the other one. So this is a nand gate which means that if if I hit both of them down the last one will go down, but I bet he'll either or then it won't.  Okay, so you guys want to see it in action?  All right. He does it in like  Okay, he's just doing the and gate.  When are you doing?  Oh you already did it? Okay. Here we go.  I think it's going to knock down both of them.  I can't do it.  Sort of anticlimactic, right?  But it's cool. He's be build an exclusive or gate. I just wanted to show you it so you can get an idea that physical objects can actually do these logical thing. "
+}

@@ -1,0 +1,566 @@
+{
+    "Blurbs": {
+        "+ 1 t - 2T + 2 on either side. And the other way though is to map tie into the state of the network the feed for networks. We've been working with her stateless. Meaning that they don't get any state until you put in an input and Philip you get an output. So they don't now I give it a new one put in. I got a new ": [
+            830.7,
+            858.7,
+            7
+        ],
+        "1986 or 7 or so I said, I don't believe it because how could you cuz these networks actually rapper remember things farther back than one step in time and I was like, how could you possibly remember anyting? Earlier than one step back in time by only back propagating one step in time. But if they did because the this would change the representation at time T. And then ": [
+            1720.4,
+            1750.9,
+            28
+        ],
+        "And so there are lots of things you can do with recurrent Networks. And we do you can try and predict the next word which is what Jeff use them for. You could quote unquote predict the next pixel if you were trying to complete an image, you can use them to generate sequences like produce a word or a sentence or to caption an image. Image captioning is the ": [
+            1925.9,
+            1955.0,
+            33
+        ],
+        "Bright, like I like my coffee with cream and dog. you know, it's going to be a noun but you know. Okay, so then he trained it on a bunch of two and three word sentences. There's a later paper where he trained it on sentences like the boy the girls liked fried for things like that. But with you no more embedding structure like relative clauses what you're like ": [
+            2739.8,
+            2775.6,
+            54
+        ],
+        "By listening to the radio essentially, right? So it's like to listen to Mexican radio and and suddenly, you know Spanish so But you do that by putting the effort into try and predict the next word and the same thing at learn something about syntax as well. So it's got nouns and verbs. It's got direct object obligatory. So like has to have something following it as does Chase ": [
+            3095.2,
+            3125.4,
+            64
+        ],
+        "Deltas as they come back, right? and I yeah, or we could specify the desired activity of some subset. So these are the inputs and hidden sand. These are the outputs. So here's an example of using these things where I've the first unit stands for H Second Use sensory the third one Pharrell and these are the inputs. These are the headings and just ignore the numbers. There's some ": [
+            4113.7,
+            4154.0,
+            91
+        ],
+        "He was only back propagating One Step in Time. He wasn't saving the activities and hidden units all the way back. So this is this is called unrolling a recurrent Network in time. So I'm taking this network. And just laying it out over time unrolling it and so each time step is like this is what happens first. Then this then this and you can inject teaching signals anywhere ": [
+            3627.1,
+            3661.5,
+            77
+        ],
+        "Hidden units before the output and said but I've got all these players before that. Okay, so I have two heading units and then I've got the right that got 10 or 20 different outputs, right? How am I going to linearly separate activations from these two hidden units? The only way you can do it is if they're in a circle. And then maybe this guy corresponds to that ": [
+            1359.2,
+            1394.8,
+            19
+        ],
+        "It's got a while loop is none if it comes off the end of the digits and there was a carry on the previous output. It needs to be put away and then I we actually gave it a done bit on the input when it was done. So and what this network my do is heat C7 and one the job of the network is to write 8 and ": [
+            4454.8,
+            4481.5,
+            101
+        ],
+        "So it's like I take these activities push them on a stack take these activities for some of these and these and now I get deltas and I use them to compute the weight change from these activities pop them off. The stack of the Deltas here is M to compute these etcetera. So it's like push push push pop pop. So we need to specify an initial activity for ": [
+            3912.4,
+            3947.9,
+            85
+        ],
+        "Thanks. Probably seen these before. This is the where should I keep doing? What should I quit doing? What should I start doing? And I meant to give it to you last week, but I didn't make copies you sometime. So just let me know. This is your chance to tell tell me what to do. Okay. And yes, we will have some quicker questions today. There's a hand that ": [
+            248.1,
+            348.3,
+            0
+        ],
+        "That girl likes like you no excetera. It would have to learn that a singular noun for predicts a singular verb, but it would have to remember that across the whole sequence of things like the boy the girls liked likes. So the likes is right after a plural noun, but it matches with the the boy. So I can ask her remember that across the whole sequence of intervening ": [
+            2907.4,
+            2943.1,
+            59
+        ],
+        "The monster candy cookies and Candy team isn't exactly. well, it is in the sense that monsters lions and Dragons all play the same kind they predict different things like a mouse isn't going to eat a human for the monster is And a lion and a dragon can eat a human. if a dragon existed Brothers the Komodo dragon that can eat people Okay, honey. So does this make ": [
+            3266.1,
+            3304.4,
+            68
+        ],
+        "Those are all going to give me the weight change through the Delta rule. And then I just some all those up for average them for whatever. Averaging is probably a good idea here because they depending on the length of the sequence. She might get different things. We'll talk about the vanishing gradient problem very soon. So it's easy to incorporate constraints like this. The two weights should be ": [
+            3731.8,
+            3765.3,
+            80
+        ],
+        "a big bump and then I'm back propagating the air and then I just maintain that all the weights that are supposed to be the same. Stay the same. By adding up all the way changes that like this is going to have a weight change here because of the Delta here in the activity here the skin of a Delta here and activity here adults here in activity hear. ": [
+            3705.1,
+            3731.8,
+            79
+        ],
+        "a feed-forward network, which is kind of backwards, right but it's insightful. So what you do is you run stuff through this network you back propagate the error and again, you collect the weight change for this guy that way change to that guy the weight range for that kind you add them up. Change the weight by the same amount. What? For this network has four ways. Yeah. They're ": [
+            3540.4,
+            3577.8,
+            75
+        ],
+        "a heart attack. So these ones he just fed back the hidden unit representation. So basically this turned into it a one-to-one copy back of the Hidden units at time T minus one. And so that fed into the hidden units of time T. So these two things are equivalent. Right. I'm feeding back on myself site one way to think about that as I copy back to Hidden units ": [
+            1649.7,
+            1683.4,
+            26
+        ],
+        "a linear mapping between those so you can a typical way to do. Time-series prediction is to have a bunch of delete apps. These are called that would keep track of the previous steps in the time series feed-forward networks. So hear what we're trying to do is predict the input a Time t and here with a neuron that of course we can make it nonlinear by having a ": [
+            934.0,
+            967.1,
+            10
+        ],
+        "a negative review. But so that that's a problem where you need a separate Target sequence. But if I want to learn something about language just predicting the next word learning that is very helpful. You learn a lot about language and we'll see examples in a moment. Okay. So the classic paper which I think is on your resources page under readings is finding structure in time. This paper ": [
+            2266.5,
+            2308.7,
+            42
+        ],
+        "a sentence in the middle of a sentence. The boys the girl light the girl like to almost a whole sentence Etc Channel later paper. This paper again. He's making an extremely. Important point where the really simple simulation that was the great thing about him. So boy eat sandwich ma Street for a girl exists teaser and came from a semantic grammar such that monsters could only eat like ": [
+            2775.6,
+            2811.4,
+            55
+        ],
+        "activities over a long sequence of ads and some ads and that and subtract, sweetest it adds and did PTA of them to look at the directions and maximum variability. So we're going to be able to look at the kind of internal states of the network as it's going through this. And you got something that looks like this. All of the things up here or next following a ": [
+            4546.6,
+            4582.5,
+            104
+        ],
+        "activity instead of the partially or respect to the weight. And change the inputs to make them appropriate for whatever it is. You're trying to do and every time step. So you can start off with some initial guess a random guess at the end of each training sequence back propagate all the way to the beginning change the initial States. To get the gradient of the error function with ": [
+            3978.3,
+            4012.1,
+            87
+        ],
+        "and I'm trying to say I'm trying to determine as the person eating or the vacuuming or they're walking whatever then the output would be something like the category. Or I could specify the units along the way so I can train the network to do the Boogaloo by making it go through different states does it goes a lot and it's simple that just a dare signal into the ": [
+            4081.8,
+            4113.7,
+            90
+        ],
+        "and eat. They didn't have any examples in the Corpus of boys. Okay, and then words for which the direct object had to be absent. So boys think exist and they sleep. Break a plate can break but a boy can break a plate. So that's direct object optional and so it's learned a lot about language just by predicting the next word. Well, these are all pretty going to ": [
+            3125.4,
+            3172.2,
+            65
+        ],
+        "arbitrary numbers. These are the outputs. And given an H. I'd like it to break any given Annie. I'd like to predict an L given an L. I'd like to predict another I'll give him an ally by predict to know so I'm just training this network to say. Hello. It's a lot harder than printing hello world. But anyway, so what's important about this is that all of these ": [
+            4154.0,
+            4184.0,
+            92
+        ],
+        "are convolutional networks that do things like that where they they do learn weights to represent in puts a different positions in the input, but they're sharing wait so that they are for trainable. pure parameters etcetera so Oh, here's a clicker question. it says autoregressive models try to predict in the end. Worst out as always on AAA. Autoregressive models try to predict what happens next based on what ": [
+            1006.8,
+            1053.6,
+            12
+        ],
+        "back the Carrie. And tell her nose there was a carry so it should add one to the thing. And now I'm a Nut can learn this cuz it learn some internal representation. Of having output a carry and then it knows to add one to the input if there is a Carey. So this little program and it's got you know. And I'll put things it's got an if-then. ": [
+            4427.8,
+            4454.8,
+            100
+        ],
+        "be very similar to one another. Yeah, I mean there's it could have come out with man and woman or girl and boy first they're at they're probably all really really similar to one another. So it's the hidden unit Vector the one that you got by taking all the instances of boy and going from and collecting the hidden unit activation. So, is it the maximally activated? Give me ": [
+            3172.2,
+            3211.6,
+            66
+        ],
+        "boys girls men and women boys smash only plates monster could eat a cookie though in the boy could eat a cookie, but not a monster right? So there's some prediction here and once you get to Chase, Right. You can't just use the word Chase to know what's coming next or 8 if you have to remember that there was a monster before 8. In order to know what ": [
+            2811.4,
+            2841.7,
+            56
+        ],
+        "by boys girls. Etcetera and so you learned that after many a noun is going to come? And so you might put a flat distribution over all the possible next nouns. Yeah. here probably if you start with P, I don't know if there's any other P words in the yeah. Do y'all just sent me nothing you work? You can only predict the category. What's going to come next? ": [
+            2683.8,
+            2739.1,
+            53
+        ],
+        "called them the state units. And I'm training it to learn this little program. So while not done do output, right which is my action and then this as of meaning its meaning as the lower two digit, And if the sum of these two numbers, the first two numbers is bigger than the Radix. So like if it's bigger than 10 then output to carry and I don't care ": [
+            4362.0,
+            4394.9,
+            98
+        ],
+        "can also think about this in the time domain the fordpass builds up a stack of activities of the unit that each time step. And the backward pass peeled off those activities to collect the are derivatives. So you're going to push push push. Push. Push pop pop pop pop pop and then we add them all together at all the different time steps for the to change the weight. ": [
+            3880.0,
+            3908.5,
+            84
+        ],
+        "case. We taught at the program. By giving it what it should do on every step but the neural turing machine actually learned the program without being told what the steps are. It just given an imported learns to produce an output and it's not told what the program is in between and you can use them to oscillate. So we use them to model the lobsters Tamanna gastric gangly ": [
+            1989.2,
+            2022.0,
+            35
+        ],
+        "common use of these things. You could do sequence recognition, like recognize a sentence or recognize an action from video. You can do sequence transformation like speech to text which is what your cell phones do or English to French. You could learn a program and this is what we did back in 93 were recently there's this thing called a neural turing machine that learns our program in our ": [
+            1955.0,
+            1989.2,
+            34
+        ],
+        "compute the gradients and then I just add them together or average them. So I can get the gradients as usual. Calculate the total gradient is the summer and average and modify the cranium. So they satisfy the constraints. Okay. Yeah. yeah, so You need to be able to sign credit all the way through the sequence. Like what did I do wrong on the ground? You know, I tripped ": [
+            3792.8,
+            3838.9,
+            82
+        ],
+        "did this. because Intel these can be used for a lot of different things but simple recurrent natural are often used for prediction. Okay. So all they're trying to do is predict the next input. and that's cool because it's the teacher is the input just one time step later. And so this is really a kind of unsupervised learning. You're just learning from sequences. And this is what Ian ": [
+            1787.8,
+            1826.8,
+            30
+        ],
+        "do. When you have one layer of weights, and then the max. Make sense. Chi Phi so you can keep throwing those out during class. We are going to have some clicker questions today, but that's left over from last week. So I'm going to start talking about recurrent networks today and I put this on the slide so that you not so that you can copy of down but ": [
+            702.0,
+            751.4,
+            4
+        ],
+        "for supervised learning, but it doesn't they don't require a separate teaching stigma. What is what is this mean? Yeah, well. if I want to it's hard to label get labeled data. Right. So suppose I want to take a sentence and turn it into like this is a positive review or a negative review. I have to have somebody read it and say yes, that's a positive reviewer. That's ": [
+            2212.5,
+            2266.5,
+            41
+        ],
+        "from the previous time step and they feed into. The hidden units at time T. Does that make sense? The both of these just use backpropagation to heat to the hidden Lair and then change these weights. the Jordan that was the same way except, you know, it was a copy of the output you could do both course and when I first saw this in the PDP group in ": [
+            1683.4,
+            1720.4,
+            27
+        ],
+        "going up when we doubled the size of the training set. So Jordan that's couldn't do this. They couldn't remember anything about their input. That wasn't ": [
+            4787.4,
+            4798.9,
+            111
+        ],
+        "good answer because you know, a lot of people like four just put four dots down and say see you can do that. But you know that you get full credit for drawing a circle. Does this make sense yet? different people Yeah. One person. Yeah, so Bob has to go hear Carol has to go hear Ted has to go here. From multiple pictures of the same person would ": [
+            1423.3,
+            1473.9,
+            21
+        ],
+        "happened in a few proceeding time steps? Why don't we include connections from every proceeding time step? Is it a or is it pee? What? Okay, so because okay. Everybody only there's more people joining in 5758. k I'll give you 10 more seconds. going County Going going gone. Okay. So again, it's a play our town of you. Thought it was B. I think you're just pushing your clicker ": [
+            1053.6,
+            1124.0,
+            13
+        ],
+        "happening at once. So how do we represent time in recurrent? Neural networks are two ways when ways to map time into space and that's what Natok dead. So it had an input and it would shift it over and so time we were working on the guy on the letter in the center and trying to figure out what sound output for that with t - 1 + t ": [
+            798.3,
+            830.7,
+            6
+        ],
+        "hard to recognize speech right, so So segmenting words is something that our kids have to do we all have to do this when we were learning our native language right had to learn where one word and another word begin it began and we don't speak like this. We don't give our kids. any hints that way so speech is just a continuous speed signal and yet we have ": [
+            2397.3,
+            2434.8,
+            45
+        ],
+        "have to go to the same point and that's why it's so hard. It's possible that I doubt that crop could learn this really. Be very hard. Yeah. Okay, that makes sense now everybody. Okay. All right good. okay, so this is mapping time into interstate where to advancing it's frozen. Okay. There we go. The other way you could do it is use some memory that is have a ": [
+            1473.9,
+            1530.5,
+            22
+        ],
+        "hidden layer and then try and predict the input at time t so that that can work for you know, really simple problems, but it doesn't work for for arbitrary like the items and learning doesn't transfer between locations you could however and that talk for example, they could have had a layer a representation layer above each letter that shared weights across the input like a convolution and there ": [
+            967.1,
+            1006.8,
+            11
+        ],
+        "in here and get you no get your network to jump through hoops. Right if you want to. So it's just a layered net that keeps reusing the same weight over and over again. Okay. I keep these weights the same. And I go through a whole sequence and really I've got a feed-forward network because I have just unroll this network over some arbitrary amount of time. So it's ": [
+            3661.5,
+            3705.1,
+            78
+        ],
+        "in that case. Yeah, grab a handout appear if you don't have one. So if I have you know too Rah, loo units one doing or and one doing and and then I have another rello unit up here and tried to do a score. Right, if I had I don't see exactly how to do it. If I have a Max pooling just above that. You could obviously well, ": [
+            618.6,
+            655.4,
+            2
+        ],
+        "is randomly generate a big sequence of these things like we might have by DDD Kuba Teague body blah blah blah like the The Beatles obla. Di obla da life goes on anyway, and then we're going to ask the network to predict the next letter. And so when it's doing goo, it can't just use the previous element to know when it's done. Right? It's got to actually count ": [
+            2465.0,
+            2496.5,
+            47
+        ],
+        "is the most was the most cited paper in computational linguistics for a decade. It had something like 10,000 citations. So I recommend you read it. It's not a hard paper. You will probably understand all of it. So unlike nips papers. So the first thing you did was simulate word know what Jeff's genius was was taking an interesting problem and boiling it down to the simplest possible thing ": [
+            2308.7,
+            2350.4,
+            43
+        ],
+        "it each time step is trying to Output some some output Edith point and here too. Didn't work very well. Should be pie. I think right side. I need to set targets for these to get them to where I want them to go. Okay. So one good Tori problem for recurrent net would be Dead 2 Edition. You could train a feed for Network to do addition here, but ": [
+            4215.4,
+            4257.6,
+            94
+        ],
+        "it wouldn't make sense to have the stubby one way to We could specify each value is the next element in the secret. So these in that case we wouldn't have wait one. We'd only have inputs. Bring that makes the most sense for bottling sequential data. And then the targets we can set a certain Target for all the outputs at the end. Like if this is a video ": [
+            4051.9,
+            4081.8,
+            89
+        ],
+        "it. It separated verbs from nouns. And humans, these were essentially all synonyms of one another in the Corpus because men and girls and boys and women all did the same things monsters lions and Dragons all did the same things mouse cat and dog pretty much played the same roles and every sentence car book Rock sandwich cookie bread plate and glass soap. It learned as learn semantics meaning ": [
+            3054.9,
+            3092.7,
+            63
+        ],
+        "language just by doing that. Okay, say okay. This is where if the error if my error is higher if what I heard is different from what I expected. Then that's the beginning of a new word. And then he did one with a task with 15 words many years ago a boy and girl live by the sea. They played happily. So, you know, this is again another example ": [
+            2557.1,
+            2605.1,
+            50
+        ],
+        "like this. We used to bit numbers. And it the cool thing was a generalized time longer examples than it was trained on pesos able to add laundry numbers together than the ones in the training set. And what we did was like almond we took the hidden unit activations. And that but what we did instead was do PCA of them. So we reduced we took the hidden unit ": [
+            4511.7,
+            4546.6,
+            103
+        ],
+        "longer feed forward, right? So there were two variants that were commonly used back in the 80s Jordan network. This is for my Jordans thesis year at UCSD. He's now a at Berkeley he would copy back the output to the input from the previous time step and I I don't show this year. But basically he had a one-to-one copy back to a number of units are that were ": [
+            1570.7,
+            1606.2,
+            24
+        ],
+        "material in order to predict that it's going to get a singular verb. So in order to analyze this guy. He collected 150 hidden unit representation of every word in every sentence. So every time you saw a boy. And you got a hidden unit representation. He would take all of those and average them all together. And same with eat every time you got eat you would average all ": [
+            2943.1,
+            2980.8,
+            60
+        ],
+        "maybe not so obviously do Yeah, I have another one saying nearby doing the and part but within at 1 convolution, you can't you can't do X or so, that's an example of something that you can do non-linearly with two layers of convolution versus something with one layer in a Max pooling. Okay, I mean it's not a very image example, but it's an example of something difficult to ": [
+            655.4,
+            702.0,
+            3
+        ],
+        "monsters eat, right? So and then the other thing was that these were represented in what we called localist representations in those days. That is a one hot encoding so there is no similarity structure between the words that the network could use it had to learn. structure from time finding structure in time those the title show can't predict the next word cuz you don't know exactly what's going ": [
+            2841.7,
+            2874.7,
+            57
+        ],
+        "of how kids might be learning to segment words and this idea was followed up turn Zack need lots of other qs24 real language, but people have done a lot of work showing how speech could be segmented biostatistical model like this. Hey, everybody understand what's being shown here? X axis y-axis is error x axis is time. Yeah. Yeah, exactly. So you can't predict very well after many what ": [
+            2605.1,
+            2655.0,
+            51
+        ],
+        "on something and I didn't get a lot of feedback until my face fits the floor and right earlier in time. I tripped should have been watching where I was going instead of reading my cell phone. Okay. So we can think of this recurrent network is a layered feed-forward network with shared weights. And we need to train it such that those shared weight station. Stay the same. You ": [
+            3838.9,
+            3880.0,
+            83
+        ],
+        "on which lobsters are like gun. Cows of the sea they get a lot of food into their stomach and then they have three teeth in their stomach that grinds up the food. And so it has to oscillate to do that. Flying requires isolation walking requires isolation. I have to compressed I have to tighten some muscles and loose and others and then tighten those others again and loosen ": [
+            2022.0,
+            2056.3,
+            36
+        ],
+        "one. So this guy is going to put a line down. That way this guy has to put a line down to get his guy. So they're all going to be like tangents to the circle. But I don't know any other way to do this, so it would be linearly separable for more than like four people, right? 4 people is is one answer, but it's not a really ": [
+            1394.8,
+            1423.3,
+            20
+        ],
+        "only for weights here. It just means that. So this is back if I give a teaching signal here and back propagate it then I'm going 1-2 steps in time. Okay, this is like the input state or whatever. So I back propagate One Step a second step now all these guys have their deltas and they can change their way to that's two steps in time. But almond nuts. ": [
+            3577.8,
+            3627.1,
+            76
+        ],
+        "output. They don't remember what they just did right? So we need recurrence for that to happen. so again mapping time into space is like putting in, you know, three inputs for three places in a sentence John likes a banana then what do we do when we get a longer sentence and in that talk we would do we would just keep shifting over the input and then this ": [
+            858.7,
+            895.9,
+            8
+        ],
+        "over there. Just came in the wrong door. So while you're doing that? let me just remind you just pick something from last week, which you asked why. Yes, why? Doing two layers of convolutions was more nonlinear than doing one layer with a Max pooling and another layer with the max pooling. And so the obvious thing to do is show you that it's difficult to do X or ": [
+            348.3,
+            618.6,
+            1
+        ],
+        "parallel corpora of French sentences with English sentences, and that was the main the main training set for that. So you might again turning sound into words. You have to have somebody that transcribes the sound into the words and usually they're pretty poor at it. Riverside watching recently I forgot but the transcription was terrible. Elements approach prediction is really useful when there isn't a separate Target sequence. So ": [
+            2092.6,
+            2139.4,
+            38
+        ],
+        "parts and screwing them on and stuff. And then at the end they say, okay. Let's see if it works where it is referring to something. They were talking about a half an hour ago, which was the water pump. So yeah, there are examples where it can go pretty arbitrarily far back in time. Yeah. Oh I wanted to ask is there is there still confusion about that question ": [
+            1232.2,
+            1262.5,
+            16
+        ],
+        "point pronouncing the end then the 8th and the end again. And that's just not very effective when you want to you know, how do you do arbitrarily long sentences or speech or anything like that? So in some ways that this has been done in the past and Steve's Auto aggressive models, which take input from the previous time steps with the current input and try and figure out ": [
+            895.9,
+            934.0,
+            9
+        ],
+        "predict. So it's kind of like learning meaning by listening to the radio, but it's capitation Lee naive and that it used this truncated gradient. That is we're not back propagating all the way in time. And that's that's what we're going to do soon here. So these are and ends can oscillate like, you know how to get to your muscles. They can settle to fix points. That is ": [
+            3343.6,
+            3379.3,
+            70
+        ],
+        "recurrent Network so that the hidden stayed and say the output state. And this feedback on that reflect processing so far. Okay, so given an input the way it's process just going to depend on the activations from the previous inputs. Okay, so that you can have some internal state that will get updated as you process more inputs. makes sense so that you're not I mean It's just no ": [
+            1530.5,
+            1570.7,
+            23
+        ],
+        "respect to the initial State and then adjust the initial states by going downhill in the air. Okay. That makes sense. Okay, we can specify inputs and several ways. We could specify the initial States or learn them. We could specify the initial state of some unit and then these become just hidden units. or I could specify I mean these could be inputs essentially right that I'm so that ": [
+            4012.1,
+            4051.9,
+            88
+        ],
+        "rest of an image. That's a kind of prediction problem for temporal sequences. There's no obvious order involved. It's not so clear for images. and like Auto encoding predicting the next term in the sequence blurs the distinction between supervised and unsupervised learning because you're kind of self supervised to unsupervised by the input. I don't have to come up with separate targets. So uses these methods backdrop glitter design ": [
+            2171.5,
+            2212.5,
+            40
+        ],
+        "right result. All the ones over here or next following a Carrie. So this being over in this part of the state space of this network is how it remembers that there's a Carrie. and then Down here. It's it's going from writing the sound to asking for the next one. Okay, so you can kind of see this internal State space like this is a state. This is a ": [
+            4582.5,
+            4625.9,
+            105
+        ],
+        "saying there's a carry and then asking for the next in foot. We'd ask for the next input and then say there was a carry on the previous input. You're not seeing the previous input anymore, and now about putting a next and that's what gets fed back into the alma to the Jordan at and when we tried this combined subset training we called it the air would keep ": [
+            4756.1,
+            4787.4,
+            110
+        ],
+        "sense? pretty cool learns both syntax see things and semantic he things both structure and meaning so it's demonstrated sensitivity to temporal contact by the time you get to break. You either going to predict the end of sentence because it was plate brakes or you're going to predict another word like boy breaks plate and it learns which word should be similar based on how well on what they ": [
+            3304.4,
+            3343.6,
+            69
+        ],
+        "size of the training set like we would start with I don't know 512 examples and then we give it a thousand 24 and then 2048 etcetera something with me the numbers cuz it's not the width of the numbers snow. just number of addition examples And we also showed a difference between almond and Jordan Nets by just changing the order of two lines in the program instead of ": [
+            4718.7,
+            4756.1,
+            109
+        ],
+        "so you can click on it when I upload slides some of this material is taken from their also. Okay, so let me turn that off and turn the light on but doesn't work. That's okay. And I always get people telling me to keep bringing Wally. You don't have to tell me that. Okay. So time is obviously important for everything. It's it's God's way of keeping everything from ": [
+            751.4,
+            798.3,
+            5
+        ],
+        "some interesting things. So Tony Robinson heroically train to speech recognizer. And that's that's why almond and Mike Jordan. He is truncated gradients. So here's essentially what you're doing with back prop suit. I'm so this is all the same unit. It's just a different time steps. This is all the same unit. Just a different time steps of cheddar it and basically you're sharing weights over time. So the ": [
+            3465.7,
+            3509.7,
+            73
+        ],
+        "state. This is a state. It's not a crime Sade has been a region of the activation space to the network. So you can see how it might if you had a really really long sequins it might like dressed and then get something wrong and that's what happened. We did a kind of curriculum training for this. So Creek elem training means you feed the network easier examples before ": [
+            4625.9,
+            4658.0,
+            106
+        ],
+        "that I can put a one above the two and then I'll put a nine and then given a 3 and 1/8 output a one and then another one right? That's what we did. We train this network to this. We used either in Almond nut or Jordan that we gave it to two digit numbers and then almond called this feedback from the hidden units the context units Jordan ": [
+            4329.4,
+            4362.0,
+            97
+        ],
+        "that each captures some knowledge nugget Minsky had Society. His idea was Society of mine that he had a lot of little programs that all cooperated to make your mind. And then all those little bits can interact to produce complicated effects. But because they're so flexible because they can do so many things. They're really hard to train. And for a long time we couldn't train them to do ": [
+            3421.5,
+            3465.7,
+            72
+        ],
+        "that is this huge Network that they have been able to use two for generating speech and generating music even. Okay. Any questions about that? Yeah. Matters, yeah. so There's examples like on. well, this is a little arbitrary but And Barbara gross is thesis she talked about putting together a water pump. And so these people were talking back and forth about this water pump and putting on different ": [
+            1162.3,
+            1232.2,
+            15
+        ],
+        "that typically so your your you can be throwing away my information about the input. Where is it the hidden Lair can always learn to remember things? So I think of these is temporal autoencoders. I had somebody argue with me recently about that characterization cuz they are doing more than autoencoder there. Trying to predict but I didn't know it seems I like this way of thinking about it. ": [
+            1878.5,
+            1921.3,
+            32
+        ],
+        "that would change the representation at time t plus 1 etcetera. I was like that I can't be right but it was it worked. And that's called back one step backprop through time or BPT. T12 its friends, okay. If you wanted the back propagate to earlier, you need to copy it again down here and down here and down here all the way back to the beginning. And we ": [
+            1750.9,
+            1787.8,
+            29
+        ],
+        "that's really useful for learning about the world. You know, I I predict that when I do this, I'm not I'm going to be held up by the floor. Unlike Virginia Woolf who thought the ground was going to open up and swallow her up. And you can again generalize to try and predict one pixel in an image from the others or one patch him and image from the ": [
+            2139.4,
+            2171.5,
+            39
+        ],
+        "the Coon has been pushing a lot lately is that we should be learning representations by trying to predict the future. Yeah. This can remember more than a Jordan that knows given exact. I had a paper. Back in the day that showed that almond nuts were more powerful than Jordan. That's because and why is that? because of Jordan that can only remember what it output and your training ": [
+            1826.8,
+            1878.5,
+            31
+        ],
+        "the air would go up but not as high as it started and then it would go down and then we double the size of the training set in the Gannett would go up but not as high as it was before and so it this by doing this we're able to LEAP large training sets with many bounce. Superman cuz, you know leap large buildings in a single bound. ": [
+            4685.6,
+            4715.0,
+            108
+        ],
+        "the company it kept but anyway saved 29 vectors. Okay. Are they hidden or representation by taking every instance of boy in this big Corpus and taking the hidden unit representation averaging in together cu29 vectors. Then you take the two closest ones the average them together and you draw a little bit of tree. And eventually you're going to join everything. So this is what you got out of ": [
+            3018.1,
+            3054.9,
+            62
+        ],
+        "the long number cuz they use different weights. So this is bad, right? So they don't generalize well. Instead we could give a recurrent Network a column it at a time. So given this. Give it input. That's the seven in the five up. What happened? Play figure okay. I put it in the wrong. Anyway, given this I could have that again with it to hear and after seeing ": [
+            4292.1,
+            4329.4,
+            96
+        ],
+        "the opposite ones in order to walk. So when you're trying to learn sequences getting targets is really easy if you're trying to predict the next thing. But you can't always do that for mapping English into French what people did for a long time there. There is the Hansard Corpus which is the Canadian Parliament is officially in two languages French and English. And so they had all these ": [
+            2056.3,
+            2092.6,
+            37
+        ],
+        "the same as the number of outputs and they also had little recurrent self links to store previous. So that they were like an exponentially decaying representation of the output. Okay. And then there's almond nuts and Jeff just passed away in June this year. It's very sad. He was 70. So pretty important person in the history of neural networks. He was walking across campus past and just got ": [
+            1606.2,
+            1649.7,
+            25
+        ],
+        "the same right you can think of these is two way. It's right, but they're not really they're all the same way. So we start with an equal. So we want everyone to be equal to W2 so you need any and that's this is a little confusing cuz I really mean these are the same weight, but then I need the weight changes to be the same. So I ": [
+            3765.3,
+            3792.8,
+            81
+        ],
+        "the word is all of the Hidden unit. So I think 150 sounds like a lot to me. I am surprised that seems like it's got to be wrong, but you would need that many hidden units to do this task. But I guess that's what he had. So that was her. That's what your cluster. makes sense Yeah, okay any questions, so this is really cool. What? Say what? ": [
+            3211.6,
+            3263.3,
+            67
+        ],
+        "them together and then perform a hierarchical clustering analysis to show what the network learned about the world. So again, I'm sorry, you have I forgot 29 words. Yeah, there was an example where a stick stuck in a 30th worried that I'd never been trained on but it was essentially a synonym for other words that had seen so if it actually learned quote on quote that word by ": [
+            2980.8,
+            3018.1,
+            61
+        ],
+        "then we train it to say next. Then we give it to 1/8. We write 0 say there's a Carrie asked for the next input. Then we give the network 3 and 4 and it's got a right now. Ask for the next 10 quick and it gets the done is input and its output is done. Okay, so that's how we trained it except we didn't use big numbers ": [
+            4481.5,
+            4511.7,
+            102
+        ],
+        "these guys so you can start them off at zero or start them all off at 1/2 or something like that. It's better though. If you can learn the initial states by and you can do that by just back propagating all the way to the take the derivative of the error with respect to the input activities. Okay, so it's the partial of the air with respect to the ": [
+            3947.9,
+            3978.3,
+            86
+        ],
+        "they can iterate until I reach a single activation level that when you update them again, they don't change. That's been used to model memory. and and they can behave systematically like transforming things from one thing and do another. And they can behave chaotically Witchwood could be pretty bad. She want to avoid that usually. And you can imagine that these things could Implement a lot of small programs ": [
+            3379.3,
+            3421.5,
+            71
+        ],
+        "to be able to individually group words and you know, probably all of you experienced where you're like learning a prayer in church or you're learning some song that you sing in your family and years later you realize you learned something completely different words that you was where what you thought you heard, but they turned out to be something else so Okay. So what we're going to do ": [
+            2434.8,
+            2465.0,
+            46
+        ],
+        "to get in but Every we have to learn a lot of weight. And in fact, that's essentially what this more recent thing called waved at that Google came out with they they learn weights for every every previous input and it's all feed-forward, but they share wait, so they're basically adding more Network cuz they go but there's certainly lots of relevant information and previous time steps. And wave ": [
+            1124.0,
+            1162.3,
+            14
+        ],
+        "to happen, but it can predict the type of word. So boy eat has to be followed by things that boy eat and monsters can eat people, too. And so he trained it up and and of course, you know would have depending on the probabilities. It would generally have like an even distribution across the things that could come next and then his later work where it was boys. ": [
+            2874.7,
+            2907.4,
+            58
+        ],
+        "to the demonstrated. Good phenomenon example, here's an extremely simple regular grammar. By The View, so if you randomly choose a b and c you'll get a sequence of body and Do's and one of the hardest problems in speech recognition is segmentation. Like it's hard to recognize speech. I think what I said is it's hard to recognize speech but if you segmented it wrong you for it. It's ": [
+            2350.4,
+            2397.3,
+            44
+        ],
+        "to three in order to predict that there's a you and then what it can't predict whether it's going to be a b d or G. Ensure you get things like that. So this is the error going this way. and it's predicting D. Terrible at predicting this D. The erika's way up then it followed by eye and it's terrible at predicting G and then that's followed by you ": [
+            2496.5,
+            2533.4,
+            48
+        ],
+        "units. Let me see if I can get this chalkboard to turn on. It's not turning on for me. Come on. Turn on damn you okay? Alright well. Can't get it to turn on. All right, so So this is this is a true story. Actually. I had a graduate student one of the few I had to ever like kicked out of my lab. Who did this? Have to ": [
+            1313.9,
+            1359.2,
+            18
+        ],
+        "weight from this unit to that the weight from this unit to that unit. WW1 has to be the same weight and all-time steps. So it's like shared weights and a convolutional network, except it's over time. This guy is connected to that guy by W3. So W3 has to be the same at every time step. and it's Dave rummelhart said recurrent network is just a special case of ": [
+            3509.7,
+            3540.4,
+            74
+        ],
+        "weights are the same all of these weights are the same all of these weights are the same. And tell again you can see by unrolling this in time. It's using the previous state of the Hidden Lair and combining that with the input to get the new state of the Hidden Lair convening combining the previous state with the new input to get the new state Etc. And then ": [
+            4184.0,
+            4215.4,
+            93
+        ],
+        "what goes here. So I'm just now putting an action saying there's a carry and then I have put a next that says give me the next column of digits. and if and then keep doing that. Until I have to I'll put different things for different inputs because I might have had a carry on the previous one. Okay, I'm sorry Jordan that can do this cuz he copy ": [
+            4394.9,
+            4427.8,
+            99
+        ],
+        "with 2 hidden units and faces? Anybody want me to go over that one more time? Huh? Yeah. the one from the midterm you have no idea what? No deer. Okay. So what is what do you have to do by the hidden Lair just before the output. The output layers are really just perceptrons, right? So there are linearly there linear separators. Okay, so in order to have two ": [
+            1262.5,
+            1313.9,
+            17
+        ],
+        "word is going to come next so you get more air on that. And years now, I don't know what word is going to come next to eventually if it's only using these 15 words and then it all the sentences that here's our syntactically correct. It is better and better at predicting the category of what could come next so many can be followed by years can be filed ": [
+            2655.0,
+            2683.8,
+            52
+        ],
+        "you could only It would only be able to train it to do some fixed with additions and the weights for these would be different than the from each other in and wouldn't capture obvious regularities. So we have to decide in advance. How many digits in each number? We the processing applied to the beginning of a long number doesn't generalized to the Press thing at the end of ": [
+            4257.6,
+            4292.1,
+            95
+        ],
+        "you feed it harder examples. So we trained on us we found it if we trained on a large dataset it had trouble learning. Free trade on a small Tater set. It had trouble generalizing. So what we did was training on a small dataset and then double the size of the training set. So we'd watch till the air went down double the size of the train set and ": [
+            4658.0,
+            4685.6,
+            107
+        ],
+        "you you and then it's terrible at predicting be because it's unpredictable basically, but once I've got to be then I know I'm going to have an A once I've got a g. I know I'm going to have three years and once I have a d I know I am going to have two eyes. So if I kind of set a threshold around here, I could segment the ": [
+            2533.4,
+            2557.1,
+            49
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_12.flac",
+    "Full Transcript": "Thanks. Probably seen these before. This is the  where should I keep doing? What should I quit doing? What should I start doing? And I meant to give it to you last week, but I didn't make copies you sometime.  So just let me know. This is your chance to tell tell me what to do.  Okay.  And yes, we will have some quicker questions today.  There's a hand that over there.  Just came in the wrong door.  So while you're doing that?  let me  just remind you just pick something from last week, which you asked why.  Yes, why?  Doing two layers of convolutions was more nonlinear than doing one layer with a Max pooling and another layer with the max pooling. And so the obvious thing to do is show you that it's difficult to do X or in that case. Yeah, grab a handout appear if you don't have one. So if I have you know too Rah, loo units one doing or and one doing and and then I have another rello unit up here and tried to do a score.  Right, if I had I don't see exactly how to do it. If I have a Max pooling just above that. You could obviously well, maybe not so obviously do  Yeah, I have another one saying nearby doing the and part but within at 1 convolution, you can't you can't do X or so, that's an example of something that you can do non-linearly with two layers of convolution versus something with one layer in a Max pooling.  Okay, I mean it's not a very image example, but it's an example of something difficult to do.  When you have one layer of weights, and then the max. Make sense.  Chi Phi  so you can keep throwing those out during class. We are going to have some clicker questions today, but that's left over from last week.  So I'm going to start talking about recurrent networks today and I put this on the slide so that you not so that you can copy of down but so you can click on it when I upload slides some of this material is taken from their also.  Okay, so let me turn that off and turn the light on but doesn't work. That's okay.  And I always get people telling me to keep bringing Wally. You don't have to tell me that.  Okay. So time is obviously important for everything. It's it's God's way of keeping everything from happening at once. So how do we represent time in recurrent? Neural networks are two ways when ways to map time into space and that's what Natok dead. So it had an input and it would shift it over and so time we were working on the guy on the letter in the center and trying to figure out what sound output for that with t - 1 + t + 1 t - 2T + 2 on either side.  And the other way though is to map tie into the state of the network the feed for networks. We've been working with her stateless. Meaning that they don't get any state until you put in an input and Philip you get an output. So they don't now I give it a new one put in. I got a new output. They don't remember what they just did right? So we need recurrence for that to happen.  so  again mapping time into space is like putting in, you know, three inputs for three places in a sentence John likes a banana then what do we do when we get a longer sentence and in that talk we would do we would just keep shifting over the input and then this point pronouncing the end then the 8th and the end again.  And that's just not very effective when you want to you know, how do you do arbitrarily long sentences or speech or anything like that?  So in some ways that this has been done in the past and Steve's Auto aggressive models, which take input from the previous time steps with the current input and try and figure out a linear mapping between those so you can a typical way to do.  Time-series prediction is to have a bunch of delete apps. These are called that would keep track of the previous steps in the time series feed-forward networks. So hear what we're trying to do is predict the input a Time t  and here with a neuron that of course we can make it nonlinear by having a hidden layer and then try and predict the input at time t  so that that can work for you know, really simple problems, but it doesn't work for for arbitrary like the items and  learning doesn't transfer between locations you could however and that talk for example, they could have had a layer a representation layer above each letter that shared weights across the input like a convolution and there are convolutional networks that do things like that where they they do learn weights to represent in puts a different positions in the input, but they're sharing wait so that they are for trainable.  pure parameters etcetera  so  Oh, here's a clicker question.  it says  autoregressive models try to predict in the end. Worst out as always on AAA.  Autoregressive models try to predict what happens next based on what happened in a few proceeding time steps?  Why don't we include connections from every proceeding time step?  Is it a or is it pee?  What?  Okay, so because  okay.  Everybody only there's more people joining in 5758.  k  I'll give you 10 more seconds.  going  County  Going going gone. Okay. So again, it's a play our town of you. Thought it was B. I think you're just pushing your clicker to get in but  Every we have to learn a lot of weight. And in fact, that's essentially what this more recent thing called waved at that Google came out with they they learn weights for every every previous input and it's all feed-forward, but they share wait, so they're basically adding more Network cuz they go but there's certainly lots of relevant information and previous time steps.  And wave that is this huge Network that they have been able to use two for generating speech and generating music even.  Okay.  Any questions about that?  Yeah.  Matters, yeah.  so  There's examples like on.  well, this is a little arbitrary but  And Barbara gross is thesis she talked about putting together a water pump. And so these people were talking back and forth about this water pump and putting on different parts and screwing them on and stuff. And then at the end they say, okay. Let's see if it works where it is referring to something. They were talking about a half an hour ago, which was the water pump. So yeah, there are examples where it can go pretty arbitrarily far back in time.  Yeah. Oh I wanted to ask is there is there still confusion about that question with 2 hidden units and faces?  Anybody want me to go over that one more time?  Huh?  Yeah.  the one from the midterm  you have no idea what?  No deer.  Okay. So what is what do you have to do by the hidden Lair just before the output.  The output layers are really just perceptrons, right? So there are linearly there linear separators.  Okay, so in order to have two units.  Let me see if I can get this chalkboard to turn on. It's not turning on for me. Come on.  Turn on damn you okay? Alright well.  Can't get it to turn on. All right, so  So this is this is a true story. Actually. I had a graduate student one of the few I had to ever like kicked out of my lab.  Who did this?  Have to Hidden units before the output and said but I've got all these players before that. Okay, so I have two heading units and then I've got the right that got 10 or 20 different outputs, right?  How am I going to linearly separate activations from these two hidden units?  The only way you can do it is if they're in a circle.  And then maybe this guy corresponds to that one.  So this guy is going to put a line down. That way this guy has to put a line down to get his guy.  So they're all going to be like tangents to the circle.  But I don't know any other way to do this, so it would be linearly separable for more than like four people, right?  4 people is is one answer, but it's not a really good answer because you know, a lot of people like four just put four dots down and say see you can do that.  But you know that you get full credit for drawing a circle. Does this make sense yet?  different people  Yeah.  One person. Yeah, so Bob has to go hear Carol has to go hear Ted has to go here.  From multiple pictures of the same person would have to go to the same point and that's why it's so hard.  It's possible that I doubt that crop could learn this really.  Be very hard.  Yeah.  Okay, that makes sense now everybody.  Okay.  All right good.  okay, so this is mapping time into  interstate  where to advancing  it's frozen. Okay. There we go.  The other way you could do it is use some memory that is have a recurrent Network so that the hidden stayed and say the output state.  And this feedback on that reflect processing so far. Okay, so given an input the way it's process just going to depend on the activations from the previous inputs.  Okay, so that you can have some internal state that will get updated as you process more inputs.  makes sense so that you're not I mean  It's just no longer feed forward, right?  So there were two variants that were commonly used back in the 80s Jordan network. This is for my Jordans thesis year at UCSD. He's now a at Berkeley he would copy back the output to the input from the previous time step and I I don't show this year. But basically he had a one-to-one copy back to a number of units are that were the same as the number of outputs and they also had little recurrent self links to store previous.  So that they were like an exponentially decaying representation of the output.  Okay.  And then there's almond nuts and Jeff just passed away in June this year. It's very sad. He was 70.  So pretty important person in the history of neural networks.  He was walking across campus past and just got a heart attack. So these ones he just fed back the hidden unit representation. So basically this turned into it a one-to-one copy back of the Hidden units at time T minus one.  And so that fed into the hidden units of time T. So these two things are equivalent.  Right. I'm feeding back on myself site one way to think about that as I copy back to Hidden units from the previous time step and they feed into.  The hidden units at time T. Does that make sense?  The both of these just use backpropagation to heat to the hidden Lair and then change these weights.  the Jordan that was the same way except, you know, it was a copy of the output you could do both course and  when I first saw this in the PDP group in 1986 or 7 or so I said, I don't believe it because how could you cuz these networks actually rapper remember things farther back than one step in time and I was like, how could you possibly remember anyting?  Earlier than one step back in time by only back propagating one step in time. But if they did because the this would change the representation at time T. And then that would change the representation at time t plus 1 etcetera. I was like that I can't be right but it was it worked.  And that's called back one step backprop through time or BPT. T12 its friends, okay.  If you wanted the back propagate to earlier, you need to copy it again down here and down here and down here all the way back to the beginning.  And we did this.  because Intel  these can be used for a lot of different things but simple recurrent natural are often used for prediction. Okay. So all they're trying to do is predict the next input.  and that's cool because it's  the teacher is the input just one time step later. And so this is really a kind of unsupervised learning. You're just learning from sequences. And this is what Ian the Coon has been pushing a lot lately is  that we should be learning representations by trying to predict the future. Yeah.  This can remember more than a Jordan that knows given exact. I had a paper.  Back in the day that showed that almond nuts were more powerful than Jordan. That's because and why is that?  because of Jordan that  can only remember what it output and your training that typically so your your you can be throwing away my information about the input.  Where is it the hidden Lair can always learn to remember things?  So I think of these is temporal autoencoders. I had somebody argue with me recently about that characterization cuz they are doing more than autoencoder there.  Trying to predict but I didn't know it seems I like this way of thinking about it.  And so there are lots of things you can do with recurrent Networks.  And we do you can try and predict the next word which is what Jeff use them for. You could quote unquote predict the next pixel if you were trying to complete an image, you can use them to generate sequences like produce a word or a sentence or to caption an image.  Image captioning is the common use of these things. You could do sequence recognition, like recognize a sentence or recognize an action from video. You can do sequence transformation like speech to text which is what your cell phones do or English to French.  You could learn a program and this is what we did back in 93 were recently there's this thing called a neural turing machine that learns our program in our case. We taught at the program.  By giving it what it should do on every step but the neural turing machine actually learned the program without being told what the steps are. It just given an imported learns to produce an output and it's not told what the program is in between and you can use them to oscillate. So we use them to model the lobsters Tamanna gastric gangly on which lobsters are like gun.  Cows of the sea they get a lot of food into their stomach and then they have three teeth in their stomach that grinds up the food.  And so it has to oscillate to do that.  Flying requires isolation walking requires isolation. I have to compressed I have to tighten some muscles and loose and others and then tighten those others again and loosen the opposite ones in order to walk.  So when you're trying to learn sequences getting targets is really easy if you're trying to predict the next thing.  But you can't always do that for mapping English into French what people did for a long time there. There is the Hansard Corpus which is the Canadian Parliament is officially in two languages French and English. And so they had all these parallel corpora of French sentences with English sentences, and that was the main the main training set for that.  So you might again turning sound into words. You have to have somebody that transcribes the sound into the words and usually they're pretty poor at it.  Riverside watching recently  I forgot but the transcription was terrible.  Elements approach prediction is really useful when there isn't a separate Target sequence.  So that's really useful for learning about the world. You know, I I predict that when I do this, I'm not I'm going to be held up by the floor. Unlike Virginia Woolf who thought the ground was going to open up and swallow her up.  And you can again generalize to try and predict one pixel in an image from the others or one patch him and image from the rest of an image.  That's a kind of prediction problem for temporal sequences. There's no obvious order involved. It's not so clear for images.  and like Auto encoding  predicting the next term in the sequence blurs the distinction between supervised and unsupervised learning because you're kind of self supervised to unsupervised by the input.  I don't have to come up with separate targets.  So uses these methods backdrop glitter design for supervised learning, but it doesn't they don't require a separate teaching stigma.  What is what is this mean?  Yeah, well.  if I want to  it's hard to label get labeled data.  Right. So suppose I want to take a sentence and turn it into like this is a positive review or a negative review. I have to have somebody read it and say yes, that's a positive reviewer. That's a negative review. But so that that's a problem where you need a separate Target sequence. But if I want to learn something about language just predicting the next word learning that is very helpful.  You learn a lot about language and we'll see examples in a moment.  Okay.  So the classic paper which I think is on your resources page under readings is finding structure in time. This paper is the most was the most cited paper in computational linguistics for a decade. It had something like 10,000 citations. So I recommend you read it. It's not a hard paper.  You will probably understand all of it. So unlike nips papers. So the first thing you did was simulate word know what Jeff's genius was was taking an interesting problem and boiling it down to the simplest possible thing to the demonstrated.  Good phenomenon example, here's an extremely simple regular grammar.  By The View, so if you randomly choose a b and c you'll get a sequence of body and Do's and one of the hardest problems in speech recognition is segmentation.  Like it's hard to recognize speech.  I think what I said is it's hard to recognize speech but if you segmented it wrong you for it. It's hard to recognize speech right, so  So segmenting words is something that our kids have to do we all have to do this when we were learning our native language right had to learn where one word and another word begin it began and we don't speak like this. We don't give our kids.  any hints that way so speech is just a continuous speed signal and yet we have to be able to individually group words and you know, probably all of you experienced where you're like learning a prayer in church or you're learning some song that you sing in your family and years later you realize you learned something completely different words that you was where what you thought you heard, but they turned out to be something else so  Okay. So what we're going to do is randomly generate a big sequence of these things like we might have by DDD Kuba Teague body blah blah blah like the The Beatles obla. Di obla da life goes on anyway, and then we're going to ask the network to predict the next letter. And so when it's doing goo, it can't just use the previous element to know when it's done. Right? It's got to actually count to three in order to predict that there's a you and then what it can't predict whether it's going to be a b d or G.  Ensure you get things like that. So this is the error going this way.  and  it's predicting D. Terrible at predicting this D. The erika's way up then it followed by eye and it's terrible at predicting G and then that's followed by you you you and then it's terrible at predicting be because it's unpredictable basically, but once I've got to be then I know I'm going to have an A once I've got a g. I know I'm going to have three years and once I have a d I know I am going to have two eyes. So if I kind of set a threshold around here, I could segment the language just by doing that.  Okay, say okay. This is where if the error if my error is higher if what I heard is different from what I expected.  Then that's the beginning of a new word.  And then he did one with a task with 15 words many years ago a boy and girl live by the sea.  They played happily.  So, you know, this is again another example of how kids might be learning to segment words and this idea was followed up turn Zack need lots of other qs24 real language, but people have done a lot of work showing how speech could be segmented biostatistical model like this.  Hey, everybody understand what's being shown here?  X axis y-axis is error x axis is time.  Yeah.  Yeah, exactly. So you can't predict very well after many what word is going to come next so you get more air on that.  And years now, I don't know what word is going to come next to eventually if it's only using these 15 words and then it all the sentences that here's our syntactically correct. It is better and better at predicting the category of what could come next so many can be followed by years can be filed by boys girls.  Etcetera and so you learned that after many a noun is going to come?  And so you might put a flat distribution over all the possible next nouns.  Yeah.  here probably if you start with P, I don't know if there's any other P words in the  yeah.  Do y'all just sent me nothing you work? You can only predict the category. What's going to come next?  Bright, like I like my coffee with cream and dog.  you know, it's going to be a noun but  you know.  Okay, so then he trained it on a bunch of two and three word sentences. There's a later paper where he trained it on sentences like the boy the girls liked fried for things like that. But with you no more embedding structure like relative clauses what you're like a sentence in the middle of a sentence.  The boys the girl light the girl like to almost a whole sentence Etc Channel later paper.  This paper again. He's making an extremely.  Important point where the really simple simulation that was the great thing about him.  So boy eat sandwich ma Street for a girl exists teaser and came from a semantic grammar such that monsters could only eat like boys girls men and women boys smash only plates monster could eat a cookie though in the boy could eat a cookie, but not a monster right? So there's some prediction here and once you get to Chase,  Right. You can't just use the word Chase to know what's coming next or 8 if you have to remember that there was a monster before 8.  In order to know what monsters eat, right? So and then the other thing was that these were represented in what we called localist representations in those days. That is a one hot encoding so there is no similarity structure between the words that the network could use it had to learn.  structure from time finding structure in time those the title  show can't predict the next word cuz you don't know exactly what's going to happen, but it can predict the type of word. So boy eat has to be followed by things that boy eat and monsters can eat people, too.  And so he trained it up and and of course, you know would have depending on the probabilities. It would generally have like an even distribution across the things that could come next and then his later work where it was boys. That girl likes like you no excetera. It would have to learn that a singular noun for predicts a singular verb, but it would have to remember that across the whole sequence of things like the boy the girls liked likes.  So the likes is right after a plural noun, but it matches with the the boy.  So I can ask her remember that across the whole sequence of intervening material in order to predict that it's going to get a singular verb.  So in order to analyze this guy.  He collected 150 hidden unit representation of every word in every sentence. So every time you saw a boy.  And you got a hidden unit representation. He would take all of those and average them all together.  And same with eat every time you got eat you would average all them together and then perform a hierarchical clustering analysis to show what the network learned about the world. So again,  I'm sorry, you have I forgot 29 words. Yeah, there was an example where a stick stuck in a 30th worried that I'd never been trained on but it was essentially a synonym for other words that had seen so if it actually learned quote on quote that word by the company it kept but anyway saved 29 vectors.  Okay. Are they hidden or representation by taking every instance of boy in this big Corpus and taking the hidden unit representation averaging in together cu29 vectors. Then you take the two closest ones the average them together and you draw a little bit of tree.  And eventually you're going to join everything.  So this is what you got out of it. It separated verbs from nouns.  And humans, these were essentially all synonyms of one another in the Corpus because men and girls and boys and women all did the same things monsters lions and Dragons all did the same things mouse cat and dog pretty much played the same roles and every sentence car book Rock sandwich cookie bread plate and glass soap. It learned as learn semantics meaning  By listening to the radio essentially, right? So it's like to listen to Mexican radio and and suddenly, you know Spanish so  But you do that by putting the effort into try and predict the next word and the same thing at learn something about syntax as well. So it's got nouns and verbs. It's got direct object obligatory. So like has to have something following it as does Chase and eat. They didn't have any examples in the Corpus of boys. Okay, and then words for which the direct object had to be absent. So boys think exist and they sleep.  Break a plate can break but a boy can break a plate. So that's direct object optional and so it's learned a lot about language just by predicting the next word.  Well, these are all pretty going to be very similar to one another.  Yeah, I mean there's it could have come out with man and woman or girl and boy first they're at they're probably all really really similar to one another.  So it's the hidden unit Vector the one that you got by taking all the instances of boy and going from and collecting the hidden unit activation.  So, is it the maximally activated?  Give me the word is all of the Hidden unit. So I think  150 sounds like a lot to me.  I am surprised that seems like it's got to be wrong, but you would need that many hidden units to do this task. But I guess that's what he had. So that was her. That's what your cluster.  makes sense  Yeah, okay any questions, so this is really cool.  What?  Say what?  The monster candy cookies and Candy team isn't exactly.  well, it is in the sense that monsters lions and Dragons all play the same kind they predict different things like a mouse isn't going to eat a human for the monster is  And a lion and a dragon can eat a human.  if a dragon existed  Brothers the Komodo dragon that can eat people  Okay, honey.  So does this make sense?  pretty cool learns both syntax see things and semantic he things both structure and meaning  so it's demonstrated sensitivity to temporal contact by the time you get to break.  You either going to predict the end of sentence because it was plate brakes or you're going to predict another word like boy breaks plate and it learns which word should be similar based on how well on what they predict.  So it's kind of like learning meaning by listening to the radio, but it's capitation Lee naive and that it used this truncated gradient.  That is we're not back propagating all the way in time.  And that's that's what we're going to do soon here.  So these are and ends can oscillate like, you know how to get to your muscles. They can settle to fix points. That is they can iterate until I reach a single activation level that when you update them again, they don't change. That's been used to model memory.  and  and they can behave systematically like transforming things from one thing and do another.  And they can behave chaotically Witchwood could be pretty bad.  She want to avoid that usually.  And you can imagine that these things could Implement a lot of small programs that each captures some knowledge nugget Minsky had Society. His idea was Society of mine that he had a lot of little programs that all cooperated to make your mind.  And then all those little bits can interact to produce complicated effects.  But because they're so flexible because they can do so many things. They're really hard to train.  And for a long time we couldn't train them to do some interesting things. So Tony Robinson heroically train to speech recognizer.  And that's that's why almond and Mike Jordan. He is truncated gradients.  So here's essentially what you're doing with back prop suit. I'm so this is all the same unit. It's just a different time steps. This is all the same unit. Just a different time steps of cheddar it and basically you're sharing weights over time. So the weight from this unit to that the weight from this unit to that unit. WW1 has to be the same weight and all-time steps. So it's like shared weights and a convolutional network, except it's over time.  This guy is connected to that guy by W3. So W3 has to be the same at every time step.  and it's Dave rummelhart said  recurrent network is just a special case of a feed-forward network, which is kind of backwards, right but it's insightful.  So what you do is you run stuff through this network you back propagate the error and again, you collect the weight change for this guy that way change to that guy the weight range for that kind you add them up.  Change the weight by the same amount.  What?  For this network has four ways. Yeah. They're only for weights here.  It just means that.  So this is back if I give a teaching signal here and back propagate it then I'm going 1-2 steps in time.  Okay, this is like the input state or whatever. So I back propagate One Step a second step now all these guys have their deltas and they can change their way to that's two steps in time. But almond nuts. He was only back propagating One Step in Time. He wasn't saving the activities and hidden units all the way back. So this is this is called unrolling a recurrent Network in time. So I'm taking this network.  And just laying it out over time unrolling it and so each time step is like this is what happens first. Then this then this and you can inject teaching signals anywhere in here and get you no get your network to jump through hoops.  Right if you want to.  So it's just a layered net that keeps reusing the same weight over and over again.  Okay.  I keep these weights the same.  And I go through a whole sequence and really I've got a feed-forward network because I have just unroll this network over some arbitrary amount of time. So it's a big bump and then I'm back propagating the air and then I just maintain that all the weights that are supposed to be the same. Stay the same.  By adding up all the way changes that like this is going to have a weight change here because of the Delta here in the activity here the skin of a Delta here and activity here adults here in activity hear. Those are all going to give me the weight change through the Delta rule.  And then I just some all those up for average them for whatever.  Averaging is probably a good idea here because they depending on the length of the sequence. She might get different things. We'll talk about the vanishing gradient problem very soon.  So it's easy to incorporate constraints like this. The two weights should be the same right you can think of these is two way. It's right, but they're not really they're all the same way. So we start with an equal.  So we want everyone to be equal to W2 so you need any  and that's this is a little confusing cuz I really mean these are the same weight, but then I need the weight changes to be the same. So I compute the gradients and then I just add them together or average them.  So I can get the gradients as usual.  Calculate the total gradient is the summer and average and modify the cranium. So they satisfy the constraints.  Okay.  Yeah.  yeah, so  You need to be able to sign credit all the way through the sequence. Like what did I do wrong on the ground? You know, I tripped on something and I didn't get a lot of feedback until my face fits the floor and right earlier in time. I tripped should have been watching where I was going instead of reading my cell phone.  Okay.  So we can think of this recurrent network is a layered feed-forward network with shared weights.  And we need to train it such that those shared weight station. Stay the same.  You can also think about this in the time domain the fordpass builds up a stack of activities of the unit that each time step.  And the backward pass peeled off those activities to collect the are derivatives. So you're going to push push push. Push. Push pop pop pop pop pop and then we add them all together at all the different time steps for the to change the weight.  So it's like I take these activities push them on a stack take these activities for some of these and these and now I get deltas and I use them to compute the weight change from these activities pop them off. The stack of the Deltas here is M to compute these etcetera. So it's like push push push pop pop.  So we need to specify an initial activity for these guys so you can start them off at zero or start them all off at 1/2 or something like that.  It's better though. If you can learn the initial states by and you can do that by just back propagating all the way to the take the derivative of the error with respect to the input activities. Okay, so it's the partial of the air with respect to the activity instead of the partially or respect to the weight.  And change the inputs to make them appropriate for whatever it is. You're trying to do and every time step.  So you can start off with some initial guess a random guess at the end of each training sequence back propagate all the way to the beginning change the initial States.  To get the gradient of the error function with respect to the initial State and then adjust the initial states by going downhill in the air.  Okay.  That makes sense.  Okay, we can specify inputs and several ways. We could specify the initial States or learn them.  We could specify the initial state of some unit and then these become just hidden units.  or I could specify I mean these could be inputs essentially right that I'm so that it wouldn't make sense to have the stubby one way to  We could specify each value is the next element in the secret. So these in that case we wouldn't have wait one. We'd only have inputs. Bring that makes the most sense for bottling sequential data.  And then the targets we can set a certain Target for all the outputs at the end. Like if this is a video and I'm trying to say I'm trying to determine as the person eating or the vacuuming or they're walking whatever then the output would be something like the category.  Or I could specify the units along the way so I can train the network to do the Boogaloo by making it go through different states does it goes a lot and it's simple that just a dare signal into the Deltas as they come back, right?  and I  yeah, or we could specify the desired activity of some subset. So these are the inputs and hidden sand. These are the outputs.  So here's an example of using these things where I've the first unit stands for H Second Use sensory the third one Pharrell and these are the inputs. These are the headings and just ignore the numbers. There's some arbitrary numbers. These are the outputs.  And given an H. I'd like it to break any given Annie. I'd like to predict an L given an L. I'd like to predict another I'll give him an ally by predict to know so I'm just training this network to say. Hello. It's a lot harder than printing hello world. But anyway, so what's important about this is that all of these weights are the same all of these weights are the same all of these weights are the same.  And tell again you can see by unrolling this in time. It's using the previous state of the Hidden Lair and combining that with the input to get the new state of the Hidden Lair convening combining the previous state with the new input to get the new state Etc. And then it each time step is trying to Output some  some output Edith point and here too.  Didn't work very well.  Should be pie. I think right side. I need to set targets for these to get them to where I want them to go.  Okay.  So one good Tori problem for recurrent net would be Dead 2 Edition. You could train a feed for Network to do addition here, but you could only  It would only be able to train it to do some fixed with additions and the weights for these would be different than the from each other in and wouldn't capture obvious regularities.  So we have to decide in advance. How many digits in each number?  We the processing applied to the beginning of a long number doesn't generalized to the Press thing at the end of the long number cuz they use different weights. So this is bad, right?  So they don't generalize well.  Instead we could give a recurrent Network a column it at a time. So given this.  Give it input. That's the seven in the five up. What happened?  Play figure okay. I put it in the wrong. Anyway, given this I could have that again with it to hear and after seeing that I can put a one above the two and then I'll put a nine and then given a 3 and 1/8 output a one and then another one right? That's what we did. We train this network to this. We used either in Almond nut or Jordan that we gave it to two digit numbers and then almond called this feedback from the hidden units the context units Jordan called them the state units.  And I'm training it to learn this little program. So while not done do output, right which is my action and then this as of meaning its meaning as the lower two digit,  And if the sum of these two numbers, the first two numbers is bigger than the Radix. So like if it's bigger than 10 then output to carry and I don't care what goes here. So I'm just now putting an action saying there's a carry and then I have put a next that says give me the next column of digits.  and  if and then keep doing that.  Until I have to I'll put different things for different inputs because I might have had a carry on the previous one.  Okay, I'm sorry Jordan that can do this cuz he copy back the Carrie.  And tell her nose there was a carry so it should add one to the thing. And now I'm a Nut can learn this cuz it learn some internal representation.  Of having output a carry and then it knows to add one to the input if there is a Carey.  So this little program and it's got you know.  And I'll put things it's got an if-then. It's got a while loop is none if it comes off the end of the digits and there was a carry on the previous output. It needs to be put away and then I we actually gave it a done bit on the input when it was done.  So and what this network my do is heat C7 and one the job of the network is to write 8 and then we train it to say next.  Then we give it to 1/8. We write 0 say there's a Carrie asked for the next input. Then we give the network 3 and 4 and it's got a right now.  Ask for the next 10 quick and it gets the done is input and its output is done.  Okay, so that's how we trained it except we didn't use big numbers like this. We used to bit numbers.  And it the cool thing was a generalized time longer examples than it was trained on pesos able to add laundry numbers together than the ones in the training set.  And what we did was like almond we took the hidden unit activations.  And that but what we did instead was do PCA of them. So we reduced we took the hidden unit activities over a long sequence of ads and some ads and that and subtract, sweetest it adds and did PTA of them to look at the directions and maximum variability. So we're going to be able to look at the kind of internal states of the network as it's going through this.  And you got something that looks like this.  All of the things up here or next following a right result.  All the ones over here or next following a Carrie.  So this being over in this part of the state space of this network is how it remembers that there's a Carrie.  and then  Down here. It's it's going from  writing the sound to asking for the next one.  Okay, so you can kind of see this internal State space like this is a state. This is a state. This is a state. It's not a crime Sade has been a region of the activation space to the network.  So you can see how it might if you had a really really long sequins it might like dressed and then get something wrong and that's what happened.  We did a kind of curriculum training for this. So Creek elem training means you feed the network easier examples before you feed it harder examples. So we trained on us we found it if we trained on a large dataset it had trouble learning.  Free trade on a small Tater set. It had trouble generalizing.  So what we did was training on a small dataset and then double the size of the training set.  So we'd watch till the air went down double the size of the train set and the air would go up but not as high as it started and then it would go down and then we double the size of the training set in the Gannett would go up but not as high as it was before and so it this by doing this we're able to LEAP large training sets with many bounce.  Superman cuz, you know leap large buildings in a single bound.  size of the training set  like we would start with I don't know 512 examples and then we give it a thousand 24 and then 2048 etcetera something with me the numbers cuz it's not the width of the numbers snow.  just number of addition examples  And we also showed a difference between almond and Jordan Nets by just changing the order of two lines in the program instead of saying there's a carry and then asking for the next in foot.  We'd ask for the next input and then say there was a carry on the previous input.  You're not seeing the previous input anymore, and now about putting a next and that's what gets fed back into the alma to the Jordan at and when we tried this combined subset training we called it the air would keep going up when we doubled the size of the training set. So Jordan that's couldn't do this. They couldn't remember anything about their input. That wasn't "
+}

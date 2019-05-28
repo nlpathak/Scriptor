@@ -1,0 +1,621 @@
+{
+    "Blurbs": {
+        "And now I really know the value of the state. And I'm trying to minimize the difference between these two. And so the value of a state propagates backwards through time, but you're actually only learning one time step at a time like ripples on a pound. from the goal state and so I'm trying to minimize the difference between these two the next time I go between here and ": [
+            1832.1,
+            1868.6,
+            46
+        ],
+        "And we take some move and we get to this new state. That's so this is why I have tea and this is why I have t plus one. The value of this state since there's no real discount Factor here should be close to the value of the state. If I can move from this state and get to that state then I would want these two states that ": [
+            1734.3,
+            1761.8,
+            43
+        ],
+        "Any 202 the three is already a really big number and you're going to run out of memory very quickly trying to search a head that way. Okay, so So instead what we have to do is learn some estimate of how good the state is and you do that through experience. And once I've got that estimate, I can apply it and decide of the 200 next states. Which ": [
+            1182.2,
+            1212.6,
+            27
+        ],
+        "I didn't notice for decades, but apparently it's sexist so they had to change it to nurix. The acronym is still the same, but that's how you pronounce it now. And this year Universal Transformer Nets of come out and I'm not sure yet whether it's actually been accepted I clear but some of the reviewer said 6 which says marginally above threshold bullshit. This is a really cool paper. ": [
+            3906.7,
+            3945.1,
+            100
+        ],
+        "I get an estimate of how good it will be from there and over many many games. I could learn estimates of how good these positions are. and so and again by the state we mean whatever information is available to you right now. We talked about the Markov property which says essentially. in any situation the probability of getting to the that the next state is as Prime and ": [
+            899.4,
+            941.0,
+            19
+        ],
+        "I have values for those States, then I can take the weighted some of those values and decide how good that action is. But if I don't have this ability to look at I'm a cue values or are a better thing to use but we'll see. In fact in alphago. They learn to Value function. And again, they learn it exactly as you might imagine. They learn it from ": [
+            1276.2,
+            1309.4,
+            30
+        ],
+        "I might look at the board and say oh, it looks pretty good from here that looking at the board and deciding whether it's good or not is essentially the static evaluation function some function that tells you how good that boards looks and in. In-game playing or reinforcement learning where you're playing a game say that's would be called the value function. It's an estimate of how good this ": [
+            531.6,
+            566.0,
+            9
+        ],
+        "I'll tend to show the direction of the maximum Q value. And then I expand that and go the direction of the maximum Q value and expanded means to take that move. And you keep doing that. And you then back up by taking you basically a weighted average of how good each move is. Okay, what's this other thing here? This thing here is a an extra term. That's ": [
+            2925.0,
+            2969.9,
+            76
+        ],
+        "Is this value Network? That just is parameterize by Theta that's the weights and you've learned what the value of this position is who supervised learning based on all these places of the network with itself? Okay, so that's the first thing you how do we use these two? I mean if we have this, why do we need this? Okay, the way we're going to use this is we're ": [
+            2846.9,
+            2883.2,
+            74
+        ],
+        "Let's go is really different in that. It involves her award at the very end. There's no rewards as you go. I mean one can imagine that you can look at the board and say wow. I'm I'm surrounding his pieces that the game of Go by the way is a 19 by 19 board. So and the rules are very simple, you put down your stones and your opponent ": [
+            382.2,
+            415.4,
+            5
+        ],
+        "Like you have like a word. It's only six layers. Hello to the temperature. No networks. So the output yeah. Six steps of that and then there's a soft next. you mean like Sort of but not really cuz it only goes six steps and it's not. What? Repeat it back camera. ": [
+            4734.6,
+            4799.5,
+            122
+        ],
+        "Micro Singularity The Singularity is when are a eyes get smarter than us and then they can design themselves and get even smarter getting and smarter and this is something that's basically making itself smarter and smarter in this particular demain. It's not going to kill us because all it does is play go and it doesn't want to play go it doesn't care if it wins doesn't have any ": [
+            3647.7,
+            3679.2,
+            94
+        ],
+        "Okay. So how does it work? This is somewhat complicated. it gets even less complicated as we progress into the next version of alphago Okay, so It trains to policy networks using supervised learning based on millions of expert moves. So you give their books and recordings of games and what an expert would do in this position in this game. And so you've got all this supervised possible learning ": [
+            2564.5,
+            2600.9,
+            66
+        ],
+        "Only one way to get a 6 6 But there's two ways to get a 3/4 you can get a 3-4 or 4-3. And so you have a probability distribution over those rolls and you have to take that into account. And then from those roles there's various moves that many can make so searching ahead in Backgammon is kind of difficult, right? There's a lot of possibilities and then ": [
+            1483.9,
+            1515.5,
+            36
+        ],
+        "So I would be fighting with those reviewers if I was reviewing it, but I'm not okay. Sourek all the following. How do we represent time in connections networks? We have two approaches mapping time into space like nettalk or a mapping time into the state of the network is in recurrent Networks. And I've been telling you that it's makes more sense to make naptime into State and recurrent ": [
+            3945.1,
+            3977.8,
+            101
+        ],
+        "So I'm Max and this is Minnie. And so I have to be ready for whatever mini might do next right and then I get a choice after she moves now. It's my choice. And and then I get to choose. But then I have to be ready for whatever she does. So I have to consider all of her possible moose as well as deciding my own and so ": [
+            490.4,
+            531.6,
+            8
+        ],
+        "States became just before And the next time you ever get to the state here, you've got a new value for the state which is close to this value and you're going to make that one look even better if to win. Etc and it's so but the the thing is and any one time step I can I can train the network. just by Trying to minimize the difference ": [
+            1938.9,
+            1972.2,
+            49
+        ],
+        "States but from any particular position, there's just some states that you can get to but you've got this dice roll into exploration is built in to playing the game. And let's hit select but you have to you can't search very far ahead because you've got a dice roll and Minnie is going to get a dice roll two and there's a probability distribution over those dice roll Source. ": [
+            1446.4,
+            1483.9,
+            35
+        ],
+        "We don't need that. Meanwhile Back back at the Outhouse things are piling up. No mean while a third network is trained to predict the winner from every state. That's the value of that state for each player. And that's a supervised learning problem. Why because for every state during seen during play. You train the network to predict the eventual winner. Okay, so it's not like TV Gammon is ": [
+            2697.7,
+            2735.3,
+            70
+        ],
+        "a probability distribution for you and flip a coin or you just pick the maximum. Okay and make that move they look like they're planning. They look like they're planning ahead in chess. You can you can make a plan and think about, you know, five moves ahead or whatever a good chess player can think, you know, 12 or 15 moves ahead. These are thinking at all about what ": [
+            745.7,
+            783.1,
+            15
+        ],
+        "a rollout. Because it's going to be important for alphago. against the idea of a rollout is you start from some position some state of the board and you see the random number generator and in TD Gammon, you're just feeding the random number generator of the dice rolls. So you get different dice rolls. And you do that a gazillion times and you play roulette TV game and play ": [
+            2116.5,
+            2158.0,
+            54
+        ],
+        "a running average for the value of this move in this position. You can choose from that which move is better. And that's what led to a change in what the experts did and I had to explain this last time. It's not a big deal, but it basically changed for a particular raw. You got double fours in this position and you know, you have to imagine that these ": [
+            2229.2,
+            2261.4,
+            57
+        ],
+        "a value function to estimate how good that state is and then use the Minimax algorithm to choose and move. Okay, and we talked about backgammon and TD Gammon the cool again. This was the biggest success of reinforcement learning and neural nets for decades. And I might guess as to why this work. So well is that just playing the game? First of all Derek there's a lot of ": [
+            1404.4,
+            1446.4,
+            34
+        ],
+        "again. Just six times six times. That's it. They figure okay. I can figure out anything. I need six steps like this and the weights between these guys, even though they're the same color are not shared. So but the weights at every position are shared everything's the same weights. So each layer here, it's Computing a different function. Its refining its representation of this word until it's done it ": [
+            4437.8,
+            4479.0,
+            115
+        ],
+        "again. What we're trying to do is learn the value for this. This is an estimate of the reward to go and being in some State you want to estimate what how good that state is wet expected. Your long-term expected reward is from that state. So you can this is you can think of this as an experience where eventually you don't go to Infinity maybe go to a ": [
+            828.6,
+            865.0,
+            17
+        ],
+        "ahead is going to be better. And then the look as if it's going to trade the look at is going to say oh that's what's going to happen next. Okay, let's update the outputs of this network based on that. And then throw a kid gets even better. Starting tabula rasa our new program alphago zero achieve super human performance using 100 to 0 against the previously published Champion ": [
+            3407.0,
+            3439.8,
+            88
+        ],
+        "already. So for each episode to look at search gives better values for the policy Network. So then the search gets better and then Network gets better and the search gets better and the value outputs get better. okay, and eventually this is the rating there's ratings of go players the blue. Line the the Blu Dash line at the top is the rating of alphago Lee alphago Lee is ": [
+            3562.6,
+            3608.7,
+            92
+        ],
+        "am not going to explain everything about that right now because It's beyond the scope of this class. Right? Let's just put it that way. I think the main idea is pretty clear. What's the difference in values between successive States? And when you get to the goal State you're trying to minimize the difference between the value of that state, which you actually know and the value of the ": [
+            1909.5,
+            1938.9,
+            48
+        ],
+        "an exploration turn. Remember, I'm going to search under this place many times. And basically this other term keeps track of how frequently you've searched under that position and the more you've searched under it the smaller this gets. So it'll be four positions. You haven't searched under much and since the Q Value Plus this thing is you're waiting for how whether I'll take this or not. This gives ": [
+            2969.9,
+            3008.1,
+            77
+        ],
+        "and get all sorts of data to train in an unsupervised system. And eventually I think what we're going to end up with is some combination of reinforcement learning and and unsupervised learning and that's a lot of what's happening at Deep mind right now where they're Training Systems in an unsupervised Way by simply exploring in an environment to predict what it's going to see next. and and then ": [
+            301.7,
+            335.2,
+            3
+        ],
+        "and now there's like three versions of it and it just gets better and better. So let's let's see how that happens. All right. So just to remind you. This is the setting of gotten Asian operates hundred environment gets her reward or not. The reward again can just be zero you don't get any reward for a long time and again and go you just get the reward at ": [
+            637.4,
+            667.5,
+            12
+        ],
+        "and you do that for every movie you have From that position and that dice roll. Okay. So this gives you an estimate of which action to take is a good action because you're playing all the way to the end and your your getting you play the game all the way to the end which you can do because it's it's just running out of computer. And you get ": [
+            2188.9,
+            2229.2,
+            56
+        ],
+        "and you train it from a particular position what moves the expert would make using supervised learning He have a deep Network. That's learns pretty well. But we also have a shallow Network like a 1 hidden layer Network to learn also what the experts who do but not as well because it's a shallow Network just like a shallow person and but you can use that for roller coaster ": [
+            2600.9,
+            2632.9,
+            67
+        ],
+        "at thinking about what the outcome will be. Okay, so the results are the Beats the world champion. At least it all and it was used and use many servers with many tensor product units in them. Those are CPUs and gpus there like gpus on steroids. And then a few months later and improved version. Beat 60 players at once in online game 60 to 0. Totes it's like ": [
+            3093.3,
+            3133.8,
+            80
+        ],
+        "average those over taking that action in that state many times and I get some idea of how good taking that action in the state is okay, and what we really do though with Q learning is you have a network that takes a state and learn to mapping to the various actions. You can take in that state where the output has to do with how good this state ": [
+            1110.8,
+            1143.1,
+            25
+        ],
+        "backgammon players like have all these positions memorized cuz they've played it again zillion times themselves and their books, you know, the tell you all from this position you get double for us this what you should do. And basically using TD Gammon for rollouts changed what people did from that position? Okay, can a king? What actions will it do for the Moonlight next? Use the same network. Maybe ": [
+            2261.4,
+            2307.3,
+            58
+        ],
+        "based on the probability distribution over rolls of the dice. You have to wait each next possible state that you could get to buy that probability distribution. So it's it's a real pain in the Gazebo to to look ahead in Backgammon. And again gave you some hint as to what the rules are. So here's a 5-3 roll and you could move one piece places ahead. As long as ": [
+            1515.5,
+            1553.0,
+            37
+        ],
+        "between these two things that are initially going to be just wild guesses but Yeah, you can do things like. Experience replay, where are you store? Everything that happened and you train again many times with the same data to try and get that propagating that thing propagating backwards through to earlier States that's called experience replay. You store a whole bunch of experiences and you retrain on those a ": [
+            1972.2,
+            2012.0,
+            50
+        ],
+        "can rounds things like the sea in the cows. H e space c o w s that would be a cut sound and it can burn out to see and perceive perceive should be an ass but the context is limited by the width of the input of the network write three three things. I need their side, but if you need wide or contacts like you might need in. ": [
+            4044.4,
+            4074.9,
+            104
+        ],
+        "convolutional network, of course and it outputs a distribution over the estimated values for each moves to each place on the board at the possible move right until what you want at output for that board position is the Q value essentially if I move their this is what the estimated value of moving there is And again, it learns that from from playing itself. And then the second network. ": [
+            2808.6,
+            2846.9,
+            73
+        ],
+        "defeating alphago. And this is just about the money Carlo tree search during during learning at every step that does 1600 simplified Montego Montego Monte Carlo tree search has a kind of look had searched nose give improved estimates of which moves are good by looking ahead. So you choose an Ode to expand by the Q Value Plus this upper confidence band thing the expiration term that gets smaller ": [
+            3439.8,
+            3485.8,
+            89
+        ],
+        "emotions but it's a it's an example of a place where something is gotten superhuman by simply training itself. So in summary reinforcement learning is unlike any other machine learning approach the system learns by acting in an environment or time it improves its performance. And combining new algorithms with deep learning or pleading the systems that are much better than the best humans. Okay, so that's the end of ": [
+            3679.2,
+            3713.4,
+            95
+        ],
+        "experience that I'm in this state. I play out a game to the very end. I get a number. which is how good you know, whether I win or lose and in game playing you really don't want to Discount Factor, right either win or lose so I can basically take the average of how frequently I win have frequently. I lose and that gives me a number that says ": [
+            1309.4,
+            1343.6,
+            31
+        ],
+        "few times. Okay. So using that when I'm playing the game, I'm in some State I take all possible moves after I roll the dice and I have some estimate of the state that I get to and I can only do this. I think Jerry just looked like one I think one fly is I move and then you move I can never remember whether one Plaza move or ": [
+            2012.0,
+            2047.1,
+            51
+        ],
+        "for a long time, which is why I'm only giving this lecture now. But there's an M coder part and a decoder part and there's other bells and whistles that we don't need to talk about, but that's the figure from the paper and I was like WTF. So I'm giving you an easier version my version which is okay. Here's my feet hurt. You have this is not the ": [
+            4324.4,
+            4363.0,
+            112
+        ],
+        "for a long time. We're on a 9 by 9 board. Okay, and again you capture your opponent's pieces by surrounding them your goal is to get the most territory by the end and it's often very difficult to tell who's ahead and intermediate-level the game who plays go here. Okay to two agents. Asians are the best they have the most experience. So there are other complexities and again ": [
+            2446.3,
+            2493.5,
+            63
+        ],
+        "free. But if you have a good model, you should use it. Okay. And so we can learn the value of estate through experience after many experiences of being in a particular State and playing out the rest of the game. I can get an estimate of how much reward to expect from the state and that's really the value. That's the expected long-term return or reward from being in ": [
+            1009.7,
+            1044.8,
+            22
+        ],
+        "from that. So it's initial state is set by the the encoder Network. So it's not quite an auto associator, but you can think of this sentence into an internal State and then this guy decodes the sentence over time. Until it gets to end of sentence. Okay now. This is the figure from the paper and I could not make sense of this figure for the life of me ": [
+            4287.9,
+            4324.4,
+            111
+        ],
+        "generates EOS end of sentence then you stopped but if I need to keep going until it generates us. I just have another one of these and another one and it's like my brain is growing the longer. The sentences are Do do do do. Okay. So what is this attentional filter? That's what I'll talk about on Tuesday because it's 6:19, but it's got a kind of Gadget that ": [
+            4645.4,
+            4681.8,
+            120
+        ],
+        "goal and you get some weighted some of the reward for whatever state you were in right here. And so you can use that actually in a supervised way to try and learn what the reward is from the state following your current policy because you haven't experienced. I got to the the next state and there's no States here, but the rewards are associated with a stay and then ": [
+            865.0,
+            899.4,
+            18
+        ],
+        "goal is to learn from this board position. What's the value for of that position? What's the value for red and you can so we're learning a nested the neural net is r value estimator. And now with the computers of the day, you can basically search ahead like if I do this and he does that that's about as far as you can get but given this value function ": [
+            1661.1,
+            1694.5,
+            41
+        ],
+        "goes really fast, okay to use that one for rollouts cuz you can do a lot of rollouts with the shell in network. And the the second one is used to train another Network by playing at self many times using policy Gray. So after the supervisors training the Deep policy network is improved by playing itself many many times and usually it plays a slightly actually older version of ": [
+            2632.9,
+            2670.8,
+            68
+        ],
+        "going to during actual play. We're going to take the current board position and do a whole bunch of roll out. Use this task to make the value of where you get to and and then back up those values. So it's called Monte Carlo tree search. You've got a particular position. You expand that position by taking a particular move based on the Q value of that move. So ": [
+            2883.2,
+            2925.0,
+            75
+        ],
+        "have programming assignments in 150 that can search through the state space and again Checkers for example, anybody play checkers or Noah Checkers is or chess. Okay, you've got You've got a branch of higher branching factor in the the bad thing is that you know, I have this my choice of what state to get to next. But I don't have a choice of where my opponent moose next. ": [
+            450.3,
+            490.4,
+            7
+        ],
+        "hear this will have a better estimate. So this estimate will get better and it keeps going like that. That's the temporal difference. Learning rule until the the kind of base case of this recursion is when the end of the game is reached and we actually know the value of the final state. You're doing backdrop all the time. This is backprop. There's a gradient here and and I ": [
+            1868.6,
+            1909.5,
+            47
+        ],
+        "how good that state is assuming I started from the same state many times. Okay, we talked about the Minimax algorithm now and in so the Minimax algorithm you have some terminal States and you look at what many would want to do. She wants to hold you to a three there at 2 there and it to hear it because she's trying to minimize your value function and then ": [
+            1343.6,
+            1376.0,
+            32
+        ],
+        "input and I'm crossing over some details. In fact, it has an attentional Network just for its own output as well and this connects to everybody so you get the whole previous. stuff you've generated and you're done. can and notice there's more of these than there are these because there's four words out three words in and then I left I haven't refined these slides much yet, but Wanted ": [
+            4605.2,
+            4645.4,
+            119
+        ],
+        "is shared weights at every location. So the network is the same at every location. If it's a 10-word sentence, we have ten Network's if it's a five-word sentence we have five Network. But we allow them to interact and focus on relevant other parts of the sentence. So we use attention for each word as its processing it it can decide to attend other words in the sentence as ": [
+            4150.7,
+            4182.9,
+            107
+        ],
+        "is the Q value of the state. Okay. All right. And yeah, I'm going to skip over this. We talked about State space search and we talked about game tree search and basically. The problem is that because you can't look ahead. It's just impossible. If you have a branching factor of 200. You've got two hundred possibilities x 200 for the next possibilities * 200 * next possibility cm200. ": [
+            1143.1,
+            1181.7,
+            26
+        ],
+        "it learns to act in that environment that its own actions like changing its Viewpoint. It's able to predict what it's going to see next and so some combination of these techniques is probably the wave of the future. Okay. so Anyway, that's just a little aside. And the thing to say here is that we pointed out last time that Atari games you can get points on a lawn. ": [
+            335.2,
+            382.2,
+            4
+        ],
+        "it learns to use to select information from her particular input. I would remind you now that I am going to nurix next week and I'll be lecturing remotely through Skype or Google Hangout connection and anmol here will be Handling things from this side. It'll be 8 p.m. Montreal time. So the conference should not be doing much at Tuesday at 8 p.m. I hope so. See you then. ": [
+            4681.8,
+            4728.4,
+            121
+        ],
+        "it pays attention to these things that can select what it's going to pay attention to while it's encoding this word. And so they're all connected to one another and then once it's gotten it's attended to whatever it wants to tend to its got another layer just a single layer of weights with Riolu. To come up with a new representation. And then that's just repeated over and over ": [
+            4402.9,
+            4437.8,
+            114
+        ],
+        "it to improve itself during training and that's called policy Improvement. And it uses resnet with batch normalization. And woohoo, you get another nature paper. And the first alphago is a nature paper to Nature is like the Rolling Stone of science. This is the place you want to get your paper. If you can't have one nature paper for many many moons ago modeling the local bending reflexive the ": [
+            3293.3,
+            3332.2,
+            85
+        ],
+        "it was assumed I would not be cracked for another 10 years. Okay, so the history of the so far as it went against an expert player 5 Games to 0 and fall of 2015. This was a big event. That was a French highly-ranked go player and they kept refining the the system in the spring of 2016 at 1 for games to one against Lisa Dahl is one ": [
+            2493.5,
+            2530.2,
+            64
+        ],
+        "it's going and in particular it's going to pay attention to the hidden unit representation at that stage four other guys in the networks. So transport why all the fuss 850 citations I looked at Google Scholar today. But I can say 850 citations in one year and then next year when I give the stock. I don't have to change anything. And I'm going to talk about how they ": [
+            4182.9,
+            4217.9,
+            108
+        ],
+        "itself till the end of the game. And now I got did I win or lose from that position and you can try what what if I do this move from this position roll out a gazillion times from there and decide what was that a good move or bad move? And if I try this move instead do rollouts from there decide. An average goodness of that particular move ": [
+            2158.0,
+            2188.9,
+            55
+        ],
+        "itself. That isn't as good but they're it's like playing tennis. You don't want to play tennis with somebody is really good to you lightly. You should play tennis with somebody who's about as good as you could send you a bill get to hit the ball back more and you'll get better. So the two networks are roughly evenly matched and policy gradient is used to update the network. ": [
+            2670.8,
+            2694.8,
+            69
+        ],
+        "keeps an estimated to Value. This is the average this the number of times. I've been in that state and taking that action and when I played all the way to the end with down some level what the value of that state is. And I some all those up over every play or every search and use that to update the Q value. So I I told you that ": [
+            3527.0,
+            3562.6,
+            91
+        ],
+        "knowledge. It learned only by self play. and the key ideas that are different from the original alphago is you have one network with two outputs one output is the Q values for each position. And the other output is the value. So by these two kinds of training the network is learning representations that are good for both. And it's doesn't use Monte Carlo tree search during play. It ": [
+            3220.8,
+            3259.9,
+            83
+        ],
+        "leach for the back prop neck. true story Scouts Honor long-standing goal of AI is an algorithm that learns tabula rasa that it means from a blank slate superhuman for fish in the proficiency and challenging demands. Alphago became the first program to defeat a world champion the tree search and alphago evaluated positions and selected moves using deep neural networks. They were trained by supervised learning from Human expert ": [
+            3332.2,
+            3373.1,
+            86
+        ],
+        "machine translation for example So this works for simple problems, but it doesn't work. So well for our trailer lights items learning doesn't transfer between locations. There's no inherent similarity between and the first position and and the second position, but we could use shared weight. So it's my ex-wife used to make me say when I was wrong. I was wrong wrong wrong. That's why she's my ex-wife. But ": [
+            4075.9,
+            4117.1,
+            105
+        ],
+        "me a it forces me to explore more. Okay, and that's upper confidence bound? Okay. So the tree is expanded. fire roll out of the fast policy Network to the end of the game I get scores. Those are averaged and fed back and I get a new estimate of how good this position is. And then this process can be continued for possible. Next moves by the human while ": [
+            3008.1,
+            3058.5,
+            78
+        ],
+        "mousse and by reinforcement learning from South play Here We introduced and algorithm based solely on reinforcement learning without human data guidance or domain knowledge Beyond game rules. Alphago becomes its own teacher and neural network is trained to predict alphago Zone move selections and also the winner of the games. Chef's the value Network It improves the strength of the tree search. So as it gets better. The look ": [
+            3373.1,
+            3407.0,
+            87
+        ],
+        "network like Alphago, there is no dice roll in in go. So you use the outputs and like you guys are doing sample from the distribution based on the goodness of the different moves and that gives you different outcomes using the same network from the same position. Okay. So you got kind of probability distribution over. The next moves and use that you sample you sample, you sample, you ": [
+            2343.1,
+            2385.8,
+            60
+        ],
+        "network produces the input for the next stage. Okay, so why six who knows? It's a matter parameter. You just pick something. And then the decoder takes the top of this guy. And so this is the top. This is the sixth stage of the encoder and now it's got essentially the same architecture in intentional filter. Plus it feed for Network 6 times. And at the top and outputs ": [
+            4521.1,
+            4560.3,
+            117
+        ],
+        "networks than mapping time into space. Why have I told you that? Well because you might remember this slide if I have John likes a banana as a sentence in for buffers two sentences and John likes a banana and buffers. I like a banana but I like a banana in my hand too. So what about longer sentences? You need more Network retrain for longer sentences, right and not ": [
+            3977.8,
+            4016.3,
+            102
+        ],
+        "of the he's a Korean one of the best players in the world over the last 10 years. It made one kind of stupid mistake in this game. And it was it was obvious to the people watching the game and do something about it. It was a mistake when it made it. Okay, so and that's why I lost one game. But it wouldn't make that same mistake now. ": [
+            2530.2,
+            2562.6,
+            65
+        ],
+        "of those next States. So again in the grid World example, if I go this way, I have an 80% chance of actually going this way and I have a 10% chance of going there in a 10% chance of going there. So I have a probability distribution over the next States if I take that action because it's Point One X whatever happens if I go there and if ": [
+            1249.7,
+            1276.2,
+            29
+        ],
+        "okie dokie Let's get started. So. I was just reviewing few the sides that we presented last time and then go on from there and talk about alphago. so last time I had a reduced rate at the notion of reinforcement learning and its application to playing Atari games and the main difference with reinforcement learning is that there's an agent acting in an environment and he only receives or ": [
+            169.6,
+            221.3,
+            0
+        ],
+        "older versions. Is it were yeah. Yeah. I have somebody win right and and win decisively and then it's it's like learning. Oh this is that much better than I'm waving my hands. I'll just leave it there. Yeah, probably. So we're only training one of them. makes sense Okay, that's it. You're all totally amazed. And so reinforcement learning is totally cool. And I think that reinforcement learning. Is ": [
+            3766.3,
+            3832.8,
+            97
+        ],
+        "one flies to moves, but that's called one-ply and can't really search Dad any more than that. Or he couldn't at the time with the computers of the time. And again, so it got better and better depending on how many times it played itself. So because of the dice roll, it can play itself many many times and because of the dice roll it's doing all sorts of weird ": [
+            2047.1,
+            2082.0,
+            52
+        ],
+        "one is the best one for me. Yeah. Action like the next action. I can't force it to the function because you still have to use like the next gifted look at the next States, right? Yeah, so so Usually using a value function is something you might want to do in model-based learning but where you can estimate where you going to go next and look at the value ": [
+            1212.6,
+            1249.7,
+            28
+        ],
+        "play all the way to the end and you get an answer and playing all the way to the end here means for about 400 move. So it's good to have a computer to do it for you. Okay, as the word fills up you have fewer and fewer places you can go but still the effective branching factors 250. You're going to have a big branching factor to start ": [
+            2385.8,
+            2417.2,
+            61
+        ],
+        "puts down his stones or her Stone. So you have two colors of stones white and black in the goal is to surround your opponent. Okay, and remember the last time we talked about? State space search in game tree search and the real problem Here is is the branching Factor. So we looked at the egg puzzle and the branching Factor was quite low and that allows you to ": [
+            415.4,
+            450.3,
+            6
+        ],
+        "red or blue or red or white and put so maybe 48 inputs when input might represent that there's one piece on this board or you might check it up to 2 and it means there's two white pieces on this part of the board and then so these are hand design features because it was what the 80s and so we had single hidden layer neural Nets and the ": [
+            1630.9,
+            1661.1,
+            40
+        ],
+        "robot revolutions. Okay, Transformers, not the kind in the movies. So I think I have about 20 minutes of this. I haven't quite finished it yet. But I'm going to talk about Transformer networks Witcher from last year and that's what they call them in. The attention is all you need paper, which is from Europe's 2017. It used to be called nips, but it turns out that's sexist. So ": [
+            3868.4,
+            3906.7,
+            99
+        ],
+        "roughly write 20 x 20 and that's huge and we didn't think the go would be solved for another 10 years because of that. And then it was solved two years ago essentially. So it's a it's a it's not a toy problem. There are many many levels of skill in Ingo. And now we have the best go player in the world. Is this reinforcement learning train deep Network, ": [
+            599.9,
+            637.4,
+            11
+        ],
+        "she only receives scalar or Ward's the tell it whether what it did was good or bad. So and it learns to act and its environment and then it changes that environment through its actions. So one perspective on all this is beyond the coons cake, so here's a not how God hears a birthday cake with some cherries on top. and a candle and so reinforcement learning the information ": [
+            221.3,
+            266.7,
+            1
+        ],
+        "she or he is sweating. And then when they do move, we've got some cash values for the the particular move. They did take once we move somewhere. We've searched under these things many times. So we've got an updated expectation of of the value of different moves. So that's your doing a kind of search. Remember I said these are stimulus-response. This isn't stimulus-response. You're searching ahead and looking ": [
+            3058.5,
+            3093.3,
+            79
+        ],
+        "six times and then it finally comes out with some Vector that represents the encoding of each word. So it's doing this in parallel and so training. This is really fast compared to a recurrent Network. and It's Computing. Each layer here. Again is Computing a different function in the context of the other guys. So each at each step, you've got this attention thing going on and the feed-forward ": [
+            4479.0,
+            4521.1,
+            116
+        ],
+        "some expert like playing many games walking around playing many games. Yeah. I'm sorry. I did forget some some point here. Oh, yeah, the note is evaluated in two ways. Sorry. I I didn't read this side by the value Network and by the rollout of the fast policy Network to the end of the game. The scores from these tour averaged and then propagated up the tree. Yeah, so ": [
+            3133.8,
+            3178.0,
+            81
+        ],
+        "steps ahead where I can move one of those guys five and one of those guys three, so I have a lot of the branching factors fairly large. A & B you only can plan ahead probabilistically for your opponent. Okay. So those are where the rules and the cool thing that Jerry did was he took some representation of the board so you can imagine having 24 inputs? Maybe ": [
+            1584.6,
+            1630.9,
+            39
+        ],
+        "stuff gets to all sorts of states in the more it plays itself the better it's going to get And if it's really got up to human levels when it was 1.5 million times playing itself. The other thing about 2.1 is he added some hand-crafted expert features to the input and that's what what made it really great. Okay, but I need to explain to you the idea of ": [
+            2082.0,
+            2116.5,
+            53
+        ],
+        "talk had three inputs on either side of the letter was trying to pronounce o banana the n in the fourth position. That's what you pronounce. She shifted over one you pronounce the A and the context of these other things you shifted over one that I pronounce that end in the context of these other things so it processes these letters in the context of the other letters. Soda ": [
+            4016.3,
+            4044.4,
+            103
+        ],
+        "that case. Everything you do depends on the current state, right? There's no history involved. And so when these things play they're just giving a board position. They're deciding funk. You got an output. It's a probability distribution over moves or actually it's more like a value distribution over moves because it says error this move has high value that move has low value and you could turn that into ": [
+            709.7,
+            745.7,
+            14
+        ],
+        "the more you've explored some things for this node looks doesn't look as good as you got more experience with it gets bigger the less you search under the snow to that. Then you really want to start searching under that knowed you repeat this 1600 times and you give yourself a teacher now. so propagate values. Unfortunately, this is called backpropagation totally different thing each node in the tree ": [
+            3485.8,
+            3527.0,
+            90
+        ],
+        "the network gets his like the cherries on top pretty sparse. and supervised learning is like the information it gets is like the doesn't work very well like the frosting. Unsupervised learning is the cake. So it's easy to get a whole lot of bits from unsupervised learning for example by like by doing what you guys are doing predicting the next character. You can just go on the internet ": [
+            266.7,
+            301.7,
+            2
+        ],
+        "the next reward is is our which is condition on everything that happened in the past while really the Markov property is that this is equal to that that we only care about the current state. We're in in the action we take So all you need to know is is the at any time is your current steak. So you can forget your past unlike real life. And then ": [
+            941.0,
+            974.4,
+            20
+        ],
+        "the one defeat Lisa doll. So we're not turning that one anymore. We've got a rating for that one. The red line is using supervised learning. The blue line is using is alphago zero. Headed eventually crosses the dashed line and beats alphago zero. And by the way, they tried initializing network with human expert moves and it was worse. So what's next this is what I would call him. ": [
+            3608.7,
+            3647.7,
+            93
+        ],
+        "the softmax over the words. Yeah. Yeah, that's more than one network. It's actually to the tensional filter and then a feed-forward network. and then it feeds this out put back in just like in the sets kyber Network. So it it does it produces. now in the context of the other this is repeated. So actually there's six steps up. And produces now and it takes in the previous ": [
+            4560.3,
+            4605.2,
+            118
+        ],
+        "the state. If I'm in state s over many many experiences. I'll get many many rewards and I can take an average of those and say, okay that's the value of the state. That's one way you could learn the value of a state. And then Q learning is a good model free. method because it takes his arguments the state and the action and it tells you how good ": [
+            1044.8,
+            1082.1,
+            23
+        ],
+        "the the output of the network with respect to the weights. That's what that notation means. and so you're try it that's and so then you do this again and again and again and finally I mean right now it's all smoke and mirrors, right? Cuz we really don't know what the value of the state is. It isn't until you get. To finally a board position where you've won. ": [
+            1797.7,
+            1830.2,
+            45
+        ],
+        "the value network is used in that way. I'm sorry. I forgot that point. It doesn't now you don't disses have met a parameter write. This is just how they designed the system. We can use half of this and half of that. Okay, then. last fall and I wrote this talk last fall because alphago zero is announced. So what's alphago zero zero means it doesn't use any human ": [
+            3178.0,
+            3220.8,
+            82
+        ],
+        "the very end. but you got a new state and then There's an agent in here that's doing things to change the state further that you don't have any control over. So what is the agent trying to learn against trying to learn a policy given a state? What action should I take and again, this is in the Markov Markov decision process setting where it's called an mdp in ": [
+            667.5,
+            709.7,
+            13
+        ],
+        "this board position looks for you. Okay, and your opponent? Generally, I'm trying to maximize my value in. My opponent is trying to minimize my value and that's why we call the two players Max and Mini. So that's the setting where in okay. the problem with go is with a 19 by 19 bored and you can put your piece down anywhere on it. The branching factor is 200 ": [
+            566.0,
+            599.9,
+            10
+        ],
+        "this. Lecture but we have 20 minutes left cell start on talking about attention is all you need or the Transformer Nets, but let's stop now and ask for questions. Yeah. Yeah. I assume they tried it and it worked better. But this particular one. I don't remember them saying it plays a younger version of itself. I have to go back and look at the paper again. Okay. Or ": [
+            3713.4,
+            3766.3,
+            96
+        ],
+        "to do next to the first version of alphago does have a kind of look ahead but Latest version alphago zero does not look at it all it looks ahead during learning and in that way learns a good value function for the board. Okay, so it's it's very strange because they're basically stimulus-response machines feed-forward networks in there. Not really thinking ahead. Okay, I'm going to skip over this ": [
+            783.1,
+            828.6,
+            16
+        ],
+        "train directly from the state based on what happened what the outcome was. So you learn the value of a position for each player. And so after these millions of games, you've got millions of examples and many board positions and you also can randomize the board positions. You don't want to train successive board positions because they're highly correlated with one another and you want to get as independent ": [
+            2735.3,
+            2769.8,
+            71
+        ],
+        "training as possible. Just like you don't want to train an mnist Network on all ones and then all twos you want to mix up the training so that successive trainings art art correlating so you can randomize the all these board positions in the associated value and train train this network. So we have these two networks is deep policy Network. It takes in a board position. It's a ": [
+            2769.8,
+            2808.6,
+            72
+        ],
+        "two full points. So you should appreciate that. Now write two points is a big shift in the state-of-the-art before was 2 full points less. So remember the sequence to sequence thing ever talked about you have one lstm taking in my feet hurt and then we get end of sentence and the state of this guy changes over time. And then we have a network that's going to generate ": [
+            4252.8,
+            4287.9,
+            110
+        ],
+        "uses it during training. So at any one position, it looks ahead to does roll out to figure out like how good simplified version I don't remember exactly have simplified. But if I have some estimate of how good this is but then I think it had about what's going to happen next over multiple possible possibilities. I'll get a better idea of how good this position is so uses ": [
+            3259.9,
+            3293.3,
+            84
+        ],
+        "using shared weights is right. So why was I wrong I was wrong because I was thinking of girl messes brain models and our brain. We can't like make our brain bigger for a longer sentences planes don't have feathers though. So what if we ignore the brain and we give each location its own network more Network when we need it just have another copy of a network. There ": [
+            4117.1,
+            4150.7,
+            106
+        ],
+        "very similar values on average. And so the the target is to just minimize the difference between where you were and where you got to And because it's one time step ahead. It's the temporal difference. And so the target this is the weight update is the target is the value of the next State minus the value of this state and then you're multiplying that times the gradient of ": [
+            1761.8,
+            1797.7,
+            44
+        ],
+        "we talked about model-based and model free model-based means you have some probability distribution over things in the world that if I'm in this state and I take this action, then I'm going to get to a state where you guys are really happy with my lecture say at any moment and I have but I have to forget what I just said. Okay, but most practical approaches are model ": [
+            974.4,
+            1009.7,
+            21
+        ],
+        "what eventually going to kill us because you know, it's going to act out into the world. We weaponize them, you know a driverless cars. There's a book of short stories called robot revolutions and many of them involve smart cars. Just attacking any humans. They see. one of them involves a Roomba getting out and Yak with a virus and It's a whole bunch of different authors. It's called ": [
+            3832.8,
+            3868.4,
+            98
+        ],
+        "what the value of being in that state and taking that action is and again, this is something that you can learn over many many experiences. I'm in the state. I have some possibility of various actions. I try out a bunch of actions and now I see what happens when I take that action in the end. I got some feedback like I won or lost and I could ": [
+            1082.1,
+            1110.8,
+            24
+        ],
+        "whole encoder. This is just something that learns and embedding a single layer weights that learns and embedding of each word. So this isn't the big big thing yet, but I'm going to have the same network over every location in the sentence. And it's going to learn and embedding overtraining. And then there are these heads attention heads. We think of them as that have an attentional filter. So ": [
+            4363.0,
+            4402.9,
+            113
+        ],
+        "with as the board fills up. You have a smaller branching Factor on average is 250. So again, this is the ancient Chinese game of go there slightly different rules in Japan slightly different roles in Korea. But basically it's the same game. It's a 19 by 19 board novices will play on a 9 by 9 board and the best results for go players for Auto Machine go players ": [
+            2417.2,
+            2446.3,
+            62
+        ],
+        "work and then I'm going to talk about Universal Transformer networks Witcher marriage of Transformer networks and recurrence. But a different kind of recurrence and were used to so these Transformer networks are actually feed forward Networks. that process language in the way I've said and they train much faster than recurrent networks and right out of the box. They raised the blue store on English to German translation by ": [
+            4217.9,
+            4252.8,
+            109
+        ],
+        "you can decide what is the best move using Mini Maxx. And again the way it learned was similar. It was due to temporal difference learning. so temporal difference learning is one of the most well-known algorithms from back in the day. So I guess in this position I have some value for that state and the value is the output of the neural network. So we call it why? ": [
+            1694.5,
+            1732.7,
+            42
+        ],
+        "you can propagate that up the tree where Mini Takes the men and you take the Max and that tells you which way to go. Which ever way was the way that gave you the maximum value? Now in real life with real games, we can't go this far. So instead of a terminal node where we get some actual, you know, what's the reward for again going to use ": [
+            1376.0,
+            1404.4,
+            33
+        ],
+        "you do one look ahead or not. But you you take the the move that gets you to the next position and you keep doing that over and over again, sometimes playing, you know, playing the role of mini then print playing the role at Max then playing the role of Minnie and and off you go now backgammon has this built-in stochastic City from the dice roll. for a ": [
+            2307.3,
+            2343.1,
+            59
+        ],
+        "you land on a place that doesn't have more more than one red thing on it or you could move two things one 5 and 1/3 and that was nicely get me. I'd be safe on this point cuz I have two pieces there and and the red guy can't land there. And so that's how you move and there's lots of choices, you know, I could move this guy ": [
+            1553.0,
+            1584.6,
+            38
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_18.flac",
+    "Full Transcript": "okie dokie  Let's get started. So.  I was just reviewing few the sides that we presented last time and then go on from there and talk about alphago.  so  last time I had a reduced rate at the notion of reinforcement learning and its application to playing Atari games and the main difference with reinforcement learning is that  there's an agent acting in an environment and he only receives or she only receives scalar or Ward's the tell it whether what it did was good or bad.  So and it learns to act and its environment and then it changes that environment through its actions.  So one perspective on all this is beyond the coons cake, so  here's a  not how God hears a birthday cake with some cherries on top.  and a candle and  so reinforcement learning the information the network gets his like the cherries on top pretty sparse.  and supervised learning  is like the information it gets is like the doesn't work very well like the frosting.  Unsupervised learning is the cake.  So it's easy to get a whole lot of bits from unsupervised learning for example by like by doing what you guys are doing predicting the next character. You can just go on the internet and get all sorts of data to train in an unsupervised system. And eventually I think what we're going to end up with is some combination of reinforcement learning and and unsupervised learning and that's a lot of what's happening at Deep mind right now where they're Training Systems in an unsupervised Way by simply exploring in an environment to predict what it's going to see next.  and and then it learns to act in that environment that its own actions like  changing its Viewpoint. It's able to predict what it's going to see next and so some combination of these techniques is probably the wave of the future.  Okay.  so  Anyway, that's just a little aside.  And the thing to say here is that we pointed out last time that Atari games you can get points on a lawn. Let's go is really different in that. It involves her award at the very end. There's no rewards as you go. I mean one can imagine that you can look at the board and say wow. I'm I'm surrounding his pieces that the game of Go by the way is a 19 by 19 board.  So and the rules are very simple, you put down your stones and your opponent puts down his stones or her Stone. So you have two colors of stones white and black in the goal is to surround your opponent.  Okay, and remember the last time we talked about?  State space search in game tree search and the real problem  Here is is the branching Factor. So we looked at the egg puzzle and the branching Factor was quite low and that allows you to have programming assignments in 150 that can search through the state space and again Checkers for example, anybody play checkers or Noah Checkers is or chess. Okay, you've got  You've got a branch of higher branching factor in the the bad thing is that you know, I have this my choice of what state to get to next.  But I don't have a choice of where my opponent moose next. So I'm Max and this is Minnie.  And so I have to be ready for whatever mini might do next right and then I get a choice after she moves now. It's my choice.  And and then I get to choose.  But then I have to be ready for whatever she does. So I have to consider all of her possible moose as well as deciding my own and so I might look at the board and say oh, it looks pretty good from here that looking at the board and deciding whether it's good or not is essentially the static evaluation function some function that tells you how good that boards looks and in.  In-game playing or reinforcement learning where you're playing a game say that's would be called the value function. It's an estimate of how good this this board position looks for you.  Okay, and your opponent? Generally, I'm trying to maximize my value in. My opponent is trying to minimize my value and that's why we call the two players Max and Mini.  So that's the setting where in okay.  the problem with go  is with a 19 by 19 bored and you can put your piece down anywhere on it. The branching factor is 200 roughly write 20 x 20 and that's huge and we didn't think the go would be solved for another 10 years because of that.  And then it was solved two years ago essentially. So it's a it's a it's not a toy problem. There are many many levels of skill in Ingo. And now we have the best go player in the world. Is this reinforcement learning train deep Network, and now there's like three versions of it and it just gets better and better.  So let's let's see how that happens.  All right. So just to remind you. This is the setting of gotten Asian operates hundred environment gets her reward or not. The reward again can just be zero you don't get any reward for a long time and again and go you just get the reward at the very end.  but you got a new state and then  There's an agent in here that's doing things to change the state further that you don't have any control over.  So what is the agent trying to learn against trying to learn a policy given a state? What action should I take and again, this is  in the Markov Markov decision process setting where it's called an mdp in that case.  Everything you do depends on the current state, right? There's no history involved. And so when these things play they're just giving a board position. They're deciding funk. You got an output. It's a probability distribution over moves or actually it's more like a value distribution over moves because it says error this move has high value that move has low value and you could turn that into a probability distribution for you and flip a coin or you just pick the maximum.  Okay and make that move they look like they're planning. They look like they're planning ahead in chess. You can you can make a plan and think about, you know, five moves ahead or whatever a good chess player can think, you know, 12 or 15 moves ahead. These are thinking at all about what to do next to the first version of alphago does have a kind of look ahead but  Latest version alphago zero does not look at it all it looks ahead during learning and in that way learns a good value function for the board.  Okay, so it's it's very strange because they're basically stimulus-response machines feed-forward networks in there. Not really thinking ahead.  Okay, I'm going to skip over this again. What we're trying to do is learn the value for this. This is an estimate of the reward to go and being in some State you want to estimate what how good that state is wet expected. Your long-term expected reward is from that state.  So you can this is you can think of this as an experience where eventually you don't go to Infinity maybe go to a goal and you get some weighted some of the reward for whatever state you were in right here. And so you can use that actually in a supervised way to try and learn what the reward is from the state following your current policy because you haven't experienced.  I got to the the next state and there's no States here, but the rewards are associated with a stay and then I get an estimate of how good it will be from there and over many many games. I could learn estimates of how good these positions are.  and  so  and again by the state we mean whatever information is available to you right now.  We talked about the Markov property which says essentially.  in any situation the probability of getting to the that the next state is as Prime and the next reward is is our which is condition on everything that happened in the past while really  the Markov property is that this is equal to that that we only care about the current state. We're in in the action we take  So all you need to know is is the at any time is your current steak. So you can forget your past unlike real life.  And then we talked about model-based and model free model-based means you have some probability distribution over things in the world that if I'm in this state and I take this action, then I'm going to get to a state where you guys are really happy with my lecture say at any moment and I have but I have to forget what I just said.  Okay, but most practical approaches are model free.  But if you have a good model, you should use it. Okay.  And so we can learn the value of estate through experience after many experiences of being in a particular State and playing out the rest of the game. I can get an estimate of how much reward to expect from the state and that's really the value. That's the expected long-term return or reward from being in the state. If I'm in state s over many many experiences. I'll get many many rewards and I can take an average of those and say, okay that's the value of the state.  That's one way you could learn the value of a state.  And then Q learning is a good model free.  method because  it takes his arguments the state and the action and it tells you how good what the value of being in that state and taking that action is and again, this is something that you can learn over many many experiences. I'm in the state. I have some possibility of various actions. I try out a bunch of actions and now I see what happens when I take that action in the end. I got some feedback like I won or lost and I could average those over taking that action in that state many times and I get some idea of how good taking that action in the state is  okay, and what we really do though with Q learning is  you have a network that takes a state and learn to mapping to the various actions. You can take in that state where the output has to do with how good this state is the Q value of the state.  Okay.  All right.  And yeah, I'm going to skip over this.  We talked about State space search and we talked about game tree search and basically.  The problem is that because you can't look ahead. It's just impossible. If you have a branching factor of 200. You've got two hundred possibilities x 200 for the next possibilities * 200 * next possibility cm200.  Any 202 the three is already a really big number and you're going to run out of memory very quickly trying to search a head that way. Okay, so  So instead what we have to do is learn some estimate of how good the state is and you do that through experience.  And once I've got that estimate, I can apply it and decide of the 200 next states. Which one is the best one for me. Yeah.  Action like the next action. I can't force it to the function because you still have to use like the next gifted look at the next States, right? Yeah, so so  Usually using a value function is something you might want to do in model-based learning but where you can estimate where you going to go next and look at the value of those next States. So again in the grid World example, if I go this way, I have an 80% chance of actually going this way and I have a 10% chance of going there in a 10% chance of going there. So I have a probability distribution over the next States if I take that action because it's Point One X whatever happens if I go there and if I have values for those States, then I can take the weighted some of those values and decide how good that action is.  But if I don't have this ability to look at I'm a cue values or are a better thing to use but we'll see. In fact in alphago. They learn to Value function. And again, they learn it exactly as you might imagine. They learn it from experience that I'm in this state.  I play out a game to the very end. I get a number.  which is how good you know, whether I win or lose and in game playing you really don't want to Discount Factor, right either win or lose so I can basically take the  average of how frequently I win have frequently. I lose and that gives me a number that says how good that state is assuming I started from the same state many times.  Okay, we talked about the Minimax algorithm now and in so the Minimax algorithm you have some terminal States and you look at what many would want to do. She wants to hold you to a three there at 2 there and it to hear it because she's trying to minimize your value function and then you can propagate that up the tree where Mini Takes the men and you take the Max and that tells you which way to go.  Which ever way was the way that gave you the maximum value?  Now in real life with real games, we can't go this far. So instead of a terminal node where we get some actual, you know, what's the reward for again going to use a value function to estimate how good that state is and then use the Minimax algorithm to choose and move.  Okay, and we talked about backgammon and TD Gammon the cool again. This was the biggest success of reinforcement learning and neural nets for decades.  And I might guess as to why this work. So well is that just playing the game? First of all Derek there's a lot of States but from any particular position, there's just some states that you can get to but you've got this dice roll into exploration is built in to playing the game.  And let's hit select but you have to you can't search very far ahead because you've got a dice roll and Minnie is going to get a dice roll two and there's a probability distribution over those dice roll Source. Only one way to get a 6 6  But there's two ways to get a 3/4 you can get a 3-4 or 4-3. And so you have a probability distribution over those rolls and you have to take that into account. And then from those roles there's various moves that many can make so searching ahead in Backgammon is kind of difficult, right? There's a lot of possibilities and then based on the probability distribution over rolls of the dice.  You have to wait each next possible state that you could get to buy that probability distribution. So it's it's a real pain in the Gazebo to to look ahead in Backgammon.  And again gave you some hint as to what the rules are. So here's a 5-3 roll and you could move one piece places ahead. As long as you land on a place that doesn't have more more than one red thing on it or you could move two things one 5 and 1/3 and that was nicely get me. I'd be safe on this point cuz I have two pieces there and and the red guy can't land there.  And so that's how you move and there's lots of choices, you know, I could move this guy steps ahead where I can move one of those guys five and one of those guys three, so I have a lot of the branching factors fairly large.  A & B  you only can plan ahead probabilistically for your opponent.  Okay. So those are where the rules and the cool thing that Jerry did was he took some representation of the board so you can imagine having 24 inputs?  Maybe red or blue or red or white and put so maybe 48 inputs when input might represent that there's one piece on this board or you might check it up to 2 and it means there's two white pieces on this part of the board and then so these are hand design features because it was what the 80s and so we had single hidden layer neural Nets and the goal is to learn from this board position. What's the value for of that position? What's the value for red and you can so we're learning a nested the neural net is r value estimator.  And now with the computers of the day, you can basically search ahead like if I do this and he does that that's about as far as you can get but given this value function you can decide what is the best move using Mini Maxx.  And again the way it learned was similar. It was due to temporal difference learning.  so  temporal difference learning is one of the most well-known algorithms from back in the day.  So I guess in this position I have some value for that state and the value is the output of the neural network. So we call it why?  And we take some move and we get to this new state.  That's so this is why I have tea and this is why I have t plus one.  The value of this state since there's no real discount Factor here should be close to the value of the state.  If I can move from this state and get to that state then I would want these two states that very similar values on average. And so the the target is to just minimize the difference between where you were and where you got to  And because it's one time step ahead. It's the temporal difference. And so the target this is the weight update is the target is the value of the next State minus the value of this state and then you're multiplying that times the gradient of the the output of the network with respect to the weights.  That's what that notation means.  and so you're try it that's and so then you do this again and again and again and finally  I mean right now it's all smoke and mirrors, right? Cuz we really don't know what the value of the state is. It isn't until you get.  To finally a board position where you've won.  And now I really know the value of the state.  And I'm trying to minimize the difference between these two.  And so the value of a state propagates backwards through time, but you're actually only learning one time step at a time like ripples on a pound.  from the goal state  and  so I'm trying to minimize the difference between these two the next time I go between here and hear this will have a better estimate. So this estimate will get better and it keeps going like that. That's the temporal difference.  Learning rule until the the kind of base case of this recursion is when the end of the game is reached and we actually know the value of the final state.  You're doing backdrop all the time.  This is backprop.  There's a gradient here and  and I am not going to explain everything about that right now because  It's beyond the scope of this class. Right? Let's just put it that way. I think the main idea is pretty clear. What's the difference in values between successive States? And when you get to the goal State you're trying to minimize the difference between the value of that state, which you actually know and the value of the States became just before  And the next time you ever get to the state here, you've got a new value for the state which is close to this value and you're going to make that one look even better if to win.  Etc and it's so but  the the thing is  and any one time step I can I can train the network.  just by Trying to minimize the difference between these two things that are initially going to be just  wild guesses  but  Yeah, you can do things like.  Experience replay, where are you store? Everything that happened and you train again many times with the same data to try and get that propagating that thing propagating backwards through to earlier States that's called experience replay. You store a whole bunch of experiences and you retrain on those a few times.  Okay.  So using that when I'm playing the game, I'm in some State I take all possible moves after I roll the dice and I have some estimate of the state that I get to and I can only do this. I think Jerry just looked like one I think one fly is I move and then you move I can never remember whether one Plaza move or one flies to moves, but that's called one-ply and can't really search Dad any more than that.  Or he couldn't at the time with the computers of the time.  And again, so it got better and better depending on how many times it played itself. So because of the dice roll, it can play itself many many times and because of the dice roll it's doing all sorts of weird stuff gets to all sorts of states in the more it plays itself the better it's going to get  And if it's really got up to human levels when it was 1.5 million times playing itself. The other thing about 2.1 is he added some hand-crafted expert features to the input and that's what what made it really great.  Okay, but I need to explain to you the idea of a rollout.  Because it's going to be important for alphago.  against the idea of a rollout  is you start from some position some state of the board and you see the random number generator and in TD Gammon, you're just feeding the random number generator of the dice rolls. So you get different dice rolls. And you do that a gazillion times and you play roulette TV game and play itself till the end of the game.  And now I got did I win or lose from that position and you can try what what if I do this move from this position roll out a gazillion times from there and decide what was that a good move or bad move? And if I try this move instead do rollouts from there decide. An average goodness of that particular move and you do that for every movie you have  From that position and that dice roll. Okay. So this gives you an estimate of which action to take is a good action because you're playing all the way to the end and your your  getting you play the game all the way to the end which you can do because it's it's just running out of computer.  And you get a running average for the value of this move in this position. You can choose from that which move is better.  And that's what led to a change in what the experts did and I had to explain this last time. It's not a big deal, but it basically changed for a particular raw. You got double fours in this position and you know, you have to imagine that these backgammon players like have all these positions memorized cuz they've played it again zillion times themselves and their books, you know, the tell you all from this position you get double for us this what you should do.  And basically using TD Gammon for rollouts changed what people did from that position?  Okay, can a king?  What actions will it do for the Moonlight next?  Use the same network. Maybe you do one look ahead or not. But you you take the the move that gets you to the next position and you keep doing that over and over again, sometimes playing, you know, playing the role of mini then print playing the role at Max then playing the role of Minnie and and off you go now backgammon has this built-in stochastic City from the dice roll.  for a network like  Alphago, there is no dice roll in in go. So you use the outputs and like you guys are doing sample from the distribution based on the goodness of the different moves and that gives you different outcomes using the same network from the same position.  Okay.  So you got kind of probability distribution over.  The next moves and use that you sample you sample, you sample, you play all the way to the end and you get an answer and playing all the way to the end here means for about 400 move. So it's good to have a computer to do it for you.  Okay, as the word fills up you have fewer and fewer places you can go but still the effective branching factors 250.  You're going to have a big branching factor to start with as the board fills up. You have a smaller branching Factor on average is 250.  So again, this is the ancient Chinese game of go there slightly different rules in Japan slightly different roles in Korea. But basically it's the same game. It's a 19 by 19 board novices will play on a 9 by 9 board and the best results for go players for Auto Machine go players for a long time. We're on a 9 by 9 board.  Okay, and again you capture your opponent's pieces by surrounding them your goal is to get the most territory by the end and it's often very difficult to tell who's ahead and intermediate-level the game who plays go here.  Okay to two agents.  Asians are the best they have the most experience.  So there are other complexities and again it was assumed I would not be cracked for another 10 years.  Okay, so  the history of the so far as it went against an expert player 5 Games to 0 and fall of 2015. This was a big event. That was a French highly-ranked go player and they kept refining the the system in the spring of 2016 at 1 for games to one against Lisa Dahl is one of the he's a Korean one of the best players in the world over the last 10 years.  It made one kind of stupid mistake in this game. And it was it was obvious to the people watching the game and do something about it. It was a mistake when it made it.  Okay, so and that's why I lost one game.  But it wouldn't make that same mistake now.  Okay. So how does it work? This is somewhat complicated.  it gets even less complicated as we progress into the next version of alphago Okay, so  It trains to policy networks using supervised learning based on millions of expert moves. So you give their books and recordings of games and what an expert would do in this position in this game. And so you've got all this supervised possible learning and you train it from a particular position what moves the expert would make using supervised learning  He have a deep Network. That's learns pretty well. But we also have a shallow Network like a 1 hidden layer Network to learn also what the experts who do but not as well because it's a shallow Network just like a shallow person and but you can use that for roller coaster goes really fast, okay to use that one for rollouts cuz you can do a lot of rollouts with the shell in network.  And the the second one is used to train another Network by playing at self many times using policy Gray.  So after the supervisors training the Deep policy network is improved by playing itself many many times and usually it plays a slightly actually older version of itself. That isn't as good but they're it's like playing tennis. You don't want to play tennis with somebody is really good to you lightly. You should play tennis with somebody who's about as good as you could send you a bill get to hit the ball back more and you'll get better. So the two networks are roughly evenly matched and policy gradient is used to update the network.  We don't need that.  Meanwhile Back  back at the Outhouse things are piling up. No mean while a third network is trained to predict the winner from every state. That's the value of that state for each player.  And that's a supervised learning problem. Why because for every state during seen during play.  You train the network to predict the eventual winner.  Okay, so it's not like TV Gammon is train directly from the state based on what happened what the outcome was. So you learn the value of a position for each player.  And so after these millions of games, you've got millions of examples and many board positions and you also can randomize the board positions. You don't want to train successive board positions because they're highly correlated with one another and you want to get as independent training as possible. Just like you don't want to train an mnist Network on all ones and then all twos you want to mix up the training so that  successive trainings art  art correlating so you can randomize the all these board positions in the associated value and train train this network.  So we have these two networks is deep policy Network. It takes in a board position. It's a convolutional network, of course and it outputs a distribution over the estimated values for each moves to each place on the board at the possible move right until what you want at output for that board position is the Q value essentially if I move their this is what the estimated value of moving there is  And again, it learns that from from playing itself. And then the second network. Is this value Network? That just is parameterize by Theta that's the weights and you've learned what the value of this position is who supervised learning based on all these places of the network with itself?  Okay, so that's the first thing you how do we use these two?  I mean if we have this, why do we need this?  Okay, the way we're going to use this is we're going to during actual play. We're going to take the current board position and do a whole bunch of roll out.  Use this task to make the value of where you get to and and then back up those values. So it's called Monte Carlo tree search.  You've got a particular position.  You expand that position by taking a particular move based on the Q value of that move. So I'll tend to show the direction of the maximum Q value.  And then I expand that and go the direction of the maximum Q value and expanded means to take that move.  And you keep doing that.  And you then back up by taking you basically a weighted average of how good each move is.  Okay, what's this other thing here?  This thing here is a an extra term. That's an exploration turn.  Remember, I'm going to search under this place many times.  And basically this other term keeps track of how frequently you've searched under that position and the more you've searched under it the smaller this gets.  So it'll be four positions. You haven't searched under much and since the Q Value Plus this thing is you're waiting for how whether I'll take this or not. This gives me a it forces me to explore more.  Okay, and that's upper confidence bound?  Okay.  So the tree is expanded.  fire roll out of the fast policy Network  to the end of the game I get scores.  Those are averaged and fed back and I get a new estimate of how good this position is.  And then this process can be continued for possible. Next moves by the human while she or he is sweating.  And then when they do move, we've got some cash values for the the particular move. They did take once we move somewhere. We've searched under these things many times. So we've got an updated expectation of of the value of different moves.  So that's your doing a kind of search. Remember I said these are stimulus-response. This isn't stimulus-response. You're searching ahead and looking at thinking about what the outcome will be.  Okay, so the results are the Beats the world champion.  At least it all and it was used and use many servers with many tensor product units in them. Those are CPUs and gpus there like gpus on steroids.  And then a few months later and improved version.  Beat 60 players at once in online game 60 to 0.  Totes it's like some expert like playing many games walking around playing many games. Yeah.  I'm sorry. I did forget some some point here.  Oh, yeah, the note is evaluated in two ways. Sorry. I I didn't read this side by the value Network and by the rollout of the fast policy Network to the end of the game.  The scores from these tour averaged and then propagated up the tree.  Yeah, so the value network is used in that way. I'm sorry. I forgot that point.  It doesn't now you don't disses have met a parameter write. This is just how they designed the system. We can use half of this and half of that.  Okay, then.  last fall and I wrote this talk last fall because  alphago zero is announced. So what's alphago zero zero means it doesn't use any human knowledge.  It learned only by self play.  and  the key ideas that are different from the original alphago is you have one network with two outputs one output is the Q values for each position. And the other output is the value. So by these two kinds of training the network is learning representations that are good for both.  And it's doesn't use Monte Carlo tree search during play. It uses it during training.  So at any one position, it looks ahead to does roll out to figure out like how good simplified version I don't remember exactly have simplified. But if I have some estimate of how good this is but then I think it had about what's going to happen next over multiple possible possibilities. I'll get a better idea of how good this position is so uses it to improve itself during training and that's called policy Improvement.  And it uses resnet with batch normalization.  And woohoo, you get another nature paper.  And the first alphago is a nature paper to Nature is like the Rolling Stone of science. This is the place you want to get your paper. If you can't have one nature paper for many many moons ago modeling the local bending reflexive the leach for the back prop neck.  true story Scouts Honor  long-standing goal of AI is an algorithm that learns tabula rasa that it means from a blank slate superhuman for fish in the proficiency and challenging demands.  Alphago became the first program to defeat a world champion the tree search and alphago evaluated positions and selected moves using deep neural networks. They were trained by supervised learning from Human expert mousse and by reinforcement learning from South play Here We introduced and algorithm based solely on reinforcement learning without human data guidance or domain knowledge Beyond game rules. Alphago becomes its own teacher and neural network is trained to predict alphago Zone move selections and also the winner of the games.  Chef's the value Network  It improves the strength of the tree search. So as it gets better.  The look ahead is going to be better.  And then the look as if it's going to trade the look at is going to say oh that's what's going to happen next. Okay, let's update the outputs of this network based on that.  And then throw a kid gets even better.  Starting tabula rasa our new program alphago zero achieve super human performance using 100 to 0 against the previously published Champion defeating alphago.  And this is just about the money Carlo tree search during during learning at every step that does 1600 simplified Montego Montego Monte Carlo tree search has a kind of look had searched nose give improved estimates of which moves are good by looking ahead.  So you choose an Ode to expand by the Q Value Plus this upper confidence band thing the expiration term that gets smaller the more you've explored some things for this node looks doesn't look as good as you got more experience with it gets bigger the less you search under the snow to that. Then you really want to start searching under that knowed you repeat this 1600 times and you give yourself a teacher now.  so  propagate values. Unfortunately, this is called backpropagation totally different thing each node in the tree keeps an estimated to Value. This is the average this the number of times. I've been in that state and taking that action and when I played all the way to the end with down some level what the value of that state is.  And I some all those up over every play or every search and use that to update the Q value.  So I I told you that already.  So for each episode to look at search gives better values for the policy Network.  So then the search gets better and then Network gets better and the search gets better and the value outputs get better.  okay, and eventually this is  the rating there's ratings of go players the blue.  Line the the Blu Dash line at the top is the rating of alphago Lee alphago Lee is the one defeat Lisa doll. So we're not turning that one anymore. We've got a rating for that one.  The red line is using supervised learning.  The blue line is using is alphago zero.  Headed eventually crosses the dashed line and beats alphago zero.  And by the way, they tried initializing network with human expert moves and it was worse.  So what's next this is what I would call him. Micro Singularity The Singularity is when are a eyes get smarter than us and then they can design themselves and get even smarter getting and smarter and this is something that's basically making itself smarter and smarter in this particular demain. It's not going to kill us because all it does is play go and it doesn't want to play go it doesn't care if it wins doesn't have any emotions but it's a it's an example of a place where something is gotten superhuman by simply training itself.  So in summary reinforcement learning is unlike any other machine learning approach the system learns by acting in an environment or time it improves its performance.  And combining new algorithms with deep learning or pleading the systems that are much better than the best humans. Okay, so that's the end of this.  Lecture but we have 20 minutes left cell start on talking about attention is all you need or the Transformer Nets, but let's stop now and ask for questions.  Yeah.  Yeah.  I assume they tried it and it worked better. But this particular one. I don't remember them saying it plays a younger version of itself. I have to go back and look at the paper again.  Okay.  Or older versions. Is it were yeah. Yeah. I have somebody win right and and win decisively and then it's it's like learning. Oh this is that much better than  I'm waving my hands. I'll just leave it there.  Yeah, probably.  So we're only training one of them.  makes sense  Okay, that's it.  You're all totally amazed.  And so reinforcement learning is totally cool. And I think that reinforcement learning.  Is what eventually going to kill us because you know, it's going to act out into the world. We weaponize them, you know a driverless cars.  There's a book of short stories called robot revolutions and many of them involve smart cars. Just attacking any humans. They see.  one of them involves a Roomba getting out and Yak with a virus and  It's a whole bunch of different authors. It's called robot revolutions.  Okay, Transformers, not the kind in the movies. So I think I have about 20 minutes of this. I haven't quite finished it yet. But I'm going to talk about Transformer networks Witcher from last year and that's what they call them in. The attention is all you need paper, which is from Europe's 2017. It used to be called nips, but it turns out that's sexist.  So I didn't notice for decades, but apparently it's sexist so they had to change it to nurix.  The acronym is still the same, but that's how you pronounce it now.  And this year Universal Transformer Nets of come out and I'm not sure yet whether it's actually been accepted I clear but some of the reviewer said 6 which says marginally above threshold bullshit. This is a really cool paper. So  I would be fighting with those reviewers if I was reviewing it, but I'm not okay.  Sourek all the following. How do we represent time in connections networks? We have two approaches mapping time into space like nettalk or a mapping time into the state of the network is in recurrent Networks.  And I've been telling you that it's makes more sense to make naptime into State and recurrent networks than mapping time into space. Why have I told you that?  Well because you might remember this slide if I have John likes a banana as a sentence in for buffers two sentences and John likes a banana and buffers. I like a banana but I like a banana in my hand too. So what about longer sentences? You need more Network retrain for longer sentences, right and not talk had three inputs on either side of the letter was trying to pronounce o banana the n in the fourth position. That's what you pronounce. She shifted over one you pronounce the A and the context of these other things you shifted over one that I pronounce that end in the context of these other things so it processes these letters in the context of the other letters.  Soda can rounds things like the sea in the cows.  H e space c o w s that would be a cut sound and it can burn out to see and perceive perceive should be an ass but the context is limited by the width of the input of the network write three three things. I need their side, but if you need wide or contacts like you might need in.  machine translation for example  So this works for simple problems, but it doesn't work. So well for our trailer lights items learning doesn't transfer between locations. There's no inherent similarity between and the first position and and the second position, but we could use shared weight.  So it's my ex-wife used to make me say when I was wrong. I was wrong wrong wrong. That's why she's my ex-wife.  But using shared weights is right. So why was I wrong I was wrong because I was thinking of girl messes brain models and our brain. We can't like make our brain bigger for a longer sentences planes don't have feathers though. So what if we ignore the brain and we give each location its own network more Network when we need it just have another copy of a network. There is shared weights at every location. So the network is the same at every location. If it's a 10-word sentence, we have ten Network's if it's a five-word sentence we have five Network.  But we allow them to interact and focus on relevant other parts of the sentence. So we use attention for each word as its processing it it can decide to attend other words in the sentence as it's going and in particular it's going to pay attention to the hidden unit representation at that stage four other guys in the networks.  So transport why all the fuss 850 citations I looked at Google Scholar today.  But I can say 850 citations in one year and then next year when I give the stock. I don't have to change anything.  And I'm going to talk about how they work and then I'm going to talk about Universal Transformer networks Witcher marriage of Transformer networks and recurrence.  But a different kind of recurrence and were used to so these Transformer networks are actually feed forward Networks.  that process language  in the way I've said  and they train much faster than recurrent networks and right out of the box. They raised the blue store on English to German translation by two full points. So you should appreciate that. Now write two points is a big shift in the state-of-the-art before was 2 full points less.  So remember the sequence to sequence thing ever talked about you have one lstm taking in my feet hurt and then we get end of sentence and the state of this guy changes over time. And then we have a network that's going to generate from that. So it's initial state is set by the the encoder Network. So it's not quite an auto associator, but you can think of this sentence into an internal State and then this guy decodes the sentence over time.  Until it gets to end of sentence.  Okay now.  This is the figure from the paper and I could not make sense of this figure for the life of me for a long time, which is why I'm only giving this lecture now.  But there's an M coder part and a decoder part and there's other bells and whistles that we don't need to talk about, but that's the figure from the paper and I was like WTF.  So I'm giving you an easier version my version which is okay. Here's my feet hurt.  You have this is not the whole encoder. This is just something that learns and embedding a single layer weights that learns and embedding of each word.  So this isn't the big big thing yet, but I'm going to have the same network over every location in the sentence.  And it's going to learn and embedding overtraining.  And then there are these heads attention heads. We think of them as that have an attentional filter.  So it pays attention to these things that can select what it's going to pay attention to while it's encoding this word. And so they're all connected to one another and then once it's gotten it's attended to whatever it wants to tend to its got another layer just a single layer of weights with Riolu.  To come up with a new representation.  And then that's just repeated over and over again. Just six times six times. That's it. They figure okay. I can figure out anything. I need six steps like this and  the weights between these guys, even though they're the same color are not shared. So but the weights at every position are shared everything's the same weights.  So each layer here, it's Computing a different function. Its refining its representation of this word until it's done it six times and then it finally comes out with some Vector that represents the encoding of each word. So it's doing this in parallel and so training. This is really fast compared to a recurrent Network.  and  It's Computing. Each layer here. Again is Computing a different function in the context of the other guys. So each at each step, you've got this attention thing going on and the feed-forward network produces the input for the next stage.  Okay, so why six who knows? It's a matter parameter. You just pick something.  And then the decoder takes the top of this guy.  And so this is the top. This is the sixth stage of the encoder and now it's got essentially the same architecture in intentional filter. Plus it feed for Network 6 times.  And at the top and outputs the softmax over the words. Yeah.  Yeah, that's more than one network. It's actually to the tensional filter and then a feed-forward network.  and then  it feeds  this out put back in just like in the sets kyber Network. So it it does it produces.  now  in the context of the other this is repeated. So actually there's six steps up.  And produces now and it takes in the previous input and I'm crossing over some details. In fact, it has an attentional Network just for its own output as well and this connects to everybody so you get the whole previous.  stuff you've generated  and you're done.  can and notice there's more of these than there are these because there's four words out three words in and then I left I haven't refined these slides much yet, but  Wanted generates EOS end of sentence then you stopped but if I need to keep going until it generates us. I just have another one of these and another one and it's like my brain is growing the longer. The sentences are  Do do do do.  Okay. So what is this attentional filter?  That's what I'll talk about on Tuesday because it's 6:19, but it's got a kind of Gadget that it learns to use to select information from her particular input. I would remind you now that I am going to nurix next week and I'll be lecturing remotely through Skype or Google Hangout connection and anmol here will be  Handling things from this side. It'll be 8 p.m. Montreal time. So the conference should not be doing much at Tuesday at 8 p.m. I hope so.  See you then.  Like you have like a word.  It's only six layers.  Hello to the temperature. No networks. So  the output  yeah.  Six steps of that and then there's a soft next.  you mean like  Sort of but not really cuz it only goes six steps and it's not.  What?  Repeat it back camera. "
+}

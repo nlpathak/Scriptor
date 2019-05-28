@@ -1,0 +1,571 @@
+{
+    "Blurbs": {
+        "12 by guess. And so as you go deeper into the network the part of the image that activates the neurons quote-unquote gets bigger and bigger the deeper you go. So some earlier features might represent parts and later features represent the whole And then so that's what the last point is. Okay. So translation invariance is due to spatial pooling. That means that if there's if this feature is ": [
+            591.6,
+            632.7,
+            7
+        ],
+        "21 filter. So this is filtered W 0 it's 3 by 3 by 3. It's 393 in space and it's by three for having three channels. Okay, and so if you weigh this thing over the image in different places you get different responses out here. And so here's to filters and where Computing their response at different places. Okay, so I suggest you study this okay until it make ": [
+            1946.8,
+            1990.0,
+            40
+        ],
+        "30 layers, I assume and And another thing that's interesting here. Is this is this purple line? Is he using just a sigmoid non-linearity? So batch normalization helps those networks even learn in a deep system not as well as relu, but still it's making it start to work again when it was so bad before remember. Okay, so that's the That's that's it. So that's a convolutional neural network. ": [
+            3308.1,
+            3353.1,
+            75
+        ],
+        "At different locations in the image and here it's going across two steps each time that's called a stride of two. hey, so if you want to reduce the number of Reduce the size of your network having a stride of 2 is going to make your network smaller than having a stride of one where you're going. Just one pixel at a time and Computing those so now I ": [
+            2028.2,
+            2060.9,
+            42
+        ],
+        "But this is the cs231n convolutional neural networks for visual recognition. Got some other things you might be interested in looking at. But this is the demo part. So here's three input channels. So generally have red green and blue. So each pixels actually three numbers and we call the red numbers. chat one channel, the green numbers another channel the blue numbers the third panel and so for all ": [
+            1864.6,
+            1906.2,
+            38
+        ],
+        "Expressions. It totally went to hell. And then we tried doing cavour filtering first, which actually takes the sine and cosine pair of filters. So that means it's shifted 90 degrees. So if this one responds great, but if the thing shifts over a little bit the other filter responds, you take the square and the sum of the square root of that which is the magnitude and suddenly it ": [
+            2967.1,
+            3003.0,
+            66
+        ],
+        "I had her apply Alex net to one of these things and immediately she got 62% So it's like an immediate state-of-the-art thing in that for a while. You could get your paper into cvpr by Doing that, but you can't anymore softmax over it. And Percy was pretty bad and hipsters cuz complicated. Okay, and then if you want to you can also find tunod buyback propagating into Alex ": [
+            4083.5,
+            4131.4,
+            95
+        ],
+        "I might as well just multiply all the weight matrices together and I'll get the same result with a single layer Network. The weather is nonlinear. And then you're going to compute a weighted sum of rellos and apply reloj again. And so you're going to get nonlinear responses. Yeah, it's it's nonlinear. But you're if you have a stride of one with the max pooling your you know, you're ": [
+            3797.1,
+            3850.1,
+            88
+        ],
+        "So so hang on. Okay, so filtering or convolution, you take some learned filter and you apply it all over the image. So this isn't really a learn filter the Sagamore filter, but it'll do for now. This is kind of feature. I used a lot in my early networks, but it wasn't learned. It was there's a formula for this is basically a sine wave where it's bright dark ": [
+            1663.0,
+            1697.5,
+            33
+        ],
+        "So there's usually there's the image. There's some learned features. non-linearity pooling and that gives rise to a feature map and then rinse and repeat and do the same thing over and over again, so yocan evolve the input with these features you apply a nonlinear Eddy pool and it's supervised so that your training by backpropagation of classification are I'm so we're going to go over each each of ": [
+            1553.4,
+            1591.6,
+            30
+        ],
+        "So this is applying the non-linearity this feature map and you all the black stuff goes away and you basically just get the white stuff. Seems like it would be a good idea to go the other way, too. I don't know if anybody has done that but I mean you could have something it just response to the negative part 2. And then there are a lot of other ": [
+            2726.5,
+            2758.9,
+            60
+        ],
+        "The midterm should be graded by. Next class. I hope it's not graded yet. Anybody wants to go over anything. I guess we could but I kind of want to get on with convolutional networks. So hopefully you can pick this up in office hours why the answers are the way they are. Try that again. Okay. The last time we started before the midterm anyway a week ago, we ": [
+            322.8,
+            366.6,
+            0
+        ],
+        "The pre-processing here. So first of all It doesn't make sense here. 2 two for example do PCA on the images, right? Because you're actually taking into the spatial Arrangement into account. So you wouldn't do PCA on this. And it's not it's not very feasible to do these scoring on a 1.2 million image dataset. So typically what they do is just subtract off the mean of all the ": [
+            1170.3,
+            1213.8,
+            21
+        ],
+        "We have a lot of repeated things where we're learning features here. We've learned 6, then we're doing the cooling to reduce the size of this now this layer up is looking at a bigger patch and it's generally looking all the way through all of these again. So this is a rectangular solid of Weights going through there and here is got 16 feature Maps What your features are ": [
+            3353.1,
+            3381.5,
+            76
+        ],
+        "a cock. And then there's a lot of variation in texture between the categories and how color distinctive different categories are so generally natural objects can be 10 to be able to be recognized partly by their color on the other hand things like those guys over there or I'll different colors. So they don't they're not categorize evolve. I color some things have non distinct shapes like pieces of ": [
+            856.5,
+            895.5,
+            14
+        ],
+        "a it's a method of sampling right? I've got four numbers and I'm going to come out with one. I could have other ways of sampling that like I could turn those four numbers into probabilities Say by dividing by the sum of them and then throw a coin and pick the guy that comes up with a half happens to come up first which will tend to be the ": [
+            3926.3,
+            3953.7,
+            91
+        ],
+        "a jigsaw puzzle, but Bells tend to have the same shape all around the world. And real word world size varies a lot. Okay, and then there's a lot of within category variant. So all of these are Scottish deerhounds and somehow I forgot to put that back in here. And so why deep learning so these are the standard computer vision approaches in 2012, and they're the height of ": [
+            895.5,
+            934.8,
+            15
+        ],
+        "a pretty shallow Network and the cool thing about this is there's practically no pre-processing or very little So again, this is I think where we ended up last time. I just showing what these networks are capable of and This is pretty amazing. I think and this is you know. Pretty old at this point, I think. Probably better at this now. Here's some examples from clarify. I used ": [
+            1258.1,
+            1307.7,
+            23
+        ],
+        "all over the place in this particular network has six different. features that it's using and so that replication across images reflects the stationary statistics thing and then spatial pooling means that will take a patchy here and take said to buy to patch here and take the maximum of it and that corresponds to like an 11 a 12 x 12 patch here and we're 12 by 12 by ": [
+            554.2,
+            591.6,
+            6
+        ],
+        "all responses to different images by the same guy. So those 3 by 3 patch. is a kind of computed what am I looking at things from the image and This one seems to like piano keys. This one seems to like detergent. That one seems to like Windows. So you can get the same response from a lot of different inputs. And this is kind of demonstrating that so ": [
+            3110.5,
+            3150.9,
+            70
+        ],
+        "all that were these are multiplying times everything here. Okay. So these are patterns. It's looking for in the game still like diagonal edges. So it's all ones here and negative here. Maybe it should have been negative there to get like a bright dark patch notice if it's all bright, then we're going to get like a 5-3 so it's not going to respond as well. It'll respond best ": [
+            2406.9,
+            2443.9,
+            51
+        ],
+        "all those other. things so there's lots of hyperparameters or Mentor parameters. You can choose those by using cross-validation, but that's going to be expensive you could do a grid search. So I'm going to have like, okay one layer two layers three layers for layers one feature map to feature map 3 future maps and now I've got done doing a grid search. Okay, that's stupid. It's better to ": [
+            3577.4,
+            3613.0,
+            82
+        ],
+        "all worked again, so, We got a little bit of translation invariance cuz a real image quality morphe you basically put a bunch of points on the face and then you triangulate all those points and if you've got a triangle here and a different triangle over there, you're rotating the one into that position as you go across the more so you're actually moving things under the network as ": [
+            3003.0,
+            3034.1,
+            67
+        ],
+        "and he on the kuna introduced these convolutional networks in the late 80s. And so they start with small local receptive Fields meaning that this year in here only gets weights from saying 11 by 11 patch their pixels. And so they have locality. But on the other hand. We replicate the same weights for this unit across the whole network. Sorry across the whole input. So in fact if ": [
+            481.8,
+            524.0,
+            4
+        ],
+        "and this is kind of yeah. Could a person for the college? You keep the number of parameters small? So actually this let's see I think Google and that actually has fewer parameters than Alex net which you can do by carefully designing the size of your receptive fields. so stack of 2 3 by 3 convolutions has fewer parameters than one 7 x 7 layer. So, you know, if ": [
+            1028.2,
+            1073.7,
+            18
+        ],
+        "basically Computing the same feature all over the place. And then you're if you send Max pool at you're just kind of doing a shrinking operation and applying relu again to that and it's it's fairly. No, wait, I got confused there for a moment if I do ralu. reloj of reloj Then I got more nonlinearities in my features than if I do relu Max bowling reloj Max bowling ": [
+            3850.1,
+            3889.3,
+            89
+        ],
+        "be pretty complicated. And this was trained with that 1.2 million images. And they're happy. They won the image that challenge and there's Alex for Alex net. Okay. So this is some of the things the categories of imagenet lens cap. That's probably poorly labeled. It should have been reflex camera. This is correct for Abacus and slug but in the next categories make sense. It's either a hen or ": [
+            812.7,
+            856.5,
+            13
+        ],
+        "because it each time Step at each layer of I'm just taking the max to the previous guys. And that's the max of a linear operation. I'm applying another when your operation and applying relevant to that. I should come up with an example of this to make more sense. I'm sorry. I will try to do that for next time. Okay, and then Max pulling is like his it's ": [
+            3889.3,
+            3926.3,
+            90
+        ],
+        "choices like 10 HR sigmoid for Provo. So this is parameterised relu or leaky relu and instead of going flat here. We know from what we read in tricks of the trade it be good to have some negative output stew in this one takes that into account and you can learn this AA which is the slope of this guy through backpropagation gradient descent again, So that's called Pro ": [
+            2758.9,
+            2795.4,
+            61
+        ],
+        "connected weights that are harder to interpret Okay. So any questions on this so far we're going to be talking a lot more about these. And these were good for some problems early on but they had trouble with data sets with full images like Celtic 101 or 256. They were finer things like this where there's only 10 categories and some road signs. But when the number of categories ": [
+            734.5,
+            773.4,
+            11
+        ],
+        "convolution of an image with one of these features gives rise to the image response that feature all over the image and then the next layer up would take could do Max pooling like take something 4 by 4 patch here and just return the maximum response. Okay. So it's local and that each. Unit looks at a local window, you know of this size static statistics means the same ": [
+            1776.2,
+            1817.4,
+            36
+        ],
+        "do a random search and randomly select places on this grid and where to find then is some directions don't seem to matter much and other directions to Mater and so you can focus in very quickly on the things that matter. So there are some best practices with stride zero padding like 3 by 3 features seems good stride of one seems good zero padding at 1. So, you ": [
+            3613.0,
+            3647.9,
+            83
+        ],
+        "early in the brain you have little things that respond to edges in the image B12 runs all the way up to the front end of the temporal lobe where you have neurons that respond to faces in the bodies and things like that. So that part of the world that they respond to gets bigger and bigger the deeper you go into your brain. And so we talked about ": [
+            670.7,
+            703.8,
+            9
+        ],
+        "fairly easily by just taking a new set of images run them through Alex net. Chop off the the the soft Max layer and put on a new one and just learn linear combinations of those features and you can instantly get state-of-the-art results or at least you used to be able to do that. So for example Serge belongie long lamented Serge belongie had a student that collected images ": [
+            3998.8,
+            4038.1,
+            93
+        ],
+        "feature on bang plane in this just dropped 1.1% in performance Then they dropped both of those and went directly from the convolution layer to the soft next layer and dropped 50 million parameters and still only a 6% drop in performance. So that's that's not bad. Or we could remove these couple of these convolutional layers. and I dropped a million parameters and only got a 3% drop. But ": [
+            4309.7,
+            4356.3,
+            101
+        ],
+        "features computers everywhere in the average. So we assume that the statistics of the image are similar and all over and so This is what reflects those two things. Local features where pixels are highly correlated with one another and the same features computers everywhere. Okay. so so this is a demo from Stanford. So you might want to look at this page. It's obviously it's linked for my slides. ": [
+            1817.4,
+            1864.6,
+            37
+        ],
+        "features of the image and then spatial pooling and then fully connected layers to do the the heavy lifting? Okay, so that's yeah. usually do it depends on What the task is if you're doing classification, you probably want to fully connected layer to the softmax. If you're doing semantic segmentation, you might be able to get away with doing that in a fully convolutional Network meeting its convolutional all ": [
+            3381.5,
+            3424.9,
+            77
+        ],
+        "fired here in the network or it's hard over here. It will still get the same output from that little patch. Firing meaning very heavily activated. Okay, good match between the image and the weights. Okay, and so when I say receptive field I'm talking about usually the size of the part of the image that innervates at neuron and also the visual features that that neuron responds to. Until ": [
+            632.7,
+            670.7,
+            8
+        ],
+        "for example, we have these two feature responses at three by three locations in this 11 by 11 for 7 by 7 image. Right. And so now we've got two channels. There's two feature match. This is the feature map. featured one filter one in the upper one is filter 0 Okay, and now we're going to apply non-linearity to those like relu and maybe some pooling. These are kind ": [
+            2091.7,
+            2128.7,
+            44
+        ],
+        "for this these two data sets for me with words that teachers. Actually we're better in the shower part of the network. Okay. So this is I have to update the slide because this is based on Rob fergus's tutorial where he only had two principles. I have four. I got more principles. So pixels pixels to the small receptive fields are our what respect that that we're going to ": [
+            4551.6,
+            4595.8,
+            107
+        ],
+        "have this these three guys are going to return three numbers you add those up and that gives the number in you know, in each one of these locations. So this is again for his friends to one unit one feature, even though it's got these three things because it's got three channels. And we're going to repeat that same idea later layers where we're going to have. These here, ": [
+            2060.9,
+            2091.7,
+            43
+        ],
+        "if he is a pre-trained network seen millions of images really good features, then you can often get away with applying it to something as a lot fewer examples cuz you're just learning the output weights. And so this is A support Vector machine applied to a and again, it's just really a fancy perceptron to the first layer to the second layer Etc and the paper. Hugo I generally ": [
+            4470.5,
+            4506.5,
+            105
+        ],
+        "if it's either 0 and this is weird right? It's showing 0 1 and 2 as your pixel values again, we would like to make them negative and positive. And yeah, I can interpret those other ones, but I can interpret that one. I guess it's going to compute some features and generally. What you find early in the network is that it it will compute features kind of like ": [
+            2443.9,
+            2480.6,
+            52
+        ],
+        "if we make it even shower with just two convolutional or three convolutional layers, and we got a 33% drop in performance. So it seems like the depth is an important feature. Yeah. Well, you know if you looked at the Scottish deerhounds right there very very different images of the same breed of dog. You have to somehow transform all of those images so that they end up in ": [
+            4356.3,
+            4394.1,
+            102
+        ],
+        "if you got to to buy to patch again and you're listening to four guys down here if the features over here, you'll respond to it the same as if the features over here, so that's a little bit of translation invariance. Back in the day when we were doing facial expression recognition. When are we tried to use image quality Morse to model some human data about Moore's between ": [
+            2933.3,
+            2967.1,
+            65
+        ],
+        "image conversation and improved on pool fully connected fully connected softmax output. Okay. So what if you move one of those fully connected layers that drop 16 million parameters because actually the fully connected layers of the ones that often have the most parameters because it's all to all connections and every connection is different unlike a convolution where you have the same parameters for one feature across the whole ": [
+            4271.2,
+            4309.7,
+            100
+        ],
+        "image or that it's a holiday, but Does some things kind of travel together? Yeah. I tried to put it. I don't know. Well, that would be a good idea. I mean if you see a yellow thing up in the air and you think it's a lemon but there's a tennis racket. It's probably a tennis ball, right? So but the thing about this is it's their most likely ": [
+            1340.8,
+            1385.9,
+            25
+        ],
+        "images to at least to get positive and negative inference. I'm so I think I said this. last lecture the year before this paper came out and nips. They had a neural network that did the same task that is handwritten zip codes, but the author Ian was on that paper, but the main author his main point was how much pre-processing they had to do and then they had ": [
+            1213.8,
+            1258.1,
+            22
+        ],
+        "is convolution convolution convolution with no Max pulling in between. Why would I want to do that? So otherwise, I'm Computing these linear features, you know, the rellos pretty much linear and then cooling them. But if I have several layers of convolutions, I can compute features are features and get more nonlinear features, which is generally going to be a good idea. Again, if the whole network was linear, ": [
+            3758.1,
+            3797.1,
+            87
+        ],
+        "is the architecture parameters. How many layers how many features for layer how many how big should the convolutions be and so selecting those men are parameters that are matter parameters or things that are not learned by gradient descent. Right. So the depth of the network hasn't learned by gradient descent. And now there's a package now called hyperoptics that does some Bayesian thing to try an Optimizer Meadow ": [
+            3504.6,
+            3537.7,
+            80
+        ],
+        "is true of the brain people and you know, it's very difficult to tell what a particular monkey neuron is responding to once it's you know, fuel are sent to the visual cortex. Okay. It's not responding to me. Any more maybe I need to talk. That's what I need. I need to click on it. Okay, so then when your one and you guys are well aware of it? ": [
+            2681.0,
+            2724.7,
+            59
+        ],
+        "it were and so that Gabor filtering made our Network respond well to morphs of happy to sad or whatever instead of getting all screwed up because things were moving underneath and it was kind of linear response. So that gave it some non-linearity what this is doing. is showing I visualize visualization technique what he's doing is looking for directions of movement in the pixels that don't change the ": [
+            3034.1,
+            3071.3,
+            68
+        ],
+        "it's Denmark. You're maybe it's Copenhagen. Who knows but clearly there's boats there and it support of some sort. Here's another example just the inside of a cave and they think it's Barcelona and the street and Barcelona and Sagrada. Anybody know what Sagrada Familia is. So it's a it's a cathedral in Barcelona that was designed by Gaudi or Gotti. I don't know how you pronounce that Gaudi no ": [
+            1472.4,
+            1512.3,
+            28
+        ],
+        "know, you've always got these Edge effects. Like what do I do? I start Computing my features here or can I start comparing them here by adding zeros to the edge of the image? And so and if your convolutions don't fit the image you may get an error. So there are formulas which I meant to put in this but you can get them from the Stanford lectures of ": [
+            3647.9,
+            3678.7,
+            84
+        ],
+        "look at them of that took a long time. And you had a lot of questions about it. Are there any more? again I was looking at a 3 by 3 patch, but it was looking at a 3 by 3 patch and three planes red green and blue. So it actually had 27 weights for that. And when you go up a level again, you're going to have future ": [
+            2593.2,
+            2624.0,
+            56
+        ],
+        "lu3 precious. Okay, and then spatial pooling so people yawn Lagoon didn't use maxi used like some average pool. which would be like having a weight the same way to every guy and pulling it and The Stride again is how far to slide over each time tiling this is another approach where your stride is as big as the filter. Is it necessary to do pulling and also what? ": [
+            2795.4,
+            2844.0,
+            62
+        ],
+        "make sense? Firestone you have the bias and yeah. So this is one unit for the bias of one the suspect. This is again, just one unit. but it's it's not just taking like A gray-scale image it's it's got a cubic kind of feature map. It's in 3D because in some sense because it's got red green and blue. Okay, so there's just two units being shown here. Make ": [
+            2264.1,
+            2306.9,
+            48
+        ],
+        "maximum one. But that's that's another way of doing cooling stochastic pooling. So I'm so Alex net for example did con-con Cooling. But there's another way to do all this Andre Andre karpathy says don't be a hero so somebody else is trained all these networks, unfortunately. You know, somebody else is trained all these networks. They've learned these great features and you can often do transfer learning with them ": [
+            3953.7,
+            3998.8,
+            92
+        ],
+        "net. But really most of the time you just have to tune the output weights. So hardly any anyone Transit network from scratch anymore except you, but you're going to have to do for your programming assignment. Okay, but we're not going to make you do really really deep, so don't worry. So how important is is death? It's the deep and deep learning sealer and Fergus did an ablation ": [
+            4131.4,
+            4169.9,
+            96
+        ],
+        "of small for pooling but now we have input to the next layer up and we can you can kind of think of those is as pixels in a way right? We're going to repeat this process over and over again. Yeah, yeah. You ready down to Fairfax in your line. Anyway. Usually they're the same stride in both directions. I don't know. I was going to have I know ": [
+            2128.7,
+            2184.5,
+            45
+        ],
+        "of these for this 3 4 7 by 7 3 4 5 7 1 2 3 4 5 6 7 7 by 7 patch, there's three channels and so something responding to these Well, like have three actual sets of weights, right? So 1 free Channel 1 1 4 channel 2 1 4 channel 3 it makes sense that you would want these to be learned separately, but that corresponds. ": [
+            1906.2,
+            1945.8,
+            39
+        ],
+        "of urban tribes So Urban tribes are things like hipsters people that dress alike think alike goth people go to cowboy bars things like that people going to formal dances and the job of the system was to recognize which tribe this image was and they got something like I think 37% correct with standard computer vision things as a first project for one of my grad students PhD student. ": [
+            4038.1,
+            4083.5,
+            94
+        ],
+        "on Lenny reduce of though so it's features of features of features and features and that that gives you as you get deeper into the network you get weird things like this. And then we should have we can apply batch normalization, which you guys have read about in my sides but haven't actually implemented but now you can do that with pytorch. You can just turn on foot what ": [
+            3223.0,
+            3264.6,
+            73
+        ],
+        "one side white on the other for example or white on the side black on the other and where they fit the image really well-liked here say you'd get a big response out of that feature detector. And if you ran that over an image, you've got kind of an outline of my body. And so that's called a feature map and we'll see examples of that in the moment. ": [
+            1638.7,
+            1663.0,
+            32
+        ],
+        "parameters. And I just I one of the papers are reviewed for nips. They used hundreds of tpus version 2 tensor product you to optimize their Mentor parameters. Wish I could do that. I don't have hundreds of tpus save got your matter parameters or things like the depth of the network the width of the features The Stride zero padding overall parameter account that's going to be affected by ": [
+            3537.7,
+            3577.4,
+            81
+        ],
+        "plans now, like here's maybe the features that like this angled Edge. Maybe there's one that likes this angle Edge in this angle Edge and the next layer up is going to take All of those a patch but through all of those generally. And so it again is kind of a 3D set of Weights cuz you're listening to all the different features and Computing a weighted some of ": [
+            2624.0,
+            2655.3,
+            57
+        ],
+        "relationship to the word gaudy. But his work was somewhat Gotti. So this is the Sagrada Familia. You can kind of see how you might think. These are similar. It's got these kind of towers like things in it. So Sagrada Familia is the full name of the sink and it's in Barcelona. It's it's doing things are correlated with one another. Okay, so over ooh, ooh of Khan's nuts. ": [
+            1512.3,
+            1553.4,
+            29
+        ],
+        "response of the neuron and so it's invariant response across all of these things in this movie. Okay, so you've got one filter that response to those changes? And then this is the same technique applied to another one and seems to not care where it is and its receptive field. Okay, then when you get deeper into the network you start to get more complicated features. Like these are ": [
+            3071.3,
+            3110.5,
+            69
+        ],
+        "restricted by gaussian. So it's called a wavelet but this is essentially what you're going to do. You can apply this all over the image like that. Okay, and then you get a feature map of where you got the strongest responses. So this thing tilts that way a bit so it's going to have a fairly strong response may be here where it's the building is getting narrower and ": [
+            1697.5,
+            1731.0,
+            34
+        ],
+        "reuse a pre-trained network and add a softmax for categorization or logistic units for tagging. Okay, so that's it for today. I want to read the text. Yeah. People have done things like that. And I don't know what the answer is terms of how well it does. a lot of working ": [
+            4722.8,
+            4779.7,
+            112
+        ],
+        "roughly the same region of representational space so you can cut him off with this with a linear classifier, right so that Understanding that series of Transformations gym to Carla and mighty calls it disentangling as he go deeper which is just a head wavy way of saying what it does but that that's kind of more intuitive about what it's trying to do is just disentangle those represent patient ": [
+            4394.1,
+            4432.8,
+            103
+        ],
+        "say he get some response there etcetera. Okay, so that's that then again, this is taking this. Laying it over the image Computing the inner product between the pixels and this. And that's your response. Okay. And then you can do it with a another filter. But that one. When you get a different feature map, cuz that's tilted a different way. And so for each one of these a ": [
+            1731.0,
+            1776.2,
+            35
+        ],
+        "see features and small regions. I don't want pictures from here and features from over here combined and do a feature that doesn't make much sense and the statistics of visual inputs are invariant. So you get stationary statistics until you replicate the receptive Fields across the image. the structures convolutional non-linearity pooling batch normalization and depth matter depth allows features of features and features to be learned which tend ": [
+            4595.8,
+            4632.6,
+            108
+        ],
+        "sense to you. So there's two filters again won the 3 by 3 by 3 a second one. That's also 3 by 3 by 3. There's a bias Derm. And then these are the filter responses. So we have to 3 by 3 response patterns Okay, so these again for it when you put this over that image your Computing the weighted some of that or this or this filter? ": [
+            1990.0,
+            2026.9,
+            41
+        ],
+        "sense. Yeah. It isn't why can't we just have a normal neural network connects top of the nerve on TV? Yeah, we only connect to 3 by 3 patches here. If that's what you mean. Yeah. Yeah, we're moving a lot of the ways. Forget yeah. Yeah Cedar pants basically, so does you the Americans that means like you try different things to experiment with how many features you need ": [
+            2306.9,
+            2367.0,
+            49
+        ],
+        "so that you can think of the image is the first layer in some sense, right? It's the input and that has three channels. Here were only Computing two features. So we only have two channels. But if this were mnist, first of all there only be one of these cuz it's grayscale. It's not colored images and second while there would be six features that are computed. Right, cuz ": [
+            2184.5,
+            2213.5,
+            46
+        ],
+        "so that you got all the Scottish deerhounds over in one corner of the space where you can cut them off with the Scottish deerhound unit at the output. right and then what he also did was use in svm, which is a really fancy perceptron basically and applied it to Caltech 101 in Caltech 256. And again, these are cases where there's a lot fewer training examples. And so ": [
+            4432.8,
+            4470.5,
+            104
+        ],
+        "some properties of images in the real world in order to reduce that number. and the four important properties are that near by pixels depend on nearby pixels not pixels far away from each other and the but on the other hand the Where is my thing? It's going to dinner at the other hand. The statistics of pixels doesn't very very much. There is some variability do do like ": [
+            406.4,
+            448.7,
+            2
+        ],
+        "sometimes too. and we had a paper together with people from there including my student and People kept saying the idea was too simple. And I sure got rejected from cvpr got rejected from ICC Visa finally. Came out in whack B which is a second-tier computer Vision conference and it's got 70 some citations. They already so may have been simple, but it was good. Okay. Okay, stop and ": [
+            2552.8,
+            2593.2,
+            55
+        ],
+        "started convolutional neural networks, and I'll just quickly go through what we went through last time first. So if we tried to recognize this picture with 747 45200 pixels if we had a hundred hidden units with a standard Network, we need 74520000 input to head and weights and that's just the input to Hidden weights. So that seems like a bad idea and we're going to take advantage of ": [
+            366.6,
+            406.4,
+            1
+        ],
+        "study where they took Alex net and they chopped out layers to see what happened. Another thing you can do is add some layer of the network. Do a softmax on those features and see how well you do with that. Okay, we tried to take Alex net and recognize words in her know hundreds of fonts. I think we had the 800 words of basic English and we put ": [
+            4169.9,
+            4204.7,
+            97
+        ],
+        "taking like a 4 x 2 by 2 patch over here and turning into will one by one pass, right? So we're reducing the size of this by 3/4 to down to 1/4. And then those are our output features and those are passed on to the next layer up. Okay, which is going to compute patches filters. It's going to learn filters of or features of this and compute ": [
+            3186.4,
+            3223.0,
+            72
+        ],
+        "terms of the rectangular size of it. So that seems like a nice property. And now stacking convolutions and then using Max pooling. Why would you do that? Yeah. Zero padding is adding zeros to the edge of the image so that you can start Computing your features even off the edge of the image of it. So why should I stack convolutions and then use pot Max pulling that ": [
+            3718.9,
+            3758.1,
+            86
+        ],
+        "that yet was exactly the case with the lemon and the tennis ball in the tennis racket. Yeah. collaborative filtering so no, I don't think anybody's tried that here. That I know of but I'm probably wrong. So a lot of people trying a lot of things right now. It's very hard to keep up. So I don't know how they know. It's Helsinki. Well, maybe it's Istanbul or maybe ": [
+            1427.0,
+            1472.4,
+            27
+        ],
+        "that's kind of decomposition of the of the color space. Yeah. I have no idea. I don't work for a self-driving car company. but you can you can two simple is a local start up to you simple that does self-driving trucks and one of my PhD students went to work for them another one of my current PhD students her husband started the company and she works for them ": [
+            2514.6,
+            2552.8,
+            54
+        ],
+        "that's what Ian had and Lynette 5.0. Okay. So again if you take the numbers here. Like that - 1 - 1 - 1 you must quiet time 0 0 0 0 1/2 or whatever and then take the next row down multiply that times those next her down multiply that times those some of those. And y'all get these numbers up here? I hope So yeah. so does this ": [
+            2213.5,
+            2264.1,
+            47
+        ],
+        "the Deltas and multiplying by a scalar. You take a linear system and repeat it over and over again. It's either going to blow up or it's going to shrink to zero. So there's the exploding and Vanishing gradient problem. And one way to overcome that is to have supervision at multiple places in the network. That's what Google in that did they had softmax outputs at multiple layers of ": [
+            4662.4,
+            4691.3,
+            110
+        ],
+        "the bar corresponds to the amount of error. No one came Alex net and was way better than all of them and change the face of computer vision forever. And so there is Alex not again, but since then we keep getting better and better and there's under a net that's andrej karpathy training himself to recognize imagenet categories and work better than him now. So that's so how did ": [
+            934.8,
+            978.8,
+            16
+        ],
+        "the better it gets And so this is soft next vs. Sbm4 layer 7 notice the difference is not much. So soft Max cell does pretty well and similarly with Caltech 256. It gets better and better generally the deeper you go. Okay, so that's just taking the features of some layer and feeding them into a softmax classifier. So the features get better the deeper you go. At least ": [
+            4506.5,
+            4551.6,
+            106
+        ],
+        "the network. So that the features down low. We're getting good feedback about what was useful as where these as were these and the other way to do that is Skip connections. What residual networks do is have one to one connections as he go up and that allows the gradient to pass straight down through those one to one. directions with weight one and it's often best to Simply ": [
+            4691.3,
+            4722.8,
+            111
+        ],
+        "the sky being blue in the ground tending to be brown or green. But other than that, they statistics of the world tend to be similar. Across locations in the world and the identity of an object. Doesn't depend on its location in the image that still testing Wally if they were in the middle of her over to the left and objects are made it part. So there's compositionality ": [
+            448.7,
+            481.8,
+            3
+        ],
+        "the way down. Okay. Yeah, I was not all juice. Actually. I think it was like his uncle or something and not sure. Okay, so now, you know back in the day in the battle days of computer vision. Our job was to come up with these features. Now these features are being learned. So now what we're in the ending up doing is looking at the matter parameters. That ": [
+            3458.9,
+            3504.6,
+            79
+        ],
+        "the way down. You know the reference. the Skyhawks Lee was a science lecture back in the 1800s and gave some lecture on Evolution or something like that in this woman came up and said But sir, don't you understand it? the World rides on the back of a giant turtle and he is Sky says no and and what does the turtle stand on another turtle? It's Turtles all ": [
+            3424.9,
+            3458.9,
+            78
+        ],
+        "them in the middle of the of the display and we told them a little bit and and biggen and shrinking them and and it was terrible didn't do very well. And so Alex net was not designed. It's one of the few cases. I've seen where it actually didn't work to use transfer of learning and that's because the features were not very good at recognizing words, but if ": [
+            4204.7,
+            4234.6,
+            98
+        ],
+        "there were 11 by 11 patches here. You start all of these units in this image this feature playing with the same weights. They get air back propagated to them. They all change their weights the same amount. They take the average of the propagated error weight changes and change them all to be the same. So really only have one set of 11 by 11 weights. They're just used ": [
+            524.0,
+            554.2,
+            5
+        ],
+        "these are deeper in the network you start to get parts of things in and Halls of things. Okay. Okay, so we take the pixels we filter them where this learned set of features like our features might look like that if it was just a gray-scale image. We applying online you already. We do some space shuttle local Max pooling. And that reduces the dimensionality to write his were ": [
+            3150.9,
+            3186.4,
+            71
+        ],
+        "these components in turn with. No. Tell we're not there yet, right. This is something this is something deep in the network, right? So it's not going to be soft maxed yet. It's a gives here feature map of where that feature is activated in the image. So back in the day before. There were deep convolutional neural networks people to do things like Edge detectors and sell black on ": [
+            1591.6,
+            1638.7,
+            31
+        ],
+        "these. so this is the end up looking like a bore filters a lot of them and then some of them are blobs and In your visual system you have cones that are Computing the difference between red and green blue and yellow and gray scale. And so we have kind of reddish and greenish and bluish and yellowish, but no bluish reddish. I don't see anything like that. So ": [
+            2480.6,
+            2514.6,
+            53
+        ],
+        "they do it? So Alex not at eight layers vat19 add 19 layers and Googling that had 22 layers. And again, this is Google Annette after Ian. Laocoon Google net. It was named that to honor. And then resnet in 2015 came along and that at 152 layers. And I think I may have said this before but there's rumors that North Korea has a 10000 layer net worth. Okay, ": [
+            978.8,
+            1028.2,
+            17
+        ],
+        "they think of is a layer of a batch normalization. So this is accuracy validation accuracy. So the Inception is Googling that that's it. It's called The Inception architecture cuz it's many repeated things as you go through layers. So that's the original Inception. This is batch normalization. And I think this is probably I don't know exactly what these x's mean, but I think this is batch normalization through ": [
+            3264.6,
+            3308.1,
+            74
+        ],
+        "things like that? So somewhere somehow Ian came up with 6 for his first layer. Somehow Jeff Hinton came up with 6 for his first layer coincidence. I don't think so. Joe okay. So you should all be able to look at this and figure out what it's doing. Okay, again, we're going to take all of these numbers and have them up to get one of those numbers. Okay, ": [
+            2367.0,
+            2406.9,
+            50
+        ],
+        "this. This is just showing the responses of this feature map or six different features and then spatial pulling gives you a smaller thing that they respond to its / like a half on each side and then you get some more features here with your hard to tell what they mean and then they get spatially pulled and then there's a final a couple of hidden layers with fully ": [
+            703.8,
+            734.5,
+            10
+        ],
+        "those. And that's why it's hard to interpret what they're doing. You know with the first one layer Network or two layer Network. You can look at the receptive fields of the first hidden Lair and they look like something from the image like the faces but once he get deep into one of these networks, it's really hard to tell what feature it is. They're responding to the same ": [
+            2655.3,
+            2681.0,
+            58
+        ],
+        "to be able to upload things to clarify. It doesn't work very well for me anymore. But they do tagging of images which means you have to have logistic outputs because you had can have multiple tags. So you don't want pizza competing with meal. For example, he's all are relevant and soul food dinner barbecue Market or not. All right. I don't know that there's a turkey in the ": [
+            1307.7,
+            1340.8,
+            24
+        ],
+        "to get more abstract in deeper layers of the network. Pieper networks are usually better except as long as they allow the gradient to pass backwards easily. So there's a couple of ways to get around the gradients either. So backpropagation, by the way is a linear operation. You're taking the weighted some of the Deltas and just multiplying them by a scalar and you're taking the weighted some of ": [
+            4632.6,
+            4662.4,
+            109
+        ],
+        "using all the same features and the same hidden layer and so it will naturally learn to turn on things that travel together because they're going to be coated in a similar way in the hidden Lair. So I think that's but there is some work using context to help guide classification some older work by Serge belongie here at UCSD before he crafts for Cornell Tech still sad about ": [
+            1385.9,
+            1427.0,
+            26
+        ],
+        "want. You might might hit on something that really works. Well, who knows? So here is taking the same thing and doing a Max and doing a some and you know, some is basically just going to be shrunk up version of what it was. and how big your thing is so what one of the things did pulling does is it gives you some invariants to small transformation? So ": [
+            2895.0,
+            2933.3,
+            64
+        ],
+        "way to K. Etcetera. Yeah. Amazon Mechanical Turk Right, so that's how they did. It was a project of Faye Faye leaves at Stanford the actual imagenet. Data set is is he much bigger than that? I think it has like 10 million images. I think I know that Facebook has something like 2 billion pictures of faces. And done something like that anyway, and any other questions. since Christians ": [
+            1109.9,
+            1166.1,
+            20
+        ],
+        "we went shallower in the network like his the second layer of teachers that work better in the end. We got like 90 Percent correct by just training a network from scratch on that task So reading words uses very different features than recognizing objects, which is probably why we have a visual word form area. That's separate from where you recognize objects. Okay, so This is Alex net input ": [
+            4234.6,
+            4271.2,
+            99
+        ],
+        "went up and images for more complicated and there weren't as many training examples as you needed they didn't work as well. And so then enter Alex net with eight letters and starts with 11 by 11 patches. There is Max pooling and then Heather patches and you keep getting more and more features that gets deeper into your getting features of features of features of features, and those can ": [
+            773.4,
+            812.7,
+            12
+        ],
+        "yeah, well, if you don't have the nun when you're already have a linear Network, which Max feelings another that's nonlinear. I agree. well, I guess you could do that to try that I suppose that's he's so Max pooling Without the rectified non-linearity means you might take the maximum of some negative numbers. So that would be different than having the weather there. You're welcome to try whatever you ": [
+            2846.7,
+            2895.0,
+            63
+        ],
+        "you if you do things right you can actually keep the number of parameters down and buy this one's repeating the same kind of modules over and over again, which is another kind of regularisation. I guess you could think of it as And I'm fat. The main thing is you've got 1.2 million training images so that helps a lot and regularisation. You all said you can put in ": [
+            1073.7,
+            1109.9,
+            19
+        ],
+        "you know, what how to fit your Convolutions to the image. So I mean suppose you're doing a stride of too and at the end you go off the image and there's no zero padding. You'll get an error. tell Okay, so Okay, so these these kinds of things have zero padding and a stride of one leads to an output. That's the same size as your input. Okay, in ": [
+            3678.7,
+            3718.9,
+            85
+        ]
+    },
+    "File Name": "Deep_Learning___C00___Cottrell__Garrison_W___Fall_2018-lecture_10.flac",
+    "Full Transcript": "The midterm should be graded by. Next class. I hope it's not graded yet.  Anybody wants to  go over anything. I guess we could but I kind of want to get on with convolutional networks. So hopefully you can pick this up in office hours why the answers are the way they are.  Try that again.  Okay.  The last time we started before the midterm anyway a week ago, we started convolutional neural networks, and I'll just quickly go through what we went through last time first. So if we tried to recognize this picture with 747 45200 pixels if we had a hundred hidden units with a standard Network, we need 74520000 input to head and weights and that's just the input to Hidden weights.  So that seems like a bad idea and we're going to take advantage of some properties of images in the real world in order to reduce that number.  and the four important properties are that near by pixels depend on nearby pixels not pixels far away from each other and the  but on the other hand the  Where is my thing? It's going to dinner at the other hand. The statistics of pixels doesn't very very much. There is some variability do do like the sky being blue in the ground tending to be brown or green. But other than that, they statistics of the world tend to be similar.  Across locations in the world and the identity of an object.  Doesn't depend on its location in the image that still testing Wally if they were in the middle of her over to the left and objects are made it part. So there's compositionality and he on the kuna introduced these convolutional networks in the late 80s. And so they start with small local receptive Fields meaning that this year in here only gets weights from saying 11 by 11 patch their pixels. And so they have locality.  But on the other hand.  We replicate the same weights for this unit across the whole network. Sorry across the whole input. So in fact if there were 11 by 11 patches here.  You start all of these units in this image this feature playing with the same weights. They get air back propagated to them. They all change their weights the same amount. They take the average of the propagated error weight changes and change them all to be the same. So really only have one set of 11 by 11 weights. They're just used all over the place in this particular network has six different.  features that it's using  and so that replication across images reflects the stationary statistics thing and then spatial pooling means that will take a patchy here and take said to buy to patch here and take the maximum of it and that corresponds to like an 11 a 12 x 12 patch here and we're 12 by 12 by 12 by guess. And so as you go deeper into the network the part of the image that activates the neurons quote-unquote gets bigger and bigger the deeper you go. So some earlier features might represent parts and later features represent the whole  And then so that's what the last point is.  Okay. So translation invariance is due to spatial pooling. That means that if there's if this feature is fired here in the network or it's hard over here. It will still get the same output from that little patch.  Firing meaning very heavily activated. Okay, good match between the image and the weights.  Okay, and so when I say receptive field I'm talking about usually the size of the part of the image that innervates at neuron and also the visual features that that neuron responds to.  Until early in the brain you have little things that respond to edges in the image B12 runs all the way up to the front end of the temporal lobe where you have neurons that respond to faces in the bodies and things like that. So that part of the world that they respond to gets bigger and bigger the deeper you go into your brain.  And so we talked about this. This is just showing the responses of this feature map or six different features and then spatial pulling gives you a smaller thing that they respond to its / like a half on each side and then you get some more features here with your hard to tell what they mean and then they get spatially pulled and then there's a final a couple of hidden layers with fully connected weights that are harder to interpret  Okay. So any questions on this so far we're going to be talking a lot more about these.  And these were good for some problems early on but they had trouble with data sets with full images like Celtic 101 or 256. They were finer things like this where there's only 10 categories and some road signs. But when the number of categories went up and images for more complicated and there weren't as many training examples as you needed they didn't work as well.  And so then enter Alex net with eight letters and starts with 11 by 11 patches. There is Max pooling and then  Heather patches and you keep getting more and more features that gets deeper into your getting features of features of features of features, and those can be pretty complicated.  And this was trained with that 1.2 million images.  And they're happy. They won the image that challenge and there's Alex for Alex net.  Okay. So this is some of the things the categories of imagenet lens cap. That's probably poorly labeled. It should have been reflex camera.  This is correct for Abacus and slug but in the next categories make sense. It's either a hen or a cock.  And then there's a lot of variation in texture between the categories and how color distinctive different categories are so generally natural objects can be 10 to be able to be recognized partly by their color on the other hand things like those guys over there or I'll different colors. So they don't they're not categorize evolve. I color some things have non distinct shapes like pieces of a jigsaw puzzle, but Bells tend to have the same shape all around the world.  And real word world size varies a lot. Okay, and then there's a lot of within category variant. So all of these are Scottish deerhounds  and somehow I forgot to put that back in here.  And so why deep learning so these are the standard computer vision approaches in 2012, and they're the height of the bar corresponds to the amount of error.  No one came Alex net and was way better than all of them and change the face of computer vision forever.  And so there is Alex not again, but since then we keep getting better and better and there's under a net that's andrej karpathy training himself to recognize imagenet categories and work better than him now.  So that's so how did they do it? So Alex not at eight layers vat19 add 19 layers and Googling that had 22 layers. And again, this is Google Annette after Ian. Laocoon Google net.  It was named that to honor.  And then resnet in 2015 came along and that at 152 layers.  And I think I may have said this before but there's rumors that North Korea has a 10000 layer net worth.  Okay, and this is kind of yeah.  Could a person for the college?  You keep the number of parameters small?  So actually this let's see I think Google and that actually has fewer parameters than Alex net which you can do by carefully designing the size of your receptive fields.  so  stack of 2 3 by 3  convolutions has fewer parameters than one 7 x 7 layer. So, you know, if you if you do things right you can actually keep the number of parameters down and buy this one's repeating the same kind of modules over and over again, which is another kind of regularisation. I guess you could think of it as  And I'm fat. The main thing is you've got 1.2 million training images so that helps a lot and regularisation. You all said you can put in way to K. Etcetera. Yeah.  Amazon Mechanical Turk  Right, so that's how they did. It was a project of Faye Faye leaves at Stanford the actual imagenet.  Data set is is he much bigger than that? I think it has like 10 million images. I think I know that Facebook has something like 2 billion pictures of faces.  And done something like that anyway, and any other questions.  since Christians  The pre-processing here. So first of all  It doesn't make sense here.  2  two for example do PCA on the images, right? Because you're actually taking into the spatial Arrangement into account. So you wouldn't do PCA on this.  And it's not it's not very feasible to do these scoring on a 1.2 million image dataset. So typically what they do is just subtract off the mean of all the images to at least to get positive and negative inference.  I'm so I think I said this.  last lecture  the year before this paper came out and nips.  They had a neural network that did the same task that is handwritten zip codes, but  the author Ian was on that paper, but the main author his main point was how much pre-processing they had to do and then they had a pretty shallow Network and the cool thing about this is there's practically no pre-processing or very little  So again, this is I think where we ended up last time. I just showing what these networks are capable of and  This is pretty amazing. I think and this is you know.  Pretty old at this point, I think.  Probably better at this now.  Here's some examples from clarify. I used to be able to upload things to clarify. It doesn't work very well for me anymore. But they do tagging of images which means you have to have logistic outputs because you had can have multiple tags. So you don't want pizza competing with meal. For example, he's all are relevant and soul food dinner barbecue Market or not. All right. I don't know that there's a turkey in the image or that it's a holiday, but  Does some things kind of travel together? Yeah.  I tried to put it. I don't know. Well, that would be a good idea. I mean if you see a yellow thing up in the air and you think it's a lemon but there's a tennis racket. It's probably a tennis ball, right? So but the thing about this is it's their most likely using all the same features and the same hidden layer and so it will naturally learn to turn on things that travel together because they're going to be coated in a similar way in the hidden Lair. So I think that's  but there is some work using context to help guide classification some older work by Serge belongie here at UCSD before he  crafts for Cornell Tech  still sad about that yet was exactly the case with the lemon and the tennis ball in the tennis racket. Yeah.  collaborative filtering  so  no, I don't think anybody's tried that here.  That I know of but I'm probably wrong. So a lot of people trying a lot of things right now.  It's very hard to keep up. So I don't know how they know. It's Helsinki.  Well, maybe it's Istanbul or maybe it's Denmark. You're maybe it's Copenhagen. Who knows but clearly there's boats there and it support of some sort.  Here's another example just the inside of a cave and they think it's Barcelona and the street and Barcelona and Sagrada. Anybody know what Sagrada Familia is.  So it's a it's a cathedral in Barcelona that was designed by Gaudi or Gotti. I don't know how you pronounce that Gaudi no relationship to the word gaudy. But his work was somewhat Gotti. So this is the Sagrada Familia. You can kind of see how you might think. These are similar. It's got these kind of towers like things in it. So Sagrada Familia is the full name of the sink and it's in Barcelona.  It's it's doing things are correlated with one another.  Okay, so over ooh, ooh of Khan's nuts. So there's usually there's the image.  There's some learned features.  non-linearity pooling and that gives rise to a feature map and then rinse and repeat and do the same thing over and over again, so  yocan evolve the input with these features you apply a nonlinear Eddy pool and it's supervised so that your training by backpropagation of classification are  I'm so we're going to go over each each of these components in turn with.  No.  Tell we're not there yet, right. This is something this is something deep in the network, right? So it's not going to be soft maxed yet.  It's a gives here feature map of where that feature is activated in the image.  So back in the day before.  There were deep convolutional neural networks people to do things like Edge detectors and sell black on one side white on the other for example or white on the side black on the other and where they fit the image really well-liked here say you'd get a big response out of that feature detector. And if you ran that over an image, you've got kind of an outline of my body.  And so that's called a feature map and we'll see examples of that in the moment. So  so hang on.  Okay, so filtering or convolution, you take some learned filter and you apply it all over the image. So this isn't really a learn filter the Sagamore filter, but it'll do for now. This is kind of feature. I used a lot in my early networks, but it wasn't learned. It was there's a formula for this is basically a sine wave where it's bright dark restricted by gaussian.  So it's called a wavelet but this is essentially what you're going to do. You can apply this all over the image like that.  Okay, and then you get a feature map of where you got the strongest responses. So this thing tilts that way a bit so it's going to have a fairly strong response may be here where it's the building is getting narrower and say he get some response there etcetera.  Okay, so that's that then again, this is taking this.  Laying it over the image Computing the inner product between the pixels and this.  And that's your response.  Okay.  And then you can do it with a another filter.  But that one.  When you get a different feature map, cuz that's tilted a different way.  And so for each one of these a convolution of an image with one of these features gives rise to the image response that feature all over the image and then the next layer up would take  could do Max pooling like take something 4 by 4 patch here and just return the maximum response.  Okay.  So it's local and that each.  Unit looks at a local window, you know of this size static statistics means the same features computers everywhere in the average. So we assume that the statistics of the image are similar and all over and so  This is what reflects those two things.  Local features where pixels are highly correlated with one another and the same features computers everywhere.  Okay.  so  so this is a demo from Stanford.  So you might want to look at this page. It's obviously it's linked for my slides. But this is the cs231n convolutional neural networks for visual recognition.  Got some other things you might be interested in looking at.  But this is the demo part. So here's three input channels. So generally have red green and blue. So each pixels actually three numbers and we call the red numbers.  chat one channel, the green numbers another channel the blue numbers the third panel and so for all of these for this 3 4 7 by 7 3 4 5 7 1 2 3 4 5 6 7 7 by 7 patch, there's three channels and so  something responding to these  Well, like have three actual sets of weights, right? So 1 free Channel 1 1 4 channel 2 1 4 channel 3 it makes sense that you would want these to be learned separately, but that corresponds.  21 filter. So this is filtered W 0 it's 3 by 3 by 3. It's 393 in space and it's by three for having three channels.  Okay, and so if you weigh this thing over the image in different places you get different responses out here.  And so here's to filters and where Computing their response at different places.  Okay, so I suggest you study this okay until it make sense to you. So there's two filters again won the 3 by 3 by 3 a second one. That's also 3 by 3 by 3. There's a bias Derm.  And then these are the filter responses. So we have to  3 by 3 response patterns  Okay, so these again for it when you put this over that image your Computing the weighted some of that or this or this filter?  At different locations in the image and here it's going across two steps each time that's called a stride of two.  hey, so if you want to reduce the number of  Reduce the size of your network having a stride of 2 is going to make your network smaller than having a stride of one where you're going. Just one pixel at a time and Computing those so now I have this these three guys are going to return three numbers you add those up and that gives the number in you know, in each one of these locations. So this is again for his friends to one unit one feature, even though it's got these three things because it's got three channels.  And we're going to repeat that same idea later layers where we're going to have.  These here, for example, we have these two feature responses at three by three locations in this 11 by 11 for 7 by 7 image.  Right. And so now we've got two channels. There's two feature match. This is the feature map.  featured one filter one in the upper one is filter 0  Okay, and now we're going to apply non-linearity to those like relu and maybe some pooling. These are kind of small for pooling but now we have  input to the next layer up and we can you can kind of think of those is as pixels in a way right? We're going to repeat this process over and over again.  Yeah, yeah.  You ready down to Fairfax in your line. Anyway. Usually they're the same stride in both directions.  I don't know.  I was going to have  I know so that you can think of the image is the first layer in some sense, right? It's the input and that has three channels.  Here were only Computing two features. So we only have two channels. But if this were mnist, first of all there only be one of these cuz it's grayscale. It's not colored images and second while there would be six features that are computed.  Right, cuz that's what Ian had and Lynette 5.0.  Okay. So again if you take the numbers here.  Like that - 1 - 1 - 1 you must quiet time 0 0 0 0 1/2 or whatever and then take the next row down multiply that times those next her down multiply that times those some of those.  And y'all get these numbers up here?  I hope  So yeah.  so  does this make sense?  Firestone  you have the bias and yeah.  So this is one unit for the bias of one the suspect. This is again, just one unit.  but it's it's not just taking like  A gray-scale image it's it's got a cubic kind of feature map. It's in 3D because in some sense because it's got red green and blue.  Okay, so there's just two units being shown here.  Make sense. Yeah.  It isn't why can't we just have a normal neural network connects top of the nerve on TV?  Yeah, we only connect to 3 by 3 patches here.  If that's what you mean.  Yeah.  Yeah, we're moving a lot of the ways.  Forget yeah.  Yeah Cedar pants basically, so does you the Americans that means like you try different things to experiment with how many features you need things like that? So somewhere somehow Ian came up with 6 for his first layer. Somehow Jeff Hinton came up with 6 for his first layer coincidence. I don't think so.  Joe okay.  So you should all be able to look at this and figure out what it's doing.  Okay, again, we're going to take all of these numbers and have them up to get one of those numbers.  Okay, all that were these are multiplying times everything here. Okay. So these are patterns. It's looking for in the game still like diagonal edges. So it's all ones here and negative here. Maybe it should have been negative there to get like a  bright dark patch  notice if it's all bright, then we're going to get like a 5-3 so it's not going to respond as well. It'll respond best if it's either 0 and this is weird right? It's showing 0 1 and 2 as your pixel values again, we would like to make them negative and positive.  And yeah, I can interpret those other ones, but I can interpret that one. I guess it's going to compute some features and generally.  What you find early in the network is that it it will compute features kind of like these.  so  this is the end up looking like a bore filters a lot of them and then some of them are blobs and  In your visual system you have cones that are Computing the difference between red and green blue and yellow and gray scale. And so we have kind of reddish and greenish and bluish and yellowish, but no bluish reddish. I don't see anything like that. So that's kind of decomposition of the of the color space. Yeah.  I have no idea.  I don't work for a self-driving car company.  but you can  you can two simple is a local start up to you simple that does self-driving trucks and one of my PhD students went to work for them another one of my current PhD students her husband started the company and she works for them sometimes too.  and we had a paper together with people from there including my student and  People kept saying the idea was too simple.  And I sure got rejected from cvpr got rejected from ICC Visa finally.  Came out in whack B which is a second-tier computer Vision conference and it's got 70 some citations. They already so may have been simple, but it was good.  Okay.  Okay, stop and look at them of that took a long time.  And you had a lot of questions about it. Are there any more?  again  I was looking at a 3 by 3 patch, but it was looking at a 3 by 3 patch and three planes red green and blue. So it actually had 27 weights for that. And when you go up a level again, you're going to have future plans now, like here's maybe the features that like this angled Edge. Maybe there's one that likes this angle Edge in this angle Edge and the next layer up is going to take  All of those a patch but through all of those generally.  And so it again is kind of a 3D set of Weights cuz you're listening to all the different features and Computing a weighted some of those.  And that's why it's hard to interpret what they're doing. You know with the first one layer Network or two layer Network. You can look at the receptive fields of the first hidden Lair and they look like something from the image like the faces but once he get deep into one of these networks, it's really hard to tell what feature it is. They're responding to the same is true of the brain people and you know, it's very difficult to tell what a particular monkey neuron is responding to once it's you know, fuel are sent to the visual cortex.  Okay.  It's not responding to me.  Any more maybe I need to talk. That's what I need. I need to click on it. Okay, so then when your one and you guys are well aware of it?  So this is applying the non-linearity this feature map and you all the black stuff goes away and you basically just get the white stuff.  Seems like it would be a good idea to go the other way, too. I don't know if anybody has done that but I mean you could have something it just response to the negative part 2.  And then there are a lot of other choices like 10 HR sigmoid for Provo.  So this is parameterised relu or leaky relu and instead of going flat here. We know from what we read in tricks of the trade it be good to have some negative output stew in this one takes that into account and you can learn this AA which is the slope of this guy through backpropagation gradient descent again,  So that's called Pro lu3 precious.  Okay, and then spatial pooling so people yawn Lagoon didn't use maxi used like some average pool.  which would be like having a weight the same way to every guy and pulling it and  The Stride again is how far to slide over each time tiling this is another approach where your stride is as big as the filter.  Is it necessary to do pulling and also what?  yeah, well, if you don't have the nun when you're already have a linear Network, which  Max feelings another that's nonlinear. I agree.  well, I guess you could do that to try that I suppose that's he's so  Max pooling  Without the rectified non-linearity means you might take the maximum of some negative numbers. So that would be different than having the weather there.  You're welcome to try whatever you want. You might might hit on something that really works. Well, who knows?  So here is taking the same thing and doing a Max and doing a some and you know, some is basically just going to be shrunk up version of what it was.  and how big your  thing is  so what one of the things did pulling does is it gives you some invariants to small transformation? So if you got to to buy to patch again and you're listening to four guys down here if the features over here, you'll respond to it the same as if the features over here, so that's a little bit of translation invariance.  Back in the day when we were doing facial expression recognition.  When are we tried to use image quality Morse to model some human data about Moore's between Expressions. It totally went to hell.  And then we tried doing cavour filtering first, which actually takes the sine and cosine pair of filters. So that means it's shifted 90 degrees. So if this one responds great, but if the thing shifts over a little bit the other filter responds, you take the square and the sum of the square root of that which is the magnitude and suddenly it all worked again, so,  We got a little bit of translation invariance cuz a real image quality morphe you basically put a bunch of points on the face and then you triangulate all those points and if you've got a triangle here and a different triangle over there, you're rotating the one into that position as you go across the more so you're actually moving things under the network as it were and so that Gabor filtering made our Network respond well to morphs of happy to sad or whatever instead of getting all screwed up because things were moving underneath and it was kind of linear response. So that gave it some non-linearity what this is doing.  is showing  I visualize visualization technique what he's doing is looking for directions of movement in the pixels that don't change the response of the neuron and so it's invariant response across all of these things in this movie.  Okay, so you've got one filter that response to those changes?  And then this is the same technique applied to another one and seems to not care where it is and its receptive field.  Okay, then when you get deeper into the network you start to get more complicated features. Like these are all responses to different images by the same guy. So those 3 by 3 patch.  is a kind of computed what am I looking at things from the image and  This one seems to like piano keys. This one seems to like detergent.  That one seems to like Windows.  So you can get the same response from a lot of different inputs. And this is kind of demonstrating that so these are deeper in the network you start to get parts of things in and Halls of things.  Okay.  Okay, so we take the pixels we filter them where this learned set of features like our features might look like that if it was just a gray-scale image. We applying online you already.  We do some space shuttle local Max pooling.  And that reduces the dimensionality to write his were taking like a 4 x 2 by 2 patch over here and turning into will one by one pass, right? So we're reducing the size of this by 3/4 to down to 1/4.  And then those are our output features and those are passed on to the next layer up.  Okay, which is going to compute patches filters. It's going to learn filters of or features of this and compute on Lenny reduce of though so it's features of features of features and features and that that gives you as you get deeper into the network you get weird things like this.  And then we should have we can apply batch normalization, which you guys have read about in my sides but haven't actually implemented but now you can do that with pytorch. You can just turn on foot what they think of is a layer of a batch normalization. So this is accuracy validation accuracy. So the Inception is Googling that that's it. It's called The Inception architecture cuz it's many repeated things as you go through layers. So that's the original Inception.  This is batch normalization.  And I think this is probably I don't know exactly what these x's mean, but I think this is batch normalization through 30 layers, I assume and  And another thing that's interesting here. Is this is this purple line? Is he using just a sigmoid non-linearity?  So batch normalization helps those networks even learn in a deep system not as well as relu, but still it's making it start to work again when it was so bad before remember.  Okay, so that's the  That's that's it. So that's a convolutional neural network. We have a lot of repeated things where we're learning features here. We've learned 6, then we're doing the cooling to reduce the size of this now this layer up is looking at a bigger patch and it's generally looking all the way through all of these again. So this is a rectangular solid of Weights going through there and here is got  16 feature Maps  What your features are features of the image and then spatial pooling and then fully connected layers to do the the heavy lifting?  Okay, so that's yeah.  usually do it depends on  What the task is if you're doing classification, you probably want to fully connected layer to the softmax. If you're doing semantic segmentation, you might be able to get away with doing that in a fully convolutional Network meeting its convolutional all the way down.  You know the reference.  the Skyhawks Lee was a science lecture back in the 1800s and gave some lecture on Evolution or something like that in this woman came up and said  But sir, don't you understand it?  the World rides on the back of a giant turtle  and he is Sky says no and and what does the turtle stand on another turtle? It's Turtles all the way down.  Okay.  Yeah, I was not all juice. Actually. I think it was like his uncle or something and not sure.  Okay, so now, you know back in the day in the battle days of computer vision.  Our job was to come up with these features. Now these features are being learned. So now what we're in the ending up doing is looking at the matter parameters. That is the architecture parameters. How many layers how many features for layer how many how big should the convolutions be and so selecting those men are parameters that are matter parameters or things that are not learned by gradient descent.  Right. So the depth of the network hasn't learned by gradient descent.  And now there's a package now called hyperoptics that does some Bayesian thing to try an Optimizer Meadow parameters. And I just I one of the papers are reviewed for nips. They used hundreds of tpus version 2 tensor product you to optimize their Mentor parameters.  Wish I could do that. I don't have hundreds of tpus save got your matter parameters or things like the depth of the network the width of the features The Stride zero padding overall parameter account that's going to be affected by all those other.  things  so there's lots of hyperparameters or Mentor parameters. You can choose those by using cross-validation, but that's going to be expensive you could do a grid search. So I'm going to have like, okay one layer two layers three layers for layers one feature map to feature map 3 future maps and now I've got done doing a grid search. Okay, that's stupid. It's better to do a random search and randomly select places on this grid and where to find then is some directions don't seem to matter much and other directions to Mater and so you can focus in very quickly on the things that matter.  So there are some best practices with stride zero padding like 3 by 3 features seems good stride of one seems good zero padding at 1. So, you know, you've always got these Edge effects. Like what do I do? I start Computing my features here or can I start comparing them here by adding zeros to the edge of the image? And so and if your convolutions don't fit the image you may get an error. So there are formulas which I meant to put in this but you can get them from the Stanford lectures of you know, what how to fit your  Convolutions to the image. So I mean suppose you're doing a stride of too and at the end you go off the image and there's no zero padding. You'll get an error.  tell  Okay, so  Okay, so these these kinds of things have zero padding and a stride of one leads to an output. That's the same size as your input. Okay, in terms of the rectangular size of it. So that seems like a nice property.  And now stacking convolutions and then using Max pooling. Why would you do that? Yeah.  Zero padding is adding zeros to the edge of the image so that you can start Computing your features even off the edge of the image of it.  So why should I stack convolutions and then use pot Max pulling that is convolution convolution convolution with no Max pulling in between. Why would I want to do that?  So otherwise, I'm Computing these linear features, you know, the rellos pretty much linear and then cooling them. But if I have several layers of convolutions, I can compute features are features and get more nonlinear features, which is generally going to be a good idea.  Again, if the whole network was linear, I might as well just multiply all the weight matrices together and I'll get the same result with a single layer Network.  The weather is nonlinear.  And then you're going to compute a weighted sum of rellos and apply reloj again. And so you're going to get nonlinear responses.  Yeah, it's it's nonlinear. But you're if you have a stride of one with the max pooling your you know, you're basically Computing the same feature all over the place. And then you're if you send Max pool at you're just kind of doing a shrinking operation and applying relu again to that and it's it's fairly.  No, wait, I got confused there for a moment if I do ralu.  reloj of reloj  Then I got more nonlinearities in my features than if I do relu Max bowling reloj Max bowling because it each time Step at each layer of I'm just taking the max to the previous guys. And that's the max of a linear operation. I'm applying another when your operation and applying relevant to that.  I should come up with an example of this to make more sense. I'm sorry. I will try to do that for next time.  Okay, and then Max pulling is like his it's a it's a method of sampling right? I've got four numbers and I'm going to come out with one. I could have other ways of sampling that like I could turn those four numbers into probabilities Say by dividing by the sum of them and then throw a coin and pick the guy that comes up with a half happens to come up first which will tend to be the maximum one.  But that's that's another way of doing cooling stochastic pooling. So  I'm so Alex net for example did con-con Cooling.  But there's another way to do all this Andre Andre karpathy says don't be a hero so somebody else is trained all these networks, unfortunately.  You know, somebody else is trained all these networks. They've learned these great features and you can often do transfer learning with them fairly easily by just taking a new set of images run them through Alex net.  Chop off the the the soft Max layer and put on a new one and just learn linear combinations of those features and you can instantly get state-of-the-art results or at least you used to be able to do that. So for example Serge belongie  long lamented Serge belongie had a student that  collected images of urban tribes  So Urban tribes are things like hipsters people that dress alike think alike goth people go to cowboy bars things like that people going to formal dances and the job of the system was to recognize which tribe this image was and they got something like I think 37% correct with standard computer vision things as a first project for one of my grad students PhD student. I had her apply Alex net to one of these things and immediately she got 62% So it's like an immediate state-of-the-art thing in that for a while. You could get your paper into cvpr by  Doing that, but you can't anymore softmax over it.  And Percy was pretty bad and hipsters cuz complicated.  Okay, and then if you want to you can also find tunod buyback propagating into Alex net. But really most of the time you just have to tune the output weights.  So hardly any anyone Transit network from scratch anymore except you, but you're going to have to do for your programming assignment.  Okay, but we're not going to make you do really really deep, so don't worry.  So how important is is death? It's the deep and deep learning sealer and Fergus did an ablation study where they took Alex net and they chopped out layers to see what happened. Another thing you can do is add some layer of the network.  Do a softmax on those features and see how well you do with that. Okay, we tried to take Alex net and recognize words in her know hundreds of fonts. I think we had the 800 words of basic English and we put them in the middle of the of the display and we told them a little bit and and biggen and shrinking them and and it was terrible didn't do very well. And so Alex net was not designed. It's one of the few cases. I've seen where it actually didn't work to use transfer of learning and that's because the features were not very good at recognizing words, but if we went shallower in the network like his the second layer of teachers that work better in the end. We got like 90  Percent correct by just training a network from scratch on that task So reading words uses very different features than recognizing objects, which is probably why we have a visual word form area. That's separate from where you recognize objects.  Okay, so  This is Alex net input image conversation and improved on pool fully connected fully connected softmax output.  Okay. So what if you move one of those fully connected layers that drop 16 million parameters because actually the fully connected layers of the ones that often have the most parameters because it's all to all connections and every connection is different unlike a convolution where you have the same parameters for one feature across the whole feature on  bang plane in this just dropped 1.1% in performance  Then they dropped both of those and went directly from the convolution layer to the soft next layer and dropped 50 million parameters and still only a 6% drop in performance. So that's that's not bad.  Or we could remove these couple of these convolutional layers.  and  I dropped a million parameters and only got a 3% drop.  But if we make it even shower with just two convolutional or three convolutional layers, and we got a 33% drop in performance. So it seems like the depth is an important feature. Yeah.  Well, you know if you looked at the Scottish deerhounds right there very very different images of the same breed of dog. You have to somehow transform all of those images so that they end up in roughly the same region of representational space so you can cut him off with this with a linear classifier, right so that  Understanding that series of Transformations gym to Carla and mighty calls it disentangling as he go deeper which is just a head wavy way of saying what it does but that that's kind of more intuitive about what it's trying to do is just disentangle those represent patient so that you got all the Scottish deerhounds over in one corner of the space where you can cut them off with the Scottish deerhound unit at the output.  right  and then  what he also did was use in svm, which is a really fancy perceptron basically and applied it to Caltech 101 in Caltech 256. And again, these are cases where there's a lot fewer training examples. And so if he is a pre-trained network seen millions of images really good features, then you can often get away with applying it to something as a lot fewer examples cuz you're just learning the output weights. And so this is  A support Vector machine applied to a and again, it's just really a fancy perceptron to the first layer to the second layer Etc and the paper.  Hugo I generally the better it gets  And so this is soft next vs. Sbm4 layer 7 notice the difference is not much. So soft Max cell does pretty well and similarly with Caltech 256. It gets better and better generally the deeper you go.  Okay, so that's just taking the features of some layer and feeding them into a softmax classifier. So the features get better the deeper you go. At least for this these two data sets for me with words that teachers. Actually we're better in the shower part of the network.  Okay.  So this is I have to update the slide because this is based on Rob fergus's tutorial where he only had two principles. I have four.  I got more principles. So pixels pixels to the small receptive fields are our what respect that that we're going to see features and small regions. I don't want pictures from here and features from over here combined and do a feature that doesn't make much sense and the statistics of visual inputs are invariant. So you get stationary statistics until you replicate the receptive Fields across the image.  the structures convolutional non-linearity pooling batch normalization  and depth matter depth allows features of features and features to be learned which tend to get more abstract in deeper layers of the network.  Pieper networks are usually better except as long as they allow the gradient to pass backwards easily. So there's a couple of ways to get around the gradients either. So backpropagation, by the way is a linear operation.  You're taking the weighted some of the Deltas and just multiplying them by a scalar and you're taking the weighted some of the Deltas and multiplying by a scalar. You take a linear system and repeat it over and over again. It's either going to blow up or it's going to shrink to zero. So there's the exploding and Vanishing gradient problem. And one way to overcome that is to have supervision at multiple places in the network. That's what Google in that did they had softmax outputs at multiple layers of the network. So that the features down low. We're getting good feedback about what was useful as where these as were these and the other way to do that is Skip connections. What residual networks do is have one to one connections as he go up and that allows the gradient to pass straight down through those one to one.  directions with weight one  and it's often best to Simply reuse a pre-trained network and add a softmax for categorization or logistic units for tagging.  Okay, so that's it for today.  I want to read the text.  Yeah.  People have done things like that.  And I don't know what the answer is terms of how well it does.  a lot of working "
+}
