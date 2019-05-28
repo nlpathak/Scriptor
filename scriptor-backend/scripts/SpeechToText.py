@@ -24,7 +24,7 @@ from google.cloud.speech import types
 PATHTOAUDIOFILE = sys.argv[1]
 GENERALPATH = PATHTOAUDIOFILE.split("audios")[0] 
 #BUCKETNAME = "audiofilesscriptor"
-BUCKETNAME = "scriptor"
+BUCKETNAME = "scriptor-audio"
 
 NUMBEROFWORDSPERBLURB = 70
 
