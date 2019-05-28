@@ -1,0 +1,371 @@
+{
+    "Blurbs": {
+        "B. You don't really care about anymore because basically this is doing sort of the same thing as Union. What was it called Union by rank, right those big metal nodes are basically the subsets write the disjoint sets. So you're basically doing the same thing just like to talk about it in this way cuz it's going to help our induction algorithm induction. Argument and the reason is because ": [
+            705.7,
+            736.0,
+            16
+        ],
+        "G Prime has and -1 vertices, right? So by the induction hypothesis kruskal's will find the optimal Solution on G Prime. all right foot is better than any other solution s Emily idea Okay. So basically that's it. This is sort of all the stuff that I just wrote and then all of this stuff. So let's go into the the long string of inequalities. Okay OS is is greater ": [
+            1472.5,
+            1515.1,
+            35
+        ],
+        "GL finishes before JL finishes. And also by our assumption here. There's more events after JL. prank In particular jlplus1 starts after JL finishes for what does that imply that implies that jlplus1 is an event that starts after the last Choice ends. Start after the last week Choice visit impossible questions. How we doing on time? Okay good. All right. Yeah, so you're sort of a picture of that ": [
+            2330.6,
+            2390.5,
+            56
+        ],
+        "Hopefully this works and then you go into the draw mode right? Thank you. Alright, so let's get started. I'm borrowing Andrews computer. So he had to give me a little lesson on how to work out works. Okay, so, let's see any questions before we start. Okay, let me just give you a kind of an outline of what I plan to do today. So last time we we ": [
+            0.8,
+            41.5,
+            0
+        ],
+        "K is less than or equal to l write the number of greedy events or events in the greedy algorithm is going to be more than or equal to the number of events in any arbitrary solution. Okay, so, let's see how it works. Okay, we have this other solution Jay and We have the greedy solution G. Okay, we want to show that K is less than or equal ": [
+            1765.0,
+            1796.8,
+            43
+        ],
+        "O S Plus the weight of G minus the weight of H, and that's going to be a small value. So will it be just efficient to delete any other engine cycle on a silly like the head heavy? Is that a yes. Absolutely. You could just delete any other Edge good point cuz you know any other guys will be bigger. greater than or equal to even maybe the ": [
+            1103.5,
+            1136.8,
+            26
+        ],
+        "Okay, that is fine. Okay fine. Great. Okay. So this is this is how you proof The Exchange argument. State what you know that you know that oh my God. You know the definition of g and that OS meets the constraints to find the OS Prime from OS by using Exchange argument prove that OS is OS Prime is actually a valid solution and prove that it actually is ": [
+            503.3,
+            539.7,
+            10
+        ],
+        "Okay. Now we have this the noise. Okay, I think I know how to fix this. Just give me a second. Oh, no. All right. We're just going to have to do it this way. Sorry. Okay. and then now how does it what the how do you get it to? use presenter View Maybe I don't. My God is a nightmare. Maybe from beginning what if I do that? ": [
+            404.8,
+            501.3,
+            9
+        ],
+        "Prime to be less than or equal to cos. Yeah, so yeah, you just have to figure out if you know. Just everything just flips doesn't change. So your clients are just claiming something now, and then the proof is to show that whatever you built is valid and it better or we're just as good. kind of Well, no cuz it's not a hypothesis. I guess it is sort ": [
+            902.8,
+            943.2,
+            21
+        ],
+        "Right. Okay, then use this and this statement. that implies that finish g i + 1 is less than equals to finish. J AI plus one Frank's because out of everything that starts after gi gi + 1 and the earliest rent that's kind of the whole point any questions about that. It was make a little summer here. Okay. By the inductive hypothesis, I have this. By the validity ": [
+            2164.3,
+            2217.5,
+            52
+        ],
+        "a 10 points together to make one vertex, okay. Buneary curse on that graph until all you're left with is just one big for a text. Okay. Well, I tried to make a animation of this. And we'll see how well it goes. Okay, so the first The latest Edge is ad. Okay, sweet akd. And we output ad and refuse those two vertices together to get one vertex. Now ": [
+            596.9,
+            642.3,
+            13
+        ],
+        "a cycle Edge and taking away a cycle Edge does not disconnect it. So you have a connected graph with n -1 edges that has to be a tree. So that's good. Okay, why is the total weight of os Prime less than or equal to the total weight of os? Can anybody tell me? Okay, good. Exactly. Cuz you guys were going to have OS Prime. Is equal to ": [
+            1070.8,
+            1103.5,
+            25
+        ],
+        "all solutions must pick the first greedy choice. right sure. So if that's the case then the exchange argument doesn't really make a difference because the idea did I have it written in here. The idea for the induction part is you just let OS be any solution, right? If it has the first greedy Choice then fine, you can move on you can just call it OS Prime and ": [
+            325.3,
+            364.0,
+            7
+        ],
+        "always Prime is a spanning tree and then that the that is just as good or better as a spanning tree. The argument here is pretty simple a spanning tree has two properties. It's a tree and two it spans all the vertices which means it's a connected graph with all the vertices so you can you can show that each one of those properties is invariant under this under ": [
+            1012.4,
+            1042.7,
+            23
+        ],
+        "and you have some input with an events. saltlight OSB some arbitrary solution and let's order the events by time. Okay. So OS is going to be J1 through JK. And the greedy solution is going to be G1 through GL and these are also ordered by time. And in fact the greedy algorithm actually chooses them in that order anyway. Okay. So what we want to show is that ": [
+            1724.0,
+            1765.0,
+            42
+        ],
+        "and you want to maximize the number of events. This is the same exact problem that we did on Monday. Okay. So now let's look at through the structure of greedy stays ahead instead of conducting on the size of the input. You're going to be inducting on the sequence of choices that the greedy solution makes. Okay. So let's just kind of assumed that we have some integer n ": [
+            1690.9,
+            1724.0,
+            41
+        ],
+        "another event starts schedule it in the lowest number room that's available. So put the first event in room one and then for the next event put each event in the smallest numbered room that's available set means when room one becomes unavailable that will be the next place you put the event. Okay. So in this case right I'm going to put the first event into room one II ": [
+            2666.7,
+            2697.4,
+            65
+        ],
+        "article about complexity here. Choices we're talking about OS is a spanning tree. It's already done. We've already built it and we know that g is not part of it. I've lived a little G. The lightest the lightest Edge not part of it. But yeah. You are the show The Objective function is the total sum of all the weights in the spanning tree, right? So you want OS ": [
+            848.0,
+            902.8,
+            20
+        ],
+        "before now, we have an unlimited amount of rooms and we want to schedule all the events, but we want to use the fewest number of rooms. So you can reuse a room after a certain after an event ends, you know, it becomes available. Okay, so One way to do this the greedy Choice here would be to number all the rooms. And just go through time, right? Whenever ": [
+            2635.1,
+            2666.7,
+            64
+        ],
+        "better than or equal to OS. Here's an induction template. I'm not going to go through the whole thing because you just going to see it when we do the example. Okay. So Crimson kruskal's we have not proven their correctness of these but we're going to use the exchange argument to prove the correctness. Okay. Let's start with kruskal's. In order to do this, we have to kind of ": [
+            539.7,
+            566.8,
+            11
+        ],
+        "big the the heaviest age might be greater than or equal to. Okay, so so that concludes the exchange argument we're done right? We've shown those two things. Like we used to use like a visual as a as the proof or you just wanted to see what it would look like. Tobacco Exchange No Works changing one Edge for another Edge. Show me do you put the edge in ": [
+            1136.8,
+            1188.1,
+            27
+        ],
+        "don't have to care about it complexity at all because this is just a proof. All we're trying to do is show that they're in that basically using the first greedy choice. Doesn't hurt to do that. Oh, sorry. Did you have more to say? And then just to do the run the Great Neck at the next board with this event that doesn't have to worry about the complexities ": [
+            817.0,
+            848.0,
+            19
+        ],
+        "earliest okay, what do we know about j i By the induction hypothesis j i what? right and after g i n s rank So j i is like something like this. Okay, and what do we know about Jay? I plus one? Jii, plus one starts. after J i case let's put all of this together what we're trying to show is that GI plus one finishes before j ": [
+            1998.9,
+            2058.6,
+            49
+        ],
+        "event into room to 3rd Event Event into room 3 4th event. I can put that into room one because it became available. Right V event. I can put that into Room 2 because it came available and in the sixth event. I have to make a new room room for because there's not enough rooms. Why do we have to use for rooms? Why is that the lowest bound? ": [
+            2697.4,
+            2727.5,
+            66
+        ],
+        "event. rooms Is it because of? Maybe it's because of my sweater. Hold on. Let me see if this helps out. Okay, so I didn't know what was the best order was it better to do the exchange argument again because it's fresh in your mind or to prove event scheduling another way cuz it's fresh in your mind. thoughtexchange argument also because I like the exchange argument as sort ": [
+            95.6,
+            157.3,
+            2
+        ],
+        "exactly there exists sometime where four events happened. Therefore you have to use for rooms as a minimum. Okay, and then so that's how you sort of justify that in this case for is the minimum. And then the next thing you have to do is show that the greedy algorithm actually achieves this bound. So I bring up my clock. Let's just go through a few things. So this ": [
+            2731.3,
+            2768.8,
+            67
+        ],
+        "figure out. When did you put a say an event into room K. The only way that had to that that would happen is if you had a vent in room one through K - 1 already and then you had to put that event in K. So that means at that time there were Kay events happening. And so that means that you have to have at least K ": [
+            2854.6,
+            2877.9,
+            71
+        ],
+        "greedy this is the greedy days ahead argument. What I want to prove is that K is less than or equal to l. Okay. So let's do that. Let's prove it by contradiction. Okay, so we're going to use this as a helper. proof by contradiction suppose that K is actually greater than l right where K is the number of events in OS and how is number of events ": [
+            2262.8,
+            2300.0,
+            54
+        ],
+        "how we going to do this? What do we know about G of I + 1 what it what do we know about this event? It comes after G of one, right? juice of one piece of pie Come after Jesus died. And what kind of property does it have that's given to it by the greedy Choice. What did what does it mean to be Giovanna plus one? Cut ": [
+            1902.9,
+            1945.9,
+            47
+        ],
+        "i + 1.2 show. How do I how do I write that finish? Fgi + 1 is less than or equal to finish. fji + 1 You guys kind of see where it going from here? Does anybody have an argument for me? The heater the earliest for longer right to bgi njid. I can do the same order. Let's news like a more like mathematical would like inequalities type ": [
+            2058.6,
+            2106.1,
+            50
+        ],
+        "in Gs? Then in particular GL ands or Alexa. Sorry, I didn't get to that part yet. Let's go to this year. So GL is the last greedy choice and by the nature of the algorithm. That means that there can't be any other event that that starts after GL ends, right or else the greedy algorithm would pick it. But by our greedy stays ahead claim we have that ": [
+            2300.0,
+            2330.6,
+            55
+        ],
+        "in your exchange you have to exchange it with another the other edge of s it has to be like more particular which one you use. Or something like that. So you guys can look at that. Okay, so that's exchange argument. So we're going to move on to another proof technique, okay? Okay. So the next proof technique is called greedy stays ahead. This one's nice because it's kind ": [
+            1608.5,
+            1637.2,
+            38
+        ],
+        "induction that the progress after the ice decision is at least as big as that an OS assumed by contradiction that the arbitrary solution is strictly better than GS and use the progress are meant to arrive at a contradiction is kind of what we did. Okay, so let's just stop. review that because it's more Universal. So it's works on more. It works on more greedy strategies achieves, but ": [
+            2430.2,
+            2475.2,
+            58
+        ],
+        "induction. And the idea is that the exchange argument once you do that part you should be oh what happened? This is why. I thought maybe he told me something about this. from current slide okay, this is there it is. Okay, no idea what happened. Okay, so Once you do your exchange argument you that should be enough of a guarantee that your algorithm will work. The induction part ": [
+            192.3,
+            255.0,
+            4
+        ],
+        "inductions really nice to use with recursive algorithms. And so if we can Define it recursively like this, then it should work. Okay, so let's set up cross goals algorithm. We got G and undirected connected graph. Let little GB the lightest Edge the first greedy Choice let OSB some spanning tree right in this case a solution means a spanning tree so that OSB some spanning tree that does ": [
+            736.0,
+            763.3,
+            17
+        ],
+        "is sort of more of a formality to kind of execute the exchange argument. But the exchange argument is the is the more important part of the proof questions about that. Okay. Okay good. So General template is for the exchange argument. You say let G be the first greedy decision let OSB any legal solution that does not pick G. Then there is a solution OS Prime that does ": [
+            255.0,
+            284.9,
+            5
+        ],
+        "is sort of the idea is that let T be sometime during the conference and be of tea is going to be the set of events that are occurring at that time T. Okay. So let R be the minimum number of rooms in an arbitrary valid schedule then our has got to be bigger than or equal to b a t for all teeth. Basically the kind of like ": [
+            2768.8,
+            2791.9,
+            68
+        ],
+        "it different color. We have Gs of G Prime is less than or equal to S of G Prime. Got questions about that. Which part? induction hypothesis Okay, so you understand what G Prime is? Well, it's like the graph so little G is your lightest Edge, right? So you take the original graph and you fuse the endpoints of little G together to make one vertex, right? So now ": [
+            1417.8,
+            1472.5,
+            34
+        ],
+        "it. GI plus one is the most optimal Choice after GI that that starts after GI ends or something like that. Then let's just put in what does that mean? The most optimal choice we decided that are greedy Choice was to pick the one with the earliest end time. So GI + 1 + burliest out of all events starting after Gianni sorry about that. Okay, so question. and ": [
+            1945.9,
+            1998.9,
+            48
+        ],
+        "looked at the exchange argument, right? So today the first thing we're going to do is use is apply that exchange argument to kruskal's algorithm. Okay, then what we're going to do is go back to the event scheduling and used greedy. stays I had ahead This is event scheduling. And then we're going to do a Cheves the bound. on another event, I guess we'll just call it an ": [
+            41.5,
+            95.6,
+            1
+        ],
+        "make an observation, okay? We're giving we're going to give kruskal's an alternate description. Okay, the idea here is you guys all remember kruskal's algorithm you pick the lightest Edge and then and you pick the next lightest Edge that doesn't for my cycle and you keep on going another way another observation of another description of how to do this is you pick the lightest Edge. Then you fuse ": [
+            566.8,
+            596.9,
+            12
+        ],
+        "n vertices let OSB any arbitrary solution of G. Then what can we say about the exchange argument? We know that there exists some other off and might not be another solution but there exists a solution OS Prime that includes G and is just as good or better than OS. so we have OS I'm just going to put the absolute value to mean like the the total weight ": [
+            1249.3,
+            1283.5,
+            30
+        ],
+        "not contain G. Now we're going to create OS Prime. Okay, so I want to give you guys a few minutes. How would you create OS Prime from OS. So talk it over with your neighbors. See if you can come up with an exchange argument for cross goals for this thing. Ready go. Is there a Mac? How long it take to get from Owens prices, in fact, you ": [
+            763.3,
+            817.0,
+            18
+        ],
+        "number of Brooks. So maybe let's start off with this on on Friday to come to just review it and then we'll go into sort of the next part of the class. ": [
+            2877.9,
+            2893.4,
+            72
+        ],
+        "of a more like a claim. And then we'll prove the claim. Okay, anybody have any ideas? ag2o s you created a cycle. So then remove. the heaviest Edge in that cycle, right? Okay, good any questions or comments? Pretty good. So that's what I was thinking to do. Right creating a cycle. Delete the heaviest Edge in that cycle H. So we need to show these two things that ": [
+            943.2,
+            1012.4,
+            22
+        ],
+        "of all the edges. So absolute value is going to be greater than or equal to the absolute value of os print. Okay any questions about that? remove everything No, you just removing one one other Edge. Yeah, I said the heaviest that but actually could be any other Edge because you're guaranteed that every other Edge is going to be greater than or equal to the lightest Edge. Okay, ": [
+            1283.5,
+            1326.0,
+            31
+        ],
+        "of argument. And Endtime J in time j a g i in less than and Time GIF. I don't think I really followed maybe it was a poor choice to use J & G. Okay, let's break it down. So. J AI plus one starts after J. I write j i ends after GI. So from these two things we can conclude that Jay. I plus one starts. after GI ": [
+            2106.1,
+            2163.1,
+            51
+        ],
+        "of intuitive and you can sort of see yourself making progress towards the end of the proof in contrast to exchange argument where you're kind of proving this weird statement and then using it in induction. Okay, so the idea here is to start with arbitrary solution and compare it to a greedy solution. In order to do greedy stays ahead. You need to have sort of some ordering on ": [
+            1637.2,
+            1663.8,
+            39
+        ],
+        "of more of a universal proof strategy whereas greedy stays ahead only works in some places. No. No, this thing is like have messed up. I'll try to not move much. Okay, let's some again this this slide you don't have to read it. All right now it's just sort of for your reference. Okay, so you basically have this portion is the exchange argument. And this portion is the ": [
+            157.3,
+            192.3,
+            3
+        ],
+        "of os I have this one right there in order so that implies this so by the nature of the greedy choice. I got good. Okay, so that that concludes the greedy stays ahead argument that doesn't prove algorithm is actually optimal yet. You actually have to do one more argument after. Okay, we're going to use this to argue that the algorithm is often. Okay, so this is the ": [
+            2217.5,
+            2262.8,
+            53
+        ],
+        "of what it is and we'll start with this on on Friday. Is that okay? So the idea here let K be the number of rooms needed for the greedy strategy. So what I want is what I want to show you is that at some point At some point TB if she is going to be greater than equal to k k. So the the idea here is either ": [
+            2830.3,
+            2854.6,
+            70
+        ],
+        "only have a 10 minutes left. 8 minutes Okay, so I'm going to sort of just give you sort of a sense of this one and maybe not go through all the nitty-gritty parts of the proof. Text but this one is called achieved the Bound for me. This is the most elegant of all the proofs but it only works in certain scenarios. This is actually kind of the ": [
+            2554.3,
+            2579.4,
+            61
+        ],
+        "pic G and Os Prime is at least as good as OS the way that you can structo S Prime is usually through some sort of exchange hence the name and I just want you to know that it's kind of weird to do it this way because we're not even talking about The Green Solution at all. All we're talking about is the first greedy choice. Sorry, yes. Turn ": [
+            284.9,
+            325.3,
+            6
+        ],
+        "so let's do the induction part. Okay. So by The Exchange argument there exists a solution, right? This is what we just showed. A greater than or equal to O ask Prime. So now let's talk about what is OS Prime shoot. OS Prime it's a set of edges right a spanning tree is just a set of edges. So it's going to be the edge G. Union with some ": [
+            1326.0,
+            1361.8,
+            32
+        ],
+        "solution is greater than or equal to the Cross Go Solution, which is what we want any questions about that. I'll let you guys do prim's algorithm as an exercise. Honestly, it's like pretty much exactly the same as this one. yeah, and Right and the other kind of trick that you have to do is in your exchange, right? Cuz remember you start at some vertex s right. So ": [
+            1554.5,
+            1608.5,
+            37
+        ],
+        "solution of G Prime Where G Prime is? the result of using the endpoints Lil G right just like we did before. Okay. What is GS? the greedy solution of G well You take the first greedy Choice and then you do the greedy Solution on G Prime. And so this is where we're going to use our induction hypothesis. Is that by the induction hypothesis? We have to do ": [
+            1361.8,
+            1417.8,
+            33
+        ],
+        "than or equal to OS Prime. This is the exchange argument. okay OS is equal to G+ some Solution on G Prime this is like the definition of os Prime. Okay, this is greater than or equal to G Union Cross goals of G Prime the greedy solution. This is by the inductive hypothesis. And then this is just the definition. kruskal's And then that's it. We've shown that any ": [
+            1515.1,
+            1554.5,
+            36
+        ],
+        "that creates cycle? And you exchange it with any actually any of the other edges in the cycle. I just chose the heaviest one because I thought it would be kind of. Drive the point home a little bit more. Okay, so let's look at the induction part and this is where we're going to have to use that alternate description. Okay, so base case and is equal to one ": [
+            1188.1,
+            1211.8,
+            28
+        ],
+        "that's no big deal. But if it doesn't then we can convert it into something that does. Sort of the idea. Yeah, you always want to start with something that doesn't have the first greedy choice and turn it into something that does have the first greedy choice. Okay, so Now it's now. It's not working again. To go to back here. Is really weird. Anybody know what's going on? ": [
+            364.0,
+            402.0,
+            8
+        ],
+        "the choices and you have to show that the greedy choice is always going to stay ahead of the other choice of the other solution. Okay, so we're going to do the event scheduling problem again, let's just review what that was. I can just review it in this kind of. Description and events. The solution format is a list of events the constraints her that the events can't overlap ": [
+            1663.8,
+            1690.9,
+            40
+        ],
+        "the idea. So the next one is e g. Right and then use those together. And then the next one is like I think I do Nae be so that one so then you have to fuse all of those together and so on. Okay, any questions about that? No, those are all the edge Waze. Yeah, like all the edges that are within that are between a D and ": [
+            664.1,
+            705.7,
+            15
+        ],
+        "the other solution. G1 finishes before J1 G2 finishes before J2 and so on. Okay. So are we going to do this? We're going to induct on I so it's kind of like on the choice that were making. bass case And is equal to 1. The greedy the first greedy Choice finishes before the first choice or the the first event of the other solution that's just directly from ": [
+            1827.8,
+            1866.4,
+            45
+        ],
+        "the proof I want you to do for the last problem in the homework. I kind of gave you a sense of how it's supposed to go, but you'll see it in another instance. So the way it works is you figure out a bound on the on the objective function saying something like if it's a lower bound and upper bound that every solution cannot be any better than ": [
+            2579.4,
+            2606.3,
+            62
+        ],
+        "the quiz. Stop get some practice with that. But if you want to use this then this is this is also a great way to prove certain green strategies. I think you might be able to prove. The homework problems with all the homework problems with this. Maybe maybe not the last one, but the other three I think so. Okay. So let's go to the last proof strategy. We ": [
+            2519.4,
+            2554.3,
+            60
+        ],
+        "the the definition of the greedy choice, right? The green choice is supposed to finish before everything else. So that's just by the greedy choice questions about that. So our inductive hypothesis is that for some I assume that the greedy the ice greedy event finishes before that Jace other event want to show that the iplus first greedy event finished before the J + I + burst. Okay. So ": [
+            1866.4,
+            1902.9,
+            46
+        ],
+        "this Bound by doing some sort of argument not nothing to do with your greedy strategy at all. Just something to do with the nature of the problem. Then you show that the greedy strategy strategy actually achieved that bound meaning that is the most optimal. Let's look at another example another problem. This is called event scheduling with multiple rooms. So now instead of only having one room like ": [
+            2606.3,
+            2635.1,
+            63
+        ],
+        "this operation, right? So, When you add in the edge and delete an edge, right, the result will have n -1 edges rent you started with n -1 edges, you'll have a mnemonist one Hedges a tree has to have yourself and then the other thing is that it stays connected because you're adding an edge to a connected graph that does not disconnect it and then you're taking away ": [
+            1042.7,
+            1070.8,
+            24
+        ],
+        "to l that The Green Solution has more or equal to will do this by comparing some progress measure of G esto es. What is that progress? My measure going to be We're going to I'm going to show you that the greedy solution quote on quote stays ahead of the other solution by showing you that. The Ice event of the greedy solution finishes before the Ice event of ": [
+            1796.8,
+            1827.8,
+            44
+        ],
+        "trivial right? If there's one we're talking about induction part on the number of vertices on number. vertices Okay, there's one vertex then the minimum spanning tree is just that vertex itself, right? So it's done. Okay now suppose that kruskal's works for any graph with and -1 vertices when I say works for what I'm saying is that its output is optimal. Okay. So consider a graph G with ": [
+            1211.8,
+            1249.3,
+            29
+        ],
+        "what we were saying before is that you have to have at least as many rooms as there are events going on. any particular you have to have at least L rooms where L is the maximum overall time, right? Of the number of events happening at each time an L is a lower bound on the number of rooms. So maybe I'll just kind of give you a sense ": [
+            2791.9,
+            2830.3,
+            69
+        ],
+        "you can see that the Gees are always staying ahead of the of the Jays right? So the GL stays ahead of the JL then. If there are more events there then it's impossible because the greedy algorithm would have chosen those. All right. Let's see. Let's move along. The last here's this template. Sorry Define the progress measure order the decisions to line up with the decisions prove by ": [
+            2390.5,
+            2430.2,
+            57
+        ],
+        "you like the greedy stays ahead better. Yeah, it's more kind of intuitive and you sort of get get to the point better. Yeah, it's more Universal. not your question 2 we just used it. If you want to use this in the homework instead of the exchange argument, then that's up to you. I will tell you that I'm going to force you to use the exchange argument on ": [
+            2475.2,
+            2519.4,
+            59
+        ],
+        "you re curse on that graph that kind of makes sense. You may have it may not be a simple graph anymore. But that's okay. You're still going from the lightest Edge because if the lightest Edge is one of many edges then that's fine to pay. We'll see if it goes any more. I don't think I did it for the whole graph. I just wanted you to get ": [
+            642.3,
+            664.1,
+            14
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_13.flac",
+    "Full Transcript": "Hopefully this works and then you go into the draw mode right? Thank you.  Alright, so let's get started. I'm borrowing Andrews computer. So  he had to give me a little lesson on how to work out works.  Okay, so, let's see any questions before we start.  Okay, let me just give you a kind of an outline of what I plan to do today.  So last time we we looked at the exchange argument, right?  So today the first thing we're going to do is use is apply that exchange argument to kruskal's algorithm.  Okay, then what we're going to do is go back to the event scheduling and used greedy.  stays  I had  ahead  This is event scheduling.  And then we're going to do a Cheves the bound.  on  another event, I guess we'll just call it an event.  rooms  Is it because of?  Maybe it's because of my sweater.  Hold on. Let me see if this helps out.  Okay, so I didn't know what was the best order was it better to do the exchange argument again because it's fresh in your mind or to prove event scheduling another way cuz it's fresh in your mind.  thoughtexchange argument  also because I like the exchange argument as sort of more of a universal proof strategy whereas greedy stays ahead only works in some places. No. No, this thing is like  have messed up.  I'll try to not move much.  Okay, let's some again this this slide you don't have to read it. All right now it's just sort of for your reference.  Okay, so you basically have this portion is the exchange argument.  And this portion is the induction.  And the idea is that the exchange argument once you do that part you should be oh what happened?  This is why.  I thought maybe he told me something about this.  from current slide  okay, this is  there it is. Okay, no idea what happened.  Okay, so  Once you do your exchange argument you that should be enough of a guarantee that your algorithm will work. The induction part is sort of more of a formality to kind of execute the exchange argument. But the exchange argument is the is the more important part of the proof questions about that.  Okay. Okay good. So General template is for the exchange argument. You say let G be the first greedy decision let OSB any legal solution that does not pick G. Then there is a solution OS Prime that does pic G and Os Prime is at least as good as OS the way that you can structo S Prime is usually through some sort of exchange hence the name and I just want you to know that it's kind of weird to do it this way because we're not even talking about The Green Solution at all. All we're talking about is the first greedy choice.  Sorry, yes.  Turn all solutions must pick the first greedy choice.  right  sure. So if that's the case then the exchange argument doesn't really make a difference because the idea did I have it written in here.  The idea for the induction part is you just let OS be any solution, right?  If it has the first greedy Choice then fine, you can move on you can just call it OS Prime and that's no big deal. But if it doesn't then we can convert it into something that does.  Sort of the idea.  Yeah, you always want to start with something that doesn't have the first greedy choice and turn it into something that does have the first greedy choice.  Okay, so  Now it's now. It's not working again. To go to back here.  Is really weird.  Anybody know what's going on?  Okay. Now we have this the noise.  Okay, I think I know how to fix this. Just give me a second.  Oh, no.  All right. We're just going to have to do it this way.  Sorry.  Okay.  and then now how does it what the  how do you get it to?  use presenter View  Maybe I don't.  My God is a nightmare.  Maybe from beginning what if I do that?  Okay, that is fine. Okay fine. Great.  Okay.  So this is this is how you proof The Exchange argument.  State what you know  that you know that oh my God.  You know the definition of g and that OS meets the constraints to find the OS Prime from OS by using Exchange argument prove that OS is OS Prime is actually a valid solution and prove that it actually is better than or equal to OS.  Here's an induction template. I'm not going to go through the whole thing because you just going to see it when we do the example.  Okay. So Crimson kruskal's we have not proven their correctness of these but we're going to use the exchange argument to prove the correctness. Okay. Let's start with kruskal's.  In order to do this, we have to kind of make an observation, okay?  We're giving we're going to give kruskal's an alternate description. Okay, the idea here is you guys all remember kruskal's algorithm you pick the lightest Edge and then and you pick the next lightest Edge that doesn't for my cycle and you keep on going another way another observation of another description of how to do this is you pick the lightest Edge. Then you fuse a 10 points together to make one vertex, okay.  Buneary curse on that graph  until all you're left with is just one big for a text.  Okay. Well, I tried to make a animation of this.  And we'll see how well it goes. Okay, so the first  The latest Edge is ad. Okay, sweet akd.  And we output ad and refuse those two vertices together to get one vertex.  Now you re curse on that graph that kind of makes sense.  You may have it may not be a simple graph anymore. But that's okay. You're still going from the lightest Edge because if the lightest Edge is one of many edges then that's fine to pay. We'll see if it goes any more. I don't think I did it for the whole graph. I just wanted you to get the idea. So the next one is e g.  Right and then use those together.  And then the next one is like I think I do Nae be so that one so then you have to fuse all of those together and so on.  Okay, any questions about that?  No, those are all the edge Waze.  Yeah, like all the edges that are within that are between a D and B. You don't really care about anymore because basically this is doing sort of the same thing as Union.  What was it called Union by rank, right those big metal nodes are basically the subsets write the disjoint sets. So you're basically doing the same thing just like to talk about it in this way cuz it's going to help our induction algorithm induction.  Argument and the reason is because inductions really nice to use with recursive algorithms. And so if we can Define it recursively like this, then it should work.  Okay, so let's set up cross goals algorithm. We got G and undirected connected graph. Let little GB the lightest Edge the first greedy Choice let OSB some spanning tree right in this case a solution means a spanning tree so that OSB some spanning tree that does not contain G.  Now we're going to create OS Prime. Okay, so I want to give you guys a few minutes. How would you create OS Prime from OS. So talk it over with your neighbors. See if you can come up with an exchange argument for cross goals for this thing. Ready go.  Is there a Mac?  How long it take to get from Owens prices, in fact, you don't have to care about it complexity at all because this is just a proof. All we're trying to do is show that they're in that basically using the first greedy choice.  Doesn't hurt to do that.  Oh, sorry. Did you have more to say?  And then just to do the run the Great Neck at the next board with this event that doesn't have to worry about the complexities article about complexity here.  Choices we're talking about OS is a spanning tree. It's already done. We've already built it and we know that g is not part of it.  I've lived a little G.  The lightest the lightest Edge not part of it.  But yeah.  You are the show The Objective function is the total sum of all the weights in the spanning tree, right? So you want OS Prime to be less than or equal to cos.  Yeah, so yeah, you just have to figure out if you know.  Just everything just flips doesn't change.  So your clients are just claiming something now, and then the proof is to show that whatever you built is valid and it better or we're just as good.  kind of  Well, no cuz it's not a hypothesis. I guess it is sort of a more like a claim.  And then we'll prove the claim.  Okay, anybody have any ideas?  ag2o s  you created a cycle. So then remove.  the heaviest  Edge  in that cycle, right?  Okay, good any questions or comments?  Pretty good. So that's what I was thinking to do. Right creating a cycle. Delete the heaviest Edge in that cycle H. So we need to show these two things that always Prime is a spanning tree and then that the that is just as good or better as a spanning tree. The argument here is pretty simple a spanning tree has two properties. It's a tree and two it spans all the vertices which means it's a connected graph with all the vertices so you can you can show that each one of those properties is invariant under this under this operation, right? So,  When you add in the edge and delete an edge, right, the result will have n -1 edges rent you started with n -1 edges, you'll have a mnemonist one Hedges a tree has to have yourself and then the other thing is that it stays connected because you're adding an edge to a connected graph that does not disconnect it and then you're taking away a cycle Edge and taking away a cycle Edge does not disconnect it. So you have a connected graph with n -1 edges that has to be a tree.  So that's good.  Okay, why is the total weight of os Prime less than or equal to the total weight of os? Can anybody tell me?  Okay, good. Exactly. Cuz you guys were going to have OS Prime.  Is equal to O S Plus the weight of G minus the weight of H, and that's going to be a small value.  So will it be just efficient to delete any other engine cycle on a silly like the head heavy? Is that a yes. Absolutely. You could just delete any other Edge good point cuz you know any other guys will be bigger.  greater than or equal to  even maybe the big the the heaviest age might be greater than or equal to.  Okay, so so that concludes the exchange argument we're done right? We've shown those two things.  Like we used to use like a visual as a as the proof or you just wanted to see what it would look like.  Tobacco Exchange  No Works changing one Edge for another Edge.  Show me do you put the edge in that creates cycle? And you exchange it with any actually any of the other edges in the cycle. I just chose the heaviest one because I thought it would be kind of.  Drive the point home a little bit more.  Okay, so let's look at the induction part and this is where we're going to have to use that alternate description.  Okay, so base case and is equal to one trivial right? If there's one we're talking about induction part on the number of vertices on number.  vertices  Okay, there's one vertex then the minimum spanning tree is just that vertex itself, right? So it's done.  Okay now suppose that kruskal's works for any graph with and -1 vertices when I say works for what I'm saying is that its output is optimal. Okay. So consider a graph G with n vertices let OSB any arbitrary solution of G.  Then what can we say about the exchange argument? We know that there exists some other off and might not be another solution but there exists a solution OS Prime that includes G and is just as good or better than OS.  so we have OS I'm just going to put the  absolute value to mean like the the total weight of all the edges. So absolute value is going to be greater than or equal to the absolute value of os print. Okay any questions about that?  remove everything  No, you just removing one one other Edge.  Yeah, I said the heaviest that but actually could be any other Edge because you're guaranteed that every other Edge is going to be greater than or equal to the lightest Edge.  Okay, so let's do the induction part. Okay. So by The Exchange argument there exists a solution, right? This is what we just showed.  A greater than or equal to O ask Prime. So now let's talk about what is OS Prime shoot.  OS Prime  it's a set of edges right a spanning tree is just a set of edges. So it's going to be the edge G.  Union with some solution of G Prime  Where G Prime is?  the result  of using  the endpoints  Lil G  right  just like we did before. Okay. What is GS?  the greedy solution of G  well  You take the first greedy Choice and then you do the greedy Solution on G Prime.  And so this is where we're going to use our induction hypothesis. Is that by the induction hypothesis? We have to do it different color. We have Gs of G Prime is less than or equal to S of G Prime.  Got questions about that.  Which part?  induction hypothesis  Okay, so you understand what G Prime is?  Well, it's like the graph so little G is your lightest Edge, right? So you take the original graph and you fuse the endpoints of little G together to make one vertex, right? So now G Prime has and -1 vertices, right? So by the induction hypothesis kruskal's will find the optimal Solution on G Prime.  all right foot is better than any other solution s  Emily idea  Okay. So basically that's it.  This is sort of all the stuff that I just wrote and then all of this stuff. So let's go into the the long string of inequalities. Okay OS is is greater than or equal to OS Prime. This is the exchange argument.  okay OS is equal to  G+ some Solution on G Prime this is like the definition of os Prime.  Okay, this is greater than or equal to G Union Cross goals of G Prime the greedy solution. This is by the inductive hypothesis.  And then this is just the definition.  kruskal's  And then that's it. We've shown that any solution is greater than or equal to the Cross Go Solution, which is what we want any questions about that.  I'll let you guys do prim's algorithm as an exercise.  Honestly, it's like pretty much exactly the same as this one.  yeah, and  Right and the other kind of trick that you have to do is in your exchange, right? Cuz remember you start at some vertex s right. So in your exchange you have to exchange it with another the other edge of s it has to be like more particular which one you use.  Or something like that. So you guys can look at that. Okay, so that's exchange argument. So we're going to move on to another proof technique, okay?  Okay. So the next proof technique is called greedy stays ahead. This one's nice because it's kind of intuitive and you can sort of see yourself making progress towards the end of the proof in contrast to exchange argument where you're kind of proving this weird statement and then using it in induction.  Okay, so the idea here is to start with arbitrary solution and compare it to a greedy solution.  In order to do greedy stays ahead. You need to have sort of some ordering on the choices and you have to show that the greedy choice is always going to stay ahead of the other choice of the other solution.  Okay, so we're going to do the event scheduling problem again, let's just review what that was. I can just review it in this kind of.  Description and events. The solution format is a list of events the constraints her that the events can't overlap and you want to maximize the number of events. This is the same exact problem that we did on Monday.  Okay. So now let's look at through the structure of greedy stays ahead instead of conducting on the size of the input. You're going to be inducting on the sequence of choices that the greedy solution makes. Okay. So let's just kind of assumed that we have some integer n and you have some input with an events.  saltlight OSB some arbitrary solution  and let's order the events by time. Okay. So OS is going to be J1 through JK.  And the greedy solution is going to be G1 through GL and these are also ordered by time. And in fact the greedy algorithm actually chooses them in that order anyway.  Okay. So what we want to show is that K is less than or equal to l write the number of greedy events or events in the greedy algorithm is going to be more than or equal to the number of events in any arbitrary solution.  Okay, so, let's see how it works.  Okay, we have this other solution Jay and  We have the greedy solution G. Okay, we want to show that K is less than or equal to l that The Green Solution has more or equal to will do this by comparing some progress measure of G esto es. What is that progress? My measure going to be  We're going to I'm going to show you that the greedy solution quote on quote stays ahead of the other solution by showing you that.  The Ice event of the greedy solution finishes before the Ice event of the other solution.  G1 finishes before J1 G2 finishes before J2 and so on.  Okay. So are we going to do this? We're going to induct on I so it's kind of like on the choice that were making.  bass case  And is equal to 1.  The greedy the first greedy Choice finishes before the first choice or the the first event of the other solution that's just directly from the the definition of the greedy choice, right? The green choice is supposed to finish before everything else. So that's just by the greedy choice questions about that.  So our inductive hypothesis is that for some I assume that the greedy the ice greedy event finishes before that Jace other event want to show that the iplus first greedy event finished before the J + I + burst.  Okay. So how we going to do this?  What do we know about G of I + 1 what it what do we know about this event?  It comes after G of one, right?  juice of one piece of pie  Come after Jesus died. And what kind of property does it have that's given to it by the greedy Choice. What did what does it mean to be Giovanna plus one?  Cut it.  GI plus one is the most optimal Choice after GI that that starts after GI ends or something like that. Then let's just put in what does that mean? The most optimal choice we decided that are greedy Choice was to pick the one with the earliest end time. So GI + 1 + burliest  out of all events  starting  after  Gianni  sorry about that.  Okay, so question.  and earliest  okay, what do we know about j i  By the induction hypothesis j i what?  right and after  g i n s  rank  So j i is like something like this.  Okay, and what do we know about Jay? I plus one?  Jii, plus one starts.  after  J i case let's put all of this together what we're trying to show is that GI plus one finishes before j i + 1.2 show.  How do I how do I write that finish?  Fgi + 1 is less than or equal to finish.  fji + 1  You guys kind of see where it going from here?  Does anybody have an argument for me?  The heater the earliest for longer right to bgi njid. I can do the same order.  Let's news like a more like mathematical would like inequalities type of argument.  And Endtime J in time j a g i in less than and Time GIF.  I don't think I really followed maybe it was a poor choice to use J & G.  Okay, let's break it down. So.  J AI plus one starts after J. I write j i ends after GI.  So from these two things we can conclude that Jay. I plus one starts.  after GI  Right. Okay, then use this and this statement.  that implies  that  finish  g i + 1 is less than equals to finish.  J AI plus one  Frank's because out of everything that starts after gi gi + 1 and the earliest rent that's kind of the whole point any questions about that.  It was make a little summer here. Okay.  By the inductive hypothesis, I have this.  By the validity of os I have this one right there in order so that implies this so by the nature of the greedy choice.  I got good.  Okay, so that that concludes the greedy stays ahead argument that doesn't prove algorithm is actually optimal yet. You actually have to do one more argument after.  Okay, we're going to use this to argue that the algorithm is often.  Okay, so this is the greedy this is the greedy days ahead argument.  What I want to prove is that K is less than or equal to l. Okay. So let's do that.  Let's prove it by contradiction.  Okay, so  we're going to use this as a helper.  proof by contradiction suppose that K is actually greater than l  right where K is the number of events in OS and how is number of events in Gs?  Then in particular GL ands or Alexa. Sorry, I didn't get to that part yet. Let's go to this year. So GL is the last greedy choice and by the nature of the algorithm. That means that there can't be any other event that that starts after GL ends, right or else the greedy algorithm would pick it.  But by our greedy stays ahead claim we have that GL finishes before JL finishes.  And also by our assumption here.  There's more events after JL.  prank  In particular jlplus1 starts after JL finishes for what does that imply that implies that jlplus1 is an event that starts after the last Choice ends.  Start after the last week Choice visit impossible questions.  How we doing on time?  Okay good.  All right. Yeah, so you're sort of a picture of that you can see that the Gees are always staying ahead of the of the Jays right? So the GL stays ahead of the JL then.  If there are more events there then it's impossible because the greedy algorithm would have chosen those.  All right. Let's see. Let's move along.  The last here's this template. Sorry Define the progress measure order the decisions to line up with the decisions prove by induction that the progress after the ice decision is at least as big as that an OS assumed by contradiction that the arbitrary solution is strictly better than GS and use the progress are meant to arrive at a contradiction is kind of what we did.  Okay, so let's just stop.  review that  because it's more Universal.  So it's works on more.  It works on more greedy strategies achieves, but you like the greedy stays ahead better.  Yeah, it's more kind of intuitive and you sort of get get to the point better.  Yeah, it's more Universal.  not your question 2  we just used it.  If you want to use this in the homework instead of the exchange argument, then that's up to you. I will tell you that I'm going to force you to use the exchange argument on the quiz.  Stop get some practice with that. But if you want to use this then this is this is also a great way to prove certain green strategies.  I think you might be able to prove.  The homework problems with all the homework problems with this. Maybe maybe not the last one, but the other three I think so.  Okay. So let's go to the last proof strategy. We only have a 10 minutes left.  8 minutes  Okay, so I'm going to sort of just give you sort of a sense of this one and maybe not go through all the nitty-gritty parts of the proof.  Text but this one is called achieved the Bound for me. This is the most elegant of all the proofs but it only works in certain scenarios. This is actually kind of the the proof I want you to do for the last problem in the homework. I kind of gave you a sense of how it's supposed to go, but you'll see it in another instance. So the way it works is you figure out a bound on the on the objective function saying something like if it's a lower bound and upper bound that every solution cannot be any better than this Bound by doing some sort of argument not nothing to do with your greedy strategy at all. Just something to do with the nature of the problem.  Then you show that the greedy strategy strategy actually achieved that bound meaning that is the most optimal.  Let's look at another example another problem. This is called event scheduling with multiple rooms. So now instead of only having one room like before now, we have an unlimited amount of rooms and we want to schedule all the events, but we want to use the fewest number of rooms. So you can reuse a room after a certain after an event ends, you know, it becomes available.  Okay, so  One way to do this the greedy Choice here would be to number all the rooms.  And just go through time, right?  Whenever another event starts schedule it in the lowest number room that's available.  So put the first event in room one and then for the next event put each event in the smallest numbered room that's available set means when room one becomes unavailable that will be the next place you put the event.  Okay. So in this case right I'm going to put the first event into room one II event into room to 3rd Event Event into room 3 4th event. I can put that into room one because it became available.  Right V event. I can put that into Room 2 because it came available and in the sixth event. I have to make a new room room for because there's not enough rooms.  Why do we have to use for rooms?  Why is that the lowest bound?  exactly  there exists sometime where four events happened. Therefore you have to use for rooms as a minimum. Okay, and then so that's how you sort of justify that in this case for is the minimum.  And then the next thing you have to do is show that the greedy algorithm actually achieves this bound.  So I bring up my clock.  Let's just go through a few things. So this is sort of the idea is that let T be sometime during the conference and be of tea is going to be the set of events that are occurring at that time T. Okay.  So let R be the minimum number of rooms in an arbitrary valid schedule then our has got to be bigger than or equal to b a t for all teeth. Basically the kind of like what we were saying before is that you have to have at least as many rooms as there are events going on.  any particular  you have to have at least L rooms where L is the maximum overall time, right?  Of the number of events happening at each time an L is a lower bound on the number of rooms.  So  maybe I'll just kind of give you a sense of what it is and we'll start with this on on Friday. Is that okay? So the idea here let K be the number of rooms needed for the greedy strategy. So what I want is what I want to show you is that at some point  At some point TB if she is going to be greater than equal to k k.  So the the idea here is either figure out. When did you put a say an event into room K. The only way that had to that that would happen is if you had a vent in room one through K - 1 already and then you had to put that event in K. So that means at that time there were Kay events happening.  And so that means that you have to have at least K number of Brooks.  So maybe let's start off with this on on Friday to come to just review it and then we'll go into sort of the next part of the class. "
+}

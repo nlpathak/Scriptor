@@ -1,0 +1,386 @@
+{
+    "Blurbs": {
+        "+ 1 + 1 + 1 + r to show is that this isn't even integer. because at the property were trying to show is that adding together the two elements of this tubal working with his even x + y + 2 just by rewriting We could Eminem first time. I'm not going to expand out the definition of easy even which is there exists another integer. So the ": [
+            2273.6,
+            2306.3,
+            55
+        ],
+        "1 minute and we'll be doing the proof for this is an interesting property in programming properties. Like this are interesting zoom in a tech. I'm so this property is for all in 2 to the N is less than n factorial where we've given some very precise recursive definitions of 2 to the n and n factorial. One thing I want to do before we leave today is talk ": [
+            2904.9,
+            2935.8,
+            73
+        ],
+        "And this is the place we're going to use this word Lema which is a related interesting property that helps us get to an original goal in a proof related interest in property that helps us get to the original goal in a proof to finish defining the set of position and then we need to talk about what the proof looks like for. The first thing I want you ": [
+            1356.1,
+            1382.2,
+            33
+        ],
+        "Okay, let's get started. So we're going to keep working with inducted definition today do some more proofs. We're going to revisit the linked list example, we've been working with and talk about some interesting example there including the one that was at the end of the worksheet on Monday. Thank you for all the mid-quarter feedback. I want to point out that we got both kinds of feedback on ": [
+            25.1,
+            59.3,
+            0
+        ],
+        "Our goal would be to say let's say a robot starting at one can never reach the square one zero. If only these four kinds of moves are allowed That's our original goal property that's useful to prove to get there because articulating why at any given step the robot is never going to be able to get from there to 10. It's hard to express symbolically. It's hard to ": [
+            1221.7,
+            1246.4,
+            28
+        ],
+        "P Prime into the property and this is what we would call the inductive assumption or the inductive hypothesis. Today's for cases to show here has four different cases to show here. We get this assumption that x + y is an even integer, but I plus why isn't even integer and then it's just a matter of doing out some symbolic work justify this in the things people are ": [
+            2219.7,
+            2247.2,
+            53
+        ],
+        "So this also produces that result. India also produces that result we saw in this case over here this case over here when we have three of the front. We just produce whatever the other elements of the tubule is because it corresponds that case. We just returned Del Sol a c and d all produce this result of 7 followed by empty. What's all three of them produced that ": [
+            561.5,
+            585.3,
+            13
+        ],
+        "This will become becomes a little a little more clear what's going on here to remove has this interesting recursive case where? Much like kind of like contains the two cases that are considered are where the first element in the is equal to the other argument Adam or where it's not equal to this other argument M. That's two different cases in the recursive part of remove and stuff. ": [
+            374.6,
+            407.0,
+            8
+        ],
+        "We talked about tracing some particular calls here. So for example this first one remove seven empty list. 3 That puts us in the second case of remove because 3 is not equal to 7, so this turns into three and then a call to remove on at 3. 7 because that's a ten. And that a call to remove on empty list with three and then that call to ": [
+            407.0,
+            440.7,
+            9
+        ],
+        "What do we get to do in structural induction, we get to pick an element that came from the recursive stuff that we get to look at the elements that were used to build it. P Prime and we make the Assumption of the property were trying to prove for that smaller Elementor for that earlier element we use to build this part. Which is feeling in the values from ": [
+            2194.7,
+            2219.7,
+            52
+        ],
+        "a couple details in that final proof. Cuz one more thing I want to talk about but the main point here is we would use this. And the lamb is the interesting part here in terms of using a proof by induction and defining another interesting recursively defined set. So I want to poke a little more at this idea of defining sets recursively because it's important to say things ": [
+            2459.3,
+            2498.9,
+            61
+        ],
+        "about if this claim is true. Is this claim true? Proclaim true Can you think of a counterexample? example of this claim any holes n equals 1 we can feel that in. So if we filled in if we chose and equals 1 would be feeling into the one is less than 2 factorial or sorry 1 factorial type Rockets restaurant 1 factorial. And that's two is less than one ": [
+            2935.8,
+            2972.6,
+            74
+        ],
+        "am going to try and not represent it meant which is which is related to some of the things. I'm on 294 the one to equal one other interesting way to talk about it other properties we could talk about to get their rights to have our goal. Is to show we could use some of these symbolic forms, right? So for all teams that are in this set of ": [
+            1929.0,
+            1962.1,
+            45
+        ],
+        "and positive. I think so. The question is about how you would write this in code and I think trying to think of these definitions too much light code can lead to some slightly broken and allergies that are misleading. So this is definitely related to code right? We can write a program to generate set at the generate some or something in the same, like bases step recursive step ": [
+            1812.0,
+            1876.0,
+            42
+        ],
+        "assumed we know about like the integers and the natural numbers. But we can Define the recursively an interesting ways. So I hear some definitions reported definitions of Z, + which is positive integers. I want you to think about which ones of these actually match the definition of the positive integers 1 2 3 4 not including 0 which of these definitions that are forcibly Define set match the ": [
+            2521.9,
+            2552.2,
+            63
+        ],
+        "based on their rating of the reason homeworks knowing how to justify things on homework, but based on the homework that's coming in that we're grading you're all getting better at that. So good job responding to the feedback and those justifications are getting better. We've made a public public the aazah Post open for searching for homework Partners. Some people said they wanted some structured way to find people ": [
+            116.6,
+            142.1,
+            3
+        ],
+        "believe it and then I'm going to put some answers after we can choose from I just talked about this prove or disprove claim. If you think it's true if you think is a counterexample or there's a way that we can prove it may be using induction or one of the other strategies. Okay. So this is the one really high level question to ask your is are we ": [
+            618.4,
+            701.1,
+            15
+        ],
+        "by programming and code sexy really important in programming to Define things recursively is how a lot of data structures and a lot of things get to find a programming. So it's just for the work with more and more these things we can use this definition not just for these data structure you list the things we've been talking about we've already sort of used to it if we ": [
+            2498.9,
+            2521.9,
+            62
+        ],
+        "clickers and handouts are some of you wanted either more clicker with shorter discussion time and more discussion questions are represented in the room, which is why we're not making any big changes their we're going to keep a lot of that. That's the way it is, Both sides have spoke up there. If you like it that there's extra practice questions on the hand out. Some of you wanted ": [
+            59.3,
+            84.3,
+            1
+        ],
+        "cool. Let's talk about robots. two dimensional graphical robots robots Is also related to be Bishops in chest to feel like there's a imagine this idea of robot on a grid and the robot or the player you can think of this as in a game can make horizontal moves and there's a goal and the question is with these diagonal moves assuming some size of grid here. I could ": [
+            1116.3,
+            1169.5,
+            25
+        ],
+        "dad in here * 2 is equal to this number, but we can say since x + y is even and adding. 2 to an even integer is also even this result is even justify that more by picking a particular definition of even we've actually talked about that predicate e talks about their existing another manager to * 2 to get to a number and push through. Definition. And ": [
+            2306.3,
+            2355.5,
+            56
+        ],
+        "describing the actual elements of pee or is it a property of elements and P. What else do people write? I mean something like this. What else do people write what else do people write? Interesting parentheses, correct here. I realized I might have done too many or too few parentheses. So you're saying this this new pair or false the second thing looks like another ordered pair another ordered ": [
+            1559.1,
+            1616.2,
+            36
+        ],
+        "don't wake him with a quick which one of a b c and d you think is equivalent. 5 4 3 2 1 I need to be something interesting going on that. I just want to highlight briefly, So he has a pee has a problem. He has a problem for for example, the number five. It's difficult to get to by using the definition in a member of the ": [
+            2619.6,
+            2675.9,
+            65
+        ],
+        "empty list three and that not immediately just produces we can talk about it produces this particular value here immediately produces empty list here and this I'm just going to use the same color to highlight this corresponds to this case. Where the number was equal so we just produced the second elements that was in that too full or like the rest of the list or that variable l-like ": [
+            491.1,
+            523.5,
+            11
+        ],
+        "ever reach that goal. But it ever reach this one zero goal. Precinct I know right like it's just like move. Going to be able to go. Maybe. He'll really really far and then like come back and then would be able to do it. Bring a bunch of moves in like go around it and then eventually spiral into it or something interesting interesting to ask how we could ": [
+            1169.5,
+            1195.1,
+            26
+        ],
+        "exact parallel of structural induction, which is that we can prove things about arbitrary integers or arbitrary positive. Number one that matches the basis stuff. We had an option and then considering other numbers and assuming the property we want for smaller numbers for numbers one less in particular using not to go on and prove it for that number definition. And the property I want to talk about for ": [
+            2867.3,
+            2904.9,
+            72
+        ],
+        "express what in this set. These other things are useful. I'm going to grab them and put them off to the side because they're useful to think about Let me move this stuff down here cuz they're interesting to think about but these really are the things that are elements of a lot of what we've done in talking about recursive definition so far. It's already in the set. And ": [
+            1740.3,
+            1769.6,
+            40
+        ],
+        "first element here, which corresponds to N Out There. Corresponds to n and windows are equal then remove just evaluated or we could think of it as the rest of the list the cell corresponds to this part of this list. And so we'll end up asking is 100 contained in this value 100 empty list. But this other argument 108 definition of contains this turns into not true because ": [
+            980.2,
+            1019.2,
+            21
+        ],
+        "get to choose his own and pee and it's equal to x + 1 y + 1 or equals in. These are the four cases we have to consider. Suzie's for cases to consider and this is the thing that I've been drawing in this box for these. proof by induction steps This is the full set of stuff. We get to assume here that came from the recursive step. ": [
+            2151.7,
+            2194.2,
+            51
+        ],
+        "going to be looking for is this claim? Not true. So we're going to be looking for a counterexample or are we going to die try and do a proof Maybe by structural induction Maybe by Universal generalization. Those are the strategies we know so far for talking about these for all statements. Let's think about this in terms of some particular values that we could put in here at ": [
+            701.1,
+            733.3,
+            16
+        ],
+        "happen. Right? We look at it and some of us have this intuition like that. I can't work but sometimes things are surprising ways to make things work. Can we actually prove? There's no way we construct this argument that says there's no way that you'd ever be able to get to the square one zero and there's going to be an interesting element to the proof. We do here. ": [
+            1195.1,
+            1221.7,
+            27
+        ],
+        "happens in class. That's just right alongside in the directory and we use this word field here. 20 indicate that song that was filmed in So what I want to do days start with the example, we didn't get to on Monday having to do with Define function called remove. I just want to start with a question with us looking at this definition of remove. So we have copied ": [
+            186.6,
+            216.3,
+            6
+        ],
+        "if there's more than one occurrence of the elements in the original doesn't stop that element from appearing in the list after the first once removed The questions about that example about remover these Linkletter going to do another example next. I just want to stop for any any questions about this will be using as an example in the future to stop your questions before we go on. Okay, ": [
+            1083.8,
+            1116.3,
+            24
+        ],
+        "is particularly interesting because it's really just definitionally doesn't match what we said in class a recursive definition of asset is and the thing it doesn't match is that in class we said That basis steps. AR a finite collection of elements We said in the in basic steps. We're going to specify just some pics number of elements that are in the set and there is infinitely many primes ": [
+            2765.3,
+            2806.5,
+            69
+        ],
+        "it contains will return true immediately here. Which is definitely false. So this is a counterexample. And none of the other values examples if we removed from the list, it doesn't have 100 in it. So that evaluates the true case here. This is not in the domain. Because 100 isn't in the domain L the list or either the empty last or some Tuple and a number is not ": [
+            1019.2,
+            1061.6,
+            22
+        ],
+        "just end up needing to show that x + y is even which is already V assumption and in no one with 2 - 1 x + y -2 is he then what you will follow from the properties of even numbers? What's the interesting thing to get out of this is that no matter how many steps we talked about taking we can always trace the steps back to ": [
+            2378.5,
+            2398.8,
+            58
+        ],
+        "kinds of things could be serve as if we're trying to prove or disprove this statement. So maybe one of these could be Particularly, useful counter-examples. So which of the following could be a useful counterexample to this claim is any of them is more than one of them question to ask might just write down some interesting values when we see a flame like this and try and use ": [
+            754.7,
+            794.5,
+            18
+        ],
+        "look at the sum of the coordinates for the robot is at Battle always be even if the goal is at 10 that had that's an odd some of coordinates cos 1 + 0 is odd and if we can prove that the robot all the ways that a coordinate that has an even sum then I can never reach 1 0 and so we can use what we've been ": [
+            1276.6,
+            1300.0,
+            30
+        ],
+        "nice little Emma is enough. targetas last property original goal was I cannot? Reach zero one where we would want to say something like for all key and key and we be able to demonstrate this by using the fact that this has to be that the coordinates have to be even so that'll always be true, but it's not equal to 010 in 1 or odd. I'm getting over ": [
+            2421.4,
+            2459.3,
+            60
+        ],
+        "one of the things we should do when we think about somebody statement is putting in values. And so the the question here is out of do you think of these are just interesting examples? Do you think the what do you think that these could serve as here? Are these going to be like Witnesses for this? Are these going to be interesting examples? Going to be counter-examples what ": [
+            733.3,
+            754.7,
+            17
+        ],
+        "one of those things. So that wouldn't be a good example because it's simply not in the domain and then see if we remove 100 from this will end up with the empty last and won't be contained and I don't produce Saudi is the only one that works as a counterexample to remove the first occurrence of an element that contains checks for any occurrence of an element. So ": [
+            1061.6,
+            1083.8,
+            23
+        ],
+        "pair of coordinates. Ask Mom to has two equal y mod 2, so that's another property. We could write down X mod 2 equals y mod mm others property interest in getting back to this original comment. That's not an ordered pair like the other things. It's another property we can talk about people right here. You said Xbox One, Why plus one? Okay. x + 1 y - 1 ": [
+            1616.2,
+            1663.4,
+            37
+        ],
+        "positions we can reach And what we have written on the sheet, I'm just going to write it out in English because the interesting part. the interesting part for us right now is I'm not necessarily which math gets us to an even integer. Just seeing those seeing a recursive structure. So in the basis step here. We know that so this is by structural induction. I'm just going to ": [
+            1962.1,
+            1995.5,
+            46
+        ],
+        "positive integers. 5 4 3 2 1 when I want you to discuss is there more than one that fits the definition a lot of you were like, yeah, like I found the last one do any of A B C or D describe the same set as he he definitely Drive the same set as a year. Is it? Is there a problem with any of them? So don't ": [
+            2552.2,
+            2619.6,
+            64
+        ],
+        "remove use as the basis of function because the basic stuff is what happens when the first argument turns into 7 empty list. 1st Kings evaluate all the way down until we get to show for the second one be here. What is be produced as a result of as a result? Empty list so remove the three right? It's the trays for the second case looks like remove. Three ": [
+            440.7,
+            491.1,
+            10
+        ],
+        "response that case so this definitely doesn't produce the result. We expect the other two cases. So when we remove three from the side that has seven and three empty list will do a step that looks like this left in case the first case that we did but instead of doing remove empty list three with three empty words to pull in this position that would correspond to this. ": [
+            523.5,
+            554.8,
+            12
+        ],
+        "rest of the body of this predicate. Is this true? Not contain. That's the full body of the predicate with this value substituted in but with one more 100 at the end here for the argument to contain. And if we think about the steps this is going to take and use the definition of remove remove this argument this argument here, which corresponds to m is equal to this ": [
+            940.2,
+            980.2,
+            20
+        ],
+        "result reiterated definition and remove a linked list that matches the second Rd. What's mulan's approving this playing this with the claim that we had on that we had at the end of Monday that we didn't get to this prove or disprove play and I want to let you think about it for a minute and then I'm going to put this claim for a second see if you ": [
+            585.3,
+            618.4,
+            14
+        ],
+        "ride it again here. It's written above but just to be totally clear by structural induction. We have that team must be equal to 0 0 + 0 + 0 is clearly even So that's that is very straightforward and then the recursive step. It's kind of interesting because we're saying what do we get to assume here? We get to choose an arbitrary P equals x + Interesting. How ": [
+            1995.5,
+            2035.7,
+            47
+        ],
+        "set as beanie, but doesn't match what we said as what it means to be a basis stuff. We said basic steps are going to be fine in the book where exactly what's in the book. But in class we made a big deal about this. I want to highlight it and you can always express these recursively defined set this way. This base is step is going to be ": [
+            2806.5,
+            2832.9,
+            70
+        ],
+        "set based on the basis step-up. There is no integer. We can multiply by 2 or 3 to get to 5. So I buy a 5 is a good example of why this can't be the same set as the one below. Miss next example, so okay one is in positive integers twenties in the positive integers cool. Nice little bonus in the basis step and then we can get ": [
+            2675.9,
+            2703.3,
+            66
+        ],
+        "should we express what we know in this recursive case? Is it just a case where it's I want to be careful about what we know and describe its me either in English or symbolically. What do we know? What do we get to choose as the arbitrary elements and what we know and recursive case. Let me know. Doing out yeah. Interesting, so there must be some other P ": [
+            2035.7,
+            2066.5,
+            48
+        ],
+        "some fine at collection animal use the recursive step to add any internet collections. We want to talk about There's one more idea. I just want to appease here. We're not going to finish it today. But definitions on the last slide really get at some connection between the structural induction property. We've been talking about and its other properties of mathematical induction and the idea is sort of an ": [
+            2832.9,
+            2867.3,
+            71
+        ],
+        "some so it can't possibly be in the South and so one of the things I want to make a point of here is we started with a goal. This was our original goal up here. And we're not that's not the thing that you're proving that we're going to prove with induction. And with this definition of a of a set we're going to prove this other interesting property. ": [
+            1325.5,
+            1350.4,
+            32
+        ],
+        "stay at for me to figure out how to say exactly the robot can never get there with the symbols that we know about but there's actually a nice way to express what's going on here, which is that if a robot starts at let's say in this example 00 starts at 0 0. There's this other property that ends up being true we can try to prove if we ": [
+            1246.4,
+            1276.6,
+            29
+        ],
+        "sun being even right exactly the right way to express it or not, but they're interesting properties of elements of the set. If we're just defining the set the set p is trying to represent positions and sort of implicitly by starting with this ordered pair of 0 0 or thinking of these ordered pairs as positions until I really like this last this last answer as a way to ": [
+            1713.9,
+            1740.3,
+            39
+        ],
+        "talking about in terms of defining the set of possible position to talk about the possible positions for the robot. Talk about them starting in 00 as the basis step and then talking but somehow I had to take steps to represent the robots movement. And then if we can prove this even property it'll follow from this even property that the robot can never reach 1010 has an odd ": [
+            1300.0,
+            1325.5,
+            31
+        ],
+        "talking about makes a lot make a lot of sense. I must take this case. So there's four cases we can pick here cuz we have an ore and we're trying to justify a conclusion based on that or so. We need to demonstrate it for all of those cases. Let's just take the case with x + 1 y + 1 And we can talk about the sum x ": [
+            2247.2,
+            2273.6,
+            54
+        ],
+        "that's definitely false. So n equals one is definitely a counterexample. Is there a more interesting version of this property? That would actually be true that still uses of fur all n equals 2 is also a counterexample and 6 and 2/3 is 8 what is there some way we could alter this property to make it? ": [
+            2972.6,
+            2998.6,
+            75
+        ],
+        "the the set of linked list of natural numbers again, personally Define definition of remove function, which one of these calls to remove or uses of remove produces the result of seven and the empty list which one of these produces this result. 5 4 3 2 1 and discus Okay Quicken again Quicken again. 5 4 3 2 1 okay, so it's interesting after one or two faces here. ": [
+            216.3,
+            374.6,
+            7
+        ],
+        "them to find a counterexample. 5 4 3 2 1 Okay quick and again and again. 5 4 3 2 1 so there's some convergence from the class on choosing be here and D does work as a useful counterexample. If we think about Tracy we're asking what does it look like to do remove 100 100 empty list. With 100 is the other argument and then we have the ": [
+            794.5,
+            940.2,
+            19
+        ],
+        "then we do some calculations other elements that are also a question. That's a great question. So there is a you're asking basically are these pairs allowed to go negative because it's actually going to make the problem a little bit if both easier to think about and a really strong property, even if we assume that all this stuff is negative, even on an infant coordinate plane going negative ": [
+            1769.6,
+            1812.0,
+            41
+        ],
+        "thing that we posted for this if you look in the the normal class directory for Monday. This is the one of the proof that the end I did this fast in the other section. They didn't play finish it. So we typed it up and put it in there so you can start looking for things like this. I filled in for at least some of the stuff that ": [
+            165.9,
+            186.6,
+            5
+        ],
+        "this is where we used. The inductive hypothesis that we got to assume at the beginning we got to assume that x + y is even and that evidence plus just the arithmetic and definition of even gets us to the goal. And we can do this for all the cases because in the cases with a plus one in a minus one though, they cancel each other out. We'll ": [
+            2355.5,
+            2378.5,
+            57
+        ],
+        "to New integers by adding one or by adding 100. this definition doesn't Add any numbers it shouldn't or leave out any numbers. It just has multiple ways of defining some of the same numbers. So for example, the number 120 is definitely in this set and we can talk about it being in this set for several reasons * 120 being in the sun. We could have also started ": [
+            2703.3,
+            2736.4,
+            67
+        ],
+        "to try and do is fill in this part of the definition. What is this part of the definition for this set of possible robot position for a minute and see what it what it looks like. Okay. So what should we be filling in here which will be filling in in this plane? How can we describe this set of possible positions? The way to write it down. Ben ": [
+            1382.2,
+            1487.9,
+            34
+        ],
+        "to work with on homework. So in the pin post on Piazza, and now there's a fine teammates post. So you can use that to look for folks that might have the same schedule or otherwise be compatible people to work with on the homework. So thanks for all the feedback, We're we're doing to address some concerns. I just wanted to point out like this is the kind of ": [
+            142.1,
+            165.9,
+            4
+        ],
+        "us to get to all of the stuff on the handouts in class. At least for Monday and I going forward we started posting some copies of the handouts with can you stop talking? So we started posting some typed up answers on the handouts for some of the some of the things that maybe didn't get fully completed in class pass at the end of Monday you you're at ": [
+            84.3,
+            116.6,
+            2
+        ],
+        "what's 1 y + 1? And then two minuses different direction scrolling up interesting. Think about your you wrote one pair for each one of these positions that I can get to by adding or subtracting one. Tristan yeah, so these are so this these two that I'm circling in blue are interesting properties to talk about their definitely interesting properties to talk about that have to do with the ": [
+            1665.7,
+            1713.9,
+            38
+        ],
+        "whatever is where we started at and we end up getting this inductively to find property that you started if you start with an even sum every time you either add to or stay the same with respect to the even the sad to subtract two or stay the same with respect to the total sum in that keeps us on even numbers the whole time. This is enough this ": [
+            2398.8,
+            2421.4,
+            59
+        ],
+        "where X + Y is even right. So let's choose a p Prime because I don't want to conflate the P we've been using to talk about the arbitrary element. We're choosing a recursive definition to build it up, Sorry, and we know that x + y isn't even integer What else what else do we need to choose or be aware of here? Yeah. CVX moves in some direction ": [
+            2066.5,
+            2119.1,
+            49
+        ],
+        "while some was in some directions going to be important. Yeah. Yeah. Yeah, so we can talk about these conversations. I want to focus on that part. So both of these observations that X and Y changing and the combinations mattering are relevant here, but there's something we need to choose here, which is that there's four there's four different cases here. So one of these is true, Either we ": [
+            2119.1,
+            2151.7,
+            50
+        ],
+        "with 20 and added 100 once but this actually represent the same set of numbers represents the same set of numbers as he She is interesting because he admits more numbers numbers that we shouldn't have. For example, we can get the Zero by starting with two and subtracting one once so, it doesn't match because zeros not in the sense B+ not in this at the Scribe ibne. Dee ": [
+            2736.4,
+            2765.3,
+            68
+        ],
+        "written down structure is I want to see this is too much like the program that would produce it or the program that would represent it. So because I Don't want to try and relate this to another notation it like programming notation because there's all sorts of understanding of what this means. If I give you an order if I give you a value that's not an ordered pair ": [
+            1876.0,
+            1903.9,
+            43
+        ],
+        "x + y sorry is not one. I interesting so then x + y mod 2 not equal to one. Already has other ideas is that the only feel right other ideas for what we should be talking about here. Yeah. interesting You're saying this is a weird that you're saying. This is like. is this Sony speaker question that's what you're saying. Is this actually this guy is this ": [
+            1487.9,
+            1559.1,
+            35
+        ],
+        "you can say no way that's not empty all the values in PR ordered pairs. If I give you a value of an ordered pair of integers can go to the recursive definition and see if you can get back to a basis step by using the recursive definition over and over again to check if it's in p I totally talked around here your question and say that I ": [
+            1903.9,
+            1929.0,
+            44
+        ]
+    },
+    "File Name": "Intro_Discrete_Mathematics___B00___Politz__Joseph_Gibbs___Spring_2019-lecture_17.flac",
+    "Full Transcript": "Okay, let's get started.  So we're going to keep working with inducted definition today do some more proofs. We're going to revisit the linked list example, we've been working with and talk about some interesting example there including the one that was at the end of the worksheet on Monday. Thank you for all the mid-quarter feedback. I want to point out that we got both kinds of feedback on clickers and handouts are some of you wanted either more clicker with shorter discussion time and more discussion questions are represented in the room, which is why we're not making any big changes their we're going to keep a lot of that. That's the way it is, Both sides have spoke up there. If you like it that there's extra practice questions on the hand out. Some of you wanted us to get to all of the stuff on the handouts in class.  At least for Monday and I going forward we started posting some copies of the handouts with can you stop talking? So we started posting some typed up answers on the handouts for some of the some of the things that maybe didn't get fully completed in class pass at the end of Monday you you're at based on their rating of the reason homeworks knowing how to justify things on homework, but based on the homework that's coming in that we're grading you're all getting better at that. So good job responding to the feedback and those justifications are getting better. We've made a public public the aazah Post open for searching for homework Partners. Some people said they wanted some structured way to find people to work with on homework. So in the pin post on Piazza, and now there's a fine teammates post.  So you can use that to look for folks that might have the same schedule or otherwise be compatible people to work with on the homework. So thanks for all the feedback, We're we're doing to address some concerns. I just wanted to point out like this is the kind of thing that we posted for this if you look in the the normal class directory for Monday. This is the one of the proof that the end I did this fast in the other section. They didn't play finish it. So we typed it up and put it in there so you can start looking for things like this. I filled in for at least some of the stuff that happens in class. That's just right alongside in the directory and we use this word field here.  20 indicate that song that was filmed in  So what I want to do days start with the example, we didn't get to on Monday having to do with Define function called remove. I just want to start with a question with us looking at this definition of remove. So we have copied the the set of linked list of natural numbers again, personally Define definition of remove function, which one of these calls to remove or uses of remove produces the result of seven and the empty list which one of these produces this result.  5 4 3 2 1 and discus  Okay Quicken again Quicken again.  5 4 3 2  1  okay, so it's interesting after one or two faces here. This will become becomes a little a little more clear what's going on here to remove has this interesting recursive case where?  Much like kind of like contains the two cases that are considered are where the first element in the is equal to the other argument Adam or where it's not equal to this other argument M. That's two different cases in the recursive part of remove and stuff. We talked about tracing some particular calls here.  So for example this first one remove seven empty list.  3  That puts us in the second case of remove because 3 is not equal to 7, so this turns into three and then a call to remove on at 3.  7 because that's a ten.  And that a call to remove on empty list with three and then that call to remove use as the basis of function because the basic stuff is what happens when the first argument turns into 7 empty list.  1st Kings evaluate all the way down until we get to show for the second one be here. What is be produced as a result of as a result?  Empty list so remove the three right? It's the trays for the second case looks like remove.  Three empty list three and that not immediately just produces we can talk about it produces this particular value here immediately produces empty list here and this I'm just going to use the same color to highlight this corresponds to this case.  Where the number was equal so we just produced the second elements that was in that too full or like the rest of the list or that variable l-like response that case so this definitely doesn't produce the result. We expect the other two cases. So when we remove three from the side that has seven and three empty list will do a step that looks like this left in case the first case that we did but instead of doing remove empty list three with three empty words to pull in this position that would correspond to this.  So this also produces that result.  India also produces that result we saw in this case over here this case over here when we have three of the front. We just produce whatever the other elements of the tubule is because it corresponds that case. We just returned Del Sol a c and d all produce this result of 7 followed by empty. What's all three of them produced that result reiterated definition and remove a linked list that matches the second Rd.  What's mulan's approving this playing this with the claim that we had on that we had at the end of Monday that we didn't get to this prove or disprove play and I want to let you think about it for a minute and then I'm going to put this claim for a second see if you believe it and then I'm going to put some answers after we can choose from I just talked about this prove or disprove claim. If you think it's true if you think is a counterexample or there's a way that we can prove it may be using induction or one of the other strategies.  Okay. So this is the one really high level question to ask your is are we going to be looking for is this claim? Not true. So we're going to be looking for a counterexample or are we going to die try and do a proof Maybe by structural induction Maybe by Universal generalization. Those are the strategies we know so far for talking about these for all statements. Let's think about this in terms of some particular values that we could put in here at one of the things we should do when we think about somebody statement is putting in values. And so the the question here is out of do you think of these are just interesting examples? Do you think the what do you think that these could serve as here? Are these going to be like Witnesses for this? Are these going to be interesting examples?  Going to be counter-examples what kinds of things could be serve as if we're trying to prove or disprove this statement.  So maybe one of these could be  Particularly, useful counter-examples. So which of the following could be a useful counterexample to this claim is any of them is more than one of them question to ask might just write down some interesting values when we see a flame like this and try and use them to find a counterexample.  5 4 3 2 1  Okay quick and again and again.  5 4 3 2 1  so there's some convergence from the class on choosing be here and D does work as a useful counterexample. If we think about Tracy we're asking what does it look like to do remove 100 100 empty list.  With 100 is the other argument and then we have the rest of the body of this predicate.  Is this true?  Not contain. That's the full body of the predicate with this value substituted in but with one more 100 at the end here for the argument to contain.  And if we think about the steps this is going to take and use the definition of remove remove this argument this argument here, which corresponds to m is equal to this first element here, which corresponds to N Out There.  Corresponds to n and windows are equal then remove just evaluated or we could think of it as the rest of the list the cell corresponds to this part of this list. And so we'll end up asking is 100 contained in this value 100 empty list.  But this other argument 108 definition of contains this turns into not true because it contains will return true immediately here.  Which is definitely false.  So this is a counterexample.  And none of the other values examples if we removed from the list, it doesn't have 100 in it. So that evaluates the true case here. This is  not in the domain.  Because 100 isn't in the domain L the list or either the empty last or some Tuple and a number is not one of those things. So that wouldn't be a good example because it's simply not in the domain and then see if we remove 100 from this will end up with the empty last and won't be contained and I don't produce Saudi is the only one that works as a counterexample to remove the first occurrence of an element that contains checks for any occurrence of an element. So if there's more than one occurrence of the elements in the original doesn't stop that element from appearing in the list after the first once removed  The questions about that example about remover these Linkletter going to do another example next. I just want to stop for any any questions about this will be using as an example in the future to stop your questions before we go on.  Okay, cool. Let's talk about robots.  two dimensional graphical robots robots  Is also related to be Bishops in chest to feel like there's a imagine this idea of robot on a grid and the robot or the player you can think of this as in a game can make horizontal moves and there's a goal and the question is with these diagonal moves assuming some size of grid here. I could ever reach that goal. But it ever reach this one zero goal.  Precinct  I know right like it's just like move.  Going to be able to go. Maybe. He'll really really far and then like come back and then would be able to do it.  Bring a bunch of moves in like go around it and then eventually spiral into it or something interesting interesting to ask how we could happen. Right? We look at it and some of us have this intuition like that. I can't work but sometimes things are surprising ways to make things work. Can we actually prove? There's no way we construct this argument that says there's no way that you'd ever be able to get to the square one zero and there's going to be an interesting element to the proof. We do here. Our goal would be to say let's say a robot starting at one can never reach the square one zero. If only these four kinds of moves are allowed  That's our original goal property that's useful to prove to get there because articulating why at any given step the robot is never going to be able to get from there to 10. It's hard to express symbolically. It's hard to stay at for me to figure out how to say exactly the robot can never get there with the symbols that we know about but there's actually a nice way to express what's going on here, which is that if a robot starts at let's say in this example 00 starts at 0 0. There's this other property that ends up being true we can try to prove if we look at the sum of the coordinates for the robot is at Battle always be even  if the goal is at 10 that had that's an odd some of coordinates cos 1 + 0 is odd and if we can prove that the robot all the ways that a coordinate that has an even sum then I can never reach 1 0  and so we can use what we've been talking about in terms of defining the set of possible position to talk about the possible positions for the robot.  Talk about them starting in 00 as the basis step and then talking but somehow I had to take steps to represent the robots movement.  And then if we can prove this even property it'll follow from this even property that the robot can never reach 1010 has an odd some so it can't possibly be in the South and so one of the things I want to make a point of here is we started with a goal. This was our original goal up here.  And we're not that's not the thing that you're proving that we're going to prove with induction. And with this definition of a of a set we're going to prove this other interesting property.  And this is the place we're going to use this word Lema which is a related interesting property that helps us get to an original goal in a proof related interest in property that helps us get to the original goal in a proof to finish defining the set of position and then we need to talk about what the proof looks like for. The first thing I want you to try and do is fill in this part of the definition. What is this part of the definition for this set of possible robot position for a minute and see what it what it looks like.  Okay. So what should we be filling in here which will be filling in in this plane? How can we describe this set of possible positions?  The way to write it down.  Ben x + y sorry  is not one.  I interesting so then x + y mod 2 not equal to one.  Already has other ideas is that the only feel right other ideas for what we should be talking about here.  Yeah.  interesting  You're saying this is a weird that you're saying. This is like.  is this  Sony speaker question that's what you're saying. Is this actually this guy is this describing the actual elements of pee or is it a property of elements and P. What else do people write? I mean something like this. What else do people write what else do people write?  Interesting parentheses, correct here. I realized I might have done too many or too few parentheses. So you're saying this this new pair or false the second thing looks like another ordered pair another ordered pair of coordinates.  Ask Mom to has two equal y mod 2, so that's another property. We could write down X mod 2 equals y mod mm others property interest in getting back to this original comment. That's not an ordered pair like the other things. It's another property we can talk about people right here.  You said Xbox One, Why plus one? Okay.  x + 1 y - 1  what's 1 y + 1?  And then two minuses different direction scrolling up interesting. Think about your you wrote one pair for each one of these positions that I can get to by adding or subtracting one.  Tristan yeah, so these are so this these two that I'm circling in blue are interesting properties to talk about their definitely interesting properties to talk about that have to do with the sun being even right exactly the right way to express it or not, but they're interesting properties of elements of the set. If we're just defining the set the set p is trying to represent positions and sort of implicitly by starting with this ordered pair of 0 0 or thinking of these ordered pairs as positions until I really like this last this last answer as a way to express what in this set. These other things are useful. I'm going to grab them and put them off to the side because they're useful to think about  Let me move this stuff down here cuz they're interesting to think about but these really are the things that are elements of a lot of what we've done in talking about recursive definition so far. It's already in the set. And then we do some calculations other elements that are also a question.  That's a great question. So there is a you're asking basically are these pairs allowed to go negative because it's actually going to make the problem a little bit if both easier to think about and a really strong property, even if we assume that all this stuff is negative, even on an infant coordinate plane going negative and positive.  I think so. The question is about how you would write this in code and I think trying to think of these definitions too much light code can lead to some slightly broken and allergies that are misleading. So this is definitely related to code right? We can write a program to generate set at the generate some or something in the same, like bases step recursive step written down structure is I want to see this is too much like the program that would produce it or the program that would represent it. So because I  Don't want to try and relate this to another notation it like programming notation because there's all sorts of understanding of what this means. If I give you an order if I give you a value that's not an ordered pair you can say no way that's not empty all the values in PR ordered pairs. If I give you a value of an ordered pair of integers can go to the recursive definition and see if you can get back to a basis step by using the recursive definition over and over again to check if it's in p  I totally talked around here your question and say that I am going to try and not represent it meant which is which is related to some of the things. I'm on 294 the one to equal one other interesting way to talk about it other properties we could talk about to get their rights to have our goal.  Is to show we could use some of these symbolic forms, right? So for all teams that are in this set of positions we can reach  And what we have written on the sheet, I'm just going to write it out in English because the interesting part.  the interesting part for us right now is  I'm not necessarily which math gets us to an even integer. Just seeing those seeing a recursive structure.  So in the basis step here.  We know that so this is by structural induction. I'm just going to ride it again here. It's written above but just to be totally clear by structural induction. We have that team must be equal to 0 0 + 0 + 0 is clearly even  So that's that is very straightforward and then the recursive step.  It's kind of interesting because we're saying what do we get to assume here? We get to choose an arbitrary P equals x +  Interesting. How should we express what we know in this recursive case? Is it just a case where it's I want to be careful about what we know and describe its me either in English or symbolically. What do we know? What do we get to choose as the arbitrary elements and what we know and recursive case.  Let me know.  Doing out yeah.  Interesting, so there must be some other P where X + Y is even right. So let's choose a p Prime because I don't want to conflate the P we've been using to talk about the arbitrary element. We're choosing a recursive definition to build it up, Sorry, and we know that x + y isn't even  integer  What else what else do we need to choose or be aware of here?  Yeah.  CVX moves in some direction while some was in some directions going to be important. Yeah.  Yeah.  Yeah, so we can talk about these conversations. I want to focus on that part. So both of these observations that X and Y changing and the combinations mattering are relevant here, but there's something we need to choose here, which is that there's four there's four different cases here. So one of these is true,  Either we get to choose his own and pee and it's equal to x + 1 y + 1 or equals in. These are the four cases we have to consider.  Suzie's for cases to consider and this is the thing that I've been drawing in this box for these.  proof by induction  steps  This is the full set of stuff. We get to assume here that came from the recursive step.  What do we get to do in structural induction, we get to pick an element that came from the recursive stuff that we get to look at the elements that were used to build it. P Prime and we make the Assumption of the property were trying to prove for that smaller Elementor for that earlier element we use to build this part.  Which is feeling in the values from P Prime into the property and this is what we would call the inductive assumption or the inductive hypothesis.  Today's for cases to show here has four different cases to show here. We get this assumption that x + y is an even integer, but I plus why isn't even integer and then it's just a matter of doing out some symbolic work justify this in the things people are talking about makes a lot make a lot of sense. I must take this case. So there's four cases we can pick here cuz we have an ore and we're trying to justify a conclusion based on that or so. We need to demonstrate it for all of those cases. Let's just take the case with x + 1 y + 1  And we can talk about the sum x + 1 + 1 + 1 + r to show is that this isn't even integer.  because at the property were trying to show is that adding together the two elements of this tubal working with his even x + y + 2 just by rewriting  We could Eminem first time. I'm not going to expand out the definition of easy even which is there exists another integer. So the dad in here * 2 is equal to this number, but we can say since x + y is even and adding.  2 to an even  integer is also even  this result  is even justify that more by picking a particular definition of even we've actually talked about that predicate e talks about their existing another manager to * 2 to get to a number and push through. Definition.  And this is where we used.  The inductive hypothesis that we got to assume at the beginning we got to assume that x + y is even and that evidence plus just the arithmetic and definition of even gets us to the goal.  And we can do this for all the cases because in the cases with a plus one in a minus one though, they cancel each other out. We'll just end up needing to show that x + y is even which is already V assumption and in no one with 2 - 1 x + y -2 is he then what you will follow from the properties of even numbers?  What's the interesting thing to get out of this is that no matter how many steps we talked about taking we can always trace the steps back to whatever is where we started at and we end up getting this inductively to find property that you started if you start with an even sum every time you either add to or stay the same with respect to the even the sad to subtract two or stay the same with respect to the total sum in that keeps us on even numbers the whole time.  This is enough this nice little Emma is enough.  targetas last property original goal  was I cannot?  Reach zero one where we would want to say something like for all key and key and we be able to demonstrate this by using the fact that this has to be that the coordinates have to be even so that'll always be true, but it's not equal to 010 in 1 or odd. I'm getting over a couple details in that final proof. Cuz one more thing I want to talk about but the main point here is we would use this.  And the lamb is the interesting part here in terms of using a proof by induction and defining another interesting recursively defined set.  So I want to poke a little more at this idea of defining sets recursively because it's important to say things by programming and code sexy really important in programming to Define things recursively is how a lot of data structures and a lot of things get to find a programming. So it's just for the work with more and more these things we can use this definition not just for these data structure you list the things we've been talking about we've already sort of used to it if we assumed we know about like the integers and the natural numbers.  But we can Define the recursively an interesting ways. So I hear some definitions reported definitions of Z, + which is positive integers. I want you to think about which ones of these actually match the definition of the positive integers 1 2 3 4 not including 0 which of these definitions that are forcibly Define set match the positive integers.  5 4 3 2 1 when I want you to discuss is there more than one that fits the definition a lot of you were like, yeah, like I found the last one do any of A B C or D describe the same set as he he definitely Drive the same set as a year. Is it? Is there a problem with any of them?  So don't don't wake him with a quick which one of a b c and d you think is equivalent.  5 4 3 2 1 I need to be something interesting going on that. I just want to highlight briefly, So he has a pee has a problem. He has a problem for for example, the number five.  It's difficult to get to by using the definition in a member of the set based on the basis step-up. There is no integer. We can multiply by 2 or 3 to get to 5. So I buy a 5 is a good example of why this can't be the same set as the one below.  Miss next example, so okay one is in positive integers twenties in the positive integers cool. Nice little bonus in the basis step and then we can get to New integers by adding one or by adding 100.  this definition doesn't  Add any numbers it shouldn't or leave out any numbers. It just has multiple ways of defining some of the same numbers. So for example, the number 120 is definitely in this set and we can talk about it being in this set for several reasons * 120 being in the sun. We could have also started with 20 and added 100 once but this actually represent the same set of numbers represents the same set of numbers as he  She is interesting because he admits more numbers numbers that we shouldn't have. For example, we can get the Zero by starting with two and subtracting one once so, it doesn't match because zeros not in the sense B+ not in this at the Scribe ibne.  Dee is particularly interesting because it's really just definitionally doesn't match what we said in class a recursive definition of asset is and the thing it doesn't match is that in class we said  That basis steps.  AR  a finite collection of elements  We said in the in basic steps. We're going to specify just some pics number of elements that are in the set and there is infinitely many primes set as beanie, but doesn't match what we said as what it means to be a basis stuff. We said basic steps are going to be fine in the book where exactly what's in the book. But in class we made a big deal about this. I want to highlight it and you can always express these recursively defined set this way. This base is step is going to be some fine at collection animal use the recursive step to add any internet collections. We want to talk about  There's one more idea. I just want to appease here. We're not going to finish it today. But definitions on the last slide really get at some connection between the structural induction property. We've been talking about and its other properties of mathematical induction and the idea is sort of an exact parallel of structural induction, which is that we can prove things about arbitrary integers or arbitrary positive. Number one that matches the basis stuff. We had an option and then considering other numbers and assuming the property we want for smaller numbers for numbers one less in particular using not to go on and prove it for that number definition.  And the property I want to talk about for 1 minute and we'll be doing the proof for this is an interesting property in programming properties. Like this are interesting zoom in a tech.  I'm so this property is for all in 2 to the N is less than n factorial where we've given some very precise recursive definitions of 2 to the n and n factorial.  One thing I want to do before we leave today is talk about if this claim is true. Is this claim true?  Proclaim true  Can you think of a counterexample?  example of this claim  any holes  n equals 1  we can feel that in. So if we filled in if we chose and equals 1 would be feeling into the one is less than 2 factorial or sorry 1 factorial type Rockets restaurant 1 factorial.  And that's two is less than one that's definitely false. So n equals one is definitely a counterexample.  Is there a more interesting version of this property? That would actually be true that still uses of fur all n equals 2 is also a counterexample and 6 and 2/3 is 8 what is there some way we could alter this property to make it? "
+}

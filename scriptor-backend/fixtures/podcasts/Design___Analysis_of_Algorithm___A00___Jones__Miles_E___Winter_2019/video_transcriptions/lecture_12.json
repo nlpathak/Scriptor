@@ -1,0 +1,381 @@
+{
+    "Blurbs": {
+        "9. Let's say that G1 is the event with the earliest finish time the first video the first greedy decision, right? That's the first thing that you choose. Okay, and now we're going to have OSB any legal schedule that does not include G1. When I claim is that there exists some other schedule that does include G1 that is just as good or even better than OS and we'll ": [
+            1798.6,
+            1831.4,
+            45
+        ],
+        "But we do have to prove first that OS Prime is valid and to that OS Prime is bigger or equal to that OS. Okay, so this place is Trivial, right? Because if there's no conflicts, then it will if it won't conflict with jwonn and won't conflict with anything else so you can just add it in. but for this one the claim is that OS Prime is valid ": [
+            2043.0,
+            2085.3,
+            52
+        ],
+        "I just said that. Yeah, let's say that there are an events, right? Okay, so let's let's take a let's kind of brainstorm a little bit about how to do this one way would be to go through find the earliest Endtime pick that one and then go through each event to see if it conflicts and if it does then remove it from the set and repeat right so ": [
+            1168.0,
+            1263.0,
+            27
+        ],
+        "Okay, let's get started. So the quiz grades have been released. So I guess about the quiz you can drop one quiz. And another thing is that if you didn't do so well on this quiz, I wouldn't I wouldn't let that get you down so much because you can drop a quiz and also the this class if you haven't already kind of figured out is going to be ": [
+            43.9,
+            78.3,
+            0
+        ],
+        "Okay, so does anybody have a counterexample or does anyone want to try to convince me that it works all the time? Okay. Okay 9 to 12. I guess the rest of the day. Okay good. So why is the spell is because if I choose the smallest one, which is the 9 to 12 then I can't choose any of the other ones cuz they're all conflicting and that ": [
+            647.6,
+            690.6,
+            15
+        ],
+        "Right, so it's like all the events that remain. Then OS Prime is going to be G1. We know that it it gives us we know that it has that specific event. And then it has some other solution on I try some other subsets of those events that don't konflict and so-and-so. What can we conclude using the inductive hypothesis of this? Well, yeah, we know that I prime ": [
+            2748.7,
+            2784.8,
+            68
+        ],
+        "So what does it mean that when I say that the greedy algorithm solves and optimization problem? Okay. So remember that we have an instance which is like the information given let's say that GS is the greedy solution and that oasses any other solution to the instance for The Green Solution to be called optimal that means that the value of any solution is less than or equal to ": [
+            1544.6,
+            1573.3,
+            36
+        ],
+        "So, you know that you have to take the first event. And you put it into a q i mean or you could do it your way where you just don't start at all and you start with a priority queue. It's going to be the same run time. The same complexity but I just kind of think that this might be a little bit easier to kind of think ": [
+            1351.6,
+            1374.4,
+            30
+        ],
+        "That's that's why it's called an exchange argument because most most of the time when you build this new solution, you're exchanging one event, or thing for another this where happening in animation. Oh, yeah. Pretty cool, huh? Okay, so that's that's the exchange and it's easy easy enough to say and in fact, I'm I made it even a little bit more specific where I said, If J1 intersects ": [
+            1974.2,
+            2009.6,
+            50
+        ],
+        "The exchange argument one at start of this backwards way of proving it where it's a greedy stays ahead. I feel like it's a more kind of direct way. It only works in certain cases, though. Then there's a greedy achieved the band which is really the the most elegant way, but it it doesn't always work. It's not always applicable. Okay. So which one do you is which one ": [
+            1676.0,
+            1702.6,
+            41
+        ],
+        "We broke it up into the greedy choice plus all the other events. We use the induction hypothesis to show that that it's better to use the greedy solution for those other events. And then this is just the definition of the greedy solution. So we started with any Solution on I and we show that it's less than or equal to the greedy Solution on eye. We'll see a ": [
+            2858.5,
+            2889.8,
+            71
+        ],
+        "about it is that it does not include G1. Okay, so our to-do list is to First Define OS Prime and then show three things. Has no overlaps it includes G1 and it's better or just as good as OS. Okay, so anybody have any ideas on how to define OS Prime from OS? And then what do you do with J-1? Okay, so you exchange G14 J1? Okay good. ": [
+            1919.7,
+            1974.2,
+            49
+        ],
+        "about so you sort it and then you put the first event you set your value which is like, you know, the the time the latest time that you have the latest finish time out of all the events in your set and then you kind of cycle through the events and find out where that wherever the next one starts which is after your finish time. That's going to ": [
+            1374.4,
+            1402.8,
+            31
+        ],
+        "always the case that the finish time of G1 is going to be at or before the start time of J2. question Oh, yes, that should be G1. Sorry about that. Thank you. Are there any other questions? Okay good. So OS Prime is valid great. We've done that now we have to show that OS Prime is greater than or equal to OS and I was going to have ": [
+            2344.9,
+            2382.9,
+            57
+        ],
+        "any questions or comments? Yeah, so this next Quiz I can already tell you it's going to be a some true-false questions that are mostly going to be do have to do with minimum spanning trees and things like that. And then the design question is going to be a greedy algorithm that I'll actually give you the algorithm, but you have to prove its correctness. so in that sense, ": [
+            108.9,
+            146.4,
+            2
+        ],
+        "are time right now. Right, you can use the diagram as a help, but I don't want you to rely on the diagram for your justification. That kind of makes sense. Get right and we just yeah. Mission Medical Clinic Federal Way Okay, just let anybody have a justification. Did they want to share? So we know because OS about Solutions and time of J-1 visa for or I got ": [
+            2165.1,
+            2287.5,
+            55
+        ],
+        "at the end of take the maximum size. But that's going to be exponential time. I think we can do better. Okay, so, okay. So here's just an example and we'll come back to this in a minute. If you guys want to like look at see if you can figure out what is the what is a maximal solution? What is an optimal solution for this strategies? Did you ": [
+            381.1,
+            409.0,
+            10
+        ],
+        "be your next choice cuz you've already ordered them by finish times. So you just pretty much figure out where that where the next. one starts current when you keep on putting it in. Okay. So basically this is going to take Big O of n log n time And this whole thing. Is going to take a big old and time. So the whole thing will be bigger event ": [
+            1402.8,
+            1433.1,
+            32
+        ],
+        "call that OS case of this is the exchange argument. This is what we're going to try to prove. It doesn't seem at first glance that this is going to be any help for the for proving the correctness of the algorithm. What are you talking about the greedy solution at all? We're only talking about the first greedy choice, but I claimed that if I can show you the ": [
+            1831.4,
+            1854.5,
+            46
+        ],
+        "can't pack in any more events for is the optimal choice. big questions about that Okay, so So, how are we going to implement this? Kate we're going to we want to design an algorithm that uses the greedy choice of picking the next available event with the earliest finish time. So I want you guys to get into groups talk about how would you implement this so that it ": [
+            1018.0,
+            1053.0,
+            24
+        ],
+        "do you use is up to you and I'll say unless I say otherwise unless I State otherwise Don the homework you can use whatever one you want. But the modify the solution AKA exchange argument applies almost universally. So that's the one we're going to work on today. Okay modify the solution AKA exchange argument. I know this is a lot to unpack but I mainly put this slide ": [
+            1702.6,
+            1733.3,
+            42
+        ],
+        "don't want OS Prime to be worse than the other. And in this case we have that OS Prime. Is equal to o s plus one, right? Which means that I guess I should do. This OS Prime is equal to OS. And Os Prime is great strictly greater than OS. And that's what we needed to show that in all cases OS Prime is better than or equal to ": [
+            2411.8,
+            2440.9,
+            59
+        ],
+        "e n what can we conclude using the exchange argument? Okay, so we can conclude that there. exists a solution OS Prime that contains G1 the first greedy choice and what else do we know about OS Prime? in relation to iOS and is at least as good SOS or in other words OS Prime is greater than or equal to OS. Good questions about that. No, this is this ": [
+            2627.5,
+            2710.6,
+            66
+        ],
+        "few more of these as we go along but they're all going to have this sequence of inequalities inequalities. It's always going to look something like this and you will always be able to kind of use the same argument. question The Green Solution of copper Square to 141st Street schedule That's like what we did here. Why would you do a greedy algorithm for hamiltonian path? Depends on what ": [
+            2889.8,
+            2958.2,
+            72
+        ],
+        "find earliest. end time Go through. and delete conflicting events repeat Okay, how long would this take in the worst-case? Right Big O of N squared because basically you could have you could have whenever you pick the earliest end time you may not have eliminated anything else. So then in your next Loop, you have end - 1 events to look at and then in -2 and then 10-3 ": [
+            1263.0,
+            1314.4,
+            28
+        ],
+        "first greedy choice is necessary that's enough to do it induction to show that every subsequent greedy choice will be necessary sort of the idea. Okay, so let's do the exchange argument. So let the events in OSB J-1 food JK remember, it's just some kind of random arbitrary solution. The only the only thing we really know about it is that it does not include the first greedy choice. ": [
+            1854.5,
+            1884.1,
+            47
+        ],
+        "greedy Solution on the whole set. I is the first greedy choice plus The Green Solution on I Prime Exactly. What you do you pick the the earliest and time and then you pick the earliest end time among all the events that don't conflate. Okay, so by conclusion you get this you started with iOS. We use the exchange argument to force it to have the first greedy choice. ": [
+            2828.5,
+            2857.5,
+            70
+        ],
+        "guys do we do this last time brainstorm? Okay, so let's do it now. So what are some greedy strategies? Remember the green strategy is basically to pick some sort of simple rule to pick the next event and then eliminate all the conflicting ones. So what's one simple rule? Okay, so choose it by? earliest And the time like that right anybody else? Pick the shortest one each time. ": [
+            409.0,
+            456.5,
+            11
+        ],
+        "has eight. These ones only have three a piece. right 4 right 4 piece this one has one two, three, four, five six, seven eight. Each one of these has one two, three, four, five six, seven eight. and each one of these has 1 2 3 4 5 6 7 You guys see what's going to happen here. Right before we go any further it let's figure out what ": [
+            826.0,
+            874.3,
+            19
+        ],
+        "has to be the optimal schedule, right? Induction hypothesis just assumed that for any of nek events and he said okay events. The greedy solution will always be optimal whenever K is in between. This should be one. I guess maybe we could we could do another base case at 0 that that might be better and equal zero greedy works. Free also works cuz it just doesn't pick anything ": [
+            2552.0,
+            2591.2,
+            64
+        ],
+        "if every pair every event was doubled right then you'd have to the end over to right. So, I mean you could probably figure out a way to do it, but it might run too long because there are so many events in the worst-case. Yeah. All of these problems were only going to want to know the existence of one and that's going to be good enough. crossbow Yeah, ": [
+            1120.4,
+            1168.0,
+            26
+        ],
+        "is less than 10 write so, how'd it what does that tell us about s of I to The Green Solution on iprimus optimal, right? Yes. Okay. So good. We know that. SI Prime has got to be less than or equal to GS of I Prime. Where GS is the greedy solution. All right good. So basically we get this is what I just showed you by definition the ": [
+            2784.8,
+            2828.5,
+            69
+        ],
+        "is the optimal? Schedule pick one of these guys right pick this guy. Pick this guy and then pick this guy. Right she can get for but if I pick the fours, then I'm kind of like destroyed this optimal schedule. questions about that Okay, so that one doesn't work. Okay. How about earliest finish time? Who says this one doesn't work? Okay, who says it works? Okay good. It ": [
+            874.3,
+            923.1,
+            20
+        ],
+        "is what the exchange argument gives us. This has nothing to do with the induction hypothesis yet. But we're this is going to allow us to take the set of n events and make it a smaller set by eliminating everything that conflicts with G1. the first time okay good. So that's what we have. So now let I prime be the set of events that don't konflict with G1. ": [
+            2710.6,
+            2747.7,
+            67
+        ],
+        "is your greedy Choice? What is your greedy choice? Yeah, once you come up with a green Choice, then we can show you where it fails. That might be a good exercise to look at that. Where does this spell? I don't know. I mean you can talk about a greedy choice for traveling salesman. Just always take the the shortest path from where you are. I can show you ": [
+            2958.2,
+            2992.0,
+            73
+        ],
+        "it'll be a lot more straightforward and not as Creative as this other quiz, so I don't know if that if you like that better or not or however that works with you. So I'll give you more information on the quiz. Next week, but today's lecture is really kind of the heart of what's going to be on that next Quiz. It's the heart of what's going to be ": [
+            146.4,
+            174.9,
+            3
+        ],
+        "keeps the induction going. Okay, so, let's see it in action cuz I think that's the best way to to look at it. Okay, so we're going to prove the event scheduling problem with the greedy choice being the earliest and time. Let me be the set of events. You want through e n where s i and f i r the start and finish times of the event at ": [
+            1767.3,
+            1798.6,
+            44
+        ],
+        "log in. I don't really know if you can get any better than that because I really think that the Sorting part is necessary whether it be in a priority queue or outside. one for all the end of x + 1,000 * * then every event is in a certain time. As far as the showtime stopped and then she wants you to find the next lowest and time ": [
+            1433.1,
+            1469.2,
+            33
+        ],
+        "most General this is what we're going to do today. This is basically what I'm going to ask you to do on the quiz next Friday. So we'll do more examples than just the one today but there is a step-by-step way that I want you two to go about doing it. Then there's the greedy stays ahead. It's more intuitive. It kind of makes more sense. As you go. ": [
+            1653.9,
+            1676.0,
+            40
+        ],
+        "most most important part of the proof. You need to prove this first and once you prove it you can be confident that your algorithm is correct, but if you want to finish the proof you still have to go through the motions of induction. So let's take a look. So what are we established? This is the exchange argument claim in general. So whenever you do an exchange argument, ": [
+            2468.8,
+            2493.9,
+            61
+        ],
+        "no two events in the subset can conflict right? No conflicts. Or no conflicting events and the objective here all we want to we want to maximize the number of events right so maximized. Let's setlist call the solution format subset s-so maximize s the size of the subset. Okay, so this is going to be helpful when we start making the algorithm improving the algorithm and everything. Okay, so ": [
+            316.6,
+            357.6,
+            8
+        ],
+        "okay, so it's order by start and finish times and we know that J1 is not equal to G1. Now, let's define OS Prime from OS. Okay, so let's just kind of think about it in this picture. This is the the schedule of os remember it's a legal valid schedule which means that none of the events conflict. Right? And the only thing that we can say for sure ": [
+            1885.9,
+            1919.7,
+            48
+        ],
+        "on the next homework that I'll released today and the next homework will be due next Sunday and it's basically all just trying to prove greedy algorithms are correct any other questions or comments? It was like around 60. percent there's a Piazza post with some. With some common mistakes that I think you all should look at 2 to get a sense of even if you got it, right ": [
+            174.9,
+            216.2,
+            4
+        ],
+        "one way that was kind of director straightforward that I thought. Any other questions? Okay, let's move forward. So let some let's go back to this event scheduling the cookie conference. We want to schedule the most of it's possible without two events. Overlapping cuz think about the only have one room to schedule everything. So let's fill in these specifications again. So the instance is going to be a ": [
+            243.2,
+            277.5,
+            6
+        ],
+        "or another way to say that it does not contain any overlapping events, but we're sort of borrowing events from OS right from the other original solution. And so we already know that since it's valid. None of the JV intervals will ever intersect with each other who only thing I really need to show you is that that new interval G will not intersect with anything and it it's ": [
+            2085.3,
+            2110.6,
+            53
+        ],
+        "or you got it wrong. I think it's good to look at it. And on that on that post. I recently edited it so that there's a there's kind of like a a brief summary of one way to do it. That being said we saw many different ways to do it correctly. So just like All of these problems there may be more than one way, but I put ": [
+            216.2,
+            243.2,
+            5
+        ],
+        "particular set of events. So we'll pick the one that ends the earliest which is the one that ends at 11, right? Okay. Now that means that we cancel out all the things that are conflicting. all of these And this one? Cake stand out of the remaining ones which one ends the earliest it's going to be I guess this one that ends at 15, right? So you pick ": [
+            948.2,
+            990.9,
+            22
+        ],
+        "people at 4. Startimes active, okay. This is from the validity of OS. Jayla therefore we know that you wanted to know. Okay, good. This is by the choice of the greedy choice, right? Or the by the nature of the greedy Choice could thank you. Okay. So this is a really good clear argument because we have We have Justified each one of those inequalities, right and so it's ": [
+            2287.5,
+            2344.9,
+            56
+        ],
+        "problem District number That's why it's good to do this thing. We're trying to maximize the number of events in the subset. Okay, any other ideas? Okay. I have a few more. Shortest duration doesn't these are the two that we looked at right through his duration in earliest in time. You could also consider earliest start time or fewest conflicts right now. I'm not claiming that all of these ": [
+            463.2,
+            516.6,
+            12
+        ],
+        "questions about that. Okay, so that is the exchange argument. That's the kind of the the the main part of the proof the induction part. I know it's going to seem like it's a lot but it's really systemic and you just have to follow the same format every time okay, we're going to go through it. But I just want you to know that to me. This is the ": [
+            2440.9,
+            2468.8,
+            60
+        ],
+        "runs efficiently. Well, there could be as many as 2 to the N Optimal Solutions. Is that right? No, that's not right. Don't know. I don't know. Trying to think if there are exponentially many but maybe not because there's only really one ordering that it could be. I guess it kind of could be in like this weird way where a bunch of the events are the same. Or ": [
+            1053.0,
+            1120.4,
+            25
+        ],
+        "set. of events and what a kind of information does an event hold. It's just basically the start time and finish time. Okay, so we're going to have like anyone event one up to event end. write a set of events where VI is going to just be an ordered pair Sif I start and finish time the solution format is going to be a subset. And the constraints are ": [
+            277.5,
+            316.6,
+            7
+        ],
+        "so you get kind of a big O of N squared thing. Okay. Does anybody have anything that's better than N squared? Okay good. Start timer. Okay good. So basically you want to You're using a priority queue. I have a different way of doing it, which is sort of the same thing as you sort it first. And then you go through and you sort it by finish time. ": [
+            1314.4,
+            1351.6,
+            29
+        ],
+        "solution to is an arbitrary solution. And so we don't really know much about it. All we know is that it is a solution and so we have to kind of use that. Sort of vague definition while we're doing the proof. Okay, so this is going to be how we mainly do it. There's a few different ways. There's the modify the solution or exchange argument. This is the ": [
+            1626.1,
+            1653.9,
+            39
+        ],
+        "sort of like we're going to be changing topics for Better or For Worse, right? Maybe that means that the next topic will really click with you and you can figure it out really well, so yeah, maybe the next Quiz will be more kind of your type of problems. I don't know. Let's just keep on moving forward with what we have to do here. And does anybody have ": [
+            78.3,
+            108.9,
+            1
+        ],
+        "sort of why I'm sure you could come up with an easier one, but I was just feeling creative so, okay. So how many conflicts does this one have? 1 2 3 4 5 6 7 this one also has seven. This one also has seven. I'm all of these ones have eight, right? And this one only has one two, three, four, five six, seven eight. This one also ": [
+            792.5,
+            826.0,
+            18
+        ],
+        "sufficient to just prove that G1 does not overlap with J2. Okay, so I want you guys to prove this with your neighbors. I want a clear justification that is based on like mathematical inequalities based on the construction of os Prime. start and end times RS diagram of the diagram is just a diagram. I want you to use like all the definitions and Diagrammatic representation of end times ": [
+            2110.6,
+            2165.1,
+            54
+        ],
+        "that one and you cancel out all of the conflicting events that remain and this one. Okay, and then the one that ends the earliest now is just this one here. And then after that, I don't think you have anything other other conflicts. So then this is the last one remaining and so you choose it there so you can get you could packing for I claim that you ": [
+            990.9,
+            1018.0,
+            23
+        ],
+        "that. Okay. How about by the fewest conflicts? So let's just take a vote here who thinks that this will work? And who thinks that this will not work? Okay, so kind of half-and-half. This was kind of tricky. I actually doesn't work but the to get a counterexample sort of tricky and so I came up with this one. and let's let's just share it so you can see ": [
+            743.9,
+            792.5,
+            17
+        ],
+        "the value value of the greedy solution. And it kind of depends on are you maximizing or minimizing if you're minimizing then the cost of the greedy solution is less than or equal to the cost of the optimal the cost of any other solution. Okay, so I'll use value and cost value usually means I'm trying to maximize it trying to maximize the value cost usually mean I'm trying ": [
+            1573.3,
+            1601.2,
+            37
+        ],
+        "this is will visit will be what you have. Let G be the first greedy Choice let OSB any solution that does not include G, then we can conclude that there exists some solution OS Prime that does that does include G and is better or just as good as like I said, this alone does not prove that the album is correct, but we will use an induction argument ": [
+            2493.9,
+            2517.4,
+            62
+        ],
+        "to minimize it and turn them into mice cost for so for the event scheduling problem. You think about it as a value cuz we're trying to maximize the number of events. Okay, so we need to show that for every instance for every input. The greedy solution will always be optimal. Okay. So the tricky part here is that the OS solution that were trying to compare the greedy ": [
+            1601.2,
+            1626.1,
+            38
+        ],
+        "to use it in an induction argument. conduction The Green Solution is optimal or another way to say that is for any solution OS the greatest solution GS is better or just as good as Okay, we're going to do it by strong induction on N. Okay, which is the number of events? Bass cases simple if there's only one event the greedy choice will choose that event and that ": [
+            2517.4,
+            2552.0,
+            63
+        ],
+        "up there for you guys to reference later. Okay, so I'll just kind of go through the main points The Exchange argument comes in two parts or the the proof of correctness comes in two parts parts 1 through 3 or the exchange argument. And then part for is induction. Hey, and it's basically the exchange argument is a helper Lema in order to prove the induction. It kind of ": [
+            1733.3,
+            1767.3,
+            43
+        ],
+        "where this fails for. That might be a good idea question. ": [
+            2992.0,
+            2995.1,
+            74
+        ],
+        "which is sort of its trivially the optimal. Okay. Another way to say that is that if the if the input is less than n then the greedy solution is better than any other solution. The goal is to show that The Green Solution is optimal for any input of size exactly end. Let's get started. Let OSB any solution of the set of events. I equals e 1 through ": [
+            2591.2,
+            2627.5,
+            65
+        ],
+        "will work. It will always give you the optimal strategy or come up with a counterexample. Ready go. and raise your hand if you have a question or you need a Right. Yeah, that's what all the greedy strategies are always going to work. It's always going to be pick the greedy Choice and then we can figure your input so that your next choice is valid. better than granular ": [
+            541.4,
+            610.6,
+            14
+        ],
+        "with G1 then then exchange one for the other if they don't intersect then just add G1 in there. Because if they don't intersect, then it won't hurt by adding a new interval. Any questions about that? Okay good. So now it's proof that now let's prove the things right? Well, we don't really have to prove that g one is in OS Prime because it's just is by construction. ": [
+            2009.6,
+            2043.0,
+            51
+        ],
+        "work. I'm just we're just trying to brainstorm about what are some greedy strategies and I'll tell you right now. Some of them work and some of them don't okay. So let's go through them. the shortest duration So I'm just going to give you like 1 minute or so. I want you to talk it over with your neighbor and I want you to either say that it it ": [
+            516.6,
+            541.4,
+            13
+        ],
+        "works. I mean, I mean if you play around with it, you can convince yourself pretty well, but you know at first it's not so obvious. And so that's why we're going to we're going to have to come up with a proof. Okay, so we can't find a counterexample will prove that at work soon. Okay. So let's do it on here. Let's do the actual algorithm on this ": [
+            923.1,
+            948.2,
+            21
+        ],
+        "would give me an answer of only one event where the actual optimal solution has two events that questions about that. Okay. How about earliest start time? I just give you one more minute to think about this one. Well at work, or give me a counterexample. You got you got a counterexample already. Starting at 2 so you can buy this. Let's get the point across. Thank you for ": [
+            690.6,
+            743.9,
+            16
+        ],
+        "you can just searching the Take a message to the next flower start time. You made me delete all the things that don't blow. right Yes. Because I imagine you have a bunch of events that have the same start and end time always Point your house table wouldn't really get you cuz if your hashing based off the starting at times. Yeah, it's okay. It's definitely a way that ": [
+            1469.2,
+            1514.2,
+            34
+        ],
+        "you could do it though. It would work. But you might or might not get better than this. For sunlight really kind of weird edge cases. You can get like a N squared run time if you have like a bunch of collisions. so let some run time we already did that. Okay, let's move on. Okay, so proving optimality where we at we have time for this good. Okay. ": [
+            1514.2,
+            1544.6,
+            35
+        ],
+        "you guys talked about this with your neighbors, but maybe we should just say it because it's it's pretty simple just from the way that we constructed it, right if we include G1 and take away J1 then OS Prime. Is equal to o s + 1 - 1 so that means they're equal. It's okay, if they're equal. It's just that you don't want one to be worse. You ": [
+            2382.9,
+            2411.8,
+            58
+        ],
+        "your goals are scheduled the most of it's possible. I think we already talked about this if we had an events then. Then there would be two to the end subset. So that's one way to do it if you wanted to do a brute force would be to go through every single possible subsets check if it follows the constraints and if it does record it size and then ": [
+            357.6,
+            381.1,
+            9
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_12.flac",
+    "Full Transcript": "Okay, let's get started.  So the quiz grades have been released.  So I guess  about the quiz you can drop one quiz. And another thing is that if you didn't do so well on this quiz, I wouldn't I wouldn't let that get you down so much because you can drop a quiz and also the this class if you haven't already kind of figured out is going to be sort of like we're going to be changing topics for Better or For Worse, right? Maybe that means that the next topic will really click with you and you can figure it out really well, so  yeah, maybe the next Quiz will be more kind of your  type of problems. I don't know. Let's just keep on moving forward with what we have to do here. And does anybody have any questions or comments?  Yeah, so this next Quiz I can already tell you it's going to be a some true-false questions that are mostly going to be do have to do with minimum spanning trees and things like that. And then the design question is going to be a greedy algorithm that I'll actually give you the algorithm, but you have to prove its correctness.  so in that sense, it'll be a lot more straightforward and not as  Creative as this other quiz, so I don't know if that if you like that better or not or however that works with you. So I'll give you more information on the quiz.  Next week, but today's lecture is really kind of the heart of what's going to be on that next Quiz. It's the heart of what's going to be on the next homework that I'll released today and the next homework will be due next Sunday and it's basically all just trying to prove greedy algorithms are correct any other questions or comments?  It was like around 60.  percent  there's a Piazza post with some.  With some common mistakes that I think you all should look at 2 to get a sense of even if you got it, right or you got it wrong. I think it's good to look at it. And on that on that post. I recently edited it so that there's a there's kind of like a a brief summary of one way to do it.  That being said we saw many different ways to do it correctly. So just like  All of these problems there may be more than one way, but I put one way that was kind of director straightforward that I thought.  Any other questions?  Okay, let's move forward. So let some let's go back to this event scheduling the cookie conference. We want to schedule the most of it's possible without two events. Overlapping cuz think about the only have one room to schedule everything. So let's fill in these specifications again. So the instance is going to be a set.  of events  and what a kind of information does an event hold. It's just basically the start time and finish time. Okay, so we're going to have like anyone event one up to event end.  write a set of events where  VI is going to just be an ordered pair Sif I start and finish time the solution format is going to be a subset.  And the constraints are no two events in the subset can conflict right? No conflicts.  Or no conflicting events and the objective here all we want to we want to maximize the number of events right so maximized.  Let's setlist call the solution format subset s-so maximize s the size of the subset.  Okay, so this is going to be helpful when we start making the algorithm improving the algorithm and everything.  Okay, so your goals are scheduled the most of it's possible. I think we already talked about this if we had an events then.  Then there would be two to the end subset. So that's one way to do it if you wanted to do a brute force would be to go through every single possible subsets check if it follows the constraints and if it does record it size and then at the end of take the maximum size.  But that's going to be exponential time. I think we can do better. Okay, so, okay. So here's just an example and we'll come back to this in a minute. If you guys want to like look at see if you can figure out what is the what is a maximal solution? What is an optimal solution for this strategies? Did you guys do we do this last time brainstorm?  Okay, so let's do it now. So what are some greedy strategies? Remember the green strategy is basically to pick some sort of simple rule to pick the next event and then eliminate all the conflicting ones.  So what's one simple rule?  Okay, so choose it by?  earliest  And the time like that right anybody else?  Pick the shortest one each time.  problem District number  That's why it's good to do this thing.  We're trying to maximize the number of events in the subset.  Okay, any other ideas?  Okay. I have a few more.  Shortest duration doesn't these are the two that we looked at right through his duration in earliest in time. You could also consider earliest start time or fewest conflicts right now. I'm not claiming that all of these work. I'm just we're just trying to brainstorm about what are some greedy strategies and I'll tell you right now.  Some of them work and some of them don't okay. So let's go through them.  the shortest duration  So I'm just going to give you like 1 minute or so. I want you to talk it over with your neighbor and I want you to either say that it it will work. It will always give you the optimal strategy or come up with a counterexample. Ready go.  and raise your hand if you have a question or you need a  Right. Yeah, that's what all the greedy strategies are always going to work. It's always going to be pick the greedy Choice and then we can figure your input so that your next choice is valid.  better than granular  Okay, so does anybody have a counterexample or does anyone want to try to convince me that it works all the time?  Okay.  Okay 9 to 12.  I guess the rest of the day.  Okay good. So why is the spell is because if I choose the smallest one, which is the 9 to 12 then I can't choose any of the other ones cuz they're all conflicting and that would give me an answer of only one event where the actual optimal solution has two events that questions about that.  Okay. How about earliest start time? I just give you one more minute to think about this one.  Well at work, or give me a counterexample.  You got you got a counterexample already.  Starting at 2 so you can buy this.  Let's get the point across. Thank you for that.  Okay.  How about by the fewest conflicts?  So let's just take a vote here who thinks that this will work?  And who thinks that this will not work?  Okay, so kind of half-and-half. This was kind of tricky. I actually doesn't work but the to get a counterexample sort of tricky and so  I came up with this one.  and let's let's just share it so you can see sort of why I'm sure you could come up with an easier one, but  I was just feeling creative so, okay. So how many conflicts does this one have?  1 2 3 4 5 6 7  this one also has seven. This one also has seven.  I'm all of these ones have eight, right?  And this one only has one two, three, four, five six, seven eight. This one also has eight.  These ones only have three a piece.  right  4  right  4 piece  this one has one two, three, four, five six, seven eight.  Each one of these has one two, three, four, five six, seven eight.  and each one of these has 1 2 3 4 5 6 7  You guys see what's going to happen here.  Right before we go any further it let's figure out what is the optimal?  Schedule pick one of these guys right pick this guy.  Pick this guy and then pick this guy.  Right she can get for but if I pick the fours, then I'm kind of like destroyed this optimal schedule.  questions about that  Okay, so that one doesn't work. Okay. How about earliest finish time?  Who says this one doesn't work?  Okay, who says it works? Okay good. It works.  I mean, I mean if you play around with it, you can convince yourself pretty well, but you know at first it's not so obvious. And so that's why we're going to we're going to have to come up with a proof.  Okay, so we can't find a counterexample will prove that at work soon.  Okay.  So let's do it on here. Let's do the actual algorithm on this particular set of events.  So we'll pick the one that ends the earliest which is the one that ends at 11, right?  Okay. Now that means that we cancel out all the things that are conflicting.  all of these  And this one?  Cake stand out of the remaining ones which one ends the earliest it's going to be I guess this one that ends at 15, right?  So you pick that one and you cancel out all of the conflicting events that remain and this one.  Okay, and then the one that ends the earliest now is just this one here.  And then after that, I don't think you have anything other other conflicts. So then this is the last one remaining and so you choose it there so you can get you could packing for I claim that you can't pack in any more events for is the optimal choice.  big questions about that  Okay, so  So, how are we going to implement this?  Kate we're going to we want to design an algorithm that uses the greedy choice of picking the next available event with the earliest finish time. So I want you guys to get into groups talk about how would you implement this so that it runs efficiently.  Well, there could be as many as 2 to the N Optimal Solutions. Is that right?  No, that's not right.  Don't know. I don't know.  Trying to think if there are exponentially many but maybe not because there's only really one ordering that it could be.  I guess it kind of could be in like this weird way where a bunch of the events are the same.  Or if every pair every event was doubled right then you'd have to the end over to right.  So, I mean you could probably figure out a way to do it, but it might run too long because there are so many events in the worst-case. Yeah.  All of these problems were only going to want to know the existence of one and that's going to be good enough.  crossbow  Yeah, I just said that.  Yeah, let's say that there are an events, right?  Okay, so let's let's take a let's kind of brainstorm a little bit about how to do this one way would be to go through find the earliest Endtime pick that one and then go through each event to see if it conflicts and if it does then remove it from the set and repeat right so find earliest.  end time  Go through.  and delete  conflicting events  repeat  Okay, how long would this take in the worst-case?  Right Big O of N squared because basically you could have  you could have whenever you pick the earliest end time you may not have eliminated anything else. So then in your next Loop, you have end - 1 events to look at and then in -2 and then 10-3 so you get kind of a big O of N squared thing.  Okay. Does anybody have anything that's better than N squared?  Okay good.  Start timer.  Okay good. So basically you want to  You're using a priority queue. I have a different way of doing it, which is sort of the same thing as you sort it first.  And then you go through and you sort it by finish time. So, you know that you have to take the first event.  And you put it into a q i mean or you could do it your way where you just don't start at all and you start with a priority queue. It's going to be the same run time.  The same complexity but I just kind of think that this might be a little bit easier to kind of think about so you sort it and then you put the first event you set your value which is like, you know, the the time the latest time that you have the latest finish time out of all the events in your set and then you kind of cycle through the events and find out where that wherever the next one starts which is after your finish time. That's going to be your next choice cuz you've already ordered them by finish times. So you just pretty much figure out where that where the next.  one starts  current when you keep on putting it in.  Okay. So basically this is going to take  Big O of n log n time  And this whole thing.  Is going to take a big old and time. So the whole thing will be bigger event log in.  I don't really know if you can get any better than that because I really think that the Sorting part is necessary whether it be in a priority queue or outside.  one for all the end of x + 1,000 * * then every event is in a certain time. As far as the showtime stopped and then she wants you to find the next lowest and time you can just  searching the  Take a message to the next flower start time. You made me delete all the things that don't blow.  right  Yes.  Because I imagine you have a bunch of events that have the same start and end time always Point your house table wouldn't really get you cuz if your hashing based off the starting at times.  Yeah, it's okay. It's definitely a way that you could do it though. It would work.  But you might or might not get better than this.  For sunlight really kind of weird edge cases. You can get like a N squared run time if you have like a bunch of collisions.  so let some  run time we already did that. Okay, let's move on. Okay, so proving optimality where we at we have time for this good.  Okay. So what does it mean that when I say that the greedy algorithm solves and optimization problem? Okay. So remember that we have an instance which is like the information given let's say that GS is the greedy solution and that oasses any other solution to the instance for The Green Solution to be called optimal that means that the value of any solution is less than or equal to the value value of the greedy solution.  And it kind of depends on are you maximizing or minimizing if you're minimizing then the cost of the greedy solution is less than or equal to the cost of the optimal the cost of any other solution.  Okay, so I'll use value and cost value usually means I'm trying to maximize it trying to maximize the value cost usually mean I'm trying to minimize it and turn them into mice cost for so for the event scheduling problem. You think about it as a value cuz we're trying to maximize the number of events.  Okay, so we need to show that for every instance for every input. The greedy solution will always be optimal. Okay. So the tricky part here is that the OS solution that were trying to compare the greedy solution to is an arbitrary solution. And so we don't really know much about it. All we know is that it is a solution and so we have to kind of use that.  Sort of vague definition while we're doing the proof.  Okay, so this is going to be how we mainly do it. There's a few different ways. There's the modify the solution or exchange argument. This is the most General this is what we're going to do today. This is basically what I'm going to ask you to do on the quiz next Friday. So we'll do more examples than just the one today but there is a step-by-step way that I want you two to go about doing it.  Then there's the greedy stays ahead. It's more intuitive. It kind of makes more sense. As you go. The exchange argument one at start of this backwards way of proving it where it's a greedy stays ahead. I feel like it's a more kind of direct way. It only works in certain cases, though.  Then there's a greedy achieved the band which is really the the most elegant way, but it it doesn't always work. It's not always applicable.  Okay. So which one do you is which one do you use is up to you and I'll say unless I say otherwise  unless I State otherwise  Don the homework you can use whatever one you want.  But the modify the solution AKA exchange argument applies almost universally. So that's the one we're going to work on today. Okay modify the solution AKA exchange argument. I know this is a lot to unpack but I mainly put this slide up there for you guys to reference later. Okay, so I'll just kind of go through the main points The Exchange argument comes in two parts or the the proof of correctness comes in two parts parts 1 through 3 or the exchange argument.  And then part for is induction.  Hey, and it's basically the exchange argument is a helper Lema in order to prove the induction. It kind of keeps the induction going.  Okay, so, let's see it in action cuz I think that's the best way to to look at it.  Okay, so we're going to prove the event scheduling problem with the greedy choice being the earliest and time.  Let me be the set of events. You want through e n where s i and f i r the start and finish times of the event at 9. Let's say that G1 is the event with the earliest finish time the first video the first greedy decision, right? That's the first thing that you choose.  Okay, and now we're going to have OSB any legal schedule that does not include G1.  When I claim is that there exists some other schedule that does include G1 that is just as good or even better than OS and we'll call that OS case of this is the exchange argument. This is what we're going to try to prove. It doesn't seem at first glance that this is going to be any help for the for proving the correctness of the algorithm. What are you talking about the greedy solution at all? We're only talking about the first greedy choice, but I claimed that if I can show you the first greedy choice is necessary that's enough to do it induction to show that every subsequent greedy choice will be necessary sort of the idea.  Okay, so let's do the exchange argument.  So let the events in OSB J-1 food JK remember, it's just some kind of random arbitrary solution. The only the only thing we really know about it is that it does not include the first greedy choice.  okay, so it's order by start and finish times and we know  that J1 is not equal to G1.  Now, let's define OS Prime from OS.  Okay, so let's just kind of think about it in this picture. This is the  the schedule of os remember it's a legal valid schedule which means that none of the events conflict. Right? And the only thing that we can say for sure about it is that it does not include G1.  Okay, so our to-do list is to First Define OS Prime and then show three things.  Has no overlaps it includes G1 and it's better or just as good as OS.  Okay, so  anybody have any ideas on how to define OS Prime from OS?  And then what do you do with J-1?  Okay, so you exchange G14 J1? Okay good. That's that's why it's called an exchange argument because most most of the time when you build this new solution, you're exchanging one event, or  thing for another  this where happening in animation. Oh, yeah.  Pretty cool, huh? Okay, so that's that's the exchange and it's easy easy enough to say and in fact, I'm I made it even a little bit more specific where I said,  If J1 intersects with G1 then then exchange one for the other if they don't intersect then just add G1 in there.  Because if they don't intersect, then it won't hurt by adding a new interval.  Any questions about that?  Okay good. So now it's proof that now let's prove the things right? Well, we don't really have to prove that g one is in OS Prime because it's just is by construction. But we do have to prove first that OS Prime is valid and to that OS Prime is bigger or equal to that OS.  Okay, so  this place is Trivial, right?  Because if there's no conflicts, then it will if it won't conflict with jwonn and won't conflict with anything else so you can just add it in.  but for this one  the claim is that OS Prime is valid or another way to say that it does not contain any overlapping events, but we're sort of borrowing events from OS right from the other original solution. And so we already know that since it's valid. None of the JV intervals will ever intersect with each other who only thing I really need to show you is that that new interval G will not intersect with anything and it it's sufficient to just prove that G1 does not overlap with J2.  Okay, so I want you guys to prove this with your neighbors. I want a clear justification that is based on like mathematical inequalities based on the construction of os Prime.  start and end times RS  diagram of the diagram is just a diagram. I want you to use like all the definitions and  Diagrammatic representation of end times are time right now.  Right, you can use the diagram as a help, but I don't want you to rely on the diagram for your justification. That kind of makes sense.  Get right and we just yeah.  Mission Medical Clinic Federal Way  Okay, just let anybody have a justification.  Did they want to share?  So we know because OS about Solutions and time of J-1 visa for or I got people at 4.  Startimes active, okay.  This is from the validity of OS.  Jayla  therefore we know that you wanted to know.  Okay, good. This is by the choice of the greedy choice, right?  Or the by the nature of the greedy Choice could thank you. Okay. So this is a really good clear argument because we have  We have Justified each one of those inequalities, right and so it's always the case that the finish time of G1 is going to be at or before the start time of J2.  question  Oh, yes, that should be G1. Sorry about that.  Thank you.  Are there any other questions?  Okay good. So OS Prime is valid great. We've done that now we have to show that OS Prime is greater than or equal to OS and I was going to have you guys talked about this with your neighbors, but maybe we should just say it because it's it's pretty simple just from the way that we constructed it, right if we include G1 and take away J1 then OS Prime.  Is equal to o s + 1 - 1 so that means they're equal. It's okay, if they're equal. It's just that you don't want one to be worse. You don't want OS Prime to be worse than the other.  And in this case we have that OS Prime.  Is equal to o s plus one, right? Which means that I guess I should do. This OS Prime is equal to OS.  And Os Prime is great strictly greater than OS.  And that's what we needed to show that in all cases OS Prime is better than or equal to questions about that.  Okay, so that is the exchange argument. That's the kind of the the the main part of the proof the induction part. I know it's going to seem like it's a lot but it's really systemic and you just have to follow the same format every time okay, we're going to go through it. But I just want you to know that to me. This is the most most important part of the proof. You need to prove this first and once you prove it you can be confident that your algorithm is correct, but if you want to finish the proof you still have to go through the motions of induction.  So let's take a look.  So what are we established? This is the exchange argument claim in general. So whenever you do an exchange argument, this is will visit will be what you have. Let G be the first greedy Choice let OSB any solution that does not include G, then we can conclude that there exists some solution OS Prime that does that does include G and is better or just as good as like I said, this alone does not prove that the album is correct, but we will use an induction argument to use it in an induction argument.  conduction The Green Solution is optimal or another way to say that is for any solution OS the greatest solution GS is better or just as good as  Okay, we're going to do it by strong induction on N. Okay, which is the number of events?  Bass cases simple if there's only one event the greedy choice will choose that event and that has to be the optimal schedule, right?  Induction hypothesis just assumed that for any of nek events and he said okay events. The greedy solution will always be optimal whenever K is in between. This should be one.  I guess maybe we could we could do another base case at 0 that that might be better and equal zero greedy works.  Free also works cuz it just doesn't pick anything which is sort of its trivially the optimal.  Okay.  Another way to say that is that if the if the input is less than n then the greedy solution is better than any other solution.  The goal is to show that The Green Solution is optimal for any input of size exactly end.  Let's get started.  Let OSB any solution of the set of events. I equals e 1 through e n what can we conclude using the exchange argument?  Okay, so we can conclude that there.  exists  a solution  OS Prime  that  contains  G1 the first greedy choice  and  what else do we know about OS Prime?  in relation to iOS  and is  at least  as good  SOS or in other words OS Prime is greater than or equal to OS.  Good questions about that.  No, this is this is what the exchange argument gives us. This has nothing to do with the induction hypothesis yet. But we're this is going to allow us to take the set of n events and make it a smaller set by eliminating everything that conflicts with G1.  the first time  okay good. So that's what we have.  So now let I prime be the set of events that don't konflict with G1.  Right, so it's like all the events that remain.  Then OS Prime is going to be G1. We know that it it gives us we know that it has that specific event. And then it has some other solution on I try some other subsets of those events that don't konflict and so-and-so.  What can we conclude using the inductive hypothesis of this?  Well, yeah, we know that I prime is less than 10 write so, how'd it what does that tell us about s of I  to The Green Solution on iprimus optimal, right? Yes. Okay. So good. We know that.  SI Prime  has got to be less than or equal to GS of I Prime.  Where GS is the greedy solution.  All right good.  So basically we get this is what I just showed you by definition the greedy Solution on the whole set. I is the first greedy choice plus The Green Solution on I Prime  Exactly. What you do you pick the the earliest and time and then you pick the earliest end time among all the events that don't conflate.  Okay, so by conclusion you get this you started with iOS.  We use the exchange argument to force it to have the first greedy choice.  We broke it up into the greedy choice plus all the other events.  We use the induction hypothesis to show that that it's better to use the greedy solution for those other events. And then this is just the definition of the greedy solution. So we started with any  Solution on I and we show that it's less than or equal to the greedy Solution on eye.  We'll see a few more of these as we go along but they're all going to have this sequence of inequalities inequalities. It's always going to look something like this and you will always be able to kind of use the same argument.  question  The Green Solution of copper Square to 141st Street schedule  That's like what we did here.  Why would you do a greedy algorithm for hamiltonian path?  Depends on what is your greedy Choice? What is your greedy choice?  Yeah, once you come up with a green Choice, then we can show you where it fails. That might be a good exercise to look at that. Where does this spell?  I don't know.  I mean you can talk about a greedy choice for traveling salesman.  Just always take the the shortest path from where you are. I can show you where this fails for. That might be a good idea question. "
+}

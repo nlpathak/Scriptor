@@ -1,0 +1,421 @@
+{
+    "Blurbs": {
+        "0 through 7 that are all false in the hypothesis. True. Why won't you just take a minute? What would you were talking about? The number eight? I'm just going to give a short amount of time to talk about the space of stuff. What would you do to justify the faces stuff? Suggestions when we demonstrate in this stuff to get the basement steps work, maybe someone from all ": [
+            1766.5,
+            1818.1,
+            47
+        ],
+        "5 a + 3B that would talk about the sum algorithm case right because we could think about many different ways to come up with a v a and a three bean and then we can think about the greedy algorithm and where the greedy algorithm might fail and to let spoke at the greedy algorithm for a second. So it was a greedy algorithms we can ask what about ": [
+            1473.7,
+            1492.4,
+            37
+        ],
+        "8 9 10 all the way up to n the property is true. We have Nan and a and a b some values of A and B. They might be different for all of those numbers 8 through N I bet there's some value of a candy that works to give us a representation of that number that gives us exact change so we know all of that stuff. So ": [
+            2426.9,
+            2456.0,
+            67
+        ],
+        "And then we had the Assumption we get in the recursive step is that the property is true for all n from the base step up to the number the number we're proofing -1 hours from the base cases up to the river talking about now. It's the stronger inductive hypothesis. It's more information. We get all that information basically proving some more steps and proving a slightly stronger thing ": [
+            2183.2,
+            2217.4,
+            60
+        ],
+        "Okay, let's get started. So only deadline reminder is V homework is out right now. That's due Monday pretty normal schedule right now. So Monday and Thursday, you'll have a warm up in a follow-up to again will keep going that way. You can see on the schedule on the website. We're changing the deadlines a little bit around the memorial day cuz there's a Monday that's a holiday. But ": [
+            4.7,
+            27.3,
+            0
+        ],
+        "So it's not obvious looking at this problem that you can just write like a V Line Loop or a five-line recursive function or a five-line program. That always calculates the right answer here or answered it works, but the proof actually helps us. So that's that's where we're going with us. So let's just make sure we know what property were talking about and then we're going to use ": [
+            1589.8,
+            1611.8,
+            41
+        ],
+        "So that information is used in a few different places in this proof in order to justify this first thing we already made the assumption that K is greater than or equal to 4 using this information. So maybe we're just using that assumption. I think it really is just ends up being Many different spots in the just ask when we have these assumptions are constraints on different parts ": [
+            537.9,
+            568.1,
+            14
+        ],
+        "This is just impossible to solve this problem. Exactly. For some reason I think about these different what's possible here. What can we actually accomplish and Implement and do some of the strategies leucine work? 5 4 3 2 1 is a really interesting one to discuss because you can think about counterexample for some of these cases and other cases you start thinking about can I come up with ": [
+            1048.0,
+            1118.1,
+            30
+        ],
+        "This wouldn't be true right to would be greater than or equal to that number. I'm so we actually are using the fact that today is definitely large enough to force it to be greater than 2 and we do to a plus one in this stuff. If we didn't know something about the size of K K plus one is definitely I'm so we use it here as well. ": [
+            516.9,
+            537.9,
+            13
+        ],
+        "a + 3 b + B. We don't know what the A and B are in fact if we wanted to be really explicit we can say that what time inductive hypothesis tells us. Is that there exists an A and A B in a natural numbers so that this is true. pretty interesting And it's interesting that your troubles than mine is too because now we can talk about ": [
+            2567.4,
+            2594.6,
+            70
+        ],
+        "a zombies are pairs of A's and B's to new A's and B's that'll work. And so that's what's going on in this next step of the proof, which is there's two cases one where we have some number of five cent coins is greater than or equal to one in that case. What we do is we subtract is going to be a minus one. Any other case where ": [
+            2013.4,
+            2043.8,
+            54
+        ],
+        "an inequality. So we have like X is less than y basically that were showing and then we're plugging in a value that definitely greater than y on the right hand side. So we have violated any quality the inductive hypothesis statement is if we look at the inductive hypothesis, here's the inductive hypothesis. It's to the K is less than K factorial and what we're doing is we're plugging ": [
+            902.0,
+            928.9,
+            25
+        ],
+        "and mine is to not just the value end. We have to go back further than we did for the mathematical induction proof. This is also a perfectly valid proof in a way to think about this. I want to spend the last couple minutes talking about this being being able to use these two ideas for implementation. So here's the question which one of these would you would you ": [
+            2762.8,
+            2787.1,
+            76
+        ],
+        "and we assume the property hold for + -1. And so what I want you to do is look at where this property. Equal to 4 comes up in this proof and you the proof in and out in front of you. Where does it show up in a proof? Where is it necessary evidence in different steps in the proof to use this in greater than less than or ": [
+            231.5,
+            261.1,
+            8
+        ],
+        "call. These are two these are two useful insights inside about divisibility. We might be able to use that same kind of inside the first of all I want to highlight something about a and see which side is the greedy algorithm will give exact change and the other one says some algorithm will give exact change. Well, no because if we gave our coins are 5 and 3, there's ": [
+            1332.8,
+            1363.2,
+            33
+        ],
+        "cases where you don't get exact change and it's interesting to think about this problem, but also in terms of can we find an algorithm that act that actually works for particular coins in for any value in Target at Exit? There's two points does a $0.05 coin and a $0.03 coin and we're going to ask questions about what what values of n we can actually make change for ": [
+            997.5,
+            1021.1,
+            28
+        ],
+        "cuz I want to keep going the majority of the answers. We're are be although there's plenty of reasons to have tried. One of the other ones busy answer. We're looking for a beer and just the one thing I want to point out is that the the key difference right? Is that the A's and B's are the greater than equal to greater than equal to a constraint and ": [
+            1672.7,
+            1694.7,
+            43
+        ],
+        "definitely used here as well when we choose our own we choose that value. And we get to make these assumptions about as a result and then there's one place where it's a little more. Subtle going from this step to this step. The justification says because to is less than K plus one. And that's true. Only if K is in 00 or some other like some negative number. ": [
+            486.3,
+            516.9,
+            12
+        ],
+        "eat 3000 coins that sort of force is the minimum to be really high and we're not going to be able to cover cases like 13, but seem like we should be able to cover them. And so this property would actually end up Fall because we wouldn't be able to express that case. We'll be out of 213. So we're looking for so we're looking for be here. That's ": [
+            1717.0,
+            1737.9,
+            45
+        ],
+        "equal to 4 constraint gives you a sort of reason to read through this proof in detail, and then then we'll discuss and talk about it. So take a minute read through an answer where this is used. Sofia the first round of this close it in 5 4 3 2 1 5 4 3 2 1 Okay, so let's let's look at a few different places here. So definitely ": [
+            261.1,
+            434.3,
+            9
+        ],
+        "equals 2 + -2 and we're just asking if m + 1 is equal to 8 - 2 + 3 that works out. Levi - 2 + 3 that works out to be true and so this is a good witness choosing a value for a front and B+ one as the value for p Prime is a good Witness. A good are valid Witness. And we're done that finishes ": [
+            2704.3,
+            2739.3,
+            74
+        ],
+        "example. for all integers So what the book ends up talking about is when n is greater than or equal to 4 and 1/2 property more specific and saying one two, and three are counter-examples here. Right? So it turns out that this property is interesting and is true for a particular range of the integers in particular integers starting at 4 and going to be on for it. So ": [
+            169.9,
+            207.4,
+            6
+        ],
+        "for example, we can then get to 11 12 and 13 by adding a single $0.03 coin from the three-base cases and from these numbers we can get to 14 15 and 16 just by adding a $0.03 coin in each case and we can repeat this process and know my picture doesn't prove but it's pretty convincing. We're going to be able to get to any number do with ": [
+            2248.5,
+            2278.6,
+            62
+        ],
+        "going to highlight that in a second. But this version with the things be a little bit more I guess natural or at least I think it's more natural. We're looking at these proofs. Property we were talking about at the end of class on Wednesday was whether or not it was true that 2 to the N is less than n factorial for all n and a bunch of ": [
+            122.7,
+            150.1,
+            4
+        ],
+        "good witness for the essential. We're trying to prove. So we're trying to prove that we can find in a prime and Abby Prime so that this is true. So we're now going to talk about the quantity of 5 a + 3 * b + 1. and what we need to show is it that's equal to a 10 + 1 that's just substituting those values in trying to ": [
+            2632.7,
+            2663.3,
+            72
+        ],
+        "greater. If we took the domain to be all the positive integers and by the way So you're right that they're slightly different that I would like shouldn't say the properties of the same, but the proof have the same argument. Okay. So let's take the this step first going from here to here from here to Here by 2 is less than K plus one any ideas. We have ": [
+            851.3,
+            902.0,
+            24
+        ],
+        "if those are two point and always give exact change for some region of the integers. Maybe we'll have to So here's the here's the question is which of these things do you think I can end up working in the greedy algorithm work with these two if we can stay in space adventure somehow and we need to come up with some other or can we even do it? ": [
+            1021.1,
+            1048.0,
+            29
+        ],
+        "in the book and we're going to start using this notation today is I would say for all and in the set of integers greater than or equal to 4. 2 to the n in the property is 2 to the N is less than n factorial on Wednesday. We ended by saying for all n In the positive integers and is greater than or equal to 4 implies to ": [
+            617.0,
+            651.8,
+            17
+        ],
+        "in the recursive stop. So if we can make that concrete by talking about the by talking about the same property for the strong induction step and the idea if we have enough base cases. like if we prove this for 8 9 and 10 let's and then we can start talking about representing any possible number that is greater than 8 just by adding a $0.03 coin on. So, ": [
+            2217.4,
+            2248.5,
+            61
+        ],
+        "into a factorial violate this relationship. Until we get something that we know we can work with him that's guaranteed to be true. But a satisfying answer the rest of you to satisfy replacing right hand sides of a band with bigger values and then showing up that's true and we know that there are bigger because of something that we've already assumed. So let's go back to an interesting ": [
+            928.9,
+            975.0,
+            26
+        ],
+        "is our Trivoli trivially true because we made this be an application. So I just want to end up being basically the same proof. It's just on the right hand side. You have to say well and gears. Here's these boring cases where the hypothesis of this implication is salt. So the whole thing evaluates to true and then starting at 4. That would be the base case of this ": [
+            700.3,
+            723.7,
+            20
+        ],
+        "is that these other Witnesses we would need for each of those cases. So that tells us about the that tells us about the basis step. And then it's useful to think about what we get in the recursive step. So you have this written down but I'm going to I want to talk through why each of these things is Justified. So in the recursive step We choose so ": [
+            2353.4,
+            2384.6,
+            65
+        ],
+        "it's going to turn out the proof. Tell this how to write the algorithm. We're going to do a proof that the algorithm exists by talking about this 5 a + 3B property like for all n greater than some value we can express it is 5 a + 3B, that's the property and it turns out that the structure of the proof tells us how to write the code. ": [
+            1568.2,
+            1588.6,
+            40
+        ],
+        "justification for the faces step because what we're trying to show is that there exists and hay in the naturals and there exists a bee in a Naturals. So that 5 a + 3 B is equal to 8. We have a specific value for 8 so we can choose the witness for it. 8 equals 1 b equals 1 + 5 + 3 is definitely equal to 8 so ": [
+            1853.1,
+            1888.8,
+            49
+        ],
+        "last slide on Wednesday, you might remember you might notice some difference, LOL. I'm going to highlighted here on. Here I said one here. I just said the set of integers and here I left the recursive on Wednesday. Those three changes is that it I said start at 1 and didn't have this greater than or equal to constraint. You submit medical induction for a particular reason. I'm just ": [
+            84.1,
+            122.7,
+            3
+        ],
+        "mathematical induction. Any questions about take a minute and see if you have any questions about this proof. So starting here this proof or this last comment that I made before we going to take a minute to talk to each other just for like 10 20 seconds. If you have any questions about notation or about the the thing I just described Any questions, go ahead. Is it? yeah, ": [
+            723.7,
+            794.2,
+            21
+        ],
+        "no way we can ever make change for any pools to right We will never find a way to add up five and three send coins to make change for any pools to one also doesn't work. Right. So there's multiple ways to say this just can't work for for everything. Also don't work n equals 7 is another counterexample where there's just no way. Add fives and threes together ": [
+            1363.2,
+            1406.2,
+            34
+        ],
+        "numbers like that look like 5K + 2. There's a lot of numbers that look like 5K + 202 looks like 5K + 2 million + 2 looks like 5K + 2 in all of those cases greedy algorithm. We'll just use $0.05 coins until I can't anymore and then have this two left over that it can't fill in with a 5 or 3 because the greedy algorithm always ": [
+            1493.6,
+            1522.7,
+            38
+        ],
+        "numbers together comparing them, but the factorial factor is always bigger so I can prove it is going much faster one step at a time. I want to highlight just one thing about the way we wrote this property on Wednesday versus the way it's written in the book and talk about it symbolically just for a second. so in the book, that's the way I would write symbolically what's ": [
+            593.0,
+            617.0,
+            16
+        ],
+        "of a proof. Where do we actually use that in a few different places? And then the idea of this proof key inside in this proof is actually happening in this less than step which is that as numbers get bigger and bigger factor that we're multiplying by in factorio is going to be much bigger than two rights going to keep being a larger number for multiplying numbers two ": [
+            568.1,
+            593.0,
+            15
+        ],
+        "of adding one and there will always be enough coins to use one of those two tracks. pretty interesting pretty interesting So I'm not going to talk about the program just yet because there's one other proof strategy we can use to prove this and it actually would say it's nice because we'll be able to see two different ways. We could implement this come out of two different proof ": [
+            2099.8,
+            2132.7,
+            57
+        ],
+        "on to five cent coins and that gets us to m + 1 as well as a little bit of justification to make sure we have enough coins in those cases, but we can use the multiples to express plus one. And those two steps complete the proof those tell us that for any value of n greater than 8 we can express it by doing this these two tricks ": [
+            2074.3,
+            2099.8,
+            56
+        ],
+        "one interesting idea here is that we're trying to sort of add one to this number. We're trying to express that in terms of multiples of 5 and 3. Try to add one to this number and show how to do that. We need to do it with multiples of 5 and 3. So the way it was so there's a couple interesting ways we could do that. We could ": [
+            1950.1,
+            1977.9,
+            52
+        ],
+        "people one one, that was the basis step. Otherwise, I must be greater than those are the two cases we we talked about. So otherwise Well, what did we do we ask what's the change? What's the tuba we get for getting change on the number before the number. We're looking at we are the muses inductive hypothesis to come up with a new number. So the idea is that ": [
+            2882.3,
+            2915.3,
+            79
+        ],
+        "pointed out that if we look at this property here. When does the property were talking about this is copying exactly on your on your worksheet in this is actually the proof from the book so you can go back to the book and review this and look at the context that shows up in the book this property. Some of you pointed out that one and two are counterexample ": [
+            150.1,
+            169.9,
+            5
+        ],
+        "problem that we talked about it the way back when I think this was like Friday if we want change making problem and one thing that I really just to tell you where this is going we talked about this greedy algorithm for change making early on right there. Just tried to use the biggest points first. We thought it sometimes it works. Sometimes it doesn't write there is as ": [
+            975.0,
+            997.5,
+            27
+        ],
+        "rather do you think both of them are possible to implement? And if you think that one or both of these could be turned into an implementation 5 4 3 2 1 2 1 really good thing about the answers you gave is that I know you've been paying attention to what I was saying cuz I totally gave away that this is possible and no one answered be any ": [
+            2787.1,
+            2839.8,
+            77
+        ],
+        "remove. 6 which is 2 * 3 remove. 9 which is 3 * 3 and add 10 which is 2 * 5 that's a way to use multiples of 3 and 5 to add one. You could also remove 5, which is 5 * 1 and add 6 which is 2 * 3. Vegan safe here. That'll tell us how we could get from one of these existing assets of ": [
+            1977.9,
+            2013.4,
+            53
+        ],
+        "same argument in the proof the argument in the proof for both of these is if we start at some big number we can always make this assumption that the number one smaller than us has this relationship already and the factorial * a bigger Factor than two because we're already a large number that reasoning bottoms out at any pools for 4 to work for every value at for ": [
+            823.7,
+            851.3,
+            23
+        ],
+        "see what we can think about what that means in terms of these constraints. This would mean the number of red of five cent coins. And the number of $0.03 coin has to be greater than 8 which is kind of odd to say because we might want to represent values. Like I know we can represent 13 for example with 5 + $0.03 + $0.03 point, but if I ": [
+            1694.7,
+            1717.0,
+            44
+        ],
+        "so if we Yeah, so we were trying if we were to try and like draw the table for this predicate, right you would end up talking about these extra three rows in the table. So let me be more precise about what I said and not say that these represent the same property, but that the proofs are the same right aside from these three trivial cases. It's the ": [
+            794.2,
+            823.7,
+            22
+        ],
+        "so nice and let's call it. I'm going to call it change one. And it's going to take an n. That is greater than or equal to 8 as its argument. And let's try using the first one was try using mathematical the mathematical induction proof to motivate idea. So the basis of the mathematical induction proof said if n is equal to 8 then when we returned the two ": [
+            2839.8,
+            2882.3,
+            78
+        ],
+        "some sort of proof that this could work and what would that look like to talk about this example of these cases do a counterexample Okay, see what people think after some discussion interesting relationships between these situations to like some of these can't happen at the same time. 5 4 3 2 1 I want to talk to a few of these things before I do and you don't ": [
+            1118.1,
+            1231.9,
+            31
+        ],
+        "strategies thinking you're a think a little bit in the back of your mind. How would I turn this idea of these two tricks into an implementation? That's something that you supposed to be thinking about but I also want to talk about to hear that we could use to prove this and actually do 2 / strategies kind of him fly to different implementations. So just be thinking about ": [
+            2132.7,
+            2153.3,
+            58
+        ],
+        "takes the biggest and if there's leftovers there's leftovers will fail for this infant set of numbers that look like 5K plus two also like 5K plus one looks like 5K + 3 or 5K, but it won't work for 5K plus one or two and a bigger number that always fail an agency can't work. Lecture is we're going to do a proof that such an algorithm exist and ": [
+            1522.7,
+            1568.2,
+            39
+        ],
+        "talking about where one was greater than the other so I want to talk about that first. And what I want to bring up is this definition of mathematical induction that we're going to use and how it parallels structural induction. Those of you who were paying super super close attention on Wednesday in between Wednesday and today If you're like totally eagle-eyed on maybe the second or third to ": [
+            55.3,
+            84.1,
+            2
+        ],
+        "tell us. And so the idea and a recursive step is to consider some arbitrary and it's greater and assume from the inductive hypothesis that there are some reason being is that exist. So that is equal to 5 a + 3B. We're trying to prove this friend plus one. So we have this available to come up with an a prime and Abby Prime still work for in plus ": [
+            1920.8,
+            1950.1,
+            51
+        ],
+        "that whatever we get. For the results of the number of five cent coins in the number 3 cent coin will only be able to represent numbers that we can talk about being the sum of 5 times the number of 560 coins and three times a number three send coins to factors. These are the represent the been right? So the question is what numbers can we represent with ": [
+            1440.7,
+            1473.7,
+            36
+        ],
+        "the A and the b in the inductive hypothesis came from using change on the number before this one. Selena in the proof we would have written change the argument in change one kind of and that's the Envy from before then in the proof. We have these two different tricks one was subtracting one from a and adding to to be any other subtract 3 from B and adding ": [
+            2915.3,
+            2951.2,
+            80
+        ],
+        "the N is less than n factorial. Switch on the right when we noticed the counter example, and the thing on the left is notational use today in the way. I would write symbolically what the book said cuz the book said for all integers greater than or equal to 4 and I just want to make a point here, which is these these mean the same thing and if ": [
+            651.8,
+            673.1,
+            18
+        ],
+        "the inductive step because that's how we decide greater than or equal to 4 we use this all of the values were talking about are going to be the integers that are greater than or equal to 4 and that tells us that in the inductive step we get to make that assumption about the number greater than 4 but it's definitely a greater than or equal to 4. So ": [
+            461.1,
+            486.3,
+            11
+        ],
+        "the property were going to try and prove. I'm it allows there to be zero or more. Buy of the Athens of the A's and B's of acquaintances. So let's keep our proof here and you'll see I could ask if I meant to do this or if I inserted it as a learning moment. Where we actually could talk about starting at 1 and then we have these cases ": [
+            1737.9,
+            1766.5,
+            46
+        ],
+        "the recursive case because in recursive step we just had to prove this existential. That capture this idea that if we start with enough bass cases, we can always just go back and find a base case had a $0.03 coin to it and we get that new value and we needed more bass cases because we need to at least to make sure that we could always talk about ": [
+            2739.3,
+            2762.8,
+            75
+        ],
+        "the way on my right. Traumatic induction. We're looking at the case for n equals eight and we're trying to show where we were trying to show the property is true about 8. We're trying to show there exists an A and A B. Better natural numbers so that 5 a + 3B is equal to this target number. And beer one that is a perfectly useful justification and breakfast ": [
+            1818.1,
+            1853.1,
+            48
+        ],
+        "there's no five cent coins? We're guaranteed to have that the number and we're representing is 3 * B and we know that the number is large enough that be have to be at least 3 cuz otherwise all the multiples of 3 that are greater than 8 end up having heavy and so we can then do this other thing. We describe which is subtract 337 coins and add ": [
+            2043.8,
+            2074.3,
+            55
+        ],
+        "there's these two cases one is the basis step where we talked about this being true for the value for that's where we're sort of starting the induction That's the basis step of the induction. So that's where you see this PO for showing up at making sure that the the predicate of the property hold for the value for and then there were working with is larger than 4 ": [
+            207.4,
+            231.5,
+            7
+        ],
+        "this answer. So I'm first which one of the fixed case of C1 equals 5 equals 3 and just to be clear when we write integers with one of these super scripted constraints. We mean this the set of integers in math So which one of these captures the idea we're looking at here. 5 4 3 2 1 I'm so not going to do two rounds on this one ": [
+            1611.8,
+            1672.7,
+            42
+        ],
+        "this case in the proof If a is not 0 and it's 1 or greater, then what we end up with. ": [
+            2987.5,
+            2997.3,
+            82
+        ],
+        "this is everything we get to assume we'll be able to buy pick one of those numbers and talk about in A and B for it. So what kind of things do you think while we might say cable Otis want to show to come up with the witnesses a prime and beef rhyme based on this information we have talked about this could be having a recursive step. These ": [
+            2456.0,
+            2525.7,
+            68
+        ],
+        "this process. We can talk about a proof that demonstrates that but the idea is with these multiple base cases. That's smaller than the current number where we can assume that we have an AMD that work and add one to be because we can just add on a $0.03 coin to get to the next to get to the next. The idea here is the basis step is going ": [
+            2278.6,
+            2306.0,
+            63
+        ],
+        "thoughts on what we could use what which may be which element from the sequence of a table and is going to give us a useful inductive hypothesis from people think about choice of information here. What's going to be useful. 24 useful and -2 interesting interesting, so Active hypothesis because this property is true for all of those numbers. We know that we can write and -2 as 5 ": [
+            2525.7,
+            2567.4,
+            69
+        ],
+        "to get to seven. What is sufficiently large is is interesting to think about where things get sufficiently large but clearly only B&D can possibly work because of these small numbers that just don't work. The greedy algorithm is interesting to think about working for sufficiently large in a non-negative integers, and I want to use this divisibility idea to talk about that. So one thing We could stay is ": [
+            1406.2,
+            1440.7,
+            35
+        ],
+        "to we're going to try and prove for 8 9 and 10. What's that going to look like when the last and the last proof? We did we picked one in one. So what about the step is going to look like but how are we going to demonstrate this these three different bases steps for 8 9 and 10 look like Adam abbreviating is a bit. But the idea ": [
+            2306.0,
+            2353.4,
+            64
+        ],
+        "today, so and that happened when a was equal to zero. The result we gave back was well, we couldn't accomplish this by subtracting from a we would have to subtract from because we don't have a negative number of five cent coins. So in this case we would end up having to earn points. and B- 3 $0.03 coins nine and adding two must be at least three in ": [
+            2951.2,
+            2987.5,
+            81
+        ],
+        "treat a and b well, that sucks. Just doing a bit of rewriting. That's 5 a + 3 b + 3 3 there. I'm going to just move this little bits that I can fit it all in three nice lines. And the last up here? Well, we know that this is equal to n minus two because we got that from the inductive hypothesis. This 5 a + 3B ": [
+            2663.3,
+            2704.3,
+            73
+        ],
+        "turning into So there's another idea we could use here and I had this idea is called strong induction instead of mathematical induction. So we assume the property was true for a base number be and then we demonstrated it was true 4n + 1 using the assumption that the property held for n. In strong induction, we prove a bunch of bass cases. There might be several days cases. ": [
+            2153.3,
+            2183.2,
+            59
+        ],
+        "until then it was just the usual Mondays. We have homework to do and Thursdays. We have warm up some follow-ups to I'm so there's a couple things I want to talk about today. So 1 Is to talk about this proof we left off with at the end of class on on Wednesday this idea that we were comparing an exponential function to the to a factorial function in ": [
+            27.3,
+            55.3,
+            1
+        ],
+        "want to share how they reason through this cuz a bunch of ways to think about the relationship between these four options particularly interesting. offering tuition So what about specializing to viskase where we have a $0.05 coin and a $0.03 coin? On that like any number that is a you can get exact change. Interesting. Hey, so something about the visibility. Some maybe there's something up Rhymes and divisibility ": [
+            1231.9,
+            1332.8,
+            32
+        ],
+        "we see and greater than or equal to 4 appear verbatim directly in his choice of base is Step. So we're picking to you for here because the basis that tells us we have to start with that base number. So definitely that's why we chose to prove the property at 4 and why we made that initial statement. It also shows up in this choice of arbitrary K in ": [
+            434.3,
+            461.1,
+            10
+        ],
+        "we're looking at. an an greater than or equal to 10 and are want to show Is that we can find an a prime and Abby Prime so that end plus one is equal to 5 a prime plus 3B Prime. So we want to find the new volume. We know that. the property is true app for everything from 8 up to end. So the way this is written ": [
+            2384.6,
+            2426.9,
+            66
+        ],
+        "we've Justified spaces step. Basis stepping now we get to go on to the recursive step. I mean to say justifying. The basic stuff and now we get to go on to the recursive stop and see what we can do for numbers that are gray. We know are greater than 8 with the Assumption of this is going to be true for n -1. That's what mathematical induction will ": [
+            1888.8,
+            1920.8,
+            50
+        ],
+        "what some other values might be that add up to + - 1. If we know that I envy exist we know that I am being is this we can say let's say Inlet be prime equals B plus one. That's the idea of adding one more $0.03 coin adding one more $0.03 coin. and we could sail at a prime equals a and let's see if this is a ": [
+            2594.6,
+            2632.7,
+            71
+        ],
+        "you try and figure out the proof for the right-hand one, so we saw the proof for the left-hand one on the last life. If you try and figure out the for the right-hand one, you just end up with all these cases where you talk about any 1in equals 2N equals 3 and there because what you end up with something false implies something false implies something because it ": [
+            673.1,
+            700.3,
+            19
+        ]
+    },
+    "File Name": "Intro_Discrete_Mathematics___B00___Politz__Joseph_Gibbs___Spring_2019-lecture_18.flac",
+    "Full Transcript": "Okay, let's get started. So only deadline reminder is V homework is out right now. That's due Monday pretty normal schedule right now. So Monday and Thursday, you'll have a warm up in a follow-up to again will keep going that way. You can see on the schedule on the website. We're changing the deadlines a little bit around the memorial day cuz there's a Monday that's a holiday. But until then it was just the usual Mondays. We have homework to do and Thursdays. We have warm up some follow-ups to I'm so there's a couple things I want to talk about today. So 1  Is to talk about this proof we left off with at the end of class on on Wednesday this idea that we were comparing an exponential function to the to a factorial function in talking about where one was greater than the other so I want to talk about that first. And what I want to bring up is this definition of mathematical induction that we're going to use and how it parallels structural induction. Those of you who were paying super super close attention on Wednesday in between Wednesday and today  If you're like totally eagle-eyed on maybe the second or third to last slide on Wednesday, you might remember you might notice some difference, LOL. I'm going to highlighted here on.  Here I said one here. I just said the set of integers and here I left the recursive on Wednesday. Those three changes is that it I said start at 1 and didn't have this greater than or equal to constraint. You submit medical induction for a particular reason. I'm just going to highlight that in a second. But this version with the things be a little bit more I guess natural or at least I think it's more natural. We're looking at these proofs.  Property we were talking about at the end of class on Wednesday was whether or not it was true that 2 to the N is less than n factorial for all n and a bunch of pointed out that if we look at this property here.  When does the property were talking about this is copying exactly on your on your worksheet in this is actually the proof from the book so you can go back to the book and review this and look at the context that shows up in the book this property. Some of you pointed out that one and two are counterexample example.  for all integers  So what the book ends up talking about is when n is greater than or equal to 4 and 1/2 property more specific and saying one two, and three are counter-examples here. Right? So it turns out that this property is interesting and is true for a particular range of the integers in particular integers starting at 4 and going to be on for it. So there's these two cases one is the basis step where we talked about this being true for the value for that's where we're sort of starting the induction That's the basis step of the induction. So that's where you see this PO for showing up at making sure that the the predicate of the property hold for the value for and then there were working with is larger than 4 and we assume the property hold for + -1. And so what I want you to do is look at where this property.  Equal to 4 comes up in this proof and you the proof in and out in front of you. Where does it show up in a proof? Where is it necessary evidence in different steps in the proof to use this in greater than less than or equal to 4 constraint gives you a sort of reason to read through this proof in detail, and then then we'll discuss and talk about it.  So take a minute read through an answer where this is used.  Sofia the first round of this close it in 5 4 3 2 1  5 4 3 2 1  Okay, so let's let's look at a few different places here. So definitely we see and greater than or equal to 4 appear verbatim directly in his choice of base is Step. So we're picking to you for here because the basis that tells us we have to start with that base number. So definitely that's why we chose to prove the property at 4 and why we made that initial statement.  It also shows up in this choice of arbitrary K in the inductive step because that's how we decide greater than or equal to 4 we use this all of the values were talking about are going to be the integers that are greater than or equal to 4 and that tells us that in the inductive step we get to make that assumption about the number greater than 4 but it's definitely a greater than or equal to 4.  So definitely used here as well when we choose our own we choose that value.  And we get to make these assumptions about as a result and then there's one place where it's a little more.  Subtle going from this step to this step. The justification says because to is less than K plus one. And that's true. Only if K is in 00 or some other like some negative number. This wouldn't be true right to would be greater than or equal to that number. I'm so we actually are using the fact that today is definitely large enough to force it to be greater than 2 and we do to a plus one in this stuff. If we didn't know something about the size of K K plus one is definitely I'm so we use it here as well. So that information is used in a few different places in this proof in order to justify this first thing we already made the assumption that K is greater than or equal to 4 using this information. So maybe we're just using that assumption. I think it really is just ends up being  Many different spots in the just ask when we have these assumptions are constraints on different parts of a proof. Where do we actually use that in a few different places?  And then the idea of this proof key inside in this proof is actually happening in this less than step which is that as numbers get bigger and bigger factor that we're multiplying by in factorio is going to be much bigger than two rights going to keep being a larger number for multiplying numbers two numbers together comparing them, but the factorial factor is always bigger so I can prove it is going much faster one step at a time.  I want to highlight just one thing about the way we wrote this property on Wednesday versus the way it's written in the book and talk about it symbolically just for a second.  so in the book, that's the way I would write symbolically what's in the book and we're going to start using this notation today is I would say for all and in  the set of integers greater than or equal to 4.  2 to the n in the property is 2 to the N is less than n factorial on Wednesday. We ended by saying for all n  In the positive integers and is greater than or equal to 4 implies to the N is less than n factorial.  Switch on the right when we noticed the counter example, and the thing on the left is notational use today in the way. I would write symbolically what the book said cuz the book said for all integers greater than or equal to 4 and I just want to make a point here, which is these these mean the same thing and if you try and figure out the proof for the right-hand one, so we saw the proof for the left-hand one on the last life. If you try and figure out the for the right-hand one, you just end up with all these cases where you talk about any 1in equals 2N equals 3 and there because what you end up with something false implies something false implies something because it is our Trivoli trivially true because we made this be an application. So I just want to end up being basically the same proof. It's just on the right hand side. You have to say well and gears.  Here's these boring cases where the hypothesis of this implication is salt. So the whole thing evaluates to true and then starting at 4. That would be the base case of this mathematical induction.  Any questions about take a minute and see if you have any questions about this proof. So starting here this proof or this last comment that I made before we going to take a minute to talk to each other just for like 10 20 seconds. If you have any questions about notation or about the the thing I just described  Any questions, go ahead.  Is it?  yeah, so if we  Yeah, so we were trying if we were to try and like draw the table for this predicate, right you would end up talking about these extra three rows in the table. So let me be more precise about what I said and not say that these represent the same property, but that the proofs are the same right aside from these three trivial cases. It's the same argument in the proof the argument in the proof for both of these is if we start at some big number we can always make this assumption that the number one smaller than us has this relationship already and the factorial * a bigger Factor than two because we're already a large number that reasoning bottoms out at any pools for 4 to work for every value at for greater. If we took the domain to be all the positive integers and by the way  So you're right that they're slightly different that I would like shouldn't say the properties of the same, but the proof have the same argument.  Okay. So let's take the this step first going from here to here from here to Here by 2 is less than K plus one any ideas. We have an inequality. So we have like X is less than y basically that were showing and then we're plugging in a value that definitely greater than y on the right hand side. So we have violated any quality the inductive hypothesis statement is if we look at the inductive hypothesis, here's the inductive hypothesis. It's to the K is less than K factorial and what we're doing is we're plugging into a factorial violate this relationship.  Until we get something that we know we can work with him that's guaranteed to be true.  But a satisfying answer the rest of you to satisfy replacing right hand sides of a band with bigger values and then showing up that's true and we know that there are bigger because of something that we've already assumed.  So let's go back to an interesting problem that we talked about it the way back when I think this was like Friday if we want change making problem and one thing that I really just to tell you where this is going we talked about this greedy algorithm for change making early on right there. Just tried to use the biggest points first. We thought it sometimes it works. Sometimes it doesn't write there is as cases where you don't get exact change and it's interesting to think about this problem, but also in terms of can we find an algorithm that act that actually works for particular coins in for any value in Target at Exit? There's two points does a $0.05 coin and a $0.03 coin and we're going to ask questions about what what values of n we can actually make change for if those are two point and always give exact change for some region of the integers. Maybe we'll have to  So here's the here's the question is which of these things do you think I can end up working in the greedy algorithm work with these two if we can stay in space adventure somehow and we need to come up with some other or can we even do it? This is just impossible to solve this problem. Exactly. For some reason I think about these different what's possible here. What can we actually accomplish and Implement and do some of the strategies leucine work?  5 4 3 2 1 is a really interesting one to discuss because you can think about counterexample for some of these cases and other cases you start thinking about can I come up with some sort of proof that this could work and what would that look like to talk about this example of these cases do a counterexample  Okay, see what people think after some discussion interesting relationships between these situations to like some of these can't happen at the same time.  5 4 3 2 1  I want to talk to a few of these things before I do and you don't want to share how they reason through this cuz a bunch of ways to think about the relationship between these four options particularly interesting.  offering tuition  So what about specializing to viskase where we have a $0.05 coin and a $0.03 coin?  On that like any number that is a you can get exact change.  Interesting. Hey, so something about the visibility.  Some maybe there's something up Rhymes and divisibility call. These are two these are two useful insights inside about divisibility. We might be able to use that same kind of inside the first of all I want to highlight something about a and see which side is the greedy algorithm will give exact change and the other one says some algorithm will give exact change. Well, no because if we gave our coins are 5 and 3, there's no way we can ever make change for any pools to  right  We will never find a way to add up five and three send coins to make change for any pools to one also doesn't work. Right. So there's multiple ways to say this just can't work for for everything. Also don't work n equals 7 is another counterexample where there's just no way.  Add fives and threes together to get to seven.  What is sufficiently large is is interesting to think about where things get sufficiently large but clearly only B&D can possibly work because of these small numbers that just don't work. The greedy algorithm is interesting to think about working for sufficiently large in a non-negative integers, and I want to use this divisibility idea to talk about that.  So  one thing  We could stay is that whatever we get.  For the results of the number of five cent coins in the number 3 cent coin will only be able to represent numbers that we can talk about being the sum of 5 times the number of 560 coins and three times a number three send coins to factors. These are the represent the been right? So the question is what numbers can we represent with 5 a + 3B that would talk about the sum algorithm case right because we could think about many different ways to come up with a v a and a three bean and then we can think about the greedy algorithm and where the greedy algorithm might fail and to let spoke at the greedy algorithm for a second. So it was a greedy algorithms we can ask what about  numbers like  that look like 5K + 2.  There's a lot of numbers that look like 5K + 202 looks like 5K + 2 million + 2 looks like 5K + 2 in all of those cases greedy algorithm. We'll just use $0.05 coins until I can't anymore and then have this two left over that it can't fill in with a 5 or 3 because the greedy algorithm always takes the biggest and if there's leftovers there's leftovers will fail for this infant set of numbers that look like 5K plus two also like 5K plus one looks like 5K + 3 or 5K, but it won't work for 5K plus one or two and a bigger number that always fail an agency can't work.  Lecture is we're going to do a proof that such an algorithm exist and it's going to turn out the proof. Tell this how to write the algorithm.  We're going to do a proof that the algorithm exists by talking about this 5 a + 3B property like for all n greater than some value we can express it is 5 a + 3B, that's the property and it turns out that the structure of the proof tells us how to write the code.  So it's not obvious looking at this problem that you can just write like a V Line Loop or a five-line recursive function or a five-line program. That always calculates the right answer here or answered it works, but the proof actually helps us. So that's that's where we're going with us. So let's just make sure we know what property were talking about and then we're going to use this answer. So I'm first which one of the fixed case of C1 equals 5 equals 3 and just to be clear when we write integers with one of these super scripted constraints. We mean this the set of integers in math  So which one of these captures the idea we're looking at here.  5 4 3 2 1  I'm so not going to do two rounds on this one cuz I want to keep going the majority of the answers. We're are be although there's plenty of reasons to have tried. One of the other ones busy answer. We're looking for a beer and just the one thing I want to point out is that the the key difference right? Is that the A's and B's are the greater than equal to greater than equal to a constraint and see what we can think about what that means in terms of these constraints. This would mean the number of red of five cent coins. And the number of $0.03 coin has to be greater than 8 which is kind of odd to say because we might want to represent values. Like I know we can represent 13 for example with 5 + $0.03 + $0.03 point, but if I eat 3000 coins that sort of force is the minimum to be really high and we're not going to be able to cover cases like 13, but seem like we should be able to cover them. And so this property would actually end up  Fall because we wouldn't be able to express that case. We'll be out of 213. So we're looking for so we're looking for be here. That's the property were going to try and prove. I'm it allows there to be zero or more.  Buy of the Athens of the A's and B's of acquaintances.  So let's keep our proof here and you'll see I could ask if I meant to do this or if I inserted it as a learning moment.  Where we actually could talk about starting at 1 and then we have these cases 0 through 7 that are all false in the hypothesis. True. Why won't you just take a minute? What would you were talking about? The number eight? I'm just going to give a short amount of time to talk about the space of stuff. What would you do to justify the faces stuff?  Suggestions when we demonstrate in this stuff to get the basement steps work, maybe someone from all the way on my right.  Traumatic induction. We're looking at the case for n equals eight and we're trying to show where we were trying to show the property is true about 8. We're trying to show there exists an A and A B.  Better natural numbers so that 5 a + 3B is equal to this target number.  And beer one that is a perfectly useful justification and breakfast justification for the faces step because what we're trying to show is that there exists and hay in the naturals and there exists a bee in a Naturals.  So that 5 a + 3 B is equal to 8. We have a specific value for 8 so we can choose the witness for it.  8 equals 1 b equals 1 + 5 + 3 is definitely equal to 8 so we've Justified spaces step.  Basis stepping now we get to go on to the recursive step.  I mean to say justifying.  The basic stuff and now we get to go on to the recursive stop and see what we can do for numbers that are gray. We know are greater than 8 with the Assumption of this is going to be true for n -1. That's what mathematical induction will tell us.  And so the idea and a recursive step is to consider some arbitrary and it's greater and assume from the inductive hypothesis that there are some reason being is that exist. So that is equal to 5 a + 3B. We're trying to prove this friend plus one. So we have this available to come up with an a prime and Abby Prime still work for in plus one interesting idea here is that we're trying to sort of add one to this number. We're trying to express that in terms of multiples of 5 and 3.  Try to add one to this number and show how to do that. We need to do it with multiples of 5 and 3. So the way it was so there's a couple interesting ways we could do that. We could remove.  6 which is 2 * 3 remove.  9 which is 3 * 3 and add 10 which is 2 * 5 that's a way to use multiples of 3 and 5 to add one. You could also remove 5, which is 5 * 1 and add 6 which is 2 * 3.  Vegan safe here. That'll tell us how we could get from one of these existing assets of a zombies are pairs of A's and B's to new A's and B's that'll work. And so that's what's going on in this next step of the proof, which is there's two cases one where we have some number of five cent coins is greater than or equal to one in that case. What we do is we subtract is going to be a minus one.  Any other case where there's no five cent coins?  We're guaranteed to have that the number and we're representing is 3 * B and we know that the number is large enough that be have to be at least 3 cuz otherwise all the multiples of 3 that are greater than 8 end up having heavy and so we can then do this other thing. We describe which is subtract 337 coins and add on to five cent coins and that gets us to m + 1 as well as a little bit of justification to make sure we have enough coins in those cases, but we can use the multiples to express plus one.  And those two steps complete the proof those tell us that for any value of n greater than 8 we can express it by doing this these two tricks of adding one and there will always be enough coins to use one of those two tracks.  pretty interesting  pretty interesting  So I'm not going to talk about the program just yet because there's one other proof strategy we can use to prove this and it actually would say it's nice because we'll be able to see two different ways. We could implement this come out of two different proof strategies thinking you're a think a little bit in the back of your mind. How would I turn this idea of these two tricks into an implementation? That's something that you supposed to be thinking about but I also want to talk about to hear that we could use to prove this and actually do 2 / strategies kind of him fly to different implementations. So just be thinking about turning into  So there's another idea we could use here and I had this idea is called strong induction instead of mathematical induction. So we assume the property was true for a base number be and then we demonstrated it was true 4n + 1 using the assumption that the property held for n.  In strong induction, we prove a bunch of bass cases.  There might be several days cases. And then we had the Assumption we get in the recursive step is that the property is true for all n from the base step up to the number the number we're proofing -1 hours from the base cases up to the river talking about now. It's the stronger inductive hypothesis. It's more information. We get all that information basically proving some more steps and proving a slightly stronger thing in the recursive stop.  So if we can make that concrete by talking about the by talking about the same property for the strong induction step and the idea if we have enough base cases.  like if we prove this for 8 9 and 10  let's and then we can start talking about representing any possible number that is greater than 8 just by adding a $0.03 coin on. So, for example, we can then get to 11 12 and 13 by adding a single $0.03 coin from the three-base cases and from these numbers we can get to 14 15 and 16 just by adding a $0.03 coin in each case and we can repeat this process and know my picture doesn't prove but it's pretty convincing. We're going to be able to get to any number do with this process. We can talk about a proof that demonstrates that but the idea is with these multiple base cases.  That's smaller than the current number where we can assume that we have an AMD that work and add one to be because we can just add on a $0.03 coin to get to the next to get to the next.  The idea here is the basis step is going to we're going to try and prove for 8 9 and 10. What's that going to look like when the last and the last proof? We did we picked one in one. So what about the step is going to look like but how are we going to demonstrate this these three different bases steps for 8 9 and 10  look like  Adam abbreviating is a bit. But the idea is that these other Witnesses we would need for each of those cases.  So that tells us about the that tells us about the basis step.  And then it's useful to think about what we get in the recursive step. So you have this written down but I'm going to I want to talk through why each of these things is Justified. So in the recursive step  We choose so we're looking at.  an an greater than or equal to 10 and are want to show  Is that we can find an a prime and Abby Prime so that end plus one is equal to 5 a prime plus 3B Prime. So we want to find the new volume.  We know that.  the property  is true  app for everything from 8 up to end. So the way this is written 8 9 10 all the way up to n the property is true. We have Nan and a and a b some values of A and B. They might be different for all of those numbers 8 through N I bet there's some value of a candy that works to give us a representation of that number that gives us exact change so we know all of that stuff.  So this is everything we get to assume we'll be able to buy pick one of those numbers and talk about in A and B for it. So what kind of things do you think while we might say cable Otis want to show to come up with the witnesses a prime and beef rhyme based on this information we have talked about this could be having a recursive step.  These thoughts on what we could use what which may be which element from the sequence of a table and is going to give us a useful inductive hypothesis from people think about choice of information here. What's going to be useful.  24 useful and -2 interesting  interesting, so  Active hypothesis because this property is true for all of those numbers.  We know that we can write and -2  as 5 a + 3 b + B. We don't know what the A and B are in fact if we wanted to be really explicit we can say that what time inductive hypothesis tells us. Is that there exists an A and A B in a natural numbers so that this is true.  pretty interesting  And it's interesting that your troubles than mine is too because now we can talk about what some other values might be that add up to + - 1.  If we know that I envy exist we know that I am being is this we can say let's say Inlet be prime equals B plus one. That's the idea of adding one more $0.03 coin adding one more $0.03 coin.  and  we could sail at a prime equals a  and let's see if this is a good witness for the essential. We're trying to prove. So we're trying to prove that we can find in a prime and Abby Prime so that this is true.  So we're now going to talk about the quantity of 5 a + 3 * b + 1.  and what we need to show is it that's equal to a 10 + 1 that's just substituting those values in trying to treat a and b  well, that sucks.  Just doing a bit of rewriting. That's 5 a + 3 b + 3 3 there. I'm going to just move this little bits that I can fit it all in three nice lines.  And the last up here?  Well, we know that this is equal to n minus two because we got that from the inductive hypothesis. This 5 a + 3B equals 2 + -2 and we're just asking if m + 1 is equal to 8 - 2 + 3  that works out.  Levi - 2 + 3 that works out to be true and so this is a good witness choosing a value for a front and B+ one as the value for p Prime is a good Witness.  A good are valid Witness.  And we're done that finishes the recursive case because in recursive step we just had to prove this existential.  That capture this idea that if we start with enough bass cases, we can always just go back and find a base case had a $0.03 coin to it and we get that new value and we needed more bass cases because we need to at least to make sure that we could always talk about and mine is to not just the value end. We have to go back further than we did for the mathematical induction proof. This is also a perfectly valid proof in a way to think about this.  I want to spend the last couple minutes talking about this being being able to use these two ideas for implementation. So here's the question which one of these would you would you rather do you think both of them are possible to implement? And if you think that one or both of these could be turned into an implementation  5 4 3 2 1 2 1 really good thing about the answers you gave is that I know you've been paying attention to what I was saying cuz I totally gave away that this is possible and no one answered be any so nice and let's call it. I'm going to call it change one.  And it's going to take an n.  That is greater than or equal to 8 as its argument.  And let's try using the first one was try using mathematical the mathematical induction proof to motivate idea. So the basis of the mathematical induction proof said if n is equal to 8  then when we returned the two people one one, that was the basis step.  Otherwise, I must be greater than those are the two cases we we talked about. So otherwise  Well, what did we do we ask what's the change? What's the tuba we get for getting change on the number before the number. We're looking at we are the muses inductive hypothesis to come up with a new number. So the idea is that the A and the b in the inductive hypothesis came from using change on the number before this one.  Selena in the proof we would have written change the argument in change one kind of  and that's the Envy from before then in the proof. We have these two different tricks one was subtracting one from a and adding to to be any other subtract 3 from B and adding today, so and that happened when a was equal to zero.  The result we gave back was well, we couldn't accomplish this by subtracting from a we would have to subtract from because we don't have a negative number of five cent coins. So in this case we would end up having to earn points.  and B- 3  $0.03 coins nine and adding two must be at least three in this case in the proof If a is not 0 and it's 1 or greater, then what we end up with. "
+}

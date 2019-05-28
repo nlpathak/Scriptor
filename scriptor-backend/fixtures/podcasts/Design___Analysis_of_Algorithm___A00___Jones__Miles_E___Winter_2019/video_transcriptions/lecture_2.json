@@ -1,0 +1,341 @@
+{
+    "Blurbs": {
+        "Auto DFS DFS BFS right. I'm just going to call both of these are going to be in the realm of graph search. Okay. So, how are we going to solve this problem before we get there? And I know you probably have seen this already, but I wanted to do it again quickly go through y Graph Search is correct. And what its run time is Okay. So this ": [
+            1101.0,
+            1134.2,
+            22
+        ],
+        "Even if some elements of the part that is not really miss their for this particular stick. I don't think I understand what you're saying. I'm sorry, okay. Okay. Okay. So that's what we said. Okay, so that's all that stuff. I'll I'll Bolden this and put it into drive. Okay, so let's go. Let's look at the other direction B. If B is not in X then there is ": [
+            2142.8,
+            2178.2,
+            51
+        ],
+        "F and when you're done with that foot that vertex in X and it's done you can kind of keep it there. Okay, so at the end of return acts so I spent like maybe two and a half hours today trying to come up with this animation and at the end it actually I actually sort of messed up and I'll tell you where but for the most part. ": [
+            1254.4,
+            1283.1,
+            27
+        ],
+        "F can all be reachable from s if I can prove this is true. Then at the end. It'll show me that every element of X can be reached from us. Okay, so where's my? What happened to all the stuff? It's like it and like it didn't color it in. That's annoying. Okay, well. Let's just kind of highlights of the key points. Okay the base case. Okay, so ": [
+            1868.0,
+            1923.2,
+            46
+        ],
+        "I changed out the the slide little bit because I feel like this is a better. It looks a little bit better more, right? Okay, so let's get back into what we were doing before or what I left you off with that the last the last slide we're going to talk about. How do we approach problems? Okay, what's up? One good way to start is to know what ": [
+            352.1,
+            382.5,
+            2
+        ],
+        "I don't know you guys get the point. Okay, so then you do ask if that's all good and you put back inside and then you're done right and so X contains all of the vertices that are reachable from s and you contains all the vertices that are unreachable from ass. Okay, what you guys think pretty cool? Thank you. Okay. So what data structures are we going to ": [
+            1463.9,
+            1495.4,
+            34
+        ],
+        "I so the whole thing will take big old and plus in? And this is considered to be linear time. for grass Are there any questions about that? Okay. so one kind of thing to think about with this algorithm and what I want to warn you about modifying this out rhythm is that each vertex is added to the frontier only one time right at most one time and ": [
+            1741.0,
+            1786.1,
+            42
+        ],
+        "Is really cool, right? I did it a little bits like this morning and then I kind of put some finishing touches on it, but I messed up pretty bad. I'm going to try to fix it. So that next quarter. We can use it again. People can play around with it. Yeah, and I'm wondering maybe I should like hire a tutor to do it next time for me, ": [
+            2677.9,
+            2723.6,
+            61
+        ],
+        "It's pretty good. Okay, so So this is the starting and think of these blobs at sets Okay, so f starts out with your starting vertex and you as everything else and exit empty. Okay. So the first thing we're going to do is activate S. Okay. And so what does that mean? That's actually this I guess you can't really see it. But that's this pic. Pick v&f operation. ": [
+            1283.1,
+            1313.9,
+            28
+        ],
+        "Okay so solution format. You can you could output. The band with write a integer. Okay, but if you are the engineer, you actually want to know how to fit the pipes in right B wouldn't need to know what the actual path is queso. You can have two solution types. Is the actual pack okay for us for this exercise in this class? This is going to be the ": [
+            879.7,
+            916.9,
+            15
+        ],
+        "Okay, so let's say this protects Z is not in acts in this vertex is call it why is in at some point that pack has to break, right? And that's really kind of where you get the contradiction from is because if Y is in X, that means it must have been an F. Right and if it were an F, then all of its neighbors needs to be ": [
+            2278.8,
+            2318.2,
+            54
+        ],
+        "Okay, so we're not done. We're still at s so go to the next neighbor OK D and now D is not in X or F. So put D in it and then look at the other neighbor of a switch is easy. Okay, and I'll do the same thing. Okay. Now what happens? We're done with s so what are we doing? We're done with the vertex. You put ": [
+            1354.8,
+            1383.3,
+            30
+        ],
+        "So F only has one vertex. So we're picking ass. Okay, so now for every neighbor, so let's start with B. Okay. So what do we do? I should have made this a little bit bigger. I'm sorry. It says if FB is not in X or F then put be in f as in you so put be in Africa to see if this one works. Pretty cool, huh? ": [
+            1313.9,
+            1353.1,
+            29
+        ],
+        "Then you move B into ex do the same thing with d. Its neighbors are already in there. So you don't do anything. He move that into acts and then we do the same thing with e And we look at all of its neighbors S D and B are already taken care of. and then said that you do H and then You get the point and there is ": [
+            1414.4,
+            1439.4,
+            32
+        ],
+        "There's a path from s to all of the neighbors of V. There is a path. from s2v and an edge from B to its neighbors therefore there is a path. from past to these Neighbors Any questions about that? Is there a Neighbors in that induction? Can you get the first part of the what the algorithm does? 6 p.m. MST Princess for each neighbor you of be okay. ": [
+            2022.2,
+            2100.3,
+            49
+        ],
+        "X is empty and F contains s okay done, right everything and can be reached from ass. Okay, so suppose. the loop invariant is true after t iterations Okay, what happens in the next iteration? You pick a vertex in F. Right and you look at all of its neighbors and then each one of those neighbors you put inside of a bath so you pick. v&f put all of ": [
+            1925.6,
+            1977.5,
+            47
+        ],
+        "a big I'll just go through the rest of it. So you guys can see but they're sort of a mistake in there. So. I guess you do that and then that guy's goes and then you Go to see you got the idea though, right kind of building the sets. I should have put a chin X, but I I didn't that was the mistake. But I did it. ": [
+            1439.4,
+            1463.9,
+            33
+        ],
+        "about is the objective this turns out to be an optimization problem, which means that we want to find the best solution among all of the possible paths, right? So, what is the bandwidth of a path? Forgiving a path which is just a sequence of edges. You take the minimum weight of all the edges. That's the bandwidth you can kind of think about it. Sort of physically if ": [
+            583.8,
+            614.3,
+            9
+        ],
+        "actually solve the new problem but more importantly if you change the inner workings of algorithm, you may drastically change the run time. Okay. So modifications to well-known algorithms. You should only use this and whenever you use this you should be very careful because this can make things complicated and hard to prove. Okay, you kind of have to do the whole proof of correctness again with your new ": [
+            972.5,
+            1003.9,
+            18
+        ],
+        "always Pat from a Vertex to itself. Okay, so let's figure out how to represent this problem more precisely the instance. I have a directed path with Edge weights. I have a start vertex in and vertex. Turn the solution type is a pack Rite and the Restriction is the path must go from s to T. So that's these three things here. The last thing we have to talk ": [
+            544.2,
+            583.8,
+            8
+        ],
+        "and we're talking about simple past mostly on unless I tell you otherwise and note here that a single vertex is it has a trivial path to itself of length 0 Okay, so this is going to come up a lot you guys going to ask me about it. So I'm going to tell you it to you now and then probably again as we go okay always a pack ": [
+            510.9,
+            544.2,
+            7
+        ],
+        "be posting the homework probably this evening and will be due next Thursday. So you have a little over a week to do it, which is good. I'm sorry. Oh. by today probably I don't know maybe but maybe by Friday. It is going to be kind of a sort of review. But I want you to do more with what you know, basically like proofs and stuff. Okay, so ": [
+            300.9,
+            352.1,
+            1
+        ],
+        "can Define the bandwidth of any path here. So this will be the maximum. Okay, before we move on I want to come give you a distinction of the possible solution solution form for Matt's. Okay. So if you're just kind of a city planner, right and you're trying to do this system of of water pipes, Maybe all you want to know is the actual number the actual bandwidth? ": [
+            850.1,
+            879.7,
+            14
+        ],
+        "data structure for these two is just a Boolean. array Okay, so you just have this array where you have an entry for each vertex and you either say true or false depending on if that vertex is in the set or not? Okay. Earth is going to be a little bit different because we need to be able to find. A vertex in F is going to open up ": [
+            1521.0,
+            1556.0,
+            36
+        ],
+        "down the algorithm try to write it in in a high-level description or a mid-level description or pseudocode if you want to And see if you can solve this Mac bandwidth path problem. Now the hint I want to give you is it might be helpful to use Graph Search to do it. Okay, so I'll give you this as kind of a picture to look at and if you ": [
+            2392.9,
+            2426.9,
+            57
+        ],
+        "every vertex in if a Vertex is in Acts at the end of the algorithm. Then there is a path from s to be in the vertex is not an X at the end of the algorithm. Then there is no path from s to be both of those to be correct or those to be true. Okay, so what to do a first and I know you guys have ": [
+            1814.7,
+            1837.9,
+            44
+        ],
+        "explored. And Z is among one of the neighbors. Therefore Z must have been put in app, which is a contradiction. Okay. So this kind of this blurred-out text kind of is the thing that says that so I'll I'll make it a little bit Bolder so you guys can look at it. in more detail Okay. Yeah. Yeah, that's fine. The the transition kind of I don't know what ": [
+            2318.2,
+            2360.7,
+            55
+        ],
+        "going to start with. But before we do that, let's go back a bit. So that we're all in the same path same. We're on the same page. Thank you to be an alternating sequence of vertices and edges. Sometimes we'll just think of a path as a sequence of just the edges Right because if you just have the edges that's enough to show you what the path is. ": [
+            465.6,
+            506.8,
+            6
+        ],
+        "happened to I'm sorry. Okay, so Okay. Now we're going to the max bandwidth half problem and I want to give you guys an opportunity to come up with an algorithm. Okay, what I want you to do is get into a group of maybe like 4 to 6 to 7 just with your neighbors talk it through and I want I want one member of your group to write ": [
+            2360.7,
+            2392.9,
+            56
+        ],
+        "here and an adjacency list. Okay, so let's just quickly go through the the runtime. It takes big love end of time to initialize all the arrays. That's what you're doing in that first step. Picking something in F will take constant time if you're in a stack or queue if it's a priority queue will take more time. But let's just focus on a stack or queue. Chopard each ": [
+            1600.2,
+            1630.7,
+            38
+        ],
+        "high class Sorry for the late start today. I I went to a different classroom. Okay, I don't tell me this never happened to you before. All right, and now I'm trying to get this thing. on Is the projector even on? I guess I'll turn it off and then turn it back on again. Okay. Well, I'm getting set up. Does anybody have any questions before I start? I'll ": [
+            250.1,
+            300.9,
+            0
+        ],
+        "huh? Yeah, you're down. Okay, cool. Let's go. Let's talk cuz I think that it would be cool to do more of those. Yeah, of course, of course. Okay guys, so we have about 5 minutes left in class. It would I would really be appreciative if you wrote down your algorithm and handed it to me. I'm not going to give you any score on it or anything. I ": [
+            2723.6,
+            2758.1,
+            62
+        ],
+        "inductive deductive step Which is if you was not in X or f move you from you to ask. We need that stuff up there at the first part. Yeah, because what we're doing is we're doing a loop invariant for this Loop here. So we need the whole Loop to relieve the whole interation to run and then at the end we need to see if it's still true. ": [
+            2103.5,
+            2142.2,
+            50
+        ],
+        "is how I'm going to present it. This is sort of like a mid-level employment. It mid-level description. It's almost a pseudocode but instead of using actual data structures, you would use in a computer such as a raise or linked list or things like that. I'm going to be using mathematical objects like sex and things like that. Okay, so it's sort of like this mid-level place the nice ": [
+            1134.2,
+            1165.0,
+            23
+        ],
+        "it into X. Okay, so that's kind of like after done now. Alright, so then we move on to ask again and we pick a vertex in F think so. Let's pick a vertex and it's going to be and now we look at all of the vertices of be neighbors are beet which are a Sandy but they're already in Acts NF. Thought you just don't do anything. Okay? ": [
+            1383.3,
+            1413.3,
+            31
+        ],
+        "just kind of want to see what kind of ideas you have and maybe I'll pick a few of them to talk about them on Friday because what we're going to do on Friday is is use different ways to solve this problem and how to prove that they work or not. And what kind of pitfalls you might have gone into and things like that. Okay, so just get ": [
+            2758.1,
+            2781.5,
+            63
+        ],
+        "kind of makes sense? Also, you can think about it in terms of like a water system. questions guy remember about write remember which one I warned you about. It might be tempting to just modify it. But if you can use a reduction then it's flight easier to analyze so they're going to be the topic of tomorrow's lecture, but What's good? That's really fun. Going to look good. ": [
+            2544.9,
+            2676.2,
+            60
+        ],
+        "little bit more specific here. It's going to be Big O of n + that because we have to initialize the array that I'll take an amount of time. And what is the sum of all the degrees of all the vertices in terms of edges. 2 times a number of edges what's a m is number? edges and so we got Big O of this is two times. Am ": [
+            1712.0,
+            1741.0,
+            41
+        ],
+        "matter how big it is step by step process to do it. Okay, so that's what we're going to talk about for the rest of the class any comments or questions. Notice that this path here, right? It has Edge weights 6 7 8 8. Sex right and so the minimum value of all these things is 6 so that the bandwidth of the path right and you can you ": [
+            817.7,
+            850.1,
+            13
+        ],
+        "might have an effect on the efficiency or even the problem. Okay, so we're going to have these three sets. X will be the vertices explored F will be kind of the frontier the vertices that you have discovered, but you haven't explored yet and you will be the unreached for pesach. This is the the mid-level description. So we start off with X being empty. F starts out with ": [
+            1192.2,
+            1227.1,
+            25
+        ],
+        "neighbor it takes the degree of V time right? You just look at all of the neighbors and then to check if it's in xrf that will take constant time because we have an array you just look up that array value if it's true, then it's in there if it's false and it's not and then you move it from one to the other and that will take constant ": [
+            1630.7,
+            1652.4,
+            39
+        ],
+        "no path from s to V. So the question here is is it possible for some vertex to be put in X such that there's no path to that vertex. Would that ever be possible answer is no, but how do we prove it? Okay, so sorry about the the boldness. Maybe it's better that you see me go through it. Okay, so suppose. by contradiction that there is a ": [
+            2178.2,
+            2219.1,
+            52
+        ],
+        "of P. Hey, so take a minute. Chocolate Taco with your neighbors. See if you can find on your own. What is the maximum bandwidth path from a to h k ready go? A b c d e f g and then back to be sure. I don't think it's helpful though. okay, so does anybody have a an answer fart 6 / 6 How right are you so right ": [
+            647.6,
+            781.3,
+            11
+        ],
+        "of correctness for free you get the run time for pre-k. All you have to do is is show that the modification of your input will lead to the solution you want. Okay, the only thing different with the time analysis you kind of have to see if you modify it. How does that scale does it? Does it make the new input a lot bigger or is it comprable ": [
+            1034.6,
+            1061.4,
+            20
+        ],
+        "okay, right? Thank you. Thank you. Thank you. Okay. Thanks guys. See you guys on Friday. Thank you to everyone who handles on men. Thank you. How's it going? How did this exercise go? ": [
+            2943.6,
+            2999.5,
+            66
+        ],
+        "one of your Groupmates to write it down. It doesn't have to be perfect. It could be just like a description like a paragraph, but just an idea and how Yeah, okay, so ready to go and then you can just bring it up to me when you guys are done and put it up here. What year are we still have some time left? So if you want to ": [
+            2781.5,
+            2812.7,
+            64
+        ],
+        "parts pay so I would steer clear of this unless it's completely necessary alternatively. Which I recommend is doing something called a reduction, which is you take your input and you modify your input instead you modify your input in such a way that you can take your existing algorithm and run it as just a subroutine. She don't change anything within the algorithm there for you get the proof ": [
+            1003.9,
+            1034.6,
+            19
+        ],
+        "reusing algorithms. Okay, so or know they're both were using algorithms. Sorry, why does modification so that's like taking an existing algorithm that's well-known. It's already been proven to be correct. The run time has been established and what you what you're going to do is kind of change a few things inside of the algorithm to fit your problem. Okay, so the complications arise where of course does it ": [
+            941.5,
+            972.5,
+            17
+        ],
+        "rip me if you want some questions, do you want some hints you want to talk about some ideas with me to just raise your hand? Atlantic City Remember how to do it now? baby I'll tell you after class. Okay, I got only one for you guys too. Shy to share your algorithm I know it's only the second lecture. I'm already asking you to write algorithms, but it's ": [
+            2812.7,
+            2943.6,
+            65
+        ],
+        "seen this before but I just want to do it again to show you kind of the level of rigor. I want you to put into your proofs. Okay, so suppose she is in X. I want to show that there's a path from s2v. Okay. So after the loop invariant what's up, let's say that this is the loop invariant after the teeth iteration every element of X and ": [
+            1837.9,
+            1868.0,
+            45
+        ],
+        "so if you say 6 then you should be able to back it up with a path right? So somebody give me a path with that 680 to f G b see Not bad, okay. So, how did you guys do it while you kind of just looked at it, right? So if that's a lot different than coming up with a algorithm that will work on any input. No ": [
+            781.3,
+            817.7,
+            12
+        ],
+        "solution type. I'm going to be looking for a k so you're just going to put some number we'll talk later about how to kind of backtrack and figure out what the path is from that number but for now, we're just trying to get the number for this graph. The number will be six. Okay. We're going to talk about two different ways to approach this problem 1 is ": [
+            916.9,
+            941.5,
+            16
+        ],
+        "some possibilities. So we're going to see FB used as a stack. AQ or a priority queue and a stack will correspond to DFS. Kid will be BFS and priority queue will be dijkstra's. Or Prince see both of those user priority queue. Maybe even another one if you're lucky. Okay, and then G is just an adjacency list. Okay. So the rate of Boolean zoreya billions, whatever you have ": [
+            1556.0,
+            1600.2,
+            37
+        ],
+        "something like true or false that then you use to solve another problem. Right? And that's kind of what we're going to go with today. Okay, so let's get started here. Who's going to be kind of the first problem that I want you guys to approach this is the max bandwidth path problem. Okay, so you have a graph that represents some sort of network with edges representing some ": [
+            407.1,
+            432.0,
+            4
+        ],
+        "sort of communication links or you could also think about it as like an underground like sewage system where like the pipes are of different diameters. Okay. So those numbers correspond to how much electricity water some sort of flow. How much can you put through that particular Edge Okay, so The question here is what is the largest bandwidth of a path from a to H. That's what we're ": [
+            432.0,
+            465.6,
+            5
+        ],
+        "that's going to keep that run time from exploding right because you don't have to put it in more times. So that's sort of what is Keeping it efficient. Okay, so let's go through the correctness proof and you know, you guys are going to be doing proof of correctness for graph problems often times. It's like this where you have to do to directions. We're going to say for ": [
+            1786.1,
+            1814.7,
+            43
+        ],
+        "the problem is to find the problem precisely and sometimes it won't be given to you like this. Sometimes it will be a word problem where you have to kind of figure out. What is the information that you have access to and what form do you want your solution to be sometimes that form will be like a true or false. Sometimes it'll be like a Sometimes it'll be ": [
+            382.5,
+            407.1,
+            3
+        ],
+        "the she just throw that pain away that starts out with just the starting vertex, right? We've discovered it, but we haven't explored it yet. And you is everything else? Okay for f is not empty. Keep on going and what are you do you look at you pick some vertex in f look at all of its neighbors. And then once you find all the neighbors put those in ": [
+            1227.1,
+            1254.4,
+            26
+        ],
+        "these Neighbors in it is in you right if it's outside of X and F then put it in in app then. Put the in Acts. Now you can kind of make an argument here that even after that it aration the loop invariant remains true, right because there is a path from s2v, right? That's the sea hypothesis. Then there's a Edge from V2 all of its neighbors. Therefore. ": [
+            1977.5,
+            2022.2,
+            48
+        ],
+        "thing about doing it. This way is if I can achieve easier to prove the correctness if I'm just talking about mathematical objects. And also once I prove it it's easier to modulate. I can kind of instead of asset I can use an array or a priority queue or a linked list so I can kind of pick and choose which data structures I'll put inside and then that ": [
+            1165.0,
+            1192.2,
+            24
+        ],
+        "time also. So the total time is Big O of the sum of all the degrees of all the vertices chosen for f worst case scenario, you find every single vertex. So it will be Big O of the some overall vertices degree of V. Does anybody know what this is in terms of edges? Is right. Yeah, and is the number of vertices? Yes. Actually, let's let's be a ": [
+            1652.4,
+            1712.0,
+            40
+        ],
+        "to have to think about these things? Okay, so what for this problem which algorithm would be useful for us? Is there any problems that we've already seen in other classes that seem related to this problem? okay shortest pack It's not necessary going to be the shortest path that gets you the maximum bandwidth, right? But any kind of path algorithm write any kind of graph search algorithm. Wright's ": [
+            1061.4,
+            1101.0,
+            21
+        ],
+        "use? I'm going to go through this pretty quickly. But I just kind of want you to think about what what are we doing to be doing with each one of these sets Okay. So X you need to test membership and you need to be able to insert something into it. You you need to test membership and you need to delete something from it. Okay, so a good ": [
+            1495.4,
+            1521.0,
+            35
+        ],
+        "vertex be that is reachable but is not. So how do we show that this cannot happen? Okay, so if there's a Vertex B that's reachable from some from Aspen. That means that there's a path right? And that means if B is not an ax that means V never made it to F, right? so look on that path for the first vertex that never made it to f ": [
+            2219.1,
+            2276.7,
+            53
+        ],
+        "want to look at the graph search algorithm, then I'll put that back up to. Okay, ready go. And then raise your hand if you want some hand she want some help. Where do you start? What's up, y'all? the idea Baton Rouge 1 value any special? What is there a used to used if you have a network and you want to know how much let's say let's say ": [
+            2426.9,
+            2516.5,
+            58
+        ],
+        "you have a network of information right like whatever your internet provider. It's got a sequence in a graph of different band with different amounts of information that I can put through this got a cute if it's got a huge wire going to hear but then it comes off as Little Liars. That's not very helpful. Right? So you want to know How much can I put through that ": [
+            2516.5,
+            2544.9,
+            59
+        ],
+        "you were talking about like a water system or Communication System, right? If you had if this could let through 7 and this could only let through four then really I can only Put 4 units through that path, right the kind of makes sense in. physically But this is mathematically what we're doing. Okay, so the objective is over all possible pads p between S&T find the maximum bandwidth ": [
+            614.3,
+            647.6,
+            10
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_2.flac",
+    "Full Transcript": "high class Sorry for the late start today. I I went to a different classroom.  Okay, I don't tell me this never happened to you before.  All right, and now  I'm trying to get this thing.  on  Is the projector even on?  I guess I'll turn it off and then turn it back on again.  Okay. Well, I'm getting set up. Does anybody have any questions before I start?  I'll be posting the homework probably this evening and will be due next Thursday. So you have a little over a week to do it, which is good.  I'm sorry.  Oh.  by today probably  I don't know maybe but maybe by Friday.  It is going to be kind of a sort of review. But I want you to do more with what you know, basically like proofs and stuff.  Okay, so I changed out the the slide little bit because I feel like this is a better.  It looks a little bit better more, right?  Okay, so  let's get back into what we were doing before or what I left you off with that the last the last slide we're going to talk about. How do we approach problems? Okay, what's up?  One good way to start is to know what the problem is to find the problem precisely and sometimes it won't be given to you like this. Sometimes it will be a word problem where you have to kind of figure out. What is the information that you have access to and what form do you want your solution to be sometimes that form will be like a true or false. Sometimes it'll be like a  Sometimes it'll be something like true or false that then you use to solve another problem. Right? And that's kind of what we're going to go with today.  Okay, so let's get started here. Who's going to be kind of the first problem that I want you guys to approach this is the max bandwidth path problem. Okay, so you have a graph that represents some sort of network with edges representing some sort of communication links or you could also think about it as like an underground like sewage system where like the pipes are of different diameters. Okay. So those numbers correspond to how much electricity water some sort of flow. How much can you put through that particular Edge Okay, so  The question here is what is the largest bandwidth of a path from a to H. That's what we're going to start with. But before we do that, let's go back a bit.  So that we're all in the same path same.  We're on the same page. Thank you to be an alternating sequence of vertices and edges. Sometimes we'll just think of a path as a  sequence of just the edges  Right because if you just have the edges that's enough to show you what the path is.  and  we're talking about simple past mostly on unless I tell you otherwise and note here that  a single vertex is it has a trivial path to itself of length 0  Okay, so this is going to come up a lot you guys going to ask me about it. So I'm going to tell you it to you now and then probably again as we go okay always a pack always Pat from a Vertex to itself.  Okay, so let's figure out how to represent this problem more precisely the instance. I have a directed path with Edge weights. I have a start vertex in and vertex.  Turn the solution type is a pack Rite and the Restriction is the path must go from s to T.  So that's these three things here. The last thing we have to talk about is the objective this turns out to be an optimization problem, which means that we want to find the best solution among all of the possible paths, right? So, what is the bandwidth of a path?  Forgiving a path which is just a sequence of edges. You take the minimum weight of all the edges. That's the bandwidth you can kind of think about it.  Sort of physically if you were talking about like a water system or Communication System, right? If you had if this could let through 7 and this could only let through four then really I can only  Put 4 units through that path, right the kind of makes sense in.  physically  But this is mathematically what we're doing.  Okay, so the objective is over all possible pads p between S&T find the maximum bandwidth of P.  Hey, so take a minute. Chocolate Taco with your neighbors. See if you can find on your own. What is the maximum bandwidth path from a to h k ready go?  A b c d e f g and then back to be sure. I don't think it's helpful though.  okay, so does anybody have a  an answer  fart  6 / 6  How right are you so right so if you say 6 then you should be able to back it up with a path right? So somebody give me a path with that 680 to f  G  b  see  Not bad, okay.  So, how did you guys do it while you kind of just looked at it, right?  So if that's a lot different than coming up with a algorithm that will work on any input. No matter how big it is step by step process to do it. Okay, so that's what we're going to talk about for the rest of the class any comments or questions.  Notice that this path here, right?  It has Edge weights 6 7 8 8.  Sex right and so the minimum value of all these things is 6 so that the bandwidth of the path right and you can you can Define the bandwidth of any path here. So this will be the maximum. Okay, before we move on I want to come give you a distinction of the possible solution solution form for Matt's. Okay. So if you're just kind of a city planner, right and you're trying to do this system of of water pipes,  Maybe all you want to know is the actual number the actual bandwidth? Okay so solution format.  You can you could output.  The band with write a integer.  Okay, but if you are the engineer, you actually want to know how to fit the pipes in right B wouldn't need to know what the actual path is queso.  You can have two solution types.  Is the actual pack okay for us for this exercise in this class? This is going to be the solution type. I'm going to be looking for a k so you're just going to put some number we'll talk later about how to kind of backtrack and figure out what the path is from that number but for now, we're just trying to get the number for this graph. The number will be six.  Okay. We're going to talk about two different ways to approach this problem 1 is reusing algorithms. Okay, so or know they're both were using algorithms. Sorry, why does modification so that's like taking an existing algorithm that's well-known. It's already been proven to be correct. The run time has been established and what you what you're going to do is kind of change a few things inside of the algorithm to fit your problem.  Okay, so the complications arise where of course does it actually solve the new problem but more importantly if you change the inner workings of algorithm, you may drastically change the run time. Okay. So modifications to well-known algorithms. You should only use this and whenever you use this you should be very careful because this can make things complicated and hard to prove.  Okay, you kind of have to do the whole proof of correctness again with your new parts pay so I would steer clear of this unless it's completely necessary alternatively.  Which I recommend is doing something called a reduction, which is you take your input and you modify your input instead you modify your input in such a way that you can take your existing algorithm and run it as just a subroutine. She don't change anything within the algorithm there for you get the proof of correctness for free you get the run time for pre-k. All you have to do is is show that the modification of your input will lead to the solution you want.  Okay, the only thing different with the time analysis you kind of have to see if you modify it. How does that scale does it? Does it make the new input a lot bigger or is it comprable to have to think about these things?  Okay, so  what for this problem which algorithm would be useful for us?  Is there any problems that we've already seen in other classes that seem related to this problem?  okay shortest pack  It's not necessary going to be the shortest path that gets you the maximum bandwidth, right? But any kind of path algorithm write any kind of graph search algorithm.  Wright's Auto DFS  DFS BFS right. I'm just going to call both of these are going to be in the realm of graph search. Okay. So, how are we going to solve this problem before we get there? And I know you probably have seen this already, but I wanted to do it again quickly go through y Graph Search is correct. And what its run time is  Okay. So this is how I'm going to present it. This is sort of like a mid-level employment.  It mid-level description. It's almost a pseudocode but instead of using actual data structures, you would use in a computer such as a raise or linked list or things like that. I'm going to be using mathematical objects like sex and things like that. Okay, so it's sort of like this mid-level place the nice thing about doing it. This way is if I can achieve easier to prove the correctness if I'm just talking about mathematical objects.  And also once I prove it it's easier to modulate. I can kind of instead of asset I can use an array or a priority queue or a linked list so I can kind of pick and choose which data structures I'll put inside and then that might have an effect on the efficiency or even the problem.  Okay, so we're going to have these three sets.  X will be the vertices explored F will be kind of the frontier the vertices that you have discovered, but you haven't explored yet and you will be the unreached for pesach.  This is the the mid-level description. So we start off with X being empty.  F starts out with the  she just throw that pain away that starts out with just the starting vertex, right? We've discovered it, but we haven't explored it yet. And you is everything else? Okay for f is not empty. Keep on going and what are you do you look at you pick some vertex in f look at all of its neighbors.  And then once you find all the neighbors put those in F and when you're done with that foot that vertex in X and it's done you can kind of keep it there.  Okay, so  at the end of return acts so I spent like maybe two and a half hours today trying to come up with this animation and at the end it actually I actually sort of messed up and I'll tell you where but for the most part. It's pretty good. Okay, so  So this is the starting and think of these blobs at sets Okay, so f starts out with your starting vertex and you as everything else and exit empty. Okay. So the first thing we're going to do is activate S. Okay. And so what does that mean? That's actually this I guess you can't really see it. But that's this pic.  Pick v&f operation. So F only has one vertex. So we're picking ass. Okay, so now for every neighbor, so let's start with B.  Okay. So what do we do? I should have made this a little bit bigger. I'm sorry. It says  if  FB is not in X or F then put be in f as in you so put be in Africa to see if this one works.  Pretty cool, huh?  Okay, so we're not done. We're still at s so go to the next neighbor OK D and now D is not in X or F. So put D in it and then look at the other neighbor of a switch is easy.  Okay, and I'll do the same thing. Okay. Now what happens?  We're done with s so what are we doing? We're done with the vertex.  You put it into X.  Okay, so that's kind of like after done now. Alright, so then we move on to ask again and we pick a vertex in F think so. Let's pick a vertex and it's going to be and now we look at all of the vertices of be neighbors are beet which are a Sandy but they're already in Acts NF.  Thought you just don't do anything. Okay?  Then you move B into ex do the same thing with d.  Its neighbors are already in there. So you don't do anything. He move that into acts and then we do the same thing with e  And we look at all of its neighbors S D and B are already taken care of.  and then said that you do H and then  You get the point and there is a big I'll just go through the rest of it. So you guys can see but they're sort of a mistake in there. So.  I guess you do that and then that guy's goes and then you  Go to see you got the idea though, right kind of building the sets.  I should have put a chin X, but I I didn't that was the mistake.  But I did it. I don't know you guys get the point.  Okay, so then you do ask if that's all good and you put back inside and then you're done right and so X contains all of the vertices that are reachable from s and you contains all the vertices that are unreachable from ass.  Okay, what you guys think pretty cool?  Thank you.  Okay. So what data structures are we going to use? I'm going to go through this pretty quickly.  But I just kind of want you to think about what what are we doing to be doing with each one of these sets Okay. So X you need to test membership and you need to be able to insert something into it.  You you need to test membership and you need to delete something from it. Okay, so a good data structure for these two is just a Boolean.  array  Okay, so you just have this array where you have an entry for each vertex and you either say true or false depending on if that vertex is in the set or not?  Okay.  Earth is going to be a little bit different because we need to be able to find.  A vertex in F is going to open up some possibilities. So we're going to see FB used as a stack.  AQ  or a priority queue  and a stack will correspond to DFS.  Kid will be BFS and priority queue will be dijkstra's.  Or Prince see both of those user priority queue.  Maybe even another one if you're lucky.  Okay, and then G is just an adjacency list. Okay. So the rate of Boolean zoreya billions, whatever you have here and an adjacency list.  Okay, so let's just quickly go through the the runtime.  It takes big love end of time to initialize all the arrays. That's what you're doing in that first step.  Picking something in F will take constant time if you're in a stack or queue if it's a priority queue will take more time. But let's just focus on a stack or queue.  Chopard each neighbor it takes the degree of V time right? You just look at all of the neighbors and then to check if it's in xrf that will take constant time because we have an array you just look up that array value if it's true, then it's in there if it's false and it's not and then you move it from one to the other and that will take constant time also.  So the total time is Big O of the sum of all the degrees of all the vertices chosen for f worst case scenario, you find every single vertex. So it will be Big O of the some overall vertices degree of V. Does anybody know what this is in terms of edges?  Is right.  Yeah, and is the number of vertices? Yes.  Actually, let's let's be a little bit more specific here. It's going to be Big O of n + that because we have to initialize the array that I'll take an amount of time. And what is the sum of all the degrees of all the vertices in terms of edges.  2 times a number of edges what's a m is number?  edges  and so we got Big O of  this is two times. Am I so the whole thing will take big old and plus in?  And this is considered to be linear time.  for grass  Are there any questions about that?  Okay.  so  one kind of thing to think about with this algorithm and what I want to warn you about modifying this out rhythm is that each vertex is added to the frontier only one time right at most one time and that's going to keep that run time from exploding right because you don't have to put it in more times. So that's sort of what is  Keeping it efficient.  Okay, so let's go through the correctness proof and you know, you guys are going to be doing proof of correctness for graph problems often times. It's like this where you have to do to directions. We're going to say for every vertex in if a Vertex is in Acts at the end of the algorithm. Then there is a path from s to be in the vertex is not an X at the end of the algorithm. Then there is no path from s to be both of those to be correct or those to be true.  Okay, so what to do a first and I know you guys have seen this before but I just want to do it again to show you kind of the level of rigor. I want you to put into your proofs.  Okay, so suppose she is in X. I want to show that there's a path from s2v. Okay. So after the loop invariant what's up, let's say that this is the loop invariant after the teeth iteration every element of X and F can all be reachable from s if I can prove this is true. Then at the end. It'll show me that every element of X can be reached from us.  Okay, so  where's my?  What happened to all the stuff?  It's like it and like it didn't color it in.  That's annoying.  Okay, well.  Let's just kind of highlights of the key points. Okay the base case.  Okay, so  X is empty and F contains s okay done, right everything and can be reached from ass. Okay, so suppose.  the loop invariant  is true  after  t iterations  Okay, what happens in the next iteration?  You pick a vertex in F. Right and you look at all of its neighbors and then each one of those neighbors you put inside of a bath so you pick.  v&f  put all of these Neighbors  in  it is in you right if it's outside of X and F then put it in in app then.  Put the in Acts.  Now you can kind of make an argument here that even after that it aration the loop invariant remains true, right because there is a path from s2v, right? That's the sea hypothesis.  Then there's a Edge from V2 all of its neighbors. Therefore. There's a path from s to all of the neighbors of V.  There is a path.  from s2v  and an edge  from B to its neighbors  therefore  there is a path.  from past to these Neighbors  Any questions about that?  Is there a Neighbors in that induction?  Can you get the first part of the what the algorithm does?  6 p.m. MST  Princess for each neighbor you of be okay.  inductive deductive step  Which is if you was not in X or f move you from you to ask.  We need that stuff up there at the first part. Yeah, because what we're doing is we're doing a loop invariant for this Loop here.  So we need the whole Loop to relieve the whole interation to run and then at the end we need to see if it's still true.  Even if some elements of the part that is not really miss their for this particular stick.  I don't think I understand what you're saying. I'm sorry, okay.  Okay. Okay. So that's what we said. Okay, so that's all that stuff.  I'll I'll Bolden this and put it into drive.  Okay, so let's go. Let's look at the other direction B. If B is not in X then there is no path from s to V.  So the question here is is it possible for some vertex to be put in X such that there's no path to that vertex. Would that ever be possible answer is no, but how do we prove it?  Okay, so sorry about the the boldness. Maybe it's better that you see me go through it.  Okay, so suppose.  by contradiction  that  there is  a vertex  be that  is reachable  but is not.  So how do we show that this cannot happen?  Okay, so if there's a Vertex B that's reachable from some from Aspen. That means that there's a path right?  And that means if B is not an ax that means V never made it to F, right?  so look on that path for the first vertex that never made it to f  Okay, so  let's say  this protects Z is  not  in acts in this vertex is call it why is in at some point that pack has to break, right?  And that's really kind of where you get the contradiction from is because if Y is in X, that means it must have been an F. Right and if it were an F, then all of its neighbors needs to be explored.  And Z is among one of the neighbors.  Therefore Z must have been put in app, which is a contradiction.  Okay. So this kind of this blurred-out text kind of is the thing that says that so I'll I'll make it a little bit Bolder so you guys can look at it.  in more detail  Okay. Yeah. Yeah, that's fine.  The the transition kind of I don't know what happened to I'm sorry.  Okay, so  Okay. Now we're going to the max bandwidth half problem and I want to give you guys an opportunity to come up with an algorithm. Okay, what I want you to do is get into a group of maybe like 4 to 6 to 7 just with your neighbors talk it through and I want I want one member of your group to write down the algorithm try to write it in in a high-level description or a mid-level description or pseudocode if you want to  And see if you can solve this Mac bandwidth path problem. Now the hint I want to give you is it might be helpful to use Graph Search to do it. Okay, so  I'll give you this as kind of a picture to look at and if you want to look at the graph search algorithm, then I'll put that back up to.  Okay, ready go.  And then raise your hand if you want some hand she want some help. Where do you start?  What's up, y'all?  the idea Baton Rouge 1 value  any special? What is there a used to used if you have a network and you want to know how much let's say let's say you have a network of information right like whatever your internet provider. It's got a sequence in a graph of different band with different amounts of information that I can put through this got a cute if it's got a huge wire going to hear but then it comes off as Little Liars. That's not very helpful. Right? So you want to know  How much can I put through that kind of makes sense? Also, you can think about it in terms of like a water system.  questions guy  remember about  write remember which one I warned you about. It might be tempting to just modify it. But if you can use a reduction then it's  flight easier to analyze  so they're going to be the topic of tomorrow's lecture, but  What's good?  That's really fun. Going to look good.  Is really cool, right?  I did it a little bits like this morning and then I kind of put some finishing touches on it, but I messed up pretty bad. I'm going to try to fix it. So that next quarter.  We can use it again. People can play around with it.  Yeah, and I'm wondering maybe I should like hire a tutor to do it next time for me, huh?  Yeah, you're down. Okay, cool.  Let's go. Let's talk cuz I think that it would be cool to do more of those.  Yeah, of course, of course.  Okay guys, so we have about 5 minutes left in class.  It would I would really be appreciative if you wrote down your algorithm and handed it to me. I'm not going to give you any score on it or anything. I just kind of want to see what kind of ideas you have and maybe I'll pick a few of them to talk about them on Friday because what we're going to do on Friday is is use different ways to solve this problem and how to prove that they work or not. And what kind of pitfalls you might have gone into and things like that. Okay, so just get one of your  Groupmates to write it down. It doesn't have to be perfect. It could be just like a description like a paragraph, but just an idea and how  Yeah, okay, so ready to go and then you can just bring it up to me when you guys are done and put it up here.  What year are we still have some time left? So if you want to rip me if you want some questions, do you want some hints you want to talk about some ideas with me to just raise your hand?  Atlantic City  Remember how to do it now?  baby  I'll tell you after class.  Okay, I got only one for you guys too. Shy to share your  algorithm  I know it's only the second lecture. I'm already asking you to write algorithms, but it's okay, right?  Thank you.  Thank you.  Thank you.  Okay. Thanks guys. See you guys on Friday.  Thank you to everyone who handles on men.  Thank you.  How's it going?  How did this exercise go? "
+}

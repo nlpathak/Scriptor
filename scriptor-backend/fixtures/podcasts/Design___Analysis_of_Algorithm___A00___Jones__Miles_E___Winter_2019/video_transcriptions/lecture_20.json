@@ -1,0 +1,376 @@
+{
+    "Blurbs": {
+        "80 would take 16 million minutes. I don't know. How much is 16 million minutes. like a year Something like that. Okay, so you go from one minute. So something that used to take you a year and now you cut it down to one minute just by doing that special check. Although to be clear that would be like in the worst-case right in a 10 sort of like ": [
+            1222.3,
+            1256.2,
+            30
+        ],
+        "Awesome. I think I'm going to try the this method. here it has to be better and we get rid of all of Asia Neighbors. Just so that we can like clear it up and see everything. Because we get rid of all of their edges to write. Every time you get rid of a Vertex you get rid of all of its edges. Okay now. Who is the next ": [
+            360.5,
+            405.3,
+            8
+        ],
+        "Everyone, my name is nikhil put through am one of the Warren centers on this campus Associated students is doing this thing called A S talks. It's meant to emulate TED talks and we're bringing in three student and faculty speakers to campus. We want to get as many students out here as possible to this event is going to be on March 5th from 7 to 9 p.m. At ": [
+            66.1,
+            84.0,
+            0
+        ],
+        "I am so sorry the last event to to finish. before I end then recurse on I won through i k Frank because I ended the last one to start so you just kind of find the the last one to end that ends right before I am starts. Okay. So this is another way that it could look like right we have some bass cases and if it's out ": [
+            2231.6,
+            2271.7,
+            52
+        ],
+        "I well Basically, like doing like an unraveling type of thing. You can't use Master theorem, and it's actually kind of kind of a pain to do it. That way. I guess the best way to do it would be using induction. but it turns out that this is big'o to the end even if you have any other polynomial as your non-recursive Park But I'm just going to skip ": [
+            920.9,
+            963.3,
+            22
+        ],
+        "I-5 and out. I won through I6 you can already see that two of these branches are the same problem. So if we try to do both of them, we're going to get these two big trees instead of just doing one questions about that. Okay, so I built up this tree I guess and you can see that it's just a mess. But what we had in the other ": [
+            2496.6,
+            2531.6,
+            60
+        ],
+        "Mis to whichever ones bigger will give you the answer. Now. In this case. We already know which ones bigger and I am is one of those. out is going to be bigger, right but In general that's hard to see you. If you have the algorithm kind of do all these recursive call sunitha NG. Okay any questions about how the algorithm is put together? Because either a is ": [
+            685.0,
+            720.5,
+            16
+        ],
+        "O S Prime is just as good or better than OS. Do an exchange argument. What are we going to exchange V with? its neighbor so case one is is that os does not continue. Let's let's say you is the neighbor of v200s does not contain you so if that's it's only neighbor, then you can include it into OS and get a bigger set. Right? Otherwise, if os ": [
+            1325.0,
+            1360.3,
+            33
+        ],
+        "Okay, Step 1 just Define the sub problems and corresponding array. Okay, most of the time the sub problem is just going to beat look a lot like your original problem. Okay, what did our original problem look like? original problem was compute the max value weighted event schedule let's say I won through in. Case that's what you're generally going to do is you're going to take that and ": [
+            2749.4,
+            2804.7,
+            68
+        ],
+        "Okay, so And then this is all so this is T of n -1. So we have t of N - 2 + T of N - 1 or we just do T of N - 1 right. So now we have that t of n is going to be equal to or less than or equal to. T of n -1 + T of n - 2 + bigo ": [
+            1156.9,
+            1180.3,
+            28
+        ],
+        "Right. We took a random for a text. We asked is this vertex in or is this vertex out and then request on those things? Okay. So I want you guys to come up with a backtracking algorithm for this problem. Ready go. Nike Presto fly 213 Arrowhead Talladega County Sheriff's Office So helpful to see that. Okay. Does anybody have a backtracking algorithm? They want to share? All the ": [
+            1792.7,
+            2006.8,
+            47
+        ],
+        "V and all of its neighbors. So when you take your grab G and you subtract off the vertex, then you're left with the empty graph. Yeah, this is like outside. This is like outside of this. Yeah. So we don't actually have to do the out queso now. Let's do a my S2. where Basically, we just checked to see if the vertex has degree 0 and if it ": [
+            1070.9,
+            1113.4,
+            26
+        ],
+        "You can come to the event this free Panda Express if that's why you guys want to come but other than that. Yeah, and I hope to see you there. Okay, great. So today we're going to start with an example and we're going to show kind of how to approach this type of problem using backtracking and talk about how to improve on the run time and then we're ": [
+            108.2,
+            156.7,
+            2
+        ],
+        "a bottom-up direction. Whereas backtracking is like a top-down Direction, which means you start from like the big problem and you break it up into smaller problems until you get down to the base case. For every dynamic programming problem we're going to do from now on we're going to do bottom up. So we're going to start from the base case and build it up step by step. But ": [
+            2630.8,
+            2655.5,
+            64
+        ],
+        "a standard graph. It probably wouldn't be so bad if you go, but we're just talking about worst case. 632 years Okay. So now what's the worst-case for this one? When we when I got T of N - 2 what happened in that case? Sprite had one on their neighbor, right? So it's like a it's it's like it's like a it's like a leaf, right? You have your ": [
+            1256.2,
+            1293.6,
+            31
+        ],
+        "and so on? This problem turns out to be NP complete which we haven't really talked about but it's sort of like among the hardest problems. And as of now, there's no known polynomial time solution for it. So if if you could solve this in polynomial time, you would be, you know, proving BNP equals p conjecture and Yeah, just let me know and I can help you write ": [
+            1540.2,
+            1577.6,
+            40
+        ],
+        "and with another variable like k or something like that. Okay. Now this might seem very simple but this is one of the most important parts of your presentation because if you don't have this then when I'm reading your dynamic programming algorithm, I don't really know what the array is supposed to be what the array of supposed to. Yeah, I'm supposed to Define. All right. Let's just do ": [
+            2852.8,
+            2882.3,
+            70
+        ],
+        "are two vertices that have the fewest enemies write A & L and you can see that this graph is kind of symmetric in a way so cuz it kind of doesn't really matter which one we pick. So let's say we pick a k so we pick a and then what does that mean about its neighbors? I should have made this one into a animation. Let's do this. ": [
+            324.6,
+            358.2,
+            7
+        ],
+        "at upper bound of T of n is equal to 2 to the end. What sharks are the Big O to the end? Yes. Oh. Yeah. I think it's fine. I mean it. If they're the same size and it doesn't matter which one you returned, right? Okay. So what is the worst case when it is there a case where I'm always going to get this worst-case bound? Yes. ": [
+            856.1,
+            912.0,
+            21
+        ],
+        "based on the way the recursive calls rr4, right? What do they look like turns out that we're doing a lot more work than we need to. Okay, let's look at an example. Okay. Won't let me come back to this example. I want to show you this first. Okay, we make up to 2 to the end recursive calls, right? That's why it's so inefficient, but every recursive call ": [
+            2350.9,
+            2383.9,
+            56
+        ],
+        "basically, we're not changing the structure of the backtracking algorithm. We're just making sure that we are recycling the information and not going down the same path. So so we're going to go into dynamic programming next and I'm going to give you sort of a template of how I want you two to think about the problems and present the problems and We're going to be going from like ": [
+            2597.9,
+            2630.8,
+            63
+        ],
+        "before I ate begins, right? So I ate begins at 10. So I can't use i7 or I6 to I-5 is the is the latest one to end. So I'm going to Recruiters on I won through I-5. and if I don't include I am going to Recruiters on I-12 i7 do you keep on building out this tree? So if I include I 7 in Ira curse on I-12 ": [
+            2461.6,
+            2496.6,
+            59
+        ],
+        "better to you to use this then exhaustive search. I mean, I guess we could maybe like think about how to improve it using the same techniques. We did for maximum independent set right like looking at how many conflicts at has in this and that but it turns out that there's a much better way to go about this problem and it comes with the with the it is ": [
+            2328.2,
+            2350.9,
+            55
+        ],
+        "but now you're making money off of each event. And I don't care how many events I schedule. I just want to make the most money off of the event. So there's like one event. That's really, you know valuable then I'll just take that one or if there's a bunch of small events that are all valuable take those and noticed that this it reduces to the original event ": [
+            1641.4,
+            1665.4,
+            43
+        ],
+        "calls as a worst-case. next song okay, so let's kind of summarize what we did hear all the recursive calls makes the form. I from one 2K or empty with cake was one to end or you can maybe count k equals 0 as the empty set case if that you like that. Two other to the end recursive calls, we might make only and plus one distinct calls. So ": [
+            2562.2,
+            2597.9,
+            62
+        ],
+        "calls going to take T of n -1 and this recursive calls going to take TFK. But what's the worst-case? How big could K be in the worst-case? And -1, right? worst case T of N - 1 so we're getting back to this run time. And this one time we saw before I didn't prove it but we saw before it was to the end. So it's actually no ": [
+            2297.0,
+            2328.2,
+            54
+        ],
+        "complicated once No, just divide and conquer. Yes, probably tomorrow. Yeah. Yes, yes. It's going to be like true and false and they're all going to be like Master theorem runtimes of merge sort quicksort cook tomb karatsuba Quick select, you know I expected runtime. Master theorem very salient ": [
+            2956.0,
+            2997.6,
+            73
+        ],
+        "connected with the edge. Let's fill this in. What's the instance in undirected graph? solution format set of vertices, right What is a subset? What's the constraint? no.2 vertices can be connected buy an edge Okay, and what's the objective? maximize the size Okay, good questions. All right. Talk to anybody have any greedy ideas on how to make the approach this problem that we could try out. I already ": [
+            212.2,
+            290.1,
+            5
+        ],
+        "does continue then you can trade be with you and get the same size set. GameStop, just like we did before this is kind of to show you that picking that leaf won't won't destroy your the objective any questions about that. Okay, so now Oh, this was getting rid of that stupid worst-case. This is getting rid of the other worst case is like set and into this thing ": [
+            1360.3,
+            1399.2,
+            34
+        ],
+        "does then just workers on the graph - at vertex. Okay, so So this year will be a t of and -1 right? because your decreasing the size of the graph by one and now this in the worst case is going to be what 2 + -2 right because we're not considering the vertex to be out there all alone actually has to have at least one neighbor, right? ": [
+            1113.4,
+            1156.9,
+            27
+        ],
+        "dynamic programming is to reuse these sub problems. Okay. okay, so let me just I'll just show you the example. Yeah, let's just start like this. Okay. So the first recursive call we're going to do is I won up to i8. right and the two recursive calls we do is either it's in or it's out if it's in then I need to find the event that ends right ": [
+            2413.9,
+            2461.6,
+            58
+        ],
+        "e into the solution if you don't picky than just recruits on the graph without e so this is why backtracking algorithms are nice in one way because they're very simple. So here's the idea. If the vertex said is 0 just returned the empty set. That's the only subset of the empty set. Pick any vertex calculate these two values recursively in and out. Right just kind of like ": [
+            614.0,
+            647.6,
+            14
+        ],
+        "going to look at another problem approaching using backtracking but then try a little bit harder to be careful about how much how many calculations were doing and show that you can change it into a much more efficient algorithm by using dynamic programming so we'll do that at the end of the class and then the will do that for the rest of the week 2 Okay, what's the ": [
+            156.7,
+            179.9,
+            3
+        ],
+        "got for four people. Okay. Now let's go. Here. Is there a better solution? and get six Okay good. Can I just do this? Okay, that's good. Okay. Good c d e i j k Okay, so this is just to show you that the greedy method doesn't work any questions. Okay. so Let's think about how long do we expect this to take if we do an exhaustive search ": [
+            457.4,
+            514.4,
+            10
+        ],
+        "got to come up with another type another strategy. Brute force is going to take two to the end right because you your looping. through all possible subsets Text what's keep that in mind the first the first thing I'm going to do is try it with backtracking and see if I can get better than to the end. Okay, so remember how we did backtracking with the graph problem? ": [
+            1752.4,
+            1791.7,
+            46
+        ],
+        "graph and then you have this vertex out here. Couldn't you argue that you should probably pick this for text to? Well, I have an argument for you guys. Does this look familiar? Suppose that v as a vertex of G that has only one neighbor suppose that OS is an independent set that does not include me. There is a independent set OS Prime that does include V and ": [
+            1293.6,
+            1325.0,
+            32
+        ],
+        "had a Vertex out there with no edges connecting it? Couldn't you argue that any maximal independent set would include that vertex itself? So we in fact we don't even have to compute the out case because we're going to argue that that vertex will always be in. The base case is when the graph is empty. yeah, well because you what you do is you you take g - ": [
+            1026.9,
+            1070.9,
+            25
+        ],
+        "has this form. right from I one of the ik so there are Atmos 10 + 1 different types of recursive calls, but we're doing to the end different calculations. So instead why don't we just calculate all the different recursive calls and then we can reuse them over and over again whenever we need them. They said that's sort of That's sort of the the the whole idea behind ": [
+            2383.9,
+            2413.9,
+            57
+        ],
+        "here if the degree of V is 0 or 1 then return in otherwise compute out and then compare them. so now the worst case of this one is going to be T of n -1 + T of N - 3 and it's kind of like the Fibonacci numbers, but if it better about 1.46 to the and Now instead of doing it in a minute, you can do ": [
+            1399.2,
+            1428.5,
+            35
+        ],
+        "how to deal with np-complete, right because it's sort of like this. Barrier that you can't really get something efficient, but there's other ways around that you can do approximation algorithms. You can you can get better exponential time for reasonable sizes. You can solve the problem for very special cases. So there's ways around it. But let's go to the next example. So we're going back to event scheduling ": [
+            1604.0,
+            1641.4,
+            42
+        ],
+        "if you like this backtracking type of idea, it might help you with figuring out how to put together the dynamic programming problem, but I want you to present it in this bottom-up way. Okay. So these are all the steps I want you to do for a dynamic programming problems. Okay, and don't worry about it. Now you'll see when you go how how we go through them? Okay, ": [
+            2655.5,
+            2682.4,
+            65
+        ],
+        "in the set or a is out of the set. Okay good. So let's do the correctness. Very straightforward the base case if n is zero, then it correctly Returns the empty set. Let's just suppose that works for all graphs with any number of vertices K in between 1 and 10. then then by the inductive hypothesis right went when we do those two recursive calls the size of ": [
+            720.5,
+            760.7,
+            17
+        ],
+        "instance is an intervals. each with a positive value The solution is a subset. The constraints is no two intervals. Overlap, and the objective is to maximize. the total sum of values in the subset Okay, good. No problem there. Turns out that there's no known a greedy algorithm for this problem. In fact, Borodin Nielsen and rakoff formally prove that no greedy algorithm even even approximates this case. We ": [
+            1695.4,
+            1752.4,
+            45
+        ],
+        "it in less than a second. But if you get an up to a hundred in this guy is 15 minutes and the Fibonacci one is 15000 minutes. So you can see that even though it's still exponential and still kind of inefficient. It's actually a lot better than just to to the end. Okay. So is this a tight down? Well, I don't know if if actually on a ": [
+            1428.5,
+            1459.8,
+            36
+        ],
+        "kind of come complex graph that you were going to plug into here most of the time when you take away a Vertex you're going to take away more than three other vertices with it, you know what I mean? So But the best known worst time algorithm wood is around and to the N over for which is around. 1.2 to the N big'o 1.2 to the end. So ": [
+            1485.5,
+            1512.3,
+            38
+        ],
+        "lot like the divide-and-conquer except for the the problem Size Doesn't decrease as much. Okay, and so you basically need to figure out what are the sub problems? so we're going to do is make a local decision basically take a vertex and ask is it better to include this Vertex or not include this vertex? Okay. So do we pick vertex a or not? This is great because the ": [
+            553.4,
+            582.4,
+            12
+        ],
+        "maximum independent set? Maybe you can think about this is like a social network where there's a edge between person a and person be if their enemies and so you maybe you're trying to gather the most people you could possibly gather where no two people are enemies. That ever sound like anything you need to do. So I find the largest set of vertices such that no two are ": [
+            179.9,
+            212.2,
+            4
+        ],
+        "might as well just output the whole graph because whole graph is Independence that right so it kind of seems like like if this worst-case is a she really shouldn't be that bad. So what is the worst case is when you pick it has no neighbors then the sub problem is decreased only by one but do we actually have to consider the out case? Right? What if we ": [
+            1000.7,
+            1026.9,
+            24
+        ],
+        "normal graphs, it's probably not that bad of a run time. Right? We're all this calculation we were doing with for the worst-case but the worst-case in this one would be just be like this long line right where every time you take off a leaf. You have a leaf a leaf appears, right? And that one you could probably just do by looking at it. Right? So any any ": [
+            1459.8,
+            1485.5,
+            37
+        ],
+        "one more step bass cases. I have zero is 0 if you like you can kind of think about what it's supposed to mean. the max value of the empty set this is also a very important part but you know, this is usually pretty simple. Okay, and then maybe on this one give a recursion to the sub problems in terms. A okay, and maybe you guys can do ": [
+            2882.3,
+            2928.8,
+            71
+        ],
+        "over that. And we will revisit it. What am I going to get the worst case? What was the condition? It was when V was what? We had no neighbors, right? And so the worst-case overall would be that I would get the worst-case every time. but if I got the worst-case everytime that means that I just have a graph with no edges, right and in that case I ": [
+            963.3,
+            1000.7,
+            23
+        ],
+        "possible answers are either yes or no. There's nothing in between and so we can we only have to do kind of two recursive calls. Okay, I'm picky here. Okay, so if we if we pick it we choose to picky then we were curse on the graph. when we remove the graph that results by removing any and all of these neighbors and then add one because you're including ": [
+            582.4,
+            614.0,
+            13
+        ],
+        "put it as an array value. Okay. So this is what I mean. Let let's call it a let AK be. the max value weighted event schedule I-12 i k and often times noticed that your problem really only has like one degree of Freedom this end, right? And so that means that you were a ray is going to only be one-dimensional and you kind of like replace that ": [
+            2804.7,
+            2852.8,
+            69
+        ],
+        "questions. Let's think about the runtime. Okay, so let's say that g has n vertices. Okay, and that it takes tea event time for this algorithm to work. Now. This part here is going to be a strict and -1 right you're taking your graph and you're removing one vertex, and I have a vertex of a graph with and -1 vertices. Okay this recursive call it can very though ": [
+            790.1,
+            834.1,
+            19
+        ],
+        "right because we're taking out V and all of these neighbors so in the worst-case you only took out and it didn't have any neighbors, right? So in the worst case you get T of N - 1 therefore the worst-case runtime is going to be T of n is less than or equal to T of N - 1 + Big Love end. And in this case you get ": [
+            834.1,
+            856.1,
+            20
+        ],
+        "same thing but I'm going to take I'm going to take care and which event I choose first. Okay. So the first thing I'm going to do is sort the events by start time, okay. Then I'm going to pick the last to start. I am okay. It's not necessarily good to include. I don't know if that one should be chosen or not. So that's why we're going to ": [
+            2143.3,
+            2176.7,
+            50
+        ],
+        "scheduling problem if you make everything worth $1, right? Or kind of like Charlie and his medical trials, right? But they are all worth $100. So now if if those trials were worth different amounts, then it would be kind of this problem. Okay, but let's not try to figure out what it is just by looking. Okay. So let's go back to the formal specification. Right we have the ": [
+            1665.4,
+            1695.4,
+            44
+        ],
+        "slide was this whole tree. Right is equal to this whole tree. and so it's kind of a it's redundant to keep on doing these things. Okay. So these are all the different calls 1 through 8 2 through 8 3 through 8 and then the empty set. So the number of distinct calls is 9 so we have nine distinct calls for doing two to the eighth many recursive ": [
+            2531.6,
+            2562.2,
+            61
+        ],
+        "so Basically, just like we said if you identify a collection of sub problems and tackling them one by one from the smallest first and you know that you can use the smaller ones to calculate the bigger. Once then then it's a very efficient straightforward way to get there. Some examples are like finding the max finding them in those I consider as dynamic programming problems because you're using ": [
+            2682.4,
+            2718.0,
+            66
+        ],
+        "the SSE multi-purpose room. We want to get around 240 students and we want to make sure that this event is a successful as possible because in the future we want to bring more UCSD alumni like Nick Woodman d e Shaw Etc. So if you could go to a Stock's On Facebook, there's a page you can click on it and then get the Eventbrite ticket. And from there. ": [
+            84.0,
+            108.2,
+            1
+        ],
+        "the graph get smaller, right either by one vertex or by the vertex and all of its neighbors sew in Who is is set to the max independent set containing V and out is the max independent set not containing V, right? This is by. inductive hypothesis And since those are the only two options the better of the two is the maximum independent set of all of G any ": [
+            760.7,
+            790.1,
+            18
+        ],
+        "the information that you had before to make your next calculation. And then if you remember from the first day when we did the Fibonacci one use the previous information. Okay, just go back to event scheduling did I do all this stuff already? Okay, let's let's just go through a first few of these first steps and see you. I'll show you kind of where I'm going with this. ": [
+            2718.0,
+            2748.0,
+            67
+        ],
+        "the solution space is what? write power set Power set Avicii so how much time would it take to do a exhaustive search around to the V, right? We already did this part. Okay. So basically what we're trying to beat is to the V or else we could just do an exhaustive search. Okay. So the back of the way to do this with backtracking remember that it's a ": [
+            514.4,
+            553.4,
+            11
+        ],
+        "then does that look familiar to anybody? Fibonacci growth does anybody know how fast that grows? Around 1.6 or something. Show me like that. Okay, so we made a big Improvement. It's still exponential but it's a big Improvement. So let's say that and is equal to 80 and let's say that you can get 1.6 to the 80 to take one minute on your computer then to to the ": [
+            1180.3,
+            1222.3,
+            29
+        ],
+        "this as an exercise. Okay. So in terms of AK, how do I compute AK from a k - 1 or from a k - to the idea is that we're going to be building these up step by step. So I have access to all the previous ones that I've had before OK Google finish this up on Wednesday and basically just go through examples more and more more ": [
+            2928.8,
+            2956.0,
+            72
+        ],
+        "to backtracking weighted whatever of all events conflicting no not conflicting, right? with e plus one plus the value of E. out is backtracking weighted event scheduling of all events besides he right. return Max of in and out questions about that okay, so this is Kind of like a standard backtracking type thing that you that you put together. I'm going to present another backtracking algorithm. It's basically the ": [
+            2074.6,
+            2143.3,
+            49
+        ],
+        "trials or whatever they are if they overlap they're connected, okay. But this is with values to though. Okay, good. Exactly. So you pick. An event, right? e I guess you return. 0 if input Is empty right? Okay, picking eventi. Let 10 be equal to where we going to call this thing. backtracking Weighted event scheduling problem he won through en sorry. So and is going to be equal ": [
+            2006.8,
+            2074.6,
+            48
+        ],
+        "try both possibilities showcase one. We're going to exclude iron. Then we were curse on I-12 i n -1 right case to we include in and we're going to rehearse on the set of all intervals that do not conflict with i n. Yeah, that should work. Okay, is there another way that we can say this? It's going to be. If ik is the last. event to start before ": [
+            2176.7,
+            2229.8,
+            51
+        ],
+        "we get that let ikb the last event to end before i n starts and I mean you guys can figure out how to implement this with some wild Lupine figure it out that way and then you just set in to be equal to the recursive call up K plus the value of I answer the same thing we had before and so the in the runtime. This recursive ": [
+            2271.7,
+            2297.0,
+            53
+        ],
+        "we got pretty close by just doing a few simple checks and the actual algorithm that gets this close just does more basically just takes what we did and keeps it going. install so it's an interesting research question. Is there a limit to the improvements? Can you just get more and more more better and better and better just by considering vertices with two neighbors versus with three neighbors ": [
+            1512.3,
+            1540.2,
+            39
+        ],
+        "what we said before if and is bigger than out then then return in if otherwise return out. Okay. So how is this going to how is this going to look? Well, it's like we take the same graph and pick a Vertex. Let's say we picked hey. Then when you calculate a plus the recursive call of this set, right am is one. And then also compute this out ": [
+            647.6,
+            685.0,
+            15
+        ],
+        "who's the one that has the fewest vertices now? El Wright we pick a l I just leave out there and we get rid of all of Elvis Neighbors. I just do that. shoot I think I Okay. Now who is it? It's either frh, right and basically are going to pick those two, right? You can pick a fan. I can only pick two from here, right? Okay, we ": [
+            405.3,
+            457.4,
+            9
+        ],
+        "wrote it up there. Find the person with the fewest enemies and definitely include him or her right and they remove all of his or her enemies and rehearse on the remaining graph. This is fast, right? However, it does not always find the best solution. Okay, so I have a example up here. So let's go through what would happen if we try this greedy strategy? Okay, so there ": [
+            290.1,
+            324.6,
+            6
+        ],
+        "your paper and we can both, you know, reap all the benefits of that. So just let me know. Okay, so cuddle with that means right now at this point is that there's not really It'll be really hard for you to come up with a polynomial time algorithm for it. And I think later on in the class after we do dynamic programming. We'll talk a little bit about ": [
+            1577.6,
+            1604.0,
+            41
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_20.flac",
+    "Full Transcript": "Everyone, my name is nikhil put through am one of the Warren centers on this campus Associated students is doing this thing called A S talks. It's meant to emulate TED talks and we're bringing in three student and faculty speakers to campus. We want to get as many students out here as possible to this event is going to be on March 5th from 7 to 9 p.m. At the SSE multi-purpose room. We want to get around 240 students and we want to make sure that this event is a successful as possible because in the future we want to bring more UCSD alumni like Nick Woodman d e Shaw Etc. So if you could go to a Stock's On Facebook, there's a page you can click on it and then get the Eventbrite ticket. And from there. You can come to the event this free Panda Express if that's why you guys want to come but other than that. Yeah, and I hope to see you there. Okay, great.  So today we're going to start with an example and we're going to show kind of  how to approach this type of problem using backtracking and talk about how to improve on the run time and then we're going to look at another problem approaching using backtracking but then try a little bit harder to be careful about how much how many calculations were doing and show that you can change it into a much more efficient algorithm by using dynamic programming so we'll do that at the end of the class and then the will do that for the rest of the week 2  Okay, what's the maximum independent set? Maybe you can think about this is like a social network where there's a edge between person a and person be if their enemies and so you maybe you're trying to gather the most people you could possibly gather where no two people are enemies.  That ever sound like anything you need to do.  So I find the largest set of vertices such that no two are connected with the edge. Let's fill this in.  What's the instance in undirected graph?  solution format  set of  vertices, right  What is a subset?  What's the constraint?  no.2  vertices  can be connected  buy an edge  Okay, and what's the objective?  maximize the size  Okay, good questions.  All right.  Talk to anybody have any greedy ideas on how to make the approach this problem that we could try out.  I already wrote it up there.  Find the person with the fewest enemies and definitely include him or her right and they remove all of his or her enemies and rehearse on the remaining graph. This is fast, right? However, it does not always find the best solution.  Okay, so I have a example up here.  So let's go through what would happen if we try this greedy strategy?  Okay, so  there are two vertices that have the fewest enemies write A & L and  you can see that this graph is kind of  symmetric in a way so cuz it kind of doesn't really matter which one we pick. So let's say we pick a k  so we pick a and then what does that mean about its neighbors?  I should have made this one into a animation.  Let's do this.  Awesome. I think I'm going to try the this method.  here  it has to be better and we get rid of all of Asia Neighbors.  Just so that we can like clear it up and see everything.  Because we get rid of all of their edges to write.  Every time you get rid of a Vertex you get rid of all of its edges.  Okay now.  Who is the next who's the one that has the fewest vertices now?  El Wright we pick a l  I just leave out there and we get rid of all of Elvis Neighbors.  I just do that.  shoot  I think I  Okay. Now who is it? It's either frh, right and basically are going to pick those two, right?  You can pick a fan. I can only pick two from here, right?  Okay, we got for four people.  Okay. Now let's go.  Here. Is there a better solution?  and get six  Okay good.  Can I just do this?  Okay, that's good.  Okay. Good c d e i j k  Okay, so this is just to show you that the greedy method doesn't work any questions.  Okay.  so  Let's think about how long do we expect this to take if we do an exhaustive search the solution space is what?  write power set Power set  Avicii so how much time would it take to do a exhaustive search around to the V, right?  We already did this part.  Okay. So basically what we're trying to beat is to the V or else we could just do an exhaustive search.  Okay. So the back of the way to do this with backtracking remember that it's a lot like the divide-and-conquer except for the the problem Size Doesn't decrease as much. Okay, and so you basically need to figure out what are the sub problems?  so we're going to do is  make a local decision basically take a vertex and ask is it better to include this Vertex or not include this vertex? Okay. So do we pick vertex a or not? This is great because the possible answers are either yes or no. There's nothing in between and so we can we only have to do kind of two recursive calls.  Okay, I'm picky here.  Okay, so if we if we pick it we choose to picky then we were curse on the graph.  when we remove the graph that results by removing any and all of these neighbors and then add one because you're including e into the solution if you don't picky than just recruits on the graph without e  so this is why backtracking algorithms are nice in one way because they're very simple. So here's the idea.  If the vertex said is 0 just returned the empty set. That's the only subset of the empty set.  Pick any vertex calculate these two values recursively in and out.  Right just kind of like what we said before if and is bigger than out then then return in if otherwise return out.  Okay. So how is this going to how is this going to look? Well, it's like we take the same graph and pick a Vertex. Let's say we picked hey.  Then when you calculate a plus the recursive call of this set, right am is one.  And then also compute this out Mis to whichever ones bigger will give you the answer. Now. In this case. We already know which ones bigger and I am is one of those.  out is going to be bigger, right but  In general that's hard to see you. If you have the algorithm kind of do all these recursive call sunitha NG. Okay any questions about how the algorithm is put together?  Because either a is in the set or a is out of the set.  Okay good. So let's do the correctness.  Very straightforward the base case if n is zero, then it correctly Returns the empty set.  Let's just suppose that works for all graphs with any number of vertices K in between 1 and 10.  then  then by the inductive hypothesis right went when we do those two recursive calls the size of the graph get smaller, right either by one vertex or by the vertex and all of its neighbors sew in  Who is is set to the max independent set containing V and out is the max independent set not containing V, right? This is by.  inductive hypothesis  And since those are the only two options the better of the two is the maximum independent set of all of G any questions.  Let's think about the runtime.  Okay, so  let's say that g has n vertices.  Okay, and that it takes tea event time for this algorithm to work. Now. This part here is going to be a strict and -1 right you're taking your graph and you're removing one vertex, and I have a vertex of a graph with and -1 vertices.  Okay this recursive call it can very though right because we're taking out V and all of these neighbors so in the worst-case you only took out and it didn't have any neighbors, right? So in the worst case you get T of N - 1  therefore the worst-case runtime is going to be T of n is less than or equal to T of N - 1 + Big Love end. And in this case you get at upper bound of T of n is equal to 2 to the end.  What sharks are the Big O to the end?  Yes.  Oh.  Yeah.  I think it's fine. I mean it.  If they're the same size and it doesn't matter which one you returned, right?  Okay. So what is the worst case when it is there a case where I'm always going to get this worst-case bound?  Yes.  I  well  Basically, like doing like an unraveling type of thing.  You can't use Master theorem, and it's actually kind of kind of a pain to do it. That way. I guess the best way to do it would be using induction.  but it turns out that this is big'o to the end even if you have any other polynomial as your  non-recursive Park  But I'm just going to skip over that.  And we will revisit it.  What am I going to get the worst case? What was the condition? It was when V was what?  We had no neighbors, right? And so the worst-case overall would be that I would get the worst-case every time.  but if I got the worst-case everytime that means that I just have a graph with no edges, right and in that case I might as well just output the whole graph because whole graph is Independence that right so it kind of seems like  like if this worst-case is a she really shouldn't be that bad.  So what is the worst case is when you pick it has no neighbors then the sub problem is decreased only by one but do we actually have to consider the out case? Right? What if we had a Vertex out there with no edges connecting it?  Couldn't you argue that any maximal independent set would include that vertex itself? So we in fact we don't even have to compute the out case because we're going to argue that that vertex will always be in.  The base case is when the graph is empty.  yeah, well because you what you do is  you you take g - V and all of its neighbors. So when you take your grab G and you subtract off the vertex, then you're left with the empty graph.  Yeah, this is like outside. This is like outside of this. Yeah.  So we don't actually have to do the out queso now. Let's do a my S2.  where  Basically, we just checked to see if the vertex has degree 0 and if it does then just workers on the graph - at vertex.  Okay, so  So this year will be a t of and -1 right?  because your decreasing the size of the graph by one and now this in the worst case is going to be what  2 + -2  right because we're not considering the vertex to be out there all alone actually has to have at least one neighbor, right? Okay, so  And then this is all so this is T of n -1. So we have t of N - 2 + T of N - 1 or we just do T of N - 1 right. So now we have that t of n is going to be equal to or less than or equal to.  T of n -1 + T of n - 2 + bigo then  does that look familiar to anybody?  Fibonacci growth does anybody know how fast that grows?  Around 1.6 or something.  Show me like that.  Okay, so we made a big Improvement. It's still exponential but it's a big Improvement.  So let's say that and is equal to 80 and let's say that you can get 1.6 to the 80 to take one minute on your computer then to to the 80 would take 16 million minutes.  I don't know. How much is 16 million minutes.  like a year  Something like that. Okay, so you go from one minute. So something that used to take you a year and now you cut it down to one minute just by doing that special check.  Although to be clear that would be like in the worst-case right in a 10 sort of like a standard graph. It probably wouldn't be so bad if you go, but we're just talking about worst case.  632 years  Okay.  So now what's the worst-case for this one?  When we when I got T of N - 2 what happened in that case?  Sprite had one on their neighbor, right? So it's like a it's it's like it's like a it's like a leaf, right? You have your graph and then you have this vertex out here. Couldn't you argue that you should probably pick this for text to?  Well, I have an argument for you guys.  Does this look familiar?  Suppose that v as a vertex of G that has only one neighbor suppose that OS is an independent set that does not include me. There is a independent set OS Prime that does include V and O S Prime is just as good or better than OS.  Do an exchange argument. What are we going to exchange V with?  its neighbor  so case one is is that os does not continue. Let's let's say you is the neighbor of v200s does not contain you so if that's it's only neighbor, then you can include it into OS and get a bigger set. Right? Otherwise, if os does continue then you can trade be with you and get the same size set.  GameStop, just like we did before this is kind of to show you that picking that leaf won't won't destroy your the objective any questions about that.  Okay, so now  Oh, this was getting rid of that stupid worst-case. This is getting rid of the other worst case is like set and into this thing here if the degree of V is 0 or 1 then return in otherwise compute out and then compare them.  so now the worst case of this one is going to be T of n -1 + T of N - 3 and it's kind of like the Fibonacci numbers, but if it better about 1.46 to the  and  Now instead of doing it in a minute, you can do it in less than a second. But if you get an up to a hundred in this guy is 15 minutes and the Fibonacci one is 15000 minutes. So you can see that even though it's still exponential and still kind of inefficient.  It's actually a lot better than just to to the end.  Okay. So is this a tight down? Well, I don't know if if actually on a normal graphs, it's probably not that bad of a run time. Right? We're all this calculation we were doing with for the worst-case but the worst-case in this one would be just be like this long line right where every time you take off a leaf. You have a leaf a leaf appears, right? And that one you could probably just do by looking at it. Right? So any any kind of come complex graph that you were going to plug into here most of the time when you take away a Vertex you're going to take away more than three other vertices with it, you know what I mean? So  But the best known worst time algorithm wood is around and to the N over for which is around.  1.2 to the N big'o 1.2 to the end. So we got pretty close by just doing a few simple checks and the actual algorithm that gets this close just does more basically just takes what we did and keeps it going.  install  so it's an interesting research question. Is there a limit to the improvements? Can you just get more and more more better and better and better just by considering vertices with two neighbors versus with three neighbors and so on?  This problem turns out to be NP complete which we haven't really talked about but it's sort of like among the hardest problems. And as of now, there's no known polynomial time solution for it. So if if you could solve this in polynomial time, you would be, you know, proving BNP equals p  conjecture and  Yeah, just let me know and I can help you write your paper and we can both, you know, reap all the benefits of that. So just let me know.  Okay, so  cuddle with that means right now at this point is that there's not really  It'll be really hard for you to come up with a polynomial time algorithm for it. And I think later on in the class after we do dynamic programming. We'll talk a little bit about how to deal with np-complete, right because it's sort of like this.  Barrier that you can't really get something efficient, but there's other ways around that you can do approximation algorithms. You can you can get better exponential time for reasonable sizes. You can solve the problem for very special cases. So there's ways around it.  But let's go to the next example.  So we're going back to event scheduling but now you're making money off of each event. And I don't care how many events I schedule. I just want to make the most money off of the event. So there's like one event. That's really, you know valuable then I'll just take that one or if there's a bunch of small events that are all valuable take those and noticed that this it reduces to the original event scheduling problem if you make everything worth $1, right?  Or kind of like Charlie and his medical trials, right? But they are all worth $100. So now if if those trials were worth different amounts, then it would be kind of this problem.  Okay, but let's not try to figure out what it is just by looking.  Okay. So let's go back to the formal specification. Right we have the instance is an intervals.  each with a positive value  The solution is a subset.  The constraints is no two intervals.  Overlap, and the objective is to maximize.  the total sum  of values  in the subset  Okay, good. No problem there.  Turns out that there's no known a greedy algorithm for this problem. In fact, Borodin Nielsen and rakoff formally prove that no greedy algorithm even even approximates this case. We got to come up with another type another strategy.  Brute force is going to take two to the end right because you your looping.  through  all possible subsets  Text what's keep that in mind the first the first thing I'm going to do is try it with backtracking and see if I can get better than to the end.  Okay, so  remember how we did backtracking with the graph problem?  Right. We took a random for a text. We asked is this vertex in or is this vertex out and then request on those things? Okay. So I want you guys to come up with a backtracking algorithm for this problem. Ready go.  Nike Presto fly 213  Arrowhead  Talladega County Sheriff's Office  So helpful to see that.  Okay. Does anybody have a backtracking algorithm? They want to share?  All the trials or whatever they are if they overlap they're connected, okay.  But this is with values to though.  Okay, good. Exactly. So you pick.  An event, right?  e  I guess you return.  0 if  input  Is empty right?  Okay, picking eventi. Let 10 be equal to where we going to call this thing.  backtracking  Weighted event scheduling problem he won through en sorry. So and is going to be equal to backtracking weighted whatever of all events conflicting no not conflicting, right?  with e  plus one plus the value of E.  out is backtracking weighted event scheduling of  all events  besides he right.  return Max of in and out  questions about that  okay, so this is  Kind of like a standard backtracking type thing that you that you put together. I'm going to present another backtracking algorithm. It's basically the same thing but I'm going to take I'm going to take care and which event I choose first. Okay. So the first thing I'm going to do is sort the events by start time, okay.  Then I'm going to pick the last to start.  I am okay.  It's not necessarily good to include. I don't know if that one should be chosen or not. So that's why we're going to try both possibilities showcase one. We're going to exclude iron. Then we were curse on I-12 i n -1 right case to we include in and we're going to rehearse on the set of all intervals that do not conflict with i n.  Yeah, that should work.  Okay, is there another way that we can say this?  It's going to be.  If ik is the last.  event  to start before  I am so sorry the last event to to finish.  before I end  then recurse  on  I won through i k  Frank because I ended the last one to start so you just kind of find the the last one to end that ends right before I am starts.  Okay. So this is another way that it could look like right we have some bass cases and if it's out we get that let ikb the last event to end before i n starts and I mean you guys can figure out how to implement this with some wild Lupine figure it out that way and then you just set in to be equal to the recursive call up K plus the value of I answer the same thing we had before and so the in the runtime.  This recursive calls going to take T of n -1 and this recursive calls going to take TFK.  But what's the worst-case? How big could K be in the worst-case?  And -1, right?  worst case T of N - 1  so we're getting back to this run time.  And this one time we saw before I didn't prove it but we saw before it was to the end. So it's actually no better to you to use this then exhaustive search. I mean, I guess we could maybe like think about how to improve it using the same techniques. We did for maximum independent set right like looking at how many conflicts at has in this and that but it turns out that there's a much better way to go about this problem and it comes with the with the it is based on the way the recursive calls rr4, right? What do they look like turns out that we're doing a lot more work than we need to.  Okay, let's look at an example.  Okay.  Won't let me come back to this example. I want to show you this first. Okay, we make up to 2 to the end recursive calls, right? That's why it's so inefficient, but every recursive call has this form.  right from I one of the ik  so there are Atmos 10 + 1 different types of recursive calls, but we're doing to the end different calculations. So instead why don't we just calculate all the different recursive calls and then we can reuse them over and over again whenever we need them. They said that's sort of  That's sort of the the the whole idea behind dynamic programming is to reuse these sub problems.  Okay.  okay, so let me just  I'll just show you the example.  Yeah, let's just start like this. Okay. So the first recursive call we're going to do is  I won up to i8.  right  and the two recursive calls we do is either it's  in or it's out  if it's in then I need to find the event that ends right before I ate begins, right? So I ate begins at 10. So I can't use i7 or I6 to I-5 is the is the latest one to end. So I'm going to Recruiters on  I won through I-5.  and if I don't include I am going to Recruiters on I-12 i7  do you keep on building out this tree?  So if I include I 7 in Ira curse on I-12 I-5 and out.  I won through I6 you can already see that two of these branches are the same problem. So if we try to do both of them, we're going to get these two big trees instead of just doing one questions about that.  Okay, so I built up this tree I guess and you can see that it's just a mess. But what we had in the other slide was this whole tree.  Right is equal to this whole tree.  and so it's kind of a  it's redundant to keep on doing these things.  Okay. So these are all the different calls 1 through 8 2 through 8 3 through 8 and then the empty set. So the number of distinct calls is 9 so we have nine distinct calls for doing two to the eighth many recursive calls as a worst-case.  next song  okay, so let's kind of  summarize what we did hear all the recursive calls makes the form. I from one 2K or empty with cake was one to end or you can maybe count k equals 0 as the empty set case if that you like that.  Two other to the end recursive calls, we might make only and plus one distinct calls.  So basically, we're not changing the structure of the backtracking algorithm. We're just making sure that we are recycling the information and not going down the same path.  So  so we're going to go into dynamic programming next and I'm going to give you sort of a template of how I want you two to think about the problems and present the problems and  We're going to be going from like a bottom-up direction. Whereas backtracking is like a top-down Direction, which means you start from like the big problem and you break it up into smaller problems until you get down to the base case.  For every dynamic programming problem we're going to do from now on we're going to do bottom up. So we're going to start from the base case and build it up step by step.  But if you like this backtracking type of idea, it might help you with figuring out how to put together the dynamic programming problem, but I want you to present it in this bottom-up way.  Okay. So these are all the steps I want you to do for a dynamic programming problems. Okay, and don't worry about it. Now you'll see when you go how how we go through them?  Okay, so  Basically, just like we said if you identify a collection of sub problems and tackling them one by one from the smallest first and you know that you can use the smaller ones to calculate the bigger. Once then then it's a very efficient straightforward way to get there.  Some examples are like finding the max finding them in those I consider as dynamic programming problems because you're using the information that you had before to make your next calculation. And then if you remember from the first day when we did the Fibonacci one use the previous information.  Okay, just go back to event scheduling did I do all this stuff already?  Okay, let's let's just go through a first few of these first steps and see you. I'll show you kind of where I'm going with this.  Okay, Step 1 just Define the sub problems and corresponding array.  Okay, most of the time the sub problem is just going to beat look a lot like your original problem. Okay, what did our original problem look like?  original  problem  was  compute  the max  value  weighted  event schedule let's say  I won through in.  Case that's what you're generally going to do is you're going to take that and put it as an array value. Okay. So this is what I mean.  Let let's call it a let AK be.  the max value weighted  event schedule  I-12 i k  and often times  noticed that your problem really only has like one degree of Freedom this end, right? And so that means that you were a ray is going to only be one-dimensional and you kind of like replace that and with another variable like k or something like that.  Okay. Now this might seem very simple but this is one of the most important parts of your presentation because if you don't have this then when I'm reading your dynamic programming algorithm, I don't really know what the array is supposed to be what the array of supposed to.  Yeah, I'm supposed to Define.  All right. Let's just do one more step bass cases.  I have zero is  0  if you like you can kind of think about what it's supposed to mean.  the max value of  the empty set  this is also a very important part but you know, this is usually pretty simple.  Okay, and then maybe on this one give a recursion to the sub problems in terms.  A okay, and maybe you guys can do this as an exercise.  Okay. So in terms of AK, how do I compute AK from a k - 1 or from a k - to the idea is that we're going to be building these up step by step. So I have access to all the previous ones that I've had before OK Google finish this up on Wednesday and basically just go through examples more and more more complicated once  No, just divide and conquer.  Yes, probably tomorrow. Yeah.  Yes, yes. It's going to be like true and false and they're all going to be like  Master theorem runtimes of merge sort quicksort cook tomb karatsuba  Quick select, you know I expected runtime.  Master theorem very salient "
+}

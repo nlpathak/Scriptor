@@ -1,0 +1,366 @@
+{
+    "Blurbs": {
+        "0 edges and all the red edges are one edges, right? And so now all I need to do is figure out what's the shortest path from this note to that note and that will give you the minimum. edit distance any questions Okay. So how would we do this? We could just build the graph and then the graph has n n vertices. It's pretty easy to build right ": [
+            662.3,
+            700.4,
+            13
+        ],
+        "2 out of 5 kind of yeah. Okay, it's working now. but now Doesn't want to update. Cuz it's not connected to the internet. I got to go into guest Internet. Okay. Still doesn't want to do it. Oh, here we go. I think it's working now. Okay. Okay, good. Sorry about that. My computer was being weird. question Yeah, we won't have to prove correctness on the dynamic programming ": [
+            316.0,
+            442.7,
+            5
+        ],
+        "4 he with eight. he was 5 and so on so you can just put in all the edges and if I did this correctly then all the edges will be going in One Direction and you can keep on kind of computing these distances as you got. linear topological sorting takes big O of the Plessy Remember cuz all you do is you run DFS on it. And then ": [
+            973.8,
+            1023.6,
+            22
+        ],
+        "Central currency exchange system. And so what that means is that as markets change some exchange houses update faster than others and also depends on what time zone you're in and so one currency could plummet and another one could Skyrocket and one exchange house could could do one of the changes the other one could do the other one and you might be able to find a way to ": [
+            2642.2,
+            2670.0,
+            62
+        ],
+        "I realized what it was it was already like changed. but yeah. I didn't use Bellman Ford to find it though. It was just I just saw that these two exchange houses kind of exchange that these different rates. I should have done something about it. I couldn't believe it in in the first place, but it turned out that I was going to Brazil at the time and I ": [
+            2815.5,
+            2849.2,
+            67
+        ],
+        "Jag. So let's look at a application of this. Longest increasing subsequence. So suppose you had some list of integers a 1 through a end and increasing subsequence is a sequence that is increasing subsequence. That's increasing. Subsequence means that the they have to be in order, but they don't necessarily have to be contiguous. so for example 51620 that's a increasing subsequence. What's the maximum increasing subsequence in this ": [
+            1228.7,
+            1272.7,
+            29
+        ],
+        "Jay? G&G right. So this Jay is going to have to be the minimum of Well the distance to E. + 5 and the distance to G. + 2 if we knew the distance to G and a distance to e but kind of looking ahead if we do it in topological ordering we're guaranteed to have visited P&G before we got to J. Got any questions about that? Okay. ": [
+            864.4,
+            915.7,
+            19
+        ],
+        "Neighbors. But let's just assume that maybe it's a complete graph and then we have to consider them all. Okay, so basically This is going to be our recursion be of it. Is going to be well. Look at all the possible incoming neighbors of VI. djvi Figure out what is be of JT -1, right? That's the shortest path to get to that vertex with T minus one or ": [
+            2283.0,
+            2321.0,
+            52
+        ],
+        "Okay, so this is called the Bellman Ford algorithm. and basically what it does is it returns negative cycle if it finds one and or else it turned returns all the shortest paths that in here, here's the pseudocode when you can go over it later if you like, but you basically Runty from one up to end and do the the recursion. And then after that you basically just ": [
+            2545.4,
+            2577.5,
+            59
+        ],
+        "So this is basically the recursion is that distance X is equal to you take the minimum of all the incoming edges and you add their length plus the distance. Okay ordering. Well the trick here to order the vertices is in topological order. You can see why that helps because once you get to a Vertex, you know that there's no edges going backwards. So, you know, you don't ": [
+            915.7,
+            942.8,
+            20
+        ],
+        "Something like that. Then there's going to be one or two graph problems a greedy problem divide and conquer problem and one or two dynamic programming problems. I mean in what sense? They give me for the true false. it's I mean is cumulative it's it's kind of like what I said, I mean I guess if I put two dynamic programming problems on there than that would be like ": [
+            272.5,
+            314.6,
+            4
+        ],
+        "What the heck? All right. Here we go. I'm having some technical difficulties. I'm having some technical difficulties with the computer. So it all. I think it'll be fine after I restart it. Okay, before we begin, does anybody have any questions? I put up a new homework homework 7 and if you notice I put the first problem the last problem of the other homework kind of carried over ": [
+            59.5,
+            149.2,
+            0
+        ],
+        "a little bit of review. What's that? well As far as like design type questions, it won't be on the final but there might be some like true-false questions that might make it on there from week 10. What's up? I don't know now. I haven't made it yet. You want it want me to give you my plan? All right, so there's going to be like 10 true-false questions. ": [
+            216.0,
+            271.5,
+            3
+        ],
+        "a really weird example Okay, so our next kind of goal is to figure out how to find shortest path as efficiently. In a graph with negative. Edge weights without negative Cycles, right if there's negative Cycles, then we're kind of we can't we can't get the shortest path. Okay. So basically what I want to do is change this graph or change this graph problem that has Cycles right ": [
+            1659.0,
+            1690.8,
+            39
+        ],
+        "actually improve this by using the fact that this graph is a dag. so what kind of things can we approve Upon A shortest path algorithm if we know it's a dag. Let's try to approach the shortest path in dag as a dynamic programming problem. Okay, so suppose we have some dag like this. With Edge weights, we want to find the shortest path from a given for a ": [
+            731.0,
+            761.7,
+            15
+        ],
+        "ain't just going to keep on going forever cuz you can keep on finding better and better paths Without End. Okay, so that's a problem. Okay, if there are no negative Cycles, you can run dijkstra's on it and get all shortest paths. There is a problem with efficiency though. question So if you recall when we prove dijkstra's algorithm we use the fact that all Edge weights were positive ": [
+            1598.5,
+            1633.2,
+            37
+        ],
+        "all possible. Write we care about the length of the path. But we're trying to reduce it to shortest path. right Are there any questions about that? We just saw that problem right just build this graph and run shortest path on it. How are we so sure that the path is going to be a dag. It's kind of like by the construction right? We're only I guess I ": [
+            1377.8,
+            1417.6,
+            32
+        ],
+        "are the only vertebrates. He's that you're going to be able to reach I guess maybe what we should do is also initialise distance of the eye to be Infinity. for all the I not equal to a spring so you can keep on updating. Okay, and then for every one of those vertices just set set it to be this distance value that we talked about before and I ": [
+            1067.5,
+            1096.4,
+            24
+        ],
+        "array? I think it's what 8 11 12 16 25. And that's about right. Okay, so we can just forget about the graph stuff and solve this problem using dynamic programming kind of how we were doing it before but let's see how we can reduce it to shortest path. Okay, so what could the vertices be? any ideas Okay, each number good. And what about when is there going ": [
+            1272.7,
+            1325.8,
+            30
+        ],
+        "arrows had wait one unless Let me just change the color. Unless the letters are the same in which case the arrow has weight zero Frank then all you have to do is find the shortest path from the top vertex to the bottom right protects. So here is a filled in all of the edges. You can see those big dark the big bold black edges. Those are your ": [
+            626.3,
+            662.3,
+            12
+        ],
+        "basically the idea right if there's a negative cycle and W Prime, then you found an Arbitrage and if there's no negative cycle, then you can find the best exchange rate, which means basically maybe instead maybe I'm getting the best exchange rate from dollars to Euros. It's better if you exchange it into pounds and then Yen and then pesos and then into Euros, maybe there's like some sort ": [
+            2880.6,
+            2902.5,
+            69
+        ],
+        "can take the minimum of all the cases or? Or just like the idea. No, because I could have negative edges. Right. So adding another Edge might decrease it. Well just means they have to consider it. So let's think about it like this there there is a there is an answer to the shortest path from v02 VI using at most two edges right? There is a pain that ": [
+            2111.1,
+            2170.4,
+            48
+        ],
+        "check to see if any of the is it has improved in that and it'll rayshun and otherwise you just return it. Okay, why is this algorithm important? flight tickets or has anybody heard of currency Arbitrage? Okay, so We usually deal with exchange rates right as being determined. So you always lose a bit when you buy right when you go to The Exchange house they give you kind ": [
+            2577.5,
+            2612.7,
+            60
+        ],
+        "ever have to update anything before so in that sense whenever you have updated of her text it's done. It's been updated and you never have to update it again, so you can really just move along in a linear fashion. Any questions about that? Okay good. So here's a here's the topological ordering and then you can just put in the edges right? So be goes to hey with ": [
+            942.8,
+            973.8,
+            21
+        ],
+        "every time you pop off a Vertex you you put it into the Q. Oh, I didn't put a wait there. Let's just say it one. Okay, so here's a pseudocode. Dad DP you got a graph in a in a starting or text you sent the distance of the starting vertex to zero. Latvia want to vnb the list of all vertices after ass in topological ordering, right? Those ": [
+            1023.6,
+            1067.5,
+            23
+        ],
+        "exists a path with more than T edges. Okay, what are base cases? Okay, if there's zero edges. Well be of i 0 is going to be 0. For all I not equal to 0, right? Oh, sorry. Infinity Bank Because there is no path from v02 VI that uses zero edges. Be of 00 is going to be what? Like the trivial path from v02 itself is a length ": [
+            1846.7,
+            1902.5,
+            44
+        ],
+        "fewer edges and then plus the weight of Vijay te vi. Text me questions about that. Okay, that's it. That will always be will if we will always be able to kind of reach that budget if we do it that way. Now, let's start thinking about what are the consequences of having negative Cycles or not negative Cycles? Okay, what should we set our budget to be should we ": [
+            2321.0,
+            2364.7,
+            53
+        ],
+        "going to be the exchange rate, right? There's kind of one weird problem is that bellman-ford works? Well with sums where this is going to be products, right if I exchange one and exchange another you're going to multiply those exchange rates. Let's just go to the next thing you're trying to find a path that maximizes the product. right We want to minimize this some okay, how come we ": [
+            2712.1,
+            2748.7,
+            64
+        ],
+        "guess this doesn't really output anything it just kind of feels in this array any questions. I guess I I guess this is not really. Sorry, this instead of actually should probably be like VI, right? Instead of actually be bi. Okay good. So now the run time is Viggo of the Plessy right? Because every time you every every iteration in that for Loop takes degree of V many ": [
+            1096.4,
+            1137.3,
+            25
+        ],
+        "idea. is 2 okay, that's this is what I was saying before if there's no negative Cycles. So the idea is to check to see if after one more iteration does anything improve if it does and you found a negative cycle and that's bad, right? Well, it kind of depends on your problem. It could be good if you found a negative cycle. What's that? free airline tickets Yeah. ": [
+            2502.8,
+            2541.5,
+            58
+        ],
+        "imagine that they'll be a little bit more to do on Friday Also. And that's mainly the material for the final exam. We're we're going to talk a little bit about linear programming mainly with like these maxflow type of things and show how you can solve certain problems with it. Then we'll talk about p and NP briefly and then hopefully we'll have some time on Friday to do ": [
+            184.4,
+            216.0,
+            2
+        ],
+        "in order to get that efficiency in order to show that each vertex only enters the priority Queue at most one time. But if there are negative edges than it could it could go in there more than one time. And in fact, you can found it. It could actually be exponential time. The vertex could go into the priority queue in exponential number of times if you have like ": [
+            1633.2,
+            1659.0,
+            38
+        ],
+        "into a dad that doesn't have Cycles. I think so in order to do this. We're going to give ourselves a budget and this is also going to prevent us from going down any infinite Loops. We're going to say, what is the shortest path that I can have by only using at most team any edges? Okay. So let's let's turn this into a dynamic programming problem. Let me ": [
+            1690.8,
+            1722.2,
+            40
+        ],
+        "is going to be going to have a round three times NM edges right because basically For each vertex. There are three edges that come out of it or three edges that come into it maybe except for the the borders. So if we ran dijkstra's on it, then you will get a run time of Big O of NM login m Frank which is not bad, but we can ": [
+            700.4,
+            731.0,
+            14
+        ],
+        "it. So what's an upper bound on the number of edges of a simple path in a graph with n vertices? And might as well good. brighten hamiltonian happy happy hamiltonian path Right. So this is the this is the upper bound. So the idea here is we're going to set our our budget to be and -1 right and that will give us all the shortest simple pads if ": [
+            2389.0,
+            2422.6,
+            55
+        ],
+        "itself. Okay, so we're okay. We're actually okay with a graph this this process is going to work with a graph with negative Cycles right because We're not letting it run free until it finds the best thing or just only letting it run with this budget. Okay. So what simple question can we ask to split up the possible paths from v02 VI right? We're trying to figure out ": [
+            1959.3,
+            1986.0,
+            46
+        ],
+        "just kind of state the problem now. the input is going to be a graph with vertices v-0 through the n Okay. And they may have Negative Edge weights will whoop think about the negative Cycles as we go along and see kind of what role they play. But if we put a budget on the number of edges, we don't really have to worry about it because we're saying ": [
+            1722.2,
+            1753.2,
+            41
+        ],
+        "make money by doing a sequence of exchanges. so this is called the Arbitrage and its people do it. They they find them they don't last for very long. But once they find them they they go around that that sequence. Okay, so how how could we use Bellman Ford to find a currency Arbitrage? You basically make a graph where each vertex is a currency and the edges are ": [
+            2670.0,
+            2712.1,
+            63
+        ],
+        "means that they're there does exist a task. So what is this path look like you have v0? And VI. What's this vertex here? What could it be? Any of its neighbors write any of its incoming Neighbors? So let's just take the minimum out of all those incoming neighbors. How do you get to all the incoming neighbors with T minus one edges and then add that other Edge? ": [
+            2170.4,
+            2222.7,
+            49
+        ],
+        "met products into sums? Take the log log is a nice function that changes products into sums. Basically take the negative log because we still are trying to find shortest paths. Okay, so what would be really good as if they were a cycle whose product was bigger than one right? This is the Arbitrage change here here here here here once you get back you get more than what ": [
+            2748.7,
+            2778.3,
+            65
+        ],
+        "more negative negative. So what is the shortest path from a to c was kind of like Unbound is like a negative infinity or something and that's not really useful for us. Okay. Also, if we trying to run anything like dijkstra's algorithm on it or any Graph Search algorithm that keeps on updating you're going to run into this problem where the algorithm is not going to Halt. I ": [
+            1572.3,
+            1598.5,
+            36
+        ],
+        "of 0. No, because we're starting we're starting at V 0. Be there is always the starting point. Okay good. Next step is what we had. Okay good. I guess this is 0 I actually let's just keep let's keep this as your 00, I like that better because I guess if there wasn't a negative cycle, then you could start getting a better path to the that vertex p02 ": [
+            1902.5,
+            1959.3,
+            45
+        ],
+        "of They put a little bit more of a tax or whatever on it just to just know that they're making money right? For example, if I change $200 into Euros at an exchange house got whatever that was and then tried to change that same amount of Euros back into Dollars. I'll probably lose a little bit right because they have like this fee. okay, but there's actually no ": [
+            2612.7,
+            2642.2,
+            61
+        ],
+        "of thing. So that's also what does algorithm can do for you. Okay, so maybe let's I do want to look at this one more algorithm, but we might have to save it until Friday, but maybe you guys can look at it in the book is called the Floyd warshall algorithm and it's basically it's very useful for this Arbitrage also, because it finds the best of the shortest ": [
+            2902.5,
+            2936.7,
+            70
+        ],
+        "okay, so basically I already know how to get to all of the neighbors of the incoming neighbors of the eye with T minus one edges if if I'm ordering the subproblems correctly, right? So I pretty much figure out what's the minimum of all those things plus those add weights. You can kind of think I think of it as cases right que sera would be that v-0 as ": [
+            2229.7,
+            2260.9,
+            50
+        ],
+        "pads in order to detect if there's negative Cycles? Okay good. If there's no negative Cycles, then then after + -1, you can't get any better write all those shortest pads are set you can keep on running over and over again and I'll always just be the same. So if there were a negative cycle then some of those pads will start to improve after and -1 so the ": [
+            2448.3,
+            2502.8,
+            57
+        ],
+        "path between every pair of nodes instead of just from a single Source node pain, so we'll talk about this and it'll kind of a nice ending to a dynamic programming. Okay. Well, let me know if you guys find any arbitrages. ": [
+            2936.7,
+            2953.3,
+            71
+        ],
+        "problems kind of like in the homework. What this is the reason is because I'm hoping that the your description of your recursion is good enough that that basically is your proof of correctness in a sense. I mean If you try to write out a proof of correctness again, you're going to see that basically what you're doing is justifying why your recurrence makes sense and that's what I ": [
+            442.7,
+            468.9,
+            6
+        ],
+        "programming problem is basically a dag, right? So, how does that work? It's a problem is a vertex. And write in dynamic programming problems. The sub problems are dependent on other sub problems. So the sub problem is dependent on another sub problem. There's an edge from one to the other. So you see why this has to be a dad you see why there can't be any Cycles. If ": [
+            506.4,
+            536.1,
+            8
+        ],
+        "reef and having to re update certain vertices. Okay, so let's kind of go through the process of the dynamic programming steps. So the sub problem is going to be dissed V is going to be the shortest distance from s2v. Okay. The base case is dipped acid 0 Now, what's the recursion? Well, let's just take a look at. the the graph I have from before. Let's look at ": [
+            792.0,
+            827.0,
+            17
+        ],
+        "set it to be a certain value? Right? Because we don't want it to go on for Infinity. That's kind of the worried. So let's the first assume that there are no negative cycles. That means that all the shortest pads are going to be simple paths, right because it's no it's not any use to go through a cycle a bunch of times if you're not gaining anything from ": [
+            2364.7,
+            2389.0,
+            54
+        ],
+        "should say this and eyes less than Jay. We're only connecting from earlier position to a later position. So they're already in topological order so you can just plug it in that way. You don't even have to store it in topological order. stop Let's move on. negative Cycles Okay, so we can run into a problem when there's a negative cycle. What is a negative cycle? It's basically when ": [
+            1417.6,
+            1453.8,
+            33
+        ],
+        "something called a negative cycle, which is problematic. We'll talk about that in a minute. but Because we're able to do the shortest path in the presence of negative weight. We can find longest path just by negating all of the edge weights and then finding the shortest path, right? So it's kind of like a trick to reduce the problem produce longest path in dag to shortest path in ": [
+            1199.9,
+            1228.7,
+            28
+        ],
+        "steps, right because you're taking the minimum here of the degree. Of the I enter the sum of all the degrees is the number of edges and stuff you get linear time. Does that mean solving the edit distance problem using this shortest path algorithm now, you can get it in big'o of NM time which is the same amount of time we use from before. It's honestly, it's really ": [
+            1137.3,
+            1165.0,
+            26
+        ],
+        "text to all of its vertices right? So remember you can just use dijkstra's and it'll be fine and it'll work great, but we can shave off that log in term by basically by organizing the vertices in a certain way. What way is that? Well? the diag so topological ordering right and we're going to see why putting in topological ordering prevents us from kind of going back and ": [
+            761.7,
+            792.0,
+            16
+        ],
+        "that one and so on right? I guess let's do it by myself. So this cell. Is dependent on those three right until you can you can kind of put these arrows in for every single cell now instead of making it a this dynamic programming problem. We're filling in an array we can think about it more in terms of a shortest path problem where each one of these ": [
+            596.3,
+            626.3,
+            11
+        ],
+        "the same algorithm in a sense. You just kind of framing it as a graph or you just framing it as like a filling up an array. questions about that Okay, so noticed that this algorithm. Send to the dag this works for positive and negative weights. There's nowhere that we said that the weights had to be restricted. So the fact that it's Dad it prevent it from having ": [
+            1165.0,
+            1199.9,
+            27
+        ],
+        "the second-to-last vertex in the path from v02 VI using at most two edges be one is the second to last for a tax fee to is a second and last for a text to Pete all the way to VN. I mean, this is kind of maybe going a little overboard because we don't need to consider all possible vertices. We just need to consider the actual neighbors incoming ": [
+            2260.9,
+            2283.0,
+            51
+        ],
+        "there are no Negative Edge has no negative Cycles. Okay, that's good. So if we know beforehand that it does it doesn't have any negative cycles and this will work great and we're done and we don't have to do any more iteration. If we don't know if there are negative Cycles or not. Is there a way to detect this? Can we use this kind of idea of simple ": [
+            2422.6,
+            2448.3,
+            56
+        ],
+        "there were a cycle then, you know this problem would depend on that problem with depend on that problem and back around and there's no start to to wear to how to calculate them. Right? So Cycles are not really good for this type of optimization problem. So let's just go to this if you guys were call this edit distance example. We feel that we filled kind of part ": [
+            536.1,
+            567.6,
+            9
+        ],
+        "to a homework 7 save a little bit more time to think about it. I'll be giving you guys some practice problems for the for the final probably tomorrow question. Yeah, yes, you can finish it this one if you like, but you can you can carry over to the next no more. Yeah, so today we're Bates. We're going to try to finish up with dynamic programming today. I ": [
+            149.2,
+            184.4,
+            1
+        ],
+        "to be an edge? Okay, when a little number comes before a bigger number, okay, good. So There is an edge. from AI to AJ if AI is less than a j and I is less than Jay Wright. Okay, and now what are we going to what are going to be the edge length the the length of each Edge? well 0 wouldn't really help so much because then ": [
+            1325.8,
+            1377.8,
+            31
+        ],
+        "to v i using Atmos T edges All right vs. 0. Thank you. classes equal to be zero Okay question. That's why is that most? So if there's no path then the shortest path is infinity. I mean like what would you be able to put a budget? That's too low because there is all the Popeye's on putting. You mean like if there was a path? would like there ": [
+            1790.1,
+            1846.7,
+            43
+        ],
+        "trying to find the shortest path, there are some pairs of vertices where the shortest path is unbounded from below for example. What is the shortest path from a to c? well If you go this way, you get -2, but if you go around like that then you get what? -4 right Aren't you go negative to positive 2? -6 negative to negative for rent around you get more ": [
+            1515.0,
+            1572.3,
+            35
+        ],
+        "vertex J K if I want to compute the shortest distance from let's say s is equal to be. Okay, so I'm trying to compute the distance from B to Jay. And look locally around J. What is disc J dependent on? Write the shortest of all the different distances, but I guess another way to say is what vertices do you need to pass through before you get to ": [
+            827.0,
+            864.4,
+            18
+        ],
+        "want you to do already. So that's kind of took it out. Okay. So today the dynamic programming problems. We're going to look at today. I'll have to do with grass. So we're going to see kind of how grass come into dynamic programming and we could also see how you can think about all dynamic programming problems as graph problems. Okay, so just start out. notice that a dynamic ": [
+            468.9,
+            506.4,
+            7
+        ],
+        "was living in Chile and it turned out that like that week the Chilean Peso Spike Rose a lot and the Brazilian. how plummeted a little bit and so there was like this kind of miscommunication between the the houses there were like two blocks away the two houses so I could have just got like ran back and forth as much as I wanted to. Okay, so This is ": [
+            2849.2,
+            2880.6,
+            68
+        ],
+        "way through it using the recursion. But if you like instead of doing it the way we did it you can think about it as a graph problem. Okay, and the idea here is there's going to be a Edge from one cell to another if it depends on it. So. This this cell is dependent on that one the cell dependent on that one. This cell is dependent on ": [
+            567.6,
+            596.3,
+            10
+        ],
+        "what this recursion is going to be be of it a few minutes talk about it in a group see if you could come up with a recursion for this ready go. Yes. They're they're not there can bacon be any arbitrary order. The only thing that matters is the v-0. Hey, is anybody have like a way to kind of split this up in two cases so that we ": [
+            1986.0,
+            2111.1,
+            47
+        ],
+        "what's the long? What's the shortest path with this many edges or fewer? Casey also get a tea, which is our budget. Okay, so let's set up to some problems. What do you guys think? It's kind of like the same sorts of sub problems. We've seen before this is going to have two parameters i&t. So we're going to say be of it is the shortest path from s ": [
+            1753.2,
+            1790.1,
+            42
+        ],
+        "you have a cycle in a graph and the sum of all the edges is a negative number. So does this graph have a negative cycle? Yats, what is it? so a b or a c EB Wright negative cycle and what about EBD is that a negative cycle? not negative cycle questions about that Okay, good. So The problem with having a negative cycle. Is that now? If you ": [
+            1456.2,
+            1515.0,
+            34
+        ],
+        "you paid for. I'm in the first place. Okay, so you basically set you basically change all the weights to these W primes, which is the negative log. That means the smallest sum of w Prime's is the largest product of the W's and then we can just run Bellman Ford directly on this information. Okay, so I found I found a currency Arbitrage one time. But by the time ": [
+            2778.3,
+            2815.5,
+            66
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_24.flac",
+    "Full Transcript": "What the heck?  All right. Here we go.  I'm having some technical difficulties.  I'm having some technical difficulties with the computer. So it all.  I think it'll be fine after I restart it. Okay, before we begin, does anybody have any questions?  I put up a new homework homework 7 and if you notice I put the first problem the last problem of the other homework kind of carried over to a homework 7 save a little bit more time to think about it. I'll be giving you guys some practice problems for the for the final probably tomorrow question.  Yeah, yes, you can finish it this one if you like, but you can you can carry over to the next no more.  Yeah, so today we're Bates. We're going to try to finish up with dynamic programming today. I imagine that they'll be a little bit more to do on Friday Also.  And that's mainly the material for the final exam. We're we're going to talk a little bit about linear programming mainly with like these maxflow type of things and show how you can solve certain problems with it. Then we'll talk about p and NP briefly and then hopefully we'll have some time on Friday to do a little bit of review.  What's that?  well  As far as like design type questions, it won't be on the final but there might be some like true-false questions that might make it on there from week 10.  What's up?  I don't know now.  I haven't made it yet. You want it want me to give you my plan?  All right, so there's going to be like 10 true-false questions.  Something like that. Then there's going to be one or two graph problems a greedy problem divide and conquer problem and one or two dynamic programming problems.  I mean in what sense?  They give me for the true false.  it's I mean is cumulative it's it's kind of like what I said, I mean  I guess if I put two dynamic programming problems on there than that would be like  2 out of  5 kind of yeah.  Okay, it's working now.  but now  Doesn't want to update.  Cuz it's not connected to the internet.  I got to go into guest Internet.  Okay.  Still doesn't want to do it.  Oh, here we go. I think it's working now.  Okay.  Okay, good. Sorry about that.  My computer was being weird.  question  Yeah, we won't have to prove correctness on the dynamic programming problems kind of like in the homework.  What this is the reason is because I'm hoping that the your description of your recursion is good enough that that basically is your proof of correctness in a sense. I mean  If you try to write out a proof of correctness again, you're going to see that basically what you're doing is justifying why your recurrence makes sense and that's what I want you to do already. So that's kind of  took it out.  Okay. So today the dynamic programming problems. We're going to look at today. I'll have to do with grass. So we're going to see kind of how grass come into dynamic programming and we could also see how you can think about all dynamic programming problems as graph problems.  Okay, so just start out.  notice that  a dynamic programming problem is basically a dag, right? So, how does that work?  It's a problem is a vertex.  And write in dynamic programming problems. The sub problems are dependent on other sub problems. So the sub problem is dependent on another sub problem. There's an edge from one to the other.  So you see why this has to be a dad you see why there can't be any Cycles. If there were a cycle then, you know this problem would depend on that problem with depend on that problem and back around and there's no start to to wear to how to calculate them. Right? So Cycles are not really good for this type of optimization problem.  So let's just go to this if you guys were call this edit distance example.  We feel that we filled kind of part way through it using the recursion. But if you like instead of doing it the way we did it you can think about it as a graph problem.  Okay, and the idea here is there's going to be a Edge from one cell to another if it depends on it. So.  This this cell is dependent on that one the cell dependent on that one. This cell is dependent on that one and so on right?  I guess let's do it by myself. So this cell.  Is dependent on those three right until you can you can kind of put these arrows in for every single cell now instead of making it a this dynamic programming problem. We're filling in an array we can think about it more in terms of a shortest path problem where each one of these arrows had wait one unless  Let me just change the color.  Unless the letters are the same in which case the arrow has weight zero Frank then all you have to do is find the shortest path from the top vertex to the bottom right protects. So here is a  filled in all of the edges. You can see those big dark the big bold black edges. Those are your 0 edges and all the red edges are one edges, right? And so now all I need to do is figure out what's the shortest path from this note to that note and that will give you the minimum.  edit distance  any questions  Okay. So how would we do this? We could just build the graph and then the graph has n n vertices. It's pretty easy to build right is going to be going to have a round three times NM edges right because basically  For each vertex. There are three edges that come out of it or three edges that come into it maybe except for the the borders.  So if we ran dijkstra's on it, then you will get a run time of Big O of NM login m  Frank  which is not bad, but we can actually improve this by using the fact that this graph is a dag.  so  what kind of things can we approve Upon A shortest path algorithm if we know it's a dag. Let's try to approach the shortest path in dag as a dynamic programming problem.  Okay, so suppose we have some dag like this.  With Edge weights, we want to find the shortest path from a given for a text to all of its vertices right? So remember you can just use dijkstra's and it'll be fine and it'll work great, but we can shave off that log in term by basically by organizing the vertices in a certain way.  What way is that? Well?  the diag so  topological ordering right and we're going to see why putting in topological ordering prevents us from kind of going back and reef and having to re update certain vertices.  Okay, so let's kind of go through the process of the dynamic programming steps. So the sub problem is going to be dissed V is going to be the shortest distance from s2v. Okay. The base case is dipped acid 0  Now, what's the recursion?  Well, let's just take a look at.  the  the graph I have from before.  Let's look at vertex J K if I want to compute the shortest distance from let's say s is equal to be. Okay, so I'm trying to compute the distance from B to Jay.  And look locally around J. What is disc J dependent on?  Write the shortest of all the different distances, but I guess another way to say is what vertices do you need to pass through before you get to Jay?  G&G right.  So this Jay is going to have to be the minimum of  Well the distance to E.  + 5 and the distance to G.  + 2  if we knew the distance to G and a distance to e but kind of looking ahead if we do it in topological ordering we're guaranteed to have visited P&G before we got to J.  Got any questions about that?  Okay. So this is basically the recursion is that distance X is equal to you take the minimum of all the incoming edges and you add their length plus the distance.  Okay ordering. Well the trick here to order the vertices is in topological order. You can see why that helps because once you get to a Vertex, you know that there's no edges going backwards. So, you know, you don't ever have to update anything before so in that sense whenever you have updated of her text it's done. It's been updated and you never have to update it again, so you can really just move along in a linear fashion.  Any questions about that?  Okay good. So here's a here's the topological ordering and then you can just put in the edges right? So be goes to  hey with 4  he with eight.  he was 5 and so on so you can just put in all the edges and  if I did this correctly then all the edges will be going in One Direction and you can keep on kind of computing these distances as you got.  linear  topological  sorting  takes  big O of the Plessy  Remember cuz all you do is you run DFS on it. And then every time you pop off a Vertex you you put it into the Q.  Oh, I didn't put a wait there.  Let's just say it one.  Okay, so here's a pseudocode.  Dad DP you got a graph in a in a starting or text you sent the distance of the starting vertex to zero.  Latvia want to vnb the list of all vertices after ass in topological ordering, right? Those are the only vertebrates. He's that you're going to be able to reach I guess maybe what we should do is also initialise distance of the eye to be Infinity.  for all  the I not equal to a spring so you can keep on updating.  Okay, and then for every one of those vertices just set set it to be this distance value that we talked about before and I guess this doesn't really output anything it just kind of feels in this array any questions.  I guess I I guess this is not really.  Sorry, this instead of actually should probably be like VI, right?  Instead of actually be bi.  Okay good. So now the run time is Viggo of the Plessy right? Because every time you every every iteration in that for Loop takes degree of V many steps, right because you're taking the minimum here of the degree.  Of the I enter the sum of all the degrees is the number of edges and stuff you get linear time. Does that mean solving the edit distance problem using this shortest path algorithm now, you can get it in big'o of NM time which is the same amount of time we use from before. It's honestly, it's really the same algorithm in a sense. You just kind of framing it as a graph or you just framing it as like a filling up an array.  questions about that  Okay, so noticed that this algorithm.  Send to the dag this works for positive and negative weights. There's nowhere that we said that the weights had to be restricted.  So the fact that it's Dad it prevent it from having something called a negative cycle, which is problematic. We'll talk about that in a minute.  but  Because we're able to do the shortest path in the presence of negative weight. We can find longest path just by negating all of the edge weights and then finding the shortest path, right? So it's kind of like a trick to reduce the problem produce longest path in dag to shortest path in Jag.  So let's look at a application of this.  Longest increasing subsequence. So suppose you had some list of integers a 1 through a end and increasing subsequence is a sequence that is increasing subsequence. That's increasing.  Subsequence means that the they have to be in order, but they don't necessarily have to be contiguous.  so for example  51620 that's a increasing subsequence.  What's the maximum increasing subsequence in this array?  I think it's what 8 11 12 16 25.  And that's about right.  Okay, so  we can just  forget about the graph stuff and solve this problem using dynamic programming kind of how we were doing it before but let's see how we can reduce it to shortest path.  Okay, so what could the vertices be?  any ideas  Okay, each number good.  And what about when is there going to be an edge?  Okay, when a little number comes before a bigger number, okay, good. So  There is an edge.  from AI to AJ  if  AI is less than a j  and I is less than Jay Wright.  Okay, and now what are we going to what are going to be the edge length the the length of each Edge?  well  0 wouldn't really help so much because then all possible.  Write we care about the length of the path.  But we're trying to reduce it to shortest path.  right  Are there any questions about that?  We just saw that problem right just build this graph and run shortest path on it. How are we so sure that the path is going to be a dag. It's kind of like by the construction right? We're only  I guess I should say this and eyes less than Jay. We're only connecting from earlier position to a later position. So they're already in topological order so you can just plug it in that way. You don't even have to store it in topological order.  stop  Let's move on.  negative Cycles  Okay, so we can run into a problem when there's a negative cycle. What is a negative cycle? It's basically when  you have a cycle in a graph and the sum of all the edges is a negative number.  So does this graph have a negative cycle?  Yats, what is it?  so  a b or a c  EB Wright  negative cycle  and what about  EBD  is that a negative cycle?  not negative cycle  questions about that  Okay, good. So  The problem with having a negative cycle. Is that now? If you trying to find the shortest path, there are some pairs of vertices where the shortest path is unbounded from below for example.  What is the shortest path from a to c?  well  If you go this way, you get -2, but if you go around like that then you get what?  -4 right  Aren't you go negative to positive 2?  -6 negative to negative for rent around you get more more negative negative. So what is the shortest path from a to c was kind of like Unbound is like a negative infinity or something and that's not really useful for us.  Okay.  Also, if we trying to run anything like dijkstra's algorithm on it or any Graph Search algorithm that keeps on updating you're going to run into this problem where the algorithm is not going to Halt. I ain't just going to keep on going forever cuz you can keep on finding better and better paths Without End.  Okay, so that's a problem.  Okay, if there are no negative Cycles, you can run dijkstra's on it and get all shortest paths. There is a problem with efficiency though.  question  So if you recall when we prove dijkstra's algorithm we use the fact that all Edge weights were positive in order to get that efficiency in order to show that each vertex only enters the priority Queue at most one time. But if there are negative edges than it could it could go in there more than one time. And in fact, you can found it. It could actually be exponential time. The vertex could go into the priority queue in exponential number of times if you have like a really weird example  Okay, so our next kind of goal is to figure out how to find shortest path as efficiently.  In a graph with negative.  Edge weights without negative Cycles, right if there's negative Cycles, then we're kind of we can't we can't get the shortest path.  Okay. So basically what I want to do is change this graph or change this graph problem that has Cycles right into a dad that doesn't have Cycles.  I think so in order to do this. We're going to give ourselves a budget and this is also going to prevent us from going down any infinite Loops. We're going to say, what is the shortest path that I can have by only using at most team any edges?  Okay.  So let's let's turn this into a dynamic programming problem. Let me just kind of state the problem now.  the input is going to be a graph with vertices v-0 through the n  Okay.  And they may have Negative Edge weights will whoop think about the negative Cycles as we go along and see kind of what role they play. But if we put a budget on the number of edges, we don't really have to worry about it because we're saying what's the long? What's the shortest path with this many edges or fewer?  Casey also get a tea, which is our budget.  Okay, so let's set up to some problems. What do you guys think?  It's kind of like the same sorts of sub problems. We've seen before this is going to have two parameters i&t. So we're going to say be of it is the shortest path from s to v i  using Atmos T edges  All right vs. 0. Thank you.  classes equal to be zero  Okay question.  That's why is that most?  So if there's no path then the shortest path is infinity.  I mean like what would you be able to put a budget? That's too low because there is all the Popeye's on putting.  You mean like if there was a path?  would like  there exists a path with more than T edges.  Okay, what are base cases?  Okay, if there's zero edges.  Well be of i 0 is going to be 0.  For all I not equal to 0, right?  Oh, sorry.  Infinity  Bank  Because there is no path from v02 VI that uses zero edges.  Be of 00 is going to be what?  Like the trivial path from v02 itself is a length of 0.  No, because we're starting we're starting at V 0.  Be there is always the starting point.  Okay good.  Next step is what we had. Okay good.  I guess this is  0  I actually let's just keep let's keep this as your 00, I like that better because I guess if there wasn't a negative cycle, then you could start getting a better path to the that vertex p02 itself.  Okay, so we're okay. We're actually okay with a graph this this process is going to work with a graph with negative Cycles right because  We're not letting it run free until it finds the best thing or just only letting it run with this budget.  Okay. So what simple question can we ask to split up the possible paths from v02 VI right? We're trying to figure out what this recursion is going to be be of it a few minutes talk about it in a group see if you could come up with a recursion for this ready go.  Yes.  They're they're not there can bacon be any arbitrary order.  The only thing that matters is the v-0.  Hey, is anybody have like a way to kind of split this up in two cases so that we can take the minimum of all the cases or?  Or just like the idea.  No, because I could have negative edges.  Right. So adding another Edge might decrease it.  Well just means they have to consider it.  So let's think about it like this there there is a there is an answer to the shortest path from v02 VI using at most two edges right? There is a pain that means that they're there does exist a task.  So what is this path look like you have v0?  And VI.  What's this vertex here?  What could it be?  Any of its neighbors write any of its incoming Neighbors?  So let's just take the minimum out of all those incoming neighbors. How do you get to all the incoming neighbors with T minus one edges and then add that other Edge?  okay, so basically  I already know how to get to all of the neighbors of the incoming neighbors of the eye with T minus one edges if if I'm ordering the subproblems correctly, right? So I pretty much figure out what's the minimum of all those things plus those add weights.  You can kind of think I think of it as cases right que sera would be that v-0 as the second-to-last vertex in the path from v02 VI using at most two edges be one is the second to last for a tax fee to is a second and last for a text to Pete all the way to VN. I mean, this is kind of maybe going a little overboard because we don't need to consider all possible vertices. We just need to consider the actual neighbors incoming Neighbors.  But let's just assume that maybe it's a complete graph and then we have to consider them all.  Okay, so basically  This is going to be our recursion be of it.  Is going to be well.  Look at all the possible incoming neighbors of VI.  djvi  Figure out what is be of JT -1, right? That's the shortest path to get to that vertex with T minus one or fewer edges and then plus the weight of Vijay te vi.  Text me questions about that.  Okay, that's it.  That will always be will if we will always be able to kind of reach that budget if we do it that way.  Now, let's start thinking about what are the consequences of having negative Cycles or not negative Cycles?  Okay, what should we set our budget to be should we set it to be a certain value? Right? Because we don't want it to go on for Infinity. That's kind of the worried.  So let's the first assume that there are no negative cycles. That means that all the shortest pads are going to be simple paths, right because it's no it's not any use to go through a cycle a bunch of times if you're not gaining anything from it. So what's an upper bound on the number of edges of a simple path in a graph with n vertices?  And might as well good.  brighten hamiltonian  happy happy hamiltonian path  Right. So this is the this is the upper bound. So the idea here is we're going to set our our budget to be and -1 right and that will give us all the shortest simple pads if there are no Negative Edge has no negative Cycles.  Okay, that's good. So if we know beforehand that it does it doesn't have any negative cycles and this will work great and we're done and we don't have to do any more iteration. If we don't know if there are negative Cycles or not. Is there a way to detect this?  Can we use this kind of idea of simple pads in order to detect if there's negative Cycles?  Okay good.  If there's no negative Cycles, then then after + -1, you can't get any better write all those shortest pads are set you can keep on running over and over again and I'll always just be the same. So if there were a negative cycle then some of those pads will start to improve after and -1 so the idea.  is 2  okay, that's this is what I was saying before if there's no negative Cycles. So the idea is to check to see if after one more iteration does anything improve if it does and you found a negative cycle and that's bad, right?  Well, it kind of depends on your problem. It could be good if you found a negative cycle.  What's that?  free airline tickets  Yeah.  Okay, so this is called the Bellman Ford algorithm.  and basically what it does is it returns negative cycle if it finds one and or else it turned returns all the shortest paths that in here, here's the pseudocode when you can go over it later if you like, but you basically  Runty from one up to end and do the the recursion.  And then after that you basically just check to see if any of the is it has improved in that and it'll rayshun and otherwise you just return it.  Okay, why is this algorithm important?  flight tickets  or  has anybody heard of currency Arbitrage?  Okay, so  We usually deal with exchange rates right as being determined. So you always lose a bit when you buy right when you go to The Exchange house they give you kind of  They put a little bit more of a tax or whatever on it just to just know that they're making money right? For example, if I change $200 into Euros at an exchange house got whatever that was and then tried to change that same amount of Euros back into Dollars. I'll probably lose a little bit right because they have like this fee.  okay, but  there's actually no Central currency exchange system. And so what that means is that as markets change some exchange houses update faster than others and also depends on what time zone you're in and so one currency could plummet and another one could Skyrocket and one exchange house could could do one of the changes the other one could do the other one and you might be able to find a way to make money by doing a sequence of exchanges.  so  this is called the Arbitrage and its people do it. They they find them they don't last for very long. But once they find them they they go around that that sequence.  Okay, so how how could we use Bellman Ford to find a currency Arbitrage?  You basically make a graph where each vertex is a currency and the edges are going to be the exchange rate, right?  There's kind of one weird problem is that bellman-ford works? Well with sums where this is going to be products, right if I exchange one and exchange another you're going to multiply those exchange rates.  Let's just go to the next thing you're trying to find a path that maximizes the product.  right  We want to minimize this some okay, how come we met products into sums?  Take the log log is a nice function that changes products into sums.  Basically take the negative log because we still are trying to find shortest paths.  Okay, so what would be really good as if they were a cycle whose product was bigger than one right? This is the Arbitrage change here here here here here once you get back you get more than what you paid for.  I'm in the first place.  Okay, so you basically set you basically change all the weights to these W primes, which is the negative log. That means the smallest sum of w Prime's is the largest product of the W's  and then we can just run Bellman Ford directly on this information.  Okay, so  I found I found a currency Arbitrage one time.  But by the time I realized what it was it was already like changed.  but  yeah.  I didn't use Bellman Ford to find it though. It was just  I just saw that these two exchange houses kind of exchange that these different rates. I should have done something about it.  I couldn't believe it in in the first place, but it turned out that I was going to Brazil at the time and I was living in Chile and it turned out that like that week the Chilean Peso Spike Rose a lot and the Brazilian.  how  plummeted a little bit and so there was like this kind of miscommunication between the the houses there were like two blocks away the two houses so I could have just got like ran back and forth as much as I wanted to.  Okay, so  This is basically the idea right if there's a negative cycle and W Prime, then you found an Arbitrage and if there's no negative cycle, then you can find the best exchange rate, which means basically maybe instead maybe I'm getting the best exchange rate from dollars to Euros. It's better if you exchange it into pounds and then Yen and then pesos and then into Euros, maybe there's like some sort of thing. So that's also what does algorithm can do for you.  Okay, so  maybe let's  I do want to look at this one more algorithm, but we might have to save it until Friday, but maybe you guys can look at it in the book is called the Floyd warshall algorithm and it's basically it's very useful for this Arbitrage also, because it finds the best of the shortest path between every pair of nodes instead of just from a single Source node pain, so we'll talk about this and it'll kind of a nice ending to a dynamic programming.  Okay. Well, let me know if you guys find any arbitrages. "
+}

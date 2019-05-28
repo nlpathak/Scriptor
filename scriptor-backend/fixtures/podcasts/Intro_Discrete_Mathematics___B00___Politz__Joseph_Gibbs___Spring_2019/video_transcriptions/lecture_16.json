@@ -1,0 +1,386 @@
+{
+    "Blurbs": {
+        "9 that we wanted to add to the list and pushed it through all of the nest until we made this and we left all of the other numbers are dove in the same place in the same order. That's what this little peace here is doing is saying this corresponds to the cases where? We like left the element 3 which was the first element at the beginning. We ": [
+            2050.0,
+            2082.3,
+            51
+        ],
+        "Alright, let's get started. So happy Monday everybody. I hope you had a good weekend deadline reminders warm up and homework number for both evening together. We did that just so you can talk about for warm up with a bunch of definition for homework more broadly Partners part of the assignment to do just in the apartment groups feedback by tonight on that mid-quarter feedback form. And thanks, for ": [
+            17.7,
+            60.3,
+            0
+        ],
+        "And the stuff we end up in is the recursive case of a pen over a little bit so I can put some justifications on the right. So I've stopped where I L is equal to this 7 empty list Tuple. And is equal to 3 and M is equal to 9 breaks down if we match the arguments there with what the recursive steps to do to break things ": [
+            1922.7,
+            1952.7,
+            47
+        ],
+        "For the first round 5 4 3 2 1 and I've got this one. Anti tracing it if you're confused about what order things will come out and try tracing it up. Okay cooking again 4 3 2 1 Append and then we have this list. It is. 3 is Tupelo, Ms. To Tupelo or this ordered pair that has three of the first element and its other people as ": [
+            1788.9,
+            1893.1,
+            45
+        ],
+        "I just think about this problem. When I look at the original statement is that the length of the Strand has to be greater than or equal to the number of A's and needs two cases Matt where the end of the Strand is either a or not a bigger than the number of ants in the case for the end is in a turbo that won the length and ": [
+            1176.7,
+            1199.8,
+            28
+        ],
+        "I mean in in the first case the case where we have all the elements in the base from the basis step. It's pretty easy to finish this proof that is equal to a the DNA land Avast is equal to 1 1/8 count of essay is equal to one is definitely True Value equals of greater than equal to satisfied. So that's true in here if that's is not ": [
+            378.8,
+            415.2,
+            9
+        ],
+        "It's called proof by induction. And this style in particular is called structural induction speech ideas, and we're breaking that structure down at every step by splitting it into these pieces in this case a strand of the base is the Deep structure and we do and then we we break it down and eventually get down to our base to step and then we can talk about the implication ": [
+            1668.9,
+            1698.9,
+            42
+        ],
+        "Logical statement and you get this giant chain of implications where there's a bunch of 3rd and logical structure is in each step. It all ends up evaluating to at the end and has given us a way to construct that chain of implications and for this ends up working out as a proof technique also has an argument for why software Works anything that ends up with this kind ": [
+            1613.9,
+            1640.3,
+            40
+        ],
+        "To the left hand side and adding one to something that's greater than something else doesn't change that greater than relationship. So we could add one to the left hand side here and get something that's exactly our goal. It would be no way to finish this proof. If we didn't allow ourselves this extra assumption. We need this extra assumption in order to tie off the end of this ": [
+            1381.1,
+            1406.8,
+            33
+        ],
+        "a little more straightforward to rule out. He has this problem that I am is supposed to be the number we're looking for him and we're going to keep looking for a different element every time so it doesn't really capture the idea here. She has the same problem that it uses end of the argument that it passes on. And also there's an and they're so even if this ": [
+            2412.6,
+            2448.7,
+            59
+        ],
+        "about. and another case Is that it's interesting? How do we express this other case? There must be some other strand and some bass that put together make up the S. We're looking at we were any other case there must be some other strand some shorter strand that shorter by one base but has all the same bases in it. And then another base that we can stick together ": [
+            281.7,
+            313.4,
+            6
+        ],
+        "and base count and see what it would mean to use those definitions to expand rewrite substitute different parts of the to show and our assumptions. So what are the definitions help us do Okay, so let's talk about this a bit. Is there a definition for there's DNA land in Baytown or two definitions that they're one of those definitions that seems useful to maybe expand or apply or ": [
+            810.2,
+            884.8,
+            20
+        ],
+        "and it started the innermost missed it too. We have So the next thing I want to talk about is another function not a pain, but another function called contains over these linked list. And the first thing I want to do is just talk about based on the definition of an English of contains. I've left part of it blank here definition in English of contain. What are some ": [
+            2106.3,
+            2134.3,
+            53
+        ],
+        "append here. and we know we're in the recursive case and the definition of append in the recursive case tells us they were going to take that take the existing elements in El which is and then we will append to AL Prime 100. And we're taking it 100 is contained there. And I was just using the way we broke down L into these two pieces in the definition ": [
+            2928.4,
+            2962.1,
+            74
+        ],
+        "are giving some strand of an argument in the Strand can be broken up into some prefix followed by a base. So we know that we could rewrite our to show just by substituting in what it says in the definition in the recursive case hear the this is going to be 1 + DNA line of S Prime we know that because of how s is built up we ": [
+            968.6,
+            999.0,
+            23
+        ],
+        "assume that the property was true. For the Strand that was one shorter. That was an assumption. We allowed ourselves to make we made the Strand one shorter. And then we use that information to prove this final statement that information along with the definitions and some of the structure of arithmetic right with the definitions in that got us to that that final statement. The thing that's interesting about ": [
+            1486.3,
+            1531.2,
+            36
+        ],
+        "case of the base count definition for or it's not so either we want to show that there's two possible things that could happen here one is the base for looking at is equal to a and I might even just name the case that way so the case one where B is not equal to a we would need to show we could rewrite our to show as one ": [
+            1080.3,
+            1129.9,
+            26
+        ],
+        "clear. Is that if we look for a number that's not the first element to the list like if we looked for 9 time we would also expect that to produce true. So it's important that we don't just look at the first element. We were all the elements in the list. So there's some interesting cases we can think about and I'm going to copy these down cuz I ": [
+            2259.8,
+            2277.9,
+            57
+        ],
+        "contains. upend L100 100 is true. That's the goal here. One of the nice things here is in this case this proof definitions of append and contains. There's no I'd like conditional case like there wasn't bass count. So it's a little more direct. We don't have to split into those two different cases for the end. We know that of nll prime so we can expand the definition of ": [
+            2876.3,
+            2928.4,
+            73
+        ],
+        "definition of base count hear what that look like that look real. All right interesting. So maybe we could use the same idea and try and substitute in the recursive step for the definition of base count. The definition of base count has these two different things that could happen. prank either base that we're looking at in base count that bass that we called be one in the recursive ": [
+            1033.8,
+            1080.3,
+            25
+        ],
+        "down. And so the result this part tells us that we're going to have a tooth pulled that has an which is 3 and then whatever the results of append. on 7 empty list and 9 produces resolved until we get down to concrete values or values that are in defined and say the basis step here and so will next have that L is equal to add empty less ": [
+            1952.7,
+            1990.4,
+            48
+        ],
+        "equal to 2 some Tuple that is in and I usually use a prime for these so I'm going to call it in and L Prime and we know that El Prime is a list. nn in some number and we get this one more assumption that the property were trying to prove is true for this smaller element that we use to build this up. So the property that ": [
+            2805.1,
+            2834.3,
+            71
+        ],
+        "equal to a then CNA line of us equals 1 and base count. Of a say equal 0 and so that's good that that satisfies the property to so this basis case. It was actually pretty straightforward to show it if we went on to this recursive and try to show it with just the information we have here. I need a little bit more information here. I'm going to ": [
+            415.2,
+            453.1,
+            10
+        ],
+        "even the basis step when we Weather is some other strand that's like the prefix of the Strand and some basic can break it down Lydia breaking down elements like this into two pieces when we wrote the recursive definitions of these functions. If we just knew this if this was all the information we had to go on. We actually wouldn't have quite enough information to finish this proof. ": [
+            343.4,
+            377.9,
+            8
+        ],
+        "examples of what we expect to happen when we use contain what are some examples of the definition examples for contains argument that contains and what you expect? samples examples examples what things? where You tell me. Arguments no me talk about the result example example in books. Less than a number in the result will be true or false. What's a specific linkless? We could and number we can ": [
+            2134.3,
+            2191.8,
+            54
+        ],
+        "fall switch all evaluates to true. So the basis step and we just push that single value. There's only one value in the basest up here with his damn playlist We just push that all the way through and can see that it works. Let me have this recursive step. And the most important part of the recursive step in these induction proof is to make sure that we get ": [
+            2755.6,
+            2783.1,
+            69
+        ],
+        "give the strategy first without motivating it or saying much about it. Other than that it works and then afterwards I'm going to I want to draw a little bit about why this is actually an okay thing to do and why it works out pretty well. So I'm going to leave the basis cases done and just take this and say this recursive case as I've written. It isn't ": [
+            453.1,
+            477.4,
+            11
+        ],
+        "going all the way back up. Another couple of properties about this pretty cool case of this that really comes up in in real software all the time and he's pretty things about these properties into being important. So first question I want to ask about linked list is just using a definition and making sure we remember what our definition of definition of a recursively defined function called a ": [
+            1698.9,
+            1732.4,
+            43
+        ],
+        "have a question on the next on the next slide that I want to ask. so the question is based on this description and now we have some nice examples which of these filled in the definition of contains which of these Hills in the definition for 5 4 3 2 1 discuss briefly Okay Quicken again. 5 4 3 2 1 so is a couple interesting ones here maybe ": [
+            2277.9,
+            2412.6,
+            58
+        ],
+        "have in our assumptions and because the definition says if the argument looks like that then we're going to add one to the to the recursive use of DNA when on a prefix. What would be a similar thing? We'd say if we were using the definition of base count. We're going to take another step here trying to get towards our goal and we were going to use the ": [
+            999.0,
+            1033.8,
+            24
+        ],
+        "in some next next line in this proof and my justification for it is going to be that its definition of DNA one. What it look like? Yeah. So we have a definition for DNA Len. It says if the argument s looks like a strand with a base added on at the end then that's the recursive case of DNA when definition definition for exactly the case where we ": [
+            918.5,
+            968.6,
+            22
+        ],
+        "information to demonstrate that this is true about what we just did in terms for some arbitrary strands and maybe has a really long length and what The Logical structure looks like of what we did. So make sure you use in space that I left on the previous slide for this. Let's imagine instantiating is proof for a really specific value like 80 strand ATA and our goal was ": [
+            1406.8,
+            1449.2,
+            34
+        ],
+        "its second element in that other two pole has seven and ends in the empty list list are always going to be nested to Apples. And finally the innermost best in Tuple has an empty list as the second the second part in that sort of ends the list. So this first call to upend is happening not just on this with the argument 9 as the elements being added. ": [
+            1893.1,
+            1919.3,
+            46
+        ],
+        "made this new to boil that kept that element at the beginning and then we process the next you sit up and that's what's happening. So the answer here is d and this gives us a little bit of matching between some of the English in the description. It says at the end. So the end means it's going to appear that the rightmost when we write these things out ": [
+            2082.3,
+            2106.3,
+            52
+        ],
+        "make a make a English match a little more 100 is in a list that we have 102 then we expect that to be true. So there's two steps happening in the body here one one. Is that where first a pending 102 a list and then using the results of that in the argument that contains and so the idea here is we're going to use this new idea ": [
+            2636.9,
+            2667.2,
+            66
+        ],
+        "make the argument that we can get from there to here. And we can say something like so let me just say let's take the second case first since I was a suggestion. since we know this statement Oh cool lines. since we know this Can add one to both? sides and get exactly our goal we can definitely odd ones both sides of an inequality not change the meaning ": [
+            1290.3,
+            1341.8,
+            31
+        ],
+        "might want to prove to the property says the length is at least as long as the number of A's in the Strand days in the Strand. It's interesting to think about what it would take to prove this property might make an argument that no matter what no matter what that looks like. I think about based on what we've seen so far to approve this property and maybe ": [
+            122.8,
+            162.1,
+            3
+        ],
+        "of L and the value of n now we have a use of append where the first argument is empty list and definition of repent. So we just have that m equals 9, there's no other variables that we talked about in this stuff, but that use the pens turns into this stupid that has nine and then ends in the empty list. Show me sort of took this element ": [
+            2015.8,
+            2050.0,
+            50
+        ],
+        "of attempt to get there. Then we can use the definition of contains. And contain says that either and is equal to 100. or Contains on the list that we had here and that list that we gave the rest of the list. Is this append L Prime 100. I was just applying a pain and applying contain being really careful. ": [
+            2962.1,
+            2999.5,
+            75
+        ],
+        "of proof by structural induction and so will end up with these two cases to talk about and we have a basis step. Where L is the empty list? And in that case what we're trying to show is that contains. Append and we can substitute in empty list for L 100 100 to show in this case. And here we can just use the definitions and push this through ": [
+            2667.2,
+            2718.1,
+            67
+        ],
+        "of recursive definition. It's a nice strategy that gives good Arguments for things that are defined recursively and tons of things end up being defined recursively. There's ways to Define things like my friends of friends of friends of friends of friends on different social media sites. So different properties of being able to express in this recursive way and you can make good arguments about them. So this idea? ": [
+            1640.3,
+            1667.1,
+            41
+        ],
+        "of the inequality and then we've gone from our assumption exactly to our goal and you can phrase that also is rewriting by subtracting from both sides. It looks exactly like the Google I'll be one way to get there and the other cases similar if we know Did this is true? I mean this use a sort of one more property about numbers. Which is we can add one? ": [
+            1341.8,
+            1377.7,
+            32
+        ],
+        "of them next to each other or equal to Amber. Something with duplicates can make that go because this one of the simple cases to show that it doesn't work very well is if you dry to do contains. On just a single element. Sorry, sorry the same element just repeated ones. Somewhere in here will end up getting a Truex or true because we found the element twice and ": [
+            2540.5,
+            2575.7,
+            63
+        ],
+        "on it. And there is also the two functions that we wrote partially together and partially provided on Friday at 1 that counts the length of DNA and one that counts up how many times a particular base appears within a DNA strand and now I'm was called base count. So those definition definition of a DNA strand are the set of all DNA strands written recursively property that we ": [
+            88.9,
+            122.8,
+            2
+        ],
+        "or we can find the element somewhere else in the list. But even if we don't find it now as long as there's more elements to look at we could find it somewhere in the rest of the list as well. So see we're not work. Yeah, so where all the list is a more even than 30 depending on how what the order exactly there in maybe were two ": [
+            2505.4,
+            2540.5,
+            62
+        ],
+        "pen that takes a linked list and a number as arguments and produces a new linked list any idea is that end of the list? So the list is this ordered ordered collection represented by all of these nested tuples in the ideas of the end of the list. So first question is the definition of repent and what are should come out based on this definition of the result. ": [
+            1732.4,
+            1759.2,
+            44
+        ],
+        "places. And this is the rule for prove it. Just like direct proof is a rule for proving a conditional statement proof by contraposition all had scenarios where they sort of match our goal for what we're trying to prove. So we use them. This is a strategy we use when our goal is to prove a universal vacation. One of these refers call says, we Define all the variables ": [
+            627.1,
+            664.4,
+            16
+        ],
+        "plus the DNA land of S Prime is greater than or equal to the base town of S Prime and there's another case which is where the base at the end of the current be in this case is equal to And this case is going to say 1 +. Pace count S Prime And it's actually really starts to at this moment to me match some of the way ": [
+            1129.9,
+            1176.7,
+            27
+        ],
+        "properties on your sheets. The other one today the one with her move at the bottom of the way I encourage you to think about if you can prove or disprove the one at the bottom. Here's the statement the statement is that for all list, if we add 100 to the list, then it contains 100. I know I said and then what we can do is say to ": [
+            2607.6,
+            2636.9,
+            65
+        ],
+        "said m in be even if this one said him and if we imagined that instead this would be saying the first element of the list has to be equal to this number and all the rest of the elements in the list have to be equal to this number the first the first element of the big and of n equals m for every single and in the list ": [
+            2448.7,
+            2474.0,
+            60
+        ],
+        "saying why is assuming that there were there that we can put together to make this rain we're looking at we need that information is true. For the pieces we use to build that up. We're going to assume that the property were trying to prove is true for that smaller strength. We're going to say ass equals this other strand and intubate. where the base is a base in ": [
+            530.7,
+            581.6,
+            14
+        ],
+        "so a has trouble with duplicates because if we have these multiple truths appearing will end up with enough with this problem. We could also end up with duplicates don't work so well with a so she's the only one that I really works in all cases. So that contains an append and here's an interesting an interesting property that we might want to talk about for listen to interesting ": [
+            2575.7,
+            2607.6,
+            64
+        ],
+        "so just making sure that we're careful to use the definition of append correctly and we get 100 empty list here. and then we're checking for 100 here and this is by the definition of pain and this is the recursive case just to be really explicit about the definition. We get 100 equals 100 or contains on empty list 100. I contain this evaluates to true this evaluates the ": [
+            2718.1,
+            2755.6,
+            68
+        ],
+        "some logical structure. Take them up with the implication that this next step must be true. And this is really no extra assumptions aside from what we get from the bay system. Because in that case we will be using a very first one base long the bases and that's that we can just look at all the cases and see that it's true. And so no matter how long ": [
+            1560.0,
+            1591.8,
+            38
+        ],
+        "than or equal to. bass count of ass that's what we're trying to show. We still are assuming that is one of these arbitrary elements of domain except play some we get this extra something that's a new information. We get that we're trying to show what are some of the rest of the steps of the proof going to look like and I'll say now that we have all ": [
+            699.3,
+            738.6,
+            18
+        ],
+        "that ass is the DNA strand and go back and look at the definition. The definition of these two cases. The definition has this case That's the basis step that says, well, we know that if a strand because of the basis step one case we can talk about where is an element of the set a u t e g c. And that's at 1 case we can think ": [
+            248.7,
+            281.7,
+            5
+        ],
+        "that came from that recursive case and then make this extra assumption that the property is true for those smaller pieces were used to build it out and then we'll see where we can get given this information. This is all things that we get to assume. This box is assumptions. And our to show has not changed the to show is still that. DNA land of f is greater ": [
+            664.4,
+            699.3,
+            17
+        ],
+        "the account of Azad won the matches these two cases that I see when I just think about why it is probably true. These are the two cases to show Give me different West how would I get from our assumptions to demonstrate any of these things are true now to demonstrate into these these two statements are true now. Like it there. Sear pointing out that there is nothing ": [
+            1199.8,
+            1253.8,
+            29
+        ],
+        "the assumptions all laid out carefully. Usually once we get the assumptions laid out carefully, then we can start to see the structure. We need to finish things off blue really need to lay out the structure carefully. So I'm in or just refer to the definition of linked lists here and make sure that I talked about each of these variables. Now I'm going to say that L is ": [
+            2783.1,
+            2805.1,
+            70
+        ],
+        "the first slide and the first case will be to prove a property for all of the elements in the base of steps is one of the ones that's provided in the NFL beat it up there just by calculating this out for the four-one-one elements trans a t g and C. But is this extra piece that we need in the recursive case? I'm going to use it without ": [
+            505.6,
+            530.7,
+            13
+        ],
+        "the real way. We're going to handle these recursive cases and scroll down to where I have this definition right now. I'm a slide which is the same definition. You have at the bottom of the front page of the hand up this idea of doing a proof of an element that came from one of these recursively defined set show me of the universe just like we did on ": [
+            477.4,
+            505.6,
+            12
+        ],
+        "the results to be false. And one of the things that helped us get to this point is that if we look for an element on an empty list, we always expect to get false. So the number 11 is definitely not in the empty, Westwego Fallsburg. What are some examples we could also just to give one more example to make something one case that will come up pretty ": [
+            2233.8,
+            2259.8,
+            56
+        ],
+        "the smaller stranded and assume that it's true for S Prime. So that property were talking about is that the DNA land of the Strand? Is greater than or equal to the base count of the Strand? on a raisin the Strand and just to make it really clear. What changed. This has Prime. Is this smaller strand that the prefix of the Strand? They were using in all these ": [
+            581.6,
+            627.1,
+            15
+        ],
+        "this information the rest of the steps of this proof start to look like Christmas Dean before so there's not a brand new technique that's going to be needs that we're going to need to introduce to finish. This is going to use techniques like we've seen before this proof and give this demonstrate this to show And a big hint as to look at the definitions of DNA land ": [
+            738.6,
+            810.2,
+            19
+        ],
+        "this is we could run this process again. If I said well how would we proved that DNA land a p is greater than or equal to Bass count of ATA. We were based on what the proof told us to do assume that DNA Len of a is greater than or equal to base count. Of AA and we would use that plus the definitions and some structure of ": [
+            1531.2,
+            1560.0,
+            37
+        ],
+        "those of you who have already given some really great feedback on the course today to find sets and recursively defined functions that we started on Friday. So, I'm Friday. We talked a bit about defining DNA and linked list with this new strategy. Redefining sets and talk about some functions with them. So your hand out the front page of your handout is the page with the DNA definitions ": [
+            60.3,
+            88.9,
+            1
+        ],
+        "to make up this the Strand that we're looking at. So in this case is kind of like there must be some other strand. And there must be a base. Where where the Strand were looking at this arbitrary element s is this other shorter strand with his face tatted on at the end. And those are really Aces. We have to think about maybe s is just an element ": [
+            313.4,
+            343.4,
+            7
+        ],
+        "to show that DNA Len ATA. greater than or equal to bass count ATA evaluate the function 3 is greater than or equal to 2 we can do that ended up telling us what was the structure that the proof gave us because the proof should be this thing that gives us the argument that works for every single value. So when we prove this what if we assume we ": [
+            1449.2,
+            1486.3,
+            35
+        ],
+        "try. We can try the 3791. So we can try this one that we just talked about where we used. 3 seven 9 and what's what number what do you want to look for? 3 And we expect the results of this to be. If we look for some number that was not there. Like if we took this same list and we look for 11, we would then expect ": [
+            2191.8,
+            2233.8,
+            55
+        ],
+        "used first in one of these places a definition you'd looked at you went to first to try and understand what's going on. definition what would it mean to use one of the definitions? Like I said in the next step is proof use the definition of DNA land in The Next Step look like what I write if I were trying to use that like I'm going to fill ": [
+            884.8,
+            918.5,
+            21
+        ],
+        "we can talk about getting there from here. Looks an awful lot like these goals. Prince is the extra assumption. We made looks a lot like he's not exactly the same exactly the same. It's not exactly the same but it's closed. Our assumption says is a inequality between DNA land as Prime and base town as Prime. He's a really close. And so there's a couple ways we can ": [
+            1253.8,
+            1290.3,
+            30
+        ],
+        "we make the Strand we could come up with that are millions of bases long and we would always be able to use the proof to run this process backwards. Keep breaking down the Strand one base at a time and you actually you literally could talk about this giant chain of implications in the arrow that I really mean implication like the implication. We've been talking about The if-then ": [
+            1591.8,
+            1613.9,
+            39
+        ],
+        "were trying to prove is contains upend AL Prime 100 100 and that is everything we get to it soon. So we broke down the value by using the recursive part of the set definition and then we use that smaller piece in this case L Prime in the same properties. We substituted that the property and used it as an option. And our goal here is to show that ": [
+            2834.3,
+            2876.3,
+            72
+        ],
+        "where do you find a challenger? Where do you get stuck? Alright. Alright any ideas about what the first step would be done so far. We have Quantified Universal Universal quantification. We use generalization and we'd say something like let's assume. s is an arbitrary elements of capital s or open Interesting in this case that if we wanted to talk about what what new evidence we get from knowing ": [
+            162.1,
+            248.7,
+            4
+        ],
+        "which definitely can't be true. We would end up like with an and that would say 3 is equal to 3 + 7 is equal to 3 + 9 is equal to 3 now definitely evaluate to fall so he doesn't work and if we switched Cworks works really well here there's a good question and a work either. The first element is equal to the element were looking for ": [
+            2474.0,
+            2505.4,
+            61
+        ],
+        "will still be in recursive step that L is equal to the empty lettuce and is equal to 7 + m is equal to 9 again in recursive stat broke things down by how the variables are listed and we solve this 3 in the front, but the append has to turn into putting the value of n first and then whatever we get from doing append on the value ": [
+            1990.4,
+            2015.8,
+            49
+        ]
+    },
+    "File Name": "Intro_Discrete_Mathematics___B00___Politz__Joseph_Gibbs___Spring_2019-lecture_16.flac",
+    "Full Transcript": "Alright, let's get started.  So happy Monday everybody. I hope you had a good weekend deadline reminders warm up and homework number for both evening together. We did that just so you can talk about for warm up with a bunch of definition for homework more broadly Partners part of the assignment to do just in the apartment groups feedback by tonight on that mid-quarter feedback form. And thanks, for those of you who have already given some really great feedback on the course today to find sets and recursively defined functions that we started on Friday. So, I'm Friday. We talked a bit about defining DNA and linked list with this new strategy.  Redefining sets and talk about some functions with them. So your hand out the front page of your handout is the page with the DNA definitions on it.  And there is also the two functions that we wrote partially together and partially provided on Friday at 1 that counts the length of DNA and one that counts up how many times a particular base appears within a DNA strand and now I'm was called base count. So those definition definition of a DNA strand are the set of all DNA strands written recursively property that we might want to prove to the property says the length is at least as long as the number of A's in the Strand days in the Strand. It's interesting to think about what it would take to prove this property might make an argument that no matter what no matter what that looks like.  I think about based on what we've seen so far to approve this property and maybe where do you find a challenger? Where do you get stuck?  Alright. Alright any ideas about what the first step would be done so far. We have Quantified Universal Universal quantification.  We use generalization and we'd say something like let's assume.  s is an  arbitrary elements of capital s or open  Interesting in this case that if we wanted to talk about what what new evidence we get from knowing that ass is the DNA strand and go back and look at the definition. The definition of these two cases. The definition has this case That's the basis step that says, well, we know that if a strand because of the basis step one case we can talk about where is an element of the set a u t e g c.  And that's at 1 case we can think about.  and another case  Is that it's interesting? How do we express this other case?  There must be some other strand and some bass that put together make up the S. We're looking at we were any other case there must be some other strand some shorter strand that shorter by one base but has all the same bases in it. And then another base that we can stick together to make up this the Strand that we're looking at. So in this case is kind of like there must be some other strand.  And there must be a base.  Where where the Strand were looking at this arbitrary element s is this other shorter strand with his face tatted on at the end. And those are really Aces. We have to think about maybe s is just an element even the basis step when we  Weather is some other strand that's like the prefix of the Strand and some basic can break it down Lydia breaking down elements like this into two pieces when we wrote the recursive definitions of these functions.  If we just knew this if this was all the information we had to go on.  We actually wouldn't have quite enough information to finish this proof.  I mean in in the first case the case where we have all the elements in the base from the basis step. It's pretty easy to finish this proof that is equal to a  the DNA land  Avast is equal to 1 1/8 count of essay is equal to one is definitely True Value equals of greater than equal to satisfied. So that's true in here if that's is not equal to a then CNA line of us equals 1 and base count.  Of a say equal 0 and so that's good that that satisfies the property to so this basis case. It was actually pretty straightforward to show it if we went on to this recursive and try to show it with just the information we have here.  I need a little bit more information here.  I'm going to give the strategy first without motivating it or saying much about it. Other than that it works and then afterwards I'm going to I want to draw a little bit about why this is actually an okay thing to do and why it works out pretty well.  So I'm going to leave the basis cases done and just take this and say this recursive case as I've written. It isn't the real way. We're going to handle these recursive cases and scroll down to where I have this definition right now. I'm a slide which is the same definition. You have at the bottom of the front page of the hand up this idea of doing a proof of an element that came from one of these recursively defined set show me of the universe just like we did on the first slide and the first case will be to prove a property for all of the elements in the base of steps is one of the ones that's provided in the NFL beat it up there just by calculating this out for the four-one-one elements trans a t g and C.  But is this extra piece that we need in the recursive case? I'm going to use it without saying why is assuming that there were there that we can put together to make this rain we're looking at we need that information is true.  For the pieces we use to build that up. We're going to assume that the property were trying to prove is true for that smaller strength.  We're going to say ass equals this other strand and intubate.  where  the base is a base in the smaller stranded and assume that it's true for S Prime.  So that property were talking about is that the DNA land of the Strand?  Is greater than or equal to the base count of the Strand?  on a raisin the Strand  and just to make it really clear. What changed.  This has Prime.  Is this smaller strand that the prefix of the Strand?  They were using in all these places.  And this is the rule for prove it. Just like direct proof is a rule for proving a conditional statement proof by contraposition all had scenarios where they sort of match our goal for what we're trying to prove. So we use them. This is a strategy we use when our goal is to prove a universal vacation. One of these refers call says, we Define all the variables that came from that recursive case and then make this extra assumption that the property is true for those smaller pieces were used to build it out and then we'll see where we can get given this information.  This is all things that we get to assume.  This box is assumptions.  And our to show has not changed the to show is still that.  DNA land of f is greater than or equal to.  bass count of ass  that's what we're trying to show.  We still are assuming that is one of these arbitrary elements of domain except play some we get this extra something that's a new information. We get that we're trying to show what are some of the rest of the steps of the proof going to look like and I'll say now that we have all this information the rest of the steps of this proof start to look like Christmas Dean before so there's not a brand new technique that's going to be needs that we're going to need to introduce to finish. This is going to use techniques like we've seen before this proof and give this demonstrate this to show  And a big hint as to look at the definitions of DNA land and base count and see what it would mean to use those definitions to expand rewrite substitute different parts of the to show and our assumptions. So what are the definitions help us do  Okay, so let's talk about this a bit.  Is there a definition for there's DNA land in Baytown or two definitions that they're one of those definitions that seems useful to maybe expand or apply or used first in one of these places a definition you'd looked at you went to first to try and understand what's going on.  definition  what would it mean to use one of the definitions? Like I said in the next step is proof use the definition of DNA land in The Next Step look like what I write if I were trying to use that like I'm going to fill in some next next line in this proof and my justification for it is going to be that its definition of DNA one.  What it look like? Yeah.  So we have a definition for DNA Len. It says if the argument s looks like a strand with a base added on at the end then that's the recursive case of DNA when definition definition for exactly the case where we are giving some strand of an argument in the Strand can be broken up into some prefix followed by a base. So we know that we could rewrite our to show just by substituting in what it says in the definition in the recursive case hear the this is going to be  1 + DNA line of S Prime  we know that because of how s is built up we have in our assumptions and because the definition says if the argument looks like that then we're going to add one to the to the recursive use of DNA when on a prefix.  What would be a similar thing? We'd say if we were using the definition of base count.  We're going to take another step here trying to get towards our goal and we were going to use the definition of base count hear what that look like that look real.  All right interesting. So maybe we could use the same idea and try and substitute in the recursive step for the definition of base count. The definition of base count has these two different things that could happen.  prank  either base that we're looking at in base count that bass that we called be one in the recursive case of the base count definition for or it's not  so either we want to show that there's two possible things that could happen here one is  the base for looking at is equal to a and I might even just name the case that way so the case one where B is not equal to a we would need to show we could rewrite our to show as one plus the DNA land of S Prime is greater than or equal to the base town of S Prime and there's another case which is where the base at the end of the current be in this case is equal to  And this case is going to say 1 +.  Pace count  S Prime  And it's actually really starts to at this moment to me match some of the way I just think about this problem. When I look at the original statement is that the length of the Strand has to be greater than or equal to the number of A's and needs two cases Matt where the end of the Strand is either a or not a bigger than the number of ants in the case for the end is in a turbo that won the length and the account of Azad won the matches these two cases that I see when I just think about why it is probably true. These are the two cases to show  Give me different West how would I get from our assumptions to demonstrate any of these things are true now to demonstrate into these these two statements are true now.  Like it there.  Sear pointing out that there is nothing we can talk about getting there from here.  Looks an awful lot like these goals.  Prince is the extra assumption. We made looks a lot like he's not exactly the same exactly the same. It's not exactly the same but it's closed. Our assumption says is a inequality between DNA land as Prime and base town as Prime. He's a really close.  And so there's a couple ways we can make the argument that we can get from there to here.  And we can say something like so let me just say let's take the second case first since I was a suggestion.  since we know  this statement  Oh cool lines.  since we know this  Can add one to both?  sides  and get exactly  our goal we can definitely odd ones both sides of an inequality not change the meaning of the inequality and then we've gone from our assumption exactly to our goal and you can phrase that also is rewriting by subtracting from both sides. It looks exactly like the Google I'll be one way to get there and the other cases similar if we know  Did this is true? I mean this use a sort of one more property about numbers.  Which is we can add one?  To the left hand side and adding one to something that's greater than something else doesn't change that greater than relationship. So we could add one to the left hand side here and get something that's exactly our goal.  It would be no way to finish this proof. If we didn't allow ourselves this extra assumption. We need this extra assumption in order to tie off the end of this information to demonstrate that this is true about what we just did in terms for some arbitrary strands and maybe has a really long length and what The Logical structure looks like of what we did.  So make sure you use in space that I left on the previous slide for this. Let's imagine instantiating is proof for a really specific value like 80 strand ATA and our goal was to show that DNA Len ATA.  greater than or equal to  bass count  ATA evaluate the function 3 is greater than or equal to 2 we can do that ended up telling us what was the structure that the proof gave us because the proof should be this thing that gives us the argument that works for every single value. So when we prove this what if we assume we assume that the property was true.  For the Strand that was one shorter.  That was an assumption. We allowed ourselves to make we made the Strand one shorter. And then we use that information to prove this final statement that information along with the definitions and some of the structure of arithmetic right with the definitions in that got us to that that final statement.  The thing that's interesting about this is we could run this process again. If I said well how would we proved that DNA land a p is greater than or equal to Bass count of ATA. We were based on what the proof told us to do assume that DNA Len of a is greater than or equal to base count.  Of AA and we would use that plus the definitions and some structure of some logical structure.  Take them up with the implication that this next step must be true. And this is really no extra assumptions aside from what we get from the bay system.  Because in that case we will be using a very first one base long the bases and that's that we can just look at all the cases and see that it's true.  And so no matter how long we make the Strand we could come up with that are millions of bases long and we would always be able to use the proof to run this process backwards. Keep breaking down the Strand one base at a time and you actually you literally could talk about this giant chain of implications in the arrow that I really mean implication like the implication. We've been talking about The if-then Logical statement and you get this giant chain of implications where there's a bunch of 3rd and logical structure is in each step. It all ends up evaluating to at the end and has given us a way to construct that chain of implications and for this ends up working out as a proof technique also has an argument for why software Works anything that ends up with this kind of recursive definition. It's a nice strategy that gives good Arguments for things that are defined recursively and tons of things end up being defined recursively.  There's ways to Define things like my friends of friends of friends of friends of friends on different social media sites. So different properties of being able to express in this recursive way and you can make good arguments about them.  So this idea?  It's called proof by induction.  And this style in particular is called structural induction speech ideas, and we're breaking that structure down at every step by splitting it into these pieces in this case a strand of the base is the Deep structure and we do and then we we break it down and eventually get down to our base to step and then we can talk about the implication going all the way back up.  Another couple of properties about this pretty cool case of this that really comes up in in real software all the time and he's pretty things about these properties into being important.  So first question I want to ask about linked list is just using a definition and making sure we remember what our definition of definition of a recursively defined function called a pen that takes a linked list and a number as arguments and produces a new linked list any idea is that end of the list? So the list is this ordered ordered collection represented by all of these nested tuples in the ideas of the end of the list. So first question is the definition of repent and what are should come out based on this definition of the result.  For the first round 5 4 3 2 1 and I've got this one.  Anti tracing it if you're confused about what order things will come out and try tracing it up.  Okay cooking again  4 3 2 1  Append and then we have this list.  It is.  3 is Tupelo, Ms. To Tupelo or this ordered pair that has three of the first element and its other people as its second element in that other two pole has seven and ends in the empty list list are always going to be nested to Apples. And finally the innermost best in Tuple has an empty list as the second the second part in that sort of ends the list.  So this first call to upend is happening not just on this with the argument 9 as the elements being added.  And the stuff we end up in is the recursive case of a pen over a little bit so I can put some justifications on the right. So I've stopped where I L is equal to this 7 empty list Tuple.  And is equal to 3 and M is equal to 9 breaks down if we match the arguments there with what the recursive steps to do to break things down.  And so the result this part tells us that we're going to have a tooth pulled that has an which is 3 and then whatever the results of append.  on 7 empty list and 9 produces  resolved until we get down to concrete values or values that are in defined and say the basis step here and so will next have that L is equal to  add empty less will still be in recursive step that L is equal to the empty lettuce and is equal to 7 + m is equal to 9 again in recursive stat broke things down by how the variables are listed and we solve this 3 in the front, but the append has to turn into putting the value of n first and then whatever we get from doing append on the value of L and the value of n  now we have a use of append where the first argument is empty list and definition of repent. So we just have that m equals 9, there's no other variables that we talked about in this stuff, but that use the pens turns into this stupid that has nine and then ends in the empty list.  Show me sort of took this element 9 that we wanted to add to the list and pushed it through all of the nest until we made this and we left all of the other numbers are dove in the same place in the same order. That's what this little  peace here is doing is saying this corresponds to the cases where?  We like left the element 3 which was the first element at the beginning. We made this new to boil that kept that element at the beginning and then we process the next you sit up and that's what's happening. So the answer here is d  and this gives us a little bit of matching between some of the English in the description. It says at the end. So the end means it's going to appear that the rightmost when we write these things out and it started the innermost missed it too. We have  So the next thing I want to talk about is another function not a pain, but another function called contains over these linked list. And the first thing I want to do is just talk about based on the definition of an English of contains. I've left part of it blank here definition in English of contain. What are some examples of what we expect to happen when we use contain what are some examples of the definition examples for contains argument that contains and what you expect?  samples  examples  examples  what things?  where  You tell me.  Arguments no me talk about the result example example in books.  Less than a number in the result will be true or false. What's a specific linkless? We could and number we can try.  We can try the 3791.  So we can try this one that we just talked about where we used.  3 seven  9  and what's what number what do you want to look for?  3  And we expect the results of this to be.  If we look for some number that was not there.  Like if we took this same list and we look for 11, we would then expect the results to be false.  And one of the things that helped us get to this point is that if we look for an element on an empty list, we always expect to get false.  So the number 11 is definitely not in the empty, Westwego Fallsburg.  What are some examples we could also just to give one more example to make something one case that will come up pretty clear. Is that if we look for a number that's not the first element to the list like if we looked for 9 time we would also expect that to produce true. So it's important that we don't just look at the first element. We were all the elements in the list.  So there's some interesting cases we can think about and I'm going to copy these down cuz I have a question on the next on the next slide that I want to ask.  so the question is based on this description and now we have some nice examples which of these filled in the definition of contains which of these Hills in the definition for  5 4 3 2 1  discuss briefly  Okay Quicken again.  5 4 3 2 1  so is a couple interesting ones here maybe a little more straightforward to rule out. He has this problem that I am is supposed to be the number we're looking for him and we're going to keep looking for a different element every time so it doesn't really capture the idea here.  She has the same problem that it uses end of the argument that it passes on.  And also there's an and they're so even if this said m in be even if this one said him and if we imagined that instead this would be saying the first element of the list has to be equal to this number and all the rest of the elements in the list have to be equal to this number the first the first element of the big and of n equals m for every single and in the list which definitely can't be true. We would end up like with an and that would say 3 is equal to 3 + 7 is equal to 3 + 9 is equal to 3 now definitely evaluate to fall so he doesn't work and if we switched  Cworks works really well here there's a good question and a work either. The first element is equal to the element were looking for or we can find the element somewhere else in the list. But even if we don't find it now as long as there's more elements to look at we could find it somewhere in the rest of the list as well. So see we're not work.  Yeah, so where all the list is a more even than 30 depending on how what the order exactly there in maybe were two of them next to each other or equal to Amber. Something with duplicates can make that go because this one of the simple cases to show that it doesn't work very well is if you dry to do contains.  On just a single element.  Sorry, sorry the same element just repeated ones.  Somewhere in here will end up getting a Truex or true because we found the element twice and so a has trouble with duplicates because if we have these multiple truths appearing will end up with enough with this problem. We could also end up with duplicates don't work so well with a  so she's the only one that I really works in all cases.  So that contains an append and here's an interesting an interesting property that we might want to talk about for listen to interesting properties on your sheets. The other one today the one with her move at the bottom of the way I encourage you to think about if you can prove or disprove the one at the bottom.  Here's the statement the statement is that for all list, if we add 100 to the list, then it contains 100. I know I said and then what we can do is say to make a make a English match a little more 100 is in a list that we have 102 then we expect that to be true. So there's two steps happening in the body here one one. Is that where first a pending 102 a list and then using the results of that in the argument that contains  and so the idea here is we're going to use this new idea of proof by structural induction and so will end up with these two cases to talk about  and we have a basis step.  Where L is the empty list?  And in that case what we're trying to show is that contains.  Append and we can substitute in empty list for L 100 100 to show in this case.  And here we can just use the definitions and push this through so just making sure that we're careful to use the definition of append correctly and we get 100 empty list here.  and then we're checking for 100 here and this is  by the definition of pain  and this is the recursive case just to be really explicit about the definition. We get 100 equals 100 or contains on empty list 100.  I contain this evaluates to true this evaluates the fall switch all evaluates to true.  So the basis step and we just push that single value. There's only one value in the basest up here with his damn playlist We just push that all the way through and can see that it works.  Let me have this recursive step.  And the most important part of the recursive step in these induction proof is to make sure that we get the assumptions all laid out carefully. Usually once we get the assumptions laid out carefully, then we can start to see the structure. We need to finish things off blue really need to lay out the structure carefully. So I'm in or just refer to the definition of linked lists here and make sure that I talked about each of these variables.  Now I'm going to say that L is equal to 2 some Tuple that is in and I usually use a prime for these so I'm going to call it in and L Prime and we know that El Prime is a list.  nn  in some number  and we get this one more assumption that the property were trying to prove is true for this smaller element that we use to build this up. So the property that were trying to prove is  contains  upend  AL Prime  100 100  and that is  everything we get to it soon.  So we broke down the value by using the recursive part of the set definition and then we use that smaller piece in this case L Prime in the same properties. We substituted that the property and used it as an option.  And our goal here is to show that contains.  upend  L100 100 is true. That's the goal here.  One of the nice things here is in this case this proof definitions of append and contains. There's no I'd like conditional case like there wasn't bass count. So it's a little more direct. We don't have to split into those two different cases for the end. We know that of nll prime so we can expand the definition of append here.  and we know we're in the recursive case and the definition of append in the recursive case tells us they were going to take that take the existing elements in El which is  and then we will append to AL Prime 100.  And we're taking it 100 is contained there.  And I was just using the way we broke down L into these two pieces in the definition of attempt to get there. Then we can use the definition of contains.  And contain says that either and is equal to 100.  or  Contains on the list that we had here and that list that we gave the rest of the list. Is this append L Prime 100.  I was just applying a pain and applying contain being really careful. "
+}

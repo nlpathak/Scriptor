@@ -1,0 +1,386 @@
+{
+    "Blurbs": {
+        "0 if they're the same you get one. so Okay, any questions about that? Okay. So now the next part two step four is to figure out the ordering of the subproblems now before it was just a one-dimensional array. You can just kind of go through the array now. We have a two dimensional array how we going to go through the sub problems? Okay. So what's nice to ": [
+            1311.8,
+            1343.0,
+            33
+        ],
+        "How can we Define a notion of closeness for example, is Pelican closer to penguin or two politician? What do you guys think? Penguin cuz they're both Birds, right? No, so we have to find some sort of metric. What do I mean by closeness? I didn't Define it for you. So what I might mean by it is basically how many letters do you have to change to get ": [
+            114.4,
+            147.6,
+            3
+        ],
+        "I can't take anything of value. EFC is 0 then return 0. I'm actually going to put less than or equal to 0. Because you're going to see that in my recursive call. I might kind of cross that boundary. No, so that's why I said a store cuz you can think about like a store is well-stocked A well-stocked Store where the it's like an unlimited amount of everything. ": [
+            2163.2,
+            2203.5,
+            56
+        ],
+        "Is it assumed vwr can increasing order because of you Elementary fourth grade class element? Actually, it doesn't matter the order. Yeah, they can be ordered. really in any way Okay, so that's where we could I put Max here. Okay. So now ordering of the subproblems remember this is going to be a two-dimensional array because the dimensions are The The J and the bee write the number of ": [
+            2601.8,
+            2640.2,
+            66
+        ],
+        "Okay, let's get started. Let's begin. So does anybody have any questions before we start? There was some typos in the homework mainly on number two, so I re-upload it and gave a post on Piazza. So I hope you guys saw that. mainly with the runtime my original thought was I wanted to give you a found on the space and then I forgot and I counted as the ": [
+            23.1,
+            57.3,
+            0
+        ],
+        "Okay, so let's do the out one first if I don't pick up item and then I been then what's the maximum I can get? Backtracking KS of what? 1 2 N -1 write the weights of 1 2 N -1 the values 1 2 N -1 and I still have the same capacity in my backpack knapsack. Sorry. Okay. What if I in what if I included if I ": [
+            2205.9,
+            2246.6,
+            57
+        ],
+        "Okay, so you guys can finish this off at the are there any questions? at the end once you get to the four, then you can just follow the pointers backwards and that'll give you a path back to the the empty set empty set sail and and basically every time you go up that that means that there was a insertion And every time you go to the left, ": [
+            1745.8,
+            1774.7,
+            45
+        ],
+        "Okay. So for this particular problem, I want a kind of approach it using backtracking and then we'll kind of approach it using dynamic programming. The reason I want to do that is because just to give you guys more ideas of how to start these problems if it's easier for you to do backtracking first then how would you do that? What would be kind of the question you ": [
+            1986.4,
+            2012.8,
+            51
+        ],
+        "Okay. So today we're going to do some more dynamic programming mainly with more than one dimension. So like a two dimensional array of the we're going to look at an example. That's also in the book so you can you can kind of follow along with that or look at that if you want a different sort of angle. Okay. So here's the problem given two words or strings. ": [
+            86.1,
+            114.4,
+            2
+        ],
+        "So I always like to think about this problem as if you were like somebody trying to steal stuff. So you're a burglar who breaks into a store and you want to leave with the maximum value of items. Your knapsack Can Only Hold 13 pounds and the items of the store have the certain values and weights. Okay. So what kind of store are we breaking into? 7-Eleven 7-Eleven, ": [
+            1819.5,
+            1847.3,
+            47
+        ],
+        "The Matrix so that you can just kind of run the recursion. Okay, so we get all of those now the recursion I know we already did it with the backtracking but let's do it again so we can kind of just have a a nice presentation of the dynamic programming. Okay, so case one Is that item J? is included in the max value subset, let's say Whatever. However ": [
+            2472.4,
+            2510.1,
+            63
+        ],
+        "a the l2r right substitution and then the eye and the CC these don't cost anything, right? And then you change a the a to an H. Which is a substitution and then you change the and then you add in a sorry. This is going to be an insertion insertion in this will be a deletion. Okay. So this cost this actually cost 5 instead of 7. Wait a ": [
+            267.9,
+            305.6,
+            7
+        ],
+        "about this when we talk about np-complete. But if you think about a number how many how many pieces of information do you need to represent a number the number of bits? Right and so really and is really to to the number of bits so that's where you get that from. okay, so let's just I was just want to kind of have you guys can look at this ": [
+            2887.5,
+            2914.1,
+            73
+        ],
+        "and 1/2 C Big O of n x c. With the recursive that if she said we shouldn't do it. If you were to do that, then it would just make the call. You were fine. Even if we had non-integer way because it would only reach the cell that it actually needs to butt. right Is there some way to go out back? You can multiply all your floating ": [
+            2814.1,
+            2855.6,
+            71
+        ],
+        "and E are not the same. So it's got to be one and it came from this cell. Frank What else what's this one? To Now you kind of have a choice. Did you come from diagonal or did you come from? The side and those choices kind of give both give you different ways of doing it different ways of both getting at the same answer. So let's just ": [
+            1668.3,
+            1696.1,
+            43
+        ],
+        "and that's grapes usao Pelican Inn. Politician can one can be changed it to the other with only four operations. But what are those four operations in order to figure out what those are while you're going through the process? You can keep the previous pointer to how did you get to that sell which one of the neighbors brought you there? Okay, so you can think about it like ": [
+            1591.3,
+            1617.7,
+            41
+        ],
+        "any extra checking. Yeah, that's kind of the idea. the number for like how long will it take? So this would be like for I equals one up to n in this is for all Jay from one up to m. Are we going to get those big kitties for free big bonded Wheels were going to add the chocolate himself just from 00. Why are you putting that into ": [
+            796.1,
+            840.9,
+            20
+        ],
+        "are going to want to kind of do it in a particular order. Okay, do I choose item and or not? Okay, what are the base cases here? I have one item and I have room for it. Okay, if I Okay good. What about if there's no items? Then nothing that could be your base case to it kind of just depends on how far you want to go ": [
+            2089.1,
+            2130.3,
+            54
+        ],
+        "as a exercise and fill it out if you if you like if you think that is helpful. But one more thing before we go is I wanted to address your question a different problem is the 0-1 knapsack problem. This is like if instead of at 7-Eleven you're breaking into somebody's house so they only have like one of each item. So I have the answer to how you ": [
+            2914.1,
+            2941.1,
+            74
+        ],
+        "at all. Any other questions? Okay good. So those are the bass cases. Okay. So now the step 3, how do we express this recursively? Okay, so I want to express each of i j recursively. Okay, and so I'm going to split this up into three cases. Okay, so case one in the cases are going to be what does the last column of that to to buy whatever? ": [
+            866.5,
+            904.9,
+            22
+        ],
+        "back. Right? What's another kind of limiting factor? Right. You don't have any room? Okay. So you're the base cases if there is no items to choose from or if my knapsack can't fit anything in it. Okay, and those would be so let's go in this backtracking knapsack problem. The base cases are going to be if an is 0 return 0 right? I can't if there's nothing there. ": [
+            2130.3,
+            2163.2,
+            55
+        ],
+        "both sides. And how do I fill these these first columns? And these are our base case has 0 1 2 3 4 5 6 7 and 0 1 2 3 4 5 6 7 8 9 10 so the first sell this one. I'm going to take the minimum of 1 1 and 0 0 + 1 because those letters are actually the same. so the minimum of those ": [
+            1510.3,
+            1549.9,
+            39
+        ],
+        "care about is the last column if it's a deletion then that means I have a letter here and nothing here. So, what do I recover saint? The last call I guess the last column in the minimum cost. arrangement Is it a lesion then? That means that he of IJ is going to be equal to what? One definitely one right one. Plus that one meaning that last column ": [
+            951.2,
+            992.1,
+            24
+        ],
+        "cases now? KS of what? j0 That means that my backpack can't fit anything into it. So I can't take any of the items so that zero and what else? 0 B that means there's no items to take it so I can't put anything in there so I get zero there. Right. So just want to also going to have a bunch of bass cases that kind of line ": [
+            2432.6,
+            2472.4,
+            62
+        ],
+        "d and substitution will which will be an ass. So I'll substitute p400e 4S and so on right so I have six substitutions. So this has it cost. of 6 okay, or you can think about it more as like a distance like those two strings have our distance six apart and if that distance is if that number is smaller than we have more of a sense that the ": [
+            177.9,
+            209.1,
+            5
+        ],
+        "do is to what I like is to think about it as a matrix. And they're numbered as matrices are numbered so. The eyes are going this way, right and the Jays are going this way. So you start like the top left corner will be zero zero and then you start counting this way cuz I'm coming to the right and counting down. So I figure out your kind ": [
+            1343.0,
+            1372.8,
+            34
+        ],
+        "do this on the next slide, but maybe as an exercise you can think about how does this change the problem? It really only changes it in one place in the recursion. So maybe think about where that would change it and we can kind of start from here on Friday Wednesday, okay. ": [
+            2941.1,
+            2959.0,
+            75
+        ],
+        "doing the recursive Paul. Okay, what are the base cases? What's up? Is matching what? Okay, so you're saying e00? That's definitely zero operations. Good. Are there any other bass cases that we can consider? how about ye of i, 0 what the distance is the number the minimum number of trans transfer? What is it? Operations to transition from one to the other operations. Do you need to transfer ": [
+            666.1,
+            747.5,
+            18
+        ],
+        "done. I guess let's go. Let's start from here. So if the last call him looks like this then we get evine -1 J the last call him looks like this then we get i j - 1 + 1 + if the last column looks like this then we get two cases and we looked at this already. okay, so the actual Recursion is just going to be the ": [
+            1233.2,
+            1264.2,
+            31
+        ],
+        "equal to what 1 + I might as well. Okay, any questions about that? So when you're when you're writing these things out and when you're designing them yourselves, I like I like for you to do these kind of cases often times are going to just take the maximum or the minimum overall cases, but it's nice to split it up like that way in order to to communicate ": [
+            1174.3,
+            1206.1,
+            29
+        ],
+        "few of the letters lineup automatically, and my question is is for the cheapest. Is there a way to get better than 4 we're going to talk about that in a minute. And then Pelican and politician if I just put one on top of the other now, they don't have the same amount of letters. So I have to insert a bunch at the end and I have to ": [
+            335.2,
+            355.1,
+            9
+        ],
+        "for our rent. Okay. So we can we can think about it like this. The input is going to be a list of items. The names of the items maybe a 1 through a n for each item has a value VI in a way wi maybe the input is just the weights in the values given that you cannot have more weight than see the capacity of the backpack. ": [
+            1961.0,
+            1986.4,
+            50
+        ],
+        "from one to the other or add or delete? Okay. So these are going to be our three operations exchange add or delete. Okay. So let's do like another pair of words Pelican an ostrich. I can put one right on top of the other and I guess I guess these are my my three operations will be insertion which will be just an eye deletion which will be a ": [
+            147.6,
+            177.9,
+            4
+        ],
+        "going to calculate this guy and this guy. And then I'm going to come here and calculate this guy before I get to myself. Calculator all those three cell before I get there. Okay good. So here's the here's the pseudocode. And I guess I didn't say this explicitly but the return value is going to be e of NM right? Because that's going to be the edit distance of ": [
+            1458.1,
+            1486.7,
+            37
+        ],
+        "guess I should put a check in here though. because you might run into a problem with this going out of bounds, so Same check that we had before if WJ. Is let's say if it's greater than b then return. KS of J - 1B else do this thing. You get the idea? Okay. So how long does it take? What's the runtime? I thought this look right 1/2 ": [
+            2750.3,
+            2814.1,
+            70
+        ],
+        "included then I get the value of n when I definitely get it plus. How much can I get? I'm thinking of something year. How much can I get where? All these guys one to end one to end and now my capacity goes down by the weight of the ends element, right? And that's why I wanted to do. I guess this should be zero, right? And what do ": [
+            2246.6,
+            2292.5,
+            58
+        ],
+        "is going to be a operation for sure. right Right because the entire bottom word is still going to be in there all J letters of the bottom. Where is going to be in there? And then the first i - 1 letters are going to be in the top row because the last letter I've been given there. That'll be case 2. Going to be an insertion I'm saying ": [
+            992.1,
+            1030.9,
+            25
+        ],
+        "items in the wait. So what does your your standard JB cell depend on right? Let's say that Jay is going in this direction and bees going in this direction. Then you're taking the max of those two things. Right? One of those things is Jay - 1B is right above. The other one is Jay, B- WJ. So however big that WJ. It's going to be like several cells ": [
+            2640.2,
+            2674.8,
+            67
+        ],
+        "k-stew now. Kh2 is at the last column. looks like Why and nothing, I guess let's let's just draw the draw it out again. Write a y down here and nothing up here. Now he of i j is equal to what? 1 + years of i - 110 sorry i j - 1 and then case 3 the last column looks like this. XY, right And now we have ": [
+            1092.1,
+            1144.6,
+            27
+        ],
+        "kind of silly here. But you know, you have to just pick one of the items at random and say do I include this item or not, then you can rehearse but maybe it's better to let use and so that the problem actually kind of looks uniform. That you would feel to go back not a backtracking it work fine with backtracking. Yeah, but with with dynamic programming we ": [
+            2058.0,
+            2089.1,
+            53
+        ],
+        "let me just look at this. Okay. Now how do we go from backtracking to dynamic programming? Basically, what you do is you replace these recursive calls with? Setting setting values for the array and so are a ray is going to have these two parameters the the the end parameter and the the C parameter write how many items are left and how much weight do I have in ": [
+            2373.1,
+            2404.8,
+            60
+        ],
+        "like enough. For the for that part in your homework if you have a two dimensional array. 3 questions about that Okay, what's the final output look like? Well, it's just KS of NC because this is going to be items one through and capacity C Okay, so let's look at what the pseudocode looks like. You basically just do your base cases. Then you have your double Loop. I ": [
+            2705.5,
+            2750.3,
+            69
+        ],
+        "like yeah. You're starting from the top word and you're trying to get to the bottom word. So. I'm trying to delete that last one. Okay. Let me just do something real fast. Okay. I think I have let's just I'll do them together and that's better have some slides that have them on that about all the answers on them, but Let's just do them together. Okay, let's do ": [
+            1030.9,
+            1092.1,
+            26
+        ],
+        "men of OnePlus this guy, right? This is case one case 2 and then case 3. I use this Delta function. I don't know. It's from math. But you could just hard coded in or is there like a computer science e way to do this? Yeah, okay. So you can you can implement it, right? You got you get the idea, right if there are equal then you get ": [
+            1264.2,
+            1311.8,
+            32
+        ],
+        "minute sex, right this cost 6 instead of 7. So that is a Improvement. Is this the best that we can do? I think so. List of the best we can do is the distance. Okay, so here I did it in a different way, but I still got six. Okay, so what about with Pelican and penguin if I just put one on top of the other then a ": [
+            305.6,
+            335.2,
+            8
+        ],
+        "my backpack? I'm just going to kind of skip over these ones real fast. I think so in my step one to the find my sub problem. So now we're doing a dynamic programming approach. I'm going to let KS of JB. What's going to be the maximum value you can fit in a b capacity knapsack? Using only the items one through J. Okay. So what are the base ": [
+            2404.8,
+            2432.6,
+            61
+        ],
+        "of General sell i j. What does this cell depend on depends on its its neighbors to the upper left right all three of them? Okay. So whatever order I do this I have to ensure that all three of these values have been computed before I compute this value hear anybody. Give me like a way to do an ordering to do this. How does that work? So like ": [
+            1372.8,
+            1425.9,
+            35
+        ],
+        "of three things at least in the first and call him. So there is at least three to the different combinations and really probably many many more than that, right because there's more So you're either inside? Sort of thinking about doing nothing and substitution is sort of the same thing. Because you can't always just do nothing because a letter in the top word might not always exist in ": [
+            458.8,
+            493.6,
+            13
+        ],
+        "okay. Okay, what weighs 2 pounds and is worth $4. Or what? Donuts, okay. What's what weighs 4 pounds and is worth $9 big Donuts big pack right big pack of donuts. Okay, what's worth what's 5 lb and is worth $12? a small dog call Dom you can get that at 7-Eleven now. Okay. How about we weighing 7 lb in worth $15? medium dog Okay, how about eight ": [
+            1847.3,
+            1909.3,
+            48
+        ],
+        "pick one say one from this one. 3 4 5 6 Okay, how about this guy? There's going to be a to write from the top. and then here I get a Two, I guess let's go from the top. What about here? You got to one right? Because the Allen the Aller the same so you get the diagonal + 0. And then still listen to three four five. ": [
+            1696.1,
+            1740.2,
+            44
+        ],
+        "points by a million or whatever. However many decimals. No, actually the this knapsack problem is an NP complete problem, which means that there does not exist a polynomial time algorithm to stop it doesn't exist. There is not known of any polynomial time algorithm to solve it. This run time is not polynomial because it actually depends on the the number and we'll talk about a little bit more ": [
+            2855.6,
+            2887.5,
+            72
+        ],
+        "pounds and worth $19? Arch. Okay. Okay, what about 9 pounds and $21? a 30-pack Okay. 30 pack of dogs Okay now. So, how do I do this? Okay. So let's think about how to set up the problem and a way to do it is to kind of rephrase the problem so we can think about how many degrees of freedom we have and how many indices we need ": [
+            1909.3,
+            1961.0,
+            49
+        ],
+        "questions? exit Life Care So he go from next to eye to Jay and then why from what k2l now you now you have four parameters? I'm sure you could figure it out. But that way but this way will will use less memory space and also probably a lot less run time, I think. No, we were able to do it this way. You'll be in the we start ": [
+            614.8,
+            666.1,
+            17
+        ],
+        "restate the problem in terms of the inputs. That's a good way to kind of figure out where you are. Okay, so the problem is going to be fine the minimum cost. Edit distance. I should say the minimum cost. edit distance up two words x that has an letters. So like the string from one to end of axon the string of 1/2, MO. Okay, so now Define the ": [
+            532.0,
+            563.7,
+            15
+        ],
+        "row by row. Okay. So one way to do this is left to right through Rose going from top to bottom, right? kind of It's really easy to implement to write you. Just do a double for Loop. Because as I as I go through the array, I'm going to go to the top row the next row the next row and then I'm going to hit this row. I'm ": [
+            1425.9,
+            1458.1,
+            36
+        ],
+        "run time and I kind of missed it up in my head. Anyhow, I also gave you a kind of a guideline on how I want the problems to be presented. I really do want you to go through those steps for your benefit and for our benefit just so that we can were able to kind of read through your reasoning is the main idea. Okay, Shall We Begin. ": [
+            57.3,
+            84.1,
+            1
+        ],
+        "subproblems noticed that your input has two parameters now. Okay, but that should give you a clue that you might want to use an array that has two Dimensions two-dimensional array. Okay, so what I would do is say something like Kia of IGA is going to equal to what anybody have any ideas. Of the words x from 1 to I and why from 1 to Jay good any ": [
+            563.7,
+            614.8,
+            16
+        ],
+        "substitute a bunch. It's 7 the cheapest cost. Well, you can maybe see that like some of you can kind of line them up and get some more. insertions and matches are Okay, so we're going to look at this example in a in a little bit. Okay. So the edit distance is going to be the the actual smallest that you can possibly do. So that's what we're trying ": [
+            355.1,
+            387.0,
+            10
+        ],
+        "that means there was a deletion and every time you go diagonal that means that there was either like a substitution or do nothing. any questions Okay, good. How long is this algorithm going to take run time? A lot better than 3 to the end. Okay, let's move on to another example. the knapsack problem Caso a knapsack is a backpack if you guys were wondering there's no difference. ": [
+            1774.7,
+            1817.5,
+            46
+        ],
+        "the bank account? That's like your question. Yeah, you're going to see that our recursive call will depend on like I - 1 + J - 1 so that kind of like gets goes out of the range of the array. So I think it's better to just do them all up front because you know that that that's what they're going to be. It doesn't depend on the word ": [
+            840.9,
+            866.5,
+            21
+        ],
+        "the bottom word. So I'm thinking about it more as like substituting Imports South exactly. It's going to be like this like this. or like this whether or not they are the same. Okay, so we got to beat through the end. You think we can do it. Yes me to okay, so let's look at my steps and in trying to build this up so though. I like to ": [
+            493.6,
+            532.0,
+            14
+        ],
+        "the string phone number of different operations raised to the power of the number of characters who is three different operations. Right. So definitely more than free to the end. Right because for those and letters or the 1st and Columns of this type of thing, right? You can do three different things. You can either do an insertion or deletion or substitution or matching. So I could be one ": [
+            426.2,
+            458.8,
+            12
+        ],
+        "the whole word ax in the whole word. Why? Okay. So let's take a look at how this how this runs. I'm not going to go through the whole example, but maybe you guys can fill it out if you want to a little bit later. Okay. So let's use Pelican and politician again. I'm going to give a call in to the empty word and the empty word on ": [
+            1486.7,
+            1510.3,
+            38
+        ],
+        "there any questions about that? KK stew Item Jay is not included. Well, that means KS of JB is well. I didn't include it. So that means that I have only the first J -1 items to look through. And I have the rest of my I have the full capacity be of my backpack. Okay, so then take the take minimum of cases any questions about that. Omak sorry. ": [
+            2555.5,
+            2598.5,
+            65
+        ],
+        "this. Well, I got this Zero from this guy. I got this one from adding one to the zero and so on right so we have two three four five six. And these are all. From all these guys. Let's just do a few more rows. What's the value of this one? one right from the cell above And this one? it can't be zero because those Those letters o ": [
+            1617.7,
+            1668.3,
+            42
+        ],
+        "three is okay here. I'm going to take the minimum of 0 + 101 + 1 + 2 + 1. Which is why? And as you go through this cell the cells. at the very end, we're going to get down here and we're going to we're going to get some value. I think the I think the best you can do is like 4 so you get for here, ": [
+            1549.9,
+            1591.3,
+            40
+        ],
+        "to buy k-array look like Is the last call I'm going to be an insert a delete or a substitution / do nothing. Okay, so case one is going to be. a deletion last column is a deletion Okay, so that what that means is that. When I line up the two words. I don't I don't really care so much of what's going on to the left? All I ": [
+            906.1,
+            951.2,
+            23
+        ],
+        "to get to. Okay, so brute force is to just try all possible. Combinations of putting the words on top of each other. What's a lower bound on the number of possible combinations if the size of the words R N & N where n is less than or equal to m? special operations for the power of the Give me the number of characters total. number of characters in ": [
+            387.0,
+            426.2,
+            11
+        ],
+        "to split this up into two cases, right? What are the two cases? If x equals y or not, right so we'll do case through case 3 a is X is equal to Y in that case he of i j is equal to what? if I - 1 J - 1 in case 3B will be X not equal to Y in this case we of i j is ": [
+            1144.6,
+            1174.3,
+            28
+        ],
+        "to the left. I put in the same row. So, how do we order it? What's a nice way to order this? Just do row by row again or call him by Colin will still work. Right so you can just kind of say like for Jay from 1 to n a double Loop for J frame 1 2 & 4 for be from 1 to see and this is ": [
+            2674.8,
+            2705.5,
+            68
+        ],
+        "to transition from a word of length? I to the empty word? I deletions right? How about Kiev? 0j? Jack Any questions about that? Better have them as bait. How would you compute them? Dynamically? OIC you could probably put in like some conditional statements to to get that but if you do it, if you if you initialize them all like this then you don't have to put in ": [
+            747.5,
+            796.1,
+            19
+        ],
+        "we want to do if it's less than zero? Return infinity or something. Because then the antidem can't fit in there, right? Okay, let's just add a check. If weight of n is less than or equal to C then do this, right? else can't even spell today. Else return out, right? Okay good. so let me just Make a change of that in the things. Okay now. Okay, so ": [
+            2292.5,
+            2373.1,
+            59
+        ],
+        "why you built your recursion that way. Okay. So we have these three cases. We don't know which one actually gives us the minimum. So we calculate all three and take the minimum of all three Okay, so we've done the sub problems done the base case we've expressed it recursively I'll finish that up here I just have this these are just all the things that we We've just ": [
+            1206.1,
+            1233.2,
+            30
+        ],
+        "words are closer together. Now, oh sorry, this is hard. This is 7 can't even count today. Okay, so is 7 the cheapest cost. Is there another way that we can do it? That uses fewer operations. Okay. So the first thing you're going to do is delete the low right? Then change the P to an S. That's a substitution, right? Change the key to a t substitution. Change ": [
+            209.1,
+            267.9,
+            6
+        ],
+        "would ask? Write the kind of yes or no or like simple question that you could ask that would split the problem up into two two or more recursive calls. Yes for now. Yes. Which one? Right, but like in order to get like a a very specific like recursive like a break. Which one do you want to? Which item? High-dividend. Okay good. I mean I know I'm being ": [
+            2012.8,
+            2058.0,
+            52
+        ],
+        "you call it then k s j b. Is going to be what definitely got the value of that J's item. So let's put that in. Plus Okay, then it's however, you can fill up your backpack with the remaining capacity. All J items are still available because we're in A well-stocked store, right? And the capacity now is see or sorry not see B. minus the weight of Jay ": [
+            2510.1,
+            2552.4,
+            64
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_23.flac",
+    "Full Transcript": "Okay, let's get started. Let's begin.  So does anybody have any questions before we start?  There was some typos in the homework mainly on number two, so I re-upload it and gave a post on Piazza. So I hope you guys saw that.  mainly with the runtime  my original thought was I wanted to give you a found on the space and then I forgot and I counted as the run time and I kind of missed it up in my head. Anyhow, I also gave you a kind of a guideline on how I want the problems to be presented. I really do want you to go through those steps for your benefit and for our benefit just so that we can were able to kind of read through your reasoning is the main idea.  Okay, Shall We Begin.  Okay. So today we're going to do some more dynamic programming mainly with more than one dimension. So like a two dimensional array of the we're going to look at an example. That's also in the book so you can you can kind of follow along with that or look at that if you want a different sort of angle.  Okay. So here's the problem given two words or strings. How can we Define a notion of closeness for example, is Pelican closer to penguin or two politician?  What do you guys think?  Penguin cuz they're both Birds, right?  No, so we have to find some sort of metric. What do I mean by closeness? I didn't Define it for you. So what I might mean by it is basically how many letters do you have to change to get from one to the other or add or delete? Okay. So these are going to be our three operations exchange add or delete.  Okay. So let's do like another pair of words Pelican an ostrich. I can put one right on top of the other and  I guess I guess these are my my three operations will be insertion which will be just an eye deletion which will be a d and substitution will which will be an ass. So I'll substitute p400e 4S and so on right so I have six substitutions.  So this has it cost.  of 6  okay, or you can think about it more as like a distance like those two strings have our distance six apart and if that distance is if that number is smaller than we have more of a sense that the words are closer together.  Now, oh sorry, this is hard. This is 7 can't even count today. Okay, so is 7 the cheapest cost. Is there another way that we can do it?  That uses fewer operations.  Okay. So the first thing you're going to do is delete the low right?  Then change the P to an S. That's a substitution, right?  Change the key to a t substitution.  Change a the l2r right substitution and then the eye and the CC these don't cost anything, right?  And then you change a the a to an H.  Which is a substitution and then you change the and then you add in a sorry.  This is going to be an insertion insertion in this will be a deletion.  Okay. So this cost this actually cost 5 instead of 7.  Wait a minute sex, right this cost 6 instead of 7. So that is a Improvement. Is this the best that we can do?  I think so.  List of the best we can do is the distance.  Okay, so here I did it in a different way, but I still got six.  Okay, so what about with Pelican and penguin if I just put one on top of the other then a few of the letters lineup automatically, and my question is is for the cheapest. Is there a way to get better than 4 we're going to talk about that in a minute.  And then Pelican and politician if I just put one on top of the other now, they don't have the same amount of letters. So I have to insert a bunch at the end and I have to substitute a bunch. It's 7 the cheapest cost. Well, you can maybe see that like some of you can kind of line them up and  get some more.  insertions and matches are  Okay, so we're going to look at this example in a in a little bit.  Okay. So the edit distance is going to be the the actual smallest that you can possibly do. So that's what we're trying to get to. Okay, so brute force is to just try all possible.  Combinations of putting the words on top of each other. What's a lower bound on the number of possible combinations if the size of the words R N & N where n is less than or equal to m?  special operations for the power of the  Give me the number of characters total.  number of characters in the string  phone number of different operations raised to the power of the number of characters who is three different operations.  Right. So definitely more than free to the end. Right because for those and letters or the 1st and Columns of this type of thing, right? You can do three different things. You can either do an insertion or deletion or substitution or matching.  So I could be one of three things at least in the first and call him. So there is at least three to the different combinations and really probably many many more than that, right because there's more  So you're either inside?  Sort of thinking about doing nothing and substitution is sort of the same thing.  Because you can't always just do nothing because a letter in the top word might not always exist in the bottom word.  So I'm thinking about it more as like  substituting Imports South exactly. It's going to be like this like this.  or like this  whether or not they are the same.  Okay, so we got to beat through the end. You think we can do it.  Yes me to okay, so let's look at my steps and in trying to build this up so though.  I like to restate the problem in terms of the inputs. That's a good way to kind of figure out where you are. Okay, so the problem is going to be fine the minimum cost.  Edit distance. I should say the minimum cost.  edit distance  up two words x that has an letters. So like the string from one to end of axon the string of 1/2, MO.  Okay, so now Define the subproblems noticed that your input has two parameters now.  Okay, but that should give you a clue that you might want to use an array that has two Dimensions two-dimensional array. Okay, so what I would do  is say something like  Kia of IGA  is going to equal to what anybody have any ideas.  Of the words x from 1 to I and why from 1 to Jay good any questions?  exit Life Care  So he go from next to eye to Jay and then why from what k2l now you now you have four parameters?  I'm sure you could figure it out. But that way but this way will will use less memory space and also probably a lot less run time, I think.  No, we were able to do it this way.  You'll be in the  we start doing the recursive Paul.  Okay, what are the base cases?  What's up?  Is matching what?  Okay, so you're saying e00?  That's definitely zero operations. Good. Are there any other bass cases that we can consider?  how about ye of  i, 0  what the distance is the number the minimum number of trans transfer? What is it?  Operations to transition from one to the other operations. Do you need to transfer to transition from a word of length? I to the empty word?  I deletions right?  How about Kiev? 0j?  Jack  Any questions about that?  Better have them as bait. How would you compute them? Dynamically?  OIC  you could probably put in like some conditional statements to to get that but if you do it, if you if you initialize them all like this then you don't have to put in any extra checking.  Yeah, that's kind of the idea.  the number for  like how long will it take? So this would be like for I equals one up to n in this is for all Jay from one up to m.  Are we going to get those big kitties for free big bonded Wheels were going to add the chocolate himself just from 00.  Why are you putting that into the bank account? That's like your question. Yeah, you're going to see that our recursive call will depend on like I - 1 + J - 1 so that kind of like gets goes out of the range of the array.  So  I think it's better to just do them all up front because you know that that that's what they're going to be. It doesn't depend on the word at all.  Any other questions?  Okay good. So those are the bass cases. Okay. So now the step 3, how do we express this recursively?  Okay, so I want to express each of i j recursively. Okay, and so I'm going to split this up into three cases. Okay, so case one  in the cases are going to be what does the last column of that to to buy whatever?  to buy k-array look like  Is the last call I'm going to be an insert a delete or a substitution / do nothing.  Okay, so case one is going to be.  a deletion  last column  is a deletion  Okay, so that what that means is that.  When I line up the two words.  I don't I don't really care so much of what's going on to the left? All I care about is the last column if it's a deletion then that means I have a letter here and nothing here.  So, what do I recover saint?  The last call I guess the last column in the minimum cost.  arrangement  Is it a lesion then? That means that he of IJ is going to be equal to what?  One definitely one right one. Plus that one meaning that last column is going to be a operation for sure.  right  Right because the entire bottom word is still going to be in there all J letters of the bottom. Where is going to be in there? And then the first i - 1 letters are going to be in the top row because the last letter I've been given there.  That'll be case 2.  Going to be an insertion I'm saying like yeah.  You're starting from the top word and you're trying to get to the bottom word. So.  I'm trying to delete that last one.  Okay.  Let me just do something real fast.  Okay.  I think I have let's just I'll do them together and that's better have some slides that have them on that about all the answers on them, but  Let's just do them together. Okay, let's do k-stew now.  Kh2 is at the last column.  looks like  Why and nothing, I guess let's let's just draw the draw it out again.  Write a y down here and nothing up here. Now he of i j is equal to what?  1 + years of i - 110 sorry i j - 1  and then case 3  the last column looks like this.  XY, right  And now we have to split this up into two cases, right? What are the two cases?  If x equals y or not, right so we'll do case through case 3 a is X is equal to Y in that case he of i j is equal to what?  if I - 1 J - 1  in case 3B will be X not equal to Y in this case we of i j is equal to what 1 + I might as well.  Okay, any questions about that?  So when you're when you're writing these things out and when you're designing them yourselves, I like I like for you to do these kind of cases often times are going to just take the maximum or the minimum overall cases, but it's nice to split it up like that way in order to to communicate why you built your recursion that way. Okay. So we have these three cases. We don't know which one actually gives us the minimum. So we calculate all three and take the minimum of all three  Okay, so we've done the sub problems done the base case we've expressed it recursively I'll finish that up here I just have this these are just all the things that we  We've just done.  I guess let's go. Let's start from here. So if the last call him looks like this then we get evine -1 J the last call him looks like this then we get i j - 1 + 1 + if the last column looks like this then we get two cases and we looked at this already.  okay, so the actual  Recursion is just going to be the men of OnePlus this guy, right? This is case one case 2 and then case 3.  I use this Delta function.  I don't know. It's from math.  But you could just hard coded in or is there like a computer science e way to do this?  Yeah, okay.  So you can you can implement it, right?  You got you get the idea, right if there are equal then you get 0 if they're the same you get one.  so  Okay, any questions about that?  Okay. So now the next part two step four is to figure out the ordering of the subproblems now before it was just a one-dimensional array. You can just kind of go through the array now. We have a two dimensional array how we going to go through the sub problems?  Okay. So what's nice to do is to what I like is to think about it as a matrix.  And they're numbered as matrices are numbered so.  The eyes are going this way, right and the Jays are going this way.  So you start like the top left corner will be zero zero and then you start counting this way cuz I'm coming to the right and counting down. So I figure out your kind of General sell i j. What does this cell depend on depends on its its neighbors to the upper left right all three of them?  Okay. So whatever order I do this I have to ensure that all three of these values have been computed before I compute this value hear anybody. Give me like a way to do an ordering to do this.  How does that work?  So like row by row.  Okay. So one way to do this is left to right through Rose going from top to bottom, right?  kind of  It's really easy to implement to write you. Just do a double for Loop.  Because as I as I go through the array, I'm going to go to the top row the next row the next row and then I'm going to hit this row. I'm going to calculate this guy and this guy.  And then I'm going to come here and calculate this guy before I get to myself. Calculator all those three cell before I get there. Okay good.  So here's the here's the pseudocode.  And I guess I didn't say this explicitly but the return value is going to be e of NM right? Because that's going to be the edit distance of the whole word ax in the whole word. Why?  Okay. So let's take a look at how this how this runs. I'm not going to go through the whole example, but maybe you guys can fill it out if you want to a little bit later.  Okay. So let's use Pelican and politician again. I'm going to give a call in to the empty word and the empty word on both sides. And how do I fill these these first columns? And these are our base case has 0 1 2 3 4 5 6 7 and 0 1 2 3 4 5 6 7 8 9 10  so  the first  sell this one.  I'm going to take the minimum of 1 1 and 0 0 + 1 because those letters are actually the same.  so the minimum of those three is  okay here.  I'm going to take the minimum of 0 + 101 + 1 + 2 + 1.  Which is why?  And as you go through this cell the cells.  at the very end, we're going to get down here and we're going to  we're going to get some value. I think the I think the best you can do is like 4 so you get for here, and that's grapes usao Pelican Inn.  Politician can one can be changed it to the other with only four operations. But what are those four operations in order to figure out what those are while you're going through the process? You can keep the previous pointer to how did you get to that sell which one of the neighbors brought you there? Okay, so you can think about it like this. Well, I got this Zero from this guy. I got this one from adding one to the zero and so on right so we have two three four five six.  And these are all.  From all these guys. Let's just do a few more rows.  What's the value of this one?  one right from the cell above  And this one?  it can't be zero because those  Those letters o and E are not the same. So it's got to be one and it came from this cell.  Frank  What else what's this one?  To Now you kind of have a choice. Did you come from diagonal or did you come from?  The side and those choices kind of give both give you different ways of doing it different ways of both getting at the same answer. So let's just pick one say one from this one.  3 4 5 6  Okay, how about this guy?  There's going to be a to write from the top.  and then here I get a  Two, I guess let's go from the top.  What about here?  You got to one right? Because the Allen the Aller the same so you get the diagonal + 0.  And then still listen to three four five.  Okay, so you guys can finish this off at the are there any questions?  at the end once you get to the four, then you can just follow the pointers backwards and that'll give you a path back to the the empty set empty set sail and and basically every time you go up that that means that there was a  insertion  And every time you go to the left, that means there was a deletion and every time you go diagonal that means that there was either like a substitution or do nothing.  any questions  Okay, good. How long is this algorithm going to take run time?  A lot better than 3 to the end.  Okay, let's move on to another example.  the knapsack problem  Caso a knapsack is a backpack if you guys were wondering there's no difference.  So I always like to think about this problem as if you were like somebody trying to steal stuff. So you're a burglar who breaks into a store and you want to leave with the maximum value of items. Your knapsack Can Only Hold 13 pounds and the items of the store have the certain values and weights. Okay. So what kind of store are we breaking into?  7-Eleven 7-Eleven, okay.  Okay, what weighs 2 pounds and is worth $4.  Or what?  Donuts, okay. What's what weighs 4 pounds and is worth $9 big Donuts big pack right big pack of donuts.  Okay, what's worth what's 5 lb and is worth $12?  a small dog  call Dom you can get that at 7-Eleven now.  Okay.  How about we weighing 7 lb in worth $15?  medium dog  Okay, how about eight pounds and worth $19?  Arch. Okay.  Okay, what about 9 pounds and $21?  a 30-pack  Okay.  30 pack of dogs  Okay now.  So, how do I do this? Okay.  So let's think about how to set up the problem and a way to do it is to kind of rephrase the problem so we can think about how many degrees of freedom we have and how many indices we need for our rent. Okay.  So we can we can think about it like this. The input is going to be a list of items.  The names of the items maybe a 1 through a n for each item has a value VI in a way wi maybe the input is just the weights in the values given that you cannot have more weight than see the capacity of the backpack. Okay.  So for this particular problem, I want a kind of approach it using backtracking and then we'll kind of approach it using dynamic programming. The reason I want to do that is because just to give you guys more ideas of how to start these problems if it's easier for you to do backtracking first then how would you do that? What would be kind of the question you would ask?  Write the kind of yes or no or like simple question that you could ask that would split the problem up into two two or more recursive calls.  Yes for now. Yes.  Which one?  Right, but like in order to get like a a very specific like recursive like a break. Which one do you want to?  Which item?  High-dividend. Okay good. I mean I know I'm being kind of  silly here. But you know, you have to just pick one of the items at random and say do I include this item or not, then you can rehearse but maybe it's better to let use and so that the problem actually kind of looks uniform.  That you would feel to go back not a backtracking it work fine with backtracking.  Yeah, but with with dynamic programming we are going to want to kind of do it in a particular order.  Okay, do I choose item and or not?  Okay, what are the base cases here?  I have one item and I have room for it. Okay, if I  Okay good.  What about if there's no items?  Then nothing that could be your base case to it kind of just depends on how far you want to go back. Right? What's another kind of limiting factor?  Right. You don't have any room? Okay. So you're the base cases if there is no items to choose from or if my knapsack can't fit anything in it. Okay, and those would be so let's go in this backtracking knapsack problem.  The base cases are going to be if an is 0 return 0 right? I can't if there's nothing there. I can't take anything of value.  EFC is 0 then return 0. I'm actually going to put less than or equal to 0.  Because you're going to see that in my recursive call. I might kind of cross that boundary.  No, so that's why I said a store cuz you can think about like a store is well-stocked A well-stocked Store where the it's like an unlimited amount of everything.  Okay, so let's do the out one first if I don't pick up item and then I been then what's the maximum I can get?  Backtracking KS of what?  1 2 N -1 write the weights of 1 2 N -1 the values 1 2 N -1  and I still have the same capacity in my backpack knapsack. Sorry.  Okay. What if I in what if I included if I included then I get the value of n when I definitely get it plus.  How much can I get?  I'm thinking of something year. How much can I get where?  All these guys one to end one to end and now my capacity goes down by the weight of the ends element, right?  And that's why I wanted to do.  I guess this should be zero, right?  And what do we want to do if it's less than zero?  Return infinity or something.  Because then the antidem can't fit in there, right?  Okay, let's just add a check.  If weight of n is less than or equal to C then do this, right?  else  can't even spell today.  Else return out, right?  Okay good.  so let me just  Make a change of that in the things.  Okay now.  Okay, so let me just look at this.  Okay. Now how do we go from backtracking to dynamic programming? Basically, what you do is you replace these recursive calls with?  Setting setting values for the array and so are a ray is going to have these two parameters the the the end parameter and the the C parameter write how many items are left and how much weight do I have in my backpack?  I'm just going to kind of skip over these ones real fast.  I think so in my step one to the find my sub problem. So now we're doing a dynamic programming approach. I'm going to let KS of JB.  What's going to be the maximum value you can fit in a b capacity knapsack?  Using only the items one through J.  Okay. So what are the base cases now?  KS of what?  j0  That means that my backpack can't fit anything into it. So I can't take any of the items so that zero and what else?  0 B that means there's no items to take it so I can't put anything in there so I get zero there.  Right. So just want to also going to have a bunch of bass cases that kind of line The Matrix so that you can just kind of run the recursion.  Okay, so we get all of those now the recursion I know we already did it with the backtracking but let's do it again so we can kind of just have a a nice presentation of the dynamic programming. Okay, so case one  Is that item J?  is included  in the max value  subset, let's say  Whatever. However you call it then k s j b.  Is going to be what definitely got the value of that J's item. So let's put that in.  Plus  Okay, then it's however, you can fill up your backpack with the remaining capacity.  All J items are still available because we're in A well-stocked store, right?  And the capacity now is see or sorry not see B.  minus the weight of Jay  there any questions about that?  KK stew  Item Jay is not included.  Well, that means KS of JB is well. I didn't include it. So that means that I have only the first J -1 items to look through.  And I have the rest of my I have the full capacity be of my backpack.  Okay, so then take the take minimum of cases any questions about that.  Omak sorry.  Is it assumed vwr can increasing order because of you Elementary fourth grade class element?  Actually, it doesn't matter the order.  Yeah, they can be ordered.  really in any way  Okay, so that's where we could I put Max here. Okay. So now ordering of the subproblems remember this is going to be a two-dimensional array because the dimensions are The The J and the bee write the number of items in the wait. So what does your your standard JB cell depend on right? Let's say that Jay is going in this direction and bees going in this direction.  Then you're taking the max of those two things. Right? One of those things is Jay - 1B is right above.  The other one is Jay, B- WJ. So however big that WJ. It's going to be like several cells to the left.  I put in the same row.  So, how do we order it? What's a nice way to order this?  Just do row by row again or call him by Colin will still work. Right so you can just kind of say like for Jay from 1 to n a double Loop for J frame 1 2 & 4 for be from 1 to see and this is like enough.  For the for that part in your homework if you have a two dimensional array.  3 questions about that  Okay, what's the final output look like? Well, it's just KS of NC because this is going to be  items one through and capacity C  Okay, so let's look at what the pseudocode looks like.  You basically just do your base cases.  Then you have your double Loop.  I guess I should put a check in here though.  because you might run into a problem with this going out of bounds, so  Same check that we had before if WJ.  Is let's say if it's greater than b then return.  KS of J - 1B  else do this thing.  You get the idea?  Okay. So how long does it take?  What's the runtime?  I thought this look right 1/2 and 1/2 C Big O of n x c.  With the recursive that if she said we shouldn't do it. If you were to do that, then it would just make the call. You were fine. Even if we had non-integer way because it would only reach the cell that it actually needs to butt.  right  Is there some way to go out back?  You can multiply all your floating points by a million or whatever. However many decimals.  No, actually the this knapsack problem is an NP complete problem, which means that there does not exist a polynomial time algorithm to stop it doesn't exist. There is not known of any polynomial time algorithm to solve it. This run time is not polynomial because it actually depends on the the number and we'll talk about a little bit more about this when we talk about np-complete. But if you think about a number how many how many pieces of information do you need to represent a number the number of bits? Right and so really and is really to to the number of bits so that's where you get that from.  okay, so let's just I was just want to kind of  have you guys can look at this as a exercise and fill it out if you if you like if you think that is helpful.  But one more thing before we go is I wanted to address your question a different problem is the 0-1 knapsack problem. This is like if instead of at 7-Eleven you're breaking into somebody's house so they only have like one of each item.  So I have the answer to how you do this on the next slide, but maybe as an exercise you can think about how does this change the problem? It really only changes it in one place in the recursion. So maybe think about where that would change it and we can kind of start from here on Friday Wednesday, okay. "
+}

@@ -1,0 +1,341 @@
+{
+    "Blurbs": {
+        "Andover to is actually equal to n over 2 and in that case p is equal to 2 to the N / 2 * 2 to the N / 2 which is equal to 2 to the end, so that's good. and if n is odd then and over to floor is actually equal to n minus 1/2. And in that case p is equal to 2 to the / ": [
+            1506.7,
+            1546.2,
+            37
+        ],
+        "Assume that your algorithm works just like all this other kind of stuff. okay, so here's here's the algorithm and I have it so that it works for any even and odd so I take the floor of an over to this will give you two to the floor and over to okay, I x karatsuba p with itself basically Square it right and so if n is even then ": [
+            1466.7,
+            1502.0,
+            36
+        ],
+        "But notice that going through how it works. We sort of are. Justifying why it why it works. So you'll often see that the runt the correctness proofs of divide and conquer algorithm are pretty straightforward. It's it's a straightforward kind of induction argument because remember induction and recursion. Thank the kind of follow the same rules the same pattern. Okay, so you have the bass cases. And then you ": [
+            1572.2,
+            1604.6,
+            39
+        ],
+        "Does anybody have a way to do this? OKC, okay, so we have a baby. CD if C is less than b. We need to be listening to be a b lesson C. How do I do this? Turn Max Mac on apartment 3B - McAfee. that work I guess I should say like let's do it like this. else return men of what was it men of BD? minus ": [
+            1957.3,
+            2023.0,
+            47
+        ],
+        "I don't know what that was. Okay, so, I don't know if that speaks to you or if if you get what I'm trying to communicate with that. The idea is that the recursive calls are the keys. Okay, so don't worry about how to get them. Just just know that they'll be behind the sign for you when you want them. Okay, then once you get them and you ": [
+            485.4,
+            516.2,
+            9
+        ],
+        "Max of AC plus one. Thank you. Okay. So the point here is just that this is a a constant time thing a constant time operation. You're just Do using the information about the endpoints. Not really what's inside so you don't really actually have to take the intersection and count of all the things. Okay. So now let's kind of look at something like an example K. What is ": [
+            2023.0,
+            2062.1,
+            48
+        ],
+        "N - 1 / 2 x to the N - 1 / 2 which is 2 to the N -1. So then you just got to add pee to itself you get to the end - 1 + 2 million - 1 is II to the end you guys could go through the details exercise. Let's quickly. I mean we kind of just went through kind of how it works. ": [
+            1546.2,
+            1572.2,
+            38
+        ],
+        "Oh, yeah. This is a non yet, huh? Oh, okay. Okay, so let's get these lights. Wright presentation we just see if I can get some sound on hear muted unmuted. Choose your output device. Okay, I hope this will work. Okay, so So today we're going to do is look at some divide and conquer examples, I'm going to try to share with you my processes and how I ": [
+            16.3,
+            201.1,
+            0
+        ],
+        "Then this is your high as y value here, but you don't even use it, right? I mean, there's like some weird edge cases that you really want to kind of do this circular thing to find them all but I don't know maybe you could start at the the top the the highest y values maybe that will get you kind of closer to what you mean, but Okay, ": [
+            1095.2,
+            1121.2,
+            26
+        ],
+        "a high-level idea of how to do it question. Yes. Cuz it's got to be convex. Here's another way to State the problem take all your points and think of them as like pins or like nails coming out of a board and take a big rubber band and put it all around the hole. The whole mess of points and then release it and then wherever it kind of ": [
+            872.8,
+            914.4,
+            21
+        ],
+        "about it as a continuous interval. If you like that better all the real numbers in between in either case the overlap between two intervals. Is there intersection? Given two intervals, how would you compute the length of their overlap? So I'll give you guys like maybe one or two minutes. How would you compute the length of the overlap of a b and c. Yeah for this for this ": [
+            1787.0,
+            1901.7,
+            45
+        ],
+        "and over to and so I sort it. So I those red and points are the left half and the blue and points are the right half. Good now, what do we get from the recursive calls? We got the length of the overlaps of each side so at this point while I'm designing it, I'm just going to write those things and I'm not going to try to algorithmically ": [
+            2477.9,
+            2512.0,
+            57
+        ],
+        "and so they went back in time and kidnapped a bunch of historical figures so that they can pass their history test. But what happened was all of the historical figures got thrown in jail for some reason and one of these guys Ted the guy in the right his dad is the sheriff of the of the town. So he has the keys to the jail. So they're trying ": [
+            389.7,
+            414.9,
+            6
+        ],
+        "bass case what happens if there's only one interval? return 0 good. Otherwise, we're going to split it up. Okay. So what I want you guys to do is talk maybe for like a minute or two. Talk about how you would want to split up this problem. country singer Josh Okay. What are you guys say? How do you guys want to split it up? And a half like ": [
+            2187.3,
+            2334.7,
+            53
+        ],
+        "be multiplying large numbers together. Okay, but we can use our new multiplication algorithm that we did from before. Let's just use the X karatsuba. That runs in Big O of n to the 1.5 something. Okay, so what's the problem will be useful in Computing to the end? Well, just like before you want your problem to kind of. Reduce in size by to instead of plugging an end ": [
+            1332.2,
+            1368.5,
+            33
+        ],
+        "but let's let's let's start talking about a divide-and-conquer algorithm. Okay. So before we dive in I kind of want to give a I want to try to solve this problem in like a Brute Force type of way just so that we have sort of a baseline algorithm. It's kind of a nice thing to do when you're designing something right because you can design The Brute Force it ": [
+            2092.2,
+            2118.7,
+            50
+        ],
+        "call the tent the top 10 gin in the bottom tangent. Okay, and what those are are just lines and they connect They connect these two points. Okay. Now, how did I get those lines while you guys if you like as an exercise, you can you can play around with how you would actually do that. You can do it in linear time. I'll give you sort of up ": [
+            842.3,
+            872.8,
+            20
+        ],
+        "compare every pair. Okay. So now I want you to come up with a more efficient algorithm to and square. Okay ready go. What you should you be using is the property that we've the way that we split it up is important here and use that use that to help gain your efficiency. tourism Are you ready? how to make sweet potato pie Azusa But I love you. okay ": [
+            2665.6,
+            2837.7,
+            63
+        ],
+        "compute them. Let's just kind of eyeball what they are. Okay, so it turns out that This is the ones we get among the red intervals. The biggest overlap is 13 and among the blue intervals. The biggest overlap is 9 write this comes from overlapping this guy with this guy, right and the red one comes from overlapping. this guy with this one, right? These two how do I ": [
+            2512.0,
+            2552.5,
+            58
+        ],
+        "convex holes of each side. Okay. These are the keys hiding behind the door. I don't know how they got there. They're just they're okay so that you get you get that information for free in the Innocence. And this might look daunting. And of course if you run the algorithm, it'll take some time cuz there's a there's a bunch of point there. But when you design it, don't ": [
+            729.6,
+            755.1,
+            17
+        ],
+        "copied them over and I drew the convex Hall. Okay. Now for this for this presentation, I'm not going to go into all the details of the algorithm. I'm just going to kind of give you a sense of where the how to design it. Where the where the where does the design inspiration come from? Okay. So before before you do that does not divide and conquer algorithm. It's ": [
+            567.0,
+            595.8,
+            12
+        ],
+        "cuts a bunch of them. So what does it really mean to cut it in half? How how would you? Describe it. So you like them? like this But that might cut part of the overlap rent. That picked up another two. Okay, good. I like that. Let's do that. So sorted by the starting time right or the left endpoint and then split it in half and over to ": [
+            2421.5,
+            2477.9,
+            56
+        ],
+        "design divide and conquer algorithms and you know, there's kind of like a little trick to it in anyway, and and there's sort of a a way that students sometimes students get caught up in and I'll try to go through that as we go but what I really want you guys to do when you design these things is only think one level down what I mean by that ": [
+            201.1,
+            226.6,
+            1
+        ],
+        "do it. But for now it's there. Okay, so The is there a way that we can use this information to create a convex Hull of all the points. How do you merge them? right That don't have it turning inward. So you would be basically threatening the talk. Okay, yeah. That's a good way to kind of. Imagine the putting them together you you connect them by what we ": [
+            778.6,
+            842.3,
+            19
+        ],
+        "does anybody have a an idea of how to approach this can you buddy get better than N squared all right do this as an exercise then Strength to talk about on Friday. I mean, I guess before you guys go at this point, we basically solve the problem. We haven't we have a working divide-and-conquer problem. What we're trying to do now is just get it to run more ": [
+            2837.7,
+            2908.2,
+            64
+        ],
+        "efficiently queso and sword the idea. Shrek well, I mean there's a way to get member this is like we can achieve this. By just comparing a repair, but I'm saying we can we can finish it off by comparing every red with every blue. But that's not really getting gaining any efficiency. So what I'm asking for you guys to do now to see if you can come up ": [
+            2908.2,
+            2962.4,
+            65
+        ],
+        "else we'll just do that. Okay. So these are the types of things. I like to think about when you when you build a divide-and-conquer algorithm compose your base case break the problem into smaller pieces recursively call the algorithm on the smaller pieces combine the results. So this is like the key. And this is like, okay go back in time. And put the key there. Okay, so composer ": [
+            2150.8,
+            2187.3,
+            52
+        ],
+        "get those? I don't really know yet. But let's just assume that I get them. Okay, so that's kind of like this recursive call. So you're overlapping on I mean you're calling your algorithm on these things and these are what you expect to get. Okay. Now what else must we consider? We know the biggest overlap among the red ones among the blue ones. What what do we need ": [
+            2552.5,
+            2580.5,
+            59
+        ],
+        "got time we could do it after the report. Change the thinking dude after the report with time travel back to 2 days ago still your Dad's keys and leave them here when we can't hear now. They'll be waiting for us. Oh, yeah, so I have to report we can't forget to do this. Otherwise, it won't happen, but it did happen. Come on. Okay. What is that? Okay. ": [
+            443.9,
+            485.4,
+            8
+        ],
+        "guys ever seen this movie Bill and Ted's Excellent Adventure? so I'll show you the clip that I'm talking about and then afterwards I'll try to kind of tell you why. It's inspiration for me and it it it speaks to me in when you're designing an algorithm a divide-and-conquer algorithm. Okay, so let's just see if hopefully the sound will work here. How do you get this thing to ": [
+            276.4,
+            315.6,
+            4
+        ],
+        "has kind of like around 3 and night and over three digits. Is that right? Basically end-times what's log base 10 of 2? like a third something Now it's a constant times an okay. So the size of to the end grows as and gross. Okay, so we can't treat multiplication as a single step here because if Aunt has a very large number really weird that we're going to ": [
+            1286.7,
+            1332.2,
+            32
+        ],
+        "have your induction argument induction hypothesis, basically my algorithms going to work. Basically, I know that I'm going to find the keys behind the sign right or I believe that I will And then you just make sure everything else works, right if n is even if it is odd. Okay. How long is this going to take? Well, we have one. recursive call we have this the non recursive ": [
+            1604.6,
+            1643.0,
+            40
+        ],
+        "hugs the outer Nails, that's the convex call. Okay. So one way to do this to kind of do this systematically. is 2 Will just start with the the top tangent you take the two closest point together, which would be these two. And you kind of do this step-by-step process where you you ghost you go? counterclockwise around the blue and reverse counterclockwise around the red. Continue kind of ": [
+            914.4,
+            963.7,
+            22
+        ],
+        "include all the points around and delete all these points from your answer. Right? So you basically merge the two subsets and you delete all those inner points. Paint which is also kind of a very quick process and then that's what you get you get that guy. So that's really all that's really as far as I'm going to go with this one. I'm not going to give you ": [
+            1148.8,
+            1178.4,
+            28
+        ],
+        "instead of wanting to avoid collisions or avoid overlaps. Now we want to find what is the greatest overlap between Pairs of intervals? Okay. What is the overlap well, but first, let's see. What is the interval you can think about it as a discrete interval in this case, which will just be 16 to 23 would be just all the integers from 16 to 23 or you can think ": [
+            1758.9,
+            1787.0,
+            44
+        ],
+        "is a good way to think to do it. Okay, so here's an example of convex Hull. So the problem is to you have a bunch of points in the plane. X Y coordinates and you want to you want to define the convex Hull of all the points? Convex Hull is defined to be the smallest polygon that contains all the points. So for these points here. I just ": [
+            540.0,
+            567.0,
+            11
+        ],
+        "is like for example merge sort if you split the list into two then what's the next thing you do? Well, if you say split into two again, you're not wrong, but if you go down that road that route you're going to get for when I if I do that I get very confused because then what do you do with those? Well, then you split all those into ": [
+            226.6,
+            251.3,
+            2
+        ],
+        "kind of jump from point-to-point until you until you make it out. I mean, this is a pretty simple. example so you're going to get to it after like to iterations but It's a little bit more complicated than that, but not much any questions. So the idea is so the first the first iteration would be okay. I'm choosing these two points and draw a line that goes I ": [
+            963.7,
+            1001.6,
+            23
+        ],
+        "might not be so efficient. But at least you have a working algorithm and you can maybe use it to test often, you know, it's a good idea as a design. So what's a simple solution for this? Test all pairs good calculator overlap between all pairs return the maximum of all the pairs. How long does it take? Okay, so hopefully our divide and conquer will beat that. Or ": [
+            2118.7,
+            2150.8,
+            51
+        ],
+        "need your note notes for this. And to the 1.58 it's just end to the D. got any questions that's that okay. So the last example we're going to do. Well, this is just what it is. That's fine. I kind of want us to do it together. Okay, so I'm going to be stopping a lot and having you guys really work on this. Okay, so maybe get out ": [
+            1689.5,
+            1732.3,
+            42
+        ],
+        "nice to get a bass case, right? So the bass case if there are three or fewer points than what is a convex Hull. Triangle right so it's the set of the points, right? Okay, so you have three points. The convex Hull is just the triangle guy. So if And is equal to 3 return? X1 y1 X2 Y2 and X 3y 3 They say you actually return the ": [
+            595.8,
+            631.9,
+            13
+        ],
+        "of like a very high-level presentation. So the real way you would do this would be to sort them by their x-values right and then divide it that way so you divide it in the middle now. What's the next kind of Step of a design of a divide-and-conquer algorithm? Don't say split it again. Rehearse, right. So what do you expect to get out of the recursive call? Two ": [
+            690.9,
+            729.6,
+            16
+        ],
+        "of piece of paper or have a have a neighbor get out of piece of paper and I really want us to Design This Together. Keep all the things in mind. Okay. So here's the idea you're given a list of intervals or you can think about them as like a vents right is the same kind of input that we've seen before for like those greedy algorithms. But now ": [
+            1732.3,
+            1758.9,
+            43
+        ],
+        "one. This is in a this is not the divided conquer part. Really what I want you guys to do is come up with it a simple formula. Of how to compute them. Maybe you could do now I wouldn't do this because you want the formula for this to be a constant. I'm thing. You don't want to depend on the link and it's possible to do that. Okay. ": [
+            1901.7,
+            1957.3,
+            46
+        ],
+        "part. Takes big O of n to the 1.58 time. And so this will be our recursion plug that into the master theorem you get what? a is equal to B is equal to 2 G is equal to So which case is it it's a is less than b to the D. And so that what is the total time T of n is Big O of you guys ": [
+            1643.0,
+            1689.5,
+            41
+        ],
+        "set of points that Define the hall. Okay, so here's the Divide step. How we going to divide the points? I saw you like a a general rule of thumb. When you're doing these kind of algorithms is just divided in half and try it out most of the time that's like the best way to do it. We've seen a few examples where there are more kind of interesting ": [
+            631.9,
+            661.8,
+            14
+        ],
+        "so let's finish this off. So we get those tangents by doing that thing you can imagine if it's a linear time. Algorithm, it's actually going to be like a lot less than linear because the convex Hull is going to be a small subset of the set of points. But at most it'll be linear. And then what you do is you basically just include you just kind of ": [
+            1121.2,
+            1148.8,
+            27
+        ],
+        "so let's think about what kind of information we have. and use that to to combine these things Okay, so What I want you guys to do now is come up with an efficient way to determine the greatest overlap of intervals or one is red. And the other is blue when I say efficient. This has got to be better than in squared because of it is and squared ": [
+            2610.0,
+            2639.1,
+            61
+        ],
+        "sort of The sort of idea of using information that you don't even know how to obtain. Okay, so let's move on. Okay, here's kind of a simple algorithm. I want to basically input a number an integer n and I wanted to Output the two to the power end. So In decimal trivial if you wanted to do it in binary. Okay, so remember that 2 to the N ": [
+            1244.4,
+            1286.7,
+            31
+        ],
+        "step to figure out what is the biggest overlap among intervals from either half Is going to take maybe and squared time cuz you have to compare every pair. Compare and over to intervals with n over to other ones. Okay. So what maybe let's split up in the more orderly way. Maybe that's why. Okay, where do I cut the line? by these numbers so 30 but then it ": [
+            2377.7,
+            2421.5,
+            55
+        ],
+        "the code in the you can you guys can do that as exercise if you like any questions? So before we move on I want to reiterate something about this whole thing which relates to Bill and Ted and kind of the design aspect. Remember this step is that we have the green or the red and the blue polygons and we use those to get those tangent points. But ": [
+            1178.4,
+            1215.9,
+            29
+        ],
+        "the greatest overlap of these intervals 45 250 717-250-1029. So of course, this is not going to be easy to do just by looking at them, right so Just so we can get like a more clear picture of what we're dealing with. I drew those intervals. Okay. Now if there's there's a few intervals here, you could probably figure out what's the biggest overlap just by kind of looking ": [
+            2062.1,
+            2092.2,
+            49
+        ],
+        "this. Like the first set of intervals in the second set. You don't like that. Why not? Yeah, we're going to run into problems here cuz it's not that bad or something is wrong or won't work. It certainly will work. We get the intervals and the top half and the the biggest overlap in the top half because overlapping the bottom half but then when you do your combined ": [
+            2334.7,
+            2377.7,
+            54
+        ],
+        "threw them right if this line crosses either of the polygons, then you know that it's not a tangent cuz it's an agent has to like has to not cross a tall guy. So now I see that it crosses the blue one. So, you know it already up and then you have kind of these two points. Now this new line doesn't cross the blue one anymore. So now ": [
+            1001.6,
+            1029.5,
+            24
+        ],
+        "to break out all the prisoners all of the historical figures, but they don't have the key. Okay. So this is the way that they solve this problem is the way I think about solving Dynamic divide-and-conquer algorithm. I ready. Skis could stealing but he lost a few days ago. Or you can come back in China when he had them and stealing that. So what can we sing? Don't ": [
+            414.9,
+            443.9,
+            7
+        ],
+        "to know now? Right, if there's one that comes from the red and one that comes from the blue, maybe that could be bigger. Okay, so that's sort of the combined step in this case. So that's kind of what I say here the greatest overlap overall, maybe contain entirely in one sub list the red or the blue or be an overlap of one interval from either side. Okay, ": [
+            2580.5,
+            2610.0,
+            60
+        ],
+        "two and then you put all those in the to all the way down instead. What I would like for you to do is think about only one level deep split into two then rehearse. Frank and have faith that the algorithm will give you what you want. So I was always thinking about this lesson. It reminded me of this scene from a movie that I like. Have you ": [
+            251.3,
+            276.4,
+            3
+        ],
+        "ways to divide. For example, when we did the selection we kind of divided by using a pivot like quicksort the fast Fourier transform kind of Like unzipped it and divided it that way the cook to Niagara them divided into more than two things, but in general we just divide it in half, okay. so let's just divide it right down the middle. And remember this is just kind ": [
+            661.8,
+            690.9,
+            15
+        ],
+        "we'll we'll kind of rotate around the red one until you find a place kind of fun. principal thing will it always work in two dimensions? Well, what if you had like? How points that are the same. You still need to rotate around. but what if you had like this is one of your let's go like this. This is one. And then the other one looks like this. ": [
+            1029.5,
+            1091.1,
+            25
+        ],
+        "what happens when you plug in an over to that's kind of the idea. Okay, but don't forget your base cases if any of zero return was returned to no big deal. Otherwise split the problem in half. Okay, so I'm going to name my algorithm pot power of 2 of end gives you to the end in binary. So what does p o t of n over to give ": [
+            1368.5,
+            1392.2,
+            34
+        ],
+        "where did those polygons come from in the kind of? As a designer, you just say you get them you have faith that they're going to be there and it's it's kind of like this magical thing because we're using something that we don't even know how to get yet. And if any of you went to discussion and did the closest pair of points that also has this this ": [
+            1215.9,
+            1244.4,
+            30
+        ],
+        "with get a better gain a better efficiency. Tacos the most to the to the flu and ask for and then we find the endpoint and that's where the glue that's before that and for the endpoint. We see you how long I find a llama. I love how long is that going to take? right That's right. ": [
+            2962.4,
+            2994.6,
+            66
+        ],
+        "work? Do I connect disconnect that thing? I know what I can do. I could just use the microphone to Duet, okay, that's fine. Okay, where's the speaker come out of this thing? Okay. When you come back in China when he had them and stealing that. I need to tell you what's happening in the movie. Sorry. Okay, so these guys they got their hands on a time machine ": [
+            315.6,
+            389.7,
+            5
+        ],
+        "worry about all the points only worried about what the result of the recursive call will be. How did I get that stuff? Honestly, I haven't even figured out how to get it yet. I'm just assuming that I'm going to get it somehow. I'm assuming that after my report is done. I'm going to get back into my time machine go back in time and figure out how to ": [
+            755.1,
+            778.6,
+            18
+        ],
+        "would ever break out the the prisoners just make sure to go back and make sure you put it back there. Right? So think about it as like this time-travel kind of thing or at least that's how I do it. You guys can do it your own way. Okay. I'll try to What will go through some examples and I'll give you a sense of why I think this ": [
+            516.2,
+            540.0,
+            10
+        ],
+        "you write out your recurrence. and you got T of n is equal to 2 T of n / 2 + Big O of N squared you do the master theorem. And you get T of n is big old and squared. Okay, so you haven't really saved anything by doing it that way and you all can come up with and squared algorithm to do this, right? You just ": [
+            2639.1,
+            2665.6,
+            62
+        ],
+        "you? I'm sorry, this is Chippy decimal. What does this give you? 2 and -1 closed in decimal, but To the end over to good. Okay. How do you know for sure that that p o t of n / 2 is going to give you to the end / 2 in decimal? right Perfect. Thank you. You really don't honestly, you don't know for sure. You're just going to ": [
+            1392.2,
+            1465.4,
+            35
+        ]
+    },
+    "File Name": "Design___Analysis_of_Algorithm___A00___Jones__Miles_E___Winter_2019-lecture_18.flac",
+    "Full Transcript": "Oh, yeah. This is a non yet, huh?  Oh, okay.  Okay, so let's get these lights.  Wright presentation  we just see if I can get some sound on hear muted unmuted.  Choose your output device.  Okay, I hope this will work.  Okay, so  So today we're going to do is look at some divide and conquer examples, I'm going to try to share with you my  processes and how I design divide and conquer algorithms and you know, there's kind of like a little trick to it in anyway, and and there's sort of a  a way that students sometimes students get caught up in and I'll try to go through that as we go but what I really want you guys to do when you design these things is only think one level down what I mean by that is like for example merge sort  if you split the list into two then what's the next thing you do?  Well, if you say split into two again, you're not wrong, but if you go down that road that route you're going to get for when I if I do that I get very confused because then what do you do with those? Well, then you split all those into two and then you put all those in the to all the way down instead. What I would like for you to do is think about only one level deep split into two then rehearse.  Frank and have faith that the algorithm will give you what you want.  So I was always thinking about this lesson. It reminded me of this scene from a movie that I like. Have you guys ever seen this movie Bill and Ted's Excellent Adventure?  so  I'll show you the clip that I'm talking about and then afterwards I'll try to kind of tell you why.  It's inspiration for me and it it it speaks to me in when you're designing an algorithm a divide-and-conquer algorithm. Okay, so let's just see if hopefully the sound will work here.  How do you get this thing to work?  Do I connect disconnect that thing?  I know what I can do. I could just use the microphone to  Duet, okay, that's fine.  Okay, where's the speaker come out of this thing?  Okay.  When you come back in China when he had them and stealing that.  I need to tell you what's happening in the movie. Sorry.  Okay, so these guys they got their hands on a time machine and so they went back in time and kidnapped a bunch of historical figures so that they can pass their history test. But what happened was all of the historical figures got thrown in jail for some reason and one of these guys Ted the guy in the right his dad is the sheriff of the of the town. So he has the keys to the jail. So they're trying to break out all the prisoners all of the historical figures, but they don't have the key. Okay. So this is the way that they solve this problem is the way I think about solving Dynamic divide-and-conquer algorithm.  I ready.  Skis could stealing but he lost a few days ago.  Or you can come back in China when he had them and stealing that.  So what can we sing? Don't got time we could do it after the report.  Change the thinking dude after the report with time travel back to 2 days ago still your Dad's keys and leave them here when we can't hear now. They'll be waiting for us.  Oh, yeah, so I have to report we can't forget to do this. Otherwise, it won't happen, but it did happen. Come on.  Okay.  What is that? Okay. I don't know what that was. Okay, so, I don't know if that speaks to you or if if you get what I'm trying to communicate with that.  The idea is that the recursive calls are the keys. Okay, so don't worry about how to get them. Just just know that they'll be behind the sign for you when you want them. Okay, then once you get them and you would ever break out the the prisoners just make sure to go back and make sure you put it back there. Right? So think about it as like this time-travel kind of thing or at least that's how I do it. You guys can do it your own way. Okay. I'll try to  What will go through some examples and I'll give you a sense of why I think this is a good way to think to do it. Okay, so here's an example of convex Hull. So the problem is to you have a bunch of points in the plane.  X Y coordinates and you want to you want to define the convex Hull of all the points?  Convex Hull is defined to be the smallest polygon that contains all the points. So for these points here. I just copied them over and I drew the convex Hall. Okay. Now for this for this presentation, I'm not going to go into all the details of the algorithm. I'm just going to kind of give you a sense of where the how to design it. Where the where the where does the design inspiration come from? Okay.  So before before you do that does not divide and conquer algorithm. It's nice to get a bass case, right? So the bass case if there are three or fewer points than what is a convex Hull.  Triangle right so it's the set of the points, right? Okay, so  you have three points.  The convex Hull is just the triangle guy. So if  And is equal to 3 return?  X1 y1 X2 Y2 and X 3y 3  They say you actually return the set of points that Define the hall.  Okay, so here's the Divide step.  How we going to divide the points?  I saw you like a a general rule of thumb.  When you're doing these kind of algorithms is just divided in half and try it out most of the time that's like the best way to do it. We've seen a few examples where there are more kind of interesting ways to divide. For example, when we did the selection we kind of divided by using a pivot like quicksort the fast Fourier transform kind of  Like unzipped it and divided it that way the cook to Niagara them divided into more than two things, but in general we just divide it in half, okay.  so  let's just divide it right down the middle. And remember this is just kind of like a very high-level presentation. So the real way you would do this would be to sort them by their x-values right and then divide it that way so you divide it in the middle now.  What's the next kind of Step of a design of a divide-and-conquer algorithm?  Don't say split it again.  Rehearse, right. So what do you expect to get out of the recursive call?  Two convex holes of each side. Okay. These are the keys hiding behind the door. I don't know how they got there. They're just they're okay so that you get you get that information for free in the Innocence.  And this might look daunting. And of course if you run the algorithm, it'll take some time cuz there's a there's a bunch of point there. But when you design it, don't worry about all the points only worried about what the result of the recursive call will be.  How did I get that stuff? Honestly, I haven't even figured out how to get it yet. I'm just assuming that I'm going to get it somehow. I'm assuming that after my report is done. I'm going to get back into my time machine go back in time and figure out how to do it. But for now it's there.  Okay, so  The is there a way that we can use this information to create a convex Hull of all the points.  How do you merge them?  right  That don't have it turning inward. So you would be basically threatening the talk.  Okay, yeah.  That's a good way to kind of.  Imagine the putting them together you you connect them by what we call the tent the top 10 gin in the bottom tangent. Okay, and what those are are just lines and they connect  They connect these two points.  Okay. Now, how did I get those lines while you guys if you like as an exercise, you can you can play around with how you would actually do that. You can do it in linear time. I'll give you sort of up a high-level idea of how to do it question.  Yes.  Cuz it's got to be convex.  Here's another way to State the problem take all your points and think of them as like pins or like nails coming out of a board and take a big rubber band and put it all around the hole.  The whole mess of points and then release it and then wherever it kind of hugs the outer Nails, that's the convex call.  Okay. So one way to do this to kind of do this systematically.  is 2  Will just start with the the top tangent you take the two closest point together, which would be these two.  And you kind of do this step-by-step process where you you ghost you go?  counterclockwise  around the blue  and reverse counterclockwise around the red.  Continue kind of kind of jump from point-to-point until you until you make it out. I mean, this is a pretty simple.  example so you're going to get to it after like to iterations but  It's a little bit more complicated than that, but not much any questions.  So the idea is so the first the first iteration would be okay. I'm choosing these two points and draw a line that goes  I threw them right if this line crosses either of the polygons, then you know that it's not a tangent cuz it's an agent has to like has to not cross a tall guy. So now I see that it crosses the blue one. So, you know it already up and then you have kind of these two points.  Now this new line doesn't cross the blue one anymore. So now we'll we'll kind of rotate around the red one until you find a place kind of fun.  principal thing  will it always work in two dimensions?  Well, what if you had like?  How points that are the same.  You still need to rotate around.  but what if you had like  this is one of your  let's go like this.  This is one.  And then the other one looks like this.  Then this is your high as y value here, but you don't even use it, right?  I mean, there's like some weird edge cases that you really want to kind of do this circular thing to find them all but I don't know maybe you could start at the the top the the highest y values maybe that will get you kind of closer to what you mean, but  Okay, so let's finish this off. So we get those tangents by doing that thing you can imagine if it's a linear time.  Algorithm, it's actually going to be like a lot less than linear because the convex Hull is going to be a small subset of the set of points. But at most it'll be linear.  And then what you do is you basically just include you just kind of include all the points around and delete all these points from your answer. Right? So you basically merge the two subsets and you delete all those inner points.  Paint which is also kind of a very quick process and then that's what you get you get that guy. So  that's really all that's really as far as I'm going to go with this one. I'm not going to give you the code in the you can you guys can do that as exercise if you like any questions?  So before we move on I want to reiterate something about this whole thing which relates to Bill and Ted and kind of the design aspect.  Remember this step is that we have the green or the red and the blue polygons and we use those to get those tangent points. But where did those polygons come from in the kind of?  As a designer, you just say you get them you have faith that they're going to be there and it's it's kind of like this magical thing because we're using something that we don't even know how to get yet. And if any of you went to discussion and did the closest pair of points that also has this this sort of  The sort of idea of using information that you don't even know how to obtain.  Okay, so let's move on. Okay, here's kind of a simple algorithm. I want to basically input a number an integer n and I wanted to Output the two to the power end. So  In decimal trivial if you wanted to do it in binary. Okay, so remember that  2 to the N has  kind of like around 3 and night and over three digits. Is that right?  Basically end-times what's log base 10 of 2?  like a third  something  Now it's a constant times an okay. So the size of to the end grows as and gross. Okay, so we can't treat multiplication as a single step here because if Aunt has a very large number really weird that we're going to be multiplying large numbers together.  Okay, but we can use our new multiplication algorithm that we did from before. Let's just use the X karatsuba.  That runs in Big O of n to the 1.5 something.  Okay, so what's the problem will be useful in Computing to the end?  Well, just like before you want your problem to kind of.  Reduce in size by to instead of plugging an end what happens when you plug in an over to that's kind of the idea.  Okay, but don't forget your base cases if any of zero return was returned to no big deal. Otherwise split the problem in half. Okay, so I'm going to name my algorithm pot power of 2 of end gives you to the end in binary. So what does p o t of n over to give you?  I'm sorry, this is Chippy decimal.  What does this give you?  2 and -1 closed  in decimal, but  To the end over to good.  Okay.  How do you know for sure that that p o t of n / 2 is going to give you to the end / 2 in decimal?  right  Perfect. Thank you. You really don't honestly, you don't know for sure. You're just going to  Assume that your algorithm works just like all this other kind of stuff.  okay, so here's here's the algorithm and I have it so that it  works for any even and odd so I take the floor of an over to this will give you two to the floor and over to  okay, I x karatsuba p with itself basically Square it right and so  if n is even  then  Andover to is actually equal to n over 2 and in that case p is equal to  2 to the N / 2  * 2 to the N / 2  which is equal to 2 to the end, so that's good.  and  if n is odd  then and over to floor is actually equal to n minus 1/2. And in that case p is equal to 2 to the / N - 1 / 2 x to the N - 1 / 2 which is 2 to the N -1. So then you just got to add pee to itself you get to the end - 1 + 2 million - 1 is II to the end you guys could go through the details exercise.  Let's quickly. I mean we kind of just went through kind of how it works. But notice that going through how it works. We sort of are.  Justifying why it why it works. So you'll often see that the runt the correctness proofs of divide and conquer algorithm are pretty straightforward. It's it's a straightforward kind of induction argument because remember induction and recursion. Thank the kind of follow the same rules the same pattern. Okay, so you have the bass cases.  And then you have your induction argument induction hypothesis, basically my algorithms going to work. Basically, I know that I'm going to find the keys behind the sign right or I believe that I will  And then you just make sure everything else works, right if n is even if it is odd.  Okay.  How long is this going to take? Well, we have one.  recursive call  we have this the non recursive part.  Takes big O of n to the 1.58 time.  And so this will be our  recursion plug that into the master theorem you get what?  a is equal to  B is equal to  2 G is equal to  So which case is it it's a is less than b to the D. And so that what is the total time T of n is Big O of  you guys need your note notes for this.  And to the 1.58 it's just end to the D.  got any questions  that's that  okay. So the last example we're going to do.  Well, this is just what it is. That's fine. I kind of want us to do it together. Okay, so I'm going to be stopping a lot and having you guys really work on this. Okay, so maybe get out of piece of paper or have a have a neighbor get out of piece of paper and I really want us to Design This Together. Keep all the things in mind. Okay. So here's the idea you're given a list of intervals or you can think about them as like a vents right is the same kind of input that we've seen before for like those greedy algorithms.  But now instead of wanting to avoid collisions or avoid overlaps. Now we want to find what is the greatest overlap between Pairs of intervals?  Okay. What is the overlap well, but first, let's see. What is the interval you can think about it as a discrete interval in this case, which will just be 16 to 23 would be just all the integers from 16 to 23 or you can think about it as a continuous interval. If you like that better all the real numbers in between in either case the overlap between two intervals. Is there intersection?  Given two intervals, how would you compute the length of their overlap? So  I'll give you guys like maybe one or two minutes. How would you compute the length of the overlap of a b and c.  Yeah for this for this one. This is in a this is not the divided conquer part.  Really what I want you guys to do is come up with it a simple formula.  Of how to compute them.  Maybe you could do now I wouldn't do this because you want the formula for this to be a constant. I'm thing. You don't want to depend on the link and it's possible to do that.  Okay. Does anybody have a way to do this?  OKC, okay, so we have a baby.  CD  if C is less than b.  We need to be listening to be a b lesson C.  How do I do this?  Turn Max Mac on apartment 3B - McAfee.  that work  I guess I should say like let's do it like this.  else return  men of what was it men of BD?  minus Max of AC  plus one. Thank you.  Okay. So the point here is just that this is a a constant time thing a constant time operation. You're just  Do using the information about the endpoints. Not really what's inside so you don't really actually have to take the intersection and count of all the things.  Okay. So now let's kind of look at something like an example K. What is the greatest overlap of these intervals 45 250 717-250-1029. So of course, this is not going to be easy to do just by looking at them, right so  Just so we can get like a more clear picture of what we're dealing with. I drew those intervals. Okay. Now if there's there's a few intervals here, you could probably figure out what's the biggest overlap just by kind of looking but let's let's let's start talking about a divide-and-conquer algorithm. Okay. So before we dive in I kind of want to give a I want to try to solve this problem in like a Brute Force type of way just so that we have sort of a baseline algorithm. It's kind of a nice thing to do when you're designing something right because you can design The Brute Force it might not be so efficient. But at least you have a working algorithm and you can maybe use it to test often, you know, it's a good idea as a design.  So what's a simple solution for this?  Test all pairs good calculator overlap between all pairs return the maximum of all the pairs. How long does it take?  Okay, so hopefully our divide and conquer will beat that.  Or else we'll just do that.  Okay. So these are the types of things. I like to think about when you when you build a divide-and-conquer algorithm compose your base case break the problem into smaller pieces recursively call the algorithm on the smaller pieces combine the results.  So this is like the key.  And this is like, okay go back in time.  And put the key there.  Okay, so composer bass case what happens if there's only one interval?  return  0  good. Otherwise, we're going to split it up.  Okay. So what I want you guys to do is talk maybe for like a minute or two.  Talk about how you would want to split up this problem.  country singer Josh  Okay. What are you guys say? How do you guys want to split it up?  And a half like this.  Like the first set of intervals in the second set.  You don't like that.  Why not?  Yeah, we're going to run into problems here cuz it's not that bad or something is wrong or won't work. It certainly will work. We get the intervals and the top half and the the biggest overlap in the top half because overlapping the bottom half but then when you do your combined step to figure out what is the biggest overlap among intervals from either half  Is going to take maybe and squared time cuz you have to compare every pair.  Compare and over to intervals with n over to other ones. Okay. So what maybe let's split up in the more orderly way.  Maybe that's why.  Okay, where do I cut the line?  by these numbers  so 30  but then it cuts a bunch of them. So what does it really mean to cut it in half? How how would you?  Describe it.  So you like them?  like this  But that might cut part of the overlap rent.  That picked up another two.  Okay, good. I like that. Let's do that. So sorted by the starting time right or the left endpoint and then split it in half and over to and over to and so I sort it. So I those red and points are the left half and the blue and points are the right half.  Good now, what do we get from the recursive calls?  We got the length of  the overlaps of each side  so at this point while I'm designing it, I'm just going to write those things and I'm not going to try to  algorithmically compute them. Let's just kind of eyeball what they are. Okay, so it turns out that  This is the ones we get among the red intervals. The biggest overlap is 13 and among the blue intervals. The biggest overlap is  9 write this comes from overlapping  this guy with this guy, right and the red one comes from overlapping.  this guy  with this one, right?  These two how do I get those? I don't really know yet. But let's just assume that I get them.  Okay, so that's kind of like this recursive call. So you're overlapping on I mean you're calling your algorithm on these things and these are what you expect to get. Okay. Now what else must we consider?  We know the biggest overlap among the red ones among the blue ones. What what do we need to know now?  Right, if there's one that comes from the red and one that comes from the blue, maybe that could be bigger. Okay, so that's sort of the combined step in this case.  So that's kind of what I say here the greatest overlap overall, maybe contain entirely in one sub list the red or the blue or be an overlap of one interval from either side.  Okay, so let's think about what kind of information we have.  and use that to to combine these things Okay, so  What I want you guys to do now is come up with an efficient way to determine the greatest overlap of intervals or one is red. And the other is blue when I say efficient.  This has got to be better than in squared because of it is and squared you write out your recurrence.  and you got  T of n is equal to  2 T of n / 2 + Big O of N squared you do the master theorem. And you get T of n is big old and squared. Okay, so you haven't really saved anything by doing it that way and you all can come up with and squared algorithm to do this, right? You just compare every pair. Okay. So now I want you to come up with a more efficient algorithm to and square. Okay ready go.  What you should you be using is the property that we've the way that we split it up is important here and use that use that to help gain your efficiency.  tourism  Are you ready?  how to make sweet potato pie  Azusa  But I love you.  okay does anybody have a an idea of how to approach this  can you buddy get better than N squared  all right do this as an exercise then  Strength to talk about on Friday.  I mean, I guess before you guys go at this point, we basically solve the problem. We haven't we have a working divide-and-conquer problem. What we're trying to do now is just get it to run more efficiently queso and sword the idea.  Shrek well, I mean there's a way to get member this is like we can achieve this.  By just comparing a repair, but I'm saying we can we can finish it off by comparing every red with every blue.  But that's not really getting gaining any efficiency. So what I'm asking for you guys to do now to see if you can come up with get a better gain a better efficiency.  Tacos the most to the to the flu and ask for and then we find the endpoint and that's where the glue that's before that and for the endpoint. We see you how long I find a llama.  I love how long is that going to take?  right  That's right. "
+}
