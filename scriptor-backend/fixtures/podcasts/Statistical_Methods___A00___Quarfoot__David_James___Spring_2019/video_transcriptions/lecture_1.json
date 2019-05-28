@@ -1,0 +1,596 @@
+{
+    "Blurbs": {
+        "14 minutes wasted. Hey. Welcome to data. So if you're in our or any other piece of software usually data is organized and something called a dataframe or date of Matrix. So here's an example of one. Now. What's going on here is this is a bunch of data that's about emails that came into some human being and their 50 emails and the different 50 are forming the rose ": [
+            867.3, 
+            895.3, 
+            35
+        ], 
+        "4.6 5% of the time. In fact that feels about right to me when I send out emails to go to one person. I don't usually attach things. That's actually quite rare. Okay. Now let's look at things emails are going out to lots of people. That's the next column over the column where it's a 1-under multiple people. So we only have seven emails here and one of the ": [
+            1760.5, 
+            1782.7, 
+            71
+        ], 
+        "I don't know how he does a 01 year. I had someone with a hundred and twenty and we all thought it was Troll and then the sooner he's our hands like that's me. I'm an RA. I texted all my IRA people to wish them a good start of the quarter. So you have to be careful when you make choices on the data. I agreed with all of ": [
+            2434.1, 
+            2457.6, 
+            96
+        ], 
+        "I need things to feel like numeric data. So I probably just went to your phone now. It's asking you now you type in your number then you send it to me then it shows up in real time on my computer. In 30 seconds, we can have a hundred responses if we want. You want to see what people are doing? Here's what people are doing. You notice how ": [
+            2027.2, 
+            2063.2, 
+            82
+        ], 
+        "If you want to make a bar chart, then you can do that. So in our what are plot and used to wrap that around the table that you just created and it will visualize the table by lifting up the numbers into a vertical dimension. Do you like that better? Is it prettier? So there's a huge argument in intellectual communities about whether the table in the left is ": [
+            1548.3, 
+            1572.0, 
+            63
+        ], 
+        "It just has to be any pattern that's recognizable in the dots doesn't have to be straight line or could be a quadratic would be some sine function. Okay, if you don't see any sort of pattern, it just looks like pennies thrown off the Empire State Building that have landed on the ground. Total Randomness all over and then you say that the variables independent they have no association. ": [
+            2993.4, 
+            3014.3, 
+            115
+        ], 
+        "It takes a large number of human beings make a class like this work at 5 to yeas one instructor 2 or 3 graders. All of these people are on time systems certain numbers of hours per week. It's very complicated to go and try to do a bunch of work late on these people and they don't really have the time do they have to move forward and do ": [
+            534.9, 
+            556.1, 
+            23
+        ], 
+        "Maybe you've heard of its related to python. These are the two major pieces of soccer right now. They're used a lot of academics will use our it was born out of the academic Community a lot of business people use python. Okay. Now the decision of like which is better is a wrong-headed question. Okay for almost everyone in the world are in Python are equivalent because most people ": [
+            723.8, 
+            748.1, 
+            30
+        ], 
+        "Morning, everyone. Can you hear me in the back? You can good. So good morning. This is math 183. My name is David quarfoot. We are having some technological problem. So we'll do this old school until people come help fix this. And then we will go back to new school after that. So anyhow, I'm an assistant teaching Professor. So most of my life here is spent teaching and ": [
+            14.9, 
+            42.4, 
+            0
+        ], 
+        "Okay, and finally you at the ideas of outliers in two Dimensions. It's the same thing that stands apart from the overall trend that you are seeing in the date off bag subjective. Okay, no one's going to beat you up for calling something an outlier that isn't they can just disagree. So we are all out of time. You should look at the rest of the slides before next ": [
+            3016.6, 
+            3040.4, 
+            116
+        ], 
+        "Okay, so we've done it hears our histogram want to make it prettier and bigger we can do that too Now it shows some Benning structure. And it tries to do a good job based on what's going on in the dataset, but it's possible to change the bidding structure. That's a little more dancing will do right now, but you can see most of you have texted basically no ": [
+            2355.7, 
+            2378.9, 
+            93
+        ], 
+        "So this is what it sees in the file. And here's how it's going to try to structure it then it's a boring dataframe. It's a dataframe with one column. It's like a trivial dataframe. Okay. Now that shows a very stupid name for the dataframe. It's violated right here and here you can see it writing code to read it in. So why don't we choose a slightly easier ": [
+            2270.7, 
+            2292.3, 
+            90
+        ], 
+        "So this our first example of code in our write this in the middle of a PowerPoint presentation you write it in our studio ports it over to our and make stuff happen. So right here emails is the name of the dataframe or Matrix and I named it that when I brought it into the computer program use a dollar sign to say I'd like to get at a ": [
+            1482.7, 
+            1505.0, 
+            60
+        ], 
+        "So we'll get into this later when you have to start thinking about populations and samples are drawn from them. So there's a little on how you display and think about categorical data now numerical data. So here is an actual data sets of how much I spend when I go to Chipotle on a bunch of different visits. You probably go to Chipotle and recognize that these are quite ": [
+            1816.9, 
+            1839.9, 
+            73
+        ], 
+        "Sorry, this is numeric not categorical people. Now. We have to be careful to see if there are any negative values. We didn't get any of that kind of trolling this time around now. I'm going to go save this. save as let's browse around and go put it on the desktop. Now when you're doing this, you have to decide on a style I'm going to do a CSV ": [
+            2165.7, 
+            2195.5, 
+            86
+        ], 
+        "a blank then where nothing fell into it. It's hard for me to spend between 13 and $14 at Chipotle giving the kinds of things. I ordered. That's all this means. Okay, when you're doing the bins, you have to make sure you define some inequalities smartly. So how about we use less than or equal to for the left side of the bin and strict less than for the ": [
+            1939.0, 
+            1958.3, 
+            78
+        ], 
+        "a calculator and if you want to practice on it, this would be a very wise idea. Okay. I think it's time to start doing actual material. Maybe the computer will work. Okay, so we're going to be old school for a while longer parent Lee. I probably taught over a thousand times in rooms like this. And never once has this happened. interesting materials for the course So one ": [
+            613.1, 
+            659.7, 
+            26
+        ], 
+        "about. Now number of sibling. This is an example of something that feels like a discrete numerical variable. You can't have one in 1/3 kids, right? But here I haven't let it flow out and be its number Ness. I Taken 3 and everything above and expanded into a bin called tree Plus. So suddenly there's a finite number of categories into which things could fall and they don't have ": [
+            1433.4, 
+            1459.6, 
+            58
+        ], 
+        "and a half Stones. So maybe I can't achieve this in between between $0.02 and $0.03. But it's basically smooth in terms of our experience almost any price could come up at Chipotle depending on the local taxes and all this other stuff at wherever you are. Okay. So how do you display something that could have infinitely many possibilities you don't have categories anymore to put along the horizontal ": [
+            1865.4, 
+            1890.5, 
+            75
+        ], 
+        "and then you can do things that can be multiple choice questions. You can send me a text message response. You can be true false whatever and then it all send it back in real time and we can collect your data in real-time this way. Which is kind of fun to use your actual data and everyone can have a voice even in a large class like this. So ": [
+            293.2, 
+            314.2, 
+            12
+        ], 
+        "and we've got to clean it up. If you want to be a data scientist, which is probably some of the people in the room you were going to spend a lot of your life cleaning data. Sorry. Text E's. Now, let's start making decisions about cleaning. What would you like to do with 2300? Okay, someone wants to delete will delete it 5:20. You want to delete okay, if ": [
+            2089.1, 
+            2125.8, 
+            84
+        ], 
+        "and you'll be better situated to understand the differences between all of these they're forming windows in rstudio up in the left. You can see dataframes ardata matrices here is where you can write code or you can write scripts up here that have lots of code in them. For example, he was a script of code of me doing something for some other class. Okay. So anyhow, let's just ": [
+            2223.9, 
+            2248.4, 
+            88
+        ], 
+        "another example height is something that you might think is bimodal, but actually it all Blues together into one hub. Surprisingly what other things like blood pressure has two humps. Finally you could have lots of pumps or more than 2 and we get tired of enumerating them. So we just a multi for three or more words. Those are easy and not just about the hump business. Sorry that ": [
+            2534.8, 
+            2565.9, 
+            100
+        ], 
+        "another four seems like a waste of time to me. Anyhow big things you want to start the first homework, this is going to make sure you can do the pipeline solve scan and upload and you should also get going on all the logistical nonsense that starts every class. Okay, we're ready to start meal things now. I love material. Let's not waste a bunch of time with Logistics ": [
+            842.4, 
+            867.3, 
+            34
+        ], 
+        "appeared. That's what viagra's measuring number of times. Okay, then we have continuous. So this is any kind of data where it's a smooth range of possibility and basically anything kudick could occur from that range. So for example the time at which the email was sent. Okay that person when they hit the send button it could have happened in any time this night smooth interval. If you believe ": [
+            1058.5, 
+            1085.2, 
+            43
+        ], 
+        "are numeric. Why can't everything be easy in life, right. So area codes are nice example. These look like numbers but they don't act like numbers you can add to area codes and get another area code. 8619 + 619 is way too big to be in area code for example conversely not all numeric variables will look like number so it's not a perfect relationship times may be encoded ": [
+            1257.6, 
+            1286.0, 
+            51
+        ], 
+        "are outliers. Does anyone disagree? People disagree with you. Does anyone disagree with the forties being outliers? You also disagree? Okay. So you see it's like controversial eventually. We'll have a more precise way to do this. So people can stop arguing about definitions and they can just go apply definitions about what makes something an outlier, but we're not there yet. Okay to bury myself 2 minutes. I want ": [
+            2883.3, 
+            2913.5, 
+            111
+        ], 
+        "are some examples of discrete data here. You can see the number of attached files. Just think about what values you could take on 0 1 2 3 can take on 1.7. Right? So that's how you decide. If something is discrete what was happening and take could it happen in the middle? Maybe doesn't show up in your data set, but could it happen? Hey number of times Viagra ": [
+            1034.4, 
+            1058.5, 
+            42
+        ], 
+        "axis. So what you do is you build a set of been so we'll take the access. The guy was basically from 0 to infinity and I decided to break it into little zones that were one unit wide. And then I looked in this column here and I said anytime the data fall between 12 and 13. I'm going to put a bar-height one. Okay, so 12.31 for example, ": [
+            1890.5, 
+            1914.3, 
+            76
+        ], 
+        "breaks or in turkey's unbelievable. That is a bunch of language here yet to learn like usually data scientists will call the thing on the horizontal axis the explanatory variable because it is trying to explain or help you understand the thing on the y-axis, which is known as the response variable. Now sometimes you'll see a pattern in these dots and if you do this is called an association. ": [
+            2965.2, 
+            2993.4, 
+            114
+        ], 
+        "came out wrong. Don't know what they the number of. Modes I got another thing you might care about is not the number of modes but the shape of the histogram and its entirety. So if the thing is Yuna motul, it'll have a left side. Is it falls off right when you might ask if those look roughly the same that is can you fold it across the motor ": [
+            2565.9, 
+            2590.5, 
+            101
+        ], 
+        "can feel differences shirt size small medium large finite number feels like categories or bins here. There's an order and it's based on like the size of the fabric or something. Okay, indicator variables another example of something that's a yes or no. Those are two categories. I don't know how I'm going to order them. If yes is better than no or vice versa. It depends what you're talking ": [
+            1406.9, 
+            1433.4, 
+            57
+        ], 
+        "class, will you still creative for me to mine all of your data and figure out your things in real time now, this is free to you. But I pay out of my own money to make this happen every year because I think it's important to get your data and to get your ideas. Okay, we're back. So normally it takes 9 minutes to get through all of this ": [
+            781.8, 
+            823.0, 
+            32
+        ], 
+        "class. ": [
+            3040.4, 
+            3040.5, 
+            117
+        ], 
+        "class. Come on. Go ahead. New York City Why in New York City? Are there low number of people living per space? Smaller housing units for Spirit people to be in them. I can believe that okay. I don't know if it's true, but I believe it. That's how life Works. Who cares it's true that a possibility you could have said is retirement cities places in Florida where maybe ": [
+            2730.6, 
+            2767.9, 
+            107
+        ], 
+        "data. Because there are a finite number of categories if there's an infinite number of categories like with most numeric data, then it's really complicated cuz the table could go forever. But usually your data don't achieve an infinite number of categories. So the computer will treat it like categorical data and say all those are the only things I saw great. I can come pick us up for you. ": [
+            1528.6, 
+            1548.3, 
+            62
+        ], 
+        "data. Now the reason it's so important is the way you deal with data in terms of how you display it how you summarize it. Weather has one variable with two variables when calling her to everything hinges on that. So maybe you've never realized before that a bar chart, which you've all seen is a visualization for one variable that happens to be categorical. You have some people who ": [
+            1329.0, 
+            1357.4, 
+            54
+        ], 
+        "dies off pretty fast. You can say it skewed right if the right tail just keeps dragging on and on and it's the longer one. It's possible the left one drags on so you can taste you'd left know some of you probably seen words like skewed positively and negatively before you're welcome to use that language. I don't like it. Because for example this one on the right here ": [
+            2643.3, 
+            2668.6, 
+            104
+        ], 
+        "do classes. When you have all the notes in advance. You can go right those things into your notes. If you wish it's one of the best things you can do to improve your understanding is preview material. INE how other things homework sets I design all the homework sets myself and create all my own problems. This decreases the amount of cheating that can happen or you can just ": [
+            109.5, 
+            130.3, 
+            4
+        ], 
+        "do quite well on if they study and work hard. So I wouldn't expect necessarily any curve to happen in this class next saying throughout the skies were going to be using something called so crowded if you can get out your cell phone right now. And go type in to your favorite app store the word Socrative student. Ivan this is an Apple going to be using I'm at ": [
+            247.7, 
+            271.5, 
+            10
+        ], 
+        "don't want to do in life. If you don't want to go to discussion section. That's your choice. There's nothing greater than they are. But if you're about to throw away one out of every four times you get to meet with more expert people in your life each week. Then I think this is a pretty poor micro choice. You have to go to your discussion section. It really ": [
+            337.7, 
+            358.9, 
+            14
+        ], 
+        "don't you try making a histogram of this histogram is probably done by h i s t seems reasonable right? You always need to put the name of the dataframe. I called it data. You can put a dollar sign and notice it starts to code complete and it says hey there's a variable in there. Is that the one you want to use a but I just hit enter. ": [
+            2335.1, 
+            2354.3, 
+            92
+        ], 
+        "email and a one was yes. I see the word Viagra. Okay, the number of characters that were in the email is another example now you're probably looking at something how could there be a decimal number of characters in this immediately suggest maybe we need to understand what these variables mean and maybe there's some way to go. Look at this. Well luckily most data sets will come with ": [
+            919.0, 
+            940.4, 
+            37
+        ], 
+        "file. It stands for, separated values, which means when it started to sit. It just puts commas between things to show. Trying to force me into using Excel format to this is Austin. Welcome to our studio your new friend for the quarter. If you already know python great time to learn are you will be better situated to get a job if you know both in the real world ": [
+            2195.5, 
+            2223.9, 
+            87
+        ], 
+        "first. We focus on emails that were sent to just one person that is a multiple people should be Zero Store in the first important column here and they're 43 emails that went out to just one person and you can look at how many of those had multiple attachments or attachments. Okay. So here's one and one so two of the 43 emails. 3% of single people have attachments ": [
+            1733.6, 
+            1760.5, 
+            70
+        ], 
+        "five numbers anymore. Okay, you can add two and three plus and get this idea back suddenly overflowing or it went back into 3. + maybe you're bothered by that or something. Okay, so this feels very ordinal. Okay. So here's some of that data set. We were looking at earlier about emails and we have some variables here. One thing you might want to do is build a table. ": [
+            1459.6, 
+            1482.7, 
+            59
+        ], 
+        "for anyone to use. Okay. So the syllabus will have this on there you can download it to all of your favorite devices and then you'll be in great shape. Okay. So now you can have your cell phone and your computer whatever you wanted to actually quite a good book. Now in order to do any real statistics, you need some sort of software. So in this class were ": [
+            682.9, 
+            701.2, 
+            28
+        ], 
+        "go try something here. First thing you want to do is in the upper, right? This is where you manage all your data frames and I just like to import a dataset. So let's try that. This is cooking something and maybe a miracle will happen. Maybe it'll work so desktop. Here's your data and took 2 minutes to get it. Here's how it thinks. It should structure the data. ": [
+            2248.4, 
+            2270.7, 
+            89
+        ], 
+        "going to be using something called our which is a language and that's going to be embedded inside something on his car Studio, which is an integrated development environment and IDE Are you computer science people will be very familiar with things like Eclipse which helps you write code and that code might be in the language of C plus plus or Java, which is the language they now are ": [
+            701.2, 
+            722.7, 
+            29
+        ], 
+        "have identified as male or female or transgender there your three bins and you populated vertically with counts or percentages. That's what a bar chart is. That's some of these others you might be less familiar with like a histogram. Because they're more advanced and they don't come up all the time. So let's dig into categorical for a second. First of all, some examples gender is one of the ": [
+            1357.4, 
+            1382.1, 
+            55
+        ], 
+        "he hid the answers at first. And then revealed them people still troll even when you hide it and don't reveal that trolling is going on. Okay, that's enough 132. So then you just go get the report and you say download. So now we have our day. You can see it's an Excel, right? Now the first thing I'm going to do is take all of our data here ": [
+            2063.2, 
+            2089.1, 
+            83
+        ], 
+        "head? Most of you have probably already been there you can find all the podcasts. So you don't need to email me if there's any sorts of problems. Just go watch a podcast. It'll be totally fine. That's the reason I podcast. I'm at other things that will be there. You can find out the lecture slides 24 hours in advance. So you might want to consider changing how you ": [
+            87.8, 
+            109.5, 
+            3
+        ], 
+        "helps if you do so that the 3 and 4 p.m. Sections don't have 60 people in them. Okay. Now I know what happens over time that is attendance dropped down to about 20 to 30% and discussion sections. You've all seen this right. So if the issue is like I really really have to come to a certain discussion section be my guest do whatever you want. But I ": [
+            358.9, 
+            381.3, 
+            15
+        ], 
+        "here and you can see it's counting up to 50 basically. So every single row is representing an email and the things you might measure about that email. And you can see what's being measured across the top here. For example, does the saying mention Viagra is an example of one of the things they decided to measure and his ear was nope. The word Viagra never appears in that ": [
+            895.3, 
+            919.0, 
+            36
+        ], 
+        "high point in will land Ruffian top of itself. So here it will. Okay, can you fold this in any way so it lands on itself and creates two symmetrically spaces here. The answer is no so we can say asymmetric. That's possible for a bimodal things to be symmetric. If you fold it across this middle, it would land perfectly across itself. Is bold like that boom symmetric and ": [
+            2590.5, 
+            2619.1, 
+            102
+        ], 
+        "his natural in your DNA but you've all seen data so much in your lives. Now that perhaps this course is not going to inspire. You've already been inspired by society and it's just going to make you more regimented in your thinking. So let's go through some quick horse policies using the Old School Blackboard. Sorry about this first thing you should know is that everything is on Triton ": [
+            66.4, 
+            87.8, 
+            2
+        ], 
+        "homework is due Tuesday and again on Friday. Okay, so we have homework to roughly twice a week here. The reason I do this is I don't give more homework than the fastest necessarily. I just give it more often and basically every study in the educational research says giving the same amount of homework more often. It's far better for students because it keeps you actively engaged in the ": [
+            403.6, 
+            426.8, 
+            17
+        ], 
+        "how you can upload your homework. Now. This is due at 9 p.m. As you can see on the syllabus. All homeworks are due at 9 p.m. But I know the technological issues arise every once in a while. So the system is allowed will allow you to go all the way up to 11 p.m. With no penalty, but after 11 p.m. There's a hard stop in the system ": [
+            490.5, 
+            513.0, 
+            21
+        ], 
+        "in the world do nothing sophisticated. Okay for the top 1% of people out there in the world. They have to do complicated things and then the difference between the two makes a difference. Okay. It's like someone who drives very slow arguing about a Lamborghini versus a Ferrari or something. There's no point in that distinction, right everything this Easter greeting management tool again free. And finally in this ": [
+            748.1, 
+            781.8, 
+            31
+        ], 
+        "into some stupid format that we use based on some calendar from 700 years ago or a thousand years ago or whenever. Okay, but if you're computer scientist, you know code is like number of nanoseconds or whatever. The current system is after some year that was pre-programmed in the computer off in 1970 on January 1st. I just count up looks like the number acts like a number but ": [
+            1286.0, 
+            1309.7, 
+            52
+        ], 
+        "intro stuff. We're at 13. You can see how slow it takes doing things the old way should not an efficient medium or we're going to do after class. This is for you. This will Lister you can take a picture with your phone or it's in the slides which are on the Internet or you can write it down. If you believe in copying things from one location to ": [
+            823.0, 
+            842.4, 
+            33
+        ], 
+        "is just made. higher percentage wise So if you have to miss an exam for any reason great, that's fine. Don't need to send an email. You can just take a zero on it and you will automatically get moved to formula to this is a way to not right makeup exams in large classes. It simply not possible and also for those people who can show up at all ": [
+            202.2, 
+            225.5, 
+            8
+        ], 
+        "is skewed negatively, but everything is positive along the axes so it can be confusing to normal human beings. So how about you choose language that isn't confusion to people like skewed left Infuse, right? Which tells you which tail is the big long one that got skewed. Okay. Now I mentioned a moment ago that you could have dated a stand far apart. So here's an example of how ": [
+            2668.6, 
+            2692.0, 
+            105
+        ], 
+        "is this first bar and you just keep stacking up based on how many things fit into each bin now I could have been to this differently and gone from 12 to 12:50 and 12:50 to 13 and 1/2 binder grain bins. The picture will change a little So there is some art in this in deciding how you want to display this now you'll notice it's possible to have ": [
+            1914.3, 
+            1939.0, 
+            77
+        ], 
+        "it has to do with what's going on with the Tails and a folding action that you can be more specific than asymmetric, which is floppy language. You can tell me precisely how it is asymmetric. If the things you in a modal in case we're here to you in a little things. This one has the right to just goes on forever and drags on where the left tail ": [
+            2619.1, 
+            2643.3, 
+            103
+        ], 
+        "it were 4:20, we would definitely delete. Okay, I assume you want to delete this. 42, how about 1:20? You're a decider. What do you say? Yeah. I'm sorry. Delete you decided. You see every time you do this you put your feelings on the data. It's very dangerous, right 2210 111. Going to keep or delete delete. Look at shoes shaping the data and the way you want it. ": [
+            2125.8, 
+            2164.1, 
+            85
+        ], 
+        "look everything up on the internet and it also creates a richer experience for you because I can make better problems. That's mostly what I study in my own research how to create better problems. So students learn more so that'll be really fun for you. And then you can find the syllabus in the calendar and a lot of other things in terms of the greeting for this course ": [
+            130.3, 
+            151.1, 
+            5
+        ], 
+        "macro structure of the different kinds of data that could exist. Sorry on the luckier. You can see description of all the different columns and the right of created the macro organization. So you should think of data. This is very important. It influences everything for the rest of the class data into big ways either data are numeric and act like numbers and feel like numbers and look like ": [
+            966.2, 
+            989.0, 
+            39
+        ], 
+        "many people live per housing unit. Every little bar of area represents some City. You can tell that by looking at the vertical axis, which is counting up how many cities fell into each bin? So the question is, can you think of any cities? They would have very low numbers of people living per housing unit. Someone rear-ended be daring. nope other voices you're not going to save the ": [
+            2692.0, 
+            2730.6, 
+            106
+        ], 
+        "more things because there's a lot of homework that's going on. Okay, so lowest homework is going to be dropped. Go ahead. Other things you should know you're probably going to need a calculator for this class because you're going to be allowed to use it. on exams just one of those days, huh? It's 8 a.m. For me to you realize. How do I get at 6 to get ": [
+            556.1, 
+            587.0, 
+            24
+        ], 
+        "most common ones and I bring it up first because Already, you can see that youman beings have put their interpretation on something that may or may not be accurate. Okay, does it really feel like there were only two bins? Well for some people absolutely yes for others. That's the stupidest thing you could ever do sometimes we'll use this gender binary sometimes will push against it. So you ": [
+            1382.1, 
+            1406.9, 
+            56
+        ], 
+        "my time taking it. when you have two numeric variables, you've measured two things about an observation example in email say you can put one on one axis and one on the other and then the numbers will create a place in the xy-plane. So here's how I made this. I command you don't really care about this right now, but you can create this a scatter plot is a ": [
+            2913.5, 
+            2942.1, 
+            112
+        ], 
+        "name for the dataframe call data. Okay, let's not have to assignment operators. Oh my goodness. Peter can't do anything. Too much going on. You know, it's pretty amazing that they would do this. Okay. So now we have our data now you can see it over here a hundred 26 observations of one variable. You can double click on it and it will bring it up here. Now, why ": [
+            2292.3, 
+            2335.1, 
+            91
+        ], 
+        "no way to order them. And any natural way now, you can order them Enfield ordinal makes a lot of sense right by not categories with the natural order and we'll see some examples in a moment that particular dataset didn't have any diet to be really careful. Once you seen all of these words, for example, not all things that are numeric says not all things that are numbers ": [
+            1233.6, 
+            1257.6, 
+            50
+        ], 
+        "numbers or they are not and they are data that fit into categories and then they're known as categorical some people like to use quantitative qualitative as their language to divide up the universe. That's fine if you do that, too. Now once you're into numeric data there two fundamentally different kinds of numbers. You might see the first is discrete. These are things where there is space between the ": [
+            989.0, 
+            1015.4, 
+            40
+        ], 
+        "numbers, but then we have categorical things. You should think about these has categories often. There are words on the ideas. For example gender is something we put into a categorical variable usually and we use words like male and female now. Is that something that's truly a continuous band that we turned into a categorical thing. That's an interesting question right now. In categorical we can have two types ": [
+            1161.1, 
+            1189.9, 
+            47
+        ], 
+        "of be apart from all the other data. So we're going to have that come up and we're going to talk about that as it does but let's try something now that you have so proud of all installed checking your phone dammit. How many people have you texted with today? This is number of people not number text messages. So we're going to go into Socrative and you're going ": [
+            1980.2, 
+            2005.0, 
+            80
+        ], 
+        "of nominal so here going to be a finite number of categories. And there's no way to put them in an order that feels natural and most people would agree with okay indicator. spam What's the email in the spam folder or not? That's a yes or no, you can put a 0 and 1 on it if you want, but let's just think yes or no, and I'm not ": [
+            1189.9, 
+            1214.5, 
+            48
+        ], 
+        "of the cool things about this course and I designed it this way is everything is free. So when it comes time to get the textbook. Will be using something called openintro statistics. Now this is part of something that is the open intro movement. And what they tried to do is write a series of intro intro level textbooks at the college level that are all free you're open ": [
+            659.7, 
+            682.9, 
+            27
+        ], 
+        "on it. One thing is understood contingent or relative to the other. So here are two variables across the top of the table again. We're just looking at those 50 emails. Is an indicator variable multiple people you might use the word yes or no or zero in one if you like putting numbers on things. Okay. So every email can be you can decide its multiplicity of sending and ": [
+            1646.0, 
+            1674.3, 
+            67
+        ], 
+        "one because it's 8 a.m. And you live on the west coast and everyone is asleep, right? Done. Okay, probably can take a dataset of 126 points to realize that but look over here now. These people are either trolls. Or they love texting a lot. Or there's something interesting going on. So anyone who had one of these huge values. Are you willing to raise your hand and either ": [
+            2378.9, 
+            2406.1, 
+            94
+        ], 
+        "or something? You can all the Google right now. Count communication and let's see how we can do here. Can you describe our pretty little picture now that you have language to describe it someone please raise your hand and tell me about modality cemetry outliers, right? unimodal skewed right Asymmetric is automatically implied by skewed right? What about outliers? You think these by 40 by 20? You say there ": [
+            2835.6, 
+            2883.3, 
+            110
+        ], 
+        "out a physical copy of the homework actual paper. KS will be about 5 pages in length, usually so 10 pages per week, which is pretty standard. Okay, they'll be lots the blanks for you to fill in all of your work all over the place. Okay. Once that's done then you will go scan that and go create a PDF. So now you have the nice electronic version of ": [
+            448.2, 
+            468.6, 
+            19
+        ], 
+        "over the Last 5 Years straight eliminate all binary thinking for my life. I think I might like doing that to okay. Now, what are you what do you do when you have two categorical variables? well Let's try little question here to see and explore this and we're going to do something called a contingency table. Now you seen tables before but no one's ever put the word contingency ": [
+            1622.5, 
+            1646.0, 
+            66
+        ], 
+        "particular column and then just put the name of the column. So here is attached which is how many attachments are there. Okay, so then it says what here were all the numbers I saw Zero 1 and 2 and here's how many times I saw them. So most of these emails had no attachments 47 on the 50. Okay, so normally you use table when you're dealing with categorical ": [
+            1505.0, 
+            1528.6, 
+            61
+        ], 
+        "plot of. That look like they're scattered about based on what the data say. So every. Here is going to be any mail for us and you can see we're measuring number of characters. This is Guinness and thousands and its axis is the number of line breaks our Carriage returns that happened in the email you might expect that longer or emails with more characters will have more character ": [
+            2942.1, 
+            2965.2, 
+            113
+        ], 
+        "possible values that could be taken on so is zero and then maybe jump all the way to one and there's that big space in between and you can't get valleys in between and maybe jump to 2, maybe jump from 0 to 14 and then to 28th and then something they don't even have to be equally spaced out. There just has to be space between them. So there ": [
+            1015.4, 
+            1034.4, 
+            41
+        ], 
+        "reasonable amounts of money. Based on what you could buy there. Now. This is a numerical variable. It looks like numbers it acts like numbers you can add up to costs and you get a total cost of those visits for example. Now the trouble with numerical variables is they can take on basically almost any value that this feels like a continuous random variable. Now I can't do. Two ": [
+            1839.9, 
+            1865.4, 
+            74
+        ], 
+        "research and help students learn and how to make that better critically in mathematics and statistics. So I've been here for a number of years. This is one of my favorite courses to teach because for many of you with your first introduction to data in a real sword of a structured way and you start to see the power of statistic now 10 years ago this was What's in ": [
+            42.4, 
+            66.4, 
+            1
+        ], 
+        "right side. That's totally arbitrary, but you don't want a situation where someone spends $12. And you're not sure if it should go in the left pane of the right pin. It needs to go in one of the two based on your definition of structure. Okay. Now you'll notice also that it's possible that data could swear to fall way over here on the right hand side and sort ": [
+            1958.3, 
+            1980.2, 
+            79
+        ], 
+        "round it to a nice integer. Okay, so I'm 40. I'm not 40.1 to 7 for whatever it is today. So don't get super worked out just understand there is a difference and there is sometimes really important to distinguish the two now those are numbers and they feel like numbers and you can add them together add to a judge to get a new age for example acts like ": [
+            1138.3, 
+            1161.1, 
+            46
+        ], 
+        "same uniform height throughout Rapids or to go up and then down and have one hump. This is known as unimo told you not for one and mode for Hi-Point or hump. It's possible there could be two humps like right here off on you and you do biological data about human beings who have two humps because men and women tend to Trend differently on certain features and not ": [
+            2510.3, 
+            2534.8, 
+            99
+        ], 
+        "school. This is better than clicker technology, which you may be used to because it uses Hardware that everybody has if you like your computer and you can use your computer all the time and here you can load up the Socrative website and do everything through that. So what happens is I created something on my end and I just send it out to all of your cell phones ": [
+            271.5, 
+            293.2, 
+            11
+        ], 
+        "see is three decimal places. You could never have anything in the fourth decimal place because after you move the decimal point three over then you suddenly have a fractional number of characters. So the distinction between discrete and continuous is sometimes messy for certain variables. Sometimes things truly are continuous like how old I am they can be measured to the whatever decimal place you want. But often we ": [
+            1111.7, 
+            1138.3, 
+            45
+        ], 
+        "seven had attachments so now we're up to 14% fuel, right? Maybe do you want to form your belief system based on 50 pieces of data? Sent you a single human being. We're starting to see how careful you have to be with data. These are 50 email sent to the author of The Textbook one of the authors of the textbook not a representative sample of you. All right. ": [
+            1782.7, 
+            1815.2, 
+            72
+        ], 
+        "some description of all the variables and what they're all about. So the variables populate columns And the observations are things you're measuring other Rose some people like to call these matrices. Or datamatrix because it looks like a matrix you seen and probably math 18 if you took 18 now, there's lots of different kinds of data structuring element everyone knows data, but if you ever thought about the ": [
+            940.4, 
+            966.2, 
+            38
+        ], 
+        "spouses have passed away or children. They don't end up children because the two old that's another thing that can drive this down but these are outliers they stand apart from the rest of the day or they lie outside of now. This is very subjective. Right if I draw on a slightly smaller white space Gap here, you would have been like I don't know guy. So just recognize ": [
+            2767.9, 
+            2793.3, 
+            108
+        ], 
+        "sure if yes is better than no or no is better than yes. It depends on your perspective. You're the one sending it out. You love spam. You're the one getting that you hate it, right. So I don't know how to put a less than sign between the ideas in Decatur for whether anyone was cc'd that the better to be cc'd or not. I don't know so there's ": [
+            1214.5, 
+            1233.6, 
+            49
+        ], 
+        "tell us it was real and why or that it was troll? Go ahead in the back. a lot of unread messages So this was supposed to be the number of texts you sent. I guess it was text correspondence. That would have said So you don't text or do you and check your text all the time? Because I'm going to brother is 10000 unread messages in his inbox. ": [
+            2406.1, 
+            2434.1, 
+            95
+        ], 
+        "that don't have quantitative understanding in life your boss at your job. Whatever your friend you need to communicate in ways that are non statistical because lots of people are non statistical now, your histogram could have looked like this which is basically flat no real data will always be noisy. You will never get a perfectly flat histogram if that's what's really going on with your population has the ": [
+            2483.3, 
+            2510.3, 
+            98
+        ], 
+        "that should be downloading right now. Now next thing if you look at the calendar, you'll see a lot of important things on here. so for example if you look You can figure out what we're doing every day. Sew-in green on the calendar. If you're looking at the notes right now yourself, you'll see the discussion sections are always on Tuesday. Now, you don't have to do anything. You ": [
+            314.2, 
+            337.7, 
+            13
+        ], 
+        "the better way to prevent things or the visualization on the right. Hey, the pros is the human visual complex is so Superior to our number recognition complex. You can instantly feel that basically people don't attach emails the emails you see it right in your brain just doesn't have a problem is how high are these bars? Wells figure that out, I probably have to look super carefully over ": [
+            1572.0, 
+            1600.3, 
+            64
+        ], 
+        "the exams and be in a room on three different dates of their life exam 1 exam 2 and final gives you an alternative way to do better if it brings out your best and scores you based on your best at any particular moment, which is nice. Okay. Now I tend not to curve things in this class. We tend not need to I write reasonable assessments that people ": [
+            225.5, 
+            247.7, 
+            9
+        ], 
+        "the subjectivity of it if we're going to measure the number of medals won by Olympians. Can you name someone who is an outlier? Phelps Phelps, okay, you would have like 19 or 21 or 27 or something? Okay, how many Instagram followers a person has? Who Lies outside of the normal range What? Who? I was Selena Gomez in the top 10 or the top five. Skylight 7 million ": [
+            2793.3, 
+            2835.6, 
+            109
+        ], 
+        "the y-axis out the big hot mess. I can't tell now you see the superiority of the table so they both have value. So one thing I'd like a Mis classes for us to stop thinking and binaries which one is better and it said thinking a Nuance what value does each bring in which certain situations in fact, I think they slick the single most important thing. I've done ": [
+            1600.3, 
+            1622.5, 
+            65
+        ], 
+        "think everyone should make a real choice to make the micro decisions. Correct about their lives here when it comes to studying. Okay other things are going to notice here is homeworks going to be due on Tuesday and Friday in this class. Okay. So our first homework that is maybe this Friday homework one here and this is due at 9 p.m. Another thing is strange is the next ": [
+            381.3, 
+            403.6, 
+            16
+        ], 
+        "think if people put their efforts there and are incentivized to do so, it reads great rewards. I'm on all the other things that you try to grade now. That's just one of the two formulas the other formula does 30% homework, then it drops 20% on your better exam. This could be either exam 1 or exam 2 and then your worst exam gets erased in the final exam ": [
+            177.6, 
+            202.2, 
+            7
+        ], 
+        "time is a smoothie idea. I'll let all the physicists in the room argue about that but So it comes in at anytime now number of characters in the email in thousands. You saw this in the previous slide. Look how desperately this feels. Okay. It's not necessarily limited to any particular value. Now you might argue. This is also discreet. Because it's in thousands the most accuracy you'll ever ": [
+            1085.2, 
+            1111.7, 
+            44
+        ], 
+        "times aren't always that way. So you should get this in your soul. And as you're looking at every piece of data for the next week, you should just categorized in one of the four bins and you should have some subtlety and say oops. Maybe this could go in a couple Bandz depends on how we think about it. This will get your grade at the Four kinds of ": [
+            1309.7, 
+            1329.0, 
+            53
+        ], 
+        "to give me your data in real-time and we're going to see what happens. Is it probably going to blow up the computer will see? I'm not feeling good about this right now. So all I do is I go to Socrative I say let's do a quick question short answer so you can type anything and I want your number of texts. He's no don't send me a word. ": [
+            2005.0, 
+            2025.4, 
+            81
+        ], 
+        "topic constantly is what's going on there. So don't be surprised when homework comes around twice a week. Okay, so there's calendar you can see this online now about this homework some things you should know that come up all the time is how does this work? So basically what's going to happen to step one. You're going to go on the train Ed and you're going to go print ": [
+            426.8, 
+            448.2, 
+            18
+        ], 
+        "up at 6 everyday, but now this is not answer key for any exam. I use the most trivial solar power calculator. I can and I use tables which we'll get to later in the class. So Michael doesn't have any fancy stop functionality. Now, you can use the one on your phone because this obviously can connect to the internet and other things. So make sure you get yourself ": [
+            587.0, 
+            613.1, 
+            25
+        ], 
+        "what you just created. Then this will get uploaded to something called gradescope. You probably already seen the email I sent out where I uploaded everyone in the class on Friday and to gradescope so you don't need to do anything fancy. If you weren't in the class at that point the syllabus will tell you what to do. If you want to go do this and you should that's ": [
+            468.6, 
+            490.5, 
+            20
+        ], 
+        "will always be the total data size. So our email sent to multiple people more likely to have attachments. Before you saw the data. What did your soul say? Yes, why? Go ahead. Okay, reiterating you said if you're sending spam usually goes to lots of people and usually thoughts throwing lots of attachments. Okay, I like that. Let's see if it's true. So here's how we figure it out ": [
+            1695.6, 
+            1733.6, 
+            69
+        ], 
+        "will be some macro components that matter. So 30% will be in homework and then what 20% on the first exam. That'll be in about three weeks. We'll have another 20% on the second exam that happened somewhere in a week 6 or 7 and then finally will have 30% on the final. I like to put a little more on homework because I think it's really important and I ": [
+            151.1, 
+            177.6, 
+            6
+        ], 
+        "will no longer accept things and you should not send me an email saying it's 11:01. I just missed it cuz I'll hit delete on that from play know your lowest homework is going to be dropped. So if you're ever in this weird situation with some crazy thing happens just accept that as your lowest homework being dropped. Okay, basically never have I uploaded anything late. It's very complicated. ": [
+            513.0, 
+            534.9, 
+            22
+        ], 
+        "you can also see how many times since it had. Okay. So all the emails are represented in this tree by to Central thing and you can see all 50 of them even put on the margins. We just heard of a Down on the table or at across the table and you could add through the margins and you have to get 50 Peso number at the lower right ": [
+            1674.3, 
+            1695.6, 
+            68
+        ], 
+        "your choices, but we could both be wrong. 3000 person. Maybe they're part of some like Russian troll farm and they text people everyday that I don't know. Okay. So now we have a pretty picture but the problem is how do you talk about a pretty picture? We need language. So here's our language that we're going to start learning to communicate and this is mostly for the people ": [
+            2457.6, 
+            2483.3, 
+            97
+        ]
+    }, 
+    "File Name": "Statistical_Methods___A00___Quarfoot__David_James___Spring_2019-lecture_1.flac", 
+    "Full Transcript": "Morning, everyone.  Can you hear me in the back?  You can good. So good morning. This is math 183. My name is David quarfoot. We are having some technological problem. So we'll do this old school until people come help fix this.  And then we will go back to new school after that. So anyhow, I'm an assistant teaching Professor. So most of my life here is spent teaching and research and help students learn and how to make that better critically in mathematics and statistics. So I've been here for a number of years. This is one of my favorite courses to teach because for many of you with your first introduction to data in a real sword of a structured way and you start to see the power of statistic now 10 years ago this was  What's in his natural in your DNA but you've all seen data so much in your lives. Now that perhaps this course is not going to inspire. You've already been inspired by society and it's just going to make you more regimented in your thinking. So let's go through some quick horse policies using the Old School Blackboard. Sorry about this first thing you should know is that everything is on Triton head?  Most of you have probably already been there you can find all the podcasts.  So you don't need to email me if there's any sorts of problems. Just go watch a podcast. It'll be totally fine. That's the reason I podcast.  I'm at other things that will be there. You can find out the lecture slides 24 hours in advance. So you might want to consider changing how you do classes. When you have all the notes in advance. You can go right those things into your notes. If you wish it's one of the best things you can do to improve your understanding is preview material.  INE how other things homework sets I design all the homework sets myself and create all my own problems. This decreases the amount of cheating that can happen or you can just look everything up on the internet and it also creates a richer experience for you because I can make better problems. That's mostly what I study in my own research how to create better problems. So students learn more so that'll be really fun for you. And then you can find the syllabus in the calendar and a lot of other things in terms of the greeting for this course will be some macro components that matter. So 30% will be in homework and then what 20% on the first exam.  That'll be in about three weeks. We'll have another 20% on the second exam that happened somewhere in a week 6 or 7 and then finally will have 30% on the final. I like to put a little more on homework because I think it's really important and I think if people put their efforts there and are incentivized to do so, it reads great rewards. I'm on all the other things that you try to grade now. That's just one of the two formulas the other formula does 30% homework, then it drops 20% on your better exam.  This could be either exam 1 or exam 2 and then your worst exam gets erased in the final exam is just made.  higher percentage wise  So if you have to miss an exam for any reason great, that's fine. Don't need to send an email. You can just take a zero on it and you will automatically get moved to formula to this is a way to not right makeup exams in large classes. It simply not possible and also for those people who can show up at all the exams and be in a room on three different dates of their life exam 1 exam 2 and final gives you an alternative way to do better if it brings out your best and scores you based on your best at any particular moment, which is nice.  Okay. Now I tend not to curve things in this class. We tend not need to I write reasonable assessments that people do quite well on if they study and work hard. So I wouldn't expect necessarily any curve to happen in this class next saying throughout the skies were going to be using something called so crowded if you can get out your cell phone right now.  And go type in to your favorite app store the word Socrative student.  Ivan this is an Apple going to be using I'm at school. This is better than clicker technology, which you may be used to because it uses Hardware that everybody has if you like your computer and you can use your computer all the time and here you can load up the Socrative website and do everything through that. So what happens is I created something on my end and I just send it out to all of your cell phones and then you can do things that can be multiple choice questions. You can send me a text message response. You can be true false whatever and then it all send it back in real time and we can collect your data in real-time this way.  Which is kind of fun to use your actual data and everyone can have a voice even in a large class like this. So that should be downloading right now. Now next thing if you look at the calendar, you'll see a lot of important things on here.  so for example if you look  You can figure out what we're doing every day.  Sew-in green on the calendar. If you're looking at the notes right now yourself, you'll see the discussion sections are always on Tuesday. Now, you don't have to do anything. You don't want to do in life. If you don't want to go to discussion section. That's your choice. There's nothing greater than they are. But if you're about to throw away one out of every four times you get to meet with more expert people in your life each week. Then I think this is a pretty poor micro choice. You have to go to your discussion section. It really helps if you do so that the 3 and 4 p.m. Sections don't have 60 people in them.  Okay. Now I know what happens over time that is attendance dropped down to about 20 to 30% and discussion sections. You've all seen this right. So if the issue is like I really really have to come to a certain discussion section be my guest do whatever you want. But I think everyone should make a real choice to make the micro decisions. Correct about their lives here when it comes to studying.  Okay other things are going to notice here is homeworks going to be due on Tuesday and Friday in this class. Okay. So our first homework that is maybe this Friday homework one here and this is due at 9 p.m. Another thing is strange is the next homework is due Tuesday and again on Friday. Okay, so we have homework to roughly twice a week here. The reason I do this is I don't give more homework than the fastest necessarily. I just give it more often and basically every study in the educational research says giving the same amount of homework more often. It's far better for students because it keeps you actively engaged in the topic constantly is what's going on there. So don't be surprised when homework comes around twice a week.  Okay, so there's calendar you can see this online now about this homework some things you should know that come up all the time is how does this work? So basically what's going to happen to step one. You're going to go on the train Ed and you're going to go print out a physical copy of the homework actual paper. KS will be about 5 pages in length, usually so 10 pages per week, which is pretty standard. Okay, they'll be lots the blanks for you to fill in all of your work all over the place. Okay. Once that's done then you will go scan that and go create a PDF. So now you have the nice electronic version of what you just created.  Then this will get uploaded to something called gradescope. You probably already seen the email I sent out where I uploaded everyone in the class on Friday and to gradescope so you don't need to do anything fancy. If you weren't in the class at that point the syllabus will tell you what to do. If you want to go do this and you should that's how you can upload your homework. Now. This is due at 9 p.m. As you can see on the syllabus. All homeworks are due at 9 p.m. But I know the technological issues arise every once in a while. So the system is allowed will allow you to go all the way up to 11 p.m.  With no penalty, but after 11 p.m. There's a hard stop in the system will no longer accept things and you should not send me an email saying it's 11:01. I just missed it cuz I'll hit delete on that from play know your lowest homework is going to be dropped. So if you're ever in this weird situation with some crazy thing happens just accept that as your lowest homework being dropped. Okay, basically never have I uploaded anything late. It's very complicated. It takes a large number of human beings make a class like this work at 5 to yeas one instructor 2 or 3 graders. All of these people are on time systems certain numbers of hours per week. It's very complicated to go and try to do a bunch of work late on these people and they don't really have the time do they have to move forward and do more things because there's a lot of homework that's going on.  Okay, so lowest homework is going to be dropped. Go ahead.  Other things you should know you're probably going to need a calculator for this class because you're going to be allowed to use it.  on exams  just one of those days, huh? It's 8 a.m. For me to you realize.  How do I get at 6 to get up at 6 everyday, but now this is not answer key for any exam. I use the most trivial solar power calculator. I can and I use tables which we'll get to later in the class. So Michael doesn't have any fancy stop functionality. Now, you can use the one on your phone because this obviously can connect to the internet and other things. So make sure you get yourself a calculator and if you want to practice on it, this would be a very wise idea.  Okay.  I think it's time to start doing actual material. Maybe the computer will work.  Okay, so we're going to be old school for a while longer parent Lee.  I probably taught over a thousand times in rooms like this.  And never once has this happened.  interesting materials for the course  So one of the cool things about this course and I designed it this way is everything is free.  So when it comes time to get the textbook.  Will be using something called openintro statistics.  Now this is part of something that is the open intro movement.  And what they tried to do is write a series of intro intro level textbooks at the college level that are all free you're open for anyone to use. Okay. So the syllabus will have this on there you can download it to all of your favorite devices and then you'll be in great shape. Okay. So now you can have your cell phone and your computer whatever you wanted to actually quite a good book.  Now in order to do any real statistics, you need some sort of software. So in this class were going to be using something called our which is a language and that's going to be embedded inside something on his car Studio, which is an integrated development environment and IDE Are you computer science people will be very familiar with things like Eclipse which helps you write code and that code might be in the language of C plus plus or Java, which is the language they now are  Maybe you've heard of its related to python. These are the two major pieces of soccer right now. They're used a lot of academics will use our it was born out of the academic Community a lot of business people use python.  Okay. Now the decision of like which is better is a wrong-headed question. Okay for almost everyone in the world are in Python are equivalent because most people in the world do nothing sophisticated.  Okay for the top 1% of people out there in the world. They have to do complicated things and then the difference between the two makes a difference. Okay. It's like someone who drives very slow arguing about a Lamborghini versus a Ferrari or something. There's no point in that distinction, right everything this Easter greeting management tool again free.  And finally in this class, will you still creative for me to mine all of your data and figure out your things in real time now, this is free to you. But I pay out of my own money to make this happen every year because I think it's important to get your data and to get your ideas.  Okay, we're back. So normally it takes  9 minutes to get through all of this intro stuff. We're at 13. You can see how slow it takes doing things the old way should not an efficient medium or we're going to do after class. This is for you. This will Lister you can take a picture with your phone or it's in the slides which are on the Internet or you can write it down. If you believe in copying things from one location to another four seems like a waste of time to me.  Anyhow big things you want to start the first homework, this is going to make sure you can do the pipeline solve scan and upload and you should also get going on all the logistical nonsense that starts every class.  Okay, we're ready to start meal things now.  I love material. Let's not waste a bunch of time with Logistics 14 minutes wasted.  Hey.  Welcome to data.  So if you're in our or any other piece of software usually data is organized and something called a dataframe or date of Matrix.  So here's an example of one. Now. What's going on here is this is a bunch of data that's about emails that came into some human being and their 50 emails and the different 50 are forming the rose here and you can see it's counting up to 50 basically. So every single row is representing an email and the things you might measure about that email.  And you can see what's being measured across the top here. For example, does the saying mention Viagra is an example of one of the things they decided to measure and his ear was nope. The word Viagra never appears in that email and a one was yes. I see the word Viagra. Okay, the number of characters that were in the email is another example now you're probably looking at something how could there be a decimal number of characters in this immediately suggest maybe we need to understand what these variables mean and maybe there's some way to go. Look at this. Well luckily most data sets will come with some description of all the variables and what they're all about. So the variables populate columns  And the observations are things you're measuring other Rose some people like to call these matrices.  Or datamatrix because it looks like a matrix you seen and probably math 18 if you took 18 now, there's lots of different kinds of data structuring element everyone knows data, but if you ever thought about the macro structure of the different kinds of data that could exist.  Sorry on the luckier. You can see description of all the different columns and the right of created the macro organization. So you should think of data. This is very important. It influences everything for the rest of the class data into big ways either data are numeric and act like numbers and feel like numbers and look like numbers or they are not and they are data that fit into categories and then they're known as categorical some people like to use quantitative qualitative as their language to divide up the universe. That's fine if you do that, too.  Now once you're into numeric data there two fundamentally different kinds of numbers. You might see the first is discrete. These are things where there is space between the possible values that could be taken on so is zero and then maybe jump all the way to one and there's that big space in between and you can't get valleys in between and maybe jump to 2, maybe jump from 0 to 14 and then to 28th and then something they don't even have to be equally spaced out. There just has to be space between them.  So there are some examples of discrete data here. You can see the number of attached files. Just think about what values you could take on 0 1 2 3 can take on 1.7. Right? So that's how you decide. If something is discrete what was happening and take could it happen in the middle? Maybe doesn't show up in your data set, but could it happen?  Hey number of times Viagra appeared. That's what viagra's measuring number of times. Okay, then we have continuous. So this is any kind of data where it's a smooth range of possibility and basically anything kudick could occur from that range.  So for example the time at which the email was sent. Okay that person when they hit the send button it could have happened in any time this night smooth interval. If you believe time is a smoothie idea. I'll let all the physicists in the room argue about that but  So it comes in at anytime now number of characters in the email in thousands. You saw this in the previous slide. Look how desperately this feels. Okay. It's not necessarily limited to any particular value. Now you might argue. This is also discreet.  Because it's in thousands the most accuracy you'll ever see is three decimal places. You could never have anything in the fourth decimal place because after you move the decimal point three over then you suddenly have a fractional number of characters. So the distinction between discrete and continuous is sometimes messy for certain variables. Sometimes things truly are continuous like how old I am  they can be measured to the whatever decimal place you want. But often we round it to a nice integer. Okay, so I'm 40. I'm not 40.1 to 7 for whatever it is today.  So don't get super worked out just understand there is a difference and there is sometimes really important to distinguish the two now those are numbers and they feel like numbers and you can add them together add to a judge to get a new age for example acts like numbers, but then we have categorical things. You should think about these has categories often. There are words on the ideas.  For example gender is something we put into a categorical variable usually and we use words like male and female now. Is that something that's truly a continuous band that we turned into a categorical thing. That's an interesting question right now.  In categorical we can have two types of nominal so here going to be a finite number of categories.  And there's no way to put them in an order that feels natural and most people would agree with okay indicator.  spam  What's the email in the spam folder or not? That's a yes or no, you can put a 0 and 1 on it if you want, but let's just think yes or no, and I'm not sure if yes is better than no or no is better than yes. It depends on your perspective. You're the one sending it out. You love spam. You're the one getting that you hate it, right. So I don't know how to put a less than sign between the ideas in Decatur for whether anyone was cc'd that the better to be cc'd or not. I don't know so there's no way to order them.  And any natural way now, you can order them Enfield ordinal makes a lot of sense right by not categories with the natural order and we'll see some examples in a moment that particular dataset didn't have any diet to be really careful. Once you seen all of these words, for example, not all things that are numeric says not all things that are numbers are numeric. Why can't everything be easy in life, right. So area codes are nice example.  These look like numbers but they don't act like numbers you can add to area codes and get another area code.  8619 + 619 is way too big to be in area code for example conversely not all numeric variables will look like number so it's not a perfect relationship times may be encoded into some stupid format that we use based on some calendar from 700 years ago or a thousand years ago or whenever.  Okay, but if you're computer scientist, you know code is like number of nanoseconds or whatever. The current system is after some year that was pre-programmed in the computer off in 1970 on January 1st.  I just count up looks like the number acts like a number but times aren't always that way.  So you should get this in your soul. And as you're looking at every piece of data for the next week, you should just categorized in one of the four bins and you should have some subtlety and say oops. Maybe this could go in a couple Bandz depends on how we think about it.  This will get your grade at the Four kinds of data. Now the reason it's so important is the way you deal with data in terms of how you display it how you summarize it.  Weather has one variable with two variables when calling her to everything hinges on that. So maybe you've never realized before that a bar chart, which you've all seen is a visualization for one variable that happens to be categorical. You have some people who have identified as male or female or transgender there your three bins and you populated vertically with counts or percentages. That's what a bar chart is.  That's some of these others you might be less familiar with like a histogram.  Because they're more advanced and they don't come up all the time. So let's dig into categorical for a second. First of all, some examples gender is one of the most common ones and I bring it up first because  Already, you can see that youman beings have put their interpretation on something that may or may not be accurate. Okay, does it really feel like there were only two bins? Well for some people absolutely yes for others. That's the stupidest thing you could ever do sometimes we'll use this gender binary sometimes will push against it. So you can feel differences shirt size small medium large finite number feels like categories or bins here. There's an order and it's based on like the size of the fabric or something.  Okay, indicator variables another example of something that's a yes or no. Those are two categories. I don't know how I'm going to order them. If yes is better than no or vice versa. It depends what you're talking about. Now number of sibling. This is an example of something that feels like a discrete numerical variable. You can't have one in 1/3 kids, right?  But here I haven't let it flow out and be its number Ness. I Taken 3 and everything above and expanded into a bin called tree Plus.  So suddenly there's a finite number of categories into which things could fall and they don't have five numbers anymore. Okay, you can add two and three plus and get this idea back suddenly overflowing or it went back into 3. + maybe you're bothered by that or something. Okay, so this feels very ordinal.  Okay. So here's some of that data set. We were looking at earlier about emails and we have some variables here. One thing you might want to do is build a table. So this our first example of code in our write this in the middle of a PowerPoint presentation you write it in our studio ports it over to our and make stuff happen. So right here emails is the name of the dataframe or Matrix and I named it that when I brought it into the computer program use a dollar sign to say I'd like to get at a particular column and then just put the name of the column. So here is attached which is how many attachments are there.  Okay, so then it says what here were all the numbers I saw Zero 1 and 2 and here's how many times I saw them. So most of these emails had no attachments 47 on the 50.  Okay, so normally you use table when you're dealing with categorical data.  Because there are a finite number of categories if there's an infinite number of categories like with most numeric data, then it's really complicated cuz the table could go forever. But usually your data don't achieve an infinite number of categories. So the computer will treat it like categorical data and say all those are the only things I saw great. I can come pick us up for you. If you want to make a bar chart, then you can do that. So in our what are plot and used to wrap that around the table that you just created and it will visualize the table by lifting up the numbers into a vertical dimension.  Do you like that better? Is it prettier?  So there's a huge argument in intellectual communities about whether the table in the left is the better way to prevent things or the visualization on the right.  Hey, the pros is the human visual complex is so Superior to our number recognition complex. You can instantly feel that basically people don't attach emails the emails you see it right in your brain just doesn't have a problem is how high are these bars?  Wells figure that out, I probably have to look super carefully over the y-axis out the big hot mess. I can't tell now you see the superiority of the table so they both have value. So one thing I'd like a Mis classes for us to stop thinking and binaries which one is better and it said thinking a Nuance what value does each bring in which certain situations in fact, I think they slick the single most important thing. I've done over the Last 5 Years straight eliminate all binary thinking for my life. I think I might like doing that to okay. Now, what are you what do you do when you have two categorical variables?  well  Let's try little question here to see and explore this and we're going to do something called a contingency table. Now you seen tables before but no one's ever put the word contingency on it. One thing is understood contingent or relative to the other. So here are two variables across the top of the table again. We're just looking at those 50 emails.  Is an indicator variable multiple people you might use the word yes or no or zero in one if you like putting numbers on things. Okay. So every email can be you can decide its multiplicity of sending and you can also see how many times since it had. Okay. So all the emails are represented in this tree by to Central thing and you can see all 50 of them even put on the margins. We just heard of a Down on the table or at across the table and you could add through the margins and you have to get 50  Peso number at the lower right will always be the total data size. So our email sent to multiple people more likely to have attachments.  Before you saw the data.  What did your soul say?  Yes, why?  Go ahead.  Okay, reiterating you said if you're sending spam usually goes to lots of people and usually thoughts throwing lots of attachments. Okay, I like that. Let's see if it's true.  So here's how we figure it out first. We focus on emails that were sent to just one person that is a multiple people should be Zero Store in the first important column here and they're 43 emails that went out to just one person and you can look at how many of those had multiple attachments or attachments. Okay. So here's one and one so two of the 43 emails.  3% of single people have attachments 4.6 5% of the time. In fact that feels about right to me when I send out emails to go to one person.  I don't usually attach things. That's actually quite rare.  Okay. Now let's look at things emails are going out to lots of people. That's the next column over the column where it's a 1-under multiple people. So we only have seven emails here and one of the seven  had attachments so now we're up to 14% fuel, right?  Maybe  do you want to form your belief system based on 50 pieces of data?  Sent you a single human being.  We're starting to see how careful you have to be with data. These are 50 email sent to the author of The Textbook one of the authors of the textbook not a representative sample of you. All right.  So we'll get into this later when you have to start thinking about populations and samples are drawn from them. So there's a little on how you display and think about categorical data now numerical data. So here is an actual data sets of how much I spend when I go to Chipotle on a bunch of different visits. You probably go to Chipotle and recognize that these are quite reasonable amounts of money.  Based on what you could buy there. Now. This is a numerical variable. It looks like numbers it acts like numbers you can add up to costs and you get a total cost of those visits for example.  Now the trouble with numerical variables is they can take on basically almost any value that this feels like a continuous random variable.  Now I can't do.  Two and a half Stones. So maybe I can't achieve this in between between $0.02 and $0.03.  But it's basically smooth in terms of our experience almost any price could come up at Chipotle depending on the local taxes and all this other stuff at wherever you are. Okay. So how do you display something that could have infinitely many possibilities you don't have categories anymore to put along the horizontal axis. So what you do is you build a set of been so we'll take the access. The guy was basically from 0 to infinity and I decided to break it into little zones that were one unit wide.  And then I looked in this column here and I said anytime the data fall between 12 and 13. I'm going to put a bar-height one. Okay, so 12.31 for example, is this first bar and you just keep stacking up based on how many things fit into each bin now I could have been to this differently and gone from 12 to 12:50 and 12:50 to 13 and 1/2 binder grain bins. The picture will change a little  So there is some art in this in deciding how you want to display this now you'll notice it's possible to have a blank then where nothing fell into it. It's hard for me to spend between 13 and $14 at Chipotle giving the kinds of things. I ordered. That's all this means.  Okay, when you're doing the bins, you have to make sure you define some inequalities smartly. So how about we use less than or equal to for the left side of the bin and strict less than for the right side. That's totally arbitrary, but you don't want a situation where someone spends $12.  And you're not sure if it should go in the left pane of the right pin. It needs to go in one of the two based on your definition of structure.  Okay. Now you'll notice also that it's possible that data could swear to fall way over here on the right hand side and sort of be apart from all the other data.  So we're going to have that come up and we're going to talk about that as it does but let's try something now that you have so proud of all installed checking your phone dammit.  How many people have you texted with today? This is number of people not number text messages. So we're going to go into Socrative and you're going to give me your data in real-time and we're going to see what happens. Is it probably going to blow up the computer will see?  I'm not feeling good about this right now. So all I do is I go to Socrative I say let's do a quick question short answer so you can type anything and I want your number of texts. He's no don't send me a word.  I need things to feel like numeric data.  So I probably just went to your phone now. It's asking you now you type in your number then you send it to me then it shows up in real time on my computer.  In 30 seconds, we can have a hundred responses if we want.  You want to see what people are doing? Here's what people are doing.  You notice how he hid the answers at first.  And then revealed them people still troll even when you hide it and don't reveal that trolling is going on.  Okay, that's enough 132. So then you just go get the report and you say download.  So now we have our day. You can see it's an Excel, right?  Now the first thing I'm going to do is take all of our data here and we've got to clean it up. If you want to be a data scientist, which is probably some of the people in the room you were going to spend a lot of your life cleaning data. Sorry.  Text E's.  Now, let's start making decisions about cleaning. What would you like to do with 2300?  Okay, someone wants to delete will delete it 5:20.  You want to delete okay, if it were 4:20, we would definitely delete.  Okay, I assume you want to delete this.  42, how about 1:20?  You're a decider. What do you say?  Yeah.  I'm sorry. Delete you decided.  You see every time you do this you put your feelings on the data. It's very dangerous, right 2210 111.  Going to keep or delete delete.  Look at shoes shaping the data and the way you want it.  Sorry, this is numeric not categorical people. Now. We have to be careful to see if there are any negative values.  We didn't get any of that kind of trolling this time around now. I'm going to go save this.  save as  let's browse around and go put it on the desktop.  Now when you're doing this, you have to decide on a style I'm going to do a CSV file. It stands for, separated values, which means when it started to sit.  It just puts commas between things to show.  Trying to force me into using Excel format to this is Austin.  Welcome to our studio your new friend for the quarter.  If you already know python great time to learn are you will be better situated to get a job if you know both in the real world and you'll be better situated to understand the differences between all of these they're forming windows in rstudio up in the left. You can see dataframes ardata matrices here is where you can write code or you can write scripts up here that have lots of code in them. For example, he was a script of code of me doing something for some other class. Okay. So anyhow, let's just go try something here. First thing you want to do is in the upper, right? This is where you manage all your data frames and I just like to import a dataset. So let's try that.  This is cooking something and maybe a miracle will happen. Maybe it'll work so desktop. Here's your data and took 2 minutes to get it. Here's how it thinks. It should structure the data. So this is what it sees in the file. And here's how it's going to try to structure it then it's a boring dataframe. It's a dataframe with one column.  It's like a trivial dataframe.  Okay. Now that shows a very stupid name for the dataframe. It's violated right here and here you can see it writing code to read it in. So why don't we choose a slightly easier name for the dataframe call data.  Okay, let's not have to assignment operators.  Oh my goodness.  Peter can't do anything.  Too much going on.  You know, it's pretty amazing that they would do this.  Okay. So now we have our data now you can see it over here a hundred 26 observations of one variable. You can double click on it and it will bring it up here.  Now, why don't you try making a histogram of this histogram is probably done by h i s t seems reasonable right? You always need to put the name of the dataframe. I called it data. You can put a dollar sign and notice it starts to code complete and it says hey there's a variable in there. Is that the one you want to use a but I just hit enter.  Okay, so we've done it hears our histogram want to make it prettier and bigger we can do that too  Now it shows some Benning structure.  And it tries to do a good job based on what's going on in the dataset, but it's possible to change the bidding structure.  That's a little more dancing will do right now, but you can see most of you have texted basically no one because it's 8 a.m. And you live on the west coast and everyone is asleep, right?  Done. Okay, probably can take a dataset of 126 points to realize that but look over here now. These people are either trolls.  Or they love texting a lot.  Or there's something interesting going on. So anyone who had one of these huge values. Are you willing to raise your hand and either tell us it was real and why or that it was troll?  Go ahead in the back.  a lot of unread messages  So this was supposed to be the number of texts you sent. I guess it was text correspondence. That would have said  So you don't text or do you and check your text all the time? Because I'm going to brother is 10000 unread messages in his inbox. I don't know how he does a 01 year. I had someone with a hundred and twenty and we all thought it was Troll and then the sooner he's our hands like that's me. I'm an RA. I texted all my IRA people to wish them a good start of the quarter. So you have to be careful when you make choices on the data. I agreed with all of your choices, but we could both be wrong. 3000 person.  Maybe they're part of some like Russian troll farm and they text people everyday that I don't know.  Okay. So now we have a pretty picture but the problem is how do you talk about a pretty picture?  We need language.  So here's our language that we're going to start learning to communicate and this is mostly for the people that don't have quantitative understanding in life your boss at your job. Whatever your friend you need to communicate in ways that are non statistical because lots of people are non statistical now, your histogram could have looked like this which is basically flat no real data will always be noisy. You will never get a perfectly flat histogram if that's what's really going on with your population has the same uniform height throughout Rapids or to go up and then down and have one hump. This is known as unimo told you not for one and mode for Hi-Point or hump.  It's possible there could be two humps like right here off on you and you do biological data about human beings who have two humps because men and women tend to Trend differently on certain features and not another example height is something that you might think is bimodal, but actually it all Blues together into one hub.  Surprisingly what other things like blood pressure has two humps. Finally you could have lots of pumps or more than 2 and we get tired of enumerating them. So we just a multi for three or more words. Those are easy and not just about the hump business. Sorry that came out wrong.  Don't know what they the number of.  Modes I got another thing you might care about is not the number of modes but the shape of the histogram and its entirety. So if the thing is Yuna motul, it'll have a left side. Is it falls off right when you might ask if those look roughly the same that is can you fold it across the motor high point in will land Ruffian top of itself. So here it will.  Okay, can you fold this in any way so it lands on itself and creates two symmetrically spaces here. The answer is no so we can say asymmetric.  That's possible for a bimodal things to be symmetric. If you fold it across this middle, it would land perfectly across itself.  Is bold like that boom symmetric and it has to do with what's going on with the Tails and a folding action that you can be more specific than asymmetric, which is floppy language. You can tell me precisely how it is asymmetric. If the things you in a modal in case we're here to you in a little things. This one has the right to just goes on forever and drags on where the left tail dies off pretty fast.  You can say it skewed right if the right tail just keeps dragging on and on and it's the longer one.  It's possible the left one drags on so you can taste you'd left know some of you probably seen words like skewed positively and negatively before you're welcome to use that language. I don't like it.  Because for example this one on the right here is skewed negatively, but everything is positive along the axes so it can be confusing to normal human beings. So how about you choose language that isn't confusion to people like skewed left Infuse, right? Which tells you which tail is the big long one that got skewed.  Okay. Now I mentioned a moment ago that you could have dated a stand far apart.  So here's an example of how many people live per housing unit. Every little bar of area represents some City. You can tell that by looking at the vertical axis, which is counting up how many cities fell into each bin?  So the question is, can you think of any cities?  They would have very low numbers of people living per housing unit.  Someone rear-ended be daring.  nope other voices  you're not going to save the class.  Come on.  Go ahead.  New York City  Why in New York City? Are there low number of people living per space?  Smaller housing units for Spirit people to be in them. I can believe that okay. I don't know if it's true, but I believe it.  That's how life Works. Who cares it's true that a possibility you could have said is retirement cities places in Florida where maybe spouses have passed away or children. They don't end up children because the two old that's another thing that can drive this down but these are outliers they stand apart from the rest of the day or they lie outside of now. This is very subjective. Right if I draw on a slightly smaller white space Gap here, you would have been like  I don't know guy. So just recognize the subjectivity of it if we're going to measure the number of medals won by Olympians. Can you name someone who is an outlier?  Phelps Phelps, okay, you would have like 19 or 21 or 27 or something? Okay, how many Instagram followers a person has?  Who Lies outside of the normal range  What?  Who?  I was Selena Gomez in the top 10 or the top five.  Skylight 7 million or something? You can all the Google right now.  Count communication and let's see how we can do here.  Can you describe our pretty little picture now that you have language to describe it someone please raise your hand and tell me about modality cemetry outliers, right?  unimodal skewed right  Asymmetric is automatically implied by skewed right? What about outliers?  You think these by 40 by 20?  You say there are outliers. Does anyone disagree?  People disagree with you. Does anyone disagree with the forties being outliers? You also disagree? Okay. So you see it's like controversial eventually. We'll have a more precise way to do this. So people can stop arguing about definitions and they can just go apply definitions about what makes something an outlier, but we're not there yet. Okay to bury myself 2 minutes.  I want my time taking it.  when you have two numeric variables, you've measured two things about an observation example in email say  you can put one on one axis and one on the other and then the numbers will create a place in the xy-plane. So here's how I made this. I command you don't really care about this right now, but you can create this a scatter plot is a plot of. That look like they're scattered about based on what the data say. So every. Here is going to be any mail for us and you can see we're measuring number of characters. This is Guinness and thousands and its axis is the number of line breaks our Carriage returns that happened in the email you might expect that longer or emails with more characters will have more character breaks or in turkey's unbelievable.  That is a bunch of language here yet to learn like usually data scientists will call the thing on the horizontal axis the explanatory variable because it is trying to explain or help you understand the thing on the y-axis, which is known as the response variable.  Now sometimes you'll see a pattern in these dots and if you do this is called an association. It just has to be any pattern that's recognizable in the dots doesn't have to be straight line or could be a quadratic would be some sine function.  Okay, if you don't see any sort of pattern, it just looks like pennies thrown off the Empire State Building that have landed on the ground.  Total Randomness all over and then you say that the variables independent they have no association.  Okay, and finally you at the ideas of outliers in two Dimensions. It's the same thing that stands apart from the overall trend that you are seeing in the date off bag subjective. Okay, no one's going to beat you up for calling something an outlier that isn't they can just disagree. So we are all out of time. You should look at the rest of the slides before next class. "
+}

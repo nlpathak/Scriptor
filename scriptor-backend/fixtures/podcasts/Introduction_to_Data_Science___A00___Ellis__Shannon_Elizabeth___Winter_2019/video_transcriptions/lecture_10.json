@@ -1,0 +1,791 @@
+{
+    "Blurbs": {
+        "* the IQR as you would take this value here * 1.5 anything outside of that would be an outlier and you would do that from both sides to determine what would be outliers in your box. The third measure in this is where the mass comes in that I hope I'm going to walk through hope we all get it feel free to ask questions about the distribution. So ": [
+            2490.3, 
+            2517.5, 
+            93
+        ], 
+        "1 is 5 What means do all that out and feel free to go through and hand you this later and check me. You have a variance of 3.5? Imma, throw that to make sure we understood how we got there for this sample if the values change even if you still 6 numbers if they're more spread out the variance is going to increase. This is how far the ": [
+            2594.1, 
+            2632.7, 
+            97
+        ], 
+        "Anybody want to argue anything else? I don't disagree with that. I think that's right. Why can't I say college students are all UCSD students. How to say I didn't offer the surveyed every student and UCSD and it would be an incorrect assumption dosing the people in his class are representative of all students at UCSD and he needs it worse is something to assume that it's representative of ": [
+            3221.8, 
+            3251.2, 
+            118
+        ], 
+        "But this is how I can see it. Other than that. We're doing data visualization. If you are leaving you can go but go quickly and quietly. I have like 30 seconds. I order to get started with this portion. Okay. So at the top here if you want to edit a long I'm going to have to give you actual tasks of things to do today. So if you ": [
+            3420.8, 
+            3507.2, 
+            126
+        ], 
+        "I probably the most frequently seen the most popular just so you have a sense of the types of distribution that exists and that you should look for in your data, but know that there are lots of other distribution potato can take and do frequently take So if you have a dataset, there's a general rule that said officiants and data scientist will tell you and this was passed ": [
+            1314.2, 
+            1338.7, 
+            55
+        ], 
+        "I will get started as people settle in. So there's a jupyter notebook portion today. I'm going to do it a little differently at the end. We'll talk about that band. But if you've not visualize data in Python, I recommend you stay wherever you working through that and covering what we talked about last lecture. As per usual course of writers. You have your second assignment due tomorrow. Your ": [
+            39.9, 
+            68.8, 
+            0
+        ], 
+        "If you are not here to do it. You have six values here you add them all up and then you divide by the number of values and that gets you your mean. For meeting you take the same values and you line them up in order from smallest to largest and then you go from either end and find the value in the middle. So we go 3 and ": [
+            2082.2, 
+            2103.2, 
+            79
+        ], 
+        "Katie to false and you have the density Flatline. Maybe your bins look different cuz you said it to something different or you didn't specify the color. So all you needed to have this correct is SNS despot TI with a square bracket and fair with apprentices after it. I'm going to add these lights on to try tonight so that you'll have it going for it cuz it's not ": [
+            4035.1, 
+            4058.3, 
+            146
+        ], 
+        "OK Google. Are we get that real quick that are staying open up a notebook make a copy to save it in your Google Drive and run the first two coats Al I'm going to use clicker questions at this point. They won't count. I'm going to delete them from it's just so I can get feedback. So clear questions use for that. This won't count for the extra credit. ": [
+            3404.7, 
+            3420.8, 
+            125
+        ], 
+        "Once you know that it's critical to know how many observations have missing data and we're going to Jupiter park at the python Target talk about how to do this. So I'm for now. Going to show this visually. This is the same information that I just showed you from the previous date is that so we have all those 80 observations I mentioned and then we have a different ": [
+            895.0, 
+            916.2, 
+            38
+        ], 
+        "Or how they ruled out another one. Next one and then we'll talk about both these cuz the answer the same for the next one, but it's a different question. Which of the following would you expect to be bimodal? Give it a few more seconds. 3 2 1 So we have some disagreement. Let's talk about this. So let's go through them one by one and I will draw ": [
+            1506.0, 
+            1575.5, 
+            60
+        ], 
+        "So see is the right answer the most frequently observed value is LC in the conservation. All right, we talked about the size. We talked about missing us. We talked about shaped and I talked with central tendency. The last we had is variability and this will be maybe the nastiest part of the whole course. So weird about central tendency mean median mode that's only part of the story ": [
+            2397.7, 
+            2424.3, 
+            89
+        ], 
+        "So we're trying to measure the the central tendency. What a typical value is for the data set. We wanted to fall within where most of the values are. So when you have outliers, the mean is going to be less accurate and the median is what you're going to want to use because outliers are really just pulling this number over here. Where is the true central tendency? What ": [
+            2257.2, 
+            2278.6, 
+            84
+        ], 
+        "Thank you. I've read through so far the positive X really helpful for me to know what not to change going forward and then the critical critical negative feedback is helpful for me changing things in this course going forward for the second half and for future Generations. I'm up, is all that we can chat about that next Tuesday. If you want extra credit respond also to the survey ": [
+            109.2, 
+            128.7, 
+            3
+        ], 
+        "The goal of descriptive analysis, which you will have to do on every analysis you do in any data science project is to understand the components of the date of that those components could be the observation. So the how many individuals are in there how many dates were information collected on how many places did you collect in Revenue information about you have to know just like the basic ": [
+            287.6, 
+            307.5, 
+            12
+        ], 
+        "The reason why is because our brains are not big enough, we're not good enough at looking at an entire day was that and just looking at it and knowing what's in there. So you have to suppress some of the information see if it's a press it down to these metrics like mean median mode variability measures in order for us to comprehend them with our human brain. If ": [
+            2866.3, 
+            2886.2, 
+            104
+        ], 
+        "Yeah. Okay, so someone could have put in a really big number randomly or really small number randomly. And if we looked on we can see that in fact, the there were two hundred times. I feel it answered Andi Mack's number with six six six and that is not something that that's not uncommon to happen and datasets people answer creatively all the time and everything. You can also ": [
+            3337.8, 
+            3367.9, 
+            122
+        ], 
+        "a distribution up here based on what y'all tell me. So what do we think it would look like for the number of siblings you all have who has a thought? So it's cute. We talked about that earlier. That's cute to the right where we had something. That look like this where you had seven and none. So this one is skewed right? And that's her siblings. Macon Heights ": [
+            1575.5, 
+            1609.2, 
+            61
+        ], 
+        "all a few minutes to generate a boxplot for fair broken down by what class they were on the Titanic. Are the numbers you have gotten it if you were stuck. I'm happy to chat with the few that are stuck after we're going to take a look at this. So if you were to generate a box, and maybe you haven't set the background to White so there's maybe ": [
+            4155.1, 
+            4267.7, 
+            151
+        ], 
+        "all college students. So despite the fact that you all are in a college course you want to be careful of these assumptions of the only thing I could generalizes to is cos 9 students at UCSD. I'm even more particular I can only really generalize to this quarter and I don't even know that the 275 of this some 340 that are in this class or truly representative. So ": [
+            3251.2, 
+            3272.2, 
+            119
+        ], 
+        "an example of SOB if I gave you a die and asked you to roll it and I assumed you that a million times you could do that baby there for a while. So instead we stimulated and Python and if we do that you're equally likely to roll a 1 2 3 4 5 or 6 as long as it's a what's it called not fake die way to ": [
+            1070.4, 
+            1089.4, 
+            45
+        ], 
+        "analysis with examples throughout the rest of the course. And today we're going to start with descriptive data analysis and my goal is that you all if you see a data science question that is a descriptive analysis question you would be able to identify that and you would also be given a dataset be able to describe it and using appropriate descriptions and statistics that so we're going to ": [
+            188.6, 
+            207.8, 
+            7
+        ], 
+        "are going to focus for the remainder of the course on the analysis portion to do this. You have to look at your data. You have to know what information is in your data say you have to know you have to be able to describe it and that's we're going to talk about today and you have to be able to explore the information is stored in there, which ": [
+            229.3, 
+            244.6, 
+            9
+        ], 
+        "be thinking about was that one year old supposed to be 18 and they just like didn't type in a second if somebody recorded wrong. Was that 95 supposed to be 59 always double check to see whether or not there are data entry errors, you can identify or if me poor sampling procedures. Maybe they just didn't specify how to get a representative sample is also technical or mechanical ": [
+            1960.9, 
+            1981.9, 
+            74
+        ], 
+        "bigger on the clock so that you all can see it when I display it up on the screen you can play with it and you can then run the graphic and see how it changes. I'm similarly Ivan partisan matplotlib again a lot for displaying the one that's important here is that parameter that I said, this is just so that the place I make are bigger again so ": [
+            3616.9, 
+            3635.0, 
+            132
+        ], 
+        "can do anything else? We talked started talking about distributions and shape last lecture when we talked about visualizing data and histograms and density pots using the word distribution of the variables. Do you want to know what a typical value is what the ranges for the that the values can take in any given variable and it's important because analytical approaches. So how you determine? How do you decide ": [
+            988.5, 
+            1015.4, 
+            42
+        ], 
+        "can see the similar formation to what you all just made in your histogram with in a box, but I told you in lecture that box plots are held for when you have a continuous variable by a categorical variable. So will this give you some information the histogram you generated is probably better. Welcome back to this. This was just the math for a IQR a box. That's really ": [
+            4080.0, 
+            4104.8, 
+            148
+        ], 
+        "central tendency. So glad to hear that mean median and mode they were going to a different ways to measure how variable the information you have in your data set it. So why did I found so far in has to do with collecting information about human individuals? I'm So Into You to say is that to show that grows in a dataset don't always have to eat people think ": [
+            809.3, 
+            832.7, 
+            34
+        ], 
+        "chart that we talked about last time. So you're the count of mammal and then you have all of the different orders and you can see that were densha is the highest one here. So we're densha would be the mode of this data set. All right, so to follow that up, what is the mode of the data? gravity few more seconds 3 2 1 Okay, overwhelmingly, the class ": [
+            2323.6, 
+            2378.4, 
+            87
+        ], 
+        "coming in what? All right, so I know we just talked about this and it's fresh and ever his mind and that's great. So this is best described by being skewed right there. Is this long tail off to the right? I picked this one because that always confuse me when I first started learning about statistics that they tell follows the skewed great. Now which of the following would ": [
+            1412.9, 
+            1437.3, 
+            58
+        ], 
+        "complex Kratts. What we're saying is used to born at the nests and make a density plot / histogram which is dist and then you specify what dataframe you want to use and then what variable you want to plot and that produces this lovely plant here where you have the distribution of the age. They show the histogram and on top of it it overlays the density plot. So ": [
+            3749.0, 
+            3770.1, 
+            138
+        ], 
+        "considering this at the beginning of your analysis. So how to actually do it there. Lots of ways you can describe it is that I'm going to talk about five characteristics and this is something that you should do for your assignment and I used to do for analyses in general is that you want to understand these size whether or not they too are missing the general shape the ": [
+            789.5, 
+            809.3, 
+            33
+        ], 
+        "data analysis you were describing the day. Do you have any information inside the data set? I like to get the picture when I'm talking about descriptive an exploratory analysis soon as painting you have one month and they are all over this elephant and is what I want you think about anytime you're doing descriptive analysis. You can't just like looking in a dataset know everything about it. You ": [
+            327.0, 
+            355.6, 
+            14
+        ], 
+        "data science in general and the idea is garbage in garbage out. If you have a very biased data set in the in the beginning, I don't care how brilliant your data analysis is or how creative you are if what you have can't answer your question or is really super Vias. You're not going to get anything good. It was always worth spending time at the beginning doing a ": [
+            742.1, 
+            764.2, 
+            31
+        ], 
+        "dataset if we take a look at the first two rows increase the size of this little bit. We can see that this is all information about the Titanic who was on it, whether they survive what their sex was their age information about their Fair where they infarct what class they were on the ship and so forth and so on. So I can just take a look at ": [
+            3679.5, 
+            3698.7, 
+            135
+        ], 
+        "day. That's not 80 years old there 80 + 4 - 7.6 Hi, pretty I'm going to try to use your data throughout the rest of the course to ask the different types of questions. We're go through in class. So here is our attempt at just getting started on describing your data. From the first day I had information from 275 of you and I'm only going to be ": [
+            3011.7, 
+            3035.2, 
+            111
+        ], 
+        "did that so you should be telling the people you're communicating the results to that you remove information that you have and why you decided to do that what you did to determine if that was okay. Okay, I'll leave that one up like that was distribution. You have to identify the pattern pattern helps you determine if there are outliers. The next two things are central tendency and variability ": [
+            2024.0, 
+            2059.4, 
+            77
+        ], 
+        "didn't give their Hometown. We'll talk about that next lecture. I'm coming to Temple is just getting these descriptive statistics on your variable. So let's look at GPA we can see that the mean is 5.3. But if there is variability in that number and that's something you would note as you do that you would look there when you got paid. So the mean is 5.3. Is that what ": [
+            3107.0, 
+            3130.9, 
+            115
+        ], 
+        "die holder 1 2 3 4 5 or 6 is constant across all of the million rolls of the die. So that's a uniform distribution. Registration you're probably familiar rest, but we have to cover it just for completeness ache is a gaussian or normal distribution Z show up all throughout biology all throughout the world will show up in your data and these are the classical distribution that we ": [
+            1089.4, 
+            1118.5, 
+            46
+        ], 
+        "disparate elements. Okay. There's a whole lot in there. You are very familiar with collecting information classifying it and then using Siri to analyze the data and answer your question. That's all it is saying so you have to be good at this when you are doing analysis. So it was the physics works with unsurprisingly Statistics and where to go to the definition of a quantity computed from a ": [
+            446.1, 
+            471.9, 
+            19
+        ], 
+        "displaying information from twenty. One of the things I asked about those things that I asked about are all here. So if height date of birth hair color zip code Hometown ethnicity gender GPA how you take note statistics programming the year you are in your undergraduate Studies major how you learn how you work pet vegetarian color siblings animal eat lots of information. I'll share our data set with ": [
+            3035.2, 
+            3056.4, 
+            112
+        ], 
+        "down from a professor prison to a friend to me and I change the third word cuz I'm really trying not to swear on this podcast throughout the quarter because it's reported and so I don't want my slides either. So this word was shaped a little bit for the idea is if you have a variable and the dataset just saw the danger act like a look at it ": [
+            1338.7, 
+            1358.7, 
+            56
+        ], 
+        "dry drive at home. If we were to generate a histogram with a the deadly plot over top of it for that same information. It's kind of a mess. That's not very clear what's going on me and said would want to use the box plot for that data. So histogram single quantitative variable spot spot when you have a single quantitative by a categorical. All right, I'll give you ": [
+            4129.3, 
+            4155.1, 
+            150
+        ], 
+        "error. Did your machine make a mistake or did somebody else record the information and they did a bad job recorded. How was it recorded? It's always important to go back and look at that and for machines weather changes stuff. So keep that in mind. Okay, so if you look at your day is at Cedars is outliers and you determined through your likes losing and detective work any ": [
+            1981.9, 
+            2004.0, 
+            75
+        ], 
+        "flat. So the younger people didn't necessarily pay more or less than the elderly This is just for general knowledge. You can color the dots by specifying the issue. So he who is what's going to change the color of the points or the bars or the boxes on clots when your music Seaborn. Okay, baby sleep we haven't talked about barcharts. I'm going to stop here and pick up ": [
+            4329.4, 
+            4358.6, 
+            155
+        ], 
+        "fourth reading is due next Friday. So I have taken out one of the two readings that I'd originally signed. You only have to read this line proportions and percentages now and that's what's on the reading quiz. If you already read the other one find the other one interesting one to read it. There are optional extra credit quiz questions on the reading quiz. This is in direct response ": [
+            68.8, 
+            88.6, 
+            1
+        ], 
+        "go to your sections office hours. If you have questions about python or the notebooks or the lecture or the reading these are really great times and resources to get help and you can also email me if you can't make it at any of these times and I can meet with you. Hey, I see what that alarm will get into today is material so far in this course, ": [
+            152.5, 
+            171.9, 
+            5
+        ], 
+        "good descriptive analysis figuring out who your population is whether or not your sample is unbiased before you start answering any super interesting questions. If your data can't answer that question, don't waste your time here. Access AT&T so far we talk about random sampling. We just discussed with a certificate as we talked about how to get an unbiased random sample and it's disgusting what your population is always ": [
+            764.2, 
+            789.5, 
+            32
+        ], 
+        "got a right but this the reason I put the option D in there was because I wanted to really make sure that we knew that they mowed has to be something that shows up in the dataset and it's not the number of times it shows up. So the mode is the most frequently observed value and this is a value. This is just how many times it was. ": [
+            2378.4, 
+            2397.7, 
+            88
+        ], 
+        "has no apparent pattern. So it's hard to pick out any identifiable shape in this distribution an example here is also from your data shown this before here. We have the number of people in the class who have some experience the best way to teach a programming class down here. They have no background in it. It's kind of all over the place, right so you can start up ": [
+            1266.5, 
+            1290.2, 
+            53
+        ], 
+        "have to really take a look at all the variables take with all the observation see what's in there and that's what's going on here. The blind monks can't see that this is an elephant. Don't figure out they have to touch every part of it a climb on top of it grab the tail and then you start to get an understanding. So this is the idea. The elephant ": [
+            355.6, 
+            372.2, 
+            15
+        ], 
+        "height in inches of the students. My question to you is what's going on. Is this what we expect what's going on? Is it not what we expect? Okay, so most of our data are down here and the bins are of like 50 in or 25 in so that's not really getting us down to the day that we have the why why did this happen? What's going on? ": [
+            3297.0, 
+            3337.8, 
+            121
+        ], 
+        "helpful. Is it when you have multiple categories and you want to summarize across the continuous variable by the categorical so to do that you use what you want on the X. So here we want fair or continuous variable. Why is who that is are categorical variable. And again, we don't specify that were using a Titanic dataset. The reason we use a boxplot for that's a really just ": [
+            4104.8, 
+            4129.3, 
+            149
+        ], 
+        "here and then it drops down and starts to increase but then it's kind of random drops back down and this is an example of a random distribution. All spiders and then explain to you don't need to know the details of this. I've walked through quickly like six different distribution. Nobody know that there are lots of distribution that data can take and we're not covering many of them. ": [
+            1290.2, 
+            1314.2, 
+            54
+        ], 
+        "here is we're going to load the Titanic dataset and we're going to call ti. So anytime you see a GI in a future. That's Titanic and this is lazy variable naming and Dad. I should not have done that. Okay, because we're just going to be using this for visualization and we're resetting the index so that all the rows are numbered from 0 to the end of the ": [
+            3657.9, 
+            3679.5, 
+            134
+        ], 
+        "how many observations are there and you have to be able to describe. What are there who are these people? What are these values representing? You have to be able to describe the typical range and what they mean and median are and this is all going to talk about today. You'll be able to explain it to others should have communicated in some way when you're doing a descriptive ": [
+            307.5, 
+            327.0, 
+            13
+        ], 
+        "if you went over backwards and if you stay under 60 miles an hour. Right on the highway to go to the supermarket lot of people don't I could have done that better. I'll do better next time. It is at 4. Speed limit in the US. We have basically Highway fees And we have local C's and there are people there are roads that have in between but we'll ": [
+            1852.4, 
+            1879.4, 
+            69
+        ], 
+        "in each of these. What is the IQR in this case of experiment number for so we're talking about this one here? Give everybody a few more seconds. 3 2 1 I told her that majority. Have you got to write somebody who picks the explain to me how you determine that? Y'all randomly got to the right answer together as a class. Translate in the lecture and nobody wants ": [
+            2720.5, 
+            2807.4, 
+            101
+        ], 
+        "in each review. That would be what we would do in this analysis. We would collect all that information and then we would summarize that and that would be our descriptive analysis. I mention to her that we would take a random sample. So let's define what that is. A sample is some subset of the population and do random sample occurs when you use the sampling practices, so if ": [
+            551.2, 
+            573.9, 
+            23
+        ], 
+        "in that so they should be in your jupyter. Notebook. There's a spot that says you were turn and it's kind of big. Brighten the numbers you have gotten it just mistake of time. I'm going to go forward. So if you got something similar to this you would have the fare on the x-axis and the number of passengers on the y-axis you're different because maybe you didn't set ": [
+            3915.4, 
+            4035.1, 
+            145
+        ], 
+        "in this rains. There was probably some effort to collect information about people between 18 and 65. So what's going on 12 Years a person that has their age and dad has one and here's a person with 95. Anyhow, I could happen for lots of reasons. Maybe those are truly the numbers of the people in your data sent but there are data entry errors that you should always ": [
+            1940.5, 
+            1960.9, 
+            73
+        ], 
+        "in what you have right now. Okay, we're going to quickly go through and I just wanted to demonstrate that the approach other types of foxes similar so you could SNS boxplot specify that you won fair and then specify the data RTI. So the syntax here is a little different but it is equally stand and you then get that box plot that we've been looking at where you ": [
+            4058.3, 
+            4080.0, 
+            147
+        ], 
+        "inches and all 275 people who responded answer this question. So I got a sample. What's the population here? Read a few more seconds 3 to 1. Alright 83% of newstead eCards nine students at UCSD once explain to me how I know. Cuz I will send up here until somebody answers. But what the population here? Yes. The only people answering taking his class answer the survey. That's true. ": [
+            3150.8, 
+            3221.8, 
+            117
+        ], 
+        "information that they encode in their table one and see how many people are in each category also when mean so something like central tendency is displayed. You can see that they also include the standard deviation. So they include mean so they spent plus variability which gives you the sense that the mean is 80, but you know that there is very building on that number everybody in the ": [
+            2990.3, 
+            3011.7, 
+            110
+        ], 
+        "is 1.67. Any outliers here are the reason that sorry? Dollars are what is explains the difference between the median and the mean so my question to you is which is the better measure of central tendency here. Give it a few more seconds. 3 2 1 XO three quarters of you said median and that is truth and I want to hear from you how you decided that and ": [
+            2150.5, 
+            2216.3, 
+            82
+        ], 
+        "is a dating site and you are all the blind. You need to have some understanding of sampling and statistics. So this is the first time that I'll be talking about these with definition. So I wanted to get started there. There's an idea of a descriptive analysis. What did you set out and you wanted to understand whether users are nice or mean on YouTube. The question that's like ": [
+            372.2, 
+            396.7, 
+            16
+        ], 
+        "is and then look if anything funny is going on. So save it is that where you a thousand people who are between the ages of 18 and 65 and then you have one person whose age in the date of that is 1 years old and new one person. Who's 95 Data set that could have been what was collected but you're not an issue of a thousand people ": [
+            1921.0, 
+            1940.5, 
+            72
+        ], 
+        "is being so we had a fear before we're generally fight, but they are types of females with look something normal season 2 lb a normal distribution I wear that D daily chance of winning the library Lottery. Sorry know any libraries although I would be fine winning Library. What about winning the lottery? Daily chess. What are your odds today of winning the lottery? Show me Sub-Zero. So you're ": [
+            1722.4, 
+            1759.3, 
+            65
+        ], 
+        "is the more variable the numbers are in that inevitable. We also talked about standard deviation in cases like this, where here you have two different distributions the red and the blue on each of these is a normal distribution follows that galaxies and shape. We talked about earlier here. The values are less spread out. So they have a standard deviation of 5 here. They are more spread out ": [
+            2665.0, 
+            2690.2, 
+            99
+        ], 
+        "it's blue but you did SNS boxplot specify that you wanted fair and class and specify that the data that you want to use is t i and you should have a similar-looking plot. That's what I wanted to talk about or Scatter Plots when you have two quantitative variables, so here we're looking now at age which we've looked at individually and fair, which we've looked at individually and ": [
+            4267.7, 
+            4289.5, 
+            152
+        ], 
+        "look at all the time or talk about a Galaxy normal distribution values are near the central value for the range and they are symmetric around the middle. So you have the same shape on the left as you do on the right. An example of this would be if you flip a Fair coin. That's why I was looking for a fair die. If you flip a coin one ": [
+            1118.5, 
+            1141.8, 
+            47
+        ], 
+        "make sure that you accomplished your goal and that is representative. So you do have YouTube comments from all over the world in different languages from different types of videos from videos. I might come down to it. Sometimes you have no choice but to work with the data set that is not collected randomly that has some sort of bias. If that's the case. It's your job to know ": [
+            615.6, 
+            635.6, 
+            26
+        ], 
+        "many more siblings and everybody else. So this would be something that is skewed, right? Another commonly seen distribution is a bimodal distribution where across the range of possible values. You have two distinct Peaks. An example of a bimodal distribution would be if you were to look at the number of people in a restaurant over the course of the day. So this is on a Saturday at a ": [
+            1211.8, 
+            1240.3, 
+            51
+        ], 
+        "many of your observations are missing information across all your variables. If you can quickly see that sleep cycle has the most missing but there are lots of variables where you have information across all your out to patients. Okay, so swollen between thighs. So how many rows how many columns and missing us? Where is information missing? Why is it missing and determining that is really important before you ": [
+            964.7, 
+            988.5, 
+            41
+        ], 
+        "need to do that is because your data are going to lie to you and they're going to deceive you throughout at forever. So sometimes it save your data will mostly fit an expected distribution. So you'll have something that looks pretty normal and I don't have these weird. So that's what I told you in the data visualization lecture. Look at the shape first figure out what the trend ": [
+            1903.3, 
+            1921.0, 
+            71
+        ], 
+        "no idea why you would use it but it's really helpful and describing the central tendency for categorical variables. So you could take the order of all the mammals in the state is that and you could summarize how many mammals fall into each of them and then you could look for the one that has the largest value. This is most easily visualized on a chart Style a bar ": [
+            2303.5, 
+            2323.6, 
+            86
+        ], 
+        "none of the categorical variables are going to be displayed here. This will just be the quantitative one. Mrs. Only for your premises so that you can have these in your notes. We talked about why you would generate a histogram or a density plot. And here's the first one so we'll see where it goes. Nicely is naked syntax. Like the syntax is pretty simple for generating a pretty ": [
+            3727.5, 
+            3749.0, 
+            137
+        ], 
+        "numbers are from the mean is what we're talking about with variance. Best way to measure of variability is with standard deviation and fortunately once you know various this one is just taking the square root of the variance. So after you've calculated variance that same value just said if you take the square root of the standard deviation, which is the notice is 1.87. Against the law to December ": [
+            2632.7, 
+            2665.0, 
+            98
+        ], 
+        "of a family with two parents and 10 children so big Why is it so you saying? It's normal? What makes you think it's normal? How does solar same generally height is normally distributed where there's a range but a lot of people fall in the middle and that's not on true. That is definitely true. What about the fact that we have children here? I see your thoughts are ": [
+            1609.2, 
+            1668.3, 
+            62
+        ], 
+        "of these reasons and you're confident that is you have a reason to remove an observation, but there's a warning. You can't just decide you want to remove stuff because you don't like it there or because it would make your results better. So only remove information and values from a dataset if you have a valid reason to do so like one of these and always say that you ": [
+            2004.0, 
+            2024.0, 
+            76
+        ], 
+        "on this side and 3 on this side the media 3.5 cuz it's right there in the middle of 3 and 4. The first one the median in the meeting were both 3.5 but that is not always the case here. The median is three now that I added another 303 in from the side for 3, but if you were to add them all up and divided by 7, ": [
+            2103.2, 
+            2125.3, 
+            80
+        ], 
+        "once you know your central tendency, you're mean very very very intelligent how close you are to that value the like Matthew way of saying it is the average score difference of the score from the mean and we're going to walk through what that means now. Okay, whereabouts are each part of this but really quickly when you have this this is something you're going to some the differences ": [
+            2517.5, 
+            2538.2, 
+            94
+        ], 
+        "one another we talked about language or genre or location or think that you would want to make sure after you collect the data that you truly have an unbiased random sample. I hope so too. Naples hear of why there would be bad simply one is serving subscribers of a gun related magazine for research on attitudes toward attitudes toward owning gun here is clearly, but if you want ": [
+            661.6, 
+            687.8, 
+            28
+        ], 
+        "our users nicer me but I thought of data science question cuz it's not specific enough that you can figure out what you're going to measure to answer the question. So the more specific question would be are the words that people use in their comments only positive words or more frequently negative words get them information and you just described the information that you've collected. Didn't you would calculate ": [
+            396.7, 
+            420.7, 
+            17
+        ], 
+        "place where people show up for brunch. So there's one Peak and then for dinner is another Peak. So Deeks don't necessarily have to be even but the showing up a Russian overtime is a classic example of what are lots of people who not many people there in the middle of the day. Welcome to talk briefly about a random distribution. A random distribution is one where the distribution ": [
+            1240.3, 
+            1266.5, 
+            52
+        ], 
+        "plot a density plot, the 25th percentile would be visualized tear the 75th would be here and you would take this value minus this value to determine the IQR. Usually on a box plot. This is the platform last class where your height and gender. The IQR is the top of the box. - the bottom and then I said that we had to find outliers outliers are typically 1.5 ": [
+            2464.2, 
+            2490.3, 
+            92
+        ], 
+        "population. So, how are YouTube example question was about all YouTube comments, but we can't analyze all YouTube comments ever so you would probably want to get that a hundred thousand comments. Look there see whether or not things are more positive or negative and then we can generalize back to all YouTube comments. They do here is if you have a population and you want to know something about ": [
+            501.6, 
+            525.9, 
+            21
+        ], 
+        "pretty darn close to zero. What are your odds tomorrow winning the lottery zero and they're probably going to not change over time. So while it would be there and this is like super close to zero. It would look pretty darn uniform. Don't answer to the first question about distribution of speed limits in the US. Who here originated if you drove to school? All right, you want to ": [
+            1759.3, 
+            1797.0, 
+            66
+        ], 
+        "question. 138 of the Rose have some missing information if we break that down by the different variables for looking through with most things or somewhere between 0 and 20 a lot of people didn't specify their favorite TV show and then if we look closer we see that 25 people didn't say their zip code, but only nine Tuesday Hometown. 6969 didn't give their zip code for only twenty-five ": [
+            3076.9, 
+            3107.0, 
+            114
+        ], 
+        "raise your hand if you went if you okay to raise your hand if you have your parents house, so we have a number of them. Now what they can and drop it if you stayed under 10 miles per hour. Okay, so most of us went down some of us it up now back up. If you sorry I should just go with the market and drop your hand ": [
+            1827.5, 
+            1852.4, 
+            68
+        ], 
+        "ran over Gresham line is fit automatically. We'll talk about that later. But if you wanted to get rid of that regression line, it would be the same code and the only thing that changes is fit under square regression equals ball and that gets rid of that line. You can just see the relationship where each point is an individual and the relationship between fair and image is pretty ": [
+            4309.9, 
+            4329.4, 
+            154
+        ], 
+        "room this on the next lecture, but you can read through the rest of this and if you're struggling on the collaboratory notebook, feel free to let me know right now and I can try and figure out where you're stuck at everybody to say. I didn't eat that fly. ": [
+            4358.6, 
+            4380.8, 
+            156
+        ], 
+        "rug equals true. You have a cut a rug pot and this shows you each individual value. So he's one of these is a person in the dataset. So you get a histogram a density plot and a rug pot all-in-one and it is quickly a showing you what the age is of all of the individuals in your data set. Bin size was mentioned in lecture and I just ": [
+            3794.1, 
+            3817.7, 
+            140
+        ], 
+        "sample. So now I have to Define. What a sample is. If it just makes you often want to know some information about a larger population for you can't collect values from every single person or thing in that population. So what you do is you sample a subset of the population collect information and data about everybody in the sample and then try to generalize it back to the ": [
+            471.9, 
+            501.6, 
+            20
+        ], 
+        "see a hump at the highway fee. So somewhere around like 65 in Most states that difference between states with them locally be somewhere in like 15 to 25 rain another example of a distribution. So both for the bimodal one both pee and eat with rice. I also talked a lot about distributions and I told you I want you to draw the time graph. And the reason you ": [
+            1879.4, 
+            1903.3, 
+            70
+        ], 
+        "see males versus females and race which is unhelpfully white or other and this is a common saying in science where we only study white people and that's a problem. So the fact of the matter is we do a bad job recruiting otherwise It's all there for their data are not representative of the general population. It's really only representative of white people. So this is the type of ": [
+            2966.2, 
+            2990.3, 
+            109
+        ], 
+        "see that the men is 5 and if I had to guess I would say that person is 5 feet tall and they just were going to this quickly and it said inches in a foot in feet and that happens all the time. So you have to look at these things. So if we filter this to only include values that are less than 7 and 1/2 inch taller ": [
+            3367.9, 
+            3386.6, 
+            123
+        ], 
+        "see what your distribution is before you start making any assumptions. So let's do that. This is from that data set that mammals date. Is that what we're looking at here is a density plot for REM sleep and I want to hear from you all about what the following best describes the shape in the spot. 80 I don't get ready a few more seconds. 3 2 they're still ": [
+            1358.7, 
+            1412.9, 
+            57
+        ], 
+        "set the style of these are just note so that you can play around with his in a second when you make your own histogram if we use Seaborn and we say we want to set the style to White the background is now why do we get rid of all that blew me then use that same line of code we use previously, but I specify the color of ": [
+            3868.3, 
+            3886.0, 
+            143
+        ], 
+        "sleep cycle for more than half of your mammals in the dataset, where is another places where you have order, you know the order for all the animals where it's completely gray for the whole column. 20% of how many missing values you have in your data set is the second step after determining how many rows and columns another way to visualize the same information is looking at how ": [
+            943.7, 
+            964.7, 
+            40
+        ], 
+        "so I thought there is that within the family Heights tend to be similar. So there are tall families and their shorter families in their middle, What if I'm saying here? We're just going to have the height of one family. size of a single family with two parents in 10 children But that distribution look like some hands being drawn. I'm going to go with your hand drawn over ": [
+            1668.3, 
+            1691.7, 
+            63
+        ], 
+        "so always look in the beginning keep track if you people are removed as how many people are in your data that so here we have 83 mammals and 11 variables. So I'm only showing a snapshot. 18, but there are 80 of them. It's so simple know how many rows and columns. You have know how many people are in your data set and that's a good first step. ": [
+            873.0, 
+            895.0, 
+            37
+        ], 
+        "so in this case. It is information about mammals. So mammals are in the Rose and then we have some information about those mammals in the columns. We have their genus how their they eat the order their conservation information about their sleep about their brain weigh and then their body weight. So if you want to describe the state is that a really great place to start is to ": [
+            832.7, 
+            855.3, 
+            35
+        ], 
+        "some more variables the variable at a mediation is higher. Just a really drive home why we don't just calculate mean median and mode here are two different distributions with the same exact meaning of central tendency. So they both have a mean of 20, but their standard deviation in this case is 5 so much smaller and here it's much larger 10, and these are clearly different information encoded ": [
+            2690.2, 
+            2720.5, 
+            100
+        ], 
+        "some sort of statistic about YouTube comments, which now means that I have to define this word statistics. What is a field about what they feel is the distances and then what a statistic is a science that deals with the collection classification analysis and interpretation of numerical facts or data. And if I use of mathematical theories of probability imposes order and regularity on Aggregates of more or less ": [
+            420.7, 
+            446.1, 
+            18
+        ], 
+        "something we couldn't see before we changed that Vince eyes notice here is eyesight Katy Eagles fault, and that's what got rid of the deadly plot over-the-top cuz I was just focusing on the histogram. MSN lecture on Tuesday. We talked about the back left as more and the the minimum amount you have on a visualization to get your point across is what you want. So here I have ": [
+            3839.4, 
+            3868.3, 
+            142
+        ], 
+        "specializations so I had to run to sell I wanted to briefly so there's a lot often but it's beginning to for notebooks. You have a lot of this we have to say what you want to use to hear were importing that package in anytime. We refer to the package were going to call it SNS I've set so that the font scale is too. Just make the font ": [
+            3596.4, 
+            3616.9, 
+            131
+        ], 
+        "squared and the difference is from the mean the meanest zodiac bar and then it's an average because you're dividing it by the number of observations minus one here is a detailed explanation. Back to our example of 1 2 3 4 5 6 if we've already calculated the sample mean for this so it's 3.5 and that's going to be X bar. The next thing to do is calculate ": [
+            2538.2, 
+            2564.9, 
+            95
+        ], 
+        "takes a few minutes, maybe like 3 to 5 by tomorrow evening. A gentle reminder. I've had a few people. Be quiet as you settle down, please come to my office hours, but I wanted to remind you all that you're at EA's and eyes and the rest of the instructional staff are all available for you. You can go to any of their office hours. You don't have to ": [
+            128.7, 
+            152.5, 
+            4
+        ], 
+        "talk about today. So so far in this course I mentioned we've been doing the process of formulating a quantitative question that could be answered with data collecting and cleaning the data. We're now into that analyzing the data portion. We're not going to folks about the commute on the communicating part as much in this class. I have thoughts on how to incorporate that in the future but we ": [
+            207.8, 
+            229.3, 
+            8
+        ], 
+        "tell me about how fast they went. I do drove to school today and took the highway raise your hand. I really with you people. I'm in at 1 keep your hand raised if you went over 60 miles per hour. Okay, who here is driven a car before? Okay, so now it's all think about if you have driven a car to the supermarket from that your parents house ": [
+            1797.0, 
+            1827.5, 
+            67
+        ], 
+        "than 2 and 1/2, we start to see the distribution of a data that were interested in getting at that bin size that we talked about so you can see the most people in the course are taller than 55 inch or shorter than 80 in. I supposed to ask you all that but you're lucky. I already said what we learned and so you don't have to do that. ": [
+            3386.6, 
+            3404.7, 
+            124
+        ], 
+        "that is equally likely to be heads or tail 16-time. The expectation would be that half of the time you get heads half of the time that you would get tail so that you all did that some of you would get 8 and a majority of you would get 8 but there was a sound as you that slipped heads or tails either more or less time and then ": [
+            1141.8, 
+            1160.7, 
+            48
+        ], 
+        "that tell you the typical value of the data for the variability in the values how to fill in the rest of the information. So one way you can determine how variable information is just take the highest 4 - the lowest score and I could do the range of the Diocese of origin of the range, but I just pointed out if you have wires this rain is going ": [
+            2424.3, 
+            2443.5, 
+            90
+        ], 
+        "that you all can see them and then I have pandas numpy. I am using in one example later on you're not responsible for knowing what that is, and this is just to suppress warnings so that it presents a little better. Okay, this is the second cell that I asked you all to run. There are some data sets that are provided within the Seaborn package. So we're staying ": [
+            3635.0, 
+            3657.9, 
+            133
+        ], 
+        "that you can't generalize back to all of YouTube. If you only get comments that are ran in English, you can't generalize to all YouTube comments. And so your population is no longer all YouTube comments. You can only generalize back to the population for which your sample is representative. Just what I said before you have to consider all the different possibilities of how YouTube comments can differ from ": [
+            635.6, 
+            661.6, 
+            27
+        ], 
+        "that's all stuff that I would need to check to make sure that it's reflective of the gender balance and the year balance and the major balance and that's something that you have to do to double-check after the fact that it's actually representative of the population of the study. So let's quickly chat about what's going on. Here. Here is a histogram of the number of people and the ": [
+            3272.2, 
+            3297.0, 
+            120
+        ], 
+        "the bars. I want to be dim gray and this defined as gets rid of the lines over top of it. So there was previously What the spines are so I'm going to give you all a chance and I'll open this app. I want you to generate a histogram for the fair's pay by the passengers on the Titanic and then we can see if you all are successful ": [
+            3886.0, 
+            3915.4, 
+            144
+        ], 
+        "the central tendency. I am going over mostly as a reviews that you have it in your notes. You have probably heard this before but you need to know it. So let's make sure we all are on the same page that when you are measuring central tendency, you're getting the mean the median or the mode of your variable of interest. Sure, you all are familiar calculating means averages. ": [
+            2059.4, 
+            2082.2, 
+            78
+        ], 
+        "the dataset. We're going to be using Seaborn. So Steve Warren is a package just like pandas is a package where pandas helps you work with tabular data Seaborn helps you make Visual Basic data visualization. It's built on top of something on that fought with Matt Hart live allows you to really specifically edit and change and fine-tune. Visualisations Seaborn more just like let's get it done quickly. And ": [
+            3553.7, 
+            3579.0, 
+            129
+        ], 
+        "the genres that exists on YouTube across to be different lengths of videos because in that way you're getting a random sample something that represents all of YouTube. Once you figure out what your population is, you would then collect the data and ensuring that it is representative. So you would plan to get something that represents the entire population after you collect the data you would that check to ": [
+            595.3, 
+            615.6, 
+            25
+        ], 
+        "the information from some 2.1 million people. So obviously you can't just look at two hundred or two million data points and understand them. So they start to break them down about who took their test and you can see that there are slightly more females than males and other 751 people who chose not to respond to the gender question. So this sucks to break down the information. And ": [
+            2905.2, 
+            2926.9, 
+            106
+        ], 
+        "the numerator in this variance equation that 3.5 is the was after the minus sign in each of these so that is X bar. Why is each observation? So that's one two, three four five six each difference is squared and then use some those all together and that's going to give you a 17.5. and then the denominator is simply the number of observations you have so 6 - ": [
+            2564.9, 
+            2594.1, 
+            96
+        ], 
+        "the relationship between the two for this you would use LM plots against the type of pot you're going to use is specified by using at the Nets and then the type of pot you didn't specify what you want on your ex sees with Dan Deery using this is just so that it displayed larger. So you wouldn't need this gently on Purge on your descriptive pots and he ": [
+            4289.5, 
+            4309.9, 
+            153
+        ], 
+        "the right skewed left if a tail is off to the left. So the direction of the skewed follows the tail. Is it a data from you all from the first survey and we're looking at here or at the number of people in who have zero one through seven siblings Temple where most people have two or fewer siblings? But there is a long tail where some people have ": [
+            1186.3, 
+            1211.8, 
+            50
+        ], 
+        "then you collect a sample which is some subset of the population answer the question here and then generalize it back to the overall population. So we turn back to a specific area calculator for us. We could take a random sample a comment from YouTube. So these would-be does a hundred thousand, as I mentioned. I calculate the following statistic the number of positive and number of negative words ": [
+            525.9, 
+            551.2, 
+            22
+        ], 
+        "there. Okay, if we had I didn't specify whether or not these children were younger or older so that may have thrown you so we would expect that lets babies or small children. That's not children children and adults. So this is an example of a bimodal distribution. Let's keep going. So height of a random sample of adults in the US were going to come back and a mountain ": [
+            1691.7, 
+            1722.4, 
+            64
+        ], 
+        "this is their descriptive analysis of their data sets or just going to zoom in on part and we can see is that you can break it down by different variables and you figure out how many people are in each arm of their trial. So they had some like 1,200 people that are represented in the table and you can see the age distribution within each arm. You can ": [
+            2947.7, 
+            2966.2, 
+            108
+        ], 
+        "to analyze data matters based on the distribution of the data that you have? The first Disney show me to talk about here is a uniform distribution and I've not specified this on any x axis or Y axis because it really does matter is the shape that were looking at in here. So if you bought a histogram and the values that you can take from the lowest value ": [
+            1015.4, 
+            1042.6, 
+            43
+        ], 
+        "to look much bigger than it actually is the range while easy to compute isn't all that helpful something that's more helpful is Computing the interquartile range and we talked about this term with regards to box plots. And now we're going to Define it and that is taking the 75th percentile minus the 25th percentile. Tell anybody that is if you were to take all of your data and ": [
+            2443.5, 
+            2464.2, 
+            91
+        ], 
+        "to speak at that like yeah. the boss 1100 so you're saying that you took the 75th percentile, which is the top of the box and he's attracted it from Ash what the 25th percentile was and that's how you got close to 110. Great. That is I'm you can calculate IQR for all of these and you would see that this one has the lowest smallest interquartile range and ": [
+            2807.4, 
+            2841.4, 
+            102
+        ], 
+        "to the highest value or constant over the range of the variable. It's a uniform distribution teaching statistics. We draw this where it's exactly equal across all the values, but there can be random fluctuation at any point across the range and it still be a uniform distribution. If a possibility of getting a valid any of these values is equal across the distribution then is a uniform distribution. So ": [
+            1042.6, 
+            1070.4, 
+            44
+        ], 
+        "to the next parts to follow along if 3 people are stuck. I'll give you as I'm transitioning to the slides Chaturbate your neighbors and hopefully we can get it sorted out. Diana turn off that one as we going. Okay, so really do some deeper notebook with python color on how to start creating those visualisations that I talked about last lecture that you need in order to describe ": [
+            3524.9, 
+            3553.7, 
+            128
+        ], 
+        "to understand generally what attitudes are toward zoning guns, you shouldn't go to a place that has a bias in their opinions on guns. You would want to sample the population generally around the sampling Facebook users for what TV shows American looks like while there are more than Americans on Facebook. So if your population is American just randomly start playing to call Facebook. Would it be successful? Also, ": [
+            687.8, 
+            711.0, 
+            29
+        ], 
+        "to what I've seen so far on the main course survey. I didn't anticipate you all loving the reading like I knew that would probably not be your favorite part. Of course, I still think they're important. So I'm pulling back on the amount and the length of reading but you still have to do some reading cuz I think it's important. That's already responded to the mid course survey. ": [
+            88.6, 
+            109.2, 
+            2
+        ], 
+        "understand the size for the time of the sizes. How many observations you have? How many variables you have? This might seem obvious that I have been in so many meetings were people are far down the analysis hole. They are doing super complicated stuff and somebody like how many people are in your day does that and they have no idea because they lost touch with their data that ": [
+            855.3, 
+            873.0, 
+            36
+        ], 
+        "us is the least variable experiment. All right signals me hear a little bit more to do when you're actually doing a descriptive analysis. They didn't hear is I think really well summarized in this quote. We must have had some of the truth to communicate the truth and short the techniques of descriptive statistics are designed to match the Salient features of the data set to human cognitive abilities. ": [
+            2841.4, 
+            2866.3, 
+            103
+        ], 
+        "variable still across the top but instead of the actual values and we just had a mark as to whether or not the information is there or whether it's missing. So this quickly at a glance you can see that sleep cycle is missing for a vast majority of the mammals in your data set the so 61% have missing information here. So if you wanted to know anything about ": [
+            916.2, 
+            943.7, 
+            39
+        ], 
+        "want to be able to edit they still need to make a copy save in your Google drive to the should be what you're looking at. You would save a copy in drive and then it will be editable to you. And when I said run the first two chunks ourselves, I wanted you to run this getting started and the data one. This will allow you when we get ": [
+            3507.2, 
+            3524.9, 
+            127
+        ], 
+        "wanted to make sure we're all aware of the fact that the size of your bins affect the visualization. So if you make the veins smaller or larger, you get more resolution on the date of that. So here we get the same take away that there are most people around for years because they're only a few people out here above phelix 66 or below 10. So this was ": [
+            3817.7, 
+            3839.4, 
+            141
+        ], 
+        "we could just look at it is that we would have no need for this if we could look at it and understand completely we wouldn't need to describe the data, but we can so you have to generate descriptive statistics. A descriptive statistics are often displayed in the table. So this is one from high schoolers who took the sat in 2018. They say that they start to summarize ": [
+            2886.2, 
+            2905.2, 
+            105
+        ], 
+        "we have talked about data science questions and the ethics behind those and how to ask them and how to make them specific we talked about where to get the date for that how to Wrangle the data how to visualize a data and we're finally the part of the course where we actually get to start doing some data analysis and we're going to talk about different types of ": [
+            171.9, 
+            188.6, 
+            6
+        ], 
+        "we would into it it to be why is there a state of the nation of 10 and we'll talk about an example of a second? So the idea is you get these this information you start summarizing and you look at it and say does this make sense? All right. So let's first start describing how tall you all are. I asked you all. What is your height in ": [
+            3130.9, 
+            3150.8, 
+            116
+        ], 
+        "were typically going to see is needed me. So what are you about liars go with median? And I said the central Tennessee I said there were three of them we've only talked about two of them mean and median are used to summarize for quantitative variables and we talked about mode a lot. Like I remember back to elementary school where I was told was Define and I have ": [
+            2278.6, 
+            2303.5, 
+            85
+        ], 
+        "what data are in there. I'm as an example for using the Seaborn package. As before you want his first know the size of your dataset. So we have a hundred and eighty two individuals and information about 15 variables. This was the same thing we talked about from lecture. You see the describe function described with those descriptive statistics that we just talked about OB quantitative variables. So there's ": [
+            3698.7, 
+            3727.5, 
+            136
+        ], 
+        "when you're doing a descriptive analysis, it doesn't have to be the most beautiful visualization you've ever made it's just so you can get a sense your data. So we're going to talk about Seabourn. I've included not allowed at the end of this as a reference, but you're not expected to know that. where to go over how to plot quantitative data and categorical data and how to customize ": [
+            3579.0, 
+            3596.4, 
+            130
+        ], 
+        "why you came to it? What's your reasoning for choosing median? In the data set is within the data that is more accurate to what? shark shows So the majority of the day. To summarize what was said is over here closer to 0 and the median Falls within that range where the mean is over here closer to where there are less actual samples in your dick is falling. ": [
+            2216.3, 
+            2257.2, 
+            83
+        ], 
+        "will be the next lecture. Okay, I'm going to put up this somewhat confusing chart each day and show where we are in the process. So right now we are. Here and if you get a set of data and you don't summarize what's in there, you're not doing a data analysis. So every single data analysis you have has to involve summarized in the data. And if you all ": [
+            244.6, 
+            267.5, 
+            10
+        ], 
+        "you can try to buy a further and start to get a sense of what information is in the data. They have other information about how people scored within these characteristics. So you really start to get a sense of the data without looking at 2.1 million datapoint. In the publishing world. This is often known as table one. This is from any Jam which is a scientific journal and ": [
+            2926.9, 
+            2947.7, 
+            107
+        ], 
+        "you do is summarize information that's in there. So if you calculate the mean and the median to know how many people are in your data set that is a descriptive analysis. So we are just going to talk about this portion today next Bachelor talk about this portion and then you'll see there's lots of other possibilities and we'll get to those some of those in later and lectures. ": [
+            267.5, 
+            285.8, 
+            11
+        ], 
+        "you expect to be uniformly distributed guns, you all have height of the family with two parents in 10 children height of a random sample of adults in the US daily chance of winning the lottery for distribution of speed limits in the US feel free to chat with each other. Give it a few more seconds. 3 2 1 actor who wants to explain why they chose their answer. ": [
+            1437.3, 
+            1503.7, 
+            59
+        ], 
+        "you guys at all later, but it will be safe day that will be all your data jumble so that the roads aren't identifiable. But this is the actual data values in class. The first thing you got the shape. We know there are 275 responses as for here. Now, I want to know how many of these have missing information. I didn't require people who responded to answer any ": [
+            3056.4, 
+            3076.9, 
+            113
+        ], 
+        "you quickly get information about the shape of your very quickly what is displayed with the age that most people are around 38 to 40 years, but we do have some older and some younger individuals on the Titanic. This is on the way to talk about lecture. This is just so you know that it is possible by simply adding to that same line of code. We just ran ": [
+            3770.1, 
+            3794.1, 
+            139
+        ], 
+        "you want to answer something about an entire population, like all the YouTube comments, you can't just go to one YouTube channel and look at the comments in there cuz those won't generalized back to the entire population the goal when you're sampling is to always think about what your population is and if it's all YouTube comments, you need to sample of randomly across the entire world across all ": [
+            573.9, 
+            595.3, 
+            24
+        ], 
+        "you would get this normal gaussian distribution. So the most likely shows up at the most but because of random variation in this experiment you would get a calcium curve Is there distribution we'll talk about is a skewed distribution. So in this case most of the values fall to one extreme or the other and the terminology is that it is skewed right if they tail is off to ": [
+            1160.7, 
+            1186.3, 
+            49
+        ], 
+        "you're mean would be 3.42. So you're mean and median are often close to one another but do not have to be let's talk about that. Here is a distribution from that same mammals dataset of body weight. And here we have the number in a mammals in the data set that have the bodyweight specified and I spent the night over here. The mean is 166.3 and a median ": [
+            2125.3, 
+            2150.5, 
+            81
+        ], 
+        "you're not going to get a age distribution that's representative of the entire population of America. Answer you how to buy a sample if you were to approach understanding TV shows that Americans like by looking across Facebook randomly. Any questions on statistics or sampling a random sampling or what? It means to have a biased sample this point. There's a common idea called I go in data analysis and ": [
+            711.0, 
+            742.1, 
+            30
+        ]
+    }, 
+    "File Name": "Introduction_to_Data_Science___A00___Ellis__Shannon_Elizabeth___Winter_2019-lecture_10.flac", 
+    "Full Transcript": "I will get started as people settle in.  So there's a jupyter notebook portion today. I'm going to do it a little differently at the end. We'll talk about that band. But if you've not visualize data in Python, I recommend you stay wherever you working through that and covering what we talked about last lecture.  As per usual course of writers. You have your second assignment due tomorrow. Your fourth reading is due next Friday. So I have taken out one of the two readings that I'd originally signed. You only have to read this line proportions and percentages now and that's what's on the reading quiz. If you already read the other one find the other one interesting one to read it. There are optional extra credit quiz questions on the reading quiz. This is in direct response to what I've seen so far on the main course survey. I didn't anticipate you all loving the reading like I knew that would probably not be your favorite part. Of course, I still think they're important. So I'm pulling back on the amount and the length of reading but you still have to do some reading cuz I think it's important.  That's already responded to the mid course survey. Thank you. I've read through so far the positive X really helpful for me to know what not to change going forward and then the critical critical negative feedback is helpful for me changing things in this course going forward for the second half and for future Generations. I'm up, is all that we can chat about that next Tuesday. If you want extra credit respond also to the survey takes a few minutes, maybe like 3 to 5 by tomorrow evening.  A gentle reminder. I've had a few people.  Be quiet as you settle down, please come to my office hours, but I wanted to remind you all that you're at EA's and eyes and the rest of the instructional staff are all available for you. You can go to any of their office hours. You don't have to go to your sections office hours. If you have questions about python or the notebooks or the lecture or the reading these are really great times and resources to get help and you can also email me if you can't make it at any of these times and I can meet with you.  Hey, I see what that alarm will get into today is material so far in this course, we have talked about data science questions and the ethics behind those and how to ask them and how to make them specific we talked about where to get the date for that how to Wrangle the data how to visualize a data and we're finally the part of the course where we actually get to start doing some data analysis and we're going to talk about different types of analysis with examples throughout the rest of the course. And today we're going to start with descriptive data analysis and my goal is that you all if you see a data science question that is a descriptive analysis question you would be able to identify that and you would also be given a dataset be able to describe it and using appropriate descriptions and statistics that so we're going to talk about today.  So so far in this course I mentioned we've been doing the process of formulating a quantitative question that could be answered with data collecting and cleaning the data. We're now into that analyzing the data portion. We're not going to folks about the commute on the communicating part as much in this class. I have thoughts on how to incorporate that in the future but we are going to focus for the remainder of the course on the analysis portion to do this. You have to look at your data. You have to know what information is in your data say you have to know you have to be able to describe it and that's we're going to talk about today and you have to be able to explore the information is stored in there, which will be the next lecture.  Okay, I'm going to put up this somewhat confusing chart each day and show where we are in the process. So right now we are.  Here and if you get a set of data and you don't summarize what's in there, you're not doing a data analysis. So every single data analysis you have has to involve summarized in the data. And if you all you do is summarize information that's in there. So if you calculate the mean and the median to know how many people are in your data set that is a descriptive analysis. So we are just going to talk about this portion today next Bachelor talk about this portion and then you'll see there's lots of other possibilities and we'll get to those some of those in later and lectures.  The goal of descriptive analysis, which you will have to do on every analysis you do in any data science project is to understand the components of the date of that those components could be the observation. So the how many individuals are in there how many dates were information collected on how many places did you collect in Revenue information about you have to know just like the basic how many observations are there and you have to be able to describe. What are there who are these people? What are these values representing? You have to be able to describe the typical range and what they mean and median are and this is all going to talk about today. You'll be able to explain it to others should have communicated in some way when you're doing a descriptive data analysis you were describing the day. Do you have any information inside the data set?  I like to get the picture when I'm talking about descriptive an exploratory analysis soon as painting you have one month and they are all over this elephant and is what I want you think about anytime you're doing descriptive analysis. You can't just like looking in a dataset know everything about it. You have to really take a look at all the variables take with all the observation see what's in there and that's what's going on here. The blind monks can't see that this is an elephant. Don't figure out they have to touch every part of it a climb on top of it grab the tail and then you start to get an understanding. So this is the idea. The elephant is a dating site and you are all the blind.  You need to have some understanding of sampling and statistics. So this is the first time that I'll be talking about these with definition. So I wanted to get started there.  There's an idea of a descriptive analysis. What did you set out and you wanted to understand whether users are nice or mean on YouTube. The question that's like our users nicer me but I thought of data science question cuz it's not specific enough that you can figure out what you're going to measure to answer the question. So the more specific question would be are the words that people use in their comments only positive words or more frequently negative words get them information and you just described the information that you've collected.  Didn't you would calculate some sort of statistic about YouTube comments, which now means that I have to define this word statistics.  What is a field about what they feel is the distances and then what a statistic is a science that deals with the collection classification analysis and interpretation of numerical facts or data. And if I use of mathematical theories of probability imposes order and regularity on Aggregates of more or less disparate elements. Okay. There's a whole lot in there. You are very familiar with collecting information classifying it and then using Siri to analyze the data and answer your question. That's all it is saying so you have to be good at this when you are doing analysis.  So it was the physics works with unsurprisingly Statistics and where to go to the definition of a quantity computed from a sample.  So now I have to Define. What a sample is.  If it just makes you often want to know some information about a larger population for you can't collect values from every single person or thing in that population. So what you do is you sample a subset of the population collect information and data about everybody in the sample and then try to generalize it back to the population.  So, how are YouTube example question was about all YouTube comments, but we can't analyze all YouTube comments ever so you would probably want to get that a hundred thousand comments. Look there see whether or not things are more positive or negative and then we can generalize back to all YouTube comments. They do here is if you have a population and you want to know something about then you collect a sample which is some subset of the population answer the question here and then generalize it back to the overall population.  So we turn back to a specific area calculator for us. We could take a random sample a comment from YouTube. So these would-be does a hundred thousand, as I mentioned. I calculate the following statistic the number of positive and number of negative words in each review. That would be what we would do in this analysis. We would collect all that information and then we would summarize that and that would be our descriptive analysis.  I mention to her that we would take a random sample. So let's define what that is. A sample is some subset of the population and do random sample occurs when you use the sampling practices, so if you want to answer something about an entire population, like all the YouTube comments, you can't just go to one YouTube channel and look at the comments in there cuz those won't generalized back to the entire population the goal when you're sampling is to always think about what your population is and if it's all YouTube comments, you need to sample of randomly across the entire world across all the genres that exists on YouTube across to be different lengths of videos because in that way you're getting a random sample something that represents all of YouTube.  Once you figure out what your population is, you would then collect the data and ensuring that it is representative. So you would plan to get something that represents the entire population after you collect the data you would that check to make sure that you accomplished your goal and that is representative. So you do have YouTube comments from all over the world in different languages from different types of videos from videos.  I might come down to it. Sometimes you have no choice but to work with the data set that is not collected randomly that has some sort of bias. If that's the case. It's your job to know that you can't generalize back to all of YouTube. If you only get comments that are ran in English, you can't generalize to all YouTube comments. And so your population is no longer all YouTube comments. You can only generalize back to the population for which your sample is representative.  Just what I said before you have to consider all the different possibilities of how YouTube comments can differ from one another we talked about language or genre or location or think that you would want to make sure after you collect the data that you truly have an unbiased random sample.  I hope so too. Naples hear of why there would be bad simply one is serving subscribers of a gun related magazine for research on attitudes toward attitudes toward owning gun here is clearly, but if you want to understand generally what attitudes are toward zoning guns, you shouldn't go to a place that has a bias in their opinions on guns. You would want to sample the population generally around the sampling Facebook users for what TV shows American looks like while there are more than Americans on Facebook. So if your population is American just randomly start playing to call Facebook. Would it be successful? Also, you're not going to get a age distribution that's representative of the entire population of America.  Answer you how to buy a sample if you were to approach understanding TV shows that Americans like by looking across Facebook randomly.  Any questions on statistics or sampling a random sampling or what? It means to have a biased sample this point.  There's a common idea called I go in data analysis and data science in general and the idea is garbage in garbage out. If you have a very biased data set in the in the beginning, I don't care how brilliant your data analysis is or how creative you are if what you have can't answer your question or is really super Vias. You're not going to get anything good. It was always worth spending time at the beginning doing a good descriptive analysis figuring out who your population is whether or not your sample is unbiased before you start answering any super interesting questions. If your data can't answer that question, don't waste your time here.  Access AT&T so far we talk about random sampling. We just discussed with a certificate as we talked about how to get an unbiased random sample and it's disgusting what your population is always considering this at the beginning of your analysis. So how to actually do it there. Lots of ways you can describe it is that I'm going to talk about five characteristics and this is something that you should do for your assignment and I used to do for analyses in general is that you want to understand these size whether or not they too are missing the general shape the central tendency. So glad to hear that mean median and mode they were going to a different ways to measure how variable the information you have in your data set it.  So why did I found so far in has to do with collecting information about human individuals? I'm So Into You to say is that to show that grows in a dataset don't always have to eat people think so in this case. It is information about mammals. So mammals are in the Rose and then we have some information about those mammals in the columns. We have their genus how their they eat the order their conservation information about their sleep about their brain weigh and then their body weight.  So if you want to describe the state is that a really great place to start is to understand the size for the time of the sizes. How many observations you have? How many variables you have? This might seem obvious that I have been in so many meetings were people are far down the analysis hole. They are doing super complicated stuff and somebody like how many people are in your day does that and they have no idea because they lost touch with their data that so always look in the beginning keep track if you people are removed as how many people are in your data that so here we have 83 mammals and 11 variables. So I'm only showing a snapshot. 18, but there are 80 of them.  It's so simple know how many rows and columns. You have know how many people are in your data set and that's a good first step. Once you know that it's critical to know how many observations have missing data and we're going to Jupiter park at the python Target talk about how to do this. So I'm for now. Going to show this visually.  This is the same information that I just showed you from the previous date is that so we have all those 80 observations I mentioned and then we have a different variable still across the top but instead of the actual values and we just had a mark as to whether or not the information is there or whether it's missing. So this quickly at a glance you can see that sleep cycle is missing for a vast majority of the mammals in your data set the so 61% have missing information here. So if you wanted to know anything about sleep cycle for more than half of your mammals in the dataset, where is another places where you have order, you know the order for all the animals where it's completely gray for the whole column.  20% of how many missing values you have in your data set is the second step after determining how many rows and columns another way to visualize the same information is looking at how many of your observations are missing information across all your variables. If you can quickly see that sleep cycle has the most missing but there are lots of variables where you have information across all your out to patients.  Okay, so swollen between thighs. So how many rows how many columns and missing us? Where is information missing? Why is it missing and determining that is really important before you can do anything else?  We talked started talking about distributions and shape last lecture when we talked about visualizing data and histograms and density pots using the word distribution of the variables. Do you want to know what a typical value is what the ranges for the that the values can take in any given variable and it's important because analytical approaches. So how you determine? How do you decide to analyze data matters based on the distribution of the data that you have?  The first Disney show me to talk about here is a uniform distribution and I've not specified this on any x axis or Y axis because it really does matter is the shape that were looking at in here. So if you bought a histogram and the values that you can take from the lowest value to the highest value or constant over the range of the variable. It's a uniform distribution teaching statistics. We draw this where it's exactly equal across all the values, but there can be random fluctuation at any point across the range and it still be a uniform distribution. If a possibility of getting a valid any of these values is equal across the distribution then is a uniform distribution.  So an example of SOB if I gave you a die and asked you to roll it and I assumed you that a million times you could do that baby there for a while. So instead we stimulated and Python and if we do that you're equally likely to roll a 1 2 3 4 5 or 6 as long as it's a what's it called not fake die way to die holder 1 2 3 4 5 or 6 is constant across all of the million rolls of the die. So that's a uniform distribution.  Registration you're probably familiar rest, but we have to cover it just for completeness ache is a gaussian or normal distribution Z show up all throughout biology all throughout the world will show up in your data and these are the classical distribution that we look at all the time or talk about a Galaxy normal distribution values are near the central value for the range and they are symmetric around the middle. So you have the same shape on the left as you do on the right.  An example of this would be if you flip a Fair coin. That's why I was looking for a fair die. If you flip a coin one that is equally likely to be heads or tail 16-time. The expectation would be that half of the time you get heads half of the time that you would get tail so that you all did that some of you would get 8 and a majority of you would get 8 but there was a sound as you that slipped heads or tails either more or less time and then you would get this normal gaussian distribution. So the most likely shows up at the most but because of random variation in this experiment you would get a calcium curve  Is there distribution we'll talk about is a skewed distribution. So in this case most of the values fall to one extreme or the other and the terminology is that it is skewed right if they tail is off to the right skewed left if a tail is off to the left. So the direction of the skewed follows the tail.  Is it a data from you all from the first survey and we're looking at here or at the number of people in who have zero one through seven siblings Temple where most people have two or fewer siblings? But there is a long tail where some people have many more siblings and everybody else. So this would be something that is skewed, right?  Another commonly seen distribution is a bimodal distribution where across the range of possible values. You have two distinct Peaks.  An example of a bimodal distribution would be if you were to look at the number of people in a restaurant over the course of the day. So this is on a Saturday at a place where people show up for brunch. So there's one Peak and then for dinner is another Peak. So Deeks don't necessarily have to be even but the showing up a Russian overtime is a classic example of what are lots of people who not many people there in the middle of the day.  Welcome to talk briefly about a random distribution. A random distribution is one where the distribution has no apparent pattern. So it's hard to pick out any identifiable shape in this distribution an example here is also from your data shown this before here. We have the number of people in the class who have some experience the best way to teach a programming class down here. They have no background in it. It's kind of all over the place, right so you can start up here and then it drops down and starts to increase but then it's kind of random drops back down and this is an example of a random distribution.  All spiders and then explain to you don't need to know the details of this. I've walked through quickly like six different distribution. Nobody know that there are lots of distribution that data can take and we're not covering many of them. I probably the most frequently seen the most popular just so you have a sense of the types of distribution that exists and that you should look for in your data, but know that there are lots of other distribution potato can take and do frequently take  So if you have a dataset, there's a general rule that said officiants and data scientist will tell you and this was passed down from a professor prison to a friend to me and I change the third word cuz I'm really trying not to swear on this podcast throughout the quarter because it's reported and so I don't want my slides either. So this word was shaped a little bit for the idea is if you have a variable and the dataset just saw the danger act like a look at it see what your distribution is before you start making any assumptions. So let's do that. This is from that data set that mammals date. Is that what we're looking at here is a density plot for REM sleep and I want to hear from you all about what the following best describes the shape in the spot.  80  I don't get ready a few more seconds.  3 2  they're still coming in what?  All right, so I know we just talked about this and it's fresh and ever his mind and that's great. So this is best described by being skewed right there. Is this long tail off to the right? I picked this one because that always confuse me when I first started learning about statistics that they tell follows the skewed great. Now which of the following would you expect to be uniformly distributed guns, you all have height of the family with two parents in 10 children height of a random sample of adults in the US daily chance of winning the lottery for distribution of speed limits in the US feel free to chat with each other.  Give it a few more seconds.  3 2 1  actor who wants to explain why they chose their answer.  Or how they ruled out another one.  Next one and then we'll talk about both these cuz the answer the same for the next one, but it's a different question. Which of the following would you expect to be bimodal?  Give it a few more seconds.  3 2 1  So we have some disagreement.  Let's talk about this. So let's go through them one by one and I will draw a distribution up here based on what y'all tell me. So what do we think it would look like for the number of siblings you all have who has a thought?  So it's cute. We talked about that earlier.  That's cute to the right where we had something.  That look like this where you had seven and none. So this one is skewed right?  And that's her siblings.  Macon Heights of a family with two parents and 10 children  so big  Why is it so you saying? It's normal? What makes you think it's normal?  How does solar same generally height is normally distributed where there's a range but a lot of people fall in the middle and that's not on true. That is definitely true. What about the fact that we have children here?  I see your thoughts are so I thought there is that within the family Heights tend to be similar. So there are tall families and their shorter families in their middle, What if I'm saying here? We're just going to have the height of one family.  size of a single family with two parents in 10 children  But that distribution look like some hands being drawn. I'm going to go with your hand drawn over there. Okay, if we had  I didn't specify whether or not these children were younger or older so that may have thrown you so we would expect that lets babies or small children.  That's not children children and adults.  So this is an example of a bimodal distribution. Let's keep going. So height of a random sample of adults in the US were going to come back and a mountain is being so we had a fear before we're generally fight, but they are types of  females with look something normal season 2 lb a normal distribution  I wear that D daily chance of winning the library Lottery. Sorry know any libraries although I would be fine winning Library. What about winning the lottery?  Daily chess. What are your odds today of winning the lottery?  Show me Sub-Zero. So you're pretty darn close to zero. What are your odds tomorrow winning the lottery zero and they're probably going to not change over time. So while it would be there and this is like super close to zero.  It would look pretty darn uniform.  Don't answer to the first question about distribution of speed limits in the US.  Who here originated if you drove to school?  All right, you want to tell me about how fast they went.  I do drove to school today and took the highway raise your hand.  I really with you people. I'm in at 1 keep your hand raised if you went over 60 miles per hour.  Okay, who here is driven a car before?  Okay, so now it's all think about if you have driven a car to the supermarket from that your parents house raise your hand if you went if you okay to raise your hand if you have your parents house, so we have a number of them. Now what they can and drop it if you stayed under 10 miles per hour.  Okay, so most of us went down some of us it up now back up. If you sorry I should just go with the market and drop your hand if you went over backwards and if you stay under 60 miles an hour.  Right on the highway to go to the supermarket lot of people don't I could have done that better. I'll do better next time. It is at 4.  Speed limit in the US.  We have basically Highway fees  And we have local C's and there are people there are roads that have in between but we'll see a hump at the highway fee. So somewhere around like 65 in Most states that difference between states with them locally be somewhere in like 15 to 25 rain another example of a distribution. So both for the bimodal one both pee and eat with rice.  I also talked a lot about distributions and I told you I want you to draw the time graph. And the reason you need to do that is because your data are going to lie to you and they're going to deceive you throughout at forever. So sometimes it save your data will mostly fit an expected distribution. So you'll have something that looks pretty normal and I don't have these weird. So that's what I told you in the data visualization lecture. Look at the shape first figure out what the trend is and then look if anything funny is going on.  So save it is that where you a thousand people who are between the ages of 18 and 65 and then you have one person whose age in the date of that is 1 years old and new one person. Who's 95  Data set that could have been what was collected but you're not an issue of a thousand people in this rains. There was probably some effort to collect information about people between 18 and 65. So what's going on 12 Years a person that has their age and dad has one and here's a person with 95.  Anyhow, I could happen for lots of reasons. Maybe those are truly the numbers of the people in your data sent but there are data entry errors that you should always be thinking about was that one year old supposed to be 18 and they just like didn't type in a second if somebody recorded wrong. Was that 95 supposed to be 59 always double check to see whether or not there are data entry errors, you can identify or if me poor sampling procedures. Maybe they just didn't specify how to get a representative sample is also technical or mechanical error. Did your machine make a mistake or did somebody else record the information and they did a bad job recorded. How was it recorded? It's always important to go back and look at that and for machines weather changes stuff. So keep that in mind.  Okay, so if you look at your day is at Cedars is outliers and you determined through your likes losing and detective work any of these reasons and you're confident that is you have a reason to remove an observation, but there's a warning.  You can't just decide you want to remove stuff because you don't like it there or because it would make your results better. So only remove information and values from a dataset if you have a valid reason to do so like one of these and always say that you did that so you should be telling the people you're communicating the results to that you remove information that you have and why you decided to do that what you did to determine if that was okay.  Okay, I'll leave that one up like that was distribution. You have to identify the pattern pattern helps you determine if there are outliers.  The next two things are central tendency and variability the central tendency. I am going over mostly as a reviews that you have it in your notes. You have probably heard this before but you need to know it. So let's make sure we all are on the same page that when you are measuring central tendency, you're getting the mean the median or the mode of your variable of interest.  Sure, you all are familiar calculating means averages. If you are not here to do it. You have six values here you add them all up and then you divide by the number of values and that gets you your mean.  For meeting you take the same values and you line them up in order from smallest to largest and then you go from either end and find the value in the middle. So we go 3 and on this side and 3 on this side the media 3.5 cuz it's right there in the middle of 3 and 4.  The first one the median in the meeting were both 3.5 but that is not always the case here. The median is three now that I added another 303 in from the side for 3, but if you were to add them all up and divided by 7, you're mean would be 3.42. So you're mean and median are often close to one another but do not have to be  let's talk about that.  Here is a distribution from that same mammals dataset of body weight. And here we have the number in a mammals in the data set that have the bodyweight specified and I spent the night over here. The mean is 166.3 and a median is 1.67.  Any outliers here are the reason that sorry?  Dollars are what is explains the difference between the median and the mean so my question to you is which is the better measure of central tendency here.  Give it a few more seconds.  3 2 1  XO three quarters of you said median and that is truth and I want to hear from you how you decided that and why you came to it? What's your reasoning for choosing median?  In the data set is within the data that is more accurate to what?  shark shows  So the majority of the day. To summarize what was said is over here closer to 0 and the median Falls within that range where the mean is over here closer to where there are less actual samples in your dick is falling. So we're trying to measure the the central tendency. What a typical value is for the data set. We wanted to fall within where most of the values are. So when you have outliers, the mean is going to be less accurate and the median is what you're going to want to use because outliers are really just pulling this number over here. Where is the true central tendency? What were typically going to see is needed me. So what are you about liars go with median?  And I said the central Tennessee I said there were three of them we've only talked about two of them mean and median are used to summarize for quantitative variables and we talked about mode a lot. Like I remember back to elementary school where I was told was Define and I have no idea why you would use it but it's really helpful and describing the central tendency for categorical variables. So you could take the order of all the mammals in the state is that and you could summarize how many mammals fall into each of them and then you could look for the one that has the largest value. This is most easily visualized on a chart Style a bar chart that we talked about last time. So you're the count of mammal and then you have all of the different orders and you can see that were densha is the highest one here. So we're densha would be the mode of this data set.  All right, so to follow that up, what is the mode of the data?  gravity few more seconds  3 2 1  Okay, overwhelmingly, the class got a right but this the reason I put the option D in there was because I wanted to really make sure that we knew that they mowed has to be something that shows up in the dataset and it's not the number of times it shows up. So the mode is the most frequently observed value and this is a value. This is just how many times it was. So see is the right answer the most frequently observed value is LC in the conservation.  All right, we talked about the size. We talked about missing us. We talked about shaped and I talked with central tendency. The last we had is variability and this will be maybe the nastiest part of the whole course. So weird about central tendency mean median mode that's only part of the story that tell you the typical value of the data for the variability in the values how to fill in the rest of the information. So one way you can determine how variable information is just take the highest 4 - the lowest score and I could do the range of the Diocese of origin of the range, but I just pointed out if you have wires this rain is going to look much bigger than it actually is the range while easy to compute isn't all that helpful something that's more helpful is Computing the interquartile range and we talked about this term with regards to box plots. And now we're going to Define it and that is taking the 75th percentile minus the 25th percentile.  Tell anybody that is if you were to take all of your data and plot a density plot, the 25th percentile would be visualized tear the 75th would be here and you would take this value minus this value to determine the IQR.  Usually on a box plot. This is the platform last class where your height and gender. The IQR is the top of the box. - the bottom and then I said that we had to find outliers outliers are typically 1.5 * the IQR as you would take this value here * 1.5 anything outside of that would be an outlier and you would do that from both sides to determine what would be outliers in your box.  The third measure in this is where the mass comes in that I hope I'm going to walk through hope we all get it feel free to ask questions about the distribution. So once you know your central tendency, you're mean very very very intelligent how close you are to that value the like Matthew way of saying it is the average score difference of the score from the mean and we're going to walk through what that means now. Okay, whereabouts are each part of this but really quickly when you have this this is something you're going to some the differences squared and the difference is from the mean the meanest zodiac bar and then it's an average because you're dividing it by the number of observations minus one here is a detailed explanation.  Back to our example of 1 2 3 4 5 6 if we've already calculated the sample mean for this so it's 3.5 and that's going to be X bar.  The next thing to do is calculate the numerator in this variance equation that 3.5 is the was after the minus sign in each of these so that is X bar. Why is each observation? So that's one two, three four five six each difference is squared and then use some those all together and that's going to give you a 17.5.  and then the denominator is simply the number of observations you have so 6 - 1 is 5  What means do all that out and feel free to go through and hand you this later and check me. You have a variance of 3.5?  Imma, throw that to make sure we understood how we got there for this sample if the values change even if you still 6 numbers if they're more spread out the variance is going to increase.  This is how far the numbers are from the mean is what we're talking about with variance.  Best way to measure of variability is with standard deviation and fortunately once you know various this one is just taking the square root of the variance. So after you've calculated variance that same value just said if you take the square root of the standard deviation, which is the notice is 1.87.  Against the law to December is the more variable the numbers are in that inevitable.  We also talked about standard deviation in cases like this, where here you have two different distributions the red and the blue on each of these is a normal distribution follows that galaxies and shape. We talked about earlier here. The values are less spread out. So they have a standard deviation of 5 here. They are more spread out some more variables the variable at a mediation is higher.  Just a really drive home why we don't just calculate mean median and mode here are two different distributions with the same exact meaning of central tendency. So they both have a mean of 20, but their standard deviation in this case is 5 so much smaller and here it's much larger 10, and these are clearly different information encoded in each of these.  What is the IQR in this case of experiment number for so we're talking about this one here?  Give everybody a few more seconds.  3 2 1  I told her that majority. Have you got to write somebody who picks the explain to me how you determine that?  Y'all randomly got to the right answer together as a class.  Translate in the lecture and nobody wants to speak at that like yeah.  the boss 1100  so you're saying that you took the 75th percentile, which is the top of the box and he's attracted it from Ash what the 25th percentile was and that's how you got close to 110. Great. That is I'm you can calculate IQR for all of these and you would see that this one has the lowest smallest interquartile range and us is the least variable experiment.  All right signals me hear a little bit more to do when you're actually doing a descriptive analysis. They didn't hear is I think really well summarized in this quote. We must have had some of the truth to communicate the truth and short the techniques of descriptive statistics are designed to match the Salient features of the data set to human cognitive abilities. The reason why is because our brains are not big enough, we're not good enough at looking at an entire day was that and just looking at it and knowing what's in there. So you have to suppress some of the information see if it's a press it down to these metrics like mean median mode variability measures in order for us to comprehend them with our human brain. If we could just look at it is that we would have no need for this if we could look at it and understand completely we wouldn't need to describe the data, but we can so you have to generate descriptive statistics.  A descriptive statistics are often displayed in the table. So this is one from high schoolers who took the sat in 2018. They say that they start to summarize the information from some 2.1 million people. So obviously you can't just look at two hundred or two million data points and understand them. So they start to break them down about who took their test and you can see that there are slightly more females than males and other 751 people who chose not to respond to the gender question. So this sucks to break down the information.  And you can try to buy a further and start to get a sense of what information is in the data. They have other information about how people scored within these characteristics. So you really start to get a sense of the data without looking at 2.1 million datapoint.  In the publishing world. This is often known as table one. This is from any Jam which is a scientific journal and this is their descriptive analysis of their data sets or just going to zoom in on part and we can see is that you can break it down by different variables and you figure out how many people are in each arm of their trial. So they had some like 1,200 people that are represented in the table and you can see the age distribution within each arm. You can see males versus females and race which is unhelpfully white or other and this is a common saying in science where we only study white people and that's a problem. So the fact of the matter is we do a bad job recruiting otherwise  It's all there for their data are not representative of the general population. It's really only representative of white people. So this is the type of information that they encode in their table one and see how many people are in each category also when mean so something like central tendency is displayed. You can see that they also include the standard deviation. So they include mean so they spent plus variability which gives you the sense that the mean is 80, but you know that there is very building on that number everybody in the day. That's not 80 years old there 80 + 4 - 7.6  Hi, pretty I'm going to try to use your data throughout the rest of the course to ask the different types of questions. We're go through in class. So here is our attempt at just getting started on describing your data.  From the first day I had information from 275 of you and I'm only going to be displaying information from twenty. One of the things I asked about those things that I asked about are all here. So if height date of birth hair color zip code Hometown ethnicity gender GPA how you take note statistics programming the year you are in your undergraduate Studies major how you learn how you work pet vegetarian color siblings animal eat lots of information. I'll share our data set with you guys at all later, but it will be safe day that will be all your data jumble so that the roads aren't identifiable. But this is the actual data values in class.  The first thing you got the shape. We know there are 275 responses as for here. Now, I want to know how many of these have missing information. I didn't require people who responded to answer any question. 138 of the Rose have some missing information if we break that down by the different variables for looking through with most things or somewhere between 0 and 20 a lot of people didn't specify their favorite TV show and then if we look closer we see that 25 people didn't say their zip code, but only nine Tuesday Hometown. 6969 didn't give their zip code for only twenty-five didn't give their Hometown. We'll talk about that next lecture.  I'm coming to Temple is just getting these descriptive statistics on your variable. So let's look at GPA we can see that the mean is 5.3. But if there is variability in that number and that's something you would note as you do that you would look there when you got paid. So the mean is 5.3. Is that what we would into it it to be why is there a state of the nation of 10 and we'll talk about an example of a second? So the idea is you get these this information you start summarizing and you look at it and say does this make sense?  All right. So let's first start describing how tall you all are. I asked you all. What is your height in inches and all 275 people who responded answer this question.  So I got a sample. What's the population here?  Read a few more seconds 3 to 1.  Alright 83% of newstead eCards nine students at UCSD once explain to me how I know.  Cuz I will send up here until somebody answers.  But what the population here?  Yes.  The only people answering taking his class answer the survey. That's true. Anybody want to argue anything else? I don't disagree with that. I think that's right.  Why can't I say college students are all UCSD students.  How to say I didn't offer the surveyed every student and UCSD and it would be an incorrect assumption dosing the people in his class are representative of all students at UCSD and he needs it worse is something to assume that it's representative of all college students. So despite the fact that you all are in a college course you want to be careful of these assumptions of the only thing I could generalizes to is cos 9 students at UCSD. I'm even more particular I can only really generalize to this quarter and I don't even know that the 275 of this some 340 that are in this class or truly representative. So that's all stuff that I would need to check to make sure that it's reflective of the gender balance and the year balance and the major balance and that's something that you have to do to double-check after the fact that it's actually representative of the population of the study.  So let's quickly chat about what's going on. Here. Here is a histogram of the number of people and the height in inches of the students. My question to you is what's going on.  Is this what we expect what's going on? Is it not what we expect?  Okay, so most of our data are down here and the bins are of like 50 in or 25 in so that's not really getting us down to the day that we have the why why did this happen? What's going on? Yeah.  Okay, so someone could have put in a really big number randomly or really small number randomly.  And if we looked on we can see that in fact, the there were two hundred times. I feel it answered Andi Mack's number with six six six and that is not something that that's not uncommon to happen and datasets people answer creatively all the time and everything. You can also see that the men is 5 and if I had to guess I would say that person is 5 feet tall and they just were going to this quickly and it said inches in a foot in feet and that happens all the time. So you have to look at these things. So if we filter this to only include values that are less than 7 and 1/2 inch taller than 2 and 1/2, we start to see the distribution of a data that were interested in getting at that bin size that we talked about so you can see the most people in the course are taller than 55 inch or shorter than 80 in.  I supposed to ask you all that but you're lucky. I already said what we learned and so you don't have to do that. OK Google. Are we get that real quick that are staying open up a notebook make a copy to save it in your Google Drive and run the first two coats Al I'm going to use clicker questions at this point. They won't count. I'm going to delete them from it's just so I can get feedback. So clear questions use for that. This won't count for the extra credit. But this is how I can see it. Other than that. We're doing data visualization.  If you are leaving you can go but go quickly and quietly.  I have like 30 seconds.  I order to get started with this portion. Okay. So at the top here if you want to edit a long I'm going to have to give you actual tasks of things to do today. So if you want to be able to edit they still need to make a copy save in your Google drive to the should be what you're looking at. You would save a copy in drive and then it will be editable to you. And when I said run the first two chunks ourselves, I wanted you to run this getting started and the data one. This will allow you when we get to the next parts to follow along if 3 people are stuck. I'll give you as I'm transitioning to the slides Chaturbate your neighbors and hopefully we can get it sorted out.  Diana turn off that one as we going. Okay, so really do some deeper notebook with python color on how to start creating those visualisations that I talked about last lecture that you need in order to describe the dataset. We're going to be using Seaborn. So Steve Warren is a package just like pandas is a package where pandas helps you work with tabular data Seaborn helps you make Visual Basic data visualization. It's built on top of something on that fought with Matt Hart live allows you to really specifically edit and change and fine-tune. Visualisations Seaborn more just like let's get it done quickly. And when you're doing a descriptive analysis, it doesn't have to be the most beautiful visualization you've ever made it's just so you can get a sense your data. So we're going to talk about Seabourn. I've included not allowed at the end of this as a reference, but you're not expected to know that.  where to go over how to plot quantitative data and categorical data and how to customize specializations  so I had to run to sell I wanted to briefly so there's a lot often but it's beginning to for notebooks. You have a lot of this we have to say what you want to use to hear were importing that package in anytime. We refer to the package were going to call it SNS I've set so that the font scale is too. Just make the font bigger on the clock so that you all can see it when I display it up on the screen you can play with it and you can then run the graphic and see how it changes. I'm similarly Ivan partisan matplotlib again a lot for displaying the one that's important here is that parameter that I said, this is just so that the place I make are bigger again so that you all can see them and then I have pandas numpy. I am using in one example later on you're not responsible for knowing what that is, and this is just to suppress warnings so that it presents a little better.  Okay, this is the second cell that I asked you all to run. There are some data sets that are provided within the Seaborn package. So we're staying here is we're going to load the Titanic dataset and we're going to call ti. So anytime you see a GI in a future. That's Titanic and this is lazy variable naming and Dad. I should not have done that. Okay, because we're just going to be using this for visualization and we're resetting the index so that all the rows are numbered from 0 to the end of the dataset if we take a look at the first two rows increase the size of this little bit.  We can see that this is all information about the Titanic who was on it, whether they survive what their sex was their age information about their Fair where they infarct what class they were on the ship and so forth and so on.  So I can just take a look at what data are in there. I'm as an example for using the Seaborn package.  As before you want his first know the size of your dataset. So we have a hundred and eighty two individuals and information about 15 variables.  This was the same thing we talked about from lecture. You see the describe function described with those descriptive statistics that we just talked about OB quantitative variables. So there's none of the categorical variables are going to be displayed here. This will just be the quantitative one.  Mrs. Only for your premises so that you can have these in your notes.  We talked about why you would generate a histogram or a density plot. And here's the first one so we'll see where it goes. Nicely is naked syntax. Like the syntax is pretty simple for generating a pretty complex Kratts. What we're saying is used to born at the nests and make a density plot / histogram which is dist and then you specify what dataframe you want to use and then what variable you want to plot and that produces this lovely plant here where you have the distribution of the age. They show the histogram and on top of it it overlays the density plot. So you quickly get information about the shape of your very quickly what is displayed with the age that most people are around 38 to 40 years, but we do have some older and some younger individuals on the Titanic.  This is on the way to talk about lecture. This is just so you know that it is possible by simply adding to that same line of code. We just ran rug equals true. You have a cut a rug pot and this shows you each individual value. So he's one of these is a person in the dataset. So you get a histogram a density plot and a rug pot all-in-one and it is quickly a showing you what the age is of all of the individuals in your data set.  Bin size was mentioned in lecture and I just wanted to make sure we're all aware of the fact that the size of your bins affect the visualization. So if you make the veins smaller or larger, you get more resolution on the date of that. So here we get the same take away that there are most people around for years because they're only a few people out here above phelix 66 or below 10. So this was something we couldn't see before we changed that Vince eyes notice here is eyesight Katy Eagles fault, and that's what got rid of the deadly plot over-the-top cuz I was just focusing on the histogram.  MSN lecture on Tuesday. We talked about the back left as more and the the minimum amount you have on a visualization to get your point across is what you want. So here I have set the style of these are just note so that you can play around with his in a second when you make your own histogram if we use Seaborn and we say we want to set the style to White the background is now why do we get rid of all that blew me then use that same line of code we use previously, but I specify the color of the bars. I want to be dim gray and this defined as gets rid of the lines over top of it. So there was previously  What the spines are so I'm going to give you all a chance and I'll open this app. I want you to generate a histogram for the fair's pay by the passengers on the Titanic and then we can see if you all are successful in that so they should be in your jupyter. Notebook. There's a spot that says you were turn and it's kind of big.  Brighten the numbers you have gotten it just mistake of time. I'm going to go forward.  So if you got something similar to this you would have the fare on the x-axis and the number of passengers on the y-axis you're different because maybe you didn't set Katie to false and you have the density Flatline. Maybe your bins look different cuz you said it to something different or you didn't specify the color. So all you needed to have this correct is SNS despot TI with a square bracket and fair with apprentices after it.  I'm going to add these lights on to try tonight so that you'll have it going for it cuz it's not in what you have right now. Okay, we're going to quickly go through and I just wanted to demonstrate that the approach other types of foxes similar so you could SNS boxplot specify that you won fair and then specify the data RTI. So the syntax here is a little different but it is equally stand and you then get that box plot that we've been looking at where you can see the similar formation to what you all just made in your histogram with in a box, but I told you in lecture that box plots are held for when you have a continuous variable by a categorical variable. So will this give you some information the histogram you generated is probably better.  Welcome back to this. This was just the math for a IQR a box. That's really helpful. Is it when you have multiple categories and you want to summarize across the continuous variable by the categorical so to do that you use what you want on the X. So here we want fair or continuous variable. Why is who that is are categorical variable. And again, we don't specify that were using a Titanic dataset.  The reason we use a boxplot for that's a really just dry drive at home. If we were to generate a histogram with a the deadly plot over top of it for that same information. It's kind of a mess. That's not very clear what's going on me and said would want to use the box plot for that data.  So histogram single quantitative variable spot spot when you have a single quantitative by a categorical. All right, I'll give you all a few minutes to generate a boxplot for fair broken down by what class they were on the Titanic.  Are the numbers you have gotten it if you were stuck. I'm happy to chat with the few that are stuck after we're going to take a look at this. So if you were to generate a box, and maybe you haven't set the background to White so there's maybe it's blue but you did SNS boxplot specify that you wanted fair and class and specify that the data that you want to use is t i and you should have a similar-looking plot.  That's what I wanted to talk about or Scatter Plots when you have two quantitative variables, so here we're looking now at age which we've looked at individually and fair, which we've looked at individually and the relationship between the two for this you would use LM plots against the type of pot you're going to use is specified by using at the Nets and then the type of pot you didn't specify what you want on your ex sees with Dan Deery using this is just so that it displayed larger. So you wouldn't need this gently on Purge on your descriptive pots and he ran over Gresham line is fit automatically. We'll talk about that later. But if you wanted to get rid of that regression line, it would be the same code and the only thing that changes is fit under square regression equals ball and that gets rid of that line. You can just see the relationship where each point is an individual and the relationship between fair and image is pretty flat. So the younger people didn't necessarily pay more or less than the elderly  This is just for general knowledge. You can color the dots by specifying the issue. So he who is what's going to change the color of the points or the bars or the boxes on clots when your music Seaborn.  Okay, baby sleep we haven't talked about barcharts. I'm going to stop here and pick up room this on the next lecture, but you can read through the rest of this and if you're struggling on the collaboratory notebook, feel free to let me know right now and I can try and figure out where you're stuck at everybody to say.  I didn't eat that fly. "
+}

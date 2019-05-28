@@ -1,0 +1,766 @@
+{
+    "Blurbs": {
+        "1 Okay. So the two most popular answers were either be classification supervised or C classification unsupervised and I'm going to argue it could be either of those in this example. We are going to use a supervised classification techniques, but neither would be appropriate here. Alright, so who was the proposed a feature that would distinguish a house in York from a house in San Francisco? So if you ": [
+            3462.7, 
+            3490.1, 
+            123
+        ], 
+        "63% Correct. If you move it all the way down to zero and classify everything all of the houses end up over here. So you're looking for some split point that balances the error on each side. So you get some blue over here and some green over here and building a decision tree is finding the best split point at each part of your tree and you do this ": [
+            3706.6, 
+            3727.8, 
+            132
+        ], 
+        "65% of class saying a few people saying be and then some people think C or D. So who wants to defend their answer how they came to their conclusion? Yes. Okay. Thanks shoe size in your example record lady with how you can use regression to look at the relationship between those variable. So the outcome variable here the thing we're trying to predict as you mentioned is quantitative. ": [
+            2622.5, 
+            2653.2, 
+            95
+        ], 
+        "Background and credentials so they scratched his stool after generating it once they knew that's decided that evades weren't using male female as an input. They still had bias in the algorithm that they generated. So it is always your goal over to talk about this a bit more on Thursday. It's right by these check for them after you build your model and use your average to improve lives ": [
+            3357.8, 
+            3380.2, 
+            120
+        ], 
+        "I didn't know that all right. Hello everyone. We're going to get started as people settle down. So as per usual starting. With the fact that you have a reading quiz, your final reading quiz is due this Friday and your fourth assignment which includes your proposal for how you how you would analyze your project is due next Friday. This is General notes here at the bottom your third ": [
+            48.6, 
+            83.9, 
+            0
+        ], 
+        "I know their height what were their age most likely be? Retrogression and supervised learning uni the features. We told the model features. We generated a model which was a mathematical equation that describes the underlying data and then we were able to use that model to make a prediction about a continuous variable. On the other hand classification is what we use for predicting categorical variables and to do ": [
+            2126.1, 
+            2152.6, 
+            76
+        ], 
+        "I would love to know where the confusion happened that was mostly for my interest and to let you all know if you are unfamiliar with me and you are not alone. So we have when we're talking about is you have this dataset that you're going to use to build your predictive model. It has observations. It has features you are then going to take some 4% of it ": [
+            1405.1, 
+            1425.1, 
+            48
+        ], 
+        "Ida so far we talk about descriptive analysis exploratory data analysis inference and machine learning today. Every thought is what type of question how common is watching Sesame Street in the US? Inferential wouldn't be inferential because an inference you're going to be drawing relationships between two things. So I'm going to take this one would just be a descriptive analysis. You're really just calculating one number and not relating ": [
+            1142.6, 
+            1172.7, 
+            38
+        ], 
+        "New Concept the new vocabulary a new ideas I'm there going to be a lot of time for y'all to discuss and ask questions to each other at questions to me think through things. So we are going to Jump Right In by first reviewing the guest lecture from last week. I think paid piccininni guest lecture was really really helpful. She gave you an idea of what a data ": [
+            108.5, 
+            127.5, 
+            2
+        ], 
+        "So here you would probably calculating both are in a c and accuracy. You wouldn't want to know exactly how many did you guess right if you're predicting age of you said they were 73 and they were 73 that would make your accuracy increase food also want to know your root mean squared error. If you didn't get it all the way right? How close were you were you ": [
+            3189.8, 
+            3210.3, 
+            114
+        ], 
+        "So tell each other about all three of these questions and I will then ask y'all what she did and what the answers work. All right who remembers how page answer the question how much is a reoccurring donor Worth or what? The answer was to that question? So it been ever since there was more than one time donor and the thought was maybe something on the order fifty ": [
+            150.9, 
+            247.0, 
+            4
+        ], 
+        "So you could use regression in that case. So your answer was assuming a supervisor Goshen. To figure out what those secrets she said hi, but like you can generate it's not just my phone checker. Does more apps? Okay. So the argument front is that you could use unsupervised dimensionality reduction. The idea here is you can use lots and lots of different features so maybe incorporate so the ": [
+            2653.2, 
+            2689.8, 
+            96
+        ], 
+        "That's a great question example is a true example from Airbnb and in this case would want to categorize listing photos at Airbnb the somebody wants to put their place up on Airbnb so that other people can run it out. How would you categorize the photos? They've submitted scary few more seconds 3 2 1 What do we see that the two most popular answers again or if the ": [
+            3888.0, 
+            3943.6, 
+            140
+        ], 
+        "York, you might know that San Francisco is incredibly hilly City. So you might start to look at elevation over here. We have all of the homes in San Francisco and here we have all of the homes in New York City and we can see that the house is at the highest elevation 10 to be in San Francisco or New York tend to have lower elevation houses. So ": [
+            3578.0, 
+            3597.9, 
+            126
+        ], 
+        "You give it to its supervised learning idea based on actual biology that you get signals and you then determine outputs from your neuron. The song I won't be the last time you see something like this. This is a machine-learning talks all the time and it is mostly unhelpful the way you should all take from this when you see it is that there are lots of input things ": [
+            2419.3, 
+            2442.9, 
+            89
+        ], 
+        "a categorical variable. So what type of variable I'm with page talking about here. So here looking at quantitative data, so she's saying not to use a bar flat when you're trying to summarize quantitative data, if you're trying to summarize quantitative data, it's best to look at Fox Plus or histograms of some sort. This was tweeted up again. Just this past weekend by Rafael Irizarry. He is a ": [
+            727.4, 
+            752.8, 
+            24
+        ], 
+        "a method of analysis that automates analytical model building. So it's both getting the computer to do what we want and teaching it how to build those model. We're going to leave. This is the highest overview of how to think about model predictive analyses. You start with data you train a model and then you use that model to make predictions about something. So we're going to be using ": [
+            989.7, 
+            1014.7, 
+            35
+        ], 
+        "a salary less than 40K would go down this edge of the tree anybody who made more than 40K would be over here and you continue to break down the street whether or not they had a manual laborer profession might be a feature that would help separate out individuals more people would start grouping into each of these you would determine if they have children of the end. They ": [
+            2173.2, 
+            2193.5, 
+            78
+        ], 
+        "about dimensionality reduction when I come with you, but I want you know, that that falls in the unsupervised learning category. Any questions up to this point? Okay, so I want you to predict someone's shoe size. I want you to propose how you would approach this using machine learning. Every child each other convince each other of your guests. Give everybody a few more seconds. 3 2 1 activate ": [
+            2536.3, 
+            2622.5, 
+            94
+        ], 
+        "accurate you want your training dataset to be I'm so that you can make sure your test accuracy and a dataset not used to build. The model is higher there ways to do it over fitting that we're not going to discuss in this class for whatever you to be familiar with the topic of overfitting and if you see a hundred percent accuracy in your training day that you've ": [
+            3811.7, 
+            3827.8, 
+            137
+        ], 
+        "all for Thursday. So we'll start talking about machine learning and I'm moving to algorithm. ": [
+            4172.5, 
+            4176.6, 
+            151
+        ], 
+        "and then you divided by the total number of people in your data set and then you square that so because this is root mean square error, generally if your predictions are good, you will have a smaller error than if your predictions were bad if they were bad. These numbers would be far apart from each other and this number would be bigger. So General reminders when you are ": [
+            2936.0, 
+            2954.8, 
+            106
+        ], 
+        "and use this to build your model. So you're going to let the model see all of this data for you're going to hold the tests that back. So the check that are from the original date at that were held out. I'm not using train the model and these are helpful and fine-tuning the prediction accuracy validation data, as you can tell from this looking slightly different are they ": [
+            1425.1, 
+            1444.6, 
+            49
+        ], 
+        "and you want the simplest model possible start there if using something simple works, you don't have to go any more complex. I suppose you're going to talk about model shooting models in a supervised learning space. The two general approaches here are regression and classification. I talked about this before but if you are predicting categorical variables such as one's education level, did they graduate high school? Do they ": [
+            2009.1, 
+            2035.4, 
+            71
+        ], 
+        "answer if you were using an unsupervised approach. I'm when you're doing a supervisor ProCharger new specific features, and they have to be related to the prediction test. This is the example of elephant height not predicting election results on you have to use data and you're not going to in a supervisor approach. Just give the computer all the data. Okay. So at this point we talked about data ": [
+            1927.2, 
+            1949.4, 
+            67
+        ], 
+        "are going to answer the predictive question. We're answering So get your selection determines which variables are most productive and you include those in the model. I want to point out here. We've talked before about the fact that just because there's a relationship between variables doesn't mean that one causes the other summertime up feature selection predictive modeling were exploiting the relationships, but it doesn't mean that the variables ": [
+            1583.1, 
+            1615.6, 
+            55
+        ], 
+        "are in a manual labor profession. They do have children. This indicates that they have a high school-level education always be perfect that people that this is a simplified treat for this is the tree that would generally get you the best classification. Any decision trees are helpful for classification. 3 supervised learning we had the prediction of Ages in linear regression later the future. If you gave me something ": [
+            2213.9, 
+            2242.4, 
+            80
+        ], 
+        "are the features were using cause the election outcome. They just have some relationship that we're going to exploit. Okay, so we're talking I'll feature selection. Now the time we have to differentiate between supervised learning and unsupervised learning. So in supervised learning we tell the computer how to classify the observations. We tell the computer that these four observations are blue circles and that these four are red X ": [
+            1615.6, 
+            1644.0, 
+            56
+        ], 
+        "are using Pharmacy the smallest value for error if you want good for addictions you while you're ever to be small and if you said any of these amazing because my question wasn't as clear as it could have been so you want low or a messy when you're predicting age as a general reminder since we haven't talked about ethics of time in a while you're training. These date ": [
+            3267.4, 
+            3290.0, 
+            116
+        ], 
+        "assignment. Nope, second assignment grade. So that doesn't type o r and r on try and Ed and the third workbook if you want more practice in Python that is being used in section is available on train Ed and the first exam is also now viewable on TriNet. So today we're going to be talking about machine learning to get to that because they're going to be lots of ": [
+            83.9, 
+            108.5, 
+            1
+        ], 
+        "be unsupervised clustering. So you want to determine emotions you want a cluster into some emotion and you want to do a face in an unsupervised way. So you don't have to go in and tell the computer exactly what in the picture to look at so I'm going to say that that is the best response if you wanted to do some sort of supervisor fruit, you would have ": [
+            2826.3, 
+            2846.7, 
+            101
+        ], 
+        "before anybody goes to make a change the Natural State and a company is to continue to do things the way they've been done and it's much harder to get people to change the way they're doing something cuz it takes effort. So make sure that if you have an analysis that explains why I should change it that you're communicating effectively and less on with the fact that the ": [
+            535.0, 
+            554.1, 
+            18
+        ], 
+        "bucks. Anybody else have a different recollection. Okay. 430 but the answer's still told that it was more than a one-time donor. That is absolutely correct. So together we got to about right and it was somewhere in the 400 and then a one-time donor was worth $25. So you got a lot more from the typical recurring donor. And does anybody remember how she answered that question what type ": [
+            247.0, 
+            270.0, 
+            5
+        ], 
+        "category, it would be given the classification cake would follow following would be going on in the unsupervised approach. What's generally has to do with and is modeled after what happens in biology. So in all of your brains, you have neurons and interneurons take lots of input process was going on when the input and then sends an output down the axon to the next neuron take lots of ": [
+            2367.1, 
+            2397.5, 
+            87
+        ], 
+        "classification ones and here I'd imagine that maybe more people put see because we're using photos and I said that when we use photos of off to be unsupervised, which is in fact the way Airbnb opted to use it. So we're going to talk about cross training in an unsupervised manner but B is also an option here. Stop someone from it was a machine learning scientist at Airbnb ": [
+            3943.6, 
+            3966.1, 
+            141
+        ], 
+        "classification. So far, we talked about data partitioning splitting into training and testing set talk about feature selection whether or not it is supervised or unsupervised. We talked about a number a number of different models that you would select based on what type of question you're asking to talk about before getting it examples is how you assess your model. The first one and this is for continuous variables ": [
+            2887.3, 
+            2917.5, 
+            104
+        ], 
+        "classify them into groups. So this example these three up here or all ducks. So you're classifier the computer with him and they all have similar feet or similar bills. They have similar ears. Where is this bunny and this mouth have different features different feet different ears different noses, and it would classify these into three groups based on the features within the input data. Here when you turn ": [
+            1766.3, 
+            1790.2, 
+            62
+        ], 
+        "classy works with to determine how they should approach and the fact that it is worth it to approach trying to get more donors who remembers the way that the second question was answered or what the answer was to how can we get more people to become recurring donors? Okay, so there was some incentive element that we don't remember exactly what that was a big hit. So that ": [
+            292.3, 
+            320.2, 
+            7
+        ], 
+        "closer to the actual value then some random value? That's much smaller. Okay, so you wouldn't use sensitivity specificity or are you see, which I haven't even talked about area under the curve. These are all for categorical prediction. Hey and then whatever value would you want from your model? Assuming we're doing rmse. 3 2 1 well, I'm bored or most of us are onboard you want when you ": [
+            3210.3, 
+            3267.4, 
+            115
+        ], 
+        "cuz this is what you're going to venues in the future later. When I give you somebody's height you're able to go up to the line and predict that person's age. So this is a general idea behind using regression 4 prediction of quantitative variable. So you use this model and in the future if I tell you someone's height you just go to this model and say a joke. ": [
+            2108.3, 
+            2126.0, 
+            75
+        ], 
+        "data scientist and she talked about the fact that she's a spiteful are pythons at the thing that she uses. All the time is SQL or SQL. Remember a relational database lecture we talked about doing all these joints and getting the day to you want that is where you would use the the reason we don't cover in this course is because once you know Python and understand it ": [
+            434.0, 
+            454.9, 
+            13
+        ], 
+        "decide to separate to the one you started with and it is going to determine whether or not your predictive model Works in a completely different data that was collected separately from the debut started with I got three train beta testing data use both come from the original data set and validation date at which is a separate data set to determine if your model is generalizable. I hope ": [
+            1444.6, 
+            1469.7, 
+            50
+        ], 
+        "did, so sensitivity specificity or two measures sensitivity says of those are we predicted correctly or saved to be positive what percent were actually positive so which was truly worried that value and there was always that were negative what percent were predicted to be negative. So these are just breakdowns of your accuracy. We'll talk about an example of this to get you a better idea of what this ": [
+            3023.4, 
+            3044.1, 
+            110
+        ], 
+        "difference between them have to do with overfitting is generally with the question was here. The idea was if they took the model the neural net that existed out of box and just use that they would get this green curve with a slightly lower accuracy and they retrained it to more specifically fit their needs. So this is just in case of them training model. So back to your ": [
+            4107.6, 
+            4126.3, 
+            148
+        ], 
+        "difference between what she saying to ban and what I told you all is a good idea to use through remembers when you should use a bar plot This is that from the data visualization the first lecture. Okay, so if there's categories if you a categorical data, I'm you can see how many and what the most frequent at least frequent are when you're looking at the counts of ": [
+            699.0, 
+            727.4, 
+            23
+        ], 
+        "different parts of damage and the model has been built to determine that this image is an Audi A7. Sample of a while back earlier in the last summer. They took Google images and they were able to correlate what cars were in different neighborhoods with political affiliations. And the way they did that was by generating a neural net net is you put in put in you build complicated ": [
+            2484.6, 
+            2507.4, 
+            92
+        ], 
+        "famous biostatistician at Harvard biostats. If you heard anything about the death count in Puerto Rico in the aftermath of the hurricane, he was a statistician. I'm gathering those data and working with the Puerto Rican government to make sure that those counts were collected. So he said that we should Dynamite pot must die so far apart when you're looking at quantitative data are often called Dynamite plus cuz ": [
+            752.8, 
+            779.7, 
+            25
+        ], 
+        "first one was hypothetical parade gender or other features that may predict shoe size and I do with dimensionality reduction if you can take all of those and then summarize all of the features based on a few smaller. So we haven't talked about this in detail a bad idea. Then would be you would actually ultimately still in that case you supervised regression after you did that when I ": [
+            2689.8, 
+            2709.9, 
+            97
+        ], 
+        "for each of the features. You're going to include And you continue to build your tree. So if your first one is elevation you then might split by price per square foot and each time. We can see the accuracy that most of these are blue and most of these are green and our accuracy at this point is 86% as we continue to use features and build our tree ": [
+            3727.8, 
+            3750.6, 
+            133
+        ], 
+        "free to chat with each other. Scary a few more seconds. 3 2 1 Okay, so we see a downward pattern from left to right. I'm going to argue for the sake of his success this example that we are here going to do a supervisor approach. So now we're doing supervised here and we're predicting age were predicting something that is continuous. So here we would use regression and ": [
+            3067.8, 
+            3129.1, 
+            112
+        ], 
+        "happen in the model and then you get things out cuz that's what this conveys people try to use it to explain in a clear way what's going on in neural Nets and it doesn't do a good job aside from telling you things come in and put and you get outputs and stuff in the middle is complicated. So I know that math is happening here, but inputs come ": [
+            2442.9, 
+            2463.6, 
+            90
+        ], 
+        "have a bachelor's to have an advanced degree tear is a case for classification vs. Regression would be use for predicting continuous variable. We're to talk about regression first as this is the concept we've talked about already in the in French last lecture and wouldn't have these up here. They're mostly here for you to look at when you're studying but they're supposed to die as you so will ": [
+            2035.4, 
+            2056.8, 
+            72
+        ], 
+        "have one link here. If you want to check out more that people have gone into historical images and determine this is a neutral man. And this is an angry woman or this is a happy person. This person is surprised. This person is sad and this person is angry some people working on these songs, and these are unsupervised approaches ready inputs are images and the outputs are some ": [
+            2868.6, 
+            2887.3, 
+            103
+        ], 
+        "have thoughts on this, I would definitely want to know but there is a Twitter poll that was actually result of a presentation my former boss gave and so Michael Hoffman, he is an assistant professor up in Canada and he asked the same question and you can see that there's a pretty even split between those that said they called train testout it and train validate text. So I ": [
+            1361.8, 
+            1385.0, 
+            46
+        ], 
+        "highlight the fact that she has to communicate as a data scientist with lots of different groups. Right? So in the how much is a donor worth they wrote a blogpost so that all of the nonprofit they work with so a general audience who doesn't necessarily have data science skills are are necessarily people that think about that all the time could understand the point of trying and the ": [
+            496.0, 
+            515.9, 
+            16
+        ], 
+        "honestly I just thought I'd be talking about supervised learning regression talking about age and then continuous variable is the type of variable. We are predicting. So this is something I've shown you all before this is a scatter plot between an independent variable and a dependent variable where each point is a different person in the dataset and we can see that there is time linear relationship between these ": [
+            2056.8, 
+            2078.9, 
+            73
+        ], 
+        "importance of recurrent owners. Just have to communicate with stakeholders throughout the company after they did that a b tests and determined that was the one format was much more effective. I getting recurring donors. I'm she shared that with the high rocks at her company and has to get them to buy into her idea do to be able to communicate urinalysis and show that it was truly effective ": [
+            515.9, 
+            535.0, 
+            17
+        ], 
+        "in I'll put go out the ideas at this is based off of what happened in so I said, this is you know, this is it then explain what's happening here, but they did is imagism put an out you get what type of card is unknown that in this example where you take an image of a car and we break down based on what you see with in ": [
+            2463.6, 
+            2484.6, 
+            91
+        ], 
+        "in a supervised way and what she look at survival analysis. So she determined which features she wanted to look at or she could just put all the data in and then determine is there one group that will never become a recurring donor one that has the potential to become recurring donors. And that's where marketing should focus its efforts. And then one that already are and are going ": [
+            1815.1, 
+            1836.0, 
+            64
+        ], 
+        "in the future. So we're talking about predictive analyses were talking about machine learning techniques to work with a do you have now build a model and predict for something else in the future? Set example of this which happens all the time in the real world for banks and credit card companies is if you want to use the data you have now to determine whether a future transaction ": [
+            901.0, 
+            925.5, 
+            31
+        ], 
+        "in this approach. Is that the best data or big data set that are clean date of that. So whenever you have the information you want and you have it across all of your observations and the best models are simple model. So the best approach when you are trying to do machine learning is not necessarily to go out and find the fanciest new model starts and pull start ": [
+            1972.1, 
+            1991.0, 
+            69
+        ], 
+        "input sends a single output. That's the idea of what's going on in unsupervised learning. There are lots of inputs your model determines what the output should be. So when we talkin about neural Nets it's a mathematical abstraction that was inspired by what's going on in all of our brains and you were out put it either on or off based on the sum of all of the inputs. ": [
+            2397.5, 
+            2419.3, 
+            88
+        ], 
+        "into what we've been doing so far. We talked about descriptive and exploratory analysis. We said that if you are not trying to determine causality, you may be trying to predict measurement for individuals last class we talked about in France when you are not trying to do prediction and today we're talking about predictive analysis, which is when you use machine learning So in predictive analysis, you apply machine ": [
+            856.5, 
+            880.9, 
+            29
+        ], 
+        "is on historical data to any biases that exist in your data are going to be perpetuated in the predictions you generate. A new representative recently tweeted out something to the effect of the fact that algorithms which were driven by Matt are racist and lots of people in the machine learning World jumped in and a lot of people said, well math can't be racist is math. It's based ": [
+            3290.0, 
+            3315.4, 
+            117
+        ], 
+        "is something called root mean squared error. So you predict someone's age is 50 and their actual age is 49. Then you would subtract the difference between those two so it'd be that one year. You would swear that difference you add that up across all the people in your data set and I'm going through as quickly which means I won't ask you to do this on an exam ": [
+            2917.5, 
+            2936.0, 
+            105
+        ], 
+        "is the answer to how one of their companies. People to be more recurring donor. So they offered the incentive of a blanket. I think people should use and that one company by offering a blanket got a lot more people to sign up to being returned on her. So that's absolutely true. But they did something at Classy at the company where she works to determine how you got ": [
+            320.2, 
+            342.1, 
+            8
+        ], 
+        "it to anything else. But I think that was a a good guess. What is the effect of watching Sesame Street on children's brains? What type of analysis would that be? Exploratory. Okay. So what would you look for if you're doing exploratory analysis are? What is it going to look through at the relationship between how much somebody watches Sesame Street and how smart know how well they did ": [
+            1172.7, 
+            1205.2, 
+            39
+        ], 
+        "learning feature tend to be the variables in your data set. So what day did you have and which of them are you going to use in your model? I'm the one point I want to make is that the you can't just predict anything from data that are unrelated. So if you want to determine the outcome of us elections, you wouldn't use data about elephant height has nothing ": [
+            1540.5, 
+            1561.8, 
+            53
+        ], 
+        "learning techniques to data you have currently to generate a model that will be able to make a prediction on future data. So you're using data you currently have in hand or historical data data from the past two, then build a model and remember model is a mathematical equation that best explains the date of that you are using and you're going to use that model to make predictions ": [
+            880.9, 
+            901.0, 
+            30
+        ], 
+        "likely over fit your model. Alexis is a recap of what we talked about there. The second example of talked about today is categorizing listing photos at Airbnb. Which Russian? Hey, I don't let's August and I know it going towards the end. How many players? Is a question. Can you train the model and specify which features and how to wait them in order to figure out the best ": [
+            3827.8, 
+            3869.6, 
+            138
+        ], 
+        "machine learning. They're often called features. So the features of this model would be time on the charge location of the charge and price of the charge and the goal would be to determine whether or not that charge is fraudulent. So this is a predictive analysis where you would use machine learning. There are a number of definitions out there about what machine learning is. This one you can ": [
+            945.4, 
+            967.0, 
+            33
+        ], 
+        "making a bunch of class. But you want to use machine learning using these in a machine learning approach would use a decision tree. So you want to find which boundary is most appropriate for separating out these houses from one another in a tree. So it'd be highest home in New York is 73 M this little blue dot here. But you need to find the best split point ": [
+            3663.3, 
+            3686.8, 
+            130
+        ], 
+        "mean thing as variables. You could use root mean squared error or accuracy when you categorical variables, you would probably start by measuring accuracy and then you can get a clearer picture by looking at sensitivity and specificity. Don't you been given a data set with a number of features and asked to predict each individual Aid what prediction approach would you use this? When should be quick review? Feel ": [
+            3044.1, 
+            3067.8, 
+            111
+        ], 
+        "memories about what was discussed there. What was Barbara plot? All right, who remembers what this? Was there any part of what barbar Platz was? Okay. So this the point of this is to get rid of some type of data representation that was subpar or not as good as another type of visualization and sew in farming like to get rid of so get rid of dark spots was ": [
+            602.8, 
+            678.0, 
+            21
+        ], 
+        "might be fraudulent. So can we use the data science question, is the time of the charge the location of the charge and the price of the charge to predict whether or not it's fraudulent. So when we're talking about the data we're using to answer the question fees in machine learning had to be called features. We talked about variables before features and variables are synonymous button prediction and ": [
+            925.5, 
+            945.4, 
+            32
+        ], 
+        "model and you get out a label. So just to review when you're protecting a continuous variable regression is the simplest and most common approach in the supervised learning category. What are you doing classification decision trees can be helpful. If you were doing unsupervised learning the computer is using mathematical representations to take and put all these emojis and classify them into different categories. We haven't talked to Tom ": [
+            2507.4, 
+            2536.3, 
+            93
+        ], 
+        "more people to become recurring donors. Yesterday change the format of the page and if you remember they had those radio buttons on a one version the monthly button was quite small and on another button the monthly button was much bigger and at the top and I think in a different color, they remember what that experiment process was called. Okay, so that was an example of a b ": [
+            342.1, 
+            372.4, 
+            9
+        ], 
+        "more seconds? 2 what is the 67% of you said that it is D. Can we use information about one's Early Childhood to predict their success in elementary school, but we have other ones. They tell me how they came to answer D the correct answer or how they ruled out the other ones. What type of analysis is question a how common is watching Sesame Street in the US? ": [
+            1097.9, 
+            1137.4, 
+            37
+        ], 
+        "multiple features. You can start to get a better idea as to what separates out. The house is in San Francisco versus the houses in New York. They want the different teachers. So here they look at elevation year built number of bathrooms bedrooms price square feet and price per square feet in idea of which features will be helpful in your model. And that is just using your intuition ": [
+            3640.5, 
+            3663.3, 
+            129
+        ], 
+        "not and these are pools while these are not and I think this is probably the most impressive because these look the most like pools when you can see that these in fact or not pools to a single Airbnb unless this is some super fancy Airbnb. Okay, any questions on what we've talked about so far? I am going to save this last example about predicting stuff but you ": [
+            4148.3, 
+            4172.5, 
+            150
+        ], 
+        "of analysis she used this isn't super important. Okay, so she is survival analysis. It was that curve that you showed going down over time and it showed that overtime people drop out from being recurring donors and you can get some idea of what the typical trend is with a typical donor on Gibbs. So this was something that she could end communicate to the nonprofits that her company ": [
+            270.0, 
+            292.3, 
+            6
+        ], 
+        "of it the training set to build a model for the testing set to determine how accurate are model is within the same data set and a validation set is a separate datasat to determine if your model is generalizable. So we have an idea of what data partitioning is. Now, we're going to talk about what feature selection is and I by mention that we were talking about machine ": [
+            1519.5, 
+            1540.5, 
+            52
+        ], 
+        "on a test and then look at the relationship between that so you would start looking at that in an exploratory analysis. And then the next one. What is the relationship between early childhood education programming and success in elementary school that is a more specific type of inferential question. So busy or both some sort of exploratory and inferential question D here were predicting we're going to use data ": [
+            1205.2, 
+            1225.2, 
+            40
+        ], 
+        "on an exam. I would specify that reduce supervise and not make you guess we're not doing classification because age is a continuous variable. All right. So given that we're doing regression. How would you assess your model? Feel free to chat with each other if you're stuck. Give everybody a few more seconds. 3 2 1 I love it when you guys do what I expect you to do. ": [
+            3129.1, 
+            3189.8, 
+            113
+        ], 
+        "on supervised learning you're doing a clustering or dimensionality reduction, generally. And it uses the what we call structure within the data to the features that are within the data set to automatically identify the groups. So I told you I would mention Pages third question when she was looking at how to determine whether or not somebody would become a recurring donor. She said that she could do it ": [
+            1790.2, 
+            1815.1, 
+            63
+        ], 
+        "on truth and the argument hear from somebody at Microsoft is that in fact the data matters more than a match because you've been dated your inputting to the math if there was a biased than the algorithms. In fact can be racist. This is what the reading you're doing for. Your fifth meeting is all about we talk about this example before is that Amazon set out in order ": [
+            3315.4, 
+            3336.5, 
+            118
+        ], 
+        "ones are goofy. You're doing a classification when you were in the supervised learning setting. Over here any unsupervised learning. This is what Facebook uses when you get a pictures to determine what that your face is the one in the picture. So when you're doing unsupervised learning you often you get it data as the input and then the computer determines what's most similar among the input and then ": [
+            1743.7, 
+            1766.3, 
+            61
+        ], 
+        "other and answer questions to make sure you're getting it as we're going throughout any questions before I get in the machine learning about the announcements or Pages staff lecture. Okay. So my goal today is for you all to be able to identify a question that can be answered using machine learning and to specify the appropriate General machine learning approach given a dataset and a question. IR turn ": [
+            828.0, 
+            856.5, 
+            28
+        ], 
+        "output is a quantitative variable. And for the same reason it wouldn't be a clustering over here. All right, you want to predict someone's emotion based on an image? How would you approach this with machine learning? chat with each other convince each other Eric winding down like a very few more seconds. 3 2 1 All right. We have some dissension among the ranks on this one. So regression ": [
+            2734.3, 
+            2793.3, 
+            99
+        ], 
+        "over. Can I be a few more seconds? 3 2 1 okay. So if you want you to machine learning you are in the majority 58% of you are new to machine learning and then B&C or what I was getting at. We have 33 Volts for Abby and 26 Volts for see so this is something that still puzzles me and I don't know the answer. So if you ": [
+            1305.8, 
+            1361.8, 
+            45
+        ], 
+        "partitioning you have this big data that you were going to split it. So you can train the date on part of it and you're going to use the other part to test your model you then select what features you either in a supervised an approach select the features order unsupervised approach the computer determines the features. So now we're going to talk about model selection. A general tenant ": [
+            1949.4, 
+            1972.1, 
+            68
+        ], 
+        "photos where they were confident. So they hired people to correctly label photos and then use those as their training data to generate their model. They used a unknown at that is already out there. So no unsupervised approach that takes the images as input and then determines the room that they're in as their output uses. Lots of layers. They hired a bit for their approaches and what they ": [
+            4047.9, 
+            4072.2, 
+            146
+        ], 
+        "predicting you want smaller error. The one thing is that a few outliers can lead to a big increase in a root mean squared error, even while the other predictors are pretty good. So if you get a huge root mean squared error at the end of your prediction is sometimes good to go in and say are a few samples shopping predicted accurately or is it just not predicting ": [
+            2954.8, 
+            2973.6, 
+            107
+        ], 
+        "price per square foot because we're both of them are incredibly expensive cities to live in New York 10 to have super tiny apartments that are very expensive. So if you start to look at price per square foot based on as it's related to Elevation, you can see lots of green dots appear more blue dots over here and some confusion down here says you start to build in ": [
+            3620.5, 
+            3640.5, 
+            128
+        ], 
+        "question from before if you generate a better model that more specifically fit your needs. Can you get a more accurate approach? So you want to make sure that your model is as accurate as possible without overfitting. So that's the balance that you're always trying to generate there. Okay. So these are examples from the model determined that these are bedrooms. These are not these are bathrooms. These are ": [
+            4126.3, 
+            4148.3, 
+            149
+        ], 
+        "rather than for punitive purposes. This is something your reading will talk about your Vizio model update your algorithm. You are responsible for them all what you put out into the world reminder so far. We have talked about data partitioning feature selection supervised and unsupervised machine learning how to assess your model and the fact that buy estate accountant and will lead to buy a prediction. Any questions up ": [
+            3380.2, 
+            3406.8, 
+            121
+        ], 
+        "read on your own time is kind of lengthy, but from the next ruler whose on in Academia now is machine learning is the science of getting computers to act without being explicitly programmed. So can we give data to a computer? Tell it what we want to do and figure out the best approach the very largely that is what we're going to be talking about today. And is ": [
+            967.0, 
+            989.7, 
+            34
+        ], 
+        "regards to recurring donors the one big topic? She spent a lot of time on. Okay, who remembers what the take-home message was of her Kickstarter and they like fun examples of that. She said she included on her resume when applying for jobs and she use this hashtag for barplot. Maybe remember what the take-home was from that. Every other a second to chat with each other refresh your ": [
+            578.2, 
+            602.8, 
+            20
+        ], 
+        "scientist does the types of questions. She answers and the types of skills. She has and the types of on technology. She uses so my task for you all to get your brain working to start thinking about this is too in a minute talk to each other about the three questions that page act and let me know what the answer was and how she came to that answer. ": [
+            127.5, 
+            150.9, 
+            3
+        ], 
+        "see here is that they classify bedroom with an accuracy of 95% and an accuracy for living room of 92% to talk about these curves too much but what they're showing here is that they can do a really good job at first pass of correctly classifying images at to the room that they're from from the beginning. Question. Yeah. Okay. So the question areas is true line from the ": [
+            4072.2, 
+            4107.6, 
+            147
+        ], 
+        "selection is what model selection is and then how you assess the models you generate? So we're talking about data partitioning we're talking about the date is that you have splitting it so that you use some of the data to train your model and then some of it to do test out once you built the model to see if it works on data that the model was not ": [
+            1267.0, 
+            1286.7, 
+            43
+        ], 
+        "she could take back to her bosses and say hey we should tell this to all of our nonprofit station use format be with a much bigger. But rather than a based on this experiment what rear an SAT testing question can we predict which are most likely occurring or switch to become recurring remember what was talked about their? So this is what she talked about the least because ": [
+            391.9, 
+            418.3, 
+            11
+        ], 
+        "she's still in the middle of doing this. So I'm going to talk about this a little in today's lecture. But this is where you would use machine-learning to answer this question. So she gave us a nice primer for the top deck we're going to be talking about today. I just wanted to recapture that she talked a lot about the data science skills that she uses as a ": [
+            418.3, 
+            434.0, 
+            12
+        ], 
+        "skills. You need to know how to set up an experimental design when you design that a b testing and put the radio buttons in different places. You have to make sure you set up an experiment that can answer the question you want to answer key statistics through out so she talked about survival analysis as one and machine learning for predictive analysis as another analytical skill chose to ": [
+            476.7, 
+            496.0, 
+            15
+        ], 
+        "so doesn't count taken aback how close you are to the actual value. It just says where you right a wrong divided by the total number of samples. So we mentioned just now that accuracy will tell you what percentage of predicted correctly when you're talking about categorical variables. You can determine a little more specifically how well you did and why you did as well as surely as you ": [
+            2998.2, 
+            3023.4, 
+            109
+        ], 
+        "so to check understanding of what we just talked about what portion the data are used for generating the model. Will make us a quick one. Give every few more seconds. 3 2 1 okay, so by and large we are on the same page that you use the training data to generate the model or to train the model. Alright, so we're taking retired at that were using some ": [
+            1469.7, 
+            1519.5, 
+            51
+        ], 
+        "so which split Point somewhere in here gets most of the houses are in San Fran in San Fran and most better, New York in New York. Super use the split point up here that's going to classify all of these to the right at San Francisco. So this will all be right but this is a mix of this is not all blue. So we're not we're only getting ": [
+            3686.8, 
+            3706.6, 
+            131
+        ], 
+        "some New York homes to knocking it over here yet. Most number of flu, but some San Fran houses fell in and your accuracy and your test. That is 90% This is a topic. We haven't talked about yet in today's lecture is that you can train a model that is 100% accurate, but that won't perform. Well when you give it new data, so there's some balance between how ": [
+            3789.8, 
+            3811.7, 
+            136
+        ], 
+        "talk to talk to Marketing sales account manager data scientist or analytical people to get the data and to talk with him about how and what features they would need in order to predict which donors are most likely to stay recurrent or switch to become recurring which is something that marketing and sales cares about a lot Okay, any questions on the three questions that you talked about with ": [
+            554.1, 
+            578.2, 
+            19
+        ], 
+        "testing they had example a where they had the small buttons an example where they moved into the top and they said an example of a or is it an example of which one increases our has more people become recurring donors and they found that when the button was bigger and higher they got more people to sign up being as recurring donors. I'm so that was something that ": [
+            372.4, 
+            391.9, 
+            10
+        ], 
+        "that's not a kitchen. This is labeled living room, but it's actually the hallways of the living room. This was labeled bathroom, but that's not a bad thing when you can see that just by using the label based on what humans and put into a computer is not always a good idea. So Airbnb decided to take labels from Airbnb and it's supplement insurance with a small number of ": [
+            4026.3, 
+            4047.9, 
+            145
+        ], 
+        "the details on between the different ways. But these types of models identify patterns in the input data and generate predictions is output as I mentioned. This is how facial recognition works and it's processing and is used often exploratory data analysis to determine if samples are different from other samples. So if you had a big data set and you expected everybody to be very similar you could use ": [
+            2284.9, 
+            2306.3, 
+            83
+        ], 
+        "the lecture. Are there any when you're trying to pick model there if your on unsupervised learning approach? Remember you're not telling the computer that these are different than he's you're allowing the computer to determine that. And here are all the features so your data are given its inputs and you don't provide a new labels. There are lots of different ways and we're not going to talk about ": [
+            2262.6, 
+            2284.9, 
+            82
+        ], 
+        "the observations in your data set unsupervised. You let the computer determine it More specifically there are two types of General approaches to supervised learning one is for categorical variables and one is for continuous variable. We talk about regression in the inference lecture that will show up here to you can build a regression model that shows the relationship for continuous variables and you can use to provide learning ": [
+            1690.3, 
+            1718.7, 
+            59
+        ], 
+        "the other food emojis. This is just a general simple example of how you can build a model to determine whether or not an emoji is cake later on if you were given the Emoji you see here to torment is it cake and if it's not it would be going to the knock a category and if it were and had features similar to what you saw in this ": [
+            2347.8, 
+            2367.1, 
+            86
+        ], 
+        "the people are saying and that everything is what they say it is. So here are a bunch of photos and this is an example of why you can't just take the photos that exist on Airbnb and use the labels that individuals gave to the days that to train your model. So this is an example of a data set that is messy because this is label the kitchen ": [
+            4005.3, 
+            4026.3, 
+            144
+        ], 
+        "the take home from her Kickstarter that they started which started with a fun idea but as she told you and she's told me that this was acted on all of her job interview with something that was different from what everybody else had done. So Friday was Barbara Potts, but I have taught you all that. You should use Bart Arts at some point in time. So what's the ": [
+            678.0, 
+            699.0, 
+            22
+        ], 
+        "then put the model determine the pattern in the data and it generates predictions? Edible example could take a bunch of emojis and you can answer the question is it cake and you would use your model the computer would in an unsupervised way to determine patterns in the input data and maybe put what category 2 would have the emojis that are cake and category one would have all ": [
+            2325.9, 
+            2347.8, 
+            85
+        ], 
+        "they can see the same format no matter which place they're looking at it also allows for efficient listing validation without having a machine learning approach to this an individual would have to go and say this person said they have a three-bedroom apartment do they actually have a three-bedroom apartment based on the photos they submitted so it allows that into it ensures that the listings of bye-bye what ": [
+            3984.5, 
+            4005.3, 
+            143
+        ], 
+        "they kind of look like in the cartoons when I don't know what character does that accept off of dynamite Moon Tunes cartoons, you should use Points and a boxplot to this lady say that okay, if you were using a barfly for quantitative data, you probably should not if you are using a bar plot for categorical data that is okay set the difference between what page said don't ": [
+            779.7, 
+            809.6, 
+            26
+        ], 
+        "this General framework throughout today's lecture. You start with data you train a model and then you predict something. And I've said a few times when she learning approaches are what we used to do this type of analysis. I'm going to have you all read through these on your own child each other. And which of these questions is most appropriate for machine learning. Can I be a few ": [
+            1014.7, 
+            1097.9, 
+            36
+        ], 
+        "this we often you something called a decision tree. So the decision tree you start with your training gate at the top and then you make a bunch of decisions based on the features in your data set. So we're trying to predict someone's education level. You might be able to start sending them into categories by separating out individuals who have a salary less than 40K and anybody was ": [
+            2152.6, 
+            2173.2, 
+            77
+        ], 
+        "to 85% of you said that if you were using a supervisor approach to machine learning you would use specific features related to the prediction task who wants to explain to me how they came to that conclusion. Why isn't it Dee whatever computer determines is best for prediction? Yeah. Author writes writes what you were doing? So I classified you're doing supervised learning. So this would only be the ": [
+            1892.2, 
+            1927.2, 
+            66
+        ], 
+        "to determine who's resume. They should look at more closely. They wanted the first reading just to be done by a machine learning approach. They generated this AI recruiting tool but due to the fact that Amazon has hired more male historically there a recruiting tool despite the fact that it didn't take mail in as a feature said that it should hire more males despite candidates having the same. ": [
+            3336.5, 
+            3357.6, 
+            119
+        ], 
+        "to do regression. You do supervised learning for continuous variables. The most common approach is regression. When you're doing supervised learning for categorical variables, if you're trying to determine which observations are fall into which groups are trying to determine what is difference between these two circles and these purple plus size. This is a classification problem. If you're trying to save these observations are group a and these other ": [
+            1718.7, 
+            1743.7, 
+            60
+        ], 
+        "to do with it. You can't just build predictive models on unrelated data you and said would use information about previous elections or voting district demographics or information about the voters in cells would it have to be somewhat related or you will have a model that is worthless and does not predict anything so we can talk about feature selection. We're talking about which information from our data set ": [
+            1561.8, 
+            1583.1, 
+            54
+        ], 
+        "to go in determine what features to look at in the images. So what pixels to look at what colors to be looking at and how to what features of the image to train the model on so often when you're using images it's going to be an unsupervised approach to allow the computer figure out what features Also, this has been done in lots of different ways. So I ": [
+            2846.7, 
+            2868.6, 
+            102
+        ], 
+        "to predict their age based on the model same idea here, you told me somebody salary their manually refresh in their children, I could predict maybe not accurately but I can predict what their education level would be based on this decision tree. This is a basic decision tree. I'm just in trees can get lots more complicated than it will come back to an example of this later in ": [
+            2242.4, 
+            2262.6, 
+            81
+        ], 
+        "to stay recurring donors and matter what you do and it's determining what features are driving is classification determine how your company would act going forward. Okay. So, how did your other you were planning to use a supervisor approach to machine learning? What data would you use as the input to your model? Can I get a few more seconds or sponsor payment quickly? 3 2 1 all right ": [
+            1836.0, 
+            1892.2, 
+            65
+        ], 
+        "to this point? I'm going to go to this first example rather quickly. And then I do here is we want to predict weather at home. Give me the features is in San Francisco, California or New York. So when asked what type of machine learning task is predicting whether a home is in San Francisco, California or New York City. If I read a few more seconds. 3 2 ": [
+            3406.8, 
+            3462.7, 
+            122
+        ], 
+        "trained on. This is a general question just that I have and it is if you've ever learned a dumb machine learning before what do you call the day decided to use for model training one for feature selection and one for quantifying performance this let me know how many people here are familiar with machine learning and answer the question. I have so take a second to read this ": [
+            1286.7, 
+            1305.8, 
+            44
+        ], 
+        "tree and answer is yes, and there are lots of different types of trees and different approaches to how to fit a single tree and whether or not we want to get multiple trees and then take the best tree among them there. Lots of these like tuning parameters what we call them to change exactly how you fit it. But yeah, the answer is simple answers yet another person. ": [
+            3869.6, 
+            3888.0, 
+            139
+        ], 
+        "two variables should be a best fit line and this line can be described by a mathematical equation and the relationship between these two variables can be described by this line. And that line is are predictive model space here is that you used this training dataset and the relationship between the observations to then generate V model, you know, how the model so you don't need the underlying data ": [
+            2078.9, 
+            2108.3, 
+            74
+        ], 
+        "use it for quantitative data. And then what I said, do you use it for categorical? Okay with that where to send the rest of the time talking about machine learning today. If you are new to machine learning and are not sure what that word means. There's going to be a lot of new words a lot of New Concept. I'll give you all time to chat with each ": [
+            809.6, 
+            828.0, 
+            27
+        ], 
+        "want to chat with each other based on what you know from these cities what might give us a clue as to if I told you about a house, what would the thing with the house is a child each other and then I'll ask for your feedback. New York New York is New York City All right who has a thought as to what they would use if they ": [
+            3490.1, 
+            3546.6, 
+            124
+        ], 
+        "want to make a point is cuz I haven't yet is that when you're doing regression, you're not limited to one variable for your predictor variable and then one as your outcome, you can have multiple predictors. So in this case the simplest approach would be supervised regression, but there is a possibility of using Enterprise dimensionality reduction any other thoughts on that. So wouldn't be supervised classification because our ": [
+            2709.9, 
+            2734.3, 
+            98
+        ], 
+        "wanted to build this model what might distinguish the house is and is to Market. every isosceles cast our brains are getting tired. I know. Think about what you discussed hopefully at some ideas and we'll see what was used to do this. Sadie is you can use your intuition sometimes determine what dating app should use for classification test. So if you're familiar with San Francisco and with New ": [
+            3546.6, 
+            3578.0, 
+            125
+        ], 
+        "was generally ruled out by the class, but now we're between b c and d which makes sense to this is a somewhat vague prompt, They're thinking behind their choice. Fair point of water. So it's energy stand when you're working with images. It's often and unsupervised approach because you often what the computer to figure out what features in that image to determine so that's why I would easily ": [
+            2793.3, 
+            2826.3, 
+            100
+        ], 
+        "we have now information about one's early childhood and we're going to predict their success in elementary school. So what can we use the data we have now to predict their success later on. I'm the last one to tell the Sesame Street cause an increase in educational attainment. So this is that caused all type of question where you have to set up an experiment that actually guess at ": [
+            1225.2, 
+            1242.6, 
+            41
+        ], 
+        "well at all. There's one measure of model assessment that can be used for both categorical and continuous. Although it's more helpful for categorical. So did I guess this person right? Yes or no and divided by the total number of samples predicted. So any age example, somebody was 49 for 6:50 would be counted the same way as somebody who was 49. I predicted to be 2 years old ": [
+            2973.6, 
+            2998.2, 
+            108
+        ], 
+        "what the cause is everything else here just establishes a relationship. So they do you hear somebody asking questions using data. We have to build a model 2 answer predict something in the future. There are four basic steps. And this is what we're going to walk through in the first part of the lecture and then we're to go through three examples wouldn't talk about data partitioning what feature ": [
+            1242.6, 
+            1267.0, 
+            42
+        ], 
+        "what's notice to see a determined based on the features in the date of whether or not the people are very similar and if there are any that are much more different than the rest of them, you might have to look into why they are different. So that's an example of how you could use this during exploratory data analysis. So how's the writing you give the features and ": [
+            2306.3, 
+            2325.9, 
+            84
+        ], 
+        "when you use lots of features, you can get your accuracy up to 96% And if you take it even further at the end here all of these circles are either green or blue and our model is 100% accurate. Around you you're going to see your training days that you have that held out testing data set that I need to take all of the houses that are in ": [
+            3750.6, 
+            3772.8, 
+            134
+        ], 
+        "with things. I have worked in the past. See if your predictions are correct based on the simple model and only go more complex. If you need to do you want the biggest data sets that are the cleanest for you big data sets are no good. If they have lots of missing information or information features that are not helpful for the biggest state. Is that possible 4 prediction ": [
+            1991.0, 
+            2009.1, 
+            70
+        ], 
+        "would get some label based on the classification you're trying to generate so there are branches in the street and then their leaves at the end with the label you're trying to classify into so this is a decision tree and It works is that later on was the street is Bill. If you give me a new individual I commence a okay o their salaries more than 40K. They ": [
+            2193.5, 
+            2213.9, 
+            79
+        ], 
+        "would love to know based on the fact that we had a pretty even split here where people are getting treated validate and where they're getting trained validate test. So if you want to tell me or background later, I'm definitely interested in knowing in this court class. We are going to go with train test validate. That is what I hear more often. And the data science community. So ": [
+            1385.0, 
+            1405.1, 
+            47
+        ], 
+        "wrote a blogpost about how they did this and accept the idea here is twofold why you would want to categorize photos that are put up on Airbnb. Is that a mix of home tour easier? Not everybody upload the same photos are in the same order. Do you want to determine what photos I have and then put them in the same order. So when people go to Airbnb ": [
+            3966.1, 
+            3984.5, 
+            142
+        ], 
+        "x 2 and you plot then you can visually see that these four or more similar to one another and that these four more similar to one another and these two groups are different from one another if you're allowing the computer to determine how to classify the data based on the properties within the data set that is unsupervised learning you tell the computer with the labels are for ": [
+            1669.3, 
+            1690.3, 
+            58
+        ], 
+        "you can maybe use some cut off to determine whether a house is in San Francisco or New York because you picked a cut off here something you would all be classified as New York, and this would incorrectly be classified as San Fran. But you can use more than one feature. So you don't just have to use elevation. We also might know that there is a difference in ": [
+            3597.9, 
+            3620.5, 
+            127
+        ], 
+        "you can spend a few hours learning the basis of the basics of SQL on a weekend. So nothing's equals easy different people have different skill-set. If you are good at python learning SQL is not a very difficult with something that you can do online tutorials and get a handle on how to work with relational databases. She talked about the fact that she uses a number of analytical ": [
+            454.9, 
+            476.7, 
+            14
+        ], 
+        "you give the computer that information and tell it what differentiates between the groups in your data set. Alternatively, if you don't tell the computer that these are different than these it's up to the computer determined based on the data in a dataset what features of the day does that separate out the group's so if you have two variables and you plot then variable x 1 a variable ": [
+            1644.0, 
+            1669.3, 
+            57
+        ], 
+        "your testing date of that and send them down the tree so we know that in our training data, all of the San Fran house has ended up with the San Fran and Ollie New York with a New York and your text and data sent as you send them down the tree you start classifying and you see that yes, I'm over here. Most of them are green. But ": [
+            3772.8, 
+            3789.8, 
+            135
+        ]
+    }, 
+    "File Name": "Introduction_to_Data_Science___A00___Ellis__Shannon_Elizabeth___Winter_2019-lecture_15.flac", 
+    "Full Transcript": "I didn't know that all right.  Hello everyone. We're going to get started as people settle down.  So as per usual starting.  With the fact that you have a reading quiz, your final reading quiz is due this Friday and your fourth assignment which includes your proposal for how you how you would analyze your project is due next Friday. This is General notes here at the bottom your third assignment. Nope, second assignment grade. So that doesn't type o r and r on try and Ed and the third workbook if you want more practice in Python that is being used in section is available on train Ed and the first exam is also now viewable on TriNet.  So today we're going to be talking about machine learning to get to that because they're going to be lots of New Concept the new vocabulary a new ideas I'm there going to be a lot of time for y'all to discuss and ask questions to each other at questions to me think through things. So we are going to Jump Right In by first reviewing the guest lecture from last week. I think paid piccininni guest lecture was really really helpful. She gave you an idea of what a data scientist does the types of questions. She answers and the types of skills. She has and the types of on technology. She uses so my task for you all to get your brain working to start thinking about this is too in a minute talk to each other about the three questions that page act and let me know what the answer was and how she came to that answer. So tell each other about all three of these questions and I will then ask y'all what she did and what the answers work.  All right who remembers how page answer the question how much is a reoccurring donor Worth or what? The answer was to that question?  So it been ever since there was more than one time donor and the thought was maybe something on the order fifty bucks. Anybody else have a different recollection. Okay.  430 but the answer's still told that it was more than a one-time donor. That is absolutely correct. So together we got to about right and it was somewhere in the 400 and then a one-time donor was worth $25. So you got a lot more from the typical recurring donor. And does anybody remember how she answered that question what type of analysis she used this isn't super important.  Okay, so she is survival analysis. It was that curve that you showed going down over time and it showed that overtime people drop out from being recurring donors and you can get some idea of what the typical trend is with a typical donor on Gibbs. So this was something that she could end communicate to the nonprofits that her company classy works with to determine how they should approach and the fact that it is worth it to approach trying to get more donors who remembers the way that the second question was answered or what the answer was to how can we get more people to become recurring donors?  Okay, so there was some incentive element that we don't remember exactly what that was a big hit. So that is the answer to how one of their companies. People to be more recurring donor. So they offered the incentive of a blanket. I think people should use and that one company by offering a blanket got a lot more people to sign up to being returned on her. So that's absolutely true. But they did something at Classy at the company where she works to determine how you got more people to become recurring donors.  Yesterday change the format of the page and if you remember they had those radio buttons on a one version the monthly button was quite small and on another button the monthly button was much bigger and at the top and I think in a different color, they remember what that experiment process was called.  Okay, so that was an example of a b testing they had example a where they had the small buttons an example where they moved into the top and they said an example of a or is it an example of which one increases our has more people become recurring donors and they found that when the button was bigger and higher they got more people to sign up being as recurring donors. I'm so that was something that she could take back to her bosses and say hey we should tell this to all of our nonprofit station use format be with a much bigger. But rather than a based on this experiment what rear an SAT testing question can we predict which are most likely occurring or switch to become recurring remember what was talked about their?  So this is what she talked about the least because she's still in the middle of doing this. So I'm going to talk about this a little in today's lecture. But this is where you would use machine-learning to answer this question. So she gave us a nice primer for the top deck we're going to be talking about today. I just wanted to recapture that she talked a lot about the data science skills that she uses as a data scientist and she talked about the fact that she's a spiteful are pythons at the thing that she uses. All the time is SQL or SQL. Remember a relational database lecture we talked about doing all these joints and getting the day to you want that is where you would use the the reason we don't cover in this course is because once you know Python and understand it you can spend a few hours learning the basis of the basics of SQL on a weekend. So nothing's equals easy different people have different skill-set. If you are good at python learning SQL is not a very difficult with something that you can do online tutorials and get a handle on how to work with relational databases.  She talked about the fact that she uses a number of analytical skills. You need to know how to set up an experimental design when you design that a b testing and put the radio buttons in different places. You have to make sure you set up an experiment that can answer the question you want to answer key statistics through out so she talked about survival analysis as one and machine learning for predictive analysis as another analytical skill chose to highlight the fact that she has to communicate as a data scientist with lots of different groups. Right? So in the how much is a donor worth they wrote a blogpost so that all of the nonprofit they work with so a general audience who doesn't necessarily have data science skills are are necessarily people that think about that all the time could understand the point of trying and the importance of recurrent owners.  Just have to communicate with stakeholders throughout the company after they did that a b tests and determined that was the one format was much more effective. I getting recurring donors. I'm she shared that with the high rocks at her company and has to get them to buy into her idea do to be able to communicate urinalysis and show that it was truly effective before anybody goes to make a change the Natural State and a company is to continue to do things the way they've been done and it's much harder to get people to change the way they're doing something cuz it takes effort. So make sure that if you have an analysis that explains why I should change it that you're communicating effectively and less on with the fact that the talk to talk to Marketing sales account manager data scientist or analytical people to get the data and to talk with him about how and what features they would need in order to predict which donors are most likely to stay recurrent or switch to become recurring which is something that marketing and sales cares about a lot  Okay, any questions on the three questions that you talked about with regards to recurring donors the one big topic? She spent a lot of time on.  Okay, who remembers what the take-home message was of her Kickstarter and they like fun examples of that. She said she included on her resume when applying for jobs and she use this hashtag for barplot. Maybe remember what the take-home was from that.  Every other a second to chat with each other refresh your memories about what was discussed there.  What was Barbara plot?  All right, who remembers what this? Was there any part of what barbar Platz was?  Okay. So this the point of this is to get rid of some type of data representation that was subpar or not as good as another type of visualization and sew in farming like to get rid of so get rid of dark spots was the take home from her Kickstarter that they started which started with a fun idea but as she told you and she's told me that this was acted on all of her job interview with something that was different from what everybody else had done. So Friday was Barbara Potts, but I have taught you all that. You should use Bart Arts at some point in time. So what's the difference between what she saying to ban and what I told you all is a good idea to use through remembers when you should use a bar plot  This is that from the data visualization the first lecture.  Okay, so if there's categories if you a categorical data, I'm you can see how many and what the most frequent at least frequent are when you're looking at the counts of a categorical variable. So what type of variable I'm with page talking about here.  So here looking at quantitative data, so she's saying not to use a bar flat when you're trying to summarize quantitative data, if you're trying to summarize quantitative data, it's best to look at Fox Plus or histograms of some sort. This was tweeted up again. Just this past weekend by Rafael Irizarry. He is a famous biostatistician at Harvard biostats. If you heard anything about the death count in Puerto Rico in the aftermath of the hurricane, he was a statistician. I'm gathering those data and working with the Puerto Rican government to make sure that those counts were collected. So he said that we should Dynamite pot must die so far apart when you're looking at quantitative data are often called Dynamite plus cuz they kind of look like in the cartoons when I don't know what character does that accept off of dynamite Moon Tunes cartoons, you should use  Points and a boxplot to this lady say that okay, if you were using a barfly for quantitative data, you probably should not if you are using a bar plot for categorical data that is okay set the difference between what page said don't use it for quantitative data. And then what I said, do you use it for categorical?  Okay with that where to send the rest of the time talking about machine learning today. If you are new to machine learning and are not sure what that word means. There's going to be a lot of new words a lot of New Concept. I'll give you all time to chat with each other and answer questions to make sure you're getting it as we're going throughout any questions before I get in the machine learning about the announcements or Pages staff lecture.  Okay. So my goal today is for you all to be able to identify a question that can be answered using machine learning and to specify the appropriate General machine learning approach given a dataset and a question.  IR turn into what we've been doing so far. We talked about descriptive and exploratory analysis. We said that if you are not trying to determine causality, you may be trying to predict measurement for individuals last class we talked about in France when you are not trying to do prediction and today we're talking about predictive analysis, which is when you use machine learning  So in predictive analysis, you apply machine learning techniques to data you have currently to generate a model that will be able to make a prediction on future data. So you're using data you currently have in hand or historical data data from the past two, then build a model and remember model is a mathematical equation that best explains the date of that you are using and you're going to use that model to make predictions in the future. So we're talking about predictive analyses were talking about machine learning techniques to work with a do you have now build a model and predict for something else in the future?  Set example of this which happens all the time in the real world for banks and credit card companies is if you want to use the data you have now to determine whether a future transaction might be fraudulent. So can we use the data science question, is the time of the charge the location of the charge and the price of the charge to predict whether or not it's fraudulent. So when we're talking about the data we're using to answer the question fees in machine learning had to be called features. We talked about variables before features and variables are synonymous button prediction and machine learning. They're often called features. So the features of this model would be time on the charge location of the charge and price of the charge and the goal would be to determine whether or not that charge is fraudulent. So this is a predictive analysis where you would use machine learning.  There are a number of definitions out there about what machine learning is. This one you can read on your own time is kind of lengthy, but from the next ruler whose on in Academia now is machine learning is the science of getting computers to act without being explicitly programmed. So can we give data to a computer? Tell it what we want to do and figure out the best approach the very largely that is what we're going to be talking about today.  And is a method of analysis that automates analytical model building.  So it's both getting the computer to do what we want and teaching it how to build those model.  We're going to leave. This is the highest overview of how to think about model predictive analyses. You start with data you train a model and then you use that model to make predictions about something. So we're going to be using this General framework throughout today's lecture. You start with data you train a model and then you predict something.  And I've said a few times when she learning approaches are what we used to do this type of analysis.  I'm going to have you all read through these on your own child each other. And which of these questions is most appropriate for machine learning.  Can I be a few more seconds?  2  what is the 67% of you said that it is D. Can we use information about one's Early Childhood to predict their success in elementary school, but we have other ones. They tell me how they came to answer D the correct answer or how they ruled out the other ones.  What type of analysis is question a how common is watching Sesame Street in the US?  Ida so far we talk about descriptive analysis exploratory data analysis inference and machine learning today.  Every thought is what type of question how common is watching Sesame Street in the US?  Inferential wouldn't be inferential because an inference you're going to be drawing relationships between two things. So I'm going to take this one would just be a descriptive analysis. You're really just calculating one number and not relating it to anything else. But I think that was a a good guess. What is the effect of watching Sesame Street on children's brains?  What type of analysis would that be?  Exploratory. Okay. So what would you look for if you're doing exploratory analysis are?  What is it going to look through at the relationship between how much somebody watches Sesame Street and how smart know how well they did on a test and then look at the relationship between that so you would start looking at that in an exploratory analysis. And then the next one. What is the relationship between early childhood education programming and success in elementary school that is a more specific type of inferential question. So busy or both some sort of exploratory and inferential question D here were predicting we're going to use data we have now information about one's early childhood and we're going to predict their success in elementary school. So what can we use the data we have now to predict their success later on. I'm the last one to tell the Sesame Street cause an increase in educational attainment. So this is that caused all type of question where you have to set up an experiment that actually guess at what the cause is everything else here just establishes a relationship.  So they do you hear somebody asking questions using data. We have to build a model 2 answer predict something in the future. There are four basic steps. And this is what we're going to walk through in the first part of the lecture and then we're to go through three examples wouldn't talk about data partitioning what feature selection is what model selection is and then how you assess the models you generate?  So we're talking about data partitioning we're talking about the date is that you have splitting it so that you use some of the data to train your model and then some of it to do test out once you built the model to see if it works on data that the model was not trained on.  This is a general question just that I have and it is if you've ever learned a dumb machine learning before what do you call the day decided to use for model training one for feature selection and one for quantifying performance this let me know how many people here are familiar with machine learning and answer the question. I have so take a second to read this over.  Can I be a few more seconds?  3 2  1  okay. So if you want you to machine learning you are in the majority 58% of you are new to machine learning and then B&C or what I was getting at. We have 33 Volts for Abby and 26 Volts for see so this is something that still puzzles me and I don't know the answer. So if you have thoughts on this, I would definitely want to know but there is a Twitter poll that was actually result of a presentation my former boss gave and so Michael Hoffman, he is an assistant professor up in Canada and he asked the same question and you can see that there's a pretty even split between those that said they called train testout it and train validate text. So I would love to know based on the fact that we had a pretty even split here where people are getting treated validate and where they're getting trained validate test. So if you want to tell me or background later, I'm definitely interested in knowing in this court class. We are going to go with train test validate. That is what I hear more often.  And the data science community. So I would love to know where the confusion happened that was mostly for my interest and to let you all know if you are unfamiliar with me and you are not alone. So we have when we're talking about is you have this dataset that you're going to use to build your predictive model. It has observations. It has features you are then going to take some 4% of it and use this to build your model. So you're going to let the model see all of this data for you're going to hold the tests that back. So the check that are from the original date at that were held out. I'm not using train the model and these are helpful and fine-tuning the prediction accuracy validation data, as you can tell from this looking slightly different are they decide to separate to the one you started with and it is going to determine whether or not your predictive model Works in a completely different data that was collected separately from the debut started with  I got three train beta testing data use both come from the original data set and validation date at which is a separate data set to determine if your model is generalizable.  I hope so to check understanding of what we just talked about what portion the data are used for generating the model.  Will make us a quick one.  Give every few more seconds.  3 2 1  okay, so by and large we are on the same page that you use the training data to generate the model or to train the model.  Alright, so we're taking retired at that were using some of it the training set to build a model for the testing set to determine how accurate are model is within the same data set and a validation set is a separate datasat to determine if your model is generalizable.  So we have an idea of what data partitioning is. Now, we're going to talk about what feature selection is and I by mention that we were talking about machine learning feature tend to be the variables in your data set. So what day did you have and which of them are you going to use in your model?  I'm the one point I want to make is that the you can't just predict anything from data that are unrelated. So if you want to determine the outcome of us elections, you wouldn't use data about elephant height has nothing to do with it. You can't just build predictive models on unrelated data you and said would use information about previous elections or voting district demographics or information about the voters in cells would it have to be somewhat related or you will have a model that is worthless and does not predict anything so we can talk about feature selection. We're talking about which information from our data set are going to answer the predictive question. We're answering  So get your selection determines which variables are most productive and you include those in the model.  I want to point out here. We've talked before about the fact that just because there's a relationship between variables doesn't mean that one causes the other summertime up feature selection predictive modeling were exploiting the relationships, but it doesn't mean that the variables are the features were using cause the election outcome. They just have some relationship that we're going to exploit.  Okay, so we're talking I'll feature selection. Now the time we have to differentiate between supervised learning and unsupervised learning.  So in supervised learning we tell the computer how to classify the observations. We tell the computer that these four observations are blue circles and that these four are red X you give the computer that information and tell it what differentiates between the groups in your data set.  Alternatively, if you don't tell the computer that these are different than these it's up to the computer determined based on the data in a dataset what features of the day does that separate out the group's so if you have two variables and you plot then variable x 1 a variable x 2 and you plot then you can visually see that these four or more similar to one another and that these four more similar to one another and these two groups are different from one another if you're allowing the computer to determine how to classify the data based on the properties within the data set that is unsupervised learning you tell the computer with the labels are for the observations in your data set unsupervised. You let the computer determine it  More specifically there are two types of General approaches to supervised learning one is for categorical variables and one is for continuous variable. We talk about regression in the inference lecture that will show up here to you can build a regression model that shows the relationship for continuous variables and you can use to provide learning to do regression. You do supervised learning for continuous variables. The most common approach is regression.  When you're doing supervised learning for categorical variables, if you're trying to determine which observations are fall into which groups are trying to determine what is difference between these two circles and these purple plus size. This is a classification problem. If you're trying to save these observations are group a and these other ones are goofy. You're doing a classification when you were in the supervised learning setting.  Over here any unsupervised learning. This is what Facebook uses when you get a pictures to determine what that your face is the one in the picture. So when you're doing unsupervised learning you often you get it data as the input and then the computer determines what's most similar among the input and then classify them into groups. So this example these three up here or all ducks. So you're classifier the computer with him and they all have similar feet or similar bills. They have similar ears. Where is this bunny and this mouth have different features different feet different ears different noses, and it would classify these into three groups based on the features within the input data.  Here when you turn on supervised learning you're doing a clustering or dimensionality reduction, generally.  And it uses the what we call structure within the data to the features that are within the data set to automatically identify the groups.  So I told you I would mention Pages third question when she was looking at how to determine whether or not somebody would become a recurring donor. She said that she could do it in a supervised way and what she look at survival analysis. So she determined which features she wanted to look at or she could just put all the data in and then determine is there one group that will never become a recurring donor one that has the potential to become recurring donors. And that's where marketing should focus its efforts. And then one that already are and are going to stay recurring donors and matter what you do and it's determining what features are driving is classification determine how your company would act going forward.  Okay. So, how did your other you were planning to use a supervisor approach to machine learning? What data would you use as the input to your model?  Can I get a few more seconds or sponsor payment quickly?  3 2 1  all right to 85% of you said that if you were using a supervisor approach to machine learning you would use specific features related to the prediction task who wants to explain to me how they came to that conclusion.  Why isn't it Dee whatever computer determines is best for prediction?  Yeah.  Author writes writes what you were doing? So I classified you're doing supervised learning. So this would only be the answer if you were using an unsupervised approach. I'm when you're doing a supervisor ProCharger new specific features, and they have to be related to the prediction test. This is the example of elephant height not predicting election results on you have to use data and you're not going to in a supervisor approach. Just give the computer all the data.  Okay. So at this point we talked about data partitioning you have this big data that you were going to split it. So you can train the date on part of it and you're going to use the other part to test your model you then select what features you either in a supervised an approach select the features order unsupervised approach the computer determines the features. So now we're going to talk about model selection.  A general tenant in this approach. Is that the best data or big data set that are clean date of that. So whenever you have the information you want and you have it across all of your observations and the best models are simple model. So the best approach when you are trying to do machine learning is not necessarily to go out and find the fanciest new model starts and pull start with things. I have worked in the past. See if your predictions are correct based on the simple model and only go more complex. If you need to do you want the biggest data sets that are the cleanest for you big data sets are no good. If they have lots of missing information or information features that are not helpful for the biggest state. Is that possible 4 prediction and you want the simplest model possible start there if using something simple works, you don't have to go any more complex.  I suppose you're going to talk about model shooting models in a supervised learning space.  The two general approaches here are regression and classification. I talked about this before but if you are predicting categorical variables such as one's education level, did they graduate high school? Do they have a bachelor's to have an advanced degree tear is a case for classification vs. Regression would be use for predicting continuous variable.  We're to talk about regression first as this is the concept we've talked about already in the in French last lecture and wouldn't have these up here. They're mostly here for you to look at when you're studying but they're supposed to die as you so will honestly I just thought I'd be talking about supervised learning regression talking about age and then continuous variable is the type of variable. We are predicting.  So this is something I've shown you all before this is a scatter plot between an independent variable and a dependent variable where each point is a different person in the dataset and we can see that there is time linear relationship between these two variables should be a best fit line and this line can be described by a mathematical equation and the relationship between these two variables can be described by this line. And that line is are predictive model space here is that you used this training dataset and the relationship between the observations to then generate V model, you know, how the model so you don't need the underlying data cuz this is what you're going to venues in the future later. When I give you somebody's height you're able to go up to the line and predict that person's age. So this is a general idea behind using regression 4 prediction of quantitative variable. So you use this model and in the future if I tell you someone's height you just go to this model and say a joke.  I know their height what were their age most likely be?  Retrogression and supervised learning uni the features. We told the model features. We generated a model which was a mathematical equation that describes the underlying data and then we were able to use that model to make a prediction about a continuous variable.  On the other hand classification is what we use for predicting categorical variables and to do this we often you something called a decision tree. So the decision tree you start with your training gate at the top and then you make a bunch of decisions based on the features in your data set. So we're trying to predict someone's education level. You might be able to start sending them into categories by separating out individuals who have a salary less than 40K and anybody was a salary less than 40K would go down this edge of the tree anybody who made more than 40K would be over here and you continue to break down the street whether or not they had a manual laborer profession might be a feature that would help separate out individuals more people would start grouping into each of these you would determine if they have children of the end. They would get some label based on the classification you're trying to generate so there are branches in the street and then their leaves at the end with the label you're trying to classify into so this is a decision tree and  It works is that later on was the street is Bill. If you give me a new individual I commence a okay o their salaries more than 40K. They are in a manual labor profession. They do have children. This indicates that they have a high school-level education always be perfect that people that this is a simplified treat for this is the tree that would generally get you the best classification.  Any decision trees are helpful for classification.  3 supervised learning we had the prediction of Ages in linear regression later the future. If you gave me something to predict their age based on the model same idea here, you told me somebody salary their manually refresh in their children, I could predict maybe not accurately but I can predict what their education level would be based on this decision tree. This is a basic decision tree. I'm just in trees can get lots more complicated than it will come back to an example of this later in the lecture.  Are there any when you're trying to pick model there if your on unsupervised learning approach? Remember you're not telling the computer that these are different than he's you're allowing the computer to determine that.  And here are all the features so your data are given its inputs and you don't provide a new labels. There are lots of different ways and we're not going to talk about the details on between the different ways. But these types of models identify patterns in the input data and generate predictions is output as I mentioned. This is how facial recognition works and it's processing and is used often exploratory data analysis to determine if samples are different from other samples. So if you had a big data set and you expected everybody to be very similar you could use what's notice to see a determined based on the features in the date of whether or not the people are very similar and if there are any that are much more different than the rest of them, you might have to look into why they are different. So that's an example of how you could use this during exploratory data analysis.  So how's the writing you give the features and then put the model determine the pattern in the data and it generates predictions?  Edible example could take a bunch of emojis and you can answer the question is it cake and you would use your model the computer would in an unsupervised way to determine patterns in the input data and maybe put what category 2 would have the emojis that are cake and category one would have all the other food emojis. This is just a general simple example of how you can build a model to determine whether or not an emoji is cake later on if you were given the Emoji you see here to torment is it cake and if it's not it would be going to the knock a category and if it were and had features similar to what you saw in this category, it would be given the classification cake would follow following would be going on in the unsupervised approach.  What's generally has to do with and is modeled after what happens in biology. So in all of your brains, you have neurons and interneurons take lots of input process was going on when the input and then sends an output down the axon to the next neuron take lots of input sends a single output. That's the idea of what's going on in unsupervised learning. There are lots of inputs your model determines what the output should be. So when we talkin about neural Nets it's a mathematical abstraction that was inspired by what's going on in all of our brains and you were out put it either on or off based on the sum of all of the inputs. You give it to its supervised learning idea based on actual biology that you get signals and you then determine outputs from your neuron.  The song I won't be the last time you see something like this. This is a machine-learning talks all the time and it is mostly unhelpful the way you should all take from this when you see it is that there are lots of input things happen in the model and then you get things out cuz that's what this conveys people try to use it to explain in a clear way what's going on in neural Nets and it doesn't do a good job aside from telling you things come in and put and you get outputs and stuff in the middle is complicated. So I know that math is happening here, but inputs come in I'll put go out the ideas at this is based off of what happened in so I said, this is you know, this is it then explain what's happening here, but they did is imagism put an out you get what type of card is unknown that in this example where you take an image of a car and we break down based on what you see with in different parts of damage and the model has been built to determine that this image is an Audi A7.  Sample of a while back earlier in the last summer. They took Google images and they were able to correlate what cars were in different neighborhoods with political affiliations. And the way they did that was by generating a neural net net is you put in put in you build complicated model and you get out a label.  So just to review when you're protecting a continuous variable regression is the simplest and most common approach in the supervised learning category.  What are you doing classification decision trees can be helpful.  If you were doing unsupervised learning the computer is using mathematical representations to take and put all these emojis and classify them into different categories. We haven't talked to Tom about dimensionality reduction when I come with you, but I want you know, that that falls in the unsupervised learning category.  Any questions up to this point?  Okay, so I want you to predict someone's shoe size. I want you to propose how you would approach this using machine learning.  Every child each other convince each other of your guests.  Give everybody a few more seconds.  3 2 1  activate 65% of class saying a few people saying be and then some people think C or D. So who wants to defend their answer how they came to their conclusion?  Yes.  Okay. Thanks shoe size in your example record lady with how you can use regression to look at the relationship between those variable. So the outcome variable here the thing we're trying to predict as you mentioned is quantitative. So you could use regression in that case. So your answer was assuming a supervisor Goshen.  To figure out what those secrets she said hi, but like you can generate it's not just my phone checker.  Does more apps?  Okay. So the argument front is that you could use unsupervised dimensionality reduction. The idea here is you can use lots and lots of different features so maybe incorporate so the first one was hypothetical parade gender or other features that may predict shoe size and I do with dimensionality reduction if you can take all of those and then summarize all of the features based on a few smaller. So we haven't talked about this in detail a bad idea. Then would be you would actually ultimately still in that case you supervised regression after you did that when I want to make a point is cuz I haven't yet is that when you're doing regression, you're not limited to one variable for your predictor variable and then one as your outcome, you can have multiple predictors. So in this case the simplest approach would be supervised regression, but there is a possibility of using Enterprise dimensionality reduction any other thoughts on that.  So wouldn't be supervised classification because our output is a quantitative variable. And for the same reason it wouldn't be a clustering over here.  All right, you want to predict someone's emotion based on an image? How would you approach this with machine learning?  chat with each other convince each other  Eric winding down like a very few more seconds.  3 2 1  All right. We have some dissension among the ranks on this one. So regression was generally ruled out by the class, but now we're between b c and d which makes sense to this is a somewhat vague prompt, They're thinking behind their choice.  Fair point of water. So it's energy stand when you're working with images. It's often and unsupervised approach because you often what the computer to figure out what features in that image to determine so that's why I would easily be unsupervised clustering. So you want to determine emotions you want a cluster into some emotion and you want to do a face in an unsupervised way. So you don't have to go in and tell the computer exactly what in the picture to look at so I'm going to say that that is the best response if you wanted to do some sort of supervisor fruit, you would have to go in determine what features to look at in the images. So what pixels to look at what colors to be looking at and how to what features of the image to train the model on so often when you're using images it's going to be an unsupervised approach to allow the computer figure out what features  Also, this has been done in lots of different ways. So I have one link here. If you want to check out more that people have gone into historical images and determine this is a neutral man. And this is an angry woman or this is a happy person. This person is surprised. This person is sad and this person is angry some people working on these songs, and these are unsupervised approaches ready inputs are images and the outputs are some classification.  So far, we talked about data partitioning splitting into training and testing set talk about feature selection whether or not it is supervised or unsupervised. We talked about a number a number of different models that you would select based on what type of question you're asking to talk about before getting it examples is how you assess your model.  The first one and this is for continuous variables is something called root mean squared error. So you predict someone's age is 50 and their actual age is 49. Then you would subtract the difference between those two so it'd be that one year. You would swear that difference you add that up across all the people in your data set and I'm going through as quickly which means I won't ask you to do this on an exam and then you divided by the total number of people in your data set and then you square that so because this is root mean square error, generally if your predictions are good, you will have a smaller error than if your predictions were bad if they were bad. These numbers would be far apart from each other and this number would be bigger. So General reminders when you are predicting you want smaller error.  The one thing is that a few outliers can lead to a big increase in a root mean squared error, even while the other predictors are pretty good. So if you get a huge root mean squared error at the end of your prediction is sometimes good to go in and say are a few samples shopping predicted accurately or is it just not predicting well at all.  There's one measure of model assessment that can be used for both categorical and continuous. Although it's more helpful for categorical. So did I guess this person right? Yes or no and divided by the total number of samples predicted. So any age example, somebody was 49 for 6:50 would be counted the same way as somebody who was 49. I predicted to be 2 years old so doesn't count taken aback how close you are to the actual value. It just says where you right a wrong divided by the total number of samples.  So we mentioned just now that accuracy will tell you what percentage of predicted correctly when you're talking about categorical variables. You can determine a little more specifically how well you did and why you did as well as surely as you did, so sensitivity specificity or two measures sensitivity says of those are we predicted correctly or saved to be positive what percent were actually positive so which was truly worried that value and there was always that were negative what percent were predicted to be negative. So these are just breakdowns of your accuracy. We'll talk about an example of this to get you a better idea of what this mean thing as variables. You could use root mean squared error or accuracy when you categorical variables, you would probably start by measuring accuracy and then you can get a clearer picture by looking at sensitivity and specificity.  Don't you been given a data set with a number of features and asked to predict each individual Aid what prediction approach would you use this? When should be quick review?  Feel free to chat with each other.  Scary a few more seconds.  3 2 1  Okay, so we see a downward pattern from left to right. I'm going to argue for the sake of his success this example that we are here going to do a supervisor approach. So now we're doing supervised here and we're predicting age were predicting something that is continuous. So here we would use regression and on an exam. I would specify that reduce supervise and not make you guess we're not doing classification because age is a continuous variable.  All right. So given that we're doing regression. How would you assess your model?  Feel free to chat with each other if you're stuck.  Give everybody a few more seconds.  3  2  1  I love it when you guys do what I expect you to do. So here you would probably calculating both are in a c and accuracy. You wouldn't want to know exactly how many did you guess right if you're predicting age of you said they were 73 and they were 73 that would make your accuracy increase food also want to know your root mean squared error. If you didn't get it all the way right? How close were you were you closer to the actual value then some random value? That's much smaller. Okay, so you wouldn't use sensitivity specificity or are you see, which I haven't even talked about area under the curve. These are all for categorical prediction.  Hey and then whatever value would you want from your model?  Assuming we're doing rmse.  3 2 1  well, I'm bored or most of us are onboard you want when you are using Pharmacy the smallest value for error if you want good for addictions you while you're ever to be small and if you said any of these amazing because my question wasn't as clear as it could have been so you want low or a messy when you're predicting age as a general reminder since we haven't talked about ethics of time in a while you're training. These date is on historical data to any biases that exist in your data are going to be perpetuated in the predictions you generate.  A new representative recently tweeted out something to the effect of the fact that algorithms which were driven by Matt are racist and lots of people in the machine learning World jumped in and a lot of people said, well math can't be racist is math. It's based on truth and the argument hear from somebody at Microsoft is that in fact the data matters more than a match because you've been dated your inputting to the math if there was a biased than the algorithms. In fact can be racist. This is what the reading you're doing for. Your fifth meeting is all about we talk about this example before is that Amazon set out in order to determine who's resume. They should look at more closely. They wanted the first reading just to be done by a machine learning approach. They generated this AI recruiting tool but due to the fact that Amazon has hired more male historically there a recruiting tool despite the fact that it didn't take mail in as a feature said that it should hire more males despite candidates having the same.  Background and credentials so they scratched his stool after generating it once they knew that's decided that evades weren't using male female as an input. They still had bias in the algorithm that they generated. So it is always your goal over to talk about this a bit more on Thursday. It's right by these check for them after you build your model and use your average to improve lives rather than for punitive purposes. This is something your reading will talk about your Vizio model update your algorithm. You are responsible for them all what you put out into the world reminder so far. We have talked about data partitioning feature selection supervised and unsupervised machine learning how to assess your model and the fact that buy estate accountant and will lead to buy a prediction.  Any questions up to this point?  I'm going to go to this first example rather quickly. And then I do here is we want to predict weather at home. Give me the features is in San Francisco, California or New York. So when asked what type of machine learning task is predicting whether a home is in San Francisco, California or New York City.  If I read a few more seconds.  3 2 1  Okay. So the two most popular answers were either be classification supervised or C classification unsupervised and I'm going to argue it could be either of those in this example. We are going to use a supervised classification techniques, but neither would be appropriate here.  Alright, so who was the proposed a feature that would distinguish a house in York from a house in San Francisco? So if you want to chat with each other based on what you know from these cities what might give us a clue as to if I told you about a house, what would the thing with the house is a child each other and then I'll ask for your feedback.  New York New York is New York City  All right who has a thought as to what they would use if they wanted to build this model what might distinguish the house is and is to Market.  every isosceles cast  our brains are getting tired. I know.  Think about what you discussed hopefully at some ideas and we'll see what was used to do this.  Sadie is you can use your intuition sometimes determine what dating app should use for classification test. So if you're familiar with San Francisco and with New York, you might know that San Francisco is incredibly hilly City. So you might start to look at elevation over here. We have all of the homes in San Francisco and here we have all of the homes in New York City and we can see that the house is at the highest elevation 10 to be in San Francisco or New York tend to have lower elevation houses. So you can maybe use some cut off to determine whether a house is in San Francisco or New York because you picked a cut off here something you would all be classified as New York, and this would incorrectly be classified as San Fran.  But you can use more than one feature. So you don't just have to use elevation. We also might know that there is a difference in price per square foot because we're both of them are incredibly expensive cities to live in New York 10 to have super tiny apartments that are very expensive. So if you start to look at price per square foot based on as it's related to Elevation, you can see lots of green dots appear more blue dots over here and some confusion down here says you start to build in multiple features. You can start to get a better idea as to what separates out. The house is in San Francisco versus the houses in New York.  They want the different teachers. So here they look at elevation year built number of bathrooms bedrooms price square feet and price per square feet in idea of which features will be helpful in your model.  And that is just using your intuition making a bunch of class. But you want to use machine learning using these in a machine learning approach would use a decision tree. So you want to find which boundary is most appropriate for separating out these houses from one another in a tree.  So it'd be highest home in New York is 73 M this little blue dot here.  But you need to find the best split point so which split Point somewhere in here gets most of the houses are in San Fran in San Fran and most better, New York in New York.  Super use the split point up here that's going to classify all of these to the right at San Francisco. So this will all be right but this is a mix of this is not all blue. So we're not we're only getting 63% Correct. If you move it all the way down to zero and classify everything all of the houses end up over here. So you're looking for some split point that balances the error on each side. So you get some blue over here and some green over here and building a decision tree is finding the best split point at each part of your tree and you do this for each of the features. You're going to include  And you continue to build your tree. So if your first one is elevation you then might split by price per square foot and each time. We can see the accuracy that most of these are blue and most of these are green and our accuracy at this point is 86% as we continue to use features and build our tree when you use lots of features, you can get your accuracy up to 96%  And if you take it even further at the end here all of these circles are either green or blue and our model is 100% accurate.  Around you you're going to see your training days that you have that held out testing data set that I need to take all of the houses that are in your testing date of that and send them down the tree so we know that in our training data, all of the San Fran house has ended up with the San Fran and Ollie New York with a New York and your text and data sent as you send them down the tree you start classifying and you see that yes, I'm over here. Most of them are green. But some New York homes to knocking it over here yet. Most number of flu, but some San Fran houses fell in and your accuracy and your test. That is 90%  This is a topic. We haven't talked about yet in today's lecture is that you can train a model that is 100% accurate, but that won't perform. Well when you give it new data, so there's some balance between how accurate you want your training dataset to be I'm so that you can make sure your test accuracy and a dataset not used to build. The model is higher there ways to do it over fitting that we're not going to discuss in this class for whatever you to be familiar with the topic of overfitting and if you see a hundred percent accuracy in your training day that you've likely over fit your model.  Alexis is a recap of what we talked about there.  The second example of talked about today is categorizing listing photos at Airbnb.  Which Russian?  Hey, I don't let's August and I know it going towards the end.  How many players?  Is a question. Can you train the model and specify which features and how to wait them in order to figure out the best tree and answer is yes, and there are lots of different types of trees and different approaches to how to fit a single tree and whether or not we want to get multiple trees and then take the best tree among them there. Lots of these like tuning parameters what we call them to change exactly how you fit it. But yeah, the answer is simple answers yet another person. That's a great question example is a true example from Airbnb and in this case would want to categorize listing photos at Airbnb the somebody wants to put their place up on Airbnb so that other people can run it out. How would you categorize the photos? They've submitted  scary few more seconds  3 2 1  What do we see that the two most popular answers again or if the classification ones and here I'd imagine that maybe more people put see because we're using photos and I said that when we use photos of off to be unsupervised, which is in fact the way Airbnb opted to use it. So we're going to talk about cross training in an unsupervised manner but B is also an option here.  Stop someone from it was a machine learning scientist at Airbnb wrote a blogpost about how they did this and accept the idea here is twofold why you would want to categorize photos that are put up on Airbnb. Is that a mix of home tour easier? Not everybody upload the same photos are in the same order. Do you want to determine what photos I have and then put them in the same order. So when people go to Airbnb they can see the same format no matter which place they're looking at it also allows for efficient listing validation without having a machine learning approach to this an individual would have to go and say this person said they have a three-bedroom apartment do they actually have a three-bedroom apartment based on the photos they submitted so it allows that into it ensures that the listings of bye-bye what the people are saying and that everything is what they say it is.  So here are a bunch of photos and this is an example of why you can't just take the photos that exist on Airbnb and use the labels that individuals gave to the days that to train your model. So this is an example of a data set that is messy because this is label the kitchen that's not a kitchen. This is labeled living room, but it's actually the hallways of the living room. This was labeled bathroom, but that's not a bad thing when you can see that just by using the label based on what humans and put into a computer is not always a good idea. So Airbnb decided to take labels from Airbnb and it's supplement insurance with a small number of photos where they were confident. So they hired people to correctly label photos and then use those as their training data to generate their model.  They used a unknown at that is already out there. So no unsupervised approach that takes the images as input and then determines the room that they're in as their output uses. Lots of layers. They hired a bit for their approaches and what they see here is that they classify bedroom with an accuracy of 95% and an accuracy for living room of 92% to talk about these curves too much but what they're showing here is that they can do a really good job at first pass of correctly classifying images at to the room that they're from from the beginning.  Question. Yeah.  Okay. So the question areas is true line from the difference between them have to do with overfitting is generally with the question was here. The idea was if they took the model the neural net that existed out of box and just use that they would get this green curve with a slightly lower accuracy and they retrained it to more specifically fit their needs. So this is just in case of them training model. So back to your question from before if you generate a better model that more specifically fit your needs. Can you get a more accurate approach? So you want to make sure that your model is as accurate as possible without overfitting. So that's the balance that you're always trying to generate there.  Okay. So these are examples from the model determined that these are bedrooms. These are not these are bathrooms. These are not and these are pools while these are not and I think this is probably the most impressive because these look the most like pools when you can see that these in fact or not pools to a single Airbnb unless this is some super fancy Airbnb.  Okay, any questions on what we've talked about so far?  I am going to save this last example about predicting stuff but you all for Thursday. So we'll start talking about machine learning and I'm moving to algorithm. "
+}
