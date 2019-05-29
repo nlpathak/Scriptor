@@ -6,13 +6,14 @@
 ## Tests
 To test the backend, run `docker-compose exec backend pytest` (ensure that you've already run `docker-compose up`).
 
-## Starting the backend API server
+## Starting the backend API server (and front end app)
 1. `docker-compose build --no-cache` (if you just pulled a new copy of the code from the repo)
 2. `docker-compose up`
 3. Wait for ~10-15 seconds, for Elasticsearch to boot up
 4. `docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py` (if you want to import all the podcast transcriptions into Elasticsearch)
 
 The backend API server can be reached at <a href="http://localhost:5000" target="_blank">http://localhost:5000</a>
+The frontend app can be reached at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
 
 ## Stopping the backend API server
 1. Run `docker-compose down` if you'd like to keep the database data (so that all the data will remain when you restart the backend server later), or run `docker-compose down -v` if you'd like to clear the database data.

@@ -8,8 +8,6 @@ from backend.app import init_db
 from backend.podcasts.models import Podcast
 from backend.search.models import PodcastTranscriptionBlob
 
-UCSD_DISCLAIMER_OFFSET_SECS = 6
-
 podcast_fixtures_folder = "./fixtures/podcasts"
 
 
@@ -25,7 +23,7 @@ def extract_podcast_metadata_by_lecture_num(metadata, lecture_num):
     raise ValueError(f"Could not extract podcast metadata for lecture #{lecture_num}.")
 
 
-def import_podcast_transcription_file(podcast_metadata, transcription_data, video_silence_offset_secs=0):
+def import_podcast_transcription_file(podcast_metadata, transcription_data):
     full_transcript = transcription_data['Full Transcript']
     lecture_num = extract_lecture_num(transcription_data['File Name'])
     blurbs = transcription_data['Blurbs']
@@ -48,8 +46,8 @@ def import_podcast_transcription_file(podcast_metadata, transcription_data, vide
         end_time = int(end_time)
 
         podcast_transcription_blob = PodcastTranscriptionBlob(podcast_id=podcast.meta.id, transcription_blob=blurb,
-                                                              starting_timestamp_second=start_time - UCSD_DISCLAIMER_OFFSET_SECS + video_silence_offset_secs,
-                                                              ending_timestamp_second=end_time - UCSD_DISCLAIMER_OFFSET_SECS + video_silence_offset_secs,
+                                                              starting_timestamp_second=start_time,
+                                                              ending_timestamp_second=end_time,
                                                               blob_index=blurb_index,
                                                               lecture_num=lecture_num,
                                                               department=podcast_metadata['department'],
@@ -69,10 +67,12 @@ if __name__ == "__main__":
     print("Done.\n")
 
     for course_podcast_folder in os.listdir(podcast_fixtures_folder):
+        transcriptions_folder = os.path.join(podcast_fixtures_folder, course_podcast_folder, "video_transcriptions")
+        if not os.path.exists(transcriptions_folder):
+            continue
+
         print(f"Importing podcasts for {course_podcast_folder}...")
         metadata = json.load(open(os.path.join(podcast_fixtures_folder, course_podcast_folder, "metadata.json")))
-
-        transcriptions_folder = os.path.join(podcast_fixtures_folder, course_podcast_folder, "transcriptions")
 
         for transcription_file in tqdm(
                 sorted(os.listdir(transcriptions_folder))):
@@ -85,15 +85,8 @@ if __name__ == "__main__":
 
             lecture_num = extract_lecture_num(transcription_data["File Name"])
 
-            try:
-                with open(os.path.join(transcriptions_folder, f"offset_lecture_{lecture_num}.txt")) as f:
-                    video_silence_offset_secs = int(f.read().replace("\n", "").strip())
-            except:
-                video_silence_offset_secs = 0
-
             podcast_metadata = extract_podcast_metadata_by_lecture_num(metadata=metadata, lecture_num=lecture_num)
             import_podcast_transcription_file(
-                podcast_metadata=podcast_metadata, transcription_data=transcription_data,
-                video_silence_offset_secs=video_silence_offset_secs)
+                podcast_metadata=podcast_metadata, transcription_data=transcription_data)
 
         print("Done.\n")
