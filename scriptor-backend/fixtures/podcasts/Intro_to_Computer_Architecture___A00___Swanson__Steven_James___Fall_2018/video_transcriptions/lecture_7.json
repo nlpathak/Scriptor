@@ -1,0 +1,631 @@
+{
+  "Blurbs": {
+    "1 seconds 5 4 3 2 1 5 4 3 2 1 Your question, sorry. 5 4 3 2 1 All right. I concluded the quiz part. There's some additional questions including this one. Turn up bass on News 5 4 3 2 1. and 5 4 3 2 1 I don't know why that was so funny. 5 4 3 2 1 5 4 3 2 1 the last ": [
+      421.9,
+      649.1,
+      0
+    ],
+    "30% faster processor, right? That's kind of how they speed things up. So it's all about the trailer. So the importance of pipeline. So there are two important parameters of the pipeline that determine the effective range of them for the first of the branch decode time. So this is how many cycle does it take to to identify a branch have cuz that's the first step right? Because that ": [
+      3949.4,
+      3973.5,
+      96
+    ],
+    "All right, I wouldn't like to advocate for predict not taken. Sure. Checking for errors El yeah check for errors. Maybe checking for errors. So in case you know, I'll be running along to through two and if there's an error. Then I'll jump down to. Crash there until it says crash. What is that say crowden Creighton? You can still learn cursive in elementary school. ever use cursive in ": [
+      2649.9,
+      2697.7,
+      69
+    ],
+    "And so the process is going to make a guess about which for the branch was going to go and it's going to proceed accordingly, but then there's a problem of what happens if the gas is wrong and which case you might end up flushing the pipeline to get rid of the stuff that I was on the wrong path and then we'll talk about some strategies for making ": [
+      879.1,
+      897.2,
+      9
+    ],
+    "Anyway, so then there is something finishing on this like others to think finishing that cycle. That's all so bad. I would get a point off at this for my homework assignment the ad for to the problem. My ad is actually know it's delayed for 2. How about the next destruction? Anyway the out of the late for two cycles. And then once that has finished we'll know what ": [
+      1355.5,
+      1390.1,
+      26
+    ],
+    "But the key is that after a while after I am finished with one instruction. I need to know what the next instruction is going to be in because her pipelining right? We have fetch decode execute memory and right back. I fetch here and buy the when I need to fetch the next instruction that the the the initial inspection that I fetch is only a decode so I ": [
+      751.6,
+      774.3,
+      4
+    ],
+    "Hazard with a branch because every Branch needs to set the PC. So this is a bad a bad deal because branches make something like 20% of instructions and if you're stalling for two cycles on 20% of instructions your instruction your CPI is going to go way up. The second option this is what moves does. The last time we saw that nips has a low delay slide that ": [
+      1481.7,
+      1509.4,
+      30
+    ],
+    "Here we go back or taken for not taken. So it's going to be sort of a new piece of our pipeline the branch breaker module. Come on. Frankfurter module that determines the gas that we are going to make so the branch taken for the BT BT f&t Branch Fortress 2 inputs. What is the sign of the offset? So that comes out of the decode stage right inside ": [
+      2959.1,
+      2995.6,
+      75
+    ],
+    "Houser Elementary School, I was accused in my report cards of not devoting maximum efforts to my handwriting and my dad took away my Atari which is like a Nintendo which is like a Nintendo Wii which is like what's the Nintendo switch. My Nintendo switch back because they never got any better what I need. So there's two Branch play Slots here after this Branch. I need to find ": [
+      1971.2,
+      2009.8,
+      44
+    ],
+    "I am wrong 22% of the time still terrible 95% accuracy. I get it up to 50% awesome 99% accuracy about 80% of the time. I will get to the end of my 71 instructions that I'm going to throw anything away order to make this work and this is how modern process go fast. Is Dago wide and deep we call it? So I go why that's why this ": [
+      4320.3,
+      4347.1,
+      110
+    ],
+    "If this is true or this branch is taken in this branch is probably going to be taken to write and then play in the real world. And you know, I might write a big switch statement or a bunch of if then else has those things are not independent, right cuz inputs are not random. Function call so these John these things this transgression also applies to jumps right ": [
+      4714.0,
+      4740.5,
+      122
+    ],
+    "So the first option is that we can stall stall is we saw last time. So in this case, I have a branch. well all sorts of crazy effects So in the first branch of the first case of a stall on wearing a branch to somewhere. Now one thing that we could do is that we could just decide that whatever we see a branch. We're just going to ": [
+      1247.1,
+      1280.2,
+      23
+    ],
+    "So the label this is option zero because it's not a very good option the problem here. Is that the We're stalling on every instruction. Right? So when we looked at this for Lowe's for data hazards, it wasn't so bad. We would just detect when the date of Hazzard occurred and we were just all in those cases but here there's always a data. However, there's always a control ": [
+      1458.5,
+      1481.7,
+      29
+    ],
+    "So there is an instruction called Jr. Which takes a single register value and it basically just takes a register value and set the program counter is not to be equal to it. And in that case we get the value in decode and we needed the previous cycle infection. So those are the two. Those are the two control has it so they have to deal with. I'm alright. ": [
+      1222.6,
+      1247.1,
+      22
+    ],
+    "So this is a little diagram of the most pipeline. We have our five stages and we have to instructions between Fetch and Branch resolution, right? So, this is the branch This is the instruction that have touch behind it. So I have to instructions branches are pretty frequent. So there might there's like about One Branch in there. In fact, they're sort of at least one branch and you're ": [
+      4148.9,
+      4171.4,
+      104
+    ],
+    "So we now have a branch resolution. So that means Friday night in gas if I Which Way Branch was going to go and then I started fetching instructions like mad. I'm fetching in this case 6 instructions for cycle. Which is what modern processors do and I did that for 14 cycles. And now I have fetch 71 instructions on behalf based on that single prediction. What's worse than ": [
+      4233.1,
+      4264.2,
+      107
+    ],
+    "We talked about that a little bit already. Alright, here's a clicker problem. You can do on your own. the answer is a it is not bre. So here's the key to the solution. If we remove the comparator from decal, that's the trick right that nips uses to get the branch lay down to one cycle. That means it will result branch of the execute. This would reduce volume ": [
+      3754.9,
+      3802.6,
+      90
+    ],
+    "actually a backwards dependence and time and we can't do that cuz it's on the PC. This is pretty bad right. There is a hazard control hazard. On every instruction potentially at least our designer process are the pipeline so far. So, how do we fix this? So the first show we need to know if an instruction is a branch in the fetch stage. How can we accomplish this ": [
+      998.3,
+      1032.4,
+      14
+    ],
+    "actually help to do that should be better to resolve an exeggcute if we could reduce our cycle time right side. So how do you make this decision? Right? You are the processor designer and you were trying a bunch of different stuff. I need to look at all these you know, you look at a bunch of applications. And if you talk to you until they have this huge ": [
+      3878.2,
+      3901.9,
+      93
+    ],
+    "allows us to avoid the the hazard that happens with loads and instructions that use the result of the road. So they need to hear is that the next and instructions and for MEPS and equals to instructions. To the branch are always executed right for branches. And then the question is how big is in? Well, actually let me say this. This is simple case. I don't get confused ": [
+      1509.4,
+      1541.8,
+      31
+    ],
+    "already know the new pc is I will assume that that's what's going to happen. Now. The problem is that we might be wrong right some branches are going to be taken. And so then we are going to need to clean that up and talk about this. We're going to be a little bit of vocabulary a prediction is a guess about whether Branch will be taken or not ": [
+      2278.0,
+      2295.2,
+      56
+    ],
+    "are the units on execution time? I should be seconds or something? struction count Alright, so this would be times. This is this is basically what is that number? seconds of clearly not seconds nanoseconds I don't have a frequency right so I have a cycle time. 1.1. This is really 1.1 * You know any which is the original so this is a * 1.14. So this isn't that's ": [
+      3601.8,
+      3650.1,
+      86
+    ],
+    "at that code you might be Branch Branch Branch with like a single instruction in between. I meant so they just not enough instructions around to move into those delay slots some complexities. I don't actually know the answer to this but I'm not sure what nips does if there's a branch and the branch lights. There's a little puzzle for you to ponder over. I promise that will not ": [
+      2084.0,
+      2106.8,
+      48
+    ],
+    "be on the final or the midterm because I hard to imagine a less useful piece of information due to carry forth into your careers, but it's just kind of hard right programs really complicated when they're highly optimized and they're branching things are compilers. They have lots of branches and everything is tightly dependent on each other and moving code around this hard the same kind of problem. I ": [
+      2106.8,
+      2131.0,
+      49
+    ],
+    "because of the branch the branch decode. So for instance if I am doing something and I hope I'm calling a function through a virtual pointer. This is actually grabbing some pointer value and jumping to it. So usually this is Friday going to be constant because usually going to be calling the same virtual function to a lots and lots of places where control is very predictable. And so ": [
+      4740.5,
+      4766.8,
+      123
+    ],
+    "better guesses because flushing a pipeline turns out to be expensive. So it's like to do it as infrequently as possible. I'm aniki kind of thing to keep in mind is the difference between a stall and a flush. So we talked about stahl's already. That's where we stopped the front end of the pipeline and we insert no Ops and they flow through the pipeline doing nothing and then ": [
+      897.2,
+      920.7,
+      10
+    ],
+    "by 20% So this is going to help. But this is going to hurt. Right cuz this is going to cause the branch to lay. Equals to go down. So if we push through the performance equation, so our current design has a so we dissolve in decode if we're resolving decode then we have a branch delay of one and this is the math we had earlier so we ": [
+      3802.6,
+      3841.5,
+      91
+    ],
+    "calculation from the previous slide. so we have that the Army, this is just a calculation 3 beside the CPI is 1.041 because That increase the for not taking increase the second time by 10% instruction count stays the same because presumably were executing the same set of instructions to the until otherwise. And so the execution time is 1.144. That's a speed up. All right. I guess what? What ": [
+      3557.1,
+      3601.8,
+      85
+    ],
+    "collection of things called traces traces are basically a big list of the instructions that a program executes like a whole process like Linux running Microsoft Word out of a trace about that and they have huge numbers of these probably more than anyone else in the world and they were like how frequent branches are and how frequent are and they will go through and think about it. Like ": [
+      3901.9,
+      3927.2,
+      94
+    ],
+    "data hazards we can stall and the thing that nips does a lot of is it actually designed the I say so that David has his just don't recur how to make the heart of rice easy to build. Today. We're going to talk about the Third Kind of Hazard hazards last week control hazards are kind of similar to do houses in the sense that were waiting for a ": [
+      696.9,
+      726.7,
+      2
+    ],
+    "determines whether or not you should even be making a prediction such a difficult time in our Design This is 0 right. We just sort of asserted that we can easily decode and tell whether or not a particular branch in such as a branch mips makes us very easy x86. This is really hard cuz the next 36 instructions are not all the same length. So you don't even ": [
+      3973.5,
+      3996.7,
+      97
+    ],
+    "do static Branch prediction. And so if you look inside Inside the Linux source code you will see unlikely. We will be some code in here and this will be inside a branch. It'll say if unlikely and then you know a equals B, and that's a hint of the compiler saying this branch is usually not the case. So you should arrange your code to to usually skip that ": [
+      4665.8,
+      4690.4,
+      120
+    ],
+    "do the next instruction in all the way to the pipeline. Your process will be really slow but it will work. The other option is that we don't know why but this should be that we will just Bill, just eliminate well. Hello. We can. design them away. But I mean by that is the same thing that nips did with data hazards or they just designed their instruction set ": [
+      819.9,
+      854.8,
+      7
+    ],
+    "do this, but this is pretty coding or partial decoding and so we're going to assume Let me do something of you something like that. So that control Hazard is gone. And so now for normal non Branch instructions, we know the PC in the on the next cycle. No problem. All right. Every day like this and now we see that our arrows go forward in time, which is ": [
+      1101.1,
+      1130.5,
+      18
+    ],
+    "doing big Matrix multiply. This is super easy because there's lots and lots of instructions right? I will do this thing called Loop unrolling and I'll have a big sequence of like a thousand instructions. I'm executing a branch at the end and I can easily pull some of those instructions down to put them out to the branch if I'm in something like GCC if you go and look ": [
+      2066.3,
+      2084.0,
+      47
+    ],
+    "don't actually know what the what the next program counter should be at because if it's a branch I won't find out until exeggcute or so. So these occur because of branches and because of jumps there are some jumps how you may have read about the ticket value from the register file and use that as the next program counter on again. We don't know that until a couple ": [
+      774.3,
+      797.9,
+      5
+    ],
+    "don't know if any of you heard of vliw processors like Intel's itanium. How do people afford a titanium Galaxy 3 people itanium was a billion dollar project at Intel to replace x86 took like 15 years and the fact that no one almost. No one in this room has heard of it, like makes people it until cry because it was a disaster and then one of many many ": [
+      2131.0,
+      2153.7,
+      50
+    ],
+    "fear of the cycle time is the same the The Insurgent kind of the same and so execution time comes out of 1.2 and then we can take the ratio of those two and we get our speed up as 1.05. So this was Not as big a gain, right as we might have thought we lost something to do the cycle time when it was a 5% win. So ": [
+      3696.4,
+      3731.8,
+      88
+    ],
+    "fetch and decode the front end of the processor increases of cycle Time by 10% All right. So what is the speed of of back or taken for not taken compared to just stalling on every branch? All right. So molar that for a while this was a little bit more complicated. Or I can refuse like 5 4 3 2 1. Oh, okay. Alright, so some disagreement. So Converse ": [
+      3296.8,
+      3419.8,
+      83
+    ],
+    "fix. This is by paying attention to the Miss prediction rate. I want to get that rate way down. So there's the math and we go through and he said even though, you know, we increase from if we make the branch like 20 and the speed up goes up to two point one three percent. Alright, so here's my back or taken for not taking is not good enough. ": [
+      4122.0,
+      4148.9,
+      103
+    ],
+    "for some more complexity talk about later will not always exactly the same. So you really can't stall right? If you're going to stall for 14 Cycles every time you take your branch. Your CPI is going to go way up and your performance is going to go lay down and it also, you know 80% Branch prediction, which is what you might get with backward taken for not taken ": [
+      4044.1,
+      4063.6,
+      100
+    ],
+    "for the instruction to get to the decode stage. So for jumps. n equals 1 and for Missy what I do with this Set of four branches in equals 1 or 4/10 equals 1/4 branch is it seems like I should be able to because it takes us two cycles to get to the execute stage. So this is good because it leads to really simple Hardware right for the ": [
+      1541.8,
+      1589.6,
+      32
+    ],
+    "future Branch Behavior. And the question is when is Branch Behavior predictable? So a couple people to mention these already. So loops. That's a good example. What is another example of when Branch Behavior might be quite predictable? And predictable based on really anything. someone said array But they said a raise a raisin Loops go together the app. I'm just riding through an array is a source of possible ": [
+      4501.6,
+      4541.8,
+      116
+    ],
+    "future? So here's what we know for branches that end up not being taken the PC is already known. So that's convenience. With a little bit of work you could also imagine that you could know very early maybe even in the fetch stage you could know what the other possible program counter as well so you could calculate it here. So you calculate here and you can add on ": [
+      2225.6,
+      2255.8,
+      54
+    ],
+    "get 1.04. That's what we saw earlier if we resolve an ounce. If we resolve in execute, then that's our new Branch delay. The rest of the math is the same since canceled it bigger, but the cycle time goes down by 20% cycle time goes down by 20% and these are the this is the branch delay. Execution time of 0.846 and R speed up is 1.2. So what ": [
+      3841.5,
+      3878.2,
+      92
+    ],
+    "get a trap. This could be like at the end of a page of virtual memory and there's nothing after I don't like this instruction is at an address that doesn't exist effectively program will get a segmentation fault or something then you up. Right to these could. B replaced No Ops by the compiler. So Branch through the branch delays, so the branch control hasn't resolved. But you may ": [
+      1767.1,
+      1814.4,
+      39
+    ],
+    "go through so that I miss prediction raises point to so the first thing I have to do is figure out how many instructions are going to have which CPI to the Bay CPI is one that's what all the instructions that aren't Miss predictions are going to have to figure out how many missed connections are going to be the respiration rate this point to the chance that an ": [
+      3146.3,
+      3166.0,
+      79
+    ],
+    "good at least. So this is actually the execution time. This is bet for one instruction. Effectively. All right. So that's a little bit of a distraction. So that's what comes out of our situation is much easier. It's just the weighted average of the branches in the non branches. The branches have a CPI of 2. because we're stalling out of recycle and the point 2 comes from a ": [
+      3650.1,
+      3696.4,
+      87
+    ],
+    "how many instructions are affected with the new CPI is going to be as we saw earlier calculating CPI. It's basically a weighted-average. So give that a shot. How can I will turn on? 10 seconds or so? 5 4 3 2 1 critical consensus so people say it is what B. I like to be pretty well. So why is it be so? by the be so if we ": [
+      3055.9,
+      3146.3,
+      78
+    ],
+    "in this case the program counter is available in the detailed stage, but this is actually not even good enough. And that is because if you look at this, we would you send these diagrams of time where we have the place where sin dated is produced and we have the place where it's needed on the next instruction and time goes this way then we see that this is ": [
+      974.5,
+      998.3,
+      13
+    ],
+    "incorrectly and you'll have to go in back out those changes. Being that is building slowly across these lectures is that modern processors are really really complicated. I want to see some more of that and they are really really complicated. All right, so that was the first one so you can think of this version of static friction. So static means that it happens at before run time. So ": [
+      2557.2,
+      2588.1,
+      66
+    ],
+    "increase the CPI pipe to turn this case for this branch. CPI Equals 1 + 4 this one CP. I equals to. Saturday this Hardware. It's pretty easy. You got a mucks right here and right here any place you can look and see where potential hazards can occur and you can tell where you might need to flush in mips you maybe after flushing to places so as to ": [
+      2472.2,
+      2508.5,
+      63
+    ],
+    "instruction of particular instructions of branch is also point to Answer Point 2 * 2.2 equals something he multiply that times the CPI for a misprinted branch. That is to this is the CPI. This is the Miss prediction. Right? And this is the number of instructions and if we add this to 1 - 2.2 * 2. * 1 rights of the weighted average of the this predicts lean ": [
+      3166.0,
+      3209.1,
+      80
+    ],
+    "instructions already past memory by be problematic because we might have already stored to memory right there not to back out that store operation and we also haven't written anything back. Otherwise, you have to go back and repair the register file. I am Iron processors will talk about this a little bit, you know, both of these things happen in the register file and the memory can get updated ": [
+      2537.5,
+      2557.2,
+      65
+    ],
+    "instructions worth of work, which is first going to cause my CPI to Skyrocket, right? I've been doing useful work, right? So it's also a waste offered a wasted opportunity. Who's how bad this is? So if I have this at 14 branches and I have 80% accuracy the chances of me making it through that are 4.3% So I am always going to be wrong basically, right 90% accuracy. ": [
+      4289.2,
+      4320.3,
+      109
+    ],
+    "interesting security so what's this is like security exploits and thought about that but They're very repetitive Behavior to the skids or what I was talking about. What if it's Tuesday, right if there's a branch somewhere my program that says if it's Tuesday then do this that branch is very predictable on Tuesdays every day. I only miss predict once every 24 hours probably, right? user Behavior This includes ": [
+      4601.7,
+      4635.9,
+      118
+    ],
+    "is all we do long pipes and the hardware is going to watch what's happening in the program. It's going to make a guess about which way it's going to go and it's going to get really really good at making that guess. So we are going to basic idea. Is that you look at past behavior and try to predict future Behavior people have studied lots of different ways ": [
+      4400.8,
+      4431.5,
+      113
+    ],
+    "is also not an option because 80% BabyFirst about 20% of time you're doing this the performance is still going to be really bad. I'm so if you go back and look at this math, right? So if we take this, this is our Branch to lie, right if this was 20, I just for example instead of one. That if we go through and do the math, right? Animals ": [
+      4063.6,
+      4095.5,
+      101
+    ],
+    "it comes to tripping over things. I just want to make sure that one. Thank you. All right. I know you do this playback. Infinity check it out of here. All right. so the compiler the compiler is going to be in charge. polish problem Great pastime of Architects is making things are compilers problem everything the compilers problem and the compiler basically. Gave up and went home. All right. ": [
+      2876.8,
+      2956.2,
+      74
+    ],
+    "just what we need. All right. So the next case is 4 branches. So here we have our prototypical Branch Branch takes two registers and offset, and we talked about how we compute that stuff. The key thing is at the branch is resolved in the execute stage where the ale use some tracks S1 from S2, and then checks for the result of zero Cabello Taylor not zero in ": [
+      1130.5,
+      1152.8,
+      19
+    ],
+    "kept Branch to the discussion. We're going to get into that would become really really complicated for no really good reason. If you have questions on homework or whatever ask and we will make sure to clarify about whether or not you should be assuming there's a branch lights. We'll try to make sure you write that down. You need to know what they are needing. You need to know ": [
+      2180.3,
+      2199.6,
+      52
+    ],
+    "know where the next instructions starts let alone what it is until you actually have already analyzed part of that instruction. So this is kind of a big deal depending on your architecture in some architecture is even something like nips. If you had a very deeply pipeline design. It might take a few Cycles to fetch the instruction which case it'll still take. I also have a significant Branch ": [
+      3996.7,
+      4017.0,
+      98
+    ],
+    "know, this was our critical path, right? So if this is the critical path, Then it was pretty big right this was like 6 nanoseconds or something. I don't know who this was. Maybe this is 4 nanoseconds. So if this thing takes less than 2 seconds or so, then I can add and I won't actually slowed down my processor at all, right? That's a pretty good deal. That's ": [
+      1869.4,
+      1898.5,
+      42
+    ],
+    "law tells us that even though branches are relatively infrequent. This is one of the correlation handles lock branches are relatively infrequent, but you can't ignore them because this will quickly become the dominant source of delay in your programs so that we need to pay closer attention. We should make that close attention to the branch light what we really need to pay attention to the way that you ": [
+      4095.5,
+      4122.0,
+      102
+    ],
+    "little bit if I had a different situation Where these don't have any defenses at the branch the defense is from the branch coming up here. Then I can move them to the ads down here into the to delay slots and I would be okay. It depends on the code. So if if you look at code for like like Code for training deep neural Nets are code for ": [
+      2040.0,
+      2066.3,
+      46
+    ],
+    "look very sad and I say no. No, you just had a publishable research. You're just like 25 years late. But you're on the right path. So at this very clever things you can do. The papers are really boring now. So don't do research on that. If you go into a computer architecture research. All right, so breakable control. So we're going to use previous Branch Behavior to predict ": [
+      4465.1,
+      4501.6,
+      115
+    ],
+    "moment. Yes. We'll see how it goes. Most of a pragmatist. I've spent $400 on dongles. I should be able to charge both my laptop to the same charger as a bird. I don't even know how to. I can still feel weird. But I still draw I can. I will try this out. Can I Advance know? All right. Can I get out? No? Sad Panda Oh. so when ": [
+      2762.9,
+      2841.5,
+      72
+    ],
+    "much simpler than this ALU. This ALU has to do a bunch of stuff add subtract bitwise operations chefs and so forth and some of those are pretty complicated, especially the shifts. So this is much shorter. This has a much smaller cycle time if y'all still remember when I went through and I went through I did the detailed analysis of the timing delay and I miss processor, you ": [
+      1844.0,
+      1869.4,
+      41
+    ],
+    "muxes and we can just mucked in the zero. Remember those are the control lines for no op. We have these new signals at staying out injecting a whopping between executor memory and inject no off between deconex get anything else from happening resolved before anything is actually happened. Right? So in all cases, we know friend since we never have to answer to no out there or if squash ": [
+      2508.5,
+      2537.5,
+      64
+    ],
+    "my pipeline. So that this will say this so you can't see that but right and run, so I'll say this is the branch now. I have 11 instructions between fats and Branch resolution. I could go deeper still for why does not unusual for modern machines. And now I have about four branches sixes. Maybe I want to know depends of the machine still not impossible deeper is fine. ": [
+      4205.7,
+      4233.1,
+      106
+    ],
+    "need to know if it's a branch or John for something else. And if you look at the opco tables for you will see that it is very easy to tell whether instruction is a branch the branches all have very similar up codes. They're very easy to write a little bit of logic that will determine whether or not those instructions dab Ranch. I also see a way later ": [
+      1059.7,
+      1079.8,
+      16
+    ],
+    "of a loop is almost always taken if I go through a loop 50 and I constantly always predict the backward Branch. What's my Miss prediction right going to be? What 1 + 52% right means I'm already falling short of my target, right? So that's like the best case for static Branch prediction is the prediction of the right still going to be pretty bad. So Dynamic Branch prediction ": [
+      4370.9,
+      4400.8,
+      112
+    ],
+    "of seconds later. So there are two choices that will look at for dealing with this kind of the first one is sort of the default and that is to stall. I remember we said that we can always start. All right, we'll stall you can in the worst-case you can issue an instruction and wait install until it makes it all the way to the pipeline. Then you can ": [
+      797.9,
+      819.9,
+      6
+    ],
+    "on how you do it all becomes. I'm like three or four that's what I will want it to be. That's how many cycles it will take for the branch to resolve but in my architecture right, I've said that n equals two, and now my my deeper pipeline machine and now has to make it appear that any close to even though the harder really liking to be go ": [
+      1645.0,
+      1666.0,
+      35
+    ],
+    "on this predicts Right. It's not the correct predictions because this includes all you know integer. Operation does Wild Kratts with a bunch of other stuff over there? And this ends up equaling 1.04? a question about that All right. So in this problem if I were to worry about Computing speed up what I worry about the cycle time or the instruction count. Who says I don't care about ": [
+      3209.1,
+      3256.1,
+      81
+    ],
+    "on where you know, somehow the program gets into the instruction memory and you could actually pretty code the instructions there and you could add a little bit to the end of the instruction where it's the internally the instruction would be 33 bits long and the last bit would say, I'm a branch in that bit would just be there ready to go. So I be another way to ": [
+      1079.8,
+      1101.1,
+      17
+    ],
+    "one thing popping out of our pipeline every cycle. So it's this one and then that one and then how I have a bag of my slides. What should be finishing that cycle? This light is like 5 years old maybe 7 years old. So anyway, there should be something finishing this cycle. So maybe my stop maybe my Knopfler off by one. I don't know why that would be ": [
+      1303.6,
+      1346.6,
+      25
+    ],
+    "ones of typos, but you know 5 4 3 2 1 5 4 3 2 1 5 4 3 2 1 alright, thank you very much for participating in my various quizzes and polls. The last time we talked about David hazards we talked about how data hazards happened when the processor needs to dinner, but it doesn't have the data and we talked about some ways to get around ": [
+      649.1,
+      696.9,
+      1
+    ],
+    "piece of information that we may or may not have it in this case. The piece of information is what the next instruction is. So this is the value of the program counter. So I have a sequence of instructions and I asked you one of them is semantics To the next one and so forth and there's a if there's a branch then I might jump to another instruction. ": [
+      726.7,
+      749.0,
+      3
+    ],
+    "pipe. I wanted to text it special instructions that are incorrect. Alright, so here is a clicker problem. So the BT fnt Branch breaker has a Miss prediction of 20% ranches are 20% of instructions. I miss prediction this picture increases the CPI of a branch by 1. What is the new CPI? Assuming the base CPI equals 1 All right. So you got to figure out how many branches ": [
+      3021.1,
+      3055.9,
+      77
+    ],
+    "pipeline. All right. So we're going to squash this instruction. What we are going to do is we are just going to replace that instruction all of its control signals with the control signals for no op. So just like we inserted a new off when we when we stalled when we squash we just answer to no op. We don't stop anything. Everything just keeps going this instruction what ": [
+      2373.3,
+      2395.8,
+      60
+    ],
+    "predictability. What about what day it is? So there's lots of trees that could just be could be a guarantee. That's spelled wrong. I also got some egg grades and effort for spelling. But there's nothing left for my dad to take away. So go ahead. User behavior for tomorrow. Yeah, so like a how could user predictable user Behavior lead to predictable Branch Behavior? a lot of Thai now ": [
+      4541.8,
+      4593.6,
+      117
+    ],
+    "program. Right because it's not an instruction that whose whose execution was required by what the programmer wrote. So that's just kind of dropped on the floor that is wasted effort. Alright, so how do we flush the pipe? Oh and I should say as far as the calculations for CPI flushing one instruction increases the branch CPI by one flush. If you happen to flush to instructions that would ": [
+      2429.6,
+      2472.2,
+      62
+    ],
+    "really stupid thing about these USB C dongles from from Mac is that they actually don't work unless the computer has power so I can if my battery is dead. I can't actually power my laptop through the dongle. All right. Yes. I will take you up on your offer. Oh, no, it's no it's on now. Bring it on up anyway. Oh. I am a very talented guy when ": [
+      2841.5,
+      2876.8,
+      73
+    ],
+    "reasons it was a disaster is because moving instructions around as hard. So I'm in this is why Britain with nips has one branch to a Slaughter the same for jumps and branches. So for the rest of this deck, we are going to assume that miffed has no Branch toy slot. The reason for that has been modern processors don't have branched away slots in order for if we ": [
+      2153.7,
+      2180.3,
+      51
+    ],
+    "right is end up being taken over going to predict that it's not taken so we fetch this and and then Indie code when the branch resolves we say hey that instruction is wrong, right you fetch instruction what instruction should not have no effect on the program. And so what we're going to do is we are going to squash that instruction. And this is also called flushing the ": [
+      2345.8,
+      2373.3,
+      59
+    ],
+    "rule is that if we have to Branch today slots, then these two instructions are going to execute. And the reason I can execute is that while the branche is floating down the pipeline. These are the the the processor just going to keep fetching A P C equals PC Plus for until the branches resolved and we can come down here and affect the fetch of the following instruction ": [
+      1706.4,
+      1730.6,
+      37
+    ],
+    "same reason that it was a good idea to design a way to load delay or the load data Hazard for the load just to design the way to the the date of Hazzard with loads by adding a load delay claim reasons apply here makes it harder for a simple. The bad thing is that end cannot change right? So if I say in my first version of maps ": [
+      1589.6,
+      1613.5,
+      33
+    ],
+    "say it's only has a single branchless life. So, how do they do this? Well, what day is soon basically is it there is a second ALU that fits in decode stage. I mentioned this earlier and basically this is a very simple you it's basically just a subtractor. So this only knows how to subtract. Basically, could you can do all of almost all the branches does that it's ": [
+      1814.4,
+      1844.0,
+      40
+    ],
+    "see if you can come to some consensus about what the right answer is. whether 10 seconds or so 5 4 3 2 1 0 Morgan Center not total consensus. All right, let's go to the solution here. So the correct answer is C. Call his wife. So first we got us a live performance equation Swede to calculate the execution time for both configurations. So This Is Us the ": [
+      3419.8,
+      3557.1,
+      84
+    ],
+    "so make it you know for taking back or not take whatever the right thing to do in the architecture is the compiler knows how to do that also be correlated. So I'll just jump to my flute and slide. So correlated control soave is equal to 10 + B is something usually larger than a then if I do this then those branches are probably pretty predictable right B. ": [
+      4690.4,
+      4714.0,
+      121
+    ],
+    "so one way to do this is to partially decode the instruction infection so you can have a little bit of logic here. That's like is this a branch? And I can put that into the fetch stage right a little and make of the critical path to the fifth stage a little bit longer. Bartleby very convenient that will know where that is. So now I'm here. You just ": [
+      1032.4,
+      1059.7,
+      15
+    ],
+    "so they can occur. Memphis has some versions of nips take a similar approach. They just have designed the data are the control has its way and the third option which is kind of interesting is that the processor can guess Brighten, so this is something called speculation, which is a very powerful idea in computer architecture. It happens in lots of places and we'll see some more of it. ": [
+      854.8,
+      879.1,
+      8
+    ],
+    "stall for two cycles, right? So we'll just wait and so this ad which is in Fetch will sit there and fetch and instead we will insert to know I was just like we did with the date of houses. We saw last time and those be those I know I'm supposed to the pipeline doing nothing just like they did last time we can check that there is still ": [
+      1280.2,
+      1303.6,
+      24
+    ],
+    "taken I miss prediction is a prediction that turns out to be incorrect and the Miss prediction rate is the fraction of predictions that are incorrect branches. See how many times you were incorrect. So first the first of our several Branch protectors is called predict not taken. So what happens here is that we have a branch. First example, this is a not taking branch. And so it happened ": [
+      2295.2,
+      2324.9,
+      57
+    ],
+    "taken you can think about what are the pros and cons of predict taken? Who can really think of one reason that predict taken might be a seem like a good prediction to make as a default. Yes. For Loops, right? So loops usually in a loop code for back of the top this branch is usually taken round go through a loop a hundred times. So this is taken. ": [
+      2615.6,
+      2646.8,
+      68
+    ],
+    "than the immediate to the current PC and you could get the new pc so you can get the new pc really quickly. So we're going to do is going to do something called Branch prediction or control speculation. And the first thing we're going to do is just assume that the branch is not taken because that's the easiest thing to do at this kind of by default. We ": [
+      2255.8,
+      2278.0,
+      55
+    ],
+    "that is that 14 of those are branches. So I also guessed about those. So I guess then I guess it's like I'm just screaming down this path and like left right left, right? That means if I get any of those branches wrong, I have to throw away a huge number of instructions right with the disaster. If I get that first branch on I will throw away 71 ": [
+      4264.2,
+      4289.2,
+      108
+    ],
+    "that lives has one of them. So that means that we're stuck with one of the other options we can stall the time we saw that was a bad idea. So the other idea is we want to stall less or maybe not at all. So the first of the second I guess the second option is to predict. So here we answer the question. Can the processor tell the ": [
+      2199.6,
+      2225.6,
+      53
+    ],
+    "that n equals to Right or any right angles to and then later and remember that. Value is related to the number of pipeline stages between Fetch and execute. All right, that's what determines the value of n e pipeline five stages. Maybe I want to push my cycle time lower increase my clock rate. So I will pipeline the 10 stages right pipeline case and will become the prey ": [
+      1613.5,
+      1645.0,
+      34
+    ],
+    "that stuff. One person says you don't care about insertion timer cycleton. That's correct. We don't care about that. No not here, right because I also haven't said anything about what the will change it be. However, the next problem. I will say that bcnf 20% 20% of branches changing a front end. The front end is the branch and this is the front end. This is Bachelor. This is ": [
+      3256.1,
+      3296.8,
+      82
+    ],
+    "that's a good model for problems that we are going to look at in the future. Alright the branch delayed penalty. So this is the number of Cycles between Fetch and Branch resolution this the branch resolution is when the branch outcome is known for the branchleigh penalty of instructions that get flushed on a Miss prediction prediction causes TPI of the branch to increase by the Branch High penalty. ": [
+      3731.8,
+      3754.9,
+      89
+    ],
+    "the fetch you can't actually tell whether it's a branch instruction or not until you've decoded it'll actually until you can tell you to cut it. So it goes in here it goes up to control. And the control says it's not a branch. It's an ad. So the next PC is just the PC + 4 and so I can actually make this decision till I know this. So ": [
+      951.4,
+      974.5,
+      12
+    ],
+    "the history of Transportation research is all about trying to identify these in Hardware at low cost and very very fast in the pipeline everything else we need to do and then I'm using that to predict what's going to happen next on Tuesday. ": [
+      4766.8,
+      4783.0,
+      124
+    ],
+    "the instruction the immediate value for a I type branch and the branch signal from the comparator to check whether the prediction was correct, and it's going to do both the gassing and the checking whether the guess was correct as a mucks, but use the control box that says what the next PC should be and then it has a Miss prediction signal that causes control to flush the ": [
+      2995.6,
+      3021.1,
+      76
+    ],
+    "the next PC. Yes. Filling a spot good question. So the reason that filling the spots is hard. an example if there's a way I swear I saw yesterday had to get myself a big of there's another menu, okay? All right. So why is it why is it hard? So let's say I have a branch here. and so what I mean is my handwriting is terrible. I apologize. ": [
+      1898.5,
+      1970.1,
+      43
+    ],
+    "the next we know what the next Branch Target is, then we can go on in and start hatching from it. So what is a suit or CPI? So the answer is for the same and we talked about last time how when you when something stalls you charge the two cycles for the stall at how many cycles are to the instruction that cause them and so this case ": [
+      1390.1,
+      1413.8,
+      27
+    ],
+    "the real world me neither. All right, so are other stuff a third option. This is pretty sister to cover is backward taken for not taken. So start of combines these two because loops loops are a great reason to predict taken that usually backwards usually jump up to the top or at least a compiler could arrange it so that the backward branches on Loops are actually backwards and ": [
+      2697.7,
+      2723.5,
+      70
+    ],
+    "the value from the register file. We also need to tell you maybe you can build another ALU. You can build a little ladder to do the branch calculation. And we get a little buzzed. How pleasant. But I would definitely that I was going to register file right and so we've got to read them. There is a much bigger problem. And then the third case is for jumps. ": [
+      1192.7,
+      1222.6,
+      21
+    ],
+    "then, you know forward two branches. You could break the Beyond not taken. So this is great. Set of all the compiler will make this happen. I got her is still running low, but does not seem like that should be. Oh, I running really loud now. Turn on USB C. It is a Surface go. I am a firm believer in the you've USBC universe. But maybe in a ": [
+      2723.5,
+      2762.9,
+      71
+    ],
+    "there could be more than one. if we look at a Call a dual issuance of processor. So this is an instruction issues to instructions of recycle and we'll talk about how you can do this in a minute. Now. I have a 5 instructions so this This is the branch will say instructions came after the branch. Can I have five branches? If we go further and I doubled ": [
+      4171.4,
+      4205.7,
+      105
+    ],
+    "things like configuration parameters right there. Cuz if this flag us that then do I the flag of set one to the beginning of program execution will be set that way forever right are cases there places. This is actually very common Linux in the source code to run a bunch of different architectures. Some architecture is especially embedded architectures the run a little tiny computers. They have they still ": [
+      4635.9,
+      4665.8,
+      119
+    ],
+    "this case cuz French or not equal and then we set it either to PC + B C. + Austin Peay sequels PC Plus offset, actually. Four score and then otherwise, it's just pc4pc + 4 you're not throwing a rave in here. We don't need a stroboscopic PowerPoint deck right now that has the problem is a lot harder because we can't do some clever trick because we need ": [
+      1152.8,
+      1192.7,
+      20
+    ],
+    "this isn't a compiler the compiler decides whether so if you think about how the compiler lays out code it can decide sort of which branch of an else comes first or second as it's laid out so it can set it aside in our predict which direction of the F else is going to be the not taken option. There is we are not taken we can also have ": [
+      2588.1,
+      2615.6,
+      67
+    ],
+    "to branches not taken. There's no delays lot, but we just guessed that this ad is going to be the next instruction because they're predicting the branches not going to be taken and it turns out that that is the case. Everything is fine and that Brett. Adjustable flow through the pipeline just like it would if there was not a branch before then we have another branch has taken ": [
+      2324.9,
+      2345.8,
+      58
+    ],
+    "to do this. You can peek into the register file. You can get him for the program. You can do. You can use neural Nets everything has been tried Branch prediction is like the most thoroughly studied area of computer architecture as far as research goes and everytime. I teach graduate architecture undergraduate architecture great idea for a 1995 or hey, there's a paper about that in 1988 and they ": [
+      4431.5,
+      4465.1,
+      114
+    ],
+    "to for. All right, so this is exposing. This is exposing. Hardware design in the ISA Which bat? sad face All right. So the way this works if we imagine we have to delay slots then we have this Branch up here. We are his branches taken. So it's going to jump way down here and you know, there's like a thousand instructions in here maybe thousand. Instructions, but the ": [
+      1666.0,
+      1706.4,
+      36
+    ],
+    "to go time any other Branch resolution time in our case as two cycles. I'll take a look at Intel Haswell. This is I don't know. This is probably three or four years old now branches take 14 Cycles to resolve. Ricers 14 stages between Fetch and execute or whatever the branch gets resolved identifying a branch takes about three Cycles again because until has his variable size instructions and ": [
+      4017.0,
+      4044.1,
+      99
+    ],
+    "to instructions and executed before the branch that were not That have no data dependence is on the branch right now. They they are the inputs to this Branch. Well, if that's the case, I can't move them below the branch because actually have to execute them before the branch so that I can know the brand the what the outcome is. So so this afternoon if I had a ": [
+      2009.8,
+      2040.0,
+      45
+    ],
+    "used to be the and keeps flowing through the pipeline and pops out the end doesn't know off and then as soon as we know what the new Branch Target as we start touching there and we start bringing the next instruction. And so that is what we get on the following cycle. And so this my battery is running low does not count towards the instruction count for the ": [
+      2395.8,
+      2429.6,
+      61
+    ],
+    "we'll see what flushes it. It's something a little bit different. So here is our pipeline. Our old friend the pipeline. So in the normal case for most instructions for non Branch instructions the program counter the next part of the program counter + 4 and what we saw in the diagrams would have drawn this is usually ready on the decode stage. And the reason for that is that ": [
+      920.7,
+      951.4,
+      11
+    ],
+    "what impact will moving this piece of heart around have on my Branchville a penalty and what kind of impact will that have on my cycle? I'll make these trade-offs a very fine grain, right so Intel will Trace 1% and it has lots and lots of money and lots and lots of people so they will go and Chase 1% and they will chase it three times and then ": [
+      3927.2,
+      3949.4,
+      95
+    ],
+    "when they go deep with a d pipeline you have to have really really really good Branch prediction accuracy. You have to be really active 99% is like a good starting place for you to be hopefully So, how do we do that back or taken for not taking is not going to get us even this idea? Right? We said loops loops are pretty good. Right the backward edge ": [
+      4347.1,
+      4370.9,
+      111
+    ],
+    "which in this case will be out somewhere. I taken francese. And I had somewhere after that. So there is always an instruction. Because there is always something that lives at peace equals PC + 4. krietz Auto if you accidentally put garbage here than the processor will try to execute garbage and I'll throw a trap but there is always a couple things got this could be garbage. You'll ": [
+      1730.6,
+      1767.1,
+      38
+    ],
+    "who would say that the CPI? or the branch Is 3 rights of the bay CPI is one and we have a two cycle oil is three so fair Computing the average CPI, that is 1311. So the averages what? so the average people's ass X over All right. So keep that in mind we go in his room looking to see how this impacts performance in the performance equation. ": [
+      1413.8,
+      1457.6,
+      28
+    ]
+  },
+  "File Name": "Intro_to_Computer_Architecture___A00___Swanson__Steven_James___Fall_2018-lecture_7.flac",
+  "Full Transcript": "1 seconds  5 4 3 2 1  5 4 3 2 1  Your question, sorry.  5 4 3 2 1  All right. I concluded the quiz part. There's some additional questions including this one.  Turn up bass on News 5 4 3 2 1.  and  5 4 3 2 1  I don't know why that was so funny.  5 4 3 2 1  5 4 3 2 1  the last ones of typos, but you know  5 4 3 2 1  5 4 3 2 1  5 4 3 2  1  alright, thank you very much for participating in my various quizzes and polls.  The last time we talked about David hazards we talked about how data hazards happened when the processor needs to dinner, but it doesn't have the data and we talked about some ways to get around data hazards we can stall and the thing that nips does a lot of is it actually designed the I say so that David has his just don't recur how to make the heart of rice easy to build. Today. We're going to talk about the Third Kind of Hazard hazards last week control hazards are kind of similar to do houses in the sense that were waiting for a piece of information that we may or may not have it in this case. The piece of information is what the next instruction is. So this is the value of the program counter. So I have a sequence of instructions and I asked you one of them is semantics  To the next one and so forth and there's a if there's a branch then I might jump to another instruction.  But the key is that after a while after I am finished with one instruction. I need to know what the next instruction is going to be in because her pipelining right? We have fetch decode execute memory and right back. I fetch here and buy the when I need to fetch the next instruction that the the the initial inspection that I fetch is only a decode so I don't actually know what the what the next program counter should be at because if it's a branch I won't find out until exeggcute or so.  So these occur because of branches and because of jumps there are some jumps how you may have read about the ticket value from the register file and use that as the next program counter on again. We don't know that until a couple of seconds later. So there are two choices that will look at for dealing with this kind of the first one is sort of the default and that is to stall. I remember we said that we can always start. All right, we'll stall you can in the worst-case you can issue an instruction and wait install until it makes it all the way to the pipeline. Then you can do the next instruction in all the way to the pipeline. Your process will be really slow but it will work. The other option is that we don't know why but this should be that we will just  Bill, just eliminate well.  Hello.  We can.  design  them away.  But I mean by that is the same thing that nips did with data hazards or they just designed their instruction set so they can occur. Memphis has some versions of nips take a similar approach. They just have designed the data are the control has its way and the third option which is kind of interesting is that the processor can guess  Brighten, so this is something called speculation, which is a very powerful idea in computer architecture. It happens in lots of places and we'll see some more of it. And so the process is going to make a guess about which for the branch was going to go and it's going to proceed accordingly, but then there's a problem of what happens if the gas is wrong and which case you might end up flushing the pipeline to get rid of the stuff that I was on the wrong path and then we'll talk about some strategies for making better guesses because flushing a pipeline turns out to be expensive. So it's like to do it as infrequently as possible.  I'm aniki kind of thing to keep in mind is the difference between a stall and a flush. So we talked about stahl's already. That's where we stopped the front end of the pipeline and we insert no Ops and they flow through the pipeline doing nothing and then we'll see what flushes it. It's something a little bit different.  So here is our pipeline.  Our old friend the pipeline. So in the normal case for most instructions for non Branch instructions the program counter the next part of the program counter + 4 and what we saw in the diagrams would have drawn this is usually ready on the decode stage.  And the reason for that is that the fetch you can't actually tell whether it's a branch instruction or not until you've decoded it'll actually until you can tell you to cut it. So it goes in here it goes up to control.  And the control says it's not a branch. It's an ad. So the next PC is just the PC + 4 and so I can actually make this decision till I know this. So in this case the program counter is available in the detailed stage, but this is actually not even good enough.  And that is because if you look at this, we would you send these diagrams of time where we have the place where sin dated is produced and we have the place where it's needed on the next instruction and time goes this way then we see that this is actually a backwards dependence and time and we can't do that cuz it's on the PC. This is pretty bad right. There is a hazard control hazard.  On every instruction potentially at least our designer process are the pipeline so far.  So, how do we fix this? So the first show we need to know if an instruction is a branch in the fetch stage. How can we accomplish this so one way to do this is to partially decode the instruction infection so you can have a little bit of logic here. That's like  is this a branch?  And I can put that into the fetch stage right a little and make of the critical path to the fifth stage a little bit longer.  Bartleby very convenient that will know where that is. So now I'm here. You just need to know if it's a branch or John for something else. And if you look at the opco tables for you will see that it is very easy to tell whether instruction is a branch the branches all have very similar up codes. They're very easy to write a little bit of logic that will determine whether or not those instructions dab Ranch. I also see a way later on where you know, somehow the program gets into the instruction memory and you could actually pretty code the instructions there and you could add a little bit to the end of the instruction where it's the internally the instruction would be 33 bits long and the last bit would say, I'm a branch in that bit would just be there ready to go. So I be another way to do this, but this is pretty coding or partial decoding and so we're going to assume  Let me do something of you something like that. So that control Hazard is gone. And so now for normal non Branch instructions, we know the PC in the on the next cycle. No problem.  All right.  Every day like this and now we see that our arrows go forward in time, which is just what we need. All right. So the next case is 4 branches. So here we have our prototypical Branch Branch takes two registers and offset, and we talked about how we compute that stuff. The key thing is at the branch is resolved in the execute stage where the ale use some tracks S1 from S2, and then checks for the result of zero Cabello Taylor not zero in this case cuz French or not equal and then we set it either to PC + B C. + Austin Peay sequels PC Plus offset, actually.  Four score and then otherwise, it's just pc4pc + 4  you're not throwing a rave in here. We don't need a stroboscopic PowerPoint deck right now that has the problem is a lot harder because we can't do some clever trick because we need the value from the register file. We also need to tell you maybe you can build another ALU. You can build a little ladder to do the branch calculation.  And we get a little buzzed. How pleasant.  But I would definitely that I was going to register file right and so we've got to read them. There is a much bigger problem.  And then the third case is for jumps. So there is an instruction called Jr. Which takes a single register value and it basically just takes a register value and set the program counter is not to be equal to it. And in that case we get the value in decode and we needed the previous cycle infection. So those are the two.  Those are the two control has it so they have to deal with.  I'm alright. So the first option is that we can stall stall is we saw last time. So in this case, I have a branch.  well  all sorts of crazy effects  So in the first branch of the first case of a stall on wearing a branch to somewhere. Now one thing that we could do is that we could just decide that whatever we see a branch. We're just going to stall for two cycles, right? So we'll just wait and so this ad which is in Fetch will sit there and fetch and instead we will insert to know I was just like we did with the date of houses. We saw last time and those be those I know I'm supposed to the pipeline doing nothing just like they did last time we can check that there is still one thing popping out of our pipeline every cycle. So it's this one and then that one  and then how  I have a bag of my slides.  What should be finishing that cycle?  This light is like 5 years old maybe 7 years old.  So anyway, there should be something finishing this cycle. So maybe my stop maybe my Knopfler off by one. I don't know why that would be  Anyway, so then there is something finishing on this like others to think finishing that cycle. That's all so bad.  I would get a point off at this for my homework assignment the ad for to the problem. My ad is actually know it's delayed for 2.  How about the next destruction?  Anyway the out of the late for two cycles. And then once that has finished we'll know what the next we know what the next Branch Target is, then we can go on in and start hatching from it.  So what is a suit or CPI? So the answer is for the same and we talked about last time how when you when something stalls you charge the two cycles for the stall at how many cycles are to the instruction that cause them and so this case who would say that the CPI?  or the branch  Is 3 rights of the bay CPI is one and we have a two cycle oil is three so fair Computing the average CPI, that is 1311. So the averages what?  so the average  people's ass X over  All right. So keep that in mind we go in his room looking to see how this impacts performance in the performance equation.  So the label this is option zero because it's not a very good option the problem here. Is that the  We're stalling on every instruction. Right? So when we looked at this for Lowe's for data hazards, it wasn't so bad. We would just detect when the date of Hazzard occurred and we were just all in those cases but here there's always a data. However, there's always a control Hazard with a branch because every Branch needs to set the PC. So this is a bad a bad deal because branches make something like 20% of instructions and if you're stalling for two cycles on 20% of instructions your instruction your CPI is going to go way up.  The second option this is what moves does.  The last time we saw that nips has a low delay slide that allows us to avoid the the hazard that happens with loads and instructions that use the result of the road. So they need to hear is that the next and instructions and for MEPS and equals to instructions. To the branch are always executed right for branches.  And then the question is how big is in?  Well, actually let me say this. This is simple case. I don't get confused for the instruction to get to the decode stage. So for jumps.  n equals 1  and for  Missy what I do with this  Set of four branches in equals 1 or 4/10 equals 1/4 branch is it seems like I should be able to because it takes us two cycles to get to the execute stage. So this is good because it leads to really simple Hardware right for the same reason that it was a good idea to design a way to load delay or the load data Hazard for the load just to design the way to the the date of Hazzard with loads by adding a load delay claim reasons apply here makes it harder for a simple. The bad thing is that end cannot change right? So if I say in my first version of maps that n equals to  Right or any right angles to and then later and remember that. Value is related to the number of pipeline stages between Fetch and execute. All right, that's what determines the value of n e pipeline five stages. Maybe I want to push my cycle time lower increase my clock rate. So I will pipeline the 10 stages right pipeline case and will become the prey on how you do it all becomes. I'm like three or four that's what I will want it to be. That's how many cycles it will take for the branch to resolve but in my architecture right, I've said that n equals two, and now my my deeper pipeline machine and now has to make it appear that any close to even though the harder really liking to be go to for. All right, so this is exposing.  This is exposing.  Hardware design  in the ISA  Which bat?  sad face  All right. So the way this works if we imagine we have to delay slots then we have this Branch up here. We are his branches taken. So it's going to jump way down here and you know, there's like a thousand instructions in here maybe thousand.  Instructions, but the rule is that if we have to Branch today slots, then these two instructions are going to execute.  And the reason I can execute is that while the branche is floating down the pipeline. These are the the the processor just going to keep fetching A P C equals PC Plus for until the branches resolved and we can come down here and affect the fetch of the following instruction which in this case will be out somewhere.  I taken francese.  And I had somewhere after that.  So there is always an instruction.  Because there is always something that lives at peace equals PC + 4.  krietz Auto  if you accidentally put garbage here than the processor will try to execute garbage and I'll throw a trap but there is always a couple things got this could be garbage. You'll get a trap. This could be like at the end of a page of virtual memory and there's nothing after I don't like this instruction is at an address that doesn't exist effectively program will get a segmentation fault or something then you up.  Right to these could.  B  replaced  No Ops by the compiler.  So Branch through the branch delays, so the branch control hasn't resolved.  But you may say it's only has a single branchless life. So, how do they do this? Well, what day is soon basically is it there is a second ALU that fits in decode stage. I mentioned this earlier and basically this is a very simple you it's basically just a subtractor. So this only knows how to subtract.  Basically, could you can do all of almost all the branches does that it's much simpler than this ALU. This ALU has to do a bunch of stuff add subtract bitwise operations chefs and so forth and some of those are pretty complicated, especially the shifts. So this is much shorter. This has a much smaller cycle time if y'all still remember when I went through and I went through I did the detailed analysis of the timing delay and I miss processor, you know, this was our critical path, right? So if this is the critical path,  Then it was pretty big right this was like 6 nanoseconds or something. I don't know who this was. Maybe this is 4 nanoseconds. So if this thing takes less than 2 seconds or so, then I can add and I won't actually slowed down my processor at all, right? That's a pretty good deal. That's the next PC.  Yes.  Filling a spot good question.  So the reason that filling the spots is hard.  an example  if there's a way  I swear I saw yesterday had to get myself a big of there's another menu, okay?  All right. So why is it why is it hard? So let's say I have a branch here.  and  so what I mean is  my handwriting is terrible. I apologize.  Houser Elementary School, I was accused in my report cards of not devoting maximum efforts to my handwriting and my dad took away my Atari which is like  a Nintendo which is like a  Nintendo Wii which is like what's the Nintendo switch. My Nintendo switch back because they never got any better what I need. So there's two Branch play Slots here after this Branch. I need to find to instructions and executed before the branch that were not  That have no data dependence is on the branch right now. They they are the inputs to this Branch. Well, if that's the case, I can't move them below the branch because actually have to execute them before the branch so that I can know the brand the what the outcome is. So so this afternoon  if I had a little bit if I had a different situation  Where these don't have any defenses at the branch the defense is from the branch coming up here. Then I can move them to the ads down here into the to delay slots and I would be okay. It depends on the code. So if if you look at code for like like  Code for training deep neural Nets are code for doing big Matrix multiply. This is super easy because there's lots and lots of instructions right? I will do this thing called Loop unrolling and I'll have a big sequence of like a thousand instructions. I'm executing a branch at the end and I can easily pull some of those instructions down to put them out to the branch if I'm in something like GCC if you go and look at that code you might be Branch Branch Branch with like a single instruction in between.  I meant so they just not enough instructions around to move into those delay slots some complexities. I don't actually know the answer to this but I'm not sure what nips does if there's a branch and the branch lights.  There's a little puzzle for you to ponder over. I promise that will not be on the final or the midterm because I hard to imagine a less useful piece of information due to carry forth into your careers, but it's just kind of hard right programs really complicated when they're highly optimized and they're branching things are compilers. They have lots of branches and everything is tightly dependent on each other and moving code around this hard the same kind of problem. I don't know if any of you heard of vliw processors like Intel's itanium. How do people afford a titanium  Galaxy 3 people itanium was a billion dollar project at Intel to replace x86 took like 15 years and the fact that no one almost. No one in this room has heard of it, like makes people it until cry because it was a disaster and then one of many many reasons it was a disaster is because moving instructions around as hard. So I'm in this is why Britain with nips has one branch to a Slaughter the same for jumps and branches.  So for the rest of this deck, we are going to assume that miffed has no Branch toy slot. The reason for that has been modern processors don't have branched away slots in order for if we kept Branch to the discussion. We're going to get into that would become really really complicated for no really good reason. If you have questions on homework or whatever ask and we will make sure to clarify about whether or not you should be assuming there's a branch lights. We'll try to make sure you write that down. You need to know what they are needing. You need to know that lives has one of them. So that means that we're stuck with one of the other options we can stall the time we saw that was a bad idea. So the other idea is we want to stall less or maybe not at all.  So the first of the second I guess the second option is to predict.  So here we answer the question. Can the processor tell the future?  So here's what we know for branches that end up not being taken the PC is already known.  So that's convenience.  With a little bit of work you could also imagine that you could know very early maybe even in the fetch stage you could know what the other possible program counter as well so you could calculate it here. So you calculate here and you can add on than the immediate to the current PC and you could get the new pc so you can get the new pc really quickly.  So we're going to do is going to do something called Branch prediction or control speculation. And the first thing we're going to do is just assume that the branch is not taken because that's the easiest thing to do at this kind of by default. We already know the new pc is I will assume that that's what's going to happen. Now. The problem is that we might be wrong right some branches are going to be taken. And so then we are going to need to clean that up and talk about this. We're going to be a little bit of vocabulary a prediction is a guess about whether Branch will be taken or not taken I miss prediction is a prediction that turns out to be incorrect and the Miss prediction rate is the fraction of predictions that are incorrect branches. See how many times you were incorrect.  So first the first of our several Branch protectors is called predict not taken. So what happens here is that we have a branch.  First example, this is a not taking branch. And so it happened to branches not taken. There's no delays lot, but we just guessed that this ad is going to be the next instruction because they're predicting the branches not going to be taken and it turns out that that is the case. Everything is fine and that Brett. Adjustable flow through the pipeline just like it would if there was not a branch before then we have another branch has taken right is end up being taken over going to predict that it's not taken so we fetch this and and then Indie code when the branch resolves we say hey that instruction is wrong, right you fetch instruction what instruction should not have no effect on the program. And so what we're going to do is we are going to squash that instruction.  And this is also called flushing the pipeline. All right. So we're going to squash this instruction. What we are going to do is we are just going to replace that instruction all of its control signals with the control signals for no op. So just like we inserted a new off when we when we stalled when we squash we just answer to no op. We don't stop anything. Everything just keeps going this instruction what used to be the and keeps flowing through the pipeline and pops out the end doesn't know off and then as soon as we know what the new Branch Target as we start touching there and we start bringing the next instruction.  And so that is what we get on the following cycle. And so this my battery is running low does not count towards the instruction count for the program.  Right because it's not an instruction that whose whose execution was required by what the programmer wrote. So that's just kind of dropped on the floor that is wasted effort.  Alright, so how do we flush the pipe?  Oh and I should say as far as the calculations for CPI flushing one instruction increases the branch CPI by one flush. If you happen to flush to instructions that would increase the CPI pipe to turn this case for this branch.  CPI  Equals 1 + 4 this one CP.  I equals to.  Saturday this Hardware. It's pretty easy. You got a mucks right here and right here any place you can look and see where potential hazards can occur and you can tell where you might need to flush in mips you maybe after flushing to places so as to muxes and we can just mucked in the zero. Remember those are the control lines for no op. We have these new signals at staying out injecting a whopping between executor memory and inject no off between deconex get anything else from happening resolved before anything is actually happened. Right? So in all cases, we know friend since we never have to answer to no out there or if squash instructions already past memory by be problematic because we might have already stored to memory right there not to back out that store operation and we also haven't written anything back. Otherwise, you have to go back and repair the register file.  I am Iron processors will talk about this a little bit, you know, both of these things happen in the register file and the memory can get updated incorrectly and you'll have to go in back out those changes.  Being that is building slowly across these lectures is that modern processors are really really complicated.  I want to see some more of that and they are really really complicated. All right, so that was the first one so you can think of this version of static friction. So static means that it happens at before run time. So this isn't a compiler the compiler decides whether so if you think about how the compiler lays out code it can decide sort of which branch of an else comes first or second as it's laid out so it can set it aside in our predict which direction of the F else is going to be the not taken option. There is we are not taken we can also have taken you can think about what are the pros and cons of predict taken?  Who can really think of one reason that predict taken might be a seem like a good prediction to make as a default.  Yes.  For Loops, right? So loops  usually in a loop code for back of the top this branch is usually taken round go through a loop a hundred times. So this is taken.  All right, I wouldn't like to advocate for predict not taken.  Sure.  Checking for errors El yeah check for errors. Maybe checking for errors.  So in case you know, I'll be running along to through two and if there's an error.  Then I'll jump down to.  Crash there until it says crash.  What is that say crowden Creighton?  You can still learn cursive in elementary school.  ever use cursive in the real world  me neither. All right, so are other stuff a third option.  This is pretty sister to cover is backward taken for not taken. So start of combines these two because loops loops are a great reason to predict taken that usually backwards usually jump up to the top or at least a compiler could arrange it so that the backward branches on Loops are actually backwards and then, you know forward two branches. You could break the Beyond not taken.  So this is great.  Set of all the compiler will make this happen.  I got her is still running low, but does not seem like that should be.  Oh, I running really loud now.  Turn on USB C.  It is a Surface go.  I am a firm believer in the you've USBC universe.  But maybe in a moment. Yes. We'll see how it goes. Most of a pragmatist.  I've spent $400 on dongles. I should be able to charge both my laptop to the same charger as a bird. I don't even know how to.  I can still feel weird.  But I still draw I can.  I will try this out. Can I Advance know? All right.  Can I get out? No?  Sad Panda  Oh.  so when really stupid thing about these USB C dongles from from Mac is that they actually  don't work unless the computer has power so I can if my battery is dead. I can't actually power my laptop through the dongle.  All right. Yes. I will take you up on your offer.  Oh, no, it's no it's on now.  Bring it on up anyway.  Oh.  I am a very talented guy when it comes to tripping over things. I just want to make sure that one.  Thank you.  All right.  I know you do this playback.  Infinity check it out of here.  All right.  so the compiler  the compiler is going to be in charge.  polish problem  Great pastime of Architects is making things are compilers problem everything the compilers problem and the compiler basically.  Gave up and went home. All right.  Here we go back or taken for not taken. So it's going to be sort of a new piece of our pipeline the branch breaker module.  Come on.  Frankfurter module that determines the gas that we are going to make  so the branch taken for the BT BT f&t Branch Fortress 2 inputs. What is the sign of the offset? So that comes out of the decode stage right inside the instruction the immediate value for a I type branch and the branch signal from the comparator to check whether the prediction was correct, and it's going to do both the gassing and the checking whether the guess was correct as a mucks, but use the control box that says what the next PC should be and then it has a Miss prediction signal that causes control to flush the pipe. I wanted to text it special instructions that are incorrect.  Alright, so here is a clicker problem.  So the BT fnt Branch breaker has a Miss prediction of 20% ranches are 20% of instructions.  I miss prediction this picture increases the CPI of a branch by 1. What is the new CPI? Assuming the base CPI equals 1  All right.  So you got to figure out how many branches how many instructions are affected with the new CPI is going to be as we saw earlier calculating CPI. It's basically a weighted-average. So give that a shot.  How can I will turn on?  10 seconds or so?  5 4 3 2 1  critical consensus  so people say it is what B. I like to be pretty well.  So why is it be so?  by the be so if we go through so that I miss prediction raises point to  so the first thing I have to do is figure out how many instructions are going to have which CPI to the Bay CPI is one that's what all the instructions that aren't Miss predictions are going to have to figure out how many missed connections are going to be the respiration rate this point to the chance that an instruction of particular instructions of branch is also point to  Answer Point 2 * 2.2 equals something he multiply that times the CPI for a misprinted branch. That is to this is the CPI.  This is the Miss prediction. Right? And this is the number of instructions and if we add this to 1 - 2.2 * 2.  * 1 rights of the weighted average of the  this predicts  lean on  this predicts  Right. It's not the correct predictions because this includes all you know integer.  Operation does Wild Kratts with a bunch of other stuff over there? And this ends up equaling 1.04?  a question about that  All right.  So in this problem if I were to worry about Computing speed up what I worry about the cycle time or the instruction count.  Who says I don't care about that stuff.  One person says you don't care about insertion timer cycleton. That's correct. We don't care about that. No not here, right because I also haven't said anything about what the will change it be. However, the next problem. I will say that bcnf 20% 20% of branches changing a front end. The front end is the branch and this is the front end.  This is Bachelor. This is fetch and decode the front end of the processor increases of cycle Time by 10%  All right. So what is the speed of of back or taken for not taken compared to just stalling on every branch?  All right.  So molar that for a while this was a little bit more complicated.  Or I can refuse like 5 4 3 2 1.  Oh, okay.  Alright, so some disagreement.  So Converse see if you can come to some consensus about what the right answer is.  whether 10 seconds or so 5 4 3 2  1  0  Morgan Center  not total consensus. All right, let's go to the solution here.  So the correct answer is C.  Call his wife. So first we got us a live performance equation Swede to calculate the execution time for both configurations. So This Is Us the calculation from the previous slide.  so we have that the Army, this is just a calculation 3 beside the CPI is 1.041 because  That increase the for not taking increase the second time by 10% instruction count stays the same because presumably were executing the same set of instructions to the until otherwise. And so the execution time is 1.144.  That's a speed up.  All right.  I guess what?  What are the units on execution time? I should be seconds or something?  struction count  Alright, so this would be times. This is this is basically what is that number?  seconds of clearly not seconds  nanoseconds  I don't have a frequency right so I have a cycle time.  1.1. This is really 1.1 *  You know any which is the original so this is a * 1.14.  So this isn't that's good at least.  So this is actually the execution time. This is bet for one instruction.  Effectively. All right. So that's a little bit of a distraction. So that's what comes out of our situation is much easier. It's just the weighted average of the branches in the non branches. The branches have a CPI of 2.  because we're stalling out of recycle and the point 2 comes from a fear of the cycle time is the same the  The Insurgent kind of the same and so execution time comes out of 1.2 and then we can take the ratio of those two and we get our speed up as 1.05.  So this was  Not as big a gain, right as we might have thought we lost something to do the cycle time when it was a 5% win. So that's a good model for problems that we are going to look at in the future.  Alright the branch delayed penalty. So this is the number of Cycles between Fetch and Branch resolution this the branch resolution is when the branch outcome is known for the branchleigh penalty of instructions that get flushed on a Miss prediction prediction causes TPI of the branch to increase by the Branch High penalty. We talked about that a little bit already.  Alright, here's a clicker problem. You can do on your own.  the answer is a  it is not bre. So here's the key to the solution. If we remove the comparator from decal, that's the trick right that nips uses to get the branch lay down to one cycle. That means it will result branch of the execute. This would reduce volume by 20%  So this is going to help.  But this is going to hurt.  Right cuz this is going to cause the branch to lay.  Equals to go down. So if we push through the performance equation, so our current design has a so we dissolve in decode if we're resolving decode then we have a branch delay of one and this is the math we had earlier so we get 1.04. That's what we saw earlier if we resolve an ounce.  If we resolve in execute, then that's our new Branch delay.  The rest of the math is the same since canceled it bigger, but the cycle time goes down by 20%  cycle time goes down by 20% and these are the this is the branch delay.  Execution time of 0.846 and R speed up is 1.2.  So what actually help to do that should be better to resolve an exeggcute if we could reduce our cycle time right side. So how do you make this decision? Right? You are the processor designer and you were trying a bunch of different stuff. I need to look at all these you know, you look at a bunch of applications. And if you talk to you until they have this huge collection of things called traces traces are basically a big list of the instructions that a program executes like a whole process like Linux running Microsoft Word out of a trace about that and they have huge numbers of these probably more than anyone else in the world and they were like how frequent branches are and how frequent are and they will go through and think about it. Like what impact will moving this piece of heart around have on my Branchville a penalty and what kind of impact will that have on my cycle?  I'll make these trade-offs a very fine grain, right so Intel will Trace 1% and it has lots and lots of money and lots and lots of people so they will go and Chase 1% and they will chase it three times and then 30% faster processor, right? That's kind of how they speed things up.  So it's all about the trailer. So the importance of pipeline. So there are two important parameters of the pipeline that determine the effective range of them for the first of the branch decode time. So this is how many cycle does it take to to identify a branch have cuz that's the first step right? Because that determines whether or not you should even be making a prediction such a difficult time in our Design This is 0 right. We just sort of asserted that we can easily decode and tell whether or not a particular branch in such as a branch mips makes us very easy x86. This is really hard cuz the next 36 instructions are not all the same length. So you don't even know where the next instructions starts let alone what it is until you actually have already analyzed part of that instruction.  So this is kind of a big deal depending on your architecture in some architecture is even something like nips. If you had a very deeply pipeline design. It might take a few Cycles to fetch the instruction which case it'll still take. I also have a significant Branch to go time any other Branch resolution time in our case as two cycles.  I'll take a look at Intel Haswell. This is I don't know. This is probably three or four years old now branches take 14 Cycles to resolve.  Ricers 14 stages between Fetch and execute or whatever the branch gets resolved identifying a branch takes about three Cycles again because until has his variable size instructions and for some more complexity talk about later will not always exactly the same. So you really can't stall right? If you're going to stall for 14 Cycles every time you take your branch. Your CPI is going to go way up and your performance is going to go lay down and it also, you know 80% Branch prediction, which is what you might get with backward taken for not taken is also not an option because 80%  BabyFirst about 20% of time you're doing this the performance is still going to be really bad.  I'm so if you go back and look at this math, right? So if we take this, this is our Branch to lie, right if this was 20, I just for example instead of one.  That if we go through and do the math, right?  Animals law tells us that even though branches are relatively infrequent. This is one of the correlation handles lock branches are relatively infrequent, but you can't ignore them because this will quickly become the dominant source of delay in your programs so that we need to pay closer attention.  We should make that close attention to the branch light what we really need to pay attention to the way that you fix. This is by paying attention to the Miss prediction rate. I want to get that rate way down.  So there's the math and we go through and he said even though, you know, we increase from if we make the branch like 20 and the speed up goes up to two point one three percent.  Alright, so here's my back or taken for not taking is not good enough. So this is a little diagram of the most pipeline. We have our five stages and we have to instructions between Fetch and Branch resolution, right? So, this is the branch  This is the instruction that have touch behind it. So I have to instructions branches are pretty frequent. So there might there's like about One Branch in there. In fact, they're sort of at least one branch and you're there could be more than one.  if we look at a  Call a dual issuance of processor. So this is an instruction issues to instructions of recycle and we'll talk about how you can do this in a minute. Now. I have a 5 instructions so this  This is the branch will say instructions came after the branch. Can I have five branches?  If we go further and I doubled my pipeline. So that this will say this so you can't see that but right and run, so I'll say this is the branch now. I have 11 instructions between fats and Branch resolution. I could go deeper still for why does not unusual for modern machines. And now I have about four branches sixes. Maybe I want to know depends of the machine still not impossible deeper is fine. So we now have a branch resolution. So that means  Friday night in gas if I Which Way Branch was going to go and then I started fetching instructions like mad. I'm fetching in this case 6 instructions for cycle.  Which is what modern processors do and I did that for 14 cycles. And now I have fetch 71 instructions on behalf based on that single prediction. What's worse than that is that 14 of those are branches. So I also guessed about those. So I guess then I guess it's like I'm just screaming down this path and like left right left, right? That means if I get any of those branches wrong, I have to throw away a huge number of instructions right with the disaster. If I get that first branch on I will throw away 71 instructions worth of work, which is first going to cause my CPI to Skyrocket, right? I've been doing useful work, right? So it's also a waste offered a wasted opportunity.  Who's how bad this is? So if I have this at 14 branches and I have 80% accuracy the chances of me making it through that are 4.3% So I am always going to be wrong basically, right 90% accuracy. I am wrong 22% of the time still terrible 95% accuracy. I get it up to 50% awesome 99% accuracy about 80% of the time. I will get to the end of my 71 instructions that I'm going to throw anything away order to make this work and this is how modern process go fast.  Is Dago wide and deep we call it? So I go why that's why this when they go deep with a d pipeline you have to have really really really good Branch prediction accuracy. You have to be really active 99% is like a good starting place for you to be hopefully  So, how do we do that back or taken for not taking is not going to get us even this idea? Right? We said loops loops are pretty good. Right the backward edge of a loop is almost always taken if I go through a loop 50 and I constantly always predict the backward Branch. What's my Miss prediction right going to be?  What 1 + 52% right means I'm already falling short of my target, right? So that's like the best case for static Branch prediction is the prediction of the right still going to be pretty bad. So Dynamic Branch prediction is all we do long pipes and the hardware is going to watch what's happening in the program. It's going to make a guess about which way it's going to go and it's going to get really really good at making that guess.  So we are going to basic idea.  Is that you look at past behavior and try to predict future Behavior people have studied lots of different ways to do this. You can peek into the register file. You can get him for the program. You can do. You can use neural Nets everything has been tried Branch prediction is like the most thoroughly studied area of computer architecture as far as research goes and everytime. I teach graduate architecture undergraduate architecture great idea for a 1995 or hey, there's a paper about that in 1988 and they look very sad and I say no. No, you just had a publishable research. You're just like 25 years late.  But you're on the right path. So at this very clever things you can do.  The papers are really boring now. So don't do research on that. If you go into a computer architecture research. All right, so breakable control. So we're going to use previous Branch Behavior to predict future Branch Behavior. And the question is when is Branch Behavior predictable? So a couple people to mention these already. So loops.  That's a good example. What is another example of when Branch Behavior might be quite predictable?  And predictable based on really anything.  someone said array  But they said a raise a raisin Loops go together the app. I'm just riding through an array is a source of possible predictability.  What about what day it is?  So there's lots of trees that could just be could be a guarantee.  That's spelled wrong.  I also got some egg grades and effort for spelling.  But there's nothing left for my dad to take away. So go ahead.  User behavior for tomorrow. Yeah, so like a how could user predictable user Behavior lead to predictable Branch Behavior?  a lot of Thai  now  interesting  security so what's this is like security exploits and thought about that but  They're very repetitive Behavior to the skids or what I was talking about. What if it's Tuesday, right if there's a branch somewhere my program that says if it's Tuesday then do this that branch is very predictable on Tuesdays every day. I only miss predict once every 24 hours probably, right?  user Behavior  This includes things like configuration parameters right there. Cuz if this flag us that then do I the flag of set one to the beginning of program execution will be set that way forever right are cases there places. This is actually very common Linux in the source code to run a bunch of different architectures. Some architecture is especially embedded architectures the run a little tiny computers. They have they still do static Branch prediction. And so if you look inside  Inside the Linux source code you will see unlikely.  We will be some code in here and this will be inside a branch. It'll say if unlikely and then you know a equals B, and that's a hint of the compiler saying this branch is usually not the case. So you should arrange your code to to usually skip that so make it you know for taking back or not take whatever the right thing to do in the architecture is the compiler knows how to do that also be correlated. So I'll just jump to my flute and slide. So correlated control soave is equal to 10 + B is something usually larger than a then if I do this then those branches are probably pretty predictable right B. If this is true or this branch is taken in this branch is probably going to be taken to write and then play in the real world. And you know, I might write a big switch statement or a bunch of if then else has those things are not independent, right cuz inputs are not random.  Function call so these John these things this transgression also applies to jumps right because of the branch the branch decode. So for instance if I am doing something and I hope I'm calling a function through a virtual pointer. This is actually grabbing some pointer value and jumping to it. So usually this is Friday going to be constant because usually going to be calling the same virtual function to a lots and lots of places where control is very predictable. And so the history of Transportation research is all about trying to identify these in Hardware at low cost and very very fast in the pipeline everything else we need to do and then I'm using that to predict what's going to happen next on Tuesday. "
+}

@@ -1,0 +1,701 @@
+{
+  "Blurbs": {
+    "1GB of virtual memory and 8 gigabytes of physical memory. So that's great. But if I have lots and lots of rings all of his friends or all of her friends that I'm going to space because I have you know, it's just like 10 processes running but only 8GB memory as we virtualize it by paging so we'd like to make it appear that there is more memory in ": [
+      2020.7,
+      2045.1,
+      58
+    ],
+    "I bought when I was a professor was the first dual-core laptop that I owned and there was a big is a crisis of parallel programming. What are we going to do? And there was all this research about how to fix this and make it better and very little is actually come from we have not solve the fundamental problems that make it hard and some people are getting ": [
+      2877.5,
+      2898.1,
+      90
+    ],
+    "I was not guaranteed to do that someone else could snatch it away before I was able to excuse my instruction. I might never make forward progress. So I'm guaranteed execute one instruction once I get ownership. Once I'm in the own State I can read and I can write all I want so I can read and ride over and over again. Everything is fine. If I receive it ": [
+      3617.2,
+      3638.6,
+      120
+    ],
+    "I will still have compulsory misses. So we make them so they can fully associative to minimize the Miss rate expensive because I need to go and somehow look through that big tree in find a translation that I'm missing. So many multiple Hardware actually include someone cut a hardware page table Walker and this is basically a little special a piece of Hardware that understands the format of that ": [
+      1030.9,
+      1069.0,
+      23
+    ],
+    "I'm going to have a whole bunch of cash misses when I come back and that means a performance is going to be pretty bad. So flushing the cash on the context, which is a bad idea. some other problems So there's also no rule that says that each virtual address has to match a different physical address. So this mapping that I've drawn right where I have a physical ": [
+      1497.6,
+      1523.0,
+      40
+    ],
+    "So if something is red, that means that the corresponding page actually lives on Disco, it's not in memory. So if you go through to the translation that paid you need it happens to be I have to go and fetch it from disk and I will bring it in. I'll figure out something to evict if I don't have any free space. I'll write that page into deer and ": [
+      2113.9,
+      2132.6,
+      62
+    ],
+    "Sometimes we go and change the way the things are graded everybody. So this is the old. This is the new curved you guys messed up my beautiful curve. As it turns out. I don't know. I try not to decrease grades on people. So I think all this shifting around kind of hard to tell but actually it's just people's grades got a little bit better so that the ": [
+      321.5,
+      350.2,
+      0
+    ],
+    "Spar space table. And so when I go and look in the tlb, and I find that there is nothing there on the translation I need is not there. This piece of Hardware will get triggered and it will autonomously without running any software actually going to walk down that tree and find the translation and put it into the base table. If you know the words page fault. This ": [
+      1069.0,
+      1096.3,
+      24
+    ],
+    "a cash access we take the address. We split it up into the offset the index and the tag we're going to reason the same address. So all three of those pieces are going to be the same. So that means we're going to go to the same index in the cash and we're going to compare the same tag the same value as it was already there. And Sobe ": [
+      1428.5,
+      1447.6,
+      37
+    ],
+    "a hundred times a second or something on a modern processor, maybe little bit faster. Every time you take it interrupts. You also do a context which we have to flush the cash. So this is a bad deal because every time I flush the cash, I have to Briley lose all of my locality. I forget everything I know about the processors about that processes access pattern and now ": [
+      1478.6,
+      1497.6,
+      39
+    ],
+    "a little better but still most things are not multi-threaded. Set of our purposes around time at all processes and threads together as thread because there something that you could run on a corn and what are there a high-level thing or a low-level thing? It doesn't make much difference system. If you go and look there might be like between one and eight or something actively running processes. Most ": [
+      2898.1,
+      2919.9,
+      91
+    ],
+    "a translation. So it's at least once per instruction and it could be up to twice for instruction. If it's also memory operation. We went through and looked at how big that might be for a 64-bit address space. It was really really big like 64 petabytes is way too big then we observe that we can store Augusta parts of the memory mapping. We actually need because an application ": [
+      527.2,
+      551.7,
+      5
+    ],
+    "a trend an address in Virtual address for going to map it into a physical address the virtual page number goes to the tlb just like it did before and then down here the white part of the page offset. So we had before my battery is running low, but Look what I have. I gave up on USBC. And I bought another power adapter. So now I carry two ": [
+      1837.1,
+      1867.3,
+      53
+    ],
+    "a waste of time true or false. true All right. Etsy next up Darn, it's too early for me to just let you go early for Thanksgiving. No. Thanks for the input. I appreciate that. No, it's not. It's not really I saw my projected grade on the spreadsheet. I'm happy. Alright processors cuz they're really important. So the only processor this at this point in the course one, is ": [
+      2310.3,
+      2367.2,
+      70
+    ],
+    "about cnp's so what is that? Like I said there an easy way to spend transistors. The other is that they're really good from a power perspective. So if I want to double the performance of that my processor my computer can give me one way to do that is by doubling my clock frequency so I can go from 1 gigahertz to 2 gigahertz. Another way I can do ": [
+      2604.0,
+      2630.2,
+      79
+    ],
+    "address is it is try not to be very handy to have a single or to have a single physical address that appears as two different virtual addresses in an address space so friends in Tera have a page table. I have addressed 1000 and 2000 and they both map to the same address. So that means that both of these things appear to have the same contents of a ": [
+      1523.0,
+      1548.1,
+      41
+    ],
+    "address. This is the cash index portion of our address lives inside the page offset. Because there are the page off that just gets copied from the virtual address to the physical address. So as long as we guarantee that that that portion of the address the UV index was inside the page, then we can use the index to go and do the cash through the cash look up ": [
+      1939.4,
+      1964.5,
+      55
+    ],
+    "also the underlying technology the run but it's like it's supposed to make paging work and it's built around on top of the theater new super fast ssds which are like 10 microseconds. But as we all know this is still very very slow for memory access. I'm so we'll see if that works. See it works out. Okay, sometimes like on a laptop or something you can get away ": [
+      2259.3,
+      2286.8,
+      68
+    ],
+    "amount of Trent of coherence transaction to go on your system and you're even more concerned about making sure the Beast come here and transactions don't go to another car because it's very very slow. And there's operating system supports to prevent to help you design your insulin your software so it won't do that very much. All right, that's how it works. So now we go back to our ": [
+      3724.3,
+      3746.4,
+      125
+    ],
+    "and look at its local cash. What's the cash Miss Ferris? I will go to my memory. Hey, hey memory what you got? I know you have be greater than 1000. So I'll bring that into my local cache. Now let's say that. I start getting 1000 process C&I store C. And so now I have to eventually three different values store that I just 1,000 and if I were ": [
+      3218.7,
+      3248.1,
+      104
+    ],
+    "and so forth. This is some other special register. We still call it a registered cuz it's like a storage room storage location in the processor holds the root of a table. So that means if this point to this particular trees and that's not register, then that is the translation of going to apply to the memory access has that I'm going to do and if I change from ": [
+      688.1,
+      716.4,
+      11
+    ],
+    "and we'll store a physical tag. So the tag is all this stuff up here. So we'll start physical tag, and we will do the tag check using the physical tag. So if I have a hit I will know that just by Irish I do the access the access for the cash is actually what takes most the time through the access it comes out here and then and ": [
+      1964.5,
+      1984.6,
+      56
+    ],
+    "are going to store the page table to the NRA tree. So if this is too V to be a 32A Tresor a tree with a branching factor of 32 and countries that don't exist if there is no valid mappings under that part of the tree and then we're going to walk this tree to do the translation. So here's a picture of how this works. So we have ": [
+      639.1,
+      664.2,
+      9
+    ],
+    "as long as it has the same value that store and all of those copies and this in this case only reading is allowed so no one is allowed to modify a cache line that is in the shared state. The second state is called owned and that means that there is only one cached copy of the data and this is it right. So this is the one true ": [
+      3480.8,
+      3501.1,
+      115
+    ],
+    "as we would like to know just configure them appropriately. So well in the clouds this works pretty well, but for normal users, it's not quite as big of a win. So that's where we are. We've gotten ourselves into kind of a pickle and now we're just trying to figure out how to program them. So one thing that we need from our multiprocessors is a way for programs ": [
+      2943.7,
+      2968.5,
+      93
+    ],
+    "at a gas mask for cash be. Fel-Pro problem, okay. What is the question? Start again. Coraline 65 + 85 is 4 5. 4 minute So you are asking so what that means? Okay. I know I only have the key. Okay. So here we are this one here. Oh to see. bright doesn't the address in binary and you have Chromecast to be right so that the cash into ": [
+      4045.9,
+      4176.0,
+      132
+    ],
+    "be a lot deeper. I am the Trilby little bit more complicated but this is basically how it works and this gets me more or less to storing. Just what I need, you know, you can set up addresses or mappings that would require a whole lot of extra space, but typically in a line since I've been pretty compact we tend to allocate big chunks of memory together. This ": [
+      815.4,
+      841.4,
+      16
+    ],
+    "be great and also do a store here. It's processor 3 I have to also after I pay this version and ask them have to reach over and under this version and I have to go in and pay this person if they two different copies and if I have a big system from Intel that has 256 processor socket, so that's a hundred and twelve course. I might have ": [
+      3295.1,
+      3319.7,
+      107
+    ],
+    "because I can grab that data out of the cash that has it. So that happens to be nearby. I can satisfy my load from the other current owner or another share then if I do a store at see this guy goes in a non-state in these guys become invalid. And if I do this it appears to everyone that they all of these actresses are totally serialized and ": [
+      3769.9,
+      3791.5,
+      127
+    ],
+    "because we're going to be doing invalidations. Yes. There are not multiple chairs. There is only one cached copy of this data. That is what that means. Yasser reading and writing is allowed only by the owner. by the owner Nope one copy only. That is the rule so there can be multiple shares, but there can only be one owner. As a result the state machine looks like for ": [
+      3525.7,
+      3566.9,
+      117
+    ],
+    "been growing mentioned a few times in this class. So you cannot buy a server that has you know tens of terabytes in and those those big memories. They're not used by a million little programs using a megabyte at a time there used by one giant program that wants to map, you know, 6 terabytes of data because it's serving a web cash or something or is it in ": [
+      1173.0,
+      1196.9,
+      28
+    ],
+    "but we also would like to have a physical cash. So what we do is we build a cash that is virtually index in physically tagged. The problem right was that we were starting virtual tags in our cash. That was the fundamental problem that we had. So we will avoid that by storing physically physical tags and then we will use the virtual bit the indexing. So here is ": [
+      1812.9,
+      1837.1,
+      52
+    ],
+    "can actually talk to each other. So here's the basic model anything to do with me to get rid of which is a performance faster, but we'll do it just for a moment and then we'll just say, you know processor one. You may execute one loader store instruction. Will wait for processor went to do that and I will say Okay processor to you may execute one Motors through ": [
+      3043.3,
+      3067.1,
+      97
+    ],
+    "cashline at a time ever. so for this I mean this This is just one reads was just going to read one cash line. So you read this one and then you heard this one and then you read this one. And then you heard this one in each. One of those is just one cash line that you're reading. Anna questions Oh, you're all done with homework somewhere 7, ": [
+      4278.9,
+      4318.6,
+      135
+    ],
+    "changes of another processor makes use that to implement locks. That's the key kind of primitive that we need. That's all I know is I asked this before but how many of you take an operating systems? All right, most of your kind of lock if you haven't taken operating systems. Stuff U of U O lucky you it's coming now. Locks are terrible how many people have taken operating ": [
+      2986.4,
+      3011.6,
+      95
+    ],
+    "copy buffer point system physical pages that are What are some of the physical address face and my big data points with some other physical pages that hold all that data? So I could issue a special system call. It happens to be called Emory map and I could cause the the page table the maps The Unknown the the contents of my buffer or be to just point to ": [
+      1656.6,
+      1692.0,
+      46
+    ],
+    "course, right? I have two things running. They're the same at Empower. Each of them has the same amount of power is single one was before so I just get a 2X increase in power. I so this is like really good in a lot of ways because power matters and you will actually get twice the performance at least in theory. That's the why didn't we do this? And ": [
+      2689.2,
+      2710.5,
+      82
+    ],
+    "data and now we run the the instruction that you got the Ice Cube just fine and everything will appear correct to the park. This is a really useful optimization. This actually happens in real system. And other very common optimization is that I will have many many virtual address spaces for lots and lots of programs and there are some pieces of software that all of the needs so ": [
+      1753.7,
+      1778.8,
+      50
+    ],
+    "do that one is that we can update them. So that means back in my picture here. When I do this for the first time I do this store I could do right through remember I could right through my cash and I can go an update that in my memory that would mean that all my stores had to go all the way to my memory. So that wouldn't ": [
+      3276.6,
+      3295.1,
+      106
+    ],
+    "do the translation after the cash and what that means is that we would send a virtual address to the virtual cash, virtual cash in that case and this is maybe our L1 cache is going to be virtual. And then only when we have a miss when we go into the translation, the only one I miss him one cash will I have to go into the translation and ": [
+      1313.4,
+      1334.9,
+      33
+    ],
+    "do those translations very very fast. Cecile bees are pretty small maybe a hundred and twenty eight entries. I'm not exactly sure how big they are on Modern machines, but they are pretty small. They're highly associative associative Attias you increase associativity if I increase associativity what sorts of cache misses do I reduce Earnest conflict message because I can put it anywhere. I will still have capacity misses and ": [
+      994.5,
+      1030.9,
+      22
+    ],
+    "enforcing a total order on all loads of store operations to an address and making sure that all processes of the same ordering. Easy peasy, right? It's only has like the longest bullet and all of my slides for this class right before lines long. So what this means is we are going to take all of the programs that are running in the system and where we're going to ": [
+      3365.2,
+      3385.6,
+      110
+    ],
+    "everyone will agree on what the value of a given address is at any one time and I agree on I mean if I issue a store right at any point, like if all of us issues are all of us issue reads at the same time, we will all see the same value come back for memory. or if someone cashes in this case any questions. Man, I went ": [
+      3791.5,
+      3817.2,
+      128
+    ],
+    "example. So we have our store from our first processor. So we going to an exclusive state. So we are the owner of that cash line and we can store whatever we would like you to read. So I translate into a transition into a shared State one thing. It's cool here is it when I go into the state I can actually save myself a trip to my memory ": [
+      3746.4,
+      3769.9,
+      126
+    ],
+    "except one. That's really really long different subjects. If you want to leave leave right now, if you want a final review you can stay and I'll answer questions for the next 15 minutes. Are there any questions will just get started and then the people are going to leave or filter out and leave us with quiet? All right, the true die-hard computer architects. Here are all the questions ": [
+      3848.7,
+      3943.7,
+      130
+    ],
+    "females tend to get lost more than the Piazza post. So many questions about this. All right. So few people today, what is it almost vacation? My dad was a professor. and he is to he said he was always angry when his students would not show up on the Tuesday or Monday or Wednesday before Thanksgiving. And that lasted until my older sister went to college and would come ": [
+      375.8,
+      417.4,
+      2
+    ],
+    "from there I can look into. That location will tell me where the pages and so this is one page in the ofsted say grows up like that. So I know where that addresses that is. Great. Mark has seen with a flag that says there's nothing there that's because of the entire subtree that would be rooted in this hashed out area. There is nothing there. Right so that ": [
+      767.6,
+      793.3,
+      14
+    ],
+    "get that you can get those from processes. So this is like different kind of programs on your computer like Microsoft Word or GCC or your machine learning solver single program. Summer programs that are actually ripping rights on my computer right now. If I would open up the activity monitor the task manager whatever it's called on Windows, I would see that there were probably 40 different programs running ": [
+      2778.7,
+      2805.2,
+      86
+    ],
+    "have a good break. I will see you on Tuesday. ": [
+      4404.5,
+      4406.4,
+      138
+    ],
+    "have developed for doing that as more of you is maybe in order. Cuz it's been awhile. So here is the power going to break this down. We have our virtual address up here, which is what comes out of the processor. We're going to break into a virtual page number and an offset. This is usually at 12 that's because our pages are usually for kilobytes in size. We ": [
+      584.1,
+      610.5,
+      7
+    ],
+    "have even a small number of access has a small fraction of my memory access is it take 50 microseconds? That's just going to kill my performance. So your program gets slow and you have a lot of stuff open. That's probably because I started to page real high performance Computing systems like the things that run run the things that run in the cloud. They don't page they will ": [
+      2192.6,
+      2214.1,
+      65
+    ],
+    "have this sort of us not one-to-one mapping? So here is a good reason to do this. This is a very common copy on write. So how I should say this thing is called an alias. Write an alias because we have two names for the same data. So why do we want aliasing? So let's say I want to do meme copy from bee and put them in a ": [
+      1573.8,
+      1605.2,
+      43
+    ],
+    "have to send out invalidation to all the other shares and then I have a share I can do I can get my taxes taken away as well and valid and if I'm an invalid and I do just to load them on the panda shirts day. Price of it all the castle in Zorb of Independence copy of the same machine and those cash lines are bouncing around between ": [
+      3680.5,
+      3701.0,
+      123
+    ],
+    "home for more time on before Thanksgiving and they decided it was a great idea. So I've decided I don't really care about that either. Alright, so last time we were talking about virtual memory, so that's where we're going to pick up. if I can get my I can find my slides. Alright, so, how's your call from last time? We had identified two kind of problems that we ": [
+      417.4,
+      499.5,
+      3
+    ],
+    "in memory actually lives in the Colonel's memory in the operating systems memory. It has the mappings to the physical address of the physical addresses for the process. It's currently running and then it's just a little cash for those mappings. So it will have a subset of those kind of the recent ones that we have needed and then I'll be able to access those translations very quickly and ": [
+      972.5,
+      994.5,
+      21
+    ],
+    "in the pictures, we've been showing as a private. I want a private L2 cache coherence will happen. If the private else to eat one of those cash lines can be in one of three states. He can be shared a shared cache line. I mean that there are multiple copies of that cash on the system, but they are all the same. So everyone can have their own copy ": [
+      3460.9,
+      3480.8,
+      114
+    ],
+    "in validation request, which is some other core coming and saying hey owner. I am going to take your cash line away. Then I will transition back to an invalid State and if I want to do another store, then I will have to go and do this whole process again to get ownership again. If I want I can also get a downgrade request of someone else does a ": [
+      3638.6,
+      3658.3,
+      121
+    ],
+    "inspection and then we'll just keep going and kind of a round-robin and everyone will get their turn. This is a disaster because you know, we don't have caches and the processes are waiting a lot. And so we don't want to we don't want to do it that way. Incineroar going to do is we're going to make Cash's work in this environment and the challenge is to make ": [
+      3067.1,
+      3089.0,
+      98
+    ],
+    "is a page fault. That's the kernel trap. It happened in the page file goes in the operating system and the operating system walks down that Walk down the tree looking for the translation of the big architecture architecture the instructions that the correspond to you just based programs are things that you might use to the right onto that a word processor or machine learning algorithm or something, but ": [
+      1096.3,
+      1130.8,
+      25
+    ],
+    "is going to find a cash it but it is going to read the data that a that process a actually stored there right now. That is at least a security problem and is also security and a correct his problem. So you could do that. Set a reminder that we have to flush the virtual caches on a context switch. So a context which happens, I don't know maybe ": [
+      1447.6,
+      1478.6,
+      38
+    ],
+    "is only and only maps are relatively small amount of memory. Quiet folks, please if I can hear you ever else around you can hear you all so so the map is there may be smaller. Maybe if we're mapping 64 on a 64-bit machine 128 megabyte, which is small but not around so we just are the parts that we are actually interested in. So the mechanism that we ": [
+      551.7,
+      584.1,
+      6
+    ],
+    "is they Copy and paste the processors cash and just copy and pasted big pieces. The number of course Very. These are relatively all this is a fork or machine. So I have it labeled. But it's probably from 2010 or so. This is a core machine now. I think the latest from Intel as that you can get a 26 core machine the high end of their server line ": [
+      2541.6,
+      2575.0,
+      77
+    ],
+    "it's actually a whole other set of stuff is just for the operating system and is actually more of it for the operating system. So if you look at the books on the Shelf is like the is a manual for programs like this big and the dates for the manual for the operating system is like this big and it has things like the page table format and how ": [
+      1130.8,
+      1147.6,
+      26
+    ],
+    "just consume more and more memory. It didn't do anything with the memory like it was allocating something and then forgetting to free it I needed the program. Run for like six hours. It was a simulation of a processor. And so we did as we turned up the amount of virtual memory and so just consume more and more memory 10gb. Goodbye. 2 Disc and so my program could ": [
+      2067.9,
+      2090.8,
+      60
+    ],
+    "just got a page fault because you tried to perform a nail legal right to this region a memory, but I happen to know that I have performed a little sleight of hand. And so what I'll do is I will take a little piece of the state and I'll copy it up here and then I will adjust that pointer. So I point this new fresh copy of that ": [
+      1735.8,
+      1753.7,
+      49
+    ],
+    "just not allocate more memory than they have and you know, it's up to the systems administrator to make sure that doesn't become a problem by running too many stuff at once performance really Falls over there. I don't know three serious attempt some that I know of an industry in the last 10 years or so to make page and ssds work because it would be really great because ": [
+      2214.1,
+      2235.3,
+      66
+    ],
+    "key points for their what is a CMP BMP Actually not going to talk about good luck today. sonoda luck by cash consistent So here is a multiprocessor computer with more than one processor. They've been around for a long time. The particular ones were going to talk about or called shared memory multiprocessors. And the way they used to build these like back before 2006 or something. I used ": [
+      2392.7,
+      2438.2,
+      72
+    ],
+    "laptops in your phone. It's it's less less likely I can also get those from thread. So these are individual and most programs are not moldy shredded. Which means there's not a lot of threats to be had there going to be more and more so and I was just so I graduated from graduate school in 2006 the power crisis hit in 2004 to CMP. Like the first laptop. ": [
+      2848.7,
+      2877.5,
+      89
+    ],
+    "learned of the tlb. I don't know why they call it a look inside driver, but they did so that's what we call it now virtual to physical and we would like to know the cash. So the tlb is just a Cash 4 translations the cash for this page mapping. We have the page table. It lives down here in memory. Turn the Page table lives in it lives ": [
+      930.3,
+      972.5,
+      20
+    ],
+    "like if you use word once a week, but for some reason you keep it open all the time, you can switch back and forth and kind of coarse grains and it might be okay, but real systems done page. Beijing is kind of a waste. I don't even think we should do it anymore. Any questions about virtual memory and paging? I don't be a good true-false question is ": [
+      2286.8,
+      2310.3,
+      69
+    ],
+    "line in this table for this address. Does that make sense? pagan Heroes for bites 1 block I've won each block has four bites. Are you? Are you worried about how many cash lines are on the cash? All right, there are four. So each of the cash is 16x total. There are 4X in engine block. So that means that there are for cash lines. You only read one ": [
+      4200.4,
+      4278.9,
+      134
+    ],
+    "line. Or if their share is I'll send to all the shares and say he shares I'm taking away your cash line so mark that cash line as invalid when I get all of those responses back. I will complete the transition into announced a which means I have the only cash copy in the system by then guaranteed to be able to execute one store instruction. Ride because if ": [
+      3592.1,
+      3617.2,
+      119
+    ],
+    "memory database and so tealby capacity is a real problem. So I have four pages remember and I have 128 entries. So 128 * 4 kilobytes is what 512 megabytes or something. 500 outfits 512 kilobytes in a megabyte of Data Solutions to this or that they you can make Pages bigger. So a lot of Architecture is now support to megabyte pages and you can also do things like ": [
+      1196.9,
+      1235.1,
+      29
+    ],
+    "memory, then we will call that a physical cash because the cash seized physical addresses right so that I send you that my L1 cache is actually a physical address and if I do that then the critical path and this is actually like the electrical critical path for doing a memory access goes to the tlb access goes to the tlb. So I'm at the CPU. I send a ": [
+      1268.5,
+      1293.5,
+      31
+    ],
+    "needed to solve. In order to make a virtual memory work other one was how are we going to store? The map the map compactly because then I can be very large and also then how are we going to do the translation quickly because we have to do the translation a lot free access to the instruction memory and every access to the data memory is going to require ": [
+      499.5,
+      527.2,
+      4
+    ],
+    "nicely for two of those in one carrier still have 56 quarters in one package of very high numbers, of course being built a hundred core machines and I think there might have been a thousand core machine that was heard of a research prototype a long way for laptop desktop game consoles have multiprocessors in them. They're really everything that we build. Does a couple of really nice things ": [
+      2575.0,
+      2604.0,
+      78
+    ],
+    "not bring money. And there's certainly if I had one of these 26 core processors from until there's not going to be 26 programs that I'm actively using on my laptop at one time. That's more, and servers. Right? I'll just start up 26 copies of my web server or something or some other Cloud utility and I can run I can run lots of copies about on desktops and ": [
+      2823.9,
+      2848.7,
+      88
+    ],
+    "of processors in one system tmp's are kind of where the love is by far. The most common one is that you know, the number of transistors we had kept growing and growing and growing by about 2004. We had enough transistors to build a really big really complicated very aggressive out of order deeply pipeline processor with floating point in an vector and everything else. You could possibly want ": [
+      2488.8,
+      2520.5,
+      75
+    ],
+    "of that data. I'm just a little sleight of hand and made it appear that there are two copies with their only one. So what I do is I mark this thing unwritable, there's a writable bit and readable didn't execute disable entry. And so if I try to write to this I will get a page fault and then what the operating system will do is say, oh you ": [
+      1714.8,
+      1735.8,
+      48
+    ],
+    "of them are not running flat-out, you know on my other laptop and I was checking for email occasionally actually a good way to see the threads are still open up like a thousand a tabs on your browser ride and maybe go to some some web pages have lots of ads like those. Those are good way to get dreads. Then I can do anything useful as many friends ": [
+      2919.9,
+      2943.7,
+      92
+    ],
+    "of work properly. They also share a common pool physical memory, which means for instance And that one process can store in the memory and another process can read that same location. And get the data at the first thread sent to them. What about today or cold should multiprocessors that's what's in your laptop in your phone. There is still multi socket motherboard. If you want a whole lot ": [
+      2465.5,
+      2488.8,
+      74
+    ],
+    "one friend to another I will replace this register that what kind of automatically switch all of my access is into a different address space. I think the first part the up order vets of my physical or my virtual page number and I use that to map into an array that this register points to and so in this case, you know, I've drawn I think forest run for ": [
+      716.4,
+      741.0,
+      12
+    ],
+    "other day that's in my cash. So that's not great either. And maybe they'll be cache misses of PPI will be bad as well and not the bad things that could go on and that naive patient. So here's what we're going to do instead. So here's my virtual address space. So I have BP points to a big empty buffer is my big data. And if I do men ": [
+      1630.0,
+      1656.6,
+      45
+    ],
+    "our virtual address here. This is our page number or virtual page number is the offset. We don't need that for right now do the translation. All we do is we start off with some special register. So this is a this is a registered nurse in the process area. It's not part of the register file, right we talked about the register file its R1 and R2 and R3 ": [
+      664.2,
+      688.1,
+      10
+    ],
+    "power adapters. Thank goodness. Show me name my laptop. Play Confident pile of garbage or something. Something something I cute like that. What I do with my pen now. All right. So then we also says to this is sort of the Collision of cash indexing and pay drop sets. So we need to do is we need to arrange our cash to ensure that the index portion of our ": [
+      1867.3,
+      1939.4,
+      54
+    ],
+    "prefectures in the tlv is all the same tricks. The reviews are also build to level T L B scores a level 1 tlb right next to the IHOP in 40 lbs as well. Does a third option it'll make things even faster. I'm out of there. We can defer the translation. so for instance if we do the translation before we go to the cash before we go to ": [
+      1235.1,
+      1268.5,
+      30
+    ],
+    "problem but available copies and no one processor will be able to see all the cash is because we have local cache is right. This is the local L2 cache. This is the local L1 cache so which processor can have its own private picture of that memory address? And the question is which one has the right value and how do we make sure that everyone eventually has the ": [
+      3164.0,
+      3187.4,
+      102
+    ],
+    "reed to this cash line. I will get a downgrade and it will say hey owner you are no longer the owner you are Asher and so I will get a downgrade and I will translate transition to the shared state which means I can no longer do stores, but I can do reeds. If I do a store I can visitation from store back to own but again, I ": [
+      3658.3,
+      3680.5,
+      122
+    ],
+    "right that does not going to be higher than two because we only have two quarters and X is not going to be higher than one because that's a hundred percent and percent and the problem is that usually neither of these is achievable Rights of the chances of this requires that you be able to take your program break it exactly in half in the two threads that can ": [
+      2732.3,
+      2755.3,
+      84
+    ],
+    "right value? Let's start off. We have r value. First processor does a store so it's going to ride some value out there. So it's going to be we bring the cash line into the local cash. We store a to that address and now we have a is here and Main memory says it's be now what happens if the next processor reads 1000 so it's going to go ": [
+      3187.4,
+      3218.7,
+      103
+    ],
+    "right? I've got at least PowerPoint. I've got the little clicker thing down there, but actually neither of them is doing anything like right now PowerPlay is Idle. It's just displaying the same thing over and over again and the clicker thing is also doing nothing at almost everything else is doing nothing as well. So right now there are no runnable threads probably on my laptop or at least ": [
+      2805.2,
+      2823.9,
+      87
+    ],
+    "run complete lie in parallel and never talk to each other. I never saw each other down and I'll be just as fast as the single turbos before it's just doesn't happen to work in practice and there a couple of reasons for that. What is the threads are hard to find? So if we want to exploit multiple CPUs, we need multiple threads as a couple places, you can ": [
+      2755.3,
+      2778.7,
+      85
+    ],
+    "run the virtual page number through the mapping and we get a physical page number than me concatenate down with the page off suddenly get a physical address of the physical page numbers over need right now. So we're going to do is we're going to break the Rent-A-Wreck the virtual page number into a few pieces and if each piece is in bits, maybe it's 5 minutes. Then we ": [
+      610.5,
+      639.1,
+      8
+    ],
+    "run until it ran out of this place until it instead of until around a memory and I was able to get a PhD How that happened so thank U virtual memory, right? So this is a little bit of extra complexity. So ever same page table, but now there's a new kind of Entry. So these read entries were going to say correspond to things that live on disc. ": [
+      2090.8,
+      2113.9,
+      61
+    ],
+    "say, let's say they're all updating address 1000 and we are going to arrange it as we'll see how the next slide so that all of those accesses from all of those processors are going to record one after another store store load store store store load load load and so forth and then all of the processes are going to agree on what that ordering is, and that means ": [
+      3385.6,
+      3406.6,
+      111
+    ],
+    "seems like a good idea but there are some problems the following things happens. If the part of the cash to tell me which Cashland IMAX actually storing their the tag in the in the virtual cash is going to be from a virtual address which means it only really has meaning for a particular programs running request address 10000 into the virtual cash. And that means that the virtual ": [
+      1364.9,
+      1403.9,
+      35
+    ],
+    "slots here and actually said there's 10 bits and then I will take the seconds. 10bet II next higher Dimension I use that index in to wherever I get whoever this wherever the first set of its points meet you in the first race. Hope it goes here and I'm after here and then I'll go and I'll use this next bit still look up in that table. And then ": [
+      741.0,
+      767.6,
+      13
+    ],
+    "so the easy way to do this is to write a little Loop that will go through and load and then store the day doubt that's going to have a variety of bad effects. It's going to cause me to execute a whole bunch of instructions that's going to hurt my instruction factor in my in the performance equation. It's also going to block my cash right because all the ": [
+      1605.2,
+      1630.0,
+      44
+    ],
+    "spreadsheet that is online with all of their regrets and everything. So that should all match so I know some of you had pointed out that the grade on the midterm Donatos online social match now, so if you check again and they still don't match then you should definitely the best thing to do is to do a private posting on the anthem. You can email me as well ": [
+      350.2,
+      375.8,
+      1
+    ],
+    "store so I will go into all the other processors. Hey, you should get rid of your data. I have the one true value for this address. That's how it'll be. This will guarantee that there is exactly one current value for an address which seems like a nice invariant to have and all the processors should agree on what that value is. So we're going to enforce this by ": [
+      3342.3,
+      3365.2,
+      109
+    ],
+    "sure that all the processors see a coherent view of what is a memory. So before we get to look coherence is and how that works. Let's talk a little bit more about unit processor caches. So in a cash when we have a cash, right we have some local cache is here and my memory that means that we have multiple copies of the same piece of data in ": [
+      3089.0,
+      3109.8,
+      99
+    ],
+    "systems think locks are terrible and I lost a pretty terrible never cheat the locks. That's my advice to you. Every time I thought I know I don't need a lock hear you actually to lock there are processes and thread are going to share a single pool of physical memory and then we'll use some virtual memory to allow them to selectively actually share virtual memory also so they ": [
+      3011.6,
+      3043.3,
+      96
+    ],
+    "table directly so we can walk the page table and every memory access you can have a little piece of code or something that would go and it would start at the the bass register for the pace table and it would do a loader e in the next ensure and then do a load in The Next Century and so forth and our little example, it's going to be ": [
+      877.2,
+      894.5,
+      18
+    ],
+    "tag is stored in a virtual cash and then the context which occurs and that means another process comes in. So he goes to sleep for a little while process becomes and it starts running and it also issues a request for virtual address 10,000. So which data is it going to get right? So if we think back to how are caches work? What are we doing? We do ": [
+      1403.9,
+      1428.5,
+      36
+    ],
+    "that are going to be on the final. All right, that's enough questions. They can be there about just about just about anything the current homework past homework the reading. Every are all of you just hoping that someone else is going to ask a question. Go ahead. To see you then. That homework 7, is that right? This is a free trial dress determine if it'll be a cashier ": [
+      3943.7,
+      4045.9,
+      131
+    ],
+    "that if I look at my store or load it will appear somewhere in this life and I will get the last storm the last store for that address and everyone else will agree on what that last stored value should be That is the goal. Yes. We will still ensure that there is someone ordering so that means that one of those processors Will Wait. So one of them ": [
+      3406.6,
+      3435.5,
+      112
+    ],
+    "that is by making my processor kind of twice as smart. I can double my also double my performance or I could just build to course. So that will help me with throughput right I can ask you twice as many instructions per second will do anything for a latency. No ride. This is why you can't drive to La twice as fast in two cars, right? Because both of ": [
+      2630.2,
+      2660.9,
+      80
+    ],
+    "that the hard part that multiprocessors I'll have to do with memory. And the other thing is a multiprocessors are what the what all the machines that we actually use today. It's actually what we build a mobile phone price has at least two and maybe four or six or eight cores your laptop. I think I have four or a course in my laptop literally everywhere now so the ": [
+      2367.2,
+      2392.7,
+      71
+    ],
+    "that we talked about in this class, but then transistor accounts just kept growing and power also became a problem. And so this is a very easy way to spend transistors if I have twice as many transistors I can either spend, you know twice as much human effort trying to design twice as many transistors or I can just copy and paste right? So that's basically what they do ": [
+      2520.5,
+      2541.6,
+      76
+    ],
+    "that's as thieves are really cheap compared to deer and if you can just make an SSD fast enough to pay make paging work then like you can make a whole lot of money and every one of them has failed because these are just too slow and tell us the latest to take a man called like what's it called? Well, that's an annoying technology. It's called. Now that's ": [
+      2235.3,
+      2259.3,
+      67
+    ],
+    "that's great. Glad to hear it. All right. I'm going to leave early if no one has any more questions. Yes. Okay. That is a good question. Those are going to be adjusted somehow a bunch of the records of what well the clicks are all there but I can't see what was on the screen when you click so I don't know which problems they were. So something like ": [
+      4318.6,
+      4366.5,
+      136
+    ],
+    "the cars left to get there. So our perspective it's even better actually because doubling the frequency increases Power by a tax. So power goes up with the cube of frequency. Turn Dr. Joseph increase the voltage and you can look at Ohm's law and figure out why that's so but it goes up by the cube. And so this is this is really bad, but doubling the number of ": [
+      2660.9,
+      2689.2,
+      81
+    ],
+    "the cash table set is two bits. So what that means is at this address or this access is going to read for bites. So that access is going to be the four of us going to access. It's going to bring in a 4 by cash line, but it's only one store. It's only one access. So it should just be one access. It should only there's only one ": [
+      4176.0,
+      4200.4,
+      133
+    ],
+    "the pages that hold that data. And now all I have to do is go in and had a couple or just a couple of entries in that page table. And now I have the illusion that I have performed this copy. There's one caveat this needs to be an unreadable copy, right? Because from the programmer's perspective A & B are different right? I'm supposed to have two copies ": [
+      1692.0,
+      1714.8,
+      47
+    ],
+    "the reason is that they're really hard to use. So let's go back to our old friend and So here's handles why I'm so let's say that we want to actually get double the performance in a to a machine. So to a c&p with two processors. The only way that we are going to get us total equal to 2 is if s equals 2 + x equals one, ": [
+      2710.5,
+      2732.3,
+      83
+    ],
+    "the system there is and we want to allow this little many programs to be running or at least ready to run at one time. I know useful thing. This is actually the most useful thing that I've ever done with virtualized memory is observing memory leaks. I had a program that I wrote when I was in graduate school and it was like memory which meant that overtime or ": [
+      2045.1,
+      2067.9,
+      59
+    ],
+    "the system. So this case I have I just 1,000 in the cash the address that I just 1,000 my TV, but it may memory the address might be the value of that address might be a now. This is okay because the program is running up here on the processor. And so whenever it goes to look at memory looks through the cash so it goes and says hey, ": [
+      3109.8,
+      3132.0,
+      100
+    ],
+    "the various States and there's a bunch of messages getting sent all over the system. This is still a potentially pretty expensive. I remember I had this give this example of 112 cores every one of them could have a copy and so invalidating all those shares could still be pretty expensive. I thought you are a programmer on a big multi-core machine. You are very concerned about limiting the ": [
+      3701.0,
+      3724.3,
+      124
+    ],
+    "then I'll get them farther down the memory hierarchy. So this should be the primary memory or say the L2 and you could imagine putting this translation anywhere above my memory. So this is like a nice option because they're on the common case. I have the common case. In the common case, I don't have to do the the tlb access. So my taxes will be even faster. That ": [
+      1334.9,
+      1364.9,
+      34
+    ],
+    "then I'll update the page table and turn left at the tlb executing again. Asos picture end up looking a little bit like this. So now we have some pointers that point after the physical memory and some pointers that will point out to some storage device are the tlb entries always remember that would be a huge waste. I don't need to learn quickly that I need to go ": [
+      2132.6,
+      2154.9,
+      63
+    ],
+    "then parallel I can access the tlb. So now I have parallelism between the two of these and then I can do the tag check into terminal don't have a head or not. So I'm all modern L1 cache is our Bishop virtually indexing physically tag exactly for this reason. Any questions about that? All right. One last piece sore back to our friendly process here with what he has ": [
+      1984.6,
+      2020.7,
+      57
+    ],
+    "this is a lipsi. Wright-Phillips is the standard C library almost every program running on your computer uses it which means it's a nap in his physical address space. But in fact, there is only one physical copy of Lipsy probably loaded in your system. So you save a whole bunch of space by doing that kind of reviews. So here is very clever solution. I want to have aliases ": [
+      1778.8,
+      1812.9,
+      51
+    ],
+    "those three states. So you start off an invalid state if you do a store. What you do is you send a store and validation request to the current owner is also called a directory that lets you find the current owner and all of the shares. So I find the current owner and I sent her a message and I say hey owner I am taking away your cash ": [
+      3566.9,
+      3592.1,
+      118
+    ],
+    "three or four loads for a translation and that's all that's going to increase our CPR by lot because each one of those Is a memory access? If we're lucky it'll hit in the cashier for unlock that might actually have to go out the deer and potentially very slow. A better solution is to something, so t o b stands for translation lookaside buffer was invented when I first ": [
+      894.5,
+      930.3,
+      19
+    ],
+    "to build these was mostly by you would have a motherboard with multiple sockets and you would put multiple chips in their expensive on a single chip the memory part means that all of these processors share a single they share a single memory system and they show that goes virtually and physically so I'll process can run anywhere and it's virtual addresses will work right eye of the translations ": [
+      2438.2,
+      2465.5,
+      73
+    ],
+    "to communicate with one another so I have two programs running that need to be able to talk to each other and say hey, you know, I've loaded in that they do you needed why don't you other this other thread going process on it? And the way that we're going to do that as we're going to allow One processor to make changes that another one processor to see ": [
+      2968.5,
+      2986.4,
+      94
+    ],
+    "to do a cash Madison Gabby and bring it up here and that's going to be the wrong value, right? So this is a problem. I can't reliably communicate if I just read my caches in the start of naive way. Tell her to keep my cash as synchronized. How to make sure that all the copies of values in the system up-to-date there a couple ways that we could ": [
+      3248.1,
+      3276.6,
+      105
+    ],
+    "to go in update 112 different copies of that cash line that's like a hundred and twelve different stores out to make memory and to make matters worse actually going to another socket is actually slower than going to make What's actually worse than going to make memory 112 times? How to spell disaster or we can invalidate them so that I'll say hey I have I just did a ": [
+      3319.7,
+      3342.3,
+      108
+    ],
+    "to this because going to disk is going to take like 11 no second through call. I think I was going to Pluto right in our hierarchy of memory memory hierarchy accesses. So paging is really really slow. Just a really really slow. I just saw this is a hard drive is about 11 milliseconds. Is about Reeds or something like 50 microseconds. So there a lot faster if I ": [
+      2154.9,
+      2192.6,
+      64
+    ],
+    "too fast. I got to break out another slide deck. Or we could have final review but only people that actually came to class on the third Tuesday before Thanksgiving get to participate in. What's up, who votes for final review? A few of you who votes are just leaving early. Oh the honest contingent. Alright, so here's are we going to do if I don't have another slide deck ": [
+      3817.2,
+      3848.7,
+      129
+    ],
+    "traps work and are exceptions working a whole bunch of other stuff. If you want to implement your own format, you can do that as well but performance won't be as good. This is how we make them fast, right? We build a cash then we build some specialized Hardware to make cash mrs. As fast as I can possibly be either still actually a big deal and capacities have ": [
+      1147.6,
+      1173.0,
+      27
+    ],
+    "value for this address and I am allowed that local processor is allowed to read or write that value. Third option is that it's invalid which means that this cash line does not contain valid data. And so if you access that it's automatically a mess, right? Cuz there's nothing there before like if you want to reboot everything is invalid, but now it's going to happen a lot more ": [
+      3501.1,
+      3525.7,
+      116
+    ],
+    "virtual address that has to go through the tlb. And it has to go to the physical cash and then eventually have same physical address can go to memory if I have a cash mess with this means that I have to do my T lb access before I go in access my memory. So it seems like kind of a bummer because this is extra time alternatively we could ": [
+      1293.5,
+      1313.4,
+      32
+    ],
+    "virtual cash will happen. Is that each one of these will actually get there on Cash Line because they are they have different virtual addresses. And so if I do is start a b then I will update one of them, but not our newest one of them if I do a load from 2008 to wrong answer. This may seem a little bit strange. Why would I want to ": [
+      1548.1,
+      1573.8,
+      42
+    ],
+    "what did I just 1,000 it will find be which is one supposed to be there, but it will not find a which is the old stale value and eventually be will get evicted and I'll get right back and then this will become be just fine. This becomes a problem. If we have multiple caches because there can be multiple copies. I thought I fix this type of graphical ": [
+      3132.0,
+      3164.0,
+      101
+    ],
+    "whole century is missing and you know it normal space for mapping a pretty small amount a lot of these entries in the upper levels of the page table are going to be empty and therefore I'm saving a whole bunch of space not a modern processor. This is a lot deeper cuz it's goes out to 64-bit. So there's an extra 32 bits out here. And so this will ": [
+      793.3,
+      815.4,
+      15
+    ],
+    "will be delayed and it's process access will take a little bit longer. So this process that we're going to do this task of the solution. We haven't called cache coherence because it provides a coherent view of memory to all of the processors in the system. So here is the basics of cache coherence line in each cash. So this will happen if usually the last private cash so ": [
+      3435.5,
+      3460.9,
+      113
+    ],
+    "works pretty well. Santa first challenge, this is how we make how do we store the mapping in a compact way and the second challenges that we need to make translation fast so translation on every memory access on every instruction patch. So this is clearly on the critical path of operations choice of words. I should say can Chelsea pi the first solution is to just use the page ": [
+      841.4,
+      877.2,
+      17
+    ],
+    "you guys are going to get graded on. Basically participation for the reading quizzes, I think because I don't have a basis for the actual. answers I went in a little bit later showed up. Right? I mean, I told everyone else they could go but those people that went home early or what are they katian early instead of coming to architecture class? very discouraging All right that events ": [
+      4366.5,
+      4404.5,
+      137
+    ]
+  },
+  "File Name": "Intro_to_Computer_Architecture___A00___Swanson__Steven_James___Fall_2018-lecture_16.flac",
+  "Full Transcript": "Sometimes we go and change the way the things are graded everybody. So this is the old. This is the new curved you guys messed up my beautiful curve.  As it turns out. I don't know. I try not to decrease grades on people. So I think all this shifting around kind of hard to tell but actually it's just people's grades got a little bit better so that the spreadsheet that is online with all of their regrets and everything. So that should all match so I know some of you had pointed out that the grade on the midterm Donatos online social match now, so if you check again and they still don't match then you should definitely the best thing to do is to do a private posting on the anthem. You can email me as well females tend to get lost more than the Piazza post.  So many questions about this.  All right.  So few people today, what is it almost vacation?  My dad was a professor.  and he is to  he said he was always angry when his students would not show up on the Tuesday or Monday or Wednesday before Thanksgiving.  And that lasted until my older sister went to college and would come home for more time on before Thanksgiving and they decided it was a great idea.  So I've decided I don't really care about that either.  Alright, so last time we were talking about virtual memory, so that's where we're going to pick up.  if I can get my  I can find my slides.  Alright, so, how's your call from last time? We had identified two kind of problems that we needed to solve.  In order to make a virtual memory work other one was how are we going to store?  The map the map compactly because then I can be very large and also then how are we going to do the translation quickly because we have to do the translation a lot free access to the instruction memory and every access to the data memory is going to require a translation. So it's at least once per instruction and it could be up to twice for instruction. If it's also memory operation. We went through and looked at how big that might be for a 64-bit address space. It was really really big like 64 petabytes is way too big then we observe that we can store Augusta parts of the memory mapping. We actually need because an application is only and only maps are relatively small amount of memory.  Quiet folks, please if I can hear you ever else around you can hear you all so so the map is there may be smaller. Maybe if we're mapping 64 on a 64-bit machine 128 megabyte, which is small but not around so we just are the parts that we are actually interested in. So the mechanism that we have developed for doing that as more of you is maybe in order.  Cuz it's been awhile. So here is the power going to break this down. We have our virtual address up here, which is what comes out of the processor. We're going to break into a virtual page number and an offset. This is usually at 12 that's because our pages are usually for kilobytes in size. We run the virtual page number through the mapping and we get a physical page number than me concatenate down with the page off suddenly get a physical address of the physical page numbers over need right now.  So we're going to do is we're going to break the  Rent-A-Wreck the virtual page number into a few pieces and if each piece is in bits, maybe it's 5 minutes. Then we are going to store the page table to the NRA tree. So if this is too V to be a 32A Tresor a tree with a branching factor of 32 and countries that don't exist if there is no valid mappings under that part of the tree and then we're going to walk this tree to do the translation. So here's a picture of how this works. So we have our virtual address here.  This is our page number or virtual page number is the offset. We don't need that for right now do the translation. All we do is we start off with some special register.  So this is a  this is a registered nurse in the process area. It's not part of the register file, right we talked about the register file its R1 and R2 and R3 and so forth. This is some other special register. We still call it a registered cuz it's like a storage room storage location in the processor holds the root of a table. So that means if this point to this particular trees and that's not register, then that is the translation of going to apply to the memory access has that I'm going to do and if I change from one friend to another I will replace this register that what kind of automatically switch all of my access is into a different address space.  I think the first part the up order vets of my physical or my virtual page number and I use that to map into an array that this register points to and so in this case, you know, I've drawn I think forest run for slots here and actually said there's 10 bits and then I will take the seconds.  10bet II next higher Dimension I use that index in to wherever I get whoever this wherever the first set of its points meet you in the first race. Hope it goes here and I'm after here and then I'll go and I'll use this next bit still look up in that table.  And then from there I can look into.  That location will tell me where the pages and so this is one page in the ofsted say grows up like that. So I know where that addresses that is. Great. Mark has seen with a flag that says there's nothing there that's because of the entire subtree that would be rooted in this hashed out area. There is nothing there. Right so that whole century is missing and you know it normal space for mapping a pretty small amount a lot of these entries in the upper levels of the page table are going to be empty and therefore I'm saving a whole bunch of space not a modern processor. This is a lot deeper cuz it's goes out to 64-bit. So there's an extra 32 bits out here. And so this will be a lot deeper.  I am the Trilby little bit more complicated but this is basically how it works and this gets me more or less to storing. Just what I need, you know, you can set up addresses or mappings that would require a whole lot of extra space, but typically in a line since I've been pretty compact we tend to allocate big chunks of memory together.  This works pretty well.  Santa first challenge, this is how we make how do we store the mapping in a compact way and the second challenges that we need to make translation fast so translation on every memory access on every instruction patch. So this is clearly on the critical path of operations choice of words. I should say can  Chelsea pi  the first solution is to just use the page table directly so we can walk the page table and every memory access you can have a little piece of code or something that would go and it would start at the the bass register for the pace table and it would do a loader e in the next ensure and then do a load in The Next Century and so forth and our little example, it's going to be three or four loads for a translation and that's all that's going to increase our CPR by lot because each one of those  Is a memory access?  If we're lucky it'll hit in the cashier for unlock that might actually have to go out the deer and potentially very slow.  A better solution is to something, so t o b stands for translation lookaside buffer was invented when I first learned of the tlb. I don't know why they call it a look inside driver, but they did so that's what we call it now virtual to physical and we would like to know the cash. So the tlb is just a Cash 4 translations the cash for this page mapping. We have the page table. It lives down here in memory.  Turn the Page table lives in it lives in memory actually lives in the Colonel's memory in the operating systems memory.  It has the mappings to the physical address of the physical addresses for the process. It's currently running and then it's just a little cash for those mappings. So it will have a subset of those kind of the recent ones that we have needed and then I'll be able to access those translations very quickly and do those translations very very fast.  Cecile bees are pretty small maybe a hundred and twenty eight entries. I'm not exactly sure how big they are on Modern machines, but they are pretty small. They're highly associative associative Attias you increase associativity if I increase associativity what sorts of cache misses do I reduce  Earnest conflict message because I can put it anywhere. I will still have capacity misses and I will still have compulsory misses. So we make them so they can fully associative to minimize the Miss rate expensive because I need to go and somehow look through that big tree in find a translation that I'm missing. So many multiple Hardware actually include someone cut a hardware page table Walker and this is basically a little special a piece of Hardware that understands the format of that Spar space table.  And so when I go and look in the tlb, and I find that there is nothing there on the translation I need is not there. This piece of Hardware will get triggered and it will autonomously without running any software actually going to walk down that tree and find the translation and put it into the base table. If you know the words page fault. This is a page fault. That's the kernel trap. It happened in the page file goes in the operating system and the operating system walks down that  Walk down the tree looking for the translation of the big architecture architecture the instructions that the correspond to you just based programs are things that you might use to the right onto that a word processor or machine learning algorithm or something, but it's actually a whole other set of stuff is just for the operating system and is actually more of it for the operating system. So if you look at the books on the Shelf is like the is a manual for programs like this big and the dates for the manual for the operating system is like this big and it has things like the page table format and how traps work and are exceptions working a whole bunch of other stuff. If you want to implement your own format, you can do that as well but performance won't be as good.  This is how we make them fast, right? We build a cash then we build some specialized Hardware to make cash mrs. As fast as I can possibly be either still actually a big deal and capacities have been growing mentioned a few times in this class. So you cannot buy a server that has you know tens of terabytes in and those those big memories. They're not used by a million little programs using a megabyte at a time there used by one giant program that wants to map, you know, 6 terabytes of data because it's serving a web cash or something or is it in memory database and so tealby capacity is a real problem. So I have four pages remember and I have 128 entries. So 128 * 4 kilobytes is what 512 megabytes or something.  500 outfits 512 kilobytes in a megabyte of Data Solutions to this or that they you can make Pages bigger. So a lot of Architecture is now support to megabyte pages and you can also do things like prefectures in the tlv is all the same tricks. The reviews are also build to level T L B scores a level 1 tlb right next to the IHOP in 40 lbs as well.  Does a third option it'll make things even faster.  I'm out of there. We can defer the translation.  so  for instance  if we do the translation before we go to the cash before we go to memory, then we will call that a physical cash because the cash seized physical addresses right so that I send you that my L1 cache is actually a physical address and if I do that then the critical path and this is actually like the electrical critical path for doing a memory access goes to the tlb access goes to the tlb. So I'm at the CPU. I send a virtual address that has to go through the tlb. And it has to go to the physical cash and then eventually have same physical address can go to memory if I have a cash mess with this means that I have to do my T lb access before I go in access my memory.  So it seems like kind of a bummer because this is extra time alternatively we could do the translation after the cash and what that means is that we would send a virtual address to the virtual cash, virtual cash in that case and this is maybe our L1 cache is going to be virtual. And then only when we have a miss when we go into the translation, the only one I miss him one cash will I have to go into the translation and then I'll get them farther down the memory hierarchy. So this should be the primary memory or say the L2 and you could imagine putting this translation anywhere above my memory.  So this is like a nice option because they're on the common case. I have the common case.  In the common case, I don't have to do the the tlb access. So my taxes will be even faster.  That seems like a good idea but there are some problems the following things happens. If the part of the cash to tell me which Cashland IMAX actually storing their the tag in the in the virtual cash is going to be from a virtual address which means it only really has meaning for a particular programs running request address 10000 into the virtual cash. And that means that the virtual tag is stored in a virtual cash and then the context which occurs and that means another process comes in. So he goes to sleep for a little while process becomes and it starts running and it also issues a request for virtual address 10,000.  So which data is it going to get right? So if we think back to how are caches work? What are we doing? We do a cash access we take the address. We split it up into the offset the index and the tag we're going to reason the same address. So all three of those pieces are going to be the same. So that means we're going to go to the same index in the cash and we're going to compare the same tag the same value as it was already there. And Sobe is going to find a cash it but it is going to read the data that a that process a actually stored there right now. That is at least a security problem and is also security and a correct his problem.  So you could do that.  Set a reminder that we have to flush the virtual caches on a context switch.  So a context which happens, I don't know maybe a hundred times a second or something on a modern processor, maybe little bit faster. Every time you take it interrupts. You also do a context which we have to flush the cash. So this is a bad deal because every time I flush the cash, I have to Briley lose all of my locality. I forget everything I know about the processors about that processes access pattern and now I'm going to have a whole bunch of cash misses when I come back and that means a performance is going to be pretty bad. So flushing the cash on the context, which is a bad idea.  some other problems  So there's also no rule that says that each virtual address has to match a different physical address. So this mapping that I've drawn right where I have a physical address is it is try not to be very handy to have a single or to have a single physical address that appears as two different virtual addresses in an address space so friends in Tera have a page table. I have addressed 1000 and 2000 and they both map to the same address. So that means that both of these things appear to have the same contents of a virtual cash will happen. Is that each one of these will actually get there on Cash Line because they are they have different virtual addresses. And so if I do is start a b then I will update one of them, but not our newest one of them if I do a load from 2008 to wrong answer.  This may seem a little bit strange. Why would I want to have this sort of us not one-to-one mapping? So here is a good reason to do this. This is a very common copy on write.  So how I should say this thing is called an alias.  Write an alias because we have two names for the same data.  So why do we want aliasing? So let's say I want to do meme copy from bee and put them in a so the easy way to do this is to write a little Loop that will go through and load and then store the day doubt that's going to have a variety of bad effects. It's going to cause me to execute a whole bunch of instructions that's going to hurt my instruction factor in my in the performance equation. It's also going to block my cash right because all the other day that's in my cash. So that's not great either.  And maybe they'll be cache misses of PPI will be bad as well and not the bad things that could go on and that naive patient. So here's what we're going to do instead. So here's my virtual address space. So I have BP points to a big empty buffer is my big data. And if I do men copy buffer point system physical pages that are  What are some of the physical address face and my big data points with some other physical pages that hold all that data? So I could issue a special system call. It happens to be called Emory map and I could cause the the page table the maps The Unknown the the contents of my buffer or be to just point to the pages that hold that data. And now all I have to do is go in and had a couple or just a couple of entries in that page table. And now I have the illusion that I have performed this copy.  There's one caveat this needs to be an unreadable copy, right? Because from the programmer's perspective A & B are different right? I'm supposed to have two copies of that data. I'm just a little sleight of hand and made it appear that there are two copies with their only one. So what I do is I mark this thing unwritable, there's a writable bit and readable didn't execute disable entry. And so if I try to write to this I will get a page fault and then what the operating system will do is say, oh you just got a page fault because you tried to perform a nail legal right to this region a memory, but I happen to know that I have performed a little sleight of hand. And so what I'll do is I will take a little piece of the state and I'll copy it up here and then I will adjust that pointer. So I point this new fresh copy of that data and now we run the the instruction that you got the Ice Cube just fine and everything will appear correct to the park.  This is a really useful optimization. This actually happens in real system. And other very common optimization is that I will have many many virtual address spaces for lots and lots of programs and there are some pieces of software that all of the needs so this is a lipsi.  Wright-Phillips is the standard C library almost every program running on your computer uses it which means it's a nap in his physical address space. But in fact, there is only one physical copy of Lipsy probably loaded in your system. So you save a whole bunch of space by doing that kind of reviews.  So here is very clever solution.  I want to have aliases but we also would like to have a physical cash.  So what we do is we build a cash that is virtually index in physically tagged.  The problem right was that we were starting virtual tags in our cash. That was the fundamental problem that we had. So we will avoid that by storing physically physical tags and then we will use the virtual bit the indexing. So here is a trend an address in Virtual address for going to map it into a physical address the virtual page number goes to the tlb just like it did before and then down here the white part of the page offset. So we had before my battery is running low, but  Look what I have.  I gave up on USBC.  And I bought another power adapter.  So now I carry two power adapters.  Thank goodness.  Show me name my laptop.  Play Confident pile of garbage or something.  Something something I cute like that.  What I do with my pen now.  All right. So then we also says to this is sort of the Collision of cash indexing and pay drop sets. So we need to do is we need to arrange our cash to ensure that the index portion of our address. This is the cash index portion of our address lives inside the page offset.  Because there are the page off that just gets copied from the virtual address to the physical address. So as long as we guarantee that that that portion of the address the UV index was inside the page, then we can use the index to go and do the cash through the cash look up and we'll store a physical tag. So the tag is all this stuff up here. So we'll start physical tag, and we will do the tag check using the physical tag.  So if I have a hit I will know that just by Irish I do the access the access for the cash is actually what takes most the time through the access it comes out here and then and then parallel I can access the tlb. So now I have parallelism between the two of these and then I can do the tag check into terminal don't have a head or not. So I'm all modern L1 cache is our Bishop virtually indexing physically tag exactly for this reason.  Any questions about that?  All right.  One last piece sore back to our friendly process here with what he has 1GB of virtual memory and 8 gigabytes of physical memory. So that's great. But if I have lots and lots of rings all of his friends or all of her friends that I'm going to space because I have you know, it's just like 10 processes running but only 8GB memory as we virtualize it by paging so we'd like to make it appear that there is more memory in the system there is and we want to allow this little many programs to be running or at least ready to run at one time. I know useful thing. This is actually the most useful thing that I've ever done with virtualized memory is observing memory leaks. I had a program that I wrote when I was in graduate school and it was like memory which meant that overtime or just consume more and more memory. It didn't do anything with the memory like it was allocating something and then forgetting to free it I needed the program.  Run for like six hours. It was a simulation of a processor. And so we did as we turned up the amount of virtual memory and so just consume more and more memory 10gb. Goodbye. 2 Disc and so my program could run until it ran out of this place until it instead of until around a memory and I was able to get a PhD  How that happened so thank U virtual memory, right? So this is a little bit of extra complexity. So ever same page table, but now there's a new kind of Entry. So these read entries were going to say correspond to things that live on disc. So if something is red, that means that the corresponding page actually lives on Disco, it's not in memory. So if you go through to the translation that paid you need it happens to be I have to go and fetch it from disk and I will bring it in. I'll figure out something to evict if I don't have any free space. I'll write that page into deer and then I'll update the page table and turn left at the tlb executing again.  Asos picture end up looking a little bit like this. So now we have some pointers that point after the physical memory and some pointers that will point out to some storage device are the tlb entries always remember that would be a huge waste. I don't need to learn quickly that I need to go to this because going to disk is going to take like 11 no second through call. I think I was going to Pluto right in our hierarchy of memory memory hierarchy accesses.  So paging is really really slow. Just a really really slow. I just saw this is a hard drive is about 11 milliseconds.  Is about Reeds or something like 50 microseconds. So there a lot faster if I have even a small number of access has a small fraction of my memory access is it take 50 microseconds? That's just going to kill my performance. So your program gets slow and you have a lot of stuff open. That's probably because I started to page real high performance Computing systems like the things that run run the things that run in the cloud. They don't page they will just not allocate more memory than they have and you know, it's up to the systems administrator to make sure that doesn't become a problem by running too many stuff at once performance really Falls over there.  I don't know three serious attempt some that I know of an industry in the last 10 years or so to make page and ssds work because it would be really great because that's as thieves are really cheap compared to deer and if you can just make an SSD fast enough to pay make paging work then like you can make a whole lot of money and every one of them has failed because these are just too slow and tell us the latest to take a man called like what's it called?  Well, that's an annoying technology. It's called.  Now that's also the underlying technology the run but it's like it's supposed to make paging work and it's built around on top of the theater new super fast ssds which are like 10 microseconds. But as we all know this is still very very slow for memory access.  I'm so we'll see if that works. See it works out. Okay, sometimes like on a laptop or something you can get away like if you use word once a week, but for some reason you keep it open all the time, you can switch back and forth and kind of coarse grains and it might be okay, but real systems done page.  Beijing is kind of a waste. I don't even think we should do it anymore.  Any questions about virtual memory and paging?  I don't be a good true-false question is a waste of time true or false.  true  All right.  Etsy  next up  Darn, it's too early for me to just let you go early for Thanksgiving.  No.  Thanks for the input. I appreciate that.  No, it's not. It's not really I saw my projected grade on the spreadsheet. I'm happy.  Alright processors cuz they're really important. So the only processor this at this point in the course one, is that the hard part that multiprocessors I'll have to do with memory. And the other thing is a multiprocessors are what the what all the machines that we actually use today. It's actually what we build a mobile phone price has at least two and maybe four or six or eight cores your laptop. I think I have four or a course in my laptop literally everywhere now so the key points for their what is a CMP BMP  Actually not going to talk about good luck today.  sonoda luck by cash consistent  So here is a multiprocessor computer with more than one processor. They've been around for a long time. The particular ones were going to talk about or called shared memory multiprocessors. And the way they used to build these like back before 2006 or something. I used to build these was mostly by you would have a motherboard with multiple sockets and you would put multiple chips in their expensive on a single chip the memory part means that all of these processors share a single they share a single memory system and they show that goes virtually and physically so I'll process can run anywhere and it's virtual addresses will work right eye of the translations of work properly. They also share a common pool physical memory, which means for instance  And that one process can store in the memory and another process can read that same location.  And get the data at the first thread sent to them.  What about today or cold should multiprocessors that's what's in your laptop in your phone. There is still multi socket motherboard. If you want a whole lot of processors in one system tmp's are kind of where the love is by far. The most common one is that you know, the number of transistors we had kept growing and growing and growing by about 2004. We had enough transistors to build a really big really complicated very aggressive out of order deeply pipeline processor with floating point in an vector and everything else. You could possibly want that we talked about in this class, but then transistor accounts just kept growing and power also became a problem. And so this is a very easy way to spend transistors if I have twice as many transistors I can either spend, you know twice as much human effort trying to design twice as many transistors or I can just copy and paste right? So that's basically what they do is they  Copy and paste the processors cash and just copy and pasted big pieces. The number of course Very. These are relatively all this is a fork or machine. So I have it labeled.  But it's probably from 2010 or so. This is a core machine now. I think the latest from Intel as that you can get a 26 core machine the high end of their server line nicely for two of those in one carrier still have 56 quarters in one package of very high numbers, of course being built a hundred core machines and I think there might have been a thousand core machine that was heard of a research prototype a long way for laptop desktop game consoles have multiprocessors in them. They're really everything that we build.  Does a couple of really nice things about cnp's so what is that? Like I said there an easy way to spend transistors. The other is that they're really good from a power perspective. So if I want to double the performance of that my processor my computer can give me one way to do that is by doubling my clock frequency so I can go from 1 gigahertz to 2 gigahertz. Another way I can do that is by making my processor kind of twice as smart. I can double my also double my performance or I could just build to course.  So that will help me with throughput right I can ask you twice as many instructions per second will do anything for a latency.  No ride. This is why you can't drive to La twice as fast in two cars, right? Because both of the cars left to get there. So our perspective it's even better actually because doubling the frequency increases Power by a tax. So power goes up with the cube of frequency.  Turn Dr. Joseph increase the voltage and you can look at Ohm's law and figure out why that's so but it goes up by the cube. And so this is this is really bad, but doubling the number of course, right? I have two things running. They're the same at Empower. Each of them has the same amount of power is single one was before so I just get a 2X increase in power. I so this is like really good in a lot of ways because power matters and you will actually get twice the performance at least in theory.  That's the why didn't we do this? And the reason is that they're really hard to use. So let's go back to our old friend and  So here's handles why I'm so let's say that we want to actually get double the performance in a to a machine. So to a c&p with two processors. The only way that we are going to get us total equal to 2 is if s equals 2 + x equals one, right that does not going to be higher than two because we only have two quarters and X is not going to be higher than one because that's a hundred percent and percent and the problem is that usually neither of these is achievable  Rights of the chances of this requires that you be able to take your program break it exactly in half in the two threads that can run complete lie in parallel and never talk to each other. I never saw each other down and I'll be just as fast as the single turbos before it's just doesn't happen to work in practice and there a couple of reasons for that.  What is the threads are hard to find? So if we want to exploit multiple CPUs, we need multiple threads as a couple places, you can get that you can get those from processes. So this is like different kind of programs on your computer like Microsoft Word or GCC or your machine learning solver single program.  Summer programs that are actually ripping rights on my computer right now. If I would open up the activity monitor the task manager whatever it's called on Windows, I would see that there were probably 40 different programs running right? I've got at least PowerPoint. I've got the little clicker thing down there, but actually neither of them is doing anything like right now PowerPlay is Idle. It's just displaying the same thing over and over again and the clicker thing is also doing nothing at almost everything else is doing nothing as well. So right now there are no runnable threads probably on my laptop or at least not bring money.  And there's certainly if I had one of these 26 core processors from until there's not going to be 26 programs that I'm actively using on my laptop at one time. That's more, and servers. Right? I'll just start up 26 copies of my web server or something or some other Cloud utility and I can run I can run lots of copies about on desktops and laptops in your phone. It's it's less less likely I can also get those from thread. So these are individual and most programs are not moldy shredded.  Which means there's not a lot of threats to be had there going to be more and more so and I was just so I graduated from graduate school in 2006 the power crisis hit in 2004 to CMP. Like the first laptop. I bought when I was a professor was the first dual-core laptop that I owned and there was a big is a crisis of parallel programming. What are we going to do? And there was all this research about how to fix this and make it better and very little is actually come from we have not solve the fundamental problems that make it hard and some people are getting a little better but still most things are not multi-threaded.  Set of our purposes around time at all processes and threads together as thread because there something that you could run on a corn and what are there a high-level thing or a low-level thing? It doesn't make much difference system. If you go and look there might be like between one and eight or something actively running processes. Most of them are not running flat-out, you know on my other laptop and I was checking for email occasionally actually a good way to see the threads are still open up like a thousand a tabs on your browser ride and maybe go to some some web pages have lots of ads like those. Those are good way to get dreads. Then I can do anything useful as many friends as we would like to know just configure them appropriately. So well in the clouds this works pretty well, but for normal users, it's not quite as big of a win.  So that's where we are. We've gotten ourselves into kind of a pickle and now we're just trying to figure out how to program them.  So one thing that we need from our multiprocessors is a way for programs to communicate with one another so I have two programs running that need to be able to talk to each other and say hey, you know, I've loaded in that they do you needed why don't you other this other thread going process on it?  And the way that we're going to do that as we're going to allow One processor to make changes that another one processor to see changes of another processor makes use that to implement locks. That's the key kind of primitive that we need. That's all I know is I asked this before but how many of you take an operating systems?  All right, most of your kind of lock if you haven't taken operating systems.  Stuff U of U O lucky you it's coming now.  Locks are terrible how many people have taken operating systems think locks are terrible and I lost a pretty terrible never cheat the locks. That's my advice to you. Every time I thought I know I don't need a lock hear you actually to lock there are processes and thread are going to share a single pool of physical memory and then we'll use some virtual memory to allow them to selectively actually share virtual memory also so they can actually talk to each other. So here's the basic model anything to do with me to get rid of which is a performance faster, but we'll do it just for a moment and then we'll just say, you know processor one. You may execute one loader store instruction.  Will wait for processor went to do that and I will say Okay processor to you may execute one Motors through inspection and then we'll just keep going and kind of a round-robin and everyone will get their turn. This is a disaster because you know, we don't have caches and the processes are waiting a lot. And so we don't want to we don't want to do it that way.  Incineroar going to do is we're going to make Cash's work in this environment and the challenge is to make sure that all the processors see a coherent view of what is a memory. So before we get to look coherence is and how that works. Let's talk a little bit more about unit processor caches.  So in a cash when we have a cash, right we have some local cache is here and my memory that means that we have multiple copies of the same piece of data in the system. So this case I have I just 1,000 in the cash the address that I just 1,000 my TV, but it may memory the address might be the value of that address might be a now. This is okay because the program is running up here on the processor. And so whenever it goes to look at memory looks through the cash so it goes and says hey, what did I just 1,000 it will find be which is one supposed to be there, but it will not find a which is the old stale value and eventually be will get evicted and I'll get right back and then this will become be just fine.  This becomes a problem.  If we have multiple caches because there can be multiple copies.  I thought I fix this type of graphical problem but available copies and no one processor will be able to see all the cash is because we have local cache is right. This is the local L2 cache. This is the local L1 cache so which processor can have its own private picture of that memory address?  And the question is which one has the right value and how do we make sure that everyone eventually has the right value? Let's start off. We have r value.  First processor does a store so it's going to ride some value out there. So it's going to be we bring the cash line into the local cash. We store a to that address and now we have a is here and Main memory says it's be now what happens if the next processor reads 1000 so it's going to go and look at its local cash.  What's the cash Miss Ferris? I will go to my memory. Hey, hey memory what you got? I know you have be greater than 1000. So I'll bring that into my local cache.  Now let's say that.  I start getting 1000 process C&I store C.  And so now I have to eventually three different values store that I just 1,000 and if I were to do a cash Madison Gabby and bring it up here and that's going to be the wrong value, right? So this is a problem. I can't reliably communicate if I just read my caches in the start of naive way.  Tell her to keep my cash as synchronized.  How to make sure that all the copies of values in the system up-to-date there a couple ways that we could do that one is that we can update them. So that means back in my picture here. When I do this for the first time I do this store I could do right through remember I could right through my cash and I can go an update that in my memory that would mean that all my stores had to go all the way to my memory. So that wouldn't be great and also do a store here. It's processor 3 I have to also after I pay this version and ask them have to reach over and under this version and I have to go in and pay this person if they two different copies and if I have a big system from Intel that has 256 processor socket, so that's a hundred and twelve course. I might have to go in update 112 different copies of that cash line that's like a hundred and twelve different stores out to make memory and to make matters worse actually going to another socket is actually slower than going to make  What's actually worse than going to make memory 112 times?  How to spell disaster or we can invalidate them so that I'll say hey I have I just did a store so I will go into all the other processors. Hey, you should get rid of your data. I have the one true value for this address. That's how it'll be. This will guarantee that there is exactly one current value for an address which seems like a nice invariant to have and all the processors should agree on what that value is.  So we're going to enforce this by enforcing a total order on all loads of store operations to an address and making sure that all processes of the same ordering.  Easy peasy, right? It's only has like the longest bullet and all of my slides for this class right before lines long. So what this means is we are going to take all of the programs that are running in the system and where we're going to say, let's say they're all updating address 1000 and we are going to arrange it as we'll see how the next slide so that all of those accesses from all of those processors are going to record one after another store store load store store store load load load and so forth and then all of the processes are going to agree on what that ordering is, and that means that if I look at my store or load it will appear somewhere in this life and I will get the last storm the last store for that address and everyone else will agree on what that last stored value should be  That is the goal. Yes.  We will still ensure that there is someone ordering so that means that one of those processors Will Wait. So one of them will be delayed and it's process access will take a little bit longer. So this process that we're going to do this task of the solution. We haven't called cache coherence because it provides a coherent view of memory to all of the processors in the system.  So here is the basics of cache coherence line in each cash. So this will happen if usually the last private cash so in the pictures, we've been showing as a private. I want a private L2 cache coherence will happen. If the private else to eat one of those cash lines can be in one of three states. He can be shared a shared cache line. I mean that there are multiple copies of that cash on the system, but they are all the same. So everyone can have their own copy as long as it has the same value that store and all of those copies and this in this case only reading is allowed so no one is allowed to modify a cache line that is in the shared state.  The second state is called owned and that means that there is only one cached copy of the data and this is it right. So this is the one true value for this address and I am allowed that local processor is allowed to read or write that value.  Third option is that it's invalid which means that this cash line does not contain valid data. And so if you access that it's automatically a mess, right? Cuz there's nothing there before like if you want to reboot everything is invalid, but now it's going to happen a lot more because we're going to be doing invalidations. Yes.  There are not multiple chairs. There is only one cached copy of this data. That is what that means.  Yasser reading and writing is allowed only by the owner.  by the owner  Nope one copy only.  That is the rule so there can be multiple shares, but there can only be one owner.  As a result the state machine looks like for those three states.  So you start off an invalid state if you do a store.  What you do is you send a store and validation request to the current owner is also called a directory that lets you find the current owner and all of the shares. So I find the current owner and I sent her a message and I say hey owner I am taking away your cash line.  Or if their share is I'll send to all the shares and say he shares I'm taking away your cash line so mark that cash line as invalid when I get all of those responses back. I will complete the transition into announced a which means I have the only cash copy in the system by then guaranteed to be able to execute one store instruction.  Ride because if I was not guaranteed to do that someone else could snatch it away before I was able to excuse my instruction. I might never make forward progress. So I'm guaranteed execute one instruction once I get ownership. Once I'm in the own State I can read and I can write all I want so I can read and ride over and over again. Everything is fine. If I receive it in validation request, which is some other core coming and saying hey owner. I am going to take your cash line away. Then I will transition back to an invalid State and if I want to do another store, then I will have to go and do this whole process again to get ownership again. If I want I can also get a downgrade request of someone else does a reed to this cash line. I will get a downgrade and it will say hey owner you are no longer the owner you are Asher and so I will get a downgrade and I will translate transition to the shared state which means I can no longer do stores, but I can do reeds.  If I do a store I can visitation from store back to own but again, I have to send out invalidation to all the other shares and then I have a share I can do I can get my taxes taken away as well and valid and if I'm an invalid and I do just to load them on the panda shirts day.  Price of it all the castle in Zorb of Independence copy of the same machine and those cash lines are bouncing around between the various States and there's a bunch of messages getting sent all over the system. This is still a potentially pretty expensive. I remember I had this give this example of 112 cores every one of them could have a copy and so invalidating all those shares could still be pretty expensive.  I thought you are a programmer on a big multi-core machine. You are very concerned about limiting the amount of Trent of coherence transaction to go on your system and you're even more concerned about making sure the Beast come here and transactions don't go to another car because it's very very slow. And there's operating system supports to prevent to help you design your insulin your software so it won't do that very much.  All right, that's how it works. So now we go back to our example.  So we have our store from our first processor. So we going to an exclusive state. So we are the owner of that cash line and we can store whatever we would like you to read. So I translate into a transition into a shared State one thing. It's cool here is it when I go into the state I can actually save myself a trip to my memory because I can grab that data out of the cash that has it. So that happens to be nearby. I can satisfy my load from the other current owner or another share then if I do a store at see this guy goes in a non-state in these guys become invalid.  And if I do this it appears to everyone that they all of these actresses are totally serialized and everyone will agree on what the value of a given address is at any one time and I agree on I mean if I issue a store right at any point, like if all of us issues are all of us issue reads at the same time, we will all see the same value come back for memory.  or if someone cashes in this case any questions.  Man, I went too fast. I got to break out another slide deck.  Or we could have final review but only people that actually came to class on the third Tuesday before Thanksgiving get to participate in.  What's up, who votes for final review?  A few of you who votes are just leaving early.  Oh the honest contingent.  Alright, so here's are we going to do if I don't have another slide deck except one. That's really really long different subjects. If you want to leave leave right now, if you want a final review you can stay and I'll answer questions for the next 15 minutes.  Are there any questions will just get started and then the people are going to leave or filter out and leave us with quiet?  All right, the true die-hard computer architects.  Here are all the questions that are going to be on the final.  All right, that's enough questions. They can be there about just about just about anything the current homework past homework the reading.  Every are all of you just hoping that someone else is going to ask a question. Go ahead.  To see you then.  That homework 7, is that right?  This is a free trial dress determine if it'll be a cashier at a gas mask for cash be.  Fel-Pro problem, okay.  What is the question?  Start again.  Coraline  65 + 85 is 4 5.  4 minute  So you are asking so what that means?  Okay.  I know I only have the key. Okay.  So here we are this one here. Oh to see.  bright  doesn't the address in binary and you have  Chromecast to be right so that the cash into the cash table set is two bits.  So what that means is at this address or this access is going to read for bites.  So that access is going to be the four of us going to access. It's going to bring in a 4 by cash line, but it's only one store. It's only one access.  So it should just be one access. It should only there's only one line in this table for this address.  Does that make sense?  pagan  Heroes for bites  1 block  I've won each block has four bites.  Are you?  Are you worried about how many cash lines are on the cash?  All right, there are four. So each of the cash is 16x total. There are 4X in engine block. So that means that there are for cash lines.  You only read one cashline at a time ever.  so for this I mean this  This is just one reads was just going to read one cash line. So you read this one and then you heard this one and then you read this one. And then you heard this one in each. One of those is just one cash line that you're reading.  Anna questions  Oh, you're all done with homework somewhere 7, that's great.  Glad to hear it.  All right. I'm going to leave early if no one has any more questions.  Yes.  Okay.  That is a good question.  Those are going to be adjusted somehow a bunch of the records of what well the clicks are all there but I can't see what was on the screen when you click so I don't know which problems they were. So something like you guys are going to get graded on.  Basically participation for the reading quizzes, I think because I don't have a basis for the actual.  answers  I went in a little bit later showed up. Right? I mean, I told everyone else they could go but those people that went home early or what are they katian early instead of coming to architecture class?  very discouraging  All right that events have a good break. I will see you on Tuesday. "
+}

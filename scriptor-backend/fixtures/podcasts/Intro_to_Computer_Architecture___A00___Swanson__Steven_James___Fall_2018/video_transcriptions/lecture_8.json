@@ -1,0 +1,776 @@
+{
+  "Blurbs": {
+    "10 and Brent Loops off and go farther than that right and easily if it's a thousand times a thousand times the loop and you'll go one way 999 X and the other way once we could also have run time constant. So if you know if he gets passed into this function and then we run a loop a whole bunch of times and we check for some valid ": [
+      315.4,
+      337.6,
+      8
+    ],
+    "24th at the least the power of 2. It's a good guess I should be as large as we can make it. We have 32-bit addresses in mips so we could make us have a 4 billion entries that maybe seems a little bit large. All right. So we're going to do is there any uses for a comment or can we going to see this more more later on ": [
+      764.1,
+      788.1,
+      23
+    ],
+    "40 Years of computer architecture. All right. So the first thing they did as they widen the pipeline so originally we fetched one instruction for cycle and here when we have a wide processor. We are going to fetch to instructions for Cycle Salvage one here and one here. So instead of fighting for by three fetch eight bites and then those two for those two instructions flows through the ": [
+      2193.5,
+      2216.2,
+      65
+    ],
+    "And so we talk about some static strategy is like a backward taken for the reasonable guess about which way branches should go but that's not going to get us to you know up to around 99% which is where we need to be. So we're going to do instead is look for something called a dynamic Branch director. And that means that the processor is going to watch what's ": [
+      270.2,
+      293.7,
+      6
+    ],
+    "Branch crossword for simple. Loops. Oh, this is actually not even the same as this is a d previous Ranch. So just like the last Branch we saw right at the last minute. I saw was taken. I bet the next one's going to be taking two of the last one. I'm going to be not taking also really need one bit. Right? So we just keep you know, we ": [
+      440.3,
+      462.5,
+      13
+    ],
+    "Branch place in blue blazes too hard to remove. Skip that hello. All right. So first thing we're going to learn a new means really about how it affects performance. How does it affect the pipeline design really about out-of-order execution Wichita modern processors work. We're going to let it true and false dependents has a really how offer up out of order processors remove false dependents is really about ": [
+      2040.1,
+      2069.9,
+      59
+    ],
+    "Branch prediction and I give you this big drawing that show that even if we have very high, even if we have very high accuracy because we have to fetch a whole bunch of instructions in modern processors. It still means there's a pretty good chance that something is going to have to get squashed which means you're wasting a printer wasting time wasting energy really good brands for doctors. ": [
+      242.4,
+      270.2,
+      5
+    ],
+    "Country is coming. so exciting everybody loves the midterm, right? Who doesn't love a midterm? What? What could be better you locked in a room for an hour and a half? A bunch of hard problems. They determine your fate in the world will be a mid-term review on the Thursday before hand. The way midterm review works is bad. You, questions and I answer them that when you stop ": [
+      63.9,
+      106.1,
+      0
+    ],
+    "Cycles. Oh my gosh speed up 1 / 52. That's a speed up. + 1 - x that's going to be 99 I've ever put that on to their this ends up being a c. Who's the 33% slowed down because I have changed from integer to floating Point arithmetic for 1% of my program, right? This is the evil. Corollary Mendel's Law. We could dry under like this. He's ": [
+      4621.5,
+      4655.9,
+      152
+    ],
+    "Graphics. So anytime you need like continuously value things you use floating Point numbers because they're good at representing very large and very small values. So if you think that the integers see if you have to be to bits if you can represent the numbers between 0 and four billion or so between -2000000000 + positive 2 billion in steps of one, right? So you can't do fractions millionth ": [
+      4305.6,
+      4334.2,
+      141
+    ],
+    "How does this work? So here's a piece of code. This is how it works in a processor call the alpha 21 264 which is the coolest microprocessor ever built but none of you would probably ever heard of which is a tragedy was awesome. It was like no way cooler. If you can imagine that it was really cool. This is a very cool machine. Anyway, so that's how ": [
+      3632.4,
+      3656.2,
+      116
+    ],
+    "I have two choices. Do I do the global history thing or do I do the PC thing? Well I can do both. And then I could have a third predictor that would predict which of the two predictors I should use. Right side be like, okay usually for this Branch. I know that usually the global history predictor is better, but for the southern Branch, I know that the ": [
+      1758.0,
+      1779.6,
+      49
+    ],
+    "I'll show you in a minute. We're going to get rid of the fake ones. So here's what I'm out of water pipe was like kind of our cartoon version of an out of order pipeline. Cubs schedule and it's going to be in charge of analyzing that that's how the instruction cute analyzing at seasons of a window of instructions. It holds all the window holds all the instructions ": [
+      3076.5,
+      3098.8,
+      95
+    ],
+    "Miss prediction. so the very clever and elegant idea that they came up with is called simultaneous multithreading, you know, there's probably more as hyper-threading what Intel calls it wrote the same thing. The videos were going to run multiple threads or thread is like a running a program run or multiple threats at the same time in the same Pipeline. And we're going to do is we're going to ": [
+      4045.7,
+      4077.8,
+      131
+    ],
+    "Right? So no Branch 20th. Something. Is it PT 20? This will be its bit. It'll keep the history of that individual branch. Now there are a couple of problems here. 1 is it true that how big should the table be who would like to suggest a size for the table? How about 1 and 3? Nothing like a good size. It's simple. How about 10? 3050 101 thousand ": [
+      725.1,
+      764.1,
+      22
+    ],
+    "See, what is the average CPI? so the it's not really a question. Is it application branch and Branch resolved average CPI? What is Denver CPI So we can go through and do this. I'll give you the answer. So the average CPI is so the bay CPI is one. 20% of our instructions are branches. the Miss prediction rate is 1 - 90 with a 190 sided percentage is ": [
+      983.0,
+      1022.3,
+      31
+    ],
+    "So if we do that we can go back into the same code. And now we just look at the aggregate. We're look at the accuracy of Branch why again? And so now we have the prediction is always going to be what we saw last time. So the prediction here. For the duration one is going to be true and the prediction for the duration to is going to ": [
+      807.7,
+      834.8,
+      25
+    ],
+    "So now we actually have to do some more stuff. We're going to be analyzing the instructions are going to analyze them over and over again instruction my schedule for a while. potentially we're going to keep looking out and that's going to burn energy and decrease our processors efficiency. So just to give you a little idea of how complicated out of order is. This is a circuit diagram ": [
+      3167.4,
+      3200.3,
+      99
+    ],
+    "So the reason for this is that they're sort of limited ILP in individual application. So if you have something that's like I like to see see there's lots of branches and even if you do everything we talked about you're still able to on average only execute one or two instructions per cycle. For graduation performance as part of the atom has also limited memory parallelism to hear about ": [
+      3993.5,
+      4022.0,
+      129
+    ],
+    "So we take the previous map in here. So we're now dad is going to right in the P for the read from P1 Andre from P3. Are the next instruction? It writes to our two. So we're going to stay that rap5 correspond * 2. And will rewrite this and then we will reuse since we are using our three or three gets turned into P4 because we have ": [
+      3736.3,
+      3764.3,
+      119
+    ],
+    "So when we see a prediction we move one way or the other along the this row. So if we're in the taken stated, we see it taking Branch we go to strongly taken at 4 to take him staying with you not taking Branch We Got Us Weekly not taken then if we see another not taking Branch will go to strongly not taken and if we're in one ": [
+      900.2,
+      916.6,
+      28
+    ],
+    "States regardless of where we start it takes a little while for the predictor to learn what's going on. Who's protector lyrics this is sort of the basis for all branch predictors in. modern architectures You could imagine going up to three. That's right. We should give us eight days. And so you'd have really really really strongly not taken and then just really really strongly not taking then just ": [
+      1604.4,
+      1632.5,
+      43
+    ],
+    "That's pretty bad. Yes. It did this is the last Branch Branch X. So this branch is always true. Only one we're going to fix that in a minute are the problem here is that this branch which is totally predictable is messing up his France which is somewhat unpredictable, right so we can do a little bit better than that. so the next iteration is called the one before ": [
+      662.6,
+      707.6,
+      20
+    ],
+    "They make it as long as they can buy doing optimization, but it's Architects. We can't really do much to to make it lower. We have shrunk recycle time. As far as we can write. We've been pretty deeply I mean not in our slides but an industry that pipeline pretty deeply they got in the clocks rights up pretty high. And so that's pretty much done. So instruction kind ": [
+      2097.4,
+      2121.5,
+      61
+    ],
+    "This is floating points. Maybe that's it for the second mixture here. Right? There's a fair number of floating Point operations all the math bear. There's also a lot of integer operations to write to all the loops are being controlled by image of all the conditions for the loops are determined by comparison to an integer variables. There's another sling for an operation manager and floating-point stuff fast animals ": [
+      4385.6,
+      4419.6,
+      144
+    ],
+    "a hundred and twenty-eight physical registers. And then we're going to have another the registers that we use in our assembly winter going to be called architectural registers. So easily actual names that the that the compiler will write down and then we are going to dynamically build a mapping between architectural registers in physical registers and will be able to eliminate a lot of these false dependents has naming ": [
+      3603.8,
+      3630.8,
+      115
+    ],
+    "about instead is parallelism. So parallelism, right? So here is this is just a disclaimer, right? So there's two things for the rest of the body slide Brunello delays in the new branch is so modern processors don't have them. They just do everything Dynamic little talk about how they do that and having to worry about the details of like what highly parallel processors do in the presence of ": [
+      2012.0,
+      2040.1,
+      58
+    ],
+    "accumulates then it gets rained out the back. So this is the front end and this is the back end. Typically, the out-of-order pipelines are also why be so you can issue multiple instructions of the same time. It doesn't actually have to be you could have a single issue out of order processor. And the reason that you might do that is if you have a very long Layton ": [
+      3120.9,
+      3140.7,
+      97
+    ],
+    "advisor. So one of my graduate advisors was one of the main people that invented S&T. And it just tell you another reason why the 21464 was so cool the 21 for 264 the 21464 was going to be the first smt processor and do it way cooler than Intel dead. But the company that manufactured it got bought and then bought again and then went out of business. It ": [
+      4227.2,
+      4253.7,
+      138
+    ],
+    "and calculated. So we will just go through this. I'll do it quicker problem next time. So Amazon also tells us. Even if we don't have a lot of flame point that we need to pay close attention. So imagine the other program that's 1% floating-point, right 1% of the time. It spends 1% of our time doing some miniature Edition inside your key Loop and you decide to use ": [
+      4517.4,
+      4547.8,
+      149
+    ],
+    "and their values will be broadcast back across the instruction window and the process will continue So really complicated take away from those and this is how a modern processors work. So the main challenge the issue window is to keep the instruction window filled. So instruction windows are usually something like 32 instructions, give or take a factor of 2. The size is limited by their complexity. Which is ": [
+      3446.9,
+      3479.2,
+      109
+    ],
+    "and this is The slide in the instruction Q. We know what the two. what the input value the input registers are for this instruction. So they've recorded those and then we have coming in here as well. This is the output register for ALU 0 and 1/2 L use and this says you know where We're right back. I guess. Write this is the the register that we're going ": [
+      3222.5,
+      3269.7,
+      101
+    ],
+    "and we would expect that the behavior of different branches. I will be different from one another right even if sometimes are correlated so we can go through and calculate. Play Soul example. I guess I already gave you the answer. So he makes it very easy. So here's a little Loop. So the deal is we said I could have zero we have a Sloop we're going to do ": [
+      500.8,
+      523.1,
+      16
+    ],
+    "answer right the thing that is left in T1 is different if the subtract executes first then if the attic its first, so this is also called an output dependents. Accuracy with outfits, but we cannot execute them in the reverse order to get the wrong value. But the key thing here is that there is no actual data flowing from the right. It's just kind of an unfortunate decision ": [
+      2665.0,
+      2694.4,
+      82
+    ],
+    "appearances are true. are true dependencies are there two kinds of false dependents has check out the false appearances. So the first one is called a right after right dependents WAW and it occurs when two instructions right to the same location. So this example add one and the adding and subtracting both right to register T1. So can I reorder these instructions? No, because we will get the wrong ": [
+      2627.4,
+      2665.0,
+      81
+    ],
+    "are going to have all draw the state machine up here. not taken taken oops So this is strongly not taken weekly not taken weekly taken strongly. taken Backroads, we're going to start 00 which is over here, I believe. Wright's Wright's office 80022 right here and the challenges to predict what the branch prediction accuracy is going to be for this you need to worry about btti, cuz I'm ": [
+      1055.9,
+      1109.3,
+      33
+    ],
+    "are the big complicated pieces of logic. So if we had both of them in one maybe would make a cycle time longer. So we put one up of one of above and one below and now that's great cuz I cycle time will be shorter. But now we have to reroute the instructions for the need to go and I can cause more stalls. I'm so we can resolve ": [
+      2380.8,
+      2401.8,
+      72
+    ],
+    "as much parallelism as as as much power as soon as possible while still respecting those dependents has The way this is going to work cuz we're going to fetch a bunch of instructions. So am I 8 instructions given cycle met before maybe it will see the pendulum is known as the processor. We are going to build the dependence graph for all those instructions in Hardware. So we're ": [
+      2815.1,
+      2836.9,
+      87
+    ],
+    "asking questions, we all get to go home. So I kind of thought the question. Yes. I am podcasting I believe so. Any other questions the midterm will resemble the homework and the quizzes. It will be challenging and it will also be curved. Yes. There is no cheating on the midterm. There is no cheap if we need. Will provide you any information that you need? There's not a ": [
+      106.1,
+      145.2,
+      1
+    ],
+    "be not not taken not taken taken not taken taken at again. To 33% So this is no no. No, this is yes. No, no. No. Yes. No, no, no. How can we do better? So we can do a little bit better with something called of 2 bit counter. So here instead of keeping just a single bit for each branch. We're going to keep two bits and we're ": [
+      834.8,
+      870.1,
+      26
+    ],
+    "because they're all going to be ready for this arbitration logic has to look at all of these instructions and figure out which one that's going to execute because I can only ask you one of the two at a time because it's only 2 L use so it'll pull two of them out at usually does the oldest ones first in or out those NW and they will execute ": [
+      3429.1,
+      3446.9,
+      108
+    ],
+    "between 3 and 6. 3 and 6 we have a true dependence and we have some false dependents has between 3 and 7. That's all right after right because the right to T3 and we also have a false dependents between 3 and 8. We should probably a false dependents here too, cuz they're both write to S3. Which one can we execute now? three and four and five for ": [
+      2961.4,
+      3005.3,
+      92
+    ],
+    "branch. The other one isn't so remind me some intervening instructions that would make this could make it more sense data flow between the instructions. So here we have that is going to write to us to oh wait, this is not right. all right, so this should be T1 T1 All right. So add the ad is going to read from C1 and then subtract is going to write ": [
+      2712.4,
+      2752.1,
+      84
+    ],
+    "can throw away the old value of R1 that means in this case. I can reuse P1 after I'd anytime after I have overwritten are one and all the inspections are needed as completed. Search register renaming. Rename so now I've added two more stages. Again. The pipeline is longer Branch resolutions are longer scheduling buffer. We have lots of instructions who still makes everything more complicated. It's more work ": [
+      3812.0,
+      3846.8,
+      122
+    ],
+    "can use. So this this other set of orders and this orgaid goes over here and that will last the other value. So this thing one upholding one and put in this thing one to pull in the other input for this instruction. If both of those are valid this goes into an an Gates, which said that this instruction is ready to execute because I have all of the ": [
+      3361.5,
+      3383.9,
+      105
+    ],
+    "code that would reverse-engineer the structure that Branch Victor and like a lot of people cried like it was a really bad scene and and the department check got involved and it was it was a big deal. It was too hard was the answer people really kind of freaked out anyway, so he went and start asking really like your ass actually office gave it so you can't actually ": [
+      1955.5,
+      1981.2,
+      56
+    ],
+    "condition on me that branch is always going to be the same or at least it's going to be the same for a thousand iterations through that Loop we can have Berlin control so A & B are correlated a is some value B is something that usually bigger than a then the direction if those two branches go is not going to be independent. So if I learned that ": [
+      337.6,
+      357.0,
+      9
+    ],
+    "construction, so we'll see after the midterm and talk about memory a lot. Memory operations can take a really long time like hundreds of cycles. And so you could have used a single order out of a single issue out of order processor to hide the latency of those that memory operations makes everything more complicated and fundamentally, there's more work for instruction, right? So he's added this new stage. ": [
+      3140.7,
+      3167.4,
+      98
+    ],
+    "couple ways we can do heart in floating-point. You can get a software Library will just looking for an operations and if you have some dinky little processor doesn't have plenty points a-port. That's what it will do Samsung software the latency there something like this. These are rough numbers. I pulled off of some floating point. I'll Library so, you know what had my take 52 cycles and X ": [
+      4443.5,
+      4464.9,
+      146
+    ],
+    "cuz it's you know, you spend that tote equals 1 / x / x + 1 - x .00 1.0. 1.01. What is s? So, I don't know how I was doing integer arithmetic. I was doing integer addition. What's the CPI for integer addition? How long does it take to Dad to Interstellar? 1 cycle how long is it going to take me to add two photos together? 52 ": [
+      4574.0,
+      4621.5,
+      151
+    ],
+    "decode and so forth and In the best-case RCP, I was going to be .5 write cycles per instruction is Cycles / instructions. If this is one and this is too then CPI equals one half right takes half a cycle deck instruction on average. That's cool. So what can go wrong? So first of all, we might not have two of everything. So we might only have to say ": [
+      2328.0,
+      2360.8,
+      70
+    ],
+    "do the memory operations and so forth. This turns out to be surprisingly simple. When they in until I think the first time I did it was an opinion for it was only about a 5% overhead in terms of area to make us some tea work and they did they do it too wide and until you can get for some applications of significant performance boost. One is that ": [
+      4121.9,
+      4152.1,
+      134
+    ],
+    "each other down. So now if I have two threads running and one of them is using a lot of resources that can slow down. How is your call interference or just kind of a bummer interesting footnote smt was invented the people invented it was Dean Telson, who is the chair of our department leader that you died with some of the dean and I have the same graduate ": [
+      4206.2,
+      4227.2,
+      137
+    ],
+    "faster so we can do a floating-point and like four Cycles we can do it slogan for T-Mobile plan for a Psycho ending divide maybe takes between 9 and 23 Cycles interesting ly 4 divided actually does something like long division. They still teach long division. I've heard they're going to stop so did they actually that the processor actually does something like long division when it goes through and ": [
+      4495.7,
+      4517.4,
+      148
+    ],
+    "faster, right? We always wanted to go faster. So what do we do? So the answer is the only thing that the left is to reduce CPI. Right. We really can't get the flag of time father. I see is fixed. So cycle time is where CPR is where we go. We must be completing multiple instructions for cycle to the processor must be doing multiple operations at once and ": [
+      2139.8,
+      2167.2,
+      63
+    ],
+    "fill my instruction Q. So my Branch prediction behavior is less important. I have left all the title Hardware so I can improve my Energy Efficiency because I know how hard where does Brynn some power and get higher IPC or instructions lower CPI? So this is ocp I could be as low as maybe .25 in practice which is great disadvantages. The threads can fight over resources and so ": [
+      4179.1,
+      4206.2,
+      136
+    ],
+    "floats instead right side headlight for 1% of my time. I'm going to make it floating point. If I see if he does not support floating point, so I have to use the software license fees. What is the speed up going to be? I thought which tool do we use to figure this out? Oh boy. and has lost all right to be quicker than that for the final ": [
+      4547.8,
+      4574.0,
+      150
+    ],
+    "for one of those lots of different ways to implement out of this is the instruction to kind of model and this is just for one of the slots in the instruction. So there might be 32 copies of this inside the processor. So just to give you a little bit of flavor what's goes on. So the instruction DD code decoder inspection comes in here and do a register ": [
+      3200.3,
+      3222.5,
+      100
+    ],
+    "from T1. Can we reorder those instructions? No, because if we reorder them then the value that we needed that for the first instruction will be destroyed by the second instruction. So this is also an output dependents. Right and it's false because there is no data actually flowing between the two. It's just to get an unfortunate decision that the compiler made that use the same name for two ": [
+      2752.1,
+      2780.6,
+      85
+    ],
+    "get the wrong value for 21, right because I value hasn't been produced yet and the results are not the same. All right, so I can also be a full sew in this is called a By my side so messed up. This is called a read after write or Rod dependence and we call that because it were reading it after we wrote it. Right and so the rod ": [
+      2591.3,
+      2627.4,
+      80
+    ],
+    "getting good performance out of modern processors. We can talk some more about what modern processors look like the next few slides and there's such a closely guarded secret that they are intentionally obfuscated so Intel when they build their ground for actors, You can reverse-engineer the structure of the branch breaker so I can create a program. That is very specific characteristics about when branches were taking him not ": [
+      1884.1,
+      1910.9,
+      53
+    ],
+    "go in this class. Is this part right here. So we have this trick where we're taking the PC. We took the PC and we used it to index into the stable. So the central Challenger Branch predictor design then is how do you take these two-bit counters and assign them to individual branches and there are an infinite way infinite number of ways of doing this. So we've used ": [
+      1658.6,
+      1685.8,
+      45
+    ],
+    "going to be able to remember a little bit about what the previous Branch to the previous time. I kind of a little bit farther back in her history of State machine has four states we have taken this is strongly taken. Strong so this is strongly taking this is week cuz weekly not taken. Weekly or bi-weekly taken and then this is weekly. Taking this is strongly not taken. ": [
+      870.1,
+      900.2,
+      27
+    ],
+    "going to be point one and I multiply that times too because that's the branch Miss predict penalty so you have .22 * .1 * 2 and then we get 1.04 Prix TPI review All right. So let's look at our example from the with the mod. So if we got there and do this we have this. Table, this is a clicker question this time around. So remember we ": [
+      1022.3,
+      1055.9,
+      32
+    ],
+    "going to look at those instructions and we are going to find all of those dependence is just like we did in the previous slide. We're going to find all the instructions with no unmet dependencies in coming and we're going to execute them at least as many of them as we can that will remove some of those instructions from the difference graph. I don't open up some new ": [
+      2836.9,
+      2856.7,
+      88
+    ],
+    "got little devil horns. And he's frowning remember Angeles was smiling originally, but now he's sad. All right, we need to make it go fast. We will pick up here on Thursday. We'll talk to actors on I'll see you then. ": [
+      4655.9,
+      4672.0,
+      153
+    ],
+    "happening in the execution of the program and it is going to try to predict what's going to happen. Next time. We talked about a variety of different reasons why control might be predictable in this way branches are an excellent possibility, right? So we do the ranch rifles 1 to 10. The branch at the bottom of the loop is going to go one way nine times out of ": [
+      293.7,
+      315.4,
+      7
+    ],
+    "have him fetch stage. We're going to have four prisoners caso4 for why doesn't she have for program counters? So we're going to fetch for different instructions, or maybe we'll fetch to instructions from each of four threads. We have more complicated to schemes and we're just going to dump them all into the pipeline. Now the harder we have to like keep track or I'll going to be writing ": [
+      4077.8,
+      4100.1,
+      132
+    ],
+    "have that bit that comes out of the ale you this is which were the branches going to go. We just store that in the fetch unit. Do we use that to make a decision super easy my belly get some help from the compiler if it knew this is what we are going to do. It could try to arrange things so that we would kind of take a ": [
+      462.5,
+      479.0,
+      14
+    ],
+    "here. And now if I go through and look at those defenses, I have eliminated all of the right after right and right after I read the penances then I just have the true dependence is left over. right Is a couple of details here to figure out when I can release the register. It turns out as soon as I rename soon as I use are one again, I ": [
+      3787.5,
+      3812.0,
+      121
+    ],
+    "if I learned that if I usually take their neck first branch that I'm probably gonna take the second Branch I could do something useful with that. And then finally there's a bunch of situations with function calls are usually at a particular place in a program. I might be calling several functions, but usually I'm just going to be calling one function happens, especially in object-oriented program does virtual ": [
+      357.0,
+      378.4,
+      10
+    ],
+    "if I'm on three. So actually all right. So if we keep going let's go through and do the rest of the actual branches. So and I close three. Is it going to be taken or not taken? taken 4 Not taking 5. 6 Take it. All right, so we're going to go not taken taken taken not taken taken taken taken and tntt. All right, so that means that ": [
+      1478.6,
+      1519.6,
+      39
+    ],
+    "in the load delay. All right, ignore the load delay. I'll fix that my slides so they recycle and so forth because we built in all of the forwarding we needed and so there were no data hazards. but then we have this challenge if we're going to fetch two things at a time then two things are going to be in Fetch two things are going to be in ": [
+      2294.4,
+      2328.0,
+      69
+    ],
+    "inputs that I need right now. This is going on thirty two of these let's say rights. I have a whole bunch of each one of these slots is one of those things on the previous slide. I have a 2L use they're feeding their results back into those all of these things on the previous slide or checking all independently or I'll checking all of the checking all the ": [
+      3383.9,
+      3407.3,
+      106
+    ],
+    "instructions and then we will repeat that process over and over again will fetch some stuff in one life. Independence is Alexa keep the stuff. We can always keep doing it over and over again, but here's an example. So we have a subtracting or another ad. Here are our here are our dependence has so we have between one and a three. Between I just want an address 3 ": [
+      2856.7,
+      2887.7,
+      89
+    ],
+    "instructions if the two instructions can execute a man either order or simultaneously so we can move them around or we could execute execute them at the same time. So, Add and subtract the add rights to register T1, and the subtract reads from T1. So there is a dependence between the out of the subtract fractions in the answer is no because if we swap them then we would ": [
+      2561.1,
+      2591.3,
+      79
+    ],
+    "is going to be not taken check and the new state renter moved back to the back to the right. Rebecca 00 make sense Yes. french fry sorry. So this is there's a branch instruction in this statement. Yeah. Bazaar of the Sarasota you can't quite tell whether the compiler met which side of the branch is taking a nap. So I said here is the branches taken if I ": [
+      1407.2,
+      1478.6,
+      38
+    ],
+    "is it we're going to take the low order bits of the PC or if some address and we're going to use that to start a pic once lot out of a table. So in this case we take these are the 20. If it's address and so we use that to choose which bit we're going to look at or going to predict that it's going to be taken. ": [
+      788.1,
+      806.7,
+      24
+    ],
+    "it works these instructions 1 2 3 4 5 here they are they have a bunch of false dependents is what I've done with the arrows and we're going to have is going to register map table. And the way this works, is it Everytime We decode an instruction or when we fetch instruction as it goes to the pipeline. We are going to rename its destination register. Right? So ": [
+      3656.2,
+      3678.8,
+      117
+    ],
+    "it's over here. We're going to tell the difference between different branches. So we're going to keep the kind of one bit per branch. And the way that we're going to do this is going to take the program counter. And this is sort of one of the core trickster Branch predictors where to take the program counter. I'm going to use it to index into a table of bits. ": [
+      707.6,
+      725.1,
+      21
+    ],
+    "iteration in the loop. So So in this case, the last branch is Axis is branch checks are here. So every time we go through every time every time we get to Branch Y the last Branch we saw was Branch Branch X is almost always taken and so the prediction is going to be taken the actual the actual not taken taken taken not taken not taken taken not ": [
+      584.6,
+      618.1,
+      18
+    ],
+    "know if this is still true. This was true back in the early 2000 Intel's brand Furniture would occasionally make random decisions to keep you from being able to reverse-engineer the algorithm. I'd and the way that I found this out as my graduate advisor from the south is in graduate in The Graduate architecture class on the take-home midterm. What are the problems was to write this piece of ": [
+      1931.8,
+      1955.5,
+      55
+    ],
+    "later. So the observation that some people made that on many cycles many of the L used in the instruction Q slots are actually empty. So a lot of the processes resources are kind of sitting idle, especially the instruction cute even if they're not empty. The may not be may not be being used very very well because maybe those instructions are likely to be a squash Tudor Branch ": [
+      4022.0,
+      4045.7,
+      130
+    ],
+    "law tells us that we should pay attention to floating Point operations, right because of her spending a lot of time doing them over here and then make them slow then our performance is going to stink. Does a couple ways we could do floating point we could do it in software? Oh, this is kind of redundant anyway, so for this is all the carpet earlier. So there's a ": [
+      4419.6,
+      4443.5,
+      145
+    ],
+    "left left right? Left left right? Left left, right? I'll be like oh and I left left right left left-right-left usually taken but if I'm right right left right right left right left or left left, right? Right, right left right left, right? So right I mean left so the things that way now some branches are more predictable by themselves and they are currently the other stuff. So now ": [
+      1732.1,
+      1758.0,
+      48
+    ],
+    "local local Furniture local predictor is better. And then how do I decide how to build this the Chooser? Well, I am going to index into it based on something and that could be a lot of different stuff. Yes. so Very few variables in your programmer arbitrary. Right. So in order for us really not to do better than 50% like the easiest way to imagine that happening and ": [
+      1779.6,
+      1819.6,
+      50
+    ],
+    "lot of branches in the in a row or not. The cons are that's 100 Rancho Loop a mess everything up right? So if I have a loop in the middle, I do something they could go either way of the state of the loop for I'm going to have four prediction accuracy for the branch of the bottom of the loop. They can't tell the difference between different branches ": [
+      479.0,
+      500.8,
+      15
+    ],
+    "lot of stuff to remember you need to know and those lie, you know the performance equation but those are pretty simple. So I think you can you can manage it. Any other questions? All right, not only is there a midterm is also a final? This well, look at that. I didn't even know it was going to do that. That's very fancy. Wow, that's the midterm. It isn't ": [
+      145.2,
+      179.7,
+      2
+    ],
+    "maybe do this we could add more registers. Can we add more registers? No, we cannot add more registers. How many bits are there to specify each of the three operands in mips? Five rights are 232. The five is 32 Saum. It's can only have 32 registers. That's a bummer and Intel's even worse. Originally there were only eight when they expanded a 16 and now there's a few ": [
+      3546.6,
+      3575.8,
+      113
+    ],
+    "messy. So what happened pretty quickly that they wanted to go for more LP they built a much smarter processor and this is out of order. So we're going to try to find more opportunities for parallelism. And the question is how can we make the processor do this efficiently? So we need a little bit of background. So the first thing to talk about his day two dependents has ": [
+      2518.0,
+      2541.1,
+      77
+    ],
+    "method dispatch record that control might be printable. The high-level reason for all of this is that unpredictability of branches correlates hunted to the complexity of your program, right? If there's more weird stuff that can happen your program gets more complicated and we tend to like to write simple programs or at least write write them in a simple ways we can and so we started feed into this ": [
+      378.4,
+      404.2,
+      11
+    ],
+    "more yoy. There's only choose five bits was going to reasons for that. If we use Six Paths, then we would lose some bits of the opcode and things get complicated, but we are sort of stuck with those five registers. The solution is Randy's virtualization. So we have physical registers. And we're going to have sort of as many physical registers as we can build. So maybe we'll have ": [
+      3575.8,
+      3603.8,
+      114
+    ],
+    "not the the destination for lu0 is should come into this slot over here. So this is the other part of the of the slot. So this is going to record the register values that we need. So if I read this value that I need it's going to get latched in right here. Then I'm going to set the valid bet that says there's actual data there that I ": [
+      3330.6,
+      3361.5,
+      104
+    ],
+    "now is going to be 01. All right, the next time to the branch next time of the branch we get in to get there and I equals to 2 is going to be taken or not taken. Not taking right to mod 3 is 2 which is not equal to 0 now. It's the prediction going to be for the prediction is based on this one. So the prediction ": [
+      1384.8,
+      1407.2,
+      37
+    ],
+    "of a gram Rangers aren't very good at doing that in the same calculation potentially might have to represent, you know, a hundred billion kilograms. And so we would like to have a single data type that can handle all of that. The floating Point values are for 3:30. A little bit all right to know about the mantissa exponent everything. That's that's not so important. What is important is ": [
+      4334.2,
+      4357.0,
+      142
+    ],
+    "of down cycle time is done and we have achieved a CPI of one right because at least for a mips we designed away the load de Lait spots in the branch play Slots and if we did have Branch Branch too late, then we built a really good Branch predictor. So we are almost always right and now we have a CPI of one but we want to go ": [
+      2121.5,
+      2139.8,
+      62
+    ],
+    "of the PC is you can use something called the history. Are the branch history and this is a sequence in a record which way all the glassed a 16 branches of gone. So what if it's taking his ear if it's not taken and I could use that to index in to this table and that would give me some information if I'm in a situation where I went ": [
+      1711.1,
+      1732.1,
+      47
+    ],
+    "of the branch go the branch, so I'm on three equal to zero or not. Yes. Yeah, so the branch is going to be taken. So that's the actual so what about the next time I'm at what's the prediction going to be the next time around? All right. It's going to be taken right now. It's not going to be taken. So the actual Branch outcome was taken we ": [
+      1326.2,
+      1350.8,
+      35
+    ],
+    "of these are strongly States and we see the same thing. We just sit there and we just stay saturated tonight. We have a table. I guess you do the same thing. We take a Lortab. It's we look into the table. We see that we are in stage 1 0 and 1 0 ECG corresponds to taken. So this is a taken. production All right. So what's good about ": [
+      916.6,
+      945.4,
+      29
+    ],
+    "of these visor needs. But I guess we'll be destroyed actually to be the value of. T14 changed it All right. So the key idea behind out-of-order execution is that we're going to identify the house or the independence's and we can do that because every sequence of instructions how to set of raw Avari www.nwe our dependence has that constrain how I can execute and if we can extract ": [
+      2780.6,
+      2815.1,
+      86
+    ],
+    "one memory and then case we are going to have a structural Hazard. Right? So if there happens to be a memory operation down here in the second slot, then we'll have to stall and I'll get rounded up here into the memory unit. Also, we have to Al use here and here but maybe one of them has a multiplier and one of them has a shifter because those ": [
+      2360.8,
+      2380.8,
+      71
+    ],
+    "or between instruction 11 section 3 like this, is that a true dependents or a false dependents? true dependence So it's going to be in blacksmithing black between 1 and 4. We also have a dependents true or false. True dependence between two we have a dependence on three drawer false. And if you are a true true. Now if we look at this which instructions can we execute? All ": [
+      2887.7,
+      2923.3,
+      90
+    ],
+    "out the variable latency instructions are everywhere. So instruction divided can take between on One processor. I found stats for between 9 and 23 Cycles floating-point can also take a variable length of time and load the stores are highly variable and what happened to clean notion of pipeline that we've had so far really begins to break down instructions kind of different rates through the pipeline on all this ": [
+      3938.5,
+      3963.3,
+      127
+    ],
+    "outfits in the OU and the detailed information from the instructions. These are the ready lines here. They come out here. So many number of those could light up on a given cycle. Right? So if everyone is waiting for the results of going to be rain in to register for a nail u0 write something in the register for all of these are going to light up at once ": [
+      3407.3,
+      3429.1,
+      107
+    ],
+    "pipeline together just like they did in the five-stage single-issue Pipeline and so we can think of this is sort of the odd I guess this would be even this is even in this is odd. Are the top and bottom layers of the pipeline and this is a 2 wide in order superscalar processor. So it's too high because we should be refreshing to instructions. It's in order because ": [
+      2216.2,
+      2243.5,
+      66
+    ],
+    "predictable like lots and lots of stuff is quite predictable the structures that we have like the the language constructs give us predictability in our control. So in actuality, they end up being really really high. well Sometimes sometimes just sometimes now so there's some CO2 just for a branch and it is hard for the processor are very complicated. They're very closely guarded secret because they're really Central to ": [
+      1850.7,
+      1884.1,
+      52
+    ],
+    "pretty directly. So let's think about how we can build a dynamic Branch predictor. So the simplest thing is that a previously did right? So, you know, it seems like it would be a pretty good match for this Loop directions. Set up Rose. There are the pros are that it is really simple. We will keep some bit in the fetch stage. That is the direction of the last ": [
+      404.2,
+      440.3,
+      12
+    ],
+    "produce I don't know. What is an or gate, right? I think it's going on at the same time as we have the ALU output value. This is the actual result that's coming in from the from the ALU. And what this so what this organ is Computing is whether or not the destination. so this this comes in here and also comes in over here this says whether or ": [
+      3299.9,
+      3330.6,
+      103
+    ],
+    "quashed. Be sure to go down here. And then on the next light of the Lord will execute again on the lower pipeline. R Us updated hazards, right because we could have a value that's produced here and is actually needed back here this could occur if we have depended instructions to this ad has the prettiest is one of the inputs to the subtract. And so now we will ": [
+      2461.1,
+      2491.5,
+      75
+    ],
+    "really vectors because they're not like little a raise but we do have they called them superscalar cuz it's two things at once. It's a lot of potential problems rice is going to make things more complicated. There's a quick refresher on how we look at single issues. This is back to normal five-stage best type of nips pipeline have a simple sequence of instructions there is Oh, I drew ": [
+      2270.5,
+      2294.4,
+      68
+    ],
+    "right, we can execute one and two right they have no incoming edges. So they have no unresolved appearances Soul execute them to execute. It'll be like this. The three and four leftover, they don't have no dependents is so that's great going to fetch some more instructions. between 3 and between 3 and we're going to drive them out until they're so we have a right to defense is ": [
+      2923.3,
+      2961.4,
+      91
+    ],
+    "six instructions and fly fly means of between Fetch and commit a right back. There are a hundred and six instructions. It was working on it once until the Halo on which was about 3 or 4 years old was five way at a 12 Dale use circuit Issue 5 instructions at a time to 12 daily use you might want to issue you want want want more aliases than ": [
+      3893.4,
+      3913.6,
+      125
+    ],
+    "smt and How about floating-point and vectors? which are two sort of out of order floating points of the main big pieces that are missing from Modern process missing from our discussion so far that modern processors use So why do they want parallelism? So we've seen so far we go back to our performance equation instruction count as more or less fixed, right? So it doesn't change that much. ": [
+      2069.9,
+      2097.4,
+      60
+    ],
+    "so so far for the most part. We've been thinking about instructions. I just heard of exeggcute and there are a couple of Hazzard cases we've seen or after he was kind of keep track of which instructions are talking to which things are going to become a lot more complicated. So we need to pay a lot of attention to this. So in general, there's no dependents between two ": [
+      2541.1,
+      2561.1,
+      78
+    ],
+    "so that's that we'll talk more about that later. But be aware of that. I've talked to a couple of you that have some timing problems with this. We will work something out if anyone else has. Music combinations as far as time goes you should see me today. Otherwise, everyone's going to take this measure that final at that time. All right, so to recap We were talking about ": [
+      211.1,
+      242.4,
+      4
+    ],
+    "sort of strongly not take it and then just not taking then weekly take any could go the other direction. It turns out that you can take a long time for you to learn what's going on if the behavior changes so too has a pretty good trade-off the other thing that changes and Branch protectors and this is where things get arbitrarily complicated and we're we're not going to ": [
+      1632.5,
+      1658.6,
+      44
+    ],
+    "stall actually we saw the next both of the next to instructions and we have to wait for that dependency to resolve. So we can go farther. How we can make them whiter. We could have to wide or four wide or 8 wide it gets more complicated compiling gets hurt or two because really if you're a smart compiler you'd like to avoid these hazards things can get pretty ": [
+      2491.5,
+      2518.0,
+      76
+    ],
+    "start over here and these strongly not taking state. So we are going to shift one to the right. I didn't realize we're not so sure anymore about this Branch. So the next prediction is going to be. This game is also going to be not taken. Is going to be not taken. What's the actual Branch outcome going to be? Not taken check. Great. All right in the state ": [
+      1350.8,
+      1384.8,
+      36
+    ],
+    "substantial and the impact they have on cycle time. So I have to get the signals through all of that logic on every cycle has all those instructions instructions as discussed. This means of the processor needs to predict Six-Day consecutive branches to keep the window filled on and I miss. You're going to flush that whole pipeline. I mean you're going to waste all of it all the effort ": [
+      3479.2,
+      3501.3,
+      110
+    ],
+    "take 33 cycles of divided might take a few Cycles interesting that X is faster than add. They don't know why. Remember House of floating-point is a mantissa exponent and I multiply when you have two exponents you just add them so multiplying and floating point is actually more like an ad in an added. It's complicated thing where you have to like renormalized stuff. Anyway, if we are much ": [
+      4464.9,
+      4495.7,
+      147
+    ],
+    "take one two three four Cycles. What is a 5 Cycles? 12 I got to fetch the first time before issuing thinks that the instructions in five cycles of a CPI of cycles per instruction is 8 Cycles per instruction, which is 5/8 which is all over half. So that's how basically how out of order execution works. Any questions about that? We're not going to go into log on. ": [
+      3035.8,
+      3071.9,
+      94
+    ],
+    "taken and I can do this history stuff and I can control that and I could do experiments and try to figure out what the branch prediction algorithm until I was using a Nerf War. I were a MD or arm which runs has two major competitors. I can try to go and learn how Intel designer Austin Branch Bridge really it's really high production rights against this. I don't ": [
+      1910.9,
+      1931.8,
+      54
+    ],
+    "taken. Taken and so forth. And so when do these matchups this is our prediction right here. So this I don't know what happened. Come back. So the that's a that's a correct prediction. This is a correct prediction that's incorrect prediction, and these are all in card predictions so Over in crack. That was one of our definitions. So that 33% of the time we're going to be right. ": [
+      618.1,
+      662.6,
+      19
+    ],
+    "talk about the btb. The correct prediction is going to be for this predictor of fire up the Sorry. Liquor Zone Oh, come on. All right. I have to restart the clicker software. Sorry, bear with me. All right. There we go. 20 seconds or so alright 5 4 3 2 1 All right. People like sea, let's go through and Daryl quickly here. When I call 0 which one ": [
+      1109.3,
+      1326.2,
+      34
+    ],
+    "that many there's not that much parallelism. And the reason is that we reuse registers, right? There's a fixed number of registers. Both of these false dependents is occur because we're happened to be using the same name in the same register the whole different values in the program. And so then we would like to do is get rid of these. Is a couple of ways that we can ": [
+      3524.5,
+      3546.6,
+      112
+    ],
+    "that mapping over there and we'll look it all up as you're going through we can follow through and do the rest and every time we're going to rename my R1 R2 R2. And so we see that over time the thing that correspond I think the register that corresponds to our one changes and there are two Changes in Attitude changes again, and then we rename them accordingly over ": [
+      3764.3,
+      3787.5,
+      120
+    ],
+    "that the compiler made that happen to use the same name for both of these instructions are both the opposite both of those instructions. This example looks a little funny like why would you do this? Cuz you're throwing away the value of T1, but one way that this could occur is maybe one of those is on one side of a branch or inside of the body of a ": [
+      2694.4,
+      2712.4,
+      83
+    ],
+    "that the operations are really complicated and we also want to think about what floating-point code looks like. This is a loop or something called value decomposition the arrays you an A and L are all floating Point values. And so if you think about what this is going to turn into a real Circle some of the floating Point operations, this one is floating points. This is floating point. ": [
+      4357.0,
+      4385.6,
+      143
+    ],
+    "that you've spent feeling the pipeline and keeping things keeping things going. This is he still a really good brand for Actiontec. It's even more important for out-of-order processors than other processors. The other problem is that there's not that much parallelism the way that we've built it so far. So in the presence of raw and right after right and right after read hazards or dependent has there's not ": [
+      3501.3,
+      3524.5,
+      111
+    ],
+    "that. We don't replicate everything as we can. You know, we can stop here. We can forward instructions down or we can we can for them pass instructions back up or we could reroute things here. There's lots of potential solutions that have a good smell that but in any case what's going to happen if there's going to be a bubble with next slide? Because we get here and ": [
+      2401.8,
+      2428.4,
+      73
+    ],
+    "the first thing we were going to do so for this is the these are the ultimate doing here. So these are the architectural registers. I need the physical registered registers that they correspond to so it starts and corresponds to say that after executing the first instruction. that P1 Is Garner going to correspond to R1? right before and then we're going to rewrite over here the rename registers. ": [
+      3678.8,
+      3736.3,
+      118
+    ],
+    "the next three of those Flex get those right so we could execute all three of these but we only have really say that we have to we have to use so you can only execute to instructions at a time. So I left at 5 and the next cycle we can execute 5 and 6 unless I can we can execute 7 and 8. All right. So this will ": [
+      3005.3,
+      3035.8,
+      93
+    ],
+    "the normal listed or set it to file the normal final time, which is on Friday. Awesome, Friday afternoon and finals week. What better time away? What worst time could there be I guess it could be on Saturday at the end of finals Rick. It could be in the morning. So there are a few slots that would be worse but not many will be 3 hours long. and ": [
+      179.7,
+      209.6,
+      3
+    ],
+    "the program counter in this example, and this is the simplest thing to do. But if we wanted to detect the correlation between multiple branches in the program, so if this branch is usually not taking those other branches usually going to be not taken this isn't going to work because we always have the same each of those. There's no information that can connect us to branches together instead ": [
+      1685.8,
+      1711.1,
+      46
+    ],
+    "the taken States, we need to have to meet up to taking branches in a row and we never have that with this code and so the predictions then we can say our going to be Wrong cracked cracked wrong and this one will be not take until be correct. So the answer is 67% All right with the results have been different if we started over here in the ": [
+      1545.6,
+      1575.4,
+      41
+    ],
+    "the two bit counter? So take a look at this Loop. It's a simple one branch of the bottom. and I got a 90% production rate. right, so we have I'm 90% prediction, right? So that's great. Every time one once predicted correctly will get it wrong when we leave. So if the application is 80 percentile you and 20% branches and the branch resolves in the X stage ever. ": [
+      945.4,
+      983.0,
+      30
+    ],
+    "there's lots of ways where you could up for branch prediction accuracy is if stay in our code here if we were like if I die, you know, if if Grandma Dorothy if they would give me pretty random behavior of things are are correlated to something right. So I'll have confidence in my program parameters passed into a function the fact that you know, like loot bodies are pretty ": [
+      1819.6,
+      1850.7,
+      51
+    ],
+    "thing was using and all of their results and everything that they're using just goes away and it magically we guarantee that no one else will ever use them. So that's about the only thing that makes easier. Martin nievera processors do all the stuff so he's a couple of examples. He's actually a little bit old defroster call DMV Barcelona was Six Wide, you could have a hundred and ": [
+      3872.6,
+      3893.4,
+      124
+    ],
+    "this a hundred times this Branch that's going to go one way every third time cuz we're checking. I'm on 32520 and then so we can think about what is the accuracy of Branch? Why going to be with the one good predictor? This is second. So if we go out there and look at this table, or you could ignore this stuff right here. So this is for each ": [
+      523.1,
+      584.6,
+      17
+    ],
+    "through floating quite so some of the things that modern processors have that we haven't talked about. So the first we're going to talk about is the floating Point Unit so floating Point operations. Are depending on the applications can be either almost all the all of the code or maybe almost none of the code. So they're super critical and things like scientific stimulation machine learning and vision and ": [
+      4278.1,
+      4305.6,
+      140
+    ],
+    "to ride back to so this comes down here. I'll just look at one of these it comes down here and it gets compared to the desk the input input register name for this instruction if they're equally goes over here to this and gate 7 and gate. It is an or gate, but I feel like it should be an and gate. Which of the input the other and ": [
+      3269.7,
+      3299.9,
+      102
+    ],
+    "to the baby the same registers and so forth because they're using the same architectural registers, but fortunately rename is going to fix all that rights are rename keep track of which physical register corresponds to which architectural register that belongs to which thread and then after that everything works, right? We've all the registers we know where the results are going to go. We can schedule them execute them ": [
+      4100.1,
+      4121.9,
+      133
+    ],
+    "very Dynamic analysis of what's going on to it to keep everything organized. One last wrinkle. So ever even the fastest out of order machines only get between one or two instructions per cycle. This is 1 / CPI. So even for most machines you don't ever get a CPR that slower than about a half even though they're usually 4425 IL use vacation for 5 instructions at a time. ": [
+      3963.3,
+      3992.5,
+      128
+    ],
+    "was very tragic. All right any questions about out of order? So the main thing you need to know is out of order happens, you know, do you know about things like the instruction window in the fact that register renaming happens? We're not going to have you go through and you know simulated out of order pipeline or anything. That's too complicated. so I'll see if I can get ": [
+      4253.7,
+      4278.1,
+      139
+    ],
+    "we call this instruction level parallelism throw talk about some other kinds of parallelism later on in the course, but this is sort of we call this the finest grain kind of parallelism, which is doing multiple instructions at the same time. So there's lots of them it's five states pipeline was invented in 19. 80 or so and then this is sort of a world rent or the last ": [
+      2167.2,
+      2193.5,
+      64
+    ],
+    "we have to do we have to maintain the table and make some things really easy. So one thing that makes really nice is that if I want to go through and so we had to squash instructions, right? So if I have a branch Miss prediction, I have to go through and I squash instructions pretty simple I have to do is squash the all the registers at that ": [
+      3846.8,
+      3872.6,
+      123
+    ],
+    "we start off in strongly not taken. We moved on this after the first time I moved over once. And then we moved back we stayed over there and then he moved over again. They moved back in the Rover and back and over and back. So that means that the prediction is going to always be not taken. right because in order to get over here into the to ": [
+      1519.6,
+      1545.6,
+      40
+    ],
+    "we're still executing instructions. in order basically in the order they appear on the program and superscalar I sort of Kind of too wide and play superscalar. So it back to write as a single numerical value a scalar is a single numerical value. So the you can think about the Mets processor is being a scalar processor cuz it just works on one thing at a time. These aren't ": [
+      2243.5,
+      2270.5,
+      67
+    ],
+    "weekly taken state. Let's say so if we start here we go left left right left left, right? So it's going to say the same but if we started having to start way over here in the strongly taken State, we would go what happened that we would go left left right left left, right? So after a while we're slowly going to drift over into the into the taken ": [
+      1575.4,
+      1604.4,
+      42
+    ],
+    "will be a process server is looking at the fetch stage and the decode stage fill the in the instruction q and the downstream stages I empty it. So there was some questions on Piazza about what the front of the processor is. The front end is everything up to schedule so you can think of this is the front of the processor. There's a buffer or stuff kind of ": [
+      3098.8,
+      3120.9,
+      96
+    ],
+    "write that program, you know, every time I got a great and they say I have a great idea for a branch director that very thing happened at the end of class last time proving that hold still and a back in 1995. And so there's lots and lots and lots of ideas for breast reduction. All right, we're not going to talk about it. What we're going to talk ": [
+      1981.2,
+      2012.0,
+      57
+    ],
+    "you can explain tomato as you can explain LP for multiple multiple threads at once because I transfer cycle but I'm only fetching to form each thread and I'm only that the, you know where the start of compounded and probability of correct Branch prediction, but that applies inside a single thread. So if I'm fetching from more threads at a time, I have to fetch past few ranches to ": [
+      4152.1,
+      4179.1,
+      135
+    ],
+    "you could issue to because some operations take more than a single cycle and it could have the only thing I could find his / 128 instructions in flight. Anna provides a whole bunch of benefit benefit for memory operations as we'll see after the midterm memory operations can take a really long time. So a lot of this complexity is meant to deal with memory latency, but it turns ": [
+      3913.6,
+      3938.5,
+      126
+    ],
+    "you know, this special instruction had to stall for a cycle until it. Could move along behind the So this is this this one gets stalled gets delayed by a cyclone executes one cycle later to resolve. So things are getting more complicated. So the chef is it from this is from the previous example the shift needs to move down to the lower pipe line on the load gets ": [
+      2428.4,
+      2461.1,
+      74
+    ]
+  },
+  "File Name": "Intro_to_Computer_Architecture___A00___Swanson__Steven_James___Fall_2018-lecture_8.flac",
+  "Full Transcript": "Country is coming.  so exciting  everybody loves the midterm, right?  Who doesn't love a midterm?  What?  What could be better you locked in a room for an hour and a half?  A bunch of hard problems. They determine your fate in the world will be a mid-term review on the Thursday before hand. The way midterm review works is bad.  You, questions and I answer them that when you stop asking questions, we all get to go home.  So I kind of thought the question. Yes.  I am podcasting I believe so.  Any other questions the midterm will resemble the homework and the quizzes. It will be challenging and it will also be curved.  Yes.  There is no cheating on the midterm. There is no cheap if we need.  Will provide you any information that you need? There's not a lot of stuff to remember you need to know and those lie, you know the performance equation but those are pretty simple. So I think you can you can manage it.  Any other questions?  All right, not only is there a midterm is also a final?  This well, look at that.  I didn't even know it was going to do that. That's very fancy.  Wow, that's the midterm. It isn't the normal listed or set it to file the normal final time, which is on Friday.  Awesome, Friday afternoon and finals week. What better time away? What worst time could there be I guess it could be on Saturday at the end of finals Rick. It could be in the morning. So there are a few slots that would be worse but not many will be 3 hours long.  and  so that's that we'll talk more about that later. But be aware of that. I've talked to a couple of you that have some timing problems with this. We will work something out if anyone else has.  Music combinations as far as time goes you should see me today. Otherwise, everyone's going to take this measure that final at that time.  All right, so to recap  We were talking about Branch prediction and I give you this big drawing that show that even if we have very high, even if we have very high accuracy because we have to fetch a whole bunch of instructions in modern processors. It still means there's a pretty good chance that something is going to have to get squashed which means you're wasting a printer wasting time wasting energy really good brands for doctors. And so we talk about some static strategy is like a backward taken for the reasonable guess about which way branches should go but that's not going to get us to you know up to around 99% which is where we need to be.  So we're going to do instead is look for something called a dynamic Branch director. And that means that the processor is going to watch what's happening in the execution of the program and it is going to try to predict what's going to happen. Next time. We talked about a variety of different reasons why control might be predictable in this way branches are an excellent possibility, right? So we do the ranch rifles 1 to 10. The branch at the bottom of the loop is going to go one way nine times out of 10 and Brent Loops off and go farther than that right and easily if it's a thousand times a thousand times the loop and you'll go one way 999 X and the other way once we could also have run time constant. So if you know if he gets passed into this function and then we run a loop a whole bunch of times and we check for some valid condition on me that branch is always going to be the same or at least it's going to be the same for a thousand iterations through that Loop we can have  Berlin control so A & B are correlated a is some value B is something that usually bigger than a then the direction if those two branches go is not going to be independent. So if I learned that if I learned that if I usually take their neck first branch that I'm probably gonna take the second Branch I could do something useful with that. And then finally there's a bunch of situations with function calls are usually at a particular place in a program. I might be calling several functions, but usually I'm just going to be calling one function happens, especially in object-oriented program does virtual method dispatch record that control might be printable.  The high-level reason for all of this is that unpredictability of branches correlates hunted to the complexity of your program, right? If there's more weird stuff that can happen your program gets more complicated and we tend to like to write simple programs or at least write write them in a simple ways we can and so we started feed into this pretty directly.  So let's think about how we can build a dynamic Branch predictor. So the simplest thing is that a previously did right? So, you know, it seems like it would be a pretty good match for this Loop directions.  Set up Rose. There are the pros are that it is really simple. We will keep some bit in the fetch stage. That is the direction of the last Branch crossword for simple. Loops.  Oh, this is actually not even the same as this is a d previous Ranch. So just like the last Branch we saw right at the last minute. I saw was taken. I bet the next one's going to be taking two of the last one. I'm going to be not taking also really need one bit. Right? So we just keep you know, we have that bit that comes out of the ale you this is which were the branches going to go. We just store that in the fetch unit. Do we use that to make a decision super easy my belly get some help from the compiler if it knew this is what we are going to do. It could try to arrange things so that we would kind of take a lot of branches in the in a row or not. The cons are that's 100 Rancho Loop a mess everything up right? So if I have a loop in the middle, I do something they could go either way of the state of the loop for I'm going to have four prediction accuracy for the branch of the bottom of the loop. They can't tell the difference between different branches and we would expect that the behavior of different branches.  I will be different from one another right even if sometimes are correlated so we can go through and calculate.  Play Soul example. I guess I already gave you the answer. So he  makes it very easy. So here's a little Loop. So the deal is we said I could have zero we have a Sloop we're going to do this a hundred times this Branch that's going to go one way every third time cuz we're checking. I'm on 32520 and then so we can think about what is the accuracy of Branch? Why going to be with the one good predictor?  This is second.  So if we go out there and look at this table, or you could ignore this stuff right here. So this is for each iteration in the loop. So  So in this case, the last branch is Axis is branch checks are here. So every time we go through every time every time we get to Branch Y the last Branch we saw was Branch Branch X is almost always taken and so the prediction is going to be taken the actual the actual not taken taken taken not taken not taken taken not taken. Taken and so forth. And so when do these matchups this is our prediction right here. So this  I don't know what happened. Come back.  So the that's a that's a correct prediction. This is a correct prediction that's incorrect prediction, and these are all in card predictions so  Over in crack. That was one of our definitions.  So that 33% of the time we're going to be right. That's pretty bad. Yes.  It did this is the last Branch Branch X.  So this branch is always true.  Only one we're going to fix that in a minute are the problem here is that this branch which is totally predictable is messing up his France which is somewhat unpredictable, right so we can do a little bit better than that.  so the  next iteration is called the one before it's over here. We're going to tell the difference between different branches. So we're going to keep the kind of one bit per branch.  And the way that we're going to do this is going to take the program counter.  And this is sort of one of the core trickster Branch predictors where to take the program counter. I'm going to use it to index into a table of bits. Right? So no Branch 20th. Something. Is it PT 20? This will be its bit. It'll keep the history of that individual branch.  Now there are a couple of problems here.  1  is it true that how big should the table be who would like to suggest a size for the table?  How about 1 and 3?  Nothing like a good size.  It's simple. How about 10?  3050 101 thousand 24th at the least the power of 2.  It's a good guess I should be as large as we can make it. We have 32-bit addresses in mips so we could make us have a 4 billion entries that maybe seems a little bit large. All right. So we're going to do is there any uses for a comment or can we going to see this more more later on is it we're going to take the low order bits of the PC or if some address and we're going to use that to start a pic once lot out of a table. So in this case we take these are the 20.  If it's address and so we use that to choose which bit we're going to look at or going to predict that it's going to be taken.  So if we do that we can go back into the same code.  And now we just look at the aggregate. We're look at the accuracy of Branch why again?  And so now we have the prediction is always going to be what we saw last time. So the prediction here.  For the duration one is going to be true and the prediction for the duration to is going to be not not taken not taken taken not taken taken at again.  To 33% So this is no no. No, this is yes.  No, no. No. Yes. No, no, no.  How can we do better?  So we can do a little bit better with something called of 2 bit counter. So here instead of keeping just a single bit for each branch. We're going to keep two bits and we're going to be able to remember a little bit about what the previous Branch to the previous time. I kind of a little bit farther back in her history of State machine has four states we have taken this is strongly taken.  Strong so this is strongly taking this is week cuz weekly not taken.  Weekly or bi-weekly taken and then this is weekly.  Taking this is strongly not taken. So when we see a prediction we move one way or the other along the this row. So if we're in the taken stated, we see it taking Branch we go to strongly taken at 4 to take him staying with you not taking Branch We Got Us Weekly not taken then if we see another not taking Branch will go to strongly not taken and if we're in one of these are strongly States and we see the same thing. We just sit there and we just stay saturated tonight. We have a table. I guess you do the same thing. We take a Lortab. It's we look into the table. We see that we are in stage 1 0 and 1 0 ECG corresponds to taken. So this is a taken.  production  All right.  So what's good about the two bit counter? So take a look at this Loop.  It's a simple one branch of the bottom.  and  I got a 90% production rate.  right, so we have  I'm 90% prediction, right? So that's great. Every time one once predicted correctly will get it wrong when we leave. So if the application is 80 percentile you and 20% branches and the branch resolves in the X stage ever. See, what is the average CPI?  so the  it's not really a question. Is it application branch and Branch resolved average CPI?  What is  Denver CPI  So we can go through and do this. I'll give you the answer. So the average CPI is  so the bay CPI is one.  20% of our instructions are branches.  the Miss prediction rate is 1 - 90 with a 190 sided percentage is going to be point one and I multiply that times too because that's the branch Miss predict penalty so you have .22 * .1 * 2 and then we get 1.04  Prix TPI review  All right. So let's look at our example from the with the mod.  So if we got there and do this we have this.  Table, this is a clicker question this time around. So remember we are going to have all draw the state machine up here.  not taken taken  oops  So this is strongly not taken weekly not taken weekly taken strongly.  taken  Backroads, we're going to start 00 which is over here, I believe.  Wright's Wright's office 80022 right here  and the challenges to predict what the branch prediction accuracy is going to be for this you need to worry about btti, cuz I'm talk about the btb. The correct prediction is going to be for this predictor of fire up the  Sorry.  Liquor Zone  Oh, come on.  All right. I have to restart the clicker software. Sorry, bear with me.  All right. There we go.  20 seconds or so  alright 5 4 3 2  1  All right.  People like sea, let's go through and Daryl quickly here.  When I call 0 which one of the branch go the branch, so I'm on three equal to zero or not. Yes.  Yeah, so the branch is going to be taken. So that's the actual so what about the next time I'm at what's the prediction going to be the next time around?  All right. It's going to be taken right now. It's not going to be taken. So the actual Branch outcome was taken we start over here and these strongly not taking state. So we are going to shift one to the right.  I didn't realize we're not so sure anymore about this Branch. So the next prediction is going to be.  This game is also going to be not taken.  Is going to be not taken. What's the actual Branch outcome going to be?  Not taken check. Great. All right in the state now is going to be 01.  All right, the next time to the branch next time of the branch we get in to get there and I equals to 2 is going to be taken or not taken.  Not taking right to mod 3 is 2 which is not equal to 0 now. It's the prediction going to be for the prediction is based on this one. So the prediction is going to be  not taken check and the new  state renter moved back to the back to the right.  Rebecca 00  make sense  Yes.  french fry  sorry.  So this is there's a branch instruction in this statement.  Yeah.  Bazaar of the Sarasota you can't quite tell whether the compiler met which side of the branch is taking a nap. So I said here is the branches taken if I if I'm on three.  So actually all right. So if we keep going let's go through and do the rest of the actual branches. So and I close three. Is it going to be taken or not taken?  taken 4  Not taking 5.  6  Take it. All right, so we're going to go not taken taken taken not taken taken taken taken and tntt. All right, so that means that we start off in strongly not taken.  We moved on this after the first time I moved over once.  And then we moved back we stayed over there and then he moved over again. They moved back in the Rover and back and over and back.  So that means that the prediction is going to always be not taken.  right because in order to get over here into the to the taken States, we need to have to meet up to taking branches in a row and we never have that with this code and so the predictions then we can say our going to be  Wrong cracked cracked wrong and this one will be not take until be correct. So the answer is 67%  All right with the results have been different if we started over here in the weekly taken state.  Let's say so if we start here we go left left right left left, right? So it's going to say the same but if we started having to start way over here in the strongly taken State, we would go what happened that we would go left left right left left, right? So after a while we're slowly going to drift over into the into the taken States regardless of where we start it takes a little while for the predictor to learn what's going on.  Who's protector lyrics this is sort of the basis for all branch predictors in.  modern architectures  You could imagine going up to three. That's right. We should give us eight days. And so you'd have really really really strongly not taken and then just really really strongly not taking then just sort of strongly not take it and then just not taking then weekly take any could go the other direction. It turns out that you can take a long time for you to learn what's going on if the behavior changes so too has a pretty good trade-off the other thing that changes and Branch protectors and this is where things get arbitrarily complicated and we're we're not going to go in this class. Is this part right here. So we have this trick where we're taking the PC. We took the PC and we used it to index into the stable.  So the central Challenger Branch predictor design then is how do you take these two-bit counters and assign them to individual branches and there are an infinite way infinite number of ways of doing this. So we've used the program counter in this example, and this is the simplest thing to do. But if we wanted to detect the correlation between multiple branches in the program, so if this branch is usually not taking those other branches usually going to be not taken this isn't going to work because we always have the same each of those. There's no information that can connect us to branches together instead of the PC is you can use something called the history.  Are the branch history and this is a sequence in a record which way all the glassed a 16 branches of gone. So what if it's taking his ear if it's not taken and I could use that to index in to this table and that would give me some information if I'm in a situation where I went left left right? Left left right? Left left, right? I'll be like oh and I left left right left left-right-left usually taken but if I'm right right left right right left right left or left left, right? Right, right left right left, right? So right I mean left so the things that way now some branches are more predictable by themselves and they are currently the other stuff. So now I have two choices. Do I do the global history thing or do I do the PC thing? Well I can do both.  And then I could have a third predictor that would predict which of the two predictors I should use.  Right side be like, okay usually for this Branch. I know that usually the global history predictor is better, but for the southern Branch, I know that the local local Furniture local predictor is better. And then how do I decide how to build this the Chooser? Well, I am going to index into it based on something and that could be a lot of different stuff. Yes.  so  Very few variables in your programmer arbitrary.  Right. So in order for us really not to do better than 50%  like the easiest way to imagine that happening and there's lots of ways where you could up for branch prediction accuracy is if stay in our code here if we were like if I die, you know, if if Grandma Dorothy if they would give me pretty random behavior of things are are correlated to something right. So I'll have confidence in my program parameters passed into a function the fact that you know, like loot bodies are pretty predictable like lots and lots of stuff is quite predictable the structures that we have like the the language constructs give us predictability in our control. So in actuality, they end up being really really high.  well  Sometimes sometimes just sometimes now so there's some CO2 just for a branch and it is hard for the processor are very complicated.  They're very closely guarded secret because they're really Central to getting good performance out of modern processors. We can talk some more about what modern processors look like the next few slides and there's such a closely guarded secret that they are intentionally obfuscated so Intel when they build their ground for actors,  You can reverse-engineer the structure of the branch breaker so I can create a program.  That is very specific characteristics about when branches were taking him not taken and I can do this history stuff and I can control that and I could do experiments and try to figure out what the branch prediction algorithm until I was using a Nerf War. I were a MD or arm which runs has two major competitors. I can try to go and learn how Intel designer Austin Branch Bridge really it's really high production rights against this. I don't know if this is still true. This was true back in the early 2000 Intel's brand Furniture would occasionally make random decisions to keep you from being able to reverse-engineer the algorithm.  I'd and the way that I found this out as my graduate advisor from the south is in graduate in The Graduate architecture class on the take-home midterm.  What are the problems was to write this piece of code that would reverse-engineer the structure that Branch Victor and like a lot of people cried like it was a really bad scene and and  the department check got involved and it was it was a big deal. It was too hard was the answer people really kind of freaked out anyway, so he went and start asking really like your ass actually office gave it so you can't actually write that program, you know, every time I got a great and they say I have a great idea for a branch director that very thing happened at the end of class last time proving that hold still and a back in 1995. And so there's lots and lots and lots of ideas for breast reduction. All right, we're not going to talk about it.  What we're going to talk about instead is parallelism. So parallelism, right? So here is this is just a disclaimer, right? So there's two things for the rest of the body slide Brunello delays in the new branch is so modern processors don't have them. They just do everything Dynamic little talk about how they do that and having to worry about the details of like what highly parallel processors do in the presence of Branch place in blue blazes too hard to remove. Skip that hello. All right. So first thing we're going to learn a new means really about how it affects performance. How does it affect the pipeline design really about out-of-order execution Wichita modern processors work. We're going to let it true and false dependents has a really how offer up out of order processors remove false dependents is really about smt and  How about floating-point and vectors?  which are two sort of out of order floating points of the main big pieces that are missing from Modern process missing from our discussion so far that modern processors use  So why do they want parallelism? So we've seen so far we go back to our performance equation instruction count as more or less fixed, right? So it doesn't change that much. They make it as long as they can buy doing optimization, but it's Architects. We can't really do much to to make it lower. We have shrunk recycle time. As far as we can write. We've been pretty deeply I mean not in our slides but an industry that pipeline pretty deeply they got in the clocks rights up pretty high. And so that's pretty much done. So instruction kind of down cycle time is done and we have achieved a CPI of one right because at least for a mips we designed away the load de Lait spots in the branch play Slots and if we did have Branch Branch too late, then we built a really good Branch predictor. So we are almost always right and now we have a CPI of one but we want to go faster, right? We always wanted to go faster. So what do we do?  So the answer is the only thing that the left is to reduce CPI.  Right. We really can't get the flag of time father. I see is fixed. So cycle time is where CPR is where we go. We must be completing multiple instructions for cycle to the processor must be doing multiple operations at once and we call this instruction level parallelism throw talk about some other kinds of parallelism later on in the course, but this is sort of we call this the finest grain kind of parallelism, which is doing multiple instructions at the same time. So there's lots of them it's five states pipeline was invented in 19.  80 or so and then this is sort of a world rent or the last 40 Years of computer architecture.  All right. So the first thing they did as they widen the pipeline so originally we fetched one instruction for cycle and here when we have a wide processor. We are going to fetch to instructions for Cycle Salvage one here and one here. So instead of fighting for by three fetch eight bites and then those two for those two instructions flows through the pipeline together just like they did in the five-stage single-issue Pipeline and so we can think of this is sort of the odd I guess this would be even this is even in this is odd.  Are the top and bottom layers of the pipeline and this is a 2 wide in order superscalar processor. So it's too high because we should be refreshing to instructions. It's in order because we're still executing instructions.  in order basically in the order they appear on the program and superscalar I sort of  Kind of too wide and play superscalar. So it back to write as a single numerical value a scalar is a single numerical value. So the you can think about the Mets processor is being a scalar processor cuz it just works on one thing at a time. These aren't really vectors because they're not like little a raise but we do have they called them superscalar cuz it's two things at once. It's a lot of potential problems rice is going to make things more complicated. There's a quick refresher on how we look at single issues. This is back to normal five-stage best type of nips pipeline have a simple sequence of instructions there is  Oh, I drew in the load delay.  All right, ignore the load delay.  I'll fix that my slides so they recycle and so forth because we built in all of the forwarding we needed and so there were no data hazards.  but then we have this challenge if we're going to fetch two things at a time then two things are going to be in Fetch two things are going to be in decode and so forth and  In the best-case RCP, I was going to be .5 write cycles per instruction is Cycles / instructions. If this is one and this is too then CPI equals one half right takes half a cycle deck instruction on average.  That's cool.  So what can go wrong? So first of all, we might not have two of everything. So we might only have to say one memory and then case we are going to have a structural Hazard. Right? So if there happens to be a memory operation down here in the second slot, then we'll have to stall and I'll get rounded up here into the memory unit. Also, we have to Al use here and here but maybe one of them has a multiplier and one of them has a shifter because those are the big complicated pieces of logic. So if we had both of them in one maybe would make a cycle time longer. So we put one up of one of above and one below and now that's great cuz I cycle time will be shorter. But now we have to reroute the instructions for the need to go and I can cause more stalls.  I'm so we can resolve that. We don't replicate everything as we can. You know, we can stop here. We can forward instructions down or we can we can for them pass instructions back up or we could reroute things here. There's lots of potential solutions that have a good smell that but in any case what's going to happen if there's going to be a bubble with next slide?  Because we get here and you know, this special instruction had to stall for a cycle until it. Could move along behind the  So this is this this one gets stalled gets delayed by a cyclone executes one cycle later to resolve. So things are getting more complicated.  So the chef is it from this is from the previous example the shift needs to move down to the lower pipe line on the load gets quashed.  Be sure to go down here. And then on the next light of the Lord will execute again on the lower pipeline.  R Us updated hazards, right because we could have a value that's produced here and is actually needed back here this could occur if we have depended instructions to this ad has the prettiest is one of the inputs to the subtract. And so now we will stall actually we saw the next both of the next to instructions and we have to wait for that dependency to resolve.  So we can go farther.  How we can make them whiter. We could have to wide or four wide or 8 wide it gets more complicated compiling gets hurt or two because really if you're a smart compiler you'd like to avoid these hazards things can get pretty messy. So what happened pretty quickly that they wanted to go for more LP they built a much smarter processor and this is out of order.  So we're going to try to find more opportunities for parallelism. And the question is how can we make the processor do this efficiently?  So we need a little bit of background. So the first thing to talk about his day two dependents has so so far for the most part. We've been thinking about instructions. I just heard of exeggcute and there are a couple of Hazzard cases we've seen or after he was kind of keep track of which instructions are talking to which things are going to become a lot more complicated. So we need to pay a lot of attention to this. So in general, there's no dependents between two instructions if the two instructions can execute a man either order or simultaneously so we can move them around or we could execute execute them at the same time. So,  Add and subtract the add rights to register T1, and the subtract reads from T1. So there is a dependence between the out of the subtract fractions in the answer is no because if we swap them then we would get the wrong value for 21, right because I value hasn't been produced yet and the results are not the same.  All right, so I can also be a full sew in this is called a  By my side so messed up. This is called a read after write or Rod dependence and we call that because it were reading it after we wrote it. Right and so the rod appearances are true.  are true dependencies are there two kinds of false dependents has  check out the false appearances. So the first one is called a right after right dependents WAW and it occurs when two instructions right to the same location. So this example add one and the adding and subtracting both right to register T1.  So can I reorder these instructions?  No, because we will get the wrong answer right the thing that is left in T1 is different if the subtract executes first then if the attic its first, so this is also called an output dependents.  Accuracy with outfits, but we cannot execute them in the reverse order to get the wrong value. But the key thing here is that there is no actual data flowing from the right. It's just kind of an unfortunate decision that the compiler made that happen to use the same name for both of these instructions are both the opposite both of those instructions.  This example looks a little funny like why would you do this? Cuz you're throwing away the value of T1, but one way that this could occur is maybe one of those is on one side of a branch or inside of the body of a branch. The other one isn't so remind me some intervening instructions that would make this could make it more sense data flow between the instructions. So here we have that is going to write to us to oh wait, this is not right.  all right, so this should be  T1  T1  All right. So add the ad is going to read from C1 and then subtract is going to write from T1. Can we reorder those instructions?  No, because if we reorder them then the value that we needed that for the first instruction will be destroyed by the second instruction. So this is also an output dependents.  Right and it's false because there is no data actually flowing between the two. It's just to get an unfortunate decision that the compiler made that use the same name for two of these visor needs.  But I guess we'll be destroyed actually to be the value of.  T14 changed it  All right. So the key idea behind out-of-order execution is that we're going to identify the house or the independence's and we can do that because every sequence of instructions how to set of raw Avari www.nwe our dependence has that constrain how I can execute and if we can extract as much parallelism as as as much power as soon as possible while still respecting those dependents has  The way this is going to work cuz we're going to fetch a bunch of instructions. So am I 8 instructions given cycle met before maybe it will see the pendulum is known as the processor. We are going to build the dependence graph for all those instructions in Hardware. So we're going to look at those instructions and we are going to find all of those dependence is just like we did in the previous slide. We're going to find all the instructions with no unmet dependencies in coming and we're going to execute them at least as many of them as we can that will remove some of those instructions from the difference graph. I don't open up some new instructions and then we will repeat that process over and over again will fetch some stuff in one life. Independence is Alexa keep the stuff. We can always keep doing it over and over again, but here's an example.  So we have a subtracting or another ad.  Here are our here are our dependence has so we have between one and a three.  Between I just want an address 3 or between instruction 11 section 3 like this, is that a true dependents or a false dependents?  true dependence  So it's going to be in blacksmithing black between 1 and 4. We also have a dependents true or false.  True dependence between two we have a dependence on three drawer false.  And if you are a true true.  Now if we look at this which instructions can we execute?  All right, we can execute one and two right they have no incoming edges. So they have no unresolved appearances Soul execute them to execute.  It'll be like this.  The three and four leftover, they don't have no dependents is so that's great going to fetch some more instructions.  between 3 and  between 3 and  we're going to drive them out until they're so we have a right to defense is between 3 and 6.  3 and 6 we have a true dependence and we have some false dependents has between 3 and 7. That's all right after right because the right to T3 and we also have a false dependents between 3 and 8.  We should probably a false dependents here too, cuz they're both write to S3. Which one can we execute now?  three and four and five for the next three of those Flex get those right so we could execute all three of these but we only have really say that we have to  we have to use  so you can only execute to instructions at a time. So I left at 5 and the next cycle we can execute 5 and 6 unless I can we can execute 7 and 8.  All right. So this will take one two three four Cycles.  What is a 5 Cycles?  12 I got to fetch the first time before issuing thinks that the instructions in five cycles of a CPI of cycles per instruction is 8  Cycles per instruction, which is 5/8 which is all over half.  So that's how basically how out of order execution works.  Any questions about that?  We're not going to go into log on.  I'll show you in a minute. We're going to get rid of the fake ones.  So here's what I'm out of water pipe was like kind of our cartoon version of an out of order pipeline.  Cubs schedule and it's going to be in charge of analyzing that that's how the instruction cute analyzing at seasons of a window of instructions. It holds all the window holds all the instructions will be a process server is looking at the fetch stage and the decode stage fill the in the instruction q and the downstream stages I empty it. So there was some questions on Piazza about what the front of the processor is. The front end is everything up to schedule so you can think of this is the front of the processor. There's a buffer or stuff kind of accumulates then it gets rained out the back. So this is the front end and this is the back end.  Typically, the out-of-order pipelines are also why be so you can issue multiple instructions of the same time. It doesn't actually have to be you could have a single issue out of order processor. And the reason that you might do that is if you have a very long Layton construction, so we'll see after the midterm and talk about memory a lot. Memory operations can take a really long time like hundreds of cycles. And so you could have used a single order out of a single issue out of order processor to hide the latency of those that memory operations makes everything more complicated and fundamentally, there's more work for instruction, right? So he's added this new stage. So now we actually have to do some more stuff. We're going to be analyzing the instructions are going to analyze them over and over again instruction my schedule for a while.  potentially  we're going to keep looking out and that's going to burn energy and decrease our processors efficiency.  So just to give you a little idea of how complicated out of order is. This is a  circuit diagram for one of those lots of different ways to implement out of this is the instruction to kind of model and this is just for one of the slots in the instruction. So there might be 32 copies of this inside the processor. So just to give you a little bit of flavor what's goes on. So the instruction DD code decoder inspection comes in here and do a register and this is  The slide in the instruction Q. We know what the two.  what the  input value the input registers are for this instruction. So they've recorded those and then we have  coming in here as well. This is the output register for ALU 0 and 1/2 L use and this says you know where  We're right back.  I guess.  Write this is the the register that we're going to ride back to so this comes down here. I'll just look at one of these it comes down here and it gets compared to the desk the input input register name for this instruction if they're equally goes over here to this and gate 7 and gate.  It is an or gate, but I feel like it should be an and gate.  Which of the input the other and produce I don't know. What is an or gate, right?  I think it's going on at the same time as we have the ALU output value. This is the actual result that's coming in from the from the ALU.  And what this so what this organ is Computing is whether or not the destination.  so this this comes in here and also comes in over here this says whether or not the the destination for lu0 is  should come into this slot over here. So this is the other part of the of the slot. So this is going to record the register values that we need. So if I read this value that I need it's going to get latched in right here. Then I'm going to set the valid bet that says there's actual data there that I can use.  So this this other set of orders and this orgaid goes over here and that will last the other value. So this thing one upholding one and put in this thing one to pull in the other input for this instruction.  If both of those are valid this goes into an an Gates, which said that this instruction is ready to execute because I have all of the inputs that I need right now. This is going on thirty two of these let's say  rights. I have a whole bunch of each one of these slots is one of those things on the previous slide.  I have a 2L use they're feeding their results back into those all of these things on the previous slide or checking all independently or I'll checking all of the checking all the outfits in the OU and the detailed information from the instructions. These are the ready lines here.  They come out here. So many number of those could light up on a given cycle. Right? So if everyone is waiting for the results of going to be rain in to register for a nail u0 write something in the register for all of these are going to light up at once because they're all going to be ready for this arbitration logic has to look at all of these instructions and figure out which one that's going to execute because I can only ask you one of the two at a time because it's only 2 L use so it'll pull two of them out at usually does the oldest ones first in or out those NW and they will execute and their values will be broadcast back across the instruction window and the process will continue  So really complicated take away from those and this is how a modern processors work. So the main challenge the issue window is to keep the instruction window filled. So instruction windows are usually something like 32 instructions, give or take a factor of 2.  The size is limited by their complexity.  Which is substantial and the impact they have on cycle time. So I have to get the signals through all of that logic on every cycle has all those instructions instructions as discussed. This means of the processor needs to predict Six-Day consecutive branches to keep the window filled on and I miss. You're going to flush that whole pipeline. I mean you're going to waste all of it all the effort that you've spent feeling the pipeline and keeping things keeping things going.  This is he still a really good brand for Actiontec. It's even more important for out-of-order processors than other processors.  The other problem is that there's not that much parallelism the way that we've built it so far. So in the presence of raw and right after right and right after read hazards or dependent has there's not that many there's not that much parallelism. And the reason is that we reuse registers, right? There's a fixed number of registers. Both of these false dependents is occur because we're happened to be using the same name in the same register the whole different values in the program. And so then we would like to do is get rid of these.  Is a couple of ways that we can maybe do this we could add more registers. Can we add more registers?  No, we cannot add more registers. How many bits are there to specify each of the three operands in mips?  Five rights are 232. The five is 32 Saum. It's can only have 32 registers. That's a bummer and Intel's even worse. Originally there were only eight when they expanded a 16 and now there's a few more yoy. There's only choose five bits was going to reasons for that. If we use Six Paths, then we would lose some bits of the opcode and things get complicated, but we are sort of stuck with those five registers. The solution is Randy's virtualization. So we have physical registers.  And we're going to have sort of as many physical registers as we can build. So maybe we'll have a hundred and twenty-eight physical registers. And then we're going to have another the registers that we use in our assembly winter going to be called architectural registers. So easily actual names that the that the compiler will write down and then we are going to dynamically build a mapping between architectural registers in physical registers and will be able to eliminate a lot of these false dependents has naming  How does this work?  So here's a piece of code. This is how it works in a processor call the alpha 21 264 which is the coolest microprocessor ever built but none of you would probably ever heard of which is a tragedy was awesome. It was like no way cooler. If you can imagine that it was really cool. This is a very cool machine.  Anyway, so that's how it works these instructions 1 2 3 4 5 here they are they have a bunch of false dependents is what I've done with the arrows and we're going to have is going to register map table.  And the way this works, is it Everytime We decode an instruction or when we fetch instruction as it goes to the pipeline. We are going to rename its destination register. Right? So the first thing we were going to do so for this is the these are the ultimate doing here.  So these are the architectural registers.  I need the physical registered registers that they correspond to so it starts and corresponds to say that after executing the first instruction.  that P1  Is Garner going to correspond to R1?  right before  and then we're going to rewrite over here the rename registers. So we take the previous map in here. So we're now dad is going to right in the P for the read from P1 Andre from P3.  Are the next instruction?  It writes to our two. So we're going to stay that rap5 correspond * 2.  And will rewrite this and then we will reuse since we are using our three or three gets turned into P4 because we have that mapping over there and we'll look it all up as you're going through we can follow through and do the rest and every time we're going to rename my R1 R2 R2. And so we see that over time the thing that correspond I think the register that corresponds to our one changes and there are two Changes in Attitude changes again, and then we rename them accordingly over here. And now if I go through and look at those defenses, I have eliminated all of the right after right and right after I read the penances then I just have the true dependence is left over.  right  Is a couple of details here to figure out when I can release the register. It turns out as soon as I rename soon as I use are one again, I can throw away the old value of R1 that means in this case. I can reuse P1 after I'd anytime after I have overwritten are one and all the inspections are needed as completed.  Search register renaming.  Rename so now I've added two more stages. Again. The pipeline is longer Branch resolutions are longer scheduling buffer.  We have lots of instructions who still makes everything more complicated. It's more work we have to do we have to maintain the table and make some things really easy. So one thing that makes really nice is that if I want to go through and so we had to squash instructions, right? So if I have a branch Miss prediction, I have to go through and I squash instructions pretty simple I have to do is squash the all the registers at that thing was using and all of their results and everything that they're using just goes away and it magically we guarantee that no one else will ever use them. So that's about the only thing that makes easier.  Martin nievera processors do all the stuff so he's a couple of examples. He's actually a little bit old defroster call DMV Barcelona was Six Wide, you could have a hundred and six instructions and fly fly means of between Fetch and commit a right back. There are a hundred and six instructions. It was working on it once until the Halo on which was about 3 or 4 years old was five way at a 12 Dale use circuit Issue 5 instructions at a time to 12 daily use you might want to issue you want want want more aliases than you could issue to because some operations take more than a single cycle and it could have the only thing I could find his / 128 instructions in flight.  Anna provides a whole bunch of benefit benefit for memory operations as we'll see after the midterm memory operations can take a really long time. So a lot of this complexity is meant to deal with memory latency, but it turns out the variable latency instructions are everywhere. So instruction divided can take between on One processor. I found stats for between 9 and 23 Cycles floating-point can also take a variable length of time and load the stores are highly variable and what happened to clean notion of pipeline that we've had so far really begins to break down instructions kind of different rates through the pipeline on all this very Dynamic analysis of what's going on to it to keep everything organized.  One last wrinkle. So ever even the fastest out of order machines only get between one or two instructions per cycle. This is 1 / CPI. So even for most machines you don't ever get a CPR that slower than about a half even though they're usually 4425 IL use vacation for 5 instructions at a time.  So the reason for this is that they're sort of limited ILP in individual application. So if you have something that's like I like to see see there's lots of branches and even if you do everything we talked about you're still able to on average only execute one or two instructions per cycle.  For graduation performance as part of the atom has also limited memory parallelism to hear about later.  So the observation that some people made that on many cycles many of the L used in the instruction Q slots are actually empty. So a lot of the processes resources are kind of sitting idle, especially the instruction cute even if they're not empty. The may not be may not be being used very very well because maybe those instructions are likely to be a squash Tudor Branch Miss prediction.  so the very clever and elegant idea that they came up with is called simultaneous multithreading, you know, there's probably more as  hyper-threading what Intel calls it wrote the same thing.  The videos were going to run multiple threads or thread is like a running a program run or multiple threats at the same time in the same Pipeline. And we're going to do is we're going to have him fetch stage. We're going to have four prisoners caso4 for why doesn't she have for program counters? So we're going to fetch for different instructions, or maybe we'll fetch to instructions from each of four threads. We have more complicated to schemes and we're just going to dump them all into the pipeline.  Now the harder we have to like keep track or I'll going to be writing to the baby the same registers and so forth because they're using the same architectural registers, but fortunately rename is going to fix all that rights are rename keep track of which physical register corresponds to which architectural register that belongs to which thread and then after that everything works, right? We've all the registers we know where the results are going to go. We can schedule them execute them do the memory operations and so forth. This turns out to be surprisingly simple.  When they in until I think the first time I did it was an opinion for it was only about a 5% overhead in terms of area to make us some tea work and they did they do it too wide and until you can get for some applications of significant performance boost.  One is that you can explain tomato as you can explain LP for multiple multiple threads at once because I transfer cycle but I'm only fetching to form each thread and I'm only that the, you know where the start of compounded and probability of correct Branch prediction, but that applies inside a single thread. So if I'm fetching from more threads at a time, I have to fetch past few ranches to fill my instruction Q. So my Branch prediction behavior is less important. I have left all the title Hardware so I can improve my Energy Efficiency because I know how hard where does Brynn some power and get higher IPC or instructions lower CPI? So this is ocp I could be as low as maybe .25 in practice which is great disadvantages. The threads can fight over resources and so each other down. So now if I have two threads running and one of them is using a lot of resources that can slow down.  How is your call interference or just kind of a bummer interesting footnote smt was invented the people invented it was Dean Telson, who is the chair of our department leader that you died with some of the dean and I have the same graduate advisor. So one of my graduate advisors was one of the main people that invented S&T.  And it just tell you another reason why the 21464 was so cool the 21 for 264 the 21464 was going to be the first smt processor and do it way cooler than Intel dead. But the company that manufactured it got bought and then bought again and then went out of business. It was very tragic.  All right any questions about out of order?  So the main thing you need to know is out of order happens, you know, do you know about things like the instruction window in the fact that register renaming happens? We're not going to have you go through and you know simulated out of order pipeline or anything. That's too complicated.  so  I'll see if I can get through floating quite so some of the things that modern processors have that we haven't talked about. So the first we're going to talk about is the floating Point Unit so floating Point operations.  Are depending on the applications can be either almost all the all of the code or maybe almost none of the code.  So they're super critical and things like scientific stimulation machine learning and vision and Graphics. So anytime you need like continuously value things you use floating Point numbers because they're good at representing very large and very small values. So if you think that the integers see if you have to be to bits if you can represent the numbers between 0 and four billion or so between -2000000000 + positive 2 billion in steps of one, right? So you can't do fractions millionth of a gram Rangers aren't very good at doing that in the same calculation potentially might have to represent, you know, a hundred billion kilograms. And so we would like to have a single data type that can handle all of that. The floating Point values are for 3:30.  A little bit all right to know about the mantissa exponent everything. That's that's not so important. What is important is that the operations are really complicated and we also want to think about what floating-point code looks like. This is a loop or something called value decomposition the arrays you an A and L are all floating Point values. And so if you think about what this is going to turn into a real Circle some of the floating Point operations, this one is floating points. This is floating point. This is floating points.  Maybe that's it for the second mixture here. Right? There's a fair number of floating Point operations all the math bear. There's also a lot of integer operations to write to all the loops are being controlled by image of all the conditions for the loops are determined by comparison to an integer variables. There's another sling for an operation manager and floating-point stuff fast animals law tells us that we should pay attention to floating Point operations, right because of her spending a lot of time doing them over here and then make them slow then our performance is going to stink.  Does a couple ways we could do floating point we could do it in software?  Oh, this is kind of redundant anyway, so for this is all the carpet earlier.  So there's a couple ways we can do heart in floating-point. You can get a software Library will just looking for an operations and if you have some dinky little processor doesn't have plenty points a-port. That's what it will do Samsung software the latency there something like this. These are rough numbers. I pulled off of some floating point. I'll Library so, you know what had my take 52 cycles and X take 33 cycles of divided might take a few Cycles interesting that X is faster than add. They don't know why.  Remember House of floating-point is a mantissa exponent and I multiply when you have two exponents you just add them so multiplying and floating point is actually more like an ad in an added. It's complicated thing where you have to like renormalized stuff. Anyway, if we are much faster so we can do a floating-point and like four Cycles we can do it slogan for T-Mobile plan for a Psycho ending divide maybe takes between 9 and 23 Cycles interesting ly 4 divided actually does something like long division. They still teach long division.  I've heard they're going to stop so did they actually that the processor actually does something like long division when it goes through and and calculated.  So we will just go through this. I'll do it quicker problem next time. So Amazon also tells us.  Even if we don't have a lot of flame point that we need to pay close attention. So imagine the other program that's 1% floating-point, right 1% of the time. It spends 1% of our time doing some miniature Edition inside your key Loop and you decide to use floats instead right side headlight for 1% of my time. I'm going to make it floating point.  If I see if he does not support floating point, so I have to use the software license fees. What is the speed up going to be?  I thought which tool do we use to figure this out?  Oh boy.  and has lost all right to be quicker than that for the final cuz it's you know, you spend that tote equals 1 / x / x + 1 - x  .00 1.0. 1.01. What is s?  So, I don't know how I was doing integer arithmetic. I was doing integer addition. What's the CPI for integer addition?  How long does it take to Dad to Interstellar?  1 cycle how long is it going to take me to add two photos together?  52 Cycles. Oh my gosh speed up 1 / 52.  That's a speed up.  + 1 - x that's going to be 99 I've ever put that on to their this ends up being a c.  Who's the 33% slowed down because I have changed from integer to floating Point arithmetic for 1% of my program, right? This is the evil. Corollary Mendel's Law. We could dry under like this. He's got little devil horns.  And he's frowning remember Angeles was smiling originally, but now he's sad. All right, we need to make it go fast. We will pick up here on Thursday. We'll talk to actors on I'll see you then. "
+}

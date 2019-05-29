@@ -1,0 +1,706 @@
+{
+  "Blurbs": {
+    "00 almost. Course it heard me. That was Alexa thing. I know he heard the trick all the pictures could so some disagreement over this one of these animals law because x equals 2.8 and adds to equal 6.25. So and requires us to have a fraction of the program that the speed up required replies to so what fraction of the program does pipelining apply to. 100% so it ": [
+      1437.2,
+      1474.0,
+      36
+    ],
+    "1 / 6.527 nanoseconds equals 150. 3 megahertz is take the inverse of that. I'm going to get that answer. All right. So it's not quite perfect ride pipelining is not perfect. There is some other and efficiencies as well. It turns out that what actually what it isn't shown in here in this timing readouts. And this is a non pipeline design would actually see is that the registers ": [
+      2041.2,
+      2073.6,
+      50
+    ],
+    "2 that's two cycles for the stall. Call CPI is 3 and the new CPI is then it's just the weighted average of 3 * 3. And 4.7 * 1 and this is the 30% as I can. 21.6. So if we were to stall for 30% of instructions at the number, I just made up and it seems my next libi. I don't know if it's higher love. It's ": [
+      3259.7,
+      3287.8,
+      97
+    ],
+    "2-0 into this address of the load the back the back into T1. And then it takes 0 + or is that with T1 and write them to T to soak in a copy to you wanted to T2 and then is going to copy to you one into T3 now in maps the correct output of this program is it to to equal 0 and 2/3 equals 4? And ": [
+      3700.9,
+      3727.9,
+      113
+    ],
+    "Alright, let's get started. Last time we were chatting about pipelining. As you recall the biscuit he was pipelining was that we have some combination of logic in this case going to say takes 10 nanoseconds. And at the time it takes to know when the clock ticks the the inputs of this lad or passed on to the outfits of the latch and then the effects of those new ": [
+      244.6,
+      278.3,
+      0
+    ],
+    "And the wires are just on one of them here. This is for routing from this is the the shortest bypassing Rod. So I take the output of the L you and I run it back around and now I have a new alternative for both of the inputs to my l u Rite they can come from I think this one can be this one is always the first ": [
+      3438.0,
+      3456.7,
+      104
+    ],
+    "Are we can stall the first day of the week install? If a net next instruction needs a result of the load will just all that instruction. That's fine. I'm here. The compiler can order instructions to avoid the snow also in the compilers admitting code. It could say. Oh I see that this instruction needs a value for the previous load. Maybe I can find another instruction to stick ": [
+      3582.5,
+      3606.5,
+      109
+    ],
+    "Branch. So The branch Target is not ready yet, cuz I wasn't been computer took going to flow back here. And at this point when this value is ready. We're also going to want to choose it and that the choice is depending basically on the output of this is 0 output of the ALU, which is the branch of the branch condition check is that we're going to go ": [
+      1038.2,
+      1060.4,
+      28
+    ],
+    "I don't have the data. I need that's called a date of Hazzard little see some of these in the final one is a control Hazard. This was what happens when we don't know what instruction to execute next right? So I recycle or supposed to execute to fetch a new instruction. If we don't know what instruction or supposed to fetch American troll Hazard and we have to figure ": [
+      2191.3,
+      2209.6,
+      56
+    ],
+    "I have one instruction that read the value that's produced by another instruction to remember in mips. These are the destination registers. So it's basically anytime where I have a value produced by in one of these definition of shows that used later and so for instance, I have a date of dependence there. I have a date of dependents here having a dependents here and I believe. Is that ": [
+      2623.5,
+      2653.6,
+      72
+    ],
+    "I if I execute one instruction. So I take up the whole Pipeline and the load value pops out at the end here. Now the next instruction it read the value of the that I produced. So what? What? There's a couple of options right? If I do it as it's drawn this data value was going to flow back into the register file. And when the next instruction executes, ": [
+      4171.1,
+      4206.1,
+      125
+    ],
+    "I need to cuz I'm going to kick out a going to produce some of these no Ops, so the instruction can will sometimes be hiring this. because of this now it's really nice about this is that By doing this I have just eliminated another day to Hazard right? I didn't add any hardware. Where did the hazard go? Where did the complexity for the hazard managing the hazard ": [
+      3887.9,
+      3916.4,
+      120
+    ],
+    "I would live on mullett Lake Point to changing something in memory beforehand. That is what yes, that's correct, or at least that the danger I'm going to show you how we get around that danger. But that is a good observation. That's colored data Hazard hazards. Yes. That's right. So go through an example of how the shows up Hello. Thank you. All right. We have our little sequence ": [
+      730.7,
+      766.6,
+      17
+    ],
+    "So we think of it as it's Epi still being one and then we could add these up in the average would be 6 / for the average CPI. That makes sense. So I'm going to ask you on homeworks and stuff and then the midterm in the final like assume that so many of them stall because of the data has been between these into these two stages. Tell ": [
+      3110.1,
+      3134.4,
+      91
+    ],
+    "Windows and other stuff so we can deal with that. But if it's the processor and you start messing around with the semantics of instructions like your toe Play house, right everything is going to break. So that's why it has to support the Lalo's if it's going to be in this processor because that's what it means to be a Miss processor like fundamentally. That's what it means. It ": [
+      4475.6,
+      4494.7,
+      136
+    ],
+    "a structural hazard. So Couple of options, so the challenge here. It's kind of too much of a clicker question. So here is that if we look at this stage right here. So the red instruction is in right back and the brown instruction is in Fetch. Which is not really relevant the blue instructions and decoders actually care about the problem here. Is that both instruction decode. This is ": [
+      2373.2,
+      2410.6,
+      63
+    ],
+    "access. so that's just doing loads and stores to and from memory and then the last stages the right back and you can think about is I said that that goes back in here in the program counter is basically the next register pipeline register at the end of the right back. So one question is does anyone see any potential problems with this pipeline as I've drawn it? Yes. ": [
+      685.7,
+      722.5,
+      16
+    ],
+    "an instruction because that actually appears in the program, but the thing is I inject into the Oh, you know actually an easy rule right is that if it's patched an account, but the no off that we inject for the bubble is not fetched write a never gets read out of the instruction memory. It's just sort of got injected by the processor itself. alright next solution much better ": [
+      3341.9,
+      3368.6,
+      100
+    ],
+    "and those will flow on through and then we leave everything else in a while because we need the rest of the pipeline to keep running in particular because we need in our previous example weaning. Add to finish right because we need to add to finally get to write back. So it'll look at the register Alpha 50 hazer can clear and we can keep going. All right. So ": [
+      3180.0,
+      3203.4,
+      94
+    ],
+    "and we abbreviate the pipeline stages in a couple of ways. I Law Firm ripen as i f i t e x e Merriman Renton WB, but depending on space and in your homework, you can dress right fde MW for the 5 pipeline stages and we can draw them. like this what's Like us and so what we see here is that the right instruction is fetching and 0 ": [
+      1088.2,
+      1122.3,
+      30
+    ],
+    "and we are on slide Lake. I don't know 60 so we are not done yet. I don't know if you have class at 4. Is there going to be here till 7 is fine? All right. So you can think of it as inserting a no up here in mips a good no off is 0 0 0 0 0 0 0 this corresponds to an or instruction from ": [
+      2878.6,
+      2903.0,
+      82
+    ],
+    "any controlling there because we haven't decoded the instruction yet. So I don't know what we're supposed to do. All right, and then we'll just route these off here to go down there and so forth. All right until there's a pipeline first cut of the most processor. Yes. PCS RC Oh this one. That's a good question. It is really in. It is effectively in this pipeline stage. the ": [
+      968.8,
+      1007.8,
+      26
+    ],
+    "any of it besides like basic basic arithmetic in on computer architecture facts by the performance equations in cycle time goes down by 90% How much does cycle time go down by? 80% 80% so that's not right. So it must be five acts by the equation cuz clock rate goes up by 5x so clock right goes up by five accents the same as a cycle time going down ": [
+      1570.5,
+      1600.9,
+      40
+    ],
+    "apps that are part of the bubble and I can think of this is the bubble it kind of close to the pipeline. I can think of Italy if you're sucking something through a straw and you get a little bubble. It's kind of clothes along with everything else. That's what we call it a bubble. All right, please don't work fine. Right we just stall until the did the ": [
+      2958.1,
+      2973.3,
+      85
+    ],
+    "are being different values. So that means it is not I miss processor. not maps sad face Why does it need to? Because the knee does not come from the hardware comes from the IRS a right. So the IFA is an interface the IRS a is a contract between the hardware. And it's in the program and by the harder, I mean any hardware that claims to be a ": [
+      4341.4,
+      4381.0,
+      131
+    ],
+    "are produced an executed. We see that for these two instructions the value that we need for the ad is actually ready in time. I was computer on the previous cycle. And so we could if we can just had a wire that went from there. They're kind of that we could get that data body where we need it. And so that's called a forwarding path. There are a ": [
+      3393.6,
+      3414.3,
+      102
+    ],
+    "assembly-line we call those counter for data dependencies other three times already said that there's two ways to deal with them. The first one is to remove them. So you could design your processor or your instructions. That is we will see to just eliminate the hazard to make sure that they don't occur. The other alternative is to stall. So we'll see. What a stall is is when you ": [
+      2269.0,
+      2294.4,
+      59
+    ],
+    "at that you can actually figure out how much time goes in each of the components. Oh and this case on this fpga for for this particular run of it is it tells me that my instruction memory delay is 2.77 nanoseconds. I told him I control this is the logic that does the decoding takes that .79 nanoseconds the muck's which is the argument must go into the register ": [
+      1653.0,
+      1682.3,
+      43
+    ],
+    "at the same time as the date for the right instructions. That's probably going to be wrong because in this example the subtract is writing to 9 and the ad is writing to register one. So that's a little bit of a trick and so we do is we have to Route the right of the outfit register their all the pipeline registers all the way to the end of ": [
+      886.6,
+      912.8,
+      23
+    ],
+    "average for the problem here is that we need to compute the average CPI say for these four instructions, right? So the average CPI for these instructions is so this one is one. This one is three. This one is one in this one is one Right, so we only charge the stall to one instruction even though this ad also stalled. But it wasn't actually responsible for the stall. ": [
+      3083.1,
+      3110.1,
+      90
+    ],
+    "because we added a unified instruction and data memory instead of separate instructions and data memory and now I have to read so I'll potentially to read the stages always reading and the right backstage is sometimes reading data from laptop memory. So I guess you see how we design things. We have a separate. Remember we hit we built these two memories and now we've gotten rid of that ": [
+      2523.3,
+      2546.6,
+      68
+    ],
+    "but that would mean the difference directions to pick a different amount of time to go to the pipeline and then you know, if the ad skips ahead and it's going to run on top of whatever came before us. So we just have to wait till it spends one cycle doing or nothing in particular in the meantime. We're executing the orange instruction. We're decoding the green instruction and ": [
+      842.6,
+      861.5,
+      21
+    ],
+    "by five acts and that means that our execution time goes down by 5x until we get 5x speed up. Any questions about that? All right. Pipe lining. All right. So here's what we did or what I did. So I took this design and I took someone's design sewing 141 hour used to build were used to build this whole thing was 32-bit swine everything. And so I took ": [
+      1600.9,
+      1630.6,
+      41
+    ],
+    "can people see the clicker they station? How much speed up should pipeline provide so we have the pipeline? I just described her taking her single cycle nips Pipeline and we are going to pipeline it into a five-stage report from the pipeline and the question is how much speed if we should get and why so think about that on your own full of it and then we will ": [
+      1197.7,
+      1223.5,
+      34
+    ],
+    "cancel out this would be 1X. And this is the CPI what happens to CPI when you pipeline? constant CPI is constant, but pipelining the rate at which completed instructions pop out the end of my pipe line stays the same at 1 for cycle. This is very important. Let me say it again the rate at which the one in the rate at which instructions pop out of my ": [
+      1504.8,
+      1535.7,
+      38
+    ],
+    "chat with your neighbor. Tell us another five seconds or so, five four three two. 1 what time is this pretty good today? All right shot it over with your neighbor. All right, just a couple more. Hold on. Oh well vote again. Heather 555-4321 the last four people in the last 30 seconds, that's not good. All right. Here is the final voting. Oops. I just learned the trick ": [
+      1223.5,
+      1437.2,
+      35
+    ],
+    "control logic and tell him to stop for two cycles. So I will stall and that means that the subtract is going to sit in D code for three Cycles instead of one that's going to decode an actual it's going to happen. If I'm just going to decode that instruction over and over again. Nothing is going to fetch because the realest all everything earlier in the pipeline as ": [
+      2806.9,
+      2829.1,
+      79
+    ],
+    "control or they did a hazard is resolved. All right thing to point out is that both of these instructions are stalled. So the ad stays in Fetch for three cycles and the subtract will stay in D code for three Cycles. But there's still one thing I recycle all right. So here's the details you disable updates to the PC right? We're just we're freezing the front of the ": [
+      2973.3,
+      2998.8,
+      86
+    ],
+    "day to register but now it can also be the bypass value and now we have a third option for the second and put it can either be the immediate the register value or the bypass value and then the control line right there than the control line that comes in here from from the control will come down and tell which of those inputs it should actually use because ": [
+      3456.7,
+      3481.3,
+      105
+    ],
+    "decoding in One X getting into memory in 3 and right back and forth. 4 cycle, excuse me. And we can see where Lotus as well and I'll see you as we get into more complicated of these diagrams of things begin to go wrong. These things will become offset from one another but this gives you a clear notion of where those in each of those instructions is flowing ": [
+      1122.3,
+      1145.5,
+      31
+    ],
+    "discuss and see if you can. convince yourself one way the other David and I are 10 seconds or so. 5 4 3 2 1 you guys has procrastinators. All right. There we go. couple of contrarians in the group Alright, so the answer I agree. That is he sore C. Pardon me and the reason it's see is that so this is the critical assets are cycle time and ": [
+      1934.2,
+      2041.2,
+      49
+    ],
+    "doesn't have anything to do with this drawing that I've drawn. I can implement this using a completely different set of Hardware in a completely different way. And if I built it today, I probably would then we'll see some ways that we can do that next time in class and it would still be enough processor. But only for those right semantics. I guess we are going to stop ": [
+      4494.7,
+      4517.4,
+      137
+    ],
+    "fallback solution. We can always stall is always safe. So what you do when you stall is you insert what's called Bubble into the pipeline. So what we're going to do in this case, we have our add and subtract here the address for kids just fine write a text to get with no problem the subtract we fetch it cuz we just we have we can just patch it ": [
+      2761.8,
+      2785.2,
+      77
+    ],
+    "fetch decode execute memory and right back and instead of just having to stop registering the bottom one. We are going to insert for more registers music called pipeline registers. These are different than the register file that fits in the instructions instruction stage a little bit confusing. You know, I register is a logic elements that can hold State across the clock transition and sorrow the registers in the ": [
+      494.1,
+      525.6,
+      9
+    ],
+    "few of them that we need. So here's a little example where we have the subtract is used by three subsequent instruction and then corresponds to three different forwarding pads so I can forward here from the output of exeggcute into the input of exeggcute from the output of men. Play into the input of execute and from right back index cute. And so I can just add that Hardware. ": [
+      3414.3,
+      3436.7,
+      103
+    ],
+    "file for two things within the same cycle. We're going to assume that this structural hasn't doesn't exist at the first way. We make it go away, you know, if you're serious about this you can look at how to do this correctly, and we're not going to talk any more about it. So you can see how to draw like this but in general we're just going to assume ": [
+      2466.4,
+      2493.7,
+      66
+    ],
+    "for that a problem for loads. The value is produced here the other memory and it's needed here. Right through that doesn't work right again time travel present significant fermentation challenges looks like a research way of saying that it's impossible right so that so now we can so what's the one alternative that we could apply to resolve this problem? What can we always do? So we can stop. ": [
+      3547.2,
+      3578.8,
+      108
+    ],
+    "go it went into the compiler. Right, so we could have pushed it to the micro architect the designers of the Mets last they could have pushed it to the micro architect, but they were the micro architects in here. Like we're not going to do that. If a compiler which is probably a different graduate student across the hall and they had to deal with it. Right and now ": [
+      3916.4,
+      3938.4,
+      121
+    ],
+    "going to turn off the enables on the earlier pipeline registers. Right there Ariana insert SIM control and data values corresponding to a no op. These are out here. So we need a new mux. Right, so we're going to insert the now off at decode and so we got a new mocks that instead of inserting the actual values and spirits of 0 which is our convenient not value ": [
+      3159.1,
+      3180.0,
+      93
+    ],
+    "got the most ourselves. I guess you might need to see it. Hello 10 seconds or so. five four 3 2 1 Punk all right. There's actually still quite a bit of Question. All right, so I think it's the matter your mother answers. Let's take a look. So do I support a delayed load, so what does it mean if I support a delayed load that would mean that ": [
+      4051.2,
+      4171.1,
+      124
+    ],
+    "had x86 go from there late is it will still run on your processor today because that processor says that I am an x86 processor and that defines what I do with a given set of instructions and I always want to get the same result. So that is why if I have enough problems or I have to support it because otherwise I'm something else right? It's exactly the ": [
+      4408.5,
+      4430.8,
+      133
+    ],
+    "here is I will see you on the next slide. So this is this semantics for MEPS. I don't know what happened to my So this is the actual semantics for MEPS? So it's like a disco dancer does so this code first takes for does or this is an immediate does or with a 02 STAAR answer than a T20. So it's a t 0 equal to 4/8 stores ": [
+      3672.6,
+      3700.9,
+      112
+    ],
+    "idea here is that in this case and this example the date of has it lasted for two cycles because we stalled for two cycles and you can tell that because subtract Spend three Cycles here instead of one. So it's two extra Cycles. It's been a decode and over all this instruction took seven Cycles executed instead of five. So what happens if CPI? So we're going to fight ": [
+      3027.4,
+      3058.6,
+      88
+    ],
+    "if it read that thing register if we hadn't delayed load it is supposed to see the old value right? So at the very least I'm going to have to add a new register here. The hold the load for one cycle hold the load. I for one cycle and then the next cycle I can go back and I can write it in. So it is not. Yes. Because ": [
+      4206.1,
+      4233.0,
+      126
+    ],
+    "if it would check this. So that resolve this is the add Hardware to get rid of the bypassing problem. So for the date attendances between arithmetic operations, we Canal solve all of those data hazards. I know there is no need to ever stall on the output of an archetype or an operation for the day. Has produced a PLU. so that works most of the time but loads ": [
+      3507.7,
+      3547.2,
+      107
+    ],
+    "if you want to calculate the impact of stalling on performance, we start with your old friend the performance equation which tells us the execution X in terms of i c e p i n c t in this case I is constant. We're not talking about changing the program at all. Right, we're talking about just changing them for the micro architecture of the processor So the instructions said ": [
+      3203.4,
+      3225.4,
+      95
+    ],
+    "implement. Alright, so this is not an EPS processor. Because it doesn't have delayed lugs. All right, if I took I sold units processor. I saw you two naps processor the nips 1010 thousand and the 1000 looks like this in the 10000 runs like that directions to but if I run my program on one of the other one, they will get different results because the instructions after loads ": [
+      4315.8,
+      4341.4,
+      130
+    ],
+    "in between. I have to give the process or something to do allthe resolving idata dependents and then I can get rid of the stall so we can have a smart compiler get rid of it the other option. We have a smart composite. We also kind of smart Hardware cuz the hardware is going to be as going to start of a catch any problems that actually arise the ": [
+      3606.5,
+      3630.7,
+      110
+    ],
+    "in the decode stage and then all the settings for all these muxes and so far. They're just shifted along with the data very conveniently in this is not an accident. There are no control lines. That go into the the fetch stage. Right. Those are all this is all completely deterministic based on the value of the program counter. We can just go from there. So we don't need ": [
+      944.0,
+      968.8,
+      25
+    ],
+    "in the previous cycle or the previous slide button practice. Right. If I dry out these different stages according to their actual critical path in each one of them. I can stack them up here. And then we see is that the actual critical path in our circuit is in the execute stage. I need an actually Dakota's really fast fetch is somewhere between memory is next after Execute and ": [
+      1778.3,
+      1803.7,
+      47
+    ],
+    "into detail about how exactly we deal with branches because it does take a little bit of care. Welcome back to that. I'll probably get there today. We'll see. So when we are drawing these things and this is important for the homework and so forth. We need to be able to reason about the timings of different instructions. And so does simplify things we draw them trying to fight ": [
+      1060.4,
+      1088.2,
+      29
+    ],
+    "into saturated out of the infection rate goes into decode flows to the new does memory does right back and then this register here marks the end of the clock cycle this it represents actually multiple registers and practice. This is also the the program counter because remember back from here through the ALU of through all the branch Logic the next PC is computed there. So that's in this ": [
+      436.2,
+      462.7,
+      7
+    ],
+    "is hardwired to zero their third to register as a registered zero is only a zero and can't be changed. So there's one thing that I'm the way to think about this. Is it for a moment with the delay load it actually has to remember 32 things that I just remember one more thing because it has to hold the old and the new guy at the register. There's ": [
+      4266.9,
+      4292.3,
+      128
+    ],
+    "is not a because pipelining applies everywhere all the time. 25 x I would be awesome because by the performance equations and CPI goes up by 5 in the cycle time goes down by five. So if the CPI goes up by 5. I will that make things faster or slower. Slower write cycle time goes down by 5 so that make things faster or slower. Faster, this would actually ": [
+      1474.0,
+      1504.8,
+      37
+    ],
+    "is not changing in our idealized. Well in this case were assuming you know where basic pipeline is. Also the cycle time is also constant. So the execution time is only depend on the CPI and CT behold the power of the performance equation and we're just worried about CPS. So if we stay the fraction of instructions that stalls 30% are Baseline CPI has one eye is 1 + ": [
+      3225.4,
+      3259.7,
+      96
+    ],
+    "is subject to a data Hazard and execute. It's of subjective data Hazard and execute. This is a problem because this backward Arrow right this arrow mean the date is moving from cycle 5 back to cycle 3. And time travel is hard to implement right? I don't know how to do that. So there's a couple of solutions. The first solution is to stall right? This is always our ": [
+      2733.8,
+      2761.8,
+      76
+    ],
+    "it doesn't like if it doesn't have it while you wouldn't say like why doesn't have to do that. Well, it has to do it because it claims to be an HTML into your HTML5 compliant web browser right eye when stuff goes wrong, right? This is my first ride because no one quite get everything right until your web page is like a little bit different on Chrome vs. ": [
+      4456.0,
+      4475.6,
+      135
+    ],
+    "it's really cool is that there are no data hazards in the nips pipeline. Right. We'll see that some of them sneak in later. But from this design, there are no data Hazard, right? We have all the forwarding. We need to get back to execute for asthmatic operation. And for Lowe's we just designed the I say so they could they go away. That's great. Now I don't have ": [
+      3938.4,
+      3958.3,
+      122
+    ],
+    "it's this chunk right here, so it includes the program counter and the instruction memory And this side the ad and this is the way I'm coming back around and then here we have this register this pipeline register that I did because it's between instruction fraction instruction decode. The next race on my scribbles hear the next one is called instruction decode and it's just the register file basically, ": [
+      609.9,
+      641.0,
+      13
+    ],
+    "its. Parts John we talked a little bit about the control. So these are all the control lines are down here in purple. So I remember there's this blob of control logic up here. I am basically the instruction close up there and then the control reaches down and Seth all these configuration bits things like which of the which source for the Second Amendment to the ALU. Should we ": [
+      546.6,
+      576.5,
+      11
+    ],
+    "keep us from being able to do that. So how did they're going to decrease our CPI? And they're also that they're generally caused by what we call a counter flow data dependencies. That's something where the pipeline is moving in a direction. Right? Like we move down there the assembly line and the problem occurs when we need some data to flow back Upstream somehow up that kind of ": [
+      2245.2,
+      2269.0,
+      58
+    ],
+    "know, it's like all the stupid Indians. We have an English that don't make any sense. Right? Like that's what they mean. Why did I mean that way? Well, that's just what they need right in mips. This is a stupid idiosyncrasy of nips are you know, this is what I mean. So if you want to make this if you want this dependence instead. If you do and maybe ": [
+      3806.9,
+      3828.5,
+      117
+    ],
+    "little bit fuzzy and we'll talk about how much deals with branches and we'll see where that lines up, but you can tell it's not really well So where does this come from PC source, so I guess the answer actually is that this is right there. There comes along there because what this is for the choosing so this output here, this is the branch Target for a conditional ": [
+      1007.8,
+      1038.2,
+      27
+    ],
+    "loaded in for memory. We calculate the next step program counter with that a door up there and we read the instruction. Turn the next cycle to things are going on. We are fetching the orange instruction this load and we are doing register file reads for the red instruction. So it's closed through on the next cycle or doing three things at a time. We are fetching the Subtract ": [
+      796.0,
+      819.8,
+      19
+    ],
+    "logic as well. And this register also actually represents the register my which we think of as being in the decode stayed because this is where the outputs of the instruction are finally latched into the register file. All right floppy on Pipeline version. All right. So this is how we're going to build with this is called the five stages of pipeline. So we have the same five stages ": [
+      462.7,
+      494.1,
+      8
+    ],
+    "look at it to tell if it's going to do we executed we write any do any memory access is load the stores and then you right back the results. So in the single cycle processor, which is what we looked at last time all of this has basically in a single pipeline stage. And so the clock ticks here. This is the program counter register. The program counter goes ": [
+      409.7,
+      436.2,
+      6
+    ],
+    "me the average CPI and this is the way they were going to calculate this. Are you fine? If you go through and you actually, you know compute the average rate of instruction completion that ends up being basically the same and looking the same. the questions about that All right. We got a little bit of hardware for stalling. It's not actually too hard to do it. So we're ": [
+      3134.4,
+      3159.1,
+      92
+    ],
+    "minute. But if you ever drive one of these and you find the you have to instructions and right back, I means you've done something wrong, right because right back can only do one instruction at a time until to instructions are there then You know I check your work. All right. one of each All right. So here is a quick clicker problem. I think the clicker is working ": [
+      1167.6,
+      1197.7,
+      33
+    ],
+    "myths processor. I don't you buy an x86 processor x86 processors coming around for a long time, right? They were first designed in the early eighties and they looked actually like neither of these design there something called a multi-cycle processor, which actually takes it takes multiple Cycles to execute one instruction, but I only asked you when I'm starting a time so a lot but your code if you ": [
+      4381.0,
+      4408.5,
+      132
+    ],
+    "need if I'm going to do an operation on a piece of data, I need that correct value of that data to be right there at the input of the at the input of the execute stage. Now, the first data values are produced right here at the output of the execute stage, but they don't actually show up in the register file until three or four Cycles later 3 ": [
+      2577.0,
+      2596.7,
+      70
+    ],
+    "no place to put that the only place for a processor can remember something is in a register. So we need at least one more register or laugh. Question is whether or not it's so it is not really a new processor. A processor is a mips processor by the same token that an x86 processor than x86 processor. If it correctly implement the instructions said that it's supposed to ": [
+      4292.3,
+      4315.8,
+      129
+    ],
+    "of all that intermediate logic by sticking in these latches which we call pipeline registers and then we'll break this up into five little to nanosecond chunks and stuff will flow through kind of like an assembly line. The clock will go five times faster and things will sort of pop out the end here is being finished five times faster once every two 90 seconds instead of instead of ": [
+      325.8,
+      351.8,
+      3
+    ],
+    "of instructions on there that carefully color coded so that we can see what's going on. So the red instruction which is his dad. The reading section which is the sad here. I can't I give me my pen back. Hi, the reading instruction telling the first cycle. We Fest the red instruction, right? So at the beginning of that cycle, the PC is pointing to the red instruction. We ": [
+      766.6,
+      796.0,
+      18
+    ],
+    "old value of T1. Comes in there and this instruction down here the second or you'd get the new value of q1. Those are the semantics. Right. I was going over I'll give you a little preview of your homework. There is a prominence about the homework and I was talking about it with my tears and tutors yesterday and they were like, oh, so if you want to get ": [
+      3763.4,
+      3786.2,
+      115
+    ],
+    "once every one. But of course the time it takes to go from this very first latch to the very last latch is still about 10 nanoseconds. Price of the latency for a single instruction in this case going from the beginning to the end of this is the same but we can work on five instructions at the same time and complete instructions five times faster. So we have ": [
+      351.8,
+      374.8,
+      4
+    ],
+    "one of us the designs and I went through and a generator the timing report. So make sure you have to remember this for the final. I'm going to ask online 75. What was the fan out and got to remember it's too so this is the time in her for it so you can get this out of the tools. But the key thing here is if you stare ": [
+      1630.6,
+      1653.0,
+      42
+    ],
+    "out what to do in that case. So dealing with hazards increases complexity or decreases performance or both and dealing officially with houses as much as what makes processor design process redesign hard bad and the fpga tools are using in 141 our hazards. So how does cause imperfect by pointing? So the ideally when you pipeline you want to maintain your CPA at 1 but hazards are going to ": [
+      2209.6,
+      2245.2,
+      57
+    ],
+    "pause 1.2 nanoseconds Blu is 6.5 nanoseconds or so, and then continue on the next page DMM is 1.7 nanoseconds, and I guess that's all I guess we're going back. There's the red right marks 3 nanoseconds. And the writers are files to .270 seconds. Here is what we can do with that information. So what I did is I don't know. I left my scribbles on here from before ": [
+      1682.3,
+      1711.1,
+      44
+    ],
+    "pipeline at a time, so I fection instruction and then I stopped touching any more instructions until that instruction is already all all done and I'll guarantee I'll guarantee that all my data is available where it needs to be and that I won't get any interference from you have any other instructions because there are no other instructions executing so stalling is always a safe option. But of course ": [
+      2325.1,
+      2344.9,
+      61
+    ],
+    "pipeline completed stays the same at 1 for cycle CPI is one. What happened to cycle time? Cycle time does go down by 5x rights of the cycle time goes down CPI stays constant speed up comes from by the performance equation in the Croatian World nonsense. We don't take derivatives are integrals or whatever. It is use a quotient rule for a lot of math and I've never used ": [
+      1535.7,
+      1570.5,
+      39
+    ],
+    "pipeline to 500 deep and then we can speed up by a factor of 500. Also see a couple reasons why that doesn't work. But sort of the The Improv imperfectness of pipelining is a big part of that. All right. Kind of works not quite will Cy and the reason that you're in the problems in pipelining is something called hazards. So hazardous situations are the pipeline does not ": [
+      2095.6,
+      2122.5,
+      52
+    ],
+    "pipeline. We disable the pipeline registers earlier than where the stall occurred. So we're going to disable this pipeline register and this pipeline register and not going to latch new values while we're stalled. And this is equivalent to answering the Norwalk. All right. So what is Computing things like CPI? And so we need to understand how we're going to account for stalls income to CPI. So the basic ": [
+      2998.8,
+      3027.4,
+      87
+    ],
+    "produced here and it is consumed here. But the problem is that it's all the way back around down here. Back to decode and so it's not actually available until right back. It's not actually available to this instruction until the right backstage. We just too late right I've already are and I hope they have already executed my some tracks. So there is my subtract operation. So my subtract ": [
+      2705.5,
+      2733.8,
+      75
+    ],
+    "reasonable for the number of instructions that would suffer from a David Hazard like this. Then we would see that our performance persecution time would go up by 60% Yes. The number of instruction is not an instruction. Turn off instruction is a bubble. So we don't count that right there is always something there are the control lines at the end of the process are always out putting something ": [
+      3287.8,
+      3315.5,
+      98
+    ],
+    "register file meet that criteria, but sort of these registers in between the pipeline stages. And so that's why we refer to them both of the same name. This is what we saw last time. I talked to you on the previous slide. And then we can take a look at our original data path to see how this likely breakdowns. This is the single cycle version with all of ": [
+      525.6,
+      546.6,
+      10
+    ],
+    "register zero to you. You read register zero twice compute the or and then ride it back to register zero. Does nothing because register zero is a hardwired a zero register. See you insert a table close to the pipeline and it does it has no effect doesn't doesn't do any memory operations that does nothing but it does for through there and some legal notice is between the instructions ": [
+      2903.0,
+      2928.7,
+      83
+    ],
+    "right. They only counts if they correspond to a useful instructional program Sono off do not count toward the CPI. I should say well so okay, there was all so I can write down explicit. No op in my program, right? I can write no off. That's an instruction in mips assembly. It corresponds to this all zeros or interests are zero if I write that down that counts as ": [
+      3315.5,
+      3341.9,
+      99
+    ],
+    "right? MEPS has delayed load. ": [
+      4597.0,
+      4599.6,
+      139
+    ],
+    "same as if so HTML write HTML is also a standard HTML says that I can write, you know Square braces I and I'll get something in italics. If I don't do that then I'm not HTML right in that means that my documents aren't going to look right, right. It doesn't you would never say well, why does Windows 7 need to support the I tag in HTML? Because ": [
+      4430.8,
+      4456.0,
+      134
+    ],
+    "second option is to just expose this problem to the compiler or actually expose it in the instruction set architecture and then Force the compared to deal with it. Do you have to have a smart compiler up here? The compiler could be down. compiler can be done. Dump Professor can spell the compiler. Must be smart. All right. I didn't know they call a delayed load so they do ": [
+      3630.7,
+      3672.6,
+      111
+    ],
+    "seconds later stage potentially from the cycle after that. So it could be that I have the date. I need I've already computed it, but I don't actually have it where I needed to compute a particular instruction. So the key to understanding a date of Hazards is to understand independence's so their independence is a situation in a program rights of this is about a piece of software where ": [
+      2596.7,
+      2623.5,
+      71
+    ],
+    "signals are always propagating through your combinational logic. So you have to make sure that nothing goes wrong. So he answered a no op I don't know off is just a sort of think about it you inserted in the the control signals for an instruction that does nothing it turns out conveniently that are no APA a good know I'm slow. Yeah, the slide deck is 198 slides along ": [
+      2853.6,
+      2878.6,
+      81
+    ],
+    "signals those ones and zeros flow through all of the ants indoors and not Gates and so far it's and eventually after some delay they show up at the next latch and it is it after 10 seconds. I was designed the circuit so that we are guaranteed but after 10 seconds, we have the new correct values of the next flash in the clock will take again and those ": [
+      278.3,
+      301.2,
+      1
+    ],
+    "slicing off some bits from the instruction. Then we execute couple things we choose which input we're going to use we do the actual arithmetic operation. And we also do some of this shift left and add stuff. This is for branch resolution, right? This is calculating the next PC for the branches that also happens inside the hell you are inside the exit stage the next stage of memory ": [
+      662.3,
+      685.7,
+      15
+    ],
+    "so mips is Bill that has this reduced instructions said properties in Memphis built to be really easy to decode that's one of its kind of key features. So basically all the engine decode stuff happens up in that control unit. And the other part of the decode is where we break the instruction up into its various register field and feed them into the register file, but that's just ": [
+      641.0,
+      662.3,
+      14
+    ],
+    "solution bypassing for forwarding it's called. So here's the basic observation was forwarding the results are known right here. The results are needed right here, right? That's why they're actually calculated. The problem is it's a sort of good published or an ounce right later and right back, but that's just sort of because we haven't been clever enough if we look at the actual day dependents between where things ": [
+      3368.6,
+      3393.6,
+      101
+    ],
+    "some examples. So here is hello. So here's a circular in the context of our processor. This is kind of a cartoon. We're going to use to illustrate a processor pipeline Sunset Inn in at least in some drawing. So instead of having all the complicated Max's and everything. We just broken them into the five basic steps of executing admits instruction instruction. We decoded for a look at it ": [
+      374.8,
+      409.7,
+      5
+    ],
+    "stalling if I stall for one cycle what that means is that I don't I'm not completing an instruction for one cycle and that means that the average number of instructions I can complete recycle ghost effectively makes my CPI go up which makes my execution time go up and performance goes down. So this is a safe solution safe. but slow All right, so we can start looking at ": [
+      2344.9,
+      2373.2,
+      62
+    ],
+    "stop the progress of one instruction through the pipeline and the way the pipeline works if you stall long enough all hazards will be resolved and the way to see that is that if we go back to our original pipeline here all the way back we go back here. right if I were to If I stall enough if I just sort of let one instruction flow through the ": [
+      2294.4,
+      2325.1,
+      60
+    ],
+    "structural Hazard right are we actually just designed it so it didn't exist in the first place. All right, so did hazards are more of a problem Solutions little bit more complicated as it occurs when the processor need some data, but it doesn't have a date at the right place in time. Right? So if I think about When I'm looking at my pipeline. Write the place that I ": [
+      2546.6,
+      2577.0,
+      69
+    ],
+    "supposed to my defenses? All right. Now that means it's somehow in order to say compute the subtract. I need the result of the ad and so that means that when the subtract gets executed stage the result of the ad needs to be available to it and execute so I can actually I'm getting a phone call from nice. I used to when people's phones are in class. I ": [
+      2653.6,
+      2681.6,
+      73
+    ],
+    "that are executing and the no off there's still one instruction completing every cycle. So it's this sun cycle 5 a no op completes on cycle 6 enough complaints on cycle 7 the subtract completes on cycle Aid in the next instruction complete one cycle 9, but something is always popping out the end of the pipeline and just for two cycles, it's garbage. Nothing actually. So these are no ": [
+      2928.7,
+      2958.1,
+      84
+    ],
+    "that flows back with its data and we pipe that into the right date of port for the register file. Hisense all right. so Next Step, how do we do control? So control right here? Here's a little blob of control and what we do for control. Is we just feed it through a pass all those control lines along to the pipeline registers as well. So we compute everything ": [
+      912.8,
+      944.0,
+      24
+    ],
+    "that you can write back and do decoded the same time. All right. So we reach our pipeline a little bit. So now there is a potential structural hazard. So here the problem is that we have two stages. We have the data the right backstage and the instruction set stage that are both trying to access memory at the same time. And the reason we have that problem is ": [
+      2493.7,
+      2523.3,
+      67
+    ],
+    "that's easy enough we can decode it when we decoded we notice. Oh, I need an instruction. I need a value it's not available to me yet because I noticed and somehow I have to keep track of this up in the control unit. I know that I'm going to read a 0-0 is being produced by the ad. So I'm going to stall and I have the car the ": [
+      2785.2,
+      2806.9,
+      78
+    ],
+    "that's okay. So this is the pipeline as I took all those components and I drew them out to scale. So they are as long as a link is proportional to their delay and then you can go through her and you can sort of see where the critical path is in these little arrows those little arrows are the pipeline registers. Get my time back yet. So these are ": [
+      1711.1,
+      1737.9,
+      45
+    ],
+    "the clock head. So the clock ticks the right occurs. That's the right early. And then the reader is going to occur later in the clock cycle. And this goes until I was just has to do with the details of how you implement the register file inside. You have to do some things right to make that work, but we can build this effectively we can use the register ": [
+      2446.7,
+      2466.4,
+      65
+    ],
+    "the control unit these off and it knows that this data dependence exist. So you can imagine if you were riding the logic for the control unit in Bear log, there would be a whole bunch of if statements right? If the instruction that is currently in memory if its destination register equals the source register of the instruction that is currently in execute then some other stuff and eventually ": [
+      3481.3,
+      3507.7,
+      106
+    ],
+    "the pipeline register and then he is 18.67 nanoseconds or 52 megahertz. This this time right here 8.67 / 5 which will give us three point seven at a second's which would give it to 967 megahertz with the different colors. And then you can go through here with a mask and you can figure out that are speed up should actually be 5 5 acts as what we saw ": [
+      1737.9,
+      1778.3,
+      46
+    ],
+    "the reason is that here this is a delayed. loud and all those are delayed the semantics of nip says that when you do a load the effect of it is not visible until the next next instruction. So in this this instruction goes to read T1 it gets. Pick up the old value of T. When I should say up here that t 1 equals 0 it gets the ": [
+      3727.9,
+      3763.4,
+      114
+    ],
+    "the two stall Cycles to the instruction that the first instruction that stalled. So they're going to be assigned to the subtract in this case. And the rule is that you take the base CPI the bass EP I was one right base if you guys want us we want and then you add the stall cycles for the instruction. That's so in this case. The CPI CPI is an ": [
+      3058.6,
+      3083.1,
+      89
+    ],
+    "their next up is control hazards and we'll just dive into that on Thursday. Yes. Walker State Bank, but yeah Yeah. Energy optimization. So power goes up with the cube of clock rate and that's You have to increase the voltage increase the frequency and so come together those increase goes up with the Cuban clock rate to burn less power, basically. Yes, just clarify this divorce do a load ": [
+      4517.4,
+      4597.0,
+      138
+    ],
+    "themselves actually also had a little bit of a delay is little bit of logic in there. And so that actually increase the last little bit of a cycle time and makes the the pipeline and even less perfect than we would like it to be but also prevents us from pipelining infinitely increase performance by a factor of 5 by pi planning 5 deep. Well, maybe we should just ": [
+      2073.6,
+      2095.6,
+      51
+    ],
+    "then right back so my clicker question to you is What is the actual speed up and clock rate for this design? Oh. I just opened up voting. Come on computer. I'll give you a call in a few seconds 10 seconds. 5 4 3 2 1 I got to close. I was just going to start adopting. alright, so that is why people voted so take a moment and ": [
+      1803.7,
+      1934.2,
+      48
+    ],
+    "there's no place to store the load value for the xtracycle. We can't do it justice combination of logic because we have to store a value. So one way to think about this is that the processor has a limited number of things that I can remember you can only remember how many things can it remember? Who says it's 30? Who says it's 32? 31 31 one of these ": [
+      4233.0,
+      4266.9,
+      127
+    ],
+    "thought that you can make really fast. So one of the things they did is they built the is a to ensure that there would be no structural Hazard. So they're kind of hard to find in the steering of pipeline when an input is not available on the cycling is needed. So I want to do something I want to add or subtract or do a load or something. ": [
+      2172.6,
+      2191.3,
+      55
+    ],
+    "through the pipeline are the key thing to know here is that at any one time if you look down a column there can only ever be one instruction in each of the different stages, right? So here we have one fat one and decode one next to you one memory one right back. We'll see how you can sort of have no instructions in a particular stage in a ": [
+      1145.5,
+      1167.6,
+      32
+    ],
+    "to Stevie's Hulsey a couple of examples as I said, as I said before the nips instructions that was built to make it designing a processor easy. Designers actually done by a bunch of graduate students at Stanford in the early 80s late 70s, and there are a small number of them and it's a lot of work. It is on a processor is easy as possible. So I also ": [
+      2148.1,
+      2172.6,
+      54
+    ],
+    "to write any of that complicated Logic for checking whether or not I need for checking but I don't need the complicated Logic for stalling. All right. So here's a little teaser for you. Does the single cycle processor processor? support delayed loads ponder that for a little bit and why? if there is a y Hawaii Like on a 10 seconds. 5 4 3 2 1 All right, that's ": [
+      3958.3,
+      4051.2,
+      123
+    ],
+    "use and whether we should have Naval the right port on the register file whether we should have been able to write for it on memory whether we should perform a reed and which value we should write back used for memory or register. It comes out of the control path. Instruction fetch is sort of this first piece of here. quick Sun section patch is the first stage and ": [
+      576.5,
+      609.9,
+      12
+    ],
+    "values will flow on to the next, Nationwide it be on it. Tidy as bad as the wave of kind of calculation is Flowing across here near the end of that 10 seconds of the logic at the front of the logic logic up here at the beginning is kind of sitting idle. It's not doing anything. It's just holding on to its values. So instead we can make use ": [
+      301.2,
+      325.8,
+      2
+    ],
+    "we are fetching the blue instruction. The next cycle we are going to write back the reading section. So it's either comes around here to applied to the register file and lo and behold the right register for it, which is right here is blue and that means that we have the right targets for the red the alpha register for the blue instruction is flowing into the register file ": [
+      861.5,
+      886.6,
+      22
+    ],
+    "well. Sorry that so this is our at this point. This is the the A dispatch the night they had here down here as fast. So it's going to be on that is going to get fat going to sit here and we're going to insert a no off into the pipeline. So the pipeline keeps running right? You can't just kind of you know, they're always clock ticks coming ": [
+      2829.1,
+      2853.6,
+      80
+    ],
+    "what you really meant. If you want to get the program to be what you really meant, then you should do ax and I said no no. This is the program in this is what it means right if you wrote this down and this is what you meant. This is the whole specification for the program and in mips. This is what it means, right? This is like, you ": [
+      3786.2,
+      3806.9,
+      116
+    ],
+    "where we read. the register file and this is where we write. the register file does a potential structural has it there because two things to instructions are trying to use the same piece of Hardware the same time in particular the register file and the way that we are going to resolve that is by doing what we call writerly Andre late. Here is that the right occurs at ": [
+      2410.6,
+      2446.7,
+      64
+    ],
+    "will that instruction show up in the performance equation? If not in the CPI. construction count the instruction count will go up by 1 and that's bad because the I presume that compile, you know, if I compiled a given program instruction count goes up that means in my performance in my program goes down, right? So this means is that a nips? I will sometimes admit more instructions and ": [
+      3856.1,
+      3887.9,
+      119
+    ],
+    "with a grand struction. We are doing the register reads for the load and we're executing the the ad on the next instruction. The next cycle the ad is here in the memory stage the ad does nothing in the memory stage because the ad doesn't modify memory. The reason that we met so unreasonable thought I was like, oh I may be Beyond could just skip the memory stage, ": [
+      819.8,
+      842.6,
+      20
+    ],
+    "work as elegantly as we would like something will go wrong. You can think of the problem that we saw earlier where we don't have the the right better. Correct a destination register. That's a little bit of a hazard the three kinds of hazzard's there are structural Hazard their data hazards in their control Hazard Hazard occurs, when we run out of some Hardware resource, we're not actually going ": [
+      2122.5,
+      2148.1,
+      53
+    ],
+    "would pick them up and answer but then I got to start getting a lot of junk calls. And so now my phone rings in class all the time. So go there. So and then we can think about how those map onto the pipeline. So here's our same to instructions. We have our same data dependence there. And we think about where the ad is produced the ad is ": [
+      2681.6,
+      2705.5,
+      74
+    ],
+    "you don't then you insert the snow a lot. The real no off, right? If you're going to your question. This is actually a know off that we are inserting by the compiler. So this is really an instruction. Now you lit one observation. Right? Is it adding this? No op should hurt performance. Right if I'm inserting do nothing instructions all the time. My performance should get worse where ": [
+      3828.5,
+      3856.1,
+      118
+    ]
+  },
+  "File Name": "Intro_to_Computer_Architecture___A00___Swanson__Steven_James___Fall_2018-lecture_6.flac",
+  "Full Transcript": "Alright, let's get started.  Last time we were chatting about pipelining.  As you recall the biscuit he was pipelining was that we have some combination of logic in this case going to say takes 10 nanoseconds. And at the time it takes to know when the clock ticks the the inputs of this lad or passed on to the outfits of the latch and then the effects of those new signals those ones and zeros flow through all of the ants indoors and not Gates and so far it's and eventually after some delay they show up at the next latch and it is it after 10 seconds. I was designed the circuit so that we are guaranteed but after 10 seconds, we have the new correct values of the next flash in the clock will take again and those values will flow on to the next, Nationwide it be on it.  Tidy as bad as the wave of kind of calculation is Flowing across here near the end of that 10 seconds of the logic at the front of the logic logic up here at the beginning is kind of sitting idle. It's not doing anything. It's just holding on to its values. So instead we can make use of all that intermediate logic by sticking in these latches which we call pipeline registers and then we'll break this up into five little to nanosecond chunks and stuff will flow through kind of like an assembly line. The clock will go five times faster and things will sort of pop out the end here is being finished five times faster once every two 90 seconds instead of instead of once every one. But of course the time it takes to go from this very first latch to the very last latch is still about 10 nanoseconds.  Price of the latency for a single instruction in this case going from the beginning to the end of this is the same but we can work on five instructions at the same time and complete instructions five times faster.  So we have some examples.  So here is  hello. So here's a circular in the context of our processor. This is kind of a cartoon. We're going to use to illustrate a processor pipeline Sunset Inn in at least in some drawing. So instead of having all the complicated Max's and everything. We just broken them into the five basic steps of executing admits instruction instruction. We decoded for a look at it look at it to tell if it's going to do we executed we write any do any memory access is load the stores and then you right back the results.  So in the single cycle processor, which is what we looked at last time all of this has basically in a single pipeline stage. And so the clock ticks here. This is the program counter register. The program counter goes into saturated out of the infection rate goes into decode flows to the new does memory does right back and then this register here marks the end of the clock cycle this it represents actually multiple registers and practice. This is also the the program counter because remember back from here through the ALU of through all the branch Logic the next PC is computed there. So that's in this logic as well. And this register also actually represents the register my which we think of as being in the decode stayed because this is where the outputs of the instruction are finally latched into the register file.  All right floppy on Pipeline version.  All right.  So this is how we're going to build with this is called the five stages of pipeline. So we have the same five stages fetch decode execute memory and right back and instead of just having to stop registering the bottom one. We are going to insert for more registers music called pipeline registers. These are different than the register file that fits in the instructions instruction stage a little bit confusing. You know, I register is a logic elements that can hold State across the clock transition and sorrow the registers in the register file meet that criteria, but sort of these registers in between the pipeline stages. And so that's why we refer to them both of the same name.  This is what we saw last time. I talked to you on the previous slide.  And then we can take a look at our original data path to see how this likely breakdowns. This is the single cycle version with all of its.  Parts John we talked a little bit about the control. So these are all the control lines are down here in purple. So I remember there's this blob of control logic up here.  I am basically the instruction close up there and then the control reaches down and Seth all these configuration bits things like which of the which source for the Second Amendment to the ALU. Should we use and whether we should have Naval the right port on the register file whether we should have been able to write for it on memory whether we should perform a reed and which value we should write back used for memory or register. It comes out of the control path.  Instruction fetch is sort of this first piece of here.  quick  Sun section patch is the first stage and it's this chunk right here, so it includes the program counter and the instruction memory  And this side the ad and this is the way I'm coming back around and then here we have this register this pipeline register that I did because it's between instruction fraction instruction decode.  The next race on my scribbles hear the next one is called instruction decode and it's just the register file basically, so mips is Bill that has this reduced instructions said properties in Memphis built to be really easy to decode that's one of its kind of key features. So basically all the engine decode stuff happens up in that control unit. And the other part of the decode is where we break the instruction up into its various register field and feed them into the register file, but that's just slicing off some bits from the instruction. Then we execute couple things we choose which input we're going to use we do the actual arithmetic operation. And we also do some of this shift left and add stuff. This is for branch resolution, right? This is calculating the next PC for the branches that also happens inside the hell you are inside the exit stage the next stage of memory access.  so that's just doing loads and stores to and from memory and then  the last stages the right back and you can think about is I said that that goes back in here in the program counter is basically the next register pipeline register at the end of the right back.  So one question is does anyone see any potential problems with this pipeline as I've drawn it?  Yes.  I would live on mullett Lake Point to changing something in memory beforehand.  That is what yes, that's correct, or at least that the danger I'm going to show you how we get around that danger. But that is a good observation. That's colored data Hazard hazards. Yes.  That's right. So go through an example of how the shows up Hello. Thank you. All right. We have our little sequence of instructions on there that carefully color coded so that we can see what's going on. So the red instruction which is his dad.  The reading section which is the sad here. I can't I give me my pen back.  Hi, the reading instruction telling the first cycle. We Fest the red instruction, right? So at the beginning of that cycle, the PC is pointing to the red instruction. We loaded in for memory. We calculate the next step program counter with that a door up there and we read the instruction.  Turn the next cycle to things are going on. We are fetching the orange instruction this load and we are doing register file reads for the red instruction. So it's closed through on the next cycle or doing three things at a time. We are fetching the Subtract with a grand struction. We are doing the register reads for the load and we're executing the the ad on the next instruction. The next cycle the ad is here in the memory stage the ad does nothing in the memory stage because the ad doesn't modify memory. The reason that we met so unreasonable thought I was like, oh I may be Beyond could just skip the memory stage, but that would mean the difference directions to pick a different amount of time to go to the pipeline and then you know, if the ad skips ahead and it's going to run on top of whatever came before us. So we just have to wait till it spends one cycle doing or nothing in particular in the meantime. We're executing the orange instruction. We're decoding the green instruction and we are fetching the blue instruction.  The next cycle we are going to write back the reading section. So it's either comes around here to applied to the register file and lo and behold the right register for it, which is right here is blue and that means that we have the right targets for the red the alpha register for the blue instruction is flowing into the register file at the same time as the date for the right instructions. That's probably going to be wrong because in this example the subtract is writing to 9 and the ad is writing to register one.  So that's a little bit of a trick and so we do is we have to Route the right of the outfit register their all the pipeline registers all the way to the end of that flows back with its data and we pipe that into the right date of port for the register file.  Hisense  all right.  so  Next Step, how do we do control? So control right here? Here's a little blob of control and what we do for control.  Is we just feed it through a pass all those control lines along to the pipeline registers as well. So we compute everything in the decode stage and then all the settings for all these muxes and so far. They're just shifted along with the data very conveniently in this is not an accident. There are no control lines.  That go into the the fetch stage.  Right. Those are all this is all completely deterministic based on the value of the program counter. We can just go from there. So we don't need any controlling there because we haven't decoded the instruction yet. So I don't know what we're supposed to do.  All right, and then we'll just route these off here to go down there and so forth.  All right until there's a pipeline first cut of the most processor. Yes.  PCS RC  Oh this one. That's a good question. It is really in.  It is effectively in this pipeline stage.  the little bit fuzzy and we'll talk about how much deals with branches and we'll see where that lines up, but you can tell it's not really  well  So where does this come from PC source, so I guess the answer actually is that this is right there.  There comes along there because what this is for the choosing so this output here, this is the branch Target for a conditional Branch. So  The branch Target is not ready yet, cuz I wasn't been computer took going to flow back here. And at this point when this value is ready. We're also going to want to choose it and that the choice is depending basically on the output of this is 0 output of the ALU, which is the branch of the branch condition check is that we're going to go into detail about how exactly we deal with branches because it does take a little bit of care.  Welcome back to that. I'll probably get there today. We'll see.  So when we are drawing these things and this is important for the homework and so forth. We need to be able to reason about the timings of different instructions. And so does simplify things we draw them trying to fight and we abbreviate the pipeline stages in a couple of ways. I Law Firm ripen as i f i t e x e Merriman Renton WB, but depending on space and in your homework, you can dress right fde MW for the 5 pipeline stages and we can draw them.  like this  what's  Like us and so what we see here is that the right instruction is fetching and 0 decoding in One X getting into memory in 3 and right back and forth.  4 cycle, excuse me.  And we can see where Lotus as well and I'll see you as we get into more complicated of these diagrams of things begin to go wrong. These things will become offset from one another but this gives you a clear notion of where those in each of those instructions is flowing through the pipeline are the key thing to know here is that at any one time if you look down a column there can only ever be one instruction in each of the different stages, right? So here we have one fat one and decode one next to you one memory one right back. We'll see how you can sort of have no instructions in a particular stage in a minute. But if you ever drive one of these and you find the you have to instructions and right back, I means you've done something wrong, right because right back can only do one instruction at a time until to instructions are there then  You know I check your work.  All right.  one of each  All right.  So here is a quick clicker problem. I think the clicker is working can people see the clicker they station?  How much speed up should pipeline provide so we have the pipeline? I just described her taking her single cycle nips Pipeline and we are going to pipeline it into a five-stage report from the pipeline and the question is how much speed if we should get and why so think about that on your own full of it and then we will chat with your neighbor.  Tell us another five seconds or so, five four three two.  1 what time is this pretty good today?  All right shot it over with your neighbor.  All right, just a couple more.  Hold on.  Oh well vote again.  Heather 555-4321  the last four people in the last 30 seconds, that's not good.  All right.  Here is the final voting. Oops.  I just learned the trick 00 almost.  Course it heard me. That was Alexa thing. I know he heard the trick all the pictures could so some disagreement over this one of these animals law because x equals 2.8 and adds to equal 6.25. So and requires us to have a fraction of the program that the speed up required replies to so what fraction of the program does pipelining apply to.  100% so it is not a because pipelining applies everywhere all the time.  25 x I would be awesome because by the performance equations and CPI goes up by 5 in the cycle time goes down by five. So if the CPI goes up by 5.  I will that make things faster or slower.  Slower write cycle time goes down by 5 so that make things faster or slower.  Faster, this would actually cancel out this would be 1X. And this is the CPI what happens to CPI when you pipeline?  constant  CPI is constant, but pipelining the rate at which completed instructions pop out the end of my pipe line stays the same at 1 for cycle.  This is very important. Let me say it again the rate at which the one in the rate at which instructions pop out of my pipeline completed stays the same at 1 for cycle CPI is one.  What happened to cycle time?  Cycle time does go down by 5x rights of the cycle time goes down CPI stays constant speed up comes from by the performance equation in the Croatian World nonsense. We don't take derivatives are integrals or whatever. It is use a quotient rule for a lot of math and I've never used any of it besides like basic basic arithmetic in on computer architecture facts by the performance equations in cycle time goes down by 90% How much does cycle time go down by?  80%  80% so that's not right. So it must be five acts by the equation cuz clock rate goes up by 5x so clock right goes up by five accents the same as a cycle time going down by five acts and that means that our execution time goes down by 5x until we get 5x speed up.  Any questions about that?  All right.  Pipe lining. All right. So here's what we did or what I did. So I took this design and I took someone's design sewing 141 hour used to build were used to build this whole thing was 32-bit swine everything. And so I took one of us the designs and I went through and a generator the timing report. So make sure you have to remember this for the final.  I'm going to ask online 75. What was the fan out and got to remember it's too so this is the time in her for it so you can get this out of the tools. But the key thing here is if you stare at that you can actually figure out how much time goes in each of the components. Oh and this case on this fpga for for this particular run of it is it tells me that my instruction memory delay is 2.77 nanoseconds.  I told him I control this is the logic that does the decoding takes that .79 nanoseconds the muck's which is the argument must go into the register pause 1.2 nanoseconds Blu is 6.5 nanoseconds or so, and then continue on the next page DMM is 1.7 nanoseconds, and I guess that's all I guess we're going back.  There's the red right marks 3 nanoseconds.  And the writers are files to .270 seconds.  Here is what we can do with that information. So what I did is I don't know. I left my scribbles on here from before that's okay. So this is the pipeline as I took all those components and I drew them out to scale. So they are as long as a link is proportional to their delay and then you can go through her and you can sort of see where the critical path is in these little arrows those little arrows are the pipeline registers.  Get my time back yet. So these are the pipeline register and then he is 18.67 nanoseconds or 52 megahertz. This this time right here 8.67 / 5 which will give us three point seven at a second's which would give it to 967 megahertz with the different colors.  And then you can go through here with a mask and you can figure out that are speed up should actually be 5 5 acts as what we saw in the previous cycle or the previous slide button practice.  Right. If I dry out these different stages according to their actual critical path in each one of them. I can stack them up here. And then we see is that the actual critical path in our circuit is in the execute stage. I need an actually Dakota's really fast fetch is somewhere between memory is next after Execute and then right back so my clicker question to you is  What is the actual speed up and clock rate for this design?  Oh.  I just opened up voting.  Come on computer.  I'll give you a call in a few seconds 10 seconds.  5 4 3 2 1  I got to close. I was just going to start adopting.  alright, so  that is why people voted so take a moment and discuss and see if you can.  convince yourself one way the other  David and I are 10 seconds or so.  5 4 3 2 1  you guys has procrastinators. All right.  There we go.  couple of contrarians in the group  Alright, so the answer I agree. That is he sore C. Pardon me and the reason it's see is that so this is the critical assets are cycle time and 1 / 6.527 nanoseconds equals 150.  3 megahertz is take the inverse of that. I'm going to get that answer.  All right.  So it's not quite perfect ride pipelining is not perfect. There is some other and efficiencies as well. It turns out that what actually what it isn't shown in here in this timing readouts. And this is a non pipeline design would actually see is that the registers themselves actually also had a little bit of a delay is little bit of logic in there. And so that actually increase the last little bit of a cycle time and makes the the pipeline and even less perfect than we would like it to be but also prevents us from pipelining infinitely increase performance by a factor of 5 by pi planning 5 deep. Well, maybe we should just pipeline to 500 deep and then we can speed up by a factor of 500.  Also see a couple reasons why that doesn't work. But sort of the The Improv imperfectness of pipelining is a big part of that. All right.  Kind of works not quite will Cy and the reason that you're in the problems in pipelining is something called hazards. So hazardous situations are the pipeline does not work as elegantly as we would like something will go wrong. You can think of the problem that we saw earlier where we don't have the the right better. Correct a destination register. That's a little bit of a hazard the three kinds of hazzard's there are structural Hazard their data hazards in their control Hazard Hazard occurs, when we run out of some Hardware resource, we're not actually going to Stevie's Hulsey a couple of examples as I said, as I said before the nips instructions that was built to make it designing a processor easy.  Designers actually done by a bunch of graduate students at Stanford in the early 80s late 70s, and there are a small number of them and it's a lot of work. It is on a processor is easy as possible. So I also thought that you can make really fast. So one of the things they did is they built the is a to ensure that there would be no structural Hazard. So they're kind of hard to find in the steering of pipeline when an input is not available on the cycling is needed. So I want to do something I want to add or subtract or do a load or something. I don't have the data. I need that's called a date of Hazzard little see some of these in the final one is a control Hazard. This was what happens when we don't know what instruction to execute next right? So I recycle or supposed to execute to fetch a new instruction. If we don't know what instruction or supposed to fetch American troll Hazard and we have to figure out what to do in that case.  So dealing with hazards increases complexity or decreases performance or both and dealing officially with houses as much as what makes processor design process redesign hard bad and the fpga tools are using in 141 our hazards.  So how does cause imperfect by pointing? So the ideally when you pipeline you want to maintain your CPA at 1 but hazards are going to keep us from being able to do that. So how did they're going to decrease our CPI? And they're also that they're generally caused by what we call a counter flow data dependencies. That's something where the pipeline is moving in a direction. Right? Like we move down there the assembly line and the problem occurs when we need some data to flow back Upstream somehow up that kind of assembly-line we call those counter for data dependencies other three times already said that there's two ways to deal with them. The first one is to remove them. So you could design your processor or your instructions. That is we will see to just eliminate the hazard to make sure that they don't occur.  The other alternative is to stall.  So we'll see. What a stall is is when you stop the progress of one instruction through the pipeline and the way the pipeline works if you stall long enough all hazards will be resolved and the way to see that is that if we go back to our original  pipeline here  all the way back we go back here.  right if I were to  If I stall enough if I just sort of let one instruction flow through the pipeline at a time, so I fection instruction and then I stopped touching any more instructions until that instruction is already all all done and I'll guarantee I'll guarantee that all my data is available where it needs to be and that I won't get any interference from you have any other instructions because there are no other instructions executing so stalling is always a safe option. But of course stalling if I stall for one cycle what that means is that I don't I'm not completing an instruction for one cycle and that means that the average number of instructions I can complete recycle ghost effectively makes my CPI go up which makes my execution time go up and performance goes down.  So this is a safe solution safe.  but slow  All right, so we can start looking at a structural hazard.  So  Couple of options, so the challenge here.  It's kind of too much of a clicker question. So here is that if we look at this stage right here.  So the red instruction is in right back and the brown instruction is in Fetch.  Which is not really relevant the blue instructions and decoders actually care about the problem here. Is that both instruction decode. This is where we read.  the register file  and this is where we write.  the register file  does a potential structural has it there because two things to instructions are trying to use the same piece of Hardware the same time in particular the register file and the way that we are going to resolve that is by doing what we call writerly Andre late.  Here is that the right occurs at the clock head. So the clock ticks the right occurs. That's the right early.  And then the reader is going to occur later in the clock cycle. And this goes until I was just has to do with the details of how you implement the register file inside. You have to do some things right to make that work, but we can build this effectively we can use the register file for two things within the same cycle. We're going to assume that this structural hasn't doesn't exist at the first way. We make it go away, you know, if you're serious about this you can look at how to do this correctly, and we're not going to talk any more about it.  So you can see how to draw like this but in general we're just going to assume that you can write back and do decoded the same time. All right.  So we reach our pipeline a little bit.  So now there is a potential structural hazard.  So here the problem is that we have two stages. We have the data the right backstage and the instruction set stage that are both trying to access memory at the same time. And the reason we have that problem is because we added a unified instruction and data memory instead of separate instructions and data memory and now I have to read so I'll potentially to read the stages always reading and the right backstage is sometimes reading data from laptop memory.  So I guess you see how we design things. We have a separate. Remember we hit we built these two memories and now we've gotten rid of that structural Hazard right are we actually just designed it so it didn't exist in the first place.  All right, so did hazards are more of a problem Solutions little bit more complicated as it occurs when the processor need some data, but it doesn't have a date at the right place in time. Right? So if I think about  When I'm looking at my pipeline.  Write the place that I need if I'm going to do an operation on a piece of data, I need that correct value of that data to be right there at the input of the at the input of the execute stage. Now, the first data values are produced right here at the output of the execute stage, but they don't actually show up in the register file until three or four Cycles later 3 seconds later stage potentially from the cycle after that. So it could be that I have the date. I need I've already computed it, but I don't actually have it where I needed to compute a particular instruction.  So the key to understanding a date of Hazards is to understand independence's so their independence is a situation in a program rights of this is about a piece of software where I have one instruction that read the value that's produced by another instruction to remember in mips. These are the destination registers. So it's basically anytime where I have a value produced by in one of these definition of shows that used later and so for instance, I have a date of dependence there. I have a date of dependents here having a dependents here and I believe.  Is that supposed to my defenses? All right. Now that means it's somehow in order to say compute the subtract. I need the result of the ad and so that means that when the subtract gets executed stage the result of the ad needs to be available to it and execute so I can actually I'm getting a phone call from nice.  I used to when people's phones are in class. I would pick them up and answer but then I got to start getting a lot of junk calls. And so now my phone rings in class all the time. So go there.  So and then we can think about how those map onto the pipeline. So here's our same to instructions. We have our same data dependence there.  And we think about where the ad is produced the ad is produced here and it is consumed here. But the problem is that it's all the way back around down here.  Back to decode and so it's not actually available until right back. It's not actually available to this instruction until the right backstage. We just too late right I've already are and I hope they have already executed my some tracks. So there is my subtract operation. So my subtract is subject to a data Hazard and execute.  It's of subjective data Hazard and execute.  This is a problem because this backward Arrow right this arrow mean the date is moving from cycle 5 back to cycle 3.  And time travel is hard to implement right? I don't know how to do that. So there's a couple of solutions. The first solution is to stall right? This is always our fallback solution. We can always stall is always safe. So what you do when you stall is you insert what's called Bubble into the pipeline. So what we're going to do in this case, we have our add and subtract here the address for kids just fine write a text to get with no problem the subtract we fetch it cuz we just we have we can just patch it that's easy enough we can decode it when we decoded we notice. Oh, I need an instruction. I need a value it's not available to me yet because I noticed and somehow I have to keep track of this up in the control unit. I know that I'm going to read a 0-0 is being produced by the ad.  So I'm going to stall and I have the car the control logic and tell him to stop for two cycles. So I will stall and that means that the subtract is going to sit in D code for three Cycles instead of one that's going to decode an actual it's going to happen. If I'm just going to decode that instruction over and over again. Nothing is going to fetch because the realest all everything earlier in the pipeline as well.  Sorry that so this is our at this point. This is the the A dispatch the night they had here down here as fast. So it's going to be on that is going to get fat going to sit here and we're going to insert a no off into the pipeline. So the pipeline keeps running right? You can't just kind of you know, they're always clock ticks coming signals are always propagating through your combinational logic. So you have to make sure that nothing goes wrong. So he answered a no op I don't know off is just a sort of think about it you inserted in the the control signals for an instruction that does nothing it turns out conveniently that are no APA a good know I'm slow.  Yeah, the slide deck is 198 slides along and we are on slide Lake.  I don't know 60 so we are not done yet.  I don't know if you have class at 4. Is there going to be here till 7 is fine? All right.  So you can think of it as inserting a no up here in mips a good no off is 0 0 0 0 0 0 0 this corresponds to an or instruction from register zero to you. You read register zero twice compute the or and then ride it back to register zero. Does nothing because register zero is a hardwired a zero register. See you insert a table close to the pipeline and it does it has no effect doesn't doesn't do any memory operations that does nothing but it does for through there and some legal notice is between the instructions that are executing and the no off there's still one instruction completing every cycle. So it's this sun cycle 5 a no op completes on cycle 6 enough complaints on cycle 7 the subtract completes on cycle Aid in the next instruction complete one cycle 9, but something is always popping out the end of the pipeline and just for two cycles, it's garbage.  Nothing actually.  So these are no apps that are part of the bubble and I can think of this is the bubble it kind of close to the pipeline. I can think of Italy if you're sucking something through a straw and you get a little bubble. It's kind of clothes along with everything else. That's what we call it a bubble. All right, please don't work fine. Right we just stall until the did the control or they did a hazard is resolved.  All right thing to point out is that both of these instructions are stalled.  So the ad stays in Fetch for three cycles and the subtract will stay in D code for three Cycles.  But there's still one thing I recycle all right.  So here's the details you disable updates to the PC right? We're just we're freezing the front of the pipeline. We disable the pipeline registers earlier than where the stall occurred. So we're going to disable this pipeline register and this pipeline register and not going to latch new values while we're stalled.  And this is equivalent to answering the Norwalk. All right. So what is Computing things like CPI? And so we need to understand how we're going to account for stalls income to CPI. So the basic idea here is that in this case and this example the date of has it lasted for two cycles because we stalled for two cycles and you can tell that because subtract  Spend three Cycles here instead of one. So it's two extra Cycles.  It's been a decode and over all this instruction took seven Cycles executed instead of five.  So what happens if CPI? So we're going to fight the two stall Cycles to the instruction that the first instruction that stalled. So they're going to be assigned to the subtract in this case. And the rule is that you take the base CPI the bass EP I was one right base if you guys want us we want and then you add the stall cycles for the instruction. That's so in this case. The CPI CPI is an average for the problem here is that we need to compute the average CPI say for these four instructions, right? So the average CPI for these instructions is so this one is one. This one is three. This one is one in this one is one  Right, so we only charge the stall to one instruction even though this ad also stalled.  But it wasn't actually responsible for the stall. So we think of it as it's Epi still being one and then we could add these up in the average would be 6 / for the average CPI.  That makes sense.  So I'm going to ask you on homeworks and stuff and then the midterm in the final like assume that so many of them stall because of the data has been between these into these two stages. Tell me the average CPI and this is the way they were going to calculate this.  Are you fine? If you go through and you actually, you know compute the average rate of instruction completion that ends up being basically the same and looking the same.  the questions about that  All right. We got a little bit of hardware for stalling. It's not actually too hard to do it. So we're going to turn off the enables on the earlier pipeline registers.  Right there Ariana insert SIM control and data values corresponding to a no op. These are out here. So we need a new mux.  Right, so we're going to insert the now off at decode and so we got a new mocks that instead of inserting the actual values and spirits of 0 which is our convenient not value and those will flow on through and then we leave everything else in a while because we need the rest of the pipeline to keep running in particular because we need in our previous example weaning. Add to finish right because we need to add to finally get to write back. So it'll look at the register Alpha 50 hazer can clear and we can keep going.  All right. So if you want to calculate the impact of stalling on performance, we start with your old friend the performance equation which tells us the execution X in terms of i c e p i n c t in this case I is constant. We're not talking about changing the program at all. Right, we're talking about just changing them for the micro architecture of the processor So the instructions said is not changing in our idealized. Well in this case were assuming you know where basic pipeline is. Also the cycle time is also constant. So the execution time is only depend on the CPI and CT behold the power of the performance equation and we're just worried about CPS. So if we stay the fraction of instructions that stalls 30% are Baseline CPI has one eye is 1 + 2 that's two cycles for the stall.  Call CPI is 3 and the new CPI is then it's just the weighted average of 3 * 3.  And 4.7 * 1 and this is the 30% as I can. 21.6. So if we were to stall for 30% of instructions at the number, I just made up and it seems my next libi. I don't know if it's higher love. It's reasonable for the number of instructions that would suffer from a David Hazard like this. Then we would see that our performance persecution time would go up by 60% Yes.  The number of instruction is not an instruction.  Turn off instruction is a bubble. So we don't count that right there is always something there are the control lines at the end of the process are always out putting something right. They only counts if they correspond to a useful instructional program Sono off do not count toward the CPI.  I should say well so okay, there was all so I can write down explicit. No op in my program, right? I can write no off. That's an instruction in mips assembly. It corresponds to this all zeros or interests are zero if I write that down that counts as an instruction because that actually appears in the program, but the thing is I inject into the  Oh, you know actually an easy rule right is that if it's patched an account, but the no off that we inject for the bubble is not fetched write a never gets read out of the instruction memory. It's just sort of got injected by the processor itself.  alright next solution much better solution  bypassing for forwarding it's called. So here's the basic observation was forwarding the results are known right here. The results are needed right here, right? That's why they're actually calculated. The problem is it's a sort of good published or an ounce right later and right back, but that's just sort of because we haven't been clever enough if we look at the actual day dependents between where things are produced an executed. We see that for these two instructions the value that we need for the ad is actually ready in time. I was computer on the previous cycle. And so we could if we can just had a wire that went from there. They're kind of that we could get that data body where we need it. And so that's called a forwarding path. There are a few of them that we need. So here's a little example where we have the subtract is used by three subsequent instruction and then corresponds to three different forwarding pads so I can forward here from the output of exeggcute into the input of exeggcute from the output of men.  Play into the input of execute and from right back index cute. And so I can just add that Hardware.  And the wires are just on one of them here. This is for routing from this is the the shortest bypassing Rod. So I take the output of the L you and I run it back around and now I have a new alternative for both of the inputs to my l u Rite they can come from I think this one can be this one is always the first day to register but now it can also be the bypass value and now we have a third option for the second and put it can either be the immediate the register value or the bypass value and then the control line right there than the control line that comes in here from from the control will come down and tell which of those inputs it should actually use because the control unit these off and it knows that this data dependence exist.  So you can imagine if you were riding the logic for the control unit in Bear log, there would be a whole bunch of if statements right? If the instruction that is currently in memory if its destination register equals the source register of the instruction that is currently in execute then some other stuff and eventually if it would check this.  So that resolve this is the add Hardware to get rid of the bypassing problem. So for the date attendances between arithmetic operations, we Canal solve all of those data hazards. I know there is no need to ever stall on the output of an archetype or an operation for the day. Has produced a PLU.  so  that works most of the time but loads for that a problem for loads. The value is produced here the other memory and it's needed here.  Right through that doesn't work right again time travel present significant fermentation challenges looks like a research way of saying that it's impossible right so that so now we can so what's the one alternative that we could apply to resolve this problem?  What can we always do?  So we can stop.  Are we can stall the first day of the week install? If a net next instruction needs a result of the load will just all that instruction. That's fine. I'm here. The compiler can order instructions to avoid the snow also in the compilers admitting code. It could say. Oh I see that this instruction needs a value for the previous load. Maybe I can find another instruction to stick in between. I have to give the process or something to do allthe resolving idata dependents and then I can get rid of the stall so we can have a smart compiler get rid of it the other option. We have a smart composite. We also kind of smart Hardware cuz the hardware is going to be as going to start of a catch any problems that actually arise the second option is to just expose this problem to the compiler or actually expose it in the instruction set architecture and then Force the compared to deal with it.  Do you have to have a smart compiler up here? The compiler could be down.  compiler  can be done.  Dump Professor can spell the compiler.  Must be smart.  All right. I didn't know they call a delayed load so they do here is I will see you on the next slide. So this is this semantics for MEPS. I don't know what happened to my  So this is the actual semantics for MEPS?  So it's like a disco dancer does so this code first takes for does or this is an immediate does or with a 02 STAAR answer than a T20. So it's a t 0 equal to 4/8 stores 2-0 into this address of the load the back the back into T1. And then it takes 0 + or is that with T1 and write them to T to soak in a copy to you wanted to T2 and then is going to copy to you one into T3 now in maps the correct output of this program is it to to equal 0 and 2/3 equals 4?  And the reason is that here this is a delayed.  loud  and all those are delayed the semantics of nip says that when you do a load the effect of it is not visible until the next next instruction.  So in this this instruction goes to read T1 it gets.  Pick up the old value of T. When I should say up here that t 1 equals 0 it gets the old value of T1.  Comes in there and this instruction down here the second or you'd get the new value of q1.  Those are the semantics.  Right. I was going over I'll give you a little preview of your homework. There is a prominence about the homework and I was talking about it with my tears and tutors yesterday and they were like, oh, so if you want to get what you really meant.  If you want to get the program to be what you really meant, then you should do ax and I said no no.  This is the program in this is what it means right if you wrote this down and this is what you meant. This is the whole specification for the program and in mips. This is what it means, right? This is like, you know, it's like all the stupid Indians. We have an English that don't make any sense. Right? Like that's what they mean. Why did I mean that way? Well, that's just what they need right in mips. This is a stupid idiosyncrasy of nips are you know, this is what I mean.  So if you want to make this if you want this dependence instead.  If you do and maybe you don't then you insert the snow a lot. The real no off, right? If you're going to your question. This is actually a know off that we are inserting by the compiler. So this is really an instruction.  Now you lit one observation. Right? Is it adding this? No op should hurt performance. Right if I'm inserting do nothing instructions all the time. My performance should get worse where will that instruction show up in the performance equation?  If not in the CPI.  construction count the instruction count will go up by 1  and that's bad because the I presume that compile, you know, if I compiled a given program instruction count goes up that means in my performance in my program goes down, right? So this means is that a nips? I will sometimes admit more instructions and I need to cuz I'm going to kick out a going to produce some of these no Ops, so the instruction can will sometimes be hiring this.  because of this now it's really nice about this is that  By doing this I have just eliminated another day to Hazard right? I didn't add any hardware.  Where did the hazard go? Where did the complexity for the hazard managing the hazard go it went into the compiler.  Right, so we could have pushed it to the micro architect the designers of the Mets last they could have pushed it to the micro architect, but they were the micro architects in here. Like we're not going to do that. If a compiler which is probably a different graduate student across the hall and they had to deal with it. Right and now it's really cool is that there are no data hazards in the nips pipeline.  Right. We'll see that some of them sneak in later. But from this design, there are no data Hazard, right? We have all the forwarding. We need to get back to execute for asthmatic operation. And for Lowe's we just designed the I say so they could they go away. That's great. Now I don't have to write any of that complicated Logic for checking whether or not I need for checking but I don't need the complicated Logic for stalling.  All right.  So here's a little teaser for you. Does the single cycle processor processor?  support delayed loads  ponder that for a little bit  and why?  if there is a y  Hawaii  Like on a 10 seconds.  5 4 3 2 1  All right, that's got the most ourselves.  I guess you might need to see it.  Hello 10 seconds or so.  five four  3  2  1  Punk all right. There's actually still quite a bit of  Question. All right, so I think it's the matter your mother answers. Let's take a look.  So do I support a delayed load, so what does it mean if I support a delayed load that would mean that I if I execute one instruction.  So I take up the whole Pipeline and the load value pops out at the end here.  Now the next instruction it read the value of the that I produced.  So what?  What?  There's a couple of options right? If I do it as it's drawn this data value was going to flow back into the register file.  And when the next instruction executes, if it read that thing register if we hadn't delayed load it is supposed to see the old value right? So at the very least I'm going to have to add a new register here.  The hold the load for one cycle hold the load. I for one cycle and then the next cycle I can go back and I can write it in.  So it is not. Yes.  Because there's no place to store the load value for the xtracycle. We can't do it justice combination of logic because we have to store a value. So one way to think about this is that the processor has a limited number of things that I can remember you can only remember how many things can it remember?  Who says it's 30?  Who says it's 32?  31  31 one of these is hardwired to zero their third to register as a registered zero is only a zero and can't be changed. So there's one thing that I'm the way to think about this. Is it for a moment with the delay load it actually has to remember 32 things that I just remember one more thing because it has to hold the old and the new guy at the register. There's no place to put that the only place for a processor can remember something is in a register. So we need at least one more register or laugh.  Question is whether or not it's so it is not really a new processor. A processor is a mips processor by the same token that an x86 processor than x86 processor. If it correctly implement the instructions said that it's supposed to implement.  Alright, so this is not an EPS processor.  Because it doesn't have delayed lugs.  All right, if I took I sold units processor. I saw you two naps processor the nips 1010 thousand and the 1000 looks like this in the 10000 runs like that directions to but if I run my program on one of the other one, they will get different results because the instructions after loads are being different values. So that means it is not I miss processor.  not  maps  sad face  Why does it need to?  Because the knee does not come from the hardware comes from the IRS a right. So the IFA is an interface the IRS a is a contract between the hardware.  And it's in the program and by the harder, I mean any hardware that claims to be a myths processor.  I don't you buy an x86 processor x86 processors coming around for a long time, right? They were first designed in the early eighties and they looked actually like neither of these design there something called a multi-cycle processor, which actually takes it takes multiple Cycles to execute one instruction, but I only asked you when I'm starting a time so a lot but your code if you had x86 go from there late is it will still run on your processor today because that processor says that I am an x86 processor and that defines what I do with a given set of instructions and I always want to get the same result.  So that is why if I have enough problems or I have to support it because otherwise I'm something else right? It's exactly the same as if so HTML write HTML is also a standard HTML says that I can write, you know Square braces I and I'll get something in italics. If I don't do that then I'm not HTML right in that means that my documents aren't going to look right, right. It doesn't you would never say well, why does Windows 7 need to support the I tag in HTML? Because it doesn't like if it doesn't have it while you wouldn't say like why doesn't have to do that. Well, it has to do it because it claims to be an HTML into your HTML5 compliant web browser right eye when stuff goes wrong, right? This is my first ride because no one quite get everything right until your web page is like a little bit different on Chrome vs. Windows and other stuff so we can deal with that. But if it's the processor and you start messing around with the semantics of instructions like your toe  Play house, right everything is going to break. So that's why it has to support the Lalo's if it's going to be in this processor because that's what it means to be a Miss processor like fundamentally. That's what it means. It doesn't have anything to do with this drawing that I've drawn. I can implement this using a completely different set of Hardware in a completely different way. And if I built it today, I probably would then we'll see some ways that we can do that next time in class and it would still be enough processor. But only for those right semantics.  I guess we are going to stop their next up is control hazards and we'll just dive into that on Thursday.  Yes.  Walker State Bank, but yeah  Yeah.  Energy optimization. So power goes up with the cube of clock rate and that's  You have to increase the voltage increase the frequency and so come together those increase goes up with the Cuban clock rate to burn less power, basically.  Yes, just clarify this divorce do a load right?  MEPS has delayed load. "
+}

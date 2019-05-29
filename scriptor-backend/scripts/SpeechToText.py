@@ -24,7 +24,8 @@ from google.cloud.speech import types
 PATHTOAUDIOFILE = sys.argv[1]
 GENERALPATH = PATHTOAUDIOFILE.split("audios")[0] 
 #BUCKETNAME = "audiofilesscriptor"
-BUCKETNAME = "scriptor-audio"
+# BUCKETNAME = "scriptor-audio"
+BUCKETNAME = os.environ["GCS_BUCKET"]
 
 NUMBEROFWORDSPERBLURB = 70
 
@@ -130,7 +131,11 @@ if not os.path.isdir(GENERALPATH + "transcriptions"):
 for fileName in os.listdir(PATHTOAUDIOFILE):
      if not fileName.endswith(".mp3"):
           continue
-     
+
+     if os.path.exists(os.path.join(GENERALPATH + "transcriptions", fileName.replace(".mp3", ".json"))):
+         # We've already transcribed this file.
+         continue
+
      print()
 
      fullDir = dirname(abspath(PATHTOAUDIOFILE))

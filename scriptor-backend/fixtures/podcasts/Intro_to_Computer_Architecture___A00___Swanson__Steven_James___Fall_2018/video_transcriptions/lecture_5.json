@@ -1,0 +1,756 @@
+{
+  "Blurbs": {
+    "3 2 1 5 4 3 2 1 All right. that is that so today we are going to we're going to finish up performance. We just have a little bit of that left to do and then I will be off to implementing a processor. So last time we were talking about Angela's law. How we discussed how you should always see the Andals law and how he handles ": [
+      399.0,
+      510.2,
+      1
+    ],
+    "6% for this is kind of another example if you guys to look at while you're studying So they're also similar things that we conserve learn from animals lot. Right? So we talked about how the performance equation is a is a mathematical model and so you should be able to learn things from from a mathematical model the most important thing instead of the core of animals law is ": [
+      649.2,
+      675.2,
+      7
+    ],
+    "A + B is equal to not not a or not B right by a demorgan's law by the function you want and I'll tell you don't see my skip The final step is to implement that in actual transistors. So this is just a schematic over here, right? That's just like a nice electrical drawing. This is actually how you would design it and more or less how it ": [
+      2253.9,
+      2286.4,
+      62
+    ],
+    "ALU into the register file. So we have another box to choose which thing we're actually going to write and now we can do our Type. I Type and a load instructions are the store is basically the same. We do the same address calculation not an accident at the same address calculation get Ariza Hardware. We're going to assign that to RT. I so now we need a data ": [
+      3472.6,
+      3500.5,
+      107
+    ],
+    "All right, everyone. Hello. Are you guys ready for a clicker quiz? You have one minute. What is the frequency? I am podcasting. I did turn it on. Does it still say no base station? Oh great. BD there we go. another 10 seconds 5 4 3 2 1 5 4 3 2 2 1 5 4 3 2 1 Oh, that's the same. Is a different okay? 5 4 ": [
+      63.8,
+      399.0,
+      0
+    ],
+    "And what will come out of the Ameri is the instruction itself. So that's a 32-bit value that holds all of the Opera out of everything about the instruction next up we can do this stage. So we need to read the inputs are snri, so we're going to read that from the register file. All the first thing to do is Step figure out what are s and RT ": [
+      3033.5,
+      3054.2,
+      91
+    ],
+    "Does anyone see the bug? There's a terrible bug I think. There's no ID, right so I need my destination register. I think I must have my RS. Nrt labeled are my are tnrd labeled wrong. All right. I just need a I need another mucks how that's a bunny. That's the Bug Guy Missing My Mocs. Are there it is? All right. I'll make a note to myself. It ": [
+      3357.5,
+      3400.3,
+      103
+    ],
+    "Hardware is that you have some circuit right and we're thinking about the region of logic. So this is combinational logic and the doors and so forth between two sequential element. So these are registers or latches. And Gates have delay, right? It takes a little time to switch the transistors on and off in for the singles to propagate. And so we have here we have something that says ": [
+      4328.2,
+      4352.4,
+      137
+    ],
+    "Has the More Voltage you apply the less current flows and so it goes down into the left. So we can build both of these and it turns out that if you apply these property to get these logic gates and have some very nice properties. So this is inverter CMOS inverter stove EDD. This is the logic one vs. S is the logic zero usually 0 volts and logic ": [
+      2045.7,
+      2070.5,
+      53
+    ],
+    "I not let me play the video? Where's the next slide? All right, so I started assuming I'll try to narrate instead of the narrator finds or resuming on a wafer. Oh, come on. Zooming in on a wafer in this is little piece of silicon. And the basic kind of day it's called photolithography. So they use a lot of very fancy light sources and fancy mirrors and so ": [
+      1466.3,
+      1525.9,
+      34
+    ],
+    "I should stop and hopefully some uncommon case will then become a new common case that you can handle and that'll be your new Target factorization. So see how this can play out. So here is an example. So this is execution time on the colors represent different C functions in my program that I'm interesting in optimizing. So what's the common case right now? Rad are blue and maroon ": [
+      796.1,
+      825.2,
+      13
+    ],
+    "La limits the effectiveness of optimizations and how it can be used to balance the federal budget as well. That's extra credit if you like to do that during the course. I did some exercises. I love the last one. I looked at was this one and we found out that. We couldn't accomplish this right we wanted to do was running for 200 hours. We wanted to make it ": [
+      510.2,
+      544.7,
+      2
+    ],
+    "Nothing having star haven't started working in 141 l. Someone raise their hand and tell me. Yes. Designing an iOS AR this is like a 7 beds or something. Some crazy is a kind of man. You would have been happy with it. Alright, 7 is really hard actually a professor designed the basic glad you guys doing 141 a long time ago. And we decided that 9 was like ": [
+      2868.6,
+      2902.5,
+      85
+    ],
+    "So if we didn't have something else here, which we will call the enable. Then we would just store all the time and we would corrupt the contents of a register file. So the enable says should I store this cycle or not? And so during stores we will turn off being able to make sure that we don't store that cycle. All right. That's how we do stores next ": [
+      3579.5,
+      3604.3,
+      111
+    ],
+    "Us is perfectly set up just like arithmetic operations, right? So this is basically like a normal add as far as the alien was concerned to get some pops out here and we apply it to the memory memory will then read out a value that we're going to access now, we have a choice because we can either write back the output of memory or the output of the ": [
+      3449.4,
+      3472.6,
+      106
+    ],
+    "We talked about for your cell phones for your battery life. This is basically battery life or a power cost if your data center. You pay for electricity in terms of joules. So you want to minimize these or minimize the amount of energy do you take and you can also think of this as the amount of work that the computer must actually do like in terms of physical ": [
+      1114.3,
+      1143.0,
+      25
+    ],
+    "a 10 x slow down, right and if that is even worse this is like what I guess this is a hundred. Thousand hundred thousand X then in a thousand times slow down. So things can't get that much better, but they sure can get worse. So there you go. There's your happy thought for today. So the consequences if your assistant designer is that even if something is not ": [
+      1009.0,
+      1034.7,
+      21
+    ],
+    "a branch or jumper Lauder store or show me the route to do something else set Step 2 step 3 is to gather the inputs. And now that I know what I'm supposed to do. I need to gather the operands the inputs to this function. So if I'm going to add I need the two things aren't going to add together. I'm going to Branch maybe I need to ": [
+      2725.1,
+      2743.7,
+      79
+    ],
+    "a chip. The only all-nighter I've ever pulled was in my CMOS design class to design some stupid circuit. I finally got it to work though. All right. Any questions about this? Alright, so that's how we build ships. In a nutshell. Call, you know, if your electrical engineer you could do no spend your whole career working on the stuff. We don't have that kind of time. So now ": [
+      2358.9,
+      2387.7,
+      66
+    ],
+    "a energy and power perspective. But performance is pretty poor. We will see you guys 1 and cycle time is long. The pipeline processor is how real machines work, at least they're all pipeline and hear the CPI is about equal to one. I am the cycle time is short. So that tells us everything about the performance equation right that this one will be a lot faster and indeed ": [
+      2554.1,
+      2586.3,
+      73
+    ],
+    "a you know, that it's been sitting a room and design what they thought the isolation. Look at. MEPS is part of a larger movement called risk, which is reduced instructions that Computing and actually they took like the last 30 years of instruction sets. I thought let's redesign the instruction set to make it easier to design the processor. And so that's where Miss comes from and so they're ": [
+      2470.6,
+      2492.8,
+      70
+    ],
+    "a zero the same time if a + 1 + 1 is a is 1 and B is one then both of these are going to be closed. So nothing is going to get driven from the the one rail and so we should we get zero if he has zero and be as one then this will be open and this will be shot. So we won't be connected ": [
+      2161.5,
+      2180.9,
+      58
+    ],
+    "about silicon. Is it silicon is a semiconductor silicon dioxide is basically glass. So that's like what are glass windows are made out of that's a really good insulator. So the first thing they do is they put down the Slayer of insulator over the Silicon. And then they cover it with this material which is like a light sensitive sensitive lacquer. And then what they can do as they ": [
+      1573.2,
+      1599.7,
+      37
+    ],
+    "across to be and then it goes to the output the same thing happens for a so those two are in series and then down here the a transistor that is right here and the bee transistors right here and they're sort of in sequence of transistors are basically right next to each other. It's almost like one big transistor Gates of transistors are on then I will make a ": [
+      2311.5,
+      2335.6,
+      64
+    ],
+    "actually very carefully co-designed and we'll see how it's very easy to implement. The nips is a and some of the little quirks that you may have encountered are actually do to architectural considerations. We're going to stand a couple of problems you have to deal with in Prosser designer called hazards structural Hazard the date of Hazard than control Hazard on. These are a little challenging. I need to ": [
+      2492.8,
+      2518.5,
+      71
+    ],
+    "all of its work. So it's just sitting there waiting for the next instruction. So what do you think about that is that we're just wasting all this Hardware, right? The the instruction memory could be fetching a different instruction. The register file can be reading a difference could be reading different register values. And since the memory is an idiot in the memory could maybe be reading a different ": [
+      4251.0,
+      4272.9,
+      134
+    ],
+    "an extension of the opcode and the Sham is something that is just for shifting. And so those also would get routed into the ale you so you can configure the area to do whatever operation we need. questions the control octopus I've been much more interesting term in the control unit. questions about the basic pipeline All right. So now we've designed it. Let's think about what we can ": [
+      4097.6,
+      4130.5,
+      129
+    ],
+    "and if we look at the hardware. Our Hardware is actually mostly idle. So let's imagine from out of the cycle time is 80 nanoseconds. So if you remember from CSE 40 the cycle time for a circuit is the delay along the longest slowest path in the circuit. So for us I believe. It's probably through the ALU. Do memory and then back in here in more detail later ": [
+      4160.1,
+      4199.7,
+      131
+    ],
+    "and then we also have to break out our which comes down here right into the right the right Port these are called the reports. And so I need to do the PC codes PC pause for so we will we will Implement an Adder. So here's an Adder it has a constant for is one and put in the PC is the other one and then it just routes ": [
+      3121.9,
+      3146.9,
+      95
+    ],
+    "and what it does. It looks at the circuit that have built and it finds all the paths, you know, the registers and it has an estimate of how long it'll take given what logic is on there. And if it's to nanoseconds then it'll configure the clock on your circuit to run it 500 megahertz dinner in there. So if you get a slow fpga or a slow chip ": [
+      4539.4,
+      4562.5,
+      145
+    ],
+    "are so to do that. We're just going to slice out RS and RT from the instruction. So this is actually the decode staging nips. Hi, this is sort of the beautiful part of nips. The decode is really really easy because all you have to do is grab. These bets right grabbing bits out of a bunch of bats is free. Basically you just sort of brought wires to ": [
+      3054.2,
+      3078.7,
+      92
+    ],
+    "back into the program counter itself. And these lines are all crooked because we're going to feel some more stuff in as we go along. Actually another call you want to do is out of subtract and multiply into this is a processor. It is not a complete processor because in order to execute arbitrary programs, you need to Branch. We don't have branches yet. Also, its memory is very ": [
+      3146.9,
+      3176.9,
+      96
+    ],
+    "branch on equal. It's really just a subtract right you subtract 1 from the other and check whether not there is always equal to zero and that's checking for equal. There's a branch. We just need one know we didn't do jump jump is very easy. Jump just takes the contents of a register. I forget which one and writes it into the into the PC so that I would ": [
+      3770.8,
+      3797.5,
+      119
+    ],
+    "brief introduction how we build semiconductors. So I just made of silicon silicon mostly silicon on a bunch of other kind of Trace elements. But almost all of it is still like in the thing you see is a silicon wafer. This is sand right? So there is a lot of silicon in the world. It's the most abundant element in the Earth's crust. So we are never going to ": [
+      1215.1,
+      1239.1,
+      28
+    ],
+    "but just as a quick review need somebody to represent his ear on one. Mostly nowadays. We use voltage station or volumes of water St. Peters cool paper. They build old computer out of like valves and tubes of water. They did was that you could run this in a super intense radiation environment and it would still work to do some competition. So Somehow we have to manipulate the ": [
+      1887.6,
+      1919.4,
+      47
+    ],
+    "can see at the end. This is the tip that came out and they pulled it out of the end. This is what it looks like in the molten silicon. It's not a perfectly smooth thing that comes out of the name machine it down and they use a very fancy sauce into thin wafers. That are I don't know maybe half a millimeter thick or something and then you ": [
+      1349.1,
+      1376.0,
+      32
+    ],
+    "can see reflection of a ignition in here looking at it and they're super super shiny. So here is a video. This is about the best video. I found online. I'm about how they actually manufacture these. I'm not sure if audio audio is not going to work. That's unfortunate. Also, I don't know how to play the video. So that's also a problem. Oh come on Windows. How can ": [
+      1376.0,
+      1466.3,
+      33
+    ],
+    "case. I need to make a choice, right? Because now the ale you can get inputs from two places either if it's an archetype instruction that comes in from the second read part of the register file or it comes in from the sign extender and sew a box is how you make a choice and Hardware among states to input one output and there's a configuration line that will ": [
+      3285.7,
+      3307.7,
+      101
+    ],
+    "clock starts the new pc is for the released from the PC register and it starts flowing through all these circuits now it gets here. I don't spend 6 nanoseconds going across the ALU seconds. Nothing else is going on in the circuit. The memory is not active because the new inputs haven't gotten there yet. So it's just sitting there waiting and all of this stuff is already done ": [
+      4225.1,
+      4251.0,
+      133
+    ],
+    "come in from the day DePere that control path will see you later. Let us choose which one of those input It goes out on the output input coming from either place so we can execute our type or I type instructions. And this is carefully sort of organized so that the destination register right if we go back and look here. are so This right am I missing something? ": [
+      3307.7,
+      3342.4,
+      102
+    ],
+    "comes directly from the structure of the transistor? So this is the same kind of drawing lease on that video and it's all star with the mass of the Moss is metal-oxide-semiconductor. So that's the stock for this metal up here. This is the gate that's how you control a transistor oxide layer. Just an insulator to separate the gate from the channel which is right here. This is where ": [
+      1972.2,
+      1993.4,
+      50
+    ],
+    "common case changes. So is you optimize one thing right? First of all that sort of shifts the balance between other things right? Cuz that one piece become smaller and so the rest of the pie or the rest of execution time distributor little bit differently, but also optimizations often have kind of unexpected consequences that will cause other things in the system to shift. And so, you know optimize ": [
+      743.9,
+      771.3,
+      11
+    ],
+    "common you can't just forget about it, right? So there have been some sort of notorious cases or people have said, oh, you know bitwise or no one ever does bitwise or so bit wiser can be slow maybe and I slow down by a lot but it turns out that like the one in a thousand times you do it if it takes a month then like your program ": [
+      1034.7,
+      1056.7,
+      22
+    ],
+    "connection this way and I'll go out toward the outfit. And then these colors these represent where we put the different ions. And so these are this is nitrogen. And these are phosphorus over here. Inside gets laid out. So this how you designed ships you draw these rectangles you stare at them for a long time. You get a headache you stay up all night, and eventually you have ": [
+      2335.6,
+      2358.9,
+      65
+    ],
+    "copy it into this is a 16-bit value. We need a 32-bit value to feed into a Ral you because it's the three to BDL you saw the sign extender just feels in all of the hired her bits with the highest order bit from the 60s. We got that means you can do negative numbers go back and review your binary arithmetic from C3 to see why that's the ": [
+      3261.7,
+      3285.7,
+      100
+    ],
+    "delayed load and so the load doesn't actually happen until one more instruction is executed. That's right. Haha. Yep. Gus Okay. Sure. Yeah, so what you need to do is go to CSC. ": [
+      4667.7,
+      4708.9,
+      149
+    ],
+    "different deep neural net training application takes four days to execute on the current machine 20% of the time is doing integer instruction 35% of the time is doing iOS that's reading stuff off of discs for incense. So which of these are better choice for the first option is to have a compiler that will reduce the number of integer instructions by 25% instructions will take the same amount ": [
+      574.1,
+      603.2,
+      4
+    ],
+    "does lots of different ways actually to implement these logical functions in the different sort of techniques are called logic family is the most common one and then we're going to talk about today is called CMOS which stands for complementary metal-oxide-semiconductor, but there's a bunch of others as well get used sometimes and high-performance circuits are low-power circuits and things like that. Does a CMOS complementary metal-oxide-semiconductor the name ": [
+      1946.7,
+      1972.2,
+      49
+    ],
+    "dope and Adams and then eventually on top of this they're going to stack up a bunch of wiring layers as well. So if I fast forward a little bit Hilton out and you end up with something that looks like this. So all of the transistors are down here because of transistors are built out of the silicone and it's only silicone on the bottom and then all of ": [
+      1762.0,
+      1785.1,
+      43
+    ],
+    "every what do all the instructions that we have looked at so far do but a store does not do the right thing to register or the other one's right to register to r-type instructions and I type instructions and loads all do an update some data comes in here that we want to store into the register file. So the store doesn't write the store doesn't have any output ": [
+      3530.6,
+      3559.1,
+      109
+    ],
+    "figure out if we want to keep programs quickly and correctly. They're going to do this in two stages. The first one is going to be a single cycle CPU. So this CPU is going to execute a a single instruction every cycle. It's going to have a CPI of 1. CPI equals one maybe some super deeply embedded processors are implemented this way. It's pretty efficient from especially from ": [
+      2518.5,
+      2554.1,
+      72
+    ],
+    "five things going on at once we're working on five different pieces of work. I am so we're getting 5-way parallelism. Now one important kind of side effect of this and thing to note is that we are in a things pop out of the end here every two nanoseconds. We complete a new thing for construction every to nanosecond, but the amount of time it took Venus case the ": [
+      4428.9,
+      4458.0,
+      141
+    ],
+    "for a for an individual chip and they're done in these very large or very expensive factories. How do I get back? the cost of billions of dollars close apparently I need to press the Escape key. I don't know. I definitely feel the need to escape Escape. All right. Right, so they built a is very expensive factories. They cost in out of 10 billion dollars a piece or ": [
+      1806.5,
+      1865.2,
+      45
+    ],
+    "for bites which is 32 bets. So first up. What do we need? Well, if we look at this first line, we just figure out how to start an implement this piece of a code and if we sort of think about what's at the bottom here, we need the PC, right? So we need a PC so we can ask the instruction memory for it and we can load ": [
+      2988.2,
+      3009.7,
+      89
+    ],
+    "forth. So the first thing that they do this is the way for Danny are the first thing I have to do is that layer of the layer of silicon or that the Silicon wafer that come from the factory is not it's very smooth, but it's not smooth enough for the first thing that they do with a deposit a new layer of silicone on top. So basically put ": [
+      1525.9,
+      1547.0,
+      35
+    ],
+    "gets really slow. So you have to pay attention to you can't make the uncommon case too bad. Otherwise, it will become the common case. All right, so that the ends are formal discussion of embolus law. Are there any lingering questions about Amber's law? You are all masters of vandals law. Excellence, I'm glad to hear it. All right, so I got a couple other metrics bandwidth. Is importance ": [
+      1056.7,
+      1086.3,
+      23
+    ],
+    "going to add to our s we're going to use that results to access memory and there were going to start at nrt. So the main thing we have to add is memory and now we're going to get the Mach so we should have had earlier and so we had memory and this is very convenient. This is also not an accident that the sign extended immediate + R ": [
+      3427.5,
+      3449.4,
+      105
+    ],
+    "good but there's no limit to how bad they can be. So if you write re-write this in terms of latency, you get that the just the basically just the weighted-average. So the new latency equals ax that's the same x x l latency / ass because I speed up plus the old latency times the rest of the program and so what you see is it the new latency ": [
+      948.5,
+      974.5,
+      19
+    ],
+    "had to remember 2/4 all the time, right and then you going to change it and like what happens in probably is that if you wrote in an odd number for that offset in your assembly the assembly should throw in air and say that's not valid mips because this number is not divisible by 4. So we make them the instructions that you ride the Assembly Language I guess ": [
+      3885.0,
+      3910.2,
+      122
+    ],
+    "has run programs. You know, we talked about how we express them to use the the instruction set. To express them and now we're going to talk about how we execute them. So the goals for this part of the course at least the next couple of days or understand what's called the five-stage myths pipeline prototypical processor design in reality people don't don't processors like this anymore. Mix there ": [
+      2419.6,
+      2447.3,
+      68
+    ],
+    "have an arborist you can compute arbitrary logical functions of an arbitrary number variables using CMOS, and they will of course be more efficient than using and Gates because you need a lot of man-to-man Gates, but the key here and the reason is called complementary is because the Top This is called the pull up Network. And this is called the pole down Network. The transistors for the pull ": [
+      2206.8,
+      2233.0,
+      60
+    ],
+    "have to do something everyday or a few times a day that I do I key thing here is that you need to be sure of what the common case is evil and notoriously bad notoriously bad intuition about where the common case actually was always going to measure this. Otherwise, it's likely that you will spend time optimizing things that are not actually that important thing is that the ": [
+      718.1,
+      743.9,
+      10
+    ],
+    "here and then what comes out from control our whole bunch of control lines that go to all of the boxes and I'll go to the there's a reading table and a writing table on the memory and there's a right and Abel on their registry file and there's also one that goes down here to tell the ALU what to do. And so those are just control. I'm so ": [
+      4018.6,
+      4038.8,
+      126
+    ],
+    "here. We already have PC Plus for we had that before so we use that so we feed in the shift left into the outer. Run that over into a mucks and we run the old value PC + 4 into the next 2 and now the branch outcome just goes into that mocks and it tells us which PC we should jump to next. I don't either be the ": [
+      3721.8,
+      3743.4,
+      117
+    ],
+    "if I see that I am doing an archetype instruction, then I will set these muxes appropriately and these control lines appropriately and if I'm doing a night type instructional set them a little bit differently and so it ends up looking like it's basically just a table away simplemente, you know, you basically right out all the the logic equations for this and Barrel login 141 out and then ": [
+      4038.8,
+      4064.2,
+      127
+    ],
+    "immediate we can do jump forward or we can jump back. Just give me negative. Then. We multiply that times for because we like to be able to jump as far as we can and we only ever jump all the instructions are aligned. They're always at a 4-bit boundary. And so we can jump this many instructions, which is that many bytes this mess. Are you this many instructions ": [
+      3672.1,
+      3693.8,
+      115
+    ],
+    "instruction memory, then we do the operation and we have this is the the layout of the instruction. So we have three register operons are SRT and RD. And so the the thing we're going to do in a rag is a register file. So there are deregister is going to be able to the IRS register plus-minus bitwise or whatever. The operation is the RT register and then us ": [
+      2940.1,
+      2968.0,
+      87
+    ],
+    "instruction programs in memory a big deal to call the store and program Computer Concepts. I guess it was invented very early on right in 19 late forties or so. They invented the idea of the story program computer and the key here is that your program is that means presents that you can do operations on your program. You can say compile it. It's also nice because you can ": [
+      2654.1,
+      2682.5,
+      76
+    ],
+    "is all different. We take the register S R Us and we perform some Opera and Opera and a combine that with the sign extended immediate an RT so we can make a couple of changes. First we need to take the immediate out of our instruction and we're going to stick it through the Sinus Center. So sign extender just mean to take the high or bit and you ": [
+      3236.1,
+      3261.7,
+      99
+    ],
+    "is linear and whatever is right. So that means that if if x is 1% of execution And the old latency is one if my speed up is .001. So this is a speed up that is much less than zero. So this is a thousand X slower write the new latency, even though ex was very small. I slow down 1% of my program by a lot. I get ": [
+      974.5,
+      1009.0,
+      20
+    ],
+    "is the correct term the assembly would you write is easy to write and understand and then the assembler is in charge of going through and dividing it by 4 when it's locked it into the actual Construction. a little Philly out at the assembly this very thin layer of of abstraction above the actual is a used to be when people don't write a lot of assembly any more ": [
+      3910.2,
+      3935.3,
+      123
+    ],
+    "is the next slide with a little bit more complicated gated has two inputs A&B and we can start a go through the the table of the outfits here. So if a if a is 1 and B is one then this is going to be open and this is going to be open and so the zero is going to flow into the output. So the output will be ": [
+      2142.4,
+      2161.5,
+      57
+    ],
+    "is they use this mask to control the placement of these are called dope and ions and neither little atoms of phosphorus or nitrogen not exactly sure which is which in this picture of those sort of play dual roles depending on the kind of transistor dope and Adams in the Silicon. And that turns us into more or less of a conductor then they will apply another layer of ": [
+      1624.3,
+      1656.7,
+      39
+    ],
+    "it a in the parlance of the equation cycle time is 10 + here CT equals 2 nanoseconds. So this one down by a factor of 5, so this circuit should be five times faster to be able to do five times as much work in a single unit of time. And the way this turns out working and it's like, you know, that's like an assembly line. So in ": [
+      4377.9,
+      4408.5,
+      139
+    ],
+    "it in a vacuum chamber and they called sputtering so they heat up some silicon and evaporates off and get deposit gets deposited on the wafer. So they grow the super pure super perfect super smooth layer of silicone on there. And then the next thing that they do is a series of masking steps or the next day. There was a girl there an oxide something. It's really convenient ": [
+      1547.0,
+      1573.2,
+      36
+    ],
+    "it is and the key here is that we're going to explain some parallels and bikes getting multiple inspections at the same time. So if we do more things at once, then we should get better performance. Sorry to talk about nips. How we go through summoning the pipeline it's enough to run into this to all of you sing issues that we need to think about. So it has ": [
+      2586.3,
+      2614.6,
+      74
+    ],
+    "it's 70 x doesn't make any difference. It's not going to help me anymore. What should I focus on now gray, right. So I do gray. I'll Speed Up by 4 x that gives me 1.3 X. What's next turquoise I guess? And now I'm to this place so my total speed up I went from 20 units of time to 10 units of time. I got a 2X speed ": [
+      845.7,
+      869.3,
+      15
+    ],
+    "kind of a minimum before it gets really really hard to design and is a small number of instruction formats does just I think three are Type I Type in J type and so here is the basis or going to start an archetype instruction. And here's the basic pseudo code for a generic r-type instruction first. We load the instructions. The first stage, we get the instruction out of ": [
+      2902.5,
+      2940.1,
+      86
+    ],
+    "kind of come in case so now maybe I should get a processor with a better floating-point unit. Or maybe maybe I should go get a GPU right and maybe I can attack a big chunk of applique my operations or my execution time all at once. All right. So what kind of Converse of anvils law has the most optimistic slide of the quarter so slow down so so ": [
+      919.5,
+      948.5,
+      18
+    ],
+    "large. This is called a bull. There's a person can't see it anymore right here. There's a come on. Right here. There's a little someone's holding a little sensor thing. This is the ground. So there's a person that idea for the scale, but they're pretty big in modern are chips. They are about 30. Well, they are there are very exactly 300 mm in diameter about the size of ": [
+      1267.5,
+      1313.5,
+      30
+    ],
+    "learn about it from the performance equation. So eat equal. I see a single cycle processor. So CPI equals one. That sounds great one seems like a low number. Unfortunately, the cycle time is large. So CT is large. And even though this is what we call a risk construction, which means it's a very simple the I say is very simple. It's still a lot of stuff to do ": [
+      4130.5,
+      4160.1,
+      130
+    ],
+    "let's start of the fetching the operations doing the operation or fetching the operands doing the operation and then writing back to results. And then this is the part where we figure out what the next instruction is in for the r-type instructions for a simple. It's just peace Eagles PC Plus for PC is the program counter at the address of the current instruction and it's poor because it's ": [
+      2968.0,
+      2988.2,
+      88
+    ],
+    "like a big vat of molten silicon. They have a little like a little stubby silicone piece and they put up a single-crystal silicon and dip it into the Savannah molten silicon and they slowly turn it like a rotisserie rotisserie chicken cooker or something and they slowly pull this up and the speed. Kohl's the diameter of it. They pull it more slowly and grows out farther than you ": [
+      1313.5,
+      1349.1,
+      31
+    ],
+    "limited because of the contents of the register file and there's only 32 registers in there. So we have 32 * 4 bytes of storage. So it's probably have more storage than that kind of fill in those gaps. So it's actually one more thing we're going to do before we get to the archive Thursday. I type. R-type, I was just our Type. I Type in J type right ": [
+      3176.9,
+      3201.8,
+      97
+    ],
+    "look like as well stay at this one. We just extend the mucks and now there's three different choices for the next PC will be in full English one more option 2 to the second kind of jump, but the logic is basically the same so that is a path for a simple nips processor. This is a single cycle everything execute than one clock. I already talked about pipelining ": [
+      3797.5,
+      3823.4,
+      120
+    ],
+    "looks like it's going to be a little bit longer, but that cycle time you use set the right the second time as a product of the delay of the is a product of the manufacturing process and then you set your clock rate so that you always have enough time and that's what that's the cycle time for the clock speed to your processor can run out. I do ": [
+      4562.5,
+      4581.7,
+      146
+    ],
+    "looks when it's actually built into silicon. So you'll have these power rails. There's the one there's one there's a zero and we can trace out where these transistors go. So the beat transistor so that the values are coming in on these yellow lines A and B are there so the B transistor is right here. And you can map it out, right? It comes in from vdd goes ": [
+      2286.4,
+      2311.5,
+      63
+    ],
+    "maybe next maybe a little bit. Yes. Oh. so this is a question about the difference between the Assembly Language and the is a so, I believe the convention is in an in mips assembly when you write it out. Like it looks like code you write out the full the full number the times for number right? That's more convenient. It would be very bug Pro and if you ": [
+      3823.4,
+      3885.0,
+      121
+    ],
+    "most time-consuming not like the most frequent. So if something happens all the time, it doesn't take very much execution-style. It's not that important but something it happens in frequently if it takes long time can be very important. The Uncommon case doesn't make a lot of difference if I do something once a year, it doesn't make any difference how long it takes me to do it but I ": [
+      696.0,
+      718.1,
+      9
+    ],
+    "next instruction or it will be somewhere else and then conveniently this these values we read the same RS and RT that we read all the time. We feed those into our into our ALU and then the branch condition pops out here. It's just a one or a zero and this basically gets wired in there and that will let us resolve our branches. Right and all these checks ": [
+      3743.4,
+      3770.8,
+      118
+    ],
+    "not tell you faster and slower chips because I'm the fast GIF that happens it on the critical path. That's the longest path in the chip you happen to get lucky and you got all fast transistors on that path. And so that critical path is a little bit shorter in the clock and go a little bit faster. We just have to build it to be in configure it ": [
+      4581.7,
+      4600.9,
+      147
+    ],
+    "of figures out how to configure the data path to perform a construction depending on the operation operands can come from different places. So the control path is going to make sure that the right offer and gets used for a particular construction. I'm and again, this is Township. I mean, maybe it's true. I don't know. What are you guys working on 141 out right now? I don't know. ": [
+      2841.0,
+      2868.6,
+      84
+    ],
+    "of this is the amount of something work or data for time. So megabytes per second to gigabytes per second. This could be Network bandwidth or disband with frames per second is kind of a bandwidth measurement too. Well, so call this through but I will talk a lot and here we talked about instructions. 4 seconds these flexicution metric. We also interested in energy. So this is very important. ": [
+      1086.3,
+      1114.3,
+      24
+    ],
+    "of time or hard rock station that reduces the latency of each eye operation from 5 microseconds to fix microsecond and that'll reduce IO Time by 16% So we can go to the math on there. So if we just speed up the inner dropsy of x equals point to hear is plugging. I didn't two handles long and we get our part of this is the speed up that ": [
+      603.2,
+      627.6,
+      5
+    ],
+    "once we have a nice day? We have an IR favorite amusements. We're going to design or dry out the data path over a few slides here instruction. We're going to figure out everything it needs to do according to the list of stages on the previous slide and it will draw out the hardware that we need to do that to perform that part of the instruction terrified of ": [
+      2792.3,
+      2816.6,
+      82
+    ],
+    "one is could be it's a variety of things right now. It's probably closer to 1.2 volts are so been coming down over time cuz it means you just spend less power. But this is the input here and then the applicants out over here. And what happens is you can think of these two transistors as these voltage-controlled switches. I'm in search of a is one then this p-type ": [
+      2070.5,
+      2095.4,
+      54
+    ],
+    "operations that has memory operations. We're just going to go through a subset of the arithmetic operations, but you'll see how they all work. They all are working basically the same way and then we'll talk about two kinds of branches which were the branch on equal and the jump instruction. This is actually not true anymore. That used to be true night at 141 the algorithm for a processor ": [
+      2614.6,
+      2654.1,
+      75
+    ],
+    "orange instruction of the orange piece of work to get done didn't actually get any shorter. So it still took 10 nanoseconds. We didn't like cheat about how much work it took to do the orange part. We just kind of orchestrated better and let us do some other stuff in the same time. So for the for the purposes of our processor performance, the key thing is how quickly ": [
+      4458.0,
+      4480.5,
+      142
+    ],
+    "our instructions popping out. The end is completed instructions not how long it takes a particular instruction to execute. And so this is why we say that the CPI the cycles per instruction is an average and not the amount of time. It takes to execute a single instruction. Cuz in this case that time is 10 in a second, but the CPI is the start of the one and ": [
+      4480.5,
+      4506.4,
+      143
+    ],
+    "over the sea outfit right and that's an inverter right? I put in a get out of there. Presto this is one of these abstractions rights and I can tell you how to be seen how we take like Adams and we build transistors and we say we take transistors and we build Gates and have to do the next slide then we can do all of computation. So here ": [
+      2117.7,
+      2142.4,
+      56
+    ],
+    "p c equal to PC + 4 + the sign extended immediate times for otherwise, it should be PC Plus for all right. So what's going on with this big piece of math so branches because they only use the same extent immediate. There's a limit to how far you can Branch with a branch unequal. You can only Branch as far as you can encode in this immediate. So ": [
+      3629.5,
+      3653.1,
+      113
+    ],
+    "people run a lot of assembly entire operating systems in Assembly Language and some players were much more sophisticated. There was a things called macro assemblers that would allow you to sort of build shorthand for more complicated sequences instructions to see that little bit with the Mets. Those are set up macro assembly holdovers. You know me questions. Yes. Osso the opcode I should have slides about that. So ": [
+      3935.3,
+      3978.6,
+      124
+    ],
+    "physical real-world work power is joules per second. So this is how fast you're using that energy this determines battery life on it. Also determines How much cooling you need sewing big systems like a Datacenter. There's a between 1/3 and 1 watt of cooling for each watt of energy power consumption for the system. So that means that roughly half of the power in a big data center goes ": [
+      1143.0,
+      1170.9,
+      26
+    ],
+    "process over and over and over again alternate ending with different masking steps using a lacquer or the silicon dioxide to mask things depositing more ions to change the characteristics of a semiconductor and turn into a into a conductor and they keep doing it over and over again and eventually they build out this big layer cake of How the bottom is where the transistors I slept silicon is ": [
+      1732.0,
+      1762.0,
+      42
+    ],
+    "produce some output. So we write those back where they're supposed to go either to the register file orta memory some instructions don't have any outfits. That's okay. We don't have to write those back and then we have to determine what the next instruction is execute. So, what do we do next? So how we going to do this? So the basic algorithm we're going to use. Is it ": [
+      2768.9,
+      2792.3,
+      81
+    ],
+    "re-measure to see what's what were the common cases and then proceed from there. So you can repeat you can without possessions are the common case will be kind uncommon like that's the goal. Right if something was taking a hundred 50% of my time and I speed it up by 10 x then it's taking a lot less of my time. It's probably not the common case anymore and ": [
+      771.3,
+      796.1,
+      12
+    ],
+    "right at this store something in the memory, but there is going to be a value out here. There is always a value on a lawn on a on a bus around electrical signals always at 0 or 1 and if it's sort of floating somewhere in between, if you try to read it, the hardware was just sort of non-deterministic Lee come up with an answer for what's there? ": [
+      3559.1,
+      3579.5,
+      110
+    ],
+    "run 50 hours faster. And that is about 25% of the execution time. I want to 25% speed up, but I've been we can all we can do is mess with the integer parts of the competition which were just 20% of the execution. So there's no way that we could meet our goal is one that kind of thing is not possible. There's another example so we have a ": [
+      544.7,
+      574.1,
+      3
+    ],
+    "run out of silicon to build our computer chips out of so that's good baby silicone that we use is extremely pure surround one part per billion as far as kind of stray other elements there. This is actually the purest substance that people manufacture in large quantities that we used to build microprocessors out of We build the chips themselves on Silicon Wafers and rebuild these out of these ": [
+      1239.1,
+      1267.5,
+      29
+    ],
+    "see how we go and see how we do. So I think we're just going to go to the pipe lining review. So here's the basic idea of pipe important digital design. It's so you know, it's kind of indispensable. It's like up there with like, you know logic gates as far as getting things done. Everything is pipeline when you go and build Hardware processors, it's raining kind of ": [
+      4300.7,
+      4328.2,
+      136
+    ],
+    "shine light through the this thing it's called a mask up here and we're in this case. They said there's both versions of pain. They need I live in this case where the light goes through its going to dissolve at lacquer whoever else it'll stay hard. And then in this little area where the light comes through they can dissolve it away very easily. And then what they do ": [
+      1599.7,
+      1624.3,
+      38
+    ],
+    "should be in Luxor. Well, the slide has been around for like six iterations of this class and I've never noticed that nor have any of the students noticed it. All right. So next airplane to do a load instructions. So what instructions are going to read something from memory don't even have memory yet. But the basic thing here is going to take the same sign extended immediate. We're ": [
+      3400.3,
+      3427.5,
+      104
+    ],
+    "silicon. So now we have this sandwich that is this is a semiconductor insulator and then more semiconductor on top. And then they put more of this life instead of lacquer on they do it. Again. They will etch off part of the the stuff that they don't need from the locker then they'll use that Mass to HOA the back of a second here. They use that mask to ": [
+      1656.7,
+      1691.6,
+      40
+    ],
+    "simulate the instruction on paper and add connections and Hardware to make it work. And if we find that the hardware that we have is missing some key piece of functionality even will just add it in because we're just drying it's no problem. That's for the data path. That's sort of where the the operations are performed there. The second piece of Hardware called the control path which sort ": [
+      2816.6,
+      2841.0,
+      83
+    ],
+    "something. And so they run chips to these all all but all hours of the day and night to get all their money out of them or someone like Intel. That's a real transistor, right? So that's the first step of the next step is how do we use this to do computation in some way to represent the zeros in 1 see if I talked about this Cynthia C40, ": [
+      1865.2,
+      1887.6,
+      46
+    ],
+    "store it in the same kind of memory cells that you store your data in that's convenient and also made it very easy to change because if I want to change the program and running I just changed the memory that the in the data that started my inspection memory. So the first thing you have to do is Direction from the instructions store. So go and grab the bit ": [
+      2682.5,
+      2703.4,
+      77
+    ],
+    "takes 10 nanoseconds to get from one last to the next so they didn't ask that. We have some more Lashes in between and we chop up that combination of logic into some pieces that are each shorter. And this case are two nanoseconds and what that means. Is that the clock time for this thing's the clock time for the first one is 10 nanoseconds. or we could call ": [
+      4352.4,
+      4377.9,
+      138
+    ],
+    "that are going to tell you what to do. So and nips. It's always 32 bits. 32 bits and I have my instruction. So now I like what does it mean? Right? So the next step is a Dakota. So I'm either the processor is going to look at the instruction and is going to figure out what this instruction is supposed to do is supposed to add or subtract ": [
+      2703.4,
+      2725.1,
+      78
+    ],
+    "that it argues. You should make the common case fast and if you look in your tax, this is like one of their I don't know 10 key ID is in computer architecture or something and that is why you should focus on the things that happen a lot because that's where you'll get the most bang for your buck most bang for your buck in this case comment means ": [
+      675.2,
+      696.0,
+      8
+    ],
+    "the branch as well? So if we look at the delay along all these long pass and our circuit are we can say that this is about 80 nanoseconds. I think I measured that from a design from 141l awhile ago in the hell you was about 6 nanoseconds. So that means that what I'm doing when these operations, you know, the clock starts and you know that when the ": [
+      4199.7,
+      4225.1,
+      132
+    ],
+    "the current flows and flows between the source and the drain in the in the Silicon shells depending on how you build the transistor. This depends on which of the dope and Adams you use and how you apply them. You can either get a p Moss transistor or an N Moss transistor the P stands for phosphorus in the n stands for nitrogen on those are the the actually ": [
+      1993.4,
+      2021.8,
+      51
+    ],
+    "the cycle time is now five times slower. So even though we're completing one instruction for cycle. It's still taking five Cycles text get inspection. So the delay for a particular stage is a product of its physical implementation. So if I'm a chip designer and you know, you can do this in the tools using 141l you can go in and I'll tell you what your cycle time is ": [
+      4506.4,
+      4539.4,
+      144
+    ],
+    "the examples we've been doing it been talked talked about in improving the performance of different kinds of instructions. So if all of these are floating Point operations, or maybe half of them are floating Point operations, maybe this last group here, this is the floating Point part of my calculation then I get to go. Well if I profile things a little bit differently I can identify a different ": [
+      897.1,
+      919.5,
+      17
+    ],
+    "the first cycle, we work we start working in the orange part and the first cycle all this other gray stuff is Idle. Nothing is happening there yet on the second cycle. We start working on the purple part and we do the next piece of the orange part and we just sort of keeps blowing progressing like that and now, you know down here and cycle 5. We have ": [
+      4408.5,
+      4428.9,
+      140
+    ],
+    "the immediate instructions and they're in a media because they have a constant offer and it's goes down here on the lower door 16 bits of the instruction to just to there's one input are alright. All we have to offer and two registers again RS. Nrt. And the semantics for a night type instruction the PC update rules of sandwiches pc, pc + form, but the actual computer part ": [
+      3201.8,
+      3236.1,
+      98
+    ],
+    "the opcode actually goes up. We will get to that later. I can just I'll just drive in the way that that works is the opcode comes out of here. And it actually goes up to this kind of amorphous thing that's called. control and I can't draw control because it's just a bunch of basically. It's a bunch of logical operations. So control of the top coat goes in ": [
+      3978.6,
+      4018.6,
+      125
+    ],
+    "the the synthesis tools will go through and look at that. Logical operations and simplify the Macon is efficient as possible, but it's really just a blob of gates. I'll show you how much is a little bit more complicated than we can actually draw out a little bit more easily. But I told you I left early. I'll be back at the instructions. the funked the funk is like ": [
+      4064.2,
+      4097.6,
+      128
+    ],
+    "the value. So the first thing that we will do is magically we will just draw a register that holds the program counter. Wala, there's a Bergen County okay to feed that into the memory. So we'll drive instruction memory. And there it is. So now this is our instruction store and this is a little memory. So we apply the program counter which is an address to the memory. ": [
+      3009.7,
+      3033.5,
+      90
+    ],
+    "they're basically using the Silicon oxide layer as a mask. for the next step Sorry, it's so now they're going to actually all of the so this is silicon insulator silicon. Now, they've used this matter this mask to control where this silicon layer is so this is basically a wiring a signal. how to make take away the lacquer again and watch that off and they basically repeat this ": [
+      1691.6,
+      1732.0,
+      41
+    ],
+    "to be sure that it'll happen. All right. Upcoming next are at the next type of the clicker questions. We just going to stop there for today. We will pick up with pipe lining on Tuesday. The new homework will be out very shortly. So watch for that'll be on Moodle. Yes. Okay. haha haha Right. So the way that nips does this is it actually has what's called a ": [
+      4600.9,
+      4667.7,
+      148
+    ],
+    "to cooling it off in 30% lean 30% half of the power goes to cooling a lot of designs. All right. Next steps are going to shift gears little bit now. We're going to talk or so talk about implementation and how we actually build processors and to start that I'm going to talk a little bit about chip Manufacturing. Cuz it's kind of cool. So it's a very very ": [
+      1170.9,
+      1215.1,
+      27
+    ],
+    "to do the the Opera the operation itself. We're going to do that and I think Autumn ALU this is an arithmetic and logic unit. It can add subtract multiply divide add but lights are all the stuff and that will get us a result of need to write it back. And so the output of the ale you needs to come back into the right Port of the register ": [
+      3101.2,
+      3121.9,
+      94
+    ],
+    "to grab the condition. I'm going to check to determine whether I'm going to branch. Please don't either come from the register file or from memory. The register files as fast very fast. Remember we use for the operations. Where are the operations are working on right now. We perform the operation. So we do it we add or subtract a loader store compute the output of the branch. It'll ": [
+      2743.7,
+      2768.9,
+      80
+    ],
+    "to ground will be connected to power and we'll get her one and the same thing happens in these other cases. What date is this? Navigate this is a man gate. And if you remember from 1:40, this is universal gate. So you can do all computations anything a turing machine can do you can do with a sufficiently large collection of nand gates and and or xor you can ": [
+      2180.9,
+      2206.8,
+      59
+    ],
+    "transistor. If a is one that means we're going to turn off the p-type transistors. Switch will open and we're going to turn on the entire transistor search will be closed and the the the voltage level from the the lower-right Overflow up onto the output and I'll turn in early if a 0 then we will close the p-type and open the end type and now A1 clothes out ": [
+      2095.4,
+      2117.7,
+      55
+    ],
+    "up Network are implement the complement of the function of Simple Man on the pull-down Network. So appear we are sort of we will be on means the switches will be open will be able to get from the bottom or the top to the bottom. If not a or not b and down here we can only get from the bottom to the top. If a + b + ": [
+      2233.0,
+      2253.9,
+      61
+    ],
+    "up overall. What do I do now? I don't know. This is a bad place to be if you're optimizing performance because now I have you know, I have five or six things that are all about the same and so maybe now I should start thinking about an algorithmic improvement or trying to find some way. So this is focusing on optimizing individual functions, right but a lot of ": [
+      869.3,
+      897.1,
+      16
+    ],
+    "us up here is layers of silicon dioxide and these things these Blackhearts hear. Those are the wiring those are made of copper nowadays and it's all with these masking steps. And so this process will involve like three hundred of these steps of depositing something and etching it away and then depositing something else and spraying these ions into it and so forth. It'll take a few weeks perhaps ": [
+      1785.1,
+      1806.5,
+      44
+    ],
+    "use both of them in both kind of transistors, but there are different ways. Function so Fern and Moss device and you can tell that I'm lost because there's no little. But overhear the Piedmont has a little. On the gate when you apply are the More Voltage you apply the more current flows, right? So it goes kind of up and to the right. More less and 4 p.m. ": [
+      2021.8,
+      2045.7,
+      52
+    ],
+    "value. It is that a new line in cuz we're just going to Route RT around directly into the into the memory will do a right and we need one more thing. I was sitting right here, but I'll add. Is that we need? What am I meant? What's that? What's the problem right now? If I execute a store like this using a hardware I already had. what does ": [
+      3500.5,
+      3530.6,
+      108
+    ],
+    "value. So we'd like to do is to find a way to make better use of our pipeline are part of a l c I gave away the the the punchline make better use of all the hardware Prosser and we're going to do that by pipelining pipeline CPU. How much time do I have left pipelining in 9 minutes? That's two minutes of stayed a little less. So, let's ": [
+      4272.9,
+      4300.7,
+      135
+    ],
+    "was a mips processor. I was built in the early 80s and I think that obviously involved a lot since then it'll Straits all of the sort of key things that a processor has to do in order to successfully execute a program. So we're going to see how are the architecture in packs. I say design right then mips. I say is not an accident. They didn't fit in ": [
+      2447.3,
+      2470.6,
+      69
+    ],
+    "we are on simple mounting a processor. So the next step then write that little mini lecture was sort of pre 140. Maybe now we're going to skip over 140 and now we're going to figure out how to build a processor out of these that we have. So if you look at our map for the course, right, so we are up here understanding how to see if he ": [
+      2387.7,
+      2419.6,
+      67
+    ],
+    "we have to branch. So the branch doesn't actually have an app with either so it will turn off that enable. And what does it do? Well, this is Branch on equal. So the the pseudocode here is the PCU should equal the results of this check which is at the contents of RS are equal to the contents of RT. If that's true. Then we want to set the ": [
+      3604.3,
+      3629.5,
+      112
+    ],
+    "we wanted to go and we're going to stick that into the register file. That's where the Opera is for. The registers are stored and the register file is also a memory that has the property that if I think I can read two things from instead of one and so if I read two things in I will get two things out. And then the next day just going ": [
+      3078.7,
+      3101.2,
+      93
+    ],
+    "we're going to get over there on that portion of the calculations is 33% We can plug that in and we see that the compiler will speed us up by about 5% But if we speed up I owe we got about 35% of the application that we can affect we go to 1.2 x speed up and we see that that's a little bit better maybe 5% instead of ": [
+      627.6,
+      649.2,
+      6
+    ],
+    "whatever that color is. And so let's say that I can speed that up by 7 x so I guess me a 1.4 XP. And now I'm actually kitchen time looks like that. So if I get to this point, even if I have more ideas about how to speed up the red piece, I probably shouldn't pursue them. Right so I got us if I told you I think ": [
+      825.2,
+      845.7,
+      14
+    ],
+    "which is this mini bikes time expended immediate times for we have what we use our sign extender we will The x times for this is just a shift by two bit. So that's actually free. We just shipped over a little bit to the other harder for that yet. So we just had the shifter that really is free. We got a new router to do this arithmetic right ": [
+      3693.8,
+      3721.8,
+      116
+    ],
+    "you want to get the kind of maximum bang for our buck out that the first of all we have PC. That's where we are. Now. I don't want to Branch branching 2-0 would just put us back where we are. We'll just find out we want the lad for just kind of by default. Give us one more instruction that we can jump to. We take the sign extended ": [
+      3653.1,
+      3672.1,
+      114
+    ],
+    "zeros and ones to compute some useful function the way we do that is what use transistors is voltage controlled switches so we can turn them on and off so we can perform arbitrary computations with transistors, right? So you guys remember in CSE 140 priority that you can do everything with nand. And that's efficient and then you can do anything you want as far as Computing goes so ": [
+      1919.4,
+      1946.7,
+      48
+    ]
+  },
+  "File Name": "Intro_to_Computer_Architecture___A00___Swanson__Steven_James___Fall_2018-lecture_5.flac",
+  "Full Transcript": "All right, everyone. Hello.  Are you guys ready for a clicker quiz?  You have one minute.  What is the frequency?  I am podcasting.  I did turn it on.  Does it still say no base station?  Oh great.  BD  there we go.  another 10 seconds  5 4 3 2 1  5 4 3 2 2 1  5 4 3 2 1  Oh, that's the same.  Is a different okay?  5 4 3 2 1  5 4 3 2 1  All right.  that is that so today we are going to  we're going to finish up performance. We just have a little bit of that left to do and then I will be off to implementing a processor.  So last time we were talking about Angela's law.  How we discussed how you should always see the Andals law and how he handles La limits the effectiveness of optimizations and how it can be used to balance the federal budget as well. That's extra credit if you like to do that during the course.  I did some exercises.  I love the last one. I looked at was this one and we found out that.  We couldn't accomplish this right we wanted to do was running for 200 hours. We wanted to make it run 50 hours faster. And that is about 25% of the execution time. I want to 25% speed up, but I've been we can all we can do is mess with the integer parts of the competition which were just 20% of the execution. So there's no way that we could meet our goal is one that kind of thing is not possible.  There's another example so we have a different deep neural net training application takes four days to execute on the current machine 20% of the time is doing integer instruction 35% of the time is doing iOS that's reading stuff off of discs for incense.  So which of these are better choice for the first option is to have a compiler that will reduce the number of integer instructions by 25% instructions will take the same amount of time or hard rock station that reduces the latency of each eye operation from 5 microseconds to fix microsecond and that'll reduce IO Time by 16%  So we can go to the math on there. So if we just speed up the inner dropsy of x equals point to hear is plugging. I didn't two handles long and we get our part of this is the speed up that we're going to get over there on that portion of the calculations is 33% We can plug that in and we see that the compiler will speed us up by about 5% But if we speed up I owe we got about 35% of the application that we can affect we go to 1.2 x speed up and we see that that's a little bit better maybe 5% instead of 6% for this is kind of another example if you guys to look at while you're studying  So they're also similar things that we conserve learn from animals lot. Right? So we talked about how the performance equation is a is a mathematical model and so you should be able to learn things from from a mathematical model the most important thing instead of the core of animals law is that it argues. You should make the common case fast and if you look in your tax, this is like one of their I don't know 10 key ID is in computer architecture or something and that is why you should focus on the things that happen a lot because that's where you'll get the most bang for your buck most bang for your buck in this case comment means most time-consuming not like the most frequent. So if something happens all the time, it doesn't take very much execution-style. It's not that important but something it happens in frequently if it takes long time can be very important.  The Uncommon case doesn't make a lot of difference if I do something once a year, it doesn't make any difference how long it takes me to do it but I have to do something everyday or a few times a day that I do I key thing here is that you need to be sure of what the common case is evil and notoriously bad notoriously bad intuition about where the common case actually was always going to measure this. Otherwise, it's likely that you will spend time optimizing things that are not actually that important thing is that the common case changes. So is you optimize one thing right? First of all that sort of shifts the balance between other things right? Cuz that one piece become smaller and so the rest of the pie or the rest of execution time distributor little bit differently, but also optimizations often have kind of unexpected consequences that will cause other things in the system to shift.  And so, you know optimize re-measure to see what's what were the common cases and then proceed from there. So you can repeat you can without possessions are the common case will be kind uncommon like that's the goal. Right if something was taking a hundred 50% of my time and I speed it up by 10 x then it's taking a lot less of my time. It's probably not the common case anymore and I should stop and hopefully some uncommon case will then become a new common case that you can handle and that'll be your new Target factorization. So see how this can play out.  So here is an example.  So this is execution time on the colors represent different C functions in my program that I'm interesting in optimizing. So what's the common case right now?  Rad are blue and maroon whatever that color is. And so let's say that I can speed that up by 7 x so I guess me a 1.4 XP. And now I'm actually kitchen time looks like that. So if I get to this point, even if I have more ideas about how to speed up the red piece, I probably shouldn't pursue them. Right so I got us if I told you I think it's 70 x doesn't make any difference. It's not going to help me anymore. What should I focus on now gray, right. So I do gray. I'll Speed Up by 4 x that gives me 1.3 X.  What's next turquoise I guess?  And now I'm to this place so my total speed up I went from 20 units of time to 10 units of time. I got a 2X speed up overall.  What do I do now?  I don't know. This is a bad place to be if you're optimizing performance because now I have you know, I have five or six things that are all about the same and so maybe now I should start thinking about an algorithmic improvement or trying to find some way. So this is focusing on optimizing individual functions, right but a lot of the examples we've been doing it been talked talked about in improving the performance of different kinds of instructions. So if all of these are floating Point operations, or maybe half of them are floating Point operations, maybe this last group here, this is the floating Point part of my calculation then I get to go. Well if I profile things a little bit differently I can identify a different kind of come in case so now maybe I should get a processor with a better floating-point unit. Or maybe maybe I should go get a GPU right and maybe I can attack a big chunk of applique my operations or my execution time all at once.  All right.  So what kind of Converse of anvils law has the most optimistic slide of the quarter so slow down so so good but there's no limit to how bad they can be. So if you write re-write this in terms of latency, you get that the just the basically just the weighted-average. So the new latency equals ax that's the same x x l latency / ass because I speed up plus the old latency times the rest of the program and so what you see is it the new latency is linear and whatever is right. So that means that if if x is 1% of execution  And the old latency is one if my speed up is .001. So this is a speed up that is much less than zero. So this is a  thousand X slower  write the new latency, even though ex was very small. I slow down 1% of my program by a lot. I get a 10 x slow down, right and if that is even worse this is like what I guess this is a hundred.  Thousand hundred thousand X then in a thousand times slow down.  So things can't get that much better, but they sure can get worse. So there you go. There's your happy thought for today. So the consequences if your assistant designer is that even if something is not common you can't just forget about it, right? So there have been some sort of notorious cases or people have said, oh, you know bitwise or no one ever does bitwise or so bit wiser can be slow maybe and I slow down by a lot but it turns out that like the one in a thousand times you do it if it takes a month then like your program gets really slow. So you have to pay attention to you can't make the uncommon case too bad. Otherwise, it will become the common case.  All right, so that the ends are formal discussion of embolus law. Are there any lingering questions about Amber's law?  You are all masters of vandals law.  Excellence, I'm glad to hear it. All right, so I got a couple other metrics bandwidth.  Is importance of this is the amount of something work or data for time. So megabytes per second to gigabytes per second. This could be Network bandwidth or disband with frames per second is kind of a bandwidth measurement too. Well, so call this through but I will talk a lot and here we talked about instructions.  4 seconds  these flexicution metric. We also interested in energy. So this is very important. We talked about for your cell phones for your battery life. This is basically  battery life  or a power cost if your data center.  You pay for electricity in terms of joules. So you want to minimize these or minimize the amount of energy do you take and you can also think of this as the amount of work that the computer must actually do like in terms of physical physical real-world work power is joules per second.  So this is how fast you're using that energy this determines battery life on it. Also determines How much cooling you need sewing big systems like a Datacenter. There's a between 1/3 and 1 watt of cooling for each watt of energy power consumption for the system. So that means that roughly half of the power in a big data center goes to cooling it off in 30% lean 30% half of the power goes to cooling a lot of designs.  All right.  Next steps are going to shift gears little bit now.  We're going to talk or so talk about implementation and how we actually build processors and to start that I'm going to talk a little bit about chip Manufacturing.  Cuz it's kind of cool.  So it's a very very brief introduction how we build semiconductors.  So I just made of silicon silicon mostly silicon on a bunch of other kind of Trace elements. But almost all of it is still like in the thing you see is a silicon wafer. This is sand right? So there is a lot of silicon in the world. It's the most abundant element in the Earth's crust. So we are never going to run out of silicon to build our computer chips out of so that's good baby silicone that we use is extremely pure surround one part per billion as far as kind of stray other elements there. This is actually the purest substance that people manufacture in large quantities that we used to build microprocessors out of  We build the chips themselves on Silicon Wafers and rebuild these out of these large. This is called a bull. There's a person can't see it anymore right here. There's a  come on.  Right here. There's a little someone's holding a little sensor thing. This is the ground. So there's a person that idea for the scale, but they're pretty big in modern are chips. They are about 30. Well, they are there are very exactly 300 mm in diameter about the size of like a big vat of molten silicon. They have a little like a little stubby silicone piece and they put up a single-crystal silicon and dip it into the Savannah molten silicon and they slowly turn it like a rotisserie rotisserie chicken cooker or something and they slowly pull this up and the speed.  Kohl's the diameter of it. They pull it more slowly and grows out farther than you can see at the end. This is the tip that came out and they pulled it out of the end. This is what it looks like in the molten silicon. It's not a perfectly smooth thing that comes out of the name machine it down and they use a very fancy sauce into thin wafers.  That are I don't know maybe half a millimeter thick or something and then you can see reflection of a ignition in here looking at it and they're super super shiny. So here is a video. This is about the best video. I found online. I'm about how they actually manufacture these. I'm not sure if audio audio is not going to work.  That's unfortunate.  Also, I don't know how to play the video. So that's also a problem.  Oh come on Windows.  How can I not let me play the video?  Where's the next slide?  All right, so I started assuming I'll try to narrate instead of the narrator finds or resuming on a wafer.  Oh, come on.  Zooming in on a wafer in this is little piece of silicon.  And the basic kind of day it's called photolithography. So they use a lot of very fancy light sources and fancy mirrors and so forth. So the first thing that they do this is the way for Danny are the first thing I have to do is that layer of the layer of silicon or that the Silicon wafer that come from the factory is not it's very smooth, but it's not smooth enough for the first thing that they do with a deposit a new layer of silicone on top. So basically put it in a vacuum chamber and they called sputtering so they heat up some silicon and evaporates off and get deposit gets deposited on the wafer.  So they grow the super pure super perfect super smooth layer of silicone on there. And then the next thing that they do is a series of masking steps or the next day. There was a girl there an oxide something. It's really convenient about silicon. Is it silicon is a semiconductor silicon dioxide is basically glass. So that's like what are glass windows are made out of that's a really good insulator. So the first thing they do is they put down the Slayer of insulator over the Silicon.  And then they cover it with this material which is like a light sensitive sensitive lacquer. And then what they can do as they shine light through the this thing it's called a mask up here and we're in this case. They said there's both versions of pain. They need I live in this case where the light goes through its going to dissolve at lacquer whoever else it'll stay hard. And then in this little area where the light comes through they can dissolve it away very easily. And then what they do is they use this mask to control the placement of these are called dope and ions and neither little atoms of phosphorus or nitrogen not exactly sure which is which in this picture of those sort of play dual roles depending on the kind of transistor dope and Adams in the Silicon.  And that turns us into more or less of a conductor then they will apply another layer of silicon. So now we have this sandwich that is this is a semiconductor insulator and then more semiconductor on top.  And then they put more of this life instead of lacquer on they do it. Again. They will etch off part of the the stuff that they don't need from the locker then they'll use that Mass to HOA the back of a second here.  They use that mask to they're basically using the Silicon oxide layer as a mask.  for the next step  Sorry, it's so now they're going to actually all of the so this is silicon insulator silicon. Now, they've used this matter this mask to control where this silicon layer is so this is basically a wiring a signal.  how to make take away the lacquer again and watch that off and they basically repeat this process over and over and over again alternate ending with different masking steps using a lacquer or the silicon dioxide to mask things depositing more ions to change the characteristics of a semiconductor and turn into a into a conductor and they keep doing it over and over again and eventually they build out this big layer cake of  How the bottom is where the transistors I slept silicon is dope and Adams and then eventually on top of this they're going to stack up a bunch of wiring layers as well. So if I fast forward a little bit  Hilton out  and you end up with something that looks like this. So all of the transistors are down here because of transistors are built out of the silicone and it's only silicone on the bottom and then all of us up here is layers of silicon dioxide and these things these Blackhearts hear. Those are the wiring those are made of copper nowadays and it's all with these masking steps. And so this process will involve like three hundred of these steps of depositing something and etching it away and then depositing something else and spraying these ions into it and so forth. It'll take a few weeks perhaps for a for an individual chip and they're done in these very large or very expensive factories.  How do I get back?  the cost of billions of dollars  close  apparently I need to press the Escape key. I don't know. I definitely feel the need to escape Escape. All right.  Right, so they built a is very expensive factories. They cost in out of 10 billion dollars a piece or something. And so they run chips to these all all but all hours of the day and night to get all their money out of them or someone like Intel.  That's a real transistor, right? So that's the first step of the next step is how do we use this to do computation in some way to represent the zeros in 1 see if I talked about this Cynthia C40, but just as a quick review need somebody to represent his ear on one. Mostly nowadays. We use voltage station or volumes of water St. Peters cool paper. They build old computer out of like valves and tubes of water. They did was that you could run this in a super intense radiation environment and it would still work to do some competition. So  Somehow we have to manipulate the zeros and ones to compute some useful function the way we do that is what use transistors is voltage controlled switches so we can turn them on and off so we can perform arbitrary computations with transistors, right? So you guys remember in CSE 140 priority that you can do everything with nand.  And that's efficient and then you can do anything you want as far as Computing goes so does lots of different ways actually to implement these logical functions in the different sort of techniques are called logic family is the most common one and then we're going to talk about today is called CMOS which stands for complementary metal-oxide-semiconductor, but there's a bunch of others as well get used sometimes and high-performance circuits are low-power circuits and things like that.  Does a CMOS complementary metal-oxide-semiconductor the name comes directly from the structure of the transistor? So this is the same kind of drawing lease on that video and it's all star with the mass of the Moss is metal-oxide-semiconductor. So that's the stock for this metal up here. This is the gate that's how you control a transistor oxide layer. Just an insulator to separate the gate from the channel which is right here. This is where the current flows and flows between the source and the drain in the in the Silicon shells depending on how you build the transistor. This depends on which of the dope and Adams you use and how you apply them. You can either get a p Moss transistor or an N Moss transistor the P stands for phosphorus in the n stands for nitrogen on those are the the actually use both of them in both kind of transistors, but there are different ways.  Function so Fern and Moss device and you can tell that I'm lost because there's no little. But overhear the Piedmont has a little. On the gate when you apply are the More Voltage you apply the more current flows, right? So it goes kind of up and to the right.  More less and 4 p.m. Has the More Voltage you apply the less current flows and so it goes down into the left.  So we can build both of these and it turns out that if you apply these property to get these logic gates and have some very nice properties. So this is inverter CMOS inverter stove EDD. This is the logic one vs. S is the logic zero usually 0 volts and logic one is could be it's a variety of things right now. It's probably closer to 1.2 volts are so been coming down over time cuz it means you just spend less power. But this is the input here and then the applicants out over here. And what happens is you can think of these two transistors as these voltage-controlled switches.  I'm in search of a is one then this p-type transistor. If a is one that means we're going to turn off the p-type transistors. Switch will open and we're going to turn on the entire transistor search will be closed and the the the voltage level from the the lower-right Overflow up onto the output and I'll turn in early if a 0 then we will close the p-type and open the end type and now A1 clothes out over the sea outfit right and that's an inverter right? I put in a get out of there.  Presto this is one of these abstractions rights and I can tell you how to be seen how we take like Adams and we build transistors and we say we take transistors and we build Gates and have to do the next slide then we can do all of computation.  So here is the next slide with a little bit more complicated gated has two inputs A&B and we can start a go through the the table of the outfits here. So if a if a is 1 and B is one then this is going to be open and this is going to be open and so the zero is going to flow into the output. So the output will be a zero the same time if a + 1 + 1 is a is 1 and B is one then both of these are going to be closed. So nothing is going to get driven from the the one rail and so we should we get zero if he has zero and be as one then this will be open and this will be shot. So we won't be connected to ground will be connected to power and we'll get her one and the same thing happens in these other cases.  What date is this?  Navigate this is a man gate.  And if you remember from 1:40, this is universal gate. So you can do all computations anything a turing machine can do you can do with a sufficiently large collection of nand gates and and or xor you can have an arborist you can compute arbitrary logical functions of an arbitrary number variables using CMOS, and they will of course be more efficient than using and Gates because you need a lot of man-to-man Gates, but the key here and the reason is called complementary is because the Top This is called the pull up Network.  And this is called the pole down Network.  The transistors for the pull up Network are implement the complement of the function of Simple Man on the pull-down Network. So appear we are sort of we will be on means the switches will be open will be able to get from the bottom or the top to the bottom. If not a or not b and down here we can only get from the bottom to the top. If a + b + A + B is equal to not not a or not B right by a demorgan's law by the function you want and I'll tell you don't see my skip  The final step is to implement that in actual transistors. So this is just a schematic over here, right? That's just like a nice electrical drawing. This is actually how you would design it and more or less how it looks when it's actually built into silicon. So you'll have these power rails. There's the one there's one there's a zero and we can trace out where these transistors go. So the beat transistor so that the values are coming in on these yellow lines A and B are there so the B transistor is right here.  And you can map it out, right? It comes in from vdd goes across to be and then it goes to the output the same thing happens for a so those two are in series and then down here the a transistor that is right here and the bee transistors right here and they're sort of in sequence of transistors are basically right next to each other. It's almost like one big transistor Gates of transistors are on then I will make a connection this way and I'll go out toward the outfit.  And then these colors these represent where we put the different ions. And so these are this is nitrogen.  And these are phosphorus over here.  Inside gets laid out. So this how you designed ships you draw these rectangles you stare at them for a long time. You get a headache you stay up all night, and eventually you have a chip. The only all-nighter I've ever pulled was in my CMOS design class to design some stupid circuit.  I finally got it to work though.  All right.  Any questions about this?  Alright, so that's how we build ships.  In a nutshell. Call, you know, if your electrical engineer you could do no spend your whole career working on the stuff.  We don't have that kind of time. So now we are on simple mounting a processor.  So the next step then write that little mini lecture was sort of pre 140. Maybe now we're going to skip over 140 and now we're going to figure out how to build a processor out of these that we have.  So if you look at our map for the course, right, so we are up here understanding how to see if he has run programs. You know, we talked about how we express them to use the the instruction set.  To express them and now we're going to talk about how we execute them.  So the goals for this part of the course at least the next couple of days or understand what's called the five-stage myths pipeline prototypical processor design in reality people don't don't processors like this anymore. Mix there was a mips processor. I was built in the early 80s and I think that obviously involved a lot since then it'll Straits all of the sort of key things that a processor has to do in order to successfully execute a program.  So we're going to see how are the architecture in packs. I say design right then mips. I say is not an accident. They didn't fit in a you know, that it's been sitting a room and design what they thought the isolation. Look at. MEPS is part of a larger movement called risk, which is reduced instructions that Computing and actually they took like the last 30 years of instruction sets. I thought let's redesign the instruction set to make it easier to design the processor. And so that's where Miss comes from and so they're actually very carefully co-designed and we'll see how it's very easy to implement. The nips is a and some of the little quirks that you may have encountered are actually do to architectural considerations.  We're going to stand a couple of problems you have to deal with in Prosser designer called hazards structural Hazard the date of Hazard than control Hazard on. These are a little challenging. I need to figure out if we want to keep programs quickly and correctly.  They're going to do this in two stages. The first one is going to be a single cycle CPU. So this CPU is going to execute a a single instruction every cycle. It's going to have a CPI of 1.  CPI equals one maybe some super deeply embedded processors are implemented this way. It's pretty efficient from especially from a energy and power perspective. But performance is pretty poor. We will see you guys 1 and cycle time is long. The pipeline processor is how real machines work, at least they're all pipeline and hear the CPI is about equal to one.  I am the cycle time is short.  So that tells us everything about the performance equation right that this one will be a lot faster and indeed it is and the key here is that we're going to explain some parallels and bikes getting multiple inspections at the same time. So if we do more things at once, then we should get better performance.  Sorry to talk about nips. How we go through summoning the pipeline it's enough to run into this to all of you sing issues that we need to think about. So it has operations that has memory operations. We're just going to go through a subset of the arithmetic operations, but you'll see how they all work. They all are working basically the same way and then we'll talk about two kinds of branches which were the branch on equal and the jump instruction. This is actually not true anymore.  That used to be true night at 141 the algorithm for a processor instruction programs in memory a big deal to call the store and program Computer Concepts. I guess it was invented very early on right in 19 late forties or so. They invented the idea of the story program computer and the key here is that your program is that means presents that you can do operations on your program. You can say compile it. It's also nice because you can store it in the same kind of memory cells that you store your data in that's convenient and also made it very easy to change because if I want to change the program and running I just changed the memory that the in the data that started my inspection memory. So the first thing you have to do is  Direction from the instructions store. So go and grab the bit that are going to tell you what to do. So and nips. It's always 32 bits.  32 bits and I have my instruction. So now I like what does it mean? Right? So the next step is a Dakota. So I'm either the processor is going to look at the instruction and is going to figure out what this instruction is supposed to do is supposed to add or subtract a branch or jumper Lauder store or show me the route to do something else set Step 2 step 3 is to gather the inputs. And now that I know what I'm supposed to do. I need to gather the operands the inputs to this function. So if I'm going to add I need the two things aren't going to add together. I'm going to Branch maybe I need to to grab the condition. I'm going to check to determine whether I'm going to branch.  Please don't either come from the register file or from memory. The register files as fast very fast. Remember we use for the operations. Where are the operations are working on right now. We perform the operation. So we do it we add or subtract a loader store compute the output of the branch. It'll produce some output. So we write those back where they're supposed to go either to the register file orta memory some instructions don't have any outfits. That's okay. We don't have to write those back and then we have to determine what the next instruction is execute. So, what do we do next?  So how we going to do this?  So the basic algorithm we're going to use.  Is it once we have a nice day? We have an IR favorite amusements. We're going to design or dry out the data path over a few slides here instruction. We're going to figure out everything it needs to do according to the list of stages on the previous slide and it will draw out the hardware that we need to do that to perform that part of the instruction terrified of simulate the instruction on paper and add connections and Hardware to make it work. And if we find that the hardware that we have is missing some key piece of functionality even will just add it in because we're just drying it's no problem.  That's for the data path. That's sort of where the the operations are performed there. The second piece of Hardware called the control path which sort of figures out how to configure the data path to perform a construction depending on the operation operands can come from different places. So the control path is going to make sure that the right offer and gets used for a particular construction. I'm and again, this is Township.  I mean, maybe it's true. I don't know.  What are you guys working on 141 out right now?  I don't know. Nothing having star haven't started working in 141 l.  Someone raise their hand and tell me.  Yes.  Designing an iOS AR this is like a 7 beds or something. Some crazy is a kind of man. You would have been happy with it. Alright, 7 is really hard actually a professor designed the basic glad you guys doing 141 a long time ago. And we decided that 9 was like kind of a minimum before it gets really really hard to design and is a small number of instruction formats does just I think three are Type I Type in J type and so here is the basis or going to start an archetype instruction.  And here's the basic pseudo code for a generic r-type instruction first. We load the instructions. The first stage, we get the instruction out of instruction memory, then we do the operation and we have this is the the layout of the instruction. So we have three register operons are SRT and RD.  And so the the thing we're going to do in a rag is a register file. So there are deregister is going to be able to the IRS register plus-minus bitwise or whatever. The operation is the RT register and then us let's start of the fetching the operations doing the operation or fetching the operands doing the operation and then writing back to results. And then this is the part where we figure out what the next instruction is in for the r-type instructions for a simple. It's just peace Eagles PC Plus for PC is the program counter at the address of the current instruction and it's poor because it's for bites which is 32 bets.  So first up.  What do we need? Well, if we look at this first line, we just figure out how to start an implement this piece of a code and if we sort of think about what's at the bottom here, we need the PC, right? So we need a PC so we can ask the instruction memory for it and we can load the value. So the first thing that we will do is magically we will just draw a register that holds the program counter.  Wala, there's a Bergen County okay to feed that into the memory. So we'll drive instruction memory.  And there it is. So now this is our instruction store and this is a little memory. So we apply the program counter which is an address to the memory. And what will come out of the Ameri is the instruction itself. So that's a 32-bit value that holds all of the Opera out of everything about the instruction next up we can do this stage. So we need to read the inputs are snri, so we're going to read that from the register file. All the first thing to do is Step figure out what are s and RT are so to do that. We're just going to slice out RS and RT from the instruction. So this is actually the decode staging nips.  Hi, this is sort of the beautiful part of nips. The decode is really really easy because all you have to do is grab.  These bets right grabbing bits out of a bunch of bats is free. Basically you just sort of brought wires to we wanted to go and we're going to stick that into the register file. That's where the Opera is for. The registers are stored and the register file is also a memory that has the property that if I think I can read two things from instead of one and so if I read two things in I will get two things out.  And then the next day just going to do the the Opera the operation itself. We're going to do that and I think Autumn ALU this is an arithmetic and logic unit. It can add subtract multiply divide add but lights are all the stuff and that will get us a result of need to write it back. And so the output of the ale you needs to come back into the right Port of the register and then we also have to break out our which comes down here right into the right the right Port these are called the reports. And so I need to do the PC codes PC pause for so we will we will Implement an Adder. So here's an Adder it has a constant for is one and put in the PC is the other one and then it just routes back into the program counter itself. And these lines are all crooked because we're going to feel some more stuff in as we go along.  Actually another call you want to do is out of subtract and multiply into this is a processor.  It is not a complete processor because in order to execute arbitrary programs, you need to Branch. We don't have branches yet. Also, its memory is very limited because of the contents of the register file and there's only 32 registers in there. So we have 32 * 4 bytes of storage. So it's probably have more storage than that kind of fill in those gaps.  So it's actually one more thing we're going to do before we get to the archive Thursday. I type.  R-type, I was just our Type. I Type in J type right the immediate instructions and they're in a media because they have a constant offer and it's goes down here on the lower door 16 bits of the instruction to just to there's one input are alright.  All we have to offer and two registers again RS. Nrt.  And the semantics for a night type instruction the PC update rules of sandwiches pc, pc + form, but the actual computer part is all different. We take the register S R Us and we perform some Opera and Opera and a combine that with the sign extended immediate an RT so we can make a couple of changes.  First we need to take the immediate out of our instruction and we're going to stick it through the Sinus Center. So sign extender just mean to take the high or bit and you copy it into this is a 16-bit value. We need a 32-bit value to feed into a Ral you because it's the three to BDL you saw the sign extender just feels in all of the hired her bits with the highest order bit from the 60s. We got that means you can do negative numbers go back and review your binary arithmetic from C3 to see why that's the case. I need to make a choice, right? Because now the ale you can get inputs from two places either if it's an archetype instruction that comes in from the second read part of the register file or it comes in from the sign extender and sew a box is how you make a choice and Hardware among states to input one output and there's a configuration line that will come in from the day DePere that control path will see you later. Let us choose which one of those input  It goes out on the output input coming from either place so we can execute our type or I type instructions.  And this is carefully sort of organized so that the destination register right if we go back and look here.  are so  This right am I missing something?  Does anyone see the bug?  There's a terrible bug I think.  There's no ID, right so I need my destination register. I think I must have my RS. Nrt labeled are my are tnrd labeled wrong.  All right.  I just need a I need another mucks how that's a bunny. That's the Bug Guy Missing My Mocs.  Are there it is?  All right. I'll make a note to myself. It should be in Luxor.  Well, the slide has been around for like six iterations of this class and I've never noticed that nor have any of the students noticed it.  All right. So next airplane to do a load instructions.  So what instructions are going to read something from memory don't even have memory yet. But the basic thing here is going to take the same sign extended immediate. We're going to add to our s we're going to use that results to access memory and there were going to start at nrt.  So the main thing we have to add is memory and now we're going to get the Mach so we should have had earlier and so we had memory and this is very convenient. This is also not an accident that the sign extended immediate + R Us is perfectly set up just like arithmetic operations, right? So this is basically like a normal add as far as the alien was concerned to get some pops out here and we apply it to the memory memory will then read out a value that we're going to access now, we have a choice because we can either write back the output of memory or the output of the ALU into the register file. So we have another box to choose which thing we're actually going to write and now we can do our Type. I Type and a load instructions are the store is basically the same.  We do the same address calculation not an accident at the same address calculation get Ariza Hardware. We're going to assign that to RT.  I so now we need a data value.  It is that a new line in cuz we're just going to Route RT around directly into the into the memory will do a right and we need one more thing.  I was sitting right here, but I'll add.  Is that we need?  What am I meant? What's that? What's the problem right now? If I execute a store like this using a hardware I already had.  what does every what do all the instructions that we have looked at so far do but a store does not do  the right thing to register or the other one's right to register to r-type instructions and I type instructions and loads all do an update some data comes in here that we want to store into the register file. So the store doesn't write the store doesn't have any output right at this store something in the memory, but there is going to be a value out here.  There is always a value on a lawn on a on a bus around electrical signals always at 0 or 1 and if it's sort of floating somewhere in between, if you try to read it, the hardware was just sort of non-deterministic Lee come up with an answer for what's there? So if we didn't have something else here, which we will call the enable.  Then we would just store all the time and we would corrupt the contents of a register file. So the enable says should I store this cycle or not? And so during stores we will turn off being able to make sure that we don't store that cycle.  All right. That's how we do stores next we have to branch.  So the branch doesn't actually have an app with either so it will turn off that enable. And what does it do? Well, this is Branch on equal. So the the pseudocode here is the PCU should equal the results of this check which is at the contents of RS are equal to the contents of RT. If that's true. Then we want to set the p c equal to PC + 4 + the sign extended immediate times for otherwise, it should be PC Plus for all right. So what's going on with this big piece of math so branches because they only use the same extent immediate. There's a limit to how far you can Branch with a branch unequal. You can only Branch as far as you can encode in this immediate. So you want to get the kind of maximum bang for our buck out that the first of all we have PC. That's where we are. Now. I don't want to Branch branching 2-0 would just put us back where we are. We'll just find out we want the lad for just kind of by default.  Give us one more instruction that we can jump to.  We take the sign extended immediate we can do jump forward or we can jump back.  Just give me negative. Then. We multiply that times for because we like to be able to jump as far as we can and we only ever jump all the instructions are aligned. They're always at a 4-bit boundary. And so we can jump this many instructions, which is that many bytes this mess. Are you this many instructions which is this mini bikes time expended immediate times for we have what we use our sign extender we will  The x times for this is just a shift by two bit. So that's actually free. We just shipped over a little bit to the other harder for that yet. So we just had the shifter that really is free. We got a new router to do this arithmetic right here. We already have PC Plus for we had that before so we use that so we feed in the shift left into the outer.  Run that over into a mucks and we run the old value PC + 4 into the next 2 and now the branch outcome just goes into that mocks and it tells us which PC we should jump to next.  I don't either be the next instruction or it will be somewhere else and then conveniently this these values we read the same RS and RT that we read all the time. We feed those into our into our ALU and then the branch condition pops out here. It's just a one or a zero and this basically gets wired in there and that will let us resolve our branches.  Right and all these checks branch on equal. It's really just a subtract right you subtract 1 from the other and check whether not there is always equal to zero and that's checking for equal.  There's a branch.  We just need one know we didn't do jump jump is very easy. Jump just takes the contents of a register. I forget which one and writes it into the into the PC so that I would look like as well stay at this one. We just extend the mucks and now there's three different choices for the next PC will be in full English one more option 2 to the second kind of jump, but the logic is basically the same so that is a path for a simple nips processor. This is a single cycle everything execute than one clock.  I already talked about pipelining maybe next maybe a little bit.  Yes.  Oh.  so  this is a question about the difference between the Assembly Language and the is a so, I believe the convention is in an in mips assembly when you write it out. Like it looks like code you write out the full the full number the times for number right? That's more convenient. It would be very bug Pro and if you had to remember 2/4 all the time, right and then you going to change it and like what happens in probably is that if you wrote in an odd number for that offset in your assembly the assembly should throw in air and say that's not valid mips because this number is not divisible by 4.  So we make them the instructions that you ride the Assembly Language I guess is the correct term the assembly would you write is easy to write and understand and then the assembler is in charge of going through and dividing it by 4 when it's locked it into the actual Construction.  a little Philly out at the assembly this very thin layer of  of abstraction above the actual is a used to be when people don't write a lot of assembly any more people run a lot of assembly entire operating systems in Assembly Language and some players were much more sophisticated. There was a things called macro assemblers that would allow you to sort of build shorthand for more complicated sequences instructions to see that little bit with the Mets. Those are set up macro assembly holdovers.  You know me questions.  Yes.  Osso the opcode  I should have slides about that. So the opcode actually goes up.  We will get to that later. I can just I'll just drive in the way that that works is the opcode comes out of here.  And it actually goes up to this kind of amorphous thing that's called.  control  and I can't draw control because it's just a bunch of basically. It's a bunch of logical operations. So control of the top coat goes in here and then what comes out from control our whole bunch of control lines that go to all of the boxes and I'll go to the there's a reading table and a writing table on the memory and there's a right and Abel on their registry file and there's also one that goes down here to tell the ALU what to do. And so those are just control. I'm so if I see that I am doing an archetype instruction, then I will set these muxes appropriately and these control lines appropriately and if I'm doing a night type instructional set them a little bit differently and so it ends up looking like it's basically just a table away simplemente, you know, you basically right out all the the logic equations for this and Barrel login 141 out and then the the synthesis tools will go through and look at that.  Logical operations and simplify the Macon is efficient as possible, but it's really just a blob of gates. I'll show you how much is a little bit more complicated than we can actually draw out a little bit more easily.  But I told you I left early. I'll be back at the instructions.  the funked  the funk is like an extension of the opcode and the Sham is something that is just for shifting. And so those also would get routed into the ale you so you can configure the area to do whatever operation we need.  questions  the control octopus  I've been much more interesting term in the control unit.  questions about the basic pipeline  All right. So now we've designed it. Let's think about what we can learn about it from the performance equation. So eat equal. I see a single cycle processor. So CPI equals one. That sounds great one seems like a low number.  Unfortunately, the cycle time is large. So CT is large.  And even though this is what we call a risk construction, which means it's a very simple the I say is very simple. It's still a lot of stuff to do and if we look at the hardware.  Our Hardware is actually mostly idle. So let's imagine from out of the cycle time is 80 nanoseconds. So if you remember from CSE 40 the cycle time for a circuit is the delay along the longest slowest path in the circuit. So for us I believe.  It's probably through the ALU.  Do memory and then back in here in more detail later the branch as well? So if we look at the delay along all these long pass and our circuit are we can say that this is about 80 nanoseconds. I think I measured that from a design from 141l awhile ago in the hell you was about 6 nanoseconds. So that means that what I'm doing when these operations, you know, the clock starts and you know that when the clock starts the new pc is for the released from the PC register and it starts flowing through all these circuits now it gets here.  I don't spend 6 nanoseconds going across the ALU seconds. Nothing else is going on in the circuit. The memory is not active because the new inputs haven't gotten there yet. So it's just sitting there waiting and all of this stuff is already done all of its work. So it's just sitting there waiting for the next instruction. So what do you think about that is that we're just wasting all this Hardware, right? The the instruction memory could be fetching a different instruction. The register file can be reading a difference could be reading different register values. And since the memory is an idiot in the memory could maybe be reading a different value.  So we'd like to do is to find a way to make better use of our pipeline are part of a l c I gave away the the the punchline make better use of all the hardware Prosser and we're going to do that by pipelining pipeline CPU. How much time do I have left pipelining in 9 minutes? That's two minutes of stayed a little less. So, let's see how we go and see how we do.  So I think we're just going to go to the pipe lining review. So here's the basic idea of pipe important digital design. It's so you know, it's kind of indispensable. It's like up there with like, you know logic gates as far as getting things done. Everything is pipeline when you go and build Hardware processors, it's raining kind of Hardware is that you have some circuit right and we're thinking about the region of logic. So this is combinational logic and the doors and so forth between two sequential element. So these are registers or latches.  And Gates have delay, right? It takes a little time to switch the transistors on and off in for the singles to propagate. And so we have here we have something that says takes 10 nanoseconds to get from one last to the next so they didn't ask that. We have some more Lashes in between and we chop up that combination of logic into some pieces that are each shorter.  And this case are two nanoseconds and what that means. Is that the clock time for this thing's the clock time for the first one is 10 nanoseconds.  or we could call it a  in the parlance of the equation cycle time is 10 + here CT equals 2 nanoseconds. So this one down by a factor of 5, so this circuit should be five times faster to be able to do five times as much work in a single unit of time.  And the way this turns out working and it's like, you know, that's like an assembly line.  So in the first cycle, we work we start working in the orange part and the first cycle all this other gray stuff is Idle. Nothing is happening there yet on the second cycle. We start working on the purple part and we do the next piece of the orange part and we just sort of keeps blowing progressing like that and now, you know down here and cycle 5. We have five things going on at once we're working on five different pieces of work. I am so we're getting 5-way parallelism. Now one important kind of side effect of this and thing to note is that we are in a things pop out of the end here every two nanoseconds. We complete a new thing for construction every to nanosecond, but the amount of time it took  Venus case the orange instruction of the orange piece of work to get done didn't actually get any shorter. So it still took 10 nanoseconds. We didn't like cheat about how much work it took to do the orange part. We just kind of orchestrated better and let us do some other stuff in the same time. So for the for the purposes of our processor performance, the key thing is how quickly our instructions popping out. The end is completed instructions not how long it takes a particular instruction to execute. And so this is why we say that the CPI the cycles per instruction is an average and not the amount of time. It takes to execute a single instruction. Cuz in this case that time is 10 in a second, but the CPI is the start of the one and the cycle time is now five times slower. So even though we're completing one instruction for cycle. It's still taking five Cycles text get inspection.  So the delay for a particular stage is a product of its physical implementation. So if I'm a chip designer and you know, you can do this in the tools using 141l you can go in and I'll tell you what your cycle time is and what it does. It looks at the circuit that have built and it finds all the paths, you know, the registers and it has an estimate of how long it'll take given what logic is on there. And if it's to nanoseconds then it'll configure the clock on your circuit to run it 500 megahertz dinner in there. So if you get a slow fpga or a slow chip looks like it's going to be a little bit longer, but that cycle time you use set the right the second time as a product of the delay of the is a product of the manufacturing process and then you set your clock rate so that you always have enough time and that's what that's the cycle time for the clock speed to your processor can run out.  I do not tell you faster and slower chips because I'm the fast GIF that happens it on the critical path. That's the longest path in the chip you happen to get lucky and you got all fast transistors on that path. And so that critical path is a little bit shorter in the clock and go a little bit faster. We just have to build it to be in configure it to be sure that it'll happen. All right.  Upcoming next are at the next type of the clicker questions. We just going to stop there for today. We will pick up with pipe lining on Tuesday.  The new homework will be out very shortly. So watch for that'll be on Moodle.  Yes.  Okay.  haha  haha  Right. So the way that nips does this is it actually has what's called a delayed load and so the load doesn't actually happen until one more instruction is executed.  That's right. Haha. Yep.  Gus  Okay.  Sure.  Yeah, so what you need to do is  go to CSC. "
+}

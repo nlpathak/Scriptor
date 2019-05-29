@@ -1,0 +1,756 @@
+{
+  "Blurbs": {
+    "40% per year because what that means increasing 16 18 months something like that. Wait, right nothing easier in the world to do than wait. So I just sit there at 18 months. My program will go twice as fast so easy right for me to do some performance optimization programming later back here. You can just have waited a year and turned in your homework and would have been ": [
+      2607.4,
+      2644.3,
+      80
+    ],
+    "All right. Let's get started. Welcome to the most exciting class. You were going to take a UCSD. I don't want to live cuz actually to be the most exciting going to take ever. Anyway, not just go to 5141 intersection of computer architecture iamstevenspence and I will be your instructor for the quarter. Today we are going to talk about what this is about another course is going to ": [
+      224.3,
+      258.0,
+      0
+    ],
+    "And then we do and what have you guys all had 140, right? So 1:40 is basically how you take a transistor which is an electrical switch and turn into logic gates and doors man's not registers and so forth. And so now I can do some basic computations computation, right? Because circuits are Turing complete. That means that anything that any computer can do you can do with a ": [
+      1646.7,
+      1677.7,
+      52
+    ],
+    "As I said a shockingly small number of people come upstairs. Academic honesty, I'll repeat those next time don't cheat or you'll get in trouble and we will be checking don't click for anyone else don't have anyone else to cook for you. Don't copy Solutions don't you know the final don't post Solutions online all these things are cheating. If you have questions are whether something is cheating, then ": [
+      4485.5,
+      4507.3,
+      146
+    ],
+    "CMOS? You might want to do complications for a particular application or painting or high performance Computing if you can think about how you would build machines to do all those different kinds of computations. When I asked some of my colleagues how hard podcasting was they said it's really easy because your students always yell at you if you don't put on the mic. Can see how that's going ": [
+      378.6,
+      409.9,
+      5
+    ],
+    "I don't understand how that works as critical. They're sending performance in the operating system also important virtual memory performance exceptions. And this is how you talk to the outside world so you can actually affect things and then processors actors and actresses. Factor II face I heard someone's phone go off. I could say really loud. Hey, Siri. Order me five copies of the 141 text someone on the ": [
+      3614.0,
+      3659.0,
+      114
+    ],
+    "Intel is very upset about this, right cuz I didn't buy a new computer every 18 months now, I'm like a computer. Sarcoxie most of this already. This is the Golden Age. The speed of computation has been increasing goes back even before the beginning of computers are electromechanical devices people use kind of big calculators that you would crunch with a big crank or something and even back through ": [
+      2770.9,
+      2806.4,
+      85
+    ],
+    "Is that right? So go talk to him. I really can't help you out with any of that. We had to split it up because the classes got too big and so you'll start to apply some of the things you learn in there. There should be lots of fun to go to the processor I believe. There is a waitlist. I do not control the waitlist that is all ": [
+      4389.0,
+      4408.3,
+      142
+    ],
+    "MSRP for this was the last of the big fast clock rate processors this roundabout 4 gigahertz, which is still but just now like what 17 years later. We're getting back to the place where clock speeds are in that same kind of range things have been basically flat Core 2 Duo. So what happened was building basically, you could think of it as the P5 whatever it was called ": [
+      3106.1,
+      3132.4,
+      97
+    ],
+    "Moore was a very clever guy who way back when notice that the spear the number of transistors so we can fit onto a piece of silicon was growing very rapidly. It was doubly about every 18 months. The observations made it had like three datapoints there paper in the original graph paper really looks like this, right. So this is like a leech like tears apart and he was ": [
+      2143.9,
+      2167.5,
+      66
+    ],
+    "So anyway make of that what you will. So what is the current state of computer? So now we're like wow, we are a long way in 80 years in right to computer. So, how are we doing? What is pretty well? At least we have them on the path. So Moore's Law, very important even heard of Moore's Law. All right. So I was lost says is that Gordon ": [
+      2105.9,
+      2143.9,
+      65
+    ],
+    "So instead of a break you plug into wall that had to build a building if it's over. It's probably has its own power substation built into it computers consume. It's something ridiculous. It's like Oh I should do. I'll make up a number. It might be off by an order of magnitude but not more maybe 5% of the electricity of States goes to Data Centers and it's growing ": [
+      1456.3,
+      1478.3,
+      45
+    ],
+    "So you're just getting electricity in turn off the chip. I need lots of pins cuz you need lots and lots of current And then here's the insides right? So these are called iPhoto. These are pictures of the interesting parts of the processor does an actually what they look like. There's a couple other layers on top that kind of just make it look like gray metallic stuff. But ": [
+      1241.4,
+      1263.8,
+      37
+    ],
+    "This is a little odd. This is a little computer. It's a size of a quarter a pretty big cooler system to the University of Michigan built the entire computer system that's about a millimeter and a half on a side of a cube that has a solar salad has a processor in Azle antenna Jamaican very very tiny phones graphics cards data centers, you know game consoles laptops everywhere ": [
+      1375.0,
+      1402.4,
+      42
+    ],
+    "This is why if you want to go to LA. And you don't want to spend the two hours. It will take to get there. You should take two cars. How do you say two cars you go twice as fast as Siri double for 4 minutes without changing the clock speed. Right, so does seem simple and since becoming really important now so I've been through most of this ": [
+      3029.6,
+      3059.1,
+      94
+    ],
+    "This is you this video processing supercomputing all kinds of place all kinds of places to build a machine for a specific application and now you can go a lot faster so much sense because it takes long time to build a chipper takes like four years to build a chip. So if I set off to build a new graphics chip or a new AI chip in for years ": [
+      3307.2,
+      3328.9,
+      104
+    ],
+    "What type of measuring performance I'll give you a little heads-up. This is one of the two most important things are going to Winter. In this class and has law on if you heard of animals law. Something new so this is super important supplies like everywhere where you're measuring something not just computer architecture not even just computer scientist. Do you want to know how to build your budget ": [
+      3565.9,
+      3590.6,
+      112
+    ],
+    "a bunch of peripherals over here. This is like the, you know, the Tilt sensor and stuff like that the screen controller but more and more of their they're getting more and more of these components under the CPU so they can make this. What do you say? More room for battery right always more room for battery. So you want to make this is tight in this tiny as ": [
+      1088.2,
+      1118.2,
+      31
+    ],
+    "a life. You might want to know a lot more about that about how Motors work at least a little bit. So if you get stuck by the side of the road, you might be able to fix it. I think it's really important is that you want to you're almost everyone is going to be concerned about performance. Right? So this is one of the most direct kind of ": [
+      800.9,
+      817.8,
+      20
+    ],
+    "a log scale. It's important so you can see is that in the past on this kind of slope write linear slope on a log scale music performance is increasing exponentially. This is for 1/4, right so back here again when I was in college. About going to college 1997 or so the thing that I dreamed so now I'm telling you guys all the stuff so I can't be ": [
+      2544.9,
+      2575.7,
+      78
+    ],
+    "a lot faster. But then in 2004 Right here. the world changed So this crap this is this is this is performance. This crap here is clock speed. This is like how many megahertz your processor run that you can see that this was also increasing exponentially unlimited by how much data I have here, but there's actually steeper than the performance curve clock speeds are going a very very ": [
+      2644.3,
+      2672.1,
+      81
+    ],
+    "a lower bound what your grade will be. People in 140 have a huion 141 our who is Mater 141 out. Why are you not a wonderful and 141 out? What? Oh well. I'm sorry to hear that and thank you for sharing. All right, so if you have questions at 1:14 out 141l, you need to go talk to you. I think it's John Alden. This court is teaching. ": [
+      4350.1,
+      4389.0,
+      141
+    ],
+    "a particular program is not performing the way that you wanted to So that's why you should have a computer architecture. All right, so where are we because it has a box shaped computer that are here for historical interest in this class or going to be studying things that are kind of inside the computer and I'll talk about what those computers look like more now, so you have ": [
+      838.1,
+      867.5,
+      22
+    ],
+    "a whole bunch of servers back together. Can I give you all that information, right? I don't know how many times I search for Google search on Google every day hundreds maybe a thousand on a busy day. Right and all of that every time I doing the searches I would have had to like call someone or go to the library wherever that is. Right, and I would have ": [
+      648.6,
+      672.0,
+      14
+    ],
+    "about 8% per year. Good thing I did for this is actually in this like I sent the sound of my computer architecture colleagues. And the fact that I just saw this is the fact that I drew this next graph was like mind-blowing because I turned off the log scale, right? We've always in computer architecture been thinking it would always draw a log scale step increases so fast, ": [
+      2833.4,
+      2854.8,
+      87
+    ],
+    "actually does inside is 8-bit matrix multiplication. That's what AI is just in case you were wondering that's all you need and a whole bunch of smart about the computation that you need. All right. So we've been over this little bit. Why should take this class? You should understand how computers work. You should how their why they're fast while they're slow. And in fact they have on what ": [
+      3421.9,
+      3448.5,
+      108
+    ],
+    "actually extracting computation from The Real World to make our car safer climate simulation to find out how are children all going to die. We build Bridges and we do Google which already talked about and of course, we do really important stuff like play video games right about this and you can do anything with this stuff. We can do serious stuff we can do fun stuff and it ": [
+      715.1,
+      752.4,
+      17
+    ],
+    "actually processors in here and plug them in. My location are going to run has all these slots around here. These are all for me. So if you get a server machine nowadays, you can get a machine. Oh gosh, you can get them up to 6 or 12 terabytes of Duran Rio terabyte is 1000 GB a whole lot of other even more slots nowadays over here. This is ": [
+      976.2,
+      1013.1,
+      27
+    ],
+    "all over the place, you know, there are probably 50 or a hundred processors in your car. If you have a car I was fiercely I was reading the data sheet of the manual for a processor that was built specifically and I don't know why because the manual is 5000 pages long. I'm not kidding. It was it was huge. I mean, it was a PDF but there was ": [
+      1402.4,
+      1428.6,
+      43
+    ],
+    "already so used to be be just wait 18 months for everything to get faster. But now it's much harder right? I can build two cores, but getting something to go twice as fast on 2/4, it actually hard operating systems yet some of you all right. So you don't like threading stuff like threading for going to use hard and getting something to go 10 times faster on 10 ": [
+      3059.1,
+      3084.1,
+      95
+    ],
+    "an old Nintendo. If I could improve my handwriting and if I got satisfactory on my handwriting in 4th grade, I couldn't I couldn't play my Atari until I I did that and I never played my Atari again because it's actually not quite sure about it took a while before he gave up on that construction sets that we use in this class. Because this is what your textbook ": [
+      1803.9,
+      1835.9,
+      57
+    ],
+    "animations rights and go straight things to continue as basically flat on its limited by how quickly you can cool. So basically we've cool machines. Now we put these big heat sinks on them. You've seen them you blow air over them and they dissipate if you want to get really hard core you can use water cooling or liquid cooling and you can run your processor's a little bit ": [
+      2968.9,
+      2997.0,
+      92
+    ],
+    "answers on the ungraded homework assignments is also cheating really copying anything from another person in passing it off as your own work is cheating. That's what sort of a good blanket statement. This is something you were going to try. They're going to be one or two programming assignments. They're going to be about performance. Complete the middle replace one homework never going to be writing code to explain ": [
+      4234.1,
+      4257.2,
+      136
+    ],
+    "any more geeky than that. Right. So the thing that I dreamed about having was a 2 socket motherboard that have two processors, right? It was like an unattainable dream cuz they're very expensive. So there's only single single processor system, whatever they're all over the place. I know what's on my next flight. I'm jumping ahead a little bit. Anyway, it was increasing at something like I don't know ": [
+      2575.7,
+      2607.4,
+      79
+    ],
+    "are now, and he looks like a total. I'm podcasting said to be careful. He looks like a really cool guy. I was like I was like, oh wow, and he was like a backup script for the server or something right with our thoughts and he was like, you should really learn about this Java thing because it's going to be the next big language, right? So back in ": [
+      1997.6,
+      2028.8,
+      62
+    ],
+    "are so many bad parts. Alright JavaScript. I know like how did this happen? Cuz they're really embarrassing thing for computer scientists write like the worst language ever is now driving all of like modern computer right like something went wrong. It's very embarrassing is a computer scientist and invent the World Wide Web. It came out of the high performance Computing Community, which is like super computers and stuff. ": [
+      2080.2,
+      2105.9,
+      64
+    ],
+    "as far as responsiveness to typing on my current laptop is worse than it was on the Apple to see which was the processor that I think ran at 1 megahertz right vs. My laptop with runs in about two gigahertz, but it's much easier to Performance in all kinds of different ways. All right. Where's my information? I was supposed to be an angry bird flying across you can ": [
+      2439.7,
+      2470.3,
+      75
+    ],
+    "back in the Golden Age, my normal process server is going to be what 8 * faster. Right and I spent like a lot of money doing this to chip. So I should just wait I can do better better using normal general-purpose Computing but it makes sense to me to spend time to build these chips on Google has on their 3rd generation of this thing called tensorflow, which ": [
+      3328.9,
+      3354.5,
+      105
+    ],
+    "because you can't say no to Crowdsource across all over like luminaries of computer architecture working today, right? You look in the back of the list of the kind of acknowledgment and thank you and those are all like top-flight people from University and companies all around the world who really know all their stuff about this. So they're really good sex with lots of good information too much for ": [
+      4155.4,
+      4182.4,
+      133
+    ],
+    "before class. Yes. Alright, very good. I'm glad to hear it. We're going to do the hard stuff in class will go to the slides and we'll do some examples and will be a quiz are going to be reading quizzes and then we'll have some loud. This is actually homework at what you do have a lab, but it's Not not directly to the lectures and then I'm going ": [
+      3766.4,
+      3789.4,
+      119
+    ],
+    "big stack of these abstractions. So at the very bottom we have like the physical world, right? So what are we get? We get the periodic table of the elements. That's it a hundred or so elements some of which are radioactive. So we probably shouldn't use them are quite rare in computers, like Silicon, which is important cuz we're going to use a whole lot of it to build ": [
+      1534.0,
+      1559.8,
+      48
+    ],
+    "browser in the background so we can give you that little updated list of possible on Search terms. And I actually do my search gave way when I punch Lions. I don't know why. Gives you one of these. I guess I'm getting gives you the actual Search terms does even more work. It looks over this inbox Google keep the index of the entire internet and Main memory of ": [
+      621.4,
+      648.6,
+      13
+    ],
+    "but like it's not useful anymore cuz it just looks flat out here. So this is the 8% for your car and we're like right on it. So that's where you are computer processors individual Kors. Actually. This is important are are not getting faster very quickly. This is changed a lot of stuff. So the other clocks been scaling. So this is going on there were pushing clocks be ": [
+      2854.8,
+      2880.7,
+      88
+    ],
+    "cassette tape one point calculator Pearson books write all of this will fit and be much better is bigger than it needs to be from Canada immigration perspective. It's all about the display and that's kind of amazing. Right like this is if you show this stuff to people 50 years ago, like it's magic write this thing is amazing right way you can do with this. Since 1940 or ": [
+      2290.0,
+      2329.5,
+      71
+    ],
+    "class. Give me listen to lectures you to pay attention, but text is actually written by some very famous people who was in Paterson. This is Patterson and David Patterson is an Emeritus Professor Berkeley, Google. I'm sure he is making an enormous amount of money sort of the the foundations of modern computer architecture. A lot of ways. He also don't raid which is how you build reliable storage ": [
+      4087.6,
+      4121.9,
+      131
+    ],
+    "complicated code then I will I will look small course. And this is the latest. But I thought I could find for Intel processors crossout 2014 Intel Haswell Extreme Performance. 18 course lots, of course. That's one way that we've been making computers faster. And this is basically how the cloud Works to Google software. Thrones in the cloud. It's all built to run really well in these kind of ": [
+      3179.6,
+      3228.6,
+      100
+    ],
+    "computer engineering couple of you so nice. So you're going to be Engineers of some kind and you're going to be moderately or actually playing very sophisticated users of computers, you know in your car where the engine is, you know, when you push the pedal that it makes it go faster, but if you were like a racecar driver right are you worked on cars are used cars and ": [
+      773.6,
+      800.9,
+      19
+    ],
+    "cores Tegra 3 2011 is 5 quarters + B Zambezi from 2011 and 16 core. Kinds of variety. Right? It's not a continual increase because I can make these cord individual Kors faster or slower to pick up. My application is good for if it's easy to paralyze if I can easily make use of lots. Of course, I'll build more small courts, that's more efficient. But if I have ": [
+      3158.2,
+      3179.6,
+      99
+    ],
+    "cores is really hard right? That's a lot of work in process and people in general for good reason are lazy about this kind of stuff. And so we've had two should have put this off until we had no other choice and we are now well into that kind of dumb and we've been there for about 10 years. What are the progression of processors? So this is the ": [
+      3084.1,
+      3106.1,
+      96
+    ],
+    "covered quite a bit of atom cft30. How does an Executor what support does the processor provide to the operating system of the software components? And what techniques and Technologies are involved and how do they work? Kind of performance accurately how you can read them about performance and are you can use your knowledge of computer science or computer architecture to make programs go faster and understand, you know, ": [
+      3480.1,
+      3516.8,
+      110
+    ],
+    "devices or whatever. I bet it's the same basic pieces, right? This is tomorrow staff has been called the system have same basic pieces and if we look at the motherboard inside a phone basically the same thing cuz I've been out even more integrated. So the CPU and the deer Amber now actually in the same physical package of stacked on top of each other to save space. There's ": [
+      1064.4,
+      1088.2,
+      30
+    ],
+    "didn't work. So there's going to be a quick the correct answers Yeah, I got to read this later the tax rate of a quick quiz. I would like you to get these answers, right? They're not very hard that is kind of show that you actually did some reading and then during the class discussion drop in the size and you're going to think about it. They're going to ": [
+      3978.1,
+      4014.6,
+      128
+    ],
+    "done with this? He's very sharp-looking. I think he's got his suit. He's wearing a suit and a sweater. Oh, yes, all the stuff most of the stuff I've used most of the technology used all the technology on this slide. But this is like a VCR. I just took my last vcr and DVD player. Actually the Goodwill here's a radio is a boom. It's a video camera tapes ": [
+      2255.3,
+      2290.0,
+      70
+    ],
+    "dumped a bunch of current into the clock everything switches and then I turned on the clock it drains off in the ground, right? So that's current flowing as resistance of Burns Power and this power was totally killing us. So this is the famous graph there lots of these version of running around on this is the one graph. I don't have to update because power has flatlined, but ": [
+      2910.6,
+      2935.9,
+      90
+    ],
+    "effective way to learn I am an excellent resource in the TA is our national resource for answering questions about what you've learned and maybe putting in some context but developing those questions and sort of wrestling with him is something you need to do by yourself students actually also like this. So you guys like this you didn't know that maybe but you do it makes you realize exactly ": [
+      3929.6,
+      3951.2,
+      126
+    ],
+    "explain fee architectural features of modern processors. This is a little bit of the project that I own some of the professors are working on to significantly redesign this course, and this is the thin end of the wedge. We're going to have more programming assignments and so far. She actually deal with Morrie architecture programming basics. We already talked about this. So the grading is going to work like ": [
+      4257.2,
+      4287.5,
+      137
+    ],
+    "fast and in 2004. Hi, this is like a stock market crash of computer architecture right processor speed flat over 40% of year to not growing at all. In fact a drop for a little while and you could argue about what it's doing right now flat the same time actual processor performance started tapering off. right So now or this new regime performance is growing here at 8% per ": [
+      2672.1,
+      2710.4,
+      82
+    ],
+    "general are searching for right now, and it doesn't autocomplete and spell check on your search query. It's a server Google. It could spread out across literally thousands of machines. They all do a little bit of work and comes back over some very high speed that works in front of a notary assembles dad and renders a web page and then sends it over to the to your web ": [
+      598.2,
+      621.4,
+      12
+    ],
+    "going to work. So. Hope it a little bit more interactive. There's actually science and if you do it this way, it works better. So like this is the thing called Karen Starks American groups. This is traditional instruction. This is normalize gain and student understanding the goal is for you guys to learn stuff and stuff and one is taller, but you guys learn more if I do it ": [
+      3816.1,
+      3840.8,
+      121
+    ],
+    "grade you might be able to get it through the signs of greater sign and everything in the spreadsheets. I'll tell you everything you need to know who's there a lower bound. Sometimes I boost things up a bit. Sometimes it turns out that no one got it more than a B minus in the class. Nothing's a little bit unfair. So we'll shift things up. I will give you ": [
+      4331.2,
+      4350.1,
+      140
+    ],
+    "handled by CSC. And so if you have questions about the way that you should talk to them. I don't get involved. There are too many of you for me to wrestle with that. We're going to use a variety of instruction. Tools Moodle is where all of the materials are going to be distributed Piazza is for discussion only. There's not going to be any like so this is ": [
+      4408.3,
+      4430.9,
+      143
+    ],
+    "hard. It's going to stall Problem by any means the rise of specialization. Right? So these processors back here. They are general-purpose. They can run basically anything they're good at running the kinds of programs you write in job are so used to see your supposed to floss or python whatever but you can go faster if you specialize right so Is I want me to go for a specialized ": [
+      3250.3,
+      3278.5,
+      102
+    ],
+    "have Clickers? All right. So let's do a cookie clicker have time. This is Holy skippable. We don't have time to login to Moodle. You guys know about Moodle? No, I will send out an email how to get to Moodle cuz I'm not your key information for the classes and follow the instructions. So we are going to use the book. It's a good text you to come to ": [
+      4041.3,
+      4087.6,
+      130
+    ],
+    "he has maybe a set-up. I don't know about that performance and we've spent it to basically make our lives easier and to do more interesting applications. So this means that we made it easier to use you to program to solve every more complicated problems. There's a trade-off between how we spend our Graves. It had a word processor Apple works and you can type and frankly the experience ": [
+      2401.1,
+      2439.7,
+      74
+    ],
+    "here right after you've thought about the hard stuff rather than at the beginning when I'm just tired of playing this tape. It lives inside my head. That is Electra's for 1:41. Factually true. I can like fast forward and back up. Sometimes I have to if I want to jump from side-to-side repeat after me. I'm going to read the text beforehand. I am going to read the textbook ": [
+      3736.1,
+      3766.4,
+      118
+    ],
+    "higher over overclockers, which of these crazy folks with liquid nitrogen even faster left for practical purposes were capped out at about a hundred Watts for processor or something like that. Then we can we can dissipate That's a pretty hard limit. So what is the response to this? Right? So when we do we'll build more than one processor rights of One processor is fast to must be faster. ": [
+      2997.0,
+      3029.6,
+      93
+    ],
+    "how you connect hard drives and stuff to your big server then over here. There's some power stuff so you can plug into the wall. plus one kind of shape of computer, but the key components are the memory the processors and some IL MacBook Pro very different much more compact or this in this is actually MacBook Air. It's also a little bit of the same basic pieces. This ": [
+      1013.1,
+      1038.9,
+      28
+    ],
+    "is a CPU water directly on the reason I do that is because these sockets are big there's extra mechanism and stuff and they want two laptops to be as small as possible. This is a slot for the SSD or the storage system memory is here. It's welded directly to the motherboard as well. There's a bunch of Ayo stuff over here so you can plug in your USB ": [
+      1038.9,
+      1064.4,
+      29
+    ],
+    "is there a CPU the tensor Processing Unit, which is for a I have lots of so this is this isn't a guy photo. It's a drawing I couldn't find add iPhoto. This is the new Nvidia one of the videos new gpus. For graphics and Computing Define core in a funny way of Central and Coors. Are there a different program remodeling a very different instruction set of different ": [
+      3354.5,
+      3386.8,
+      106
+    ],
+    "it's obviously not as powerful as a big server the same parts. So here is a Server Motherboard. These big things in the middle here. These are the CPU sockets. I bought this. Windows laptop, which made me sad just so I could draw on the screen and now I can't even do that. Give me a better color yellow view CPU sockets r a c fuse goes there's not ": [
+      943.4,
+      976.2,
+      26
+    ],
+    "kind of computation and we all know why those complications might be useful because we might want to do a Google search we might want to play Angry Birds might want to watch a digital video. What's the basic basic question and then we had on some other kind of adverbs to that question? You might want to compute in a particular technology. All right. Now, are you something called ": [
+      344.7,
+      378.6,
+      4
+    ],
+    "kind of is useful all over the place. So that's why it's useful for the world. So that's great. So why is it useful for you? Right because the world is not spending 30 hours in this room over the next ten weeks you are so you're going to be a computer or software Engineers are computer Engineers or you're going to be working in the viewer computer science or ": [
+      752.4,
+      773.6,
+      18
+    ],
+    "like 1942. Not really. So Java was cool. Then, it is the world's most popular programming language to you and 148 anap. Sorry. No one loves python pythons awesome. What else you got weather language has are popular nowadays. cplusplus, Java Tell you something about JavaScript JavaScript is the only language in wide use about which a book has been written that is called JavaScript the good parts because there ": [
+      2028.8,
+      2080.2,
+      63
+    ],
+    "like the news about new cell phones, right? So people want to get rid of little SIM card you have to plug in the reason cards are huge right. This is just the way you get to access to your wireless network, but it's the same size as my CPU in terms of board real estate. So obviously an apple and everyone else would like to dispense with that same ": [
+      1139.7,
+      1160.9,
+      33
+    ],
+    "like, yeah, I'll just extrapolate out for the next 50 years. No problem ridiculous extrapolation. They didn't turn out. We don't talk about them anymore like Bob's failed prediction. We don't talk about that in college classes 1940s or so. All the way through this ends in about 2009. It's still mostly going this is a log scale. Does transistors per processor processors don't actually get smaller. They're always about ": [
+      2167.5,
+      2201.6,
+      67
+    ],
+    "links between say software engineering and computer architecture is it if you want your code to go fast and you don't understand why it might go slow and there's lots of lots of reasons a software can be slow so many but a lot of them have to do with the hardware and how the hardware work. So if you understand all the hardware works you can reason about why ": [
+      817.8,
+      838.1,
+      21
+    ],
+    "long time. The computer couldn't do much and planned out ahead of time debugging would be terrible. But how is Java compiled compile? A lot of confused compiling use compilers used to be people? Sad graduate students who actually translate code into Assembly Language, right? The first compilers like there was a programming language and there was so we go from here on assembling through something like GCC Ryan. So ": [
+      2367.4,
+      2401.1,
+      73
+    ],
+    "lots and lots of power. They build next to Dam hydroelectric dams because power is cheap. They're all right, so computers are everywhere. So how do we build them? So the basic so this is like the most important thing that you're going to learn this computer scientist is what they build abstractions. This is what we do, right? I think like in the pantheon of human knowledge the thing ": [
+      1478.3,
+      1510.3,
+      46
+    ],
+    "lots of computing devices. I can brought with me today three laptops a phone and I guess that's it. But I want to buy an Apple Watch and said I would bring the total number of computers that I would have with me til like five or six right? There are another probably I don't know just looking around 1 2 3 4 5 6 or 7 back there one ": [
+      867.5,
+      892.2,
+      23
+    ],
+    "man gate is all you need. Are you can use or as in other things as well. But all you really need is Nan. I'm sequential logic registers in a clock. You can build all kinds of useful devices. In fact, you can build processors. So this is basically where this car this sucks ass is going to sit. So, you know, you didn't have to take Material Science to ": [
+      1677.7,
+      1702.8,
+      53
+    ],
+    "matter. There is an Intel and I which amd's is this is an old soul. I said this is actually 6 and arm sun no longer exist, which is a pity. arm so my handwriting when I was in 4th grade. My dad made a deal with me that I could I wasn't going to be able to play my Atari. Is there an Atari is all right. It's like ": [
+      1765.2,
+      1803.9,
+      56
+    ],
+    "movie from the book doing the homework is the best way to prepare for the test. So it's like you're studying for the final even before the final of the midterm elections online some of the questions on homework or going to be graded for correctness. Some of them are going to be kind of checked out that you did them. You do a temp the mall copying and sharing ": [
+      4208.8,
+      4234.1,
+      135
+    ],
+    "my laptop work. So so before I even done the Google search already billions of Saint like literally billions of things are happening. So Google when you type to search it goes off and it takes what you've typed so far and send it off to its search Farm it looks and sees what you like to search for what people like you like to search for what people in ": [
+      570.3,
+      598.2,
+      11
+    ],
+    "next Thursday lecture on Tuesday is going to be a podcast that I will send out a link. It's going to be a lecture from Leo Porter who's an excellent instructor teaches its course as well. I am at a point of a traveling so we will resume next Tuesday. Watch out for the link to that'll be out very shortly. I will see you then. Yes impact on the ": [
+      4524.8,
+      4560.9,
+      148
+    ],
+    "nun. I mean This class is self-contained. I mean, you will not learn the stuff you learn 141 out but it won't hurt you in here at all. And maybe have a person to ask but I haven't read. ": [
+      4560.9,
+      4582.9,
+      149
+    ],
+    "of these pads and you push down to make the contact each one of those Springs have so many pins that this actually what you had to do the equivalent of parking a car on top of this processor to get it all the way into the socket to engage all of those pins on those thousands of pens non process almost all of them are for power and ground. ": [
+      1219.3,
+      1241.4,
+      36
+    ],
+    "of wrap it in another kind of build it to work with a subtraction does an architectural construction set operations that the processor can perform memory making divided into a couple other things a bunch of other things and this defines kind of house offer is going to talk to it. And so there are a bunch of different architectures in the world. Although really they're only like two that ": [
+      1734.1,
+      1765.2,
+      55
+    ],
+    "on mathematician and philosopher made this observation by extending the number of important operations that they can perform without thinking about them. Right? So the more we can do without having to think about each individual Steph the more they can kind of be automated this allows us to all kinds of useful things. Right. So if I build a mechanical weaving loom, Right, then I can weave fabric very ": [
+      449.1,
+      477.6,
+      7
+    ],
+    "own for Piazza. I encourage you to opt out of the stupid advertising stuff. They do if you have questions about disability stuff for me to go out with his other kind of stuff. You should email me tonight. It's probably won't get made public. You should assume that it is we have some course staff. You will meet them throughout the course of the class make use of us. ": [
+      4453.3,
+      4485.5,
+      145
+    ],
+    "possible so you can you can have room for battery. And actually now if you look at the motherboard for the iPhones, they've actually broken tooth in a two pieces and play folded over on itself. So it's like this little stack and the two boards are actually soldered onto him that it's pretty cool to make things more compact. You can also see if you guys follow the things ": [
+      1118.2,
+      1139.7,
+      32
+    ],
+    "processor is right there highly parallel lots of Independence Reds on so they are they do just fine on this kind of debating if I can do all we get all these doing applications, right? All this new cool stuff is going on, even though individual core performance is not getting any better probably should have retooled the whole soccer Universe to work on the new machines. But it's still ": [
+      3228.6,
+      3250.3,
+      101
+    ],
+    "processors doing this for a while Resort of the first thing to do this right used to buy a dedicated graphics card called into basically these supercomputers on a piece of a car that you can buy. So there now a Eye Specialists rosters for all your phones. Now if you have a new phone and tell Google is building their own AI processing chips to make it go faster. ": [
+      3278.5,
+      3307.2,
+      103
+    ],
+    "processors. So that's the stuff and some quantum physics and some other stuff physics Material Science. Really complicated. I never had a class in any of these things. I have chemistry in high school and physics in high school. And I took a physics by the Classics course in college. We like played with like Optics a lot. Anyway, so what we do is first thing we do is we ": [
+      1559.8,
+      1595.4,
+      49
+    ],
+    "programming languages to make it go fast, and it's all Taylor to this particular organization of heart of the big dog. Here's the Google tensor for tensorflow processor talk about the building Universe thing called a pod which is like a I don't know a bunch of these. I forgot how many hundred or more of these things put together into one big Computing thing to do big AI workloads ": [
+      3386.8,
+      3421.9,
+      107
+    ],
+    "quickly. Don't just sit there and like do it all by hand. It goes a lot faster. I can leave whole Bolt of cloth without having a person they're sitting there thinking about it and that makes things more efficient. So computers have done this just with phenomenal success, right? So let's go over here to Google. Where's Google? So let's do a search. What should I search for? What ": [
+      477.6,
+      504.5,
+      8
+    ],
+    "radio in San Diego said I would have said hey Alexa order this dollhouse off of Amazon. I'm like five hundred people ordered the Stahl house off Amazon. It's really terrible. I want Siri goes off. Sometimes when I'm listening to music in the car. I just like starts transcribing lyrics from something. All right. So that's a real estate in this class. How is the class going to work? ": [
+      3659.0,
+      3687.6,
+      115
+    ],
+    "reach a consensus MLB my myself. I will be around here to answer questions. So then you going to vote for these cookies questions or during class like there's no you don't get points for being right or wrong. You just have to click the button you need button will do I would prefer that you click it thoughtfully, but either way You guys have clickers how many of you ": [
+      4014.6,
+      4041.3,
+      129
+    ],
+    "really hard power was the big limiter the faster you flip the clock. So you guys think I study transistors and how they work and 140 right? So we're transistor Works RI gateworks. I open up the at the top. I think it's the end of the gate turn off power when they're when when the The clock right the clock, right? So the clock is going from 120. I ": [
+      2880.7,
+      2910.6,
+      89
+    ],
+    "rely on some other folks to build an abstraction on top of this and that abstraction is that we can build transistors and wires out of this stuff, right? So here's a picture of a transistor very very tiny a few nanometers across. This is a picture of some copper interconnect inside a chip in this is a picture of how you design if using something called cat and so ": [
+      1595.4,
+      1620.8,
+      50
+    ],
+    "ride. We got all kinds of stuff up here. I don't know why. It's so much for a I write like all right, but you will die laughing right? So I just ran a couple of what you can't see anything. Well, this is great. I mean how long are you guys going to a backhoe on Okay, so All right technology. All right. I don't know how to make ": [
+      527.9,
+      570.3,
+      10
+    ],
+    "right because it's hugely valuable. And if you know, if you pay attention to like economic news people talk about productivity for activity games that all comes from the fact that we can do all these operations without thinking about them and that is all because we know how to build devices that can perform computations, right and a bunch of other computer science very focused like really where we're ": [
+      691.7,
+      715.1,
+      16
+    ],
+    "right? They have many many buildings. I was like, wow, this is all paid for by little tiny chips of silicon with his little tiny transistors. Like how many transistors do you have to sell to build like a giant office building and then build 50 of them and pay, you know, thousands of people lots of money falling falling behind the world. And so I'm just sending some ways. ": [
+      1344.4,
+      1375.0,
+      41
+    ],
+    "room for battery. All right. So different processors. So this is Apple's a v I think the latest iPhones and tablets. This is a pretty small processor. Physically. They get really big. This is an older processor from IBM, power 6. This is a human hand. I'm so this is like a big thing. Right and it's attached to this. This is a ceramic carrier on the back and has ": [
+      1160.9,
+      1194.1,
+      34
+    ],
+    "see him right here. Tonight or Angry Bird. Alright, so where's performance come from? So this graph if you show this to a computer architecture this graph sums up an amazing drama that is played out over the last 20 years. Okay. So what this is this is something called a benchmark. It's called spekkens spec is a bit Consortium of companies that do processors and computers and I got ": [
+      2470.3,
+      2501.0,
+      76
+    ],
+    "servers for a server Farm like every couple years. Because they be so when I got here I bought a bunch of computers. I'm still using them. I'm still using the same computer cuz they're faster. If we got some new faster ones for some special stuff. And now we just go to the cloud easier for over 10 years and they're still useful who is very upset about this. ": [
+      2738.8,
+      2766.7,
+      84
+    ],
+    "similar to yours and are learning things at the same time you are because you probably have similar misconceptions and misunderstanding similar questions. You might have some answers that are to those questions you just different than the questions that I might think that people would have when they were first learning this stuff has been a very long time since I first learned if I can pee architecture So ": [
+      3887.3,
+      3907.6,
+      124
+    ],
+    "so far. So was I Loved Before? Alright, you guys hear me? Okay. That's why we're going to study in this class is how do we build machines and computers? Like it's useful if your computer scientist, but the real reason to this is important is because it's really really useful right kind of here today because computers are really useful and Alfred North Whitehead. He was a really famous ": [
+      409.9,
+      449.1,
+      6
+    ],
+    "so there has been beat up in there has been about a billion times increase in density change if I wanted to reprogram my computer. What I would do is I would take some wires. It looks like the big stereo cables like the big thick fat stereo cables and I would reconfigure the computer by plugging these things in the right computer would take a team of people a ": [
+      2329.5,
+      2367.4,
+      72
+    ],
+    "so we are going to do so. This is that you guys heard about flipped classrooms are not actually going to flip the classroom a little bit backwards, right? So first I teach you stuff in class. That's how it's supposed to be usually used to work as how it works when I was in school. You didn't tell you all the details when you go and hopefully read your ": [
+      3689.1,
+      3716.1,
+      116
+    ],
+    "software this time. But you hide all the details of the differences between those two but they're four. They're there they differ kind of an instruction that they use to do basic operations 121. You can do compilers and see if he 131 you can build languages and CSE 130 and then there's applications in software engineering that's kind of see you see everything else fractions who loves python Well, ": [
+      1911.0,
+      1945.0,
+      60
+    ],
+    "some people claim even through back into the 1800. We've been on this curve right just hasn't been conventional computers. We think about and it has now ended at least for now. Maybe it'll pick up again. Maybe we'll get some new cool technology to build ships out of Here's some curves spent to these various regions 47% per year with a real golden age and now right here in ": [
+      2806.4,
+      2833.4,
+      86
+    ],
+    "specifically for doing the guy with a processor built specifically for controlling the automatic windows in a car. So there will be four of these at each of the windows to control it up and down by a thousand pages. I know this is a big super computer, right so. It's for a while is the fastest computer in the world is in Japan. This is the power supply right. ": [
+      1428.6,
+      1456.3,
+      44
+    ],
+    "systems until recently was the president of Stanford and they both just won the Turing award which is like the Nobel Prize for computer science. It's a little interesting. I would like to her little secret. It's called is Patterson and Hennessy and these guys know everyone in computer science. So this really means that the hey, can you revise the chapter on so and so and then they do ": [
+      4121.9,
+      4155.4,
+      132
+    ],
+    "take 140. We've sort of decided that apartment in our Infinite Wisdom, or actually, let me tell you that you should start here and then we're going to build up on top of that right now. Call this big a architecture. So big so this is an abstraction right that we've wrapped up around some Man games. We can go the processor. Then we take the process or we kind ": [
+      1702.8,
+      1734.1,
+      54
+    ],
+    "talk to someone who is very new at this and have like a meaningful discussion about it. And the reason is that the way that I think about computer architecture you just very different from the way that someone thinks about it. I've never encountered it before right and so it's actually much more useful. If you talk to people about computer architecture, you have a level of understanding of ": [
+      3865.4,
+      3887.3,
+      123
+    ],
+    "text book. Hopefully you read your text book. This is actually the hard stuff cuz that's where things get really concrete instead of just me drawing stuff on the slide and then you do the homework and then we test the stuff. We've actually really dumb because this is actually like I'm supposed to be the expert about the stuff. So really I should probably be over here or over ": [
+      3716.1,
+      3736.1,
+      117
+    ],
+    "that computer science it's big contribution to the world is a very sophisticated understanding of how to build useful instructions and it puts a layer on top of it that let you think about it in a way that is simpler. Right? So I think about the details of what's going on and I can just think about this higher level abstraction that I build. It's all computers are a ": [
+      1510.3,
+      1534.0,
+      47
+    ],
+    "that means that you engaging with the staff is really useful. That's how you're going to learn. You're going to construct its own understanding for yourself. And your only do this in class. We have like little discussions among people outside of class as well. I encourage you guys to stay together. I don't encourage you to share answers to homework. So anything like what that is really the most ": [
+      3907.6,
+      3929.6,
+      125
+    ],
+    "that they're giving me. There's not actually better things that you could be doing, but it's being like there might be better things you could be doing because there's the beach and the surfing and all that stuff is Run San Diego in this class. so computer architecture is I have a new laptop. She's got a bear with me a little bit and the question that we set out ": [
+      285.4,
+      317.0,
+      2
+    ],
+    "that. So there's your grades are going to be on the floor for your four point scale. Right? 4.0 GPA is you're going to letter grade in every assignment real map on to somewhere very far point scale and your final grade is just the weighted average of all of your assignment and final grades. What's this about? This is a spreadsheet. I'm very proud of it. What's cool about ": [
+      4287.5,
+      4313.6,
+      138
+    ],
+    "the five core mobile processor. Somebody's memory. There's lots of memory these big things are memories are called Cash's Ring talk about those a lot in this course has various coprocessors and controllers. So for a touch screen or I doing processing of a single that comes in over the modem. They suck everything they can under here so I can save space on the motherboard also makes it cheaper ": [
+      1292.7,
+      1321.3,
+      39
+    ],
+    "the physicist the material scientists really hard Corps of Engineers, they tell us hey you can do transistors that are the small up with wires that are this way switch on and off this fast. And then you can go build stuff with it. Right? So Intel is super good at this or the best process technology in the world that know how to build the best fastest smallest transistors. ": [
+      1620.8,
+      1645.8,
+      51
+    ],
+    "the problem was right. So here's 1990s 46 first processor. I had was a 40 to maybe a 586 so long scale again or increasing exponentially Pentium is out here hot place. You could cook on processors in the mid-90s nuclear reactor power dance to this is watts per square centimeter rocket nozzle. The sun's surface was not far away right? This Christmas could not continue and Throw throw some ": [
+      2935.9,
+      2968.9,
+      91
+    ],
+    "the rest of computer science, right? So here's the IRS a and if your operating system person or programming or I can pilot person then you Target that is a right on operating system might only run on x86 not only run on arm actually run on both. But if there's a whole directory of arm stuff in a whole director of x86 stuff, that's actually another abstraction that's in ": [
+      1881.1,
+      1911.0,
+      59
+    ],
+    "the same size for economic reasons, but the number of transistors been increasing exponentially every couple of years or so. So this is like this is amazing. Right that means that you can build a single device with billions of transistors on it. Not only that people I can tell manufacture thousands of these are the time and they all of these processors each with many billions of transistors and ": [
+      2201.6,
+      2227.7,
+      68
+    ],
+    "their home works distributor. There is just for question answer grade still for turning things in there is 10 but it's just going to be to register your clippers are not going to sign up for 10. Noodle here is a Moodle account. I will email it out to the class or some of you were being clever and taking pictures of the slide need to sign up on your ": [
+      4430.9,
+      4453.3,
+      144
+    ],
+    "they all work right? It's amazing how many of these things I can get to work? So like this is the biggest people often mistake Moore's Law, which is about transistor density with the scaling of computer performance right in their separate things in a moment that the scaling of computer performance is having some some rough times and we'll talk about that and why that's so what are we ": [
+      2227.7,
+      2255.3,
+      69
+    ],
+    "this is that we will post a sanitized version of the spreadsheet every week or so after the midterm. That means that if you have a question like, can I still get an A in this class or can I still get a c in this class? You can just type in your grade. You think you were going to get on future assignments and it will tell you what ": [
+      4313.6,
+      4331.2,
+      139
+    ],
+    "this is where kind of the action is. This is sort of the lower levels. You can see there's 4 processors, right? So we build multi-core machines. I'll talk about that more little later today and a lot more later in the course and this is all the mechanisms are all transistors several billion transistors that are built on to that died. This is the Nvidia Nvidia Tegra 3 to ": [
+      1263.8,
+      1292.7,
+      38
+    ],
+    "this thing this is a big Server Motherboard on this is something that might be inside Google's lips. Might be inside Google's Datacenter laptop MacBook Air has the motherboard for an iPhone 4S or something. They're about the same size and its role basically the same right? They're very different in different degrees of what they can do, right? This one is really really fast is still pretty fast, but ": [
+      911.2,
+      943.4,
+      25
+    ],
+    "this way, so that's good. So so good like psychology behind this right like so it actually is a very interesting study what it shows and this is a little bit disturbing if you think about it given the situation which we all find ourselves so that it's very very hard may be impossible for me. I've been studying the stuff for longer than I care to think about to ": [
+      3840.8,
+      3865.4,
+      122
+    ],
+    "thousands and thousands of pins. All of his little gold flecks are pins or electrical connections. And this has to then they have to make a connection which one of these pads to hook up your processor interesting piece of trivia, you know the way that you insert these if you have a big Server Motherboard They are they actually do these little springs that go up against each one ": [
+      1194.1,
+      1219.3,
+      35
+    ],
+    "to answer if you're a mind sometimes how do you build a machine that computer so we have some stuff in the world, you know, the various kinds of dirt and sand and elements that we can pick up off the ground and we would like to assemble those into some sort of a mechanical device or some kind of like they sell mechanical and electronic that can perform some ": [
+      317.0,
+      344.7,
+      3
+    ],
+    "to cancel it because the power was going to be too high, but it wasn't going to work. They retooled inside. It was a big There's a big deal and deal. I got to have in the market for a variety of reasons for the new product. I can with the court to the Halen 2010 for the spark T300 just now made by Oracle today about son is 16 ": [
+      3132.4,
+      3158.2,
+      98
+    ],
+    "to have done that by hand right and now it's just completely automatic even more right? We have automated tool clothes for doing all kinds of things when I want to have my graduate students write a paper. I give them a list of instructions and they go and he's has some web services and it's all like taken care of for me. So this is why we need computers, ": [
+      672.0,
+      691.7,
+      15
+    ],
+    "to leave and I wish I could get rid of the exam. But I guess I'm actually required to administer an exam during the final exam. And then if I do that then the students get upset if I only have like the only thing that affects your grades are you guys want to midterm an hour of the two exams will be two exams. So anyways, that's how it's ": [
+      3789.4,
+      3816.1,
+      120
+    ],
+    "to manufacture. So these are billions of transistors interesting piece of trivia cost about the same amount to publish one character in a newspaper as it does to manufacture a transistor and modern technology. Right, so you can do lots and lots and lots of them. I visited I was at Intel's main campus up in Hillsboro and I was walking around and I was like, there's all these buildings ": [
+      1321.3,
+      1344.4,
+      40
+    ],
+    "together like they come up with a set of programs that they think are useful, you know, if these programs go fast and probably yorkim your computer is good for doing stuff in general performance. I have an hour of those 2000-2006 2017 performance write this gives you a standard measure of performance not like clock speed which is like a very mechanical wise to buy 1990 and this is ": [
+      2501.0,
+      2544.9,
+      77
+    ],
+    "up here aid went over there and nine. They're at least nine computers built into this room and all of you were carrying around lots of computing devices as well. So I come in all kinds of shapes and sizes. Right? Let me do Google. They're all you know, there's a thousands of the running off in a Datacenter somewhere. So these are a couple different shapes of computers. So ": [
+      892.2,
+      911.2,
+      24
+    ],
+    "us to cover in a 10-week order clicker participation. That means just clicking reading quizzes Which of the clicking at the beginning of the class 5% homework at 20% midterm is 30 cumulative. Final is 40% They're going to be some homework there going to be a sign on Thursday 1st homework is up. It's just some administrative stuff. It's going to be doing a week later some of the ": [
+      4182.4,
+      4208.8,
+      134
+    ],
+    "uses. There is an armed burglary textbook, but it's so buggy that it's almost unusable. I'm sorry about that. I wish it was better. So this is a basic set of instructions that you can do. And this is how you get software plugged in to Maxwell's equations, right until implemented in a variety of ways away to at the mechanics governs the flow of electrons in semiconductors. Right as ": [
+      1835.9,
+      1881.1,
+      58
+    ],
+    "we can do with computers and be able to harness them to solve problems effectively. That's a very high-level, right? So more concretely. So how can a mechanically does a modern world? Where to start with lots of water and processors cuz they were a lot simpler a processor Works what it takes to execute an instruction instruction said how do you express the computation to the CPU? You actually ": [
+      3448.5,
+      3480.1,
+      109
+    ],
+    "what are you guys love me or what's what school now? Java assembler So I'll tell you okay, when I was in college. I went into the computer lab and nothing. I wanted more than anything. I never shared this with anyone before transform into my undergraduate institution and he was wearing a leather jacket and he was he was shaved his head before beards were as cool as they ": [
+      1945.0,
+      1997.6,
+      61
+    ],
+    "what your mistakes you're making you are a lot. If you know if you get lost and she lost the election last of the lecture clicker questions help make students realize when they are getting confused before it is too late. Who wants to spend half of a class lost and confused nobody? All right. Types of people that do this they like that better than people with glasses that ": [
+      3951.2,
+      3978.1,
+      127
+    ],
+    "why performance varies and how those architectural decisions architectural parameters of a given program affect affect how fast it is. a little bit more detail we're talking about a few instruction sets 6 and some other is a briefly Where's my son called the processor pipeline pipeline? E140? Maybe yes, no, not really a pipe lighting Works in Billing with things called hazards and speculation to make it go faster. ": [
+      3516.8,
+      3565.9,
+      111
+    ],
+    "work. And so that's we're going to do and then we'll jump. So why I want to talk to you today about what computer architecture is right? So what are we going to study in? This course why it's important we're going to spend about what is a 30 hours together in this room over this quarter and there's much better things we could be doing or their make seen ": [
+      258.0,
+      285.4,
+      1
+    ],
+    "would you say cats? Of course? A lot of things have changed since I started to be started as a professor and I've had to like update my slides because there is like cultural references that no one gets anymore but cats apparently are still everything of the internet is about so it's nice that some things stay the same. So there's some cats right? We've got oh Breitbart snooze ": [
+      504.5,
+      527.9,
+      9
+    ],
+    "year. That means it takes about 9 years to double takes 9 years to Dublin processors to get twice as fast now your homework is going to be very very late. If you try to do this the performance optimization just by waiting. So I was in graduate school. I graduated from graduate school in 2006. So I was in graduate school during this. We would buy new computers new ": [
+      2710.4,
+      2738.8,
+      83
+    ],
+    "you can ask and I will answer you no one ever gets in trouble for asking about this kind of stuff but you can get in trouble for actually doing this kind of stuff cheating is such a drag it is by far. The least favorite part of my job is dealing with people who cheat so don't make me do that part of my job. I will see you ": [
+      4507.3,
+      4524.8,
+      147
+    ],
+    "your money and those laws an important tool so I can but that performance measurement. Would you use to measure performance of computing systems the memory system? Memory is super important for about Big Data big baby has to live somewhere spends a lot of time sitting in memory getting fast access to that memory is really hard and is a kind of key bottleneck and modern computer system. So ": [
+      3590.6,
+      3614.0,
+      113
+    ]
+  },
+  "File Name": "Intro_to_Computer_Architecture___A00___Swanson__Steven_James___Fall_2018-lecture_1.flac",
+  "Full Transcript": "All right. Let's get started. Welcome to the most exciting class. You were going to take a UCSD. I don't want to live cuz actually to be the most exciting going to take ever. Anyway, not just  go to 5141 intersection of computer architecture iamstevenspence and I will be your instructor for the quarter.  Today we are going to talk about what this is about another course is going to work. And so that's we're going to do and then we'll jump.  So why I want to talk to you today about what computer architecture is right? So what are we going to study in? This course why it's important we're going to spend about what is a 30 hours together in this room over this quarter and there's much better things we could be doing or their make seen that they're giving me. There's not actually better things that you could be doing, but it's being like there might be better things you could be doing because there's the beach and the surfing and all that stuff is Run San Diego in this class.  so computer architecture is  I have a new laptop. She's got a bear with me a little bit and the question that we set out to answer if you're a mind sometimes how do you build a machine that computer so we have  some stuff in the world, you know, the various kinds of dirt and sand and elements that we can pick up off the ground and we would like to assemble those into some sort of a mechanical device or some kind of like they sell mechanical and electronic that can perform some kind of computation and we all know why those complications might be useful because we might want to do a Google search we might want to play Angry Birds might want to watch a digital video.  What's the basic basic question and then we had on some other kind of adverbs to that question?  You might want to compute in a particular technology. All right. Now, are you something called CMOS? You might want to do complications for a particular application or painting or high performance Computing if you can think about how you would build machines to do all those different kinds of computations.  When I asked some of my colleagues how hard podcasting was they said it's really easy because your students always yell at you if you don't put on the mic.  Can see how that's going so far. So was I Loved Before?  Alright, you guys hear me? Okay.  That's why we're going to study in this class is how do we build machines and computers? Like it's useful if your computer scientist, but the real reason to this is important is because it's really really useful right kind of here today because computers are really useful and Alfred North Whitehead. He was a really famous on mathematician and philosopher made this observation by extending the number of important operations that they can perform without thinking about them. Right? So the more we can do without having to think about each individual Steph the more they can kind of be automated this allows us to all kinds of useful things. Right. So if I build a mechanical weaving loom,  Right, then I can weave fabric very quickly. Don't just sit there and like do it all by hand. It goes a lot faster. I can leave whole Bolt of cloth without having a person they're sitting there thinking about it and that makes things more efficient. So computers have done this just with phenomenal success, right? So let's go over here to Google.  Where's Google?  So let's do a search. What should I search for?  What would you say cats? Of course? A lot of things have changed since I started to be started as a professor and I've had to like update my slides because there is like cultural references that no one gets anymore but cats apparently are still everything of the internet is about so it's nice that some things stay the same.  So there's some cats right? We've got oh Breitbart snooze ride. We got all kinds of stuff up here.  I don't know why.  It's so much for a I write like all right, but you will die laughing right? So I just ran a couple of what you can't see anything.  Well, this is great. I mean  how long are you guys going to a backhoe on Okay, so  All right technology. All right. I don't know how to make my laptop work. So so before I even done the Google search already billions of Saint like literally billions of things are happening. So Google when you type to search it goes off and it takes what you've typed so far and send it off to its search Farm it looks and sees what you like to search for what people like you like to search for what people in general are searching for right now, and it doesn't autocomplete and spell check on your search query.  It's a server Google. It could spread out across literally thousands of machines. They all do a little bit of work and comes back over some very high speed that works in front of a notary assembles dad and renders a web page and then sends it over to the to your web browser in the background so we can give you that little updated list of possible on Search terms. And I actually do my search gave way when I punch Lions. I don't know why.  Gives you one of these.  I guess I'm getting gives you the actual Search terms does even more work. It looks over this inbox Google keep the index of the entire internet and Main memory of a whole bunch of servers back together. Can I give you all that information, right?  I don't know how many times I search for Google search on Google every day hundreds maybe a thousand on a busy day. Right and all of that every time I doing the searches I would have had to like call someone or go to the library wherever that is. Right, and I would have to have done that by hand right and now it's just completely automatic even more right? We have automated tool clothes for doing all kinds of things when I want to have my graduate students write a paper. I give them a list of instructions and they go and he's has some web services and it's all like taken care of for me.  So this is why we need computers, right because it's hugely valuable. And if you know, if you pay attention to like economic news people talk about productivity for activity games that all comes from the fact that we can do all these operations without thinking about them and that is all because we know how to build devices that can perform computations, right and a bunch of other computer science very focused like really where we're actually extracting computation from The Real World to make our car safer climate simulation to find out how are children all going to die. We build Bridges and we do Google which already talked about and of course, we do really important stuff like play video games right about this and you can do anything with this stuff.  We can do serious stuff we can do fun stuff and it kind of is useful all over the place.  So that's why it's useful for the world. So that's great. So why is it useful for you? Right because the world is not spending 30 hours in this room over the next ten weeks you are so you're going to be a computer or software Engineers are computer Engineers or you're going to be working in the viewer computer science or computer engineering couple of you so nice. So you're going to be Engineers of some kind and you're going to be moderately or actually playing very sophisticated users of computers, you know in your car where the engine is, you know, when you push the pedal that it makes it go faster, but if you were like a racecar driver right are you worked on cars are used cars and a life. You might want to know a lot more about that about how Motors work at least a little bit. So if you get stuck by the side of the road, you might be able to fix it.  I think it's really important is that you want to you're almost everyone is going to be concerned about performance. Right? So this is one of the most direct kind of links between say software engineering and computer architecture is it if you want your code to go fast and you don't understand why it might go slow and there's lots of lots of reasons a software can be slow so many but a lot of them have to do with the hardware and how the hardware work. So if you understand all the hardware works you can reason about why a particular program is not performing the way that you wanted to  So that's why you should have a computer architecture. All right, so where are we because it has a box shaped computer that are here for historical interest in this class or going to be studying things that are kind of inside the computer and I'll talk about what those computers look like more now, so you have lots of computing devices. I can brought with me today three laptops a phone and I guess that's it. But I want to buy an Apple Watch and said I would bring the total number of computers that I would have with me til like five or six right? There are another probably I don't know just looking around 1 2 3 4 5 6 or 7 back there one up here aid went over there and nine. They're at least nine computers built into this room and all of you were carrying around lots of computing devices as well.  So I come in all kinds of shapes and sizes. Right? Let me do Google. They're all you know, there's a thousands of the running off in a Datacenter somewhere. So these are a couple different shapes of computers. So this thing this is a big Server Motherboard on this is something that might be inside Google's lips.  Might be inside Google's Datacenter laptop MacBook Air has the motherboard for an iPhone 4S or something. They're about the same size and its role basically the same right? They're very different in different degrees of what they can do, right? This one is really really fast is still pretty fast, but it's obviously not as powerful as a big server the same parts. So here is a Server Motherboard.  These big things in the middle here. These are the CPU sockets. I bought this.  Windows laptop, which made me sad just so I could draw on the screen and now I can't even do that. Give me a better color yellow view CPU sockets r a c fuse goes there's not actually processors in here and plug them in. My location are going to run has all these slots around here. These are all for me. So if you get a server machine nowadays, you can get a machine. Oh gosh, you can get them up to 6 or 12 terabytes of Duran Rio terabyte is 1000 GB a whole lot of other even more slots nowadays over here. This is how you connect hard drives and stuff to your big server then over here. There's some power stuff so you can plug into the wall.  plus one kind of shape of computer, but the key components are the memory the processors and some IL  MacBook Pro very different much more compact or this in this is actually MacBook Air. It's also a little bit of the same basic pieces. This is a CPU water directly on the reason I do that is because these sockets are big there's extra mechanism and stuff and they want two laptops to be as small as possible. This is a slot for the SSD or the storage system memory is here. It's welded directly to the motherboard as well. There's a bunch of Ayo stuff over here so you can plug in your USB devices or whatever.  I bet it's the same basic pieces, right? This is tomorrow staff has been called the system have  same basic pieces and if we look at the motherboard inside a phone basically the same thing cuz I've been out even more integrated. So the CPU and the deer Amber now actually in the same physical package of stacked on top of each other to save space. There's a bunch of peripherals over here. This is like the, you know, the Tilt sensor and stuff like that the screen controller but more and more of their they're getting more and more of these components under the CPU so they can make this.  What do you say?  More room for battery right always more room for battery. So you want to make this is tight in this tiny as possible so you can you can have room for battery. And actually now if you look at the motherboard for the iPhones, they've actually broken tooth in a two pieces and play folded over on itself. So it's like this little stack and the two boards are actually soldered onto him that it's pretty cool to make things more compact. You can also see if you guys follow the things like the news about new cell phones, right? So people want to get rid of little SIM card you have to plug in the reason cards are huge right. This is just the way you get to access to your wireless network, but it's the same size as my CPU in terms of board real estate. So obviously an apple and everyone else would like to dispense with that same room for battery.  All right.  So different processors. So this is Apple's a v I think the latest iPhones and tablets. This is a pretty small processor. Physically. They get really big. This is an older processor from IBM, power 6. This is a human hand. I'm so this is like a big thing. Right and it's attached to this. This is a ceramic carrier on the back and has thousands and thousands of pins. All of his little gold flecks are pins or electrical connections. And this has to then they have to make a connection which one of these pads to hook up your processor interesting piece of trivia, you know the way that you insert these if you have a big Server Motherboard  They are they actually do these little springs that go up against each one of these pads and you push down to make the contact each one of those Springs have so many pins that this actually what you had to do the equivalent of parking a car on top of this processor to get it all the way into the socket to engage all of those pins on those thousands of pens non process almost all of them are for power and ground. So you're just getting electricity in turn off the chip. I need lots of pins cuz you need lots and lots of current  And then here's the insides right? So these are called iPhoto. These are pictures of the interesting parts of the processor does an actually what they look like. There's a couple other layers on top that kind of just make it look like gray metallic stuff. But this is where kind of the action is. This is sort of the lower levels. You can see there's 4 processors, right? So we build multi-core machines. I'll talk about that more little later today and a lot more later in the course and this is all the mechanisms are all transistors several billion transistors that are built on to that died.  This is the Nvidia Nvidia Tegra 3 to the five core mobile processor. Somebody's memory. There's lots of memory these big things are memories are called Cash's Ring talk about those a lot in this course has various coprocessors and controllers. So for a touch screen or I doing processing of a single that comes in over the modem. They suck everything they can under here so I can save space on the motherboard also makes it cheaper to manufacture. So these are billions of transistors interesting piece of trivia cost about the same amount to publish one character in a newspaper as it does to manufacture a transistor and modern technology.  Right, so you can do lots and lots and lots of them. I visited I was at Intel's main campus up in Hillsboro and I was walking around and I was like, there's all these buildings right? They have many many buildings.  I was like, wow, this is all paid for by little tiny chips of silicon with his little tiny transistors. Like how many transistors do you have to sell to build like a giant office building and then build 50 of them and pay, you know, thousands of people lots of money falling falling behind the world. And so I'm just sending some ways. This is a little odd. This is a little computer. It's a size of a quarter a pretty big cooler system to the University of Michigan built the entire computer system that's about a millimeter and a half on a side of a cube that has a solar salad has a processor in Azle antenna  Jamaican very very tiny phones graphics cards data centers, you know game consoles laptops everywhere all over the place, you know, there are probably 50 or a hundred processors in your car. If you have a car I was fiercely I was reading the data sheet of the manual for a processor that was built specifically and I don't know why because the manual is 5000 pages long. I'm not kidding. It was it was huge. I mean, it was a PDF but there was specifically for doing the guy with a processor built specifically for controlling the automatic windows in a car. So there will be four of these at each of the windows to control it up and down by a thousand pages.  I know this is a big super computer, right so.  It's for a while is the fastest computer in the world is in Japan. This is the power supply right. So instead of a break you plug into wall that had to build a building if it's over. It's probably has its own power substation built into it computers consume. It's something ridiculous. It's like  Oh I should do. I'll make up a number. It might be off by an order of magnitude but not more maybe 5% of the electricity of States goes to Data Centers and it's growing lots and lots of power. They build next to Dam hydroelectric dams because power is cheap. They're all right, so computers are everywhere.  So how do we build them? So the basic so this is like the most important thing that you're going to learn this computer scientist is what they build abstractions. This is what we do, right? I think like in the pantheon of human knowledge the thing that computer science it's big contribution to the world is a very sophisticated understanding of how to build useful instructions and it puts a layer on top of it that let you think about it in a way that is simpler. Right? So I think about the details of what's going on and I can just think about this higher level abstraction that I build.  It's all computers are a big stack of these abstractions. So at the very bottom we have like the physical world, right? So what are we get? We get the periodic table of the elements.  That's it a hundred or so elements some of which are radioactive. So we probably shouldn't use them are quite rare in computers, like Silicon, which is important cuz we're going to use a whole lot of it to build processors. So that's the stuff and some quantum physics and some other stuff physics Material Science.  Really complicated. I never had a class in any of these things. I have chemistry in high school and physics in high school. And I took a physics by the Classics course in college. We like played with like Optics a lot. Anyway, so what we do is first thing we do is we rely on some other folks to build an abstraction on top of this and that abstraction is that we can build transistors and wires out of this stuff, right? So here's a picture of a transistor very very tiny a few nanometers across. This is a picture of some copper interconnect inside a chip in this is a picture of how you design if using something called cat and so the physicist the material scientists really hard Corps of Engineers, they tell us hey you can do transistors that are the small up with wires that are this way switch on and off this fast.  And then you can go build stuff with it. Right? So Intel is super good at this or the best process technology in the world that know how to build the best fastest smallest transistors.  And then we do and what have you guys all had 140, right? So 1:40 is basically how you take a transistor which is an electrical switch and turn into logic gates and doors man's not registers and so forth. And so now I can do some basic computations computation, right? Because circuits are Turing complete. That means that anything that any computer can do you can do with a man gate is all you need. Are you can use or as in other things as well. But all you really need is Nan. I'm sequential logic registers in a clock.  You can build all kinds of useful devices. In fact, you can build processors. So this is basically where this car this sucks ass is going to sit. So, you know, you didn't have to take Material Science to take 140. We've sort of decided that apartment in our Infinite Wisdom, or actually, let me tell you that you should start here and then we're going to build up on top of that right now. Call this big a architecture.  So big so this is an abstraction right that we've wrapped up around some Man games. We can go the processor. Then we take the process or we kind of wrap it in another kind of build it to work with a subtraction does an architectural construction set operations that the processor can perform memory making divided into a couple other things a bunch of other things and this defines kind of house offer is going to talk to it. And so there are a bunch of different architectures in the world.  Although really they're only like two that matter. There is an Intel and I which amd's is this is an old soul.  I said this is actually 6 and arm sun no longer exist, which is a pity.  arm so my handwriting  when I was in 4th grade.  My dad made a deal with me that I could I wasn't going to be able to play my Atari. Is there an Atari is all right. It's like an old Nintendo.  If I could improve my handwriting and if I got satisfactory on my handwriting in 4th grade, I couldn't I couldn't play my Atari until I I did that and I never played my Atari again because it's actually not quite sure about it took a while before he gave up on that construction sets that we use in this class.  Because this is what your textbook uses. There is an armed burglary textbook, but it's so buggy that it's almost unusable. I'm sorry about that. I wish it was better.  So this is a basic set of instructions that you can do. And this is how you get software plugged in to Maxwell's equations, right until implemented in a variety of ways away to at the mechanics governs the flow of electrons in semiconductors.  Right as the rest of computer science, right? So here's the IRS a and if your operating system person  or programming or I can pilot person then you Target that is a right on operating system might only run on x86 not only run on arm actually run on both. But if there's a whole directory of arm stuff in a whole director of x86 stuff, that's actually another abstraction that's in software this time. But you hide all the details of the differences between those two but they're four. They're there they differ kind of an instruction that they use to do basic operations 121. You can do compilers and see if he 131 you can build languages and CSE 130 and then there's applications in software engineering that's kind of see you see everything else fractions who loves python  Well, what are you guys love me or what's what school now?  Java  assembler  So I'll tell you okay, when I was in college. I went into the computer lab and nothing. I wanted more than anything.  I never shared this with anyone before transform into my undergraduate institution and he was wearing a leather jacket and he was he was shaved his head before beards were as cool as they are now, and he looks like a total.  I'm podcasting said to be careful.  He looks like a really cool guy. I was like I was like, oh wow, and he was like a backup script for the server or something right with our thoughts and he was like, you should really learn about this Java thing because it's going to be the next big language, right? So back in like 1942.  Not really. So Java was cool. Then, it is the world's most popular programming language to you and 148 anap.  Sorry.  No one loves python pythons awesome.  What else you got weather language has are popular nowadays.  cplusplus, Java  Tell you something about JavaScript JavaScript is the only language in wide use about which a book has been written that is called JavaScript the good parts because there are so many bad parts.  Alright JavaScript. I know like how did this happen? Cuz they're really embarrassing thing for computer scientists write like the worst language ever is now driving all of like modern computer right like something went wrong. It's very embarrassing is a computer scientist and invent the World Wide Web. It came out of the high performance Computing Community, which is like super computers and stuff. So anyway make of that what you will. So what is the current state of computer? So now we're like wow, we are a long way in 80 years in right to computer. So, how are we doing?  What is pretty well?  At least we have them on the path. So Moore's Law, very important even heard of Moore's Law.  All right. So I was lost says is that Gordon Moore was a very clever guy who way back when notice that the spear the number of transistors so we can fit onto a piece of silicon was growing very rapidly. It was doubly about every 18 months. The observations made it had like three datapoints there paper in the original graph paper really looks like this, right. So this is like a leech like tears apart and he was like, yeah, I'll just extrapolate out for the next 50 years. No problem ridiculous extrapolation. They didn't turn out. We don't talk about them anymore like Bob's failed prediction. We don't talk about that in college classes 1940s or so.  All the way through this ends in about 2009. It's still mostly going this is a log scale.  Does transistors per processor processors don't actually get smaller. They're always about the same size for economic reasons, but the number of transistors been increasing exponentially every couple of years or so.  So this is like this is amazing. Right that means that you can build a single device with billions of transistors on it. Not only that people I can tell manufacture thousands of these are the time and they all of these processors each with many billions of transistors and they all work right? It's amazing how many of these things I can get to work? So like this is the biggest people often mistake Moore's Law, which is about transistor density with the scaling of computer performance right in their separate things in a moment that the scaling of computer performance is having some some rough times and we'll talk about that and why that's so what are we done with this?  He's very sharp-looking. I think he's got his suit. He's wearing a suit and a sweater.  Oh, yes, all the stuff most of the stuff I've used most of the technology used all the technology on this slide. But this is like a VCR. I just took my last vcr and DVD player. Actually the Goodwill here's a radio is a boom. It's a video camera tapes cassette tape one point calculator Pearson books write all of this will fit and be much better is bigger than it needs to be from Canada immigration perspective. It's all about the display and that's kind of amazing. Right like this is if you show this stuff to people 50 years ago, like it's magic write this thing is amazing right way you can do with this.  Since 1940 or so there has been beat up in there has been about a billion times increase in density change if I wanted to reprogram my computer. What I would do is I would take some wires. It looks like the big stereo cables like the big thick fat stereo cables and I would reconfigure the computer by plugging these things in the right computer would take a team of people a long time. The computer couldn't do much and planned out ahead of time debugging would be terrible. But how is Java compiled compile? A lot of confused compiling use compilers used to be people?  Sad graduate students who actually translate code into Assembly Language, right? The first compilers like there was a programming language and there was so we go from here on assembling through something like GCC Ryan. So he has maybe a set-up. I don't know about that performance and we've spent it to basically make our lives easier and to do more interesting applications.  So this means that we made it easier to use you to program to solve every more complicated problems. There's a trade-off between how we spend our Graves. It had a word processor Apple works and you can type and frankly the experience as far as responsiveness to typing on my current laptop is worse than it was on the Apple to see which was the processor that I think ran at 1 megahertz right vs. My laptop with runs in about two gigahertz, but it's much easier to Performance in all kinds of different ways.  All right.  Where's my information?  I was supposed to be an angry bird flying across you can see him right here.  Tonight or Angry Bird. Alright, so  where's performance come from? So this graph if you show this to a computer architecture this graph sums up an amazing drama that is played out over the last 20 years. Okay. So what this is this is something called a benchmark.  It's called spekkens spec is a bit Consortium of companies that do processors and computers and I got together like they come up with a set of programs that they think are useful, you know, if these programs go fast and probably yorkim your computer is good for doing stuff in general performance. I have an hour of those 2000-2006 2017 performance write this gives you a standard measure of performance not like clock speed which is like a very mechanical wise to buy 1990 and this is a log scale.  It's important so you can see is that in the past on this kind of slope write linear slope on a log scale music performance is increasing exponentially. This is for 1/4, right so back here again when I was in college.  About going to college 1997 or so the thing that I dreamed so now I'm telling you guys all the stuff so I can't be any more geeky than that. Right. So the thing that I dreamed about having was a 2 socket motherboard that have two processors, right? It was like an unattainable dream cuz they're very expensive. So there's only single single processor system, whatever they're all over the place. I know what's on my next flight.  I'm jumping ahead a little bit. Anyway, it was increasing at something like I don't know 40% per year because what that means increasing 16 18 months something like that.  Wait, right nothing easier in the world to do than wait. So I just sit there at 18 months. My program will go twice as fast so easy right for me to do some performance optimization programming later back here. You can just have waited a year and turned in your homework and would have been a lot faster. But then in 2004  Right here.  the world changed  So this crap this is this is this is performance. This crap here is clock speed. This is like how many megahertz your processor run that you can see that this was also increasing exponentially unlimited by how much data I have here, but there's actually steeper than the performance curve clock speeds are going a very very fast and in 2004.  Hi, this is like a stock market crash of computer architecture right processor speed flat over 40% of year to not growing at all. In fact a drop for a little while and you could argue about what it's doing right now flat the same time actual processor performance started tapering off.  right  So now or this new regime performance is growing here at 8% per year. That means it takes about  9 years to double  takes 9 years to Dublin processors to get twice as fast now your homework is going to be very very late. If you try to do this the performance optimization just by waiting. So I was in graduate school. I graduated from graduate school in 2006. So I was in graduate school during this. We would buy new computers new servers for a server Farm like every couple years.  Because they be so when I got here I bought a bunch of computers. I'm still using them.  I'm still using the same computer cuz they're faster. If we got some new faster ones for some special stuff. And now we just go to the cloud easier for over 10 years and they're still useful who is very upset about this.  Intel is very upset about this, right cuz I didn't buy a new computer every 18 months now, I'm like a computer.  Sarcoxie most of this already. This is the Golden Age. The speed of computation has been increasing goes back even before the beginning of computers are electromechanical devices people use kind of big calculators that you would crunch with a big crank or something and even back through some people claim even through back into the 1800. We've been on this curve right just hasn't been conventional computers. We think about and it has now ended at least for now. Maybe it'll pick up again. Maybe we'll get some new cool technology to build ships out of  Here's some curves spent to these various regions 47% per year with a real golden age and now right here in about 8% per year.  Good thing I did for this is actually in this like I sent the sound of my computer architecture colleagues. And the fact that I just saw this is the fact that I drew this next graph was like mind-blowing because I turned off the log scale, right? We've always in computer architecture been thinking it would always draw a log scale step increases so fast, but like it's not useful anymore cuz it just looks flat out here. So this is the 8% for your car and we're like right on it.  So that's where you are computer processors individual Kors. Actually. This is important are are not getting faster very quickly. This is changed a lot of stuff. So the other clocks been scaling. So this is going on there were pushing clocks be really hard power was the big limiter the faster you flip the clock. So you guys think I study transistors and how they work and 140 right? So we're transistor Works RI gateworks. I open up the at the top. I think it's the end of the gate turn off power when they're when when the  The clock right the clock, right? So the clock is going from 120. I dumped a bunch of current into the clock everything switches and then I turned on the clock it drains off in the ground, right? So that's current flowing as resistance of Burns Power and this power was totally killing us. So this is the famous graph there lots of these version of running around on this is the one graph. I don't have to update because power has flatlined, but the problem was right. So here's 1990s 46 first processor. I had was a 40 to maybe a 586 so long scale again or increasing exponentially Pentium is out here hot place. You could cook on processors in the mid-90s nuclear reactor power dance to this is watts per square centimeter rocket nozzle. The sun's surface was not far away right? This Christmas could not continue and  Throw throw some animations rights and go straight things to continue as basically flat on its limited by how quickly you can cool. So basically we've cool machines. Now we put these big heat sinks on them. You've seen them you blow air over them and they dissipate if you want to get really hard core you can use water cooling or liquid cooling and you can run your processor's a little bit higher over overclockers, which of these crazy folks with liquid nitrogen even faster left for practical purposes were capped out at about a hundred Watts for processor or something like that. Then we can we can dissipate  That's a pretty hard limit. So what is the response to this? Right? So when we do we'll build more than one processor rights of One processor is fast to must be faster. This is why if you want to go to LA.  And you don't want to spend the two hours. It will take to get there. You should take two cars.  How do you say two cars you go twice as fast as Siri double for 4 minutes without changing the clock speed.  Right, so does seem simple and since becoming really important now so I've been through most of this already so used to be be just wait 18 months for everything to get faster. But now it's much harder right? I can build two cores, but getting something to go twice as fast on 2/4, it actually hard operating systems yet some of you all right. So you don't like threading stuff like threading for going to use hard and getting something to go 10 times faster on 10 cores is really hard right? That's a lot of work in process and people in general for good reason are lazy about this kind of stuff. And so we've had two should have put this off until we had no other choice and we are now well into that kind of dumb and we've been there for about 10 years.  What are the progression of processors?  So this is the MSRP for this was the last of the big fast clock rate processors this roundabout 4 gigahertz, which is still but just now like what 17 years later. We're getting back to the place where clock speeds are in that same kind of range things have been basically flat Core 2 Duo. So what happened was building basically, you could think of it as the P5 whatever it was called to cancel it because the power was going to be too high, but it wasn't going to work. They retooled inside. It was a big  There's a big deal and deal. I got to have in the market for a variety of reasons for the new product. I can with the court to the Halen 2010 for the spark T300 just now made by Oracle today about son is 16 cores Tegra 3 2011 is 5 quarters + B Zambezi from 2011 and 16 core. Kinds of variety. Right? It's not a continual increase because I can make these cord individual Kors faster or slower to pick up. My application is good for if it's easy to paralyze if I can easily make use of lots. Of course, I'll build more small courts, that's more efficient. But if I have complicated code then I will  I will look small course.  And this is the latest.  But I thought I could find for Intel processors crossout 2014 Intel Haswell Extreme Performance. 18 course lots, of course.  That's one way that we've been making computers faster. And this is basically how the cloud Works to Google software. Thrones in the cloud. It's all built to run really well in these kind of processor is right there highly parallel lots of Independence Reds on so they are they do just fine on this kind of debating if I can do all we get all these doing applications, right? All this new cool stuff is going on, even though individual core performance is not getting any better probably should have retooled the whole soccer Universe to work on the new machines.  But it's still hard. It's going to stall Problem by any means the rise of specialization. Right? So these processors back here. They are general-purpose. They can run basically anything they're good at running the kinds of programs you write in job are so used to see your supposed to floss or python whatever but you can go faster if you specialize right so  Is I want me to go for a specialized processors doing this for a while Resort of the first thing to do this right used to buy a dedicated graphics card called into basically these supercomputers on a piece of a car that you can buy.  So there now a Eye Specialists rosters for all your phones. Now if you have a new phone and tell Google is building their own AI processing chips to make it go faster. This is you this video processing supercomputing all kinds of place all kinds of places to build a machine for a specific application and now you can go a lot faster so much sense because it takes long time to build a chipper takes like four years to build a chip. So if I set off to build a new graphics chip or a new AI chip in for years back in the Golden Age, my normal process server is going to be what 8 * faster.  Right and I spent like a lot of money doing this to chip. So I should just wait I can do better better using normal general-purpose Computing but it makes sense to me to spend time to build these chips on Google has on their 3rd generation of this thing called tensorflow, which is there a CPU the tensor Processing Unit, which is for a I have lots of so this is this isn't a guy photo. It's a drawing I couldn't find add iPhoto. This is the new Nvidia one of the videos new gpus.  For graphics and Computing Define core in a funny way of Central and Coors. Are there a different program remodeling a very different instruction set of different programming languages to make it go fast, and it's all Taylor to this particular organization of heart of the big dog.  Here's the Google tensor for tensorflow processor talk about the building Universe thing called a pod which is like a I don't know a bunch of these. I forgot how many hundred or more of these things put together into one big Computing thing to do big AI workloads actually does inside is 8-bit matrix multiplication. That's what AI is just in case you were wondering that's all you need and a whole bunch of smart about the computation that you need.  All right.  So we've been over this little bit. Why should take this class? You should understand how computers work. You should how their why they're fast while they're slow. And in fact they have on what we can do with computers and be able to harness them to solve problems effectively. That's a very high-level, right? So more concretely. So how can a mechanically does a modern world?  Where to start with lots of water and processors cuz they were a lot simpler a processor Works what it takes to execute an instruction instruction said how do you express the computation to the CPU? You actually covered quite a bit of atom cft30. How does an Executor what support does the processor provide to the operating system of the software components?  And what techniques and Technologies are involved and how do they work?  Kind of performance accurately how you can read them about performance and are you can use your knowledge of computer science or computer architecture to make programs go faster and understand, you know, why performance varies and how those architectural decisions architectural parameters of a given program affect affect how fast it is.  a little bit more detail  we're talking about a few instruction sets 6 and some other is a  briefly  Where's my son called the processor pipeline pipeline? E140?  Maybe yes, no, not really a pipe lighting Works in Billing with things called hazards and speculation to make it go faster. What type of measuring performance  I'll give you a little heads-up.  This is one of the two most important things are going to Winter. In this class and has law on if you heard of animals law.  Something new so this is super important supplies like everywhere where you're measuring something not just computer architecture not even just computer scientist. Do you want to know how to build your budget your money and those laws an important tool so I can but that performance measurement. Would you use to measure performance of computing systems the memory system?  Memory is super important for about Big Data big baby has to live somewhere spends a lot of time sitting in memory getting fast access to that memory is really hard and is a kind of key bottleneck and modern computer system. So I don't understand how that works as critical. They're sending performance in the operating system also important virtual memory performance exceptions. And this is how you talk to the outside world so you can actually affect things and then processors actors and actresses.  Factor II face  I heard someone's phone go off.  I could say really loud. Hey, Siri.  Order me five copies of the 141 text someone on the radio in San Diego said I would have said hey Alexa order this dollhouse off of Amazon. I'm like five hundred people ordered the Stahl house off Amazon.  It's really terrible. I want Siri goes off. Sometimes when I'm listening to music in the car. I just like starts transcribing lyrics from something.  All right.  So that's a real estate in this class. How is the class going to work?  so  we are going to do so. This is that you guys heard about flipped classrooms are not actually going to flip the classroom a little bit backwards, right? So first I teach you stuff in class. That's how it's supposed to be usually used to work as how it works when I was in school. You didn't tell you all the details when you go and hopefully read your text book. Hopefully you read your text book. This is actually the hard stuff cuz that's where things get really concrete instead of just me drawing stuff on the slide and then you do the homework and then we test the stuff. We've actually really dumb because this is actually like I'm supposed to be the expert about the stuff. So really I should probably be over here or over here right after you've thought about the hard stuff rather than at the beginning when I'm just tired of playing this tape. It lives inside my head. That is Electra's for 1:41.  Factually true. I can like fast forward and back up. Sometimes I have to if I want to jump from side-to-side repeat after me. I'm going to read the text beforehand.  I am going to read the textbook before class. Yes. Alright, very good. I'm glad to hear it.  We're going to do the hard stuff in class will go to the slides and we'll do some examples and will be a quiz are going to be reading quizzes and then we'll have some loud. This is actually homework at what you do have a lab, but it's  Not not directly to the lectures and then I'm going to leave and I wish I could get rid of the exam.  But I guess I'm actually required to administer an exam during the final exam. And then if I do that then the students get upset if I only have like the only thing that affects your grades are you guys want to midterm an hour of the two exams will be two exams.  So anyways, that's how it's going to work. So.  Hope it a little bit more interactive. There's actually science and if you do it this way, it works better. So like  this is the thing called Karen Starks American groups. This is traditional instruction. This is normalize gain and student understanding the goal is for you guys to learn stuff and stuff and one is taller, but you guys learn more if I do it this way, so that's good.  So so good like psychology behind this right like so it actually is a very interesting study what it shows and this is a little bit disturbing if you think about it given the situation which we all find ourselves so that it's very very hard may be impossible for me. I've been studying the stuff for longer than I care to think about to talk to someone who is very new at this and have like a meaningful discussion about it. And the reason is that the way that I think about computer architecture you just very different from the way that someone thinks about it. I've never encountered it before right and so it's actually much more useful. If you talk to people about computer architecture, you have a level of understanding of similar to yours and are learning things at the same time you are because you probably have similar misconceptions and misunderstanding similar questions. You might have some answers that are to those questions you just different than the questions that I might think that people would have when they were first learning this stuff has been a very long time since I first learned if I can pee  architecture  So that means that you engaging with the staff is really useful. That's how you're going to learn. You're going to construct its own understanding for yourself. And your only do this in class. We have like little discussions among people outside of class as well. I encourage you guys to stay together. I don't encourage you to share answers to homework. So anything like what that is really the most effective way to learn I am an excellent resource in the TA is our national resource for answering questions about what you've learned and maybe putting in some context but developing those questions and sort of wrestling with him is something you need to do by yourself students actually also like this.  So you guys like this you didn't know that maybe but you do it makes you realize exactly what your mistakes you're making you are a lot. If you know if you get lost and she lost the election last of the lecture clicker questions help make students realize when they are getting confused before it is too late.  Who wants to spend half of a class lost and confused nobody? All right.  Types of people that do this they like that better than people with glasses that didn't work. So there's going to be a quick  the correct answers  Yeah, I got to read this later the tax rate of a quick quiz. I would like you to get these answers, right? They're not very hard that is kind of show that you actually did some reading and then during the class discussion drop in the size and you're going to think about it. They're going to reach a consensus MLB my myself. I will be around here to answer questions. So then you going to vote for these cookies questions or during class like there's no you don't get points for being right or wrong. You just have to click the button you need button will do I would prefer that you click it thoughtfully, but either way  You guys have clickers how many of you have Clickers?  All right.  So let's do a cookie clicker have time. This is Holy skippable. We don't have time to login to Moodle.  You guys know about Moodle?  No, I will send out an email how to get to Moodle cuz I'm not your key information for the classes and follow the instructions. So we are going to use the book. It's a good text you to come to class. Give me listen to lectures you to pay attention, but text is actually written by some very famous people who was in Paterson. This is Patterson and David Patterson is an Emeritus Professor Berkeley, Google.  I'm sure he is making an enormous amount of money sort of the the foundations of modern computer architecture. A lot of ways. He also don't raid which is how you build reliable storage systems until recently was the president of Stanford and they both just won the Turing award which is like the Nobel Prize for computer science. It's a little interesting. I would like to her little secret. It's called is Patterson and Hennessy and these guys know everyone in computer science. So this really means that the hey, can you revise the chapter on so and so and then they do because you can't say no to  Crowdsource across all over like luminaries of computer architecture working today, right? You look in the back of the list of the kind of acknowledgment and thank you and those are all like top-flight people from University and companies all around the world who really know all their stuff about this. So they're really good sex with lots of good information too much for us to cover in a 10-week order clicker participation. That means just clicking reading quizzes Which of the clicking at the beginning of the class 5% homework at 20% midterm is 30 cumulative. Final is 40%  They're going to be some homework there going to be a sign on Thursday 1st homework is up. It's just some administrative stuff. It's going to be doing a week later some of the movie from the book doing the homework is the best way to prepare for the test. So it's like you're studying for the final even before the final of the midterm elections online some of the questions on homework or going to be graded for correctness. Some of them are going to be kind of checked out that you did them. You do a temp the mall copying and sharing answers on the ungraded homework assignments is also cheating really copying anything from another person in passing it off as your own work is cheating. That's what sort of a good blanket statement.  This is something you were going to try. They're going to be one or two programming assignments. They're going to be about performance.  Complete the middle replace one homework never going to be writing code to explain explain fee architectural features of modern processors. This is a little bit of the project that I own some of the professors are working on to significantly redesign this course, and this is the thin end of the wedge. We're going to have more programming assignments and so far. She actually deal with Morrie architecture programming basics.  We already talked about this.  So the grading is going to work like that. So there's your grades are going to be on the floor for your four point scale. Right? 4.0 GPA is you're going to letter grade in every assignment real map on to somewhere very far point scale and your final grade is just the weighted average of all of your assignment and final grades. What's this about? This is a spreadsheet. I'm very proud of it. What's cool about this is that we will post a sanitized version of the spreadsheet every week or so after the midterm. That means that if you have a question like, can I still get an A in this class or can I still get a c in this class? You can just type in your grade. You think you were going to get on future assignments and it will tell you what grade you might be able to get it through the signs of greater sign and everything in the spreadsheets. I'll tell you everything you need to know who's there a lower bound. Sometimes I boost things up a bit. Sometimes it turns out that no one got it more than a B minus in the class.  Nothing's a little bit unfair. So we'll shift things up. I will give you a lower bound what your grade will be.  People in 140 have a huion 141 our who is Mater 141 out.  Why are you not a wonderful and 141 out?  What?  Oh well.  I'm sorry to hear that and thank you for sharing. All right, so if you have questions at 1:14 out 141l, you need to go talk to you. I think it's John Alden. This court is teaching. Is that right? So go talk to him. I really can't help you out with any of that. We had to split it up because the classes got too big and so you'll start to apply some of the things you learn in there. There should be lots of fun to go to the processor I believe.  There is a waitlist. I do not control the waitlist that is all handled by CSC. And so if you have questions about the way that you should talk to them. I don't get involved. There are too many of you for me to wrestle with that.  We're going to use a variety of instruction. Tools Moodle is where all of the materials are going to be distributed Piazza is for discussion only. There's not going to be any like so this is their home works distributor. There is just for question answer grade still for turning things in there is 10 but it's just going to be to register your clippers are not going to sign up for 10. Noodle here is a Moodle account. I will email it out to the class or some of you were being clever and taking pictures of the slide need to sign up on your own for Piazza. I encourage you to opt out of the stupid advertising stuff. They do if you have questions about disability stuff for me to go out with his other kind of stuff. You should email me tonight.  It's probably won't get made public. You should assume that it is we have some course staff. You will meet them throughout the course of the class make use of us. As I said a shockingly small number of people come upstairs.  Academic honesty, I'll repeat those next time don't cheat or you'll get in trouble and we will be checking don't click for anyone else don't have anyone else to cook for you. Don't copy Solutions don't you know the final don't post Solutions online all these things are cheating. If you have questions are whether something is cheating, then you can ask and I will answer you no one ever gets in trouble for asking about this kind of stuff but you can get in trouble for actually doing this kind of stuff cheating is such a drag it is by far. The least favorite part of my job is dealing with people who cheat so don't make me do that part of my job. I will see you next Thursday lecture on Tuesday is going to be a podcast that I will send out a link. It's going to be a lecture from Leo Porter who's an excellent instructor teaches its course as well. I am at a point of a traveling so we will resume next Tuesday. Watch out for the link to that'll be out very shortly. I will see you then.  Yes impact on the nun.  I mean  This class is self-contained. I mean, you will not learn the stuff you learn 141 out but it won't hurt you in here at all.  And maybe have a person to ask but I haven't read. "
+}
