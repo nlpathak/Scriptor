@@ -22,12 +22,22 @@
 }
 
 
+.history button {
+    background-color: rgba(72,136,163,.93);
+    color: rgba(255,255,255,1);
+    border: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 100px;
+    top: 121px;
+}
 
 .history .search h1 {
     color:rgba(0,0,0,.65);
-		padding-top: 15px;
+	padding-top: 15px;
     padding-bottom: 45px;
-		position:absolute;
+	position:absolute;
     font-size: 30px;
     cursor: default;
 }

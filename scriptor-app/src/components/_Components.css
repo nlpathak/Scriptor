@@ -376,12 +376,13 @@ button:focus {
 }
 
 .ressearchform .resfilters {
-    display: inline;
+    display: inline-block;
     overflow: auto;
+    position: relative;
+    right: 20%;
 }
 
-.ressearchform .resfilters .resfilterinputs {
+.ressearchform .resfilterinputs {
     width: 30%;
-    float: right;
-    margin-right: 10%;
+   float: right;
 }

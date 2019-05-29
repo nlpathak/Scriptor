@@ -44,12 +44,19 @@ class History extends Component {
     });
   }
 
+  onClear(e) {
+    APIClient.clearHistory();
+    this.setState({queries: []}); 
+    this.setState({podcasts: []});
+  }
+
   render() {
     if(APIClient.isCurrentUserLoggedIn()) {
       return (
         <div className = "history">
           <div className='header'>
             <h1>HISTORY</h1>
+            <button className='center' onClick={e => this.onClear(e)}>Clear</button>
           </div>
           <div className = "search" >
             <h1> You've Searched For...
