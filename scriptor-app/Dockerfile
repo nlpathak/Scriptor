@@ -7,5 +7,7 @@ RUN npm install --silent
 
 EXPOSE 3000
 
+VOLUME /app
+
 # start app
 CMD ["npm", "start"]

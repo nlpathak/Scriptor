@@ -37,6 +37,8 @@ services:
     - 3000
     depends_on:
     - backend
+    volumes:
+    - ./scriptor-app/:/app/
     restart: always
 
 volumes:
