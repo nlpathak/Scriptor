@@ -1,0 +1,416 @@
+{
+    "Blurbs": {
+        "+ 0 + 6 I get - 6 2 * - 3 + 0 + 6 is -6 + 6 which is 0 + 2 * -3 + 0 + 8 is -6 + 8 is 2 and that is indeed twice that original Vector - 301 as we knew it had to be so that is an eigenvector with eigenvalue. so is the first one 1/2 is it 1-0, ": [
+            588.1,
+            621.0,
+            17
+        ],
+        "- 0 so the question is for which Lambda? is 1 - Lambda squared equal to zero Well, that's easy to solve this case only Lambda equals 0 equals 1. So that's the only eigenvalue of this Matrix a So now let's figure out its eigenspace. a - 1 * I that's the Matrix. 0100 which is conveniently already in reduced row Echelon form for us. I so I want ": [
+            768.2,
+            820.7,
+            22
+        ],
+        "1/2 1 0. + x 3 x - 3 0 1 and there's my basis. Pay those two vectors form a basis for the eigenspace of the eigen vector to those are both eigenvalues and eigenvectors for 8. Let's just double-check that sanity check over here. If I take the Matrix a i x let's II Vector. Let's say See what I got. I got -3 * 4 is 12 ": [
+            542.5,
+            588.1,
+            16
+        ],
+        "7 linearly independent vectors in RN. Avesis and there's an important thing for you to remember for the mid-term. If you want to check if a set of vectors in RN forms the basis for RN it's enough to know that there are enough of them and are linearly independent enough of them. Okay, so if I've got an distinct eigenvalues, that means that I'll have a basis of eigenvectors. ": [
+            1640.8,
+            1679.6,
+            44
+        ],
+        "But the trick is it can be realized as matrix multiplication on the rights. This is V1 V2 VN times the diagonal matrix with the lambdas on the right. You can verify that for yourself if you want. But that's how you achieve scaling The Columns of a matrix u x diagonal matrix. So what this says here is hey, what is this into V1 V2? That's the thing that ": [
+            2189.2,
+            2224.3,
+            58
+        ],
+        "Edition. I used on the next flight. Okay. So what actors wnv are not linearly are linearly independent first things first. We can know that they are not zero. How is it we know that they're not zero. Could one of them be zero. Can I have an eigenvector that zero? No by definition eigenvectors are always nonzero Vector stuff. I'm telling you. That's an eigenvector. Then it must be ": [
+            1288.8,
+            1332.4,
+            36
+        ],
+        "Find eigenvalues and the next time of course you have a midterm on Wednesday evening. So the next lecture after this one on Wednesday will be a review lecture. So that midterm one more reminder is from 8 to 10 p.m. On Wednesday evening in three different rooms to Ann Peterson one and Galbraith your room and hopefully you already know them. I posted to practice midterms last week. Hopefully ": [
+            1.1,
+            28.0,
+            0
+        ],
+        "I call it one-dimensional because it's Dimension is one the dimension of a Subspace is the size of any basis. He was produced a basis for this eigenspace for the null-space of a - I and it has just one vector in it. So it is one-dimensional. Eigenvectors and eigenvalues in the term not on your midterm, but the notion of diminishing surely is so make sure that we're all ": [
+            913.1,
+            937.7,
+            25
+        ],
+        "It's right now they're carefully for you. That's a very important to know. Why should I care about that? Why should I care about having linearly independent eigenvectors? Well, here's why So if I have soda says is if I have a distinct supposed to have a square Matrix. Seven by seven and all seven and I and I have seven distinct eigenvalues for it. Then that means there are ": [
+            1605.9,
+            1640.8,
+            43
+        ],
+        "Matrix Zero by some Vector. I want to know when does that equal zero? All vectors the null-space of the zero Matrix is every vector. Okay, so this is two dimensional. If you want to basis, you may as well just choose the standard basis. So here we have two examples to only have one of eigenvalue one for the Matrix is one-dimensional. Just the first standard basis Vector stands ": [
+            1038.3,
+            1080.6,
+            29
+        ],
+        "Matrix, but it's typically hard to find those Landis for which the null space is not trivial. And so we're going to start by looking at some more examples of finding the eigenspace will produce basis for the eigenspace. Once we know when I can value But then we're going to talk about how you would actually go about finding the eigenvalues, which is harder problem. So let's start with ": [
+            244.8,
+            268.6,
+            7
+        ],
+        "Okay, that's really important. When you have a basis of eigenvectors for your Matrix. Things are super nice. That means it's simple as it gets. So let me explain why so why is that so nice? This is super nice. And why is that? Well, let's think about it this way. So suppose I take that basis. I'm going to basis. Let's call it the one to the three. the ": [
+            1681.3,
+            1715.2,
+            45
+        ],
+        "Rose or the dimension of the column space or the dimension of the row space does all mean the same thing. So what's the number of pivotal Rose here just one cuz all three are scalar multiples of each other all equal. So this is to its Melody is Personality plus the rank is equal to the number of columns. So we have one plus two is three. So nobody ": [
+            390.8,
+            417.7,
+            11
+        ],
+        "a PVP inverse and then go ahead and do a calculation to show that there is no such pee but and I actually encourage you to do that. That would be a fun example for you guys to work out but actually will see you on the next a good understanding of why they are not similar. So here's why. If I have two similar matrices are not like we ": [
+            2644.0,
+            2672.3,
+            72
+        ],
+        "a so that means and so on. So this last line is the same thing as X1 Lambda 1 + X2. accent London What is that say that says I know I can expand it. Somehow the basis vectors. In fact the way I would figure out what those coefficients in the coordinate Vector RS production so I can figure out what those X's are now. I also want to ": [
+            1838.0,
+            1879.1,
+            49
+        ],
+        "a while. Now. Let's look at a couple more examples. So there's a matrix a 82 by 2 Matrix No, I haven't told you what its eigenvalues are. Okay, but actually it's not hard to figure out what it's like and values are. Because this is a triangular Matrix. So it's easy to compute the determinant of a triangular Matrix as we saw and determinants determinants. Tell us when a ": [
+            660.9,
+            694.7,
+            19
+        ],
+        "able to land a one-v-one, etc. So I can write this as Lando on V1. Lambda 2 V 2 app to Lambda and V on this is just a different way of rewriting what we saw on the last slide. I know if I've got a matrix and what I do to it is I scale each of its columns by some number that can be realized as matrix multiplication. ": [
+            2160.2,
+            2189.2,
+            57
+        ],
+        "an example. So here's a matrix a square Matrix telling you that to is an eigenvalue for that Matrix. Okay, so let's find a basis for the corresponding eigenspace. What does that mean for the eigenspace? for a with eigenvalue 2 is nothing other than the null-space of a -2 * the identity Matrix - 2 X 2 Matrix. So first let's figure out what is a -2 times the ": [
+            268.6,
+            314.7,
+            8
+        ],
+        "are. They are very quiet. parallel So let's assume for contraction that are parallel. Let's suppose that W is some scalar multiple c x v and then there's one in key observations. I want to make here could that's eb-0. Don't wait up. Cuz that would make W 0 and we know that the vectors are not zero so we know that this killer must will season seven times the ": [
+            1373.0,
+            1414.5,
+            38
+        ],
+        "at 11:59 p.m. One more reminder that stuff we're doing today is not on this midterm, but I'm glad you're all here because it's going to be on the final and it's super important. We're moving into the most important part of the course eigenvalues and eigenvectors are the most important tools that you will take away from this course in anything you're going to do in the future. a ": [
+            53.1,
+            82.9,
+            2
+        ],
+        "because here they are. Super simple expressions in itself. So what this says? Is that the coordinates of a w in the basis B? are just Lambda 1 * x 1 Lambda 2 * x 2 Lambda end times x n that's very simple. In fact, we can write that in a really nice way. We can write this as follows. So if I forget now, I have this abstract ": [
+            1902.9,
+            1959.7,
+            51
+        ],
+        "but actually the eigenspace is a Subspace. So we're free to scale the vectors in it and will stay in the eigenspace. So in fact, I think I'd prefer to replace this one by twice it. 120 right just so you could choose the dog in space. Okay, so there is how we find eigenvectors knowing and I can value it's just doing the same thing. We've been doing for ": [
+            621.0,
+            660.9,
+            18
+        ],
+        "by 2, Matrix will be two distinct eigenvalues. You have a three-by-three most of the time they'll be three distinct eigenvalues and what's great about that. If you have a bunch of eigenvectors of a matrix. Four distinct eigenvalues. I have two distinct eigenvalues and eigenvectors for those two distinct eigenvalues. Those eigenvectors are automatically linearly independent. I saw something algebraic about the eigenvalues whether they're equal or not tells ": [
+            1177.9,
+            1209.6,
+            33
+        ],
+        "can rewrite this slide as a x p and now I can X p.m. Verse on the left and get that piano verse. AP is equal to be Okay. So if a is PVP in verse that tells you that he is equal to P inverse AP quite the same statement, right? Well, but the statement is a and b are similar if there is some invertible Matrix p for ": [
+            2500.9,
+            2547.1,
+            68
+        ],
+        "cases real quick to calculate a polynomial equation that polynomial is called the characteristic polynomial of the Matrix and we'll talk about that more at the end of lecture. This is a way to find eigenvalues in general. It's the way that you guys will have to find that conducts. Okay. So here now, I want to start to talk about what kind of properties eigenvectors can have so we ": [
+            1113.0,
+            1142.1,
+            31
+        ],
+        "clear on that what it means just count the number of basis vectors. Here's another example 2 by 2 Matrix. This is a super nice Matrix is the identity Matrix. What are the eigenvalues of this Matrix again in the two by two cases going to be pretty easy to do just like we did. Let's figure out what are the values of land. For which B- line two times ": [
+            937.7,
+            960.0,
+            26
+        ],
+        "eigenvalues. See you Wednesday for mid-term review. ": [
+            2968.3,
+            2971.0,
+            81
+        ],
+        "end a basis of eigenvectors It's a basis for RN in vectors each one of those Associated to some eigenvalue. Let's call them Lambda one, Lambda to Lambda S3 down the line. Okay. So what's nice about that is if it's a basis. That means that any vector. wnrn can be expanded Can the bases be right? That's what a basis is. In fact, we have a notation for that ": [
+            1715.2,
+            1757.9,
+            46
+        ],
+        "from the third Heroes there now. I'm practically done. The only last thing that I could do is Pivot. And there is the reduced row Echelon form of this Matrix. So that tells me that the null space. of that Matrix, which is a -2 times the identity can be written as the set of vectors X1 X2 X3 such that well the free variables are these two they don't ": [
+            483.0,
+            514.1,
+            14
+        ],
+        "front row are very similar, I'm not saying that if I said that it implies a two-way relationship your similar to him and your similar to him. So if I use the word similar it should have this should have this symmetry to it. So they is similar to be should be similar to a apparently true from the way it's written here, but it is true because if we ": [
+            2475.7,
+            2500.9,
+            67
+        ],
+        "gave us this equation that I want to explore May hold another context. I give you two square matrices, they Envy They are called similar. You can find some invertible Matrix matrices. What we just saw is that if you have a basis of eigenvectors for a then a is similar to a diagonal matrix. So for example as we saw from the first theorem if all if you're in ": [
+            2408.3,
+            2443.6,
+            65
+        ],
+        "happens if I take the Matrix a and X The Matrix p eigenvectors are the reason eigenvalues are the lambdas. Found a x p let's remember the definition of matrix multiplication. I'm multiplying a x The Matrix whose columns are the v's. That's the same thing as just multiplying the matrix by each of those columns. The eigenvectors the vectors V1 Savion are eigenvectors. So a x v one is ": [
+            2122.8,
+            2160.2,
+            56
+        ],
+        "have his little ones in those columns. And so the only thing we're going to get is a constraint on X1 in terms of X2 and X3 that first equation that says x 1 - 1/2 x 2 + 3 x 3 equals 0 x 1 is equal to 1/2 + 1/2 * x 2 - 3 x 3 Which as usual I can separate out as x 2 x ": [
+            514.1,
+            542.5,
+            15
+        ],
+        "identity Matrix. So that is 4 - 16216 2 - 1 8 2 0 0 0 2 0 0 0 2 Okay. and so that is 2 - 1/6 2 - 1 + 2 - 1/6 So that first Matrix, they're actually it's not hard to check that it's invertible. Okay. So the 1A up there like no one of those Rose is a scalar multiple of the other. So ": [
+            314.7,
+            363.6,
+            9
+        ],
+        "if I take a vector wnrn. Then it's coordinates in the basis B. The unique number W is expanded in terms of those numbers of the basis. So that is to say this is the same thing as writing w x 1 x p 1 + X2 X V2 + x + x via. That's true. Whenever we have a basis, what's great here is that those vectors form of ": [
+            1757.9,
+            1793.3,
+            47
+        ],
+        "inverse for some invertible Matrix p but as we saw the last night, that's the same thing as is equal to P inverse b p so putting that in here this says that P inverse VP Now I'm going to multiply both sides by P on the left that says that BP is equal to Lambda Chi. But hey, what is that say that says that this Vector here. TV ": [
+            2782.1,
+            2824.3,
+            76
+        ],
+        "is 2 * this diagonal matrix, which is the easiest kind of matrix multiplication. There is So it's easy to understand what the Matrix a does to any vector? This is what we just saw. that What the Matrix Matrix? If you stand it in terms of The X Factor by this diagonal matrix with lamb, doesn't it? Let's give them a name. so it multiplies a coordinate vector by ": [
+            2019.1,
+            2067.3,
+            54
+        ],
+        "is a free variable. Okay, and actually that tells us immediately that this is just the span of the first faces Spectre for standard basis Vector 1 0 that's the case here. So to conclude we see that. the only eigenvalue of a is 1 and it has the one-dimensional space standby the first standard basis vector So that's the full information about eigenvalues and eigenvectors of that Matrix. Yes. ": [
+            860.0,
+            907.0,
+            24
+        ],
+        "is a good example the matrices A and B started with these matrices are clearly just do one step from the first and replace the first roll with it. But they are not similar matrices. Now we could actually prove that directly right now. We could we could do a contradiction argument and say hey, let's see if we can find a matrix P for which AP rich as equals ": [
+            2612.2,
+            2644.0,
+            71
+        ],
+        "is an eigenvector Abby with eigenvalue flakka is the whole story if I have two messages that are similar by a matrix p If I have an eigenvector V with some eigenvalue Lambda for the 1st. Then that I can value Lambda is also an eigenvalue for the Matrix and if I can Venture isn't the original. But pee is an invertible Matrix. It is an isomorphism linear transformation and ": [
+            2825.7,
+            2871.1,
+            77
+        ],
+        "is to that means so we can tell right away. Let's write a diving. We just said the rank of this thing. Is one there for the nullity of this thing? Is to know the nullity is the dimension of this space. To the dimension of the space registered at the eigenspace of to the null-space of a -2 times identity in it, but we know how to do that ": [
+            417.7,
+            451.1,
+            12
+        ],
+        "it for the second Matrix in space is two-dimensional another one. Okay. No, I've already by the way. I've snuck in here what we're going to do at the end of the lecture, which is how do you find eigenvalues in this case for Lambda Lambda? I has a non-trivial null-space. That's that's the same thing as a mine is Lambda. I having determinant 0 and for two by two ": [
+            1080.6,
+            1113.0,
+            30
+        ],
+        "matrix is invertible or not. We want to find Lambda. Such that a minus Lambda II has a non-trivial null space. Will one way to check that would be just to find Lambda for which the determinant of a minus Lambda I is not zero. So let's just go ahead and compute that. I'm sorry. I know space is not zero. So i e we want a minus Lambda. I'm ": [
+            694.7,
+            728.2,
+            20
+        ],
+        "matrix multiplication. If I just scale each of the coordinates by a number that's the same thing as multiplying that coordinate vector by a diagonal matrix cab schematic page 1000. That's what's great about having a basis of eigenvectors. It says that if I want to figure out what matrix multiplication by a does to a vector if I expand that Vector in the eigenbasis than all the Matrix does ": [
+            1985.3,
+            2019.1,
+            53
+        ],
+        "multiply. The vector W buy a and see what that new Vector is. So since the DS form a basis, I could also find the coefficients of that W in terms of the basis and the way I would do that is first x w and then repeat the same procedure to figure out where to find the efficiency of it, but I don't need to do any more work ": [
+            1879.1,
+            1902.9,
+            50
+        ],
+        "my Matrix has ended. You will have a basis of eigenvectors. And therefore your Matrix will be similar to a diagonal matrix, which means that computations of things like powers that makes your day if you follow that. I will explore this notion of similarity a lot next time it to you right now. Let me know one quick thing here. So if I said that you two in the ": [
+            2443.6,
+            2475.7,
+            66
+        ],
+        "nice thing about that is what does. Does it really implements that affect our business language that you might have seen from reading in the textbook sections we didn't do p is the change of basis Matrix from the standard basis to the eigenbasis. This is exactly But as you saw when you're doing your Matlab homework this relationship here allows you to do powers of The Matrix. That's pdpn ": [
+            2281.5,
+            2325.9,
+            61
+        ],
+        "no two of them are linearly dependent on each other and actually we could row reduce it and it's not going to be hard to check that it is actually an invertible Matrix when we subtract it becomes very not invertible it becomes what's the rank of this Matrix? It's a good practice for the mid-term. What does rank mean? The number of pivotal columns or the number of pivotal ": [
+            363.6,
+            390.8,
+            10
+        ],
+        "nonzero. And I know there is an is an eigenvalue which means the scalar multiple that appears for some eigenvector. So there is no Two nonzero vectors are in fact a linearly independent. I'm going to argue by contradiction suppose that they are linearly dependent. That what is that mean when I have two vectors, it's easy to recognize when their linearly dependent that happens. If and only if they ": [
+            1332.4,
+            1373.0,
+            37
+        ],
+        "not invertible. 8 - Lambda. I not comfortable. So what are we to check that and it'll be an easy Chex Mix? his to find Lambda for which the determinant of a minus Lambda I is 0 Okay, so let's just compute that for this example hear a minus Lambda II. Is the Matrix 1 - 9.1 01 - Lambda? and the determinant of that is 1 - Lambda squared ": [
+            728.2,
+            768.2,
+            21
+        ],
+        "now. Okay, if I want to find a basis for the null space of a matrix of this Matrix, what do I do? Row reduction. We should be used to that by now. Okay. So what I have to do is row reduced at Matrix, so I'll go ahead and subtract the first girl from the second. She gives me all zeros there. And I'll also subtract the first row ": [
+            451.1,
+            483.0,
+            13
+        ],
+        "null-space of a minus lamp attempts at w Matrix? No, I want to see what happens when I look at V instead. So let's take some nonzero Vector in there. So let's take some eigenvector V. What what does it mean to say that as an eigenvalue for value for a with eigenvector v? A & B are similar, so that means that V is equal to P A P ": [
+            2747.7,
+            2782.1,
+            75
+        ],
+        "on the other side. That's just the metric sort of transformation. The fancy word. We use for the mathematics is conjugation. We are conjugating V by P. Very important Point here as you move forward. Similarity is not the same as row equivalent equivalent matrices may or may not be similar to each other similar matrices may or may not be Roku belong to each other totally different Notions here ": [
+            2581.6,
+            2612.2,
+            70
+        ],
+        "other a half times the other some nonzero scalar multiple. How does that help us hear x v eigenvector with eigenvalue Okay. What if I also take a x w? 8 * W is equal to x w. That's the definition of them being eigenvectors with those eigenvalues. Know this first one here. I'm Not Gon equation W is equal to c x v so x w x c v ": [
+            1414.5,
+            1470.6,
+            39
+        ],
+        "powers of diagonal matrix. And therefore if I have this decomposition of a matrix as PDP inverse. Then I can do things like take powers of it really easily as you explored with an example taking the hundreds power of a matrix. That would have taken a hundred years if you just done it all by hand, but if you first do this procedure find eigenvectors, right the air as ": [
+            2354.4,
+            2376.7,
+            63
+        ],
+        "really use that terminology Value Place if it has some nonzero vectors in it. So we're looking for special numbers land up for which that has nonzero vectors in it. And what we saw last day is that well, if you're given a value it is been a routine for us. Now that we know what the eigenvectors are. That is. I just give you a report for any given ": [
+            200.9,
+            244.8,
+            6
+        ],
+        "same. They're isomorphic. They have the same dimensions as before. Look back at this example. Can we look back at the calculation? We did near the beginning of the lecture. We saw that both of these I had the same eigenvalues, but the first one in a space for that I can value Dimension One in the second example the eigenspace for that one. I can buy head to mention ": [
+            2908.2,
+            2939.8,
+            79
+        ],
+        "saw in the in the case of of a matrix that has on the basis of eigenvectors. But if that is the case because a pbpn rest for some invertible Matrix P have the same eigenvalues. And the eigenspaces for those eigenvalues have the same dimensions. Hey, this is what's really important about similarity transformation. It's two matrices are similar if I can get to one from the from one ": [
+            2672.3,
+            2701.8,
+            73
+        ],
+        "saw in the last two examples. Does 2 2 by 2 matrices? We saw both of them had only one single eigenvalue. Typical typically if you have a two by two different, sometimes there might be a repeated eigenvalue like in those two examples where you have only one eigenvalue, okay for a larger Matrix, but most of the time you're going to find that if you have a 2 ": [
+            1142.1,
+            1177.9,
+            32
+        ],
+        "say that Lambda and Mew. R2 eigenvalues of a matrix a and they're not equal to distinct eigenvalues. And supposed to have eigenvectors. Let's call them. u and v So you is an eigenvector with eigenvalue and eigenvector with eigenvalue miu4, but actually let me go let me change my rotation on call this one instead of you. Let me call it w cuz I think that's what I been ": [
+            1245.6,
+            1288.8,
+            35
+        ],
+        "so in particular if I had a basis of three eigenvectors for this eigenspace before and afters transformed So that means that well the vectors in the eigenspace change. The number of them of them that are linearly dependent doesn't change. So that's what similarity does for you have the same eigenvalues and they have the same profile of eigenspaces spaces aren't the same as the original Matrix. Look the ": [
+            2871.1,
+            2908.2,
+            78
+        ],
+        "space of a minor is not an eigenvector. What Vector is that? The zero Vector Subspace in the null-space of that Matrix a my slime to I so the proper statement would be the set of eigenvectors of a of a minus Lambda. Except zero I have to take out the zero Factor. But then no space that space. That guy is called in space. With Argan valueland. We only ": [
+            152.4,
+            200.9,
+            5
+        ],
+        "summary of everything that we said last night about our values are things that are associated to a square matrices make sense for square matrices if you have a square a matrix vector Is a nonzero vector v? With the property that when you multiply it by a all that does is to scale it by some scaling Factor, Lambda. Okay, that is just some number 3. And the number ": [
+            82.9,
+            120.2,
+            3
+        ],
+        "that it's gets killed by is called the eigenvalue associated to that eigenvector. now the set of all eigenvectors for a With a given eigenvalue is well. The sooner I'm in here is slightly false is equal to the null-space of a minus Lambda Chi that was the key observations made last day, but there's one small thing wrong with that statement. What is it? There is one in the ": [
+            120.2,
+            152.4,
+            4
+        ],
+        "that. Okay in the first only eigenvalue lab in space. Now let's look down here. Is this example if I take the minus 1 times the identity Matrix, that's just the identity Matrix. What's the null-space of the zero Matrix? What vectors does the zero Matrix kill? Ever the null space is a set of vectors that gets sent to 0 when I X The Matrix when I multiply The ": [
+            993.9,
+            1038.3,
+            28
+        ],
+        "the basis of vectors ABS bag in vectors be around then I say hey, look I'm just thinking of w x ones for XM. And I want to know multiplication by a on the vector of the vector W. What is that really do to W. What is it due to its coordinates coordinates is scale each of the coordinates by those I can and I can write that is ": [
+            1959.7,
+            1985.3,
+            52
+        ],
+        "the identity. Has a non-trivial null space. by calculating this determinant Well, that's just the determinant of the Matrix one- Lambda one- Lambda. Which is actually the same as the thing we got off of. And so we have the exact same thing as before. Only Lambda equals 1 is an eigenvalue. So this Matrix only has the eigenvalue Lando equals 1. Now we want to find Space cording to ": [
+            960.0,
+            993.9,
+            27
+        ],
+        "this diagonal matrix d Let me put another Matrix in here. Let's take those vectors the eigenvectors. String them together in a matrix. Let's call that Matrix. Now these former bassist. This is a square Matrix here. And this Matrix p is an invertible Matrix because it's columns form a basis for RN. So there's something that happens here that we can describe without reference to the coordinate vectors what ": [
+            2067.3,
+            2122.8,
+            55
+        ],
+        "those those basis vectors are eigenvectors for the Matrix a figure out what the Matrix a does. What does a do? 2 in generic Vector w Well, aw is equal to 8 * x 1 V 1 + x 2 + x mvn and using linearity of matrix multiplication. That's X1 AV 1 + X2 AV 2 + x navn But here's the the great part. These are eigenvectors for ": [
+            1793.3,
+            1838.0,
+            48
+        ],
+        "to find a basis for that again space. It says that the null space of a -1 * I Is equal to the set of vectors X1 X2 such that. Are we see that xx-1 is a free variable here. So X1 of a minor is a free variable in terms of x 1 and that first equation there. It says 0 x 1 + x 200 + x 1 ": [
+            820.7,
+            860.0,
+            23
+        ],
+        "to take Pipe hours, which examples Okay. Now this kind of expression here where is equal to p x some other Matrix X that's more meaningful than just being able to compute easily with it. Here is a very important notion that we can explore now similarity of matrices. So now let's let's forget for a moment where this all came from forget talking about eigenvectors and eigenvalues. But it ": [
+            2376.7,
+            2408.3,
+            64
+        ],
+        "to the other by conjugating VIP by x p on one side and Universe on the other that thing changes the Matrix eigenvalues eigenvalue stay the same and more over the eigenspaces for those two for a for the eigenvalues and dimensions. So how does this all work? Why is this true? well, so let Lambda be an eigenvalue. for the first Matrix a and so it's eigenspace. Is the ": [
+            2701.8,
+            2747.7,
+            74
+        ],
+        "to this will show you that the same thing is true for any number of vectors if I have a very large Matrix and I have 76 distinct eigenvalues in it. Then the eigenvectors any truchoice to buy converters for those 76 eigenvalues will all be linearly independent. And if you want to see the details of how you modify this proof for that general setting look in the textbook. ": [
+            1585.1,
+            1605.9,
+            42
+        ],
+        "to those are not isomorphic to have different dimensions. And therefore it's impossible to find a matrix P for which is equal to PVP inverse. So that's what similarity tells you tells you that the eigenvalues are the same and that the eigenspaces are isomorphic. They have the same dimensions. So we'll stop there for today and on Friday will continue with characteristic polynomials in general and how to find ": [
+            2939.8,
+            2968.3,
+            80
+        ],
+        "verse where it so let's write that that just means multiply that by itself. Time does the p inversely cancel inside giving us the identity Matrix. So this is PD squared PN verse. Does squaring a diagonal matrix is quite easy. The product of two diagonal matrices is just the diagonal matrix whose entries are the products of 1 squared Lambda 2 squared down the line. It's easy to take ": [
+            2325.9,
+            2354.4,
+            62
+        ],
+        "we called p and this diagonal matrix that was food called D. So I guess this equation I guess it's a x p is equal to p x d. And then one more thing we see from that is this Matrix P was invertible. So I can multiply by the inverse. Let's x p inverse on the right when I get the a is equal to p d p inverse ": [
+            2224.3,
+            2252.7,
+            59
+        ],
+        "which a is equal to PVP in. So there is an invertible Matrix here to which will call Q. That's P inverse. So this is that V is equal to 2 and then feed in verse so she is to inverse and so yes indeed if a and b are similar then DNA are similar. It's so this taking a p and x p on one side and P Universe ": [
+            2547.1,
+            2581.6,
+            69
+        ],
+        "which is equal to c x a v so what does that mean? Well, I've got an equation for a v. Lambda * W. But ww.w is equal to C x v so this is equal to Lambda times CP. These two different size tracing through the whole thing. When I get is that times movie is equal to c x Lambda V. Let me subtract that. that says c ": [
+            1474.4,
+            1536.7,
+            40
+        ],
+        "x Miu - Lambda x v is there a so here's what I've got. I've got some vector v. I know that it's not zero. I've got a constant. I know that it's not zero and I've got this number has landed here are the distinct is not zero. Nonzero number number X nonzero vector and somehow that's equally. And that is the conclusion of the proof. A similar proof ": [
+            1536.7,
+            1585.1,
+            41
+        ],
+        "you something about the relationship between the eigenvectors. They must be linearly independent. I want to show you why this is true. Your textbook has a full proof of this. I'm going to do the special case where we have to I can vectors okay, which demonstrates problems and making it hard to understand. So we'll just look at the case. of two distinct like a goddess Okay, so let's ": [
+            1209.6,
+            1245.6,
+            34
+        ],
+        "you've been working through them and doing all the other exercises several people have already posted their solutions to the midterms on with other people responding about what they thought was right in what they thought was wrong. You should join that discussion that's going to be a great way to study and one more administrivia reminder that your MyMathLab homework set number 6 on determinants is due tomorrow night ": [
+            28.0,
+            53.1,
+            1
+        ],
+        "your Matlab homework. This is super important were going to talk about this more next time. So on Friday and next week as well, but if you have a basis of eigenvectors what that says is that your Matrix can be written in this form invertible Matrix P. You can use it to multiply on the left on the right by P&P inverse by a diagonal matrix and the super ": [
+            2252.7,
+            2281.5,
+            60
+        ]
+    },
+    "File Name": "Linear_Algebra___B00___Kemp__Todd_Aahron___Winter_2018-lecture_20.flac",
+    "Full Transcript": "Find eigenvalues and the next time of course you have a midterm on Wednesday evening. So the next lecture after this one on Wednesday will be a review lecture. So that midterm one more reminder is from 8 to 10 p.m. On Wednesday evening in three different rooms to Ann Peterson one and Galbraith your room and hopefully you already know them.  I posted to practice midterms last week. Hopefully you've been working through them and doing all the other exercises several people have already posted their solutions to the midterms on with other people responding about what they thought was right in what they thought was wrong. You should join that discussion that's going to be a great way to study and one more administrivia reminder that your MyMathLab homework set number 6 on determinants is due tomorrow night at 11:59 p.m.  One more reminder that stuff we're doing today is not on this midterm, but I'm glad you're all here because it's going to be on the final and it's super important. We're moving into the most important part of the course eigenvalues and eigenvectors are the most important tools that you will take away from this course in anything you're going to do in the future.  a summary of everything that we said last night about our values are things that are associated to a square matrices make sense for square matrices if you have a square a matrix vector  Is a nonzero vector v?  With the property that when you multiply it by a all that does is to scale it by some scaling Factor, Lambda.  Okay, that is just some number 3.  And the number that it's gets killed by is called the eigenvalue associated to that eigenvector.  now the set of all eigenvectors for a  With a given eigenvalue is well. The sooner I'm in here is slightly false is equal to the null-space of a minus Lambda Chi that was the key observations made last day, but there's one small thing wrong with that statement. What is it?  There is one in the space of a minor is not an eigenvector. What Vector is that? The zero Vector Subspace in the null-space of that Matrix a my slime to I so the proper statement would be the set of eigenvectors of a of a minus Lambda.  Except zero I have to take out the zero Factor.  But then no space that space.  That guy is called in space.  With Argan valueland. We only really use that terminology Value Place if it has some nonzero vectors in it. So we're looking for special numbers land up for which that has nonzero vectors in it.  And what we saw last day is that well, if you're given a value it is been a routine for us. Now that we know what the eigenvectors are. That is. I just give you a report for any given Matrix, but it's typically hard to find those Landis for which the null space is not trivial. And so we're going to start by looking at some more examples of finding the eigenspace will produce basis for the eigenspace. Once we know when I can value  But then we're going to talk about how you would actually go about finding the eigenvalues, which is harder problem.  So let's start with an example. So here's a matrix a square Matrix telling you that to is an eigenvalue for that Matrix.  Okay, so let's find a basis for the corresponding eigenspace.  What does that mean for the eigenspace?  for a  with eigenvalue  2  is nothing other than the null-space of a -2 * the identity Matrix - 2 X 2 Matrix. So first let's figure out what is a -2 times the identity Matrix. So that is 4 - 16216 2 - 1 8 2 0 0 0 2 0 0 0 2  Okay.  and so that is  2 - 1/6  2 - 1 + 2 - 1/6  So that first Matrix, they're actually it's not hard to check that it's invertible.  Okay. So the 1A up there like no one of those Rose is a scalar multiple of the other. So no two of them are linearly dependent on each other and actually we could row reduce it and it's not going to be hard to check that it is actually an invertible Matrix when we subtract it becomes very not invertible it becomes what's the rank of this Matrix?  It's a good practice for the mid-term. What does rank mean?  The number of pivotal columns or the number of pivotal Rose or the dimension of the column space or the dimension of the row space does all mean the same thing. So what's the number of pivotal Rose here just one cuz all three are scalar multiples of each other all equal. So this is to its Melody is  Personality plus the rank is equal to the number of columns. So we have one plus two is three. So nobody is to that means so we can tell right away. Let's write a diving. We just said the rank of this thing.  Is one there for the nullity of this thing?  Is to know the nullity is the dimension of this space.  To the dimension of the space registered at the eigenspace of to the null-space of a -2 times identity in it, but we know how to do that now. Okay, if I want to find a basis for the null space of a matrix of this Matrix, what do I do?  Row reduction. We should be used to that by now.  Okay. So what I have to do is row reduced at Matrix, so I'll go ahead and subtract the first girl from the second. She gives me all zeros there.  And I'll also subtract the first row from the third Heroes there now. I'm practically done. The only last thing that I could do is Pivot.  And there is the reduced row Echelon form of this Matrix. So that tells me that the null space.  of that Matrix, which is a -2 times the identity can be written as the set of vectors X1 X2 X3 such that well the free variables are these two  they don't have his little ones in those columns. And so  the only thing we're going to get is a constraint on X1 in terms of X2 and X3 that first equation that says x 1 - 1/2 x 2 + 3 x 3 equals 0 x 1 is equal to 1/2 + 1/2 * x 2 - 3 x 3  Which as usual I can separate out as x 2 x 1/2 1 0.  + x 3 x - 3 0 1  and there's my basis.  Pay those two vectors form a basis for the eigenspace of the eigen vector to those are both eigenvalues and eigenvectors for 8. Let's just double-check that sanity check over here. If I take the Matrix a i x let's II Vector. Let's say  See what I got. I got -3 * 4 is 12 + 0 + 6 I get - 6  2 * - 3 + 0 + 6 is -6 + 6 which is 0 + 2 * -3 + 0 + 8 is -6 + 8 is 2 and that is indeed twice that original Vector - 301 as we knew it had to be so that is an eigenvector with eigenvalue.  so is the first one 1/2 is it 1-0, but actually  the eigenspace is a Subspace. So we're free to scale the vectors in it and will stay in the eigenspace. So in fact, I think I'd prefer to replace this one by twice it.  120 right just so you could choose the dog in space.  Okay, so there is how we find eigenvectors knowing and I can value it's just doing the same thing. We've been doing for a while. Now. Let's look at a couple more examples.  So there's a matrix a  82 by 2 Matrix  No, I haven't told you what its eigenvalues are. Okay, but actually it's not hard to figure out what it's like and values are.  Because this is a triangular Matrix.  So it's easy to compute the determinant of a triangular Matrix as we saw and determinants determinants. Tell us when a matrix is invertible or not. We want to find Lambda.  Such that a minus Lambda II has a non-trivial null space.  Will one way to check that would be just to find Lambda for which the determinant of a minus Lambda I is not zero. So let's just go ahead and compute that. I'm sorry. I know space is not zero. So i e we want a minus Lambda. I'm not invertible.  8 - Lambda. I not comfortable.  So what are we to check that and it'll be an easy Chex Mix?  his to find Lambda for which the determinant of a minus Lambda I  is 0  Okay, so let's just compute that for this example hear a minus Lambda II.  Is the Matrix 1 - 9.1 01 - Lambda?  and the determinant of that  is 1 - Lambda squared - 0  so the question is  for which Lambda?  is 1 - Lambda squared equal to zero  Well, that's easy to solve this case only Lambda equals 0 equals 1.  So that's the only eigenvalue of this Matrix a  So now let's figure out its eigenspace.  a - 1 * I  that's the Matrix.  0100 which is conveniently already in reduced row Echelon form for us.  I so I want to find a basis for that again space.  It says that the null space of a -1 * I  Is equal to the set of vectors X1 X2 such that.  Are we see that xx-1 is a free variable here. So X1 of a minor is a free variable in terms of x 1 and that first equation there. It says 0 x 1 + x 200 + x 1 is a free variable.  Okay, and actually that tells us immediately that this is just the span of the first faces Spectre for standard basis Vector 1 0 that's the case here. So to conclude we see that.  the only  eigenvalue  of a  is 1  and it has  the one-dimensional  space  standby  the first standard basis vector  So that's the full information about eigenvalues and eigenvectors of that Matrix. Yes.  I call it one-dimensional because it's Dimension is one the dimension of a Subspace is the size of any basis.  He was produced a basis for this eigenspace for the null-space of a - I and it has just one vector in it. So it is one-dimensional.  Eigenvectors and eigenvalues in the term not on your midterm, but the notion of diminishing surely is so make sure that we're all clear on that what it means just count the number of basis vectors. Here's another example 2 by 2 Matrix. This is a super nice Matrix is the identity Matrix. What are the eigenvalues of this Matrix again in the two by two cases going to be pretty easy to do just like we did.  Let's figure out what are the values of land. For which B- line two times the identity.  Has a non-trivial null space.  by calculating this determinant  Well, that's just the determinant of the Matrix one- Lambda one- Lambda.  Which is actually the same as the thing we got off of.  And so we have the exact same thing as before.  Only Lambda equals 1 is an eigenvalue. So this Matrix only has the eigenvalue Lando equals 1.  Now we want to find Space cording to that. Okay in the first only eigenvalue lab in space.  Now let's look down here. Is this example if I take the minus 1 times the identity Matrix, that's just the identity Matrix.  What's the null-space of the zero Matrix?  What vectors does the zero Matrix kill?  Ever the null space is a set of vectors that gets sent to 0 when I X The Matrix when I multiply The Matrix Zero by some Vector. I want to know when does that equal zero?  All vectors the null-space of the zero Matrix is every vector.  Okay, so this is two dimensional.  If you want to basis, you may as well just choose the standard basis.  So here we have two examples to only have one of eigenvalue one for the Matrix is one-dimensional.  Just the first standard basis Vector stands it for the second Matrix in space is two-dimensional another one.  Okay. No, I've already by the way. I've snuck in here what we're going to do at the end of the lecture, which is how do you find eigenvalues in this case for Lambda Lambda? I has a non-trivial null-space. That's that's the same thing as a mine is Lambda. I having determinant 0 and for two by two cases real quick to calculate a polynomial equation that polynomial is called the characteristic polynomial of the Matrix and we'll talk about that more at the end of lecture. This is a way to find eigenvalues in general. It's the way that you guys will have to find that conducts.  Okay.  So here now, I want to start to talk about what kind of properties eigenvectors can have so we saw in the last two examples.  Does 2 2 by 2 matrices? We saw both of them had only one single eigenvalue.  Typical typically if you have a two by two different, sometimes there might be a repeated eigenvalue like in those two examples where you have only one eigenvalue, okay for a larger Matrix, but most of the time you're going to find that if you have a 2 by 2, Matrix will be two distinct eigenvalues. You have a three-by-three most of the time they'll be three distinct eigenvalues and what's great about that.  If you have a bunch of eigenvectors of a matrix.  Four distinct eigenvalues. I have two distinct eigenvalues and eigenvectors for those two distinct eigenvalues. Those eigenvectors are automatically linearly independent.  I saw something algebraic about the eigenvalues whether they're equal or not tells you something about the relationship between the eigenvectors. They must be linearly independent.  I want to show you why this is true. Your textbook has a full proof of this. I'm going to do the special case where we have to I can vectors okay, which demonstrates problems and making it hard to understand. So we'll just look at the case.  of two distinct  like a goddess  Okay, so let's say that Lambda and Mew.  R2  eigenvalues  of a matrix a  and they're not equal to distinct eigenvalues.  And supposed to have eigenvectors. Let's call them.  u and v  So you is an eigenvector with eigenvalue and eigenvector with eigenvalue miu4, but actually let me go let me change my rotation on call this one instead of you. Let me call it w cuz I think that's what I been Edition. I used on the next flight.  Okay. So what actors wnv are not linearly are linearly independent first things first. We can know that they are not zero.  How is it we know that they're not zero.  Could one of them be zero. Can I have an eigenvector that zero?  No by definition eigenvectors are always nonzero Vector stuff. I'm telling you. That's an eigenvector. Then it must be nonzero. And I know there is an is an eigenvalue which means the scalar multiple that appears for some eigenvector. So there is no  Two nonzero vectors are in fact a linearly independent. I'm going to argue by contradiction suppose that they are linearly dependent.  That what is that mean when I have two vectors, it's easy to recognize when their linearly dependent that happens. If and only if they are.  They are very quiet.  parallel  So let's assume for contraction that are parallel. Let's suppose that W is some scalar multiple c x v  and then there's one in key observations. I want to make here could that's eb-0.  Don't wait up.  Cuz that would make W 0 and we know that the vectors are not zero so we know that this killer must will season seven times the other a half times the other some nonzero scalar multiple. How does that help us hear x v  eigenvector with eigenvalue  Okay.  What if I also take a x w?  8 * W is equal to x w.  That's the definition of them being eigenvectors with those eigenvalues.  Know this first one here. I'm Not Gon equation W is equal to c x v  so x w x c v  which is equal to c x a v  so what does that mean? Well, I've got an equation for a v.  Lambda * W. But ww.w is equal to  C x v so this is equal to Lambda times CP.  These two different size tracing through the whole thing.  When I get is that times movie is equal to c x Lambda V.  Let me subtract that.  that says c x Miu - Lambda x v  is there a  so here's what I've got.  I've got some vector v. I know that it's not zero.  I've got a constant. I know that it's not zero and I've got this number has landed here are the distinct is not zero. Nonzero number number X nonzero vector and somehow that's equally.  And that is the conclusion of the proof.  A similar proof to this will show you that the same thing is true for any number of vectors if I have a very large Matrix and I have 76 distinct eigenvalues in it. Then the eigenvectors any truchoice to buy converters for those 76 eigenvalues will all be linearly independent.  And if you want to see the details of how you modify this proof for that general setting look in the textbook. It's right now they're carefully for you. That's a very important to know. Why should I care about that? Why should I care about having linearly independent eigenvectors? Well, here's why  So if I have soda says is if I have a distinct supposed to have a square Matrix.  Seven by seven and all seven and I and I have seven distinct eigenvalues for it.  Then that means there are 7 linearly independent vectors in RN.  Avesis and there's an important thing for you to remember for the mid-term. If you want to check if a set of vectors in RN forms the basis for RN it's enough to know that there are enough of them and are linearly independent enough of them.  Okay, so if I've got an distinct eigenvalues, that means that I'll have a basis of eigenvectors.  Okay, that's really important. When you have a basis of eigenvectors for your Matrix. Things are super nice. That means it's simple as it gets. So let me explain why so why is that so nice?  This is super nice.  And why is that? Well, let's think about it this way. So suppose I take that basis. I'm going to basis. Let's call it the one to the three.  the end  a basis of eigenvectors  It's a basis for RN in vectors each one of those Associated to some eigenvalue. Let's call them Lambda one, Lambda to Lambda S3 down the line.  Okay.  So what's nice about that is if it's a basis.  That means that any vector.  wnrn  can be expanded  Can the bases be right? That's what a basis is. In fact, we have a notation for that if I take a vector wnrn.  Then it's coordinates in the basis B.  The unique number W is expanded in terms of those numbers of the basis. So that is to say this is the same thing as writing w x 1 x p 1 + X2 X V2 + x + x via.  That's true. Whenever we have a basis, what's great here is that those vectors form of those those basis vectors are eigenvectors for the Matrix a figure out what the Matrix a does.  What does a do?  2 in generic Vector w  Well, aw is equal to 8 * x 1 V 1 + x 2 + x mvn and using linearity of matrix multiplication. That's X1 AV 1 + X2 AV 2 + x navn  But here's the the great part.  These are eigenvectors for a  so that means and so on.  So this last line is the same thing as X1 Lambda 1 + X2.  accent London  What is that say that says I know I can expand it. Somehow the basis vectors. In fact the way I would figure out what those coefficients in the coordinate Vector RS production so I can figure out what those X's are now. I also want to multiply.  The vector W buy a and see what that new Vector is. So since the DS form a basis, I could also find the coefficients of that W in terms of the basis and the way I would do that is first x w and then repeat the same procedure to figure out where to find the efficiency of it, but I don't need to do any more work because here they are.  Super simple expressions in itself. So what this says?  Is that the coordinates of a w in the basis B?  are just Lambda 1 * x 1 Lambda 2 * x 2 Lambda end times x n  that's very simple. In fact, we can write that in a really nice way.  We can write this as follows.  So if I forget now, I have this abstract the basis of vectors ABS bag in vectors be around then I say hey, look I'm just thinking of w x ones for XM.  And I want to know multiplication by a on the vector of the vector W. What is that really do to W. What is it due to its coordinates coordinates is scale each of the coordinates by those I can and I can write that is matrix multiplication. If I just scale each of the coordinates by a number that's the same thing as multiplying that coordinate vector by a diagonal matrix cab schematic page 1000.  That's what's great about having a basis of eigenvectors. It says that if I want to figure out what matrix multiplication by a does to a vector if I expand that Vector in the eigenbasis than all the Matrix does is 2 * this diagonal matrix, which is the easiest kind of matrix multiplication. There is  So it's easy to understand what the Matrix a does to any vector?  This is what we just saw.  that  What the Matrix Matrix?  If you stand it in terms of The X Factor by this diagonal matrix with lamb, doesn't it? Let's give them a name.  so it multiplies a coordinate vector by this diagonal matrix d  Let me put another Matrix in here. Let's take those vectors the eigenvectors.  String them together in a matrix.  Let's call that Matrix.  Now these former bassist.  This is a square Matrix here.  And this Matrix p is an invertible Matrix because it's columns form a basis for RN.  So there's something that happens here that we can describe without reference to the coordinate vectors what happens if I take the Matrix a and X The Matrix p  eigenvectors are the reason eigenvalues are the lambdas.  Found a x p let's remember the definition of matrix multiplication. I'm multiplying a x The Matrix whose columns are the v's. That's the same thing as just multiplying the matrix by each of those columns.  The eigenvectors the vectors V1 Savion are eigenvectors. So a x v one is able to land a one-v-one, etc. So I can write this as Lando on V1.  Lambda 2 V 2  app to Lambda and V on this is just a different way of rewriting what we saw on the last slide.  I know if I've got a matrix and what I do to it is I scale each of its columns by some number that can be realized as matrix multiplication. But the trick is it can be realized as matrix multiplication on the rights.  This is V1 V2 VN times the diagonal matrix with the lambdas on the right.  You can verify that for yourself if you want.  But that's how you achieve scaling The Columns of a matrix u x diagonal matrix.  So what this says here is hey, what is this into V1 V2? That's the thing that we called p  and this diagonal matrix that was food called D. So I guess this equation I guess it's a x p is equal to p x d.  And then one more thing we see from that is this Matrix P was invertible.  So I can multiply by the inverse. Let's x p inverse on the right when I get the a is equal to p d p inverse your Matlab homework.  This is super important were going to talk about this more next time. So on Friday and next week as well, but if you have a basis of eigenvectors what that says is that your Matrix can be written in this form invertible Matrix P. You can use it to multiply on the left on the right by P&P inverse by a diagonal matrix and the super nice thing about that is what does. Does it really implements that affect our business language that you might have seen from reading in the textbook sections we didn't do p is the change of basis Matrix from the standard basis to the eigenbasis. This is exactly  But as you saw when you're doing your Matlab homework this relationship here allows you to do powers of The Matrix.  That's pdpn verse where it so let's write that that just means multiply that by itself.  Time does the p inversely cancel inside giving us the identity Matrix. So this is PD squared PN verse.  Does squaring a diagonal matrix is quite easy. The product of two diagonal matrices is just the diagonal matrix whose entries are the products of 1 squared Lambda 2 squared down the line.  It's easy to take powers of diagonal matrix. And therefore if I have this decomposition of a matrix as PDP inverse.  Then I can do things like take powers of it really easily as you explored with an example taking the hundreds power of a matrix. That would have taken a hundred years if you just done it all by hand, but if you first do this procedure find eigenvectors, right the air as to take Pipe hours, which examples  Okay. Now this kind of expression here where is equal to p x some other Matrix X that's more meaningful than just being able to compute easily with it. Here is a very important notion that we can explore now similarity of matrices. So now let's let's forget for a moment where this all came from forget talking about eigenvectors and eigenvalues.  But it gave us this equation that I want to explore May hold another context. I give you two square matrices, they Envy  They are called similar. You can find some invertible Matrix matrices. What we just saw is that if you have a basis of eigenvectors for a then a is similar to a diagonal matrix.  So for example as we saw from the first theorem if all if you're in my Matrix has ended.  You will have a basis of eigenvectors. And therefore your Matrix will be similar to a diagonal matrix, which means that computations of things like powers that makes your day if you follow that.  I will explore this notion of similarity a lot next time it to you right now. Let me know one quick thing here.  So if I said that you two in the front row are very similar, I'm not saying that if I said that it implies a two-way relationship your similar to him and your similar to him.  So if I use the word similar it should have this should have this symmetry to it. So they is similar to be should be similar to a apparently true from the way it's written here, but it is true because if we can rewrite this slide as a x p  and now I can X p.m. Verse on the left and get that piano verse.  AP  is equal to be  Okay. So if a is PVP in verse that tells you that  he is equal to P inverse AP quite the same statement, right? Well, but the statement is a and b are similar if there is some invertible Matrix p  for which a is equal to PVP in.  So there is an invertible Matrix here to which will call Q. That's P inverse.  So this is that V is equal to 2 and then feed in verse so she is to inverse and so yes indeed if a and b are similar then DNA are similar.  It's so this taking a p and x p on one side and P Universe on the other side. That's just the metric sort of transformation. The fancy word. We use for the mathematics is conjugation. We are conjugating V by P.  Very important Point here as you move forward.  Similarity is not the same as row equivalent equivalent matrices may or may not be similar to each other similar matrices may or may not be Roku belong to each other totally different Notions here is a good example the matrices A and B started with these matrices are clearly just do one step from the first and replace the first roll with it.  But they are not similar matrices.  Now we could actually prove that directly right now. We could we could do a contradiction argument and say hey, let's see if we can find a matrix P for which AP rich as equals a PVP inverse and then go ahead and do a calculation to show that there is no such pee but and I actually encourage you to do that. That would be a fun example for you guys to work out but actually will see you on the next a good understanding of why they are not similar.  So here's why.  If I have two similar matrices are not like we saw in the in the case of of a matrix that has on the basis of eigenvectors. But if that is the case because a pbpn rest for some invertible Matrix P have the same eigenvalues.  And the eigenspaces for those eigenvalues have the same dimensions.  Hey, this is what's really important about similarity transformation.  It's two matrices are similar if I can get to one from the from one to the other by conjugating VIP by x p on one side and Universe on the other that thing changes the Matrix eigenvalues eigenvalue stay the same and more over the eigenspaces for those two for a for the eigenvalues and dimensions.  So how does this all work? Why is this true?  well, so  let Lambda be an eigenvalue.  for the first Matrix a  and so  it's eigenspace.  Is the null-space of a minus lamp attempts at w Matrix?  No, I want to see what happens when I look at V instead.  So let's take some nonzero Vector in there. So let's take some eigenvector V.  What what does it mean to say that as an eigenvalue for value for a with eigenvector v?  A & B are similar, so that means that V is equal to P A P inverse for some invertible Matrix p  but as we saw the last night, that's the same thing as is equal to P inverse b p  so putting that in here this says that P inverse VP  Now I'm going to multiply both sides by P on the left that says that BP is equal to Lambda Chi.  But hey, what is that say that says that this Vector here.  TV  is an eigenvector  Abby  with eigenvalue  flakka  is the whole story if I have two messages that are similar by a matrix p  If I have an eigenvector V with some eigenvalue Lambda for the 1st.  Then that I can value Lambda is also an eigenvalue for the Matrix and if I can Venture isn't the original.  But pee is an invertible Matrix. It is an isomorphism linear transformation and so in particular if I had a basis of three eigenvectors for this eigenspace before and afters transformed  So that means that well the vectors in the eigenspace change. The number of them of them that are linearly dependent doesn't change.  So that's what similarity does for you have the same eigenvalues and they have the same profile of eigenspaces spaces aren't the same as the original Matrix. Look the same. They're isomorphic. They have the same dimensions as before.  Look back at this example.  Can we look back at the calculation? We did near the beginning of the lecture.  We saw that both of these I had the same eigenvalues, but the first one in a space for that I can value Dimension One in the second example the eigenspace for that one. I can buy head to mention to those are not isomorphic to have different dimensions. And therefore it's impossible to find a matrix P for which is equal to PVP inverse.  So that's what similarity tells you tells you that the eigenvalues are the same and that the eigenspaces are isomorphic. They have the same dimensions. So we'll stop there for today and on Friday will continue with characteristic polynomials in general and how to find eigenvalues. See you Wednesday for mid-term review. "
+}

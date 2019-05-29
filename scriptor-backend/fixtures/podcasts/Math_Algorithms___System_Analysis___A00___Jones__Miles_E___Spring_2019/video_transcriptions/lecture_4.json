@@ -1,0 +1,506 @@
+{
+    "Blurbs": {
+        "+ - k + and then I have in mind is k + 1 + and mine is k + 2 + all the way up to + + -1 + +. right Who's the kind of the general strategy? Did you take it a few iterations until you find a pattern and then you plug in the the general pattern in the last step is? What value do I ": [
+            2047.9,
+            2082.3,
+            50
+        ],
+        "+ 2 + 1 anybody anybody know? What kind of Series this is called? geometric series anybody know the closed form of a geometric series? Yeah. to the Kate -1 Okay, so This whole thing. is equal to 2 to the K - 1 okay, if this looks bizarre to you or this looks like magic or if you have no idea what this is review geometric series. Those are ": [
+            3788.4,
+            3856.0,
+            85
+        ],
+        "- 2 is what? Do y'all see a pattern yet? Alright, then. What is the case level? to the k day of + - k + K * 2 to the end Anybody get that far? Okay good. Anybody have any questions about how we got there? this that I X X distributed this to 32 * 2 That gives you two squared to x to the N minus one ": [
+            2547.4,
+            2613.0,
+            57
+        ],
+        "-1 and 1/2 plus and minus 1 * 2 billion. Because the bass cases want it is at 1. 2 + - + -1 will be one you're kind of just trying to get down to the base case. And then a one is to sew two times to the amounts wanted to the end. So you just add that in it get this. any questions I have the base ": [
+            2730.3,
+            2764.3,
+            61
+        ],
+        "-1 to the K-12 the N minus k So this is just a zero. And then this is what you have here. It's kind of like another weird result that you get from these things. I mean, this is At least to me, this is not obvious why this is always true, but it kind of comes out of the binomial theorem. Okay questions. Alright, let's talk about recurrences for ": [
+            681.5,
+            715.1,
+            16
+        ],
+        "1 + 2 which is three as of 3 is 3 + 3 which is 6 Franc as of 4. Is 6 + 4 which is 10x of 5 is 5 + 10 + 10 + 5 which is 15 you I don't know if you've worked with integer sequence for a long time. You'll recognize this immediately something called. Does anybody know what these the sequence is called? triangle ": [
+            1537.9,
+            1581.2,
+            37
+        ],
+        "1 is equal to 1 as the base case because innocence the zero case. It doesn't really feel like you're even playing the game. You just have these three empty poles and you say okay. How do I move nothing over to the other nothing? Well, I just do nothing and do Zero moves but doesn't really have a lot of tangible significance even though you could argue that it ": [
+            3413.8,
+            3436.8,
+            75
+        ],
+        "1 is equal to one so plug that in and you get this. and Here, we have a summation. I want everybody to memorize what the closed form of the summation is he's going to come up all the time in this class. So this is + + 1 * + / 2 Okay questions. In the last step to the left step to do we do anything. from here ": [
+            2164.5,
+            2205.4,
+            53
+        ],
+        "2 + 1 so the 2 to the 4th T of N - 4 + 2 cubed + 2 squared + 2 + 1 okay, you guys see the pattern yet? Case of the case level is going to be what? To the K T of n minus K plus what? to the K - 1 + 2 to the K - 2 right plus all the way down 2 ": [
+            3754.5,
+            3788.4,
+            84
+        ],
+        "2 + 2 to the N minus 1. So this recursion is the same as this recursion here. You just shifted all the ends down by one. write this basically this recruiting should be true for all n greater than or equal to 2 and so if it's true for n if n is large enough, it should also be true for N - 1 Got any other questions? All ": [
+            2657.8,
+            2696.2,
+            59
+        ],
+        "2 + 3 + 4 + so that's where that comes from if you didn't recognize it then There's one really great trick that we have that. Our ancestors did not have and it's the internet. And there's this great website that I want to share with you. Well, there is Wolfram Alpha and that's nice but there's something Dot, let's do that. That's something called the online encyclopedia of ": [
+            1608.5,
+            1657.5,
+            39
+        ],
+        "2 squared times? Inside of here. I have to * a + - what? 3 + 2 to the N - 2 + 2 to the n + 2 to the end How are you guys have? All right. Let's clean this up. Is it going to be a 2 cubed a + -3 + 10 you have a 2 squared? Finish distributed into square * 2 to the end ": [
+            2487.1,
+            2547.4,
+            56
+        ],
+        "30 + 1 is 31. And now we get here and we say is there a pattern that we can guess? Anybody want to go to the online encyclopedia of integer sequences? Or can you see maybe? a pattern 2 to the 2 to the N minus 1 or 2 the end - 1 like that Okay good. So this seems good right to the five is 32 - 1 ": [
+            3468.6,
+            3516.1,
+            77
+        ],
+        "Alright, let's get started. Does anybody have any questions before we start homework? current lecture contents Rubik's Cubes Alright. So today we're going to learn about recursive counting. This is a very powerful method to be able to count, you know figure out the cardinality of certain sets count sets of objects. Go look at a few examples of that before we do that. I wanted to kind of finish ": [
+            58.9,
+            104.2,
+            0
+        ],
+        "But when it is, here's a few techniques you start with small values of and this one's great to to start off with because you might see a pattern really quickly. Once you see a pattern that could give you an idea of what the clothes for MS. In order to check you actually have to prove it by induction. And I don't know if that sounds daunting, but just ": [
+            1450.9,
+            1479.4,
+            34
+        ],
+        "I wanted to just kind of set us up to to kind of know what we need to prove. I want to know what I know what my goal is. But this is really the inductive step all of this stuff. Okay, let's move on. unraveling Okay. So this is the other method you start with a recurrence and you kind of start plugging it into itself. Okay. So what ": [
+            1870.7,
+            1900.9,
+            46
+        ],
+        "Okay, so baby, let's stop here. and on Tuesday will Yeah, we'll start fresh on. Maybe we'll do an example on Tuesday of another recursive counting problem. Just so that you can get reminded and then we'll start with the next topic. ": [
+            4355.6,
+            4383.8,
+            99
+        ],
+        "One shoes to that's what we had. It's also + x + + 1/2 that's what we guessed. It was or it's the summation from 0 to n gives you all the things and it gives you the sequence and it gives you a bunch of information about where it comes from what papers it was cited in this and that maybe alternate ways of counting it and stuff. There's ": [
+            1697.6,
+            1722.4,
+            41
+        ],
+        "So what is the closed form of this recurrence relation? Okay good. You all have seen this already, huh? n * n + 1 / 2 Anybody know another form of this? Okay, good one plus. 2 +... + in anybody else? definition of all the Disney characters from The Cay Yeah, that's what this is. Sure. That's what you were saying. Okay, but that's not the one I was ": [
+            950.5,
+            1041.9,
+            25
+        ],
+        "T of N - 1 + 1 any questions. Okay, now let's reset the clicker. What is the base case? Okay. Good. So a lot of people are saying hey. This is certainly a bass case that we could use if you said see that's also a base case we could use why are there more than one base case? Well, this is an integer sequence. You really can have ": [
+            3316.5,
+            3380.3,
+            73
+        ],
+        "The Third Kind of iteration is going to be well in place of SF + -2. What do I put? a - 1 + aunt And clean it up a bit. Okay. Now, do you all see a pattern happening here if I kept on doing this over and over again and I went down to let's say the case level what would this be equal to? Estevan - y ": [
+            1987.5,
+            2047.9,
+            49
+        ],
+        "X and Y can be switched around because Addition is commutative. Okay, the coefficient of x to the n in why do the end of the both one? Why is this true? Well, the only way to get x to the end is if you choose X from each factor, the only way to get why the end is Future's wife for me to pack yourself. Think about it in ": [
+            282.2,
+            308.8,
+            5
+        ],
+        "You can never put a big disk on a small disk. Okay good. So here's the recursive solution in general move the stack of the smallest and -1 discs to an empty Pole, right? Move the largest disc to the remaining empty pool and then move the stack of the smallest and -1 disc to the pool without the largest disc. How many moves is this in terms of T ": [
+            3215.9,
+            3249.3,
+            71
+        ],
+        "a a y and an X and A Y and an X. There's six different ways because six is equal to 4 choose 2. Out of the four factors you choose two of them to BX. So in general disco efficient is going to be in shoes k. write the coefficient of x to the k y the N minus k until in general you get this nice. So Nation, ": [
+            369.5,
+            405.5,
+            8
+        ],
+        "a pretty popular one. So it has a really long entry. Can stop you can just plug it in here and sometimes it'll pop up and give you the the closed form like that. I won't accept this as a proof of the closed form. I want you to prove it by induction. Because even though it gives it to you. You're only giving it a finite number of them, ": [
+            1722.4,
+            1747.9,
+            42
+        ],
+        "a recurrence relation. It's not always possible but a recurrence relation is not very efficient. If you want to compute really big numbers, right if you want to compute the value of big numbers you have to do that many steps to get up to it. Right if if you're a recurrence relation is of this form. So if I asked you to do what is asked of a thousand, ": [
+            902.9,
+            926.8,
+            23
+        ],
+        "an even number of them. It makes sense because we know that they're symmetric but this still works when there's an odd number of them. And then we can use the binomial theorem to prove this also, right? 1 + -1 let's do it the other way around. -1 to the negative 1 plus 1 race to the end is equal to k equals 0 to n n choose K ": [
+            643.3,
+            681.5,
+            15
+        ],
+        "and 16 - 1 and so on this seems like a good gas. So let's watch we guess it. What's the next thing we have to do? Check it prove it by induction. Okay. So we have to validate that this is the actual thing. Okay. So bass case if n is equal to 120 of n is one right to have one as one so that's good and according ": [
+            3516.1,
+            3540.7,
+            78
+        ],
+        "are the same so really what you're doing is in here to get each one of these terms. It's a different way of making a choice. Let's say I choose a y and an X and then why an ex right that would contribute to x squared y Square. How many different ways can you contribute to x squared y squared? Let's go back to here. Right. I can choose ": [
+            340.1,
+            369.5,
+            7
+        ],
+        "be. T of smaller values, so what does that mean in this puzzle if I had n discs, can I use the solution for n -1 to solve the engine? Find this case. Let's go have 4 discs and let's say I know how to solve the 3 disc one. We already did it, right. It takes 7 moves. I know how to do it. So basically what you do ": [
+            3115.7,
+            3148.4,
+            69
+        ],
+        "because you have a you have a binary sequence. a blank Saint with exactly two ones 2 ones this is n choose 2. How many of them start with one? have a 1 The van here and we only have one one. And choose one right or end. Okay, so If we let s be the number of n plus one bit sequences with two ones, then this should be ": [
+            1346.4,
+            1401.4,
+            31
+        ],
+        "binary sequences and we and we partition them into two sets. Right? And what how do we partition them? What do we base it on? Start with zero or start with one. Okay good. So let's split up right these These are the sequences with exactly how many of them start with 0. So we have a zero and then we have And left over right? And choose to write ": [
+            1305.3,
+            1346.4,
+            30
+        ],
+        "case was at zero then you want to plug in n? Thanks. You want to get it all the way down? Okay. Let's move on. Shall we? Sure. Okay. Text move on to the next thing we're going to talk about this game. The Tower of Hanoi. How many moves does it take to relocate all the disks from one pole to another the rules. You can only move one ": [
+            2764.3,
+            2809.4,
+            62
+        ],
+        "did suggest it suggested that these are the Fibonacci numbers coming out? Okay. So let's do the recursion and were the first thing we're going to do is name the name the number 0 0 avoiding binary strings and then split it up by what does it start with either starts with a 1 or starts with a 0? K any long 00 voting binary strings either start with one ": [
+            4154.1,
+            4187.8,
+            94
+        ],
+        "disc at a time and you cannot put a larger disk on top of a smaller disk. Okay, so like a lot of problems if you want to get started on it. Try it out for some small cases Okay, so How many moves are there if there's only one disc if there are two if there are three so just talked about it for just a few minutes. See ": [
+            2809.4,
+            2835.2,
+            63
+        ],
+        "does that mean? Let's let's try a few steps a few iterations. Okay, so I'm going to label this as Step One is the actual recurrence itself. They over here on the side. I'm going to do a little bit of work. Answer this one. So if n is big enough then and minus as a 10-1 should follow the same recurrence so s of N - 1 is equal ": [
+            1900.9,
+            1936.4,
+            47
+        ],
+        "end now if we put a restriction and we only want to count a subset of the binary strings. Then you we know that is going to be less than to the end. But how do we know exactly what it's going to be? This is actually very close to to my PhD thesis and also Quang PhD thesis because we sort of worked on the same thing. We counted ": [
+            3935.7,
+            3961.0,
+            88
+        ],
+        "equal to a sand mine as one. It's kind of like where this is zero is sort of taking up one of the space. It's right. So we're kind of going down one and now we can see that this recurrence is the same. The ones that start with zeros is in -1 in the ones with start with one end. Okay. So what are we do here is we ": [
+            1401.4,
+            1426.4,
+            32
+        ],
+        "form. Then you use the inductive hypothesis to to change that smaller form into this. Then you use algebra to clean it up. This is what it should look like start with the left hand side rewrite it using the recurrence. Replace as of K with K * k + 1 / 2. The rest is just algebra. any questions this one the inductive step is actually this thing. But ": [
+            1830.0,
+            1870.7,
+            45
+        ],
+        "get started here, too. Christian Crusades Is this what you guys got for your second level? That's okay. That's kind of clean this up a little bit. 2 squared right Do we have a 2 x 2 to the N minus 1 which is a 2 to the end to the end. So what you got you all had? so far Okay. How about the third step you get equals ": [
+            2287.4,
+            2487.1,
+            55
+        ],
+        "going to be it's going to define a function a function on integers. So you can express at the van in terms of the previous values. Exodus tells us how to find F of an from f n -1 and you can keep on going down until you get down to the base case and from there. You should know how to get every other number. Okay, here's a few ": [
+            785.1,
+            808.3,
+            19
+        ],
+        "going to come up a lot too in this class and I want you to know how to find their clothes forms. Okay, any questions about that? Okay, so I have it all written up here. This is basically the case this is what we determined is the case level and so take it down to the end - 1 levels is okay. Take it down to the end minus ": [
+            3856.0,
+            3886.7,
+            86
+        ],
+        "guys could probably already Guess right by all the ones that start with one and all the ones that start with 0, but first, let's see kind of what we're working with. Okay. So how many lengths 0 binary strings have no consecutive zeros. One right the empty string or what. Did you call the empty string Epsilon? Orlanda Lambda okay, how about how many lengths 1 binary strings are ": [
+            4019.0,
+            4060.1,
+            91
+        ],
+        "have and -2 positions left over and they can be any of those things. Okay good. So that's kind of the idea, right? You can put any 00 voided binary string of length n -1 any 0 0 40 binary string event in -2 and we get this nice recursion, which is very similar to things that we know right? This is just the Fibonacci numbers is just that we've ": [
+            4275.2,
+            4309.7,
+            97
+        ],
+        "here. Okay now. Now, what do I do? Move the phone onto the notebook. envelope Okay, good. Now what? notebook here Phone back on the notebook no over here first. anybody keeping count now move this here and now here. Oligo 7 I think it's 7 we got to do it again. 1 2 3 4 5 6 7 Okay, so let's fill it to start feeling this out. You ": [
+            2995.9,
+            3056.6,
+            66
+        ],
+        "if you can get at least these three sort of starting points and then we will start we'll go from there. So these are three games here. Sorry. These are like this. All right. How many did you guys get with one disc? one, right on our way to three Okay, I'll do a demonstration with three. Okay. I have my own this thing that came in the mail for ": [
+            2835.2,
+            2963.5,
+            64
+        ],
+        "if you know the binomial theorem Remember if you know the binomial theorem. It's it here's another way to write it X + Y 2 the end is the sum from k equals 0 up to n of n choose k x x to the k y to the end - k out. so if you have proven the binomial theorem to be true then What happens if I plug ": [
+            554.4,
+            590.4,
+            13
+        ],
+        "in an X is equal to 1 and Y is equal to 1. You get the same thing? Kaiser this is like another way that you can think about it. Okay, and then this other maybe surprising result. If you take the binomial coefficients, you take all of them and you alternate by adding and subtracting them together. They're all going to always cancel out now for when you have ": [
+            590.4,
+            643.3,
+            14
+        ],
+        "integer sequences. Have you all seen this before? Yes. Oh you did. Oh, okay. Great. You show you the secret. Okay, so cut and paste your integer sequence. I remember it by heart. It was 1 3 6 10 15 next 121 and then what 28 let's go. Google search you got the first thing you get is triangular numbers, right? And it tells you it's the pits and Force ": [
+            1657.5,
+            1697.6,
+            40
+        ],
+        "is still technically a game with zero disc. It's just not very fun. okay, so we're going to start with T of 1 is 1 and now let's use the recurrence to fill up the table. We have two times one plus one is three. Come on now 2 * 3 + 1 is 7.6 + 1. At this is 2 + 114 + 1 is 15 then we have ": [
+            3436.8,
+            3468.6,
+            76
+        ],
+        "is you take the three disks. And you move them here. Right that takes 7 moves. I'll just do it over the era. Then what? Can you move the big disk over here? that takes one move right then you move this whole pyramid on top of their another 7 moves how many moves total do we do? 15 moves right Can we always do this? Yes, of course. Yes. ": [
+            3148.4,
+            3212.1,
+            70
+        ],
+        "just be just know that recursion is really nice to use with induction that kind of go hand-in-hand so that the proofs are usually aren't too bad. Play the other way to do it is to unravel and we'll see what this how the actually go about doing it. But what it is is you sort of plug in the the function into its own recursion and you keep on ": [
+            1479.4,
+            1502.1,
+            35
+        ],
+        "kind of shifted them a little bit, right? And you get this night? sequence anybody know I put a pineapple here. Yeah, the number of spirals in a pineapple is a Fibonacci number. They come they come up all over the place in nature. Just kind of caught in a pine cone in a sunflower a lot of flowers. The number of petals is a Fibonacci number. kind of neat ": [
+            4309.7,
+            4354.0,
+            98
+        ],
+        "me and this notebook. Okay. So these the three poles will be just the three portions of the desk. Okay. So the first move has to be I have to move my phone right? So let's move it to the middle. Okay. I'll move the envelope over here, right? I can't move it on to the phone. I move the phone over here first. Okay, and then move the envelope ": [
+            2963.5,
+            2995.9,
+            65
+        ],
+        "minus one iteration or at whatever level we're going to have this s of n is equal to a size of an - + - 1 write + + - + - 1 + 1 plus all the way up to plus and clean that up a bit. This is 10 - 1 + 2 + 3 + all the way up to plus and I'm sorry. And as of ": [
+            2122.0,
+            2164.5,
+            52
+        ],
+        "need to set K to be equal to in order for this value this as of end - K to go down to the base case. And well in this case you should be and -1 + -1 will bring it all the way down. Okay. I kind of need to make a little bit more room for this. how do I Come on now. Okay. so in the end ": [
+            2082.3,
+            2122.0,
+            51
+        ],
+        "nplusone length binary strings with exactly 2 ones Frank member we talked about all the different things that accounts Okay. so let's go to think about what the what the relationship is between let's do it like this. How are we going to count the number of nplusone bit sequences with two ones recursively. What was the What was the technique that we used before? We took all of those ": [
+            1245.7,
+            1305.3,
+            29
+        ],
+        "numbers Because each one of these is like you can you can make a triangle out of this many points. You can make walk. That's just kind of a trivial triangle 3 you can make it like that 6 you can make it like this. Night time you can make it like this. and so on and you can sort of see why these numbers relate to those 1 + ": [
+            1581.2,
+            1608.5,
+            38
+        ],
+        "of n? Which recurrent does this describe? Okay, good. We're kind of all sort of saying. Day or most of us at least could exactly this is going to take T of N - 1 moves, right? Cuz you're just doing the the the smaller puzzle. This is going to take T of N - 1 moves. This is going to take one move. So you should get two times ": [
+            3249.3,
+            3316.5,
+            72
+        ],
+        "of our house it's a equals spine is equal to 2 times. Now, what do I write in here? Plus one, right? And then plus one. So this is 2 squared T of N - 2 + 2 + 1 right when you're doing this unraveling might be very tempting to combine these up. But sometimes it's nice to kind of keep them separate so that you can sort of ": [
+            3665.7,
+            3704.7,
+            82
+        ],
+        "one level and when you plug in and minus one here, you get the base case the base case is won. So you just get to the end - 1 + 2 million - 1 - 1 - 2 Okay any questions? All right. Let's do another counting problem. binary strings avoiding 00 Okay, so we know how to count all the binary strings right? It's just two to the ": [
+            3886.7,
+            3935.7,
+            87
+        ],
+        "one, right? n choose k k goes from zero up to end does anybody remember what this is equal to we saw this last class. To the end, right? And we have this nice, tutorial proof that the left hand side counted the fix density binary strings with any number of ones in the left hand side or the right hand side was basically all binary strings. Here's another proof ": [
+            518.9,
+            554.4,
+            12
+        ],
+        "or with a zero. So if it starts with a 1 how many by how many lengths end binary strings start with a one that avoid 00? Like what? Can you fill this up with? Well, there are And -1 positions left over to fill and within those positions you have to avoid a 0-0, right? So there are B and minus one of these. right Okay. So this is ": [
+            4187.8,
+            4241.6,
+            95
+        ],
+        "our discussion of binomial coefficients. We sort of skipped over a small part and the part was about why are they called binomial coefficients? Where do they get that name? Why are they called binomial coefficients? Okay, so just to remind you all. A binomial is a sum of two terms say X and Y. Okay. Now if I take X Plus Y and raise it to the 4th power ": [
+            104.2,
+            141.3,
+            1
+        ],
+        "permutations that avoid certain patterns. So here we're going to count binary strings that avoid this pattern. So it just means that they don't have two consecutive zeros in a row. Okay, what is a really nice way to start out these problems that I told you about? Name them that's when we're going to do the recursion. But before we start the recursion, what's a good kind of way ": [
+            3961.0,
+            3990.9,
+            89
+        ],
+        "plugging it in until you get down to the base case you look for a few patterns and sometimes not always you can get to a closed form. Okay, so let's let's do guess and check on this one suppose. I went through some of the first. Values and I noticed this relationship. So I would say okay. I know as of 1 is 1 s of to is got2b ": [
+            1502.1,
+            1537.9,
+            36
+        ],
+        "probably will already see or some of you may see a pattern already, but let's just kind of Go with it for a little while to see how we would solve this problem if we didn't see a pattern. Okay, how can we count the number of moves using a recursion? Okay. So whenever you want to count something with the recursion, the first thing to do is name, whatever ": [
+            3056.6,
+            3081.3,
+            67
+        ],
+        "recurrences that we know or that we seen before there's the Fibonacci numbers. We've all seen that factorials are often times defined as a recurrent as a recurrence relation to the base case is that zero factorial is 1 and then for all other end and factorial is defined to be in X whatever in fact in -1 factorial is Now you're going to beat you're going to do this ": [
+            808.3,
+            839.8,
+            20
+        ],
+        "recursion. So what is recursion it's mainly a a broad idea that you can use different situations. Okay, so you can use it to describe a function you can use it to describe an algorithm. You can use it to count you can use it to describe a set of objects. I end it all kind of has the same idea. Where you Describe a bigger object or a bigger ": [
+            715.1,
+            751.7,
+            17
+        ],
+        "right. So what do we need to set k equal to to get to the last? the last level Okay, so set k equal 2 N -1. Has anybody figured out the closed form? End times two to the end. Yes, and so have kind of all the work here. When you set K is equal to n -1 when you plug it in here to the K to the ": [
+            2696.2,
+            2730.3,
+            60
+        ],
+        "right? So it's not guarantee that it'll work the whole way. Where am I? Okay here. Okay, so let's prove this by induction. Claim that's equal to the m * m + 1/2. Okay, so bass case. As of 1 is equal to 1 1 * 1 + 1/2 is equal to one good verified, right? done inductive hypothesis suppose that for some K greater than or equal to one ": [
+            1747.9,
+            1802.8,
+            43
+        ],
+        "s of K is equal to K * k + 1 / 2 now we want to show that it's true for sok Force One, which is this is what we want to shop. Okay. Now everything else is just algebra. And what you do is you start from the left hand side. That's okay plus one and you use the recursion the recursion to get it into a smaller ": [
+            1802.8,
+            1830.0,
+            44
+        ],
+        "see it right away, you could kind of get stuck but if you remember. Certain lessons from other math classes you might be able to get through it. So it would be good to have this practice. Okay, so we're going to start the first step is T of n is equal to 2 T of N - 1 + 1. K the second step is going to be. T ": [
+            3629.7,
+            3665.7,
+            81
+        ],
+        "see the pattern. Okay, so 3. is equal to 2 squared and here we're going to have to T of N - 3 + 1 + 2 + 1 so that will be to Q T of N - 3 + 2 squared + 2 + 1 Let's do one more. 4 2 cubed T of n * 2 T of n - 4 + 1 + 2 squared + ": [
+            3704.7,
+            3754.5,
+            83
+        ],
+        "shoes to thank you. Okay, good questions about that. You can compute it and figure it out. Okay good. so what else does this location? This is the summation of the first n integers. What else does it count? review from last last class Okay, good. So amount. Let's just say number of pear number of are pears from a set of n + 1 elements Why is summing up ": [
+            1141.7,
+            1205.4,
+            27
+        ],
+        "start from the left hand side, which is tfn rewrite it as the recurrence. Then use the inductive hypothesis to rewrite the smaller problem. And then use algebra to clean it up. got any questions 8 minutes to work. Okay good. Now what you all have been waiting for let's unravel. Okay. So this one I'm going to warn you there's something in here that happens that if you don't ": [
+            3580.1,
+            3629.7,
+            80
+        ],
+        "that I have all these terms. multiplied together When general what is what is not true about x + y to the end? The frequency is CB. All right. Let's let X take a look. All right good. So we have something like this good kisser. Most people are saying be well, let's look at them all terms of the expansion or some coefficient * x to the KY to ": [
+            141.3,
+            227.3,
+            2
+        ],
+        "that gives you this to the end. Yeah, 2 * + 2 * 2 million - 1 is to x to the n What about it? Does Green Park? Okay, so the green part comes from expanding a of N - 1 in terms of the recursion Hey, let's do a little side work here a of n - 1 is equal to 2 times a day of N - ": [
+            2613.0,
+            2657.8,
+            58
+        ],
+        "that turn. There's only one way to get x to the end. There's only one way to get why to the end. So how many ways are there to get the middle terms? Well if you think about it. The number of ways that we can choose K of the factors to be x + and minus k2b. Why is just n choose K. Right or end-to-end - K which ": [
+            308.8,
+            340.1,
+            6
+        ],
+        "the end - K. This is true. It needs to be such that when you add the coat the exponent of X and Y is she equal n right and intuitively it makes sense that that's true because As you're multiplying these for it's kind of like you're you're choosing want an either an X or Y from each factor. So you're going to choose one of them care of ": [
+            227.3,
+            257.4,
+            3
+        ],
+        "the first n integers is while you sum up all the and might the first and -1 and then you add into it. alright, so it's not always possible. But when it is it desirable to get a closed form for the summation. What does it mean to be a closed form? Well summation. Is kind of course you be a recurrence relation. Desirable to get a closed form for ": [
+            864.4,
+            902.9,
+            22
+        ],
+        "the first n integers? How does that relate to pairs of elements right there? What we said before if you know you have these two things that are enumerated by the same thing. There should be some sort of combinatorial argument for it. Sometimes they're really hard to get but it's suggestive that something's going on here. Another another thing that this counts is the number. + + 1 binary ": [
+            1205.4,
+            1245.7,
+            28
+        ],
+        "them are going to be accented and minus K will be why you can actually see it here is that you get a coefficient that's bigger than 4X was not always going to be the case that the coefficients are in between 1 and 10. There's always going to be a symmetry in the coefficient. This is true. You can see it here 14641 right and that comes about because ": [
+            257.4,
+            282.2,
+            4
+        ],
+        "there that avoid 00 to write how many lengths 3 binary strings are there? I see the strings are there. Three right we have zero one. 0 or 1 0 and 1 1 and then here we have zero zero that's not allowed. 3 okay, so we have one two, three four that automatically means that the next one has to be four. Right and then we can be done ": [
+            4060.1,
+            4099.4,
+            92
+        ],
+        "thing called unraveling and you can kind of see if you want to travel it. You just get that this is the product of all the integers from 1 to n, right, but this is a recurrence relation here that defines the function. Okay, here's another one the summation of all the integers you start out with the summation of the first integer is just one. The summation of all ": [
+            839.8,
+            864.4,
+            21
+        ],
+        "thinking about. N * n - 1 * what? Right. That's just this in the back racer. Yeah, you can you could send it backwards. Can we write it is it? Okay. Good. Okay. Here's the question. Those are these are all great answers. Even the backwards one. Is there a way that we can write it in terms of binomial coefficients? well Something like that. No. And plus one ": [
+            1041.9,
+            1141.7,
+            26
+        ],
+        "this is actually called the binomial theorem. OK it's that X + y raised to the N is equal to the summation. Yes, yes or no. Yes. Okay, and then this actually I should put in here city of NN, right? And here should be C of n0 which are both one even it even extends to the end. So let's write out the each one of these polynomials as ": [
+            405.5,
+            451.3,
+            9
+        ],
+        "to ass of + -2 + + -1 Everybody see how this is the same recurrence as that. Yes, right. so plug this into their is it going to be kind of like Step 2? In place of a 7-1. I have a salve + -2 + + -1 Plus in Aren't you just kind of plug it in? Let's clean it up a bit. Okay, let's do it again. ": [
+            1936.4,
+            1986.4,
+            48
+        ],
+        "to get started? That's how the recursions going to be for sure. But yeah, maybe we can just jump right into the recursion. I was just thinking maybe like try to see what happens on. Yeah, just give it an examples to skip started but you all are both right once you start the recursion name it and then split it up and we're going to split it up. You ": [
+            3990.9,
+            4019.0,
+            90
+        ],
+        "to the formula to the 1-1 is one so it validates it's good for the base case. Okay now. Come on now. Where's my? okay, so claim proof by induction assume that t of N - 1 - 1 Suzanne has a positive. Okay, good. Now how do we do this? It's sort of the same way. We did it before this is what we want to show. So we ": [
+            3540.7,
+            3580.1,
+            79
+        ],
+        "to there from there. They're just memorize it. Yeah, whatever. You see this you could just put this instead. Okay now it's your turn. Hey, you can work with your neighbor. I want you to unravel this recursion. This is This is saying a of n is equal to 2 times a of n minus 1 thats the function. Close to the end. I'm going to kind of help you ": [
+            2205.4,
+            2287.4,
+            54
+        ],
+        "took a recurrence and we fit it to this set of objects. We kind of went backwards for most of the rest of the time we're going to try to go the other way around whenever I give you a set of objects and you come up with a recurrence that counts them. Okay. Once you have a recurrence, how do you get the closed form? It's not always possible. ": [
+            1426.4,
+            1450.9,
+            33
+        ],
+        "value in terms of smaller values or smaller objects. And we send you all saw some of this in 20 recursively defined SATs or recursively defined functions. So what we're going to try to do it to count. Okay, so we're going to be using these things called recurrence relations, which is basically a pair of things. It has a actual recurrence itself and a base case. Okay, and it's ": [
+            751.7,
+            785.1,
+            18
+        ],
+        "we go right so x + y to the zero, that's just one x + y to the one is 1x + 1 y right and so on X Plus y squared is 1 x + 2 x y + 1 y + so much. So, can you all see a pattern? Oh, I don't know why I didn't make these ones red. There's nothing special about them. But do ": [
+            451.3,
+            472.2,
+            10
+        ],
+        "what I Define B2B be of n is the number of length in 00 avoiding vs. So be a number of N - 1 length 00 avoiding binary strings of these follow it and it'll be valid. Okay. How about zero if it starts with a 0? What what is the next number have to be? Has to be a one cuz it has to avoid 00. So now we ": [
+            4241.6,
+            4275.2,
+            96
+        ],
+        "with the class and move on right? We're done with this problem. Yes. No. What's the next one? 5 here are the five. And here are the ones that are not right. So right out of the eight five of them avoid the the pattern and threw them down. Anybody have an idea of what the next one would be? 8 and then what? Okay, good in 21. Okay, so ": [
+            4099.4,
+            4154.1,
+            93
+        ],
+        "you know, you have to sit there and say okay that's of one is one that's up to is 336 and so on and build it up a thousand times. So it's not very in not very efficient a closed form is a more general formula that is not a recurrence relation. It doesn't depend on Computing it you can just plug in the number immediately and get the answer. ": [
+            926.8,
+            949.8,
+            24
+        ],
+        "you see anything in these numbers? Pascal's triangle and remember what Pascal's triangle is is just these binomial coefficients. So yes any questions? Okay with binomial with the binomial theorem. There's a few. Interesting quick results that we could get from it. Well, there's more than a few but let me just I'm going to show you this because I think you will appreciate it. so we've already seen this ": [
+            472.2,
+            518.9,
+            11
+        ],
+        "you're doing name it something so I'm going to name a t k and and it's nice to do this. It gives you more of a abstract way to talk about the number of moves. So Tina to signify the number of moves to solve the puzzle with and discs. Okay, so I'm want I want to convert this number into a sum of other numbers May. Maybe they will ": [
+            3081.3,
+            3115.7,
+            68
+        ],
+        "your base case start anywhere you want right? You can just you just have to make sure that you define everything that happens before it so we could stay the base case starts at two discs, right? And then that will give us a way to solve all the the rest of the tower problem with more than two discs Okay, so we're going to just go with t of ": [
+            3380.3,
+            3413.8,
+            74
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_4.flac",
+    "Full Transcript": "Alright, let's get started.  Does anybody have any questions before we start homework?  current lecture contents  Rubik's Cubes  Alright. So today we're going to learn about recursive counting. This is a very powerful method to be able to count, you know figure out the cardinality of certain sets count sets of objects.  Go look at a few examples of that before we do that. I wanted to kind of finish our discussion of binomial coefficients. We sort of skipped over a small part and the part was about why are they called binomial coefficients? Where do they get that name?  Why are they called binomial coefficients?  Okay, so just to remind you all.  A binomial is a sum of two terms say X and Y. Okay. Now if I take X Plus Y and raise it to the 4th power that I have all these terms.  multiplied together  When general what is what is not true about x + y to the end?  The frequency is CB.  All right. Let's let X take a look.  All right good.  So we have something like this good kisser. Most people are saying be well, let's look at them all terms of the expansion or some coefficient * x to the KY to the end - K. This is true. It needs to be such that when you add the coat the exponent of X and Y is she equal n right and intuitively it makes sense that that's true because  As you're multiplying these for it's kind of like you're you're choosing want an either an X or Y from each factor. So you're going to choose one of them care of them are going to be accented and minus K will be why you can actually see it here is that you get a coefficient that's bigger than 4X was not always going to be the case that the coefficients are in between 1 and 10.  There's always going to be a symmetry in the coefficient. This is true. You can see it here 14641 right and that comes about because X and Y can be switched around because  Addition is commutative.  Okay, the coefficient of x to the n in why do the end of the both one? Why is this true? Well, the only way to get x to the end is if you choose X from each factor, the only way to get why the end is Future's wife for me to pack yourself. Think about it in that turn. There's only one way to get x to the end. There's only one way to get why to the end.  So how many ways are there to get the middle terms?  Well if you think about it.  The number of ways that we can choose K of the factors to be x + and minus k2b. Why is just n choose K. Right or end-to-end - K which are the same so really what you're doing is in here to get each one of these terms. It's a different way of making a choice. Let's say I choose a y and an X and then why an ex right that would contribute to x squared y Square.  How many different ways can you contribute to x squared y squared?  Let's go back to here.  Right. I can choose a a y and an X and A Y and an X. There's six different ways because six is equal to 4 choose 2.  Out of the four factors you choose two of them to BX.  So in general  disco efficient is going to be in shoes k.  write the coefficient of x to the k y the N minus k  until in general you get this nice.  So Nation, this is actually called the binomial theorem. OK it's that  X + y raised to the N is equal to the summation.  Yes, yes or no. Yes.  Okay, and then this actually I should put in here city of NN, right? And here should be C of n0 which are both one even it even extends to the end.  So let's write out the each one of these polynomials as we go right so x + y to the zero, that's just one x + y to the one is 1x + 1 y right and so on X Plus y squared is 1 x + 2 x y + 1 y + so much. So, can you all see a pattern?  Oh, I don't know why I didn't make these ones red. There's nothing special about them. But do you see anything in these numbers?  Pascal's triangle and remember what Pascal's triangle is is just these binomial coefficients.  So  yes any questions?  Okay with binomial with the binomial theorem.  There's a few.  Interesting quick results that we could get from it.  Well, there's more than a few but let me just I'm going to show you this because I think you will appreciate it.  so  we've already seen this one, right?  n choose k  k goes from zero up to end does anybody remember what this is equal to we saw this last class.  To the end, right?  And we have this nice, tutorial proof that the left hand side counted the fix density binary strings with any number of ones in the left hand side or the right hand side was basically all binary strings. Here's another proof if you know the binomial theorem  Remember if you know the binomial theorem. It's it here's another way to write it X + Y 2 the end is the sum from k equals 0 up to n of n choose k x x to the k y to the end - k out.  so if you have proven the binomial theorem to be true then  What happens if I plug in an X is equal to 1 and Y is equal to 1.  You get the same thing?  Kaiser this is like another way that you can think about it.  Okay, and then this other maybe surprising result.  If you take the binomial coefficients, you take all of them and you alternate by adding and subtracting them together. They're all going to always cancel out now for when you have an even number of them. It makes sense because we know that they're symmetric but this still works when there's an odd number of them.  And then we can use the binomial theorem to prove this also, right?  1 + -1  let's do it the other way around.  -1 to the negative 1 plus 1 race to the end is equal to  k equals 0 to n n choose K -1 to the K-12 the N minus k  So this is just a zero. And then this is what you have here. It's kind of like another weird result that you get from these things. I mean, this is  At least to me, this is not obvious why this is always true, but it kind of comes out of the binomial theorem.  Okay questions.  Alright, let's talk about recurrences for recursion. So what is recursion it's mainly a a broad idea that you can use different situations. Okay, so you can use it to describe a function you can use it to describe an algorithm. You can use it to count you can use it to describe a set of objects. I end it all kind of has the same idea. Where you  Describe a bigger object or a bigger value in terms of smaller values or smaller objects.  And we send you all saw some of this in 20 recursively defined SATs or recursively defined functions. So what we're going to try to do it to count.  Okay, so we're going to be using these things called recurrence relations, which is basically a pair of things. It has a actual recurrence itself and a base case.  Okay, and it's going to be it's going to define a function a function on integers. So you can express at the van in terms of the previous values.  Exodus tells us how to find F of an from f n -1 and you can keep on going down until you get down to the base case and from there. You should know how to get every other number.  Okay, here's a few recurrences that we know or that we seen before there's the Fibonacci numbers. We've all seen that factorials are often times defined as a recurrent as a recurrence relation to the base case is that zero factorial is 1 and then for all other end and factorial is defined to be in X whatever in fact in -1 factorial is  Now you're going to beat you're going to do this thing called unraveling and you can kind of see if you want to travel it. You just get that this is the product of all the integers from 1 to n, right, but this is a recurrence relation here that defines the function.  Okay, here's another one the summation of all the integers you start out with the summation of the first integer is just one.  The summation of all the first n integers is while you sum up all the and might the first and -1 and then you add into it.  alright, so  it's not always possible. But when it is it desirable to get a closed form for the summation. What does it mean to be a closed form? Well summation.  Is kind of course you be a recurrence relation.  Desirable to get a closed form for a recurrence relation.  It's not always possible but a recurrence relation is not very efficient. If you want to compute really big numbers, right if you want to compute the value of big numbers you have to do that many steps to get up to it. Right if if you're a recurrence relation is of this form. So if I asked you to do what is asked of a thousand, you know, you have to sit there and say okay that's of one is one that's up to is 336 and so on and build it up a thousand times. So it's not very in not very efficient a closed form is a more general formula that is not a recurrence relation. It doesn't depend on Computing it you can just plug in the number immediately and get the answer.  So what is the closed form of this recurrence relation?  Okay good.  You all have seen this already, huh?  n * n + 1 / 2  Anybody know another form of this?  Okay, good one plus.  2 +... + in anybody else?  definition of all the Disney characters from The Cay  Yeah, that's what this is.  Sure.  That's what you were saying.  Okay, but that's not the one I was thinking about.  N * n - 1 * what?  Right. That's just this in the back racer.  Yeah, you can you could send it backwards. Can we write it is it?  Okay.  Good.  Okay. Here's the question.  Those are these are all great answers.  Even the backwards one. Is there a way that we can write it in terms of binomial coefficients?  well  Something like that.  No.  And plus one shoes to thank you.  Okay, good questions about that.  You can compute it and figure it out. Okay good.  so  what else does this location? This is the summation of the first n integers. What else does it count?  review from last last class  Okay, good. So amount.  Let's just say number of pear number of  are pears  from a set of n + 1 elements  Why is summing up the first n integers? How does that relate to pairs of elements right there? What we said before if you know you have these two things that are enumerated by the same thing. There should be some sort of combinatorial argument for it. Sometimes they're really hard to get but it's suggestive that something's going on here.  Another another thing that this counts is the number.  + + 1  binary nplusone length binary strings  with exactly  2 ones  Frank member we talked about all the different things that accounts  Okay.  so  let's go to think about what the what the relationship is between let's do it like this.  How are we going to count the number of nplusone bit sequences with two ones recursively. What was the  What was the technique that we used before? We took all of those binary sequences and we and we partition them into two sets. Right? And what how do we partition them? What do we base it on?  Start with zero or start with one. Okay good. So let's split up right these These are the sequences with exactly how many of them start with 0.  So we have a zero and then we have  And left over right?  And choose to write because you have a you have a binary sequence.  a blank Saint with exactly two ones  2 ones  this is n choose 2.  How many of them start with one?  have a 1  The van here and we only have one one.  And choose one right or end.  Okay, so  If we let s be the number of n plus one bit sequences with two ones, then this should be equal to a sand mine as one.  It's kind of like where this is zero is sort of taking up one of the space. It's right. So we're kind of going down one and now we can see that this recurrence is the same.  The ones that start with zeros is in -1 in the ones with start with one end.  Okay. So what are we do here is we took a recurrence and we fit it to this set of objects. We kind of went backwards for most of the rest of the time we're going to try to go the other way around whenever I give you a set of objects and you come up with a recurrence that counts them.  Okay.  Once you have a recurrence, how do you get the closed form? It's not always possible. But when it is, here's a few techniques you start with small values of and  this one's great to to start off with because you might see a pattern really quickly. Once you see a pattern that could give you an idea of what the clothes for MS.  In order to check you actually have to prove it by induction.  And I don't know if that sounds daunting, but just just be just know that recursion is really nice to use with induction that kind of go hand-in-hand so that the proofs are usually aren't too bad.  Play the other way to do it is to unravel and we'll see what this how the actually go about doing it. But what it is is you sort of plug in the the function into its own recursion and you keep on plugging it in until you get down to the base case you look for a few patterns and sometimes not always you can get to a closed form.  Okay, so let's let's do guess and check on this one suppose. I went through some of the first.  Values and I noticed this relationship.  So I would say okay. I know as of 1 is 1 s of to is got2b 1 + 2 which is three as of 3 is 3 + 3 which is 6 Franc as of 4.  Is 6 + 4 which is 10x of 5 is 5 + 10 + 10 + 5 which is 15 you I don't know if you've worked with integer sequence for a long time. You'll recognize this immediately something called. Does anybody know what these the sequence is called?  triangle numbers  Because each one of these is like you can you can make a triangle out of this many points.  You can make walk. That's just kind of a trivial triangle 3 you can make it like that 6 you can make it like this.  Night time you can make it like this.  and so on and you can sort of see why these numbers relate to those 1 + 2 + 3 + 4 + so that's where that comes from if you didn't recognize it then  There's one really great trick that we have that.  Our ancestors did not have and it's the internet.  And there's this great website that I want to share with you.  Well, there is Wolfram Alpha and that's nice but there's something  Dot, let's do that.  That's something called the online encyclopedia of integer sequences. Have you all seen this before? Yes.  Oh you did.  Oh, okay. Great.  You show you the secret. Okay, so cut and paste your integer sequence. I remember it by heart. It was 1 3 6 10 15 next 121 and then what 28 let's go.  Google search  you got the first thing you get is triangular numbers, right? And it tells you it's the pits and Force One shoes to that's what we had. It's also + x + + 1/2 that's what we guessed. It was or it's the summation from 0 to n gives you all the things and it gives you the sequence and it gives you a bunch of information about where it comes from what papers it was cited in this and that maybe alternate ways of counting it and stuff. There's a pretty popular one. So it has a really long entry.  Can stop you can just plug it in here and sometimes it'll pop up and give you the the closed form like that. I won't accept this as a proof of the closed form.  I want you to prove it by induction.  Because even though it gives it to you. You're only giving it a finite number of them, right? So it's not guarantee that it'll work the whole way.  Where am I?  Okay here.  Okay, so let's prove this by induction.  Claim that's equal to the m * m + 1/2. Okay, so bass case.  As of 1 is equal to 1 1 * 1 + 1/2 is equal to one good verified, right?  done  inductive hypothesis suppose that for some K greater than or equal to one s of K is equal to K * k + 1 / 2 now we want to show that it's true for sok Force One, which is this is what we want to shop.  Okay. Now everything else is just algebra. And what you do is you start from the left hand side. That's okay plus one and you use the recursion the recursion to get it into a smaller form. Then you use the inductive hypothesis to to change that smaller form into this. Then you use algebra to clean it up. This is what it should look like start with the left hand side rewrite it using the recurrence.  Replace as of K with K * k + 1 / 2.  The rest is just algebra.  any questions  this one the inductive step is actually this thing.  But I wanted to just kind of set us up to to kind of know what we need to prove. I want to know what I know what my goal is.  But this is really the inductive step all of this stuff.  Okay, let's move on.  unraveling  Okay. So this is the other method you start with a recurrence and you kind of start plugging it into itself. Okay. So what does that mean? Let's let's try a few steps a few iterations.  Okay, so I'm going to label this as  Step One is the actual recurrence itself. They over here on the side. I'm going to do a little bit of work.  Answer this one.  So if n is big enough then and minus as a 10-1 should follow the same recurrence so s of N - 1  is equal to ass of + -2 + + -1  Everybody see how this is the same recurrence as that.  Yes, right.  so plug this into their  is it going to be kind of like Step 2?  In place of a 7-1. I have a salve + -2 + + -1  Plus in  Aren't you just kind of plug it in?  Let's clean it up a bit.  Okay, let's do it again.  The Third Kind of iteration is going to be well in place of SF + -2. What do I put?  a - 1 + aunt  And clean it up a bit.  Okay.  Now, do you all see a pattern happening here if I kept on doing this over and over again and I went down to let's say the case level what would this be equal to?  Estevan - y + - k + and then I have in mind is k + 1 +  and mine is k + 2 + all the way up to + + -1 + +.  right  Who's the kind of the general strategy? Did you take it a few iterations until you find a pattern and then you plug in the the general pattern in the last step is?  What value do I need to set K to be equal to in order for this value this as of end - K to go down to the base case.  And well in this case you should be and -1 + -1 will bring it all the way down. Okay. I kind of need to make a little bit more room for this.  how do I  Come on now.  Okay.  so in the end minus one iteration or at whatever level we're going to have this s of n is equal to a size of an - + - 1 write + + - + - 1 + 1  plus all the way up to plus and clean that up a bit. This is 10 - 1 +  2 + 3 + all the way up to plus and I'm sorry.  And as of 1 is equal to one so plug that in and you get this.  and  Here, we have a summation. I want everybody to memorize what the closed form of the summation is he's going to come up all the time in this class. So this is  + + 1 * + / 2  Okay questions.  In the last step to the left step to do we do anything.  from here to there  from there. They're just memorize it. Yeah, whatever. You see this you could just put this instead.  Okay now it's your turn.  Hey, you can work with your neighbor. I want you to unravel this recursion.  This is  This is saying a of n is equal to 2 times a of n minus 1 thats the function.  Close to the end.  I'm going to kind of help you get started here, too.  Christian Crusades  Is this what you guys got for your second level?  That's okay.  That's kind of clean this up a little bit.  2 squared  right  Do we have a 2 x 2 to the N minus 1 which is a 2 to the end to the end.  So what you got you all had?  so far  Okay.  How about the third step you get equals 2 squared times?  Inside of here. I have to * a + - what?  3 + 2 to the N - 2  + 2 to the n + 2 to the end  How are you guys have?  All right.  Let's clean this up. Is it going to be a 2 cubed a + -3 + 10 you have a 2 squared?  Finish distributed into square * 2 to the end - 2 is what?  Do y'all see a pattern yet?  Alright, then. What is the case level?  to the k  day of  + - k +  K * 2 to the end  Anybody get that far?  Okay good.  Anybody have any questions about how we got there?  this that I X X distributed this to  32 * 2  That gives you two squared to x to the N minus one that gives you this to the end.  Yeah, 2 * + 2 * 2 million - 1 is to x to the n  What about it?  Does Green Park?  Okay, so the green part comes from expanding a of N - 1  in terms of the recursion  Hey, let's do a little side work here a of n - 1 is equal to 2 times a day of N - 2 + 2 to the N minus 1. So this recursion is the same as this recursion here.  You just shifted all the ends down by one.  write this basically this recruiting should be true for all n greater than or equal to 2 and so if it's true for n if n is large enough, it should also be true for N - 1  Got any other questions?  All right.  So what do we need to set k equal to to get to the last?  the last level  Okay, so set k equal 2 N -1. Has anybody figured out the closed form?  End times two to the end. Yes, and so have kind of all the work here.  When you set K is equal to n -1 when you plug it in here to the K to the -1 and 1/2 plus and minus 1 * 2 billion.  Because the bass cases want it is at 1.  2 + - + -1 will be one you're kind of just trying to get down to the base case.  And then a one is to sew two times to the amounts wanted to the end. So you just add that in it get this.  any questions  I have the base case was at zero then you want to plug in n?  Thanks. You want to get it all the way down?  Okay.  Let's move on. Shall we?  Sure.  Okay.  Text move on to the next thing we're going to talk about this game. The Tower of Hanoi. How many moves does it take to relocate all the disks from one pole to another the rules. You can only move one disc at a time and you cannot put a larger disk on top of a smaller disk.  Okay, so like a lot of problems if you want to get started on it. Try it out for some small cases Okay, so  How many moves are there if there's only one disc if there are two if there are three so just talked about it for just a few minutes. See if you can get at least these three sort of starting points and then we will start we'll go from there.  So these are three games here. Sorry. These are like this.  All right.  How many did you guys get with one disc?  one, right  on our way to three  Okay, I'll do a demonstration with three. Okay. I have my own this thing that came in the mail for me and this notebook. Okay. So these the three poles will be just the three portions of the desk. Okay. So the first move has to be I have to move my phone right? So let's move it to the middle. Okay. I'll move the envelope over here, right?  I can't move it on to the phone.  I move the phone over here first. Okay, and then move the envelope here.  Okay now.  Now, what do I do?  Move the phone onto the notebook.  envelope  Okay, good. Now what?  notebook here  Phone back on the notebook no over here first.  anybody keeping count  now move this here and now here.  Oligo 7 I think it's 7 we got to do it again.  1 2 3 4 5 6 7  Okay, so let's fill it to start feeling this out. You probably will already see or some of you may see a pattern already, but let's just kind of  Go with it for a little while to see how we would solve this problem if we didn't see a pattern.  Okay, how can we count the number of moves using a recursion? Okay. So whenever you want to count something with the recursion, the first thing to do is name, whatever you're doing name it something so I'm going to name a t k and and it's nice to do this. It gives you more of a abstract way to talk about the number of moves. So Tina to signify the number of moves to solve the puzzle with and discs.  Okay, so I'm want I want to convert this number into a sum of other numbers May. Maybe they will be.  T of smaller values, so what does that mean in this puzzle if I had n discs, can I use the solution for n -1 to solve the engine?  Find this case.  Let's go have 4 discs and let's say I know how to solve the 3 disc one. We already did it, right. It takes 7 moves. I know how to do it.  So basically what you do is you take the three disks.  And you move them here.  Right that takes 7 moves.  I'll just do it over the era.  Then what?  Can you move the big disk over here?  that takes one move right then you move this whole pyramid on top of their  another 7 moves  how many moves total do we do?  15 moves  right  Can we always do this? Yes, of course.  Yes.  You can never put a big disk on a small disk.  Okay good. So here's the recursive solution in general move the stack of the smallest and -1 discs to an empty Pole, right?  Move the largest disc to the remaining empty pool and then move the stack of the smallest and -1 disc to the pool without the largest disc. How many moves is this in terms of T of n?  Which recurrent does this describe?  Okay, good. We're kind of all sort of saying.  Day or most of us at least could exactly this is going to take T of N - 1 moves, right? Cuz you're just doing the the the smaller puzzle. This is going to take T of N - 1 moves. This is going to take one move.  So you should get two times T of N - 1 + 1 any questions.  Okay, now let's reset the clicker.  What is the base case?  Okay.  Good. So a lot of people are saying hey.  This is certainly a bass case that we could use if you said see that's also a base case we could use why are there more than one base case? Well, this is an integer sequence. You really can have your base case start anywhere you want right? You can just you just have to make sure that you define everything that happens before it so we could stay the base case starts at two discs, right? And then that will give us a way to solve all the  the rest of the tower problem with more than two discs  Okay, so we're going to just go with t of 1 is equal to 1 as the base case because innocence the zero case. It doesn't really feel like you're even playing the game. You just have these three empty poles and you say okay. How do I move nothing over to the other nothing? Well, I just do nothing and do Zero moves but doesn't really have a lot of tangible significance even though you could argue that it is still technically a game with zero disc. It's just not very fun.  okay, so we're going to start with T of 1 is 1  and now let's use the recurrence to fill up the table.  We have two times one plus one is three.  Come on now 2 * 3 + 1 is 7.6 + 1.  At this is 2 + 114 + 1 is 15 then we have 30 + 1 is 31.  And now we get here and we say is there a pattern that we can guess?  Anybody want to go to the online encyclopedia of integer sequences?  Or can you see maybe?  a pattern  2 to the 2 to the N minus 1 or 2 the end - 1  like that  Okay good. So this seems good right to the five is 32 - 1 and 16 - 1 and so on this seems like a good gas. So let's watch we guess it. What's the next thing we have to do?  Check it prove it by induction. Okay.  So we have to validate that this is the actual thing. Okay. So bass case if n is equal to 120 of n is one right to have one as one so that's good and according to the formula to the 1-1 is one so it validates it's good for the base case.  Okay now.  Come on now. Where's my?  okay, so claim proof by induction assume that t of N - 1 - 1  Suzanne has a positive. Okay, good. Now how do we do this? It's sort of the same way. We did it before this is what we want to show. So we start from the left hand side, which is tfn rewrite it as the recurrence.  Then use the inductive hypothesis to rewrite the smaller problem.  And then use algebra to clean it up.  got any questions  8 minutes to work. Okay good.  Now what you all have been waiting for let's unravel.  Okay. So this one I'm going to warn you there's something in here that happens that if you don't see it right away, you could kind of get stuck but if you remember.  Certain lessons from other math classes you might be able to get through it. So it would be good to have this practice.  Okay, so we're going to start the first step is T of n is equal to 2 T of N - 1 + 1.  K the second step is going to be.  T of our house it's a equals spine is equal to 2 times. Now, what do I write in here?  Plus one, right?  And then plus one. So this is 2 squared T of N - 2 + 2 + 1 right when you're doing this unraveling might be very tempting to combine these up. But sometimes it's nice to kind of keep them separate so that you can sort of see the pattern.  Okay, so 3.  is equal to 2 squared and here we're going to have to T of N - 3 + 1 + 2 + 1 so that will be to Q T of N - 3 + 2 squared + 2 + 1  Let's do one more.  4  2 cubed  T of n * 2 T of n - 4  + 1 + 2 squared + 2 + 1 so the 2 to the 4th T of N - 4 + 2 cubed + 2 squared + 2 + 1  okay, you guys see the pattern yet?  Case of the case level is going to be what?  To the K T of n minus K plus what?  to the K - 1 + 2 to the K - 2 right plus all the way down 2 + 2 + 1  anybody anybody know?  What kind of Series this is called?  geometric series  anybody know the closed form of a geometric series?  Yeah.  to the Kate -1 Okay, so  This whole thing.  is equal to  2 to the K - 1  okay, if this looks bizarre to you or this looks like magic or if you have no idea what this is review geometric series.  Those are going to come up a lot too in this class and I want you to know how to find their clothes forms.  Okay, any questions about that?  Okay, so I have it all written up here. This is basically the case this is what we determined is the case level and so take it down to the end - 1 levels is okay. Take it down to the end minus one level and when you plug in and minus one here, you get the base case the base case is won. So you just get to the end - 1 + 2 million - 1 - 1 - 2  Okay any questions?  All right. Let's do another counting problem.  binary strings avoiding 00  Okay, so we know how to count all the binary strings right? It's just two to the end now if we put a restriction and we only want to count a subset of the binary strings. Then you we know that is going to be less than to the end. But how do we know exactly what it's going to be?  This is actually very close to to my PhD thesis and also Quang PhD thesis because we sort of worked on the same thing. We counted permutations that avoid certain patterns. So here we're going to count binary strings that avoid this pattern.  So it just means that they don't have two consecutive zeros in a row.  Okay, what is a really nice way to start out these problems that I told you about?  Name them that's when we're going to do the recursion. But before we start the recursion, what's a good kind of way to get started?  That's how the recursions going to be for sure. But yeah, maybe we can just jump right into the recursion. I was just thinking maybe like try to see what happens on.  Yeah, just give it an examples to skip started but you all are both right once you start the recursion name it and then split it up and we're going to split it up. You guys could probably already  Guess right by all the ones that start with one and all the ones that start with 0, but first, let's see kind of what we're working with.  Okay. So how many lengths 0 binary strings have no consecutive zeros.  One right the empty string or what. Did you call the empty string Epsilon?  Orlanda Lambda  okay, how about how many lengths 1 binary strings are there that avoid 00  to write  how many lengths 3 binary strings are there?  I see the strings are there.  Three right we have zero one.  0 or 1 0 and 1 1  and then here we have zero zero that's not allowed.  3 okay, so we have one two, three four that automatically means that the next one has to be four.  Right and then we can be done with the class and move on right? We're done with this problem. Yes. No.  What's the next one?  5  here are the five.  And here are the ones that are not right. So right out of the eight five of them avoid the the pattern and threw them down.  Anybody have an idea of what the next one would be?  8 and then what?  Okay, good in 21.  Okay, so did suggest it suggested that these are the Fibonacci numbers coming out? Okay. So let's do the recursion and were the first thing we're going to do is name the name the number 0 0 avoiding binary strings and then split it up by what does it start with either starts with a 1 or starts with a 0?  K any long 00 voting binary strings either start with one or with a zero.  So if it starts with a 1 how many by how many lengths end binary strings start with a one that avoid 00?  Like what? Can you fill this up with?  Well, there are  And -1 positions left over to fill and within those positions you have to avoid a 0-0, right? So there are B and minus one of these.  right  Okay. So this is what I Define B2B be of n is the number of length in 00 avoiding vs. So be a number of N - 1 length 00 avoiding binary strings of these follow it and it'll be valid. Okay. How about zero if it starts with a 0?  What what is the next number have to be?  Has to be a one cuz it has to avoid 00.  So now we have and -2 positions left over and they can be any of those things.  Okay good. So that's kind of the idea, right?  You can put any 00 voided binary string of length n -1 any 0 0 40 binary string event in -2 and we get this nice recursion, which is very similar to things that we know right? This is just the Fibonacci numbers is just that we've kind of shifted them a little bit, right?  And you get this night?  sequence  anybody know I put a pineapple here.  Yeah, the number of spirals in a pineapple is a Fibonacci number.  They come they come up all over the place in nature.  Just kind of caught in a pine cone in a sunflower a lot of flowers. The number of petals is a Fibonacci number.  kind of neat  Okay, so  baby, let's stop here.  and on Tuesday will  Yeah, we'll start fresh on. Maybe we'll do an example on Tuesday of another recursive counting problem. Just so that you can get reminded and then we'll start with the next topic. "
+}

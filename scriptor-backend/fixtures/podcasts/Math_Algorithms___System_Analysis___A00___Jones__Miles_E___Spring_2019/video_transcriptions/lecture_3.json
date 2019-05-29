@@ -1,0 +1,466 @@
+{
+    "Blurbs": {
+        "10 choose 1 2 3 4 5 6 7 10 shoe 7 is 120. So Pascal's triangle gray and mathematicians love it because it's got like a bunch of cool patterns inside of it. So one thing I want you to think about is do you find a pattern in the sum of the Rose? Powers of two, right? We have one to four. 8 16 32 and so on ": [
+            3899.7,
+            3956.2,
+            79
+        ],
+        "Alright, so let's get started. Anybody have any questions before we begin? Okay good. Okay, mainly today we're going to look at combinations and all that comes with that. So let's get started. Did you guys do this example last time? No. Okay, let's do this example now. Okay, so you have these three pipe cleaners red orange and yellow. Okay, you want to kind of stick them to get ": [
+            154.2,
+            211.5,
+            0
+        ],
+        "And in general that's what combinations are always going to be with when you have one and it went okay. You're some more examples or these are kind of the same example. Let's do these ones over again people from this class. Can I do this? This will be 150 to 7 How many how many ways can I do it if they each go on a different day of ": [
+            2075.2,
+            2106.8,
+            37
+        ],
+        "Different, different ways you can arrange things around. So today what we're going to do is talk about combinations. So he was sort of a Something to get us started day. So instead of thinking about sequences of things where you're either have no. Duplicate or not. We're looking at subsets case of sequences and subsets. And what is the what is the main difference between a sequence and a ": [
+            1605.1,
+            1639.7,
+            25
+        ],
+        "Don't you feel like you have like a much more deeper understanding of why these things are equal much better than just going through the algebraic motions. All right, let's do another one. is it called Pascal's identity plus one shoes K is equal to n choose K - 1 + n choose k Okay. So what is the left hand side count the number of binary strings of length? ": [
+            3364.4,
+            3395.5,
+            65
+        ],
+        "Good now. Not let's go back to the original problem. Frozen picking seven people from this class and each one will go on a field trip on a different day of the week. How many ways can I do this? Okay. Well one way to think about it is let's first pick a subset of 7 which one of you are going which which subset of you are going. How ": [
+            1976.6,
+            2005.5,
+            34
+        ],
+        "I'm going to show you why that comes out the powers of 2 and these other ones have the proofs aren't as nice for these ones. They're kind of like a little weird, but they're they're still pretty cool. okay, so let's move on to Guess we only have 10 more minutes. Let's move on to that proof so that we can. We can we can end with that. I ": [
+            4192.6,
+            4219.3,
+            85
+        ],
+        "Inkay, right if I have a 12 element subsets of a set of side a hundred. For each one of those subsets you can you can build a binary string with a length of 100 binary string with exactly 12 ones, right? And for every one of those binary string you can make a subset. So has this nice bijection where you can go you can go forward and backwards ": [
+            2979.0,
+            3005.6,
+            54
+        ],
+        "Insane, right? right, right, and there's humans that can solve it really fast to There any questions or comments? Okay, so all of these things that we're doing so far like these exercises we did and the things that you all did on Thursday. They're all using right factorials. This is permutations exponential's these are kind of the product rule but maybe thinking about them as like as words or ": [
+            1561.3,
+            1603.2,
+            24
+        ],
+        "Okay show up, that oral interpretation. We're just going to count each side Okay, so The left hand side count the number of binary strings of length and width exactly K ones we've established at the left hand of the right exactly. How do I make a bijection from one side to the other? What's up? Okay, good. Yeah, so if it has K ones and it has + - ": [
+            3225.7,
+            3272.4,
+            61
+        ],
+        "Springs Library. 24 Is this how anybody else did it? Yes, yes. Yeah. Did you just put them in order by their like? Just put them in order and then they're sidewall there just an order or is there like an underlying kind of rule that goes along with them? Okay good. exactly Anybody else want to give the rule? What's the rule? Okay, good. So what you said right ": [
+            2777.0,
+            2944.6,
+            52
+        ],
+        "What's what's another one but red? Read touching the green, right? yellow an orange right? There's there's one is that different than there any way that you can get from that to that? No, right. How about red? green orange We've already done that one, right? oranges here and yellow Okay, good. So One way to try to do this kind of like the triangle one. There's four factorial different ": [
+            779.0,
+            838.6,
+            8
+        ],
+        "What? and plus one with exactly K once okay good. So the left hands are the right hand side. It counts to things and adds them together, right? Let's just say it and we're going to kind of figure it out as we go along. Okay, so the right hand side counts and choose K - 1 which is the number of length in binary streets with K - 1 ": [
+            3395.5,
+            3436.7,
+            66
+        ],
+        "You can't really rearranged the cubes like that. Then there's this this crazy one this one I was 9 factorial would be like how many ways can you arrange all the colors on each one of the faces? So * 6 that's in this particular case because these These cubelets are going to be able are not going to be able to take the stickers off the pieces. 36 factorial ": [
+            1144.3,
+            1180.2,
+            15
+        ],
+        "a deeper understanding of of why those two sides equal each other. Okay, so maybe let's stop there and we can I'll do a little bit of the binomial theorem and that's kind of where the name comes from and then we'll start with recursion. ": [
+            4389.5,
+            4413.2,
+            91
+        ],
+        "a set of binary strings? Okay, good, either they start with zero or they start with one and you can if you do that you split it up, you know for sure that the sets are disjoint and that's what we really want. Hey, so we splitting up to the ones that start with one and the ones that start with 0. Okay now go back to the Clickers. How ": [
+            3490.5,
+            3520.4,
+            69
+        ],
+        "about on a Monday? Once that student has been chosen how many of them are left over? 149 and then 148 147 146 145 144 so you multiply all those together and you get that many and remember. that this is P p of 157 or another way to write this is 150 factorial divided by 143 factorial. Did you guys go over this this way of doing it to? ": [
+            1932.8,
+            1974.3,
+            33
+        ],
+        "abstract algebra is any is anybody taking that class? It's like a math class. It's Kind of hard but kind of fun but kind of weird. Anyhow. All of the positions that you can get from turning that's called the orbit. Don't worry. There's not going to be on the test. There are 12 orbits of the Rubik's Cube, which means that you can start in 12 different positions and ": [
+            1384.0,
+            1416.8,
+            20
+        ],
+        "algebraically you're in for a really hard time. It's really not easy to do. I mean think about it. You have to kind of combined all those fractions can get common denominator do all of this stuff. We're going to prove it, notoriously and you're going to see that the proof is so much easier. It did really just kind of comes out of counting. Okay, so let's do it ": [
+            4255.6,
+            4282.2,
+            87
+        ],
+        "all of these and try to figure out a way to kind of Link every element of this set to every element of that set in sort of reasonable rule with a sort of reasonable ready go. You can work in groups if you like. Don't buy yourself. 2019 oh, I think that doing different yeah, I know they're going to be different objects different sets of objects, but they ": [
+            2623.1,
+            2744.1,
+            50
+        ],
+        "all the cake. Okay. Does anybody know why this is called Pascal's identity. That's how you build Pascal's triangle exactly. Okay, so this is Pascal's identity and let's let's fill in a few kind of bass cases Okay, so What is N20 how many ways can I choose 0 things from a set of end things? What right you don't do anything? What about in shoes? Also one you just ": [
+            3707.1,
+            3756.7,
+            74
+        ],
+        "alphabet of and letters to see the connection between those two. Basically the same thing right a string is basically a sequence ain't just didn't have the comics. These two are a little bit more or a little bit harder to find the connection for so this is what we defined it to be write the number of our element subsets of a set of size n but also it ": [
+            2441.7,
+            2473.9,
+            44
+        ],
+        "also counts number of length and binary strings with exactly K ones queso. Can you think of a bijection a one-to-one correspondence between these two sets of objects? So the exercise I want to give you is 4 choose 2 is equal to 6. That means that there are 62 element subsets of 1 2 3 4 and there's also 6 exactly to write down all of these write down ": [
+            2588.0,
+            2623.1,
+            49
+        ],
+        "and each one will go on a field trip on a different day of the week. Okay, how many ways can I do this? Well, this is just like making a sequence of students, right? So Using the product rule how many people how many ways can I shoot a student to go on a Sunday? Well, I can choose any of you write to go on that Sunday. How ": [
+            1905.4,
+            1932.8,
+            32
+        ],
+        "and putting it back together. Okay. most of y'all are saying be It looks like the most complicated it. I was kind of like trying to figure out I don't know the fit other things that you could get maybe mixed up with right like 27 factorial. There's 27 kind of cubelets if you think about it as like as them all being like different things, but yeah, that's not ": [
+            1097.7,
+            1143.3,
+            14
+        ],
+        "and we'll talk about why has that name and Officially, why has that name? And when you see this the way that you say it is and shoes are so that that's what that's what this is called. That's what this is or how you say it. So let's go back to the field trip. Here's a kind of a different problem suppose. I'm picking seven people from this class ": [
+            1878.5,
+            1905.4,
+            31
+        ],
+        "around? How many cubes like glow cubelets? well I don't know 3 x 3 x 3. Right, right, right. But notice that the cubelets are different The Edge ones have two colors in the corner ones have three colors, right? Yeah, but there's two different states that I can be in. No, it's not you have to. Get the flip it into the second estate and then rotated. What is ": [
+            961.3,
+            1063.0,
+            12
+        ],
+        "bit more detail. But this is the right answer but just keep this in mind remember kind of the significance of dividing. We've seen it a few times already. We saw it with the triangle without with the square and kind of without much explanation. We saw it with the Rubik's Cube. Okay, so let's talk about it in a little bit more detail. like I said the terminology this ": [
+            1793.0,
+            1821.1,
+            28
+        ],
+        "both have six elements. So if I jection would mean it's a function that map's one set to the other. That's one to one and onto. And there's actually six factorial which is equal to 720 different bijections. You can come up with but I want you to come up with one that kind of makes sense. There's like a simple rule that you could put on it. Call Bonner ": [
+            2744.1,
+            2777.0,
+            51
+        ],
+        "can't rent you. Can you can artificially get a vertical flip by flipping it this way and then rotating it right so you can use like Combinations of symmetries are combinations of transformations. Brittany questions Okay. another puzzle How many different arrangements are there with a Rubik's Cube? Okay, ready go. No, so there's a few things that maybe you should know about a Rubik's Cube. Okay. So one thing ": [
+            883.9,
+            929.6,
+            10
+        ],
+        "choose everything right? So these are sort of the base cases and then everything else is built from there. Okay, so that means that I have one. down the diagonal let's say that this is Cathay and Which way do I want to build it goes down and K goes this way, okay. So when K is equal to 0 we get these two. So these are just filling in ": [
+            3756.7,
+            3797.0,
+            75
+        ],
+        "cleaners and too and I want you guys to work in groups figure this one out raise your hand if you have any questions and I'll come by and And help you out ready to go. Okay. Okay. So how many of you got how many did you guys get? 3 right Anybody getting more? Fewer. Here's why I know this doesn't really look like a square but here's one. ": [
+            508.8,
+            775.6,
+            7
+        ],
+        "factorial. How many symmetries are there now? What are the Symmetry is kind of like the the transformations of how to transform one triangle into another how many ways can you do that? You can flip them. right If you flip them that gives you two options right one way or the other and then what's the other kind of axis of symmetry? Rotate and how many options does that ": [
+            396.7,
+            435.5,
+            4
+        ],
+        "from? I'm staying here we go. So did the way to do this is to basically count all the different triangles without any Transformations and / all the symmetries. So how many theoretical objects are there without symmetry swell, you can basically make the triangle in 3 factorial different ways, right? You can start with red yellow orange or any sequence of those three colors, so there will be three ": [
+            360.1,
+            396.7,
+            3
+        ],
+        "general PE of n k is equal to C of n k x k factorial see if you can convince your neighbor or convince yourself or whatever ready go. Okay. I want to get back to you. Okay, who has a a short kind of description or explanation about this equation? Okay, good. So The right hand side is to pick the subset first then order it and and that's ": [
+            2183.9,
+            2335.0,
+            40
+        ],
+        "get to every single possible one of these things. So this is like if you take them apart and put it back together, but possible. configurations using valid movement is 3 to the eighth 8 factorial to the 12 12 factorial all / 12 / 12. This is kind of like dividing by the Symmetry how many symmetries are really complicated to kind of think about but it's sort of ": [
+            1416.8,
+            1458.8,
+            21
+        ],
+        "give you? So you have to * 3 is equal to 6 OKC have 6 objects and 6 symmetries. So 6/6 was just give you one kind of physical object, right that is invariant of those things. And here I know I change the colors around you can see these are sort of like the six theoretical objects that we're considering as different. But once you have them as a ": [
+            435.5,
+            471.8,
+            5
+        ],
+        "go on a field trip with me. How many ways can I do this? Okay, and remember that he of 157 is the number of 707 permutations of a hundred fifty you guys did this in on Thursday last Thursday, right? Okay good. So a lot of people are saying e PT of 150 7 divided by 7 factorial I thought we're going to go into this in a little ": [
+            1671.1,
+            1793.0,
+            27
+        ],
+        "here. Okay now. Just like I said before how we counted two things in different ways. We're going to see as we as we go through these counting exercises that there are many different types of things that are counted by the same expression. Okay, so it counts the number of sequences of our elements from a set of an without repeats. The number of strings of length are from ": [
+            2407.9,
+            2441.7,
+            43
+        ],
+        "how to choose and minus K elements from a element set. You can also think of the right hand side is the way of instead of choosing those and minus K elements you're leaving. And mine is k-elements there, which means that they're Kate elements left over. So the number of ways to choose K element is the same as the number of ways to leave and minus K elements. ": [
+            3338.8,
+            3363.0,
+            64
+        ],
+        "how you build the whole triangle, right? So this Square here is going to be 1 + 2 1 + 2 is 3 2 + 1 is 3 write 1 + 3 is 4 3 + 3 is 4 or 6. 3 + 1 is 4 and so on. Have y'all seen this already this Pascal's triangle? Okay, so you can use Pascal's triangle to solve these binomial coefficients and ": [
+            3836.8,
+            3878.4,
+            77
+        ],
+        "how you get all you can get every single sequence that way. pick subset then order I left hand side just count all the secrets. So you've counted all the sequences in two different ways one directly and the other one kind of indirectly, but you're still accounted for all of them exactly once right so you so these number should always be the same. Okay, so in general but ": [
+            2335.0,
+            2370.4,
+            41
+        ],
+        "identities. And what is an identity is basically just an equation that stays true no matter what numbers you plug in. How do you prove an identity one way is what year you all are used to doing it to use algebraic manipulations. Maybe you multiply each side by a same value or you know combine like terms and you know get to some point where you have some sort ": [
+            3097.5,
+            3126.6,
+            57
+        ],
+        "if you put them kind of on a table and you can you can transform one triangle into another by a sequence of rotations and flips, then they're the same triangle in my opinion. So if you if you take it if you take it with that definition, there's really only one triangle that you can make. So, how do we get to that number one? Where does that come ": [
+            327.2,
+            360.1,
+            2
+        ],
+        "is the number of length and binary strings with exactly are once how do those things relate to each other or another way to say it is why does this count both of these sets? Why are these sets? What do you call it? When numerous they're both. They both have the same amount all the time. So whenever there's two sets of objects that have the same amount. The ": [
+            2473.9,
+            2504.2,
+            45
+        ],
+        "is what we saw on Thursday in our permutation is an arrangement are elements from a set of n distinct objects is a ordered Arrangement or a sequence. So it's how many are linked sequences you can make from n distinct elements and there's this many of them. Okay, so our combination is a subset. Okay. So when are UC permutation think sequence combination thinks subset. There are this many ": [
+            1821.1,
+            1854.1,
+            29
+        ],
+        "just wanted to show you is that. if you take a short of the diagonal line like this Okay, and you sung them all up together? Then you should get this number here. Is like it always works for anything? Oh you guys like that one? That's nice. I'll give you one more. Give me one more. This one's like kind of you kind of have to like slant to ": [
+            3994.1,
+            4058.7,
+            81
+        ],
+        "k02 has in mind as ones and has k0. Frank and saw the bijection is if you flip all the bits you get one of these if you flip all the bits back you get one of these I am so you just flip the bit. That's the bijection between the two sets there for the sets have the same cardinality. A match up these two sets by parent each ": [
+            3272.4,
+            3301.0,
+            62
+        ],
+        "let's just kind of turn this around sea of NK is always going to be P Ave n k / K factorial and that translates to this closed form here. This is how you compute n choose k Okay now. Now we have just wanted to kind of put this up again reiterate the closed form. So you have this one so and factorial / n factorial / are factorial ": [
+            2370.4,
+            2407.9,
+            42
+        ],
+        "like this. What does the left hand side of this? expression count Remember, it's a summation. Right? So your summing up a bunch of things. And so you have to cap. What is it count. It counts each one of those terms of the Sun. Frank the first term would bn-20 the number of binary strings with 0 ones + n choose one number of string to Binary binary strings ": [
+            4282.2,
+            4328.4,
+            88
+        ],
+        "many length and plus one strings start with one and have K ones in total? Okay, good. Most of your saying d n choose K - 1 right? And why is that is that first bit is fixed then you have n Bits left over. and they have to have the remaining K - 1 once questions about that Alright next one. How many? How many length and Force 1 ": [
+            3520.4,
+            3585.7,
+            70
+        ],
+        "many ways can I do this in? Well, we haven't really talked about the closed form, but I'm going to say it's going to be done in 150 to 7 Ways. That's the subset problem. I can arrange those students in 7 factorial ways to tell which one is going to go on each day of the week. Do this problem is I want to go on a different day ": [
+            2005.5,
+            2029.7,
+            35
+        ],
+        "next kind of stuff to do is think about a bijection. How do I how do I find a function that map's one set to the other set. Do you all remember from 20 wear a bijection means that the two sets are equal right? So now I kind of like doing it by Jackson backwards. We're starting with the two sets being of equal size and trying to figure ": [
+            2504.2,
+            2524.6,
+            46
+        ],
+        "of elements. Okay, so the first one. n choose K is always equal to end choose + - k Okay, so if I were to give this to you and say prove it to me. Maybe some of the would give me this as a result. Seems reasonable right spine pretty easy to do doesn't take that long. Just kind of lacks, which is a Turn of a deeper understanding ": [
+            3154.1,
+            3197.0,
+            59
+        ],
+        "of equality or tautology. But we're going to be focusing on is a combinatorial proof of an identity. We interpret each side as accounting some collection of fixed SE binary strings or subsets or something like that. Then we make a bijection between the two sides because remember if you can make it by jection between two sets then that's proof enough for the two sets have the same number ": [
+            3126.6,
+            3154.1,
+            58
+        ],
+        "of length n into disjoint sets based on how many ones they have and then you count each one of those disjoint sets and their sizes together. You got all the binary string then this just counts the binary straight. So that's that you don't have to do any just combinatorial reasoning and hopefully you get like a much better feeling of why it is right. You kind of have ": [
+            4366.6,
+            4389.5,
+            90
+        ],
+        "of the week the first pick the subset then arrange them. So I can Define permutations by first picking the subsets and then arranging so is 157 * 7 factorial. There any questions about that? Okay. So remember we haven't really even to find what you know, or we've defined it but we haven't calculated what it is therefore. 150 to 7 is just P of 157 / 70 factorial. ": [
+            2029.7,
+            2073.6,
+            36
+        ],
+        "of them and I mean this is not a a closed form. This is just a symbol that we used to describe it and I wanted to start this way to present it to you. Okay, so we're going to we're going to just think about this as defined to be the number of our combinations. So you'll see that but you also see this a lot the binomial coefficient ": [
+            1854.1,
+            1878.5,
+            30
+        ],
+        "of why these two things are equal. This is sort of like goes through the motions inside the pay this was that this is that and you get back to it. A combinatorial proof one good thing about it is that it gives you a deeper understanding you kind of have more of a feeling of why they're the same instead of just a mathematical algebraic proof as a justification. ": [
+            3197.0,
+            3223.7,
+            60
+        ],
+        "one that have K once that's good. And the right hand side also counts that same set but it counts it into with using two subsets right with two different cases. questions so the so this one the K - 1 Think about it like this is the one that starts with one cuz this is the set of all nplusone length strings that have K ones and starts with ": [
+            3642.3,
+            3679.9,
+            72
+        ],
+        "one this we have the first one here. And then how many positions do you have left over and positions? And how many remaining ones do you have to fill in there? Right cuz you already have the one and then K - 1 ones left over. And then if you have the zero in the front, then you don't you didn't use any of the ones you can put ": [
+            3679.9,
+            3707.1,
+            73
+        ],
+        "one? What's this one one one one and two. What about this one here? What are this one? 1 + 4 + 3 is 1 + 5 + 6 + 1 did you find the Fibonacci numbers in there We're well, we won't go over the proof of that one. But you know, if you're interested you can look and there's like some nice nice the reasoning for it. Any ": [
+            4090.8,
+            4149.3,
+            83
+        ],
+        "ones + change with K ones, right? Okay, so we're going to try to figure out a way to to build a bijection out of this. And in this way we're going to use the addition rule. Remember or the sum rule we're going to do is we're going to take this set. And break it up into two disjoint sets. Okay, and I'm going to unclaiming that these are ": [
+            3436.7,
+            3463.7,
+            67
+        ],
+        "or put them together to make a triangle? How many different triangles can you make? What's the code CD? right we kind of have like a a battle between a & D Hades kind of winning out Anybody have any comments about this or questions? What's up? What's the definition of a different triangle? Like how do you know if two triangles are different? Well, it's kind of vague right ": [
+            211.5,
+            327.2,
+            1
+        ],
+        "out what the function is. Corestaff many many functions you can make up what we're looking for is a function that kind of has a has a simple rule that we can follow. Okay, and my Quang the other instructor here and I we both share the the same thesis adviser and this was his thing was these bijections and he always said if two sets have the same enumeration ": [
+            2524.6,
+            2559.0,
+            47
+        ],
+        "physical thing you can change for this one to that one by doing a rotation need to change this one to that one by doing a horizontal flip. So there is just one thing they can do any questions. Okay. How about now if I add a green? Pipe cleaner. So now I have four different colors. How many different colored squares can we recreate by tying these for pipe ": [
+            471.8,
+            508.8,
+            6
+        ],
+        "questions or comments? It has to do with the fact that these binomial coefficients have a lot of nice. They interact with each other a lot based on, toric. So because they're counting a certain set you can count them in a bunch of different weird combinations and put them back together. So to answer your question, we're going to look at the the sum of all the rows and ": [
+            4149.3,
+            4192.6,
+            84
+        ],
+        "see this one. Okay, so we're looking not like the the diagonals that you have but like another diagonal that's like a little bit off. Okay, so it's going to look like this. Going to look like going to look like this diagonal. Okay at all those numbers together at 1. The next one comes like this. What do I get there? Two, okay, where's the way I forgot this ": [
+            4058.7,
+            4090.8,
+            82
+        ],
+        "so there's actually 36 squares right? There's 9 * 6 but then this this doesn't really work because there's a lot of repeated colors. So you kind of have a lot of things like that. So this one is the answer. I was looking for anybody explain it to me. Or did you just say it because it was a most complicated? doctor Okay, good. So So notice that there's ": [
+            1181.8,
+            1254.1,
+            16
+        ],
+        "string with another word. Zeros ones are flip this bijection music two sets of the same size. So these are equal. So that's using binary strings. Let's just kind of think about it one like it a little bit deeper. We're not deeper but in a different kind of way instead of using binary strings. Let's use subsets. Okay choose K elements from an element set right hand side is ": [
+            3301.0,
+            3338.8,
+            63
+        ],
+        "strings start with 0 and have K ones in total? OK Google lot of people are saying be choose k Why is it n choose K? Because that the first bit is fixed at 40 bit is fixed and bits left over within those and bits you need K of them to be once. Take to the left hand side count the number of binary strings of length n plus ": [
+            3585.7,
+            3642.3,
+            71
+        ],
+        "subset? The order matters in a sequence right to sequences are different if they come in different orders two sets are the same even if they come in different orders. Okay, so I have a set with n distinct elements and I want to know how many ways can I form a subset of K different elements? So seven people from this class was say there's a hundred fifty to ": [
+            1639.7,
+            1671.1,
+            26
+        ],
+        "talking about Cube turnings then. There's a way to kind of figure that out to. Yeah. Will the tune of the 12 is no to the 12 is okay. So are these ones so 12 factorial means I can arrange them physically in 12 different ways are 12 factorial different ways. Then to 12 means that for each one. I can arrange it this way or that way. Same with ": [
+            1306.0,
+            1347.8,
+            18
+        ],
+        "that order. How about if you're doing a group project with 20 people and you want to pick four of them to go to a conference combination rights are 22s for there any questions about that? 12 sequence ones are subsets in the main differences. Okay, good. Let's move on. Oh now you can't read it. Just remember subset of four people sequence of four people sequence. Okay, so in ": [
+            2140.6,
+            2183.9,
+            39
+        ],
+        "that people talk about with the certain puzzles. And so this is a puzzle. Right and it's called a God's number and the gods number of a Rubik's Cube is 20 what that means is if you're in any of these configurations, what is that like a billion billion any of these three billion billion configurations? It's possible to get back to the original position in 20 or fewer moves. ": [
+            1523.4,
+            1558.5,
+            23
+        ],
+        "that there has to be a reasonable bijection between them and saw this kind of stuff is really exciting for me. Okay. So let's let's go let's try to do this exercise. We claim that n choose K counts the number of K element subsets of a set of cardinality end and the end we may as well just choose the set of integers from 1 to n. But it ": [
+            2559.0,
+            2588.0,
+            48
+        ],
+        "the base cases. Now. What is this saying okay if I want to fill in two, one right What is 2 choose 1? It should be according to this. It's one choose one plus one shoes 0 and that's one choose one is here and one shoes zero is here. So I use these two to add up to to add those two together. And in fact, this pattern is ": [
+            3797.0,
+            3836.8,
+            76
+        ],
+        "the cardinality of those two disjoint sets. And since they're disjoint You Can Count each one of them and some of their cardinalities and that will be the cardinality of their Union and I cleaned the cardinality of their Union will just be this thing. Okay. So let's see. This is what we have so far now can anybody think of a kind of a natural way to split up ": [
+            3463.7,
+            3490.5,
+            68
+        ],
+        "the corner pieces. I can arrange them physically and 8 factorial ways. And then for each one, there's three positions I can have. so you got 332 the eight eight factorial to to the 1212 factorial like you said over there the these are not all a Chiva bowl with the valid turnings of a Rubik's Cube now to kind of study this thing you need something called group Theory ": [
+            1347.8,
+            1384.0,
+            19
+        ],
+        "the same idea. Anybody have any idea how big does number is? Massive, right? I even write it down. Oh, yeah, this is 4.3 x 10 to the 19. And what about this one here? This would be something like around around like 3.9 * 10 to the 18 or something, right? valid taller Okay, another kind of fun fact, this is a very big number, right? There's this thing ": [
+            1458.8,
+            1523.4,
+            22
+        ],
+        "the weather? No, no. No, there's not too Quicks. There's two states. There's one flip and there's two states. Yes for rotation states to is really there's only three right rotations, but there's four states. You can be in like the Beginnings day and then all the other three. There's two states that can be in the flip the beginning State or the flip state. No, like taking it apart ": [
+            1063.0,
+            1097.7,
+            13
+        ],
+        "the week? That'll be P of 1:50, 7? Forgot about that suppose you were doing a group project with a team of 20 people. You must pick a team leader ascribe a treasure and a presenter. How many ways can you do this? Permutation or combination permutation right? Because the order you can kind of give an order to these. Jobs, right and then you have to put them in ": [
+            2106.8,
+            2140.6,
+            38
+        ],
+        "theoretical objects right that you can create because there's four factorial ways to arrange those colors. / how many symmetries are there? There's two flips, right? And there's four rotations. So you get 24/8 is 3 any questions? It doesn't matter which way they are it just you got to stick with that flip, right? And so if you say that you wanted to flip it like this, then you ": [
+            838.6,
+            883.9,
+            9
+        ],
+        "think that's the best thing the the this is what we saw right? This is the The sum of all the rows of the Pascal's triangle, right? So some all the binomial coefficients you get to the end just looking at that and knowing that the coefficients are these ratios of factorials and all this stuff. It's surprising algebraically why this is if you want to try to prove this ": [
+            4219.3,
+            4255.6,
+            86
+        ],
+        "to notice is that These middle faces, they're fixed in place. The Rubik's Cube kind of has like this skeleton that all the middle faces are fixed. It's all the other things around it that will be kind of moved around peso like the edge pieces that the edge pieces the corner pieces are going to be kind of Shuffle around. So how many ways can you Shuffle those things ": [
+            929.6,
+            961.3,
+            11
+        ],
+        "two different types of cubelets. There's the all there's actually three different types. There's the center ones but they don't move. So let's forget about that. There's two different other types. There's the corner ones and there's the edge ones the corner ones have three colors have two colors. so yes. Yeah in this in this particular. Exercise, yes, but I'll give a little demonstration of where if you just ": [
+            1254.1,
+            1306.0,
+            17
+        ],
+        "we're actually going to show where this comes from combinatorial E, and I'm hoping that you'll have I mean you might look at it now and he is like a mathematical combinatorial reason. I meant what else some other. There's a bunch of other stuff. There's this thing called like the hockey stick. identity It's kind of cool. I won't we won't really like go over the proof, but I ": [
+            3956.2,
+            3994.1,
+            80
+        ],
+        "when you see this. This symbol n choose K. I want you to think of two different things. I want you to think of K element. subset of 1 through n end length and binary strings With K ones, I guess I should say with exactly K ones. Okay. Okay good. Okay, so This thing this binomial coefficient dislike n choose k thing. There's like these these is really nice ": [
+            3036.7,
+            3097.5,
+            56
+        ],
+        "with a very simple rule. any questions Okay good. So fix density binary strings how many links and binary strings contain KY another way to think about it or this is kind of the way we did think about it out of all the positions. How many ways can you choose K of those positions to be 1 + & - K of those positions to be zeros Okay, so ": [
+            3005.6,
+            3036.7,
+            55
+        ],
+        "with one one and so on. Exactly. It counts the number of binary strings with any number of one's right? With 0 1 1 1 2 1 3 1 4 1 all the way up to n once. That's all the binary strings right how many binary strings are there in total? So that's where this come from. By the summer we can break up the set of binary strings ": [
+            4328.4,
+            4366.6,
+            89
+        ],
+        "would you guys say the numbers in the subsets correspond to the positions of the ones right so we can we can name the positions? 1 2 3 4 so since this one and to write this one is to 4 so I put ones in position 2 and 4. And so now you can see hopefully that this can expand right and this will work really for any and ": [
+            2944.6,
+            2979.0,
+            53
+        ],
+        "you build it up. And then if you want to know like 10 to 7 you look for like the tenth Row in the seventh call him and whatever that number is is that value? So here's a here's an example. This is you know, Pascal's triangle with more things filled in but what if I want to know 10 to 7, I go down to 10, right? This is ": [
+            3878.4,
+            3899.7,
+            78
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_3.flac",
+    "Full Transcript": "Alright, so let's get started. Anybody have any questions before we begin?  Okay good.  Okay, mainly today we're going to look at combinations and all that comes with that.  So let's get started. Did you guys do this example last time?  No.  Okay, let's do this example now.  Okay, so you have these three pipe cleaners red orange and yellow.  Okay, you want to kind of stick them to get or put them together to make a triangle?  How many different triangles can you make?  What's the code CD?  right  we kind of have like a  a battle between a & D  Hades kind of winning out  Anybody have any comments about this or questions?  What's up?  What's the definition of a different triangle?  Like how do you know if two triangles are different?  Well, it's kind of vague right if you put them kind of on a table and you can you can transform one triangle into another by a sequence of rotations and flips, then they're the same triangle in my opinion.  So if you if you take it if you take it with that definition, there's really only one triangle that you can make.  So, how do we get to that number one? Where does that come from?  I'm staying here we go.  So did the way to do this is to basically count all the different triangles without any Transformations and / all the symmetries. So how many theoretical objects are there without symmetry swell, you can basically make the triangle in 3 factorial different ways, right? You can start with red yellow orange or any sequence of those three colors, so there will be three factorial.  How many symmetries are there now?  What are the Symmetry is kind of like the the transformations of how to transform one triangle into another how many ways can you do that?  You can flip them.  right  If you flip them that gives you two options right one way or the other and then what's the other kind of axis of symmetry?  Rotate and how many options does that give you?  So you have to * 3 is equal to 6 OKC have 6 objects and 6 symmetries. So 6/6 was just give you one kind of physical object, right that is invariant of those things.  And here I know I change the colors around you can see these are sort of like the six theoretical objects that we're considering as different. But once you have them as a physical thing you can change for this one to that one by doing a rotation need to change this one to that one by doing a horizontal flip. So there is just one thing they can do any questions.  Okay. How about now if I add a green?  Pipe cleaner. So now I have four different colors.  How many different colored squares can we recreate by tying these for pipe cleaners and too and I want you guys to work in groups figure this one out raise your hand if you have any questions and I'll come by and  And help you out ready to go.  Okay.  Okay. So how many of you got how many did you guys get?  3 right  Anybody getting more?  Fewer. Here's why I know this doesn't really look like a square but here's one.  What's what's another one but red?  Read touching the green, right?  yellow  an orange right? There's there's one is that different than there any way that you can get from that to that? No, right.  How about red?  green  orange  We've already done that one, right?  oranges here  and yellow  Okay, good. So  One way to try to do this kind of like the triangle one. There's four factorial different theoretical objects right that you can create because there's four factorial ways to arrange those colors. / how many symmetries are there? There's two flips, right?  And there's four rotations.  So you get 24/8 is 3 any questions?  It doesn't matter which way they are it just you got to stick with that flip, right? And so if you say that you wanted to flip it like this, then you can't rent you. Can you can artificially get a vertical flip by flipping it this way and then rotating it right so you can use like  Combinations of symmetries are combinations of transformations.  Brittany questions  Okay.  another puzzle  How many different arrangements are there with a Rubik's Cube?  Okay, ready go.  No, so there's a few things that maybe you should know about a Rubik's Cube. Okay. So one thing to notice is that  These middle faces, they're fixed in place. The Rubik's Cube kind of has like this skeleton that all the middle faces are fixed. It's all the other things around it that will be kind of moved around peso like the edge pieces that the edge pieces the corner pieces are going to be kind of Shuffle around. So how many ways can you Shuffle those things around?  How many cubes like glow cubelets?  well  I don't know 3 x 3 x 3.  Right, right, right.  But notice that the cubelets are different The Edge ones have two colors in the corner ones have three colors, right?  Yeah, but there's two different states that I can be in.  No, it's not you have to.  Get the flip it into the second estate and then rotated.  What is the weather?  No, no. No, there's not too Quicks. There's two states. There's one flip and there's two states.  Yes for rotation states to is really there's only three right rotations, but there's four states. You can be in like the Beginnings day and then all the other three.  There's two states that can be in the flip the beginning State or the flip state.  No, like taking it apart and putting it back together.  Okay.  most of y'all are saying be  It looks like the most complicated it. I was kind of like trying to figure out I don't know the fit other things that you could get maybe mixed up with right like 27 factorial. There's 27 kind of cubelets if you think about it as like as them all being like different things, but yeah, that's not  You can't really rearranged the cubes like that. Then there's this this crazy one this one I was  9 factorial would be like how many ways can you arrange all the colors on each one of the faces? So * 6 that's in this particular case because these These cubelets are going to be able are not going to be able to take the stickers off the pieces.  36 factorial  so there's actually 36 squares right? There's 9 * 6 but then this this doesn't really work because there's a lot of repeated colors. So you kind of have a lot of things like that. So this one is the answer. I was looking for anybody explain it to me.  Or did you just say it because it was a most complicated?  doctor  Okay, good. So  So notice that there's two different types of cubelets. There's the all there's actually three different types. There's the center ones but they don't move. So let's forget about that. There's two different other types. There's the corner ones and there's the edge ones the corner ones have three colors have two colors.  so  yes.  Yeah in this in this particular.  Exercise, yes, but I'll give a little demonstration of where if you just talking about Cube turnings then.  There's a way to kind of figure that out to.  Yeah.  Will the tune of the 12 is no to the 12 is okay. So are these ones so 12 factorial means I can arrange them physically in 12 different ways are 12 factorial different ways. Then to 12 means that for each one. I can arrange it this way or that way.  Same with the corner pieces. I can arrange them physically and 8 factorial ways. And then for each one, there's three positions I can have.  so you got  332 the eight eight factorial to to the 1212 factorial  like you said over there the these are not all a Chiva bowl with the valid turnings of a Rubik's Cube now to kind of study this thing you need something called group Theory abstract algebra is any is anybody taking that class?  It's like a math class. It's  Kind of hard but kind of fun but kind of weird. Anyhow.  All of the positions that you can get from turning that's called the orbit.  Don't worry. There's not going to be on the test. There are 12 orbits of the Rubik's Cube, which means that you can start in 12 different positions and get to every single possible one of these things. So this is like if you take them apart and put it back together, but possible.  configurations  using valid  movement  is 3 to the eighth 8 factorial to the 12 12 factorial all / 12 / 12. This is kind of like dividing by the Symmetry how many symmetries are really complicated to kind of think about but it's sort of the same idea.  Anybody have any idea how big does number is?  Massive, right?  I even write it down. Oh, yeah, this is 4.3 x 10 to the 19.  And what about this one here?  This would be something like around around like 3.9 * 10 to the 18 or something, right?  valid taller  Okay, another kind of fun fact, this is a very big number, right?  There's this thing that people talk about with the certain puzzles. And so this is a puzzle. Right and it's called a God's number and the gods number of a Rubik's Cube is 20 what that means is if you're in any of these configurations, what is that like a billion billion any of these three billion billion configurations?  It's possible to get back to the original position in 20 or fewer moves.  Insane, right?  right, right, and there's humans that can solve it really fast to  There any questions or comments?  Okay, so all of these things that we're doing so far like these exercises we did and the things that you all did on Thursday. They're all using right factorials. This is permutations exponential's these are kind of the product rule but maybe thinking about them as like as words or  Different, different ways you can arrange things around. So today what we're going to do is talk about combinations. So he was sort of a  Something to get us started day. So instead of thinking about sequences of things where you're either have no.  Duplicate or not. We're looking at subsets case of sequences and subsets. And what is the what is the main difference between a sequence and a subset?  The order matters in a sequence right to sequences are different if they come in different orders two sets are the same even if they come in different orders. Okay, so I have a set with n distinct elements and I want to know how many ways can I form a subset of K different elements? So seven people from this class was say there's a hundred fifty to go on a field trip with me. How many ways can I do this?  Okay, and remember that he of 157 is the number of 707 permutations of a hundred fifty you guys did this in on Thursday last Thursday, right?  Okay good. So a lot of people are saying e  PT of 150  7 divided by 7 factorial  I thought we're going to go into this in a little bit more detail. But this is the right answer but just keep this in mind remember kind of the significance of dividing. We've seen it a few times already. We saw it with the triangle without with the square and kind of without much explanation. We saw it with the Rubik's Cube.  Okay, so let's talk about it in a little bit more detail.  like I said the terminology this is what we saw on Thursday in our permutation is  an arrangement are elements from a set of n distinct objects is a ordered Arrangement or a sequence. So it's how many are linked sequences you can make from n distinct elements and there's this many of them.  Okay, so our combination is a subset. Okay. So when are UC permutation think sequence combination thinks subset.  There are this many of them and I mean this is not a a closed form. This is just a symbol that we used to describe it and I wanted to start this way to present it to you. Okay, so we're going to we're going to just think about this as defined to be the number of our combinations. So you'll see that but you also see this a lot the binomial coefficient and we'll talk about why has that name and  Officially, why has that name? And when you see this the way that you say it is and shoes are so that that's what that's what this is called. That's what this is or how you say it. So  let's go back to the field trip.  Here's a kind of a different problem suppose. I'm picking seven people from this class and each one will go on a field trip on a different day of the week.  Okay, how many ways can I do this? Well, this is just like making a sequence of students, right? So  Using the product rule how many people how many ways can I shoot a student to go on a Sunday? Well, I can choose any of you write to go on that Sunday. How about on a Monday? Once that student has been chosen how many of them are left over?  149 and then 148 147 146 145 144  so you multiply all those together and you get that many and remember.  that this is  P p of 157 or another way to write this is 150 factorial divided by 143 factorial. Did you guys go over this this way of doing it to?  Good now.  Not let's go back to the original problem.  Frozen picking seven people from this class and each one will go on a field trip on a different day of the week. How many ways can I do this? Okay. Well one way to think about it is let's first pick a subset of 7 which one of you are going which which subset of you are going. How many ways can I do this in? Well, we haven't really talked about the closed form, but I'm going to say it's going to be done in 150 to 7 Ways.  That's the subset problem.  I can arrange those students in 7 factorial ways to tell which one is going to go on each day of the week. Do this problem is I want to go on a different day of the week the first pick the subset then arrange them.  So I can Define permutations by first picking the subsets and then arranging so is 157 * 7 factorial.  There any questions about that?  Okay. So remember we haven't really even to find what you know, or we've defined it but we haven't calculated what it is therefore.  150 to 7 is just P of 157 / 70 factorial.  And in general that's what combinations are always going to be with when you have one and it went okay.  You're some more examples or these are kind of the same example. Let's do these ones over again people from this class. Can I do this? This will be  150 to 7  How many how many ways can I do it if they each go on a different day of the week? That'll be P of 1:50, 7?  Forgot about that suppose you were doing a group project with a team of 20 people. You must pick a team leader ascribe a treasure and a presenter. How many ways can you do this?  Permutation or combination permutation right? Because the order you can kind of give an order to these.  Jobs, right and then you have to put them in that order.  How about if you're doing a group project with 20 people and you want to pick four of them to go to a conference  combination rights are 22s for  there any questions about that?  12 sequence ones are subsets in the main differences.  Okay, good. Let's move on.  Oh now you can't read it. Just remember subset of four people sequence of four people sequence.  Okay, so in general PE of n k is equal to C of n k x k factorial see if you can convince your neighbor or convince yourself or whatever ready go.  Okay. I want to get back to you.  Okay, who has a a short kind of description or explanation about this equation?  Okay, good. So  The right hand side is to pick the subset first then order it and and that's how you get all you can get every single sequence that way.  pick subset  then order  I left hand side just count all the secrets. So you've counted all the sequences in two different ways one directly and the other one kind of indirectly, but you're still accounted for all of them exactly once right so you so these number should always be the same.  Okay, so in general but let's just kind of turn this around sea of NK is always going to be P Ave n k / K factorial and that translates to this closed form here. This is how you compute n choose k  Okay now.  Now we have just wanted to kind of put this up again reiterate the closed form. So you have this one so and factorial / n factorial / are factorial here.  Okay now.  Just like I said before how we counted two things in different ways. We're going to see as we as we go through these counting exercises that there are many different types of things that are counted by the same expression. Okay, so it counts the number of sequences of our elements from a set of an without repeats. The number of strings of length are from alphabet of and letters to see the connection between those two.  Basically the same thing right a string is basically a sequence ain't just didn't have the comics.  These two are a little bit more or a little bit harder to find the connection for so this is what we defined it to be write the number of our element subsets of a set of size n but also it is the number of length and binary strings with exactly are once how do those things relate to each other or another way to say it is why does this count both of these sets? Why are these sets?  What do you call it? When numerous they're both. They both have the same amount all the time.  So whenever there's two sets of objects that have the same amount.  The next kind of stuff to do is think about a bijection. How do I how do I find a function that map's one set to the other set. Do you all remember from 20 wear a bijection means that the two sets are equal right? So now I kind of like doing it by Jackson backwards. We're starting with the two sets being of equal size and trying to figure out what the function is.  Corestaff many many functions you can make up what we're looking for is a function that kind of has a has a simple rule that we can follow.  Okay, and my Quang the other instructor here and I we both share the the same thesis adviser and this was his thing was these bijections and he always said if two sets have the same enumeration that there has to be a reasonable bijection between them and saw this kind of stuff is really exciting for me. Okay. So let's let's go let's try to do this exercise. We claim that n choose K counts the number of K element subsets of a set of cardinality end and the end we may as well just choose the set of integers from 1 to n.  But it also counts number of length and binary strings with exactly K ones queso. Can you think of a bijection a one-to-one correspondence between these two sets of objects? So the exercise I want to give you is  4 choose 2 is equal to 6. That means that there are  62 element subsets of 1 2 3 4 and there's also 6 exactly to write down all of these write down all of these and try to figure out a way to kind of Link every element of this set to every element of that set in sort of reasonable rule with a sort of reasonable ready go.  You can work in groups if you like.  Don't buy yourself.  2019  oh, I think that doing  different  yeah, I know they're going to be different objects different sets of objects, but they both have six elements.  So if I jection would mean it's a function that map's one set to the other.  That's one to one and onto.  And there's actually six factorial which is equal to 720 different bijections. You can come up with but I want you to come up with one that kind of makes sense. There's like a simple rule that you could put on it.  Call Bonner Springs Library.  24  Is this how anybody else did it?  Yes, yes.  Yeah.  Did you just put them in order by their like?  Just put them in order and then they're sidewall there just an order or is there like an underlying kind of rule that goes along with them?  Okay good.  exactly  Anybody else want to give the rule? What's the rule?  Okay, good. So what you said right would you guys say the numbers in the subsets correspond to the positions of the ones right so we can we can name the positions?  1 2 3 4 so since this one and to write this one is to 4 so I put ones in position 2 and 4.  And so now you can see hopefully that this can expand right and this will work really for any and Inkay, right if I have a 12 element subsets of a set of side a hundred.  For each one of those subsets you can you can build a binary string with a length of 100 binary string with exactly 12 ones, right? And for every one of those binary string you can make a subset. So has this nice bijection where you can go you can go forward and backwards with a very simple rule.  any questions  Okay good.  So fix density binary strings how many links and binary strings contain KY another way to think about it or this is kind of the way we did think about it out of all the positions. How many ways can you choose K of those positions to be 1 + & - K of those positions to be zeros  Okay, so when you see this.  This symbol n choose K. I want you to think of two different things. I want you to think of K element.  subset  of 1 through n  end  length  and binary strings  With K ones, I guess I should say with exactly K ones.  Okay.  Okay good.  Okay, so  This thing this binomial coefficient dislike n choose k thing. There's like these these is really nice identities. And what is an identity is basically just an equation that stays true no matter what numbers you plug in.  How do you prove an identity one way is what year you all are used to doing it to use algebraic manipulations. Maybe you multiply each side by a same value or you know combine like terms and you know get to some point where you have some sort of equality or tautology.  But we're going to be focusing on is a combinatorial proof of an identity. We interpret each side as accounting some collection of fixed SE binary strings or subsets or something like that. Then we make a bijection between the two sides because remember if you can make it by jection between two sets then that's proof enough for the two sets have the same number of elements.  Okay, so the first one.  n choose K is always equal to end choose + - k  Okay, so if I were to give this to you and say prove it to me.  Maybe some of the would give me this as a result.  Seems reasonable right spine pretty easy to do doesn't take that long. Just kind of lacks, which is a  Turn of a deeper understanding of why these two things are equal. This is sort of like goes through the motions inside the pay this was that this is that and you get back to it.  A combinatorial proof one good thing about it is that it gives you a deeper understanding you kind of have more of a feeling of why they're the same instead of just a mathematical algebraic proof as a justification.  Okay show up, that oral interpretation.  We're just going to count each side Okay, so  The left hand side count the number of binary strings of length and width exactly K ones we've established at the left hand of the right exactly.  How do I make a bijection from one side to the other?  What's up?  Okay, good. Yeah, so if it has K ones and it has + - k02 has in mind as ones and has k0.  Frank and saw the bijection is if you flip all the bits you get one of these if you flip all the bits back you get one of these I am so you just flip the bit. That's the bijection between the two sets there for the sets have the same cardinality.  A match up these two sets by parent each string with another word. Zeros ones are flip this bijection music two sets of the same size. So these are equal.  So that's using binary strings. Let's just kind of think about it one like it a little bit deeper. We're not deeper but in a different kind of way instead of using binary strings. Let's use subsets. Okay choose K elements from an element set right hand side is how to choose and minus K elements from a element set.  You can also think of the right hand side is the way of instead of choosing those and minus K elements you're leaving.  And mine is k-elements there, which means that they're Kate elements left over. So the number of ways to choose K element is the same as the number of ways to leave and minus K elements.  Don't you feel like you have like a much more deeper understanding of why these things are equal much better than just going through the algebraic motions.  All right, let's do another one.  is it called Pascal's identity plus one shoes K is equal to n choose K - 1 + n choose k  Okay. So what is the left hand side count the number of binary strings of length? What?  and plus one with  exactly  K once  okay good. So the left hands are the right hand side. It counts to things and adds them together, right?  Let's just say it and we're going to kind of figure it out as we go along. Okay, so the right hand side counts and choose K - 1 which is the number of length in binary streets with K - 1 ones + change with K ones, right?  Okay, so we're going to try to figure out a way to to build a bijection out of this. And in this way we're going to use the addition rule. Remember or the sum rule we're going to do is we're going to take this set.  And break it up into two disjoint sets.  Okay, and I'm going to unclaiming that these are the cardinality of those two disjoint sets. And since they're disjoint You Can Count each one of them and some of their cardinalities and that will be the cardinality of their Union and I cleaned the cardinality of their Union will just be this thing.  Okay. So let's see. This is what we have so far now can anybody think of a kind of a natural way to split up a set of binary strings?  Okay, good, either they start with zero or they start with one and you can if you do that you split it up, you know for sure that the sets are disjoint and that's what we really want.  Hey, so we splitting up to the ones that start with one and the ones that start with 0.  Okay now go back to the Clickers.  How many length and plus one strings start with one and have K ones in total?  Okay, good. Most of your saying d n choose K - 1 right?  And why is that is that first bit is fixed then you have n Bits left over.  and they have to have the remaining K - 1 once  questions about that  Alright next one. How many?  How many length and Force 1 strings start with 0 and have K ones in total?  OK Google lot of people are saying be  choose k  Why is it n choose K? Because that the first bit is fixed at 40 bit is fixed and bits left over within those and bits you need K of them to be once.  Take to the left hand side count the number of binary strings of length n plus one that have K once that's good.  And the right hand side also counts that same set but it counts it into with using two subsets right with two different cases.  questions  so the so this one the K - 1  Think about it like this is the one that starts with one cuz this is the set of all nplusone length strings that have K ones and starts with one this we have the first one here.  And then how many positions do you have left over and positions? And how many remaining ones do you have to fill in there?  Right cuz you already have the one and then K - 1 ones left over.  And then if you have the zero in the front, then you don't you didn't use any of the ones you can put all the cake.  Okay. Does anybody know why this is called Pascal's identity.  That's how you build Pascal's triangle exactly.  Okay, so  this is Pascal's identity and let's let's fill in a few kind of bass cases Okay, so  What is N20 how many ways can I choose 0 things from a set of end things?  What right you don't do anything?  What about in shoes?  Also one you just choose everything right? So these are sort of the base cases and then everything else is built from there. Okay, so that means that I have one.  down the diagonal let's say that this is  Cathay and  Which way do I want to build it goes down and K goes this way, okay.  So when K is equal to 0 we get these two.  So these are just filling in the base cases. Now. What is this saying okay if I want to fill in  two, one  right  What is 2 choose 1?  It should be according to this. It's one choose one plus one shoes 0  and that's one choose one is here and one shoes zero is here. So I use these two to add up to to add those two together. And in fact, this pattern is how you build the whole triangle, right? So this Square here is going to be 1 + 2  1 + 2 is 3 2 + 1 is 3 write 1 + 3 is 4 3 + 3 is 4 or 6.  3 + 1 is 4 and so on.  Have y'all seen this already this Pascal's triangle?  Okay, so you can use Pascal's triangle to solve these binomial coefficients and you build it up. And then if you want to know like 10 to 7 you look for like the tenth Row in the seventh call him and whatever that number is is that value? So here's a here's an example. This is you know, Pascal's triangle with more things filled in but what if I want to know 10 to 7, I go down to 10, right? This is 10 choose 1 2 3 4 5 6 7 10 shoe 7 is 120.  So Pascal's triangle gray and mathematicians love it because it's got like a bunch of cool patterns inside of it. So one thing I want you to think about is do you find a pattern in the sum of the Rose?  Powers of two, right? We have one to four.  8  16  32 and so on we're actually going to show where this comes from combinatorial E, and I'm hoping that you'll have I mean you might look at it now and he is like a mathematical combinatorial reason.  I meant what else some other.  There's a bunch of other stuff.  There's this thing called like the hockey stick.  identity  It's kind of cool. I won't we won't really like go over the proof, but I just wanted to show you is that.  if you take a  short of the diagonal line  like this  Okay, and you sung them all up together?  Then you should get this number here.  Is like it always works for anything?  Oh you guys like that one?  That's nice.  I'll give you one more. Give me one more.  This one's like kind of you kind of have to like slant to see this one. Okay, so we're looking not like the the diagonals that you have but like another diagonal that's like a little bit off. Okay, so it's going to look like this.  Going to look like going to look like this diagonal. Okay at all those numbers together at 1.  The next one comes like this. What do I get there?  Two, okay, where's the way I forgot this one? What's this one one one one and two. What about this one here?  What are this one?  1 + 4 + 3 is  1 + 5 + 6 + 1  did you find the  Fibonacci numbers in there  We're well, we won't go over the proof of that one. But you know, if you're interested you can look and there's like some nice nice the reasoning for it.  Any questions or comments?  It has to do with the fact that these binomial coefficients have a lot of nice.  They interact with each other a lot based on, toric. So because they're counting a certain set you can count them in a bunch of different weird combinations and put them back together. So to answer your question, we're going to look at the the sum of all the rows and I'm going to show you why that comes out the powers of 2 and these other ones have the proofs aren't as nice for these ones. They're kind of like a little weird, but they're they're still pretty cool.  okay, so let's move on to  Guess we only have 10 more minutes.  Let's move on to that proof so that we can.  We can we can end with that. I think that's the best thing the the this is what we saw right? This is the  The sum of all the rows of the Pascal's triangle, right? So some all the binomial coefficients you get to the end just looking at that and knowing that the coefficients are these ratios of factorials and all this stuff. It's surprising algebraically why this is if you want to try to prove this algebraically you're in for a really hard time. It's really not easy to do. I mean think about it. You have to kind of combined all those fractions can get common denominator do all of this stuff.  We're going to prove it, notoriously and you're going to see that the proof is so much easier. It did really just kind of comes out of counting. Okay, so let's do it like this.  What does the left hand side of this?  expression count  Remember, it's a summation. Right? So your summing up a bunch of things. And so you have to cap. What is it count. It counts each one of those terms of the Sun.  Frank the first term would bn-20 the number of binary strings with 0 ones + n choose one number of string to Binary binary strings with one one and so on.  Exactly. It counts the number of binary strings with any number of one's right?  With 0 1 1 1 2 1 3 1 4 1 all the way up to n once.  That's all the binary strings right how many binary strings are there in total?  So that's where this come from.  By the summer we can break up the set of binary strings of length n into disjoint sets based on how many ones they have and then you count each one of those disjoint sets and their sizes together.  You got all the binary string then this just counts the binary straight. So that's that you don't have to do any just combinatorial reasoning and hopefully you get like a much better feeling of why it is right. You kind of have a deeper understanding of of why those two sides equal each other.  Okay, so  maybe let's stop there and we can  I'll do a little bit of the binomial theorem and that's kind of where the name comes from and then we'll start with recursion. "
+}

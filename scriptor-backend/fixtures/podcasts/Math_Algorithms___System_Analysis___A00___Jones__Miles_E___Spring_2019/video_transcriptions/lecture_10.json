@@ -1,0 +1,551 @@
+{
+    "Blurbs": {
+        "1. But yeah, we're just trying to find a pound but good point. Okay. So how do we write this formula in Theta notation? Okay good. Big Data of login Are there any other correct answers? BND But like I said before we want to kind of use the simplest form so that we can use it to compare things bases here. It doesn't matter. So we usually write login ": [
+            772.1,
+            846.6,
+            17
+        ],
+        "1. Okay. So now I have these three things. You just plug them in to this part. You see which one does it? Does it match matches this right to is equal to 2 to the 1. So this is the thing that you plug it in. Haley with the bigger the day and so you got Big O of n log in which is what we saw we did ": [
+            4502.2,
+            4529.8,
+            103
+        ],
+        "2 of n TMS of n over 2 to the log base 2 of n + log base 2 of n x c x and right and this is just one. But I just turn it to see and this just turns to end so you get B1 and plus CE log base 2 of an RN login. C + log base 2 of okay, and then this is big ": [
+            3915.3,
+            3957.2,
+            87
+        ],
+        "And we already did this other kind of thing here. Big O of n * big old log in and then we have this one. Big R 10 x big'o up and login Which is Big O of M Square login? Okay good. So I was you guys kind of does this algorithm really work? That's why I was going to ask you next. You can't it doesn't actually work ": [
+            2023.0,
+            2054.9,
+            41
+        ],
+        "Do you have any questions before we start? Everybody's doing okay on the homework. office hours discussion lecture no questions What's that? You have a question. Thanks, man. All right started. This is where we left off right estimating time of algorithms. as a function of the size of the input and the the way we do it is by counting comparisons counting operations counting computer steps, and we're we're ": [
+            80.0,
+            176.4,
+            0
+        ],
+        "Dots here because I can't even fit 55 to the 55 on this page right? It's just too big. Okay, so What we're going to do? For the rest of the class is go through examples of algorithm and I'm going to show you a few key tips on how to calculate the runtime of an algorithm day. So let's start with Min sort. We did this last time write ": [
+            300.8,
+            334.1,
+            5
+        ],
+        "Google anybody else? Okay, so you can do some if these if there are some repeats in the list then you can kind of skip to the last one or only do the first one. skip that Holy duration OK Google, so what are the run times on these things? This one's nice to do because it's so it's already kind of like in nice a nice pseudocode form and ": [
+            3154.3,
+            3195.8,
+            66
+        ],
+        "Is Big stayed of that function and remember what big state and means it means that it's Big O and it's big Omega, right? And so if you can show that the algorithm is in a Big O class and it's in the same big Omega class that will tell you that you're in big data. Okay, so let's go back to the first. This was the first example of ": [
+            2195.9,
+            2226.2,
+            47
+        ],
+        "It's the last element. You have to compare it to n if it's in somewhere in the middle it sent over to if it doesn't equal any how many elements we have to compare it to also an okay good. so these are the three kind of cases and generally when you find the runtime of an algorithm. You want to do it in the worst-case because you want to ": [
+            513.3,
+            542.0,
+            11
+        ],
+        "N squared. We was a little bit too pessimistic, but the reason that it was so pessimistic is because we're we're assuming that this thing is going to go a lot of times. This piss while it was going to be called a lot of times and the for Loop is also going to be called a lot of times but in reality they're still at they sort of balance ": [
+            3515.9,
+            3537.3,
+            76
+        ],
+        "O is a nice upper bound so we can just say okay, at least I have to do that many in the worst-case and then Big O of n * big of and square Okay, stop. Is there a tighter upper bound that I can get though? We're going to have to wait till a few more slides. Okay, so we'll talk about that in a minute. Okay. So now ": [
+            1824.1,
+            1872.3,
+            37
+        ],
+        "Okay. So once you find a common element you can stop but how would you implement? Okay ready go? Find a way to do it. Find on Facebook. Okay, I should say here. Sorry. I didn't make this clear. right order This one kind of is not as ambiguous, right? Cuz you're kind of taking it from two different lists. But they're sort of worded the same. I guess I ": [
+            2893.1,
+            3067.6,
+            64
+        ],
+        "Theta of and login. painting submerged store at takes and log in time Okay. Now that that whole thing, I don't want to have to do that every single time. So we're going to come up with a way to shortcut. We're going to prove a theorem or we're going to talk about a theorem that you can skip all of the unraveling every time if your recursion is in ": [
+            3957.2,
+            3988.4,
+            88
+        ],
+        "We didn't really get a tight lower bound because the minimum of this is one but there's more going on there right because It only does lower it only does its lower bound on like a few of these iterations. Right? And it is really low. So it does a lot right so doesn't the worst case in the in the in the best-case they kind of even out to ": [
+            2714.1,
+            2747.2,
+            59
+        ],
+        "Yeah, that's when it really hurts, right. Okay, so designer algorithm to do this ready go. Cambridge No, not necessarily. But would that help? can anybody share a brief description of how to implement a Okay good. Loop from live from 1 to n and then for each one of those Luke J from 1 to n and fries one of those Lupe from 1 to end and then check ": [
+            1139.2,
+            1319.6,
+            25
+        ],
+        "a particular form. Okay, so we get that. I thought that was a lot of work here. Let me just kind of go through to get to hear. Sorry. I'm sort of running out of time here. I wanted to get through this song. Divide and conquer Star General strategy. This is like merge sort you can think of it as like a nice example, you take a object your ": [
+            3988.4,
+            4020.8,
+            89
+        ],
+        "about it, but I wanted to set it up this way because it might be a little bit misleading. Okay, so why is it misleading is because the body of the inner loop is Big O of one right and then this this middle Loop. This body in the worst-case how many iterations does it go through? Big O of n right And in the worst-case this one. also Luke ": [
+            3309.3,
+            3352.0,
+            71
+        ],
+        "actually not tight. What's the tight upper Bound for this? Yeah, but that's not really a loop right if we're doing this Loop analysis like we done before and we kind of go from the inside out. Can anybody give me a tighter upper bound than 10 squared? But that's still a big open Square. Okay, let's think about it this way. Every time this is executed except the last ": [
+            3391.8,
+            3460.0,
+            73
+        ],
+        "an algorithm that does this right we didn't do any eliminating of redundancies. We just did it all. What's the lower bound order of the worst-case runtime for this algorithm? All right. Now we go. all of them, right Any questions about that? Talking about lower bounds rank saw all of these are lower bounds for the runtime. Okay good. You can work from the inside out here to write ": [
+            2226.2,
+            2348.6,
+            48
+        ],
+        "and get an upper bound. That's not tight. The fact of the matter is that these things aboard right when you kind of find it and so it cuts it short and it'll cut it short enough that it'll never actually achieve the end squared bound. Okay, so let's move on to merge sort figure out the runtime of merge sort. Okay, so Let's say tfms of an is the ": [
+            3605.8,
+            3642.1,
+            79
+        ],
+        "and square login. to go to big oven Square Okay good. So so this is better than Big O of n cubed. Oh, yeah, and the square login. Thank you. Yes, right. Sorry about that. Okay. So this is better than the kind of the naive way to do it and Cube. Using a faster sort actually won't even help right because we we do know that we can sort ": [
+            2104.8,
+            2144.4,
+            44
+        ],
+        "and you can Achieve this by doing this kind of first you should sort it and then you can like do this sort of iterative search throughout. Okay, so like I kind of said before to know that we've actually made improvements. We need to make sure that our original out analysis was not overly pessimistic a tight Bound for the run time is a function for the run time. ": [
+            2168.0,
+            2195.9,
+            46
+        ],
+        "are bad right there. Just an efficient when you compare them to polynomial time. To the end to end shoes in which we might figure out a nice approximation of what that is a little later on, but I think it's some it's also pretty bad. We have n factorial. An end to the end and you can just see how fast these numbers grow and you have to put ": [
+            270.5,
+            300.8,
+            4
+        ],
+        "because binary search only works if the list is sorted. So let's just sort it, right. So we're going to do is sort of using men's sort. We already know that that takes big old and squared and then just do this other algorithm some triples 3 the one from the previous slide that uses binary search algorithm Works. How long does it take? well men's short cakes Big O ": [
+            2054.9,
+            2082.5,
+            42
+        ],
+        "because you know, if be one is bigger than a one through a k then you know, B2 is bigger than all those two so you can just keep on going you can continue from where you left off a little confusing but just kind of think about it like this the eye index runs through the A-list and the j and x runs through the b-list, right? So you ": [
+            3258.3,
+            3283.0,
+            69
+        ],
+        "big Omega of 1. this is going to take big Omega of n But this one. We're not doing upper bound anymore. We're doing a lower bound so that the lowest possible number of iterations you do is one right when when I is equal to end. So this is all so big Omega of 1. And this one is bigger Mega or pain. GameStop, if we just kind of ": [
+            2414.0,
+            2452.8,
+            51
+        ],
+        "big old and times right So we get a runtime of Big O of N squared or an upper bound a big oven Square which is not wrong. It will always be right if you do it this way, but How this is what we did right. Big event pick up in square. Okay, so got to go Vince where I don't know how I organize these so. This is ": [
+            3352.0,
+            3391.8,
+            72
+        ],
+        "binary searching AI plus AJ in this list. You're not saying that this might not saying that this works, but if I guess if let's say that the list was sorted then how long would it take? Okay good. See, right. Let's just do our tactic again and just check ourselves. Okay, we know that in the worst-case this is going to run in Big O of log in time. ": [
+            1966.2,
+            2021.2,
+            40
+        ],
+        "can I make any more improvements? There's a way to make this an orgasm but it involves using. If it involves using the wife. Such that the numbers are out of your the energy let you watch and that runs in. Okay. And that would make it. Okay. So using two some okay, that's cool. Alright, I'm going to look at a different kind of idea. We're going to kind ": [
+            1872.3,
+            1929.3,
+            38
+        ],
+        "can kind of see if we can kind of see that and summarize that with the product rule Okay, so you have this while loop or this for Loop and then you have the body of the loop. So however long the body takes you multiply that by the number of iterations. So for example, if the if the body of the loop tapes constant time. Oh, that's the guard ": [
+            1390.1,
+            1424.5,
+            28
+        ],
+        "condition. That's just the the condition of T2 X in the worst-case. And will any run at most T1 iterations then the entire Loop takes big O of T1 X T2. Okay, so here's a warning here. this may not be tight Okay, and it comes from this thing here this scenario and we're going to talk about this in more detail a little bit later, but I just want ": [
+            1424.5,
+            1465.1,
+            29
+        ],
+        "depends on the qualities of that the input has right if x happens to be the first element of the list then it's going to take constant. I'm so yeah, so we want to focus on worst time. Okay, let's look at binary search. I guess I should conclude something here. So linear search. Is Big O of n? Okay, good. How about binary search every time every iteration the ": [
+            570.0,
+            608.4,
+            13
+        ],
+        "didn't say to indices. Anyhow, okay, does anybody have a description of the algorithm to do this? Okay, and then increment through the list with smaller element Something like that. Yeah, so you're like, okay B is smaller than a so move be over now. B2 is smaller than a 8 day one like that kind of thing any other ideas. Binary search for AI in bees list, right? OK ": [
+            3067.6,
+            3154.3,
+            65
+        ],
+        "do the naive way of going out like that. We got a big Omega band Square, which is not wrong. It's just not tight, right. felt this one's also e Okay, let's do a more detailed analysis. Okay. so we're all in agreement that This is big Omega of n. Okay. Now we're going to treat this as one kind of loop and think about it as a whole Okay, ": [
+            2452.8,
+            2492.4,
+            52
+        ],
+        "examples. Okay, so let's start with merge sort. merge sort we split the problem into two sub problems, right? each of size Andover to okay, so just cuz we're going to maybe ask you to do this kind of thing in the homework is give you an algorithm and you're going to have to extract these a B&D values. Okay. So what is the a value? It's basically the number ": [
+            4418.5,
+            4458.6,
+            101
+        ],
+        "find it then just forget the rest of it. Okay good. So let's move on. Summing triples. So this is a problem specification. I'm getting the input here would be a list of real numbers a 1/2 a end and you want to look for 3 in to see each between one and such that AI plus AJ is equal to a k so does the list 36578 have a ": [
+            1024.0,
+            1059.1,
+            23
+        ],
+        "for you get down to the lower level and at the very bottom you have a to the log base B of N Sub problems. So in the bottom heavy one, that's where you do all that work. So that's just kind of give you a visual on on what we're counting. We're just counting the whole work done on this whole recursion tree. Okay, let's plug in a few ": [
+            4391.7,
+            4418.5,
+            100
+        ],
+        "get this middle steady-state thing, right because one is equal to 2 to the 0. And so you just plug it in and to the zero login and so you get into the zero login, which is bigger event login. So this is what we expect from binary search. Because in binary search are only recruiting on 1/2, you're not recruiting on both hats. Like mergesort you request on both ": [
+            4700.0,
+            4728.1,
+            107
+        ],
+        "going to be considered growing at the same rate because there's all this stuff that we can't really control like software Hardware. Those type of computer all those things where this constant Factor term doesn't really mean a lot because it can change but the thing that means the most is how is it growing? Okay good. So we saw last time that. And Cubed + 10 in squared even ": [
+            210.4,
+            242.5,
+            2
+        ],
+        "have so there's two subproblems. There's two recursive calls is also the number of recursive calls. so yeah, next homework. We're going to see some of this Yoruba going to be given an algorithm and I want you to extract out the variables. He is too because the size of the sub problem is in / 2. I tried to like color coordinate what these things are those? Thank you. ": [
+            4728.1,
+            4773.5,
+            108
+        ],
+        "how many iterations is going through big state big Omega events squared and so the whole thing is bigger megabytes per I don't know you like this way better. It's like a lot more exact. Yeah, I'm saying that in that in that range is in between 1 and over to Jay's running more than n over two times for each one of those iterations. So at least you have ": [
+            2785.8,
+            2828.5,
+            61
+        ],
+        "if I buy a Kate and then return true, otherwise return false. You might be able to cut it down, but let's start from here. Okay. So what is the order of the runtime of this algorithm? At first just kind of get go by like the feeling or intuition. How would you think about analyzing the runtime of this thing? And then I'll give you some tools to do ": [
+            1319.6,
+            1353.5,
+            26
+        ],
+        "if it's in a big Theta class or Big O class and you write login. It can really be any base bigger than one. Okay, so that's why we kind of leave ambiguous was just login could be natural log could be locked to could be log10 if you like. So we just leave it like that. Okay good. Linear search in the best-case you do it in fate of ": [
+            846.6,
+            877.0,
+            18
+        ],
+        "if the worst-case only comes very rarely and usually you're running in the best-case a bunch of times then you're sort of over counting. How bad your algorithm is. Okay, so let's look at another problem and I'll give you a few minutes to think about how would you go and design it? So you're given two sorted lists and you want to determine if they have any common elements. ": [
+            2864.2,
+            2893.1,
+            63
+        ],
+        "in size very fast. So that means that all the work that you're doing is on the bottom and then as you get to the topic, it's quicker. That's this one. And you can see that. You're basically doing a constant time operation for every leaf. Okay, then this middle one. I like to call this steady-state. And this is this is when the the problem size decreases kind of ": [
+            4331.0,
+            4369.9,
+            98
+        ],
+        "in the book. Later. So what are what are these three cases mean? Well when you do divide and conquer you get this recursion tree, right? and the size of your problems are decreasing as you go down the tree, right? So if they decrease really fast as you go down right then there's not a lot of work to do at the bottom. So that means most of the ": [
+            4260.9,
+            4295.2,
+            96
+        ],
+        "in the same sort of rate as the number of problems that you have. And so you kind of get this sort of thing same thing happening. Okay, so this kind of illustrates the problem sizes, right? You're like breaking it up in this case a would-be four makes you breaking it up into four and each one of those problems breaks up into four and then four and then ": [
+            4369.9,
+            4391.7,
+            99
+        ],
+        "input you split it up or you break it apart in two different sub problems. You recursively solve those sub problems and you put everything back together, right? And so in general you divide your problem of size n into a sub problems each of size and over be right. You saw me some problem recursively then you conquer by combining those Solutions together. So in the case of merge ": [
+            4020.8,
+            4055.0,
+            90
+        ],
+        "into the worst case worst case bigger one worst case and worst case and it's going to be in squared. What's that? What it could be in the worst-case the while loop would run end times. in the very worst case and in the worst-case the for Loop is going to run in x and so if you just do this sort of naively you're going to be overly pessimistic ": [
+            3576.7,
+            3605.8,
+            78
+        ],
+        "is equal to Big O of N squared. And then the body of this outer loop here. Also goes in adoration. Duluth directions and this is the body which goes and squared. So the whole thing goes and Q. Are there any questions about that? Okay good. Okay, so sorry improvements. What do we know about Plus? What's a property that addition has that we can take advantage of commutative? ": [
+            1534.4,
+            1584.1,
+            32
+        ],
+        "it could be the exact middle element. In the worst-case though, we have data of an fate of login average case. We saw kind of this rain. We're going to get an over to sue the state of n a little bit more. Hard to it's a little bit harder to pin down exactly what the average case of binary search is. Okay, but this really is the runtime That ": [
+            898.9,
+            933.0,
+            20
+        ],
+        "it in more more detail. Okay, good. It's It's intuitive to kind of feel like this hour of them should run in ncube time, right because really what you're doing is three loops and each Loop runs. Its course at every iteration of the outer loop, right? And so for that matter, if you have nested Loops the the run time or the number of iterations multiplies, okay, and we ": [
+            1353.5,
+            1390.1,
+            27
+        ],
+        "it is to write a function and its simplest form. Okay. So remember each function belongs to a certain fate a class, right and each data class has like a particular way that you write it if it's a polynomial she just right as and squared and Cubed could be like and login but it's nice to write it as its simplest form because then now I can use that ": [
+            431.2,
+            456.9,
+            8
+        ],
+        "it the same thing? Describe atoms today. smallest numbers with largest capacity metal definition yeah, what if it's exactly 10 log base 2 of 2 is 1 but there's actually two iterations you have to do. Rights of these are not equal always can use either one. I think they're I think they're both fine. Really? We're just trying to bound the size anyway. Yeah, you may be off by ": [
+            679.3,
+            772.1,
+            16
+        ],
+        "just conclude this. Yeah, cuz remember when we did the Big O, we looked at you look at worst cases for everything. Right? And you say okay just just max everything out and then I get an upper bound, which is great for this one. We want to look for a lower bound. So we want to put everything down to its minimum right and do it by doing that. ": [
+            2674.7,
+            2714.1,
+            58
+        ],
+        "know in general how long it's going to take and you may not know how that depends on the quality of your input or like the qualities of your input. So you just want to know if it's this size. I know it's Big O this value. Okay, good. So In this particular example, the running time depends more depends on more than just the size of the input. It ": [
+            542.0,
+            570.0,
+            12
+        ],
+        "let's say tea event is the time to solve the problem of size n and G of n is the time to do the Conqueror step the time to actually kind of like merge them together another way you can think about G is this is the time of non recursive part algorithm Hey, what are we thinking? see Okay, good. So This is going to be how long it ": [
+            4086.6,
+            4153.2,
+            92
+        ],
+        "long it takes we need to know how long it takes until we get this kind of like, you know circular logic sort of thing and it seems like there's no way out. Okay. So this is what we're going to do. We're going to name the runtime TMS of n for the runtime of merch store on a list of size n then we know that these are list ": [
+            3673.1,
+            3696.8,
+            81
+        ],
+        "loop return true. I guess this whole thing, right? This is. This is the body of the inner loop this whole thing takes what? Constant time right big old one. Now how many iterations does this outer loop take? Right and old and I guess X old One, which is over then, right? in the body of the next Loop, which also Text Big O of n. X pickle then ": [
+            1493.1,
+            1534.4,
+            31
+        ],
+        "many iterations of the loop we get right after 3, we get an over 2 to the 3 so is it right to hear how many iterations do we need to get down to one? floor of log base 2 of n + 1 Rank, do you have to at least have it that many times? See that music. I love you too, because it's much the same thing. Is ": [
+            637.2,
+            679.3,
+            15
+        ],
+        "now let's say with that. We have to eliminate redundancy or we do the eliminate redundancy thing the lower bound here. In the worst-case of this algorithm. We can't just do the inside out anymore. Right? Because if we do the inside out we have to do by the the best possibility for each Loop Bank And so if we do it that way well, this is going to take ": [
+            2379.2,
+            2414.0,
+            50
+        ],
+        "number of iterations you do. You actually do more than that. Right? So, you know that and squared is a lower bound big Omega been squared as a lower bound on the number of iterations you do on this double for Loop. So this whole thing we can argue is bigger a mega event Square because we've argued that we had to do at least and squared / 4 But ": [
+            2555.7,
+            2579.6,
+            54
+        ],
+        "of K. Should we substitute to finish unraveling? Do you want to look back? This was the algorithm right? So we're trying to get this value down to one. I ordered one or zero down to a bass case. Okay, not spiking up. That's fine. log base 2 of x right, cuz when you plug in log base 2 of n in 2K this becomes 2 to the log base ": [
+            3851.0,
+            3915.3,
+            86
+        ],
+        "of N squared some triples takes big O of N squared login So you add them right because you're doing their algorithms in sequence. You're not doing them inside of each other inside of Loops when so when you're doing it inside of Loops, you have to do multiplication trick you doing it in sequence. You could do it as a stop. This is Big O of N squared plus ": [
+            2082.5,
+            2104.8,
+            43
+        ],
+        "of build up to that or close to that. so you can find all of these numbers AI plus AJ and then do a linear search in the list to see if it matches with anything kind of like what we did. So instead of using linear search. Is there a better search to use? Best resorts in linear search binary search. So how long would this take? So are ": [
+            1929.3,
+            1966.2,
+            39
+        ],
+        "of size n over to so these must take TMS up and over to each night. And now we can write out a recursion that then is 2/2 plus the time it takes to merge. But we already know how long this takes right do we do that? I knew we didn't. Oh, well, we'll just go forward with it. T emerges big state of it Maybe you can convince ": [
+            3696.8,
+            3729.8,
+            82
+        ],
+        "of sub problems. So a is equal to 2. What's the B value? E-value is how much you divided it by Sobe is equal to 2. And then what's the devalue? Well, that just is how long does it take to kind of merge? What's the non recursive part in this case? It's linear. So what degree polynomial is CN? CN is degree 1 polynomial So D is equal to ": [
+            4458.6,
+            4502.2,
+            102
+        ],
+        "one which ones Obi-Wan and instead of data at 1 beta of 1 No, se. Login is not o one. I'm just oh, this is just saying depending on this is depending on the implementation. You can kind of be stupid about binary search and always just keep on checking everything until your list sizes of size 1 and then you output that number or you could say if I ": [
+            975.9,
+            1024.0,
+            22
+        ],
+        "one-time. Right? If it's the first element for binary search. It kind of depends on the way you implemented. If you actually go down all the way down to where you have one element left then is always going to take login. But if you have like this kind of early abort like you break the algorithm early, if you find it then you could you could get lucky and ": [
+            877.0,
+            898.9,
+            19
+        ],
+        "out and they kind of like complete each other. Right? It's like if the wild Loop goes a lot of time the for Loop is going to go a few and vice versa. any questions second place in yeah, but you have to do a more detailed analysis. That's if we're just doing the naive tactic that we did before this thing. We're saying in the let's just throw everything ": [
+            3537.3,
+            3576.7,
+            77
+        ],
+        "purposefully keeping computer steps kind of vague because We don't really we're not really worried about exactly how much time they take just that they take constant time. Okay, so we basically focus on how run times or how the time of an algorithm runs takes as a function of their input size. And in in our cases that the 3 to the end and squared + 10 squared they're ": [
+            176.4,
+            210.4,
+            1
+        ],
+        "really gives you a more tight idea a tight runtime type found gives you more of an idea of how it's going to grow. Okay any questions because yeah, it's a it's kind of like you want to you really want to get like the Where are the most iterations happening? Right the most iterations happen in the first in the first half because you're doing a lot. So let's ": [
+            2613.1,
+            2653.6,
+            56
+        ],
+        "rewrite it and its expanded form, which is what N squared / 2 - + 10 / 2 So we'll see that it's in square. It's big ovens with. Is there a Sochi is the correct answer? Is there any other correct answer? He is also correct, but we're not going to be writing it like this when we when we write run times the the standard way to do ": [
+            394.7,
+            431.2,
+            7
+        ],
+        "right so we can sew a i plus AJ is the same thing as a j + a I so there's no need to consider both of those cases. So, how do I improve? You start J. At what? iri + 1 on I right because I never said that the indices had to be different. Yeah, like for this example, you could either you could also return one one ": [
+            1585.1,
+            1650.6,
+            33
+        ],
+        "runtime of merge sort on a list of size n. Okay. So this is a recursive algorithm. So we're kind of using the recursion of the Run Tour. Her let me start over. In order to find the runtime of this algorithm. We need to know. How long merge sort takes but that means that we need to know how long the algorithm takes. So in order to get how ": [
+            3642.1,
+            3673.1,
+            80
+        ],
+        "runtime of this algorithm with these redundant with these redundancies taken out if I start from I Okay. Well, let's use our trick but she's our tactic. We have Big O of one. This is always going to be Big O of n write this in the worst-case has to go through an iteration, right? So at least I have to do big love end times big ol then. Big ": [
+            1759.7,
+            1824.1,
+            36
+        ],
+        "see how many how many iterations happen in the first half and then that you can use as like a lower bound just look at where the bulk of the work is happening. And then in this case it was enough to to get us where we wanted to be right because now that we have this then we don't have to do any more analysis. We're just we can ": [
+            2653.6,
+            2674.7,
+            57
+        ],
+        "see is basically what computer are you running on? What are all like the I don't know the hardware the architecture software and that could affect how fast it actually runs and that's the same thing with C1 and C2 0 write. These are just constant constants based on how long these base case operations take Okay, so we can do that. If we do it this way what value ": [
+            3813.2,
+            3851.0,
+            85
+        ],
+        "seen before. Not much work. Okay, binary search binary search is actually also a recursive algorithm if you think about it in a certain way and it's also divide and conquer really what are you doing is your probing at the middle and then your ra cursing on either the upper half or the lower half right, but you're only recruiting on one sub problem. Right, and how big is ": [
+            4599.3,
+            4635.2,
+            105
+        ],
+        "severe stomach and if it does what is it? Okay good. Where output we're out putting the indices right? I'll put in the indices. So 1/3 and 5 those indices or 3 + 5 + 8 indices not in this class now. I'm sorry. Computer science programming languages, right or is this the hard way? Your life is easier. U of n elements in the last ones called in right ": [
+            1059.1,
+            1135.8,
+            24
+        ],
+        "size of the list is decreased by a factor of 2, so you start with a list of size n and then the next iteration you have a list of size and over to next iteration and over 2 squared and so on right? So we have kind of this sequence of sizes of this right? And when does the algorithm terminate when you get to one now after this ": [
+            608.4,
+            637.2,
+            14
+        ],
+        "so When I goes from 1 to n / 2. How many iterations does J. Do or what's the lower bound of the number of iterations that Jay does? also in / 2 Jay makes greater than or equal to n over to iterations. Frank so just in those first and over to iterations, you know, you've done and over 2 squared iterations. Frank And that's only part of the ": [
+            2492.4,
+            2555.7,
+            53
+        ],
+        "something called the master theorem. Okay, and you can just memorize it or put it on your cheat sheet or something. I'm not going to expect you to prove it or anything. Just want you to know how to use it. Okay. Here is the statement of the master theorem. If you have a recursion T of N is a t of n / B, and then Big O and ": [
+            4196.7,
+            4224.0,
+            94
+        ],
+        "sort. Is going to be equal to to write your split up into two step problems and B is also going to be equal to 2 because each one of those subproblems is half the size. I am such a good example to think about okay, so in general Let's say I have an algorithm that divided into a sub problem each of size n Overby recursively solving them. and ": [
+            4055.0,
+            4086.6,
+            91
+        ],
+        "start high is as one and then you loop from Jade from 110. You look through the entire Bee list and you basically compare each bij with AI. And you increment I so you're incrementing the A-list as you go right until you find something bigger. And if you could do you go back into the for Loop and you can commit the b-list. This is another way to think ": [
+            3283.0,
+            3309.3,
+            70
+        ],
+        "takes to solve each sub problem and you have to do that a x. then you just have to do the non recursive part. Thanks for this is the answer C. Are there any questions or comments? So almost all divide and conquer algorithms. The runtime recursion is of this form, which is great because there's a quick way to solve it. That's what we're going to do next. There's ": [
+            4153.2,
+            4196.7,
+            93
+        ],
+        "the size of that sub problem? And how long does it take to kind of merge or what's the non recursive part of binary search? How long does it take to to test that middle element? right now in recursive part is Big O of one what degree polynomial is one? 0 okay, so now we can extract our our variables now plugged all those guys in and we still ": [
+            4635.2,
+            4700.0,
+            106
+        ],
+        "the total number of comparisons is exactly 1 + 2 up 2 N -1 and we showed last time that This means that there is n * N - 1 / 2 comparisons. Okay, so What does that mean about the runtime? If I have this many comparisons, what is the Big O complexity class of this? algorithm Okay. So one way you can think about this is to just ": [
+            334.1,
+            394.7,
+            6
+        ],
+        "the worst-case because there is there's actually another way that you could Analyze This is to notice that this goes through. How many iterations will it goes through and iterations in the first? + + -1 + + -2 and we actually know that this is equal to n * n + 1 / 2 so you can just do that and say well I know that I know exactly ": [
+            2747.2,
+            2785.8,
+            60
+        ],
+        "this type of thing. Okay. So this is the high-level description of of that other algorithm that we talked about use linear search basically to see when B1 is anywhere in the first list. and if it's not then if it's not that means you found something bigger, right because you're kind of going through so then go to be too and start where you left off and be one ": [
+            3226.9,
+            3258.3,
+            68
+        ],
+        "though and Cubed is faster for a lot of inputs. It turns out that 10 in squared is faster on larger inputs, and that's where it matters cuz that's what we talked about before as time goes on or data sizes get bigger and bigger and bigger. So we want our algorithms to scale well. Okay, here are some really bad complexity functions. Actually. This one's fine. All the rest ": [
+            242.5,
+            270.5,
+            3
+        ],
+        "time I is incremented right if I ever reaches and plus one. The program terminated automatically terminates, right so we don't reset I every time is that what you were kind of what you were saying. We don't reset it. We just kind of go from where it was and so both both I and J are only going in One Direction and they never go back. So really the ": [
+            3460.0,
+            3485.6,
+            74
+        ],
+        "to compare other algorithms with it right now. We can say these grow at the same rate. These one is bigger than the other and soul. Okay, good. So I guess we've established that men sort is a big O of N squared algorithm right now. Let's look at linear search. Recall how this works you basically start at the beginning of the list compare every item one by one ": [
+            456.9,
+            487.2,
+            9
+        ],
+        "to do this many. Okay, so When is the product rule for nested Loops not typo? I kind of saw an example for the lower bound. But when is it not tight for the upper bound? And the problem that is going to happen. Is that you're going to be overly pessimistic because you're going to in each Loop you're going to try to go for the worst-case, but what ": [
+            2828.5,
+            2864.2,
+            62
+        ],
+        "to the deso. This is just like what we saw, but I'm just kind of particularly making the non recursive part a polynomial of degree d. Then all you have to do is compare A and B to the D and you get these three cases you just plug your thing in okay? saying this is in the book 2 so you can You can copy it down or look ": [
+            4224.0,
+            4260.9,
+            95
+        ],
+        "total number of increments that you could make in the worst-case is 2N, right cuz you could have kind of leaf frogs to each list. Okay. So this whole thing executes Big O of Two end times total across all iterations of the loop. So the app so the another a tighter upper bound would be Big O of n to this is this is actually a lot better than ": [
+            3485.6,
+            3515.9,
+            75
+        ],
+        "two. I don't know. It's just how you define it right? That seemed weird. Look for three Industries. each between 1 and n I guess you can say does it say? It should say what look for indices. Would that make it clearer? Was that know what I want them to be able to be? not necessarily unique Does that mean that anything with the any array with a zero ": [
+            1650.6,
+            1702.6,
+            34
+        ],
+        "using merge sort and I guess we didn't go to the run time yet, but it is and login. So if even if you had a faster sorting algorithm that wouldn't improve on the overall run time, right? Because this is sort of the bottleneck. This is the this is going to dominate any sorting algorithm that slower than in squared fastest known algorithm like you said is in squared ": [
+            2144.4,
+            2168.0,
+            45
+        ],
+        "we can do that inside out thing. Right. So the inner loop for the inner body is Big O of log in. And the outer body is Big O of n * Big O of log in. So you get Big O of n login? This one we're going to look at this one in more detail and I'm going to show you where to be careful on on doing ": [
+            3195.8,
+            3226.9,
+            67
+        ],
+        "we had actually did more. Okay. So then this whole thing is going to be big Omega of N squared x big Omega and which is Big Omega and Cubed. This is nice because we showed already that this is Big O events and Cubed so it's so this Is Big O of n cubed? And a big Omega then cubed that implies that it's big Beethoven cute and that ": [
+            2579.6,
+            2613.1,
+            55
+        ],
+        "we know that this is big Omega of one right now. We know that we have to go all and steps here. So we know that we have to do at least and amount of work, right and so we know that we that this whole thing has to be big Omega Frank the lower bound is in and you can kind of do the same sort of thing. But ": [
+            2348.6,
+            2379.2,
+            49
+        ],
+        "were most interested in right? It's kind of like if I have a certain input size. What do I expect it to do in the worst case? I was like one or what if they don't like one just be hero. log of 1 log of 1 is 0 like I guess if we're doing like that plus one would ever wouldn't those is essentially just be equal to of ": [
+            933.0,
+            975.9,
+            21
+        ],
+        "with X until you find it or reached the end of the table and so for linear search. If it if the time it takes to find X or determine it is not present depends on the number of probes. What is the number of list entries? We have to retrieve and compare 2x if it happens to be the first element then what? One we did this already right? ": [
+            487.2,
+            513.3,
+            10
+        ],
+        "with unraveling anyway, okay, so we're just applying this theorem directly. D is the degree of the polynomial OB is the the factor by which you Is the number of sub problems? What happened there? Yeah. You can extract a you can extract B, and you can extract D from the definition of the outer. The sea is just some constant. Alright, let's look at one more example that we've ": [
+            4529.8,
+            4599.3,
+            104
+        ],
+        "work is done at the top layer. That's this first one. What does it mean? Well it means that just combining that last step that's basically the bulk of the work all the things that you've done down here. The problems are so small that the work it took to the time it took to do it. It's insignificant. Okay, alternatively you can have that the problems don't really Decrease ": [
+            4295.2,
+            4331.0,
+            97
+        ],
+        "would have every single one beer? - 100 + 10 + 1 + 0 You mean if your strip your list was this? Yeah, you get a lot. But all I want is I just want one. Triple, that's all once you find one. That's it. That's okay. Okay now. Now that we've eliminated redundancy we've taken away a lot of computations. So now what's the order of what's the ": [
+            1702.6,
+            1759.7,
+            35
+        ],
+        "you to keep this in mind. This is always true because big'o is an upper bound, right but it doesn't necessarily mean it's the actual tight run time. Okay, so let's move on and see how we can apply this to the summing triples example. Okay. So the first thing you do is you look at the inner loop and you kind of work your way out. So the inner ": [
+            1465.1,
+            1493.1,
+            30
+        ],
+        "your favorite thing to do right start out with this plug it into itself into itself into itself and you get something that looks like that. This is nasty. Right? This is this is not or maybe some people find it fun question. So that CNN is from T merge. Search images big Theta of n right so that means that it grows linearly as a function of n but ": [
+            3767.9,
+            3813.2,
+            84
+        ],
+        "yourself of that is because remember how it works is you take the first element of either list, right? And then you just keep on taking the first element of either list as you go until you built the whole list. Okay, so this is going to be our recursion. Okay with our base cases. Okay, good now. We could do this whole thing by unraveling. I know this was ": [
+            3729.8,
+            3767.9,
+            83
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_10.flac",
+    "Full Transcript": "Do you have any questions before we start? Everybody's doing okay on the homework.  office hours  discussion  lecture no questions  What's that?  You have a question.  Thanks, man.  All right started. This is where we left off right estimating time of algorithms.  as a function of the size of the input and the the way we do it is by counting comparisons counting operations counting computer steps, and we're  we're purposefully keeping computer steps kind of vague because  We don't really we're not really worried about exactly how much time they take just that they take constant time.  Okay, so we basically focus on how run times or how the time of an algorithm runs takes as a function of their input size.  And in in our cases that the 3 to the end and squared + 10 squared they're going to be considered growing at the same rate because there's all this stuff that we can't really control like software Hardware.  Those type of computer all those things where this constant Factor term doesn't really mean a lot because it can change but the thing that means the most is how is it growing?  Okay good. So we saw last time that.  And Cubed + 10 in squared even though and Cubed is faster for a lot of inputs. It turns out that 10 in squared is faster on larger inputs, and that's where it matters cuz that's what we talked about before as time goes on or data sizes get bigger and bigger and bigger. So we want our algorithms to scale well.  Okay, here are some really bad complexity functions. Actually. This one's fine.  All the rest are bad right there. Just an efficient when you compare them to polynomial time.  To the end to end shoes in which we might figure out a nice approximation of what that is a little later on, but I think it's some it's also pretty bad. We have n factorial.  An end to the end and you can just see how fast these numbers grow and you have to put Dots here because I can't even fit 55 to the 55 on this page right? It's just too big.  Okay, so  What we're going to do?  For the rest of the class is go through examples of algorithm and I'm going to show you a few key tips on how to calculate the runtime of an algorithm day. So let's start with Min sort. We did this last time write the total number of comparisons is exactly 1 + 2 up 2 N -1 and we showed last time that  This means that there is n * N - 1 / 2 comparisons.  Okay, so  What does that mean about the runtime?  If I have this many comparisons, what is the Big O complexity class of this?  algorithm  Okay.  So one way you can think about this is to just rewrite it and its expanded form, which is what  N squared / 2 - + 10 / 2  So we'll see that it's in square. It's big ovens with.  Is there a Sochi is the correct answer? Is there any other correct answer?  He is also correct, but we're not going to be writing it like this when we when we write run times the the standard way to do it is to write a function and its simplest form.  Okay. So remember each function belongs to a certain fate a class, right and each data class has like a particular way that you write it if it's a polynomial she just right as and squared and Cubed could be like and login but it's nice to write it as its simplest form because then now I can use that to compare other algorithms with it right now. We can say these grow at the same rate. These one is bigger than the other and soul.  Okay, good. So  I guess we've established that men sort is a big O of N squared algorithm right now. Let's look at linear search.  Recall how this works you basically start at the beginning of the list compare every item one by one with X until you find it or reached the end of the table and so for linear search.  If it if the time it takes to find X or determine it is not present depends on the number of probes. What is the number of list entries? We have to retrieve and compare 2x if it happens to be the first element then what?  One we did this already right? It's the last element. You have to compare it to n if it's in somewhere in the middle it sent over to if it doesn't equal any how many elements we have to compare it to also an okay good.  so these are the three kind of cases and generally when you  find the runtime of an algorithm.  You want to do it in the worst-case because you want to know in general how long it's going to take and you may not know how that depends on the quality of your input or like the qualities of your input. So you just want to know if it's this size. I know it's Big O this value.  Okay, good. So  In this particular example, the running time depends more depends on more than just the size of the input. It depends on the qualities of that the input has right if x happens to be the first element of the list then it's going to take constant. I'm so  yeah, so we want to focus on worst time.  Okay, let's look at binary search.  I guess I should conclude something here. So linear search.  Is Big O of n?  Okay, good. How about binary search every time every iteration the size of the list is decreased by a factor of 2, so you start with a list of size n and then the next iteration you have a list of size and over to next iteration and over 2 squared and so on right?  So we have kind of this sequence of sizes of this right? And when does the algorithm terminate when you get to one now after this many iterations of the loop we get right after 3, we get an over 2 to the 3 so  is it right to hear how many iterations do we need to get down to one?  floor of log base 2 of n + 1  Rank, do you have to at least have it that many times?  See that music. I love you too, because it's much the same thing.  Is it the same thing?  Describe atoms today.  smallest numbers with largest capacity  metal definition  yeah, what if it's exactly  10 log base 2 of 2 is 1 but there's actually two iterations you have to do.  Rights of these are not equal always can use either one. I think they're  I think they're both fine.  Really? We're just trying to bound the size anyway.  Yeah, you may be off by 1.  But yeah, we're just trying to find a pound but good point.  Okay. So how do we write this formula in Theta notation?  Okay good.  Big Data of login  Are there any other correct answers?  BND  But like I said before we want to kind of use the simplest form so that we can use it to compare things bases here.  It doesn't matter. So we usually write login if it's in a big Theta class or Big O class and you write login. It can really be any base bigger than one. Okay, so that's why we kind of leave ambiguous was just login could be natural log could be locked to could be log10 if you like. So we just leave it like that.  Okay good.  Linear search in the best-case you do it in fate of one-time. Right? If it's the first element for binary search. It kind of depends on the way you implemented. If you actually go down all the way down to where you have one element left then is always going to take login. But if you have like this kind of early abort like you break the algorithm early, if you find it then you could you could get lucky and it could be the exact middle element.  In the worst-case though, we have data of an fate of login average case. We saw kind of this rain. We're going to get an over to sue the state of n a little bit more.  Hard to it's a little bit harder to pin down exactly what the average case of binary search is.  Okay, but this really is the  runtime  That were most interested in right? It's kind of like if I have a certain input size. What do I expect it to do in the worst case?  I was like one or what if they don't like one just be hero.  log of 1  log of 1 is 0  like I guess if we're doing like that plus one would ever wouldn't those is essentially just be equal to of one which ones  Obi-Wan and instead of data at 1  beta of 1  No, se. Login is not o one. I'm just oh, this is just saying depending on this is depending on the implementation.  You can kind of be stupid about binary search and always just keep on checking everything until your list sizes of size 1 and then you output that number or you could say if I find it then just forget the rest of it.  Okay good. So let's move on.  Summing triples. So this is a problem specification. I'm getting the input here would be a list of real numbers a 1/2 a end and you want to look for 3 in to see each between one and such that AI plus AJ is equal to a k so does the list 36578 have a severe stomach and if it does what is it?  Okay good.  Where output we're out putting the indices right? I'll put in the indices. So 1/3 and 5 those indices or  3 +  5 + 8  indices  not in this class now. I'm sorry.  Computer science programming languages, right or is this the hard way?  Your life is easier.  U of n elements in the last ones called in right  Yeah, that's when it really hurts, right.  Okay, so designer algorithm to do this ready go.  Cambridge  No, not necessarily.  But would that help?  can anybody share a brief description of how to implement a  Okay good.  Loop from live from 1 to n and then for each one of those Luke J from 1 to n and fries one of those Lupe from 1 to end and then check if I buy a Kate and then return true, otherwise return false.  You might be able to cut it down, but let's start from here.  Okay. So what is the order of the runtime of this algorithm?  At first just kind of get go by like the feeling or intuition. How would you think about analyzing the runtime of this thing? And then I'll give you some tools to do it in more more detail.  Okay, good. It's  It's intuitive to kind of feel like this hour of them should run in ncube time, right because really what you're doing is three loops and each Loop runs. Its course at every iteration of the outer loop, right? And so for that matter, if you have nested Loops the the run time or the number of iterations multiplies, okay, and we can kind of see if we can kind of see that and  summarize that with the product rule  Okay, so you have this while loop or this for Loop and then you have the body of the loop. So however long the body takes you multiply that by the number of iterations. So for example, if the if the body of the loop tapes constant time.  Oh, that's the guard condition. That's just the the condition of T2 X in the worst-case.  And will any run at most T1 iterations then the entire Loop takes big O of T1 X T2.  Okay, so here's a warning here.  this may not be  tight  Okay, and it comes from this thing here this scenario and we're going to talk about this in more detail a little bit later, but I just want you to keep this in mind. This is always true because big'o is an upper bound, right but it doesn't necessarily mean it's the actual tight run time.  Okay, so let's move on and see how we can apply this to the summing triples example.  Okay. So the first thing you do is you look at the inner loop and you kind of work your way out. So the inner loop return true.  I guess this whole thing, right? This is. This is the body of the inner loop this whole thing takes what?  Constant time right big old one.  Now how many iterations does this outer loop take?  Right and old and I guess X old One, which is over then, right?  in the body of the next Loop, which also  Text Big O of n.  X pickle then is equal to Big O of N squared.  And then the body of this outer loop here.  Also goes in adoration.  Duluth directions and this is the body which goes and squared. So the whole thing goes and Q. Are there any questions about that?  Okay good.  Okay, so sorry improvements.  What do we know about Plus?  What's a property that addition has that we can take advantage of commutative?  right  so we can sew a i plus AJ is the same thing as a j + a I so there's no need to consider both of those cases. So, how do I improve?  You start J. At what?  iri + 1  on I  right because I never said that the indices had to be different.  Yeah, like for this example, you could either you could also return one one two.  I don't know. It's just how you define it right?  That seemed weird.  Look for three Industries.  each between 1 and n  I guess you can say  does it say?  It should say what look for indices.  Would that make it clearer? Was that know what I want them to be able to be?  not necessarily unique  Does that mean that anything with the any array with a zero would have every single one beer?  - 100 + 10 + 1 + 0  You mean if your strip your list was this?  Yeah, you get a lot. But all I want is I just want one.  Triple, that's all once you find one. That's it. That's okay.  Okay now.  Now that we've eliminated redundancy we've taken away a lot of computations. So now what's the order of what's the runtime of this algorithm with these redundant with these redundancies taken out if I start from I  Okay. Well, let's use our trick but she's our tactic.  We have Big O of one.  This is always going to be Big O of n  write this in the worst-case has to go through an iteration, right? So at least I have to do big love end times big ol then.  Big O is a nice upper bound so we can just say okay, at least I have to do that many in the worst-case and then  Big O of n * big of and square  Okay, stop. Is there a tighter upper bound that I can get though?  We're going to have to wait till a few more slides. Okay, so we'll talk about that in a minute.  Okay.  So now can I make any more improvements?  There's a way to make this an orgasm but it involves using.  If it involves using the wife.  Such that the numbers are out of your the energy let you watch and that runs in.  Okay.  And that would make it. Okay. So using two some  okay, that's cool. Alright, I'm going to look at a different kind of idea. We're going to kind of build up to that or close to that.  so you can find all of these numbers AI plus AJ and then do a linear search in the list to see if it  matches with anything  kind of like what we did. So instead of using linear search. Is there a better search to use?  Best resorts in linear search binary search. So how long would this take?  So are binary searching AI plus AJ in this list.  You're not saying that this might not saying that this works, but if I guess if let's say that the list was sorted then how long would it take?  Okay good.  See, right.  Let's just do our tactic again and just check ourselves. Okay, we know that in the worst-case this is going to run in Big O of log in time.  And we already did this other kind of thing here.  Big O of n * big old log in  and then we have this one.  Big R 10 x big'o up and login  Which is Big O of M Square login?  Okay good. So I was you guys kind of does this algorithm really work? That's why I was going to ask you next.  You can't it doesn't actually work because binary search only works if the list is sorted. So let's just sort it, right.  So we're going to do is sort of using men's sort. We already know that that takes big old and squared and then just do this other algorithm some triples 3 the one from the previous slide that uses binary search algorithm Works. How long does it take?  well  men's short cakes Big O of N squared some triples takes big O of N squared login  So you add them right because you're doing their algorithms in sequence. You're not doing them inside of each other inside of Loops when so when you're doing it inside of Loops, you have to do multiplication trick you doing it in sequence. You could do it as a stop. This is Big O of N squared plus and square login.  to go to big oven Square  Okay good. So so this is better than Big O of n cubed.  Oh, yeah, and the square login. Thank you.  Yes, right. Sorry about that.  Okay.  So this is better than the kind of the naive way to do it and Cube.  Using a faster sort actually won't even help right because we we do know that we can sort using merge sort and I guess we didn't go to the run time yet, but it is and login.  So if even if you had a faster sorting algorithm that wouldn't improve on the overall run time, right? Because this is sort of the bottleneck. This is the this is going to dominate any sorting algorithm that slower than in squared fastest known algorithm like you said is in squared and you can  Achieve this by doing this kind of first you should sort it and then you can like do this sort of iterative search throughout.  Okay, so like I kind of said before to know that we've actually made improvements. We need to make sure that our original out analysis was not overly pessimistic a tight Bound for the run time is a function for the run time. Is Big stayed of that function and remember what big state and means it means that it's Big O and it's big Omega, right? And so if you can show that the algorithm is in a Big O class and it's in the same big Omega class that will tell you that you're in big data.  Okay, so  let's go back to the first.  This was the first example of an algorithm that does this right we didn't do any eliminating of redundancies. We just did it all. What's the lower bound order of the worst-case runtime for this algorithm?  All right. Now we go.  all of them, right  Any questions about that?  Talking about lower bounds rank saw all of these are lower bounds for the runtime.  Okay good.  You can work from the inside out here to write we know that this is big Omega of one right now. We know that we have to go all and steps here. So we know that we have to do at least and amount of work, right and so we know that we that this whole thing has to be big Omega Frank the lower bound is in and you can kind of do the same sort of thing.  But now let's say with that. We have to eliminate redundancy or we do the eliminate redundancy thing the lower bound here.  In the worst-case of this algorithm. We can't just do the inside out anymore. Right? Because if we do the inside out we have to do by the the best possibility for each  Loop Bank  And so if we do it that way well, this is going to take big Omega of 1.  this is going to take  big Omega of n  But this one.  We're not doing upper bound anymore. We're doing a lower bound so that the lowest possible number of iterations you do is one right when when I is equal to end. So this is all so big Omega of 1.  And this one is bigger Mega or pain.  GameStop, if we just kind of do the naive way of going out like that. We got a big Omega band Square, which is not wrong. It's just not tight, right.  felt this one's also e  Okay, let's do a more detailed analysis.  Okay.  so we're all in agreement that  This is big Omega of n. Okay. Now we're going to treat this as one kind of loop and think about it as a whole Okay, so  When I goes from 1 to n / 2.  How many iterations does J. Do or what's the lower bound of the number of iterations that Jay does?  also in / 2  Jay makes  greater than or equal to n over to iterations.  Frank so just in those first and over to iterations, you know, you've done and over 2 squared iterations.  Frank  And that's only part of the number of iterations you do. You actually do more than that. Right? So, you know that and squared is a lower bound big Omega been squared as a lower bound on the number of iterations you do on this double for Loop. So this whole thing we can argue is bigger a mega event Square because we've argued that we had to do at least and squared / 4  But we had actually did more.  Okay. So then this whole thing is going to be big Omega of N squared x big Omega and which is Big Omega and Cubed. This is nice because we showed already that this is Big O events and Cubed so it's so  this  Is Big O of n cubed?  And a big Omega then cubed that implies that it's big Beethoven cute and that really gives you a more tight idea a tight runtime type found gives you more of an idea of how it's going to grow. Okay any questions  because  yeah, it's a it's kind of like you want to you really want to get like the  Where are the most iterations happening? Right the most iterations happen in the first in the first half because you're doing a lot. So let's see how many how many iterations happen in the first half and then that you can use as like a lower bound just look at where the bulk of the work is happening.  And then in this case it was enough to to get us where we wanted to be right because now that we have this then we don't have to do any more analysis. We're just we can just conclude this.  Yeah, cuz remember when we did the Big O, we looked at you look at worst cases for everything. Right? And you say okay just just max everything out and then I get an upper bound, which is great for this one. We want to look for a lower bound. So we want to put everything down to its minimum right and do it by doing that. We didn't really get a tight lower bound because the minimum of this is one  but there's more going on there right because  It only does lower it only does its lower bound on like a few of these iterations. Right? And it is really low. So it does a lot right so doesn't the worst case in the in the in the best-case they kind of even out to the worst-case because there is there's actually another way that you could  Analyze This is to notice that this goes through.  How many iterations will it goes through and iterations in the first?  + + -1 + + -2  and we actually know that this is equal to n * n + 1 / 2 so you can just do that and say well I know that I know exactly how many iterations is going through big state big Omega events squared and so the whole thing is bigger megabytes per  I don't know you like this way better. It's like a lot more exact.  Yeah, I'm saying that in that in that range is in between 1 and over to Jay's running more than n over two times for each one of those iterations.  So at least you have to do this many.  Okay, so  When is the product rule for nested Loops not typo? I kind of saw an example for the lower bound. But when is it not tight for the upper bound?  And the problem that is going to happen.  Is that you're going to be overly pessimistic because you're going to in each Loop you're going to try to go for the worst-case, but what if the worst-case only comes very rarely and usually you're running in the best-case a bunch of times then you're sort of over counting. How bad your algorithm is.  Okay, so let's look at another problem and I'll give you a few minutes to think about how would you go and design it? So you're given two sorted lists and you want to determine if they have any common elements. Okay. So once you find a common element you can stop but how would you implement? Okay ready go?  Find a way to do it.  Find on Facebook.  Okay, I should say here. Sorry. I didn't make this clear.  right order  This one kind of is not as ambiguous, right?  Cuz you're kind of taking it from two different lists.  But they're sort of worded the same. I guess I didn't say to indices.  Anyhow, okay, does anybody have a description of the algorithm to do this?  Okay, and then increment  through  the list with smaller element  Something like that. Yeah, so you're like, okay B is smaller than a so move be over now. B2 is smaller than a 8 day one like that kind of thing any other ideas.  Binary search for AI in bees list, right?  OK Google  anybody else?  Okay, so you can do some if these if there are some repeats in the list then you can kind of skip to the last one or only do the first one.  skip that Holy duration  OK Google, so what are the run times on these things?  This one's nice to do because it's so it's already kind of like in nice a nice pseudocode form and we can do that inside out thing.  Right. So the inner loop for the inner body is Big O of log in.  And the outer body is Big O of n * Big O of log in.  So you get Big O of n login?  This one we're going to look at this one in more detail and I'm going to show you where to be careful on on doing this type of thing.  Okay. So this is the high-level description of of that other algorithm that we talked about use linear search basically to see when B1 is anywhere in the first list.  and if it's not then  if it's not that means you found something bigger, right because you're kind of going through so then go to be too and start where you left off and be one because you know, if be one is bigger than a one through a k then you know, B2 is bigger than all those two so you can just keep on going you can continue from where you left off a little confusing but just kind of think about it like this the eye index runs through the A-list and the j and x runs through the b-list, right? So you start high is as one and then you loop from Jade from 110. You look through the entire Bee list and you basically compare each bij with AI.  And you increment I so you're incrementing the A-list as you go right until you find something bigger. And if you could do you go back into the for Loop and you can commit the b-list. This is another way to think about it, but I wanted to set it up this way because it might be a little bit misleading.  Okay, so why is it misleading is because  the body of the inner loop is Big O of one right and then this this middle Loop.  This body in the worst-case how many iterations does it go through?  Big O of n right  And in the worst-case this one.  also Luke big old and times  right  So we get a runtime of Big O of N squared or an upper bound a big oven Square which is not wrong. It will always be right if you do it this way, but  How this is what we did right. Big event pick up in square.  Okay, so  got to go Vince where I don't know how I organize these so.  This is actually not tight.  What's the tight upper Bound for this?  Yeah, but that's not really a loop right if we're doing this Loop analysis like we done before and we kind of go from the inside out.  Can anybody give me a tighter upper bound than 10 squared?  But that's still a big open Square.  Okay, let's think about it this way.  Every time this is executed except the last time I is incremented right if I ever reaches and plus one. The program terminated automatically terminates, right so we don't reset I every time is that what you were kind of what you were saying. We don't reset it. We just kind of go from where it was and so both both I and J are only going in One Direction and they never go back. So really the total number of increments that you could make in the worst-case is 2N, right cuz you could have kind of leaf frogs to each list.  Okay. So this whole thing executes Big O of Two end times total across all iterations of the loop.  So the app so the another a tighter upper bound would be Big O of n  to this is this is actually a lot better than N squared. We was a little bit too pessimistic, but the reason that it was so pessimistic is because we're we're assuming that this thing is going to go a lot of times.  This piss while it was going to be called a lot of times and the for Loop is also going to be called a lot of times but in reality they're still at they sort of balance out and they kind of like complete each other. Right? It's like if the wild Loop goes a lot of time the for Loop is going to go a few and vice versa.  any questions  second place in yeah, but you have to do a more detailed analysis.  That's if we're just doing the naive tactic that we did before this thing. We're saying in the let's just throw everything into the worst case worst case bigger one worst case and worst case and it's going to be in squared.  What's that?  What it could be in the worst-case the while loop would run end times.  in the very worst case and in the worst-case the for Loop is going to run in x  and so if you just do this sort of naively you're going to be overly pessimistic and get an upper bound. That's not tight. The fact of the matter is that these things aboard right when you kind of find it and so it cuts it short and it'll cut it short enough that it'll never actually achieve the end squared bound.  Okay, so  let's move on to merge sort figure out the runtime of merge sort.  Okay, so  Let's say tfms of an is the runtime of merge sort on a list of size n. Okay. So this is a recursive algorithm. So we're kind of using the recursion of the Run Tour.  Her let me start over.  In order to find the runtime of this algorithm. We need to know.  How long merge sort takes but that means that we need to know how long the algorithm takes.  So in order to get how long it takes we need to know how long it takes until we get this kind of like, you know circular logic sort of thing and it seems like there's no way out. Okay. So this is what we're going to do. We're going to name the runtime TMS of n for the runtime of merch store on a list of size n then we know that these are list of size n over to so these must take TMS up and over to each night. And now we can write out a recursion that then is 2/2 plus the time it takes to merge.  But we already know how long this takes right do we do that?  I knew we didn't.  Oh, well, we'll just go forward with it.  T emerges big state of it  Maybe you can convince yourself of that is because remember how it works is you take the first element of either list, right? And then you just keep on taking the first element of either list as you go until you built the whole list.  Okay, so this is going to be our recursion.  Okay with our base cases.  Okay, good now.  We could do this whole thing by unraveling.  I know this was your favorite thing to do right start out with this plug it into itself into itself into itself and you get something that looks like that.  This is nasty. Right? This is this is not  or maybe some people find it fun question.  So that CNN is from T merge.  Search images big Theta of n right so that means that it grows linearly as a function of n but see is basically what computer are you running on? What are all like the  I don't know the hardware the architecture software and that could affect how fast it actually runs and that's the same thing with C1 and C2 0 write. These are just constant constants based on how long  these base case operations take  Okay, so we can do that.  If we do it this way what value of K. Should we substitute to finish unraveling?  Do you want to look back?  This was the algorithm right? So we're trying to get this value down to one. I ordered one or zero down to a bass case.  Okay, not spiking up. That's fine.  log base 2 of x  right, cuz when you plug in log base 2 of n in 2K  this becomes  2 to the log base 2 of n  TMS of n over 2 to the log base 2 of n  + log base 2 of n x c x and right and this is just one.  But I just turn it to see and this just turns to end so you get B1 and plus CE log base 2 of an RN login.  C + log base 2 of  okay, and then this is big Theta of and login.  painting submerged store at takes and log in time  Okay. Now that that whole thing, I don't want to have to do that every single time. So we're going to come up with a way to shortcut. We're going to prove a theorem or we're going to talk about a theorem that you can skip all of the unraveling every time if your recursion is in a particular form.  Okay, so we get that.  I thought that was a lot of work here. Let me just kind of go through to get to hear. Sorry. I'm sort of running out of time here. I wanted to get through this song.  Divide and conquer Star General strategy. This is like merge sort you can think of it as like a nice example, you take a object your input you split it up or you break it apart in two different sub problems. You recursively solve those sub problems and you put everything back together, right? And so in general you divide your problem of size n into a sub problems each of size and over be right.  You saw me some problem recursively then you conquer by combining those Solutions together. So in the case of merge sort.  Is going to be equal to to write your split up into two step problems and B is also going to be equal to 2 because each one of those subproblems is half the size. I am such a good example to think about  okay, so in general  Let's say I have an algorithm that divided into a sub problem each of size n Overby recursively solving them.  and let's say tea event is the time to solve the problem of size n and G of n is the time to do the Conqueror step the time to actually kind of like merge them together another way you can think about G is this is the  time  of non recursive  part  algorithm  Hey, what are we thinking?  see  Okay, good. So  This is going to be how long it takes to solve each sub problem and you have to do that a x.  then  you just have to do the non recursive part.  Thanks for this is the answer C.  Are there any questions or comments?  So almost all divide and conquer algorithms. The runtime recursion is of this form, which is great because there's a quick way to solve it. That's what we're going to do next.  There's something called the master theorem.  Okay, and you can just memorize it or put it on your cheat sheet or something. I'm not going to expect you to prove it or anything. Just want you to know how to use it.  Okay.  Here is the statement of the master theorem.  If you have a recursion T of N is a t of n / B, and then Big O and to the deso.  This is just like what we saw, but I'm just kind of particularly making the non recursive part a polynomial of degree d.  Then all you have to do is compare A and B to the D and you get these three cases you just plug your thing in okay?  saying this is in the book 2 so you can  You can copy it down or look in the book. Later.  So what are what are these three cases mean?  Well when you do divide and conquer you get this recursion tree, right?  and  the size of your problems are decreasing as you go down the tree, right? So if they decrease really fast as you go down right then there's not a lot of work to do at the bottom.  So that means most of the work is done at the top layer.  That's this first one.  What does it mean? Well it means that just combining that last step that's basically the bulk of the work all the things that you've done down here. The problems are so small that the work it took to the time it took to do it. It's insignificant. Okay, alternatively you can have that the problems don't really  Decrease in size very fast. So that means that all the work that you're doing is on the bottom and then as you get to the topic, it's quicker. That's this one.  And you can see that.  You're basically doing a constant time operation for every leaf. Okay, then this middle one. I like to call this steady-state.  And this is this is when the the problem size decreases kind of in the same sort of rate as the number of problems that you have. And so you kind of get this sort of thing same thing happening.  Okay, so this kind of illustrates the problem sizes, right? You're like breaking it up in this case a would-be four makes you breaking it up into four and each one of those problems breaks up into four and then four and then for you get down to the lower level and at the very bottom you have a to the log base B of N Sub problems. So in the bottom heavy one, that's where you do all that work.  So that's just kind of give you a visual on on what we're counting. We're just counting the whole work done on this whole recursion tree.  Okay, let's plug in a few examples. Okay, so let's start with merge sort.  merge sort  we split the problem into two sub problems, right?  each of size  Andover to  okay, so just  cuz we're going to maybe ask you to do this kind of thing in the homework is give you an algorithm and you're going to have to extract these a B&D values. Okay. So what is the a value? It's basically the number of sub problems. So a is equal to 2.  What's the B value?  E-value is how much you divided it by Sobe is equal to 2.  And then what's the devalue? Well, that just is how long does it take to kind of merge? What's the non recursive part in this case? It's linear. So what degree polynomial is CN?  CN is degree 1 polynomial  So D is equal to 1.  Okay. So now I have these three things. You just plug them in to this part. You see which one does it? Does it match matches this right to is equal to 2 to the 1.  So this is the thing that you plug it in.  Haley with the bigger the day and so you got Big O of n log in which is what we saw we did with unraveling anyway, okay, so we're just applying this theorem directly.  D is the degree of the polynomial  OB is the the factor by which you  Is the number of sub problems?  What happened there?  Yeah.  You can extract a you can extract B, and you can extract D from the definition of the outer.  The sea is just some constant.  Alright, let's look at one more example that we've seen before.  Not much work.  Okay, binary search binary search is actually also a recursive algorithm if you think about it in a certain way and it's also divide and conquer really what are you doing is your probing at the middle and then your ra cursing on either the upper half or the lower half right, but you're only recruiting on one sub problem.  Right, and how big is the size of that sub problem?  And how long does it take to kind of merge or what's the non recursive part of binary search?  How long does it take to to test that middle element?  right now in recursive part  is Big O of one what degree polynomial is one?  0  okay, so now we can extract our  our variables  now plugged all those guys in and we still get this middle steady-state thing, right because one is equal to 2 to the 0.  And so you just plug it in and to the zero login and so you get into the zero login, which is bigger event login. So this is what we expect from binary search.  Because in binary search are only recruiting on 1/2, you're not recruiting on both hats.  Like mergesort you request on both have so there's two subproblems. There's two recursive calls is also the number of recursive calls.  so  yeah, next homework. We're going to see some of this Yoruba going to be given an algorithm and I want you to extract out the variables.  He is too because the size of the sub problem is in / 2.  I tried to like color coordinate what these things are those?  Thank you. "
+}

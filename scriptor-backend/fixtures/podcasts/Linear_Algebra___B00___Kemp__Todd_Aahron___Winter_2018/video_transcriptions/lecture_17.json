@@ -1,0 +1,566 @@
+{
+    "Blurbs": {
+        "- 2 which is -12 so that was a lot less than 120 calculations. No. If you review that systematically and noticed one thing so in this example hear a I had almost everything below the main diagonal zero there was only a couple entries that too and that -2 there below the nightman diagonal that work not zero if I had had zeros everywhere below the main diagonal then ": [
+            3021.9,
+            3052.1,
+            108
+        ],
+        "And I want to answer the question. Are they linearly independent? Okay, if I fix a basis and use the coordinate transformation for that basis to view those polynomials as column vectors. Then I have tools that we have developed in this course to answer whether those column vectors are linearly independent. And the point is that an isomorphism preserves linear Independence. So if you figure out that the column ": [
+            1236.6,
+            1264.4,
+            42
+        ],
+        "And now I'll use the cofactor expansion. And again in this case is makes most sense to expand along the First Column the cofactor expansion says you can choose any roller column that works for you. So you can change which roller calling you're using an app from one step of this process to the next that's fine. In this case. It still makes no sense to use the First ": [
+            2913.7,
+            2936.1,
+            104
+        ],
+        "Associated to it. 101 310 and 512 but hey, look, that's the Matrix a I didn't remember that the reduced row Echelon form of the Matrix a it tells us how to express the non-committal column as linear combinations of the pivotal ones. I'm so this. this coefficient to here and this coefficients one here, they match up with. leading ones the leading ones in the two basis vectors. And ": [
+            976.4,
+            1019.4,
+            35
+        ],
+        "Column cuz it's mostly zeros there. So this one's going to be three times. Okay. Now I have a two and the same pattern says the one 1 entry is always giving a plus sign. So that's fine time is the following thing. It's the determinant of this down here, which is 15024 - 1 + 0 - 2 0 I know I don't quite have zeros everywhere. Hey, but ": [
+            2936.1,
+            2964.0,
+            105
+        ],
+        "I could have just done the same thing. I just did but choosing the First Column every time so if I have zeros below we're just about done here if I have all zeros below the main diagonal Everything is 0 down here. Then when I do the cofactor expansion. If I expand along the first column. I'm going to get only this part contributes cuz of all these zeros ": [
+            3052.1,
+            3085.2,
+            109
+        ],
+        "I don't have to do most of those calculations because I get a zero immediately for each of those from the entries of the Matrix. And now the thing that I have left is actually the same conversation. I already did. It's 2 - 2 * -1 x -1 giving me reminders to same answer as before. That's the way it's going to work out. So now, you know how ": [
+            2669.1,
+            2690.1,
+            94
+        ],
+        "I have there's several choices here. Well, actually there's a good choice now using the cofactor expansion. I'm going to spend a long the last call. So I'm going to get 3 * 2 * Okay, so the sign pattern Matrix + - + - + - + - + says that for that last call on my start with a plus sign + 0 they're the only one that ": [
+            2964.0,
+            2989.5,
+            106
+        ],
+        "I want to do is figure out what is the coordinate Vector of this column Vector 5 1/2 in terms of that basis before we figure it out. I want you to tell me what size Spectre this thing is. Can you call him doctor of what height? Somebody from this side of the room, please. You know if you get it wrong, and it don't say nothing to any ": [
+            886.9,
+            913.5,
+            32
+        ],
+        "It says of the determinants of this Matrix a is so I'm using the second column. So I have to take C1 to C2 to and C32. And add them up X the entries a 1/2. A 2-2 and a 3-2. That is to say the entries are five. 4 + -2 x those co-factors, so I need to figure out what those co-factors are. It's a what are the ": [
+            2354.3,
+            2394.8,
+            84
+        ],
+        "On Wednesday evening. Today. We are going to finish the discussion of section 4.4 that we got through most of last day and move on to chapter 3 chapter 3 is about determinants and general. We're going to spend the rest of today's lecture and all of Wednesday's lecture next week on the Terminus before we move on to chapter five eigenvalues. So just so you have a horizon there ": [
+            4.0,
+            28.0,
+            0
+        ],
+        "P2. So I need to establish that are linearly independent. That's actually not going to be that hard to do directly. But I also need to establish that every polynomial of degree to like for example, x squared minus 7x + 21. I need to be able to write that as a linear combination of these three now, if you start fussing around trying to figure out how to do ": [
+            1323.3,
+            1345.1,
+            45
+        ],
+        "T A V plus DFW the T respected Auntie respect scalar multiplication so we can verify that directly but all that is doing for us again is you know, realizing that on either side of of tea in the metric base or an RN. Addition and scalar multiplication work the way they're supposed to work rights that you get that if I want to add up to call investors that ": [
+            441.9,
+            469.1,
+            17
+        ],
+        "Vector spaces as long as you can convince yourself that you can find a basis of that Vector space then the confusion should all go away because you'll just need to work in RN once you translate to the coordinate vectors. So that is the end of chapter 4 as we're covering it and now I'd like to go on to chapter 3. All right chapter 3 is a very ": [
+            1637.3,
+            1664.9,
+            57
+        ],
+        "a 5-0 4-1 there but I didn't eat. So whatever it is, then I get + -2 x design pattern invest in that position down here is -1 times the determinant of now I have to delete the third row and the second column that leaves me with the Matrix 1-2 0-1. And finally, I have the third entry is 0 * + 1 * the determinant of 1524, but ": [
+            2631.2,
+            2669.1,
+            93
+        ],
+        "a combination plus and minus signs time is a linear combination of four three by three determinants, but now, you know how to compute three by three determinants. So each one of those you're going to compute by extending along some roller column. And they reduced to two by two determinants and so on Down the Line. You now know how to compute determinants. You should never ever do this ": [
+            2709.5,
+            2737.3,
+            96
+        ],
+        "a determinant is 2.007. That's a really small number. That means that it's not zero, but if you invert if you take its reciprocal, okay, it's going to be a number with 8 zeros in it. It's a huge number. The inverse is going to be a big huge entries. And here's the thing in a real world application. You might not know the answer is a matrix Beyond five ": [
+            1853.1,
+            1881.8,
+            65
+        ],
+        "a hundred and twenty calculations in order to compute the determinant here. But actually if I expand along the first call Write the determinant of a here using the cofactor expansion. So I need that sign pattern The Matrix, but now I'm going to say well, I know what I think I know it well enough so that I'll know where the signs come in. I'll get three times the ": [
+            2857.2,
+            2882.5,
+            102
+        ],
+        "about the second phase of the second Vector in that list X - 1 I need to expand that in terms of the bassist One X x squared x minus one is already presented as X which is the second base inspector - 1 which is the first base is Factor. So that means that we get a minus one in the first lots and I won in the second ": [
+            1408.3,
+            1431.2,
+            48
+        ],
+        "add up six terms. You can reduce it to kind of too complicated looking terms. I'm not going to write that for me like here because if you try to do it for four by four, there's no reasonable formula and as the size of the Matrix grows actually Computing the determinants from the definition. We're going to see in a second becomes computationally infeasible quickly. Okay, so we'll get ": [
+            1954.8,
+            1979.4,
+            69
+        ],
+        "and then in the next phase if I choose the first column. Same thing will happen and I'll only have to deal with this part of the Matrix and so on. So what you'll see from that is that if you have a triangular Matrix where everything is zero below the main diagonal all you're going to produce is the product of the diagonal entries. So there's one case where ": [
+            3085.2,
+            3110.2,
+            110
+        ],
+        "are the same as Matrix Transformations. So you're saying Okay, so this has a matrix not so fast because before when we talked about linear transformation, we were talking about linear Transformations from our $3 7 from RN to RM. When you're talking about linear Transformations between two Vector spaces that are already presented as column Vector spaces then yes, I really need a transformation is a matrix transformation. But ": [
+            499.2,
+            528.6,
+            19
+        ],
+        "around that by the end of this lecture or early next lecture. But keep that in mind as we go with it the definition. I'm about to give you for the determinant. It defines what it is, but it quickly becomes computationally infeasible to actually use it. So this is the top of the slide just summarize whatever it was said about to buy to determine us on the last ": [
+            1979.4,
+            1999.7,
+            70
+        ],
+        "at where those two intersected, which was there, then I look at that sign and that's fine in the sign pattern is a negative. So I put a negative there and that's the definition of the 2-1 cofactor now noticed that it requires us to calculate the determinant. But if the determinant of one size lower, so in a moment, I'm going to show you how to compute the determinant ": [
+            2128.8,
+            2150.0,
+            76
+        ],
+        "basis be it's written there. So let's write down the coordinate Vector of some other vectors that are in that space. So for example, the vector 5 1/2 say say is in the column Space by definition. All the columns are in the column space their stand for themselves. So they're in the column space, space is standby. Just the first two factors that is going to be so what ": [
+            846.8,
+            886.9,
+            31
+        ],
+        "basis the coordinate representation will change and if you mix them not you can run into trouble. There is a systematic way to faces II 4.7 in the textbook. We're not going to do that in this course, if you go on and future linear algebra courses, or if you go on in a computer vision course or it in several kinds of Statistics courses, you will need to understand ": [
+            1592.7,
+            1614.7,
+            55
+        ],
+        "bassist. Isodose three column vectors form a basis for R3 and because the coordinate transformation is an isomorphism IT preserves all the properties of vector spaces. It follows that the vectors themselves One X -1 x -1 squared r a basis for that space P2 That's how you can use coordinate transformations to make sure that you never have to deal with the abstraction. You can always view any Vector ": [
+            1543.5,
+            1571.5,
+            53
+        ],
+        "but whatever. It is in terms of the bassist. It's going to be. Represented by the vector with a 1 in the third position of zeros everywhere else. Okay, where the number of elements there is going to be. The number of the number of components is going to be the number of a suspect arrested dimension of the space. So is this example here anyway? Is that the coordinate ": [
+            1139.7,
+            1169.8,
+            39
+        ],
+        "calculations in a whole mess of writing. How about 5 by 5? It's going to take 5 * 4 * 3 * 2 which is 120 calculations to do a 5 by 5 to terminate. How about a 10 by 10 matrix? 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 210 factorial which is over 10 million that will not be on ": [
+            2784.9,
+            2810.5,
+            99
+        ],
+        "case where and is equal to 3 bytes in a basis will have three elements. If I tell you what this is and I tell you the coordinates of a vector to tell you what to report to me what that factor is used those coordinates to Lydia Lee combine. The typically harder thing to do is to go the way that's written there. Isn't it? Like I've got some ": [
+            291.8,
+            318.6,
+            11
+        ],
+        "change of basis Matrix and you will learn it then Okay, it's a little tricky but it can be handled systematically, but regardless as long as you stay fixed in one bases the whole time you're fine. Okay, so that's I think everything that I wanted to say about the coordinate transformation and coordinate vectors and hopefully this gives you some hope that if you have been confused about abstract ": [
+            1614.7,
+            1637.3,
+            56
+        ],
+        "choose to expand along. And there's a good choice here several good choices for once to choose to stand alongside. That wasn't one of them why. Yes. Perfect, cuz I could have used a third row or third column which have some zeros in them immediately for us to to use to Let's rewrite the Matrix down here again. So this is 15024 - 1 + 0 - 202 last ": [
+            2567.1,
+            2601.3,
+            91
+        ],
+        "co-factors here? Well, so for that first one C12, that's what we did on the last fly. So now I'm going to delete the first row as well. And that's going to give me here five times the determinant. Of that to buy two thing that's left to 0-1 0 but remember there's one more piece of information we need for the cofactor, which is this sign pattern Matrix. I'm ": [
+            2394.8,
+            2424.6,
+            85
+        ],
+        "column. So the first row and the second column there. Now we know how to calculate to buy two terminals. So let's do that here. So this is -4 * 9 -7 * 6 Okay. So 4 * 9 is 36 and 7 * 6 is 42. So when I get here is 6 so that is the one to cofactor of this maker. Are you now know how to ": [
+            2181.7,
+            2214.5,
+            78
+        ],
+        "contributes is the -1. So I get minus one time is this minus one time is the sub determinants X the cofactor, which is formed by. Everything that is not colored there. So that's 1-5 0-2 that's a really easy to terminate to compute. I'm already down to two by two. So I got 3 * 2 * -1 * -1 * -2 - 0 + 3 * 2 x ": [
+            2989.5,
+            3021.9,
+            107
+        ],
+        "determinant and now I'll use that absolute value notation. You see where it starts to be useful time. Is this part down here. price of the determinant of that 4 by 4 Matrix 2 - 573 0150024 - 100 - 2 0 and the other five terms are all 0 so I won't even write them down. Great. So now I need to come get this four by four determinants. ": [
+            2882.5,
+            2913.7,
+            103
+        ],
+        "determinant cuz that quite the terminant of a two-by-two matrix and the general notation for this is a absolute value of the Matrix a you shouldn't pronounce it. That way you shouldn't think of it that way. It's not an absolute value. In fact, it's often negative. Okay, but that notation is useful when your Computing lots of determinants. It's easier to write 2 bars then Det. And what we ": [
+            1737.3,
+            1768.8,
+            61
+        ],
+        "determinant. Okay, you pick any column that you want and you calculate the co-factors along that column and add them up X the entries in that column and that will give you the same number. This is a bizarre definition because it's got a huge amount of freedom in it. I'm telling you pick any road. You want to call me want and go on down the line and you'll ": [
+            2304.0,
+            2328.9,
+            82
+        ],
+        "determinants of 1000 * a sign but in this case it's the two to sign which is Plus. and then finally, I have to add -2 that's the entry in the 3-2 position of the Matrix X of sign which is the Maya minus sign and a 3-2 position of the sign X the determinants of what's left when I delete the third row and second column that gives me ": [
+            2448.3,
+            2485.6,
+            87
+        ],
+        "diagonal in NC diagonal entries, but there's zero is in both of those so that one gives me a zero. and similarly is this determinant there zeros in both places. So for that one I get + 4 * 0 And for the last one down here, I got a 0 in one place. So I get 1 * -1 - 0 * 2 so that one's nonzero. It gives ": [
+            2511.0,
+            2538.6,
+            89
+        ],
+        "different flavor from the rest of the book. In fact chapter 3 doesn't isn't really linear algebra. Determinants are not really linear algebra determinants are multilinear algebra, and we'll discuss what that means next day a little bit. But for now, this is going to be a far far more concrete than anything. We've been doing since the first or second lecture. We're going to be doing something that's just ": [
+            1664.9,
+            1688.0,
+            58
+        ],
+        "do all co-factors I could do the three three cofactor here, which just means that I ignore the third row and the third column that would leave me just the upper. We're here 1245 * a + fine cuz that's in the three. Okay, so determining or calculating the co-factors of a 7 by 7 Matrix requires that you know how to compute 6 by 6 determinants. But I I ": [
+            2214.5,
+            2249.6,
+            79
+        ],
+        "do the row reduction for us to save some time. So here's the reduced row Echelon form is that Matrix? So let's write down. A basis for the column space, where am I going to find a basis for the column space? Play a hand summary. Yeah, yes. Heaven Cox, okay, which of the Pinnacles? First and second columns in which of the two messages written here. Very good the ": [
+            785.9,
+            816.2,
+            29
+        ],
+        "face of polynomial or it could be a Subspace in R7 but of Dimension 3 and so it's kind of inefficiency describe elements of that Subspace using 7 numbers because since it's a three-dimensional Subspace, you should really only need three numbers to describe elements of that Subspace and that's what coordinates do for you so because it's a bassist Every Vector in the space can be represented as a ": [
+            74.4,
+            101.6,
+            3
+        ],
+        "first one okay the first and second Columns of the reduced row Echelon form contain pivotal ones that tells you that the first and second Columns of the original Matrix and they form a basis. So let's rewrite those over here 101 + 310 And that's called on B1 and B2. Okay, so the column space of a is stand by those two vectors. So now let me call that ": [
+            816.2,
+            846.8,
+            30
+        ],
+        "for what you should be reading it had about So let's begin. And let's continue. With a reminder of what we did in the last 20 minutes of last days lecture. We talked about coordinate. So what's so great about a basis if I have a Subspace of an abstract Vector space and it could be a Subspace of some other Vector space. I just have a vector space. then ": [
+            28.0,
+            52.9,
+            1
+        ],
+        "four numbers keeping in mind that which phone number is depends on the basis that we have hiding in the background that we need to keep consistent now once we do that if I fix the basis that this actually gives me a function space V and I take any Vector in there. I can compute its coordinates so associated. Vector space V and as the domain and the codomain ": [
+            389.4,
+            417.1,
+            15
+        ],
+        "from RN to RM has the Matrix linear transformations in general doesn't even make sense to say they have a matrix unless you present your vector space as a space of columns, which you can do using the coordinates for me, but that's going to depend on which basis you choose to fight beside here. What is great though, is that this linear transformation in the coordinate transformation the one ": [
+            555.4,
+            577.8,
+            21
+        ],
+        "get the same answer which is quite remarkable just to demonstrate what this means now, let's go let's do this in so generality in this example here. So here's a 3 by 3 Matrix. So I'm going to pick some row or some column to expand a long. I'm going to pick the second column to expand the wall. Queso fresco write down with this formula status in that context. ": [
+            2328.9,
+            2354.3,
+            83
+        ],
+        "going to be actor. in our two Okay, I know what sector is it? Well the way we figure that out, right? What does this say? This this says literally we have to solve the equation 512 is equal to x 1 x the first basis Vector 101 + X2 X II by suspect r310. We know how to solve Matrix equations like that. We write down the augmented Matrix ": [
+            945.7,
+            976.4,
+            34
+        ],
+        "hard Direction. If I tell you. Set the coordinates of a particular vector. in terms of a basis br1 7 - 3 if I tell you what its coordinates are in terms of a particular basis. What that means is that the vector is Just One X. The first base is Spectre + 7 times the second base inspector - 3 * the third base inspector. This is a special ": [
+            259.9,
+            291.8,
+            10
+        ],
+        "here. If I tell you the exes, you can recover the the vector immediately and it's also on to Meaning that every Vector in RN is hit by this transformation. And again, that's the same observation this down here, which is I want to know if the vector 1 7-3 is in the range of this linear transformation. Yeah it is because I could use this is a one-to-one and ": [
+            603.1,
+            645.5,
+            23
+        ],
+        "if I have a bassist for it some basis vectors B1 B2 up to be and I'll call that basis script EB Capital be if I have a basis for it, then what's so great about that among other things is it allows us to give an address to every point in the Subspace independent of whatever description you have of the vector space like it could be some abstract ": [
+            52.9,
+            74.4,
+            2
+        ],
+        "if he there is p to the vector space of polynomials of degree less than or equal to 2. It doesn't even make sense to ask for a matrix 44 the coordinate transformation cuz the domain is not a space of columns. We wouldn't even know how to multiply the things by matrix. Okay, so it's slightly misleading to say that every linear transformation has a matrix every linear transformation ": [
+            528.6,
+            555.4,
+            20
+        ],
+        "in mind. We have our Subspace. We have fixed the bases. I'm going to use it to describe all the vectors in the Subspace. I do so by dropping the bees. I just right in the X's and O's axons are called the coordinates of the vector in question has a coordinate Vector which is a kind of we've been setting for most of this class will denote it like ": [
+            156.7,
+            180.1,
+            6
+        ],
+        "invertible or not for a two-point End by a square Matrix, but in general there isn't a formula for it that is nice and easy to compute instead. I'm going to give you a recursive way to compute the way your text defines. The determinant is a standard way to define determinant and it's a recursive method that involves something called the cofactor expansion which sounds fancy but I'm going ": [
+            2026.4,
+            2048.0,
+            72
+        ],
+        "is an isomorphism I'm saying it shows that have the same form great, but that really means something specific. It means that if I want to establish properties of a collection of vectors, I can look at the images of those vectors under the isomorphism and establish the properties there and it'll work on either side. So if I have a set of vectors, maybe they're outside factors like polynomials. ": [
+            1209.5,
+            1234.6,
+            41
+        ],
+        "is are in the dimension of the space. And the great thing about this function that it's the kind that we know how to analyze in this course. It's a linear transformation. I'm not going to prove that because it's mind-numbingly boring and to do what we need to do. If we want to prove it is a linear transformation is proved T of Z + W is equal to ": [
+            417.1,
+            441.9,
+            16
+        ],
+        "is going to spend that as 3 to buy to determine is so far. We have to do 4 * 3 * number of calculations needs to buy to determine how many calculations in a 2 by 2 determinant just two of them. So we have to do 4 * 3 * to calculate that number's called 4 factorial 24. So doing the four-by-four determinant is going to require 24 ": [
+            2761.7,
+            2784.9,
+            98
+        ],
+        "is numerically unstable small perturbations in the coefficients of the Matrix can drastically change what the universe looks like or whether or not exist. So that's one problem with determinants right now. If you're going to divide by a number it might be really none of it really small and in numerical applications that can prevent real problems. If you go on and take a course in numerical linear algebra, ": [
+            1911.0,
+            1935.0,
+            67
+        ],
+        "it means is that I take the second row. That was the first take the second row. and the first column and I ignore them. Take a second row in the First Column and ignore them. I'm left. With these entries down here. And the 2-1 cofactor is the determinant of that thing that's left. Almost there is one wrinkle, which is that I also have to look in this ": [
+            2071.2,
+            2106.7,
+            74
+        ],
+        "just means that I add them component wise and if I want to have two vectors on the left hand side if I had them both in terms of B, then I just add up the coefficients of granite transformation. but it's not just any old linear transformation, but I want to make a comment about it first, which is So when we studied linear Transformations, we said linear Transformations ": [
+            469.1,
+            499.2,
+            18
+        ],
+        "like this over here. We put square brackets around the vector v with a sub be indicating that these are the coordinates of the bases be keeping in mind that if we were to change bases in use a different basis, we would get a different coordinate Vector the coordinates depend on what basis we choose. Representation of our Subspace as column vectors, even if it's some abstract space of ": [
+            180.1,
+            213.5,
+            7
+        ],
+        "linear combination of the basis vectors. That's because of the basis of this painting set, but that's nearly Independence. And we saw last time what that means is that the representation that you get expanding that Vector in terms of a suspect is any veteran the space can be written the uniquely as a linear combination of the basis vectors has a unique set of coordinates x 1 x 2 ": [
+            101.6,
+            131.2,
+            4
+        ],
+        "me a minus one. So I get - 2 * -1 x -1 At all together I get 0 + 0 + -2 x -1 x -1 is -2. That's the determinant. No. That's correct, but it was also dumb because in this procedure, I'm going to add up along any row or column. I'm telling you that I have the same answer no matter which roller. Call him. I ": [
+            2538.6,
+            2567.1,
+            90
+        ],
+        "more General as we go forward. So that number there a D minus BC that might be zero in which case The Matrix is not invertible. The Matrix is invertible. If and only if that number is non-zero if your if you've got some Matrix that comes up it from some statistical application that you're working on. And you would like to invert that Matrix you calculate determinant you find ": [
+            1826.2,
+            1853.1,
+            64
+        ],
+        "of 2 x whatever it is is expressed as x1d OnePlus X to be two-plus up to xnvn. So just like we did in the first lecture where we had a bunch of x's hanging around in some equations and we decided to simplify notation by getting rid of the exes and just writing a matrix of coefficient we can do the same thing here. Once we have a basis ": [
+            131.2,
+            156.7,
+            5
+        ],
+        "of a 3 by 3 Matrix. Doing so requires that you already know how to compute the determinant of a 2 by 2 Matrix which we do question. The first row you're right. What I just did here was at C12. So let's change that. This is the C12 the cofactor C12 C12 means like with Matrix notation. The first number tells you the Row II number tells you the ": [
+            2150.0,
+            2181.7,
+            77
+        ],
+        "of the polynomials were actually interested in in terms of that bassist for the polynomial one. Cancel that basis. Well, it's the first basis Vector in be so by what we said on the last fly. That's just going to give us 1001 is 1 * 1 + 0 * x - that is is 1 * 1 + 0 * x + 0 times x squared. Okay. Now what ": [
+            1378.0,
+            1408.3,
+            47
+        ],
+        "one and we need to use row reduction and find what the ex's are. And the point is that because the bees are linearly independent. There will be a unique Solution. That's why we're called coordinates. But it's a very simple idea. We just if I've got a Subspace this dimension for then I only need four numbers to describe all the factors in it. So let's just use those ": [
+            360.4,
+            389.4,
+            14
+        ],
+        "onto linear transformation if it had a matrix, it would have an invertible Matrix that bit standard Matrix the same as a convertible. It's an invertible function. I can go back and forth. That's kind of the point of coordinates, right? I should be able to tell you what the coordinates of any point is and if I tell you the coordinates you should be able to tell me where ": [
+            645.5,
+            666.0,
+            24
+        ],
+        "or six digits of accuracy. So if the determinant is .007, but you actually were off by 1% in one of the entries that maybe the actual determine was 0 or maybe it was .03, right? I mean the amount of error in your entries if you have a real-world situation might be much larger than the calculation you get for the determinant. When determinants are small system of equations ": [
+            1881.8,
+            1911.0,
+            66
+        ],
+        "polynomials or matrices or something else we can think of some think of the vectors as column vectors column vectors living in our n where n is the dimension of the Subspace cuz that means that if I did indeed have a three-dimensional Subspace of our stuff and I fix a basis that three dimensional Subspace well by definition of Dimension, that means that any basis I choose will have ": [
+            213.5,
+            236.5,
+            8
+        ],
+        "punishment, so, you know figures to figure something out and tell me what you think. It's going to be. It might be punished. But if you stay quiet, we've been jumping jacks in here before remember. Okay, so somebody raise their hand and tell me what size it is size 2y. There's two basis vectors and still we need to. Coefficients to combine them, that's right. Okay, so this is ": [
+            913.5,
+            945.7,
+            33
+        ],
+        "quite computational at the moment. What is a determinant we've already encountered determinant in the to buy to settings. So if we have a 2 by 2 Matrix ABCD? We discovered that if you wanted to. Do row reduction on that and find a reduced row Echelon form of that a generically right with generic a b c and d there you can do it if you're super careful, but ": [
+            1688.0,
+            1718.5,
+            59
+        ],
+        "remove one row in one column. I'm left with a matrix of one size smaller. And in order to calculate the cofactor, I need to know how to compute the determinant of that Matrix. That's what it's defined to be. So you don't know how to compute 6 by 6 to Terminal C at well, actually now you do because of the next slide. So here is a definition of ": [
+            2249.6,
+            2272.6,
+            80
+        ],
+        "row. Okay, if I do that then I'll see the determinant of the Matrix is equal to 0 times some sub determinant some some cofactor 0 times right explicitly this time as well first design pattern is plus minus plus so we get a Plus One X the determinants of the stuff after I delete the first row and the third the first column in the first row. So there's ": [
+            2601.3,
+            2631.2,
+            92
+        ],
+        "saw in the two by two case was that a two-by-two matrix a is invertible. If and only if that quantity the determinants of a a D minus b c is non-zero that's really where the term determinants comes from because it determines whether the Matrix is invertible. That's where it first arose in that case. We have this formula. That's where the universe will you do is you / ": [
+            1768.8,
+            1793.7,
+            62
+        ],
+        "sign pattern Matrix here. So what I'm Computing these things so there's the beginning you should always write this down to have a 3 by 3 Matrix. I write down the spine pattern Matrix next to it, which is just I put chess board pattern of pluses and minuses on it always starting with a plus in the upper left-hand corner. and then for the 2-1 cofactor If I look ": [
+            2106.7,
+            2128.8,
+            75
+        ],
+        "slide. The determinant 80 - PC it determines whether a matrix is invertible or not. And it has a simple formula for hire size matrices. There is a thing called the determinant. It is Tom polynomial function of the entries you get it by combining the entries with products and sums and minus signs in some particular way that has the same property that it determine whether the Matrix is ": [
+            1999.7,
+            2026.4,
+            71
+        ],
+        "slot i - 2 in the second base is Victor slot on a watch. So if I fix the standard basis of polynomials, then those three polynomials there are just these three column vectors. Those are their coordinate vectors. If I give you three coordinate vectors in R3 and I want to establish that they form a basis for R3. How do I check that? Well, I need to establish ": [
+            1461.4,
+            1490.6,
+            50
+        ],
+        "slot. Now what about X - 1 squared? Well now I'm going to need to use some polynomial algebra Chelsea over here when we did this actually last day. So I'll do it again. So X - 1 squared is x squared minus 2x minus and plus. So that's already presented now as a linear combination of the standard basis vectors. It's got a one in the first place inspector ": [
+            1431.2,
+            1461.4,
+            49
+        ],
+        "so this is the two one cofactor. So I look in the 2-1 position which is a minus sign. So I have 2 * -1 they're so that's the first term then I add to it four times to to cofactor. Okay, well to see 2 to class after means I delete the first the second row and the second column from The Matrix so that leaves me with. the ": [
+            2424.6,
+            2448.3,
+            86
+        ],
+        "so what those things tell us right. There is that the third column is equal to 2 times the first + 1 * 2 So that is to say luscious verify that. If I take two times the first 1 0 1 + 1 x II e-310 I get 2 + 3 which is 5/0 + 1 + 1 + 2 + 0 which is to what that says? Is ": [
+            1019.4,
+            1050.8,
+            36
+        ],
+        "space any finite dimensional Vector space as RN for some men want to fix a basis. Do you have a coordinate Transformations? And you can always think of any Vector space as RN use the tools we developed throughout this course to answer any question about the only caveat is you have to keep in mind what basis you using and be consistent about it because if you change the ": [
+            1571.5,
+            1592.7,
+            54
+        ],
+        "squared I claimed that those three polynomials form a basis for P2. Pitu remember is the vector space of polynomials of degree at most 2. So I want to show that there a basis now and this one thing I can do is work right from the definition and established that those three polynomials 1 X - 1 + x - 1 squared are linearly independent and span all of ": [
+            1297.6,
+            1323.3,
+            44
+        ],
+        "that nonzero number. And well for a two by two you swap the diagonal entries and negate the off diagonal entries. So that's where the terminals came from for us. But that's specific to the to buy to setting OK. I want to point out a couple of things that are computationally troubling already or 1 this conversation with trouble even in the two by two setting and another that's ": [
+            1793.7,
+            1826.2,
+            63
+        ],
+        "that the Matrix is invertible one way or another that's what I need to check. So what I need to do is row reduction to find a row Echelon form for this Matrix. How many steps do I need to do here? Not this Matrix is already in row Echelon form and we see the leading ones. Are in all three columns and all three rows. Therefore this is a ": [
+            1517.4,
+            1543.5,
+            52
+        ],
+        "that the X1 next to hear. Those are two and one. Okay. Those are the coordinates of the point 5 1/2 that's a coordinate Vector of the of the vector v 1/2 in the basis that we exhibited of the column space. How about 310 what are its coordinates in the basis Peak? any sauce Yes. 01 exactly. Do you want to express the basis Vector B2? In terms of ": [
+            1050.8,
+            1093.3,
+            37
+        ],
+        "that there a spanning set for our three Amino that means That I should look at the Matrix with those columns. But I need to check if it's a Spanish that I need to check that all the roads are pivotal. I also need it to be a linearly independent set which means you need to check that all the columns are pivotal. In other words, I need to check ": [
+            1490.6,
+            1517.4,
+            51
+        ],
+        "that you can choose is the coordinate transformation. You just need two numbers to describe any element of the vector space. Therefore, it looks like R2. fill around with a specific example here to cement all of the stuff we've been doing Have 3 by 3 Matrix, so it's column space and it's null space are both subspaces of R3 in this case. I know I've already asked Matlab to ": [
+            754.5,
+            785.9,
+            28
+        ],
+        "that's written there? It's not just a linear transformation. It's also got all the nice properties that we would want. It is one-to-one and it is onto. Okay, so remember 1 to 1 means that? Looking at a particular column Vector x14 X9 on the right hand side. There's exactly one thing on the left hand side that it comes from but that's just the observations. It's written right down ": [
+            577.8,
+            603.1,
+            22
+        ],
+        "that, you'll see that you can do it by solving some linear equations. That's what's going to be the we don't need to fuss around we can do it systematically instead by saying hey first Fix the bassist. Let's fix the so-called standard basis. 1 x x squared 4 P2 It was called the spaces be. Know what I'm going to do is I'm going to calculate the coordinate vectors ": [
+            1345.1,
+            1378.0,
+            46
+        ],
+        "the Basis B1 and B2. Well one way you can do it is the 0 * 31 + 1 * be too but we know that the views from a basis. So once we have a right to us there so in fact the coordinates of the J In the basis B. Are the standard basis vectors? Okay, so that is D3 is 78 a polynomial of degree 321. Okay, ": [
+            1093.3,
+            1139.7,
+            38
+        ],
+        "the Matrix 1-0 2-1 I know I have written the determinants of this 3 by 3 Matrix as a combination of determinants of two by two matrices and I already know how to compute determinant of 2 by 2 matrices. So let's go ahead and work until out to this is -5 times the determinant of fist first Square Matrix over here okay with that I get by multiplying with ": [
+            2485.6,
+            2511.0,
+            88
+        ],
+        "the determinant so I give you a matrix a there's a general looking Square Matrix day. The determinants of that Matrix is defined by the following thing you pick any road you want. Fix the first row js1 fix the seventh row js7 you compute the co-factors along all entries in that row. You multiply them by the entry in that row. And you add those up and that's the ": [
+            2272.6,
+            2304.0,
+            81
+        ],
+        "the determinants are easy to compute if your Matrix is triangular the determinant is just the product of the diagonal entries one calculation. And that's going to be useful to us will continue with that next Wednesday. Have a good loan. ": [
+            3110.2,
+            3124.2,
+            111
+        ],
+        "the midterm. Well, actually it might because there's a better way to compute determinants which will get to next time. But before we get there, let me highlight at least one nice feature. Which is everything I just said is is generic if the Matrix has generic entries, like if I give you a random Matrix if I produce the entries randomly, then they're never going to be zero. Okay, ": [
+            2810.5,
+            2835.1,
+            100
+        ],
+        "the oldest car lots about that in ways that you can try to counter it. Is the weather going to be in a few minutes? It's also for the two by two case. It's easy to compute determinant in the 3 by 3 case. It is possible to write down a formula that you may have seen before that's involves, you know, just the Matrix and trees you have to ": [
+            1935.0,
+            1954.8,
+            68
+        ],
+        "the point is go back and forth. So there's a fancy word for such money or Transformations a linear transformation. That is both one-to-one and onto is called an isomorphism. Your textbook does use this word. Don't be scared by it. It just means well, it's from Greek. So morphed means form and ISO means same. So this means the two things on the two sides of the function have ": [
+            666.0,
+            701.7,
+            25
+        ],
+        "the same form what it means is that they look the same. Okay, if you squint you can't tell them apart. The coordinate transformation is an isomorphism between the vector space you start with an R N where n is the dimension of the space. It tells you in a precise mathematical way. If I have an n-dimensional Subspace, it looks like RN. Just like when we started talking about ": [
+            701.7,
+            730.3,
+            26
+        ],
+        "these things and span maid if you had the intuition, okay, so this this Matrix here, it's got a basis for its column space of only two vectors. Does that mean that they span R2? No, it doesn't even make sense. Cuz the Matrix actually had columns in R7, but the span of those vectors looks like R2. It is isomorphic to our to enter the isomorphism or an isomorphism ": [
+            730.3,
+            754.5,
+            27
+        ],
+        "three vectors in it. So I fixed a basis of three vectors and that means that every veteran the Subspace will be uniquely expressible his thumb linear combination of those three vectors. So I take those coefficients in the linear combination write them in a column Vector in R 3, and that tells me where the vector is. Maybe I should write that down. The arrow here is actually the ": [
+            236.5,
+            259.9,
+            9
+        ],
+        "to compute any 3 by 3 determinant using the cofactor expansion that requires you to be able to compute to buy two determinants. But now you also know how to compute any 4 by 4 to turn because if you do a four-by-four determinant what's going to happen is you're going to do a choose a row or column you going to expand along it and you're going to get ": [
+            2690.1,
+            2709.5,
+            95
+        ],
+        "to compute determinants. Why is that? Well, let's let's analyze what I just said. So if I have a generic 4 by 4 Matrix You're going to choose a roller column. So there's four entries in the open in a row and you're going to have to add up. For three by three determinants now, it's one of those issues Aurora column that has three entries and the cofactor expansion ": [
+            2737.3,
+            2761.7,
+            97
+        ],
+        "to show you what it is right now and it's not fancy. It's just routine. You just need to know how to do it. So let's let's do a specific. But here is a 3 by 3 Matrix and I'm going to tell you how to compute some of the co-factors of this Matrix. So we're going to compute c214 this Matrix the 2-1 cofactor. What is that mean? What ": [
+            2048.0,
+            2071.2,
+            73
+        ],
+        "transformation T from the column space of a onto R2? is an isomorphism coordinate Vector tells us how to view the column space Hazard to is not equal to our to but it is isomorphic to are too because there are exactly two linearly independent vectors in Spanish. All right, let's do one more example before we move on. I should say here. Why do we care that this thing ": [
+            1169.8,
+            1209.5,
+            40
+        ],
+        "vector and I want to figure out what its coordinates are. Hey, so you can do that with ad hoc. Methods will see that in a few examples here. You just have to figure out some way to express it in front of the basis vectors in once you figured out some way, you know, since it's a basis that's the unique way of there are the coordinates right in ": [
+            318.6,
+            335.0,
+            12
+        ],
+        "vectors which are the coordinates vectors of those polynomials are linearly independent that tells you that the original polynomial vectors are linearly independent, which means that you can avoid all the confusion you might have. So let's use that the same applies the spanning set. So let's use that to establish the following fact qr3 polynomials of degree less than or equal to 2x - 1 + x - 1 ": [
+            1264.4,
+            1297.6,
+            43
+        ],
+        "we found it at some point in the calculation. We did this in this room at some point of the calculation this quantity 80 - Beastie comes up. It comes up in one of the spots that you hope is going to be pivotal. So you would have to divide subbaiah to continue the row reduction and if it's zero, then something different happened. So that quantity we call the ": [
+            1718.5,
+            1737.3,
+            60
+        ],
+        "we're very very unlikely that any entry is going to be zero. But in the actual example, we just worked with and in this example here. I kind of the entries are zero. And so if we are clever if we are judicious about which row or column We Stand along will save a lot of time does here is a 5 by 5 Matrix. It could take up to ": [
+            2835.1,
+            2857.2,
+            101
+        ],
+        "your face. Okay, but if we're in the case, where were talking about column vectors already or are seven or whatever? Then we know what we need to do here because that's a vector equation V is equal to unknown coefficients linearly combining the bees which are known we want to stall for the X's there. That's a vector equation. That's the sort of thing. We've been doing since day ": [
+            335.0,
+            360.4,
+            13
+        ]
+    },
+    "File Name": "Linear_Algebra___B00___Kemp__Todd_Aahron___Winter_2018-lecture_17.flac",
+    "Full Transcript": "On Wednesday evening. Today. We are going to finish the discussion of section 4.4 that we got through most of last day and move on to chapter 3 chapter 3 is about determinants and general. We're going to spend the rest of today's lecture and all of Wednesday's lecture next week on the Terminus before we move on to chapter five eigenvalues. So just so you have a horizon there for what you should be reading it had about So let's begin.  And let's continue.  With a reminder of what we did in the last 20 minutes of last days lecture. We talked about coordinate. So what's so great about a basis if I have a Subspace of an abstract Vector space and it could be a Subspace of some other Vector space. I just have a vector space.  then if I have a bassist for it some basis vectors B1 B2 up to be and I'll call that basis script EB Capital be if I have a basis for it, then what's so great about that among other things is it allows us to give an address to every point in the Subspace independent of whatever description you have of the vector space like it could be some abstract face of polynomial or it could be a Subspace in R7 but of Dimension 3 and so it's kind of inefficiency describe elements of that Subspace using 7 numbers because since it's a three-dimensional Subspace, you should really only need three numbers to describe elements of that Subspace and that's what coordinates do for you so because it's a bassist  Every Vector in the space can be represented as a linear combination of the basis vectors. That's because of the basis of this painting set, but that's nearly Independence. And we saw last time what that means is that the representation that you get expanding that Vector in terms of a suspect is any veteran the space can be written the uniquely as a linear combination of the basis vectors has a unique set of coordinates x 1 x 2 of 2 x whatever it is is expressed as x1d OnePlus X to be two-plus up to xnvn.  So just like we did in the first lecture where we had a bunch of x's hanging around in some equations and we decided to simplify notation by getting rid of the exes and just writing a matrix of coefficient we can do the same thing here. Once we have a basis in mind. We have our Subspace. We have fixed the bases. I'm going to use it to describe all the vectors in the Subspace. I do so by dropping the bees. I just right in the X's and O's axons are called the coordinates of the vector in question has a coordinate Vector which is a kind of we've been setting for most of this class will denote it like like this over here.  We put square brackets around the vector v with a sub be indicating that these are the coordinates of the bases be keeping in mind that if we were to change bases in use a different basis, we would get a different coordinate Vector the coordinates depend on what basis we choose.  Representation of our Subspace as column vectors, even if it's some abstract space of polynomials or matrices or something else we can think of some think of the vectors as column vectors column vectors living in our n where n is the dimension of the Subspace cuz that means that if I did indeed have a three-dimensional Subspace of our stuff and I fix a basis that three dimensional Subspace well by definition of Dimension, that means that any basis I choose will have three vectors in it. So I fixed a basis of three vectors and that means that every veteran the Subspace will be uniquely expressible his thumb linear combination of those three vectors. So I take those coefficients in the linear combination write them in a column Vector in R 3, and that tells me where the vector is. Maybe I should write that down.  The arrow here is actually the hard Direction.  If I tell you.  Set the coordinates of a particular vector.  in terms of a basis br1 7 - 3  if I tell you what its coordinates are in terms of a particular basis.  What that means is that the vector is Just One X. The first base is Spectre + 7 times the second base inspector - 3 * the third base inspector. This is a special case where and is equal to 3 bytes in a basis will have three elements. If I tell you what this is and I tell you the coordinates of a vector to tell you what to report to me what that factor is used those coordinates to Lydia Lee combine. The typically harder thing to do is to go the way that's written there. Isn't it? Like I've got some vector and I want to figure out what its coordinates are.  Hey, so you can do that with ad hoc. Methods will see that in a few examples here. You just have to figure out some way to express it in front of the basis vectors in once you figured out some way, you know, since it's a basis that's the unique way of there are the coordinates right in your face. Okay, but if we're in the case, where were talking about column vectors already or are seven or whatever?  Then we know what we need to do here because that's a vector equation V is equal to unknown coefficients linearly combining the bees which are known we want to stall for the X's there. That's a vector equation. That's the sort of thing. We've been doing since day one and we need to use row reduction and find what the ex's are. And the point is that because the bees are linearly independent. There will be a unique Solution. That's why we're called coordinates.  But it's a very simple idea. We just if I've got a Subspace this dimension for then I only need four numbers to describe all the factors in it. So let's just use those four numbers keeping in mind that which phone number is depends on the basis that we have hiding in the background that we need to keep consistent now once we do that if I fix the basis that this actually gives me a function space V and I take any Vector in there. I can compute its coordinates so associated.  Vector space V and as the domain and the codomain is are in the dimension of the space.  And the great thing about this function that it's the kind that we know how to analyze in this course. It's a linear transformation. I'm not going to prove that because it's mind-numbingly boring and to do what we need to do. If we want to prove it is a linear transformation is proved T of Z + W is equal to T A V plus DFW the T respected Auntie respect scalar multiplication so we can verify that directly but all that is doing for us again is you know, realizing that on either side of of tea in the metric base or an RN.  Addition and scalar multiplication work the way they're supposed to work rights that you get that if I want to add up to call investors that just means that I add them component wise and if I want to have two vectors on the left hand side if I had them both in terms of B, then I just add up the coefficients of granite transformation.  but it's not just any old linear transformation, but I want to make a comment about it first, which is  So when we studied linear Transformations, we said linear Transformations are the same as Matrix Transformations. So you're saying Okay, so this has a matrix not so fast because before when we talked about linear transformation, we were talking about linear Transformations from our $3 7 from RN to RM.  When you're talking about linear Transformations between two Vector spaces that are already presented as column Vector spaces then yes, I really need a transformation is a matrix transformation. But if he there is p to the vector space of polynomials of degree less than or equal to 2.  It doesn't even make sense to ask for a matrix 44 the coordinate transformation cuz the domain is not a space of columns. We wouldn't even know how to multiply the things by matrix. Okay, so it's slightly misleading to say that every linear transformation has a matrix every linear transformation from RN to RM has the Matrix linear transformations in general doesn't even make sense to say they have a matrix unless you present your vector space as a space of columns, which you can do using the coordinates for me, but that's going to depend on which basis you choose to fight beside here. What is great though, is that this linear transformation in the coordinate transformation the one that's written there?  It's not just a linear transformation. It's also got all the nice properties that we would want. It is one-to-one and it is onto.  Okay, so remember 1 to 1 means that?  Looking at a particular column Vector x14 X9 on the right hand side. There's exactly one thing on the left hand side that it comes from but that's just the observations. It's written right down here. If I tell you the exes, you can recover the the vector immediately and it's also on to  Meaning that every Vector in RN is hit by this transformation. And again, that's the same observation this down here, which is I want to know if the vector 1 7-3 is in the range of this linear transformation. Yeah it is because I could use this is a one-to-one and onto linear transformation if it had a matrix, it would have an invertible Matrix that bit standard Matrix the same as a convertible. It's an invertible function. I can go back and forth. That's kind of the point of coordinates, right? I should be able to tell you what the coordinates of any point is and if I tell you the coordinates you should be able to tell me where the point is go back and forth.  So there's a fancy word for such money or Transformations a linear transformation. That is both one-to-one and onto is called an isomorphism.  Your textbook does use this word.  Don't be scared by it.  It just means well, it's from Greek. So morphed means form and ISO means same. So this means the two things on the two sides of the function have the same form what it means is that they look the same.  Okay, if you squint you can't tell them apart.  The coordinate transformation is an isomorphism between the vector space you start with an R N where n is the dimension of the space. It tells you in a precise mathematical way. If I have an n-dimensional Subspace, it looks like RN.  Just like when we started talking about these things and span maid if you had the intuition, okay, so this this Matrix here, it's got a basis for its column space of only two vectors. Does that mean that they span R2? No, it doesn't even make sense. Cuz the Matrix actually had columns in R7, but the span of those vectors looks like R2. It is isomorphic to our to enter the isomorphism or an isomorphism that you can choose is the coordinate transformation. You just need two numbers to describe any element of the vector space. Therefore, it looks like R2.  fill around with a specific example here to cement all of the stuff we've been doing  Have 3 by 3 Matrix, so it's column space and it's null space are both subspaces of R3 in this case.  I know I've already asked Matlab to do the row reduction for us to save some time. So here's the reduced row Echelon form is that Matrix?  So let's write down.  A basis for the column space, where am I going to find a basis for the column space?  Play a hand summary.  Yeah, yes.  Heaven Cox, okay, which of the Pinnacles?  First and second columns in which of the two messages written here.  Very good the first one okay the first and second Columns of the reduced row Echelon form contain pivotal ones that tells you that the first and second Columns of the original Matrix and they form a basis. So let's rewrite those over here 101 + 310  And that's called on B1 and B2.  Okay, so the column space of a is stand by those two vectors. So now let me call that basis be it's written there. So let's write down the coordinate Vector of some other vectors that are in that space. So for example, the vector 5 1/2  say say is in the column Space by definition. All the columns are in the column space their stand for themselves. So they're in the column space, space is standby. Just the first two factors that is going to be so what I want to do is figure out what is the coordinate Vector of this column Vector 5 1/2 in terms of that basis before we figure it out. I want you to tell me what size Spectre this thing is.  Can you call him doctor of what height?  Somebody from this side of the room, please.  You know if you get it wrong, and it don't say nothing to any punishment, so, you know figures to figure something out and tell me what you think. It's going to be.  It might be punished. But if you stay quiet, we've been jumping jacks in here before remember.  Okay, so somebody raise their hand and tell me what size it is size 2y.  There's two basis vectors and still we need to.  Coefficients to combine them, that's right. Okay, so this is going to be actor.  in our two  Okay, I know what sector is it? Well the way we figure that out, right? What does this say? This this says literally we have to solve the equation 512 is equal to x 1 x the first basis Vector 101 + X2 X II by suspect r310.  We know how to solve Matrix equations like that. We write down the augmented Matrix Associated to it.  101  310  and 512 but hey, look, that's the Matrix a  I didn't remember that the reduced row Echelon form of the Matrix a it tells us how to express the non-committal column as linear combinations of the pivotal ones. I'm so this.  this coefficient to here  and this coefficients one here, they match up with.  leading ones  the leading ones in the two basis vectors. And so what those things tell us right. There is that the third column is equal to 2 times the first + 1 * 2  So that is to say luscious verify that.  If I take two times the first 1 0 1 + 1 x II e-310 I get 2 + 3 which is 5/0 + 1 + 1 + 2 + 0 which is to what that says? Is that the X1 next to hear. Those are two and one.  Okay. Those are the coordinates of the point 5 1/2 that's a coordinate Vector of the of the vector v 1/2 in the basis that we exhibited of the column space. How about  310  what are its coordinates in the basis Peak?  any sauce  Yes.  01 exactly. Do you want to express the basis Vector B2?  In terms of the Basis B1 and B2. Well one way you can do it is the 0 * 31 + 1 * be too but we know that the views from a basis. So once we have a right to us there so in fact  the coordinates of the J  In the basis B.  Are the standard basis vectors?  Okay, so that is  D3  is 78 a polynomial of degree 321. Okay, but whatever. It is in terms of the bassist.  It's going to be.  Represented by the vector with a 1 in the third position of zeros everywhere else.  Okay, where the number of elements there is going to be. The number of the number of components is going to be the number of a suspect arrested dimension of the space.  So is this example here anyway?  Is that the coordinate transformation T from the column space of a onto R2?  is an isomorphism  coordinate Vector tells us how to view the column space Hazard to is not equal to our to but it is isomorphic to are too because there are exactly two linearly independent vectors in Spanish.  All right, let's do one more example before we move on.  I should say here.  Why do we care that this thing is an isomorphism I'm saying it shows that have the same form great, but that really means something specific.  It means that if I want to establish properties of a collection of vectors, I can look at the images of those vectors under the isomorphism and establish the properties there and it'll work on either side. So if I have a set of vectors, maybe they're outside factors like polynomials.  And I want to answer the question. Are they linearly independent?  Okay, if I fix a basis and use the coordinate transformation for that basis to view those polynomials as column vectors.  Then I have tools that we have developed in this course to answer whether those column vectors are linearly independent.  And the point is that an isomorphism preserves linear Independence. So if you figure out that the column vectors which are the coordinates vectors of those polynomials are linearly independent that tells you that the original polynomial vectors are linearly independent, which means that you can avoid all the confusion you might have.  So let's use that the same applies the spanning set. So let's use that to establish the following fact qr3 polynomials of degree less than or equal to 2x - 1 + x - 1 squared  I claimed that those three polynomials form a basis for P2.  Pitu remember is the vector space of polynomials of degree at most 2.  So I want to show that there a basis now and this one thing I can do is work right from the definition and established that those three polynomials 1 X - 1 + x - 1 squared are linearly independent and span all of P2. So I need to establish that are linearly independent. That's actually not going to be that hard to do directly. But I also need to establish that every polynomial of degree to like for example, x squared minus 7x + 21. I need to be able to write that as a linear combination of these three now, if you start fussing around trying to figure out how to do that, you'll see that you can do it by solving some linear equations. That's what's going to be the we don't need to fuss around we can do it systematically instead by saying hey first  Fix the bassist. Let's fix the so-called standard basis.  1 x x squared  4 P2  It was called the spaces be.  Know what I'm going to do is I'm going to calculate the coordinate vectors of the polynomials were actually interested in in terms of that bassist for the polynomial one.  Cancel that basis. Well, it's the first basis Vector in be so by what we said on the last fly. That's just going to give us 1001 is 1 * 1 + 0 * x - that is is 1 * 1 + 0 * x + 0 times x squared.  Okay. Now what about the second phase of the second Vector in that list X - 1  I need to expand that in terms of the bassist One X x squared x minus one is already presented as X which is the second base inspector - 1 which is the first base is Factor. So that means that we get a minus one in the first lots and I won in the second slot.  Now what about X - 1 squared?  Well now I'm going to need to use some polynomial algebra Chelsea over here when we did this actually last day. So I'll do it again. So X - 1 squared is x squared minus 2x minus and plus.  So that's already presented now as a linear combination of the standard basis vectors. It's got a one in the first place inspector slot i - 2 in the second base is Victor slot on a watch.  So if I fix the standard basis of polynomials, then those three polynomials there are just these three column vectors. Those are their coordinate vectors.  If I give you three coordinate vectors in R3 and I want to establish that they form a basis for R3. How do I check that?  Well, I need to establish that there a spanning set for our three Amino that means  That I should look at the Matrix with those columns.  But I need to check if it's a Spanish that I need to check that all the roads are pivotal. I also need it to be a linearly independent set which means you need to check that all the columns are pivotal.  In other words, I need to check that the Matrix is invertible one way or another that's what I need to check. So what I need to do is row reduction to find a row Echelon form for this Matrix. How many steps do I need to do here?  Not this Matrix is already in row Echelon form and we see the leading ones.  Are in all three columns and all three rows.  Therefore this is a bassist.  Isodose three column vectors form a basis for R3 and because the coordinate transformation is an isomorphism IT preserves all the properties of vector spaces. It follows that the vectors themselves One X -1 x -1 squared r a basis for that space P2  That's how you can use coordinate transformations to make sure that you never have to deal with the abstraction. You can always view any Vector space any finite dimensional Vector space as RN for some men want to fix a basis. Do you have a coordinate Transformations? And you can always think of any Vector space as RN use the tools we developed throughout this course to answer any question about the only caveat is you have to keep in mind what basis you using and be consistent about it because if you change the basis the coordinate representation will change and if you mix them not you can run into trouble. There is a systematic way to faces II 4.7 in the textbook. We're not going to do that in this course, if you go on and future linear algebra courses, or if you go on in a computer vision course or it in several kinds of Statistics courses, you will need to understand change of basis Matrix and you will learn it then  Okay, it's a little tricky but it can be handled systematically, but regardless as long as you stay fixed in one bases the whole time you're fine.  Okay, so that's I think everything that I wanted to say about the coordinate transformation and coordinate vectors and hopefully this gives you some hope that if you have been confused about abstract Vector spaces as long as you can convince yourself that you can find a basis of that Vector space then the confusion should all go away because you'll just need to work in RN once you translate to the coordinate vectors.  So that is the end of chapter 4 as we're covering it and now I'd like to go on to chapter 3.  All right chapter 3 is a very different flavor from the rest of the book.  In fact chapter 3 doesn't isn't really linear algebra.  Determinants are not really linear algebra determinants are multilinear algebra, and we'll discuss what that means next day a little bit.  But for now, this is going to be a far far more concrete than anything. We've been doing since the first or second lecture. We're going to be doing something that's just quite computational at the moment.  What is a determinant we've already encountered determinant in the to buy to settings. So if we have a 2 by 2 Matrix ABCD?  We discovered that if you wanted to.  Do row reduction on that and find a reduced row Echelon form of that a generically right with generic a b c and d there you can do it if you're super careful, but we found it at some point in the calculation. We did this in this room at some point of the calculation this quantity 80 - Beastie comes up. It comes up in one of the spots that you hope is going to be pivotal.  So you would have to divide subbaiah to continue the row reduction and if it's zero, then something different happened. So that quantity we call the determinant cuz that quite the terminant of a two-by-two matrix and the general notation for this is a absolute value of the Matrix a you shouldn't pronounce it. That way you shouldn't think of it that way. It's not an absolute value. In fact, it's often negative. Okay, but that notation is useful when your Computing lots of determinants. It's easier to write 2 bars then Det.  And what we saw in the two by two case was that a two-by-two matrix a is invertible. If and only if that quantity the determinants of a a D minus b c is non-zero that's really where the term determinants comes from because it determines whether the Matrix is invertible. That's where it first arose in that case. We have this formula.  That's where the universe will you do is you / that nonzero number.  And well for a two by two you swap the diagonal entries and negate the off diagonal entries.  So that's where the terminals came from for us.  But that's specific to the to buy to setting OK. I want to point out a couple of things that are computationally troubling already or 1 this conversation with trouble even in the two by two setting and another that's more General as we go forward. So that number there a D minus BC that might be zero in which case The Matrix is not invertible.  The Matrix is invertible. If and only if that number is non-zero if your if you've got some Matrix that comes up it from some statistical application that you're working on.  And you would like to invert that Matrix you calculate determinant you find a determinant is 2.007.  That's a really small number. That means that it's not zero, but if you invert if you take its reciprocal, okay, it's going to be a number with 8 zeros in it. It's a huge number. The inverse is going to be a big huge entries. And here's the thing in a real world application. You might not know the answer is a matrix Beyond five or six digits of accuracy. So if the determinant is .007, but you actually were off by 1% in one of the entries that maybe the actual determine was 0 or maybe it was .03, right? I mean the amount of error in your entries if you have a real-world situation might be much larger than the calculation you get for the determinant.  When determinants are small system of equations is numerically unstable small perturbations in the coefficients of the Matrix can drastically change what the universe looks like or whether or not exist. So that's one problem with determinants right now. If you're going to divide by a number it might be really none of it really small and in numerical applications that can prevent real problems. If you go on and take a course in numerical linear algebra, the oldest car lots about that in ways that you can try to counter it.  Is the weather going to be in a few minutes? It's also for the two by two case. It's easy to compute determinant in the 3 by 3 case. It is possible to write down a formula that you may have seen before that's involves, you know, just the Matrix and trees you have to add up six terms. You can reduce it to kind of too complicated looking terms. I'm not going to write that for me like here because if you try to do it for four by four, there's no reasonable formula and as the size of the Matrix grows actually Computing the determinants from the definition. We're going to see in a second becomes computationally infeasible quickly.  Okay, so we'll get around that by the end of this lecture or early next lecture. But keep that in mind as we go with it the definition. I'm about to give you for the determinant. It defines what it is, but it quickly becomes computationally infeasible to actually use it.  So this is the top of the slide just summarize whatever it was said about to buy to determine us on the last slide.  The determinant 80 - PC it determines whether a matrix is invertible or not. And it has a simple formula for hire size matrices. There is a thing called the determinant. It is Tom polynomial function of the entries you get it by combining the entries with products and sums and minus signs in some particular way that has the same property that it determine whether the Matrix is invertible or not for a two-point End by a square Matrix, but in general there isn't a formula for it that is nice and easy to compute instead. I'm going to give you a recursive way to compute the way your text defines. The determinant is a standard way to define determinant and it's a recursive method that involves something called the cofactor expansion which sounds fancy but I'm going to show you what it is right now and it's not fancy. It's just routine. You just need to know how to do it. So let's let's do a specific.  But here is a 3 by 3 Matrix and I'm going to tell you how to compute some of the co-factors of this Matrix. So we're going to compute c214 this Matrix the 2-1 cofactor. What is that mean?  What it means is that I take the second row. That was the first take the second row.  and the first column  and I ignore them.  Take a second row in the First Column and ignore them. I'm left.  With these entries down here.  And the 2-1 cofactor is the determinant of that thing that's left.  Almost there is one wrinkle, which is that I also have to look in this sign pattern Matrix here. So what I'm Computing these things so there's the beginning you should always write this down to have a 3 by 3 Matrix. I write down the spine pattern Matrix next to it, which is just I put chess board pattern of pluses and minuses on it always starting with a plus in the upper left-hand corner.  and then for the 2-1 cofactor  If I look at where those two intersected, which was there, then I look at that sign and that's fine in the sign pattern is a negative. So I put a negative there and that's the definition of the 2-1 cofactor now noticed that it requires us to calculate the determinant. But if the determinant of one size lower, so in a moment, I'm going to show you how to compute the determinant of a 3 by 3 Matrix.  Doing so requires that you already know how to compute the determinant of a 2 by 2 Matrix which we do question.  The first row you're right. What I just did here was at C12. So let's change that.  This is the C12 the cofactor C12 C12 means like with Matrix notation. The first number tells you the Row II number tells you the column. So the first row and the second column there.  Now we know how to calculate to buy two terminals. So let's do that here. So this is -4 * 9  -7 * 6  Okay. So 4 * 9 is 36 and 7 * 6 is 42.  So when I get here is 6 so that is the one to cofactor of this maker.  Are you now know how to do all co-factors I could do the three three cofactor here, which just means that I ignore the third row and the third column that would leave me just the upper. We're here 1245 * a + fine cuz that's in the three.  Okay, so determining or calculating the co-factors of a 7 by 7 Matrix requires that you know how to compute 6 by 6 determinants.  But I I remove one row in one column. I'm left with a matrix of one size smaller.  And in order to calculate the cofactor, I need to know how to compute the determinant of that Matrix. That's what it's defined to be.  So you don't know how to compute 6 by 6 to Terminal C at well, actually now you do because of the next slide.  So here is a definition of the determinant so I give you a matrix a there's a general looking Square Matrix day.  The determinants of that Matrix is defined by the following thing you pick any road you want.  Fix the first row js1 fix the seventh row js7 you compute the co-factors along all entries in that row.  You multiply them by the entry in that row.  And you add those up and that's the determinant. Okay, you pick any column that you want and you calculate the co-factors along that column and add them up X the entries in that column and that will give you the same number. This is a bizarre definition because it's got a huge amount of freedom in it. I'm telling you pick any road. You want to call me want and go on down the line and you'll get the same answer which is quite remarkable just to demonstrate what this means now, let's go let's do this in so generality in this example here. So here's a 3 by 3 Matrix.  So I'm going to pick some row or some column to expand a long. I'm going to pick the second column to expand the wall.  Queso fresco write down with this formula status in that context. It says of the determinants of this Matrix a  is so I'm using the second column.  So I have to take C1 to C2 to and C32.  And add them up X the entries a 1/2.  A 2-2 and a 3-2.  That is to say the entries are five.  4 + -2 x those co-factors, so I need to figure out what those co-factors are.  It's a what are the co-factors here? Well, so for that first one C12, that's what we did on the last fly. So now I'm going to delete the first row as well.  And that's going to give me here five times the determinant.  Of that to buy two thing that's left to 0-1 0 but remember there's one more piece of information we need for the cofactor, which is this sign pattern Matrix.  I'm so this is the two one cofactor. So I look in the 2-1 position which is a minus sign. So I have 2 * -1 they're so that's the first term then I add to it four times to to cofactor.  Okay, well to see 2 to class after means I delete the first the second row and the second column from The Matrix so that leaves me with.  the determinants  of 1000 * a sign but in this case it's the two to sign which is Plus.  and then finally, I have to add -2 that's the entry in the 3-2 position of the Matrix X of sign which is the Maya minus sign and a 3-2 position of the sign X the determinants of what's left when I delete the  third row and second column that gives me the Matrix 1-0 2-1  I know I have written the determinants of this 3 by 3 Matrix as a combination of determinants of two by two matrices and I already know how to compute determinant of 2 by 2 matrices. So let's go ahead and work until out to this is -5 times the determinant of fist first Square Matrix over here okay with that I get by multiplying with diagonal in NC diagonal entries, but there's zero is in both of those so that one gives me a zero.  and similarly  is this determinant there zeros in both places. So for that one I get + 4 * 0  And for the last one down here, I got a 0 in one place. So I get 1 * -1 - 0 * 2 so that one's nonzero. It gives me a minus one. So I get - 2 * -1 x -1  At all together I get 0 + 0 + -2 x -1 x -1 is -2. That's the determinant.  No.  That's correct, but it was also dumb because in this procedure, I'm going to add up along any row or column. I'm telling you that I have the same answer no matter which roller. Call him. I choose to expand along.  And there's a good choice here several good choices for once to choose to stand alongside. That wasn't one of them why.  Yes.  Perfect, cuz I could have used a third row or third column which have some zeros in them immediately for us to to use to Let's rewrite the Matrix down here again. So this is 15024 - 1 + 0 - 202 last row.  Okay, if I do that then I'll see the determinant of the Matrix is equal to 0 times some sub determinant some some cofactor 0 times right explicitly this time as well first design pattern is plus minus plus so we get a Plus One X the determinants of the stuff after I delete the first row and the third the first column in the first row. So there's a 5-0 4-1 there but I didn't eat. So whatever it is, then I get + -2 x design pattern invest in that position down here is -1 times the determinant of now I have to delete the third row and the second column that leaves me with the Matrix 1-2 0-1.  And finally, I have the third entry is 0 * + 1 * the determinant of 1524, but I don't have to do most of those calculations because I get a zero immediately for each of those from the entries of the Matrix. And now the thing that I have left is actually the same conversation. I already did. It's 2 - 2 * -1 x -1 giving me reminders to same answer as before. That's the way it's going to work out.  So now, you know how to compute any 3 by 3 determinant using the cofactor expansion that requires you to be able to compute to buy two determinants. But now you also know how to compute any 4 by 4 to turn because if you do a four-by-four determinant what's going to happen is you're going to do a choose a row or column you going to expand along it and you're going to get a combination plus and minus signs time is a linear combination of four three by three determinants, but now, you know how to compute three by three determinants. So each one of those you're going to compute by extending along some roller column.  And they reduced to two by two determinants and so on Down the Line.  You now know how to compute determinants.  You should never ever do this to compute determinants.  Why is that? Well, let's let's analyze what I just said. So if I have a generic 4 by 4 Matrix  You're going to choose a roller column. So there's four entries in the open in a row and you're going to have to add up.  For three by three determinants now, it's one of those issues Aurora column that has three entries and the cofactor expansion is going to spend that as 3 to buy to determine is so far. We have to do 4 * 3 * number of calculations needs to buy to determine how many calculations in a 2 by 2 determinant just two of them. So we have to do 4 * 3 * to calculate that number's called 4 factorial 24. So doing the four-by-four determinant is going to require 24 calculations in a whole mess of writing.  How about 5 by 5? It's going to take 5 * 4 * 3 * 2 which is 120 calculations to do a 5 by 5 to terminate. How about a 10 by 10 matrix?  10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 210 factorial which is over 10 million that will not be on the midterm.  Well, actually it might because there's a better way to compute determinants which will get to next time. But before we get there, let me highlight at least one nice feature.  Which is everything I just said is is generic if the Matrix has generic entries, like if I give you a random Matrix if I produce the entries randomly, then they're never going to be zero. Okay, we're very very unlikely that any entry is going to be zero.  But in the actual example, we just worked with and in this example here. I kind of the entries are zero. And so if we are clever if we are judicious about which row or column We Stand along will save a lot of time does here is a 5 by 5 Matrix. It could take up to a hundred and twenty calculations in order to compute the determinant here. But actually if I expand along the first call  Write the determinant of a here using the cofactor expansion. So I need that sign pattern The Matrix, but now I'm going to say well, I know what I think I know it well enough so that I'll know where the signs come in.  I'll get three times the determinant and now I'll use that absolute value notation. You see where it starts to be useful time. Is this part down here.  price of the determinant of that 4 by 4 Matrix 2 - 573  0150024 - 100 - 2 0  and the other five terms are all 0 so I won't even write them down.  Great. So now I need to come get this four by four determinants. And now I'll use the cofactor expansion. And again in this case is makes most sense to expand along the First Column the cofactor expansion says you can choose any roller column that works for you. So you can change which roller calling you're using an app from one step of this process to the next that's fine. In this case. It still makes no sense to use the First Column cuz it's mostly zeros there. So this one's going to be three times. Okay. Now I have a two and the same pattern says the one 1 entry is always giving a plus sign. So that's fine time is the following thing. It's the determinant of this down here, which is 15024 - 1 + 0 - 2 0  I know I don't quite have zeros everywhere. Hey, but I have there's several choices here. Well, actually there's a good choice now using the cofactor expansion. I'm going to spend a long the last call.  So I'm going to get 3 * 2 *  Okay, so the sign pattern Matrix + - + - + - + - + says that for that last call on my start with a plus sign + 0 they're the only one that contributes is the -1. So I get minus one time is this minus one time is the sub determinants X the cofactor, which is formed by.  Everything that is not colored there. So that's 1-5 0-2 that's a really easy to terminate to compute. I'm already down to two by two. So I got 3 * 2 * -1 * -1 * -2 - 0 + 3 * 2 x - 2 which is -12  so that was a lot less than 120 calculations. No.  If you review that systematically and noticed one thing so in this example hear a I had almost everything below the main diagonal zero there was only a couple entries that too and that -2 there below the nightman diagonal that work not zero if I had had zeros everywhere below the main diagonal then I could have just done the same thing. I just did but choosing the First Column every time so if I have zeros below we're just about done here if I have all zeros below the main diagonal  Everything is 0 down here. Then when I do the cofactor expansion.  If I expand along the first column.  I'm going to get only this part contributes cuz of all these zeros and then in the next phase if I choose the first column.  Same thing will happen and I'll only have to deal with this part of the Matrix and so on. So what you'll see from that is that if you have a triangular Matrix where everything is zero below the main diagonal all you're going to produce is the product of the diagonal entries. So there's one case where the determinants are easy to compute if your Matrix is triangular the determinant is just the product of the diagonal entries one calculation.  And that's going to be useful to us will continue with that next Wednesday. Have a good loan. "
+}

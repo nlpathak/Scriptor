@@ -1,0 +1,516 @@
+{
+    "Blurbs": {
+        "0 1 1 0 1 0 1 1 1 0. 10011 10101 1 0 1 1 0 1 1 0 0 1 1 1 0 1 0 1 1 1 0 0 is all you all got. Yes. Okay, so I have them here. I was looking I was cheating. Okay. So the next order of business is we want to come up with a ranking a nun ranking algorithm. ": [
+            3105.9,
+            3155.0,
+            68
+        ],
+        "05 is going to be our next. next number and then are now is equal to 10 K is equal to 2. and then you say our is eating out equal to 10 - 5 choose 2, which is 0 and K is not equal to 1. Now it gets a little tricky. What's the biggest number when you choose one you get 0-0 choose one. Hey Sonny, we have ": [
+            3904.8,
+            3944.9,
+            87
+        ],
+        "150 students and I picked the top 25 winners of the academic competition every lecture and I don't care. I don't care who came in first or second or 8th or 9th. I just care if you're in the top 25, you're a winner. Maybe it's not academic competition. Maybe it's other types of things so that anybody could really be a winner at some point. Okay. So for each ": [
+            816.2,
+            843.8,
+            18
+        ],
+        "1800 bits. Each. Each competition will be 18. We basically cut it in half, right? Cuz we went from a 17 character string down to a 9 character string and now with a kilobyte I can hold four. It's not like that much better. But at least you kind of get the sense of we're getting a little bit better. Okay, so we're not there yet to what you guys ": [
+            1264.2,
+            1288.5,
+            28
+        ],
+        "4 3 2 1 Oh, I need one more 00. And then 4 3 2 1 we get a choose 46234 choose to to choose one. It's 70 + 20 + 6 + 2 is 98. And then we'll just make sure 98 is that one? Okay good. Okay, so let's move on to the on Rankin algorithm. Does anybody have any ideas about how to unranked a position? Yes. ": [
+            3580.2,
+            3629.1,
+            79
+        ],
+        "7 shoes 4 + 423 + 222 + 0 choose 1 70 + 435 + 4 + 1 + 0 3040 Wright from the k k is for and is 9 K is for and this is a 9 bit string with four ones. Okay, so I have a question. 1220 it's how many ways can you choose a two element set from a one element set? 0 choose 1 ": [
+            3290.1,
+            3352.3,
+            73
+        ],
+        "8 possible pids. What's the minimum number of bits required to store each PID and how would you do it? Okay good. What is it 1 + 8 * log base 2 of 10, right? How did you get that? Log of 2 this is log base 2, right? Okay, so anybody have any ideas on how to achieve this and I'm coding algorithm that will encode a PID into ": [
+            1431.5,
+            1512.6,
+            33
+        ],
+        "9 string with four ones. that one that's going to be the last one, right? Should be. Okay. So do the same algorithm 8 7 6 5 4 3 2 1 0. 4321 +847-236-256-2521 I choose one. What's 8 shoes for 70? 70 + 35 + 15 + 5 Is what? 125 pretty crazy night who's going to be on the homework? Yeah. It's not so bad, right? This is ": [
+            3382.9,
+            3461.8,
+            75
+        ],
+        "And the position that we're going to get is the position in lexicographic ordering starting at 0 K. Now. I'm going to start my list of zero. I know that I'm shipping from before but it makes sense in this one. Okay, so a ranking algorithm in this particular example will take a string a binary string of length and width K ones you're going to have to feed it ": [
+            3155.0,
+            3185.6,
+            69
+        ],
+        "I didn't think about doing that. But then you'd have some of them that were longer than others, right? But they all be you know, some of them will be shorter than this kind of depending on how you and code it. Hope you have a really long string with a lot of runs of zeros. Let's kind of keep this on the the side maybe for you guys to ": [
+            2405.6,
+            2431.0,
+            52
+        ],
+        "If the first letter is a then you add a zero if the first letter is you then you add A1. How do you decode well, you you took a bit string you convert the the last however many digits except for the first to a decimal and then if the first bit is a 0 a day at the first bit is a 1 out of you right and ": [
+            1703.4,
+            1725.8,
+            37
+        ],
+        "If you guess no. You make some guesses, I guess. Think about each one of these positions is a sum of binomial coefficients, right? in every case right And the first one is something choose for right you can kind of convince yourself of that by the algorithm right before is the is going to pair with the highest number rank. So really what you need to do is find ": [
+            3630.8,
+            3668.4,
+            80
+        ],
+        "Let's just say you have it. But I always get a class list every quarter so that I can enter grades. So let's say I have it right next to my desk or it's on my computer. Now let's say that it's it's there already. Okay, can anybody think of any way to 32 okay, but what if I I want to know who won each week cuz I'm going ": [
+            2140.0,
+            2191.8,
+            46
+        ],
+        "No, just assume that it exists. We're not going to work with it. We just want to assume that exist. No it mean for now now. Okay. So how long does this one take? Well now each PID takes up 28 bits and I have 25 of them. So all-in-all with this version. I can store each competition using 700 bits and now one kilobyte kancolle can hold 11 bits. ": [
+            1866.5,
+            1899.4,
+            41
+        ],
+        "Okay there anybody have any? questions alrighty So we're going to look at some and coding. Topics about encoding today. Let me open my clicker thing. It's a very broad topic and so we're only going to kind of scratch the surface of a few theoretical kind of bounds on encoding and in general. What can you expect from an encoding algorithm and how how big or small you can ": [
+            121.1,
+            173.3,
+            0
+        ],
+        "Okay, we're going to look at something like that anybody else. Okay, so you can shorten their name or you can maybe just do last names or Do you like the first four characters of the last name first four characters of the first name? Right so you can shorten the names for the ideas. You want everybody to be unique, right? Okay, good. Yeah, we're going to look at ": [
+            1192.5,
+            1235.0,
+            26
+        ],
+        "Okay. Now I want to know I want to revisit your idea. I didn't put that on here. But I have something similar to it. Let me just fix this I'll call this version 3.5. Do that. Okay version 3.5 now, it looks assume that we have a class list right now each. Ordered by pids or whatever alphabetically or whatever you like. This is kind of like what you ": [
+            1901.7,
+            1949.1,
+            42
+        ],
+        "This is a bunch of different characters that you can use and it uses eight bits of information for each one. So this is nice because it's a standard thing that a lot of computer software uses and there's kind of an extended ASCII code that that actually uses it still uses eight bits. But I guess what you should notice here is that all the first bits here are ": [
+            4341.1,
+            4380.8,
+            98
+        ],
+        "This is just the product rule that we learned the first week of class. Right we have for each character. We have 817 characters and then we have 25 students. Are there any questions about this? Okay good. So how many bits is that? 3400 bit / competition, right? So let's very limited storage. Let's I only have 1 kilobyte of storage how many of these can I fit in ": [
+            995.7,
+            1038.0,
+            22
+        ],
+        "a what is this 28 bit string? I could you be more specific number is actually 2020 + 828 less than or equal to 28. Or let's say the ceiling of this is is 28. I want looking for a specific and coding algorithm that will take a PID of the input and the output would be a 28 bit string and we want that each PID is distinct. Can ": [
+            1512.6,
+            1583.6,
+            34
+        ],
+        "actually make it? Let's see here. Okay, you plug this guy in? Okay. We're going to mostly look at encoding in the through the scope of data compression. But you can also there's a whole other topic of encoding on how to actually make something so that it has some sort of secure right? There's a certain amount of data that you want to send and you want to secure ": [
+            173.3,
+            245.2,
+            1
+        ],
+        "algorithm really really hard. Pretty easy, right? There is I'm going to maybe wait to do the explanation. or I don't know I was planning on not even do any explanation, but maybe I should maybe we can do that on Thursday so I can prepare it a little bit better have depends on a simple concept that maybe we could I could just give you an intuition for I ": [
+            3461.8,
+            3503.5,
+            76
+        ],
+        "algorithm that input a binary string and outputs. Its position in the list. You don't have to store the entire list. You can just figure it out using an algorithm. These are called ranking and done ranking algorithms. You have some sort of combinatorial object or some sort of set of objects and a ranking algorithm is a fast way to figure out its position in the list and on ": [
+            2915.1,
+            2944.2,
+            64
+        ],
+        "all out into a really long list. And then you encode it by its position in that list. Talk to encode store the position of a string in the list rather than the string itself to decode given a position. You need to determine the string in that position. So hopefully your list is some is in some sort of order so you can actually find it right or else ": [
+            2753.8,
+            2784.5,
+            60
+        ],
+        "all zeros so you can get even more by setting it to be equal to one. Just wanted to show you this because we were talking about it a lot in the previous example in this is sort of the standard way to to encode letters. so let's think about data compression again in terms of maybe like a a gene genome code right with atc's and cheese. In fact ": [
+            4380.8,
+            4417.8,
+            99
+        ],
+        "also, take a really long time to look through it. Okay, so they had there's not enough memory and all the computers in the world to hold. This is not a good way to proceed. So can we still use this technique without storing all of that data? Just looking for a yes or no answer here. Yes. How do we do it? With algorithm. We're going to have a ": [
+            2882.8,
+            2915.1,
+            63
+        ],
+        "and Inkay to know what you're actually ranking, right? You need to know what kind of object it is. That's important. It just kind of like for all these other algorithms. You need to know what it is. You're in coding and what it is you're decoding. Okay, and then it gives you a position and then you need to on Rankin algorithm where you give a position and it ": [
+            3185.6,
+            3211.2,
+            70
+        ],
+        "and our professors. You can put whoever's name. There are just a list of names. A list of 25 names right? It doesn't have to be in a particular order but it's just some less how much data do you expect to use per list if the average number of characters in a name is 17 and each character uses 8-bit ASCII encoding That we moved. shoot Let me just ": [
+            870.5,
+            916.0,
+            20
+        ],
+        "as a fixed image, right? You don't have to change this green. Very much. So you sort of keep it as one thing. The alternative is to give you eight different huge pictures, right but that you're saving a lot if you get to reuse some of the pixels that's kind of the idea. So another way is is kind of like a lossless encoding which is sort of what ": [
+            346.1,
+            376.2,
+            5
+        ],
+        "assuming that you guys have seen that in another class how to convert a decimal number into binary and how to convert a binary number into decimal. You have not okay? No, this is like an actual mathematical. Function it can the different bases that converts it from base 10 to base 2 + 4 base 2 to base 10. There are there are nice algorithms to do either way. ": [
+            1821.7,
+            1857.3,
+            40
+        ],
+        "base 250 / 2225 any questions about that I guess the big question is will how big is log base 2 of 150 to 25? That's the question I have. the round 94 so remember what we had in version 4 we had every competition fit in 150 bits. So I claim that we can shrink that number down to 94 bits and also claimed that there's no other and ": [
+            2618.6,
+            2662.2,
+            57
+        ],
+        "because with any fewer number of bits it would not be sufficiently many distinct bit strings To uniquely identify all an object. You can think about those bit strings that's kind of like names for the objects so that when I decode it, I know what name it is and I can decode it into whatever information I'm storing. Okay? Okay, so let's look at an example and we're going ": [
+            755.2,
+            782.5,
+            16
+        ],
+        "better explanation here. So we know that nine shoes for 9 choose 4 is actually equal to 126 and that's why I stopped at 1:25 because we started at 0 so nothing is going to be nothing is going to have 9 as the first choice, right? The First Realty possible choice is 8 right? so 8 choose 8 choose 4 is 70 right and 8 choose 4 if they ": [
+            4045.7,
+            4088.1,
+            90
+        ],
+        "can kind of a curse on this by just deleting that first zero and doing the same process on a choose 4 instead of 9 to 4. Because now the ones with the second one start here. Right at 36 right now at 35, which is 7 choose 4. Right, you can actually really get a sense of where they are by looking at this list, but good question. So ": [
+            4144.0,
+            4177.0,
+            93
+        ],
+        "choose for is your biggest whatever choose for less than your position. That means you're on this side right eye means you're bigger than 70. That kind of makes sense. Like for example, we chose 100. And the biggest number choose for was a choose for right and and another way you can see that is because it was bigger than or equal to 70 if it's smaller than 70 ": [
+            4088.1,
+            4115.7,
+            91
+        ],
+        "coding that's better than that that uses fewer bits. You all believe me. Okay good. This is the fewest number of bits required to store all under 50 bit strings with exactly 25 strings. How do we do this? Yeah, you can use either a table or an algorithm. We're going to look at both. table of America 225 string of your wish okay good is exactly what we're going ": [
+            2662.2,
+            2723.7,
+            58
+        ],
+        "competition outcomes are there? You got to remember from back to Week 1. What are we counting here? Fix density binary strings good 150 to 25. Great. So now remember to the beginning of class. That's a hundred fifty to 25. If there are a hundred 5225 possible competitions if we assign a different bit string to each competition. What is the minimum number of bits needed? Okay good. log ": [
+            2548.7,
+            2618.6,
+            56
+        ],
+        "each a unique name, but that name had to be a binary string right? So in order to get enough names, did you get enough binary strings? I would need to actually at least be able to count this Hi in binary. And so how many bits is required to count that high? That's the log base 2. That kind of help. Find me. Turn into binary. Yeah, I'm just ": [
+            1773.4,
+            1821.7,
+            39
+        ],
+        "each person has a number next to him the store this number. Yeah shorts position and then so to encode it you have to go to the list and to decode that you also have to use the list. So the list of sort of acting as a dictionary that you can go back and forth on. Make a reference point. So these are the positions. Okay any other questions? ": [
+            2098.4,
+            2133.8,
+            45
+        ],
+        "enough and if I want to zoom in and look at more details then maybe I have to go the full resolution. They still losing losing part of your data Is okay for this type of thing? Okay, so What we're going to look at is the lossless compression where you don't lose any of your data when you decode it you get all of your data back. suck lost ": [
+            468.8,
+            501.8,
+            9
+        ],
+        "figure out what it is. It's encoding is you start from the root and you follow the path to the vertex. So what's the encoding of B? Will the path is 0 1 Okay. So which one of these is it? Ipsy right and you can just kind of split it up into pairs 1 0 0 0 1 0 1 0 1 okay. so this is the ASCII table. ": [
+            4296.6,
+            4341.1,
+            97
+        ],
+        "good answer log base 2 of end the ceiling right log base 2 of 5 is 2. Something you need three bits to do it there any questions about that? Is that okay? Okay, the reason behind this is given a set with an object's what is the minimum number of bits required to encode eat at each element you need at least ceiling of log base 2 and bits ": [
+            715.4,
+            755.2,
+            15
+        ],
+        "guys were saying, right? And now how do I store each value? Bike position right that we're going to say. Okay, so how many bits are required to store or to uniquely Define a hundred and fifty different things? Eight bits, right? so store All right. store each PID by its position Right, and so there are 150 positions. each one takes ceiling of log base 2 of 150 which ": [
+            1949.1,
+            2015.4,
+            43
+        ],
+        "have separate 25 killstreak which stores in 04 No, but that's not enough bits. If you have 25 bits that you either have it on or off. But I have 150 students. Yeah, there's 25 of these ones. relieved and then yeah, that's a good idea. You can encode by length. of consecutive zeros Yeah, that's kind of like that picture that we had. Yeah. So that's a good idea. ": [
+            2330.9,
+            2405.6,
+            51
+        ],
+        "in the 1990s. They used to ASCII characters to store. This. Is anybody have any idea how many base pairs there are in like a single gene or a single chromosome. It's like billions right or trillions myself. You're going to run out of space really fast instead. At some point they switched it to two bits per character and you saved, you know, you've made your story you divide ": [
+            4417.8,
+            4447.1,
+            100
+        ],
+        "information this way. Anybody have any questions about how this thing works? Do not use the equation as to which one you had information. Snopes I have a list of them. You don't have the order and I ordered I ordered a bunch of these nights a week 1 week 2 week 3 week 4, how many can I order? show how to make one one massive 150 v string ": [
+            2281.9,
+            2330.9,
+            50
+        ],
+        "initialize x2b some 150 bit string of zeros and then for you just go through the list of students and whenever you find a winner. Set the ice position to one right so it's very easy and then to decode you take a bit string and you just Loop through the entire string whenever you find a one spit out that PID have to look it up in your dictionary ": [
+            2459.5,
+            2489.5,
+            54
+        ],
+        "is 0 whenever you have a smaller number on top 0 okay, so I went I went ahead and print it out all of the length 9 binary strings with exactly four ones in lexicographic order. Here it is. I know it might be small to see but if you look at 40, there's our guy. Same one. Okay. So let's do another example. Okay, give me a length of ": [
+            3352.3,
+            3382.9,
+            74
+        ],
+        "is equal to 8. So now we have eight bits her student let's say so 8 * 25 is what? 200 200 bits per competition So how many so how many can I fit in one KGB? What's 8000 / 200? 20 40 40 right Okay. Any questions about this one? Yeah, so let's that I have this list. This is my roster, right? It's in Excel or something. So ": [
+            2015.4,
+            2098.4,
+            44
+        ],
+        "it down to a small as you can so you can put more in there. So one type of data compression using like a video or picture or sound bites you can talk about. lossy compression composite compression but this usually has to do with if if your data is some sort of something that interacts with a human's senses write something that you see something that you hear something ": [
+            268.8,
+            314.1,
+            3
+        ],
+        "it so that a another person can't read it right. So that's a different kind of encoding who's going to mostly be for compression, but they're really hand-in-hand and there's a lot of similarities and a lot of bridges between the two types of encoding Okay, so you really for this one? You want to store or transmit information in as little space as possible. So you want to Crunch ": [
+            245.2,
+            268.8,
+            2
+        ],
+        "it works with. on ranking 100 So what's the biggest number choose for that's less than a hundred. Well, let me just give you the the sequence of numbers to us for what we have for tooth for. I mean is use a different thing here. We have four choose for it, which is what 1 5 choose for is 562 + 4 is 15 seven shoes for is 35/8 ": [
+            3706.7,
+            3742.7,
+            82
+        ],
+        "just go to a new thing. So now our is equal to 30 + K is equal to 3. So then you do or is equal to 30 - 623 which is 30-20 which is 10 K. K is now equal to 2 Okay, so what's the biggest number choose to that's less than or equal to 10. Well, we have that 5 choose 2 is actually equal to 10. ": [
+            3870.9,
+            3903.5,
+            86
+        ],
+        "just like store does name somewhere and then have the bit values and then instead of storing a whole name to store that one big guy for you, but I need that. That that storage mechanism to look it up, right? Where you at? I just one storage mechanism, but then you can have as many iterations of the yes. But I'm storing the 25 names. Anyway, you're saying if ": [
+            1084.4,
+            1129.2,
+            24
+        ],
+        "know this is hard to see but this isn't lexicographic ordering which means that all of the strings that start with 0. Come before all of the strings that start with one. right right And so how many strings start with 0 we actually did this the first week remember how we counted Pascal's identity. There are eight shoes for Strings that start with 0 right because you're just kind ": [
+            3503.5,
+            3546.9,
+            77
+        ],
+        "lecture, I want to remember who won right so that at the end of the quarter or at the end of the year. I know I know who to give prizes out to okay? How to make sense how are you going to store this data? Okay. So the first version that we're going to look at is just list of name. So let's say these are these are rta's ": [
+            843.8,
+            870.5,
+            19
+        ],
+        "let's let me finish up this. This idea here. What you do? If you take your Winner's List you and code it right and then you returned the rank of the binary string, right? You take whatever position in binary you unranked it and then you look it up in your strength. And now you don't need that long 3 bajillion list of numbers because we can unranked and ranked ": [
+            4177.0,
+            4211.4,
+            94
+        ],
+        "like that because our eyes or ears are not sensitive sensitive enough to hear that kind of the very very high quality sound or see the high-quality pictures at some point. You can you can save memory by cutting out a lot of noise, right? For example, if you see this guy golfing you're not paying attention to the background so much so you can just kind of keep it ": [
+            314.1,
+            346.1,
+            4
+        ],
+        "like that. And just to kind of remember to remind you. About how this works. Okay. So let's suppose that we have four characters a b c and d and we wanted to encode them with bits. How would you a code the word c a b b using this tree? How do you fear are the this is the encoding. How do you read it on the tree? To ": [
+            4250.4,
+            4296.6,
+            96
+        ],
+        "list compression Okay. So in order to Crunch it down it may take time right you're in coding algorithm a take time to encode it and it makes it may take a long time to decode it. So it's kind of like your trading off time for space and if you have a lot of time. Initially, right? You don't care you just you just been coded however long it ": [
+            501.8,
+            534.0,
+            10
+        ],
+        "look it up in the dictionary and then spit it out into the output list. Okay, so version 450 bits now I can hold 54. Okay, so Now is this the best that we can do? Go further Beyond. We can encode each competition as a V 150 bit string. Is it at all possible to encode each competition with fewer bits? and how many fewer How many different possible ": [
+            2489.5,
+            2548.7,
+            55
+        ],
+        "need. 150 * 150 choose 25. Is anybody have any idea how big this number is? pretty big it's 3 bajillion bits. This this is up with this is 1 bajillion. I think. This is more data than we've we have it on this planet in all of the computers. Together this is like many many much much much more. So it doesn't make sense to store this dictionary right ": [
+            2828.1,
+            2882.8,
+            62
+        ],
+        "number so you can just converted to decimal and then compare that it so it for example if a is 0 0 1 0 0 1 1 0 and B is 0 0 1 0 1 0 0 1 Then a is left is less than be right. Maybe this was a big too big of an example. Let's go by the numerical value Okay, so I want you all ": [
+            2975.4,
+            3007.3,
+            66
+        ],
+        "of encode these these lengths and then to decode you just have to follow the directions. So this is kind of what I was talking about before is that you can store pictures in smaller amount of space if you make them kind of blurry or fuzzy, but how fuzzy are blurry. Do you do you want to go? It doesn't really look much different between these top three even ": [
+            409.3,
+            447.4,
+            7
+        ],
+        "of taking that bit away and you have eight bits left with four ones to count. So, you know that if it starts with a one it's got to be above 70. And this is this is sort of the the reason it goes through. Okay, let's do one more example and then we'll do on rank. Okay 1 0 1 0 1 0 1 0 8 7 6 5 ": [
+            3546.9,
+            3580.2,
+            78
+        ],
+        "of this on your homework. I think it would be helpful to to use this. This guide as a practice see if you can drink some random numbers. See if you can rank some random bit strings of length 9 with four ones. Sure. Okay, so if your position is after 70. I had to put that. But let me let me see if I can do it like a ": [
+            4005.5,
+            4045.7,
+            89
+        ],
+        "of your storage down by a factor of 4. Okay. So this was just the ask you stuff. I want to show you. All right. So next time we're going to look at another way to encode strings like this. So see you all on Thursday. ": [
+            4447.1,
+            4468.0,
+            101
+        ],
+        "okay. So you write down the numbers and -1 down to zero under each bit. Remember we're going to be given n&k. So you know what these are. Can you write the numbers K down to one under each one? I need one in this thing. Okay, so that's four. 3 2 1 okay. then what you do is you take each one of these and you add them together ": [
+            3250.7,
+            3290.1,
+            72
+        ],
+        "quickly right doesn't take so long. It only takes linear time with the size. Now we can do it at 94 bits with now I can hold 87 Okay, so Are there any questions? So we move on so I want to introduce kind of the next topic of encoding that we're going to look at because I just wanted to kind of show you the ASCII characters and stuff ": [
+            4211.4,
+            4250.4,
+            95
+        ],
+        "ranking you give the position and it tells you what the what the object is. Okay, so let's look at one possible way to order fix density bit strings. Okay, it's called Lex order. It's basically dictionary order. But we're we're talking about bit strings here. So in fact we can call a is less than b and Lex order if a is actually less than b as a binary ": [
+            2944.2,
+            2975.4,
+            65
+        ],
+        "shoes for is 70 and 9 shoes for is 126. Okay, and I was just assumed that you have access to a calculator or Google Calculator or Wolfram Alpha to do this kind of thing. Okay. 8 is the biggest number when you choose for? You get a number that's less than a hundred saw run ranking a hundred. So we have eight shoes for Okay, so then we take ": [
+            3742.7,
+            3786.8,
+            83
+        ],
+        "so I guess how did I do it in? The previous thing I said R is equal to 100 x is equal to 8 so then I say ours now equal to 100 - 8 choose 4 which is 100 - 70 Which is 30? Oh, I have K is equal to 4 and K is not equal to K - 1 so it's equal to 3. So then at ": [
+            3786.8,
+            3819.5,
+            84
+        ],
+        "so it doesn't take too much to to realize that these are inverse functions, right if I take a PID and encode it and then I decode whatever that was I get the same PID back, right? So it's kind of this two-way street. okay, so the idea here is that Suppose you had this set of all of these pids, right and you wanted to name them give them ": [
+            1725.8,
+            1773.4,
+            38
+        ],
+        "somebody wins more than once. No, I'm just saying like instead of storing the entire name. takes up 8 Or whatever her single name its 136 bits per name on two different face value and the number. that store instead of that number times 136 Well, yeah. with a map Yes, I guess we can we can assume that I have a roster. Let's say I have a roster stored. ": [
+            1129.2,
+            1191.1,
+            25
+        ],
+        "something like that in a little bit. But I want I have a few other ones that are not as good as that those are sort of like the same the same sort of thing. So the next one is instead of music names will we can use? pids right because they are 9 characters. So we went from 17 down to 9 and now we can store them using ": [
+            1235.0,
+            1264.2,
+            27
+        ],
+        "take a look here. Sorry that the slides I think her a little. What's today the 7th? Okay. All right, that's fine. We're going to look at that. We're going to look at a ski in a little bit. So have you guys heard of that before? Okay. See you note the thing, okay. naked All right. What do you all say? Good see 8 * 17 * 25, right? ": [
+            916.0,
+            994.2,
+            21
+        ],
+        "takes and then you send it off and then your recipient will have to decode it writes like those zip files that you get when you download a program or an application or something you did the time it takes to download a small which is good because you know, it it it doesn't eat up all of your data if that's what you're concerned with. But then you're going ": [
+            534.0,
+            558.0,
+            11
+        ],
+        "that is a good idea for each week, right? If you have an array that has a hundred 50 entries you can put a one in each position of the people who won that week. Right now each competition. How many bits do I need per competition? well So this is what I mean. The entire class can be thought as a 150 bit string write such that for each ": [
+            2213.8,
+            2257.1,
+            48
+        ],
+        "that you don't want to lose any of the data. It's going to be a lossless and coding a lossless compression. What's up? CB let's look at an example. let's say I have what's half for objects? ABC A B C D and E. How many bits are required to store each one in order for them to all be distinct? That's that's kind of what I'm asking. Or what's ": [
+            593.1,
+            680.3,
+            13
+        ],
+        "the biggest number choose for that's less than the position. Here's a little bit more detail. So you given a position p? Define the largest X such that X choose K is less than or equal to pee right then you subtract it. attract, excuse K frumpy or from our and then you decrement K and you keep on going until you reach the end. So I'll show you how ": [
+            3668.4,
+            3706.7,
+            81
+        ],
+        "the minimum number of bits needed so that I can give them each a distinct bit string? for this example 3 right you could say 8000 B is 010 C is 100 D is 110 and he has one one one say you could do a bunch of different ways, but you can't do it with two bits, right because there's not enough. That kind of makes sense now. Okay ": [
+            680.3,
+            715.4,
+            14
+        ],
+        "the next step I say what's the biggest number choose 3 that's less than 30. We have three choose three, which is one. We have four to three witches for we have five choose three, which is 10623 is 20 + 723 is 35. so this is going to be our first number eight or second number is going to be 6. I'm not being very organized here. But let's ": [
+            3819.5,
+            3870.9,
+            85
+        ],
+        "then the biggest number would be 7 or 6 or something like that. But notice that everything starting from 70 starts with one and everything before 70 starts with 0. so that really gives you a sense of why is there and why why does it stop at 70 it's because there are eight shoes for many of these. And then it kind of keeps on decreasing and then you ": [
+            4115.7,
+            4144.0,
+            92
+        ],
+        "there? well 1 kg can hold 8192 bits. This is 3400 bits so I can hold two competitions. So I would have to maybe give prizes out every two weeks or something cuz and ID to make room to put more right? Okay, so any questions about that? Does anybody have any ideas on how to save memory? For how many ever named you have to be up like 25 ": [
+            1038.0,
+            1084.4,
+            23
+        ],
+        "think about as an exercise. How long do you expect this to be in the worst case? How are you actually holding this information? How much information do you need to tell how many zeros are out there? Is it more than the actual length of zeros? Those are kind of some of the questions? Okay. So this is the the same the same version that we just had right ": [
+            2431.0,
+            2459.5,
+            53
+        ],
+        "though this compressed image is a quarter the size of this one, right? And so if you're not if you don't really care so much about image quality, then you can store a lot more I mean still is all I want to know is if there's a woman with a hat than this is enough, right if I want to know her features a little better. This might be ": [
+            447.4,
+            468.8,
+            8
+        ],
+        "thought or maybe I don't even have that one up here, but we should we should explore it because it might give us a better storage. We're just making a list of pids. How much data is is Lyft take up. How much storage does this put physical list take up. Each character takes takes eight bits. write an at 8 ASCII bits Right. Well, there's might be a better ": [
+            1288.5,
+            1334.5,
+            29
+        ],
+        "to do at first and we're going to see what kind of complications that that brings. okay, so this is actually called the theoretically optimal encoding and you can talk about a theoretical optimal and coding for any type of set and it's just a The log base 2 of is cardinality. That's how many bits you need. How do you actually do it? Just like you said list them ": [
+            2723.7,
+            2753.8,
+            59
+        ],
+        "to give out let's say I give out a different prize for each lecture at the end of the quarter. So if you won the first lecture, but this will be a good way. If I'm going to give out the number of prizes you just kind of increment each position, right? You just have an array that has a hundred and fifty. Entries right and you increment those but ": [
+            2191.8,
+            2213.8,
+            47
+        ],
+        "to have to unpack it unzip it and that'll take time on your computer which is cheaper, right because it's just your computer time. So this one one reason you want to do it. Okay, so computer store things in bits. right So if you have a set of n objects. n distinct objects What's the minimum number of bits required to store each element? If you're under the assumption ": [
+            558.0,
+            593.1,
+            12
+        ],
+        "to kind of move through a few different types of encoding algorithms and encoding schemes and see which ones are better than others. Okay. Suppose that I'm holding an academic competition in this class every lecture. Okay, and let's say each competition. I picked the top K People based on their scores and I say that they're all winners. So I for example you can say maybe this class has ": [
+            782.5,
+            816.2,
+            17
+        ],
+        "to make a list of all. Length of 5 binary strings with exactly three ones and enlisted them in lexicographic order ready go. There are 10 of them. I'll start you off. The first one is. latest getting me big again Good idea. That's what I was kind of hoping. car washes near me art All right, let's so I'll help you out here. What's the next one? And then ": [
+            3007.3,
+            3105.9,
+            67
+        ],
+        "way to do it. So, how do I how do I make this one better? Well, we know the form of a PID, right? It starts with a what? a or you those are the only two options and then the rest of it is a 8 digit number. Is there a nice way to represent a number in binary? Just at the binary representation. right so let's incode. How ": [
+            1334.5,
+            1369.5,
+            30
+        ],
+        "we do the new Dodge commercial for YouTube? You can just take the entire Spirit of the 808 all that into 1 hour. Where where does the 32 come from? Leaving all the numbers. Yeah. Saving it up for a time for bed. And how would you do that? exactly, right Every integer has a binary expansion, right? Frank saw you have 1 bit write 0 for a one for ": [
+            1583.6,
+            1663.8,
+            35
+        ],
+        "we're going to be talking about in more detail more on some more simplistic terms, but one way to decode or encode a picture instead of giving you the the coordinates and the colors of each pixel. You can say I have 20 whites in a row, then I do three whites and three blacks one white one black 11 whites instead of Encoding every single picture pixel you kind ": [
+            376.2,
+            409.3,
+            6
+        ],
+        "will give you a string and you need to know the position and end in K. Okay. So here is the ranking algorithm. So you're giving a string? Okay. The first thing you do is you write out the number, so I guess there are nine. Let's hear you write out the numbers 8 through 0 in decreasing order. Okay underneath 8 7 6 5 4 3 2 1 0 ": [
+            3211.2,
+            3248.3,
+            71
+        ],
+        "winning student. You put a one and its position. So you just get this big thing. So that means that the 1 2 3 4 5 6 student in my list number 6 he wins and also the 10th student in my list he wins right and to encode it. You just put a one and all those positions to Dakota. I can just get back. I don't lose any ": [
+            2257.1,
+            2281.9,
+            49
+        ],
+        "would you what would the Beast be the best way to encode a PID? What's the minimum number of bits that you need? Assuming that the first letter is either a or you and the last letter or in the rest of it is a 8 digit number. No, no I'm saying if you use a ski, then you're going to have to use 9 x 8 right I'm saying ": [
+            1369.5,
+            1393.7,
+            31
+        ],
+        "you come up with another and coding scheme. What's the minimum number of bits that you can achieve? Talk about talk it over with your neighbor. Oh, sorry. This was the wrong question. How many different pids are there is 2 x 10 to the 8th. Thank you. I was trying to get to this one here. This is the one there are 2 to the x 10 to the ": [
+            1393.7,
+            1431.5,
+            32
+        ],
+        "you just going to have to do a linear search to find the actual string and then you output the position. How much data will be needed to store this dictionary? This is my this is my view of what this dictionary would look like. You would need a position for each 94 bit string. Frank and each string you would need a hundred and fifty bits. So you would ": [
+            2784.5,
+            2828.1,
+            61
+        ],
+        "you, right? and then convert the rest into binary Is that anybody have any questions about that? I think that's what I wrote here. How do we do it one bit for a and you and convert the rest into binary? I gave you a kind of more of a pseudocode if you like that so you plug in a PID? You convert the digits into a binary number X. ": [
+            1663.8,
+            1702.3,
+            36
+        ],
+        "zero to one. 0 okay. 020 is 1 yeah. Okay. So what were the numbers I got? 8 7 6 5 4 3 2 1 0 I got a choose 46235 choose 2 and 0 to 1. So that's where I put the ones. right, and so if I go back to 100 1 0 1 1 0 0 0 0 0 1 Okay, so there's there's a little bit ": [
+            3944.9,
+            4005.5,
+            88
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_11.flac",
+    "Full Transcript": "Okay there anybody have any?  questions  alrighty  So we're going to look at some and coding.  Topics about encoding today. Let me open my clicker thing. It's a very broad topic and so we're only going to kind of scratch the surface of a few theoretical kind of bounds on encoding and in general. What can you expect from an encoding algorithm and how how big or small you can actually make it?  Let's see here.  Okay, you plug this guy in?  Okay.  We're going to mostly look at encoding in the through the scope of data compression. But you can also there's a whole other topic of encoding on how to actually make something so that it has some sort of secure right? There's a certain amount of data that you want to send and you want to secure it so that a another person can't read it right. So that's a different kind of encoding who's going to mostly be for compression, but they're really hand-in-hand and there's a lot of similarities and a lot of bridges between the two types of encoding  Okay, so you really for this one? You want to store or transmit information in as little space as possible. So you want to Crunch it down to a small as you can so you can put more in there. So one type of data compression using like a video or picture or sound bites you can talk about.  lossy compression  composite compression  but this usually has to do with if if your data is some sort of  something that interacts with a human's senses write something that you see something that you hear something like that because our eyes or ears are not sensitive sensitive enough to hear that kind of the very very high quality sound or see the high-quality pictures at some point. You can you can save memory by cutting out a lot of noise, right? For example, if you see this guy golfing you're not paying attention to the background so much so you can just kind of keep it as a fixed image, right? You don't have to change this green.  Very much. So you sort of keep it as one thing. The alternative is to give you eight different huge pictures, right but that you're saving a lot if you get to reuse some of the pixels that's kind of the idea.  So another way is is kind of like a lossless encoding which is sort of what we're going to be talking about in more detail more on some more simplistic terms, but one way to decode or encode a picture instead of giving you the the coordinates and the colors of each pixel. You can say I have 20 whites in a row, then I do three whites and three blacks one white one black 11 whites instead of  Encoding every single picture pixel you kind of encode these these lengths and then to decode you just have to follow the directions.  So  this is kind of what I was talking about before is that you can store pictures in smaller amount of space if you make them kind of blurry or fuzzy, but how fuzzy are blurry. Do you do you want to go?  It doesn't really look much different between these top three even though this compressed image is a quarter the size of this one, right? And so if you're not if you don't really care so much about image quality, then you can store a lot more I mean still is all I want to know is if there's a woman with a hat than this is enough, right if I want to know her features a little better. This might be enough and if I want to zoom in and look at more details then maybe I have to go the full resolution. They still losing  losing part of your data  Is okay for this type of thing?  Okay, so  What we're going to look at is the lossless compression where you don't lose any of your data when you decode it you get all of your data back.  suck  lost list  compression  Okay. So in order to Crunch it down it may take time right you're in coding algorithm a take time to encode it and it makes it may take a long time to decode it. So it's kind of like your trading off time for space and if you have a lot of time.  Initially, right? You don't care you just you just been coded however long it takes and then you send it off and then your recipient will have to decode it writes like those zip files that you get when you download a program or an application or something you did the time it takes to download a small which is good because you know, it it it doesn't eat up all of your data if that's what you're concerned with.  But then you're going to have to unpack it unzip it and that'll take time on your computer which is cheaper, right because it's just your computer time. So this one one reason you want to do it.  Okay, so computer store things in bits.  right  So if you have a set of n objects.  n distinct objects  What's the minimum number of bits required to store each element? If you're under the assumption that you don't want to lose any of the data. It's going to be a lossless and coding a lossless compression.  What's up?  CB  let's look at an example.  let's say I have  what's half for objects?  ABC  A B C D and E.  How many bits are required to store each one in order for them to all be distinct? That's that's kind of what I'm asking.  Or what's the minimum number of bits needed so that I can give them each a distinct bit string?  for this example  3 right  you could say 8000 B is 010 C is 100 D is 110 and he has one one one say you could do a bunch of different ways, but you can't do it with two bits, right because there's not enough.  That kind of makes sense now. Okay good answer log base 2 of end the ceiling right log base 2 of 5 is 2. Something you need three bits to do it there any questions about that?  Is that okay?  Okay, the reason behind this is given a set with an object's what is the minimum number of bits required to encode eat at each element you need at least ceiling of log base 2 and bits because with any fewer number of bits it would not be sufficiently many distinct bit strings  To uniquely identify all an object. You can think about those bit strings that's kind of like names for the objects so that when I decode it, I know what name it is and I can decode it into whatever information I'm storing. Okay?  Okay, so let's look at an example and we're going to kind of move through a few different types of encoding algorithms and encoding schemes and see which ones are better than others.  Okay. Suppose that I'm holding an academic competition in this class every lecture. Okay, and let's say each competition. I picked the top K People based on their scores and I say that they're all winners. So I for example you can say maybe this class has 150 students and I picked the top 25 winners of the academic competition every lecture and I don't care.  I don't care who came in first or second or 8th or 9th. I just care if you're in the top 25, you're a winner.  Maybe it's not academic competition. Maybe it's other types of things so that anybody could really be a winner at some point.  Okay. So for each lecture, I want to remember who won right so that at the end of the quarter or at the end of the year. I know I know who to give prizes out to okay?  How to make sense how are you going to store this data?  Okay. So the first version that we're going to look at is just list of name. So let's say these are these are rta's and our professors. You can put whoever's name. There are just a list of names.  A list of 25 names right? It doesn't have to be in a particular order but it's just some less how much data do you expect to use per list if the average number of characters in a name is 17 and each character uses 8-bit ASCII encoding  That we moved.  shoot  Let me just take a look here.  Sorry that the slides I think her a little.  What's today the 7th?  Okay.  All right, that's fine.  We're going to look at that.  We're going to look at a ski in a little bit.  So have you guys heard of that before?  Okay. See you note the thing, okay.  naked  All right. What do you all say?  Good see 8 * 17 * 25, right?  This is just the product rule that we learned the first week of class. Right we have for each character. We have 817 characters and then we have 25 students. Are there any questions about this?  Okay good.  So how many bits is that?  3400 bit / competition, right? So let's very limited storage. Let's I only have 1 kilobyte of storage how many of these can I fit in there?  well  1 kg can hold 8192 bits. This is 3400 bits so I can hold two competitions. So I would have to maybe give prizes out every two weeks or something cuz and ID to make room to put more right?  Okay, so any questions about that?  Does anybody have any ideas on how to save memory?  For how many ever named you have to be up like 25 just like store does name somewhere and then have the bit values and then instead of storing a whole name to store that one big guy for you, but I need that.  That that storage mechanism to look it up, right?  Where you at? I just one storage mechanism, but then you can have as many iterations of the  yes.  But I'm storing the 25 names. Anyway, you're saying if somebody wins more than once.  No, I'm just saying like instead of storing the entire name.  takes up 8  Or whatever her single name its 136 bits per name on two different face value and the number.  that store instead of that number times 136  Well, yeah.  with a map  Yes, I guess we can we can assume that I have a roster. Let's say I have a roster stored.  Okay, we're going to look at something like that anybody else.  Okay, so you can shorten their name or you can maybe just do last names or  Do you like the first four characters of the last name first four characters of the first name? Right so you can shorten the names for the ideas. You want everybody to be unique, right?  Okay, good. Yeah, we're going to look at something like that in a little bit.  But I want I have a few other ones that are not as good as that those are sort of like the same the same sort of thing. So the next one is instead of music names will we can use?  pids  right because they are 9 characters. So we went from 17 down to 9 and now we can store them using 1800 bits. Each. Each competition will be 18. We basically cut it in half, right? Cuz we went from a 17 character string down to a 9 character string and now with a kilobyte I can hold four.  It's not like that much better. But at least you kind of get the sense of we're getting a little bit better. Okay, so we're not there yet to what you guys thought or maybe I don't even have that one up here, but we should we should explore it because it might give us a better storage.  We're just making a list of pids. How much data is is Lyft take up. How much storage does this put physical list take up. Each character takes takes eight bits.  write an at 8 ASCII bits  Right. Well, there's might be a better way to do it. So, how do I how do I make this one better? Well, we know the form of a PID, right? It starts with a what?  a or  you those are the only two options and then the rest of it is a 8 digit number.  Is there a nice way to represent a number in binary?  Just at the binary representation.  right  so  let's incode. How would you what would the Beast be the best way to encode a PID? What's the minimum number of bits that you need? Assuming that the first letter is either a or you and the last letter or in the rest of it is a 8 digit number.  No, no I'm saying if you use a ski, then you're going to have to use 9 x 8 right I'm saying you come up with another and coding scheme. What's the minimum number of bits that you can achieve?  Talk about talk it over with your neighbor.  Oh, sorry. This was the wrong question. How many different pids are there is 2 x 10 to the 8th. Thank you. I was trying to get to this one here.  This is the one there are 2 to the x 10 to the 8 possible pids. What's the minimum number of bits required to store each PID and how would you do it?  Okay good.  What is it 1 + 8 * log base 2 of 10, right? How did you get that?  Log of 2 this is log base 2, right?  Okay, so anybody have any ideas on how to achieve this and I'm coding algorithm that will encode a PID into a what is this 28 bit string?  I could you be more specific number is actually  2020 + 828 less than or equal to 28.  Or let's say the ceiling of this is is 28.  I want looking for a specific and coding algorithm that will take a PID of the input and the output would be a 28 bit string and we want that each PID is distinct.  Can we do the new Dodge commercial for YouTube?  You can just take the entire Spirit of the 808 all that into 1 hour.  Where where does the 32 come from?  Leaving all the numbers.  Yeah.  Saving it up for a time for bed.  And how would you do that?  exactly, right  Every integer has a binary expansion, right?  Frank saw you have  1 bit  write 0 for a one for you, right?  and then  convert  the rest  into binary  Is that anybody have any questions about that? I think that's what I wrote here.  How do we do it one bit for a and you and convert the rest into binary? I gave you a kind of more of a pseudocode if you like that so you plug in a PID?  You convert the digits into a binary number X.  If the first letter is a then you add a zero if the first letter is you then you add A1. How do you decode well, you you took a bit string you convert the the last however many digits except for the first to a decimal and then if the first bit is a 0 a day at the first bit is a 1 out of you right and so it doesn't take too much to to realize that these are inverse functions, right if I take a PID and encode it and then I decode whatever that was I get the same PID back, right? So it's kind of this two-way street.  okay, so the idea here is that  Suppose you had this set of all of these pids, right and you wanted to name them give them each a unique name, but that name had to be a binary string right? So in order to get enough names, did you get enough binary strings? I would need to actually at least be able to count this Hi in binary.  And so how many bits is required to count that high? That's the log base 2.  That kind of help.  Find me.  Turn into binary.  Yeah, I'm just assuming that you guys have seen that in another class how to convert a decimal number into binary and how to convert a binary number into decimal.  You have not okay?  No, this is like an actual mathematical.  Function it can the different bases that converts it from base 10 to base 2 + 4 base 2 to base 10. There are there are nice algorithms to do either way.  No, just assume that it exists. We're not going to work with it. We just want to assume that exist.  No it mean for now now.  Okay. So how long does this one take? Well now each PID takes up 28 bits and I have 25 of them. So all-in-all with this version. I can store each competition using 700 bits and now one kilobyte kancolle can hold 11 bits.  Okay. Now I want to know I want to revisit your idea.  I didn't put that on here.  But I have something similar to it. Let me just  fix this  I'll call this version 3.5.  Do that.  Okay version 3.5 now, it looks assume that we have a class list right now each.  Ordered by pids or whatever alphabetically or whatever you like. This is kind of like what you guys were saying, right? And now how do I store each value?  Bike position right that we're going to say.  Okay, so how many bits are required to store or to uniquely Define a hundred and fifty different things?  Eight bits, right?  so store  All right.  store each  PID by its position  Right, and so there are 150 positions.  each one takes  ceiling of log base 2 of 150  which is equal to 8.  So now we have  eight bits  her  student let's say  so 8 * 25 is what?  200 200  bits per competition  So how many so how many can I fit in one KGB?  What's 8000 / 200?  20  40  40 right  Okay.  Any questions about this one?  Yeah, so let's that I have this list. This is my roster, right? It's in Excel or something. So each person has a number next to him the store this number. Yeah shorts position and then so to encode it you have to go to the list and to decode that you also have to use the list. So the list of sort of acting as a dictionary that you can go back and forth on.  Make a reference point. So these are the positions.  Okay any other questions?  Let's just say you have it.  But I always get a class list every quarter so that I can enter grades. So let's say I have it right next to my desk or it's on my computer.  Now let's say that it's it's there already.  Okay, can anybody think of any way to  32  okay, but what if I I want to know who won each week cuz I'm going to give out let's say I give out a different prize for each lecture at the end of the quarter. So if you won the first lecture, but this will be a good way. If I'm going to give out the number of prizes you just kind of increment each position, right? You just have an array that has a hundred and fifty.  Entries right and you increment those but that is a good idea for each week, right?  If you have an array that has a hundred 50 entries you can put a one in each position of the people who won that week.  Right now each competition. How many bits do I need per competition?  well  So this is what I mean.  The entire class can be thought as a 150 bit string write such that for each winning student. You put a one and its position. So you just get this big thing. So that means that the 1 2 3 4 5 6 student in my list number 6 he wins and also the 10th student in my list he wins right and to encode it.  You just put a one and all those positions to Dakota. I can just get back. I don't lose any information this way.  Anybody have any questions about how this thing works?  Do not use the equation as to which one you had information.  Snopes I have a list of them.  You don't have the order and I ordered I ordered a bunch of these nights a week 1 week 2 week 3 week 4, how many can I order?  show how to make one one massive 150 v string have separate 25 killstreak which stores in 04  No, but that's not enough bits. If you have 25 bits that you either have it on or off.  But I have 150 students.  Yeah, there's 25 of these ones.  relieved  and then  yeah, that's a good idea. You can encode by length.  of consecutive  zeros  Yeah, that's kind of like that picture that we had. Yeah.  So that's a good idea. I didn't think about doing that.  But then you'd have some of them that were longer than others, right?  But they all be you know, some of them will be shorter than this kind of depending on how you and code it.  Hope you have a really long string with a lot of runs of zeros. Let's kind of keep this on the the side maybe for you guys to think about as an exercise. How long do you expect this to be in the worst case?  How are you actually holding this information?  How much information do you need to tell how many zeros are out there? Is it more than the actual length of zeros? Those are kind of some of the questions?  Okay. So this is the the same the same version that we just had right initialize x2b some 150 bit string of zeros and then for you just go through the list of students and whenever you find a winner.  Set the ice position to one right so it's very easy and then to decode you take a bit string and you just Loop through the entire string whenever you find a one spit out that PID have to look it up in your dictionary look it up in the dictionary and then spit it out into the output list.  Okay, so version 450 bits now I can hold 54.  Okay, so  Now is this the best that we can do?  Go further Beyond.  We can encode each competition as a V 150 bit string. Is it at all possible to encode each competition with fewer bits?  and how many fewer  How many different possible competition outcomes are there?  You got to remember from back to Week 1.  What are we counting here?  Fix density binary strings good 150 to 25.  Great.  So now remember to the beginning of class.  That's a hundred fifty to 25.  If there are a hundred 5225 possible competitions if we assign a different bit string to each competition. What is the minimum number of bits needed?  Okay good.  log base 250 / 2225 any questions about that  I guess the big question is will how big is log base 2 of 150 to 25?  That's the question I have.  the round 94  so remember what we had in version 4 we had every competition fit in 150 bits. So I claim that we can shrink that number down to 94 bits and also claimed that there's no other and coding that's better than that that uses fewer bits.  You all believe me.  Okay good.  This is the fewest number of bits required to store all under 50 bit strings with exactly 25 strings. How do we do this?  Yeah, you can use either a table or an algorithm. We're going to look at both.  table of America 225  string of your wish  okay good is exactly what we're going to do at first and we're going to see what kind of complications that that brings.  okay, so this is actually called the theoretically optimal encoding and you can talk about a theoretical optimal and coding for any type of set and it's just a  The log base 2 of is cardinality. That's how many bits you need. How do you actually do it? Just like you said list them all out into a really long list.  And then you encode it by its position in that list.  Talk to encode store the position of a string in the list rather than the string itself to decode given a position. You need to determine the string in that position. So hopefully your list is some is in some sort of order so you can actually find it right or else you just going to have to do a linear search to find the actual string and then you output the position.  How much data will be needed to store this dictionary?  This is my this is my view of what this dictionary would look like.  You would need a position for each 94 bit string.  Frank and each string you would need a hundred and fifty bits.  So you would need.  150  * 150 choose 25. Is anybody have any idea how big this number is?  pretty big  it's 3 bajillion bits. This this is up with this is 1 bajillion. I think.  This is more data than we've we have it on this planet in all of the computers.  Together this is like many many much much much more. So it doesn't make sense to store this dictionary right also, take a really long time to look through it.  Okay, so  they had there's not enough memory and all the computers in the world to hold. This is not a good way to proceed. So can we still use this technique without storing all of that data?  Just looking for a yes or no answer here. Yes. How do we do it?  With algorithm. We're going to have a algorithm that input a binary string and outputs. Its position in the list. You don't have to store the entire list. You can just figure it out using an algorithm. These are called ranking and done ranking algorithms.  You have some sort of combinatorial object or some sort of set of objects and a ranking algorithm is a fast way to figure out its position in the list and on ranking you give the position and it tells you what the what the object is.  Okay, so let's look at one possible way to order fix density bit strings.  Okay, it's called Lex order. It's basically dictionary order. But we're we're talking about bit strings here. So in fact we can call a is less than b and Lex order if a is actually less than b as a binary number so you can just converted to decimal and then compare that it so it for example if a is 0 0 1 0 0 1 1 0 and B is 0 0 1 0 1 0 0 1  Then a is left is less than be right.  Maybe this was a big too big of an example.  Let's go by the numerical value Okay, so  I want you all to make a list of all.  Length of 5 binary strings with exactly three ones and enlisted them in lexicographic order ready go.  There are 10 of them.  I'll start you off. The first one is.  latest getting me big again  Good idea. That's what I was kind of hoping.  car washes near me  art  All right, let's so I'll help you out here.  What's the next one?  And then 0 1 1 0 1 0 1 1 1 0.  10011  10101  1  0 1 1 0 1 1 0 0 1 1 1 0 1 0 1 1 1 0 0 is all you all got.  Yes.  Okay, so  I have them here.  I was looking I was cheating.  Okay. So the next order of business is we want to come up with a ranking a nun ranking algorithm. And the position that we're going to get is the position in lexicographic ordering starting at 0 K. Now. I'm going to start my list of zero. I know that I'm shipping from before but it makes sense in this one.  Okay, so a ranking algorithm in this particular example will take a string a binary string of length and width K ones you're going to have to feed it and Inkay to know what you're actually ranking, right? You need to know what kind of object it is. That's important. It just kind of like for all these other algorithms. You need to know what it is. You're in coding and what it is you're decoding.  Okay, and then it gives you a position and then you need to on Rankin algorithm where you give a position and it will give you a string and you need to know the position and end in K.  Okay. So here is the ranking algorithm.  So you're giving a string? Okay. The first thing you do is you write out the number, so I guess there are nine.  Let's hear you write out the numbers 8 through 0 in decreasing order. Okay underneath  8 7 6 5 4 3 2 1 0  okay.  So you write down the numbers and -1 down to zero under each bit. Remember we're going to be given n&k. So you know what these are.  Can you write the numbers K down to one under each one?  I need one in this thing.  Okay, so that's four.  3 2 1  okay.  then what you do is  you take each one of these and you add them together 7 shoes 4 + 423 + 222 + 0 choose 1  70 + 435 + 4 + 1 + 0  3040 Wright  from the k k is for and is 9 K is for  and this is a 9 bit string with four ones.  Okay, so  I have a question.  1220  it's how many ways can you choose a two element set from a one element set?  0 choose 1 is 0 whenever you have a smaller number on top 0  okay, so I went I went ahead and print it out all of the length 9 binary strings with exactly four ones in lexicographic order.  Here it is.  I know it might be small to see but if you look at 40, there's our guy.  Same one. Okay. So let's do another example.  Okay, give me a length of 9 string with four ones.  that one  that's going to be the last one, right?  Should be. Okay. So do the same algorithm 8 7 6 5 4 3 2 1 0.  4321 +847-236-256-2521  I choose one.  What's 8 shoes for 70?  70 + 35 + 15 + 5  Is what?  125  pretty crazy night  who's going to be on the homework? Yeah.  It's not so bad, right? This is algorithm really really hard.  Pretty easy, right?  There is I'm going to maybe wait to do the explanation.  or I don't know I was planning on not even do any explanation, but maybe I should maybe we can do that on Thursday so I can prepare it a little bit better have depends on a simple concept that maybe we could I could just give you an intuition for  I know this is hard to see but this isn't lexicographic ordering which means that all of the strings that start with 0.  Come before all of the strings that start with one.  right  right  And so how many strings start with 0 we actually did this the first week remember how we counted Pascal's identity. There are eight shoes for  Strings that start with 0 right because you're just kind of taking that bit away and you have eight bits left with four ones to count. So, you know that if it starts with a one it's got to be above 70.  And this is this is sort of the the reason it goes through.  Okay, let's do one more example and then we'll do on rank. Okay 1 0 1 0 1 0 1 0  8 7 6 5 4 3 2 1  Oh, I need one more 00.  And then 4 3 2 1 we get a choose 46234 choose to to choose one. It's 70 + 20 + 6 + 2 is 98.  And then we'll just make sure 98 is that one?  Okay good.  Okay, so let's move on to the on Rankin algorithm.  Does anybody have any ideas about how to unranked a position?  Yes.  If you guess no.  You make some guesses, I guess.  Think about each one of these positions is a sum of binomial coefficients, right?  in every case  right  And the first one is something choose for right you can kind of convince yourself of that by the algorithm right before is the is going to pair with the highest number rank. So really what you need to do is find the biggest number choose for that's less than the position.  Here's a little bit more detail.  So you given a position p?  Define the largest X such that X choose K is less than or equal to pee right then you subtract it.  attract, excuse K frumpy or from our  and then you decrement K and you keep on going until you reach the end. So I'll show you how it works with.  on ranking 100  So what's the biggest number choose for that's less than a hundred. Well, let me just give you the the sequence of numbers to us for what we have for tooth for.  I mean is use a different thing here. We have four choose for it, which is what 1 5 choose for is 562 + 4 is  15 seven shoes for is 35/8 shoes for is 70 and 9 shoes for is 126.  Okay, and I was just assumed that you have access to a calculator or Google Calculator or Wolfram Alpha to do this kind of thing. Okay.  8 is the biggest number when you choose for?  You get a number that's less than a hundred saw run ranking a hundred.  So we have eight shoes for  Okay, so then we take so I guess how did I do it in? The previous thing I said R is equal to 100 x is equal to 8 so then I say ours now equal to 100 - 8 choose 4 which is 100 - 70  Which is 30?  Oh, I have K is equal to 4 and K is not equal to K - 1 so it's equal to 3.  So then at the next step I say what's the biggest number choose 3 that's less than 30.  We have three choose three, which is one. We have four to three witches for we have five choose three, which is 10623 is 20 + 723 is 35.  so  this is going to be our first number eight or second number is going to be 6.  I'm not being very organized here. But let's just go to a new thing. So now our is equal to 30 + K is equal to 3. So then you do or is equal to 30 - 623 which is 30-20 which is 10 K.  K is now equal to 2  Okay, so what's the biggest number choose to that's less than or equal to 10.  Well, we have that 5 choose 2 is actually equal to 10.  05 is going to be our next.  next number  and then  are now is equal to 10 K is equal to 2.  and then you say our is eating out equal to 10 - 5 choose 2, which is  0  and K is not equal to 1.  Now it gets a little tricky. What's the biggest number when you choose one you get 0-0 choose one.  Hey Sonny, we have zero to one.  0  okay.  020 is 1  yeah.  Okay. So what were the numbers I got?  8 7 6 5 4 3 2 1 0 I got a choose 46235 choose 2 and 0 to 1. So that's where I put the ones.  right, and so if I go back to  100  1 0 1 1 0 0 0 0 0 1  Okay, so  there's there's a little bit of this on your homework. I think it would be helpful to to use this.  This guide as a practice see if you can drink some random numbers. See if you can rank some random bit strings of length 9 with four ones.  Sure.  Okay, so if your position is after 70.  I had to put that.  But let me let me see if I can do it like a better explanation here. So we know that nine shoes for  9 choose 4 is actually equal to 126 and that's why I stopped at 1:25 because we started at 0 so nothing is going to be nothing is going to have 9 as the first choice, right? The First Realty possible choice is 8 right?  so  8 choose  8 choose 4 is 70  right  and 8 choose 4 if they choose for is your biggest whatever choose for less than your position. That means you're on this side right eye means you're bigger than 70.  That kind of makes sense.  Like for example, we chose 100.  And the biggest number choose for was a choose for right and and another way you can see that is because it was bigger than or equal to 70 if it's smaller than 70 then the biggest number would be 7 or 6 or something like that.  But notice that everything starting from 70 starts with one and everything before 70 starts with 0.  so that really gives you a sense of  why is there and why why does it stop at 70 it's because there are eight shoes for many of these.  And then it kind of keeps on decreasing and then you can kind of a curse on this by just deleting that first zero and doing the same process on a choose 4 instead of 9 to 4.  Because now the ones with the second one start here.  Right at 36 right now at 35, which is 7 choose 4.  Right, you can actually really get a sense of where they are by looking at this list, but good question.  So let's let me finish up this.  This idea here.  What you do? If you take your Winner's List you and code it right and then you returned the rank of the binary string, right?  You take whatever position in binary you unranked it and then you look it up in your strength. And now you don't need that long 3 bajillion list of numbers because we can unranked and ranked quickly right doesn't take so long. It only takes linear time with the size. Now we can do it at 94 bits with now I can hold 87  Okay, so  Are there any questions?  So we move on so I want to introduce kind of the next topic of encoding that we're going to look at because I just wanted to kind of show you the ASCII characters and stuff like that.  And just to kind of remember to remind you.  About how this works.  Okay.  So let's suppose that we have four characters a b c and d and we wanted to encode them with bits.  How would you a code the word c a b b using this tree?  How do you fear are the this is the encoding. How do you read it on the tree?  To figure out what it is. It's encoding is you start from the root and you follow the path to the vertex. So what's the encoding of B? Will the path is 0 1  Okay. So which one of these is it?  Ipsy right  and you can just kind of split it up into pairs 1 0 0 0 1 0 1 0 1  okay.  so  this is the ASCII table. This is a bunch of different characters that you can use and it uses eight bits of information for each one. So  this is nice because it's a standard thing that a lot of computer software uses and there's kind of an extended ASCII code that  that actually uses it still uses eight bits.  But I guess what you should notice here is that all the first bits here are all zeros so you can get even more by setting it to be equal to one. Just wanted to show you this because we were talking about it a lot in the previous example in this is sort of the standard way to to encode letters.  so  let's think about data compression again in terms of maybe like a a gene genome code right with atc's and cheese. In fact in the 1990s. They used to ASCII characters to store. This. Is anybody have any idea how many base pairs there are in like a single gene or a single chromosome. It's like billions right or trillions myself. You're going to run out of space really fast instead.  At some point they switched it to two bits per character and you saved, you know, you've made your story you divide of your storage down by a factor of 4.  Okay. So this was just the ask you stuff. I want to show you. All right. So next time we're going to look at another way to encode strings like this. So  see you all on Thursday. "
+}

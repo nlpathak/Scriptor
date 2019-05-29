@@ -1,0 +1,491 @@
+{
+    "Blurbs": {
+        "1 Right, and this is a bit of a 9 bit string with exactly four ones. I get 9 because I put a a space between every Soldier. And I got four because that's the number of dividers. I need to kind of separate out the cats. Okay, so let's let's recap what it what do we have so far? The number of ways to put in soldiers in 2K ": [
+            2996.4,
+            3037.0,
+            68
+        ],
+        "1 another way to think about it is For each eye for each variable replace it with the current variable minus one. and then replace the that means that you would replace the end with n minus k It's basically like we've already put one soldier in each one of these castles. So we've taken away case soldiers from our army and now we just have to figure out how ": [
+            3592.8,
+            3631.9,
+            81
+        ],
+        "4 to x 5 to x 6 so I get 64 bits for the entire message, right? If you compare that to fixed-length and coding while there are seven letters, right? So each letter has to be represented with three bits minimally, right? And so the filings will now be three bits times the number of letters, which is 24 to get 72cc. You got a big savings here from ": [
+            1438.4,
+            1474.5,
+            33
+        ],
+        "And then this guy is I just try another Rook one again. Sorry. I'm getting a little. No, but this is a good kind of way to think about solving problems. Right turn it into another problem, you know pick a pick a random sort of solution or a random representative of something and see how you can unpack it. Right and now we have this nice Soldiers with castles ": [
+            3425.1,
+            3454.3,
+            76
+        ],
+        "Encode all of the base pairs of a DNA genome or something. Okay, so that's fixed length encoding today. We're going to talk about variable length encoding what does that mean? If the symbols are roughly evenly distributed in your message then fix things and coding works great. But if you know that certain object will appear or certain characters will appear more than others then it's better to use ": [
+            212.5,
+            245.1,
+            3
+        ],
+        "I build this code? The first thing you do is order the letters by their frequencies in decreasing order. and the tree just to give you a a sense of what's going to happen. We're going to build the tree up from the leaves up to the root. Okay. So remember a tree last time the the farther down you are the longer the bit string is right because you ": [
+            885.6,
+            921.8,
+            21
+        ],
+        "I know that since I got my letter I just start back at the root. Frank and I got zero zero zero and you get a e and so on right? The next one is 1101. So that's a a and then the last one is one is zero. So that's app. Okay any questions? So why is my ambient War? Oh yes from the original hear this from this. ": [
+            1273.2,
+            1333.3,
+            30
+        ],
+        "I'll tell you which is which string this corresponds to. You put a big one in between each Castle. And then you put a zero on each night. That kind of makes sense. Okay. So this would correspond to the substrate the string 0 0 1 0 1 0 0. Okay. So this is like pudding. Number of castles -1 right you put a divider in between each Castle. So ": [
+            2168.8,
+            2219.0,
+            49
+        ],
+        "Lee kind of K - 1 ones and zeros, right? I mean These are just characters. These are symbols. You can change them around and it doesn't change the number of objects. Okay. Exercise, let's say I have five castles and 10 soldiers how many different configurations are there now? Because you guys are good. 14 choose 5. Where does that come from? 14 choose 4 write thank you. Where ": [
+            2473.9,
+            2547.9,
+            57
+        ],
+        "Okay. Good afternoon, everyone. Does anybody have any questions before we begin? homework or lecture What's up? I think so. Is it? I don't know. Did we make did we make it do on a different day this this week? something awful was that assignments Do on Monday? Yes. Oregon Alright, so today we're going to wait. Where's my? haha Okay. Today we're going to do some more things about ": [
+            18.1,
+            145.5,
+            0
+        ],
+        "So let's say I have five different nights and three different Castles. How many ways can I put the knife in the castles so that they defino to defend the castles or if they just want to visit or I don't know. How many ways. Can you do this? Are all jumping on the bandwagon? Okay. What's the reasoning here? What rule are we using? right Each night has three ": [
+            1844.2,
+            1903.5,
+            43
+        ],
+        "So that means that the first Soldier has xcacel statues from II Soldier has x -1 castles shoes from the third one has x - 2 x - 3 in 1 Okay, each box has at least one ball. this one It's tricky to do we've kind of seen it already I think maybe in the first homework, but essentially you have to do some sort of inclusion exclusion to ": [
+            3986.5,
+            4017.6,
+            90
+        ],
+        "Speech? You can see that he is the most. frequent, right because it's like in almost all the words and even even so you can kind of see that he and a and o and I not really so much of you but you know, you can see that the valves come up a lot. So he is 12% and then consonance like t&s and are these are pretty popular ": [
+            285.4,
+            315.8,
+            5
+        ],
+        "We can do this in 7 shoes to 21 ways. Let's look at another example. What if I gave you this? 1 2 3 4 5 6 7 what would this correspond to what distribution of soldiers with this correspond to? What all you have to do is put the castles the three castles. On either side of the ones so there should be a castle. I don't can't draw ": [
+            2243.4,
+            2287.2,
+            51
+        ],
+        "a castle. I guess like this. And then like a rook. Okay, so this guy gets no soldiers, right? This guy gets three soldiers. And this guy gets too. Text Renee Jackson in the great thing about this bijection. It's easy to go from the the soldiers and castles to the binary string and it's also easy to go from the binary string to the soldiers. And that's what makes ": [
+            2287.2,
+            2336.3,
+            52
+        ],
+        "a good bijection any questions. Okay, let's move on to a few more examples. Okay, that's what we just did. This is just another example. Yes. I can come up with a bijection. That's that's hard. It's not always easy. You know, there are open questions out there where we know for a fact that these two sets of objects are equipped have the same number of elements. We don't ": [
+            2336.3,
+            2382.6,
+            53
+        ],
+        "a natural and coding. Or maybe like think about it this way. Does 5 choose 3 count another type of? Set of objects. with free ones Okay. So what we plan to do is come up with a bijection from the set of all fix density bit strings with this set of three element subsets my prayers. We already did that. Okay. Yeah, you just map it to the give ": [
+            1634.8,
+            1716.5,
+            38
+        ],
+        "a variable length encoding where letters that occur more frequently should be encoded using shorter strings. Morse code so here are the frequencies of all the letters in the English alphabet. These are rough frequencies about about how often they appear in. I don't know. I don't know what they did maybe like common messages or is this text from a book or just coming out in in common common? ": [
+            245.1,
+            285.4,
+            4
+        ],
+        "all have names right there distinguishable and the castles are labeled. How many soldiers can I if I have an soldiers in X castles? How many ways can I distribute the soldiers in the castles? We've actually already seen this right. I'll just start filling it in. This is X to the end. Right? We kind of saw this on the on the first slide when we started this topic ": [
+            3898.3,
+            3926.9,
+            88
+        ],
+        "and bars method give us two more counting recipes castles and boxes. Soldiers and balls we already did that. Okay, are there any questions? Okay. Well next topic probability will start that on Tuesday. ": [
+            4200.0,
+            4220.7,
+            96
+        ],
+        "and then we can change this soldiers in castles into a binary string and we can count the binary strings. We also take a binary string turn it into a solution to this. Right so we might have now now we have bijections between now three types of sets of objects, which maybe now you're saying yeah, they're all pretty much the same but at first glance integer equations binary ": [
+            3454.3,
+            3479.9,
+            77
+        ],
+        "are non-negative integers. How many solutions does this equation have? Okay. Ready go. So, of course, you know that the those each one of those A's and B's can never be bigger than 10 and can never be smaller than zero. Okay, so there are a finite number of solutions. They could be zero. Did anybody get 286? Yeah. 13 choose 3 good Okay, so let's let's try to unpack ": [
+            3162.6,
+            3329.2,
+            73
+        ],
+        "at each position found in s okay, and then F inverse will be you take a binary string and you make a set out of it by which. Ones are in each position. Okay, so you we already kind of talked about this, but this is a good by Jackson. okay, so just to kind of keep that in mind and we're going to explore another type of problem Okay. ": [
+            1811.4,
+            1844.2,
+            42
+        ],
+        "at least one soldier. This is the one that we have seen before 2, right? What about at most? Each Castle has at most one soldier. Let's but this one only works if you have way more castles and soldiers, right? So let's say I had like 10 castles and three soldiers but each Castle can have at most one soldier. So basically putting a soldier in a castle is ": [
+            4059.0,
+            4104.7,
+            92
+        ],
+        "be in if all the binary strings of this sort were in lexical lexicographic order? You guys remember the the ranking algorithm? Start this way. And then what do we do? How many ones are there for so4 3 2 One it would be 11 shoes for. Plus 7 choose 3 + 6 choose 2 + 0 I didn't bring my calculator today. This is this is another interesting kind ": [
+            2634.8,
+            2697.8,
+            59
+        ],
+        "be positive integers now, how many ways can I do this? Well, just turn the problem into the soldier problem. If they all have to be positive that means none of them can be zero, which means you have to have at least one soldier in each Castle, right? Which means which we already know how to count. They said that's going to be what and -1 choose K - ": [
+            3557.6,
+            3592.8,
+            80
+        ],
+        "because B is a prefix of di. So whenever I write D. I don't know if I just wrote a b in it. does bad This one here is good. None of the letters are prefixes of the others. So I know whenever I read a certain thing I know exactly what letter it is if there's three ones. It's a d if there's A110 it C10. Answer, this is ": [
+            675.0,
+            704.7,
+            15
+        ],
+        "because we're expecting to use it a lot and things like Z be long because we don't really need to worry about it so much. Okay. So this is the morse code you can see that he is a single. . Why is two dots right? These are kind of the shorter ones and things like q and z are really long. So the length of a. Is one unit, ": [
+            347.4,
+            380.8,
+            7
+        ],
+        "before? But I have to have at least one soldier in each Castle now. Now, how do I do it? Remember if I don't have the restriction and it's 14 shoes for but with this restriction there are going to be fewer combinations. So how would you go about figuring this out? Sorry, so instead. OU's az01 as a divider Right because you need to have at least a zero ": [
+            2750.7,
+            2814.0,
+            62
+        ],
+        "can decrypt it into all of them, right? Is that good? Now that's bad right is really bad weed if we want to know what you're saying and we want you want we want you to be able to say anything you want. Right? So we want something for every single possible combination Okay, so What do we put here? This is called ambiguous and coding because it's not. I ": [
+            578.7,
+            612.9,
+            12
+        ],
+        "castles is This right and + K - 1 right you guys are like the stars and bars, right? You have enstars and K - 1 bars in your choosing K - 1 bars. Now the number of ways to put in soldiers in K Castle such that eat Castle each Castle must have at least one soldier is well if you think about it this way. It's easy to ": [
+            3037.0,
+            3063.2,
+            69
+        ],
+        "choices right Arthur has three choices Lancelot has three choices. D'Artagnan Musketeer D'Artagnan miles and this is a really easy counting problem. Right? So I see if you've taken this the first week of this class, right? So just to get in in the in the mind-set but think about these nights, but they all have different colors. They have different names their different nights. Okay. Let's change the problem ": [
+            1903.5,
+            1948.7,
+            44
+        ],
+        "could come up with it on my own. I don't know but it's it's really cool. Okay, so yes, but this one here would be that although this would be all the five soldiers are in the third Castle write 110000. Okay, so often you call this problem stars and bars. That's kind of the colloquial name and you find it in in the textbook and it's because you are ": [
+            2405.7,
+            2438.0,
+            55
+        ],
+        "do it So what's skip it for now? Let's go to hear. Okay. Now the soldiers are unlabeled, right? This is kind of like what we've been doing this class this particular lecture, but the boxes are labeled the castles are numbered right? So this right here is that that that first result that we got n + x - 1 choose X - 1 right now each Castle has ": [
+            4017.6,
+            4059.0,
+            91
+        ],
+        "does that come from? Well, there are four dividers. 10 castles unassuming 10 soldiers So you get 10 + 424? one of their exercise What does what binary string would this configuration map to or what binary string is associated with this configuration? Okay, good. That one was pretty easy. I guess good night. Okay, so let's look at the same one. Throwback to Tuesday. What position would this string ": [
+            2547.9,
+            2634.8,
+            58
+        ],
+        "each Soldier. Should we enter the X rent? Way it is. Oh, yeah, cuz each Soldier has extra races yet. Shouldn't doubt myself to the end right choices each box has at most one ball or at you at least each each Castle has that at most one soldier? This is permutations. Because the first saw most one means that you can't have to you can't have more than one. ": [
+            3926.9,
+            3986.5,
+            89
+        ],
+        "encode it with a smaller size means that it has less entropy than like a very random code, right? Cuz a very random code was going to have like almost equal amounts of everything. Maybe we'll talk about that a little bit more. Okay. Let's move on to the next next thing. back to Counting We just didn't want to overload you with counting the first week. So we save ": [
+            1513.9,
+            1542.0,
+            35
+        ],
+        "encoding and then move along to some more counting techniques and that'll kind of bring us to the end of the lecture. So that's next week. We'll start fresh with probability and you'll see. Probability has a lot to do with counting and and coding and algorithms and all the stuff that we've learned so far. Okay, so There's certain types of encoding algorithms or encoding techniques that use a ": [
+            145.5,
+            181.1,
+            1
+        ],
+        "fixed number of bits per object. Right? And we saw that all throughout last lecture. Remember each one of those competitions that we were trying to encode all had the same amount of bits that used it. Right? We saw the ASCII characters all used the same amount of bits right to do all the characters and we saw that may be using two bits you can use you can ": [
+            181.1,
+            210.8,
+            2
+        ],
+        "for this class we're basically just going to go through an example. I'm going to give you more of a sense of how it works. Okay. So let's say that you have a file with the following letter frequencies. The goal is to use a code that gives shorter coached the more frequent letters in order to minimize the number of bits. You store the file. Okay. So, how do ": [
+            862.7,
+            885.6,
+            20
+        ],
+        "frequent and things like Z or Beck's orc you are really infrequent. Right? So this is the date of that were given and we expect that people are going to speak English in the same way as we do. So we're expecting these frequencies to be relatively accurate. So we would like is for the whatever we use to to denote e we would like for it to be short ": [
+            315.8,
+            347.4,
+            6
+        ],
+        "good. What about this one? when I say bad and good I mean Is every and coding? Decodable. I mean is this which one of these are ambiguous? We already showed this one is my only the first one these ones are fine, right? Yeah, we start reading from the left. Oh you mean if you just look at snap took a snapshot in the middle nowhere assuming that we ": [
+            704.7,
+            761.3,
+            16
+        ],
+        "have a bijection. We don't have a nice bijection between them. So, you know, it's okay. It's still open area of research to do this for more complicated types of objects. I mean, this one is just really elegant is beautiful. Right? Whoever came up with it. You know, I thought would be really smart or or maybe it's simple and if you had gave me enough time, maybe I ": [
+            2382.6,
+            2405.7,
+            54
+        ],
+        "have a nice property. Is that the two most common letters are short and the two most uncommon letters are really long. Okay, so Now how do you decrypt a message to give you guys a few minutes? Talk it over with your neighbor decrypt this message. I'll give you a hint when you start here start at the root. I didn't spell out a word. death right So let's ": [
+            1132.6,
+            1247.5,
+            28
+        ],
+        "have a starting point that's important. Okay good. Bad good good. Okay, we're all in agreement here. Okay, so Huffman and code Huffman code is a way to get this variable length and prefix free all the things that we want. So that's, free. And it also is based on the frequency table. So that means that more frequent words will have shorter. Codes and less frequent words will have ": [
+            761.3,
+            805.2,
+            17
+        ],
+        "have to worry about it. But if you're interested this this is where they come up. And then on this bottom row are these things called partitions integer partitions is basically how many ways can you break up an integer into smaller parts kind of like the way that you can think about some of these things? Okay, so this is what it what do we put out here stars ": [
+            4174.5,
+            4200.0,
+            95
+        ],
+        "if I wanted to figure out what position they're in I can take that number and unranked it into the binary string and then convert that binary string into a configuration can use these things in and we'll talk a little bit more about this when we do probability and sampling. Okay, let's change up the problem just a little bit. What if I had five castles 10 soldiers like ": [
+            2722.3,
+            2750.7,
+            61
+        ],
+        "if you have a equation with K variables is equal to n then an ace or non negative integers. Then you have the same thing. We had before n + K - 1 shoes and or k - 1 choose K - 1 is equal to n + K - 1 shoes and okay. What if I What if I put the Restriction that the ends in Ace have to ": [
+            3521.0,
+            3557.6,
+            79
+        ],
+        "in between each one. Okay, that's good. So her suggestion was instead of using a one as a divider use a 01 as a divider cuz you know that you need to have a zero in between each one. You have at least one zero in between. There's another way to think about it. Put 5 how many castles do we have? 5 mg of 10 soldiers but five of ": [
+            2814.0,
+            2843.2,
+            63
+        ],
+        "inside take a break while we figure out how to distribute the rest of the other ones. So you just this is just going to be write the original one was n + K - 1 choose K - 1 but we've taken k out of the the Army for taking K soldiers away from the Army. So that's just what you're left with. Yes, yes, we're doing that assumption ": [
+            3679.3,
+            3709.5,
+            83
+        ],
+        "is 7 shoes to which is equal to 21. Where do you get seven? Where do you get to write have five nights and three castles? Where is it? 7 in the two come from? Mike Tyson just like moving dividers over. exactly Okay, let's just do an example. Okay, let's I have this arrangement. I claim that there's a bijection between these arrangements and these 7bit fix density string. ": [
+            2131.5,
+            2168.8,
+            48
+        ],
+        "is actually all the lengths 14 V strings with exactly four ones such that no two ones are touching know and also I can't start or end with a 1. yeah, but you can think about right you can think about the This is another great thing about these bijections is some certain quality of your configuration. Like at least one soldier has to be in in a castle corresponds ": [
+            2908.9,
+            2939.8,
+            65
+        ],
+        "is the shortest I could possibly be right. Okay. So under the Huffman encoding the output of this of this message, right this message that we are trying to encrypt. Well, I have one a right in each a has four bit. So that gives me for I have to be so four times to I have three C's three times to I have 4D 3 x 4 3 x ": [
+            1404.2,
+            1438.4,
+            32
+        ],
+        "it's like super hard. It's just that we would have to just do a lot more stuff. But if you're interested in that you can look up the 12 fold way. There's things called Stirling numbers of the second kind. instead of like these parentheses Sterling numbers look like this excuse n and then this is X and factorial. Okay. So this is like this new thing that you don't ": [
+            4144.7,
+            4174.5,
+            94
+        ],
+        "just go through a few things here. So you started a zero start at the root go down to zero and then you have another zero. And you have another one? So now I know that the first letter is a d notice that I don't need any, here that's important. I'm saving space saving kind of as much space as you possibly can I don't need a, there now. ": [
+            1247.5,
+            1273.2,
+            29
+        ],
+        "kind of follow the minor Eastern question. No. No. Yeah, there's an accident B, and there's a minnow middleby. Rights of the ones under the ones at the very bottom are going to be the the ones that are the the least frequent, right? The ones that are the most rare should be at the at the bottom of the tree the ones that are really frequent should be close ": [
+            921.8,
+            957.1,
+            22
+        ],
+        "like choosing that castle, right? Do you have X castles to start with you choose and of them to put one soldier in? And then the rest of them here. Okay, so this is kind of like a nice map to see where all these different things come up. And then we have labeled and unlabeled unlabeled in unlabeled. This is beyond the scope of the class. It's not that ": [
+            4104.7,
+            4144.7,
+            93
+        ],
+        "longer codes and so we might be able to save some time or save some space I guess. Okay, so On average number of bits required to encode to get a message will be shorter than if a fixed length encoding scheme, which is sometimes kind of hard to believe right kind of think. Well if I have this many letters I'm going to need this many bits per letter ": [
+            805.2,
+            830.4,
+            18
+        ],
+        "lowest frequencies, which is C and this tree. Then you add them you get 5 and then you rearrange. questions so far bass and now the two lowest Ari and D. So you put those together you get eight you rearrange. Now that you Louis are the F and that other tree to put them together you get 10 you rearrange. He put together the eight in the six. Give ": [
+            1003.6,
+            1036.8,
+            24
+        ],
+        "me a range and you put those together. And then the route is the number of the route is going to be the actual number of your the size of your message because these were all the frequencies. Or if they were percentages, then the route would have a value of 100 or whatever is like that. Okay. So this is the this is what we built now in order ": [
+            1036.8,
+            1068.1,
+            25
+        ],
+        "nek. Dejection between the K element subsets of n elements and lengthened binary strings with K once so let's say S&K is the set of all sets subsets and bank is the set of all fixed density binary strings. Okay. So what you want to do with a bijection is if you have a specific set in SNK, you want F of s to be the binary string with ones ": [
+            1780.3,
+            1811.4,
+            41
+        ],
+        "now. now suppose that I'm just some King and I don't have any regard for for my nights. They're all just soldiers to me. They're all the same. I don't really care who they are. I just want to know how many of them are going to be in each one of my castles because I want them to be defended. Let's say they're all equal strength equal everything and ": [
+            1948.7,
+            1977.7,
+            45
+        ],
+        "number comes from. It had to have come from somewhere. Right? What is 21 what we're going to do is we're going to describe a bijection between each combination of knights and castles. All 7 bit binary strings with exactly two ones. I know how to count these right. Do y'all know how to count these? 7 choose to write this is 7 bit binary strings with exactly two ones ": [
+            2101.5,
+            2131.5,
+            47
+        ],
+        "of level by level by level you can start with a configuration turn it into a binary string and then rank that binary string and this would be a way to To store this information of where my nights are, right? What if I'm some King and I need to know where my nights are I can store it in a single number by using this ranking algorithm. And then ": [
+            2697.8,
+            2722.3,
+            60
+        ],
+        "of them are unsolvable and there's no there's no way to really saw them in general which is kind of like this some cool weird result linear equations. There's no exponents. There's there's just numbers. Okay, and there's no coefficients either. Let's just say that they're just the things. So consider the equation A + B + C + D is equal to 10 or a b c and d ": [
+            3130.1,
+            3162.6,
+            72
+        ],
+        "old castle again. And then putting for soldiers here. And then this Castle this is like the Rook. Is that a good Castle? I kind of want to draw like the Disney Castle, you know. And then it has like flags and stuff. Right, and then it has like the the thing that kind of goes around and then like the big The Big D. There's only two guys there. ": [
+            3370.0,
+            3422.6,
+            75
+        ],
+        "organizing five stars and two bars were the bars of the dividers and the stars of the soldiers. Okay. so in general if I want to put n indistinguishable soldiers in 2K different Castles, I could instead count the number of ways of ordering K - 1 bars, right? Because you need a bar between each console and and stars because each star is a soldier or equivalently right bijective ": [
+            2438.0,
+            2473.9,
+            56
+        ],
+        "put your dividers and you need you know, that these are the only possible places that you can put your dividers right because you can never put two dividers in between two soldiers because that will talk that will represent an empty Castle. Frank so I just picked my dividers to say go here here here and here and that will correspond to 0 0 1 0 1 0 0 ": [
+            2970.4,
+            2996.4,
+            67
+        ],
+        "rent. What's nice about this is because every leaf you terminate at you know, that whatever the code is will never be a prefix of another code that would that would mean that that there would be another vertex down there. Right? So having the letters as the leaves eliminate that scenario and you can you can check for yourself. None of these are prefixes of another one. And I ": [
+            1100.6,
+            1132.6,
+            27
+        ],
+        "right the dash is 3 units and you need a space between the parts. Of the same letter to be one unit. But you also need the space between letters to be three units and the space between words to be seven units. Okay, so you're using basically, let's say five different things right? You're using the. Where's my pen? Turn it off and turn it on again, right? always ": [
+            380.8,
+            428.3,
+            8
+        ],
+        "sat here. Good, this is good. This is something that you should have learned, right? This is 5 choose 3. Anybody know what 5 + 3 is 10 good? Okay, so so just like we like to encode things with binary strings. What's a natural way that we can encode these subsets to Binary strings? Is there like a specific set that we've maybe seen before that is gives us ": [
+            1582.6,
+            1634.8,
+            37
+        ],
+        "see that you have and -1 positions you can choose from because there's a position in between each Soldier. And you have to choose K - 1 of those positions and sent this when you get here. Okay, so let's look at another. application of stars and bars dear Fantine equations. Are you guys ever heard of those before? No. Okay, so they're just basically equations with however many variables ": [
+            3063.2,
+            3103.3,
+            70
+        ],
+        "should be the K - 1 is the number of pluses so you have K variables. We have K - 1 + as we have six variables. We have 5 plus so if you give me a a solution to this with maybe you say I don't know. 2 + 10 + 20 Snuggie such a big number 5 + 5 + what is that? I need a okay. So ": [
+            3753.6,
+            3792.3,
+            85
+        ],
+        "so it's this is a nice bijection cuz it's really easy to do is algorithmic its it step-by-step and it's also really easy to reverse is also reversible. So if I told you that I had 01110 you would know that it was from 2 3 4, right? So this is a bijection between the I mean, this is not just five and three it could be any end in ": [
+            1748.8,
+            1780.3,
+            40
+        ],
+        "some for you this week. I know that some of you are excited for that. Now that you all have matured over the past six weeks and you know how to count you struggled you. You succeeded. so Some sets contain elements not necessarily binary strings. How can we encode these types of objects? Okay. Well, it depends on what they are how many three elements subsets are in this ": [
+            1542.0,
+            1582.6,
+            36
+        ],
+        "strings and Soldier Replacements don't necessarily seem like they would have anything to do with each other. It's kind of the magic of this type of man. Okay. So in general This Is How We Do integer equations The number of stars or soldiers is the is the actual constant? And the number of bars or castles? Is the number of variables? Okay. So in general if you have K, ": [
+            3479.9,
+            3521.0,
+            78
+        ],
+        "that's sort of how we've been approaching it especially last lecture. So we're going to use a binary tree for encoding and decoding the different trees may be used for different different messages because different messages may have different frequencies of letters, right? Okay. So hey, this is from the book and you guys can can look at it. I think that it's a nice. Description of the algorithm but ": [
+            830.4,
+            862.7,
+            19
+        ],
+        "that, you know exactly what which words are talking about. Is it possible to do this without commas? Okay, so I kind of free code is encoding scheme in which no concatenation of two code words contains a valid code work that overlaps both. Okay. So how do we achieve this? well This is the one that we had before. This is bad. One of the reasons it's bad is ": [
+            647.5,
+            675.0,
+            14
+        ],
+        "the set those in those numbers in the set will be the indices of the ones. I've already talked about this a bit right? Just wanted to reiterate it because we're going to kind of do it again in a different way. So 4123 you get 11100 if you're indexing them that way. 124 is 1 1 0 1 0 1 2 5 would be 11001. right and so on ": [
+            1716.5,
+            1748.8,
+            39
+        ],
+        "there's no difference. Now. How many ways can I fill the castle? Can you guys a few minutes? Now I'll put you all against each other. I'd like to ask the audience. Right. Did you guys ever seen want to be a millionaire? Okay, 21 is kind of winning 5 choose 3 Okay, so did somebody write them all out? The answer is 21. Okay, let's look at where that ": [
+            1977.7,
+            2101.5,
+            46
+        ],
+        "there's this really nice. Table called the twelvefold way. Okay, and It's a it's a nice kind of summary of what we've done in this class so far, honestly, and the way that you think about it is in terms of functions or in terms of balls and boxes or if you like you could say soldiers. and castles come on. Okay, and if the soldiers are labeled meaning they ": [
+            3853.8,
+            3898.3,
+            87
+        ],
+        "there's three cancel the only to put to dividers in the midst of the soldiers right here. The soldiers have never by number castles is 3 so there are 5 + 3 - 1 equals 7 slot or seven positions where I could either put a soldier or a divider, right? Then I choose two of those positions to be dividers. And the rest of them have to be soldiers. ": [
+            2219.0,
+            2243.4,
+            50
+        ],
+        "this frequency table That's how we built the Huffman tree. Yeah. This is just the length of their they're code code length. probably on the frequencies Right, so, you know that it has to be at least length for but it could be could be deeper. right Yes, like if you how would you how would you? Make it that. Yeah, we could we could do some examples but four ": [
+            1334.8,
+            1404.2,
+            31
+        ],
+        "this or at least kind of how would you go about counting this? Let's get some let's gather some intuition first. Okay. Give me a solution to this problem. The 10 is the 10 soldiers and the variables are the four castles. Right. So if I had a solution to this, let's just pick a random solution 4 + 2 + 2 + 2 That would correspond to putting Force ": [
+            3329.2,
+            3370.0,
+            74
+        ],
+        "those soldiers in the Castle's right? Tell him to go inside the castles and stay there now distribute the rest of the five. You just turned it into a smaller problem. Right, so I put five soldiers. in Enchanted Castle then put the remaining 5 in the castles 505 + 4 choose 4 9 choose 4 Did you have a question or comment? Yes. Yeah, this is actually yeah, it ": [
+            2843.2,
+            2908.9,
+            64
+        ],
+        "throughout the whole. Yeah from now on. Yeah. so Let's do like a very let's do it a concrete example. Okay. So let's say I had a 1 + a 2 + a 3 + a 4 + a 5 + a 6 is equal to what I don't know 50, right? So the K plus one is sort of like the plushies you can think about here, right? I ": [
+            3709.5,
+            3753.6,
+            84
+        ],
+        "to distribute the rest of the army. Okay good. and -1 shoes K - 1 well Let's go back. Okay, so this is non negative integers, right? This is no restrictions castles can be empty right this one. It's like pot only positive integer. So each one of those castles has to have at least one soldier. So just put a soldier in every Castle right? Tell him to go ": [
+            3631.9,
+            3679.3,
+            82
+        ],
+        "to eliminate the spaces. Is there any way to do that? well let's think about This encoding let's say my alphabet is only these four letters a b c and d. And these are what they in code. So, how would I decrypt 1 0 1 0 1 1? Okay, this is one of those rare clicker questions where everybody's right? right They're all that you can decrypt them. You ": [
+            505.1,
+            578.7,
+            11
+        ],
+        "to get the codes you put all one on all the Right side and 0 on the left side. But this is nice because okay. So then how do you decode these? Each letter. How do you decode each letter is you just follow the path from the root down to that letter. So for example C is going to be one one one. Hey, it's going to be 1101 ": [
+            1068.1,
+            1100.6,
+            26
+        ],
+        "to the quality of the binary string. You can never have to avoid the substring 1:1 and you can't start or end with a 1in. So if you can kind of see how these qualities. Try to go back and forth. Okay, one other way to think about this same idea is instead of making. Set a trying to rearrange stars and bars just figure out where you're going to ": [
+            2939.8,
+            2970.4,
+            66
+        ],
+        "to the top which means that their codes are really short. So what we're going to do the two lowest frequencies amb. Prepare them up. And you add there their frequencies together. Okay, then what you do is you think about this whole thing as one? Letter of frequency 3 so now I have to rearrange my list. So the next thing to do is Put together what the two ": [
+            957.1,
+            1003.6,
+            23
+        ],
+        "using this variable length encoding Okay any other questions? But of course is depending on the frequencies, you have to know those before hand, right? Okay. Let's move on to a different thing. I guess. Let me just say one more thing about this. Maybe we'll talk about this when we talk about probability and entropy but Showing that you can put it into a smaller you can you can ": [
+            1474.5,
+            1513.9,
+            34
+        ],
+        "was about to say it's not big Louis. To which one it is. Is that even a word? Because you're not distinct right you can you can encode you can encode two different things with the same code. Not bad. Okay. So one way to do it one way to fix this is to introduce commas, right and then that would or slashes or dashes or something or spaces for ": [
+            612.9,
+            647.5,
+            13
+        ],
+        "what you can do is you can convert each one of those plus is 201. And then fill in however many zeros are in that thing, right? So and then there's your there's your thing. Right? So you basically you're you're choosing K - 1 positions to make sense. Should have you such a big exam? Okay, so Oh, I just rolled over all the animation. That's fine. Okay, so ": [
+            3792.3,
+            3853.8,
+            86
+        ],
+        "why does it have to be 7 units and not 6 units or five units, but maybe you just need to hear the space and and be confident that it was actually a space between words. So, you know, there's a little bit of ambiguity there. Okay, so inefficient coding scheme Morse code was not efficient since we need to store the spaces between the letters or words. We need ": [
+            483.1,
+            505.1,
+            10
+        ],
+        "works yes. Dashes spaces and the space is coming x 1 x 3 and x 7 and get a coat out. Okay, so any questions about this? Okay, let me just see something right here. Okay, so this works. Well it but it's not super efficient, right because you're using all this space between words and and and you just using a lot of time that might go wasted like ": [
+            428.3,
+            483.1,
+            9
+        ],
+        "you want but the Restriction is that the variables all have to be integers. And in this case we're going to have the Restriction that there have to have to be non-negative integers. So this is like the problems we're going to do a pretty easy Once you know the trick but in general deer Fontaine equations are really hard especially if you have if they're nonlinear it is some ": [
+            3103.3,
+            3130.1,
+            71
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_12.flac",
+    "Full Transcript": "Okay.  Good afternoon, everyone. Does anybody have any questions before we begin?  homework or  lecture  What's up?  I think so.  Is it?  I don't know. Did we make did we make it do on a different day this this week?  something awful was that  assignments  Do on Monday? Yes.  Oregon  Alright, so today we're going to wait. Where's my?  haha  Okay. Today we're going to do some more things about encoding and then move along to some more counting techniques and that'll kind of bring us to the end of the lecture. So that's next week. We'll start fresh with probability and you'll see.  Probability has a lot to do with counting and and coding and algorithms and all the stuff that we've learned so far.  Okay, so  There's certain types of encoding algorithms or encoding techniques that use a fixed number of bits per object. Right? And we saw that all throughout last lecture. Remember each one of those competitions that we were trying to encode all had the same amount of bits that used it. Right? We saw the ASCII characters all used the same amount of bits right to do all the characters and we saw that may be using two bits you can use you can  Encode all of the base pairs of a DNA genome or something.  Okay, so that's fixed length encoding today. We're going to talk about variable length encoding what does that mean? If the symbols are roughly evenly distributed in your message then fix things and coding works great. But if you know that certain object will appear or certain characters will appear more than others then it's better to use a variable length encoding where letters that occur more frequently should be encoded using shorter strings.  Morse code  so here are the frequencies of all the letters in the English alphabet. These are rough frequencies about about how often they appear in. I don't know. I don't know what they did maybe like common messages or is this text from a book or just coming out in in common common? Speech?  You can see that he is the most.  frequent, right because it's like in almost all the words and even even so you can kind of see that he and a and o and I  not really so much of you but you know, you can see that the valves come up a lot. So he is 12% and then consonance like t&s and are these are pretty popular frequent and things like Z or  Beck's orc you are really infrequent. Right? So this is the date of that were given and we expect that people are going to speak English in the same way as we do. So we're expecting these frequencies to be relatively accurate. So we would like is for the whatever we use to to denote e we would like for it to be short because we're expecting to use it a lot and things like Z be long because we don't really need to worry about it so much.  Okay. So this is the morse code you can see that he is a single.  .  Why is two dots right? These are kind of the shorter ones and things like q and z are really long.  So the length of a. Is one unit, right the dash is 3 units and you need a space between the parts.  Of the same letter to be one unit. But you also need the space between letters to be three units and the space between words to be seven units. Okay, so you're using basically, let's say five different things right? You're using the. Where's my pen?  Turn it off and turn it on again, right?  always works  yes. Dashes spaces  and the space is coming x 1 x 3 and x 7 and get a coat out.  Okay, so any questions about this?  Okay, let me just see something right here.  Okay, so this works. Well it but it's not super efficient, right because you're using all this space between words and and and you just using a lot of time that might go wasted like why does it have to be 7 units and not 6 units or five units, but maybe you just need to hear the space and and be confident that it was actually a space between words. So, you know, there's a little bit of ambiguity there.  Okay, so inefficient coding scheme Morse code was not efficient since we need to store the spaces between the letters or words. We need to eliminate the spaces. Is there any way to do that?  well  let's think about  This encoding let's say my alphabet is only these four letters a b c and d.  And these are what they in code.  So, how would I decrypt 1 0 1 0 1 1?  Okay, this is one of those rare clicker questions where everybody's right?  right  They're all that you can decrypt them. You can decrypt it into all of them, right? Is that good?  Now that's bad right is really bad weed if we want to know what you're saying and we want you want we want you to be able to say anything you want. Right? So we want something for every single possible combination Okay, so  What do we put here? This is called ambiguous and coding because it's not.  I was about to say it's not big Louis.  To which one it is. Is that even a word?  Because you're not distinct right you can you can encode you can encode two different things with the same code. Not bad.  Okay. So one way to do it one way to fix this is to introduce commas, right and then that would or slashes or dashes or something or spaces for that, you know exactly what which words are talking about. Is it possible to do this without commas?  Okay, so I kind of free code is encoding scheme in which no concatenation of two code words contains a valid code work that overlaps both.  Okay. So how do we achieve this?  well  This is the one that we had before. This is bad. One of the reasons it's bad is because B is a prefix of di. So whenever I write D. I don't know if I just wrote a b in it.  does bad  This one here is good.  None of the letters are prefixes of the others. So I know whenever I read a certain thing I know exactly what letter it is if there's three ones. It's a d if there's A110 it C10.  Answer, this is good.  What about this one?  when I say bad and good I mean  Is every and coding?  Decodable. I mean is this which one of these are ambiguous? We already showed this one is  my only the first one these ones are fine, right?  Yeah, we start reading from the left.  Oh you mean if you just look at snap took a snapshot in the middle nowhere assuming that we have a starting point that's important.  Okay good.  Bad good good.  Okay, we're all in agreement here.  Okay, so Huffman and code Huffman code is a way to get this variable length and prefix free all the things that we want. So that's, free. And it also is based on the frequency table. So that means that more frequent words will have shorter.  Codes and less frequent words will have longer codes and so we might be able to save some time or save some space I guess.  Okay, so  On average number of bits required to encode to get a message will be shorter than if a fixed length encoding scheme, which is sometimes kind of hard to believe right kind of think. Well if I have this many letters I'm going to need this many bits per letter that's sort of how we've been approaching it especially last lecture. So we're going to use a binary tree for encoding and decoding the different trees may be used for different different messages because different messages may have different frequencies of letters, right?  Okay. So hey, this is from the book and you guys can can look at it. I think that it's a nice.  Description of the algorithm but for this class we're basically just going to go through an example. I'm going to give you more of a sense of how it works.  Okay. So let's say that you have a file with the following letter frequencies. The goal is to use a code that gives shorter coached the more frequent letters in order to minimize the number of bits. You store the file.  Okay. So, how do I build this code? The first thing you do is  order the letters by their frequencies in decreasing order.  and the tree just to give you a  a sense of what's going to happen. We're going to build the tree up from the leaves up to the root. Okay. So remember a tree last time the the farther down you are the longer the bit string is right because you kind of follow the minor Eastern question.  No.  No.  Yeah, there's an accident B, and there's a minnow middleby.  Rights of the ones under the ones at the very bottom are going to be the the ones that are the the least frequent, right? The ones that are the most rare should be at the at the bottom of the tree the ones that are really frequent should be close to the top which means that their codes are really short. So what we're going to do the two lowest frequencies amb.  Prepare them up. And you add there their frequencies together. Okay, then what you do is you think about this whole thing as one?  Letter of frequency 3 so now I have to rearrange my list.  So  the next thing to do is  Put together what the two lowest frequencies, which is C and this tree.  Then you add them you get 5 and then you rearrange.  questions so far  bass and now the two lowest Ari and D. So you put those together you get eight you rearrange.  Now that you Louis are the F and that other tree to put them together you get 10 you rearrange.  He put together the eight in the six.  Give me a range and you put those together.  And then the route is the number of the route is going to be the actual number of your the size of your message because these were all the frequencies.  Or if they were percentages, then the route would have a value of 100 or whatever is like that. Okay. So this is the  this is what we built now in order to get the codes you put all one on all the  Right side and 0 on the left side.  But this is nice because okay. So then how do you decode these?  Each letter. How do you decode each letter is you just follow the path from the root down to that letter. So for example C is going to be one one one.  Hey, it's going to be 1101 rent.  What's nice about this is because every leaf you terminate at you know, that whatever the code is will never be a prefix of another code that would that would mean that that there would be another vertex down there. Right? So having the letters as the leaves eliminate that scenario and you can you can check for yourself. None of these are prefixes of another one.  And I have a nice property. Is that the two most common letters are short and the two most uncommon letters are really long.  Okay, so  Now how do you decrypt a message to give you guys a few minutes? Talk it over with your neighbor decrypt this message.  I'll give you a hint when you start here start at the root.  I didn't spell out a word.  death  right  So let's just go through a few things here. So you started a zero start at the root go down to zero and then you have another zero.  And you have another one?  So now I know that the first letter is a d notice that I don't need any, here that's important. I'm saving space saving kind of as much space as you possibly can I don't need a, there now. I know that since I got my letter I just start back at the root.  Frank and I got zero zero zero and you get a e  and so on right? The next one is 1101. So that's a a  and then the last one is one is zero. So that's app. Okay any questions?  So why is my ambient War?  Oh yes from the original hear this from this.  this frequency table  That's how we built the Huffman tree.  Yeah.  This is just the length of their they're code code length.  probably on the frequencies  Right, so, you know that it has to be at least length for but it could be could be deeper.  right  Yes, like if you how would you how would you?  Make it that.  Yeah, we could we could do some examples but four is the shortest I could possibly be right.  Okay.  So under the Huffman encoding the output of this of this message, right this message that we are trying to encrypt. Well, I have one a right in each a has four bit. So that gives me for I have to be so four times to I have three C's three times to I have 4D 3 x 4 3 x 4 to x 5 to x 6 so I get 64 bits for the entire message, right?  If you compare that to fixed-length and coding while there are seven letters, right? So each letter has to be represented with three bits minimally, right? And so the filings will now be three bits times the number of letters, which is 24 to get 72cc. You got a big savings here from using this variable length encoding  Okay any other questions?  But of course is depending on the frequencies, you have to know those before hand, right?  Okay.  Let's move on to a different thing. I guess. Let me just say one more thing about this.  Maybe we'll talk about this when we talk about probability and entropy but  Showing that you can put it into a smaller you can you can encode it with a smaller size means that it has less entropy than like a very random code, right? Cuz a very random code was going to have like almost equal amounts of everything. Maybe we'll talk about that a little bit more. Okay. Let's move on to the next next thing.  back to Counting  We just didn't want to overload you with counting the first week. So we save some for you this week. I know that some of you are excited for that.  Now that you all have matured over the past six weeks and you know how to count you struggled you.  You succeeded.  so  Some sets contain elements not necessarily binary strings. How can we encode these types of objects? Okay. Well, it depends on what they are how many three elements subsets are in this sat here.  Good, this is good. This is something that you should have learned, right? This is 5 choose 3.  Anybody know what 5 + 3 is 10 good?  Okay, so  so just like we like to encode things with binary strings. What's a natural way that we can encode these subsets to Binary strings?  Is there like a specific set that we've maybe seen before that is gives us a natural and coding.  Or maybe like think about it this way.  Does 5 choose 3 count another type of?  Set of objects.  with  free ones  Okay.  So what we plan to do is come up with a bijection from  the set of all  fix density bit strings with this set of  three element subsets  my prayers. We already did that. Okay.  Yeah, you just map it to the give the set those in those numbers in the set will be the indices of the ones. I've already talked about this a bit right? Just wanted to reiterate it because we're going to kind of do it again in a different way. So 4123 you get 11100 if you're indexing them that way.  124 is 1 1 0 1 0 1 2 5 would be 11001.  right  and so on so it's this is a nice bijection cuz it's really easy to do is algorithmic its it step-by-step and it's also really easy to reverse is also reversible. So if I told you that I had 01110 you would know that it was from 2 3 4, right?  So this is a bijection between the I mean, this is not just five and three it could be any end in nek.  Dejection between the K element subsets of n elements and lengthened binary strings with K once so let's say S&K is the set of all sets subsets and bank is the set of all fixed density binary strings.  Okay.  So what you want to do with a bijection is if you have a specific set in SNK, you want F of s to be the binary string with ones at each position found in s okay, and then F inverse will be you take a binary string and you make a set out of it by which.  Ones are in each position.  Okay, so you we already kind of talked about this, but this is a good by Jackson.  okay, so just to kind of keep that in mind and we're going to  explore another  type of problem  Okay. So let's say I have five different nights and three different Castles. How many ways can I put the knife in the castles so that they defino to defend the castles or if they just want to visit or  I don't know. How many ways. Can you do this?  Are all jumping on the bandwagon? Okay. What's the reasoning here? What rule are we using?  right  Each night has three choices right Arthur has three choices Lancelot has three choices.  D'Artagnan Musketeer  D'Artagnan  miles and  this is a really easy counting problem. Right? So I see if you've taken this the first week of this class, right? So just to get in in the in the mind-set but think about these nights, but they all have different colors. They have different names their different nights. Okay. Let's change the problem now.  now suppose that I'm just some King and I don't have any regard for  for my nights. They're all just soldiers to me. They're all the same. I don't really care who they are. I just want to know how many of them are going to be in each one of my castles because I want them to be defended. Let's say they're all equal strength equal everything and there's no difference. Now. How many ways can I fill the castle?  Can you guys a few minutes?  Now I'll put you all against each other.  I'd like to ask the audience.  Right. Did you guys ever seen want to be a millionaire?  Okay, 21 is kind of  winning  5 choose 3  Okay, so  did somebody write them all out?  The answer is 21.  Okay, let's look at where that number comes from. It had to have come from somewhere. Right? What is 21 what we're going to do is we're going to describe a bijection between each combination of knights and castles.  All 7 bit binary strings with exactly two ones. I know how to count these right.  Do y'all know how to count these?  7 choose to write this is  7 bit binary strings with exactly two ones is 7 shoes to which is equal to 21.  Where do you get seven? Where do you get to write have five nights and three castles? Where is it? 7 in the two come from?  Mike Tyson just like moving dividers over.  exactly  Okay, let's just do an example. Okay, let's I have this arrangement. I claim that there's a bijection between these arrangements and these 7bit fix density string. I'll tell you which is which string this corresponds to.  You put a big one in between each Castle.  And then you put a zero on each night.  That kind of makes sense.  Okay. So this would correspond to the substrate the string 0 0 1 0 1 0 0.  Okay.  So this is like pudding.  Number of castles -1 right you put a divider in between each Castle. So there's three cancel the only to put to dividers in the midst of the soldiers right here. The soldiers have never by number castles is 3 so there are 5 + 3 - 1 equals 7 slot or seven positions where I could either put a soldier or a divider, right?  Then I choose two of those positions to be dividers. And the rest of them have to be soldiers. We can do this in 7 shoes to 21 ways. Let's look at another example.  What if I gave you this?  1 2 3 4 5 6  7 what would this correspond to what distribution of soldiers with this correspond to? What all you have to do is put the castles the three castles.  On either side of the ones so there should be a castle.  I don't can't draw a castle. I guess like this.  And then like a rook.  Okay, so  this guy gets no soldiers, right?  This guy gets three soldiers.  And this guy gets too.  Text Renee Jackson in the great thing about this bijection. It's easy to go from the the soldiers and castles to the binary string and it's also easy to go from the binary string to the soldiers. And that's what makes a good bijection any questions.  Okay, let's move on to a few more examples. Okay, that's what we just did.  This is just another example.  Yes.  I can come up with a bijection. That's that's hard. It's not always easy.  You know, there are open questions out there where we know for a fact that these two sets of objects are equipped have the same number of elements. We don't have a bijection. We don't have a nice bijection between them. So, you know, it's okay. It's still open area of research to do this for more complicated types of objects.  I mean, this one is just really elegant is beautiful. Right? Whoever came up with it. You know, I thought would be  really smart or  or maybe it's simple and if you had gave me enough time, maybe I could come up with it on my own. I don't know but it's it's really cool.  Okay, so yes, but this one here would be that although this would be all the five soldiers are in the third Castle write 110000.  Okay, so often you call this problem stars and bars. That's kind of the colloquial name and you find it in in the textbook and it's because you are organizing five stars and two bars were the bars of the dividers and the stars of the soldiers.  Okay.  so in general  if I want to put n indistinguishable soldiers in 2K different Castles, I could instead count the number of ways of ordering K - 1 bars, right? Because you need a bar between each console and and stars because each star is a soldier or equivalently right bijective Lee kind of K - 1 ones and zeros, right? I mean  These are just characters. These are symbols. You can change them around and it doesn't change the number of objects.  Okay.  Exercise, let's say I have five castles and 10 soldiers how many different configurations are there now?  Because you guys are good.  14 choose 5. Where does that come from?  14 choose 4  write thank you. Where does that come from? Well, there are four dividers.  10 castles  unassuming 10 soldiers  So you get 10 + 424?  one of their exercise  What does what binary string would this configuration map to or what binary string is associated with this configuration?  Okay, good. That one was pretty easy. I guess good night.  Okay, so let's look at the same one.  Throwback to Tuesday. What position would this string be in if all the binary strings of this sort were in lexical lexicographic order?  You guys remember the the ranking algorithm?  Start this way.  And then what do we do? How many ones are there for so4 3 2  One it would be 11 shoes for.  Plus  7 choose 3 + 6 choose 2 + 0  I didn't bring my calculator today.  This is this is another interesting kind of level by level by level you can start with a configuration turn it into a binary string and then rank that binary string and this would be a way to  To store this information of where my nights are, right? What if I'm some King and I need to know where my nights are I can store it in a single number by using this ranking algorithm. And then if I wanted to figure out what position they're in I can take that number and unranked it into the binary string and then convert that binary string into a configuration can use these things in and we'll talk a little bit more about this when we do probability and sampling.  Okay, let's change up the problem just a little bit.  What if I had five castles 10 soldiers like before?  But I have to have at least one soldier in each Castle now. Now, how do I do it?  Remember if I don't have the restriction and it's 14 shoes for but with this restriction there are going to be fewer combinations. So how would you go about figuring this out?  Sorry, so instead.  OU's az01 as a divider  Right because you need to have at least a zero in between each one.  Okay, that's good. So her suggestion was instead of using a one as a divider use a 01 as a divider cuz you know that you need to have a zero in between each one. You have at least one zero in between. There's another way to think about it.  Put 5 how many castles do we have?  5 mg of 10 soldiers but five of those soldiers in the Castle's right? Tell him to go inside the castles and stay there now distribute the rest of the five. You just turned it into a smaller problem.  Right, so I put five soldiers.  in Enchanted Castle  then put  the remaining  5  in the castles  505 + 4 choose 4  9 choose 4  Did you have a question or comment?  Yes. Yeah, this is actually yeah, it is actually all the lengths 14 V strings with exactly four ones such that no two ones are touching know and also I can't start or end with a 1.  yeah, but you can think about right you can think about the  This is another great thing about these bijections is some certain quality of your configuration. Like at least one soldier has to be in in a castle corresponds to the quality of the binary string. You can never have to avoid the substring 1:1 and you can't start or end with a 1in. So if you can kind of see how these qualities.  Try to go back and forth.  Okay, one other way to think about this same idea is instead of making.  Set a trying to rearrange stars and bars just figure out where you're going to put your dividers and you need you know, that these are the only possible places that you can put your dividers right because you can never put two dividers in between two soldiers because that will talk that will represent an empty Castle.  Frank so I just picked my dividers to say go here here here and here and that will correspond to 0 0 1 0 1 0 0 1  Right, and this is a bit of a 9 bit string with exactly four ones. I get 9 because I put a a space between every Soldier.  And I got four because that's the number of dividers. I need to kind of separate out the cats.  Okay, so let's let's recap what it what do we have so far?  The number of ways to put in soldiers in 2K castles is  This right and + K - 1 right you guys are like the stars and bars, right? You have enstars and K - 1 bars in your choosing K - 1 bars.  Now the number of ways to put in soldiers in K Castle such that eat Castle each Castle must have at least one soldier is well if you think about it this way.  It's easy to see that you have and -1 positions you can choose from because there's a position in between each Soldier.  And you have to choose K - 1 of those positions and sent this when you get here.  Okay, so  let's look at another.  application of stars and bars  dear Fantine equations. Are you guys ever heard of those before?  No.  Okay, so they're just basically equations with however many variables you want but the Restriction is that the variables all have to be integers. And in this case we're going to have the Restriction that there have to have to be non-negative integers. So this is like the problems we're going to do a pretty easy Once you know the trick but in general deer Fontaine equations are really hard especially if you have if they're nonlinear it is some of them are unsolvable and there's no there's no way to really saw them in general which is kind of like this some cool weird result linear equations.  There's no exponents. There's there's just numbers. Okay, and there's no coefficients either. Let's just say that they're just the things.  So consider the equation A + B + C + D is equal to 10 or a b c and d are non-negative integers. How many solutions does this equation have? Okay. Ready go.  So, of course, you know that the those each one of those A's and B's can never be bigger than 10 and can never be smaller than zero. Okay, so there are a finite number of solutions.  They could be zero.  Did anybody get 286?  Yeah.  13 choose 3 good  Okay, so let's let's try to unpack this or at least kind of how would you go about counting this? Let's get some let's gather some intuition first. Okay. Give me a solution to this problem.  The 10 is the 10 soldiers and the variables are the four castles.  Right. So if I had a solution to this, let's just pick a random solution 4 + 2 + 2 +  2  That would correspond to putting Force old castle again.  And then putting for soldiers here.  And then this Castle this is like the Rook.  Is that a good Castle?  I kind of want to draw like the Disney Castle, you know.  And then it has like flags and stuff.  Right, and then it has like the the thing that kind of goes around and then like the big The Big D.  There's only two guys there.  And then this guy is I just try another Rook one again. Sorry. I'm getting a little.  No, but this is a good kind of way to think about solving problems. Right turn it into another problem, you know pick a pick a random sort of solution or a random representative of something and see how you can unpack it. Right and now we have this nice Soldiers with castles and then we can change this soldiers in castles into a binary string and we can count the binary strings.  We also take a binary string turn it into a solution to this. Right so we might have now now we have bijections between now three types of sets of objects, which maybe now you're saying yeah, they're all pretty much the same but at first glance  integer equations binary strings and Soldier Replacements don't necessarily seem like they would have anything to do with each other. It's kind of the magic of this type of man. Okay. So in general This Is How We Do integer equations  The number of stars or soldiers is the is the actual constant?  And the number of bars or castles?  Is the number of variables?  Okay.  So in general if you have K, if you have a equation with K variables is equal to n then an ace or non negative integers. Then you have the same thing. We had before n + K - 1 shoes and  or  k - 1 choose K - 1 is equal to n + K - 1 shoes and  okay. What if I  What if I put the Restriction that the ends in Ace have to be positive integers now, how many ways can I do this? Well,  just turn the problem into the soldier problem.  If they all have to be positive that means none of them can be zero, which means you have to have at least one soldier in each Castle, right? Which means  which we already know how to count.  They said that's going to be what and -1 choose K - 1  another way to think about it is  For each eye for each variable replace it with the current variable minus one.  and then replace the that means that you would replace the end with n minus k  It's basically like we've already put one soldier in each one of these castles. So we've taken away case soldiers from our army and now we just have to figure out how to distribute the rest of the army.  Okay good.  and -1 shoes K - 1  well  Let's go back.  Okay, so this is non negative integers, right?  This is no restrictions castles can be empty right this one. It's like pot only positive integer. So each one of those castles has to have at least one soldier. So just put a soldier in every Castle right? Tell him to go inside take a break while we figure out how to distribute the rest of the other ones. So you just this is just going to be  write the original one was n + K - 1 choose K - 1 but we've taken k out of the  the Army for taking K soldiers away from the Army. So that's just what you're left with.  Yes, yes, we're doing that assumption throughout the whole. Yeah from now on.  Yeah.  so  Let's do like a very let's do it a concrete example. Okay. So let's say I had a 1 + a 2 + a 3 + a 4 + a 5 + a 6 is equal to what I don't know 50, right? So the K plus one is sort of like the plushies you can think about here, right?  I should be the K - 1 is the number of pluses so you have K variables. We have K - 1 + as we have six variables. We have 5 plus so if you give me a a solution to this with maybe you say I don't know.  2 + 10 + 20 Snuggie such a big number  5 + 5 + what is that?  I need a okay. So what you can do is you can convert each one of those plus is 201.  And then fill in however many zeros are in that thing, right? So  and then there's your  there's your thing. Right? So you basically you're you're choosing K - 1 positions to make sense.  Should have you such a big exam?  Okay, so  Oh, I just rolled over all the animation. That's fine.  Okay, so there's this really nice.  Table called the twelvefold way. Okay, and  It's a it's a nice kind of summary of what we've done in this class so far, honestly, and the way that you think about it is in terms of functions or in terms of balls and boxes or if you like you could say soldiers.  and castles  come on.  Okay, and if the soldiers are labeled meaning they all have names right there distinguishable and the castles are labeled.  How many soldiers can I if I have an soldiers in X castles? How many ways can I distribute the soldiers in the castles?  We've actually already seen this right.  I'll just start filling it in.  This is X to the end. Right? We kind of saw this on the on the first slide when we started this topic each Soldier.  Should we enter the X rent?  Way it is.  Oh, yeah, cuz each Soldier has extra races yet.  Shouldn't doubt myself to the end right choices each box has at most one ball or at you at least each each Castle has that at most one soldier?  This is permutations.  Because the first saw most one means that you can't have to you can't have more than one. So that means that the first Soldier has xcacel statues from II Soldier has x -1 castles shoes from the third one has x - 2 x - 3 in 1  Okay, each box has at least one ball.  this one  It's tricky to do we've kind of seen it already I think maybe in the first homework, but essentially you have to do some sort of inclusion exclusion to do it  So what's skip it for now? Let's go to hear. Okay. Now the soldiers are unlabeled, right? This is kind of like what we've been doing this class this particular lecture, but the boxes are labeled the castles are numbered right? So this right here is that that that first result that we got  n  + x - 1 choose X - 1  right  now each Castle has at least one soldier. This is the one that we have seen before 2, right?  What about at most?  Each Castle has at most one soldier.  Let's but this one only works if you have way more castles and soldiers, right? So let's say I had like 10 castles and three soldiers but each Castle can have at most one soldier.  So basically putting a soldier in a castle is like choosing that castle, right?  Do you have X castles to start with you choose and of them to put one soldier in?  And then the rest of them here.  Okay, so this is kind of like a nice map to see where all these different things come up.  And then we have labeled and unlabeled unlabeled in unlabeled. This is beyond the scope of the class.  It's not that it's like super hard. It's just that we would have to just do a lot more stuff. But if you're interested in that you can look up the 12 fold way. There's things called Stirling numbers of the second kind.  instead of like these parentheses  Sterling numbers look like this  excuse n and then this is X and factorial.  Okay. So this is like this new thing that you don't have to worry about it. But if you're interested this this is where they come up.  And then on this bottom row are these things called partitions integer partitions is basically how many ways can you break up an integer into smaller parts kind of like the way that you can think about some of these things?  Okay, so this is what it what do we put out here stars and bars method give us two more counting recipes castles and boxes.  Soldiers and balls we already did that. Okay, are there any questions?  Okay. Well next topic probability will start that on Tuesday. "
+}

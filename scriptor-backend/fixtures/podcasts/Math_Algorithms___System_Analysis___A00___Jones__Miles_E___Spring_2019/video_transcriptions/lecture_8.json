@@ -1,0 +1,466 @@
+{
+    "Blurbs": {
+        "All right, let's get started. Is anybody have any questions before we begin? I think it was pretty good. It was like an average of 40 out of 50. my bad anything else Let's just dive in there. All right. So we're going to do today is mainly talk about Loop invariants and then we're going to do a little bit of time analysis and talk a little bit more ": [
+            86.8,
+            131.6,
+            0
+        ],
+        "Everyone's do 80 or smallest. Okay, so if we could just prove number one, this would be sufficient to prove that the algorithm is correct, but we're going to see that it's necessary to have both of these Loop invariant to prove that. They're true to actually do the induction you need both of them. Okay, so that's what the that's what we had. All right good. So this is ": [
+            295.8,
+            328.8,
+            6
+        ],
+        "I prove this this is sufficient to prove that. okay, contrapositive good so What I want to show is that if there is a position P for which AP is equal to X then the binary search does not return 0, here's my Loop invariant Suppose. There is a position P for which AP is equal to X. Then this position is always going to be in between I and ": [
+            2818.2,
+            2843.3,
+            70
+        ],
+        "J. So this is a loop invariant and then you can kind of look in the future to see okay, how we going to use this to prove? The algorithm works is that well, these Ian J's, they're getting closer and closer to each other at every iteration. And so at some point they're going to have to meet and if they meet they're going to meet at P. That's ": [
+            2843.3,
+            2869.3,
+            71
+        ],
+        "Jay and then we reset Jay to be M -1. Yeah, that's the inductive hypothesis. It was put it in green. Inductive hypothesis. Let me just write it up here. Was that before the loop I knew that I is less than or equal to P is less than or equal to Jay and what I can conclude from that is that a p is greater than or equal to ": [
+            3173.8,
+            3214.7,
+            78
+        ],
+        "Okay. So here's how we're going to prove a loop invariant will actually work. This is the three-step plan to actually show that our them is correct. Look for a appropriate Loop invariant. There might be other loop invariants out there, but you need to choose one. That you can get some information out of state at precisely prove that its invariant. This is using induction. We're going to do ": [
+            167.6,
+            192.3,
+            2
+        ],
+        "Okay. So if if it's equal to a I'm of course we have found it we have found. Target good, what if x is less than a.m. Which is just a certain element that we probed. Okay. We know. that if x is in the list. Ex has to be in the first half a 1 through a.m. Or say any of -1 and then if we know that if ": [
+            2242.5,
+            2292.5,
+            55
+        ],
+        "That would have probably gone. What would be my favorite movie here? What is it 12:00? Call Barry Newman. I need to put Pulp Fiction as number one. I like this movie. Anyhow, maybe there's some ordering but let's just assume that there's no real ordering. Okay, in this case if I wanted to find Pulp Fiction one way to do it would be what? Search by looking at every ": [
+            1493.5,
+            1527.4,
+            36
+        ],
+        "The only reason we're doing that is because that's going to save us the most amount of time but this will work either way. Okay, so what do I put in this while loop? When do I want this to? Terminate or when or when do I want it to keep going? That's a better question. Okay good. See eye has less than J. Good night, because if I is ": [
+            2554.4,
+            2594.8,
+            64
+        ],
+        "Think I change these numbers around. Sorry about that. Okay there for Loop invariant is true after and annia duration in this should be strictly less than in about that. Okay, so that's it. That's the loop invariant proof. So we're going to move on to the next topic. Okay, why are we going to sort? Well, it's easier to access data. You can if we're sorting exams. It's easier ": [
+            1247.8,
+            1281.9,
+            30
+        ],
+        "Tia durations and then the next thing to do is just work your way through the next iteration and show that it's true for the next iteration. Okay sure that it's true after t plus 1 iterations. How is it going to go? Well, let's think about what happens in the algorithm and I don't I don't have it up here, but hopefully you kind of have a sense of ": [
+            874.5,
+            898.7,
+            22
+        ],
+        "a i and less than or equal to a j and so in case 2 I used it here and in case one I used it here. Okay, so it works right? It's good. Let some let's think about how much time this is going to take with each probe. You reduce the size of the subarray by to write. So if you do one one probe you throw away ": [
+            3214.7,
+            3259.6,
+            79
+        ],
+        "a sorting definition means that. everything in the fat is in order, but there's nothing in the SAT so you don't even have to Consider anything so everything should be good and then there are the smallest. Well another way to say this is every other element is bigger than all the elements in in the empty set, but that's just vacuously true also because there's nothing in the empty ": [
+            805.5,
+            831.9,
+            20
+        ],
+        "about sorting algorithms and searching algorithms. How do you know that the resulting list is being sorted? How do you know that your algorithm is working? So for loop-based algorithms? you can use something called a loop invariant and the idea is that you can kind of keep track of how your algorithm is doing step by step and making sure that it's it's it's making improvements towards your goal. ": [
+            131.6,
+            165.7,
+            1
+        ],
+        "age a and that means that pee have got to be in between I and J. Pixel gun case 3 and this is sort of the same thing as less than a.m. That means that I is just not updated and Jay gets updated 2 N -1 and now we know that a i is less than or equal to AP is strictly less than hey. Which means that they ": [
+            3081.8,
+            3115.8,
+            76
+        ],
+        "and then since a 1/2 am already sorted this whole list is sorted you put a big out if you put a really big number at the end of a sorted list than the whole list will be stored. We wanted and so then that would be the end of the proof. The only thing we skipped over is How do we know the loop invariant is actually correct? So ": [
+            538.5,
+            560.1,
+            13
+        ],
+        "array What's better, should you sort it first so that you can use binary search or should you just linear search it? Depends on how long the wedding is going to take, right? So there's a trade-off between the cost of sorting right so sorting. We're going to see that the best sorting algorithm you can do that uses comparisons is and log in time. And so that already takes ": [
+            3455.4,
+            3498.1,
+            85
+        ],
+        "be able to start getting a sense would do next time. Okay there any questions? Let me see how far Quan got today. Maybe I went a little too fast. How do you check? Look at his slides. Please take a look here. preview I think he got to the same place. Okay, dude. So what are you guys want to do for the next 20 minutes? Go home. nap ": [
+            3637.2,
+            3745.5,
+            90
+        ],
+        "be used for correctness I'll recursive algorithm. Okay will do that. I think starting next week. Hey, but for now with an iterative algorithm an hour in the middle Loop. You got it already on the number of loops on the number of iterations or soothing induct on the number of iterations. Okay, so standard induction proof need your base case and needs to be true before the loop even ": [
+            644.4,
+            685.1,
+            16
+        ],
+        "down to just doing the first half of the list. Okay, so these are our three cases and so you can see if x is greater than a.m. Then I gets kind of moved up to m + 1 and if x is less than Jay gets moved down 2 N -1. This will actually work no matter which M you pick you don't have to pick the middle element. ": [
+            2530.7,
+            2554.4,
+            63
+        ],
+        "each of the time. Okay, so instead of proving this we're going to prove the contrapositive who can give me the contrapositive of the statement. Okay. So what is it if there is a position P for which AP is equal to X then. binary search does not return 0 are these statements equivalent? death Contrapositive. Yes. It's logically equivalent to the original statement, right? Yes. Okay good. So if ": [
+            2739.1,
+            2818.2,
+            69
+        ],
+        "elements Not Anna. Thank you. I haven't written here. I promise. Okay, let's fill in these gaps. So these are going to be kind of easy, but will will do it just for completeness face case. before the loop X is not in the empty set. Is that true? Yes, nothing's in the empty set is true. trivially, right Okay induction hypothesis. depose after t iterations for some T greater ": [
+            1781.4,
+            1841.3,
+            45
+        ],
+        "example today. So here is sort of the Pseudocode let's look at this a little it's a little bit more mid-level where we're just saying let this be the minimum. This is really that's all that's important. You can trust that. I can find the minimum then we can just replace it with that. Okay, so did we already talked about? the loop invariants for the day In a lot ": [
+            220.8,
+            254.4,
+            4
+        ],
+        "eye is less than or equal to a p is less than or equal to a m + 1 - 1. Write a m j which is M - 1. Which means that? I is less than or equal to P is less than or equal to J. Queso in all cases we have this Loop invariant staying the same. this node.js + -1 No, Jay, the original Jay is ": [
+            3115.8,
+            3173.8,
+            77
+        ],
+        "first element at the end of the algorithm is the smallest and so answer is correct since we execute the loop exactly and times the loop invariant with T is equal to end guarantees that all and elements of the list will be in correct order at the end of the algorithm as required or d none of the above. Okay, let's talk about this. Hey sassy good. This is ": [
+            389.2,
+            447.0,
+            9
+        ],
+        "half point is. If your name comes before that half point then all you have to do is search the top half of the list if your name comes after search the bottom half so you can throw away happier list and mediately. This is going to save a lot of time. Okay, so if we probed the list at position, what do we learn in each of these cases? ": [
+            2211.7,
+            2242.5,
+            54
+        ],
+        "half, right and your and your array is now a half of the size after two probes you get a quarter of the size 3 is 8/16. So when we get down to W probes, how big is the A ray that you're searching in. Andover to the W, right Right at the W Pros get an over to the W. So the question we want to ask is how ": [
+            3259.6,
+            3295.1,
+            80
+        ],
+        "happens when T is equal to 0 and then if it's ever true then going to your next step keeps it true, right? That's kind of the CID therefore if we do this and it's true for all values all up until the algorithm is done. Okay good. so Basically that translates to our base case we need to show that this Loop invariant is true for to equal 0 ": [
+            685.1,
+            717.7,
+            17
+        ],
+        "how many probes did we do? Text to the time it takes to find X depends on the number of probes. That is the number of entries we have to retrieve and compared to X. So in the worst case scenario how many probes we have to do? And how about best-case scenario? one right if it's in the beginning and on average about an over to if all all ": [
+            2139.4,
+            2171.0,
+            52
+        ],
+        "in linear search. Kay Swann is that if binary search return some non zero position then that position is equal to X and if binary search return zero, then there is no position P for which AP is equal to Okay, good. So What's up? there's a there is a There is a version that is recursive. But this particular one has a loop your looping this while loop. so ": [
+            2629.1,
+            2674.2,
+            66
+        ],
+        "in the list or none of the above? Okay. Good tea. Right because we want to know after the teeth iteration. We want an increment t to the next iteration, right? So we're really doing induction on iterations. So this one and if you're if you're interested or curious, we actually use and as the induction variable when we prove a recursion recursion algorithm by induction. Okay, so this will ": [
+            596.2,
+            643.5,
+            15
+        ],
+        "indexed array element. Why do they start at 0 in all the computer programs? Like Ben cuz why? All right, because of the bits, right? Okay, I got it. Okay. supposed to store array If x is equal to 1 what would J? And what would the search problem fine? What would it output or would it return? Okay, good. Jay-Z the index. Okay good. Okay, let's go back to ": [
+            1373.5,
+            1453.7,
+            34
+        ],
+        "inputs are equally likely. Okay good. So let's move on and look at a different type of algorithm to search things. How would you search through a pile of alphabetize papers to find the one with your name on it? Okay. I guess if you had like a a name you maybe look from the top. Okay. Yeah, maybe just cut it in half and see where the half and ": [
+            2171.0,
+            2211.7,
+            53
+        ],
+        "is good. But most likely the target is going to be in the second half. So we have to search 95 entries in the worst-case. Okay. So how do we minimize the worst-case how we make the worst case as favorable as possible? Probe in the what? middle Right, cuz that bounces out the worst case. That's the smallest worst case scenario you can get Okay, so if we're if ": [
+            2361.9,
+            2396.1,
+            58
+        ],
+        "is like along with the the Assumption along with this assumption. Nothing. Thank you. Okay good. So now the conclusion the part 3 is assumed algorithm return 0 then we showed that the loop invariant is true after T iterations, which was that X is not in that set a 1 through 80. So in particular after n iterations when the algorithm terminates X is not in the entire list, ": [
+            1965.6,
+            2010.9,
+            48
+        ],
+        "is not in the array. When can you be sure the target is not in the array? Right and you throw away either the greater hapur the the lower half. I didn't you keep on doing it and you keep on cutting your your array in half as you go, right since we're working with a finite array. This is got to end at some point, right it ends when ": [
+            2420.0,
+            2474.4,
+            60
+        ],
+        "is the one that takes a little bit more care. If it would search it if the search return 0 then there's no position P for which AP is equal to act. This one in. My opinion is even more surprising than the linear search because we're not even looking at all the elements but were using the fact that they're in sorted order. We can eliminate have to list ": [
+            2716.7,
+            2739.1,
+            68
+        ],
+        "it says in there and combine it with these two inductive hypothesis statement and get two more Loop invariants or two more statements about after to plusone8 Elations and let's just think about what we want are in sorted order and a 1 through 80 + 1 are the smallest you might already see where this is going and how we're going to do it because this is the now ": [
+            1057.8,
+            1086.6,
+            26
+        ],
+        "it to do both of these things because we might give it a list that doesn't have it. We might give it a list that does have it so has to do everything. Okay, so let's look at these two cases and consider which one is easier to do than the other. The either direction is if my algorithm output some non-zero value. You can go into your algorithm and ": [
+            1657.3,
+            1683.8,
+            41
+        ],
+        "it's got to be an integer. so I guess you can just do the ceiling of log base 2 of n right? Either way, but like we said before last week for these types of things. We're not super concerned about the exact number of operations were more concerned about how it grows. And so this is going to be big love login. Oh what happened there? Okay. This is ": [
+            3359.1,
+            3414.5,
+            83
+        ],
+        "just Pro 4 to internet still constant time operation. Okay, so you're only going to sort half of the stack or south of the list. That's still going to take 10 login time Big O of M login. Yeah. Yeah, it's hard. If you need that's why everybody sorts everything, you know, why you organize things it so you can find things easier. That's why your phones or computers all ": [
+            3559.2,
+            3601.7,
+            88
+        ],
+        "just like before number one is Fizz pretty trivial, right? Suppose binary search return some nonzero position now look at all the places that could happen. It only happens. here and here and for each one of those cases it came right after a conditional where we found a match stop. This is trivia. If it returns a nonzero pee than is equal to pee, right? Okay, next one. This ": [
+            2676.2,
+            2716.7,
+            67
+        ],
+        "just plug in and -1 into k a t the living variant the first and -1 elements are in sorted order the first and -1 elements are smallest. Just need to do a little bit of a little bit more justification here one more sentence, really. So in this case. The last element a n is greater than all the other elements in the list that's coming from to write ": [
+            510.1,
+            538.5,
+            12
+        ],
+        "just what I wrote before. Okay now. By the inductive hypothesis means what? Can I say is true about a 1 through 80? Okay, good all of the above, right? Remember this was the loop invariant that we had. We have their sordid and smallest. I think I made change the order there, but that's fine. Okay. So now what we're going to do is take this bubble here, whatever ": [
+            995.7,
+            1057.8,
+            25
+        ],
+        "kind of give you another example of a loop invariant proof. Okay. so suppose the algorithm output 0 then it went through all the iterations of the for Loop. So after T. Iterations of the for Loop, what do we know is true? Or if it even makes it to you to raisins where we know it's true. Okay, good. We know that X is not in the first. tea ": [
+            1743.1,
+            1780.1,
+            44
+        ],
+        "know you all hate this but I start my indices starting at 1 and so there is no there is no zero index. I guess so. If you want you could return does not exist or something like that. It's just some sort of marker to show that it's not there. And if you always start at 1 like I do, you know that there will never be a zero ": [
+            1340.0,
+            1373.5,
+            33
+        ],
+        "less than J, that means that the list that you're looking in is nonempty, right? Once I become equal to Jay then your list is one Element and then you can go down here and say well if x is equal to that one element then return it. Otherwise return 0. Okay good. Why does it work? Well, we kind of have to show this to same things. We showed ": [
+            2594.8,
+            2629.1,
+            65
+        ],
+        "many probes do we have to do to reduce this number down to one? Okay. Well we can just do like a simple. algebra We want an over to the W to be less than or equal to 1 how big does w have to be? Okay. Well just do some a little bit of algebra and you see that W has got to be at least log base 2 ": [
+            3295.1,
+            3324.9,
+            81
+        ],
+        "mean to to take longer or last longer or how do we compare the time the algorithm takes so instead of actually Computing the time the actual like stop stopwatch time instead. We're going to count the number of operations and Inn in this algorithm. The the main operation we're doing is probing right? You're just kind of asking does this algorithm. Does this look like this other element? So ": [
+            2106.3,
+            2139.4,
+            51
+        ],
+        "more time than doing the linear search, right, so it's not really worth it to sort it. It's much it's much faster to just use linear search. How can anybody think of a scenario where maybe it would be a good idea to sort it? We could still look for both things at the same time. But you're on the right track, though. Yeah, I do know that you're going ": [
+            3498.1,
+            3530.1,
+            86
+        ],
+        "movie until you find it then you find it right and if I know that if I don't know any ordering exist in my list. Okay, so this is called linear search. Search through the array one index of the time asking is this my target value at each position if you answer yes between the position where you found it, when will you answer? No? If I get to ": [
+            1527.4,
+            1564.7,
+            37
+        ],
+        "my responsibility. This is me. my bad Well, this is embarrassing. Okay, so we've shown that it takes at most login plus one pro tour binary search by comparison linear search takes as many as and probes even the average case and over two probes so while binary search is faster than linear search it depends on your data to be in order so what if you have an unsorted ": [
+            3414.5,
+            3455.4,
+            84
+        ],
+        "now what do we have? What have we done in that eration is we now have that 80 + 1 is the minimum 80 + 1 up to a n Okay, are there any questions about this? This is just kind of going through that iteration that one iteration. Haven't done anything with the loop invariant yet or the hypothesis for just seeing what happens. Okay, so that's this is ": [
+            949.9,
+            995.7,
+            24
+        ],
+        "of n K & W is the number of probes or actually has to be an integer. So what's the what's the smallest integer? That is sure to be greater than log base 2 of and you just take the floor in at 1 Hey, so this is the maximum number of probes. You need to do before binary search will terminate. K any questions about that that's just because ": [
+            3324.9,
+            3359.1,
+            82
+        ],
+        "of the times a loop invariant will start with something like this after T. Iterations. Something is true Okay, so Does anybody remember what they are or can tell me or figure it out? So that's when she is 0 after 0 iterations means before directions Okay, so a 1 through 80 are sorted. Okay, good. Is anybody remember the other loop invariant for this one in particular? Okay, good. ": [
+            254.4,
+            295.8,
+            5
+        ],
+        "or whatever you like and you're searching for a Target value that you know is in the array somewhere. What position in Forex will cause linear search to take the longest amount of time? Good. Course the last element of the list because you have to go through the whole thing, right? Okay, good. So Last element of the array. Okay, so we're going to look at what is that ": [
+            2040.9,
+            2106.3,
+            50
+        ],
+        "our DVD selection. And these are in no particular order, or maybe they are and you just don't know maybe they're in the order of which TV which movies I like the most. No, I don't know. I got this out of the internet. This is certainly not the case because I would definitely put almost anything before Philadelphia Purple. He wasn't so bad. I thought this was regular Terminator. ": [
+            1453.7,
+            1493.5,
+            35
+        ],
+        "see when it would do that. The only time it does that is if you found it, right and so the algorithm will be corrected in this direction. Any questions about that? Okay. So for me the much more interesting Direction the one that takes a little bit more time is or that takes little bit more thought is if the algorithm output 0, how can I be so sure ": [
+            1683.8,
+            1715.9,
+            42
+        ],
+        "sent. Okay, so we'll just say that this is vacuously true Okay, so is that what I had here? Just what I wrote down. Okay. Yeah, this is why I say often the base case requires that you say something that is true. Probably true about the empty set or set with just went on a PT Innovations. Okay, so that means that we get these. E-statements for free after ": [
+            831.9,
+            874.5,
+            21
+        ],
+        "so I just want to review this just for a second notice that we needed both Loop and variance to show that this was sorted. We need to both of those or else, you know, we didn't get it. now in order to have both of these be true we need to Consider the other loop invariant that there's a smaller so that needs to remain true also. cast of ": [
+            1137.3,
+            1169.3,
+            28
+        ],
+        "some list or Sommer Ray and you have a Target value. Do you want to find an index such that AJ is equal to the Target or X may not even exist in the list in which case you want to? Give some sort of output that. that communicates that it's going to say is that if it output 0 that means there's no index that exists right because I ": [
+            1306.3,
+            1340.0,
+            32
+        ],
+        "sorted right so you really only have to go up to there. Okay good. Next stop this is this is the this is the conclusion. This is part 3 right there for any tea in between 0 and 10 - 1 the loop invariant is true after T. Adorations and particular instructor + -1 iterations, which that point the algorithm will terminate and what can we conclude from? It will ": [
+            479.4,
+            510.1,
+            11
+        ],
+        "than or equal to 0 and you might notice here that this is a little bit different of a loop invariant because the statement of the loop invariant doesn't have to do with the number of iterations because these eyes and Jays are being updated. So it's kind of like a different flavor of loop invariant. Okay inductive step. Any questions about this so far? Okay inductive step. Okay. So ": [
+            2925.9,
+            2960.4,
+            73
+        ],
+        "than or equal to 0 that Sorry One X is not in. A1 through 80 Okay inductive step. Well what happens in the next iteration, you just compare it to t plus one, right? And we're assuming that it went through all the iterations. So it must have gone through that interation, which means that it can't be equal to t + 1 I would say it like that during. ": [
+            1841.3,
+            1888.0,
+            46
+        ],
+        "that I didn't miss it? Okay. So this is where we're going to use a loop invariant. We're going to assume the algorithm output 0 and we're going to show that if it goes through all the elements all the iterations of the for Loop, that means that it looked through everybody may seem like kind of a trivial correctness, but we're going to be formal about it just to ": [
+            1715.9,
+            1743.1,
+            43
+        ],
+        "that's what we're doing next any questions. Okay, let's let's look at how that goes. induction everybody's favorite thing. Okay, so we're going to show that this Loop invariant is true. What is going to be the relevant induction variable? Is it going to be n the number of elements in the list TV the number of times to go through the loop by the index of the smallest element ": [
+            560.1,
+            596.2,
+            14
+        ],
+        "the electronic things that we have their starting things all the time because they want to get it in order so that they can have easy access to everything. Okay, so The next general thing we're going to do is look into more detail about this running time analysis. We've kind of hinted on run times of different algorithms right runtime of binary search of linear search, but you might ": [
+            3601.7,
+            3637.2,
+            89
+        ],
+        "the end of my DVD collection of thought I had Pulp Fiction. I must have Let somebody borrow it or maybe I just didn't buy it. Or maybe I got it on instant play on Amazon or something now. That's how people store their movies. Okay, so here's a very simple pseudocode. we have some mystery or Target element X and we have a list of distinct integers a 1 ": [
+            1564.7,
+            1603.5,
+            38
+        ],
+        "the loop invariant that we're trying to prove or actually you were trying to prove a pair of them. We're going to skip over part 2 for a minute and just assume that we proved the loop of area is true. Let's see what how we can use this to conclude. The algorithm is is true. Okay, why can we conclude that? The algorithm is correct? Okay, so let's read ": [
+            328.8,
+            350.4,
+            7
+        ],
+        "the only possibility. Okay, let's let's fill in these gaps. before the first iteration I is equal to 1 J is equal to end. and pee is in between one and end got to be right. okay, inductive hypothesis suppose after t iterations that I is less than or equal to P is less than or equal to J. And I guess I'll save for some. Or some tea greater ": [
+            2869.3,
+            2925.9,
+            72
+        ],
+        "the right idea for sure. There's only one kind of weird little. Trick I put in there. It's kind of a trick answer. Does anybody know what it is? And -1, we really only execute the end the loop and -1 * and we're going to see how that comes into play. If the first and -1 elements are sorted and they're the smallest implies that the entire list of ": [
+            447.0,
+            479.4,
+            10
+        ],
+        "the tea + 1 iteration We check. X is equal to a to the t plus one. And since we're assuming the algorithm went through all the iterations. since algorithm goes through all iterations that means it goes to this iteration, right? It must have continued. Herbert Which means? X is not equal to 80 + 1 which means that X is not in. A1 through 80 + 1 this ": [
+            1890.3,
+            1965.6,
+            47
+        ],
+        "this algorithm is correct, and we have to consider two cases. If the algorithm output some non zero index, then we have to show that the target is actually in that Index, right if the algorithm output 0 then we have to show that the target is not in the entire set at all. Right because we want our out just what we want or algorithm to. Do you want ": [
+            1630.5,
+            1657.3,
+            40
+        ],
+        "this is one now to A1 280 are all smaller. Then 80 + 1 + 80 + 1 is smaller. Then 80 + 2 up to a n. There for a 1 through 80 + 1 or smaller. Then a 80 plus 2 up to a end. And this is really what we wanted to show. Okay any questions? Can I have it? Headed in the reverse order on here. ": [
+            1169.3,
+            1240.4,
+            29
+        ],
+        "this one. Okay. So how do we figure out? What's the best place to go? Well, let's think about trying to get the worst possible case to be the best right? For example, if already has a hundred elements and we probit position 5. then we could be really lucky and see n throw away 95 of the elements in only have this very small list to look at which ": [
+            2331.4,
+            2361.9,
+            57
+        ],
+        "this today in in detail example. and I'm part 3 is kind of the Sometimes it's a little overlooked. Once you prove that the loop invariant is true that doesn't show that the algorithm is correct you need to use the fact that the loop invariant is true at the end and that's supposed to imply the correctness of the algorithm. Okay, we're going to use selection sort as our ": [
+            192.3,
+            220.8,
+            3
+        ],
+        "this together. frequency is CB Okay, so Let's assume that we prove that this living very is true. Now how big a correct conclusion that proves the correct? Is that the loop invariant? Does the correctness of the algorithm given at the Loop invariant is true? Okay, since the First Tee elements are the T smallest men's store is correct be since we execute the loop at least once the ": [
+            350.4,
+            389.2,
+            8
+        ],
+        "through a n And what we do is we we Loop through all the elements in the list and we check to see if it's equal to X. If it is then we return the index. If it's not then we continue to iterate and we get to the end of the list. We return 0 which remember that means that we couldn't find. Okay, so let's think about why ": [
+            1603.5,
+            1630.5,
+            39
+        ],
+        "time math problems nap time not math time another story No, let's just wait till we can just call it a day. Have a nice time. ": [
+            3745.5,
+            3764.6,
+            91
+        ],
+        "to find people right? It's this is a good way to store things. It's a good way to organize things. That's why we do it, right? So sorting help with searching. We're going to look at to searching algorithms today. One that works for any data sorted or not and one that is what much faster but relies on the data being sorted. Okay. So here's the problem. You're giving ": [
+            1281.9,
+            1306.3,
+            31
+        ],
+        "to need to search it over and over again in the future, right? Which is kind of what you said. Yeah, I was trying to throw you a curveball. Sorry. No, but if you wanted to search for exactly if you wanted to search for two values, you can still do it in linear Time by doing a linear search, right? You just instead of just probing for one you ": [
+            3530.1,
+            3559.2,
+            87
+        ],
+        "to search next continue until Target is found or we're sure that it isn't there. Kaitlyn spilling some details. Okay, we're going to start with i at 1 and Jada and those are like the two endpoints of your of your array. And what you're going to do is either increment. I So that you're the only doing the second half of the list or decrement J all the way ": [
+            2500.4,
+            2530.7,
+            62
+        ],
+        "updated. Okay. 10 + 1 write yes. And so we know that. X is greater than Am I right? and less than or equal to KJ Wright This is from this is from k-stew. And this is from the inductive hypothesis. Or instead of axilla CPAP better to do that way. AAP okay, and then this means that AP has got to be in between a m + 1 + ": [
+            3012.4,
+            3081.8,
+            75
+        ],
+        "want to show. the first 0 elements are sorted the first 0 elements Are the smallest? Is it true? Write often times with when you have tea is equal to zero you're showing something about the empty set and there are a surprising number of things that are true about the empty set the kind of like vacuously true, right? So do you believe it or not, right? Because so ": [
+            758.6,
+            805.5,
+            19
+        ],
+        "we know that 18 + 1 is the smallest element. So I can kind of like move 80 + 1 into this set and I'll and both of these statements will remain true, right? Okay, so a 1 through 80 are all smaller. then 80 + 1 end a 1 through 80 are sorted. Right there for a 1 through 80 + 1 is sorted. Any questions about that? Okay, ": [
+            1086.6,
+            1137.3,
+            27
+        ],
+        "we're looking in this list AI to AJ you probat index I + J over to the floor. Okay, and if you can't get exactly the middle cuz it's even or odd or something then just get as close as you can. Okay, so based on what you find there determine which have to search in next continue until the target is found or you can be sure the target ": [
+            2396.1,
+            2420.0,
+            59
+        ],
+        "what happens in the next iteration is set to be I + J / 2 right? case one X is equal to a m, right? Then is in between I and J. right because m is actually their midpoint. Piggott case 2 x is greater than a m in which case I is equal to m + 1 + J stays Jay stays people to Jay. Jay does not get ": [
+            2960.4,
+            3012.4,
+            74
+        ],
+        "what happens. You say something like during? the t + first iteration you find a n which is the minimum? 80 + 1 all the way up to a right mints or what you're doing is you're finding the minimum in the remaining list. And then what are you do you swap it with 80 + 1 swap it with the mechanic thing. and swap with 80 plus one. So ": [
+            898.7,
+            949.9,
+            23
+        ],
+        "when your induction hypothesis saying suppose the statement hold after tee times for some through the loop for some tea greater than zero and show that the statement holds after t plus one time. I guess this should be greater than or equal to 0. Okay, so here is the algorithm. Let's write out the base case. before the loop T is equal to 0 these are the things we ": [
+            717.7,
+            758.6,
+            18
+        ],
+        "which means X is not in the array, which is what we wanted to show. Okay good. Okay, let's do a little bit of time analysis on this algorithm. How bad is it? How good is it? Is there a case that it's really good? Is there a case that it's really bad? Let's let's talk about that. So support suppose suppose you have an unsorted array like these DVDs ": [
+            2010.9,
+            2040.9,
+            49
+        ],
+        "x is in the list X is going to be in Am plus one all the way up to a.m. my gun Yeah, but I am saying this one we know it's strictly greater. Okay good. So in this case we're done with the first one the second case and -1 positions remain to be checked in and -1 positions room and -10 positions were made to be checked in ": [
+            2292.5,
+            2331.4,
+            56
+        ],
+        "you have only one element left and if your element is not equal to that element then or your targets not equal to the element then you know for sure your target is not in the lift at all. Okay. So this is called binary search. This is how it works. This is the kind of high-level description start at The Middle based on what you find determine which have ": [
+            2474.4,
+            2500.4,
+            61
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_8.flac",
+    "Full Transcript": "All right, let's get started. Is anybody have any questions before we begin? I think it was pretty good. It was like an average of 40 out of 50.  my bad  anything else  Let's just dive in there.  All right. So we're going to do today is mainly talk about Loop invariants and then we're going to do a little bit of time analysis and talk a little bit more about sorting algorithms and searching algorithms.  How do you know that the resulting list is being sorted? How do you know that your algorithm is working? So for loop-based algorithms?  you can use something called a loop invariant and the idea is that  you can kind of keep track of how your algorithm is doing step by step and making sure that it's it's it's making improvements towards your goal.  Okay. So here's how we're going to prove a loop invariant will actually work. This is the three-step plan to actually show that our them is correct. Look for a appropriate Loop invariant. There might be other loop invariants out there, but you need to choose one.  That you can get some information out of state at precisely prove that its invariant. This is using induction. We're going to do this today in in detail example.  and I'm part 3 is kind of the  Sometimes it's a little overlooked.  Once you prove that the loop invariant is true that doesn't show that the algorithm is correct you need to use the fact that the loop invariant is true at the end and that's supposed to imply the correctness of the algorithm.  Okay, we're going to use selection sort as our example today.  So here is sort of the  Pseudocode let's look at this a little it's a little bit more mid-level where we're just saying let this be the minimum. This is really that's all that's important. You can trust that. I can find the minimum then we can just replace it with that.  Okay, so did we already talked about?  the loop invariants for the day  In a lot of the times a loop invariant will start with something like this after T. Iterations. Something is true Okay, so  Does anybody remember what they are or can tell me or figure it out?  So that's when she is 0  after 0 iterations means before directions  Okay, so a 1 through 80 are sorted.  Okay, good. Is anybody remember the other loop invariant for this one in particular?  Okay, good. Everyone's do 80 or smallest.  Okay, so if we could just prove number one, this would be sufficient to prove that the algorithm is correct, but we're going to see that it's necessary to have both of these Loop invariant to prove that. They're true to actually do the induction you need both of them.  Okay, so  that's what the that's what we had. All right good.  So this is the loop invariant that we're trying to prove or actually you were trying to prove a pair of them. We're going to skip over part 2 for a minute and just assume that we proved the loop of area is true. Let's see what how we can use this to conclude. The algorithm is is true.  Okay, why can we conclude that? The algorithm is correct?  Okay, so let's read this together.  frequency is  CB  Okay, so  Let's assume that we prove that this living very is true. Now how big a correct conclusion that proves the correct? Is that the loop invariant?  Does the correctness of the algorithm given at the Loop invariant is true? Okay, since the First Tee elements are the T smallest men's store is correct be since we execute the loop at least once the first element at the end of the algorithm is the smallest and so answer is correct since we execute the loop exactly and times the loop invariant with T is equal to end guarantees that all and elements of the list will be in correct order at the end of the algorithm as required or d none of the above.  Okay, let's talk about this.  Hey sassy good. This is the right idea for sure. There's only one kind of weird little.  Trick I put in there. It's kind of a trick answer. Does anybody know what it is?  And -1, we really only execute the end the loop and -1 *  and we're going to see how that comes into play.  If the first and -1 elements are sorted and they're the smallest implies that the entire list of sorted right so you really only have to go up to there.  Okay good.  Next stop this is this is the this is the conclusion. This is part 3 right there for any tea in between 0 and 10 - 1 the loop invariant is true after T. Adorations and particular instructor + -1 iterations, which that point the algorithm will terminate and what can we conclude from? It will just plug in and -1 into k a t the living variant the first and -1 elements are in sorted order the first and -1 elements are smallest.  Just need to do a little bit of a little bit more justification here one more sentence, really. So in this case.  The last element a n is greater than all the other elements in the list that's coming from to write and then since a 1/2 am already sorted this whole list is sorted you put a big out if you put a really big number at the end of a sorted list than the whole list will be stored.  We wanted and so then that would be the end of the proof. The only thing we skipped over is  How do we know the loop invariant is actually correct? So that's what we're doing next any questions.  Okay, let's let's look at how that goes.  induction  everybody's favorite thing.  Okay, so we're going to  show that this Loop invariant is true. What is going to be the relevant induction variable? Is it going to be n the number of elements in the list TV the number of times to go through the loop by the index of the smallest element in the list or none of the above?  Okay. Good tea.  Right because we want to know after the teeth iteration. We want an increment t to the next iteration, right? So we're really doing induction on iterations. So this one and if you're if you're interested or curious, we actually use and as the induction variable when we prove a recursion recursion algorithm by induction. Okay, so this will  be used  for correctness  I'll recursive algorithm.  Okay will do that. I think starting next week.  Hey, but for now with an iterative algorithm an hour in the middle Loop.  You got it already on the number of loops on the number of iterations or soothing induct on the number of iterations.  Okay, so standard induction proof need your base case and needs to be true before the loop even happens when T is equal to 0 and then if it's ever true then going to your next step keeps it true, right? That's kind of the  CID  therefore if we do this and it's true for all values all up until the algorithm is done.  Okay good.  so  Basically that translates to our base case we need to show that this Loop invariant is true for to equal 0 when your induction hypothesis saying suppose the statement hold after tee times for some through the loop for some tea greater than zero and show that the statement holds after t plus one time. I guess this should be  greater than or equal to 0.  Okay, so here is the algorithm. Let's write out the base case.  before  the loop  T is equal to 0 these are the things we want to show.  the first  0 elements  are sorted  the first  0 elements  Are the smallest?  Is it true?  Write often times with when you have tea is equal to zero you're showing something about the empty set and there are a surprising number of things that are true about the empty set the kind of like vacuously true, right? So do you believe it or not, right?  Because so a sorting definition means that.  everything in the fat is in order, but there's nothing in the SAT so you don't even have to  Consider anything so everything should be good and then there are the smallest. Well another way to say this is every other element is bigger than all the elements in in the empty set, but that's just vacuously true also because there's nothing in the empty sent.  Okay, so we'll just say that this is  vacuously  true  Okay, so is that what I had here? Just what I wrote down.  Okay. Yeah, this is why I say often the base case requires that you say something that is true. Probably true about the empty set or set with just went on a PT Innovations. Okay, so that means that we get these.  E-statements for free after Tia durations and then the next thing to do is just work your way through the next iteration and show that it's true for the next iteration.  Okay sure that it's true after t plus 1 iterations. How is it going to go?  Well, let's think about what happens in the algorithm and I don't I don't have it up here, but hopefully you kind of have a sense of what happens.  You say something like during?  the t + first  iteration  you find  a n which is the minimum?  80 + 1 all the way up to a right mints or what you're doing is you're finding the minimum in the remaining list. And then what are you do you swap it with 80 + 1 swap it with the mechanic thing.  and swap  with 80 plus one. So now what do we have? What have we done in that eration is we now have that 80 + 1  is  the minimum  80 + 1 up to a n  Okay, are there any questions about this? This is just kind of going through that iteration that one iteration.  Haven't done anything with the loop invariant yet or the hypothesis for just seeing what happens.  Okay, so that's  this is just what I wrote before.  Okay now.  By the inductive hypothesis means what? Can I say is true about a 1 through 80?  Okay, good all of the above, right?  Remember this was the loop invariant that we had.  We have their sordid and smallest. I think I made change the order there, but that's fine.  Okay. So now what we're going to do is take this bubble here, whatever it says in there and combine it with these two inductive hypothesis statement and get two more Loop invariants or two more statements about after to plusone8 Elations and let's just think about what we want are in sorted order and a 1 through 80 + 1 are the smallest you might already see where this is going and how we're going to do it because this is the now we know that 18 + 1 is the smallest element.  So I can kind of like move 80 + 1 into this set and I'll and both of these statements will remain true, right?  Okay, so  a 1 through 80  are all smaller.  then 80 + 1  end  a 1 through 80 are sorted.  Right there for a 1 through 80 + 1 is sorted.  Any questions about that?  Okay, so I just want to review this just for a second notice that we needed both Loop and variance to show that this was sorted.  We need to both of those or else, you know, we didn't get it.  now in order to have both of these be true we need to  Consider the other loop invariant that there's a smaller so that needs to remain true also.  cast of this is one now to  A1 280  are all smaller.  Then 80 + 1 + 80 + 1 is smaller.  Then 80 + 2 up to a n.  There for a 1 through 80 + 1 or smaller.  Then a 80 plus 2 up to a end.  And this is really what we wanted to show.  Okay any questions?  Can I have it?  Headed in the reverse order on here.  Think I change these numbers around. Sorry about that.  Okay there for Loop invariant is true after and annia duration in this should be strictly less than in about that.  Okay, so that's it. That's the loop invariant proof. So we're going to move on to the next topic.  Okay, why are we going to sort? Well, it's easier to access data. You can if we're sorting exams. It's easier to find people right? It's this is a good way to store things. It's a good way to organize things. That's why we do it, right?  So sorting help with searching. We're going to look at to searching algorithms today.  One that works for any data sorted or not and one that is what much faster but relies on the data being sorted.  Okay. So here's the problem. You're giving some list or Sommer Ray and you have a Target value. Do you want to find an index such that AJ is equal to the Target or X may not even exist in the list in which case you want to?  Give some sort of output that.  that communicates that it's going to say is that if it output 0 that means there's no index that exists right because  I know you all hate this but I start my indices starting at 1 and so there is no there is no zero index.  I guess so.  If you want you could return does not exist or something like that.  It's just some sort of marker to show that it's not there.  And if you always start at 1 like I do, you know that there will never be a zero indexed array element.  Why do they start at 0 in all the computer programs?  Like Ben cuz why?  All right, because of the bits, right?  Okay, I got it.  Okay.  supposed to store array  If x is equal to 1 what would J? And what would the search problem fine? What would it output or would it return?  Okay, good. Jay-Z the index.  Okay good.  Okay, let's go back to our DVD selection.  And these are in no particular order, or maybe they are and you just don't know maybe they're in the order of which TV which movies I like the most.  No, I don't know. I got this out of the internet. This is certainly not the case because I would definitely put  almost anything before Philadelphia  Purple. He wasn't so bad.  I thought this was regular Terminator. That would have probably gone.  What would be my favorite movie here?  What is it 12:00?  Call Barry Newman.  I need to put Pulp Fiction as number one. I like this movie.  Anyhow, maybe there's some ordering but let's just assume that there's no real ordering. Okay, in this case if I wanted to find Pulp Fiction one way to do it would be what?  Search by looking at every movie until you find it then you find it right and if I know that if I don't know any ordering exist in my list.  Okay, so this is called linear search.  Search through the array one index of the time asking is this my target value at each position if you answer yes between the position where you found it, when will you answer? No?  If I get to the end of my DVD collection of thought I had Pulp Fiction. I must have Let somebody borrow it or maybe I just didn't buy it.  Or maybe I got it on instant play on Amazon or something now.  That's how people store their movies.  Okay, so here's a very simple pseudocode.  we have some mystery or Target element X and we have a list of  distinct integers a 1 through a n  And what we do is we we Loop through all the elements in the list and we check to see if it's equal to X. If it is then we return the index. If it's not then we continue to iterate and we get to the end of the list. We return 0 which remember that means that we couldn't find.  Okay, so let's think about why this algorithm is correct, and we have to consider two cases.  If the algorithm output some non zero index, then we have to show that the target is actually in that Index, right if the algorithm output 0 then we have to show that the target is not in the entire set at all.  Right because we want our out just what we want or algorithm to. Do you want it to do both of these things because we might give it a list that doesn't have it. We might give it a list that does have it so has to do everything.  Okay, so let's look at these two cases and consider which one is easier to do than the other.  The either direction is if my algorithm output some non-zero value. You can go into your algorithm and see when it would do that. The only time it does that is if you found it, right and so the algorithm will be corrected in this direction.  Any questions about that?  Okay. So for me the much more interesting Direction the one that takes a little bit more time is or that takes little bit more thought is if the algorithm output 0, how can I be so sure that I didn't miss it? Okay.  So this is where we're going to use a loop invariant.  We're going to assume the algorithm output 0 and we're going to show that if it goes through all the elements all the iterations of the for Loop, that means that it looked through everybody may seem like kind of a trivial correctness, but we're going to be formal about it just to kind of give you another example of a loop invariant proof.  Okay.  so  suppose the algorithm output 0 then it went through all the iterations of the for Loop. So after T. Iterations of the for Loop, what do we know is true?  Or if it even makes it to you to raisins where we know it's true.  Okay, good. We know that X is not in the first.  tea  elements  Not Anna.  Thank you. I haven't written here. I promise.  Okay, let's fill in these gaps. So these are going to be kind of easy, but  will will do it just for completeness face case.  before the loop  X is not in the empty set. Is that true?  Yes, nothing's in the empty set is true.  trivially, right  Okay induction hypothesis.  depose  after t iterations  for some  T greater than or equal to 0 that  Sorry One X is not in.  A1  through 80  Okay inductive step.  Well what happens in the next iteration, you just compare it to t plus one, right?  And we're assuming that it went through all the iterations. So it must have gone through that interation, which means that it can't be equal to t + 1  I would say it like that during.  the tea + 1  iteration  We check.  X is equal to a to the t plus one.  And since we're assuming the algorithm went through all the iterations.  since algorithm  goes through  all iterations  that means it goes to this iteration, right?  It must have continued.  Herbert  Which means?  X is not equal to 80 + 1  which means that X is not in.  A1 through 80 + 1  this is like along with the the Assumption along with this assumption.  Nothing. Thank you.  Okay good.  So now the conclusion the part 3 is assumed algorithm return 0 then we showed that the loop invariant is true after T iterations, which was that X is not in that set a 1 through 80. So in particular after n iterations when the algorithm terminates X is not in the entire list, which means X is not in the array, which is what we wanted to show.  Okay good.  Okay, let's do a little bit of time analysis on this algorithm. How bad is it? How good is it? Is there a case that it's really good? Is there a case that it's really bad? Let's let's talk about that.  So support suppose suppose you have an unsorted array like these DVDs or whatever you like and you're searching for a Target value that you know is in the array somewhere.  What position in Forex will cause linear search to take the longest amount of time?  Good.  Course the last element of the list because you have to go through the whole thing, right?  Okay, good. So  Last element of the array. Okay, so we're going to look at what is that mean to to take longer or last longer or how do we compare the time the algorithm takes so instead of actually Computing the time the actual like stop stopwatch time instead. We're going to count the number of operations and Inn in this algorithm. The the main operation we're doing is probing right? You're just kind of asking does this algorithm. Does this look like this other element? So how many probes did we do?  Text to the time it takes to find X depends on the number of probes. That is the number of entries we have to retrieve and compared to X.  So in the worst case scenario how many probes we have to do?  And how about best-case scenario?  one right if it's in the beginning and on average  about an over to if all  all inputs are equally likely.  Okay good. So let's move on and look at a different type of algorithm to search things. How would you search through a pile of alphabetize papers to find the one with your name on it?  Okay.  I guess if you had like a a name you maybe look from the top.  Okay. Yeah, maybe just cut it in half and see where the half and half point is. If your name comes before that half point then all you have to do is search the top half of the list if your name comes after search the bottom half so you can throw away happier list and mediately. This is going to save a lot of time.  Okay, so if we probed the list at position, what do we learn in each of these cases? Okay. So if if it's equal to a I'm of course we have found it we have found.  Target  good, what if x is less than a.m. Which is just a certain element that we probed.  Okay.  We know.  that  if x is in the list.  Ex has to be in the first half a 1 through a.m. Or say any of -1 and then if we know that if x is in the list X is going to be in  Am plus one all the way up to a.m.  my gun  Yeah, but I am saying this one we know it's strictly greater.  Okay good. So in this case we're done with the first one the second case and -1 positions remain to be checked in and -1 positions room and -10 positions were made to be checked in this one. Okay. So how do we figure out? What's the best place to go? Well, let's think about trying to get the worst possible case to be the best right? For example, if already has a hundred elements and we probit position 5.  then we could be really lucky and see n throw away 95 of the  elements in only have this very small list to look at which is good. But most likely the target is going to be in the second half. So we have to search 95 entries in the worst-case. Okay. So how do we minimize the worst-case how we make the worst case as favorable as possible?  Probe in the what?  middle  Right, cuz that bounces out the worst case. That's the smallest worst case scenario you can get  Okay, so if we're if we're looking in this list AI to AJ you probat index I + J over to the floor.  Okay, and  if you can't get exactly the middle cuz it's even or odd or something then just get as close as you can.  Okay, so based on what you find there determine which have to search in next continue until the target is found or you can be sure the target is not in the array. When can you be sure the target is not in the array?  Right and you throw away either the greater hapur the the lower half. I didn't you keep on doing it and you keep on cutting your your array in half as you go, right since we're working with a finite array. This is got to end at some point, right it ends when you have only one element left and if your element is not equal to that element then or your targets not equal to the element then you know for sure your target is not in the lift at all.  Okay.  So this is called binary search. This is how it works. This is the kind of high-level description start at The Middle based on what you find determine which have to search next continue until Target is found or we're sure that it isn't there.  Kaitlyn spilling some details.  Okay, we're going to start with i at 1 and Jada and those are like the two endpoints of your of your array. And what you're going to do is either increment. I  So that you're the only doing the second half of the list or decrement J all the way down to just doing the first half of the list. Okay, so these are our three cases and so you can see if x is greater than a.m. Then I gets kind of moved up to m + 1 and if x is less than Jay gets moved down 2 N -1. This will actually work no matter which M you pick you don't have to pick the middle element. The only reason we're doing that is because that's going to save us the most amount of time but this will work either way.  Okay, so what do I put in this while loop? When do I want this to?  Terminate or when or when do I want it to keep going? That's a better question.  Okay good.  See eye has less than J.  Good night, because if I is less than J, that means that the list that you're looking in is nonempty, right?  Once I become equal to Jay then your list is one Element and then you can go down here and say well if x is equal to that one element then return it. Otherwise return 0.  Okay good.  Why does it work?  Well, we kind of have to show this to same things. We showed in linear search.  Kay Swann  is that if binary search return some non zero position then that position is equal to X and if binary search return zero, then there is no position P for which AP is equal to  Okay, good. So  What's up?  there's a there is a  There is a version that is recursive. But this particular one has a loop your looping this while loop.  so  just like before number one is Fizz pretty trivial, right?  Suppose binary search return some nonzero position now look at all the places that could happen.  It only happens.  here  and here and for each one of those cases it came right after a conditional where we found a match stop. This is trivia.  If it returns a nonzero pee than is equal to pee, right?  Okay, next one. This is the one that takes a little bit more care.  If it would search it if the search return 0 then there's no position P for which AP is equal to act. This one in. My opinion is even more surprising than the linear search because we're not even looking at all the elements but were using the fact that they're in sorted order. We can eliminate have to list each of the time.  Okay, so instead of proving this we're going to prove the contrapositive who can give me the contrapositive of the statement.  Okay. So what is it if there is  a position P for which  AP is equal to X then.  binary search  does not return  0  are these statements equivalent?  death  Contrapositive. Yes. It's logically equivalent to the original statement, right? Yes. Okay good. So if I prove this this is sufficient to prove that.  okay, contrapositive good so  What I want to show is that if there is a position P for which AP is equal to X then the binary search does not return 0, here's my Loop invariant Suppose. There is a position P for which AP is equal to X. Then this position is always going to be in between I and J.  So this is a loop invariant and then you can kind of look in the future to see okay, how we going to use this to prove? The algorithm works is that well, these Ian J's, they're getting closer and closer to each other at every iteration. And so at some point they're going to have to meet and if they meet they're going to meet at P. That's the only possibility.  Okay, let's let's fill in these gaps.  before  the first iteration  I is equal to 1 J is equal to end.  and  pee is in between one and end got to be right.  okay, inductive hypothesis suppose  after t iterations  that  I is less than or equal to P is less than or equal to J.  And I guess I'll save for some.  Or some tea greater than or equal to 0 and you might notice here that this is a little bit different of a loop invariant because the statement of the loop invariant doesn't have to do with the number of iterations because these eyes and Jays are being updated. So it's kind of like a different flavor of loop invariant.  Okay inductive step.  Any questions about this so far?  Okay inductive step.  Okay. So what happens in the next iteration is set to be I + J / 2 right?  case one  X is equal to a m, right?  Then is in between I and J.  right  because m is actually their midpoint.  Piggott case 2  x is greater than a m in which case I is equal to m + 1 + J stays Jay stays people to Jay. Jay does not get updated.  Okay.  10 + 1 write yes.  And so we know that.  X is greater than  Am I right?  and less than or equal to  KJ Wright  This is from this is from k-stew. And this is from the inductive hypothesis.  Or instead of axilla CPAP better to do that way.  AAP  okay, and then this means that AP has got to be in between a m + 1 + age a and that means that pee have got to be in between I and J.  Pixel gun case 3 and this is sort of the same thing as less than a.m.  That means that I is just not updated and Jay gets updated 2 N -1 and now we know that a i is less than or equal to AP is strictly less than  hey.  Which means that they eye is less than or equal to a p is less than or equal to a m + 1 - 1.  Write a m j which is M - 1.  Which means that?  I is less than or equal to P is less than or equal to J.  Queso in all cases we have this Loop invariant staying the same.  this  node.js + -1  No, Jay, the original Jay is Jay and then we reset Jay to be M -1.  Yeah, that's the inductive hypothesis. It was put it in green.  Inductive hypothesis. Let me just write it up here.  Was that before the loop I knew that I is less than or equal to P is less than or equal to Jay and what I can conclude from that is that a p is greater than or equal to a i and less than or equal to a j and so in case 2 I used it here and in case one I used it here.  Okay, so it works right? It's good.  Let some  let's think about how much time this is going to take with each probe.  You reduce the size of the subarray by to write. So if you do one one probe you throw away half, right and your and your array is now a half of the size after two probes you get a quarter of the size 3 is 8/16. So when we get down to W probes, how big is the  A ray that you're searching in.  Andover to the W, right  Right at the W Pros get an over to the W.  So the question we want to ask is how many probes do we have to do to reduce this number down to one?  Okay. Well we can just do like a simple.  algebra  We want an over to the W to be less than or equal to 1 how big does w have to be? Okay. Well just do some a little bit of algebra and you see that W has got to be at least log base 2 of n  K & W is the number of probes or actually has to be an integer. So what's the what's the smallest integer? That is sure to be greater than log base 2 of and you just take the floor in at 1  Hey, so this is the maximum number of probes. You need to do before binary search will terminate.  K any questions about that  that's just because it's got to be an integer.  so  I guess you can just do the ceiling of log base 2 of n right?  Either way, but like we said before last week for these types of things. We're not super concerned about the exact number of operations were more concerned about how it grows. And so this is going to be big love login.  Oh what happened there?  Okay.  This is my responsibility.  This is me.  my bad  Well, this is embarrassing.  Okay, so we've shown that it takes at most login plus one pro tour binary search by comparison linear search takes as many as and probes even the average case and over two probes so while binary search is faster than linear search it depends on your data to be in order so what if you have an unsorted array  What's better, should you sort it first so that you can use binary search or should you just linear search it?  Depends on how long the wedding is going to take, right?  So there's a trade-off between the cost of sorting right so sorting.  We're going to see that the best sorting algorithm you can do that uses comparisons is and log in time.  And so that already takes more time than doing the linear search, right, so it's not really worth it to sort it.  It's much it's much faster to just use linear search. How can anybody think of a scenario where maybe it would be a good idea to sort it?  We could still look for both things at the same time.  But you're on the right track, though.  Yeah, I do know that you're going to need to search it over and over again in the future, right?  Which is kind of what you said.  Yeah, I was trying to throw you a curveball.  Sorry.  No, but if you wanted to search for exactly if you wanted to search for two values, you can still do it in linear Time by doing a linear search, right? You just instead of just probing for one you just Pro 4 to internet still constant time operation.  Okay, so you're only going to sort half of the stack or south of the list. That's still going to take 10 login time Big O of M login.  Yeah. Yeah, it's hard.  If you need that's why everybody sorts everything, you know, why you organize things it so you can find things easier. That's why your phones or computers all the electronic things that we have their starting things all the time because they want to get it in order so that they can have easy access to everything.  Okay, so  The next general thing we're going to do is look into more detail about this running time analysis. We've kind of hinted on run times of different algorithms right runtime of binary search of linear search, but you might be able to start getting a sense would do next time.  Okay there any questions?  Let me see how far Quan got today.  Maybe I went a little too fast.  How do you check?  Look at his slides.  Please take a look here.  preview  I think he got to the same place. Okay, dude. So what are you guys want to do for the next 20 minutes?  Go home.  nap time math problems nap time  not math time  another story  No, let's just wait till we can just call it a day.  Have a nice time. "
+}

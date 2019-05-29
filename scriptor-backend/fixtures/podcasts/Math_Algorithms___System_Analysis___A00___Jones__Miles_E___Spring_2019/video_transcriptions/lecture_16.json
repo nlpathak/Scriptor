@@ -1,0 +1,591 @@
+{
+    "Blurbs": {
+        "+ 1 - P * 1 + 80 ^ x p + now let's multiply this out or get a one- p plus EFX - p e r x Actually, let's write it like this. Now, let's subtract 1 - p e of x from both sides. And now I have p + 1 - P. So that's just one on that side. Right now it's combine like terms. 1 ": [
+            933.6,
+            1010.8,
+            23
+        ],
+        "- 1 + p What do you think? Pretty good. Okay, good. So now we have this this is the ending condition. It's always works. Right if you have a a Bernoulli trial independent Bernoulli trials, meaning that once you do one of the trials that doesn't affect the probability of the next trial for each trial has probability P every time you do it then you're expected to run ": [
+            1010.8,
+            1060.2,
+            24
+        ],
+        "1/4. And these are not equal therefore. We found a pair of values that don't equal each other with this equality equation. Therefore, they're not independent. Okay. How about this last one? If I tell you that the first two flips I tell you information about the first two flips and then I asked you how to guess how many heads are there in the entire sequence? Will you still ": [
+            1619.5,
+            1651.8,
+            39
+        ],
+        "3 4 5 6 right so that number kind of keeps on going up and so probably the object causes. No collisions is 1 - 9 - 1 / M. This is a list. Of course, assuming that none of the other objects had any collisions within themselves. They're all in different things. This is exactly what we just saw with the birthday paradox. Okay, so the probability that all ": [
+            3392.9,
+            3428.7,
+            84
+        ],
+        "365 days. Frank and show your kind of taking the virtual memory of all the people in the world and and you're only the virtual memory is only a memory of size 365 which is a lot smaller course. There's a lot of hash collisions, but it gives you a nice analogy. Okay, so the general birthday Paradox type phenomena is you have an objection and places you're putting each ": [
+            3291.4,
+            3326.8,
+            81
+        ],
+        "365. And this makes sense, right? Okay now. What event is equal to 3? So what is the probability that at least 2 people share the same birthday? If there are three people did you hear what I said? What's the probability that at least right? What are we doing? We here at least. Calculate the complement right and then subtract it from one from all from the big set. ": [
+            2954.5,
+            2989.3,
+            73
+        ],
+        "All right. See buddy have any questions. on the homework or class lecture we're going to do some things today that's relevant for the homework. So that might be good. We're going to end with a randomized algorithm, but we're going to begin with exploring. some other consequences of this expectation being able to separate it in terms of When you partition the sample space. so by doing the case ": [
+            69.9,
+            122.7,
+            0
+        ],
+        "But if you're interested in this kind of thing, then Thursday slides that are just going to be after this about cryptographic hash functions and how you can harness this birthday Paradox to do something called a birthday attack and you can basically create fraudulent. Documents that maybe you could trick somebody to sign. Okay, so I mean don't do it, but it's good to know that that is possible ": [
+            4583.1,
+            4620.8,
+            115
+        ],
+        "Do you remember how we did it on the exam? Sort the list and then stepped through to find the duplicates. Okay, what's the runtime? Well, it kind of depends on which sorting algorithm you used, right? Text with merge sort you can get it to be in login. Because the rest of the algorithm is just looking at the pairs and that takes linear time. Okay. So this is ": [
+            1956.9,
+            2011.1,
+            46
+        ],
+        "Each memory location only held zeros and ones now each memory location holds a pointer right and that pointer either goes to nil or it goes to something, right? Persona to the list and so then you can say okay. Let me just look through this list until I find my element. Okay, so this is just doing that right now. So it's the same kind of thing except for ": [
+            3760.5,
+            3797.3,
+            94
+        ],
+        "For this one, let's show you concretely why doesn't work. So let's say let's say you be is equal to 3 and you is equal to one. Okay. So what is the probability of H equals Ansari? x equals 3 and Y equals 1 What's the probability of getting? Exactly 3 heads. I have two shouldn't be 1/4 4 out of 16. Because there's four ways of getting three heads ": [
+            1516.9,
+            1578.6,
+            37
+        ],
+        "I guess I equals 1/2 and J. Equali plus one to end. Any questions about that? Or another way you could say it is that this is the same overall pairs IJ. Aren't you take every single possible pair? If there is a collision then you're going to add a 1 so this counts all the collisions if there's not a collision you had a zero. Okay. So total number ": [
+            4170.5,
+            4218.8,
+            106
+        ],
+        "Infinity. You can find a probability that the random variable is equal to that value. Now, of course, it's going to be as tough as the as you go off to Infinity the the probability the random variable is going to be that value kind of goes towards zero after a while, but Our question is what's going to be kind of the average over that whole case so we ": [
+            312.9,
+            339.7,
+            7
+        ],
+        "It could be that there's no collisions at all. If you if you're really lucky or if you're really unlucky there could be a bunch, right so we have to kind of figure out what is the expected number of collisions. Okay, so Let's see. Remember, we're doing an ideal hash function right where each output is equally likely so H is a function that chooses a random number in ": [
+            4018.8,
+            4044.4,
+            102
+        ],
+        "It's pretty unlikely but notice here. This is 23, which is a very small number compared to 365. But there's this like a coin flip. It's like a 50/50 chance that every group of 23 people is going two of them are going to share the same birthday. So I would bet my life on it. So but if there's 70 people there's a 99.9% chance. There's we have many ": [
+            3165.1,
+            3214.5,
+            78
+        ],
+        "Let's say you had like a company with 5,000 employees and each one is identified by their social security number and you have this file cabinet that you want to keep your employees papers in right and you want to be able to look them up quickly. Now one way you could do it is you could keep a file cabinet that has How many are in a social security ": [
+            2391.7,
+            2421.1,
+            57
+        ],
+        "Let's train, right? So each memory location will be the the start of a linked list and you can start linking in memory locations as you go, right? I should be blinking in every time you. Every time you hash to a certain memory location, you put that actual object in the linked list now. So this is a lot different than the algorithm. We had the album We Had ": [
+            3726.2,
+            3760.5,
+            93
+        ],
+        "M to be close to N then the run time is linear. So really you just need around the same number of memory locations as your original input. So this is the total expected run time over with and plus and squared over him. So as long as m is greater than end. Then we get this thing here. And this is a lot better because we can choose M ": [
+            4460.4,
+            4498.3,
+            112
+        ],
+        "So the the complement of this statement is what's the probability that all three people have different birthdays, right? So the first person can have any birthday. The second person can have any remaining day right in the third person can have any remaining day from there. So the probability that all three of them share different birthdays is the product of these three numbers, which is around 90918. therefore ": [
+            2989.3,
+            3024.5,
+            74
+        ],
+        "That's all the failures then x p that's the success. and now You saw it up? 4 oz equal to 1 to Infinity I think this is exactly the definition. This is really not fun to solve. This is a infinite series you have to do like to figure it out. how to make it work so that you can show that it converges and what it converges to maybe ": [
+            365.8,
+            402.3,
+            9
+        ],
+        "This is actually an indicator random variable because it only has two possibilities. Okay, so what is EFX? It's equal to 0 times probability that X is equal to 0 + 1 times probability that X is equal to 1 right? So that's 1/2. Okay, what's EFX square with this is 0 times probability that x squared is equal to 0 + 1 times probability that x squared is equal ": [
+            1132.6,
+            1173.0,
+            27
+        ],
+        "This should be Big O of n right? Okay, so we're not going to be able to use unlimited amount of memory. So use something called the virtual memory which we can accomplish by using a hash function. So a hash function takes the desired memory locations in this particular case. It's any integer. I'm you plug it into the hash function in a gives you another memory location in ": [
+            2321.5,
+            2359.8,
+            55
+        ],
+        "We're just splitting it up so far. Okay. So let's fill in all of these things. Okay. What is the probability that that you get an event in a what's the probability that you get 6 test on your first try? Little pee, right? That's the probability that you get a success. Now so this conditional expectation you should read it. expected value given That the outcome. Is in a ": [
+            571.5,
+            630.6,
+            15
+        ],
+        "You can always come meet with expectation but with multiplication they have to be independent. That's the only way that it works. Okay, so let's move on to an algorithm that we're going to look at for a little while. Okay, and have any questions about that for a move on? I think so, but I think it goes both ways. you think I think you need to have it ": [
+            1857.5,
+            1922.3,
+            44
+        ],
+        "a lot more time in. You're forced to take it yet. So can we get anything better? Yes, we can come up with an algorithm. Where the time and memory are both end. Why do we do all of this stuff? We can talk about birthdays. Well instead of trying to avoid collisions like they're bad. Let's embrace them. Okay. Let's say you know what? There's going to be collisions. ": [
+            3687.9,
+            3725.2,
+            92
+        ],
+        "a random variable is a function that takes an outcome to a number and so this particular X. Takes the outcome and and the number that it gives you is the number of Trials. So for example X of s is equal to 1x of f f f f s is equal to 4. Guy. He of X is the average number over all of these outcomes waited by their ": [
+            824.6,
+            856.9,
+            21
+        ],
+        "a shorter or in a finite number of memory locations. Okay. So typically we want more memory than we have. So age is not going to be one to one right? This is what I'm talking about with collisions. You might have to map two different elements to the same location. And that could or could not cause problems depending on if you're careful. Okay, here's kind of an example. ": [
+            2359.8,
+            2389.1,
+            56
+        ],
+        "about. So take up unlimited. We're going to we're trying to find duplicates in integers, right? So take some kind of like Infinitely long array memory array, okay, and this is just an imaginary so doesn't actually exist. But if it did let's just consider that maybe looking up those values takes constant time. Okay. So let's say my first number is a thousand so that means I go to ": [
+            2178.0,
+            2214.2,
+            51
+        ],
+        "actually linear amount of memory Okay, so Generally with merge sort you might have to copy the list over but that's not going to affect the memory bye-bye too much. Maybe it'll be affected by a constant Factor right? Maybe you'll have to use double the memory right? Maybe after you too and memory but it's not going to affect it too much. And then the rest of the algorithm ": [
+            2060.0,
+            2093.0,
+            48
+        ],
+        "all the time. Okay, there is one other function that you can that does commute with expectation, but it only works some of the time it only works if the random variables are independent. Okay. So what is it mean to be independent random variables? So if you recall independent events means that the product of their probabilities is equal to the probability of their intersection. Okay, but independent random ": [
+            1243.7,
+            1278.5,
+            30
+        ],
+        "analysis, right? So let's begin with this. This slide. I think this is what we ended on last time. It's the ending condition. So think about if you have some sort of Bernoulli trial something that has a success or a failure right? Whether that be I'm playing a game of Solitaire or I want to have a left-handed child or I'm flipping a coin and you keep on doing ": [
+            122.7,
+            152.9,
+            1
+        ],
+        "and one tail and they're 16 possibilities, right? Now what's probability of x equals 3 + 4 * 2 * 80 * high probability of y equals 1 the probability that X is equal to 3 is 1/4 probably that Y is equal to 1 is also 1/4 right beside your kind of using both of the information right using this thing a few times. So this is 1/4 x ": [
+            1578.6,
+            1619.5,
+            38
+        ],
+        "and you partition it into two separate. Events doesn't have to be to it could be three. I think in the homework there was one they have to do it with three but in general it's just to wear the longest in general can be anything but specifically this one we're going to do it with two. So the events are going to be a and a compliment and they ": [
+            432.3,
+            459.5,
+            11
+        ],
+        "are the one of them doesn't kind of have any effect on the other Just intuitively, I guess. Toby this one's a lot different right? In fact, one of them is is completely determined by the other right? So they're dependent on each other the number of heads in the sequence and the number of tails in the sequence. So if I tell you the number of heads in the ": [
+            1465.6,
+            1491.3,
+            35
+        ],
+        "assume that is ideal which means that any of those memory locations are equally likely for each. actual input I need the thing is that the hash function is is Fixed right? So if you put the same number into the hash function, it'll always give you the same result. But that those results are kind of all equally likely have equal probability of what they would be. okay, so ": [
+            2520.5,
+            2558.4,
+            61
+        ],
+        "at most one and that just means everybody's different. at least three but yeah, if you stay at least two then the complement of that is like everybody's got to be different. Okay, so here is a table of values. They get it right though. It was 170. Okay. I was a little off. Play song. With five people. There's a almost 3% chance that kind of makes sense. Right? ": [
+            3131.6,
+            3165.1,
+            77
+        ],
+        "bad, but you're going to have to be super unlucky for that to happen. Right? So a better question to ask is. How how long do you expect this algorithm to take what's the expected run time? Okay, that's based on the expected number of collisions. This does everything we want now all we need to do is argue that it actually has a good run time. I mean worst ": [
+            3859.5,
+            3891.0,
+            97
+        ],
+        "birthday? Is what? Assume that every every birthday is equally likely I know that's not a valid assumption. But let's let's hit make that assumption. Okay, so this turns out to be I don't know exact the exact number. I have to figure it out, but I think it's around like 65% all the time is that surprising? Right because there are 365 days is such a small compared to ": [
+            2841.4,
+            2892.8,
+            70
+        ],
+        "can be whatever you want. now let's think about what is the sample space infinite sample space right sample space remember is the set of possible outcomes. So what are the elements in the sample space? Okay. Well, you can just start off with a success and then end. or you can have a failure and then a success or then you can have two failures and a success write ": [
+            459.5,
+            498.0,
+            12
+        ],
+        "case we've already talked about worst cases and squared which is bad, right? Cuz we may as well just use the Sorting one. But let's see if we can find a nice balance for how much memory location how much memory we put in Bay City. How big is am going to have to be in order for us to get kind of a reasonable run time. Memory locate memory ": [
+            3891.0,
+            3916.4,
+            98
+        ],
+        "chance. What's even more surprising when you get up to 60 people it's over 99% chance and really 70 or more. It's it's going to be near certain. This isn't even half of 365 yet. Pretty crazy, right? Okay, where's the connection? Birthday is kind of like a hash function. There are billions of people in this world, but we can kind of randomly math all the people to these ": [
+            3248.9,
+            3291.4,
+            80
+        ],
+        "collisions while what we're going to do? is Define an indicator random variable. Define x i j. To be equal to one if hash of AI is equal to Hash of AJ. and 0 otherwise Okay, so I have an indicator random variable its its index by two values. and would you agree with me that? The actual number of collisions is just the sum over all of these things. ": [
+            4112.3,
+            4159.4,
+            105
+        ],
+        "comparative number, right but you get such a high but big probability. So let's talk about where it comes from. Okay. Let's start small given a group of n people assume that each person is equally likely to have any birthday. What's the chance of two people in this group sharing the same birthday? Well, if there's only two people what is the probability that these two people share the ": [
+            2892.8,
+            2916.2,
+            71
+        ],
+        "could do. Is just figure out what is the probability of each one of these things? And it's just like I said, the probability that X is equal tensei means that I failed 9 times in a row. And then the last time I had success so failure is 1 - P - the probability that X is equals RI is 1 - p x to the I -1 power. ": [
+            339.7,
+            365.8,
+            8
+        ],
+        "create the entire set and you know that the probability of being in that whole set is one. So those two probabilities always have to sum up to 1. Okay, but this is the one that gets a little tricky but we're going to do a little trick. Okay? So this one? well I certain I certainly need to flip it at least once right because this condition is saying ": [
+            664.8,
+            695.2,
+            17
+        ],
+        "expected number of times before you get a success? Okay. So a lot of people are saying 1 / p + by your intuition that kind of seems right, right. For example, if P was 1/2 like a coin flip you would expect to have to flip the coin twice before you get a heads, right? If the probability was let's say 1/10, right or maybe one plus 6 if ": [
+            192.2,
+            226.0,
+            3
+        ],
+        "for each element in the memory location. You just keep on checking to see if is that element and if you found it in the link less than you found them. Otherwise, you append it to the tale the last right you attitude. So is this going to be efficient? What could go wrong? Okay, very good. You can be really unlucky and all of your input elements past the ": [
+            3797.3,
+            3834.4,
+            95
+        ],
+        "going to do essentially I mean we're going to we're going to use tricks to do it. Essentially we're going to take the average over all possible hash functions write and figure out how many collisions there are on average and that's going to give us the expected number of collisions. Expected value random variable let's do it. Okay, let's use linearity of expectation. What's the expected total number of ": [
+            4083.8,
+            4112.3,
+            104
+        ],
+        "good. There's a great algorithm. But what we're going to do today is try to try to get a better algorithm. Try to get a more efficient algorithm. And when I say more efficient, I'm going to talk about two different qualities. The algorithm has this is time efficiency, which we've talked about a lot but there's also space efficiency. Okay, how much memory does this actually require? okay, good ": [
+            2011.1,
+            2060.0,
+            47
+        ],
+        "happens. So if the size of the list is Big that means that there has been a lot of collisions at that location, right? And another way to say it is to say hey, this is the number of indices J less than I so I comes after J such that I have collided with j a j. Let's suppose that the the linked list has like five elements in ": [
+            3941.4,
+            3979.2,
+            100
+        ],
+        "if you're gone through the whole list, then they're all distinct elements. So this is not a hash table, but we are going to use a hash table in the next in the next few slides, but we have to be careful because a hash table relies on some sort of Randomness some sort of probability because you're not you're not guaranteed that two different elements might hash to the ": [
+            2241.7,
+            2286.1,
+            53
+        ],
+        "is equal to 3. How many how many possible ways could this happen? You really only have two right you could have heads heads Heads Tails or heads Heads Tails heads. right any questions about that part? Okay. Now let's multiply them together and see what happens the probability that x 1/2 is equal to 2 times the probability that X is equal to 3. Is equal to all the ": [
+            1691.0,
+            1763.1,
+            41
+        ],
+        "is kind of like the linearity of expectation but it's for multiplication. But for this one, it's important that the random variables are independent. So if they're independent then multiplication commutes with expectation. Okay, if they're not independent than this is not necessarily true anymore. Remember linearity of expectation the the some you don't have to have any constraints on the random variables for the for the summit always works. ": [
+            1823.5,
+            1857.5,
+            43
+        ],
+        "is the probability that there is a collision? When you have an object's in and locations, right, so we want you to be close to 1 so we want to be close to certain that there are no collisions. So this thing to the negative something what is that graph look like? Or when is it close to 1? It's when this thing is really close to zero. So we ": [
+            3498.8,
+            3530.9,
+            87
+        ],
+        "is to prove it directly. Now remember how to compute the expectation is you some over all the random variable values and then you multiply it by the probability of getting that random variable value. Remember hear the random variable is the number of times you flip. So what are the possible values that it can have a number of experiments? You could do one experiment get on the first ": [
+            251.7,
+            284.1,
+            5
+        ],
+        "it is the same thing. Okay, how long does it take? Well, these are both constant time and this thing is the worst case is when you don't find that element that means you have to kind of go through the entire Link Link list down the chain, right? So we're going to do is count. The number of times that actually happens for the expected number of times that ": [
+            3916.4,
+            3941.4,
+            99
+        ],
+        "it's the one I have Okay, so Basically, what I do is I take my original input I hacked it. And then I I look into the location if it's a one then you found a repo if it's not a one then you haven't found a repeat. This is going to work all the time. Okay good. So this is not going to work all the time because Like ": [
+            2591.7,
+            2630.6,
+            63
+        ],
+        "it. And then another element comes in that means that that other element has collided with all five of those things. So basically what we're counting is the total number of collisions. Each time. There is a collision you add one to the time. Okay. So total time is n plus the total number of collisions. So now the total number of collisions, this is not a deterministic thing, right? ": [
+            3979.2,
+            4018.8,
+            101
+        ],
+        "knew the results of the first event. Would that give me any insight in how the second event will happen? So take a few minutes to talk it over with your neighbor. Okay good. So using this definition to show that random variables are independent would take a lot of work, right? There's a lot of different combinations but showing that two random variables are not independent is easy. All ": [
+            1334.2,
+            1438.6,
+            33
+        ],
+        "like kind of a high. yeah, okay, so I'm going to try to switch gears for a minute because this kind of ties into something called the birthday Paradox. Have you guys heard of this before? Okay, so What is the chance of two people in a group sharing the same birthday? Okay. So what is the chance that in a group of 30 people two people share the same ": [
+            2812.9,
+            2841.4,
+            69
+        ],
+        "make it faster. If you allow for more time, then you can use up less memory. It's not a well-defined balance, but it's the kind of has a balance in certain situations. So if we had unlimited memory will we be able to do this problem faster than and login any thoughts? Yes, but that look up table requires unlimited memory. Exactly so good. This is exactly what we're thinking ": [
+            2126.7,
+            2178.0,
+            50
+        ],
+        "may not know exactly how many there are but you'll have a better idea if I didn't tell you this at all. And so this information is dependent on X12 but these are also independent and dependent variables. And again, I think it would be nice to do a concrete counter example of why they fail this property. Okay. Let's say that. X 1/2 is equal to 2 and X ": [
+            1651.8,
+            1691.0,
+            40
+        ],
+        "memory. Okay, good. This is actually a trick question. In general, it should be Big O of n + n. right cuz I didn't tell you if Emma was bigger than an are that was kind of mean. CenturyLink Okay, good now. It's on Berlin might make a mistake. And when does that happen? Well, our goal incorrectness is to Output find a repeat or if there's no repeat that ": [
+            2683.6,
+            2745.8,
+            66
+        ],
+        "more than 70 people. Tell who's your birthday twin? He's in this room. Now that's not how it works. It's not that it's there. Is this likely that somebody shares your same birthday. It's this likely that two people out there share the same birthday. Okay, and so this is where it gets really? For me this is this is really surprising that in 23 people. It's it's a 50-50 ": [
+            3214.5,
+            3248.9,
+            79
+        ],
+        "now not this was not a think. Okay. So now we have another algorithm where I have a hash function H, right that that is a size M. So it's going to store the it's going to map each integer to one of these locations and these locations are going to be just bits zeros or ones. So if it's a zero, that means I haven't encountered that location if ": [
+            2558.4,
+            2591.7,
+            62
+        ],
+        "number? Yasso, that's my social security number right here. 1 2 3 4 5 6 7 8 9 or 10 to the 9 right? Which is a billion so you can have a file cabinet with a billion slots, right? And then you could find the things by just putting it in the spot, but you only really have 5,000 employees. So this is not really doesn't really make sense ": [
+            2421.1,
+            2454.1,
+            58
+        ],
+        "object at random into one of the places. What is the probability that two objects occupy the same place very crude drawing of M buckets and N Balls and we're going to put the balls in the buckets at random. Okay. So we're going to kind of keep track of what's the probability that they all kind of went into different buckets. So when the first one goes in the ": [
+            3326.8,
+            3354.4,
+            82
+        ],
+        "of collisions is equal to this thing. All pairs for Jay is less than I write. So, you know, there's an order to them. and we got that the expected number of collisions is now what is this value? What is the expected value of x i j now you got to take a take a minute or so to talk it over with your neighbor. Remember you have and ": [
+            4218.8,
+            4253.4,
+            107
+        ],
+        "of that stuff happens is the product of all those probabilities. Okay all of these things. Have you guys seen this notation before big big pie? Big pie is just like, you know, like some Asian is like for that that Sigma is for some big pies for product. So it's just like the summation but you're multiplying instead of adding multiplying all these things and don't worry about this ": [
+            3428.7,
+            3461.6,
+            85
+        ],
+        "of virtual memory locations really really big then the probability that there's going to be a hash Collision goes down, right? So how high do we need to make our or how big do we need to make a virtual memory so that we can be pretty sure that we don't get any hash Collision Center out going to work. Don't forget that you'll be certain right if we want ": [
+            2785.4,
+            2812.9,
+            68
+        ],
+        "one through amp for each input. Okay. Now, how can I find the total number of collisions? It depends on the random assignment of memory locations. What does this make you think of? random variable Right in this case. The random variable is the number of collisions based on the outcome and the outcome is the the hash function. Like how did it hatch those things? Okay, basically what we're ": [
+            4044.4,
+            4083.8,
+            103
+        ],
+        "operations that commute with expected value? I want in general know and let's kind of look at squaring a function queso. EFX quandary Square inside but then he of x squared or E of X that whole quantity squared are those always going to be the same or they always going to be different what's going to happen? So let's do a example. So we have a random variable here. ": [
+            1097.2,
+            1132.6,
+            26
+        ],
+        "place which condition on the fact that the outcome is in a so if the outcome is in a what is his expected value. What right did you just did one flip or one trial or one experiment? And so this thing is one. Okay plus now. What's the probability of a complement? 1 - P right because I want to think about it is a and a compliment together ": [
+            630.6,
+            664.8,
+            16
+        ],
+        "probabilities. That's the one that's on this one. Yeah, this is the fail. This is the first failure that you do. Yes, that's what that one is. Okay, so this is just all the stuff we did. Okay, does this this looks a little bit better than that infinite sum right? Let's solve it. Let me get myself up some more space here. EFX is equal to P * 1 ": [
+            856.9,
+            933.6,
+            22
+        ],
+        "probability that there's no collisions right is just certain. Okay when the second one goes in what's the probability that there's no collisions? and -1 / M or 1 - 1 / m Okay now assuming that the first two did not Collide what's the probability of the third one doesn't collide? M - 2 / m 1 / 2 / 1 - 2 / am right and what about ": [
+            3354.4,
+            3392.9,
+            83
+        ],
+        "probability that x 1/2 is equal to 2 is a quarter, right? The probability that X is equal to 3, we've already done this kind of Frank. This is also a quarter. Take me to 116. Okay, so 1/16 is not the same as 2/16. Therefore. We found a counterexample any questions. When a coin is flipped four times. Okay, let's move on. What do you say? Okay, so this ": [
+            1763.1,
+            1823.5,
+            42
+        ],
+        "same birthday if there are only two people Oh, yeah, I think yes, simply pick one day out of the 365 days to be the shared birthday. And then there is one other way you think about it is the first person could have any birthday right? Let's say it. I don't know June 10th, right then the probability that anybody else has that same birthday is 1 out of ": [
+            2916.2,
+            2954.5,
+            72
+        ],
+        "same number as you expect from the beginning? got any questions this this It's just this thing here, right? And so if I'm just in a what's the expected number of flips I have to do sort of like the average number of flips and it's just one because only has one element. For the same same expected number of flips or trials. It's cuz you did that first trial ": [
+            723.2,
+            784.7,
+            19
+        ],
+        "same thing. And so you're basically just adding the elements to a list and then searching through that list for each one which which will be a 10 squared. N squared it's going to be like It can be like 1 + 2 + 3 + 4 + 5 + 6 + 7i all the way up to end and that's an * N - 1 / 2. And that's ": [
+            3834.4,
+            3859.5,
+            96
+        ],
+        "same value and then you're going to have a collision and that's going to add to your run time. So we're going that's basically where we're going is kind of using a hash table to to mimic unlimited memory, but it comes at a cost right because there is some sort of Chance that. you might have a bunch of collisions. Okay, so maybe we already kind of discuss this. ": [
+            2286.1,
+            2321.5,
+            54
+        ],
+        "says distinct elements, right stop. If there is a repeat will this algorithm find it? Yes, right. So it actually does this really well. This is the thing that it messes up. Right if there are no repeats then it might give you the false sense that there are. news of the hash collisions Okay. So when is our how algorithm correct with high probability if we make the number ": [
+            2745.8,
+            2785.4,
+            67
+        ],
+        "sequence, and then I have you guess how many Tails there are you're going to have a pretty good guess right? Whereas if I tell you the number of heads in the first two flip and asked you to guess how many in the second two flips, you're not going to have any idea you haven't this information didn't give you any insight but more specifically Let's do an example. ": [
+            1491.3,
+            1515.6,
+            36
+        ],
+        "size end and shoes to Okay, so this is kind of the result that we get is. This thing here is 1 / m. This thing some Zen over 10 shoes too many things. So the whole answer is n choose to / M which is around Big O and squared over him. This gives you the number of collisions the spacer gives you the runtime. So if I choose ": [
+            4433.8,
+            4460.4,
+            111
+        ],
+        "stuff so much, but you can you can approximate this product by e to the negative and choose to over m. At least you can you can show that P this p is less than or equal to that. You can have it as I got upper bound pretty good approximation though at least. Okay, so we want P to be close to 1 why is code P is the ": [
+            3461.6,
+            3498.8,
+            86
+        ],
+        "that X could be on this case that x squared could be. Okay. Now what about that? Well, this is the quantity of e of X. We've already calculated that quantity squared and so that's 1/2 squared which is equal to 1/4. Okay, so you can see that. Expectation does not commute with squaring a random variable. And so it's really only Edition that you can come meet with it ": [
+            1207.9,
+            1243.7,
+            29
+        ],
+        "that the first flip is a failure. So that's for my first flip, okay. So after I do that first flip. I or or whatever trial or whatever anything like that. I move on okay. I don't look back. I just move on with my experiments and it's as if I just started fresh, right. So how many more do you expect after you failed? The first time was the ": [
+            695.2,
+            723.2,
+            18
+        ],
+        "the a thousand position and I change it from a zero to a one right? That means that I've encountered that number then the next number is 99. So then I go to the 99th position. I change it to a 1. Stan if I encounter a number again if I look up its position and there's a one in there then. Then you know that you found a repeat ": [
+            2214.2,
+            2241.7,
+            52
+        ],
+        "the experiment for 1 / P trials before you expect to get a success. Okay good. Alright, let's move on. Let's talk about a few other functions. Okay, so we talked about linearity of expectation meaning that the expected value of a sum is the sum of the expected value always works. Are there other functions that have this property is the way you say it is are there other ": [
+            1060.2,
+            1097.2,
+            25
+        ],
+        "the probability that two of them share a birthday is .008 less than 1% kind of makes sense right people in a room. It would be pretty. Surprising to know that two of them share the same birthday. Any questions about that? Okay, so 5 + people in a room you basic question It's like in general you're going to do this thing where you do, like like a permutation ": [
+            3024.5,
+            3081.9,
+            75
+        ],
+        "the setup based on. What is that first bit? What is that first thing? Peyton is actually kind of easy. If you do it this way all the ones that start with a success and all the ones that start with a failure that means that is going to be equal to what just that single set and a complement is equal to everything else Okay, any questions about that? ": [
+            535.2,
+            571.5,
+            14
+        ],
+        "them individually. Okay, so I only have two things. What is the probability that they both map to the same memory location? It's the same thing as saying you have two people. What's the saint? What's the probability that they have the same birthday? Well the first day I could be map to any of the end memory locations and AJ. Has a probability of 1 / M2 actually map ": [
+            4337.5,
+            4363.7,
+            109
+        ],
+        "there's like this balance here. Which one is better. Depends on what you have if you have a lot more memory use this one if you don't have you don't have a lot of time there's not one thing. If you don't have time and you have a lot of memories this one if you have if you if you're low on memory and use that one. But you have ": [
+            3656.7,
+            3687.9,
+            91
+        ],
+        "this hash function there's a bunch of different ways. Maybe you've seen some of them and some of your other classes some of them use like prime numbers and like taking the X exponential and then modding out by a prime in this kind of thing. Did you guys do any of that? sissy 12 Okay. We're just going to assume that your hash function works. Well. Okay, so I ": [
+            2492.1,
+            2520.5,
+            60
+        ],
+        "this until you have a success the question is How many times must I or how many times do you expect me to do this experiment before I get a success? Okay, so just think about having a success as probability P then what is e of X? What's the expected number of times before? Okay. Yeah. Sorry. I don't think I turned it on yet. Yes, or what's the ": [
+            152.9,
+            192.2,
+            2
+        ],
+        "three failures in a success. And so on this is an infinite set but these are all the possible outcomes. So how do we split an infinite set into two parts? Okay good. So the parts don't have to necessarily hold the same amount of things. Right? So this might be reminiscent with the ways we counted with binary strings right the ways that we did recursive counting. We split ": [
+            498.0,
+            535.2,
+            13
+        ],
+        "to 1. Is also 1/2, right? I mean, I guess I guess I kind of jumped jumped into this one without doing a lot of like justifications or anything, but we only have to consider these two values zero and one is because those are the only values that x squared could be right and remember how to calculate the expected value is to some over all the possible values ": [
+            1173.0,
+            1207.9,
+            28
+        ],
+        "to be equal to end. fun then run time Is Big O of n + N squared over n which is just big love end. And remember, this is memory. So now we have big event memory and Big Love end run time. There's one a little caveat that we have to kind of say here. Is that instead of runtime? This should be called. expected runtime But in practice ": [
+            4498.3,
+            4550.8,
+            113
+        ],
+        "to do it's good to know that you know, these things could be under attack based on this principle. ": [
+            4620.8,
+            4627.6,
+            116
+        ],
+        "to do this. If you don't have that many, right so you can have some sort of hash function to to emulate emulating having the big table. But with fewer right maybe you only need ten thousand or something. You can think about maybe some other examples where you need so much memory. You need to store things with fewer memory than what you have. Memory locations how to construct ": [
+            2454.1,
+            2492.1,
+            59
+        ],
+        "to that same one. Any questions about that? Okay, let's put it all together. Oh, let's do this one now. I realize I had one more. How many terms are in the thumb? Cuz remember we're trying to find the sum. The sum of all pairs, right? of 1 / m okay, good and choose to write we're summing overall pairs How many pairs are there in a set of ": [
+            4363.7,
+            4433.8,
+            110
+        ],
+        "try right? You could fail the first time and get it on the second try right? You can fail the first two tries and get it on the third try. You could fail the first three and get it on the 4 5 6 7 actually never ends. Right? So this random variable has a probability for every single integer greater than or equal to one from one up to ": [
+            284.1,
+            312.9,
+            6
+        ],
+        "type think right like a factorial type thing. Super and people you multiply 365 364 and different terms you divide it all by 365 to the end and you subtract it all by 1. For that kind of your question. Open this one for this one. It's the complement of at least is everybody's different. Cuz it says at least two so the compliment is at least one right or ": [
+            3081.9,
+            3131.6,
+            76
+        ],
+        "values and M memory locations. Okay. Now that we see that are we convincing ourselves that that's the right one? So there an memory locations remember this this is only talking about Ai and AJ. That's the beauty of this indicate a random variable of the linearity of expectation. Is that even though these random variables are probably not independent at all. We can just look at each one of ": [
+            4253.4,
+            4337.5,
+            108
+        ],
+        "variables, it's like it has that property for every single random variable value every single possible combination of random variable values. So for example, let's say X and Y are random variables and let's just take to arbitrary values V and U where X is equal to v and y is equal to you. Then the random variables are independent if the probability of x equal v and y equal ": [
+            1278.5,
+            1308.1,
+            31
+        ],
+        "want this thing to be super small if this is really small. Then it's close to each of the 0 which is equal to 1 M to be a lot bigger than and choose 2K. So basically what this is saying is that for us to be relatively certain right close to being certain we want that M should be around this value and squared over 2 or in other ": [
+            3530.9,
+            3561.0,
+            88
+        ],
+        "we already do this? Here, I'm just going to skip over this one. This one's still Big O of big fat event. Okay. Now what is the memory use of this algorithm? This one is different. Not really talking about the correctness yet because we kind of know that it doesn't really work. We're going to make some revisions. Just want to give you a sense of what is the ": [
+            2659.4,
+            2683.6,
+            65
+        ],
+        "we can be relatively certain that. That there will be no collisions and then we could be fine right course there is a slight chance of a collision, but it's very unlikely. Okay, so let's let's summarize what we've done so far. time memory Okay, slip first algorithm. We'd had an log in time. With and memory this algorithm here take and time but N squared memory see how this ": [
+            3609.3,
+            3656.7,
+            90
+        ],
+        "words. We need the number of memory locations to be at least Omega of N squared. Okay. So on the other hand, it's also possible to show weight. Do we are you just We just showed this. Okay, good. Okay. So put that in what this means about this algorithm is that we can get this linear time big event. I'm at the expense of using and squared memory. And ": [
+            3561.0,
+            3609.3,
+            89
+        ],
+        "yet. I think it needs to be both ways. Okay. Okay. So let's look at it. Let's look at a problem element distinctness given a list of positive integers a 1 through a n decide whether all the numbers are distinct or whether there is a duplicate two positions i j such that a is equal to j a j. Does this look familiar? This was on your exam. right ": [
+            1922.3,
+            1955.4,
+            45
+        ],
+        "you did something like this in 20 V. We're actually going to do something a lot simpler. but you you can show that this is actually equal to 1 / P by using calculus and things like that. Okay. So now let's look at how to solve this problem in a different way by using this case analysis. Cancel remember the case analysis. We did you take your sample space ": [
+            402.3,
+            432.3,
+            10
+        ],
+        "you don't need any memory any extra memory, right? You just kind of looking at pairs. Okay, so we can we can do this algorithm in and login time with and memory that's good. So often times you're able to kind of you use those two factors those memory and space and if you allow yourself more space, then you can kind of take the time efficiency down. You can ": [
+            2093.0,
+            2126.7,
+            49
+        ],
+        "you failed. But then you kind of picked yourself back up and you try again as if nothing happened, right? That's where that comes in that's good because this is the expected number of times. You have to try before you get a success. X is a random variable X has been the number of flips for an outcome. or number of trials for an outcome So X. Text remember ": [
+            784.7,
+            824.6,
+            20
+        ],
+        "you have to do is come up with a counterexample. Okay, so I feel the intuition of why they're independent. So X12 is the number of heads in the first two flips x34 is the number of heads in the last two flips. It don't really affect each other. If we think that flipping a coin is not dependent on previous coin flips. You can kind of see that they ": [
+            1438.6,
+            1465.6,
+            34
+        ],
+        "you said if there's a hash collision and you might find a false repeat, there's two different numbers that has the same value then when I find my first number, I change the 0 to the 1 then the second number I go to that same hash position and I see a one is there and so I kind of get a false result. Okay. Where's the run time didn't ": [
+            2630.6,
+            2659.4,
+            64
+        ],
+        "you this is kind of like their intersection right is equal to the product of those probabilities, but this has to work for every single pair of possible values. Okay, so we're going to look at a few examples. I want you to think about which ones do you feel are independent and what I want you to use a sort of kind of like an intuition. Basically if I ": [
+            1308.1,
+            1334.2,
+            32
+        ],
+        "you're never really going to get that and squared don't. Don't be worried. This is I mean when an is really big, it's really really unlikely that you're actually going to hit that and squared. Okay, so that's what kind of almost out of time. So call me and I kind of prepared some other slides that kind of go with this that we probably won't get to in lecture. ": [
+            4550.8,
+            4583.1,
+            114
+        ],
+        "you're rolling a dice you would expect after roll a die six times before you get a six right kind of like the average number of times you need to roll before you get a success. Okay good. So now let's This might also be sort of a well-known thing that you've done in other classes, but we're going to prove it today. So one way to approach this problem ": [
+            226.0,
+            251.7,
+            4
+        ]
+    },
+    "File Name": "Math_Algorithms___System_Analysis___A00___Jones__Miles_E___Spring_2019-lecture_16.flac",
+    "Full Transcript": "All right. See buddy have any questions. on the homework or  class lecture  we're going to do some things today that's relevant for the homework. So that might be good.  We're going to end with a randomized algorithm, but we're going to begin with exploring.  some other consequences of this expectation being able to separate it in terms of  When you partition the sample space.  so  by doing the case analysis, right?  So let's begin with this.  This slide. I think this is what we ended on last time. It's the ending condition. So think about if you have some sort of Bernoulli trial something that has a success or a failure right? Whether that be I'm playing a game of Solitaire or I want to have a left-handed child or I'm flipping a coin and you keep on doing this until you have a success the question is  How many times must I or how many times do you expect me to do this experiment before I get a success?  Okay, so  just think about having a success as probability P then what is e of X? What's the expected number of times before?  Okay. Yeah. Sorry. I don't think I turned it on yet. Yes, or what's the expected number of times before you get a success?  Okay. So a lot of people are saying 1 / p + by your intuition that kind of seems right, right. For example, if P was 1/2 like a coin flip you would expect to have to flip the coin twice before you get a heads, right? If the probability was let's say 1/10, right or maybe one plus 6 if you're rolling a dice you would expect after roll a die six times before you get a six right kind of like the average number of times you need to roll before you get a success. Okay good. So now let's  This might also be sort of a well-known thing that you've done in other classes, but we're going to prove it today.  So one way to approach this problem is to prove it directly. Now remember how to compute the expectation is you some over all the random variable values and then you multiply it by the probability of getting that random variable value. Remember hear the random variable is the number of times you flip. So what are the possible values that it can have a number of experiments?  You could do one experiment get on the first try right? You could fail the first time and get it on the second try right?  You can fail the first two tries and get it on the third try.  You could fail the first three and get it on the 4 5 6 7 actually never ends. Right? So this random variable has a probability for every single integer greater than or equal to one from one up to Infinity. You can find a probability that the random variable is equal to that value. Now, of course, it's going to be as tough as the  as you go off to Infinity the the probability the random variable is going to be that value kind of goes towards zero after a while, but  Our question is what's going to be kind of the average over that whole case so we could do.  Is just figure out what is the probability of each one of these things?  And it's just like I said, the probability that X is equal tensei means that I failed 9 times in a row. And then the last time I had success so failure is 1 - P - the probability that X is equals RI is 1 - p x to the I -1 power. That's all the failures then x p that's the success.  and now  You saw it up?  4 oz equal to 1 to Infinity  I think this is exactly the definition. This is really not fun to solve. This is a infinite series you have to do like to figure it out.  how to  make it work so that you can show that it converges and what it converges to maybe you did something like this in 20 V.  We're actually going to do something a lot simpler.  but you you can show that this is actually equal to  1 / P by using calculus and things like that.  Okay. So now let's look at how to solve this problem in a different way by using this case analysis.  Cancel remember the case analysis. We did you take your sample space and you partition it into two separate.  Events doesn't have to be to it could be three. I think in the homework there was one they have to do it with three but in general it's just to wear the longest in general can be anything but specifically this one we're going to do it with two. So the events are going to be a and a compliment and they can be whatever you want.  now let's think about what is the  sample space infinite sample space right sample space remember is the set of possible outcomes. So what are the elements in the sample space?  Okay. Well, you can just start off with a success and then end.  or you can have a failure and then a success or then you can have  two failures and a success write three failures in a success.  And so on this is an infinite set but these are all the possible outcomes. So how do we split an infinite set into two parts?  Okay good. So the parts don't have to necessarily hold the same amount of things. Right? So this might be reminiscent with the ways we counted with binary strings right the ways that we did recursive counting. We split the setup based on. What is that first bit? What is that first thing?  Peyton is actually kind of easy. If you do it this way all the ones that start with a success and all the ones that start with a failure that means that is going to be equal to what  just that single set and a complement is equal to  everything else  Okay, any questions about that? We're just splitting it up so far.  Okay.  So let's fill in all of these things. Okay.  What is the probability that that you get an event in a what's the probability that you get 6 test on your first try?  Little pee, right? That's the probability that you get a success.  Now so this conditional expectation you should read it.  expected  value  given  That the outcome.  Is in a place which condition on the fact that the outcome is in a so if the outcome is in a what is his expected value.  What right did you just did one flip or one trial or one experiment? And so this thing is one.  Okay plus now. What's the probability of a complement?  1 - P right because I want to think about it is a and a compliment together create the entire set and you know that the probability of being in that whole set is one. So those two probabilities always have to sum up to 1.  Okay, but this is the one that gets a little tricky but we're going to do a little trick. Okay?  So this one?  well  I certain I certainly need to flip it at least once right because this condition is saying that the first flip is a failure. So that's for my first flip, okay.  So after I do that first flip.  I or or whatever trial or whatever anything like that.  I move on okay. I don't look back. I just move on with my experiments and it's as if I just started fresh, right. So how many more do you expect after you failed? The first time was the same number as you expect from the beginning?  got any questions  this  this  It's just this thing here, right? And so if I'm just in a what's the expected number of flips I have to do sort of like the average number of flips and it's just one because only has one element.  For the same same expected number of flips or trials.  It's cuz you did that first trial you failed.  But then you kind of picked yourself back up and you try again as if nothing happened, right?  That's where that comes in that's good because this is the expected number of times. You have to try before you get a success.  X is a random variable X has been the number of flips for an outcome.  or number of trials for an outcome  So X.  Text remember a random variable is a function that takes an outcome to a number and so this particular X.  Takes the outcome and and the number that it gives you is the number of Trials. So for example X of s is equal to 1x of f f f f s is equal to 4.  Guy. He of X is the average number over all of these outcomes waited by their probabilities.  That's the one that's on this one.  Yeah, this is the fail. This is the first failure that you do. Yes, that's what that one is.  Okay, so  this is just all the stuff we did.  Okay, does this this looks a little bit better than that infinite sum right? Let's solve it.  Let me get myself up some more space here.  EFX is equal to P * 1 + 1 - P * 1 + 80 ^ x  p + now let's multiply this out or get a one- p  plus EFX  - p e r x  Actually, let's write it like this.  Now, let's subtract 1 - p e of x from both sides.  And now I have p + 1 - P. So that's just one on that side.  Right now it's combine like terms.  1 - 1 + p  What do you think?  Pretty good.  Okay, good. So now we have this this is the ending condition.  It's always works. Right if you have a a Bernoulli trial independent Bernoulli trials, meaning that once you do one of the trials that doesn't affect the probability of the next trial for each trial has probability P every time you do it then you're expected to run the experiment for 1 / P trials before you expect to get a success.  Okay good.  Alright, let's move on.  Let's talk about a few other functions. Okay, so we talked about linearity of expectation meaning that the expected value of a sum is the sum of the expected value always works. Are there other functions that have this property is the way you say it is are there other operations that commute with expected value?  I want in general know and let's kind of look at squaring a function queso.  EFX quandary Square inside but then he of x squared or E of X that whole quantity squared are those always going to be the same or they always going to be different what's going to happen? So let's do a example.  So we have a random variable here. This is actually an indicator random variable because it only has two possibilities.  Okay, so what is EFX?  It's equal to 0 times probability that X is equal to 0 + 1 times probability that X is equal to 1 right? So that's 1/2.  Okay, what's EFX square with this is 0 times probability that x squared is equal to 0 + 1 times probability that x squared is equal to 1.  Is also 1/2, right?  I mean, I guess I guess I kind of jumped jumped into this one without doing a lot of like  justifications or anything, but we only have to consider these two values zero and one is because those are the only values that x squared could be right and remember how to calculate the expected value is to some over all the possible values that X could be on this case that x squared could be.  Okay. Now what about that?  Well, this is the quantity of e of X. We've already calculated that quantity squared and so that's 1/2 squared which is equal to 1/4.  Okay, so  you can see that.  Expectation does not commute with squaring a random variable.  And so it's really only Edition that you can come meet with it all the time.  Okay, there is one other function that you can that does commute with expectation, but it only works some of the time it only works if the random variables are independent. Okay. So what is it mean to be independent random variables?  So if you recall independent events means that the product of their probabilities is equal to the probability of their intersection. Okay, but independent random variables, it's like it has that property for every single random variable value every single possible combination of random variable values.  So for example, let's say X and Y are random variables and let's just take to arbitrary values V and U where X is equal to v and y is equal to you. Then the random variables are independent if the probability of x equal v and y equal you this is kind of like their intersection right is equal to the product of those probabilities, but this has to work for every single pair of possible values.  Okay, so we're going to look at a few examples. I want you to think about which ones do you feel are independent and what I want you to use a sort of kind of like an intuition. Basically if I knew the results of the first event. Would that give me any insight in how the second event will happen?  So take a few minutes to talk it over with your neighbor.  Okay good.  So using this definition to show that random variables are independent would take a lot of work, right? There's a lot of different combinations but showing that two random variables are not independent is easy. All you have to do is come up with a counterexample. Okay, so I feel the intuition of why they're independent.  So X12 is the number of heads in the first two flips x34 is the number of heads in the last two flips. It don't really affect each other. If we think that flipping a coin is not dependent on previous coin flips. You can kind of see that they are the one of them doesn't kind of have any  effect on the other  Just intuitively, I guess.  Toby this one's a lot different right? In fact, one of them is is completely determined by the other right? So they're dependent on each other the number of heads in the sequence and the number of tails in the sequence. So if I tell you the number of heads in the sequence, and then I have you guess how many Tails there are you're going to have a pretty good guess right?  Whereas if I tell you the number of heads in the first two flip and asked you to guess how many in the second two flips, you're not going to have any idea you haven't this information didn't give you any insight but more specifically Let's do an example.  For this one, let's show you concretely why doesn't work. So let's say let's say you be is equal to 3 and you is equal to one. Okay. So what is the probability of H equals Ansari?  x equals 3 and Y equals 1  What's the probability of getting?  Exactly 3 heads.  I have two shouldn't be 1/4 4 out of 16.  Because there's four ways of getting three heads and one tail and they're 16 possibilities, right?  Now what's probability of x equals 3 + 4 * 2 * 80 *  high probability of y equals 1  the probability that X is equal to 3 is  1/4 probably that Y is equal to 1 is also 1/4 right beside your kind of using both of the information right using this thing a few times. So this is 1/4 x 1/4.  And these are not equal therefore. We found a pair of values that don't equal each other with this equality equation. Therefore, they're not independent.  Okay. How about this last one?  If I tell you that the first two flips I tell you information about the first two flips and then I asked you how to guess how many heads are there in the entire sequence?  Will you still may not know exactly how many there are but you'll have a better idea if I didn't tell you this at all. And so this information is dependent on X12 but these are also independent and dependent variables. And again, I think it would be nice to do a concrete counter example of why they fail this property.  Okay.  Let's say that.  X 1/2 is equal to 2 and X is equal to 3.  How many how many possible ways could this happen?  You really only have two right you could have heads heads Heads Tails or heads Heads Tails heads.  right  any questions about that part?  Okay. Now let's multiply them together and see what happens the probability that x 1/2 is equal to 2 times the probability that X is equal to 3.  Is equal to all the probability that x 1/2 is equal to 2 is a quarter, right?  The probability that X is equal to 3, we've already done this kind of Frank. This is also a quarter.  Take me to 116. Okay, so 1/16 is not the same as 2/16. Therefore. We found a counterexample any questions.  When a coin is flipped four times.  Okay, let's move on. What do you say?  Okay, so this is  kind of like the linearity of expectation but it's for multiplication. But for this one, it's important that the random variables are independent. So if they're independent then multiplication commutes with expectation.  Okay, if they're not independent than this is not necessarily true anymore. Remember linearity of expectation the the some you don't have to have any constraints on the random variables for the for the summit always works. You can always come meet with expectation but with multiplication they have to be independent. That's the only way that it works.  Okay, so let's move on to an algorithm that we're going to look at for a little while.  Okay, and have any questions about that for a move on?  I think so, but  I think it goes both ways.  you think  I think you need to have it yet. I think it needs to be both ways.  Okay. Okay. So let's look at it.  Let's look at a problem element distinctness given a list of positive integers a 1 through a n decide whether all the numbers are distinct or whether there is a duplicate two positions i j such that a is equal to j a j. Does this look familiar?  This was on your exam.  right  Do you remember how we did it on the exam?  Sort the list and then stepped through to find the duplicates. Okay, what's the runtime? Well, it kind of depends on which sorting algorithm you used, right?  Text with merge sort you can get it to be in login.  Because the rest of the algorithm is just looking at the pairs and that takes linear time. Okay. So this is good. There's a great algorithm.  But what we're going to do today is try to try to get a better algorithm. Try to get a more efficient algorithm. And when I say more efficient, I'm going to talk about two different qualities. The algorithm has this is time efficiency, which we've talked about a lot but there's also space efficiency.  Okay, how much memory does this actually require?  okay, good actually linear amount of memory Okay, so  Generally with merge sort you might have to copy the list over but that's not going to affect the memory bye-bye too much. Maybe it'll be affected by a constant Factor right? Maybe you'll have to use double the memory right? Maybe after you too and memory but it's not going to affect it too much.  And then the rest of the algorithm you don't need any memory any extra memory, right? You just kind of looking at pairs.  Okay, so we can we can do this algorithm in and login time with and memory that's good.  So often times you're able to kind of you use those two factors those memory and space and if you allow yourself more space, then you can kind of take the time efficiency down. You can make it faster. If you allow for more time, then you can use up less memory. It's not a well-defined balance, but it's the kind of has a balance in certain situations. So if we had unlimited memory will we be able to do this problem faster than and login any thoughts?  Yes, but that look up table requires unlimited memory.  Exactly so good.  This is exactly what we're thinking about.  So take up unlimited. We're going to we're trying to find duplicates in integers, right? So take some kind of like  Infinitely long array memory array, okay, and this is just an imaginary so doesn't actually exist. But if it did let's just consider that maybe looking up those values takes constant time.  Okay. So let's say my first number is a thousand so that means I go to the a thousand position and I change it from a zero to a one right?  That means that I've encountered that number then the next number is 99. So then I go to the 99th position. I change it to a 1.  Stan if I encounter a number again if I look up its position and there's a one in there then.  Then you know that you found a repeat if you're gone through the whole list, then they're all distinct elements.  So this is not a hash table, but we are going to use a hash table in the next in the next few slides, but we have to be careful because a hash table relies on some sort of Randomness some sort of probability because you're not you're not guaranteed that two different elements might hash to the same value and then you're going to have a collision and that's going to add to your run time. So we're going that's basically where we're going is kind of using a hash table to to mimic unlimited memory, but it comes at a cost right because there is some sort of  Chance that.  you might  have a bunch of collisions.  Okay, so maybe we already kind of discuss this. This should be Big O of n right?  Okay, so  we're not going to be able to use unlimited amount of memory. So use something called the virtual memory which we can accomplish by using a hash function. So a hash function takes the desired memory locations in this particular case. It's any integer.  I'm you plug it into the hash function in a gives you another memory location in a shorter or in a finite number of memory locations. Okay. So typically we want more memory than we have. So age is not going to be one to one right? This is what I'm talking about with collisions.  You might have to map two different elements to the same location.  And that could or could not cause problems depending on if you're careful.  Okay, here's kind of an example.  Let's say you had like a company with 5,000 employees and each one is identified by their social security number and you have this file cabinet that you want to keep your employees papers in right and you want to be able to look them up quickly. Now one way you could do it is you could keep a file cabinet that has  How many are in a social security number?  Yasso, that's my social security number right here.  1 2 3 4 5 6 7 8 9 or 10 to the 9 right?  Which is a billion so you can have a file cabinet with a billion slots, right? And then you could find the things by just putting it in the spot, but you only really have 5,000 employees. So this is not really doesn't really make sense to do this. If you don't have that many, right so you can have some sort of hash function to to emulate emulating having the big table.  But with fewer right maybe you only need ten thousand or something.  You can think about maybe some other examples where you need so much memory. You need to store things with fewer memory than what you have.  Memory locations how to construct this hash function there's a bunch of different ways. Maybe you've seen some of them and some of your other classes some of them use like prime numbers and like taking the X exponential and then modding out by a prime in this kind of thing. Did you guys do any of that?  sissy 12  Okay.  We're just going to assume that your hash function works. Well.  Okay, so I assume that is ideal which means that any of those memory locations are equally likely for each.  actual input  I need the thing is that the hash function is is  Fixed right? So if you put the same number into the hash function, it'll always give you the same result.  But that those results are kind of all equally likely have equal probability of what they would be.  okay, so now  not this was not a think.  Okay. So now we have another algorithm where I have a hash function H, right that that is a size M. So it's going to store the it's going to map each integer to one of these locations and these locations are going to be just bits zeros or ones. So if it's a zero, that means I haven't encountered that location if it's the one I have Okay, so  Basically, what I do is I take my original input I hacked it. And then I I look into the location if it's a one then you found a repo if it's not a one then you haven't found a repeat. This is going to work all the time.  Okay good. So this is not going to work all the time because  Like you said if there's a hash collision and you might find a false repeat, there's two different numbers that has the same value then when I find my first number, I change the 0 to the 1 then the second number I go to that same hash position and I see a one is there and so I kind of get a false result.  Okay.  Where's the run time didn't we already do this?  Here, I'm just going to skip over this one. This one's still Big O of big fat event. Okay. Now what is the memory use of this algorithm? This one is different.  Not really talking about the correctness yet because we kind of know that it doesn't really work. We're going to make some revisions. Just want to give you a sense of what is the memory.  Okay, good. This is actually a trick question.  In general, it should be Big O of n + n.  right cuz I didn't tell you if Emma was bigger than an  are that was kind of mean.  CenturyLink  Okay, good now.  It's on Berlin might make a mistake. And when does that happen? Well, our goal incorrectness is to Output find a repeat or if there's no repeat that says distinct elements, right stop.  If there is a repeat will this algorithm find it?  Yes, right. So it actually does this really well. This is the thing that it messes up. Right if there are no repeats then it might give you the false sense that there are.  news of the hash collisions  Okay.  So when is our how algorithm correct with high probability if we make the number of virtual memory locations really really big then the probability that there's going to be a hash Collision goes down, right? So how high do we need to make our or how big do we need to make a virtual memory so that we can be pretty sure that we don't get any hash Collision Center out going to work.  Don't forget that you'll be certain right if we want like kind of a high.  yeah, okay, so  I'm going to try to switch gears for a minute because this kind of ties into something called the birthday Paradox. Have you guys heard of this before?  Okay, so  What is the chance of two people in a group sharing the same birthday? Okay. So what is the chance that in a group of 30 people two people share the same birthday?  Is what?  Assume that every every birthday is equally likely I know that's not a valid assumption. But let's let's hit make that assumption.  Okay, so this turns out to be  I don't know exact the exact number. I have to figure it out, but I think it's around like 65%  all the time  is that surprising?  Right because there are 365 days is such a small compared to comparative number, right but you get such a high but big probability. So let's talk about where it comes from.  Okay.  Let's start small given a group of n people assume that each person is equally likely to have any birthday. What's the chance of two people in this group sharing the same birthday? Well, if there's only two people what is the probability that these two people share the same birthday if there are only two people  Oh, yeah, I think yes, simply pick one day out of the 365 days to be the shared birthday. And then there is one other way you think about it is the first person could have any birthday right? Let's say it. I don't know June 10th, right then the probability that anybody else has that same birthday is 1 out of 365.  And this makes sense, right?  Okay now.  What event is equal to 3?  So what is the probability that at least 2 people share the same birthday? If there are three people did you hear what I said? What's the probability that at least right?  What are we doing? We here at least.  Calculate the complement right and then subtract it from one from all from the big set. So the the complement of this statement is what's the probability that all three people have different birthdays, right?  So the first person can have any birthday.  The second person can have any remaining day right in the third person can have any remaining day from there. So the probability that all three of them share different birthdays is the product of these three numbers, which is around 90918.  therefore the probability that two of them share a birthday is  .008 less than 1% kind of makes sense right people in a room. It would be pretty.  Surprising to know that two of them share the same birthday.  Any questions about that?  Okay, so  5 + people in a room you basic question  It's like in general you're going to do this thing where you do, like like a permutation type think right like a factorial type thing.  Super and people you multiply 365 364 and different terms you divide it all by 365 to the end and you subtract it all by 1.  For that kind of your question.  Open this one for this one. It's the complement of at least is everybody's different.  Cuz it says at least two so the compliment is at least one right or at most one and that just means everybody's different.  at least three  but yeah, if you stay at least two then the complement of that is like everybody's got to be different.  Okay, so here is a table of values. They get it right though. It was 170. Okay. I was a little off.  Play song.  With five people. There's a almost 3% chance that kind of makes sense. Right? It's pretty unlikely but notice here. This is 23, which is a very small number compared to 365. But there's this like a coin flip. It's like a 50/50 chance that every group of 23 people is going two of them are going to share the same birthday.  So I would bet my life on it.  So but if there's 70 people there's a 99.9% chance. There's we have many more than 70 people.  Tell who's your birthday twin?  He's in this room.  Now that's not how it works. It's not that it's there. Is this likely that somebody shares your same birthday. It's this likely that two people out there share the same birthday.  Okay, and so this is where it gets really?  For me this is this is really surprising that in 23 people. It's it's a 50-50 chance. What's even more surprising when you get up to 60 people it's over 99% chance and really 70 or more. It's it's going to be near certain.  This isn't even half of 365 yet.  Pretty crazy, right?  Okay, where's the connection?  Birthday is kind of like a hash function. There are billions of people in this world, but we can kind of randomly math all the people to these 365 days.  Frank and show your kind of taking the virtual memory of all the people in the world and and you're only the virtual memory is only a memory of size 365 which is a lot smaller course. There's a lot of hash collisions, but it gives you a nice analogy.  Okay, so  the general birthday Paradox type phenomena is you have an objection and places you're putting each object at random into one of the places. What is the probability that two objects occupy the same place very crude drawing of M buckets and N Balls and we're going to put the balls in the buckets at random. Okay. So we're going to kind of keep track of what's the probability that they all kind of went into different buckets. So when the first one goes in the probability that there's no collisions right is just certain. Okay when the second one goes in what's the probability that there's no collisions?  and -1 / M or 1 - 1 / m  Okay now assuming that the first two did not Collide what's the probability of the third one doesn't collide?  M - 2 / m 1 / 2 / 1 - 2 / am right and what about 3  4 5 6 right so that number kind of keeps on going up and so probably the object causes. No collisions is 1 - 9 - 1 / M. This is a list. Of course, assuming that none of the other objects had any collisions within themselves. They're all in different things.  This is exactly what we just saw with the birthday paradox.  Okay, so the probability that all of that stuff happens is the product of all those probabilities. Okay all of these things.  Have you guys seen this notation before big big pie?  Big pie is just like, you know, like some Asian is like for that that Sigma is for some big pies for product. So it's just like the summation but you're multiplying instead of adding multiplying all these things and don't worry about this stuff so much, but you can  you can approximate this product by e to the negative and choose to over m.  At least you can you can show that P this p is less than or equal to that. You can have it as I got upper bound pretty good approximation though at least.  Okay, so  we want P to be close to 1 why is code P is the is the probability that there is a collision?  When you have an object's in and locations, right, so we want you to be close to 1 so we want to be close to certain that there are no collisions.  So this thing to the negative something what is that graph look like?  Or when is it close to 1?  It's when this thing is really close to zero.  So we want this thing to be super small if this is really small.  Then it's close to each of the 0 which is equal to 1 M to be a lot bigger than and choose 2K.  So basically what this is saying is that for us to be relatively certain right close to being certain we want that M should be around this value and squared over 2 or in other words. We need the number of memory locations to be at least Omega of N squared.  Okay.  So on the other hand, it's also possible to show weight. Do we are you just  We just showed this. Okay, good. Okay. So put that in what this means about this algorithm is that we can get this linear time big event. I'm at the expense of using and squared memory.  And we can be relatively certain that.  That there will be no collisions and then we could be fine right course there is a slight chance of a collision, but it's very unlikely.  Okay, so let's let's summarize what we've done so far.  time memory  Okay, slip first algorithm. We'd had an log in time.  With and memory this algorithm here take and time but N squared memory see how this there's like this balance here. Which one is better.  Depends on what you have if you have a lot more memory use this one if you don't have you don't have a lot of time there's not one thing.  If you don't have time and you have a lot of memories this one if you have if you if you're low on memory and use that one.  But you have a lot more time in.  You're forced to take it yet. So can we get anything better? Yes, we can come up with an algorithm.  Where the time and memory are both end.  Why do we do all of this stuff?  We can talk about birthdays.  Well instead of trying to avoid collisions like they're bad. Let's embrace them. Okay.  Let's say you know what? There's going to be collisions.  Let's train, right?  So each memory location will be the the start of a linked list and you can start linking in memory locations as you go, right?  I should be blinking in every time you.  Every time you hash to a certain memory location, you put that actual object in the linked list now. So this is a lot different than the algorithm. We had the album We Had Each memory location only held zeros and ones now each memory location holds a pointer right and that pointer either goes to  nil  or  it goes to something, right?  Persona to the list and so then you can say okay. Let me just look through this list until I find my element.  Okay, so  this is just doing that right now. So it's the same kind of thing except for for each element in the memory location.  You just keep on checking to see if is that element and if you found it in the link less than you found them. Otherwise, you append it to the tale the last right you attitude. So is this going to be efficient? What could go wrong?  Okay, very good.  You can be really unlucky and all of your input elements past the same thing. And so you're basically just adding the elements to a list and then searching through that list for each one which which will be a 10 squared.  N squared it's going to be like  It can be like 1 + 2 + 3 + 4 + 5 + 6 + 7i all the way up to end and that's an * N - 1 / 2.  And that's bad, but you're going to have to be super unlucky for that to happen. Right? So a better question to ask is.  How how long do you expect this algorithm to take what's the expected run time?  Okay, that's based on the expected number of collisions.  This does everything we want now all we need to do is argue that it actually has a good run time. I mean worst case we've already talked about worst cases and squared which is bad, right? Cuz we may as well just use the Sorting one.  But let's see if we can find a nice balance for how much memory location how much memory we put in Bay City. How big is am going to have to be in order for us to get kind of a reasonable run time.  Memory locate memory it is the same thing. Okay, how long does it take? Well, these are both constant time and this thing is the worst case is when you don't find that element that means you have to kind of go through the entire Link Link list down the chain, right?  So we're going to do is count. The number of times that actually happens for the expected number of times that happens.  So  if the size of the list is Big that means that there has been a lot of collisions at that location, right? And another way to say it is to say hey, this is the number of indices J less than I so I comes after J such that I have collided with j a j. Let's suppose that the the linked list has like five elements in it. And then another element comes in that means that that other element has collided with all five of those things.  So basically what we're counting is the total number of collisions.  Each time. There is a collision you add one to the time.  Okay. So total time is n plus the total number of collisions.  So now the total number of collisions, this is not a deterministic thing, right? It could be that there's no collisions at all. If you if you're really lucky or if you're really unlucky there could be a bunch, right so we have to kind of figure out what is the expected number of collisions.  Okay, so  Let's see.  Remember, we're doing an ideal hash function right where each output is equally likely so H is a function that chooses a random number in one through amp for each input.  Okay. Now, how can I find the total number of collisions? It depends on the random assignment of memory locations. What does this make you think of?  random variable  Right in this case. The random variable is the number of collisions based on the outcome and the outcome is the the hash function. Like how did it hatch those things?  Okay, basically what we're going to do essentially I mean we're going to we're going to use tricks to do it. Essentially we're going to take the average over all possible hash functions write and figure out how many collisions there are on average and that's going to give us the expected number of collisions.  Expected value random variable let's do it. Okay, let's use linearity of expectation.  What's the expected total number of collisions while what we're going to do?  is  Define an indicator random variable.  Define x i j.  To be equal to one if hash of AI is equal to Hash of AJ.  and 0 otherwise  Okay, so I have an indicator random variable its its index by two values.  and  would you agree with me that?  The actual number of collisions is just the sum over all of these things.  I guess I equals 1/2 and J.  Equali plus one to end.  Any questions about that?  Or another way you could say it is that this is the same overall pairs IJ.  Aren't you take every single possible pair? If there is a collision then you're going to add a 1 so this counts all the collisions if there's not a collision you had a zero.  Okay. So total number of collisions is equal to this thing. All pairs for Jay is less than I write. So, you know, there's an order to them.  and  we got that the expected number of collisions is now what is this value? What is the expected value of x i j  now you got to take a take a minute or so to talk it over with your neighbor.  Remember you have and values and M memory locations.  Okay.  Now that we see that are we convincing ourselves that that's the right one?  So there an memory locations remember this this is only talking about Ai and AJ. That's the beauty of this indicate a random variable of the linearity of expectation. Is that even though these random variables are probably not independent at all. We can just look at each one of them individually. Okay, so I only have two things. What is the probability that they both map to the same memory location? It's the same thing as saying you have two people. What's the saint? What's the probability that they have the same birthday? Well the first day I could be map to any of the end memory locations and AJ.  Has a probability of 1 / M2 actually map to that same one.  Any questions about that?  Okay, let's put it all together.  Oh, let's do this one now.  I realize I had one more.  How many terms are in the thumb?  Cuz remember we're trying to find the sum.  The sum of all pairs, right?  of 1 / m  okay, good and choose to write we're summing overall pairs How many pairs are there in a set of size end and shoes to  Okay, so this is kind of the result that we get is.  This thing here is 1 / m.  This thing some Zen over 10 shoes too many things. So the whole answer is n choose to / M which is around Big O and squared over him.  This gives you the number of collisions the spacer gives you the runtime. So if I choose M to be close to N then the run time is linear.  So really you just need around the same number of memory locations as your original input.  So this is the total expected run time over with and plus and squared over him. So as long as m is greater than end.  Then we get this thing here.  And this is a lot better because we can choose M to be equal to end.  fun  then run time  Is Big O of n + N squared over n which is just big love end.  And remember, this is memory.  So now we have big event memory and Big Love end run time. There's one a little caveat that we have to kind of say here. Is that instead of runtime? This should be called.  expected runtime  But in practice you're never really going to get that and squared don't.  Don't be worried. This is I mean when an is really big, it's really really unlikely that you're actually going to hit that and squared.  Okay, so  that's what kind of almost out of time.  So call me and I kind of prepared some other slides that kind of go with this that we probably won't get to in lecture. But if you're interested in this kind of thing, then Thursday slides that are just going to be after this about cryptographic hash functions and how you can harness this birthday Paradox to do something called a birthday attack and you can basically create fraudulent.  Documents that maybe you could trick somebody to sign. Okay, so I mean don't do it, but it's good to know that that is possible to do it's good to know that you know, these things could be under attack based on this principle. "
+}
