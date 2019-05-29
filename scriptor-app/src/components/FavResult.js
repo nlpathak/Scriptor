@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import APIClient from '../api/APIClient.js';
 import './_Components.css';
-import starOff from './starOff.png';
-import starOn from './starOn.png';
+import starOff from '../assets/starOff.png';
+import starOn from '../assets/starOn.png';
 import {toast} from 'react-toastify';
 
 
