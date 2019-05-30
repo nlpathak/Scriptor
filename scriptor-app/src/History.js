@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import APIClient from './api/APIClient.js';
 import './History.css';
+import {toast} from 'react-toastify';
 
 
 class History extends Component {
@@ -48,6 +49,7 @@ class History extends Component {
     APIClient.clearHistory();
     this.setState({queries: []}); 
     this.setState({podcasts: []});
+    toast("History Cleared", {className: 'popup'});
   }
 
   render() {
