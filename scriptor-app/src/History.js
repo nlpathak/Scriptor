@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import APIClient from './api/APIClient.js';
 import './History.css';
+import {toast} from 'react-toastify';
 
 
 class History extends Component {
@@ -44,12 +45,20 @@ class History extends Component {
     });
   }
 
+  onClear(e) {
+    APIClient.clearHistory();
+    this.setState({queries: []}); 
+    this.setState({podcasts: []});
+    toast("History Cleared", {className: 'popup'});
+  }
+
   render() {
     if(APIClient.isCurrentUserLoggedIn()) {
       return (
         <div className = "history">
           <div className='header'>
             <h1>HISTORY</h1>
+            <button className='center' onClick={e => this.onClear(e)}>Clear</button>
           </div>
           <div className = "search" >
             <h1> You've Searched For...
