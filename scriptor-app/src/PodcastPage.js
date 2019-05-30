@@ -65,7 +65,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.color = "rgba(255,255,255,1)";
                 document.getElementById('togglebutton').style.border = "none";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(72,136,163,.93)";
-                document.getElementById('togglebutton').innerHTML = "Favorite";
+                document.getElementById('togglebutton').innerHTML = "FAVORITE";
             } else {
                 APIClient.addFavoritePodcastById(this.values.podcast_id).then(response => {
                     toast("Added to Favorites", {className: 'popup'});
@@ -74,7 +74,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
-                document.getElementById('togglebutton').innerHTML = "Unfavorite";
+                document.getElementById('togglebutton').innerHTML = "UNFAVORITE";
             }   
         });
 
@@ -92,7 +92,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
-                document.getElementById('togglebutton').innerHTML = "Unfavorite";
+                document.getElementById('togglebutton').innerHTML = "UNFAVORITE";
             } else {
                 this.setState({isFavorited: false});
             }   
@@ -109,7 +109,7 @@ class PodcastPage extends Component {
             <div className='podpage'>
                 <h1 className='title'><a className='link' href={mainurl}>{this.formatTitle()}</a></h1>
                 <div className='toplayer'>
-                    <video className='vid' controls autoplay>
+                    <video className='vid' controls autoPlay>
                         <source src={this.formatVideoLink(mainurl)}/>
                     </video>
                     <div className='text'>
