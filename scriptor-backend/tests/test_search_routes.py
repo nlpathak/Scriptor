@@ -56,6 +56,21 @@ def test_podcasts():
 
 
 def test_aux_search_departments(client, test_podcasts):
+    # Empty search queries should return all possible values
+    response = client.get("/api/search/departments/", query_string={"q": ""})
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert len(res['results']) > 0
+
+    response = client.get("/api/search/departments/")
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert len(res['results']) > 0
+
     response = client.get(f"/api/search/departments/", query_string={"q": "CSE"})
     res = response.get_json()
 
@@ -79,6 +94,21 @@ def test_aux_search_departments(client, test_podcasts):
 
 
 def test_aux_search_professors(client, test_podcasts):
+    # Empty search queries should return all possible values
+    response = client.get("/api/search/professors/", query_string={"q": ""})
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert len(res['results']) > 0
+
+    response = client.get("/api/search/professors/")
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert len(res['results']) > 0
+
     response = client.get(f"/api/search/professors/", query_string={"q": "Professor A"})
     res = response.get_json()
 
@@ -102,6 +132,21 @@ def test_aux_search_professors(client, test_podcasts):
 
 
 def test_aux_search_quarters(client, test_podcasts):
+    # Empty search queries should return all possible values
+    response = client.get("/api/search/quarters/", query_string={"q": ""})
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert len(res['results']) > 0
+
+    response = client.get("/api/search/quarters/")
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert len(res['results']) > 0
+
     response = client.get(f"/api/search/quarters/", query_string={"q": "Winter 2019"})
     res = response.get_json()
 

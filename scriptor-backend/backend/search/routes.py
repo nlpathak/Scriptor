@@ -9,8 +9,6 @@ search_blueprint = Blueprint('search', __name__, url_prefix="/api/search")
 @search_blueprint.route("/departments/", methods=['GET'])
 def search_departments():
     q = request.args.get("q")
-    if not q:
-        return jsonify(success=False, error="Please provide a search query."), 400
     departments = utils.search_departments(department=q)
     return jsonify(success=True, results=departments)
 
@@ -18,8 +16,6 @@ def search_departments():
 @search_blueprint.route("/professors/", methods=['GET'])
 def search_professors():
     q = request.args.get("q")
-    if not q:
-        return jsonify(success=False, error="Please provide a search query."), 400
     professors = utils.search_professors(professor=q)
     return jsonify(success=True, results=professors)
 
@@ -27,8 +23,6 @@ def search_professors():
 @search_blueprint.route("/quarters/", methods=['GET'])
 def search_quarters():
     q = request.args.get("q")
-    if not q:
-        return jsonify(success=False, error="Please provide a search query."), 400
     quarters = utils.search_quarters(quarter=q)
     return jsonify(success=True, results=quarters)
 
