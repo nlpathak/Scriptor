@@ -43,3 +43,13 @@ Make sure to save the resulting transcription files to the `fixtures/podcasts/<t
 After the transcription files have been generated, delete the `fixtures/podcasts/<the selected course goes here>/audios/` directory, but do NOT delete the `fixtures/podcasts/<the selected course goes here>/transcripts` directory & the `fixtures/podcasts/<the selected course goes here>/metadata.json` file.
 
 Finally, add & commit to GitHub! 🎉
+
+### SpeechToText.py
+This script takes in a directory of .mp3 files and produces transcription JSONs for each audio file.
+
+1. [Install and initialize Google Cloud SDK](https://cloud.google.com/sdk/docs/)
+2. `export GOOGLE_APPLICATION_CREDENTIALS="/PATH/TO/JSON/CREDENTIALS"` in your current session
+3. `sudo apt-get install sox` or whatever is applicable for your system 
+4. `sudo apt-get libsox-fmt-all` or whatever is applicable for your system 
+5. `cd scriptor-backend/scripts`
+6. `python SpeechToText.py ./PATH/TO/AUDIO/FILES`
