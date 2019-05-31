@@ -282,6 +282,19 @@ class APIClient {
         });
     }
 
+    getAllCourseCodes() {
+        return new Promise((resolve, reject) => {
+            fetch("/api/search/get_all_course_codes/", {headers: this._getRequestHeaders()}).then(response => response.json())
+                .then((response) => {
+                    if (response.success) {
+                        resolve(response.results);
+                    } else {
+                        reject(response.error);
+                    }
+                })
+        });
+    }
+
     searchProfessors(query) {
         var queryString = querystring({q: query});
         return new Promise((resolve, reject) => {

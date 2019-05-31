@@ -27,6 +27,11 @@ def search_quarters():
     return jsonify(success=True, results=quarters)
 
 
+@search_blueprint.route("/get_all_course_codes/", methods=['GET'])
+def get_course_codes():
+    course_codes = utils.get_all_course_codes()
+    return jsonify(success=True, results=course_codes)
+
 @search_blueprint.route("/podcasts/", methods=['GET'])
 def search_podcasts():
     text_query = request.args.get("q")

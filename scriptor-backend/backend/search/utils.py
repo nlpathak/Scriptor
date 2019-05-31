@@ -17,6 +17,21 @@ def search_departments(department=None):
         return [result.key for result in results.aggregations.all_departments.buckets]
 
 
+def get_all_course_codes():
+    course_codes = []
+    course_num_agg = A('terms', field="course_num")
+    dept_agg = A('terms', field="exact_value_department")
+    search = Podcast.search()
+    search.aggs.bucket("all_departments", dept_agg).bucket("all_course_nums", course_num_agg)
+    results = search.source(["department", "course_num"]).execute()
+    for dept_bucket in results.aggregations.all_departments.buckets:
+        dept = dept_bucket.key
+        for course_num_bucket in dept_bucket.all_course_nums.buckets:
+            course_num = course_num_bucket.key
+            course_codes.append(f"{dept} {course_num}")
+    return course_codes
+
+
 def search_professors(professor=None):
     if professor:
         professor = professor.strip()

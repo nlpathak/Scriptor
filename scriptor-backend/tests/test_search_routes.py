@@ -17,11 +17,14 @@ def client():
 @pytest.fixture
 def test_podcasts():
     # Generate and return n sample podcasts.
-    test_podcasts = [Podcast(title="podcast 1", full_transcript="Lorem ipsum", department="CSE", quarter="Winter 2019",
+    test_podcasts = [Podcast(title="podcast 1", full_transcript="Lorem ipsum", department="CSE", course_num="1",
+                             quarter="Winter 2019",
                              professor="Professor A"),
-                     Podcast(title="podcast 2", full_transcript="Lorem ipsum", department="CSE", quarter="Winter 2019",
+                     Podcast(title="podcast 2", full_transcript="Lorem ipsum", department="CSE", course_num="2",
+                             quarter="Winter 2019",
                              professor="Professor A"),
-                     Podcast(title="podcast 3", full_transcript="Lorem ipsum", department="ECE", quarter="Winter 2000",
+                     Podcast(title="podcast 3", full_transcript="Lorem ipsum", department="ECE", course_num="3",
+                             quarter="Winter 2000",
                              professor="Professor B")]
 
     test_podcast_transcription_blobs = []
@@ -53,6 +56,16 @@ def test_podcasts():
 
     for blob in test_podcast_transcription_blobs:
         blob.delete()
+
+
+def test_aux_get_all_course_codes(client, test_podcasts):
+    response = client.get("/api/search/get_all_course_codes/")
+    res = response.get_json()
+
+    assert 200 == response.status_code
+    assert res['success']
+    assert all(code in res['results'] for code in ["CSE 1", "CSE 2", "ECE 3"])
+    assert 3 == len(res['results'])
 
 
 def test_aux_search_departments(client, test_podcasts):

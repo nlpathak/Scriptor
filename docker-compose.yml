@@ -26,6 +26,8 @@ services:
     - elasticsearch
     environment:
       ES_HOSTS: elasticsearch
+    volumes:
+    - ./scriptor-backend/:/app/
     restart: always
 
   frontend:
