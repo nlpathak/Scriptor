@@ -30,9 +30,22 @@ services:
     - ./scriptor-backend/:/app/
     restart: always
 
+  app:
+    build:
+      context: scriptor-app/
+      dockerfile: nginx.Dockerfile
+    ports:
+    - 8080:80
+    expose:
+    - 8080
+    depends_on:
+    - backend
+    restart: always
+
   frontend:
     build:
       context: scriptor-app/
+      dockerfile: Dockerfile
     ports:
     - 3000:3000
     expose:
