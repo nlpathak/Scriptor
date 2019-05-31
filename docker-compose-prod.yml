@@ -7,27 +7,15 @@ services:
     - discovery.type=single-node
     volumes:
     - esdata:/usr/share/elasticsearch/data
-    ports:
-    - 9200:9200
-    - 9300:9300
-    expose:
-    - 9200
-    - 9300
     restart: always
 
   backend:
     build:
       context: scriptor-backend/
-    ports:
-    - 5000:5000
-    expose:
-    - 5000
     depends_on:
     - elasticsearch
     environment:
       ES_HOSTS: elasticsearch
-    volumes:
-    - ./scriptor-backend/:/app/
     restart: always
 
   app:
@@ -46,14 +34,8 @@ services:
     build:
       context: scriptor-app/
       dockerfile: Dockerfile
-    ports:
-    - 3000:3000
-    expose:
-    - 3000
     depends_on:
     - backend
-    volumes:
-    - ./scriptor-app/:/app/
     restart: always
 
 volumes:
