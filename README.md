@@ -38,6 +38,8 @@ docker-compose up
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ```
 
+The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend database will be accessible at [http://localhost:5000](http://localhost:5000).
+
 To stop running the application (but retain the database), enter the following:
 ```shell
 docker-compose down
@@ -54,8 +56,6 @@ Then, restart the application with:
 ```shell
 docker-compose up
 ```
-
-The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend database will be accessible at [http://localhost:5000](http://localhost:5000).
 
 ## Notes
 * All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.
