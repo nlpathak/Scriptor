@@ -1,4 +1,4 @@
-<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Scriptor" width=300px>
+<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Italian Trulli" width=300px>
 
 ## Introduction
 Scriptor is a solution for streamlining studying and reviewing at the University of California, San Diego. No longer do students have to manually search for specific information in the vast collection of knowledge that is the UC San Diego Podcast System. 
@@ -9,8 +9,14 @@ Scriptor allows students to search for keywords and instantly be presented with 
 TODO - ?
 
 ## Requirements
-CHROME + TODO - SUBHASH
+CHROME + DOCKER TODO - SUBHASH
 
+## Technical Support
+Have any issues with the installation below? Contact us at:  
+* <b>Subhash Ramesh</b> - (XXX) XXX-XXXX - XXX@ucsd.edu   
+* <b>Sabeel Mansuri</b> - (XXX) XXX-XXXX - XXX@ucsd.edu
+
+(Un-redacted information is available on private submission copies of this README.)
 
 ## Installation Instructions
 Scriptor is available online! Visit: `URL`
@@ -32,7 +38,30 @@ docker-compose up
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ```
 
+To stop running the application (but retain the database), enter the following:
+```shell
+docker-compose down
+```
+
+## In Case of Failure
+End the application and clear all data with:
+```shell
+docker-compose down -v
+```
+
+
+Then, restart the application with:
+```shell
+docker-compose up
+```
+
 The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend database will be accessible at [http://localhost:5000](http://localhost:5000).
+
+## Notes
+* All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.
+* At this time, only the following classes are available for searching: 
+  * `CHEM 4 [FA18]` `CSE 190 [FA18]` `CSE 101 [WI19]` `CSE 20 [FA18]` `CSE 20 [SP19]` `CSE 141 [FA18]` `COGS 9 [WI19]` `MATH 18 [WI18]` `CSE 21 [SP19]` `BIBC 120 [SP19]` `MATH 183 [FA19]` `MATH 183 [SP19]`
+
 
 ## Known Bugs
 * The Forgot Password verification email is sent to the user's spam folder.
