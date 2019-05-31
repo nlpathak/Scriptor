@@ -77,6 +77,7 @@ docker-compose up
 * All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.
 * At this time, only the following classes are available for searching due to expensive computations: 
   * `CHEM 4 [FA18]` `CSE 190 [FA18]` `CSE 101 [WI19]` `CSE 20 [FA18]` `CSE 20 [SP19]` `CSE 141 [FA18]` `COGS 9 [WI19]` `MATH 18 [WI18]` `CSE 21 [SP19]` `BIBC 120 [SP19]` `MATH 183 [FA19]` `MATH 183 [SP19]`
+* In the test case workflows, the results for different queries will not exactly match the given pictures. This is because if the query is exactly mentioned in many podcasts, our search implementation has no set order for returning those podcasts because the relevance score is all the same. As long as the text-blurbs contain the query, the implementation is working!
 
 
 ## Known Bugs
