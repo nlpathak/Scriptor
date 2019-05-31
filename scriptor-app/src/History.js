@@ -35,7 +35,7 @@ class History extends Component {
             this.setState(prevState => ({queries: [...prevState.queries, element.title]}));
           }
         } else {
-            const name = this.formatName(element);
+            const name = this.formatName(element.podcast);
             if(this.state.podcasts.indexOf(name) === -1) {
               this.setState(prevState => ({podcasts: [...prevState.podcasts, name]}));
             }
