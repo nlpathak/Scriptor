@@ -1,4 +1,4 @@
-<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Italian Trulli" width=300px>
+<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Scriptor" width=300px>
 
 ## Introduction
 Scriptor is a solution for streamlining studying and reviewing at the University of California, San Diego. No longer do students have to manually search for specific information in the vast collection of knowledge that is the UC San Diego Podcast System. 
@@ -19,9 +19,12 @@ Scriptor allows students to search for keywords and instantly be presented with 
 CHROME + DOCKER TODO - SUBHASH
 
 ## Technical Support
-Have any issues with the installation below? Contact us at:  
-* <b>Subhash Ramesh</b> - (XXX) XXX-XXXX - XXX@ucsd.edu   
-* <b>Sabeel Mansuri</b> - (XXX) XXX-XXXX - XXX@ucsd.edu
+Have any issues with the installation below? Contact us at: 
+
+| Name  | Email | Phone | 
+| ------------- | ------------- | ------ |
+| Subhash Ramesh | XXX@ucsd.edu | (XXX) XXX-XXXX|
+| Sabeel Mansuri | XXX@ucsd.edu | (XXX) XXX-XXXX |
 
 (Un-redacted information is available on private submission copies of this README.)
 
