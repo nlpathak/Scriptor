@@ -9,8 +9,11 @@ Scriptor allows students to search for keywords and instantly be presented with 
 
 | Account Type  | Email | Password| 
 | ------------- | ------------- | ------ |
-| Fresh | idk | idk |
-| Populated | idk | idk |
+| Gmail | scriptorTestCase@gmail.com | XXXXXX|
+| Populated | scriptorTestCase@gmail.com | XXXXXX |
+| Fresh | testEmail@gmail.com | XXXXXX |
+
+(Un-redacted information is available on private submission copies of this README.)
  
 ## Requirements
 CHROME + DOCKER TODO - SUBHASH
