@@ -35,9 +35,9 @@ services:
       context: scriptor-app/
       dockerfile: nginx.Dockerfile
     ports:
-    - 8080:80
+    - 80:80
     expose:
-    - 8080
+    - 80
     depends_on:
     - backend
     restart: always

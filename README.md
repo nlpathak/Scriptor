@@ -1,4 +1,4 @@
-<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Italian Trulli" width=300px>
+<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Scriptor" width=300px>
 
 ## Introduction
 Scriptor is a solution for streamlining studying and reviewing at the University of California, San Diego. No longer do students have to manually search for specific information in the vast collection of knowledge that is the UC San Diego Podcast System. 
