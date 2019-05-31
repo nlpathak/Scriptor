@@ -6,8 +6,17 @@ Scriptor is a solution for streamlining studying and reviewing at the University
 Scriptor allows students to search for keywords and instantly be presented with the exact material they want. Scriptor returns precise timestamps in podcasts that match the information users seek, efficiently parsing through UCSD's vast database so students don't have to. Scriptor wraps this functionality with a personalized interface, allowing users to favorite, save their history, and more. Happy podcasting!
 
 ## Login Credentials
-TODO - ?
 
+|Account Type | Email | Password|
+|--|--|
+|Fresh | fresh@fresh.fresh | cse110test|
+|Populated | fresh@fresh.fresh | cse110test|
+
+| Account Type  | Email | Password| 
+| ------------- | ------------- | ------ |
+| Fresh | idk | idk |
+| Populated | idk | idk |
+ 
 ## Requirements
 CHROME + DOCKER TODO - SUBHASH
 
