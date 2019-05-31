@@ -16,7 +16,9 @@ Scriptor allows students to search for keywords and instantly be presented with 
 (Un-redacted information is available on private submission copies of this README.)
  
 ## Requirements
-CHROME + DOCKER TODO - SUBHASH
+- [ ] **Operating System:** Deskop/Laptop | Mac/Windows/Linux, post-2000
+- [ ] **Browser:** Google Chrome, latest release
+- [ ] **Software:** Docker, Node, NPM
 
 ## Technical Support
 Have any issues with the installation below? Contact us at: 
