@@ -11,6 +11,7 @@ import Ayush from './assets/Ayush.png';
 import David from './assets/David.png';
 import Shuu from './assets/Shuu.png';
 import Som from './assets/Som.png';
+import Logo from './assets/ScriptorLogo.jpg';
 
 
 function About() {
@@ -36,10 +37,9 @@ function About() {
 	  </div>
 
 	  <div className='groupPhoto'>	
-	  	<img src="https://user-images.githubusercontent.com/36279762/58217930-ce183e00-7cb9-11e9-9e68-84d5b82622ff.jpg"
+	  	<img src={Logo}
 	  		alt="Error"
 	  		style={{width: '100%'}}/>
-	  	<p className='description'>The people that made this possible!</p>
 	  </div>
 
 	  <div className='team'> 
