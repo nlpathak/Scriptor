@@ -1,4 +1,4 @@
-<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Italian Trulli" width=300px>
+<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Scriptor" width=300px>
 
 ## Introduction
 Scriptor is a solution for streamlining studying and reviewing at the University of California, San Diego. No longer do students have to manually search for specific information in the vast collection of knowledge that is the UC San Diego Podcast System. 
@@ -6,15 +6,25 @@ Scriptor is a solution for streamlining studying and reviewing at the University
 Scriptor allows students to search for keywords and instantly be presented with the exact material they want. Scriptor returns precise timestamps in podcasts that match the information users seek, efficiently parsing through UCSD's vast database so students don't have to. Scriptor wraps this functionality with a personalized interface, allowing users to favorite, save their history, and more. Happy podcasting!
 
 ## Login Credentials
-TODO - ?
 
+| Account Type  | Email | Password| 
+| ------------- | ------------- | ------ |
+| Gmail | scriptorTestCase@gmail.com | XXXXXX|
+| Populated | scriptorTestCase@gmail.com | XXXXXX |
+| Fresh | testEmail@gmail.com | XXXXXX |
+
+(Un-redacted information is available on private submission copies of this README.)
+ 
 ## Requirements
 CHROME + DOCKER TODO - SUBHASH
 
 ## Technical Support
-Have any issues with the installation below? Contact us at:  
-* <b>Subhash Ramesh</b> - (XXX) XXX-XXXX - XXX@ucsd.edu   
-* <b>Sabeel Mansuri</b> - (XXX) XXX-XXXX - XXX@ucsd.edu
+Have any issues with the installation below? Contact us at: 
+
+| Name  | Email | Phone | 
+| ------------- | ------------- | ------ |
+| Subhash Ramesh | XXX@ucsd.edu | (XXX) XXX-XXXX|
+| Sabeel Mansuri | XXX@ucsd.edu | (XXX) XXX-XXXX |
 
 (Un-redacted information is available on private submission copies of this README.)
 
@@ -29,6 +39,7 @@ docker-compose build --no-cache
 ```
 
 ## How to Run
+#### Starting
 Scriptor is available online! Visit: `URL`
 
 If you want to run Scriptor locally, enter the following commands:
@@ -38,6 +49,9 @@ docker-compose up
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ```
 
+The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend database will be accessible at [http://localhost:5000](http://localhost:5000).
+
+#### Stopping
 To stop running the application (but retain the database), enter the following:
 ```shell
 docker-compose down
@@ -55,8 +69,6 @@ Then, restart the application with:
 docker-compose up
 ```
 
-The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend database will be accessible at [http://localhost:5000](http://localhost:5000).
-
 ## Notes
 * All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.
 * At this time, only the following classes are available for searching: 
@@ -64,4 +76,5 @@ The app will be accessible at [http://localhost:3000](http://localhost:3000). Th
 
 
 ## Known Bugs
-* The Forgot Password verification email is sent to the user's spam folder.
+* The `docker` commands sometimes return errors. This can be fixed by prepending every command with `sudo`.
+* The Forgot Password verification email is almost always sent to the user's spam folder.
