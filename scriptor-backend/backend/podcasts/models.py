@@ -1,5 +1,15 @@
-from elasticsearch_dsl import Document, Text, Date, Integer, Keyword
+from elasticsearch_dsl import Document, Text, Date, Integer, Keyword, Completion
 from nltk.tokenize import sent_tokenize
+
+
+def tokenize_completion_field(string):
+    if not string:
+        return []
+    tokens = string.split(" ")
+    phrases = []
+    for idx in range(0, len(tokens)):
+        phrases.append(" ".join(tokens[idx:]))
+    return phrases
 
 class Podcast(Document):
     """
@@ -26,6 +36,11 @@ class Podcast(Document):
     exact_value_department = Keyword()
     exact_value_quarter = Keyword()
     exact_value_professor = Keyword()
+
+    completion_field_department = Completion()
+    completion_field_quarter = Completion()
+    completion_field_professor = Completion()
+    completion_field_course_num = Completion()
 
     # Elasticsearch index settings
     class Index:
@@ -57,6 +72,11 @@ class Podcast(Document):
         self.exact_value_department = self.department
         self.exact_value_quarter = self.quarter
         self.exact_value_professor = self.professor
+
+        self.completion_field_department = tokenize_completion_field(self.department)
+        self.completion_field_course_num = tokenize_completion_field(self.course_num)
+        self.completion_field_professor = tokenize_completion_field(self.professor)
+        self.completion_field_quarter = tokenize_completion_field(self.quarter)
         return super().save(**kwargs)
 
     def convert_to_dict(self):

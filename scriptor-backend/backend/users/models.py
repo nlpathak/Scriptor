@@ -46,6 +46,9 @@ class HistoryItem(InnerDoc):
             return PodcastTranscriptionBlob.get(id=self.podcast_page_transcription_blob_id).podcast.title
 
     def convert_to_dict(self):
+        if self.podcast_page_transcription_blob_id:
+            return {"type": self.type, "url": self.url, "title": self.title, "podcast": PodcastTranscriptionBlob.get(
+                id=self.podcast_page_transcription_blob_id).podcast.convert_to_dict()}
         return {"type": self.type, "url": self.url, "title": self.title}
 
 
@@ -207,7 +210,6 @@ class User(Document):
             raise ValueError("Incorrect existing password.")
 
         self.set_password(new_password)
-
 
     def remove_favorite_podcast(self, podcast_id_to_remove):
         """
