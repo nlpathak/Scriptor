@@ -7,11 +7,6 @@ Scriptor allows students to search for keywords and instantly be presented with 
 
 ## Login Credentials
 
-|Account Type | Email | Password|
-|--|--|
-|Fresh | fresh@fresh.fresh | cse110test|
-|Populated | fresh@fresh.fresh | cse110test|
-
 | Account Type  | Email | Password| 
 | ------------- | ------------- | ------ |
 | Fresh | idk | idk |
