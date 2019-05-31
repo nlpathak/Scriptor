@@ -1,4 +1,4 @@
-# Scriptor
+<img src="https://github.com/nlpathak/Scriptor/blob/master/scriptor-app/src/assets/Logo.png" alt="Italian Trulli" width=300px>
 
 ## Introduction
 TODO - SABEEL
