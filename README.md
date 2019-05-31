@@ -16,16 +16,16 @@ Scriptor allows students to search for keywords and instantly be presented with 
 (Un-redacted information is available on private submission copies of this README.)
  
 ## Requirements
-- [ ] **Operating System:** Desktop/Laptop | Mac/Windows/Linux, post-2000
+- [ ] **Operating System:** Desktop/Laptop | Mac/Windows/Linux
 - [ ] **Browser:** Google Chrome, latest release
-- [ ] **Software:** Docker, Node, NPM
+- [ ] **Software:** Docker, Node, NPM, Git
 
 ## Technical Support
 Have any issues with the installation below? Contact us at: 
 
 | Name  | Email | Phone | 
 | ------------- | ------------- | ------ |
-| Subhash Ramesh | XXX@ucsd.edu | (XXX) XXX-XXXX|
+| Subhash Ramesh | XXX@ucsd.edu | (XXX) XXX-XXXX |
 | Sabeel Mansuri | XXX@ucsd.edu | (XXX) XXX-XXXX |
 
 (Un-redacted information is available on private submission copies of this README.)
