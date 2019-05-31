@@ -1,0 +1,42 @@
+version: '3.7'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.0.1
+    environment:
+    - discovery.type=single-node
+    volumes:
+    - esdata:/usr/share/elasticsearch/data
+    restart: always
+
+  backend:
+    build:
+      context: scriptor-backend/
+    depends_on:
+    - elasticsearch
+    environment:
+      ES_HOSTS: elasticsearch
+    restart: always
+
+  app:
+    build:
+      context: scriptor-app/
+      dockerfile: nginx.Dockerfile
+    ports:
+    - 80:80
+    expose:
+    - 80
+    depends_on:
+    - backend
+    restart: always
+
+  frontend:
+    build:
+      context: scriptor-app/
+      dockerfile: Dockerfile
+    depends_on:
+    - backend
+    restart: always
+
+volumes:
+  esdata:
