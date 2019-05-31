@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './_Components.css';
 import { toast } from 'react-toastify';
 import { withRouter } from 'react-router-dom';
+import APIClient from "../api/APIClient.js";
+
 
 
 class ResSearch extends Component {
@@ -15,6 +17,10 @@ class ResSearch extends Component {
         quarter: '',
         showFilters: false,
         results: [],
+        departments: [],
+        courses: [],
+        quarters: [],
+        professors: [],
     };
 
     change = e => {
@@ -44,13 +50,29 @@ class ResSearch extends Component {
  }
 
     
+    componentDidMount(){
+        APIClient.searchProfessors("").then(response => {
+            this.setState({professors: response})
+            }  
+       );
+        APIClient.searchQuarters("").then(response => {
+            this.setState({quarters: response})
+        }  
+       );
+        APIClient.searchDepartments("").then(response => {
+            this.setState({departments: response})
+        }  
+       );
+    }
+
     handleEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
             toast("Press the Search Button", {className: 'popup'});
          }
     }
-    
+
+
     render() {                   
         let filters;
         if(this.state.showFilters) {
@@ -66,11 +88,9 @@ class ResSearch extends Component {
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)}/>
                         <datalist id="department">
-                             <option value="CSE"></option>
-                             <option value="MATH"></option>
-                             <option value="CHEM"></option>
-                             <option value="COGS"></option>
-                             <option value="BIBC"></option>
+                            {this.state.departments.map((item, index)  => (
+                             <option key = {index} value={item}></option>
+                            ))}
                         </datalist>
                         <input 
                             type = 'text'
@@ -99,12 +119,9 @@ class ResSearch extends Component {
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
                         <datalist id="professor">
-                             <option value="Miles Jones"></option>
-                             <option value="Garrison Cottrell"></option>
-                             <option value="Carl Hoeger"></option>
-                             <option value="Todd Kemp"></option>
-                             <option value="Randolph Hampton"></option>
-                             <option value="David Quarfoot"></option>
+                            {this.state.professors.map((item, index)  => (
+                             <option key = {index} value={item}></option>
+                            ))}
                         </datalist>
                         <input 
                             type = 'text'
@@ -115,12 +132,9 @@ class ResSearch extends Component {
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
                          <datalist id="quarter">
-                             <option value="Fall 2018"></option>
-                             <option value="Spring 2018"></option>
-                             <option value="Winter 2018"></option>
-                             <option value="Fall 2019"></option>
-                             <option value="Winter 2019"></option>
-                             <option value="Spring 2019"></option>
+                            {this.state.quarters.map((item, index)  => (
+                             <option key = {index} value={item}></option>
+                            ))}
                         </datalist>
                     </div>
                     <p style={{marginTop: '5px'}}>Department</p>
