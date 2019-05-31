@@ -29,6 +29,7 @@ docker-compose build --no-cache
 ```
 
 ## How to Run
+#### Starting
 Scriptor is available online! Visit: `URL`
 
 If you want to run Scriptor locally, enter the following commands:
@@ -40,6 +41,7 @@ docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 
 The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend database will be accessible at [http://localhost:5000](http://localhost:5000).
 
+#### Stopping
 To stop running the application (but retain the database), enter the following:
 ```shell
 docker-compose down
