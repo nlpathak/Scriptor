@@ -16,7 +16,7 @@ Scriptor allows students to search for keywords and instantly be presented with 
 (Un-redacted information is available on private submission copies of this README.)
  
 ## Requirements
-- [ ] **Operating System:** Deskop/Laptop | Mac/Windows/Linux, post-2000
+- [ ] **Operating System:** Desktop/Laptop | Mac/Windows/Linux, post-2000
 - [ ] **Browser:** Google Chrome, latest release
 - [ ] **Software:** Docker, Node, NPM
 
