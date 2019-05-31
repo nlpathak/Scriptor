@@ -66,4 +66,5 @@ docker-compose up
 
 
 ## Known Bugs
-* The Forgot Password verification email is sent to the user's spam folder.
+* The `docker` commands sometimes return errors. This can be fixed by prepending every command with `sudo`.
+* The Forgot Password verification email is almost always sent to the user's spam folder.
