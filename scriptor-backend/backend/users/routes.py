@@ -145,15 +145,16 @@ def user_change_password():
         return jsonify(success=False, error=str(e)), 400
 
 
-@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/check/")
+@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/<string:blob_id>/check/")
 @login_required
-def user_check_favorite_podcast(podcast_id):
-    has_favorited_podcast = g.current_user.has_favorited_podcast(podcast_id)
+def user_check_favorite_podcast(podcast_id, blob_id):
+    has_favorited_podcast = g.current_user.has_favorited(podcast_id, blob_id)
     return jsonify(success=True, has_favorited_podcast=has_favorited_podcast)
 
-@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/add/", methods=['POST'])
+
+@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/<string:blob_id>/add/", methods=['POST'])
 @login_required
-def user_add_favorite_podcast(podcast_id):
+def user_add_favorite_podcast(podcast_id, blob_id):
     """
     This will add a podcast id to the user's favorite podcast list (if it's not already in the list)
 
@@ -171,15 +172,16 @@ def user_add_favorite_podcast(podcast_id):
     }
 
     :param podcast_id:  The id of the favorite podcast to add
+    :param blob_id:     The id of the favorite blob to add
     :return: A JSON response indicating whether the request was successful
     """
-    g.current_user.add_favorite_podcast(podcast_id=podcast_id)
+    g.current_user.add_favorite_podcast(podcast_id=podcast_id, blob_id=blob_id)
     return jsonify(success=True)
 
 
-@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/remove/", methods=['DELETE'])
+@users_blueprint.route("/favorite_podcasts/<string:podcast_id>/<string:blob_id>/remove/", methods=['DELETE'])
 @login_required
-def user_remove_favorite_podcast(podcast_id):
+def user_remove_favorite_podcast(podcast_id, blob_id):
     """
     This will delete a podcast id from the user's favorite podcast list (if it's already in the list)
 
@@ -197,9 +199,10 @@ def user_remove_favorite_podcast(podcast_id):
     }
 
     :param podcast_id:  The id of the favorite podcast to remove
+    :param podcast_id:  The id of the favorite podcast blob to remove
     :return: A JSON response indicating whether the request was successful
     """
-    g.current_user.remove_favorite_podcast(podcast_id_to_remove=podcast_id)
+    g.current_user.remove_favorite_podcast(podcast_id_to_remove=podcast_id, blob_id_to_remove=blob_id)
     return jsonify(success=True)
 
 
@@ -215,15 +218,17 @@ def user_get_favorite_podcasts():
     {
         "success" : true,
         "favorite_podcasts" : [
-            <Podcast json object>,
-            <Podcast json object>,
+            {"favorite_podcast" : <Podcast json object>, "favorite_blob" : <PodcastTranscriptionBlob json object>}
             ...
         ]
     }
     :return:
     """
-    favorite_podcasts = [podcast.convert_to_dict() for podcast in g.current_user.favorite_podcasts]
-    return jsonify(success=True, favorite_podcasts=favorite_podcasts)
+    favorites = []
+    for fav_blob in g.current_user.favorite_podcast_blobs:
+        favorites.append(
+            {"favorite_blob": fav_blob.convert_to_dict(), "favorite_podcast": fav_blob.podcast.convert_to_dict()})
+    return jsonify(success=True, favorites=favorites)
 
 
 @users_blueprint.route("/history/", methods=['GET'])

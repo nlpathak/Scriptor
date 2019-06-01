@@ -58,9 +58,9 @@ class PodcastPage extends Component {
             return;
         }
 
-        APIClient.checkFavoritePodcast(this.state.podcast.id).then(response => {
+        APIClient.checkFavoritePodcast(this.state.podcast.id, this.state.podcast_blob.id).then(response => {
             if (response) {
-                APIClient.removeFavoritePodcastById(this.state.podcast.id).then(response => {
+                APIClient.removeFavoritePodcastById(this.state.podcast.id, this.state.podcast_blob.id).then(response => {
                     toast("Removed from Favorites", {className: 'popup'});
                 });
                 this.setState({isFavorited: false});
@@ -69,7 +69,7 @@ class PodcastPage extends Component {
                 document.getElementById('togglebutton').style.backgroundColor = "rgba(72,136,163,.93)";
                 document.getElementById('togglebutton').innerHTML = "FAVORITE";
             } else {
-                APIClient.addFavoritePodcastById(this.state.podcast.id).then(response => {
+                APIClient.addFavoritePodcastById(this.state.podcast.id, this.state.podcast_blob.id).then(response => {
                     toast("Added to Favorites", {className: 'popup'});
                 });
                 this.setState({isFavorited: true});
@@ -91,19 +91,23 @@ class PodcastPage extends Component {
         if (performance.navigation.type === 2) {
             window.location.reload();
         }
-        APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
-            if (response) {
-                this.setState({isFavorited: true});
-                document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
-                document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
-                document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
-                document.getElementById('togglebutton').innerHTML = "UNFAVORITE";
-            } else {
-                this.setState({isFavorited: false});
-            }
-        });
+
         APIClient.getPodcastSnippet(this.values.blob_id).then(res => {
             this.setState({podcast: res.podcast, podcast_blob: res.podcast_blob});
+
+
+            APIClient.checkFavoritePodcast(res.podcast.id, res.podcast_blob.id).then(response => {
+                if (response) {
+                    this.setState({isFavorited: true});
+                    document.getElementById('togglebutton').style.color = "rgba(72,136,163,.93)";
+                    document.getElementById('togglebutton').style.border = "1px solid rgba(72,136,163,.93)";
+                    document.getElementById('togglebutton').style.backgroundColor = "rgba(255,255,255,1)";
+                    document.getElementById('togglebutton').innerHTML = "UNFAVORITE";
+                } else {
+                    this.setState({isFavorited: false});
+                }
+            });
+
         });
     }
 

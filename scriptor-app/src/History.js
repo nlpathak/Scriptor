@@ -62,7 +62,9 @@ class History extends Component {
         if (filterNames.length === 0) {
             return (
                 <div>
-                    {item.search_query}
+                    <h4>
+                        {item.search_query}
+                    </h4>
                 </div>
             );
         }
@@ -95,11 +97,13 @@ class History extends Component {
 
         return (
             <div>
-                {item.search_query}
-                <br/>
-                <small className="text-muted" style={{fontSize: "50%"}}>
-                    <b><i>{filtered_str}</i></b>
-                </small>
+                <h4>
+                    {item.search_query}
+                    <br/>
+                    <small className="text-muted text-truncate" style={{fontSize: "50%"}}>
+                        <b><i>{filtered_str}</i></b>
+                    </small>
+                </h4>
             </div>
         );
     }
@@ -160,18 +164,19 @@ class History extends Component {
                         <h1>HISTORY</h1>
                         <button className='center' onClick={e => this.onClear(e)}>Clear</button>
                     </div>
-                    <div className="search">
-                        <h1> You've Searched For...
-                            <div>
+                    <div className="row mt-3">
+                        <div className="col">
+                            <h2> You've Searched For...</h2>
+                            <div className="mt-4">
                                 <ul>
                                     {this.state.queries.map((item, index) => (
 
                                         <Link to={{
                                             pathname: '/results',
                                             search: History.getSearchQueryURL(item)
-                                        }}>
+                                        }} style={{color: 'rgba(72,136,163,.93)'}}>
 
-                                            <li className='searches' key={index}>
+                                            <li key={index}>
                                                 {History.getSearchTitle(item)}
                                             </li>
 
@@ -180,24 +185,25 @@ class History extends Component {
                                     ))}
                                 </ul>
                             </div>
-                        </h1>
-                        <h2>You've Found...
-                            <div>
+                        </div>
+                        <div className="col">
+                            <h2>You've Found...</h2>
+                            <div className="mt-4">
                                 <ul>
                                     {this.state.podcasts.map((item, index) => (
                                         <Link to={{
                                             pathname: '/podcast',
                                             search: History.getPodcastURL(item)
-                                        }}>
-                                            <li className='results' key={index}>
-                                                <div>{History.formatName(item.podcast)}</div>
+                                        }} style={{color: 'rgba(72,136,163,.93)'}}>
+                                            <li key={index}>
+                                                <h4>{History.formatName(item.podcast)}</h4>
                                             </li>
                                         </Link>
 
                                     ))}
                                 </ul>
                             </div>
-                        </h2>
+                        </div>
                     </div>
                 </div>
             );

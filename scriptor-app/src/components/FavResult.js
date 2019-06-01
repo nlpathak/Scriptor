@@ -4,43 +4,24 @@ import './_Components.css';
 import starOff from '../assets/starOff.png';
 import starOn from '../assets/starOn.png';
 import {toast} from 'react-toastify';
+import {Link} from "react-router-dom";
 
 
 class FavResult extends Component {
     constructor(props) {
         super(props);
-        this.state = {isFav : [], podcasts: []};
+        this.state = {isFav: [], favorites: []};
         this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick(e, index, item) {
-        e.preventDefault();
-
-        const newFav = [...this.state.isFav]
-        newFav[index] = !this.state.isFav[index]
-
-        if(!newFav[index]) {
-            APIClient.removeFavoritePodcastById(item.id).then(response => {
-                toast("Removed from Favorites", {className: 'popup'});
-            });
-        } else {
-            APIClient.addFavoritePodcastById(item.id).then(response => {
-                toast("Added to Favorites", {className: 'popup'});
-            });
-        }   
-        this.setState(state => ({
-            isFav: newFav
-        }));
-    }
-
-    formatTitle(item) {
+    static formatTitle(item) {
         // Add department and coursenum
         let fulltitle = item.department + ' ' + item.course_num;
 
         // Add truncated coursename
         var coursename = item.title;
-        if(coursename.length > 25) {
-            coursename = coursename.substring(0,25) + '...';
+        if (coursename.length > 25) {
+            coursename = coursename.substring(0, 25) + '...';
         }
         fulltitle += ' - ' + coursename;
 
@@ -51,42 +32,86 @@ class FavResult extends Component {
 
         // Add truncated professor
         var professor = item.professor;
-        if(professor.length > 25) {
-            professor = professor.substring(0,25) + '...';
+        if (professor.length > 25) {
+            professor = professor.substring(0, 25) + '...';
         }
         // Swaps first and last name
         professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
-                    professor.substring(0, professor.indexOf(','))
+            professor.substring(0, professor.indexOf(','));
         fulltitle += ' | ' + professor;
 
         // Add lecturenum
         fulltitle += ' | Lecture ' + item.lecture_num;
 
         return fulltitle;
-  }
+    }
+
+    static isPodcastInList(list, podcast) {
+        for (var i = 0; i < list.length; i++) {
+            if (podcast.id === list[i].id) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    handleClick(e, index, item) {
+        e.preventDefault();
+
+        const newFav = [...this.state.isFav];
+        newFav[index] = !this.state.isFav[index];
+
+        if (!newFav[index]) {
+            APIClient.removeFavoritePodcastById(item.favorite_podcast.id, item.favorite_blob.id).then(response => {
+                toast("Removed from Favorites", {className: 'popup'});
+            });
+        } else {
+            APIClient.addFavoritePodcastById(item.favorite_podcast.id, item.favorite_blob.id).then(response => {
+                toast("Added to Favorites", {className: 'popup'});
+            });
+        }
+
+        this.setState(state => ({
+            isFav: newFav
+        }));
+    }
 
     componentDidMount() {
         APIClient.getFavoritePodcasts().then(response => {
-            this.setState({podcasts: response});
-            this.setState({isFav: this.state.podcasts.map((element) => true)});
+            console.log(response);
+            let favorites = [];
+            for (var i = 0; i < response.length; i++) {
+                if (!FavResult.isPodcastInList(favorites, response[i].favorite_podcast))
+                    favorites.push(response[i]);
+            }
+            this.setState({favorites: favorites});
+            this.setState({isFav: favorites.map((element) => true)});
         });
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div className='favorites'>
                 <div className='header'>
                     <h1>FAVORITES</h1>
                 </div>
-                <div className = 'favList'>
-                        <ul>
-                        {this.state.podcasts.map((item, index)  => (
-                            <li className = 'favResult' key={index}>
+                <div className='favList'>
+                    <ul>
+                        {this.state.favorites.map((item, index) => (
+                            <li className='favResult' key={index}>
                                 <div className='each'>
-                                    <div>{this.formatTitle(item)}
-                                        <img onClick={(e) => {this.handleClick(e, index, item)}}
-                                        src={this.state.isFav[index] ? starOn : starOff}
-                                        alt="" width="58" height="58"/>
+                                    <div>
+                                        <Link to={{
+                                            pathname: '/podcast',
+                                            search: "?blob_id=" + item.favorite_blob.id
+                                        }} style={{color: 'rgba(72,136,163,.93)'}}>
+                                            {FavResult.formatTitle(item.favorite_podcast)}
+                                        </Link>
+                                        <img onClick={(e) => {
+                                            this.handleClick(e, index, item)
+                                        }}
+                                             src={this.state.isFav[index] ? starOn : starOff}
+                                             alt="" width="58" height="58"/>
                                     </div>
                                 </div>
                             </li>
@@ -99,5 +124,4 @@ class FavResult extends Component {
 }
 
 
-
- export default FavResult;
+export default FavResult;

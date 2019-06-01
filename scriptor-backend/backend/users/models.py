@@ -50,7 +50,7 @@ class HistoryItem(InnerDoc):
         if self.podcast_page_transcription_blob_id:
             return {"type": self.type, "blob_id": self.podcast_page_transcription_blob_id,
                     "podcast": PodcastTranscriptionBlob.get(
-                id=self.podcast_page_transcription_blob_id).podcast.convert_to_dict()}
+                        id=self.podcast_page_transcription_blob_id).podcast.convert_to_dict()}
         # This is a search query history item
         return {"type": self.type, "search_query": self.search_query, "search_filters": self.search_filters.to_dict()}
 
@@ -65,7 +65,7 @@ class User(Document):
     email = Keyword()
     password_hash = Keyword()
 
-    favorite_podcast_ids = Text(multi=True)  # A list of podcast ids for the user's favorites
+    favorite_podcast_ids = Object(multi=True)  # A list of {podcast_id: .., blob_id: ...} for the user's favorites
     history = Nested(HistoryItem)  # A list of HistoryItems, representing the user's history
 
     password_recovery_token = Text(required=False)
@@ -108,14 +108,35 @@ class User(Document):
         sg.send(message)
 
     @property
-    def favorite_podcasts(self):
+    def favorite_podcast_blobs(self):
         try:
-            return Podcast.mget(docs=self.favorite_podcast_ids)
+            blob_ids = [id.blob_id for id in self.favorite_podcast_ids]
+            results = PodcastTranscriptionBlob.mget(docs=blob_ids)
+            if not results:
+                return []
+            return results
         except:
             return []
 
+    @property
+    def favorite_podcasts(self):
+        try:
+            pod_ids = [id.podcast_id for id in self.favorite_podcast_ids]
+            return Podcast.mget(docs=pod_ids)
+        except:
+            return []
+
+    def has_favorited(self, podcast_id, blob_id):
+        for fav_ids in self.favorite_podcast_ids:
+            if fav_ids.podcast_id == podcast_id and fav_ids.blob_id == blob_id:
+                return True
+        return False
+
     def has_favorited_podcast(self, podcast_id):
-        return podcast_id in self.favorite_podcast_ids
+        return podcast_id in [id.podcast_id for id in self.favorite_podcast_ids]
+
+    def has_favorited_podcast_blob(self, podcast_blob_id):
+        return podcast_blob_id in [id.blob_id for id in self.favorite_podcast_ids]
 
     @classmethod
     def register_new_user(cls, email, password):
@@ -214,25 +235,34 @@ class User(Document):
 
         self.set_password(new_password)
 
-    def remove_favorite_podcast(self, podcast_id_to_remove):
+    def remove_favorite_podcast(self, podcast_id_to_remove, blob_id_to_remove):
         """
         This removes a podcast's id from the user's favorite list, if it exists.
-        :param podcast_id:  The podcast id to remove from the user's favorite
+        :param podcast_id:  The podcast id to remove from the user's favorites list
+        :param blob_id:     The corresponding podcast's blob id to remove from the user's favorites list
         """
-        self.favorite_podcast_ids = [podcast_id for podcast_id in self.favorite_podcast_ids if
-                                     podcast_id != podcast_id_to_remove]
+        self.favorite_podcast_ids = [id_obj for id_obj in self.favorite_podcast_ids if
+                                     id_obj.podcast_id != podcast_id_to_remove and id_obj.blob_id != blob_id_to_remove]
         self.save(refresh="wait_for")
 
-    def add_favorite_podcast(self, podcast_id):
+    def add_favorite_podcast(self, podcast_id, blob_id):
         """
         This adds a podcast's id to the user's favorites list, if it hasn't already been added.
         :param podcast_id:      The podcast's id
+        :param blob_id:         the podcast blob's id
         """
-        favorite_podcast_ids = self.favorite_podcast_ids
+        favorite_podcast_ids = self.favorite_podcast_ids or []
 
-        if podcast_id not in favorite_podcast_ids:
+        already_favorited = False
+        for id_obj in self.favorite_podcast_ids:
+            if id_obj.podcast_id == podcast_id and id_obj.blob_id == blob_id:
+                already_favorited = True
+                break
+
+        if not already_favorited:
             # The user hasn't favorited this podcast yet, so add it to the list
-            self.favorite_podcast_ids.append(podcast_id)
+            favorite_podcast_ids.append({"podcast_id": podcast_id, "blob_id": blob_id})
+            self.favorite_podcast_ids = favorite_podcast_ids
 
             # Save the updated user
             self.save(refresh="wait_for")

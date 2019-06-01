@@ -18,7 +18,7 @@ def get_podcast_blob(blob_id):
                                    podcast_page_transcription_blob_id=podcast_blob.meta.id)
         g.current_user.add_history_item(history_item)
 
-    return jsonify(success=True, podcast=podcast, podcast_blob=podcast_blob.to_dict())
+    return jsonify(success=True, podcast=podcast, podcast_blob=podcast_blob.convert_to_dict())
 
 
 @podcasts_blueprint.route("/<string:podcast_id>/transcript/")

@@ -157,9 +157,9 @@ class APIClient {
     }
 
     // Implemented
-    addFavoritePodcastById(podcastId) {
+    addFavoritePodcastById(podcastId, blobId) {
         return new Promise((resolve, reject) => {
-            fetch("/api/user/favorite_podcasts/" + podcastId + "/add/", {
+            fetch("/api/user/favorite_podcasts/" + podcastId + "/" + blobId + "/add/", {
                 method: 'POST',
                 headers: this._getRequestHeaders()
             }).then(response => response.json())
@@ -174,9 +174,9 @@ class APIClient {
     }
 
     // Implemented
-    checkFavoritePodcast(podcastId) {
+    checkFavoritePodcast(podcastId, blobId) {
         return new Promise((resolve, reject) => {
-            fetch("/api/user/favorite_podcasts/" + podcastId + "/check/", {
+            fetch("/api/user/favorite_podcasts/" + podcastId + "/" + blobId + "/check/", {
                 headers: this._getRequestHeaders()
             }).then(response => response.json())
                 .then((response) => {
@@ -190,9 +190,9 @@ class APIClient {
     }
 
     // Implemented
-    removeFavoritePodcastById(podcastId) {
+    removeFavoritePodcastById(podcastId, blobId) {
         return new Promise((resolve, reject) => {
-            fetch("/api/user/favorite_podcasts/" + podcastId + "/remove/", {
+            fetch("/api/user/favorite_podcasts/" + podcastId + "/" + blobId + "/remove/", {
                 method: 'DELETE',
                 headers: this._getRequestHeaders()
             }).then(response => response.json())
@@ -211,7 +211,7 @@ class APIClient {
             fetch("/api/user/favorite_podcasts/", {headers: this._getRequestHeaders()}).then(response => response.json())
                 .then((response) => {
                     if (response.success) {
-                        resolve(response.favorite_podcasts);
+                        resolve(response.favorites);
                     } else {
                         reject(response.error);
                     }
