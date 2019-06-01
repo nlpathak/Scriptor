@@ -51,6 +51,7 @@ If you want to run Scriptor locally, enter the following commands:
 docker-compose up -d frontend
 
 # Wait 20-30 seconds for the backend database to initialize before running the next command in a new terminal.
+# You can run the below line once http://localhost:5000 returns "{success:true}"
 # You only have to run the below import script when installing this project for the first time, or after clearing the database data with: docker-compose down -v.
 
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
@@ -64,20 +65,44 @@ To stop running the application (but retain the database), enter the following:
 docker-compose down
 ```
 
+If you get an error about possible orphan containers, run:
+``` shell
+docker-compose down --remove-orphans
+```
+
 ## In Case of Failure
 End the application and clear all data with:
 ```shell
 docker-compose down -v
 ```
 
-
 Then, restart the application with:
 ```shell
 docker-compose up -d frontend
 
 # And since all data has been cleared, re-run the data import script (after waiting for about 20-30 secs)
+# Wait until localhost:5000 returns {success:true}
+
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ```
+
+## To start fresh
+Optionally, pull the latest code from Github.
+``` shell
+docker-compose down -v --remove-orphans
+docker-compose build --no-cache
+docker-compose up -d frontend
+
+# Wait until localhost:5000 returns {success:true}
+docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
+```
+
+## Deleting all stored users
+``` shell
+# Wait until localhost:5000 returns {success:true}
+docker-compose exec backend python3 scripts/clear_users.py
+```
+
 
 ## Notes
 * All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.
