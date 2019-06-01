@@ -1,12 +1,10 @@
 import React, {Component} from 'react';
 import './About.css';
 import './Results.css';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import ResSearch from './components/ResSearch.js';
 import APIClient from './api/APIClient.js';
 import queryString from 'query-string';
-
-
 
 
 class Results extends Component {
@@ -43,7 +41,7 @@ componentDidMount(){
                     const vidUrl = back.ucsd_podcast_video_url;
                     var prof = back.professor;
                     prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
-                        prof.substring(0, prof.indexOf(','))
+                        prof.substring(0, prof.indexOf(','));
                     var result = {description: back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.lecture_num, 
                         blurb: element.transcription_blob, 
                         timestamp: timeStamp, 
@@ -62,7 +60,7 @@ componentDidMount(){
                             transcription_blob: element.transcription_blob,
                             ucsd_podcast_audio_url: back.ucsd_podcast_audio_url,
                         }
-                    }
+                    };
                     this.setState(prevState => ({results: [...prevState.results, result]}));
                     });
                 });
@@ -74,7 +72,8 @@ componentDidMount(){
         var values = queryString.parse(this.props.location.search);
 		return (
 			<div className = "results">
-            <ResSearch query= {values.query} department= {values.department} course_num = {values.course} quarter ={values.quarter} />
+                <ResSearch query={values.query} department={values.department} course={values.course}
+                           quarter={values.quarter} professor={values.professor}/>
 				{this.state.results.map((result, index) => (
 					<div key={index}>
 						<li className= "description"> 

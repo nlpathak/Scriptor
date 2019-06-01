@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import './_Components.css';
-import { withRouter } from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import APIClient from "../api/APIClient.js";
-
 
 
 class ResSearch extends Component {
@@ -28,137 +27,149 @@ class ResSearch extends Component {
 
     change = e => {
         this.setState({[e.target.name]: e.target.value}, this.updateFilters);
-    }
-    
+    };
+    handleEnter = (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            this.onSubmit(e);
+        }
+    };
+
     updateFilters() {
-        if(this.state.query.length > 0 || (this.state.department.length > 0 || this.state.course.length > 0
-        || this.state.professor.length > 0 || this.state.quarter.length > 0)) {
+        if (this.state.query.length > 0 || (this.state.department.length > 0 || this.state.course.length > 0
+            || this.state.professor.length > 0 || this.state.quarter.length > 0)) {
             this.setState({showFilters: true});
         } else {
             this.setState({showFilters: false});
         }
     }
 
-
     onSubmit(e) {
-     this.props.history.push({
-     search:
-        "?query=" + this.state.query
-        + "&department=" + this.state.department
-        + "&course=" + this.state.course
-        + "&professor=" + this.state.professor
-        + "&quarter=" + this.state.quarter,
-     state: {query: this.state.query, department: this.state.department, course: this.state.course, professor: this.state.professor, quarter: this.state.quarter}
-    })
- }
+        console.log("Submitting...");
+        this.props.history.push({
+            search:
+                "?query=" + this.state.query
+                + "&department=" + this.state.department
+                + "&course=" + this.state.course
+                + "&professor=" + this.state.professor
+                + "&quarter=" + this.state.quarter,
+            state: {
+                query: this.state.query,
+                department: this.state.department,
+                course: this.state.course,
+                professor: this.state.professor,
+                quarter: this.state.quarter
+            }
+        })
+    }
 
-
-    checkDepExists(dep){
-        if(this.state.course_codes.hasOwnProperty(dep.toUpperCase())){
+    checkDepExists(dep) {
+        if (this.state.course_codes.hasOwnProperty(dep.toUpperCase())) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
 
-    componentDidMount(){
+    componentDidMount() {
         APIClient.searchProfessors("").then(response => {
-            this.setState({professors: response})
-            }  
-       );
+                this.setState({professors: response})
+            }
+        );
         APIClient.searchQuarters("").then(response => {
-            this.setState({quarters: response})
-            }  
-       );
+                this.setState({quarters: response})
+            }
+        );
         APIClient.searchDepartments("").then(response => {
-            this.setState({departments: response})
-            }  
-       );
+                this.setState({departments: response})
+            }
+        );
         APIClient.getAllCourseCodes().then(response => {
             var course_to_codes = {};
             for (var i = 0; i < response.length; i++) {
-                 var split = response[i].split(' ');
-                 if(!course_to_codes.hasOwnProperty(split[0])){
-                 course_to_codes[split[0].trim()] = [split[1].trim()];
-             }else{
-               course_to_codes[split[0].trim()].push(split[1].trim());
-             }
+                var split = response[i].split(' ');
+                if (!course_to_codes.hasOwnProperty(split[0])) {
+                    course_to_codes[split[0].trim()] = [split[1].trim()];
+                } else {
+                    course_to_codes[split[0].trim()].push(split[1].trim());
+                }
             }
-            this.setState({course_codes: course_to_codes}) 
+            this.setState({course_codes: course_to_codes})
             }
-        )
+        );
+
+        this.setState({
+            query: this.props.query,
+            department: this.props.department,
+            course: this.props.course,
+            quarter: this.props.quarter,
+            professor: this.props.professor
+        });
     }
 
-    handleEnter = (e) => {
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            this.onSubmit(e);         }
-    }
-
-
-    render() {  
-        var course_numbers = [];                    
+    render() {
+        var course_numbers = [];
         let filters;
-        if(this.state.showFilters) {
-            filters = 
+        if (this.state.showFilters) {
+            filters =
                 <div className='resfilters'>
                     <div className='resfilterinputs'>
-                        <input 
-                            autoComplete = 'off'
-                            type = 'text'
-                            className ='resfilterbar' 
-                            name = 'department'
-                            list = 'department'
-                            value = {this.state.department} 
-                            onChange={e => this.change(e)} 
+                        <input
+                            autoComplete='off'
+                            type='text'
+                            className='resfilterbar'
+                            name='department'
+                            list='department'
+                            value={this.state.department}
+                            onChange={e => this.change(e)}
                             onKeyDown={e => this.handleEnter(e)}/>
                         <datalist id="department">
-                            {this.state.departments.map((item, index)  => (
-                             <option key = {index} value={item}></option>
+                            {this.state.departments.map((item, index) => (
+                                <option key={index} value={item}></option>
                             ))}
                         </datalist>
-                        <input 
-                            autoComplete = 'off'
-                            type = 'text'
-                            className ={!this.checkDepExists(this.state.department)  ? 'course_number' : 'course_number_active'}
-                            name = 'course'
-                            list = 'course_number'
-                            disabled = {this.state.department.length === 0 ? true : false}
-                            value = {this.state.course} 
-                            onChange={e => this.change(e)} 
-                            onKeyDown={e => this.handleEnter(e)} />
+                        <input
+                            autoComplete='off'
+                            type='text'
+                            className={!this.checkDepExists(this.state.department) ? 'course_number' : 'course_number_active'}
+                            name='course'
+                            list='course_number'
+                            disabled={this.state.department.length === 0 ? true : false}
+                            value={this.state.course}
+                            onChange={e => this.change(e)}
+                            onKeyDown={e => this.handleEnter(e)}/>
                         <datalist id="course_number">
-                        {this.checkDepExists(this.state.department) ? course_numbers = this.state.course_codes[this.state.department.toUpperCase()] : course_numbers = [] }
-                         {course_numbers.map((item, index)  => (
-                             <option key = {index} value={item}></option>
+                            {this.checkDepExists(this.state.department) ? course_numbers = this.state.course_codes[this.state.department.toUpperCase()] : course_numbers = []}
+                            {course_numbers.map((item, index) => (
+                                <option key={index} value={item}></option>
                             ))}
                         </datalist>
-                        <input 
-                            autoComplete = 'off'
-                            type = 'text'
-                            className ='resfilterbar' 
-                            name = 'professor'
-                            list = 'professor'
-                            value = {this.state.professor} 
-                            onChange={e => this.change(e)} 
-                            onKeyDown={e => this.handleEnter(e)} />
+                        <input
+                            autoComplete='off'
+                            type='text'
+                            className='resfilterbar'
+                            name='professor'
+                            list='professor'
+                            value={this.state.professor}
+                            onChange={e => this.change(e)}
+                            onKeyDown={e => this.handleEnter(e)}/>
                         <datalist id="professor">
-                            {this.state.professors.map((item, index)  => (
-                             <option key = {index} value={item}></option>
+                            {this.state.professors.map((item, index) => (
+                                <option key={index} value={item}></option>
                             ))}
                         </datalist>
-                        <input 
-                            autoComplete = 'off'
-                            type = 'text'
-                            className ='resfilterbar' 
-                            name = 'quarter'
-                            list = 'quarter'
-                            value = {this.state.quarter} 
-                            onChange={e => this.change(e)} 
-                            onKeyDown={e => this.handleEnter(e)} />
-                         <datalist id="quarter">
-                            {this.state.quarters.map((item, index)  => (
-                             <option key = {index} value={item}></option>
+                        <input
+                            autoComplete='off'
+                            type='text'
+                            className='resfilterbar'
+                            name='quarter'
+                            list='quarter'
+                            value={this.state.quarter}
+                            onChange={e => this.change(e)}
+                            onKeyDown={e => this.handleEnter(e)}/>
+                        <datalist id="quarter">
+                            {this.state.quarters.map((item, index) => (
+                                <option key={index} value={item}></option>
                             ))}
                         </datalist>
                     </div>
@@ -166,7 +177,7 @@ class ResSearch extends Component {
                     <p>Course Number</p>
                     <p>Professor</p>
                     <p>Quarter</p>
-                    
+
                 </div>
         } else {
             filters = null;
@@ -175,17 +186,16 @@ class ResSearch extends Component {
         return (
             <div className={'ressearchform'}>
                 <form className='col-xs-1 text-center'>
-                    <input 
-                    type = 'text'
-                    className ='ressearchbar' 
-                    name = 'query'
-                    placeholder = {this.props.query}
-                    value = {this.state.query} 
-                    onChange={e => this.change(e)} />
+                    <input
+                        type='text'
+                        className='ressearchbar'
+                        name='query'
+                        value={this.state.query}
+                        onChange={e => this.change(e)}/>
                     <p id="noResults"></p>
                     {filters}
                     <button className='rescenter' onClick={e => this.onSubmit(e)}>Search</button>
-                </form> 
+                </form>
             </div>
         )
     }
