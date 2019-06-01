@@ -64,6 +64,8 @@ class ResSearch extends Component {
     }
 
     checkDepExists(dep) {
+        if (!dep)
+            return false;
         if (this.state.course_codes.hasOwnProperty(dep.toUpperCase())) {
             return true;
         } else {
@@ -99,11 +101,11 @@ class ResSearch extends Component {
         );
 
         this.setState({
-            query: this.props.query,
-            department: this.props.department,
-            course: this.props.course,
-            quarter: this.props.quarter,
-            professor: this.props.professor
+            query: this.props.query || "",
+            department: this.props.department || "",
+            course: this.props.course || "",
+            quarter: this.props.quarter || "",
+            professor: this.props.professor || ""
         });
     }
 

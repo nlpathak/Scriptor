@@ -21,9 +21,9 @@ class PodcastTranscriptionBlob(Document):
     # Filters that the user can search against
     department = Text()
     course_num = Keyword()
-    quarter = Text()
+    quarter = Keyword()
     professor = Text()
-    section_id = Text()
+    section_id = Keyword()
 
     date = Date()
 

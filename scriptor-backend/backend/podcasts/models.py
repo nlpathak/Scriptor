@@ -27,9 +27,9 @@ class Podcast(Document):
     # Some course metadata
     department = Text()
     course_num = Keyword()
-    quarter = Text()
+    quarter = Keyword()
     professor = Text()
-    section_id = Text()
+    section_id = Keyword()
 
     # Some of the same fields as above, but indexed for searching through them
     # These will not be set directly, and will only be used when searching through the filters themselves
