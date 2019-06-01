@@ -12,6 +12,7 @@ toast.configure({
     closeButton: false,
     draggablePercent: 100,
     progressClassName: 'ourbar',
+    position: 'top-left',
     style: {top: '90px'}
   });
 

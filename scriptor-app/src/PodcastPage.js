@@ -121,7 +121,7 @@ class PodcastPage extends Component {
                 <div className='podpage'>
                     <h1 className='title'><a className='link' href={mainurl}>{this.formatTitle()}</a></h1>
                     <div className='toplayer'>
-                        <video className='vid' controls autoplay>
+                        <video className='vid' controls autoPlay>
                             <source src={this.formatVideoLink(mainurl)}/>
                         </video>
                         <div className='text'>
