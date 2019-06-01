@@ -46,10 +46,13 @@ class HistoryItem(InnerDoc):
             return PodcastTranscriptionBlob.get(id=self.podcast_page_transcription_blob_id).podcast.title
 
     def convert_to_dict(self):
+        # This is a podcast view history item
         if self.podcast_page_transcription_blob_id:
-            return {"type": self.type, "url": self.url, "title": self.title, "podcast": PodcastTranscriptionBlob.get(
+            return {"type": self.type, "blob_id": self.podcast_page_transcription_blob_id,
+                    "podcast": PodcastTranscriptionBlob.get(
                 id=self.podcast_page_transcription_blob_id).podcast.convert_to_dict()}
-        return {"type": self.type, "url": self.url, "title": self.title}
+        # This is a search query history item
+        return {"type": self.type, "search_query": self.search_query, "search_filters": self.search_filters.to_dict()}
 
 
 class User(Document):
