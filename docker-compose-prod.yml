@@ -30,13 +30,5 @@ services:
     - backend
     restart: always
 
-  frontend:
-    build:
-      context: scriptor-app/
-      dockerfile: Dockerfile
-    depends_on:
-    - backend
-    restart: always
-
 volumes:
   esdata:

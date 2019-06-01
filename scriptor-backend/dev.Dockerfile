@@ -8,4 +8,6 @@ EXPOSE 5000
 
 RUN python3 -c "import nltk; nltk.download('punkt')"
 
-ENTRYPOINT gunicorn backend.app:app -b 0.0.0.0:5000 -k gthread
+VOLUME /app
+
+ENTRYPOINT gunicorn backend.app:app -b 0.0.0.0:5000 -k gthread --reload

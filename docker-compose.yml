@@ -15,9 +15,10 @@ services:
     - 9300
     restart: always
 
-  backend:
+  backend_dev:
     build:
       context: scriptor-backend/
+      dockerfile: dev.Dockerfile
     ports:
     - 5000:5000
     expose:
@@ -30,16 +31,32 @@ services:
     - ./scriptor-backend/:/app/
     restart: always
 
-  app:
+  frontend_dev:
     build:
       context: scriptor-app/
-      dockerfile: nginx.Dockerfile
+      dockerfile: dev.Dockerfile
     ports:
-    - 80:80
+    - 3000:3000
     expose:
-    - 80
+    - 3000
     depends_on:
-    - backend
+    - backend_dev
+    volumes:
+    - ./scriptor-app/:/app/
+    restart: always
+
+  backend:
+    build:
+      context: scriptor-backend/
+      dockerfile: Dockerfile
+    ports:
+    - 5000:5000
+    expose:
+    - 5000
+    depends_on:
+    - elasticsearch
+    environment:
+      ES_HOSTS: elasticsearch
     restart: always
 
   frontend:
@@ -52,8 +69,6 @@ services:
     - 3000
     depends_on:
     - backend
-    volumes:
-    - ./scriptor-app/:/app/
     restart: always
 
 volumes:
