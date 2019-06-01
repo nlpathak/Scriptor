@@ -80,13 +80,13 @@ class History extends Component {
             let filterVal = filters[filter];
 
             if (filter === "dept") {
-                filtered_str += "dept: " + filterVal;
+                filtered_str += "Department: " + filterVal;
             } else if (filter === "course_num") {
-                filtered_str += "course #: " + filterVal;
+                filtered_str += "Course number: " + filterVal;
             } else if (filter === "professor") {
-                filtered_str += "professor: " + filterVal;
+                filtered_str += "Professor: " + filterVal;
             } else if (filter === "quarter") {
-                filtered_str += "quarter: " + filterVal;
+                filtered_str += "Quarter: " + filterVal;
             }
 
             if (currentfilterIdx !== numFilters - 1) {
@@ -100,9 +100,9 @@ class History extends Component {
                 <h3>
                     {item.search_query}
                     <br/>
-                    <small className="text-muted text-truncate" style={{fontSize: "50%"}}>
+                    <p className="mt-2 text-muted" style={{fontSize: "50%"}}>
                         <b><i>{filtered_str}</i></b>
-                    </small>
+                    </p>
                 </h3>
             </div>
         );
@@ -165,8 +165,8 @@ class History extends Component {
                         <button className='center' onClick={e => this.onClear(e)}>Clear</button>
                     </div>
                     <div className="row mt-3">
-                        <div className="col-4">
-                            <h2> You've Searched For...</h2>
+                        <div className="col-3">
+                            <h2>You've Searched For...</h2>
                             <div className="mt-4">
                                 <ul style={{"list-style": "none"}}>
                                     {this.state.queries.map((item, index) => (
@@ -199,7 +199,6 @@ class History extends Component {
                                                 <h3>{History.formatName(item.podcast)}</h3>
                                             </li>
                                         </Link>
-
                                     ))}
                                 </ul>
                             </div>
