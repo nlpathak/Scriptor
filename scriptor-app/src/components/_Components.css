@@ -129,6 +129,29 @@ button:focus {
     color: rgba(72,136,163,.93);
     outline: none;
     margin-bottom: 10px;
+
+}
+
+
+.searchform .course_number {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    text-align: center;
+    color: rgba(72,136,163,.93);
+    outline: none;
+    margin-bottom: 10px;
+    background-color: rgb(220,220,220)
+
+
+}
+
+.searchform .course_number_active {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    text-align: center;
+    color: rgba(72,136,163,.93);
+    outline: none;
+    margin-bottom: 10px;
 }
 
 .searchform .filters {
@@ -141,8 +164,8 @@ button:focus {
     float: right;
     margin-right: 10%;
     color: rgba(72,136,163,.93);
-
 }
+
 
 
 
@@ -391,6 +414,29 @@ button:focus {
 .ressearchform .resfilterinputs {
     width: 30%;
    float: right;
+}
+
+.ressearchform .course_number {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    text-align: center;
+    color: rgba(72,136,163,.93);
+    outline: none;
+    margin-bottom: 10px;
+    background-color: rgb(220,220,220)
+}
+
+.ressearchform .course_number_active {
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.65);
+    text-align: center;
+    color: rgba(72,136,163,.93);
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.ressearchbar::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: rgba(72,136,163,.93);
 }
 
 

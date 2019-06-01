@@ -21,7 +21,7 @@ class Results extends Component {
 
 componentDidMount(){
        var values = queryString.parse(this.props.location.search);
-       if(values.query === 0) {
+       if(values.query.length === 0) {
         document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
         document.getElementById('noResults').innerHTML = "Please enter a query.";
         return;
@@ -71,9 +71,10 @@ componentDidMount(){
 
 
 	render(){
+        var values = queryString.parse(this.props.location.search);
 		return (
 			<div className = "results">
-            <ResSearch/>
+            <ResSearch query= {values.query} department= {values.department} course_num = {values.course} quarter ={values.quarter} />
 				{this.state.results.map((result, index) => (
 					<div key={index}>
 						<li className= "description"> 

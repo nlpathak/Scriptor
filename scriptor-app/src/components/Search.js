@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './_Components.css';
-import { toast } from 'react-toastify';
 import { withRouter } from 'react-router-dom';
 import APIClient from "../api/APIClient.js";
 
@@ -18,6 +17,9 @@ class Search extends Component {
         courses: [],
         quarters: [],
         professors: [],
+        course_codes: {},
+        depExists: false,
+        course_numbers: []
     };
 
     change = e => {
@@ -36,25 +38,38 @@ class Search extends Component {
 
 
     onSubmit(e) {
-     this.props.history.push({
-     pathname: '/results',
-     search:
-        "?query=" + this.state.query
-        + "&department=" + this.state.department
-        + "&course=" + this.state.course
-        + "&professor=" + this.state.professor
-        + "&quarter=" + this.state.quarter,
+        if(this.state.query.length === 0){
+            document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
+            document.getElementById('noResults').innerHTML = "Please enter a query.";
+            return;
+       }
+        this.props.history.push({
+        pathname: '/results',
+        search:
+            "?query=" + this.state.query
+            + "&department=" + this.state.department
+            + "&course=" + this.state.course
+            + "&professor=" + this.state.professor
+            + "&quarter=" + this.state.quarter,
                     
-     state: {query: this.state.query, department: this.state.department, course: this.state.course, professor: this.state.professor, quarter: this.state.quarter}
-    })
- }
+        state: {query: this.state.query, department: this.state.department, course: this.state.course, professor: this.state.professor, quarter: this.state.quarter}
+        })
+    }
                    
     
     handleEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
-            toast("Press the Search Button", {className: 'popup'});
+            this.onSubmit(e);
          }
+    }
+
+    checkDepExists(dep){
+        if(this.state.course_codes.hasOwnProperty(dep.toUpperCase())){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     componentDidMount(){
@@ -64,15 +79,30 @@ class Search extends Component {
        );
         APIClient.searchQuarters("").then(response => {
             this.setState({quarters: response})
-        }  
+            }  
        );
         APIClient.searchDepartments("").then(response => {
             this.setState({departments: response})
-        }  
+            }  
        );
+        APIClient.getAllCourseCodes().then(response => {
+            var course_to_codes = {};
+            for (var i = 0; i < response.length; i++) {
+                 var split = response[i].split(' ');
+                 if(!course_to_codes.hasOwnProperty(split[0])){
+                 course_to_codes[split[0].trim()] = [split[1].trim()];
+             }else{
+               course_to_codes[split[0].trim()].push(split[1].trim());
+             }
+            }
+            this.setState({course_codes: course_to_codes}) 
+            }
+        )
     }
 
-    render() {                   
+    render() {      
+
+        var course_numbers = [];   
         let filters;
         if(this.state.showFilters) {
             filters = 
@@ -93,24 +123,23 @@ class Search extends Component {
                             ))}
                         </datalist>
                         <input 
+                            autoComplete = 'off'
                             type = 'text'
-                            className ='filterbar' 
+                            className ={!this.checkDepExists(this.state.department)  ? 'course_number' : 'course_number_active'}
                             name = 'course'
                             list = 'course_number'
                             value = {this.state.course} 
+                            disabled = {!this.checkDepExists(this.state.department) ? true : false}
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
                         <datalist id="course_number">
-                             <option value="183"></option>
-                             <option value="190"></option>
-                             <option value="20"></option>
-                             <option value="101"></option>
-                             <option value="9"></option>
-                             <option value="120"></option>
-                             <option value="4"></option>
-                             <option value="18"></option>
+                        {this.checkDepExists(this.state.department) ? course_numbers = this.state.course_codes[this.state.department.toUpperCase()] : course_numbers = [] }
+                         {course_numbers.map((item, index)  => (
+                             <option key = {index} value={item}></option>
+                            ))}
                         </datalist>
                         <input
+                            autoComplete = 'off'                    
                             type = 'text'
                             className ='filterbar' 
                             name = 'professor'
@@ -125,6 +154,7 @@ class Search extends Component {
                             ))}
                         </datalist>
                         <input 
+                            autoComplete = 'off'
                             type = 'text'
                             className ='filterbar' 
                             name = 'quarter'

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './_Components.css';
-import { toast } from 'react-toastify';
 import { withRouter } from 'react-router-dom';
 import APIClient from "../api/APIClient.js";
 
@@ -21,6 +20,10 @@ class ResSearch extends Component {
         courses: [],
         quarters: [],
         professors: [],
+        course_codes: {},
+        depExists: false,
+        course_numbers: [],
+
     };
 
     change = e => {
@@ -49,7 +52,15 @@ class ResSearch extends Component {
     })
  }
 
-    
+
+    checkDepExists(dep){
+        if(this.state.course_codes.hasOwnProperty(dep.toUpperCase())){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
     componentDidMount(){
         APIClient.searchProfessors("").then(response => {
             this.setState({professors: response})
@@ -57,29 +68,43 @@ class ResSearch extends Component {
        );
         APIClient.searchQuarters("").then(response => {
             this.setState({quarters: response})
-        }  
+            }  
        );
         APIClient.searchDepartments("").then(response => {
             this.setState({departments: response})
-        }  
+            }  
        );
+        APIClient.getAllCourseCodes().then(response => {
+            var course_to_codes = {};
+            for (var i = 0; i < response.length; i++) {
+                 var split = response[i].split(' ');
+                 if(!course_to_codes.hasOwnProperty(split[0])){
+                 course_to_codes[split[0].trim()] = [split[1].trim()];
+             }else{
+               course_to_codes[split[0].trim()].push(split[1].trim());
+             }
+            }
+            this.setState({course_codes: course_to_codes}) 
+            }
+        )
     }
 
     handleEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
-            toast("Press the Search Button", {className: 'popup'});
-         }
+            this.onSubmit(e);         }
     }
 
 
-    render() {                   
+    render() {  
+        var course_numbers = [];                    
         let filters;
         if(this.state.showFilters) {
             filters = 
                 <div className='resfilters'>
                     <div className='resfilterinputs'>
                         <input 
+                            autoComplete = 'off'
                             type = 'text'
                             className ='resfilterbar' 
                             name = 'department'
@@ -93,24 +118,23 @@ class ResSearch extends Component {
                             ))}
                         </datalist>
                         <input 
+                            autoComplete = 'off'
                             type = 'text'
-                            className ='resfilterbar' 
+                            className ={!this.checkDepExists(this.state.department)  ? 'course_number' : 'course_number_active'}
                             name = 'course'
                             list = 'course_number'
+                            disabled = {this.state.department.length === 0 ? true : false}
                             value = {this.state.course} 
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
                         <datalist id="course_number">
-                             <option value="183"></option>
-                             <option value="190"></option>
-                             <option value="20"></option>
-                             <option value="101"></option>
-                             <option value="9"></option>
-                             <option value="120"></option>
-                             <option value="4"></option>
-                             <option value="18"></option>
+                        {this.checkDepExists(this.state.department) ? course_numbers = this.state.course_codes[this.state.department.toUpperCase()] : course_numbers = [] }
+                         {course_numbers.map((item, index)  => (
+                             <option key = {index} value={item}></option>
+                            ))}
                         </datalist>
                         <input 
+                            autoComplete = 'off'
                             type = 'text'
                             className ='resfilterbar' 
                             name = 'professor'
@@ -124,6 +148,7 @@ class ResSearch extends Component {
                             ))}
                         </datalist>
                         <input 
+                            autoComplete = 'off'
                             type = 'text'
                             className ='resfilterbar' 
                             name = 'quarter'
@@ -154,14 +179,12 @@ class ResSearch extends Component {
                     type = 'text'
                     className ='ressearchbar' 
                     name = 'query'
-                    placeholder = "Keep Learning?"
+                    placeholder = {this.props.query}
                     value = {this.state.query} 
                     onChange={e => this.change(e)} />
                     <p id="noResults"></p>
                     {filters}
                     <button className='rescenter' onClick={e => this.onSubmit(e)}>Search</button>
-
-
                 </form> 
             </div>
         )
