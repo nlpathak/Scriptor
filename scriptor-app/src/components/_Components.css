@@ -54,6 +54,10 @@ button:focus {
     color: rgba(72,136,163,.93);
 }
 
+.navbar .dropper {
+    cursor: default;
+}
+
 .navbar .outer .close1 {
     margin-top: -585px;
     margin-right: 20px;
@@ -244,13 +248,12 @@ button:focus {
 
 }
 
-.favorites .favList .favResult a {
+.favorites .favList .favResult .each {
     list-style-type: none;
-    text-decoration: underline;
     color:rgba(72,136,163,.93);
 }
 
-.favorites .favList .favResult a div img{
+.favorites .favList .favResult .each div img{
     position: relative;
     left: 120px;
 }

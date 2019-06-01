@@ -29,7 +29,6 @@ class History extends Component {
   componentDidMount() {
     APIClient.getHistory().then(response => {
       response.forEach(element => {
-        console.log(element);
         if(element.type === 'SEARCH_QUERY') {
           if(this.state.queries.indexOf(element.title) === -1) {
             this.setState(prevState => ({queries: [...prevState.queries, element.title]}));

@@ -65,17 +65,6 @@ class FavResult extends Component {
         return fulltitle;
   }
 
-    formatVideoLink(item) {
-        return (item.videolink + '#t=' + item.starttime);
-    }
-
-    returnURL(item){
-        if(item.ucsd_podcast_video_url.length < 1){
-            item.ucsd_podcast_video_url = item.audio_url
-        }
-        return item.ucsd_podcast_video_url
-    }
-
     componentDidMount() {
         APIClient.getFavoritePodcasts().then(response => {
             this.setState({podcasts: response});
@@ -93,13 +82,13 @@ class FavResult extends Component {
                         <ul>
                         {this.state.podcasts.map((item, index)  => (
                             <li className = 'favResult' key={index}>
-                                <a href={this.returnURL(item)}>
+                                <div className='each'>
                                     <div>{this.formatTitle(item)}
                                         <img onClick={(e) => {this.handleClick(e, index, item)}}
                                         src={this.state.isFav[index] ? starOn : starOff}
                                         alt="" width="58" height="58"/>
                                     </div>
-                                </a>
+                                </div>
                             </li>
                         ))}
                     </ul>

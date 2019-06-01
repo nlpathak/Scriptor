@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 class PodcastPage extends Component {
     values = queryString.parse(this.props.location.search);
     state = {
-        isFavorited: null
+        isFavorited: false
     };
     
     formatTitle() {
@@ -86,6 +86,9 @@ class PodcastPage extends Component {
     }
 
     componentDidMount() {
+        if(performance.navigation.type === 2) {
+            window.location.reload();
+        }
         APIClient.checkFavoritePodcast(this.values.podcast_id).then(response => {
             if(response) {
                 this.setState({isFavorited: true});
@@ -97,9 +100,7 @@ class PodcastPage extends Component {
                 this.setState({isFavorited: false});
             }   
         });
-        APIClient.getPodcastSnippet(this.values.blob_id).then(response => {
-           console.log(response);
-        });
+        APIClient.getPodcastSnippet(this.values.blob_id);
     }
 
     render(){
