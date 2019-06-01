@@ -5,10 +5,17 @@ from backend.podcasts.models import Podcast
 
 def search_departments(department=None):
     if department:
+        # Return autcomplete results
         department = department.strip()
-        results = Podcast.search().query("match", department=department).extra(
-            collapse={"field": "exact_value_department"}).source(["department"]).execute()
-        return [result.department for result in results]
+        results = set()
+        suggestions = Podcast.search().suggest("department_suggestions", department, completion={
+            "field": "completion_field_department"}).execute().suggest.department_suggestions[0].options
+
+        for suggestion in suggestions:
+            results.add(suggestion._source.department)
+
+        results = list(results)
+        return results
     else:
         search = Podcast.search()
         agg = A('terms', field="exact_value_department")
@@ -34,11 +41,17 @@ def get_all_course_codes():
 
 def search_professors(professor=None):
     if professor:
+        # Return autcomplete results
         professor = professor.strip()
-        results = Podcast.search().query("match", professor=professor).extra(
-            collapse={"field": "exact_value_professor"}).source(
-            ["professor"]).execute()
-        return [result.professor for result in results]
+        results = set()
+        suggestions = Podcast.search().suggest("professor_suggestions", professor, completion={
+            "field": "completion_field_professor"}).execute().suggest.professor_suggestions[0].options
+
+        for suggestion in suggestions:
+            results.add(suggestion._source.professor)
+
+        results = list(results)
+        return results
     else:
         search = Podcast.search()
         agg = A('terms', field="exact_value_professor")
@@ -49,11 +62,17 @@ def search_professors(professor=None):
 
 def search_quarters(quarter=None):
     if quarter:
+        # Return autcomplete results
         quarter = quarter.strip()
-        results = Podcast.search().query("match", quarter=quarter).extra(
-            collapse={"field": "exact_value_quarter"}).source(
-            ["quarter"]).execute()
-        return [result.quarter for result in results]
+        results = set()
+        suggestions = Podcast.search().suggest("quarter_suggestions", quarter, completion={
+            "field": "completion_field_quarter"}).execute().suggest.quarter_suggestions[0].options
+
+        for suggestion in suggestions:
+            results.add(suggestion._source.quarter)
+
+        results = list(results)
+        return results
     else:
         search = Podcast.search()
         agg = A('terms', field="exact_value_quarter")

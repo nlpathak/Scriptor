@@ -18,12 +18,12 @@ class History extends Component {
   }
 
   formatName(back){
-    const quarter = back.podcast.quarter.split(' ');
+    const quarter = back.quarter.split(' ');
     const qString = quarter[0].substr(0,1) + quarter[1].substr(2,3);
-    var prof = back.podcast.professor;
+    var prof = back.professor;
     prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
         prof.substring(0, prof.indexOf(','))
-    return back.podcast.department + ' ' + back.podcast.course_num + " - " + back.podcast.title + " [" + back.podcast.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.podcast.lecture_num
+    return back.department + ' ' + back.course_num + " - " + back.title + " [" + back.section_id + " - " + qString + "] | " + prof + " | Lecture " + back.lecture_num
   }
 
   componentDidMount() {
@@ -34,12 +34,10 @@ class History extends Component {
             this.setState(prevState => ({queries: [...prevState.queries, element.title]}));
           }
         } else {
-          APIClient.getPodcastSnippet(element.url.split('/')[4]).then(backer => {
-            const name = this.formatName(backer);
+            const name = this.formatName(element.podcast);
             if(this.state.podcasts.indexOf(name) === -1) {
               this.setState(prevState => ({podcasts: [...prevState.podcasts, name]}));
             }
-          }); 
         }
       });
     });

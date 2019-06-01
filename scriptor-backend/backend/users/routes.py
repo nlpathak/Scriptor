@@ -246,7 +246,7 @@ def user_get_history():
     """
     page = int(request.args.get("page", 1))
     count = int(request.args.get("count", 10))
-    history_items = g.current_user.history[(page - 1) * count: ((page - 1) * count) + count]
+    history_items = list(reversed(g.current_user.history))[(page - 1) * count: ((page - 1) * count) + count]
     history_items = [item.convert_to_dict() for item in history_items]
     return jsonify(success=True, history=history_items)
 

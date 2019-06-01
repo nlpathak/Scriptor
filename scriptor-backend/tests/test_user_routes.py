@@ -267,8 +267,8 @@ def test_user_history(test_user, test_podcasts, client):
 
     assert 200 == response.status_code
     assert res["success"]
-    assert HistoryItem.TYPE_SEARCH_QUERY == res['history'][0]['type']
-    assert HistoryItem.TYPE_PODCAST_PAGE == res['history'][1]['type']
+    assert HistoryItem.TYPE_SEARCH_QUERY == res['history'][1]['type']
+    assert HistoryItem.TYPE_PODCAST_PAGE == res['history'][0]['type']
     assert 2 == len(res['history'])
 
     # Clear the history
