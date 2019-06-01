@@ -73,7 +73,7 @@ docker-compose down -v
 
 Then, restart the application with:
 ```shell
-docker-compose up
+docker-compose up -d frontend
 
 # And since all data has been cleared, re-run the data import script (after waiting for about 20-30 secs)
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
