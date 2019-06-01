@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './_Components.css';
 import { withRouter } from 'react-router-dom';
 import APIClient from "../api/APIClient.js";
+import { toast } from 'react-toastify';
 
 
 class Search extends Component {
@@ -60,7 +61,7 @@ class Search extends Component {
     handleEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
-            this.onSubmit(e);
+            toast("Press the Search Button", {className: 'popup'});
          }
     }
 
