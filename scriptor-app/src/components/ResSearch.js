@@ -27,6 +27,9 @@ class ResSearch extends Component {
 
     change = e => {
         this.setState({[e.target.name]: e.target.value}, this.updateFilters);
+        if(this.state.department.length <= 1){
+            this.setState({course: ""});
+        }
     };
     handleEnter = (e) => {
         if (e.key === 'Enter') {
@@ -158,7 +161,7 @@ class ResSearch extends Component {
                             className={!this.checkDepExists(this.state.department) ? 'course_number' : 'course_number_active'}
                             name='course'
                             list='course_number'
-                            disabled={this.state.department.length === 0 ? true : false}
+                            disabled={!this.checkDepExists(this.state.department) ? true : false}
                             value={this.state.course}
                             onChange={e => this.change(e)}
                             onKeyDown={e => this.handleEnter(e)}/>

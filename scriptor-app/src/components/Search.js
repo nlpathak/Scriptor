@@ -121,7 +121,7 @@ class Search extends Component {
     }
 
     render() {      
-
+        var course = this.state.course;
         var course_numbers = [];   
         let filters;
         if(this.state.showFilters) {
@@ -148,7 +148,7 @@ class Search extends Component {
                             className ={!this.checkDepExists(this.state.department)  ? 'course_number' : 'course_number_active'}
                             name = 'course'
                             list = 'course_number'
-                            value = {this.state.course} 
+                            value={this.state.department === "" ? course = "": course}
                             disabled = {!this.checkDepExists(this.state.department) ? true : false}
                             onChange={e => this.change(e)} 
                             onKeyDown={e => this.handleEnter(e)} />
