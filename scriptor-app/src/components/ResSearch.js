@@ -94,6 +94,7 @@ class ResSearch extends Component {
                     course_to_codes[split[0].trim()] = [split[1].trim()];
                 } else {
                     course_to_codes[split[0].trim()].push(split[1].trim());
+                    course_to_codes[split[0].trim()].sort(function(a, b){return a-b});
                 }
             }
             this.setState({course_codes: course_to_codes})
