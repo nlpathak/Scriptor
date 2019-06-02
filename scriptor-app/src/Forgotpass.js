@@ -39,7 +39,9 @@ class Forgotpass extends Component {
             APIClient.login(this.state.email, this.state.newPassword).then(() => {
                 // Redirect the user to the home page.
                 this.props.history.push("/");
-            })
+            }).then(() => {
+                window.location.reload();
+            });
 
         }).catch((err) => {
             toast(err, {className: 'popup error'});
