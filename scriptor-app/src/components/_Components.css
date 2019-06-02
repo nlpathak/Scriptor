@@ -266,9 +266,12 @@ button:focus {
 }
 
 .favorites .favList  {
-    /*float: left !important ;*/
     font-size: 30px !important;
     cursor: default;
+}
+
+.favorites img {
+    cursor: pointer;
 }
 
 .favorites .favList .favResult {

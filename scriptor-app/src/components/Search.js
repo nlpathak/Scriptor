@@ -39,6 +39,8 @@ class Search extends Component {
 
 
     onSubmit(e) {
+        e.preventDefault();
+        console.log(this.state.query.length);
         if(this.state.query.length === 0){
             document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
             document.getElementById('noResults').innerHTML = "Please enter a query.";
@@ -190,6 +192,7 @@ class Search extends Component {
                     placeholder = 'What do you want to learn?'
                     value = {this.state.query} 
                     onChange={e => this.change(e)} />
+                    <p id='noResults'></p>
                     {filters}
                     <button className='center' onClick={e => this.onSubmit(e)}>Search</button>
                 </form> 
