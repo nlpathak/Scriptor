@@ -82,9 +82,9 @@ class PodcastPage extends Component {
 
     }
 
-    relocate(e) {
+    relocate(e, mainurl) {
         e.preventDefault();
-        window.location.assign(this.state.podcast.ucsd_podcast_video_url);
+        window.location.assign(mainurl + '#t=' + this.state.podcast_blob.starting_timestamp_second);
     }
 
     componentDidMount() {
@@ -119,7 +119,7 @@ class PodcastPage extends Component {
             let mainurl = (this.values.ucsd_podcast_video_url === '') ? this.state.podcast.ucsd_podcast_audio_url : this.state.podcast.ucsd_podcast_video_url;
             return (
                 <div className='podpage'>
-                    <h1 className='title'><a className='link' href={mainurl}>{this.formatTitle()}</a></h1>
+                    <h1 className='title'><a className='link' href={mainurl + '#t=' + this.state.podcast_blob.starting_timestamp_second}>{this.formatTitle()}</a></h1>
                     <div className='toplayer'>
                         <video className='vid' controls autoPlay>
                             <source src={this.formatVideoLink(mainurl)}/>
@@ -143,7 +143,7 @@ class PodcastPage extends Component {
                             </button>
                         </div>
                         <div className="btn-group pagewide">
-                            <button type="button" className="btn" onClick={e => this.relocate(e)}>GO TO PODCAST</button>
+                            <button type="button" className="btn" onClick={e => this.relocate(e, mainurl)}>GO TO PODCAST</button>
                         </div>
                     </div>
                 </div>
