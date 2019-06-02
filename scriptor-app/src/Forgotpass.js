@@ -18,21 +18,22 @@ class Forgotpass extends Component {
     onEmailFormSubmit(e) {
         e.preventDefault();
         APIClient.sendPasswordTokenEmail(this.state.email).then((success) => {
-            this.setState({sentVerificationEmail: true, email: this.state.email})
+            this.setState({sentVerificationEmail: true, email: this.state.email});
+            toast("Check your email for a verification token.", {className: 'popup'});
         }).catch((err) => {
             this.setState({sentVerificationEmail: false, email: ''});
-            toast.error(err, {
-                position: toast.POSITION.TOP_RIGHT
-            });
+            toast(err, {className: 'popup error'});
         })
     }
 
     onResetPasswordFormSubmit(e) {
         e.preventDefault();
+        if(this.state.newPassword.length < 4) {
+            toast('Password must be 4 or more characters.', {className: 'popup error'});
+            return;
+        }
         APIClient.setNewPassword(this.state.email, this.state.newPassword, this.state.passwordToken).then((success) => {
-            toast("Your password has been changed.", {
-                position: toast.POSITION.TOP_RIGHT
-            });
+            toast("Your password has been changed.", {className: 'popup'});
 
             // Login the user & redirect them to the login page.
             APIClient.login(this.state.email, this.state.newPassword).then(() => {
@@ -41,9 +42,7 @@ class Forgotpass extends Component {
             })
 
         }).catch((err) => {
-            toast.error(err, {
-                position: toast.POSITION.TOP_RIGHT
-            });
+            toast(err, {className: 'popup error'});
         });
     }
 

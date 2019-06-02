@@ -45,7 +45,6 @@ class ResSearch extends Component {
     }
 
     onSubmit(e) {
-        console.log("Submitting...");
         this.props.history.push({
             search:
                 "?query=" + this.state.query
@@ -71,6 +70,11 @@ class ResSearch extends Component {
         } else {
             return false;
         }
+    }
+
+    handleClick(e) {
+        e.preventDefault();
+        this.setState({showFilters: true});
     }
 
     componentDidMount() {
@@ -194,7 +198,8 @@ class ResSearch extends Component {
                         className='ressearchbar'
                         name='query'
                         value={this.state.query}
-                        onChange={e => this.change(e)}/>
+                        onChange={e => this.change(e)}
+                        onClick={e => this.handleClick(e)}/>
                     <p id="noResults"></p>
                     {filters}
                     <button className='rescenter' onClick={e => this.onSubmit(e)}>Search</button>
