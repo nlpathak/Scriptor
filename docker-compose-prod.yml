@@ -17,6 +17,7 @@ services:
     environment:
       ES_HOSTS: elasticsearch
     restart: always
+    entrypoint: ./wait-for-it.sh elasticsearch:9200 -t 60 -- gunicorn backend.app:app -b 0.0.0.0:5000 -k gthread
 
   app:
     build:
