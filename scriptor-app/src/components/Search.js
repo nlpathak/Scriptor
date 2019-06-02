@@ -37,10 +37,18 @@ class Search extends Component {
         }
     }
 
+    formatName(prof) {
+        // Add professor
+        var professor = prof;
+        // Swaps first and last name
+        professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
+        professor.substring(0, professor.indexOf(','));
+        return professor;
+    }
+
 
     onSubmit(e) {
         e.preventDefault();
-        console.log(this.state.query.length);
         if(this.state.query.length === 0){
             document.getElementById('noResults').style.color = "rgba(207, 70, 70, 0.93)";
             document.getElementById('noResults').innerHTML = "Please enter a query.";
@@ -78,8 +86,16 @@ class Search extends Component {
     componentDidMount(){
         APIClient.searchProfessors("").then(response => {
             this.setState({professors: response})
-            }  
-       );
+        }  
+       ).then(() => {
+           const itrarr = this.state.professors;
+           this.setState({professors: []});
+            for(var i = 0; i < itrarr.length; i++) {
+                const newname = this.formatName(itrarr[i]);
+                console.log(newname);
+                this.setState(prevState => ({professors: [...prevState.professors, newname]}));
+            }
+       });
         APIClient.searchQuarters("").then(response => {
             this.setState({quarters: response})
             }  

@@ -77,11 +77,28 @@ class ResSearch extends Component {
         this.setState({showFilters: true});
     }
 
+    formatName(prof) {
+        // Add professor
+        var professor = prof;
+        // Swaps first and last name
+        professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
+        professor.substring(0, professor.indexOf(','));
+        return professor;
+    }
+
     componentDidMount() {
         APIClient.searchProfessors("").then(response => {
-                this.setState({professors: response})
+            this.setState({professors: response})
+        }  
+       ).then(() => {
+           const itrarr = this.state.professors;
+           this.setState({professors: []});
+            for(var i = 0; i < itrarr.length; i++) {
+                const newname = this.formatName(itrarr[i]);
+                console.log(newname);
+                this.setState(prevState => ({professors: [...prevState.professors, newname]}));
             }
-        );
+       });
         APIClient.searchQuarters("").then(response => {
                 this.setState({quarters: response})
             }
