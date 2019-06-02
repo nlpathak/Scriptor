@@ -155,6 +155,72 @@ class History extends Component {
         });
     }
 
+    renderSearchHistory() {
+        if (this.state.queries.length <= 0) {
+            return (<div className="row justify-content-center" style={{marginTop: "100px"}}>
+                <div className="col text-center">
+                    <h4>It's empty here.
+                        <br/>
+                        <small className="text-muted" style={{fontSize: "65%"}}>
+                            This is where you'll see your most recent searches.
+                        </small>
+                    </h4>
+                </div>
+            </div>);
+        } else {
+            return (
+                <div className="mt-4">
+                    <ul style={{"list-style": "none"}}>
+                        {this.state.queries.map((item, index) => (
+
+                            <Link to={{
+                                pathname: '/results',
+                                search: History.getSearchQueryURL(item)
+                            }} style={{color: 'rgba(72,136,163,.93)'}}>
+
+                                <li className="mt-4 mb-4" key={index}>
+                                    {History.getSearchTitle(item)}
+                                </li>
+
+                            </Link>
+
+                        ))}
+                    </ul>
+                </div>
+            )
+        }
+    }
+
+    renderPodcastHistory() {
+        if (this.state.podcasts.length <= 0) {
+            return (<div className="row justify-content-center" style={{marginTop: "100px"}}>
+                <div className="col text-center">
+                    <h4>It's empty here.
+                        <br/>
+                        <small className="text-muted" style={{fontSize: "65%"}}>
+                            This is where you'll see your recently-viewed podcasts.
+                        </small>
+                    </h4>
+                </div>
+            </div>);
+        } else {
+            return (<div className="mt-4">
+                <ul style={{"list-style": "none"}}>
+                    {this.state.podcasts.map((item, index) => (
+                        <Link to={{
+                            pathname: '/podcast',
+                            search: History.getPodcastURL(item)
+                        }} style={{color: 'rgba(72,136,163,.93)'}}>
+                            <li className="mt-4 mb-4" key={index}>
+                                <h3>{History.formatName(item.podcast)}</h3>
+                            </li>
+                        </Link>
+                    ))}
+                </ul>
+            </div>);
+        }
+    }
+
     render() {
         if (APIClient.isCurrentUserLoggedIn()) {
 
@@ -167,41 +233,11 @@ class History extends Component {
                     <div className="row mt-3">
                         <div className="col-3">
                             <h2>You've Searched For...</h2>
-                            <div className="mt-4">
-                                <ul style={{"list-style": "none"}}>
-                                    {this.state.queries.map((item, index) => (
-
-                                        <Link to={{
-                                            pathname: '/results',
-                                            search: History.getSearchQueryURL(item)
-                                        }} style={{color: 'rgba(72,136,163,.93)'}}>
-
-                                            <li className="mt-4 mb-4" key={index}>
-                                                {History.getSearchTitle(item)}
-                                            </li>
-
-                                        </Link>
-
-                                    ))}
-                                </ul>
-                            </div>
+                            {this.renderSearchHistory()}
                         </div>
                         <div className="col">
                             <h2>You've Found...</h2>
-                            <div className="mt-4">
-                                <ul style={{"list-style": "none"}}>
-                                    {this.state.podcasts.map((item, index) => (
-                                        <Link to={{
-                                            pathname: '/podcast',
-                                            search: History.getPodcastURL(item)
-                                        }} style={{color: 'rgba(72,136,163,.93)'}}>
-                                            <li className="mt-4 mb-4" key={index}>
-                                                <h3>{History.formatName(item.podcast)}</h3>
-                                            </li>
-                                        </Link>
-                                    ))}
-                                </ul>
-                            </div>
+                            {this.renderPodcastHistory()}
                         </div>
                     </div>
                 </div>
