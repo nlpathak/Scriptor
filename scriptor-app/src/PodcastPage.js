@@ -29,6 +29,9 @@ class PodcastPage extends Component {
 
         // Add truncated professor
         var professor = this.state.podcast.professor;
+        // Swaps first and last name
+        professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
+        professor.substring(0, professor.indexOf(','));
         if (professor.length > 12) {
             professor = professor.substring(0, 12) + '...';
         }

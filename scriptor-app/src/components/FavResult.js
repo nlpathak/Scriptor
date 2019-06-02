@@ -32,12 +32,12 @@ class FavResult extends Component {
 
         // Add truncated professor
         var professor = item.professor;
+        // Swaps first and last name
+        professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
+        professor.substring(0, professor.indexOf(','));
         if (professor.length > 25) {
             professor = professor.substring(0, 25) + '...';
         }
-        // Swaps first and last name
-        professor = professor.substring(professor.indexOf(',') + 1, professor.length) + " " +
-            professor.substring(0, professor.indexOf(','));
         fulltitle += ' | ' + professor;
 
         // Add lecturenum
