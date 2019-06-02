@@ -103,7 +103,6 @@ docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 docker-compose exec backend python3 scripts/clear_users.py
 ```
 
-
 ## Notes
 * All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.
 * At this time, only the following classes are available for searching due to expensive computations: 
