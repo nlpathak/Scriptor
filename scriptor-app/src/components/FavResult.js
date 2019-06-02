@@ -95,23 +95,27 @@ class FavResult extends Component {
                 <div className='header'>
                     <h1>FAVORITES</h1>
                 </div>
-                <div className='favList'>
+                <div className='favList mt-4'>
                     <ul>
                         {this.state.favorites.map((item, index) => (
                             <li className='favResult' key={index}>
                                 <div className='each'>
-                                    <div>
-                                        <Link to={{
-                                            pathname: '/podcast',
-                                            search: "?blob_id=" + item.favorite_blob.id
-                                        }} style={{color: 'rgba(72,136,163,.93)'}}>
-                                            {FavResult.formatTitle(item.favorite_podcast)}
-                                        </Link>
-                                        <img onClick={(e) => {
-                                            this.handleClick(e, index, item)
-                                        }}
-                                             src={this.state.isFav[index] ? starOn : starOff}
-                                             alt="" width="58" height="58"/>
+                                    <div className="row">
+                                        <div className="col-8">
+                                            <Link to={{
+                                                pathname: '/podcast',
+                                                search: "?blob_id=" + item.favorite_blob.id
+                                            }} style={{color: 'rgba(72,136,163,.93)'}}>
+                                                {FavResult.formatTitle(item.favorite_podcast)}
+                                            </Link>
+                                        </div>
+                                        <div className="col-4">
+                                            <img onClick={(e) => {
+                                                this.handleClick(e, index, item)
+                                            }}
+                                                 src={this.state.isFav[index] ? starOn : starOff}
+                                                 alt="" width="58" height="58"/>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
