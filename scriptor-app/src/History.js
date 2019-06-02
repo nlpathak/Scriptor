@@ -132,7 +132,6 @@ class History extends Component {
 
     componentDidMount() {
         APIClient.getHistory().then(response => {
-            console.log(response);
             response.forEach(element => {
                 if (element.type === 'SEARCH_QUERY') {
                     if (!this.doesSearchQueryExistInHistory(element)) {

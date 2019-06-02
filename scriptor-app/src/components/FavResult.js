@@ -78,7 +78,6 @@ class FavResult extends Component {
 
     componentDidMount() {
         APIClient.getFavoritePodcasts().then(response => {
-            console.log(response);
             let favorites = [];
             for (var i = 0; i < response.length; i++) {
                 if (!FavResult.isPodcastInList(favorites, response[i].favorite_podcast))

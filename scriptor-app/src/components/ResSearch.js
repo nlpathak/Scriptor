@@ -98,7 +98,6 @@ class ResSearch extends Component {
            this.setState({professors: []});
             for(var i = 0; i < itrarr.length; i++) {
                 const newname = this.formatName(itrarr[i]);
-                console.log(newname);
                 this.setState(prevState => ({professors: [...prevState.professors, newname]}));
             }
        });
