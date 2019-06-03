@@ -31,6 +31,7 @@ class ResSearch extends Component {
             this.setState({course: ""});
         }
     };
+
     handleEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
