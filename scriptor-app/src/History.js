@@ -3,7 +3,7 @@ import APIClient from './api/APIClient.js';
 import './History.css';
 import {toast} from 'react-toastify';
 import {Link} from "react-router-dom";
-
+import _ from 'lodash';
 
 class History extends Component {
     state = {
@@ -25,14 +25,6 @@ class History extends Component {
         prof = prof.substring(prof.indexOf(',') + 1, prof.length) + " " +
             prof.substring(0, prof.indexOf(','));
         return podcast.department + ' ' + podcast.course_num + " - " + podcast.title + " [" + podcast.section_id + " - " + qString + "] | " + prof + " | Lecture " + podcast.lecture_num
-    }
-
-    static areObjectsEqual(o1, o2) {
-        for (var k in o1) {
-            if (o2[k] !== o1[k])
-                return false;
-        }
-        return true;
     }
 
     static getSearchQueryURL(item) {
@@ -115,7 +107,7 @@ class History extends Component {
     doesSearchQueryExistInHistory(element) {
         for (var i = 0; i < this.state.queries.length; i++) {
             let query = this.state.queries[i];
-            if (query.search_query === element.search_query && query.type === element.type && History.areObjectsEqual(element.search_filters, query.search_filters)) {
+            if (query.search_query === element.search_query && query.type === element.type && _.isEqual(element.search_filters, query.search_filters)) {
                 return true;
             }
         }
