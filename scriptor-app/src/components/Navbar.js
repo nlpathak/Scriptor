@@ -11,12 +11,6 @@ class Navbar extends Component {
 
     constructor() {
         super();
-        APIClient.addCallback((msg) => {
-            if (msg.type === "auth") {
-                // trigger a re-render
-                this.setState({authAction: msg.action});
-            }
-        });
     }
 
     redirect(e, route) {

@@ -10,8 +10,8 @@ Scriptor allows students to search for keywords and instantly be presented with 
 | Account Type  | Email | Password| 
 | ------------- | ------------- | ------ |
 | Gmail | scriptorTestCase@gmail.com | XXXXXX|
-| Populated | scriptorTestCase@gmail.com | XXXXXX |
-| Fresh | testEmail@gmail.com | XXXXXX |
+| Scriptor (populated with data) | scriptorTestCase@gmail.com | XXXXXX |
+| Scriptor (fresh account) | testEmail@gmail.com | XXXXXX |
 
 (Un-redacted information is available on private submission copies of this README.)
  
@@ -55,6 +55,12 @@ docker-compose up -d frontend
 # You only have to run the below import script when installing this project for the first time, or after clearing the database data with: docker-compose down -v.
 
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
+```
+
+If you'd also like to import test users accounts (as shown in the table above), run the following command:
+```shell
+# Make sure that course podcasts have already been imported before running this command.
+docker-compose exec backend python3 scripts/load_test_users.py
 ```
 
 The app will be accessible at [http://localhost:3000](http://localhost:3000). The backend API will be accessible at [http://localhost:5000](http://localhost:5000).
@@ -101,6 +107,12 @@ docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ``` shell
 # Wait until localhost:5000 returns {success:true}
 docker-compose exec backend python3 scripts/clear_users.py
+```
+
+## Loading test user accounts
+```shell
+# Make sure that course podcasts have already been imported before running this command.
+docker-compose exec backend python3 scripts/load_test_users.py
 ```
 
 ## Notes

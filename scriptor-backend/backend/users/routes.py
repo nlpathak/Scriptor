@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify, g
 
-from backend.users.models import User
+from backend.users.models import User, HistoryItem
 from backend.users.validation import is_email_valid, is_password_valid
 from backend.utils import login_required
 
@@ -249,9 +249,26 @@ def user_get_history():
         ]
     }
     """
-    page = int(request.args.get("page", 1))
-    count = int(request.args.get("count", 10))
-    history_items = list(reversed(g.current_user.history))[(page - 1) * count: ((page - 1) * count) + count]
+    max_recent_queries_to_display = 10
+    max_recent_viewed_podcasts_to_display = 10
+
+    curr_num_query_history_items = 0
+    curr_num_podcast_history_items = 0
+
+    all_history_items = list(reversed(g.current_user.history))
+
+    history_items = []
+    for history_item in all_history_items:
+        if history_item.type == HistoryItem.TYPE_SEARCH_QUERY:
+            curr_num_query_history_items += 1
+            if curr_num_query_history_items <= max_recent_queries_to_display:
+                history_items.append(history_item)
+
+        elif history_item.type == HistoryItem.TYPE_PODCAST_PAGE:
+            curr_num_podcast_history_items += 1
+            if curr_num_podcast_history_items <= max_recent_viewed_podcasts_to_display:
+                history_items.append(history_item)
+
     history_items = [item.convert_to_dict() for item in history_items]
     return jsonify(success=True, history=history_items)
 
