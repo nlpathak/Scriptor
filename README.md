@@ -124,4 +124,5 @@ docker-compose exec backend python3 scripts/load_test_users.py
 ## Known Bugs
 * The `docker` commands sometimes return errors. This can be fixed by prepending every command with `sudo`.
 * The Forgot Password verification email is almost always sent to the user's spam folder.
+* Due to security limitations for the needed files for Forgot Password, this functionality is only available online (link provided above) and not locally.
 * After pressing "LOG OUT" the top right of the page flashes with the LOG IN popup.
