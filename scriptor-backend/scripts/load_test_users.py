@@ -9,11 +9,11 @@ from backend.search.models import PodcastTranscriptionBlob
 
 # Fresh test user
 test_user1_email = "testEmail@gmail.com"
-test_user1_pass = "testuser"
+test_user1_pass = "testEmail"
 
 # Populated test user
 test_user2_email = "scriptorTestCase@gmail.com"
-test_user2_pass = "testuser"
+test_user2_pass = "1234"
 
 # Delete any existing test users
 print ("Deleting any existing test users...")
