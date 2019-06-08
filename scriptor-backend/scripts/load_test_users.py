@@ -28,7 +28,17 @@ test_user1 = User.register_new_user(email=test_user1_email, password=test_user1_
 test_user2 = User.register_new_user(email=test_user2_email, password=test_user2_pass)
 
 random_transcription_blobs = [transcription_blob for transcription_blob in
-                              PodcastTranscriptionBlob.search().query("match_all")[:20]]
+                              PodcastTranscriptionBlob.search().query("match_all").extra(collapse={"field" : "podcast_id"})[:20]]
+
+# Add favorites for test user 2
+print ("Adding favorites for test user 2...")
+favorite_podcast_blobs = random_transcription_blobs[:3]
+test_favorite_podcasts = [
+    {"podcast_id" : transcription_blob.podcast_id, "blob_id" : transcription_blob.meta.id}
+    for transcription_blob in favorite_podcast_blobs
+]
+test_user2.favorite_podcast_ids = test_favorite_podcasts
+
 
 # Add history for test user 2
 print ("Adding history for test user 2...")
@@ -45,17 +55,11 @@ test_history_podcast_blob_views = [
     for transcription_blob in history_podcast_blobs
 ]
 
+for fav_podcast_id_obj in test_favorite_podcasts:
+    test_history_podcast_blob_views.append( HistoryItem(type=HistoryItem.TYPE_PODCAST_PAGE, podcast_page_transcription_blob_id = fav_podcast_id_obj['blob_id']) )
+
 test_user_history = test_history_search_queries + test_history_podcast_blob_views
 test_user2.history = test_user_history
-
-# Add favorites for test user 2
-print ("Adding favorites for test user 2...")
-favorite_podcast_blobs = random_transcription_blobs[:3]
-test_favorite_podcasts = [
-    {"podcast_id" : transcription_blob.podcast_id, "blob_id" : transcription_blob.meta.id}
-    for transcription_blob in favorite_podcast_blobs
-]
-test_user2.favorite_podcast_ids = test_favorite_podcasts
 
 # Save this test user 2
 print ("Saving test user 2...")

@@ -241,8 +241,9 @@ class User(Document):
         :param podcast_id:  The podcast id to remove from the user's favorites list
         :param blob_id:     The corresponding podcast's blob id to remove from the user's favorites list
         """
-        self.favorite_podcast_ids = [id_obj for id_obj in self.favorite_podcast_ids if
-                                     id_obj.podcast_id != podcast_id_to_remove and id_obj.blob_id != blob_id_to_remove]
+        self.favorite_podcast_ids = [id_obj for id_obj in self.favorite_podcast_ids if not (
+                id_obj['podcast_id'] == podcast_id_to_remove and
+                id_obj['blob_id'] == blob_id_to_remove)]
         self.save(refresh="wait_for")
 
     def add_favorite_podcast(self, podcast_id, blob_id):

@@ -11,7 +11,7 @@ class PodcastTranscriptionBlob(Document):
     This represents the groups of 3-5 sentences for each podcast's full transcription text,
     that we use to search through podcasts
     """
-    podcast_id = Text()
+    podcast_id = Keyword()
     transcription_blob = Text()
     starting_timestamp_second = Integer()  # The starting timestamp for this blob (in seconds since the start of the podcast's video)
     ending_timestamp_second = Integer()
