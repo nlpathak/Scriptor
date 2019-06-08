@@ -1,0 +1,647 @@
+Index: node_modules/querystringify/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- node_modules/querystringify/package.json	(date 1559978880000)
++++ node_modules/querystringify/package.json	(date 1559978880000)
+@@ -0,0 +1,67 @@
++{
++  "_from": "querystringify",
++  "_id": "querystringify@2.1.1",
++  "_inBundle": false,
++  "_integrity": "sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==",
++  "_location": "/querystringify",
++  "_phantomChildren": {},
++  "_requested": {
++    "type": "tag",
++    "registry": true,
++    "raw": "querystringify",
++    "name": "querystringify",
++    "escapedName": "querystringify",
++    "rawSpec": "",
++    "saveSpec": null,
++    "fetchSpec": "latest"
++  },
++  "_requiredBy": [
++    "#USER",
++    "/"
++  ],
++  "_resolved": "https://registry.npmjs.org/querystringify/-/querystringify-2.1.1.tgz",
++  "_shasum": "60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e",
++  "_spec": "querystringify",
++  "_where": "/Users/sabeel/Documents/GitHub/Scriptor",
++  "author": {
++    "name": "Arnout Kazemier"
++  },
++  "bugs": {
++    "url": "https://github.com/unshiftio/querystringify/issues"
++  },
++  "bundleDependencies": false,
++  "deprecated": false,
++  "description": "Querystringify - Small, simple but powerful query string parser.",
++  "devDependencies": {
++    "assume": "^2.1.0",
++    "istanbul": "^0.4.5",
++    "mocha": "^5.2.0",
++    "pre-commit": "^1.2.2"
++  },
++  "homepage": "https://github.com/unshiftio/querystringify",
++  "keywords": [
++    "query",
++    "string",
++    "query-string",
++    "querystring",
++    "qs",
++    "stringify",
++    "parse",
++    "decode",
++    "encode"
++  ],
++  "license": "MIT",
++  "main": "index.js",
++  "name": "querystringify",
++  "repository": {
++    "type": "git",
++    "url": "git+https://github.com/unshiftio/querystringify.git"
++  },
++  "scripts": {
++    "coverage": "istanbul cover _mocha -- test.js",
++    "test": "mocha test.js",
++    "test-travis": "istanbul cover _mocha --report lcovonly -- test.js",
++    "watch": "mocha --watch test.js"
++  },
++  "version": "2.1.1"
++}
+Index: node_modules/querystringify/LICENSE
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- node_modules/querystringify/LICENSE	(date 1559978880000)
++++ node_modules/querystringify/LICENSE	(date 1559978880000)
+@@ -0,0 +1,22 @@
++The MIT License (MIT)
++
++Copyright (c) 2015 Unshift.io, Arnout Kazemier,  the Contributors.
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
++
+Index: node_modules/querystringify/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- node_modules/querystringify/index.js	(date 1559978880000)
++++ node_modules/querystringify/index.js	(date 1559978880000)
+@@ -0,0 +1,118 @@
++'use strict';
++
++var has = Object.prototype.hasOwnProperty
++  , undef;
++
++/**
++ * Decode a URI encoded string.
++ *
++ * @param {String} input The URI encoded string.
++ * @returns {String|Null} The decoded string.
++ * @api private
++ */
++function decode(input) {
++  try {
++    return decodeURIComponent(input.replace(/\+/g, ' '));
++  } catch (e) {
++    return null;
++  }
++}
++
++/**
++ * Attempts to encode a given input.
++ *
++ * @param {String} input The string that needs to be encoded.
++ * @returns {String|Null} The encoded string.
++ * @api private
++ */
++function encode(input) {
++  try {
++    return encodeURIComponent(input);
++  } catch (e) {
++    return null;
++  }
++}
++
++/**
++ * Simple query string parser.
++ *
++ * @param {String} query The query string that needs to be parsed.
++ * @returns {Object}
++ * @api public
++ */
++function querystring(query) {
++  var parser = /([^=?&]+)=?([^&]*)/g
++    , result = {}
++    , part;
++
++  while (part = parser.exec(query)) {
++    var key = decode(part[1])
++      , value = decode(part[2]);
++
++    //
++    // Prevent overriding of existing properties. This ensures that build-in
++    // methods like `toString` or __proto__ are not overriden by malicious
++    // querystrings.
++    //
++    // In the case if failed decoding, we want to omit the key/value pairs
++    // from the result.
++    //
++    if (key === null || value === null || key in result) continue;
++    result[key] = value;
++  }
++
++  return result;
++}
++
++/**
++ * Transform a query string to an object.
++ *
++ * @param {Object} obj Object that should be transformed.
++ * @param {String} prefix Optional prefix.
++ * @returns {String}
++ * @api public
++ */
++function querystringify(obj, prefix) {
++  prefix = prefix || '';
++
++  var pairs = []
++    , value
++    , key;
++
++  //
++  // Optionally prefix with a '?' if needed
++  //
++  if ('string' !== typeof prefix) prefix = '?';
++
++  for (key in obj) {
++    if (has.call(obj, key)) {
++      value = obj[key];
++
++      //
++      // Edge cases where we actually want to encode the value to an empty
++      // string instead of the stringified value.
++      //
++      if (!value && (value === null || value === undef || isNaN(value))) {
++        value = '';
++      }
++
++      key = encodeURIComponent(key);
++      value = encodeURIComponent(value);
++
++      //
++      // If we failed to encode the strings, we should bail out as we don't
++      // want to add invalid strings to the query.
++      //
++      if (key === null || value === null) continue;
++      pairs.push(key +'='+ value);
++    }
++  }
++
++  return pairs.length ? prefix + pairs.join('&') : '';
++}
++
++//
++// Expose the module.
++//
++exports.stringify = querystringify;
++exports.parse = querystring;
+Index: node_modules/querystringify/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- node_modules/querystringify/README.md	(date 1559978880000)
++++ node_modules/querystringify/README.md	(date 1559978880000)
+@@ -0,0 +1,60 @@
++# querystringify
++
++[![Made by unshift](https://img.shields.io/badge/made%20by-unshift-00ffcc.svg?style=flat-square)](http://unshift.io)[![Version npm](http://img.shields.io/npm/v/querystringify.svg?style=flat-square)](http://browsenpm.org/package/querystringify)[![Build Status](http://img.shields.io/travis/unshiftio/querystringify/master.svg?style=flat-square)](https://travis-ci.org/unshiftio/querystringify)[![Dependencies](https://img.shields.io/david/unshiftio/querystringify.svg?style=flat-square)](https://david-dm.org/unshiftio/querystringify)[![Coverage Status](http://img.shields.io/coveralls/unshiftio/querystringify/master.svg?style=flat-square)](https://coveralls.io/r/unshiftio/querystringify?branch=master)[![IRC channel](http://img.shields.io/badge/IRC-irc.freenode.net%23unshift-00a8ff.svg?style=flat-square)](http://webchat.freenode.net/?channels=unshift)
++
++A somewhat JSON compatible interface for query string parsing. This query string
++parser is dumb, don't expect to much from it as it only wants to parse simple
++query strings. If you want to parse complex, multi level and deeply nested
++query strings then you should ask your self. WTF am I doing?
++
++## Installation
++
++This module is released in npm as `querystringify`. It's also compatible with
++`browserify` so it can be used on the server as well as on the client. To
++install it simply run the following command from your CLI:
++
++```
++npm install --save querystringify
++```
++
++## Usage
++
++In the following examples we assume that you've already required the library as:
++
++```js
++'use strict';
++
++var qs = require('querystringify');
++```
++
++### qs.parse()
++
++The parse method transforms a given query string in to an object. Parameters
++without values are set to empty strings. It does not care if your query string
++is prefixed with a `?` or not. It just extracts the parts between the `=` and
++`&`:
++
++```js
++qs.parse('?foo=bar');         // { foo: 'bar' }
++qs.parse('foo=bar');          // { foo: 'bar' }
++qs.parse('foo=bar&bar=foo');  // { foo: 'bar', bar: 'foo' }
++qs.parse('foo&bar=foo');      // { foo: '', bar: 'foo' }
++```
++
++### qs.stringify()
++
++This transforms a given object in to a query string. By default we return the
++query string without a `?` prefix. If you want to prefix it by default simply
++supply `true` as second argument. If it should be prefixed by something else
++simply supply a string with the prefix value as second argument:
++
++```js
++qs.stringify({ foo: bar });       // foo=bar
++qs.stringify({ foo: bar }, true); // ?foo=bar
++qs.stringify({ foo: bar }, '&');  // &foo=bar
++qs.stringify({ foo: '' }, '&');   // &foo=
++```
++
++## License
++
++MIT
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><img src=\"https://i.imgur.com/DVGP07n.png\" alt=\"Scriptor\" width=300px>\n\n## Introduction\nScriptor is a solution for streamlining studying and reviewing at the University of California, San Diego. No longer do students have to manually search for specific information in the vast collection of knowledge that is the UC San Diego Podcast System. \n\nScriptor allows students to search for keywords and instantly be presented with the exact material they want. Scriptor returns precise timestamps in podcasts that match the information users seek, efficiently parsing through UCSD's vast database so students don't have to. Scriptor wraps this functionality with a personalized interface, allowing users to favorite, save their history, and more. Happy podcasting!\n\n## Login Credentials\n\n| Account Type  | Email | Password| \n| ------------- | ------------- | ------ |\n| Gmail | scriptorTestCase@gmail.com | XXXXXX|\n| Scriptor (populated with data) | scriptorTestCase@gmail.com | XXXXXX |\n| Scriptor (fresh account) | testEmail@gmail.com | XXXXXX |\n\n(Un-redacted information is available on private submission copies of this README.)\n \n## Requirements\n- [ ] **Operating System:** Desktop/Laptop | Mac/Linux\n- [ ] **Browser:** Google Chrome, latest release\n- [ ] **Software:** Docker, Node, NPM, Git\n\n## Technical Support\nHave any issues with the installation below? Contact us at: \n\n| Name  | Email | Phone | \n| ------------- | ------------- | ------ |\n| Subhash Ramesh | XXX@ucsd.edu | (XXX) XXX-XXXX |\n| Sabeel Mansuri | XXX@ucsd.edu | (XXX) XXX-XXXX |\n\n(Un-redacted information is available on private submission copies of this README.)\n\n## Installation Instructions\nScriptor is available online! Visit: `XXX`  \n(Un-redacted information is available on private submission copies of this README.)\n\nIf you want to install and build Scriptor locally, enter the following commands:\n```shell\ngit clone https://github.com/nlpathak/Scriptor\ncd Scriptor\ndocker-compose build --no-cache\n```\n\n## How to Run\n#### Starting\nScriptor is available online! Visit: `XXX`  \n(Un-redacted information is available on private submission copies of this README.)\n\nIf you want to run Scriptor locally, enter the following commands:\n```shell\ndocker-compose up -d frontend\n\n# Wait 20-30 seconds for the backend database to initialize before running the next command in a new terminal.\n# You can run the below line once http://localhost:5000 returns \"{success:true}\"\n# You only have to run the below import script when installing this project for the first time, or after clearing the database data with: docker-compose down -v.\n\ndocker-compose exec backend python3 scripts/import_data_into_elasticsearch.py\n```\n\nIf you'd also like to import test users accounts (as shown in the table above), run the following command:\n```shell\n# Make sure that course podcasts have already been imported before running this command.\ndocker-compose exec backend python3 scripts/load_test_users.py\n```\n\nThe app will be accessible at [http://localhost:3000](http://localhost:3000). The backend API will be accessible at [http://localhost:5000](http://localhost:5000).\n\n#### Stopping\nTo stop running the application (but retain the database), enter the following:\n```shell\ndocker-compose down\n```\n\nIf you get an error about possible orphan containers, run:\n``` shell\ndocker-compose down --remove-orphans\n```\n\n## In Case of Failure\nEnd the application and clear all data with:\n```shell\ndocker-compose down -v\n```\n\nThen, restart the application with:\n```shell\ndocker-compose up -d frontend\n\n# And since all data has been cleared, re-run the data import script (after waiting for about 20-30 secs)\n# Wait until localhost:5000 returns {success:true}\n\ndocker-compose exec backend python3 scripts/import_data_into_elasticsearch.py\n```\n\n## To start fresh\nOptionally, pull the latest code from Github.\n``` shell\ndocker-compose down -v --remove-orphans\ndocker-compose build --no-cache\ndocker-compose up -d frontend\n\n# Wait until localhost:5000 returns {success:true}\ndocker-compose exec backend python3 scripts/import_data_into_elasticsearch.py\n```\n\n## Deleting all stored users\n``` shell\n# Wait until localhost:5000 returns {success:true}\ndocker-compose exec backend python3 scripts/clear_users.py\n```\n\n## Loading test user accounts\n```shell\n# Make sure that course podcasts have already been imported before running this command.\ndocker-compose exec backend python3 scripts/load_test_users.py\n```\n\n## Notes\n* All commands in the Installation, How to Run, and In Case of Failure sections should be run in the top-level, `Scriptor/` directory.\n* At this time, only the following classes are available for searching due to expensive computations: \n  * `CHEM 4 [FA18]` `CSE 190 [FA18]` `CSE 101 [WI19]` `CSE 20 [FA18]` `CSE 20 [SP19]` `CSE 141 [FA18]` `COGS 9 [WI19]` `MATH 18 [WI18]` `CSE 21 [SP19]` `BIBC 120 [SP19]` `MATH 183 [FA19]` `MATH 183 [SP19]`\n* Results for the same query will be ordered differently from search-to-search because the search implementation is not programmed to break ties for equivalent relevance scores consistently.\n\n## Known Bugs\n* The `docker` commands sometimes return errors. This can be fixed by prepending every command with `sudo`.\n* The Forgot Password verification email is almost always sent to the user's spam folder.\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(date 1559978871000)
++++ README.md	(date 1559978880000)
+@@ -124,3 +124,4 @@
+ ## Known Bugs
+ * The `docker` commands sometimes return errors. This can be fixed by prepending every command with `sudo`.
+ * The Forgot Password verification email is almost always sent to the user's spam folder.
++* After pressing "LOG OUT" the top right of the page flashes with the LOG IN popup.
+Index: scriptor-app/package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n  \"name\": \"scriptor-app\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"proxy\": \"http://backend:5000\",\n  \"dependencies\": {\n    \"@material-ui/core\": \"^3.9.3\",\n    \"bootstrap\": \"^4.3.1\",\n    \"lodash\": \"^4.17.11\",\n    \"query-string\": \"^6.5.0\",\n    \"react\": \"^16.8.6\",\n    \"react-dom\": \"^16.8.6\",\n    \"react-list\": \"^0.8.11\",\n    \"react-router-dom\": \"^5.0.0\",\n    \"react-scripts\": \"3.0.1\",\n    \"react-tabs\": \"^3.0.0\",\n    \"react-toastify\": \"^5.1.0\",\n    \"reactjs-popup\": \"^1.4.0\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"eslintConfig\": {\n    \"extends\": \"react-app\"\n  },\n  \"browserslist\": {\n    \"production\": [\n      \">0.2%\",\n      \"not dead\",\n      \"not op_mini all\"\n    ],\n    \"development\": [\n      \"last 1 chrome version\",\n      \"last 1 firefox version\",\n      \"last 1 safari version\"\n    ]\n  }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- scriptor-app/package.json	(date 1559978871000)
++++ scriptor-app/package.json	(date 1559978880000)
+@@ -8,6 +8,7 @@
+     "bootstrap": "^4.3.1",
+     "lodash": "^4.17.11",
+     "query-string": "^6.5.0",
++    "querystringify": "^2.1.1",
+     "react": "^16.8.6",
+     "react-dom": "^16.8.6",
+     "react-list": "^0.8.11",
+Index: scriptor-app/package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- scriptor-app/package-lock.json	(date 1559978871000)
++++ scriptor-app/package-lock.json	(date 1559978880000)
+@@ -2840,8 +2840,7 @@
+             },
+             "ansi-regex": {
+               "version": "2.1.1",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "aproba": {
+               "version": "1.2.0",
+@@ -2859,13 +2858,11 @@
+             },
+             "balanced-match": {
+               "version": "1.0.0",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "brace-expansion": {
+               "version": "1.1.11",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "balanced-match": "^1.0.0",
+                 "concat-map": "0.0.1"
+@@ -2878,18 +2875,15 @@
+             },
+             "code-point-at": {
+               "version": "1.1.0",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "concat-map": {
+               "version": "0.0.1",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "console-control-strings": {
+               "version": "1.1.0",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "core-util-is": {
+               "version": "1.0.2",
+@@ -2992,8 +2986,7 @@
+             },
+             "inherits": {
+               "version": "2.0.3",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "ini": {
+               "version": "1.3.5",
+@@ -3003,7 +2996,6 @@
+             "is-fullwidth-code-point": {
+               "version": "1.0.0",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "number-is-nan": "^1.0.0"
+               }
+@@ -3016,20 +3008,17 @@
+             "minimatch": {
+               "version": "3.0.4",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "brace-expansion": "^1.1.7"
+               }
+             },
+             "minimist": {
+               "version": "0.0.8",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "minipass": {
+               "version": "2.3.5",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "safe-buffer": "^5.1.2",
+                 "yallist": "^3.0.0"
+@@ -3046,7 +3035,6 @@
+             "mkdirp": {
+               "version": "0.5.1",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "minimist": "0.0.8"
+               }
+@@ -3119,8 +3107,7 @@
+             },
+             "number-is-nan": {
+               "version": "1.0.1",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "object-assign": {
+               "version": "4.1.1",
+@@ -3130,7 +3117,6 @@
+             "once": {
+               "version": "1.4.0",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "wrappy": "1"
+               }
+@@ -3206,8 +3192,7 @@
+             },
+             "safe-buffer": {
+               "version": "5.1.2",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "safer-buffer": {
+               "version": "2.1.2",
+@@ -3237,7 +3222,6 @@
+             "string-width": {
+               "version": "1.0.2",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "code-point-at": "^1.0.0",
+                 "is-fullwidth-code-point": "^1.0.0",
+@@ -3255,7 +3239,6 @@
+             "strip-ansi": {
+               "version": "3.0.1",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "ansi-regex": "^2.0.0"
+               }
+@@ -3294,13 +3277,11 @@
+             },
+             "wrappy": {
+               "version": "1.0.2",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "yallist": {
+               "version": "3.0.3",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             }
+           }
+         },
+@@ -6845,8 +6826,7 @@
+             },
+             "ansi-regex": {
+               "version": "2.1.1",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "aproba": {
+               "version": "1.2.0",
+@@ -6864,13 +6844,11 @@
+             },
+             "balanced-match": {
+               "version": "1.0.0",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "brace-expansion": {
+               "version": "1.1.11",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "balanced-match": "^1.0.0",
+                 "concat-map": "0.0.1"
+@@ -6883,18 +6861,15 @@
+             },
+             "code-point-at": {
+               "version": "1.1.0",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "concat-map": {
+               "version": "0.0.1",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "console-control-strings": {
+               "version": "1.1.0",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "core-util-is": {
+               "version": "1.0.2",
+@@ -6997,8 +6972,7 @@
+             },
+             "inherits": {
+               "version": "2.0.3",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "ini": {
+               "version": "1.3.5",
+@@ -7008,7 +6982,6 @@
+             "is-fullwidth-code-point": {
+               "version": "1.0.0",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "number-is-nan": "^1.0.0"
+               }
+@@ -7021,20 +6994,17 @@
+             "minimatch": {
+               "version": "3.0.4",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "brace-expansion": "^1.1.7"
+               }
+             },
+             "minimist": {
+               "version": "0.0.8",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "minipass": {
+               "version": "2.3.5",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "safe-buffer": "^5.1.2",
+                 "yallist": "^3.0.0"
+@@ -7051,7 +7021,6 @@
+             "mkdirp": {
+               "version": "0.5.1",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "minimist": "0.0.8"
+               }
+@@ -7124,8 +7093,7 @@
+             },
+             "number-is-nan": {
+               "version": "1.0.1",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "object-assign": {
+               "version": "4.1.1",
+@@ -7135,7 +7103,6 @@
+             "once": {
+               "version": "1.4.0",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "wrappy": "1"
+               }
+@@ -7211,8 +7178,7 @@
+             },
+             "safe-buffer": {
+               "version": "5.1.2",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "safer-buffer": {
+               "version": "2.1.2",
+@@ -7242,7 +7208,6 @@
+             "string-width": {
+               "version": "1.0.2",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "code-point-at": "^1.0.0",
+                 "is-fullwidth-code-point": "^1.0.0",
+@@ -7260,7 +7225,6 @@
+             "strip-ansi": {
+               "version": "3.0.1",
+               "bundled": true,
+-              "optional": true,
+               "requires": {
+                 "ansi-regex": "^2.0.0"
+               }
+@@ -7299,13 +7263,11 @@
+             },
+             "wrappy": {
+               "version": "1.0.2",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             },
+             "yallist": {
+               "version": "3.0.3",
+-              "bundled": true,
+-              "optional": true
++              "bundled": true
+             }
+           }
+         }
