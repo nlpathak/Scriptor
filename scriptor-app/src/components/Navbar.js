@@ -8,11 +8,6 @@ import {toast} from 'react-toastify';
 
 
 class Navbar extends Component {
-
-    constructor() {
-        super();
-    }
-
     redirect(e, route) {
         e.preventDefault();
         window.location.assign(route);
