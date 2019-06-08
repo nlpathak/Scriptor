@@ -31,7 +31,7 @@ Have any issues with the installation below? Contact us at:
 (Un-redacted information is available on private submission copies of this README.)
 
 ## Installation Instructions
-Scriptor is available online! Visit: `XXX`  
+Scriptor is available online! Visit: `XXX` (Requires UCSD IP address)  
 (Un-redacted information is available on private submission copies of this README.)
 
 If you want to install and build Scriptor locally, enter the following commands:
@@ -43,7 +43,7 @@ docker-compose build --no-cache
 
 ## How to Run
 #### Starting
-Scriptor is available online! Visit: `XXX`  
+Scriptor is available online! Visit: `XXX` (Requires UCSD IP address)  
 (Un-redacted information is available on private submission copies of this README.)
 
 If you want to run Scriptor locally, enter the following commands:
