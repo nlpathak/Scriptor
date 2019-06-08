@@ -92,7 +92,7 @@ docker-compose up -d frontend
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ```
 
-## To start fresh
+## To Start Fresh
 Optionally, pull the latest code from Github.
 ``` shell
 docker-compose down -v --remove-orphans
@@ -103,13 +103,13 @@ docker-compose up -d frontend
 docker-compose exec backend python3 scripts/import_data_into_elasticsearch.py
 ```
 
-## Deleting all stored users
+## Deleting All Stored Users
 ``` shell
 # Wait until localhost:5000 returns {success:true}
 docker-compose exec backend python3 scripts/clear_users.py
 ```
 
-## Loading test user accounts
+## Loading Test User Accounts
 ```shell
 # Make sure that course podcasts have already been imported before running this command.
 docker-compose exec backend python3 scripts/load_test_users.py
