@@ -13,7 +13,7 @@ Scriptor allows students to search for keywords and instantly be presented with 
 | Scriptor (populated with data) | scriptorTestCase@gmail.com | XXXXXX |
 | Scriptor (fresh account) | testEmail@gmail.com | XXXXXX |
 
-(Un-redacted information is available on private submission copies of this README.)
+(Un-redacted information is available on the Google Form submission.)
  
 ## Requirements
 - [ ] **Operating System:** Desktop/Laptop | Mac/Linux
@@ -28,11 +28,11 @@ Have any issues with the installation below? Contact us at:
 | Subhash Ramesh | XXX@ucsd.edu | (XXX) XXX-XXXX |
 | Sabeel Mansuri | XXX@ucsd.edu | (XXX) XXX-XXXX |
 
-(Un-redacted information is available on private submission copies of this README.)
+(Un-redacted information is available on the Google Form submission.)
 
 ## Installation Instructions
 Scriptor is available online! Visit: `XXX` (Requires UCSD IP address)  
-(Un-redacted information is available on private submission copies of this README.)
+(Un-redacted information is available on the Google Form submission.)
 
 If you want to install and build Scriptor locally, enter the following commands:
 ```shell
@@ -44,7 +44,7 @@ docker-compose build --no-cache
 ## How to Run
 #### Starting
 Scriptor is available online! Visit: `XXX` (Requires UCSD IP address)  
-(Un-redacted information is available on private submission copies of this README.)
+(Un-redacted information is available on the Google Form submission.)
 
 If you want to run Scriptor locally, enter the following commands:
 ```shell
